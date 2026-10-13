@@ -9,7 +9,7 @@
 
 유튜브에서 [노박님의 게임 소개 영상](https://www.youtube.com/watch?v=nCVV3Ql-_rU)을 보고 *Kingdoms of Amalur: Re-Reckoning*에 관심을 갖게 됐습니다. 게임을 무척 신나게 소개해 주셔서 직접 해보고 싶어졌습니다. 처음에는 [zxcv3428님의 한글화 패치](https://zxcv3428.tistory.com/215)를 받아 플레이했습니다. 그 패치 덕분에 게임을 즐길 수 있어 감사하지만, 제가 받은 배포본이 1GB가 넘는 완성형 PAK이었고 영어 로케일(`en_us`)을 한글 텍스트로 교체해 영어를 선택하면 한글이 표시되는 점은 아쉬웠습니다. 그래서 필요한 리소스만 배포하고 각자 보유한 게임 파일로 패키지를 재구성하는 방식을 직접 만들어보기로 했습니다.
 
-작업 중 [커뮤니티 개선판](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527)이 나온 것도 확인했습니다. 기존 한글화의 번역을 개선한 작업을 반갑게 생각합니다. 다만 제가 아쉽게 느꼈던 배포 방식과 언어 슬롯 문제가 개선판에서는 해결되지 않은 것으로 보여, 독립적인 번역 작업을 계속하기로 했습니다. 개선판으로 게임을 즐기는 데 큰 문제는 없을 것으로 생각합니다.
+작업 중 [커뮤니티 개선판](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527)이 나온 것도 확인했습니다. 기존 한글화의 번역을 개선한 작업을 반갑게 생각합니다. 또한 꾸준히 업데이트해 주시고 번역 품질도 점점 나아지고 있어, 개선판으로 게임을 즐기시는 게 더 나을 수도 있습니다. 다만 제가 아쉽게 느꼈던 배포 방식과 언어 슬롯 문제는 개선판에서도 해결되지 않은 것으로 보여 독립적인 번역 작업을 계속하기로 했습니다.
 
 이 프로젝트는 세 번째 한글화 작업입니다. 완성된 한글 패치를 제공하는 것뿐 아니라, 누구나 번역을 이어갈 수 있는 작업 환경과 추출·번역·재패킹 방법을 남기는 것을 목표로 합니다. 그래야 이후 게임 업데이트나 DLC가 나와도 다른 분들이 작업을 이어가며 번역 품질을 유지할 수 있기 때문입니다. 이 작업의 출발점이 된 [Amalur PT-BR 번역과 추출·재패킹 스크립트](https://www.nexusmods.com/kingdomsofamalurrereckoning/mods/67)를 제공해 주신 분께 감사드립니다.
 
@@ -152,7 +152,7 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 
 I became interested in *Kingdoms of Amalur: Re-Reckoning* after watching [Novak's enthusiastic YouTube introduction to the game](https://www.youtube.com/watch?v=nCVV3Ql-_rU). I first played it using the [Korean patch by zxcv3428](https://zxcv3428.tistory.com/215), and I am grateful that it made the game accessible to me. I did, however, find two things disappointing: the copy I downloaded was a complete PAK archive over 1 GB, and it replaced the English (`en_us`) text, so selecting English displayed Korean. I therefore decided to make a patch that distributes only the needed resources and rebuilds the package using files already in each player's game installation.
 
-During my work, I also saw a [community improvement patch](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527). I welcome the effort to improve the earlier Korean localization. However, it did not appear to address the distribution and locale-selection issues that mattered to me, so I decided to continue this independent project. I expect the community patch to remain a perfectly viable way to enjoy the game.
+During my work, I also saw a [community improvement patch](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527). I welcome the effort to improve the earlier Korean localization. The patch has also continued to receive updates, and its translation quality keeps improving, so it may be an even better way to enjoy the game. However, it did not appear to address the distribution and locale-slot issues that mattered to me, so I decided to continue this independent project.
 
 This is my third Korean localization project. My goal is not only to provide a finished patch, but also to leave a workspace and document the extraction, translation, and repacking process so that anyone can continue the work and help maintain its quality after future updates or DLC. I am grateful to the author of the [Amalur PT-BR translation and its extraction/repacking scripts](https://www.nexusmods.com/kingdomsofamalurrereckoning/mods/67), which made this project possible.
 

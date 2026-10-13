@@ -62,6 +62,22 @@ Updated: 2026-10-14
   Current asset SHA-256:
   `e1bf6a52c02bd4435b024f8beca94a532fe9ab41fdf72f49428674566054397a`.
 
+- **ko_kr experiment ZIP (2026-10-14):** `tools/build.sh --ko-kr-experiment`
+  generated
+  `dist/20261014035657/KingdomsOfAmalur_Korean_ko_kr_EXPERIMENT_20261014035657.zip`
+  (SHA-256 `b6b51913e51ebd32101550ad98f4e6368daa5b39371111e13dd1ca17f0571e4b`).
+  It adds three `ko_kr` localization resources and `fontlist_ko_kr` without
+  replacing the original `zh_cn` resources; the Noto assets and translation
+  binary bytes match the existing release. ZIP contents, manifest, and
+  affix/base/default round trips passed. User tested it in-game: the language
+  menu displayed the added option as `Invalid LOC Key`, and selecting it
+  crashed the game. Treat this experiment as failed; restore the backed-up
+  PAK and use the official `zh_cn` Release. Although
+  `references/data/unpacked/assetinfos.bin` lists the original eight locale
+  resource sets but no `ko_kr`, the menu still showed a `ko_kr` option, so its
+  absence alone does not explain the result. The missing display key and
+  crash cause remain unidentified. The official Release is unchanged.
+
 - **Font-format investigation resumed:** `src/font/` contains one `.font`
   metadata file and 28 `.ntx` pages, all with `FORK` magic. Page sizes match
   a possible 104-byte header followed by 512x512 data (last page 256x512),

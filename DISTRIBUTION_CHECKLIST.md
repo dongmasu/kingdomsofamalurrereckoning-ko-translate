@@ -102,13 +102,24 @@ matched against a depot manifest; the in-game test was a brief smoke test.
 
 ## TODO: ko_kr Locale Experiment
 
-- [ ] Experimentally add `ko_kr` localization resources alongside the game's
-  eight existing locales and check whether the game discovers, loads, or
-  displays them even when `ko_kr` is not selectable in Steam. Treat this as a
-  separate compatibility experiment, not a change to the current `zh_cn`
-  release. Preserve the original PAK, test the expected `affix`, `base`, and
-  `default` filenames, and record whether the locale is detected and what
-  fallback behavior occurs.
+- [x] Build a separate `ko_kr` experiment ZIP with three renamed localization
+  binaries, the original `fontlist_zh_cn.koafontlist` copied under the name
+  `fontlist_ko_kr.koafontlist`, and the existing 29 Korean-capable Noto files.
+  Run `tools/build.sh --ko-kr-experiment`. The original `zh_cn` resources
+  remain untouched in the target PAK; the installer checks the four new files
+  and verifies that the original `zh_cn` resources survive repacking.
+  Built `dist/20261014035657/KingdomsOfAmalur_Korean_ko_kr_EXPERIMENT_20261014035657.zip`
+  (SHA-256 `b6b51913e51ebd32101550ad98f4e6368daa5b39371111e13dd1ca17f0571e4b`).
+- [x] In-game test reported 2026-10-14: the language menu shows the added
+  `ko_kr` option as `Invalid LOC Key`; selecting it crashes the game. Treat
+  the experiment as failed and do not distribute or recommend this ZIP as a
+  usable patch. Restore the backed-up PAK and continue using the official
+  `zh_cn` release.
+- `assetinfos.bin` contains the eight existing locale resource filenames and
+  no `ko_kr` entry, but the menu still displayed a `ko_kr` option. Therefore
+  its absence is not by itself an explanation for the menu entry, and its
+  role as an asset catalog remains unconfirmed. The missing display key and
+  crash cause have not been identified.
 
 ## Build Record and Optional Validation
 

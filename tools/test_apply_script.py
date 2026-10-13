@@ -57,6 +57,15 @@ class ApplyScriptPromptOrderTests(unittest.TestCase):
         self.assertIn("must not be overridden", SCRIPT)
         self.assertNotIn('"fontlist_common.koafontlist",\n', SCRIPT)
 
+    def test_ko_kr_experiment_adds_only_new_locale_files_and_preserves_zh_cn(self):
+        self.assertIn('fontlist_ko_kr.koafontlist', SCRIPT)
+        self.assertIn('$PayloadFiles.Count -ne 33', SCRIPT)
+        self.assertIn('$AddedNames = @()', SCRIPT)
+        self.assertIn('$AddedNames = @($RequiredNames)', SCRIPT)
+        self.assertIn('$ExpectedFileCount = $OriginalFileCount + $AddedNames.Count', SCRIPT)
+        self.assertIn('The ko_kr experiment unexpectedly changed $Name.', SCRIPT)
+        self.assertIn('The ko_kr experiment is already installed:', SCRIPT)
+
     def test_completion_wait_runs_after_success_or_failure(self):
         self.assertIn('$Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")', SCRIPT)
         self.assertIn(
