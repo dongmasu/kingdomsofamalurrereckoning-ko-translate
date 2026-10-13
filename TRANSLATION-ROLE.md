@@ -17,9 +17,10 @@ own work as the independent reviewer or verifier.
 - Translation language: Korean.
 - Active working CSV directory: `work/zh_cn/`. The files preserve the
   `zh_cn` target resource keys, variants, and order while containing Korean.
-- The user selected `zh_cn` as the non-English work/destination candidate to
-  keep English available. This is not yet validated in a rebuilt PAK or
-  in-game.
+- The user selected `zh_cn` as the non-English work/destination to keep
+  English available. Korean localization binaries from this structure are
+  published in the user-approved GitHub Release; the recorded in-game check
+  is a smoke test, not comprehensive validation.
 - Immutable references: `src/`; never edit files under this directory.
 - Korean terminology authority: `references/manual/Kingdom of Amulur 공식 한글 설명.pdf`.
   Reuse its established Korean names and terms consistently.
@@ -32,12 +33,16 @@ own work as the independent reviewer or verifier.
   may help with setting, character, faction, and event context. It is
   community-maintained and is not an authoritative translation source; verify
   claims against English, in-game evidence, and the official Korean manual.
-- Korean text was migrated from the Japanese-derived draft in
-  `work/ja_jp/`; that folder is preserved as a migration archive. Use Japanese
-  for voice/register evidence, but edit only `work/zh_cn/`.
-- Repack compatibility is a separate build-stage check. The work CSV keys,
-  variants, order, and multiplicity now match `zh_cn`; runtime locale and font
-  behavior still require validation before repacking or release.
+- Korean text was migrated by ID from the Japanese-derived draft in
+  `work/ja_jp/`; that folder was deleted at the user's direction on
+  2026-10-14. Use the immutable Japanese source CSVs for voice/register
+  evidence, but edit only `work/zh_cn/`.
+- The sequential `default` review is complete through ID 65134. All 140
+  zh_cn-specific `affix` variants have recorded dispositions. The release
+  ZIP passed build-time structure, round-trip, and archive checks; the user's
+  reported in-game smoke test confirmed Korean rendering without the
+  characterset or common font list. Broader compatibility remains a separate
+  follow-up, not a pending prerequisite for the already approved release.
 
 If the English meaning is ambiguous or the language references conflict, record
 the exact row and evidence in `work/zh_cn/audit/`. Do not
@@ -65,16 +70,15 @@ interchangeable between resource types.
 ### Current Structural Gate
 
 `work/zh_cn/` uses the target locale's exact CSV structure. Its Korean text
-was seeded from the Japanese-derived draft in `work/ja_jp/`, retained as an
-archive. The migration preserved the `zh_cn` keys and order:
+was migrated by ID from the Japanese-derived draft in `work/ja_jp/`, which
+was deleted at the user's direction. The migration preserved the `zh_cn`
+keys and order:
 
 - `zh_cn`: `base` has 4,844 rows and `default` has 65,135 IDs. All 3,451
   `affix` keys, variants, and their order match the `zh_cn` target.
-- The original Japanese-derived draft has 3,311 `affix` rows. The additional
-  140 `zh_cn` variants received provisional Korean sibling fallbacks and are
-  listed with cross-locale evidence in
-  `work/zh_cn/audit/affix-extra-variant-review.tsv`. Review them before
-  treating those strings as final.
+- The original Japanese-derived draft had 3,311 `affix` rows. The additional
+  140 `zh_cn` variants were reviewed and dispositioned with cross-locale
+  evidence in `work/zh_cn/audit/affix-extra-variant-review.tsv`.
 - `en_us` has 586 `FF` rows and does not match the `zh_cn` work structure.
   Do not repack the `zh_cn` CSVs under `en_us` filenames.
 - `ru_ru`: `default` has 65,135 matching IDs, `base` has 2,241 differing
@@ -91,8 +95,9 @@ Preserve the `zh_cn` target's IDs and variant codes. Use English for meaning,
 Japanese for voice/register, Chinese as a supporting check, and the official
 Korean manual for established terms. If a target variant has no exact
 Japanese counterpart, consult other locales and game context, and record
-uncertainty rather than silently dropping or inventing a row. Do not repack
-until linguistic review and runtime/build gates pass.
+uncertainty rather than silently dropping or inventing a row. For future
+release changes, repeat structural and round-trip checks; do not treat the
+brief in-game smoke test as comprehensive compatibility validation.
 
 ## Roles
 

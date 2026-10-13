@@ -1,12 +1,18 @@
 # Distribution Readiness Checklist
 
-Status as of 2026-10-14: the sequential default review is complete through
-ID 65134, and `bash tools/build.sh` produced a fresh unreviewed test ZIP after
-all three localization binaries passed CSV round-trip checks. The user
-confirmed in-game Korean rendering in the `zh_cn` setup without
-`locatexts_en_us.characterset` or `fontlist_common.koafontlist`. The full
-Windows installer and broader locale/font/PAK validation remain incomplete;
-this is not a release-ready translation.
+Status as of 2026-10-14: the user approved promotion of the existing package
+to the official GitHub Release, and GitHub confirms it is not marked as a
+prerelease. The ZIP asset is linked in `README.md`. The sequential default
+review is complete through ID 65134; all 140 zh_cn-specific affix variants
+also have recorded dispositions. The user confirmed Korean rendering in the
+zh_cn setup without `locatexts_en_us.characterset` or
+`fontlist_common.koafontlist`.
+
+This is the published release, not a pending candidate. The Windows installer
+has not been independently exercised on Windows, and broad UI, long-play,
+other-locale, and cross-version checks were not part of the recorded smoke
+test. These are documented limitations, not a reason to relabel the
+user-approved release as a prerelease.
 
 The active Korean working CSV folder is `work/zh_cn/`, and the user selected
 the existing `zh_cn` slot to avoid overwriting the English resources used by
@@ -14,15 +20,15 @@ the earlier Korean patches. This preserves the English text for troubleshooting
 and comparison. Its CSV structure matches the original `zh_cn` resources.
 The original `fontlist_zh_cn.koafontlist` references Noto, so the current
 package keeps the Noto resources but does not override the common font list.
-The test confirms the user's tested setup; broader font coverage, Windows
-installer behavior, and in-game functionality remain unverified.
+The smoke test confirms only the user's tested setup; broader font coverage,
+Windows installer behavior, and in-game functionality remain unverified.
 
-## Candidate Package
+## Released Package
 
 The byte comparison in `references/data/PAK_DIFF.md` found 34 changes in the
 blog-downloaded Korean PAK compared with the inspected original: three
 localization binaries, 30 font resources, and one characterset file. The
-current test ZIP omits the characterset and the common font list and contains:
+official ZIP omits the characterset and common font list and contains:
 
 - Three Korean `zh_cn` localization binaries:
   `locatexts_zh_cn.koalocatext_affix`,
@@ -33,7 +39,7 @@ current test ZIP omits the characterset and the common font list and contains:
 - `RunKoreanPatch.bat`, `KoreanPatch.ps1`, bilingual `README.txt`, and
   `SHA256SUMS.txt`.
 
-The latest local ZIP is
+The released ZIP is
 `dist/20261014031124/KingdomsOfAmalur_Korean_zh_cn_20261014031124.zip`. It
 contains 32 payload files (three localization binaries and 29 Noto font
 resources), with no common font list or characterset. Generated `dist/`
@@ -46,13 +52,14 @@ after the game folder is confirmed. It rebuilds the user's full PAK, verifies
 the candidate, backs up the original, and then installs it. After installation,
 the game language should be Chinese (Simplified).
 
-The refreshed ZIP passed build-time localization round-trip and archive
-integrity checks. Its included PowerShell script is byte-identical to the
-ASCII-only source script. The user should launch it by double-clicking
+The ZIP passed build-time localization round-trip and archive integrity
+checks. Its included PowerShell script is byte-identical to the ASCII-only
+source script. Users should launch it by double-clicking
 `RunKoreanPatch.bat`; directly double-clicking `.ps1` may open it in an editor.
-The refreshed Noto-font ZIP has not yet been installed through the Windows
-script or retested in-game. Publish it as an explicitly labeled prerelease,
-not as an approved final translation.
+The user approved this package as the official release. The full-font ZIP was
+not separately retested in-game after packaging; the recorded user test
+confirmed Korean output in the zh_cn setup without the characterset or common
+font list. Do not describe that brief test as comprehensive coverage.
 
 This is a delta for the inspected game version, not a standalone PAK. Each
 user needs their own complete original `data/patch_0.pak` to build a complete
@@ -63,34 +70,47 @@ confirmed that the game's main menu displays `Version: cs:15032`; this is the
 source game-version baseline for the comparison. Steam AppID `1041720`,
 BuildID `10619381` in that installation's `appmanifest_1041720.acf` is
 secondary provenance information. The archive has not been independently
-matched against a depot manifest; the Korean test package has only the brief
-five-minute in-game check noted above.
+matched against a depot manifest; the in-game test was a brief smoke test.
 
-## Blocking Decisions and Risks
+## Known Scope and Follow-Up
 
-- The user selected `zh_cn` as the destination candidate to preserve English.
+- The user selected `zh_cn` as the destination to preserve English.
   The original locale font list references Noto. The user confirmed Korean
-  rendered in-game without overriding `fontlist_common`; the test package
+  rendered in-game without overriding `fontlist_common`; the release package
   therefore keeps the Noto font and glyph pages but omits the common list.
   Broader Hangul glyph coverage and other locale/font-role behavior remain
   unverified.
-- The migrated work files now match `zh_cn` exactly: `base` 4,844 rows,
-  `default` 65,135 IDs, and `affix` 3,451 rows, including key order. The 140
-  additional `affix` rows use provisional same-ID Korean sibling fallbacks;
-  review `work/zh_cn/audit/affix-extra-variant-review.tsv` and disposition
-  each before treating them as final.
+- The work files match `zh_cn` exactly: `base` 4,844 rows, `default` 65,135
+  IDs, and `affix` 3,451 rows, including key order. All 140 additional
+  `affix` variants have been reviewed and dispositioned in
+  `work/zh_cn/audit/affix-extra-variant-review.tsv`.
 - Treat in-game `Version: cs:15032` as the source PAK baseline. Build and test
   the candidate against that same game version. Compatibility with later game
   versions is unverified; the file comparison does not establish it.
-- The test ZIP intentionally omits `locatexts_en_us.characterset`. The user
+- The release ZIP intentionally omits `locatexts_en_us.characterset`. The user
   reported normal Korean output for about five minutes without it, so keep it
   excluded unless a later test reveals a character-display problem. Its
   purpose remains unknown.
-- Do not treat the current files in `src/lang/` as release-ready: the three
-  `en_us` localization binaries are byte-identical to the original English
-  resources. `src/` remains immutable.
+- Do not treat the current files in `src/lang/` as the release payload: the
+  three `en_us` localization binaries are byte-identical to the original
+  English resources. The release binaries are generated from `work/zh_cn/`;
+  `src/` remains immutable.
 
-## Build and Validation Gates
+- The 2026-10-14 user-approved release remains the published package. If later
+  accepted translation changes are made, rebuild and validate a new package
+  before replacing or superseding that release.
+
+## TODO: ko_kr Locale Experiment
+
+- [ ] Experimentally add `ko_kr` localization resources alongside the game's
+  eight existing locales and check whether the game discovers, loads, or
+  displays them even when `ko_kr` is not selectable in Steam. Treat this as a
+  separate compatibility experiment, not a change to the current `zh_cn`
+  release. Preserve the original PAK, test the expected `affix`, `base`, and
+  `default` filenames, and record whether the locale is detected and what
+  fallback behavior occurs.
+
+## Build Record and Optional Validation
 
 - The README introduction, bilingual resource links, renamed reference paths,
   role-document links, `en_us`/`affix` compatibility note, and secondary
@@ -99,13 +119,10 @@ five-minute in-game check noted above.
   `references/data/PAK_DIFF.md` is local-only because `references/data/` is
   Git-ignored; only `references/manual/` is included in the public repository.
 - The sequential default-ID review is complete through ID 65134. The
-  historical D-19725 global tally remains unreconciled because its 987-key
-  membership is unknown; per user direction, accept this as a closed
-  accounting limitation and do not repeat the review to reconstruct it.
-- The user's sequence places package preparation before the consolidated
-  review. Any package built at that stage is an unreviewed candidate, not an
-  approved translation release. Later accepted review findings may require
-  rebuilding it.
+  historical global tally's unidentified 987-key membership was closed at
+  the user's direction as an unrecoverable accounting limitation. It does not
+  represent an open review scope and must not trigger duplicate reviews or
+  recounting.
 - [x] Generate the three `zh_cn` localization binaries from `work/zh_cn/`
   using the matching repackers.
 - [x] Re-unpack the generated binaries and compare their CSV content with the
@@ -127,30 +144,29 @@ five-minute in-game check noted above.
   package is intended to preserve it, and verify menu/system text, Hangul
   font rendering, dialogue, item descriptions, multiline strings, and
   locale-variant behavior.
-- Record the tested game version, platform/store, tool versions, package
-  manifest, validation results, and known limitations before calling the
-  package release-ready.
-- Do not claim successful in-game validation until it has actually been
-  performed.
+- Keep the brief in-game smoke-test scope distinct from comprehensive
+  installer, UI, and compatibility testing.
+- Record any future installer, locale, or game-version tests in the audit
+  notes before changing the documented compatibility claims.
 - [x] Public source repository created and pushed on 2026-10-14:
   `https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate`.
   The intended exception is `references/manual/`; all other `references/`
   material, including original and comparison PAKs, remains ignored.
 - `.gitignore` excludes `.DS_Store`, Python bytecode/caches, and generated
-  `dist/` packages. The ZIP is published as an explicitly labeled prerelease
-  asset; Windows installer and refreshed-package in-game validation remain
-  incomplete.
+  `dist/` packages. The ZIP is published as an official, non-prerelease
+  release asset. Windows installer and comprehensive compatibility checks
+  remain unperformed.
 
 ## User-Directed Order
 
 1. Project instructions and role boundaries (documented).
 2. Bilingual README introduction, context, and source links (updated
   2026-10-07; user may review).
-3. Prepare an unreviewed test ZIP before consolidated translation review
-  (complete; rebuilt and round-trip validated 2026-10-14).
-4. Publish all current source/work changes to GitHub and attach the test ZIP
-  to a clearly labeled prerelease (completed on 2026-10-14 by explicit user
-  request).
-5. Complete final consolidated linguistic approval. Sequential default-ID
-  review through 65134 is complete; if accepted findings change packaged
-  text, rebuild and revalidate before calling it an approved release.
+3. Prepare the distribution ZIP (completed and round-trip validated
+  2026-10-14).
+4. Publish the repository and release asset (completed 2026-10-14); the user
+  explicitly approved promotion to the official, non-prerelease release.
+5. Complete linguistic review (sequential default-ID review through 65134
+  and all 140 extra affix dispositions are recorded). The historical
+  unidentified 987-key tally discrepancy was closed at the user's direction
+  as an unrecoverable accounting limitation; it is not unreviewed work.

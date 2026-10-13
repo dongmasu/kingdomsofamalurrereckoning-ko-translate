@@ -16,19 +16,28 @@ active SHA-256
 `bbe7c14b441a077b25bead2b69fd73a14ae364d6e53523009cbbc128a4c2f55d`.
 BOM, 4,844 parsed/ordered rows, 4,845 CRLF endings, all 183 exact target
 cells, and byte identity of non-target rows verified. No global tally update
-or duplicate disposition. Remaining font-resource comparison/test and the
-preferred final ZIP naming are recorded, not performed, in
-[pending package validation](audit/pending-package-validation-20261014.md).
+or duplicate disposition.
+
+**Distribution documentation and asset refresh (2026-10-14):** The
+user-approved package is the official, non-prerelease GitHub Release. Its
+bilingual README was refreshed and the asset replaced without changing any
+payload file; current asset SHA-256:
+`e1bf6a52c02bd4435b024f8beca94a532fe9ab41fdf72f49428674566054397a`.
+The font-free package was tested and displayed hyphens instead of Korean, so
+the release retains all 29 Noto resources. Comparing original/Korean font
+resource sizes remains optional research. The chosen ZIP filename format is
+already implemented and used by `tools/build.sh`; see
+[package validation notes](audit/pending-package-validation-20261014.md).
 
 **Candidate-set review cross-check (D-20379, 2026-10-14):** The exact
 1,097 eligible candidate keys were already reviewed in D-19727-D-19738:
 160 accepted / 937 `not an issue` / zero unresolved. Exact snapshots are
 disjoint and cover the full inventory. The row-level D-19729-D-19738
 outcomes total 131/774, correcting the older 121/784 rollup. The historical
-D-19725 tally 3,419 / 34,118 / 987 remains unreconciled because its 987
-exact-key membership is unknown. Per user direction, accept this as a
-closed accounting limitation: do not search further, repeat reviews, infer
-unidentified keys' status, or add candidate outcomes to a global total. See
+D-19725 tally 3,419 / 34,118 / 987 has an unrecoverable 987-key membership.
+Per user direction, it is closed as an accounting limitation: do not search
+further, repeat reviews, infer unidentified keys' status, or add candidate
+outcomes to a global total. See
 [D-20379 cross-check](audit/reconstructed-candidate-review-D20379-20261014.md)
 and [D-20380 accounting-limit closure](audit/accounting-limit-closure-D20380-20261014.md).
 Translation review remains complete through D-20377 / ID 65134;

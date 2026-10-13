@@ -8,8 +8,11 @@ The active Korean working CSVs are in `work/zh_cn/` and use the `zh_cn`
 resource structure as the target slot. Their Korean text was migrated from
 the Japanese-derived draft; the previous `work/ja_jp/` draft was deleted at
 the user's direction on 2026-10-14. The user wants to keep `en_us` available.
-`zh_cn` is the selected work/destination candidate; PAK compatibility and
-broader in-game behavior remain unverified.
+The sequential `default` review is complete through ID 65134, and all
+zh_cn-specific `affix` variants have recorded dispositions. The user-approved
+package is published as an official, non-prerelease GitHub Release. The
+recorded in-game check is a smoke test, not comprehensive compatibility
+coverage.
 
 ## Source of Truth
 
@@ -29,8 +32,8 @@ broader in-game behavior remain unverified.
   explicitly asks.
 - [`TRANSLATION-ROLE.md`](TRANSLATION-ROLE.md)
   defines translator, reviewer, editor, verifier, and builder permissions.
-- [`DISTRIBUTION_CHECKLIST.md`](DISTRIBUTION_CHECKLIST.md) tracks unresolved
-  destination, build, and release validation gates.
+- [`DISTRIBUTION_CHECKLIST.md`](DISTRIBUTION_CHECKLIST.md) records the released
+  package, its validation scope, and optional follow-up checks.
 
 ## Translation References
 
@@ -109,7 +112,7 @@ translation is not proof that it can be repacked or displayed correctly.
   `10619381` in that installation's `appmanifest_1041720.acf` is secondary
   provenance information. This does not establish that a rebuilt PAK works
   in-game or that other game versions are compatible.
-- The user selected `zh_cn` as the Korean work/destination candidate to keep
+- The user selected `zh_cn` as the Korean work/destination to keep
   English available. `work/zh_cn/` follows the exact `zh_cn` CSV structure.
   The Korean comparison PAK's `en_us` filenames do not establish that the new
   `zh_cn` candidate works in-game.
@@ -120,34 +123,32 @@ translation is not proof that it can be repacked or displayed correctly.
   the selected target first. Russian also differs from the scaffold in
   `base` and `affix`.
 - The migration preserved the exact `zh_cn` key sets and order: `base` 4,844,
-  `default` 65,135, and `affix` 3,451 rows. The 140 `zh_cn`-specific `affix`
-  rows have provisional Korean sibling fallbacks and are listed in
-  `work/zh_cn/audit/affix-extra-variant-review.tsv`; review them before
-  treating the text as final.
-- `src/lang/locatexts_en_us.koalocatext_{affix,base,default}` are byte-identical
-  to the original archive's English resources, not the final Korean
-  binaries. The Korean comparison PAK's corresponding resources are separate
-  reference artifacts. Do not claim the distributable localization binaries
-  have been generated.
+  `default` 65,135, and `affix` 3,451 rows. All 140 `zh_cn`-specific `affix`
+  variants have recorded dispositions in
+  `work/zh_cn/audit/affix-extra-variant-review.tsv`.
+- `src/lang/locatexts_en_us.koalocatext_{affix,base,default}` remain immutable
+  English reference binaries. Korean `zh_cn` localization binaries were
+  generated for the release package and passed CSV round-trip checks.
 - The historical Korean comparison PAK differs from the inspected original
   by 34 files: three localization binaries, 30 font resources, and
-  `locatexts_en_us.characterset`. The current `zh_cn` test payload instead
+  `locatexts_en_us.characterset`. The `zh_cn` release payload instead
   contains three localization binaries and 29 Noto font resources; it omits
   both `fontlist_common.koafontlist` and the characterset. The user confirmed
   in-game Korean rendering for that tested setup, and the original
   `fontlist_zh_cn.koafontlist` references the Noto font.
 - A release is a patch delta, not a standalone PAK. Each user must unpack
-  their own complete original `data/patch_0.pak`, overlay the current test
+  their own complete original `data/patch_0.pak`, overlay the release
   payload, and build a complete PAK with the game's tools. Confirm that the
   source game version matches the version used to prepare the delta.
 - `locatexts_en_us.characterset` is absent from the original PAK and present
   in the Korean comparison PAK. Its format, purpose, and generation method
   remain unknown. Preserve the reference file as-is; do not synthesize or
   edit it.
-- No final localization binaries or rebuilt PAK have been produced, and no
-  rebuilt PAK has been tested in-game. Do not describe the package as
-  verified until output archive validation and representative game checks
-  pass.
+- The release ZIP's localization binaries passed build-time round-trip and
+  archive integrity checks. The user reported Korean rendering in the
+  zh_cn setup without the characterset or common font list. Windows installer
+  behavior, broad UI coverage, long-play behavior, and compatibility with
+  other game versions remain unverified; do not imply those checks were run.
 - In `tools/loc_toolset/`, the three unpackers were changed to decode strings
   as UTF-8; the three repackers remain unchanged. No-edit CSV round trips
   passed for `base`, `default`, and `affix`, and one Korean `base` string
@@ -166,28 +167,12 @@ translation is not proof that it can be repacked or displayed correctly.
 - Do not unpack, repack, build, replace, or install a game PAK unless the user
   explicitly requests that operation.
 
-## Current User-Directed Sequence
+## Current Status
 
-The translation drafts are complete, but the consolidated linguistic review
-is pending. Two read-only review/edit batches exist for `default` IDs 0-49
-and 50-99; they are not a full-resource review or user sign-off. The user has
-set these preparatory steps before the consolidated review:
-
-1. Create this `PROJECT-AI.md` with project instructions.
-2. Update the bilingual `README.md` introduction, project context, and source
-   links (completed 2026-10-07; the user plans further README updates).
-3. Resolve the distribution gates in `DISTRIBUTION_CHECKLIST.md`, prepare
-   the distribution candidate, and document its installation/application
-   procedure.
-4. Publish the project to GitHub.
-5. Resume the consolidated translation review.
-
-Do not create a release package, initialize or change Git/GitHub, publish
-files, or begin the consolidated review ahead of this sequence without the
-user's explicit direction. Complete one step at a time and report its scope
-and validation before moving on.
-
-Because the user-directed sequence prepares a distribution before the
-consolidated review, label any pre-review package as an unreviewed candidate.
-Do not represent it as linguistically approved; later accepted review findings
-may require rebuilding the package and updating its release notes.
+The sequential `default` review is complete through ID 65134. The historical
+global tally's unidentified 987-key membership was closed at the user's
+direction as an unrecoverable accounting limitation; it is not an open review
+scope and must not trigger duplicate review or recounting. The package was
+published to GitHub and promoted to an official, non-prerelease Release at the
+user's direction. If later accepted translation edits are made, rebuild and
+validate a replacement package before superseding that release.

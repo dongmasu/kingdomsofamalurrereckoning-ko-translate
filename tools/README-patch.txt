@@ -1,11 +1,13 @@
-Kingdoms of Amalur: Re-Reckoning Korean zh_cn Test Patch and Installation Guide
+Kingdoms of Amalur: Re-Reckoning Korean zh_cn Patch and Installation Guide
 ===============================================================================
 
 한국어 설치 안내
 ----------------
 
-이 패키지는 번역 검수 전 시험판입니다. zh_cn에만 있는 affix 140개 variant는
-임시 번역이므로 일부 표현이 부정확할 수 있습니다.
+이 패키지는 GitHub 정식 Release로 공개된 한글 패치입니다. 게임의
+`zh_cn` 로케일을 사용하며 영어(`en_us`) 리소스는 덮어쓰지 않습니다.
+대사 ID 65134까지의 순차 검토와 zh_cn 전용 affix variant 140개의 판정이
+기록되어 있습니다.
 
 지원 기준 버전은 메인 메뉴 우측 하단에 `Version: cs:15032`로 표시되는
 게임입니다. Steam BuildID가 아니라 게임에 표시되는 버전을 확인하세요.
@@ -13,7 +15,7 @@ Kingdoms of Amalur: Re-Reckoning Korean zh_cn Test Patch and Installation Guide
 패키지 구성:
 - zh_cn 한국어 현지화 바이너리 3개
 - 폰트 포함 빌드: Noto 폰트 리소스 29개 (폰트 파일 1개와 글리프 페이지 28개)
-- `--without-font` 빌드: 폰트를 포함하지 않고 기존 게임의 폰트를 그대로 사용
+- 폰트 제외 실험 빌드는 한글 대신 하이픈을 표시했으므로 사용하지 마세요.
 - `fontlist_common.koafontlist`는 포함하지 않음
 - Windows 더블클릭 실행기, 적용 스크립트와 체크섬
 - `locatexts_en_us.characterset`은 포함하지 않음
@@ -40,22 +42,22 @@ Kingdoms of Amalur: Re-Reckoning Korean zh_cn Test Patch and Installation Guide
 `data\patch_0.pak` 옆에 시간표시가 붙은 `.backup-` 파일명으로 보관됩니다.
 
 한글이 표시되지 않거나 화면에 문제가 생기면 게임을 종료하고 안내된 백업본을
-복원하세요. 문자셋 파일은 첫 시험 패키지에서 의도적으로 제외했습니다. 문제가
-확인되면 이후 패키지에서 별도로 시험할 수 있습니다.
-폰트 없는 시험 패키지는 사용자 시험에서 한글 대신 하이픈이 표시되어 한글 패치로
-사용할 수 없습니다. 일반 빌드처럼 Noto 폰트 리소스가 포함된 패키지를 사용하세요.
+복원하세요. 문자셋 파일과 공용 글꼴 목록은 패키지에 포함하지 않습니다. 사용자는
+이 파일들 없이 한글 출력이 정상인 것을 확인했습니다. 이 확인은 시험한 설정에만
+해당하며 모든 게임 버전이나 전체 플레이 호환성을 보증하지 않습니다.
 
 English
 -------
 
-This is an unreviewed test build. The 140 zh_cn-only affix variants use
-provisional Korean sibling text and still need translation review.
+This is the official Korean patch release. It uses the game's `zh_cn` locale
+and leaves the original English (`en_us`) resources intact.
 
 Supported baseline: the main menu must show Version: cs:15032.
 The Steam BuildID is not used as the compatibility check.
-The standard build includes the Noto font and 28 glyph pages. The
-`--without-font` build uses the existing game's font resources. Neither
-overrides `fontlist_common.koafontlist` or includes `locatexts_en_us.characterset`.
+The release package includes the Noto font and 28 glyph pages. A font-free
+experimental build displayed hyphens instead of Korean and is not suitable
+for use. The package does not override `fontlist_common.koafontlist` or
+include `locatexts_en_us.characterset`.
 
 Install:
 1. Extract the entire ZIP to a folder.
@@ -80,7 +82,6 @@ The backup is stored beside data\patch_0.pak with a timestamped .backup-
 suffix.
 
 If Hangul glyphs are missing or text is not displayed correctly, restore the
-backup and report the result. The characterset file is intentionally omitted
-from this test package. The font-free experimental build rendered hyphens
-instead of Korean in the user's test; use the standard package with Noto font
-resources for Korean.
+backup and report the result. The characterset file and common font list are
+omitted; Korean was confirmed in the user's tested setup without them. This
+does not establish compatibility with every game version or configuration.

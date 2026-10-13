@@ -44,7 +44,7 @@ if [[ "$WITHOUT_FONT" == "0" ]]; then
 fi
 [[ -f "$ROOT/tools/KoreanPatch.ps1" ]] || fail "Missing Windows apply script."
 [[ -f "$ROOT/tools/RunKoreanPatch.bat" ]] || fail "Missing Windows launcher."
-[[ -f "$ROOT/tools/README-test-patch.txt" ]] || fail "Missing test-package instructions."
+[[ -f "$ROOT/tools/README-patch.txt" ]] || fail "Missing package instructions."
 python3 "$ROOT/tools/test_apply_script.py"
 [[ ! -e "$DIST_DIR" ]] || fail "Distribution timestamp directory already exists: $DIST_DIR"
 
@@ -124,7 +124,7 @@ fi
 
 payload_count="$(find "$PAYLOAD_DIR" -maxdepth 1 -type f | wc -l | tr -d '[:space:]')"
 [[ "$payload_count" == "$((3 + font_count))" ]] || fail "Expected $((3 + font_count)) payload files; found $payload_count."
-[[ ! -e "$PAYLOAD_DIR/locatexts_en_us.characterset" ]] || fail "characterset must be omitted from this test package."
+[[ ! -e "$PAYLOAD_DIR/locatexts_en_us.characterset" ]] || fail "characterset must be omitted from this package."
 
 for resource in affix base default; do
     binary_name="locatexts_zh_cn.koalocatext_${resource}"
@@ -171,7 +171,7 @@ PY
 
 cp "$ROOT/tools/KoreanPatch.ps1" "$PACKAGE_DIR/"
 cp "$ROOT/tools/RunKoreanPatch.bat" "$PACKAGE_DIR/"
-cp "$ROOT/tools/README-test-patch.txt" "$PACKAGE_DIR/README.txt"
+cp "$ROOT/tools/README-patch.txt" "$PACKAGE_DIR/README.txt"
 (
     cd "$PAYLOAD_DIR"
     shasum -a 256 * > "$PACKAGE_DIR/SHA256SUMS.txt"

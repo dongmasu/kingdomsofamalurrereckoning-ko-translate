@@ -7,8 +7,8 @@ Updated: 2026-10-14
 1. Run `pwd` and treat the current working directory as the project root.
 2. Read `PROJECT-AI.md`, `NEXT-SESSION.md`,
    `DISTRIBUTION_CHECKLIST.md`, and `TRANSLATION-ROLE.md`.
-3. Work only in `work/zh_cn/`, except for this root handoff file when
-   checkpoint documentation must be updated. Verify CSV hashes before edits.
+3. For translation review, edit only `work/zh_cn/`; update root or audit
+   documentation when the task requires it. Verify CSV hashes before CSV edits.
 4. For translation review, do not inspect, search, extract, compare, or cite
    PAKs or PAK-derived files. English is the meaning anchor, Japanese informs
    voice/register, and Chinese is supporting evidence. Close source-faithful
@@ -32,9 +32,9 @@ Updated: 2026-10-14
    checkpoints in this file are historical snapshots.
 5. `work/ja_jp/` was deleted on 2026-10-14 at the user's direction. Do not
    assume its historical source files are still available.
-6. Do not repeat completed research or translation. Do not initialize Git,
-   publish, build, replace, or install game files without explicit direction.
-   This workspace currently has no `.git` directory.
+6. Do not repeat completed research or translation. This workspace has a Git
+   repository. Do not publish, build, replace, or install game files unless
+   requested.
 
 ## Current Work State
 
@@ -50,24 +50,32 @@ Updated: 2026-10-14
   non-target row bytes were verified. No previous keys were recounted and
   no global tally was changed.
 
-- **Pending package checks (recorded only, 2026-10-14):** Compare original
-  and Korean-patch binary sizes for the 29 Noto resources listed in
-  `work/zh_cn/audit/pending-package-validation-20261014.md`; test a build
-  using the original game's font resources; if Korean display remains
-  correct, omit the changed font resources. The user's question about equal
-  binary sizes is unresolved. Preferred final ZIP filename:
-  `KingdomsOfAmalur_Korean_zh_cn_yyyymmddHHMMSS.zip`, without `_TEST`.
-  This turn did not inspect `PAK_DIFF.md` or font binaries, build a ZIP, or
-  run the test. `tools/build.sh` remains unchanged.
+- **Distribution status (2026-10-14):** The user-approved GitHub Release is
+  official and not marked prerelease. Its ZIP contains three `zh_cn`
+  localization binaries and 29 Noto font resources; the font-free experiment
+  displayed hyphens and is not usable. `tools/build.sh` already names output
+  `KingdomsOfAmalur_Korean_zh_cn_<timestamp>.zip` without `_TEST`. The user
+  approved the published package despite the Windows installer and broad
+  compatibility checks not being independently completed. The embedded
+  bilingual `README.txt` was refreshed and the same release asset replaced;
+  only that guide changed, while every payload file remained byte-identical.
+  Current asset SHA-256:
+  `e1bf6a52c02bd4435b024f8beca94a532fe9ab41fdf72f49428674566054397a`.
+
+- **Font-format investigation resumed:** `src/font/` contains one `.font`
+  metadata file and 28 `.ntx` pages, all with `FORK` magic. Page sizes match
+  a possible 104-byte header followed by 512x512 data (last page 256x512),
+  but header fields and pixel encoding are not yet decoded. Continue with
+  read-only analysis and temporary derived images; do not edit `src/font/`.
 
 - **D-20379 candidate-set cross-check (2026-10-14):** The reconstructed
   1,097 eligible keys are already fully reviewed in D-19727-D-19738:
   160 accepted / 937 `not an issue` / zero unresolved. Exact snapshots
   partition the inventory without overlap. The D-19729-D-19738 row-level
   outcomes total 131/774, correcting the old 121/784 summary. The historical
-  D-19725 tally (3,419 / 34,118 / 987) remains unreconciled because its
-  exact 987-key membership is unknown. Per user direction, accept this as a
-  closed accounting limitation: do not search further, repeat reviews, infer
+  D-19725 tally (3,419 / 34,118 / 987) has an unrecoverable 987-key
+  membership. Per user direction, accept this as a closed accounting
+  limitation: do not search further, repeat reviews, infer
   the unidentified keys' status, or add candidate outcomes to global totals.
   See
   [cross-check](work/zh_cn/audit/reconstructed-candidate-review-D20379-20261014.md)
