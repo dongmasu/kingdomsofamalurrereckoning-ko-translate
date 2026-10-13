@@ -19394,9 +19394,11 @@ Updated: 2026-10-14
 5. **Migration cleanup:** `work/ja_jp/` was deleted on 2026-10-14 at the
    user's direction. Independent verification of every copied audit/helper
    was not performed before deletion.
-6. **GitHub/publication:** Git is not initialized. Obtain explicit direction
-   before initializing or publishing; exclude `/references/`, game archives,
-   `.DS_Store`, `__pycache__`, and generated caches.
+6. **GitHub/publication:** Public repository created and pushed to
+   `https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate`
+   on 2026-10-14. PAKs, generated `dist/` packages, `.DS_Store`, and Python
+   caches are excluded; `references/manual/` is included by user request.
+   Do not publish a release package without completing its validation gates.
 
 ## Invariants
 

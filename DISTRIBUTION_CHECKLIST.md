@@ -127,9 +127,10 @@ five-minute in-game check noted above.
   package release-ready.
 - Do not claim successful in-game validation until it has actually been
   performed.
-- GitHub publication was explicitly requested on 2026-10-14. The intended
-  exception is `references/manual/`; all other `references/` material,
-  including original and comparison PAKs, must remain ignored.
+- [x] Public source repository created and pushed on 2026-10-14:
+  `https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate`.
+  The intended exception is `references/manual/`; all other `references/`
+  material, including original and comparison PAKs, remains ignored.
 - `.gitignore` excludes `.DS_Store`, Python bytecode/caches, and generated
   `dist/` packages. The fresh test ZIP remains a local candidate, not a
   release asset; Windows installer and broader in-game validation remain
