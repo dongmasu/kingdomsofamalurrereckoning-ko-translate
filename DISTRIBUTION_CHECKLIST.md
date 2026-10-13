@@ -30,13 +30,15 @@ current test ZIP omits the characterset and the common font list and contains:
   `locatexts_zh_cn.koalocatext_default`.
 - Twenty-nine Noto font resources: `notosanscjksc_regular.font` and its 28
   `.ntx` pages.
-- `KoreanPatch.ps1`, bilingual `README.txt`, and `SHA256SUMS.txt`.
+- `RunKoreanPatch.bat`, `KoreanPatch.ps1`, bilingual `README.txt`, and
+  `SHA256SUMS.txt`.
 
 The latest local ZIP is
-`dist/20261014022153/KingdomsOfAmalur_Korean_zh_cn_TEST.zip`. It contains 32
-payload files (three localization binaries and 29 Noto font resources), with
-no common font list or characterset. Generated `dist/` packages are ignored
-by Git and are not included in the source repository. Its ASCII-only English Windows script
+`dist/20261014031124/KingdomsOfAmalur_Korean_zh_cn_20261014031124.zip`. It
+contains 32 payload files (three localization binaries and 29 Noto font
+resources), with no common font list or characterset. Generated `dist/`
+packages are ignored by Git and are attached to GitHub Releases instead of
+being committed to the source repository. Its ASCII-only English Windows script
 prompts once for the game directory (default:
 `C:\Program Files (x86)\Steam\steamapps\common\Kingdoms of Amalur Re-Reckoning`),
 documents `cs:15032` as the supported baseline, then automatically proceeds
@@ -46,8 +48,11 @@ the game language should be Chinese (Simplified).
 
 The refreshed ZIP passed build-time localization round-trip and archive
 integrity checks. Its included PowerShell script is byte-identical to the
-ASCII-only source script. It has not yet been installed through the Windows
-script or retested in-game.
+ASCII-only source script. The user should launch it by double-clicking
+`RunKoreanPatch.bat`; directly double-clicking `.ps1` may open it in an editor.
+The refreshed Noto-font ZIP has not yet been installed through the Windows
+script or retested in-game. Publish it as an explicitly labeled prerelease,
+not as an approved final translation.
 
 This is a delta for the inspected game version, not a standalone PAK. Each
 user needs their own complete original `data/patch_0.pak` to build a complete
@@ -105,8 +110,8 @@ five-minute in-game check noted above.
   using the matching repackers.
 - [x] Re-unpack the generated binaries and compare their CSV content with the
   working files: `affix` 3,451 rows, `base` 4,844, `default` 65,135.
-- [x] Build a timestamped ZIP with 32 payload files, installer, instructions,
-  and SHA-256 manifest; omit `fontlist_common.koafontlist` and
+- [x] Build a timestamped ZIP with 32 payload files, batch launcher, installer,
+  instructions, and SHA-256 manifest; omit `fontlist_common.koafontlist` and
   `locatexts_en_us.characterset`.
 - [x] User-reported initial in-game smoke test: Korean text displayed normally
   in the `zh_cn` setup without the common font list or
@@ -132,8 +137,8 @@ five-minute in-game check noted above.
   The intended exception is `references/manual/`; all other `references/`
   material, including original and comparison PAKs, remains ignored.
 - `.gitignore` excludes `.DS_Store`, Python bytecode/caches, and generated
-  `dist/` packages. The fresh test ZIP remains a local candidate, not a
-  release asset; Windows installer and broader in-game validation remain
+  `dist/` packages. The ZIP is published as an explicitly labeled prerelease
+  asset; Windows installer and refreshed-package in-game validation remain
   incomplete.
 
 ## User-Directed Order
@@ -143,8 +148,9 @@ five-minute in-game check noted above.
   2026-10-07; user may review).
 3. Prepare an unreviewed test ZIP before consolidated translation review
   (complete; rebuilt and round-trip validated 2026-10-14).
-4. Initialize and publish the project to GitHub after the file allowlist and
-  ignore rules are reviewed (in progress by explicit user request).
+4. Publish all current source/work changes to GitHub and attach the test ZIP
+  to a clearly labeled prerelease (completed on 2026-10-14 by explicit user
+  request).
 5. Complete final consolidated linguistic approval. Sequential default-ID
   review through 65134 is complete; if accepted findings change packaged
   text, rebuild and revalidate before calling it an approved release.

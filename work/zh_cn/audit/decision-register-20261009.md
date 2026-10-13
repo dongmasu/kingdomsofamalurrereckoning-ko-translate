@@ -39,6 +39,18 @@ the accounting limitation for the current workflow; it does not classify
 unidentified keys. No new key dispositions or count adjustments. See
 `accounting-limit-closure-D20380-20261014.md`.
 
+## D-20381: Focused Review of `base` Titles Beginning with `The`
+
+Re-reviewed all 183 exact active `base` IDs whose English source begins with
+capitalized `The`. Applied the user's title/proper-name guidance by preserving
+the Korean rendering and adding the complete English source title in
+parentheses; corrected nine Korean renderings. This is a focused
+presentation/translation correction, not a new disposition count. Earlier
+terminal keys, including D-001 / `base` 1741, were not recounted, and the
+global tally remains unreconciled. See
+`named-scope-review-D20381-20261014.md` and
+`named-scope-edit-addendum-D20381-20261014.md`.
+
 ## D-20377: Review of Default IDs 65101-65134
 
 No CSV edit. [Report](named-scope-review-D20377-20261014.md); [addendum](named-scope-edit-addendum-D20377-20261014.md). No duplicate classification or global tally update. No CSV edit; last pre-edit byte-identical backup `/private/tmp/ko-translate-backups/20261014/before-named-scope-D20373/locatexts_zh_cn.koalocatext_default.csv`. Active SHA-256 `b0e554459bd40fbdd0e654a706ef7f265e5e0f6e7f62b65d6f1f851d4104dffe`. Last reviewed 65134; no remaining default IDs; 0 actual rows remain through 65134. All requested default IDs reviewed. Global tally unreconciled; affix 55 closed D-19565.

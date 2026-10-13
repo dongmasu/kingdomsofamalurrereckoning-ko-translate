@@ -5,9 +5,18 @@ import unittest
 SCRIPT = pathlib.Path(__file__).with_name("KoreanPatch.ps1").read_text(
     encoding="utf-8"
 )
+LAUNCHER = pathlib.Path(__file__).with_name("RunKoreanPatch.bat").read_text(
+    encoding="ascii"
+)
 
 
 class ApplyScriptPromptOrderTests(unittest.TestCase):
+    def test_double_click_launcher_runs_the_powershell_installer(self):
+        self.assertIn(
+            'powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0KoreanPatch.ps1"',
+            LAUNCHER,
+        )
+
     def test_script_text_is_ascii_for_windows_powershell_compatibility(self):
         self.assertTrue(SCRIPT.isascii())
 
@@ -39,8 +48,10 @@ class ApplyScriptPromptOrderTests(unittest.TestCase):
         self.assertIn('$EnteredDirectory = Read-Host "Game folder', SCRIPT)
         self.assertNotIn("APPLY", SCRIPT)
 
-    def test_payload_uses_zh_cn_fontlist_without_common_override(self):
-        self.assertIn("$PayloadFiles.Count -ne 32", SCRIPT)
+    def test_payload_accepts_font_free_or_complete_font_set_without_common_override(self):
+        self.assertIn("$PayloadFiles.Count -notin @(3, 32)", SCRIPT)
+        self.assertIn("$PayloadFiles.Count -eq 32", SCRIPT)
+        self.assertIn("$FontPages.Count -ne 28", SCRIPT)
         self.assertIn('"notosanscjksc_regular.font"', SCRIPT)
         self.assertIn('"fontlist_common.koafontlist"', SCRIPT)
         self.assertIn("must not be overridden", SCRIPT)

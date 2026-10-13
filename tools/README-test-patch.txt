@@ -12,16 +12,16 @@ Kingdoms of Amalur: Re-Reckoning Korean zh_cn Test Patch and Installation Guide
 
 패키지 구성:
 - zh_cn 한국어 현지화 바이너리 3개
-- Noto 폰트 리소스 29개 (폰트 파일 1개와 글리프 페이지 28개)
+- 폰트 포함 빌드: Noto 폰트 리소스 29개 (폰트 파일 1개와 글리프 페이지 28개)
+- `--without-font` 빌드: 폰트를 포함하지 않고 기존 게임의 폰트를 그대로 사용
 - `fontlist_common.koafontlist`는 포함하지 않음
-- Windows 적용 스크립트와 체크섬
+- Windows 더블클릭 실행기, 적용 스크립트와 체크섬
 - `locatexts_en_us.characterset`은 포함하지 않음
 
 설치 방법:
 1. ZIP 전체를 Windows PC의 한 폴더에 압축 해제합니다. `README.txt`,
-   `KoreanPatch.ps1`, `SHA256SUMS.txt`, `payload` 폴더가 함께 있어야 합니다.
-2. 압축 해제한 폴더에서 PowerShell을 열고 다음 명령을 실행합니다.
-   `.\KoreanPatch.ps1`
+   `RunKoreanPatch.bat`, `KoreanPatch.ps1`, `SHA256SUMS.txt`, `payload` 폴더가 함께 있어야 합니다.
+2. `RunKoreanPatch.bat`을 더블클릭합니다. `.ps1` 파일을 직접 더블클릭하지 마세요.
    관리자 권한 요청이 표시되면 먼저 승인합니다. 승인 후 게임 폴더를 한 번 묻습니다.
 3. 기본 게임 폴더를 사용하려면 경로 입력을 묻는 화면에서 Enter를 누릅니다.
    기본 경로는 `C:\Program Files (x86)\Steam\steamapps\common\Kingdoms of Amalur Re-Reckoning`입니다.
@@ -42,6 +42,8 @@ Kingdoms of Amalur: Re-Reckoning Korean zh_cn Test Patch and Installation Guide
 한글이 표시되지 않거나 화면에 문제가 생기면 게임을 종료하고 안내된 백업본을
 복원하세요. 문자셋 파일은 첫 시험 패키지에서 의도적으로 제외했습니다. 문제가
 확인되면 이후 패키지에서 별도로 시험할 수 있습니다.
+폰트 없는 시험 패키지는 사용자 시험에서 한글 대신 하이픈이 표시되어 한글 패치로
+사용할 수 없습니다. 일반 빌드처럼 Noto 폰트 리소스가 포함된 패키지를 사용하세요.
 
 English
 -------
@@ -51,13 +53,14 @@ provisional Korean sibling text and still need translation review.
 
 Supported baseline: the main menu must show Version: cs:15032.
 The Steam BuildID is not used as the compatibility check.
-The payload includes the Noto font and its 28 glyph pages, but does not
-override `fontlist_common.koafontlist` or include `locatexts_en_us.characterset`.
+The standard build includes the Noto font and 28 glyph pages. The
+`--without-font` build uses the existing game's font resources. Neither
+overrides `fontlist_common.koafontlist` or includes `locatexts_en_us.characterset`.
 
 Install:
 1. Extract the entire ZIP to a folder.
-2. Open PowerShell in the extracted folder and run
-   `.\KoreanPatch.ps1`. Approve the administrator prompt first if shown;
+2. Double-click `RunKoreanPatch.bat`. Do not double-click the `.ps1` file.
+   Approve the administrator prompt first if shown;
    the elevated script then asks for the game folder once.
 3. Press Enter to use the default Steam game folder, or enter another folder.
    Default: `C:\Program Files (x86)\Steam\steamapps\common\Kingdoms of Amalur Re-Reckoning`
@@ -78,4 +81,6 @@ suffix.
 
 If Hangul glyphs are missing or text is not displayed correctly, restore the
 backup and report the result. The characterset file is intentionally omitted
-from this first test package and can be tested in a later package if needed.
+from this test package. The font-free experimental build rendered hyphens
+instead of Korean in the user's test; use the standard package with Noto font
+resources for Korean.

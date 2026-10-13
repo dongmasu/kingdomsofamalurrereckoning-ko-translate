@@ -37,7 +37,25 @@ tally may be derived from them. The subsequent CSV edits and
 checks remain valid. See
 [corrigendum](prior-terminal-corrigendum-D20185-D20195-20261013.md).
 
-## Current Checkpoint (D-20377, 2026-10-14; 34 IDs)
+## Current Checkpoint (D-20381, 2026-10-14; focused `base` scope)
+
+Reviewed all 183 active `base` rows whose English source begins with `The`;
+added the full source title in parentheses and corrected nine Korean
+renderings. [Report](named-scope-review-D20381-20261014.md);
+[addendum](named-scope-edit-addendum-D20381-20261014.md). Pre-edit SHA-256
+`8e2abc916ec012d3322fb5a9ea23cb91c3188665c01c7b4bc8f8772b68ef7cd2`;
+byte-identical backup
+`/private/tmp/ko-translate-backups/20261014/before-base-the-scope-D20381/locatexts_zh_cn.koalocatext_base.csv`;
+active SHA-256
+`bbe7c14b441a077b25bead2b69fd73a14ae364d6e53523009cbbc128a4c2f55d`.
+The BOM, 4,844-row ordered inventory, 4,845 CRLF line endings, exact 183
+target cells, and byte identity of every non-target row passed verification.
+No prior key was recounted and no global tally was adjusted. Pending font
+replacement and ZIP-name checks are recorded in
+[package validation notes](pending-package-validation-20261014.md); they
+have not been run.
+
+## Default Sequential Checkpoint (D-20377, 2026-10-14; 34 IDs)
 
 Reviewed 65101-65134. No CSV edit. [Report](named-scope-review-D20377-20261014.md); [addendum](named-scope-edit-addendum-D20377-20261014.md). No CSV edit; last pre-edit byte-identical backup `/private/tmp/ko-translate-backups/20261014/before-named-scope-D20373/locatexts_zh_cn.koalocatext_default.csv`. Active SHA-256 `b0e554459bd40fbdd0e654a706ef7f265e5e0f6e7f62b65d6f1f851d4104dffe`. BOM, 72,011 CRLF, 73 bare LF and 65,135 ordered IDs passed; no CSV edit. Last reviewed 65134; no remaining default IDs; 0 actual rows remain through 65134. All requested default IDs reviewed. Global tally unreconciled; affix 55 closed D-19565.
 

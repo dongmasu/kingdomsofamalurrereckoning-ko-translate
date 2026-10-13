@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
-# Build the zh_cn test package and place it under dist/<timestamp>.
+# Build the zh_cn package and place it under dist/<timestamp>.
 set -Eeuo pipefail
+
+[[ "$#" -le 1 && ( "$#" -eq 0 || "$1" == "--without-font" ) ]] || {
+    printf 'Usage: %s [--without-font]\n' "$0" >&2
+    exit 2
+}
+WITHOUT_FONT=0
+[[ "$#" -eq 0 ]] || WITHOUT_FONT=1
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 WORK="$ROOT/work/zh_cn"
@@ -9,7 +16,7 @@ FONT_SOURCE="$ROOT/src/font"
 TOOLSET="$ROOT/tools/loc_toolset"
 TIMESTAMP="$(date '+%Y%m%d%H%M%S')"
 DIST_DIR="$ROOT/dist/$TIMESTAMP"
-ZIP_PATH="$DIST_DIR/KingdomsOfAmalur_Korean_zh_cn_TEST.zip"
+ZIP_PATH="$DIST_DIR/KingdomsOfAmalur_Korean_zh_cn_${TIMESTAMP}.zip"
 TEMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/amalur-zhcn-build.XXXXXX")"
 REPACK_DIR="$TEMP_DIR/repack"
 PAYLOAD_DIR="$TEMP_DIR/package/payload"
@@ -32,8 +39,11 @@ done
 
 [[ -d "$WORK" ]] || fail "Missing work directory: $WORK"
 [[ -d "$SOURCE" ]] || fail "Missing immutable zh_cn CSV references: $SOURCE"
-[[ -d "$FONT_SOURCE" ]] || fail "Missing font directory: $FONT_SOURCE"
+if [[ "$WITHOUT_FONT" == "0" ]]; then
+    [[ -d "$FONT_SOURCE" ]] || fail "Missing font directory: $FONT_SOURCE"
+fi
 [[ -f "$ROOT/tools/KoreanPatch.ps1" ]] || fail "Missing Windows apply script."
+[[ -f "$ROOT/tools/RunKoreanPatch.bat" ]] || fail "Missing Windows launcher."
 [[ -f "$ROOT/tools/README-test-patch.txt" ]] || fail "Missing test-package instructions."
 python3 "$ROOT/tools/test_apply_script.py"
 [[ ! -e "$DIST_DIR" ]] || fail "Distribution timestamp directory already exists: $DIST_DIR"
@@ -103,14 +113,17 @@ for resource in affix base default; do
     cp "$generated" "$PAYLOAD_DIR/${csv_name%.csv}"
 done
 
-font_count="$(find "$FONT_SOURCE" -maxdepth 1 -type f | wc -l | tr -d '[:space:]')"
-[[ "$font_count" == "29" ]] || fail "Expected 29 Noto font resources; found $font_count."
-cp -R "$FONT_SOURCE/." "$PAYLOAD_DIR/"
+font_count=0
+if [[ "$WITHOUT_FONT" == "0" ]]; then
+    font_count="$(find "$FONT_SOURCE" -maxdepth 1 -type f | wc -l | tr -d '[:space:]')"
+    [[ "$font_count" == "29" ]] || fail "Expected 29 Noto font resources; found $font_count."
+    cp -R "$FONT_SOURCE/." "$PAYLOAD_DIR/"
+fi
 [[ ! -e "$PAYLOAD_DIR/fontlist_common.koafontlist" ]] \
     || fail "The common font list must not be overridden for the zh_cn package."
 
 payload_count="$(find "$PAYLOAD_DIR" -maxdepth 1 -type f | wc -l | tr -d '[:space:]')"
-[[ "$payload_count" == "32" ]] || fail "Expected 32 payload files; found $payload_count."
+[[ "$payload_count" == "$((3 + font_count))" ]] || fail "Expected $((3 + font_count)) payload files; found $payload_count."
 [[ ! -e "$PAYLOAD_DIR/locatexts_en_us.characterset" ]] || fail "characterset must be omitted from this test package."
 
 for resource in affix base default; do
@@ -157,6 +170,7 @@ for resource in ("affix", "base", "default"):
 PY
 
 cp "$ROOT/tools/KoreanPatch.ps1" "$PACKAGE_DIR/"
+cp "$ROOT/tools/RunKoreanPatch.bat" "$PACKAGE_DIR/"
 cp "$ROOT/tools/README-test-patch.txt" "$PACKAGE_DIR/README.txt"
 (
     cd "$PAYLOAD_DIR"
@@ -165,20 +179,26 @@ cp "$ROOT/tools/README-test-patch.txt" "$PACKAGE_DIR/README.txt"
 
 (
     cd "$PACKAGE_DIR"
-    zip -qr "$ZIP_PATH" payload KoreanPatch.ps1 README.txt SHA256SUMS.txt
+    zip -qr "$ZIP_PATH" payload KoreanPatch.ps1 RunKoreanPatch.bat README.txt SHA256SUMS.txt
 )
 unzip -tq "$ZIP_PATH" >/dev/null
 zip_entries="$(unzip -Z1 "$ZIP_PATH")"
 entry_count="$(printf '%s\n' "$zip_entries" | wc -l | tr -d '[:space:]')"
-[[ "$entry_count" == "36" ]] || fail "Expected 36 ZIP entries; found $entry_count."
+[[ "$entry_count" == "$((8 + font_count))" ]] || fail "Expected $((8 + font_count)) ZIP entries; found $entry_count."
 printf '%s\n' "$zip_entries" | rg -q '^payload/locatexts_zh_cn\.koalocatext_affix$' \
     || fail "ZIP is missing the affix payload at its expected relative path."
 printf '%s\n' "$zip_entries" | rg -q '^KoreanPatch\.ps1$' \
     || fail "ZIP is missing the Windows apply script."
+printf '%s\n' "$zip_entries" | rg -q '^RunKoreanPatch\.bat$' \
+    || fail "ZIP is missing the Windows launcher."
 printf '%s\n' "$zip_entries" | rg -q '^payload/fontlist_common\.koafontlist$' \
     && fail "ZIP unexpectedly contains fontlist_common.koafontlist."
 printf '%s\n' "$zip_entries" | rg -q 'locatexts_en_us\.characterset' \
     && fail "ZIP unexpectedly contains locatexts_en_us.characterset."
+if [[ "$WITHOUT_FONT" == "1" ]]; then
+    printf '%s\n' "$zip_entries" | rg -qi 'noto|\.font$|\.ntx$' \
+        && fail "Font-free ZIP unexpectedly contains font resources."
+fi
 
 printf '\nPackage created and ZIP integrity check passed:\n%s\n' "$ZIP_PATH"
 printf 'Payload: 3 zh_cn localization binaries + %s Noto font resources; common font list and characterset omitted.\n' "$font_count"

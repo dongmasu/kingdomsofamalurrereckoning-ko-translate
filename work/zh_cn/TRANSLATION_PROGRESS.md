@@ -4,6 +4,22 @@ Updated: 2026-10-14
 
 ## Active Work
 
+**D-20381 focused `base` title review (2026-10-14):** Re-reviewed all 183
+active rows whose English source begins with `The`; retained Korean titles
+with their complete source titles in parentheses and corrected nine Korean
+renderings. [Report](audit/named-scope-review-D20381-20261014.md);
+[addendum](audit/named-scope-edit-addendum-D20381-20261014.md). Pre-edit
+SHA-256 `8e2abc916ec012d3322fb5a9ea23cb91c3188665c01c7b4bc8f8772b68ef7cd2`;
+byte-identical backup
+`/private/tmp/ko-translate-backups/20261014/before-base-the-scope-D20381/locatexts_zh_cn.koalocatext_base.csv`;
+active SHA-256
+`bbe7c14b441a077b25bead2b69fd73a14ae364d6e53523009cbbc128a4c2f55d`.
+BOM, 4,844 parsed/ordered rows, 4,845 CRLF endings, all 183 exact target
+cells, and byte identity of non-target rows verified. No global tally update
+or duplicate disposition. Remaining font-resource comparison/test and the
+preferred final ZIP naming are recorded, not performed, in
+[pending package validation](audit/pending-package-validation-20261014.md).
+
 **Candidate-set review cross-check (D-20379, 2026-10-14):** The exact
 1,097 eligible candidate keys were already reviewed in D-19727-D-19738:
 160 accepted / 937 `not an issue` / zero unresolved. Exact snapshots are
@@ -19,7 +35,7 @@ Translation review remains complete through D-20377 / ID 65134;
 active SHA-256 `b0e554459bd40fbdd0e654a706ef7f265e5e0f6e7f62b65d6f1f851d4104dffe`;
 last pre-edit backup `/private/tmp/ko-translate-backups/20261014/before-named-scope-D20373/locatexts_zh_cn.koalocatext_default.csv`.
 
-**Current (D-20377, 2026-10-14):** Reviewed active default 65101-65134; No CSV edit. [Report](audit/named-scope-review-D20377-20261014.md); [addendum](audit/named-scope-edit-addendum-D20377-20261014.md). No CSV edit; last pre-edit byte-identical backup `/private/tmp/ko-translate-backups/20261014/before-named-scope-D20373/locatexts_zh_cn.koalocatext_default.csv`. Active SHA-256 `b0e554459bd40fbdd0e654a706ef7f265e5e0f6e7f62b65d6f1f851d4104dffe`. BOM, 72,011 CRLF, 73 bare LF and 65,135 ordered IDs passed; no CSV edit. Last reviewed 65134; no remaining default IDs; 0 actual rows remain through 65134. All requested default IDs reviewed. Global tally unreconciled; affix 55 closed D-19565.
+**Default sequential checkpoint (D-20377, 2026-10-14):** Reviewed active default 65101-65134; no CSV edit. [Report](audit/named-scope-review-D20377-20261014.md); [addendum](audit/named-scope-edit-addendum-D20377-20261014.md). No CSV edit; last pre-edit byte-identical backup `/private/tmp/ko-translate-backups/20261014/before-named-scope-D20373/locatexts_zh_cn.koalocatext_default.csv`. Active SHA-256 `b0e554459bd40fbdd0e654a706ef7f265e5e0f6e7f62b65d6f1f851d4104dffe`. BOM, 72,011 CRLF, 73 bare LF and 65,135 ordered IDs passed; no CSV edit. Last reviewed 65134; no remaining default IDs; 0 actual rows remain through 65134. All requested default IDs reviewed. Global tally unreconciled; affix 55 closed D-19565.
 
 **Historical (D-20376, 2026-10-14):** Reviewed active default 65051-65100; No CSV edit. [Report](audit/named-scope-review-D20376-20261014.md); [addendum](audit/named-scope-edit-addendum-D20376-20261014.md). No CSV edit; last pre-edit byte-identical backup `/private/tmp/ko-translate-backups/20261014/before-named-scope-D20373/locatexts_zh_cn.koalocatext_default.csv`. Active SHA-256 `b0e554459bd40fbdd0e654a706ef7f265e5e0f6e7f62b65d6f1f851d4104dffe`. BOM, 72,011 CRLF, 73 bare LF and 65,135 ordered IDs passed; no CSV edit. Last reviewed 65100; next D-20377 / 65101-65134; 34 actual rows remain through 65134. Review incomplete. Global tally unreconciled; affix 55 closed D-19565.
 

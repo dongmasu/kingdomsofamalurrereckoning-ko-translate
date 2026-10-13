@@ -64,15 +64,14 @@ if (-not (Test-Path -LiteralPath $PayloadDirectory -PathType Container)) {
 }
 
 $PayloadFiles = @(Get-ChildItem -LiteralPath $PayloadDirectory -File)
-if ($PayloadFiles.Count -ne 32) {
-    throw "Expected 32 payload files (3 localization files and 29 Noto font files); found $($PayloadFiles.Count)."
+if ($PayloadFiles.Count -notin @(3, 32)) {
+    throw "Expected 3 localization files, optionally with 29 Noto font files; found $($PayloadFiles.Count)."
 }
 
 $RequiredNames = @(
     "locatexts_zh_cn.koalocatext_affix",
     "locatexts_zh_cn.koalocatext_base",
-    "locatexts_zh_cn.koalocatext_default",
-    "notosanscjksc_regular.font"
+    "locatexts_zh_cn.koalocatext_default"
 )
 foreach ($Name in $RequiredNames) {
     if (-not (Test-Path -LiteralPath (Join-Path $PayloadDirectory $Name) -PathType Leaf)) {
@@ -88,8 +87,17 @@ $FontPages = @(
     Get-ChildItem -LiteralPath $PayloadDirectory -File |
         Where-Object { $_.Name -match '^notosanscjksc_regularnotosanscjksc_regular_p\d{2}_00\.ntx$' }
 )
-if ($FontPages.Count -ne 28) {
-    throw "Expected 28 Noto font pages; found $($FontPages.Count)."
+if ($PayloadFiles.Count -eq 32) {
+    if (-not (Test-Path -LiteralPath (Join-Path $PayloadDirectory "notosanscjksc_regular.font") -PathType Leaf)) {
+        throw "Required Noto font file is missing."
+    }
+    if ($FontPages.Count -ne 28) {
+        throw "Expected 28 Noto font pages; found $($FontPages.Count)."
+    }
+}
+elseif ($FontPages.Count -ne 0 -or
+        (Test-Path -LiteralPath (Join-Path $PayloadDirectory "notosanscjksc_regular.font") -PathType Leaf)) {
+    throw "Font-free package must not contain Noto font resources."
 }
 
 $ManifestPath = Join-Path $PSScriptRoot "SHA256SUMS.txt"

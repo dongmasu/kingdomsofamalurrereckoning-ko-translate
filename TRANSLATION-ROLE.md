@@ -107,6 +107,11 @@ The translator must:
 - follow the official Korean manual's established terminology;
 - use English as the semantic anchor, Japanese especially for register and
   character voice, and Chinese as an additional supporting reference;
+- for `_base` entries whose English source begins with capitalized `The`,
+  assess it as a possible item/quest title or proper name rather than treating
+  it as only a definite article. Translate the name naturally in Korean and
+  consider `Korean (English)` for traceability; confirm the context instead of
+  assuming every such entry is a proper noun;
 - preserve row keys, variant structure, tokens, tags, and formatting;
 - flag uncertain context, missing variants, or conflicting references for
   review instead of guessing silently.

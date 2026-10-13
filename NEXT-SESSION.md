@@ -38,6 +38,28 @@ Updated: 2026-10-14
 
 ## Current Work State
 
+- **D-20381 focused `base` title review (2026-10-14):** Re-reviewed 183
+  active `base` rows whose English text begins with `The`. Added the complete
+  source title in parentheses and corrected nine Korean renderings. See
+  `work/zh_cn/audit/named-scope-review-D20381-20261014.md` and its edit
+  addendum. Active base SHA-256
+  `bbe7c14b441a077b25bead2b69fd73a14ae364d6e53523009cbbc128a4c2f55d`;
+  byte-identical pre-edit backup
+  `/private/tmp/ko-translate-backups/20261014/before-base-the-scope-D20381/locatexts_zh_cn.koalocatext_base.csv`.
+  BOM, 4,844 ordered CSV rows, 4,845 CRLF endings, target cells, and all
+  non-target row bytes were verified. No previous keys were recounted and
+  no global tally was changed.
+
+- **Pending package checks (recorded only, 2026-10-14):** Compare original
+  and Korean-patch binary sizes for the 29 Noto resources listed in
+  `work/zh_cn/audit/pending-package-validation-20261014.md`; test a build
+  using the original game's font resources; if Korean display remains
+  correct, omit the changed font resources. The user's question about equal
+  binary sizes is unresolved. Preferred final ZIP filename:
+  `KingdomsOfAmalur_Korean_zh_cn_yyyymmddHHMMSS.zip`, without `_TEST`.
+  This turn did not inspect `PAK_DIFF.md` or font binaries, build a ZIP, or
+  run the test. `tools/build.sh` remains unchanged.
+
 - **D-20379 candidate-set cross-check (2026-10-14):** The reconstructed
   1,097 eligible keys are already fully reviewed in D-19727-D-19738:
   160 accepted / 937 `not an issue` / zero unresolved. Exact snapshots
