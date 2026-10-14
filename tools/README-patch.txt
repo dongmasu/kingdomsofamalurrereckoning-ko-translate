@@ -30,7 +30,7 @@ Kingdoms of Amalur: Re-Reckoning Korean zh_cn Patch and Installation Guide
    다른 위치에 설치했다면 게임 폴더 경로를 입력합니다.
 4. 게임 폴더를 확인하면 나머지 절차는 자동으로 진행됩니다. 원본 PAK을 검증하고
    임시 폴더에서 새 PAK을 만든 뒤 백업 및 교체합니다.
-5. 적용 완료 후 Steam 게임 속성에서 게임 언어를 중국어(간체)로 설정합니다.
+5. 적용 완료 후 Steam 게임 속성에서 게임 언어를 Chinese Simplified로 설정합니다.
 6. 완료 메시지가 표시되면 아무 키나 눌러 PowerShell 창을 닫습니다. 오류가 난 경우에도
    오류 메시지를 확인할 수 있도록 키 입력 전까지 창이 유지됩니다.
 
@@ -54,10 +54,9 @@ and leaves the original English (`en_us`) resources intact.
 
 Supported baseline: the main menu must show Version: cs:15032.
 The Steam BuildID is not used as the compatibility check.
-The release package includes the Noto font and 28 glyph pages. A font-free
-experimental build displayed hyphens instead of Korean and is not suitable
-for use. The package does not override `fontlist_common.koafontlist` or
-include `locatexts_en_us.characterset`.
+The release package includes the Noto font and 28 glyph pages. It does not
+override `fontlist_common.koafontlist` or include
+`locatexts_en_us.characterset`.
 
 Install:
 1. Extract the entire ZIP to a folder.
@@ -69,7 +68,7 @@ Install:
 4. Once the game folder is confirmed, the script automatically verifies the
    package and game files, rebuilds and verifies the PAK, backs up the original,
    and installs the replacement.
-5. After installation, set the Steam language to Chinese (Simplified).
+5. After installation, set the Steam language to Chinese Simplified.
 6. When the completion message appears, press any key to close the PowerShell
    window. On failure, the error remains visible until a key is pressed.
 

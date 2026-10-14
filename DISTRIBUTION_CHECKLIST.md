@@ -22,13 +22,13 @@ The original `fontlist_zh_cn.koafontlist` references Noto, so the current
 package keeps the Noto resources but does not override the common font list.
 The smoke test confirms only the user's tested setup; broader font coverage,
 Windows installer behavior, and in-game functionality remain unverified.
+Keep `default` ID 45204 displayed as `중국어(간체)`, not `한국어`: the
+internal slot remains `zh_cn`, and consistently relabeling it would require
+changes across the game's language files, contrary to the minimal-change goal.
 
 ## Released Package
 
-The byte comparison in `references/data/PAK_DIFF.md` found 34 changes in the
-blog-downloaded Korean PAK compared with the inspected original: three
-localization binaries, 30 font resources, and one characterset file. The
-official ZIP omits the characterset and common font list and contains:
+The official ZIP omits the characterset and common font list and contains:
 
 - Three Korean `zh_cn` localization binaries:
   `locatexts_zh_cn.koalocatext_affix`,
@@ -40,7 +40,7 @@ official ZIP omits the characterset and common font list and contains:
   `SHA256SUMS.txt`.
 
 The released ZIP is
-`dist/20261014031124/KingdomsOfAmalur_Korean_zh_cn_20261014031124.zip`. It
+`dist/20261014035742/KingdomsOfAmalur_Korean_zh_cn_20261014035742.zip`. It
 contains 32 payload files (three localization binaries and 29 Noto font
 resources), with no common font list or characterset. Generated `dist/`
 packages are ignored by Git and are attached to GitHub Releases instead of
@@ -50,7 +50,7 @@ prompts once for the game directory (default:
 documents `cs:15032` as the supported baseline, then automatically proceeds
 after the game folder is confirmed. It rebuilds the user's full PAK, verifies
 the candidate, backs up the original, and then installs it. After installation,
-the game language should be Chinese (Simplified).
+the game language should be `Chinese Simplified`.
 
 The ZIP passed build-time localization round-trip and archive integrity
 checks. Its included PowerShell script is byte-identical to the ASCII-only
@@ -100,35 +100,12 @@ matched against a depot manifest; the in-game test was a brief smoke test.
   accepted translation changes are made, rebuild and validate a new package
   before replacing or superseding that release.
 
-## TODO: ko_kr Locale Experiment
-
-- [x] Build a separate `ko_kr` experiment ZIP with three renamed localization
-  binaries, the original `fontlist_zh_cn.koafontlist` copied under the name
-  `fontlist_ko_kr.koafontlist`, and the existing 29 Korean-capable Noto files.
-  Run `tools/build.sh --ko-kr-experiment`. The original `zh_cn` resources
-  remain untouched in the target PAK; the installer checks the four new files
-  and verifies that the original `zh_cn` resources survive repacking.
-  Built `dist/20261014035657/KingdomsOfAmalur_Korean_ko_kr_EXPERIMENT_20261014035657.zip`
-  (SHA-256 `b6b51913e51ebd32101550ad98f4e6368daa5b39371111e13dd1ca17f0571e4b`).
-- [x] In-game test reported 2026-10-14: the language menu shows the added
-  `ko_kr` option as `Invalid LOC Key`; selecting it crashes the game. Treat
-  the experiment as failed and do not distribute or recommend this ZIP as a
-  usable patch. Restore the backed-up PAK and continue using the official
-  `zh_cn` release.
-- `assetinfos.bin` contains the eight existing locale resource filenames and
-  no `ko_kr` entry, but the menu still displayed a `ko_kr` option. Therefore
-  its absence is not by itself an explanation for the menu entry, and its
-  role as an asset catalog remains unconfirmed. The missing display key and
-  crash cause have not been identified.
-
 ## Build Record and Optional Validation
 
 - The README introduction, bilingual resource links, renamed reference paths,
   role-document links, `en_us`/`affix` compatibility note, and secondary
   Namu Wiki context reference were updated on 2026-10-07. Before publication,
   check Korean/English parity and verify every public link.
-  `references/data/PAK_DIFF.md` is local-only because `references/data/` is
-  Git-ignored; only `references/manual/` is included in the public repository.
 - The sequential default-ID review is complete through ID 65134. The
   historical global tally's unidentified 987-key membership was closed at
   the user's direction as an unrecoverable accounting limitation. It does not
@@ -147,7 +124,7 @@ matched against a depot manifest; the in-game test was a brief smoke test.
 - [ ] Run the PowerShell installer on Windows against game version
   `cs:15032`; confirm candidate creation, round-trip payload hashes, timestamped
   original backup, and safe replacement.
-- [ ] Launch the game with Chinese (Simplified) selected and verify menu/UI,
+- [ ] Launch the game with `Chinese Simplified` selected and verify menu/UI,
   Hangul font rendering, dialogue, item descriptions, multiline strings, and
   locale-variant behavior.
 - Test the built PAK in the matching game version with the selected
@@ -161,8 +138,8 @@ matched against a depot manifest; the in-game test was a brief smoke test.
   notes before changing the documented compatibility claims.
 - [x] Public source repository created and pushed on 2026-10-14:
   `https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate`.
-  The intended exception is `references/manual/`; all other `references/`
-  material, including original and comparison PAKs, remains ignored.
+  Only `references/manual/` is included; other reference material remains
+  excluded from the public repository.
 - `.gitignore` excludes `.DS_Store`, Python bytecode/caches, and generated
   `dist/` packages. The ZIP is published as an official, non-prerelease
   release asset. Windows installer and comprehensive compatibility checks

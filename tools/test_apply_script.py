@@ -48,23 +48,19 @@ class ApplyScriptPromptOrderTests(unittest.TestCase):
         self.assertIn('$EnteredDirectory = Read-Host "Game folder', SCRIPT)
         self.assertNotIn("APPLY", SCRIPT)
 
-    def test_payload_accepts_font_free_or_complete_font_set_without_common_override(self):
-        self.assertIn("$PayloadFiles.Count -notin @(3, 32)", SCRIPT)
-        self.assertIn("$PayloadFiles.Count -eq 32", SCRIPT)
+    def test_payload_requires_complete_font_set_without_common_override(self):
+        self.assertIn("$PayloadFiles.Count -ne 32", SCRIPT)
         self.assertIn("$FontPages.Count -ne 28", SCRIPT)
         self.assertIn('"notosanscjksc_regular.font"', SCRIPT)
         self.assertIn('"fontlist_common.koafontlist"', SCRIPT)
         self.assertIn("must not be overridden", SCRIPT)
         self.assertNotIn('"fontlist_common.koafontlist",\n', SCRIPT)
 
-    def test_ko_kr_experiment_adds_only_new_locale_files_and_preserves_zh_cn(self):
-        self.assertIn('fontlist_ko_kr.koafontlist', SCRIPT)
-        self.assertIn('$PayloadFiles.Count -ne 33', SCRIPT)
-        self.assertIn('$AddedNames = @()', SCRIPT)
-        self.assertIn('$AddedNames = @($RequiredNames)', SCRIPT)
-        self.assertIn('$ExpectedFileCount = $OriginalFileCount + $AddedNames.Count', SCRIPT)
-        self.assertIn('The ko_kr experiment unexpectedly changed $Name.', SCRIPT)
-        self.assertIn('The ko_kr experiment is already installed:', SCRIPT)
+    def test_installer_targets_only_zh_cn(self):
+        self.assertIn('"locatexts_zh_cn.koalocatext_affix"', SCRIPT)
+        self.assertIn('"locatexts_zh_cn.koalocatext_base"', SCRIPT)
+        self.assertIn('"locatexts_zh_cn.koalocatext_default"', SCRIPT)
+        self.assertNotIn("ko_kr", SCRIPT)
 
     def test_completion_wait_runs_after_success_or_failure(self):
         self.assertIn('$Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")', SCRIPT)

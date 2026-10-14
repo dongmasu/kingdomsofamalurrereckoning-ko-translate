@@ -11847,10 +11847,10 @@ No CSV backup was needed because no active CSV cell changed.
 Report:
 [`D-19561 affix residual sweep`](consolidated-affix-residual-sweep-D19561-20261012.md).
 
-## Historical PAK-Based Rationale (2026-10-12, D-19560; Superseded)
+## Historical Rationale (2026-10-12, D-19560; Superseded)
 
 The disposition rationale below is superseded by D-19564's source-only
-review. Do not use the PAK comparison as evidence.
+review; use that later review for the current disposition.
 
 D-19560 closed default ID 62869 as `not an issue`. Correctly indexed ID
 62869 in the corrected Korean PAK uses `발라 라치`; the earlier Korean PAK

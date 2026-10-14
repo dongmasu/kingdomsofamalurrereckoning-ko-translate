@@ -3,10 +3,8 @@
 - Date: 2026-10-12; decision D-19563.
 - Scope: read-only item/loot asset context search for the seven unresolved
   Chinese-only fallback terms from D-19561.
-- Search roots: existing original and two Korean-comparison PAK extractions
-  under `references/data/unpacked/`,
-  `references/data/(ko_kr)(deinside)unpacked/`, and
-  `references/data/(ko_kr)(zxcv3428)unpacked/`.
+- This historical asset-text search was superseded by the source-only review
+  rule. Do not use its findings as translation evidence.
 
 ## Search and Disposition
 
@@ -20,13 +18,9 @@
 | 341 | `of Clairy` | `*클레어리*` | uncertain | No linked item/effect name found. |
 | 496 | `Prime` | `최상급` | uncertain | No linked item/effect name found. |
 
-Searched the 270 existing `.bundle`, `.loottable_bxml`,
-`.itemset_bxml`, and `*_loot.batch` files for the exact English modifiers
-and the existing Korean candidate/PAK forms. No matching strings were
-found. This is a negative literal-string search, not proof that binary
-numeric references do not exist; the available extracted files provide no
-decoded item-to-affix mapping that would safely identify a composition.
-Accordingly, no translation change or disposition change is supported.
+The historical literal-string search found no linked item/effect context.
+This negative result is not proof that binary references do not exist and
+must not be used to support a translation disposition.
 
 ## Counts and Integrity
 

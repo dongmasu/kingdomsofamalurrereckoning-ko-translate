@@ -114,8 +114,9 @@ translation is not proof that it can be repacked or displayed correctly.
   in-game or that other game versions are compatible.
 - The user selected `zh_cn` as the Korean work/destination to keep
   English available. `work/zh_cn/` follows the exact `zh_cn` CSV structure.
-  The Korean comparison PAK's `en_us` filenames do not establish that the new
-  `zh_cn` candidate works in-game.
+  The `ko_kr` experiment displayed `Invalid LOC Key` and crashed when
+  selected; its cause remains unidentified. The supported release continues
+  to use `zh_cn`.
 - A 2026-10-06 key comparison found the work `base` (4,844 rows) and
   `default` (65,135 IDs) structures match `en_us`, but the work `affix` has
   3,311 Japanese-template variants while `en_us` has 586 `FF` rows. Do not
@@ -129,21 +130,15 @@ translation is not proof that it can be repacked or displayed correctly.
 - `src/lang/locatexts_en_us.koalocatext_{affix,base,default}` remain immutable
   English reference binaries. Korean `zh_cn` localization binaries were
   generated for the release package and passed CSV round-trip checks.
-- The historical Korean comparison PAK differs from the inspected original
-  by 34 files: three localization binaries, 30 font resources, and
-  `locatexts_en_us.characterset`. The `zh_cn` release payload instead
-  contains three localization binaries and 29 Noto font resources; it omits
-  both `fontlist_common.koafontlist` and the characterset. The user confirmed
-  in-game Korean rendering for that tested setup, and the original
-  `fontlist_zh_cn.koafontlist` references the Noto font.
+- The `zh_cn` release payload contains three localization binaries and 29
+  Noto font resources; it omits `fontlist_common.koafontlist` and the
+  characterset. The user confirmed in-game Korean rendering for the tested
+  setup, and the original `fontlist_zh_cn.koafontlist` references the Noto
+  font.
 - A release is a patch delta, not a standalone PAK. Each user must unpack
   their own complete original `data/patch_0.pak`, overlay the release
   payload, and build a complete PAK with the game's tools. Confirm that the
   source game version matches the version used to prepare the delta.
-- `locatexts_en_us.characterset` is absent from the original PAK and present
-  in the Korean comparison PAK. Its format, purpose, and generation method
-  remain unknown. Preserve the reference file as-is; do not synthesize or
-  edit it.
 - The release ZIP's localization binaries passed build-time round-trip and
   archive integrity checks. The user reported Korean rendering in the
   zh_cn setup without the characterset or common font list. Windows installer

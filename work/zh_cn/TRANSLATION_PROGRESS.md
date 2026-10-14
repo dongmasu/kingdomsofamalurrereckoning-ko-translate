@@ -18,6 +18,12 @@ BOM, 4,844 parsed/ordered rows, 4,845 CRLF endings, all 183 exact target
 cells, and byte identity of non-target rows verified. No global tally update
 or duplicate disposition.
 
+**Locale-label decision (2026-10-14):** Keep `default` ID 45204 as
+`중국어(간체)`. The internal locale remains `zh_cn`; changing the displayed
+label to `한국어` would require updating the corresponding label across the
+game's language files, conflicting with the project's minimal-change goal.
+Do not edit this cell as part of the Korean translation.
+
 **Distribution documentation and asset refresh (2026-10-14):** The
 user-approved package is the official, non-prerelease GitHub Release. Its
 bilingual README was refreshed and the asset replaced without changing any

@@ -62,21 +62,14 @@ Updated: 2026-10-14
   Current asset SHA-256:
   `e1bf6a52c02bd4435b024f8beca94a532fe9ab41fdf72f49428674566054397a`.
 
-- **ko_kr experiment ZIP (2026-10-14):** `tools/build.sh --ko-kr-experiment`
-  generated
-  `dist/20261014035657/KingdomsOfAmalur_Korean_ko_kr_EXPERIMENT_20261014035657.zip`
-  (SHA-256 `b6b51913e51ebd32101550ad98f4e6368daa5b39371111e13dd1ca17f0571e4b`).
-  It adds three `ko_kr` localization resources and `fontlist_ko_kr` without
-  replacing the original `zh_cn` resources; the Noto assets and translation
-  binary bytes match the existing release. ZIP contents, manifest, and
-  affix/base/default round trips passed. User tested it in-game: the language
-  menu displayed the added option as `Invalid LOC Key`, and selecting it
-  crashed the game. Treat this experiment as failed; restore the backed-up
-  PAK and use the official `zh_cn` Release. Although
-  `references/data/unpacked/assetinfos.bin` lists the original eight locale
-  resource sets but no `ko_kr`, the menu still showed a `ko_kr` option, so its
-  absence alone does not explain the result. The missing display key and
-  crash cause remain unidentified. The official Release is unchanged.
+- **Locale-label decision (2026-10-14):** Preserve `default` ID 45204 as
+  `중국어(간체)`. The game still uses the `zh_cn` slot; relabeling it
+  `한국어` consistently would require editing all language files and would
+  violate the minimal-change goal. Do not change the active CSV cell.
+
+- **Locale experiment (closed, 2026-10-14):** Adding a `ko_kr` locale made
+  the language menu display `Invalid LOC Key`; selecting it crashed the game.
+  Do not repeat without new evidence. The official `zh_cn` Release is unchanged.
 
 - **Font-format investigation resumed:** `src/font/` contains one `.font`
   metadata file and 28 `.ntx` pages, all with `FORK` magic. Page sizes match
@@ -19318,54 +19311,41 @@ Updated: 2026-10-14
   directly in `work/zh_cn/`. These notes are not a full review of the
   migrated `zh_cn` strings. Do not publish `__pycache__`, generated caches,
   or references.
-- Current workspace is not a Git repository: `git status --short` failed
-  because `.git` is absent. `.gitignore` excludes `/references/` only.
+- Historical note: `.git` was absent in that earlier workspace snapshot.
+  This does not describe the current workspace, which is a Git repository.
 
-## Locale and Build Decisions Still Open
+## Remaining Follow-Up
 
-- Source game version confirmed by the user in the main menu:
-  `Version: cs:15032`. The inspected original `patch_0.pak` was copied from
-  that Steam installation. Its Steam AppID `1041720`, BuildID `10619381` is
-  secondary provenance information. Treat `cs:15032` as the compatibility
-  baseline; archive/depot equivalence and rebuilt-PAK compatibility remain
-  unverified.
-- The user selected `zh_cn` as the destination candidate to preserve
-  `en_us`. This selection is not proof of runtime font/locale behavior or
-  rebuilt-PAK compatibility.
-- Structural comparison:
-  - Active work `base` (4,844), `default` (65,135), and `affix` (3,451)
-    keys/order match `zh_cn`.
-  - The 140 additional `zh_cn` `affix` rows have provisional fallback
-    translations, not reviewed or approved.
-  - `en_us` has 586 `FF` rows and shares no work `affix` variant keys.
-  - `ru_ru` `base` has 2,241 variant-key differences; Russian is not a
-    translation reference.
-- The user confirmed an in-game test in the `zh_cn` setup rendered Korean
-  without including the added `fontlist_common.koafontlist`.
-  `fontlist_zh_cn.koafontlist` already references
-  `notosanscjksc_regular.font`, which is the likely explanation. Treat Hangul
-  rendering as verified for that tested setup; behavior for other
-  locale/font-role combinations and rebuilt-PAK compatibility remains open.
-  Refreshed ZIP:
-  `dist/20261009070145/KingdomsOfAmalur_Korean_zh_cn_TEST.zip` (32 payload
-  files). Its packaged PowerShell script is ASCII-only English. Build-time
-  localization round-trip and archive checks passed; this refreshed ZIP has
-  not itself been installed or retested in-game.
-- `locatexts_en_us.characterset` is 6,903 bytes, present in the Korean
-  comparison extraction and absent from the inspected original. Its format,
-  purpose, origin, and generation method remain unknown. Preserve it
-  byte-for-byte; do not rename or synthesize it.
-- The historical 34-file comparison-PAK delta is three localization
-  binaries, 30 font resources, and the additional `characterset`. The
-  current `zh_cn` test payload is smaller: three localization binaries and
-  29 Noto font resources, without `fontlist_common.koafontlist` or the
-  characterset. This is not a ready or fully validated release. Current
-  `src/lang` localization binaries are original English, not Korean outputs.
-- Confirm the target game version and locale/resource filenames. Validate
-  locale selection, fonts, characterset, rebuilt archive, and representative
-  in-game text before claiming compatibility.
+- **Translation review:** Complete through `default` ID 65134. No translation
+  rows remain in the requested scope. The 140 additional `affix` variants
+  have dispositions. Do not reopen the historical unidentified 987-key
+  accounting gap; the user closed it as an unrecoverable tally limitation.
+- **Font format:** The `.font` metadata and `.ntx` page format remain
+  undecoded. Continue only if useful; tracing the game's loader with REA
+  requires the game executable, which is not in this workspace. Keep source
+  assets read-only and put derived analysis files in a temporary directory.
+- **Optional release validation:** The official `zh_cn` release remains
+  user-approved. Independent Windows installer testing, broader UI/long-play
+  coverage, and compatibility with other game versions/locales are not
+  complete; these are optional follow-ups, not blockers to the existing
+  release.
+- **`ko_kr` experiment:** Closed as failed. The language menu showed
+  `Invalid LOC Key`, and selecting the entry crashed. Do not repeat the
+  experiment without new evidence; continue using the official `zh_cn`
+  release. The missing label key and crash cause are unknown.
+- **Characterset:** `locatexts_en_us.characterset` remains unexplained and is
+  omitted from the official package. No further action is planned unless
+  evidence makes it necessary.
 
-## Archived Remaining Work (Superseded by the Current Checkpoint Above)
+The original game baseline remains `Version: cs:15032`, confirmed in the
+user's main menu. Steam AppID `1041720` and BuildID `10619381` are provenance
+details only; depot equivalence has not been independently established.
+
+## Archived Remaining Work (Superseded; Historical Only)
+
+Everything below is retained as a historical record, not an active task list.
+Use only the current status and follow-ups above; do not resume old IDs,
+counts, plans, or release instructions from this archive.
 
 1. **Historical contextual-review snapshot:** the counts, resume ID, and
    hold list in this archived entry are stale. Use the D-19564 current

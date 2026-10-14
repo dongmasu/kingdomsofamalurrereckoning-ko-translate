@@ -3,13 +3,13 @@
 ## 한국어
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/test-20261014/KingdomsOfAmalur_Korean_zh_cn_20261014031124.zip)
+- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261014035742/KingdomsOfAmalur_Korean_zh_cn_20261014035742.zip)
 
 ### 작업 배경과 감사
 
 유튜브에서 [노박님의 게임 소개 영상](https://www.youtube.com/watch?v=nCVV3Ql-_rU)을 보고 *Kingdoms of Amalur: Re-Reckoning*에 관심을 갖게 됐습니다. 게임을 무척 신나게 소개해 주셔서 직접 해보고 싶어졌습니다. 처음에는 [zxcv3428님의 한글화 패치](https://zxcv3428.tistory.com/215)를 받아 플레이했습니다. 그 패치 덕분에 게임을 즐길 수 있어 감사하지만, 제가 받은 배포본이 1GB가 넘는 완성형 PAK이었고 영어 로케일(`en_us`)을 한글 텍스트로 교체해 영어를 선택하면 한글이 표시되는 점은 아쉬웠습니다. 그래서 필요한 리소스만 배포하고 각자 보유한 게임 파일로 패키지를 재구성하는 방식을 직접 만들어보기로 했습니다.
 
-작업 중 [커뮤니티 개선판](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527)이 나온 것도 확인했습니다. 기존 한글화의 번역을 개선한 작업을 반갑게 생각합니다. 또한 꾸준히 업데이트해 주시고 번역 품질도 점점 나아지고 있어, 개선판으로 게임을 즐기시는 게 더 나을 수도 있습니다. 다만 제가 아쉽게 느꼈던 배포 방식과 언어 슬롯 문제는 개선판에서도 해결되지 않은 것으로 보여 독립적인 번역 작업을 계속하기로 했습니다.
+작업 중 [커뮤니티 개선판](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527)이 나온 것도 확인했습니다. 기존 한글화의 번역을 개선한 작업을 반갑게 생각합니다. 또한 꾸준히 업데이트해 주시고 번역 품질도 점점 나아지고 있어, 개선판으로 게임을 즐기시는 게 더 나은 선택일 것이라고 생각합니다. 다만 제가 아쉽게 느꼈던 배포 방식과 언어 슬롯 문제는 개선판에서도 해결되지 않은 것으로 보여 독립적인 번역 작업을 계속하기로 했습니다.
 
 이 프로젝트는 세 번째 한글화 작업입니다. 완성된 한글 패치를 제공하는 것뿐 아니라, 누구나 번역을 이어갈 수 있는 작업 환경과 추출·번역·재패킹 방법을 남기는 것을 목표로 합니다. 그래야 이후 게임 업데이트나 DLC가 나와도 다른 분들이 작업을 이어가며 번역 품질을 유지할 수 있기 때문입니다. 이 작업의 출발점이 된 [Amalur PT-BR 번역과 추출·재패킹 스크립트](https://www.nexusmods.com/kingdomsofamalurrereckoning/mods/67)를 제공해 주신 분께 감사드립니다.
 
@@ -35,21 +35,9 @@ CSV에서는 메뉴와 대사가 한데 섞여 있고, 이어지는 대사도 �
 - [커뮤니티 개선판](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527)
 - [나무위키 「킹덤 오브 아말러」 문서](https://namu.wiki/w/%ED%82%B9%EB%8D%A4%20%EC%98%A4%EB%B8%8C%20%EC%95%84%EB%A7%90%EB%9F%AC) - 세계관과 용어 맥락을 확인하기 위한 보조 참고자료
 
-### 기존 한글 패치 아카이브
+### 현지화 리소스 구조
 
-한글화 아카이브는 게임 `data/` 디렉터리의 `patch_0.pak`으로 설치된다.
-
-### 원본 아카이브 구조
-
-원본 아카이브는 `references/data/patch_0.pak`이다. Windows에서 게임 설치 폴더의 `modding/pakfileunpacker.exe`로 풀었으며, 현재 작업 사본은 `tools/modding/pakfileunpacker.exe`에 있다. 추출 파일은 `references/data/unpacked/`에 있다.
-
-- 원본 아카이브 크기는 1,119,582,387바이트다.
-- 원본 추출본에는 약 2.24GB에 해당하는 파일 12,337개가 있다.
-- 추출 결과는 폴더 계층이 아니라 이름이 붙은 게임 리소스의 평면 디렉터리다. 주요 파일 유형은 `.bundle` 5,980개, `.collision_set_bin` 591개, `.quest_bxml` 530개, `.interaction_bxml` 517개다.
-
-#### 원본 `patch_0.pak`의 현지화 리소스
-
-원본에는 8개 로케일(`de_de`, `en_us`, `es_es`, `fr_fr`, `it_it`, `ja_jp`, `ru_ru`, `zh_cn`)마다 세 가지 유형(`base`, `default`, `affix`)이 있어 현지화 리소스가 총 24개 있다. 원본 아카이브에는 `ko_kr` 리소스가 없다.
+기준 CSV 자료에는 8개 로케일(`de_de`, `en_us`, `es_es`, `fr_fr`, `it_it`, `ja_jp`, `ru_ru`, `zh_cn`)별로 `base`, `default`, `affix` 리소스가 있다.
 
 파일명 형식은 `locatexts_<locale>.koalocatext_<type>`이다. 영문 리소스에는 `base` 항목 4,844개, `default` 항목 65,135개, `affix` 항목 586개가 있다. PT-BR 스크립트는 `base`와 `default` 파일의 첫 4바이트를 항목 수가 아니라 매직값으로 취급하고, 그 뒤에서 오름차순 4바이트 절대 오프셋 배열을 추정한다. 배열과 첫 문자열 오프셋 사이의 바이트는 스크립트가 `hash`로 부르는 불투명 데이터로 분리해 재패킹 시 보존한다. 따라서 스크립트는 포인터와 텍스트 위치는 이용하지만 이 불투명 영역의 필드별 의미까지 해독하지는 않는다. `base`의 각 항목은 스크립트상 variant-type 바이트와 UTF-8 문자열로 읽히며, `0x11`은 문자열 본문이 아니라 문자열 앞의 타입 바이트로 CSV에 따로 기록된다. 타입 바이트의 게임 내 의미는 아직 확인되지 않았다.
 
@@ -104,7 +92,7 @@ CSV의 `Tipo_Variante`는 언패커가 각 문자열 앞의 1바이트를 2자�
 
 #### 빠른 번역 및 패치 절차
 
-`work/zh_cn/`의 `affix`, `base`, `default` CSV에서 텍스트를 수정한 뒤 `tools/build.sh`를 실행하면 `dist/<날짜시간>/KingdomsOfAmalur_Korean_zh_cn_<날짜시간>.zip` 형식의 ZIP이 생성됩니다. AI 등 도구를 활용할 때는 관련 Markdown 문서도 함께 참고하면 작업 맥락을 파악하는 데 도움이 됩니다. ZIP을 압축 해제하고 `RunKoreanPatch.bat`을 더블클릭합니다. `.ps1` 파일을 직접 더블클릭하면 메모장 등 편집기로 열릴 수 있습니다. 기본 경로가 아니라면 실행 후 게임 설치 폴더를 입력합니다. 설치 과정은 기존 `patch_0.pak`을 풀고 필요한 파일을 덮어써 새 PAK으로 다시 패키징하므로 몇 분 걸릴 수 있습니다. 적용 후 Steam에서 게임 언어를 중국어(간체)로 설정합니다. 스크립트는 기준 버전 `cs:15032`를 확인합니다. 배포 패키지에는 Noto 폰트 리소스가 포함됩니다. 폰트 제외 실험 패키지는 한글 대신 하이픈을 출력해 사용할 수 없습니다. 실험 결과와 남은 선택적 검증은 [패키지 검증 기록](work/zh_cn/audit/pending-package-validation-20261014.md)을 참고하세요.
+`work/zh_cn/`의 `affix`, `base`, `default` CSV에서 텍스트를 수정한 뒤 `tools/build.sh`를 실행하면 `dist/<날짜시간>/KingdomsOfAmalur_Korean_zh_cn_<날짜시간>.zip` 형식의 ZIP이 생성됩니다. AI 등 도구를 활용할 때는 관련 Markdown 문서도 함께 참고하면 작업 맥락을 파악하는 데 도움이 됩니다. ZIP을 압축 해제하고 `RunKoreanPatch.bat`을 더블클릭합니다. `.ps1` 파일을 직접 더블클릭하면 메모장 등 편집기로 열릴 수 있습니다. 기본 경로가 아니라면 실행 후 게임 설치 폴더를 입력합니다. 설치 과정은 기존 `patch_0.pak`을 풀고 필요한 파일을 덮어써 새 PAK으로 다시 패키징하므로 몇 분 걸릴 수 있습니다. 적용 후 Steam에서 게임 언어를 `Chinese Simplified`로 설정합니다. 스크립트는 기준 버전 `cs:15032`를 확인합니다. 배포 패키지에는 Noto 폰트 리소스가 포함됩니다. 폰트 제외 실험 패키지는 한글 대신 하이픈을 출력해 사용할 수 없습니다. 실험 결과와 남은 선택적 검증은 [패키지 검증 기록](work/zh_cn/audit/pending-package-validation-20261014.md)을 참고하세요.
 
 #### Nexus 게시글 참고사항
 
@@ -119,7 +107,7 @@ CSV의 `Tipo_Variante`는 언패커가 각 문자열 앞의 1바이트를 2자�
 번역·검수·수정·검증 역할과 권한 경계는 [번역 역할 문서](TRANSLATION-ROLE.md)를 따른다.
 
 1. Windows의 게임 설치 폴더에서 원본 `data/patch_0.pak`을 백업한다. 게임 폴더의 `modding/pakfileunpacker.exe`로 별도 작업 폴더에 언팩한다. 추출 대상 폴더는 먼저 만들어 둔다.
-2. 추출본에서 `locatexts_<locale>.koalocatext_{affix,base,default}` 파일을 찾는다. 원본에는 8개 기존 로케일이 있고 `ko_kr`은 없다.
+2. 추출본에서 `locatexts_<locale>.koalocatext_{affix,base,default}` 파일을 찾는다.
 3. 새 로케일 추가 방법은 아직 확인되지 않았다. 블로그에서 받은 기존 한글 패치는 `en_us` 파일명을 유지한다. PT-BR 배포 안내는 `patch_0.pak`을 교체하고 게임 언어를 스페인어로 바꾸라고 하므로 `es_es` 슬롯을 사용하는 것으로 보인다. Thai 모드 v1.1은 Steam 언어를 Japanese로 설정하도록 안내하므로 `ja_jp` 슬롯을 대체하는 것으로 보인다. 다만 Thai 패키지 내부 파일명은 아직 직접 확인하지 않았다. 새 로케일을 추가한다고 가정하지 말고 기존 슬롯 하나를 대상으로 정한다.
 4. `src/csv/<locale>/`의 기준 CSV는 수정하지 않는다. 선택한 로케일의 리소스를 `tools/loc_toolset/`의 `unpacker_base.py`, `unpacker_default.py`, `unpacker_affix.py`로 각각 CSV로 추출한다. 현재 한글 작업본은 `work/zh_cn/`이며, `zh_cn` 리소스의 키·variant·순서를 유지하고 기존 일본어 기반 한국어 초안을 ID별로 이식했다. `zh_cn`에만 있는 추가 `affix` variant 140개는 다른 언어의 같은 variant와 대조해 모두 판정했으며, `work/zh_cn/audit/affix-extra-variant-review.tsv`에 기록되어 있다. 사용자는 문자셋 없이 한글 출력이 정상인 것을 확인했다. 이는 초기 확인이며 전체 게임 내 로케일·글꼴·PAK 검증은 계속 진행 중이다. 이전 `work/ja_jp/` 작업본은 사용자의 요청으로 2026-10-14에 삭제했다. 재패킹에 필요한 `estrutura_hashes*.bin` 보조 파일도 같은 작업 폴더에 보존한다.
 5. 작업용 CSV의 텍스트 필드만 번역·수정한다. 행 ID, variant type, 순서, 게임 토큰은 보존한다. 대응하는 `repacker_*.py`로 다시 바이너리화하면 `_NOVO.bin` 파일이 생성된다.
@@ -127,13 +115,13 @@ CSV의 `Tipo_Variante`는 언패커가 각 문자열 앞의 1바이트를 2자�
 
 #### 스크립트 수정 및 검증
 
-Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`를 적용해 스마트 따옴표와 한글 문자열을 깨뜨렸다. `tools/loc_toolset/`의 작업 사본에서는 세 언패커를 UTF-8 디코딩 방식으로 수정했고, 재패커는 수정하지 않았다. 영어·한글 아카이브의 세 리소스 유형에서 무수정 CSV 왕복을 확인했으며, `base` CSV의 한국어 문자열이 바이너리 재패킹 후에도 유지되는 것을 검증했다. 사용자는 문자셋 파일과 공용 글꼴 목록 없이 한글이 표시되는 것을 시험 패치로 확인했고, 패치는 정식 Release로 공개됐다. 모든 UI와 장시간 플레이를 포괄하는 게임 내 검증까지 완료했다는 뜻은 아니다.
+Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`를 적용해 스마트 따옴표와 한글 문자열을 깨뜨렸다. `tools/loc_toolset/`의 작업 사본에서는 세 언패커를 UTF-8 디코딩 방식으로 수정했고, 재패커는 수정하지 않았다. 세 리소스 유형의 무수정 CSV 왕복을 확인했으며, `base` CSV의 한국어 문자열이 바이너리 재패킹 후에도 유지되는 것을 검증했다. 사용자는 문자셋 파일과 공용 글꼴 목록 없이 한글이 표시되는 것을 시험 패치로 확인했고, 패치는 정식 Release로 공개됐다. 모든 UI와 장시간 플레이를 포괄하는 게임 내 검증까지 완료했다는 뜻은 아니다.
 
 #### 배포 파일로 게임에 적용하기
 
-원본과 블로그에서 받은 한글 PAK의 비교에서는 공통 파일 33개가 변경되고 `locatexts_en_us.characterset` 1개가 추가됐다. 그 비교에 포함된 변경분은 현지화 바이너리 3개, 폰트 파일 30개, 문자셋 1개다. 정식 `zh_cn` ZIP은 현지화 바이너리 3개와 Noto 폰트 리소스 29개를 담으며, 문자셋과 공용 글꼴 목록은 포함하지 않는다. 폰트 제외 ZIP은 한글 대신 하이픈을 출력해 사용할 수 없었다. 사용자는 문자셋과 공용 글꼴 목록 변경 없이 한글 출력이 정상인 것도 확인했다. 폰트 파일별 원본·한글판 크기 비교 등 선택적 조사는 [패키지 검증 기록](work/zh_cn/audit/pending-package-validation-20261014.md)에 남아 있다.
+정식 `zh_cn` ZIP은 현지화 바이너리 3개와 Noto 폰트 리소스 29개를 담으며, 문자셋과 공용 글꼴 목록은 포함하지 않는다. 폰트 제외 ZIP은 한글 대신 하이픈을 출력해 사용할 수 없었다. 사용자는 문자셋과 공용 글꼴 목록 변경 없이 한글 출력이 정상인 것도 확인했다. 폰트 리소스별 크기 비교 등 선택적 조사는 [패키지 검증 기록](work/zh_cn/audit/pending-package-validation-20261014.md)에 남아 있다.
 
-확인한 기존 한글 패치들은 `en_us` 현지화 리소스를 한글 텍스트로 교체해 영어 슬롯을 덮어쓴다. 이 프로젝트는 번역이나 게임 적용에 문제가 생겼을 때 영어 원문을 확인하고 비교할 수 있도록 `zh_cn` 슬롯을 사용하며, `en_us` 리소스는 보존한다. 한글 패치를 사용할 때는 Steam 언어를 중국어(간체)로 설정하고, 문제를 확인할 때는 영어로 바꿔 원문과 비교할 수 있다.
+확인한 기존 한글 패치들은 `en_us` 현지화 리소스를 한글 텍스트로 교체해 영어 슬롯을 덮어쓴다. 이 프로젝트는 번역이나 게임 적용에 문제가 생겼을 때 영어 원문을 확인하고 비교할 수 있도록 `zh_cn` 슬롯을 사용하며, `en_us` 리소스는 보존한다. 한글 패치를 사용할 때는 Steam 언어를 `Chinese Simplified`로 설정하고, 문제를 확인할 때는 영어로 바꿔 원문과 비교할 수 있다.
 
 조사한 원본 PAK의 게임 버전은 메인 메뉴에서 `Version: cs:15032`로 확인했으며, Steam BuildID `10619381`은 출처를 확인하는 보조 정보다. ZIP에는 완성된 PAK이 아니라 Windows 적용 스크립트와 필요한 변경 파일만 들어 있다. 스크립트는 사용자의 기존 PAK을 풀고 패키지 파일을 덮어써 별도 PAK을 만든 뒤, 검증에 성공하면 원본을 백업하고 교체한다. 덮어쓰지 않는 다른 모드 파일은 함께 남을 수 있지만, 같은 파일을 수정하는 모드와의 충돌은 피할 수 없으며 다른 게임 버전과의 호환성도 확인되지 않았다. 확인된 기준 버전은 `cs:15032`다.
 
@@ -141,12 +129,12 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 2. `RunKoreanPatch.bat`을 더블클릭한다. `.ps1` 파일을 직접 더블클릭하지 않는다. 관리자 권한이 없으면 경로를 묻기 전에 UAC 권한 요청이 표시된다. 승인한 관리자 창에서 기본 경로를 사용하거나 다른 게임 폴더를 한 번 입력한다.
 3. 게임 폴더를 확인하면 이후 절차는 자동으로 진행된다. 스크립트는 ZIP 체크섬과 게임 파일을 확인하고, 언팩 대상 파일명·명령·출력 폴더와 빌드 목록을 게임 도구에 전달한다. 원본 PAK을 풀고 ZIP의 `payload/`를 덮어써 별도 PAK을 만든 뒤 재추출하여 검증한다. 완료 또는 오류 메시지를 보여준 후 아무 키나 누를 때까지 창을 유지한다.
 4. 검증이 끝난 경우에만 기존 `data\patch_0.pak`을 시간표시가 붙은 `.backup-` 파일로 보관하고 새 PAK으로 교체한다. 실패 시 원본은 교체하지 않는다. 문제가 있으면 안내된 백업본을 복원한다.
-5. 적용 후 Steam 게임 언어를 중국어(간체)로 설정한다. 기본 대사(`default`)의 순차 검토는 ID 65134까지 완료했고, 추가 `affix` variant 140개도 판정 기록이 있다. 전역 누계의 과거 987개 키 식별 문제는 사용자의 지시에 따라 복원하지 않기로 종결했으며, 미검토 번역 수를 뜻하지 않는다. 사용자는 문자셋과 공용 글꼴 목록 없이 한글 출력이 정상임을 확인했다. 정식 Release 전환도 완료됐다.
+5. 적용 후 Steam 게임 언어를 `Chinese Simplified`로 설정한다. 기본 대사(`default`)의 순차 검토는 ID 65134까지 완료했고, 추가 `affix` variant 140개도 판정 기록이 있다. 전역 누계의 과거 987개 키 식별 문제는 사용자의 지시에 따라 복원하지 않기로 종결했으며, 미검토 번역 수를 뜻하지 않는다. 사용자는 문자셋과 공용 글꼴 목록 없이 한글 출력이 정상임을 확인했다. 정식 Release 전환도 완료됐다.
 
 ## English
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/test-20261014/KingdomsOfAmalur_Korean_zh_cn_20261014031124.zip)
+- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261014035742/KingdomsOfAmalur_Korean_zh_cn_20261014035742.zip)
 
 ### Project Background and Acknowledgements
 
@@ -178,21 +166,11 @@ For `_base` entries whose English source begins with capitalized `The`, do not t
 - [Community improvement patch](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527)
 - [Namu Wiki article on Kingdoms of Amalur](https://namu.wiki/w/%ED%82%B9%EB%8D%A4%20%EC%98%A4%EB%B8%8C%20%EC%95%84%EB%A7%90%EB%9F%AC) - secondary context for setting and terminology
 
-### Korean Localization
+### Localization Resource Structure
 
-The Korean localization archive is installed as `patch_0.pak` in the game's `data/` directory.
-
-### Original Archive Structure
-
-The original archive is `references/data/patch_0.pak`. It was unpacked on Windows using the `modding/pakfileunpacker.exe` included in the game installation; the current working copy is at `tools/modding/pakfileunpacker.exe`. The extracted files are in `references/data/unpacked/`.
-
-- The original archive is 1,119,582,387 bytes.
-- The original extraction contains 12,337 files, about 2.24 GB in total.
-- The extraction is a flat directory of named game resources rather than a hierarchy of folders. Major file groups include 5,980 `.bundle` files, 591 `.collision_set_bin` files, 530 `.quest_bxml` files, and 517 `.interaction_bxml` files.
-
-#### Localization Resources in the Original `patch_0.pak`
-
-The original contains 24 localization resources: three resource types (`base`, `default`, and `affix`) for each of eight locales (`de_de`, `en_us`, `es_es`, `fr_fr`, `it_it`, `ja_jp`, `ru_ru`, and `zh_cn`). There is no `ko_kr` localization resource in the original archive.
+The reference CSV data contains three resource types (`base`, `default`,
+and `affix`) for each of eight locales (`de_de`, `en_us`, `es_es`, `fr_fr`,
+`it_it`, `ja_jp`, `ru_ru`, and `zh_cn`).
 
 Files follow the pattern `locatexts_<locale>.koalocatext_<type>`. The English resources contain 4,844 `base` entries, 65,135 `default` entries, and 586 `affix` entries. The PT-BR scripts treat the first four bytes of `base` and `default` files as magic values, not entry counts, then infer an ascending array of 4-byte absolute offsets. Bytes between that array and the first string offset are separated as opaque data, called `hash` by the scripts, and preserved during repacking. Thus, the scripts use the pointers and locate the text, but do not decode the individual fields in that opaque region. In `base`, each entry is parsed by the scripts as a variant-type byte followed by a UTF-8 string; `0x11` is recorded separately in the CSV as the type byte before the string, not as part of the string itself. The game's semantic meaning of this type byte remains unknown.
 
@@ -247,7 +225,7 @@ The primary localization-format reference is the [Amalur PT-BR Translation and i
 
 #### Quick Translation and Patch Build
 
-Edit the text in the `affix`, `base`, and `default` CSVs under `work/zh_cn/`, then run `tools/build.sh`. It creates a ZIP under `dist/<timestamp>/` named `KingdomsOfAmalur_Korean_zh_cn_<timestamp>.zip`. Use `tools/build.sh --without-font` only for experiments: that package rendered hyphens instead of Korean and is not suitable as the Korean patch. The official release package includes the 29 Noto font resources. If using AI or other tools, consult the related Markdown documents for project context. Extract the ZIP and double-click `RunKoreanPatch.bat`; do not double-click `KoreanPatch.ps1`, which may open in a text editor. Enter the game installation folder if it is not the default. The installer unpacks the existing `patch_0.pak`, overlays the required files, and rebuilds it, which may take several minutes. Set the Steam game language to Chinese (Simplified) afterward. The script checks for baseline version `cs:15032`.
+Edit the text in the `affix`, `base`, and `default` CSVs under `work/zh_cn/`, then run `tools/build.sh`. It creates a ZIP under `dist/<timestamp>/` named `KingdomsOfAmalur_Korean_zh_cn_<timestamp>.zip` and includes all 29 required Noto font resources. If using AI or other tools, consult the related Markdown documents for project context. Extract the ZIP and double-click `RunKoreanPatch.bat`; do not double-click `KoreanPatch.ps1`, which may open in a text editor. Enter the game installation folder if it is not the default. The installer unpacks the existing `patch_0.pak`, overlays the required files, and rebuilds it, which may take several minutes. Set the Steam game language to `Chinese Simplified` afterward. The script checks for baseline version `cs:15032`.
 
 #### Notes from the Nexus Posts
 
@@ -262,7 +240,7 @@ The author reports testing the unmodified scripts on Steam and GOG, but comments
 Translation, review, editing, and verification permissions are defined in [TRANSLATION-ROLE.md](TRANSLATION-ROLE.md).
 
 1. Back up the original `data/patch_0.pak` in the Windows game installation. Use the game's `modding/pakfileunpacker.exe` to unpack it into a separate working directory. Create the destination directory first.
-2. Find the `locatexts_<locale>.koalocatext_{affix,base,default}` files. The original has eight existing locales and no `ko_kr` locale.
+2. Find the `locatexts_<locale>.koalocatext_{affix,base,default}` files.
 3. Adding a new locale has not been verified. The earlier Korean patch downloaded from the blog keeps the `en_us` filenames. The PT-BR distribution instructs users to replace `patch_0.pak` and switch the game to Spanish, suggesting it uses the `es_es` slot. Thai mod v1.1 instructs users to set the Steam language to Japanese, suggesting it replaces the `ja_jp` slot; the package's internal filenames have not been inspected directly. Do not assume a new locale can be added; choose an existing slot.
 4. Keep the reference CSVs in `src/csv/<locale>/` unchanged. Extract each selected resource to CSV with `unpacker_base.py`, `unpacker_default.py`, or `unpacker_affix.py` from `tools/loc_toolset/`. The active Korean working files are in `work/zh_cn/`, preserving the `zh_cn` keys, variants, and order; Japanese-derived Korean text was mapped by ID. All 140 additional `affix` variants unique to `zh_cn` have been reviewed and dispositioned in `work/zh_cn/audit/affix-extra-variant-review.tsv`. The user confirmed Korean output in the `zh_cn` setup without the characterset or `fontlist_common.koafontlist`; the locale font list already references `notosanscjksc_regular.font`. The official release package omits the common font list and retains all 29 Noto font resources. Broader locale/font-role and cross-version behavior are not established by that test. The prior `work/ja_jp/` draft was deleted at the user's request on 2026-10-14; preserve the required `estrutura_hashes*.bin` sidecars alongside the active `work/zh_cn/` files when repacking.
 5. Translate or edit only the text fields in working CSVs. Preserve row IDs, variant types, ordering, and game tokens. Run the matching `repacker_*.py`; it creates an output ending in `_NOVO.bin`.
@@ -270,16 +248,16 @@ Translation, review, editing, and verification permissions are defined in [TRANS
 
 #### Script Changes and Validation
 
-The upstream unpackers applied `chr()` to each input byte instead of decoding strings as UTF-8, corrupting smart quotes and Korean text. In the working copies under `tools/loc_toolset/`, all three unpackers were changed to decode UTF-8; the repackers were left unchanged. No-edit CSV round trips were checked for all three resource types from both the English and Korean archives. A Korean string in a `base` CSV was also verified after binary repacking and re-extraction. The user reports normal Korean output in a test without the characterset or common font list, and the patch has been published as an official GitHub Release. That report does not claim comprehensive in-game testing.
+The upstream unpackers applied `chr()` to each input byte instead of decoding strings as UTF-8, corrupting smart quotes and Korean text. In the working copies under `tools/loc_toolset/`, all three unpackers were changed to decode UTF-8; the repackers were left unchanged. No-edit CSV round trips passed for all three resource types. A Korean string in a `base` CSV was also verified after binary repacking and re-extraction. The user reports normal Korean output in a test without the characterset or common font list, and the patch has been published as an official GitHub Release. That report does not claim comprehensive in-game testing.
 
 #### Applying the Patch to the Game
 
-The comparison between the original and blog-downloaded Korean PAK found 33 changed files shared by both archives and one Korean-only addition: three localization binaries, 30 font files, and `locatexts_en_us.characterset`. The official `zh_cn` ZIP omits the characterset and `fontlist_common.koafontlist`; it contains the three localization binaries and 29 Noto font resources. In the user's test, the font-free package rendered hyphens instead of Korean, so the Noto resources remain in the release package. The user separately confirmed Korean displayed in-game without the characterset or common font list. See [package validation notes](work/zh_cn/audit/pending-package-validation-20261014.md). This does not establish compatibility across other locales, all font roles, or later game versions.
+The official `zh_cn` ZIP contains three localization binaries and 29 Noto font resources; it omits the characterset and `fontlist_common.koafontlist`. In the user's test, the font-free package rendered hyphens instead of Korean, so the Noto resources remain in the release package. The user separately confirmed Korean displayed in-game without the characterset or common font list. See [package validation notes](work/zh_cn/audit/pending-package-validation-20261014.md). This does not establish compatibility across other locales, all font roles, or later game versions.
 
-The earlier Korean patches inspected here replace the `en_us` localization resources with Korean text, overwriting the English slot. This project uses the `zh_cn` slot instead so the original English resources remain available for troubleshooting and comparison. Select Chinese (Simplified) in Steam to use the Korean patch; if a problem occurs, switch back to English to compare against the original text.
+The earlier Korean patches inspected here replace the `en_us` localization resources with Korean text, overwriting the English slot. This project uses the `zh_cn` slot instead so the original English resources remain available for troubleshooting and comparison. Select `Chinese Simplified` in Steam to use the Korean patch; if a problem occurs, switch back to English to compare against the original text.
 
 The inspected original `patch_0.pak` came from the user's Steam installation; the game's main menu showed `Version: cs:15032`. Steam BuildID `10619381` from `appmanifest_1041720.acf` is secondary provenance information. The installer rebuilds the user's existing PAK, so changes in files outside the payload may remain; mods that alter the same payload files can conflict. Compatibility with later game versions is unverified.
 
-The ZIP includes `RunKoreanPatch.bat`, `KoreanPatch.ps1`, instructions, checksums, and a `payload/` folder. It does not contain a complete PAK. On Windows, extract the entire ZIP and double-click `RunKoreanPatch.bat`; do not double-click the `.ps1` file, which may open in a text editor. If it is not already elevated, the script requests administrator access before asking for the game directory once. The supported baseline is game version `cs:15032`, as noted above. The default game directory is `C:\Program Files (x86)\Steam\steamapps\common\Kingdoms of Amalur Re-Reckoning`; press Enter to use it or enter another path. Once the game folder is confirmed, the script proceeds automatically: it validates the package and game files, unpacks the user's original `data\patch_0.pak`, overlays the payload, builds and re-unpacks a separate candidate PAK, then verifies the backup before replacing the original. Set the Steam game language to Chinese (Simplified) after installation. The PowerShell window stays open at the end until a key is pressed, showing either the completion message or any error.
+The ZIP includes `RunKoreanPatch.bat`, `KoreanPatch.ps1`, instructions, checksums, and a `payload/` folder. It does not contain a complete PAK. On Windows, extract the entire ZIP and double-click `RunKoreanPatch.bat`; do not double-click the `.ps1` file, which may open in a text editor. If it is not already elevated, the script requests administrator access before asking for the game directory once. The supported baseline is game version `cs:15032`, as noted above. The default game directory is `C:\Program Files (x86)\Steam\steamapps\common\Kingdoms of Amalur Re-Reckoning`; press Enter to use it or enter another path. Once the game folder is confirmed, the script proceeds automatically: it validates the package and game files, unpacks the user's original `data\patch_0.pak`, overlays the payload, builds and re-unpacks a separate candidate PAK, then verifies the backup before replacing the original. Set the Steam game language to `Chinese Simplified` after installation. The PowerShell window stays open at the end until a key is pressed, showing either the completion message or any error.
 
 The three binaries passed CSV -> binary -> CSV content comparisons (`affix` 3,451 rows, `base` 4,844, `default` 65,135). The user reports Korean output displaying normally without the characterset or common font list, and the package is published as an official release. The sequential `default` review is complete through ID 65134, and all 140 extra `affix` variants have recorded dispositions. The historical global tally's unidentified 987-key membership was closed as an unrecoverable accounting limitation at the user's direction; it does not represent unreviewed rows. The characterset remains omitted.

@@ -7,8 +7,8 @@
 - One accepted correction, 36 `not an issue` IDs, and 13 uncertain findings.
   These are working dispositions, not independent final linguistic approval.
 - English governs meaning; Japanese informs voice/register; Chinese is a
-  supporting cross-check. The binary file under `references/data/unpacked`
-  is not the Chinese text CSV; this pass used `src/csv/zh_cn/` read-only.
+  supporting cross-check. Chinese evidence for this pass came from the
+  read-only locale CSV under `src/csv/zh_cn/`.
 
 ## Accepted Correction
 
