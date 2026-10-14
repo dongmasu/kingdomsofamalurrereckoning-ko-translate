@@ -40,7 +40,7 @@ The official ZIP omits the characterset and common font list and contains:
   `SHA256SUMS.txt`.
 
 The released ZIP is
-`dist/20261014035742/KingdomsOfAmalur_Korean_zh_cn_20261014035742.zip`. It
+`dist/20261014105405/KingdomsOfAmalur_Korean_zh_cn_20261014105405.zip`. It
 contains 32 payload files (three localization binaries and 29 Noto font
 resources), with no common font list or characterset. Generated `dist/`
 packages are ignored by Git and are attached to GitHub Releases instead of
