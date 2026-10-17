@@ -1,0 +1,164 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"7155"	""	"organization:high-court-of-seelie-ysa|organization:high-court-of-winter"	"accepted"	"이 목걸이는 한때 겨울 궁정(High Court of Winter)의 구성원이 착용했으며, 페이(Fae)의 거대한 전쟁인 신의 폭풍(God Storm) 뒤에 발견됐다."	"이 목걸이는 한때 겨울 상궁정(High Court of Winter)의 구성원이 착용했으며, 페이(Fae)의 거대한 전쟁인 신의 폭풍(God Storm) 뒤에 발견됐다."	"English default:57728 explicitly names the High Court of the Seelie in
+Ysa and says it directs member Houses to remain neutral; Japanese
+identifies the Seelie Court in Ysa and Chinese explicitly renders a
+high court. In the Ysa-history chapter at default:31067, the sitting
+High Court names the city after Ysa; Japanese 上宮廷 and Chinese 高等宫廷
+corroborate the institutional reading. Treat High Court as a
+source-local short form only for that passage, not a global alias:
+default:14300 and default:25940 do not identify the same polity, and
+lowercase default:57388 is generic. Keep this organization distinct
+from the broader Summer Court and from High Court of Winter. Reuse
+이사에 있는 실리 상궁정(High Court of the Seelie in Ysa) and
+상궁정(High Court) in the historical short reference. The pre-existing
+uncertain Ysa disposition at default:57728 and every other row/entity
+decision remain untouched. English default:7155 explicitly calls the wearer's group a member of
+the High Court of Winter. Japanese and Chinese describe a member of
+the Winter Court but do not erase English's explicit High designation.
+Register this complete institutional name separately from the faction
+Winter Court; the membership wording does not make either phrase a
+global alias for the other or establish separate polity mechanics.
+Use 겨울 상궁정(High Court of Winter). Preserve the necklace, God Storm,
+Fae and every prior entity disposition on the shared row. English controls identity and meaning; Japanese and Chinese corroborate only where aligned. The official Korean manual provides no direct entry for these institutions. No PAK/PAK-derived inspection, source edit, prior-entity disposition change, or historical tally recount."	"This necklace was once worn by a member of the High Court of Winter, and it was recovered after the God Storm, the great Fae conflict."	"このネックレスはかつてウィンター・コートの高官が身につけていたもので、フェイによる一大騒乱、""神の嵐""の後に発見されたという。"	"这条项链曾经被冬廷的一名成员佩戴过，它是在上帝风暴，灵族大战之后被发现的。"	"{""organization:high-court-of-seelie-ysa"":""excluded"",""organization:high-court-of-winter"":""accepted""}"	"{""organization:high-court-of-seelie-ysa"":""needs-context"",""organization:high-court-of-winter"":""needs-context""}"	"{""organization:high-court-of-seelie-ysa"":""Candidate hit from the English source; verify this occurrence in context."",""organization:high-court-of-winter"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14300"	""	"organization:high-court-of-seelie-ysa"	"excluded"	"수호자들은 고등 궁정의 의례용 성유병을 들고 올 거야. 그건 그들의 직책을 상징하지. 그게 없으면 그들이 주장하는 신분이 진짜인지 확신할 수 없어."	"수호자들은 고등 궁정의 의례용 성유병을 들고 올 거야. 그건 그들의 직책을 상징하지. 그게 없으면 그들이 주장하는 신분이 진짜인지 확신할 수 없어."	"English default:57728 explicitly names the High Court of the Seelie in
+Ysa and says it directs member Houses to remain neutral; Japanese
+identifies the Seelie Court in Ysa and Chinese explicitly renders a
+high court. In the Ysa-history chapter at default:31067, the sitting
+High Court names the city after Ysa; Japanese 上宮廷 and Chinese 高等宫廷
+corroborate the institutional reading. Treat High Court as a
+source-local short form only for that passage, not a global alias:
+default:14300 and default:25940 do not identify the same polity, and
+lowercase default:57388 is generic. Keep this organization distinct
+from the broader Summer Court and from High Court of Winter. Reuse
+이사에 있는 실리 상궁정(High Court of the Seelie in Ysa) and
+상궁정(High Court) in the historical short reference. The pre-existing
+uncertain Ysa disposition at default:57728 and every other row/entity
+decision remain untouched. English controls identity and meaning; Japanese and Chinese corroborate only where aligned. The official Korean manual provides no direct entry for these institutions. No PAK/PAK-derived inspection, source edit, prior-entity disposition change, or historical tally recount."	"The Keepers will come bearing the ampulla of the High Court; it is the symbol of their office. Without it, we cannot be sure that they are who they claim to be."	"番人は宮廷の聖油瓶を持ってやって来る。それは法王庁を象徴するもので、それがなければ番人と名乗ることは許されない"	"守护者要带着高廷的圣瓶而来；它是他们办公室的象征。没有它，我们就不能确定他们所自称的身份是否属实。"	"{""organization:high-court-of-seelie-ysa"":""excluded""}"	"{""organization:high-court-of-seelie-ysa"":""needs-context""}"	"{""organization:high-court-of-seelie-ysa"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"25940"	""	"organization:high-court-of-seelie-ysa"	"excluded"	"좋아. 오라토리움(Oratory)에서 웬센(Wencen) 왕을 만나. 그곳은 에틴미어(Ettinmere) 능선에 있는데, 한때 고등 궁정의 귀족들을 맞이하던 곳이지."	"좋아. 오라토리움(Oratory)에서 웬센(Wencen) 왕을 만나. 그곳은 에틴미어(Ettinmere) 능선에 있는데, 한때 고등 궁정의 귀족들을 맞이하던 곳이지."	"English default:57728 explicitly names the High Court of the Seelie in
+Ysa and says it directs member Houses to remain neutral; Japanese
+identifies the Seelie Court in Ysa and Chinese explicitly renders a
+high court. In the Ysa-history chapter at default:31067, the sitting
+High Court names the city after Ysa; Japanese 上宮廷 and Chinese 高等宫廷
+corroborate the institutional reading. Treat High Court as a
+source-local short form only for that passage, not a global alias:
+default:14300 and default:25940 do not identify the same polity, and
+lowercase default:57388 is generic. Keep this organization distinct
+from the broader Summer Court and from High Court of Winter. Reuse
+이사에 있는 실리 상궁정(High Court of the Seelie in Ysa) and
+상궁정(High Court) in the historical short reference. The pre-existing
+uncertain Ysa disposition at default:57728 and every other row/entity
+decision remain untouched. English controls identity and meaning; Japanese and Chinese corroborate only where aligned. The official Korean manual provides no direct entry for these institutions. No PAK/PAK-derived inspection, source edit, prior-entity disposition change, or historical tally recount."	"Excellent. Speak with King Wencen in the Oratory. It stands on the crest of Ettinmere, where it once hosted the lords and ladies of the High Court."	"結構だ。祈祷場にいるウェンセン王と話すといい。祈祷場はエティンメアの奥にある。かつて宮廷の貴族を迎え入れた場所だ"	"好极了。去演讲厅和文森王谈谈。就在艾丁米尔的最高点，至高庭的男女贵族都曾在那里待过。"	"{""organization:high-court-of-seelie-ysa"":""excluded""}"	"{""organization:high-court-of-seelie-ysa"":""needs-context""}"	"{""organization:high-court-of-seelie-ysa"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31067"	""	"organization:high-court-of-seelie-ysa"	"accepted"	"제3장 - 잿더미에서 피어난 정원
+
+페이(Fae) 마법의 위대한 순환(Great Cycle)은 태초부터 수세기 동안 실리와 언실리를 이끌어 왔다. 때때로 뜻밖의 분쟁이 일어나기도 했지만, 위대한 궁정들의 흥망은 평화롭고 믿음직한 질서였다. 그 근간인 자연의 순환만큼이나 예측 가능했다. 하지만 미사루(Mitharu)의 자연 질서에도 이따금 변칙이 생기듯, 페이(Fae)의 방식도 한때 무질서와 혼돈으로 무너진 적이 있다. 그것이 쇠락 전쟁(Withering War)이었다.
+
+쇠락 전쟁(Withering War), 곧 신들의 폭풍은 두 남자, 아주 비범한 두 영웅이 주로 맞붙은 격렬한 전투였다. 여름 궁정(Court of Summer)의 이사와 그의 라이벌인 동쪽 겨울 궁정(Court of Winter)의 오운(Ohn)이었다. 오랜 세월 적대해 온 이사와 오운(Ohn)은 원한에 사로잡혔다. 이는 지극히 필멸자다운 생각이었으며, 최근 알파르(Alfar)와 바라니(Varani), 알마인(Almain)이 패란즈(Faelands)를 침범한 탓일 게 분명했다. 많은 학자는 서쪽에서 젊은 종족이 부상한 일과 페이(Fae) 사이에 폭력과 광기, 쇠퇴가 늘어난 일이 직접 연관된다고 주장한다. 하지만 그 주제 자체가 종잡을 수 없어 이 이론은 입증되지 않았다.
+
+이유가 무엇이든 이사와 오운(Ohn)은 어리석은 고집을 꺾지 않았고, 위대한 순환(Great Cycle)을 깨고 서로 전쟁을 벌였다. 이 분쟁으로 수많은 페이(Fae) 전사가 죽었고, 살아남은 이들 중 많은 이가 세상에서 자신의 역할을 되물었다. 페이(Fae)의 전승(The Telling)에 따르면 모든 운명은 이미 정해져 있으며, 모든 페이(Fae)의 역할, 즉 원형은 자연 질서가 정한다고 여겨지기 때문이다. 쇠락 전쟁(Withering War)은 모두의 예상을 뒤엎었다. 페이(Fae)는 변화에 적응하는 능력이 부족한 종족이었다.
+
+전투에서 승리한 이사는 겨울 궁정(Court of Winter)과의 관계를 모두 끊고 서부 알파리아에 새로운 왕국을 세웠다. '문명화된' 제국, 이른바 '여름 대왕국(Great Kingdom of Summer)'이었다. 새로 즉위한 지고왕(High King)은 첫 번째 조치로 발라드의 집(House of Ballads), 계절의 집(House of Seasons), 용맹의 집(House of Valor)을 세웠다. 이 기관들은 여름 궁정(Court of Summer)과 그 백성만의 페이(Fae) 정체성을 확립하기 위한 것이었다. 이제 봄과 가을의 세력은 전승을 공유하지 않았다. 균형이 바뀐 것이다.
+
+자부심에 찬 이사는 겨울 궁정(Court of Winter)의 경쟁자들이 영원히 부러워할 도시를 만들기 시작했다. 그는 자신의 계곡을 웅장한 도시의 터로 골랐다. 그 아래에는 '샘'이라 불리는 강력한 페이(Fae) 마력의 원천이 있었고, 많은 학자는 그것이 여름 궁정(Court of Summer) 마법의 근원이라고 믿었다. 서부 패란즈(Faelands) 곳곳에서 재능 있는 조형자들이 새 통치자의 과업을 돕기 위해 모여들었다. 그들은 필멸자의 요새에서 본 우뚝 솟은 탑과 아치형 전당을 본떠 도시를 함께 빚었다. 그 도시는 이사가 전승 속 자신의 역할을 처음 발견한 정원에서 태어났다.
+
+이사가 죽고 그의 힘이 위대한 순환(Great Cycle)으로 돌아가자, 당시의 상궁정은 혁신적인 생애를 기리기 위해 도시에 그의 이름을 붙였다. 그날부터 그곳은 이사의 정원(Gardens of Ysa)이라 불렸다."	"제3장 - 잿더미에서 피어난 정원
+
+페이(Fae) 마법의 위대한 순환(Great Cycle)은 태초부터 수세기 동안 실리와 언실리를 이끌어 왔다. 때때로 뜻밖의 분쟁이 일어나기도 했지만, 위대한 궁정들의 흥망은 평화롭고 믿음직한 질서였다. 그 근간인 자연의 순환만큼이나 예측 가능했다. 하지만 미사루(Mitharu)의 자연 질서에도 이따금 변칙이 생기듯, 페이(Fae)의 방식도 한때 무질서와 혼돈으로 무너진 적이 있다. 그것이 쇠락 전쟁(Withering War)이었다.
+
+쇠락 전쟁(Withering War), 곧 신들의 폭풍은 두 남자, 아주 비범한 두 영웅이 주로 맞붙은 격렬한 전투였다. 여름 궁정(Court of Summer)의 이사와 그의 라이벌인 동쪽 겨울 궁정(Court of Winter)의 오운(Ohn)이었다. 오랜 세월 적대해 온 이사와 오운(Ohn)은 원한에 사로잡혔다. 이는 지극히 필멸자다운 생각이었으며, 최근 알파르(Alfar)와 바라니(Varani), 알마인(Almain)이 패란즈(Faelands)를 침범한 탓일 게 분명했다. 많은 학자는 서쪽에서 젊은 종족이 부상한 일과 페이(Fae) 사이에 폭력과 광기, 쇠퇴가 늘어난 일이 직접 연관된다고 주장한다. 하지만 그 주제 자체가 종잡을 수 없어 이 이론은 입증되지 않았다.
+
+이유가 무엇이든 이사와 오운(Ohn)은 어리석은 고집을 꺾지 않았고, 위대한 순환(Great Cycle)을 깨고 서로 전쟁을 벌였다. 이 분쟁으로 수많은 페이(Fae) 전사가 죽었고, 살아남은 이들 중 많은 이가 세상에서 자신의 역할을 되물었다. 페이(Fae)의 전승(The Telling)에 따르면 모든 운명은 이미 정해져 있으며, 모든 페이(Fae)의 역할, 즉 원형은 자연 질서가 정한다고 여겨지기 때문이다. 쇠락 전쟁(Withering War)은 모두의 예상을 뒤엎었다. 페이(Fae)는 변화에 적응하는 능력이 부족한 종족이었다.
+
+전투에서 승리한 이사는 겨울 궁정(Court of Winter)과의 관계를 모두 끊고 서부 알파리아에 새로운 왕국을 세웠다. '문명화된' 제국, 이른바 '여름 대왕국(Great Kingdom of Summer)'이었다. 새로 즉위한 지고왕(High King)은 첫 번째 조치로 발라드의 집(House of Ballads), 계절의 집(House of Seasons), 용맹의 집(House of Valor)을 세웠다. 이 기관들은 여름 궁정(Court of Summer)과 그 백성만의 페이(Fae) 정체성을 확립하기 위한 것이었다. 이제 봄과 가을의 세력은 전승을 공유하지 않았다. 균형이 바뀐 것이다.
+
+자부심에 찬 이사는 겨울 궁정(Court of Winter)의 경쟁자들이 영원히 부러워할 도시를 만들기 시작했다. 그는 자신의 계곡을 웅장한 도시의 터로 골랐다. 그 아래에는 '샘'이라 불리는 강력한 페이(Fae) 마력의 원천이 있었고, 많은 학자는 그것이 여름 궁정(Court of Summer) 마법의 근원이라고 믿었다. 서부 패란즈(Faelands) 곳곳에서 재능 있는 조형자들이 새 통치자의 과업을 돕기 위해 모여들었다. 그들은 필멸자의 요새에서 본 우뚝 솟은 탑과 아치형 전당을 본떠 도시를 함께 빚었다. 그 도시는 이사가 전승 속 자신의 역할을 처음 발견한 정원에서 태어났다.
+
+이사가 죽고 그의 힘이 위대한 순환(Great Cycle)으로 돌아가자, 당시의 상궁정(High Court)은 혁신적인 생애를 기리기 위해 도시에 그의 이름을 붙였다. 그날부터 그곳은 이사의 정원(Gardens of Ysa)이라 불렸다."	"English default:57728 explicitly names the High Court of the Seelie in
+Ysa and says it directs member Houses to remain neutral; Japanese
+identifies the Seelie Court in Ysa and Chinese explicitly renders a
+high court. In the Ysa-history chapter at default:31067, the sitting
+High Court names the city after Ysa; Japanese 上宮廷 and Chinese 高等宫廷
+corroborate the institutional reading. Treat High Court as a
+source-local short form only for that passage, not a global alias:
+default:14300 and default:25940 do not identify the same polity, and
+lowercase default:57388 is generic. Keep this organization distinct
+from the broader Summer Court and from High Court of Winter. Reuse
+이사에 있는 실리 상궁정(High Court of the Seelie in Ysa) and
+상궁정(High Court) in the historical short reference. The pre-existing
+uncertain Ysa disposition at default:57728 and every other row/entity
+decision remain untouched. English controls identity and meaning; Japanese and Chinese corroborate only where aligned. The official Korean manual provides no direct entry for these institutions. No PAK/PAK-derived inspection, source edit, prior-entity disposition change, or historical tally recount."	"Chapter 3 - A Garden from the Ashes
+
+The Great Cycle of fae magic has guided Seelie and Unseelie for centuries, since the very beginning of time, and despite occasional flashes of spontaneous conflict, the rise and fall of the great Courts was a peaceful, reliable pattern, as predictable as the natural cycles on which it is based. However, even as Mitharu's natural order sometimes suffers from aberration, so too did the way of the fae once fall away into disorder and chaos. This was the Withering War.
+
+The Withering War (God-Storm) was a fierce battle, one fought primarily between two men, two very extraordinary heroes: Ysa, of the Court of Summer, and Ohn, his rival, of the easterly Court of Winter. Enemies for ages, Ysa and Ohn has let their bitterness get the best of them, a very mortal perception that was no doubt a result of recent incursions into the faelands by the alfar, Varani, and Almain. Many scholars contend that the rise of the young races in the west corresponds directly to a rise in fae violence, madness, and decay, but such theories cannot be proven due to the elusiveness of the subject.
+
+Whatever their reasons, Ysa and Ohn were committed to their folly, and breaking from the Great Cycle they waged war on each other. This conflict left many fae warriors dead and many others questioning their role in the world, for the concept of the fae Telling purports that all fates are determined and all fae roles - or archetypes - are dictated by the natural order. The Withering War went against every expectation, and the fae are not known for their ability to adapt to change.
+
+Following the battle, the victorious Ysa severed all ties with the Court of Winter, declaring a new kingdom in western Alfaria, a ""civilized"" empire to be known as the Great Kingdom of Summer. As his first act, the newly crowned High King established the great Houses of Ballads, Seasons, and Valor, institutions meant to create a fae identity that was unique to the Court of Summer and its subjects. No longer would the Telling be shared between the forces of spring and autumn. The balance had shifted.
+
+Filled with pride, Ysa set about creating a city that his counterparts in the Court of Winter would forever envy. For the site of his grand city he chose his own hollow, which sat atop a potent wellspring of fae energy known as the Font, believed by many scholars to be the source the Court of Summer's magic. Gifted shapers from across the western faelands arrived to aid their new ruler in his quest. Together they fashioned a city inspired by the grasping towers and vaulted halls of mortal fortresses, and borne from the gardens where Ysa first discovered his role in the Telling.
+
+When Ysa died and his energy entered the Great Cycle, the sitting High Court named the city after him as a testament to his revolutionary lifetime. From that day forward it was the Gardens of Ysa."	"第3章: 灰よりいでし庭園
+
+フェイ魔法の""大円環""は、時の始まり以来、世紀をまたいでシーリーとアンシーリーを導いてきた。時折突発的な争いは生じたものの、偉大なる宮廷の盛衰は、自然が約束した変化を繰り返すように、穏やかで規則的なものであった。しかし、ミサールの自然律にも時として異変が生じるように、フェイの世界も一度だけ、無秩序と混沌に陥ったことがある。それがウィサリング戦争だ。
+
+ウィサリング戦争(神の嵐)は、二人の卓越した英雄、サマー・フェイの宮殿のイーサと、その仇敵であるウィンター・フェイの宮殿のオーンを中心とする激しい戦いだった。時代を超えたライバルであるイーサとオーンは、憎しみに駆られて互いに牙を剥いたのである。極めて定命の者的な発想だが、その裏にはアルファーやヴラニ、アルメインによる干渉があった事は疑いようがない。西方の若き種族の台頭に直接呼応する形で、凶暴化し、錯乱し、腐敗したフェイが増加したと主張する学者は多いが、元々つかみどころのないフェイという存在がテーマなだけに、これらの説を証明することは難しい。
+
+理由はどうあれ、イーサとオーンは""大円環""を断ち切るという愚行に走り、戦争を起こした。この戦いで多くのフェイの戦士が死に、生き残ったフェイもこの世で果たすべき役割について自問した。というのも、フェイの""伝承""ではあらゆる宿命は確定していて、すべてのフェイの役割(元型)は自然律により決定されると説いているからだ。ウィサリング戦争は誰もが予想しなかった戦いだった。そしてフェイは変化に適応する能力に乏しい。
+
+戦いに勝利したイーサはウィンター・フェイの宮殿との絆をすべて断絶し、西アルファリアに""文明化された""新たな帝国、いわゆる""夏の大王国""を築いた。新しい至高王は即位後すぐに、サマー・フェイの宮殿に属するフェイの独自性を確立するために、バラード、シーズン、バローの3つの一族を設置した。春と秋が""伝承""を共有することはもはやなくなり、均衡は崩れた。
+
+満足したイーサは、その半身であるウィンター・フェイの宮殿が一生うらやむような都市の建設に乗り出した。この荘厳なる街はサマー・フェイの宮殿の魔力の源とされる、""泉""と呼ばれる強力なエネルギーの泉の上に建てられ、新たな王の偉業の一助となるべく、西フェイランド各地から有能な職人が集った。彼らは定命の種族の要塞にある高い塔やアーチ型の大広間、そしてイーサが最初の使命を発見した庭を参考に街を造り上げたと言われている。
+
+イーサが死に、そのエネルギーが""大円環""に戻ると、上宮廷は彼の革命的生涯の証として、その街にイーサにちなんだ名を与えた。以後、その街はイーサの庭園と呼ばれるようになった。"	"第三章 - 从灰烬而来的花园
+
+从时间的开始，灵族魔法的伟大轮回一直指引着夏灵和冬灵，持续了无数个世纪。尽管偶尔会出现一些自发的冲突，但宫廷的兴衰是一种和平可靠的模式，就像它所依据的自然轮回一样可以预测。然而，就像米萨鲁的自然秩序有时也会失常一样，灵族的道路也曾陷入失序和混乱。这就是凋零之战。
+
+这场凋零之战(上帝风暴)是一场激烈的战斗，一场主要在两个人之间进行的战斗，两位非凡的英雄：夏廷的伊萨，还有他的对手，东部冬廷的欧恩。伊萨和欧恩互相为敌许多年，让痛苦指引自己的行动，这种非常凡人的做法毫无疑问是最近精灵、瓦拉尼人和阿尔曼人侵入灵族大陆的结果。许多学者认为，西方年轻种族的崛起直接对应着暴力、疯狂和衰败在灵族中的崛起，但由于这一主题的不确定性，这些理论无法得到证实。
+
+无论出于什么原因，伊萨和欧恩坚持着自己的愚蠢，并打破伟大轮回，发动了战争。这场冲突让许多灵族战士死去，也让许多人质疑他们在这个世界上的角色，因为灵族天谕的概念告诉我们，所有的命运都是被决定的，所有的灵族的角色——或原型——都是由自然秩序决定的。这场凋零之战违背了所有人的期望，而灵族并不擅长适应变化。
+
+战争结束后，胜利的伊萨断绝了与冬廷的一切联系，在阿尔法西部建立了新的王国，一个被称为“夏季王国”的“文明”帝国。作为他的第一个法案，这位新加冕的至高王建立了由歌谣、四季和英勇组成的高等家族，这些机构旨在创造一种专属于夏廷及其臣民的灵族身份。春天与秋天之间的力量不再分享天谕。平衡已经改变。
+
+伊萨满怀自豪地着手创造一个城市，让他在冬廷的对手嫉妒到永远。他选择了自己的山谷作为他宏伟城市的所在地，它坐落在一个被称为圣泉的灵族能量强大源泉之上，许多学者认为它是夏廷魔法的源头。来自灵族大陆西部的天才塑造者前来帮助他们的新统治者完成他的任务。他们一起建造了一座城市，灵感来自于凡人堡垒的拱形大厅和塔楼，在伊萨最初发现自己在神谕中角色的花园中诞生。
+
+伊萨死后，他的能量进入了伟大轮回，时任高等宫廷以他的名字为这座城市命名，以纪念他革命性的一生。从那天起，它就成为了伊萨花园。"	"{""organization:high-court-of-seelie-ysa"":""accepted""}"	"{""organization:high-court-of-seelie-ysa"":""needs-context""}"	"{""organization:high-court-of-seelie-ysa"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"57388"	""	"organization:high-court-of-seelie-ysa"	"excluded"	"그런 위협을 상급 궁정에 들일 수는 없어. 네가 미처 끝내지 못한 일을 처리한다면 모를까…"	"그런 위협을 상급 궁정에 들일 수는 없어. 네가 미처 끝내지 못한 일을 처리한다면 모를까…"	"English default:57728 explicitly names the High Court of the Seelie in
+Ysa and says it directs member Houses to remain neutral; Japanese
+identifies the Seelie Court in Ysa and Chinese explicitly renders a
+high court. In the Ysa-history chapter at default:31067, the sitting
+High Court names the city after Ysa; Japanese 上宮廷 and Chinese 高等宫廷
+corroborate the institutional reading. Treat High Court as a
+source-local short form only for that passage, not a global alias:
+default:14300 and default:25940 do not identify the same polity, and
+lowercase default:57388 is generic. Keep this organization distinct
+from the broader Summer Court and from High Court of Winter. Reuse
+이사에 있는 실리 상궁정(High Court of the Seelie in Ysa) and
+상궁정(High Court) in the historical short reference. The pre-existing
+uncertain Ysa disposition at default:57728 and every other row/entity
+decision remain untouched. English controls identity and meaning; Japanese and Chinese corroborate only where aligned. The official Korean manual provides no direct entry for these institutions. No PAK/PAK-derived inspection, source edit, prior-entity disposition change, or historical tally recount."	"Naturally, we cannot allow such threats to be brought into the high court. Perhaps once you have dealt with your own unfinished business..."	"当然、そんな危険を宮廷に持ち込むことはできない。お前がその問題を片付けてくれるならいいが..."	"我们自然不允许把这种威胁带进至高王廷。也许一旦你处理好未完成的事情……"	"{""organization:high-court-of-seelie-ysa"":""excluded""}"	"{""organization:high-court-of-seelie-ysa"":""needs-context""}"	"{""organization:high-court-of-seelie-ysa"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"57728"	""	"organization:high-court-of-seelie-ysa"	"accepted"	"도크알브(Dokkalfar) 왕립 무술 학교의 칼윈 딘에게,
+
+매우 중대한 일로 이 편지를 씁니다. 최근 몇 년간 이사에 있는 실리 궁정의 고등 법정은 구성 가문들에게 우리 시대의 대전쟁, 즉 축복받은 그대의 민족과 타락한 투아사 데온(Tuatha Deohn)의 세력 사이의 전쟁에서 중립을 지키라고 지시해 왔습니다. 이사와 신중의 집, 용맹의 집(House of Valor) 모두 같은 입장을 고수하고 있음을 알고 있습니다. 하지만 오늘 나는 열린 마음으로 그대에게 손을 내밉니다. 이사의 가장 위대한 자손인 발라드의 집(House of Ballads)은 다가올 전쟁에서 그대에게 충성과 힘을 바칠 준비가 되어 있습니다. 이 편지를 내 뜻의 증표로 받아 주십시오. 군수품과 전사, 유물이 곧 뒤따를 것입니다. 그대의 대의를 돕기 위해 우리가 할 수 있는 모든 일을 하겠습니다. 아말러(Amalur)의 미래를 건 이 전투에서 잃어버린 시간을 만회할 수 있기를 바랍니다. 발라드의 집(House of Ballads) 재상, 백색의 할람(Hallam the White) 올림."	"도크알브(Dokkalfar) 왕립 무술 학교의 칼윈 딘에게,
+
+매우 중대한 일로 이 편지를 씁니다. 최근 몇 년간 이사에 있는 실리 상궁정(High Court of the Seelie in Ysa)은 구성 가문들에게 우리 시대의 대전쟁, 즉 축복받은 그대의 민족과 타락한 투아사 데온(Tuatha Deohn)의 세력 사이의 전쟁에서 중립을 지키라고 지시해 왔습니다. 이사와 신중의 집, 용맹의 집(House of Valor) 모두 같은 입장을 고수하고 있음을 알고 있습니다. 하지만 오늘 나는 열린 마음으로 그대에게 손을 내밉니다. 이사의 가장 위대한 자손인 발라드의 집(House of Ballads)은 다가올 전쟁에서 그대에게 충성과 힘을 바칠 준비가 되어 있습니다. 이 편지를 내 뜻의 증표로 받아 주십시오. 군수품과 전사, 유물이 곧 뒤따를 것입니다. 그대의 대의를 돕기 위해 우리가 할 수 있는 모든 일을 하겠습니다. 아말러(Amalur)의 미래를 건 이 전투에서 잃어버린 시간을 만회할 수 있기를 바랍니다. 발라드의 집(House of Ballads) 재상, 백색의 할람(Hallam the White) 올림."	"English default:57728 explicitly names the High Court of the Seelie in
+Ysa and says it directs member Houses to remain neutral; Japanese
+identifies the Seelie Court in Ysa and Chinese explicitly renders a
+high court. In the Ysa-history chapter at default:31067, the sitting
+High Court names the city after Ysa; Japanese 上宮廷 and Chinese 高等宫廷
+corroborate the institutional reading. Treat High Court as a
+source-local short form only for that passage, not a global alias:
+default:14300 and default:25940 do not identify the same polity, and
+lowercase default:57388 is generic. Keep this organization distinct
+from the broader Summer Court and from High Court of Winter. Reuse
+이사에 있는 실리 상궁정(High Court of the Seelie in Ysa) and
+상궁정(High Court) in the historical short reference. The pre-existing
+uncertain Ysa disposition at default:57728 and every other row/entity
+decision remain untouched. English controls identity and meaning; Japanese and Chinese corroborate only where aligned. The official Korean manual provides no direct entry for these institutions. No PAK/PAK-derived inspection, source edit, prior-entity disposition change, or historical tally recount."	"To Calwyn Dyn of the Dokkalfar Royal Martial Academy,
+
+I write with a matter of utmost importance. In recent years, the High Court of the Seelie in Ysa has instructed its member Houses to remain neutral in the great war of our age, the conflict between your blessed people and the corrupt might of the Tuatha Deohn. I am aware that this position persists in both Ysa and in the Houses of Prudence and Valor. However, today I come to you with an open hand. The House of Ballads, greatest of the Ysa's children, is willing to offer you its allegiance and services in the coming conflict. Take this letter as a sign of my intent. Munitions, warriors, and relics will soon follow. We will do everything within our power to aid your cause, and to hopefully make up for lost time in this, the battle for the future of Amalur. Yours, Hallam the White, Chancellor of the House of Ballads."	"ドカルファー王立武道大学のカルウィン・ディンへ
+
+これは極めて重要な話だ。イーサにあるシーリーの宮廷は近年、その加盟一族に対し、現代の大戦争... つまり君たち祝福されし民とツアサ・デオーンの腐敗した軍勢との争いにおいて、中立を保つよう指示してきた。イーサでも、ハウス・オブ・プルーデンスやハウス・オブ・バローにおいてもこうした姿勢は一貫している。だが、我々は今日、両手を広げて君たちを受け入れる。もっとも偉大なるイーサの子供、ハウス・オブ・バラッドは、来たるべき戦いにおいて君たちに忠誠を誓い、奉仕することを約束しよう。すでに戦士は送り込んだ。じきに軍需品や遺物が届くはずだ。君たちの大義を支援するため、我々はできる限りのことをする。我々の援助が、このアマラーの未来を懸けた戦いの中で失われた時間の埋め合わせになる事を願う。
+
+ハウス・オブ・バラッドの大臣、白のハラム"	"致暗精灵皇家军事学院的卡尔文·达因，
+
+我此次写信是为了一件极其重要的事。近年来，伊萨的夏灵高庭已指示其成员家族在我们这个时代的伟大战争中、在你们的神圣人民与堕落的图阿撒多恩力量之间的冲突中保持中立。我知道这一立场在伊萨以及审慎家族与英勇家族中都是存在的。然而，今天我是带着善意和慷慨来接触你的。作为伊萨最伟大的孩子，歌谣家族愿意在未来的冲突中为你效忠和服务。请将这封信当作我的意向的表示。军需品、战士和圣物很快就会随后奉上。我们将尽我们所能来支持你的大业，并希望弥补在这场为阿玛拉的未来而进行的战争中失去的时间。你的，歌谣家族的族长，白发哈拉姆。"	"{""organization:high-court-of-seelie-ysa"":""accepted""}"	"{""organization:high-court-of-seelie-ysa"":""needs-context""}"	"{""organization:high-court-of-seelie-ysa"":""Candidate hit from the English source; verify this occurrence in context.""}"

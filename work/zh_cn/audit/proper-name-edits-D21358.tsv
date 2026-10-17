@@ -1,0 +1,179 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"59101"	""	"person:amman-the-clever"	"accepted"	"실에 있는 아만의 굴은 멀지 않아. 바로 여기 여름의 요람에 있지. 지금 그리로 가는 중이야. 그곳이 날 구원해 줄 거야."	"실에 있는 아만(Amman)의 굴은 멀지 않아. 바로 여기 여름의 요람에 있지. 지금 그리로 가는 중이야. 그곳이 날 구원해 줄 거야."	"English identifies Amman the Clever as the Fae mage/trickster who made
+the cursed Eye of Amman and hid treasure keys/statues. Japanese
+知恵者アマン/アマン and Chinese 智者安曼/安曼 corroborate; normalize
+아만/암만 and the untranslated epithet 더 클레버. Keep source-short
+Amman as 아만(Amman), and explicit full names as
+영리한 아만(Amman the Clever). Preserve full item labels atomically,
+including the distinct Eye of Amman. Seasonal keys and statues remain
+separate objects; no season or Esharra suffix is discarded.
+Default:9392 discusses Amman as a possible name in contrast to Casmaran
+without identifying the Fae trickster: exclude that occurrence from
+this person's scope and leave its source-faithful Korean untouched.
+The manual's setting, Fae/quest and equipment sections (PDF pp. 1, 7-8)
+provide context, not an exact Amman spelling. Preserve all unrelated
+narration, prior proper-name decisions, tokens and line breaks."	"Amman's hollow of Syl is not far, right here in the Cradle of Summer. That's where I'm headed now. It is my salvation."	"シルにあるアマンの洞穴は遠くない。ここ""夏のゆりかご""にある。今そこへ向かっている。救済のためだ"	"安曼的西尔洞穴不远，就在夏之摇篮中。我现在就要去那里。这是我的救赎。"	"{""person:amman-the-clever"":""accepted""}"	"{""person:amman-the-clever"":""needs-context""}"	"{""person:amman-the-clever"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"59531"	""	"person:amman-the-clever"	"not-an-issue"	"전설적인 페이(Fae) 장난꾸러기인 영리한 아만(Amman the Clever)은 보물 상자를 여는 열쇠 여러 개를 남겼다. 요르반(Yolvan)의 잠긴 상자마다 맞는 열쇠를 찾아 내가 보물을 챙겨야겠다."	"전설적인 페이(Fae) 장난꾸러기인 영리한 아만(Amman the Clever)은 보물 상자를 여는 열쇠 여러 개를 남겼다. 요르반(Yolvan)의 잠긴 상자마다 맞는 열쇠를 찾아 내가 보물을 챙겨야겠다."	"English identifies Amman the Clever as the Fae mage/trickster who made
+the cursed Eye of Amman and hid treasure keys/statues. Japanese
+知恵者アマン/アマン and Chinese 智者安曼/安曼 corroborate; normalize
+아만/암만 and the untranslated epithet 더 클레버. Keep source-short
+Amman as 아만(Amman), and explicit full names as
+영리한 아만(Amman the Clever). Preserve full item labels atomically,
+including the distinct Eye of Amman. Seasonal keys and statues remain
+separate objects; no season or Esharra suffix is discarded.
+Default:9392 discusses Amman as a possible name in contrast to Casmaran
+without identifying the Fae trickster: exclude that occurrence from
+this person's scope and leave its source-faithful Korean untouched.
+The manual's setting, Fae/quest and equipment sections (PDF pp. 1, 7-8)
+provide context, not an exact Amman spelling. Preserve all unrelated
+narration, prior proper-name decisions, tokens and line breaks."	"The legendary trickster Fae Amman the Clever has left behind a series of keys that open chests containing his treasure hoard. I should find the keys that correspond to each locked chest in Yolvan and take the valuables for myself."	"伝説のフェイの奇術師、知恵者アマンは秘密の財宝が入った箱の鍵を多く残した。ヨルヴァンの鍵の掛かった各箱に対応する鍵を見つけ、財宝を手に入れよう。"	"传说中的灵族骗术大师，聪明的埃曼，留下了一系列钥匙，分别对应了不同的宝箱，里面都隐藏着宝藏。我应该找到与尤凡境内上锁的箱子相对应的钥匙并拿走里面的宝物。"	"{""person:amman-the-clever"":""not-an-issue""}"	"{""person:amman-the-clever"":""needs-context""}"	"{""person:amman-the-clever"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"63071"	""	"item:eye-of-amman|person:amman-the-clever"	"accepted"	"전설의 마법 부적 '암만의 눈'을 훔친 에드윈 호스위그(Edwin Hoswig)에게 돌려줬어. 아마 금화로 바꿔 팔겠지."	"전설의 마법 부적 '아만의 눈(Eye of Amman)'을 훔친 에드윈 호스위그(Edwin Hoswig)에게 돌려줬어. 아마 금화로 바꿔 팔겠지."	"English identifies Amman the Clever as the Fae mage/trickster who made
+the cursed Eye of Amman and hid treasure keys/statues. Japanese
+知恵者アマン/アマン and Chinese 智者安曼/安曼 corroborate; normalize
+아만/암만 and the untranslated epithet 더 클레버. Keep source-short
+Amman as 아만(Amman), and explicit full names as
+영리한 아만(Amman the Clever). Preserve full item labels atomically,
+including the distinct Eye of Amman. Seasonal keys and statues remain
+separate objects; no season or Esharra suffix is discarded.
+Default:9392 discusses Amman as a possible name in contrast to Casmaran
+without identifying the Fae trickster: exclude that occurrence from
+this person's scope and leave its source-faithful Korean untouched.
+The manual's setting, Fae/quest and equipment sections (PDF pp. 1, 7-8)
+provide context, not an exact Amman spelling. Preserve all unrelated
+narration, prior proper-name decisions, tokens and line breaks."	"I've returned the legendary magical amulet known as the Eye of Amman to Edwin Hoswig, the thief who stole it. He will likely sell it for gold."	"""アマンの眼""と呼ばれる伝説の魔法のアミュレットを、盗んだ本人のエドウィン・ホスウィグに返した。きっと売り払うだろう。"	"我已经将名为安曼之眼的传奇魔法护身符交给了埃德温·霍斯维格，那个小偷。他会将它卖了换钱。"	"{""person:amman-the-clever"":""accepted"",""item:eye-of-amman"":""accepted""}"	"{""item:eye-of-amman"":""needs-context"",""person:amman-the-clever"":""needs-context""}"	"{""item:eye-of-amman"":""Candidate hit from the English source; verify this occurrence in context."",""person:amman-the-clever"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"63420"	""	"person:amman-the-clever"	"accepted"	"위대한 웬센(Wencen) 왕의 가장 친한 벗이여, 아만의 동굴에 서서 지는 해의 시간을 다루는 자여."	"위대한 웬센(Wencen) 왕의 가장 친한 벗이여, 아만(Amman)의 동굴에 서서 지는 해의 시간을 다루는 자여."	"English identifies Amman the Clever as the Fae mage/trickster who made
+the cursed Eye of Amman and hid treasure keys/statues. Japanese
+知恵者アマン/アマン and Chinese 智者安曼/安曼 corroborate; normalize
+아만/암만 and the untranslated epithet 더 클레버. Keep source-short
+Amman as 아만(Amman), and explicit full names as
+영리한 아만(Amman the Clever). Preserve full item labels atomically,
+including the distinct Eye of Amman. Seasonal keys and statues remain
+separate objects; no season or Esharra suffix is discarded.
+Default:9392 discusses Amman as a possible name in contrast to Casmaran
+without identifying the Fae trickster: exclude that occurrence from
+this person's scope and leave its source-faithful Korean untouched.
+The manual's setting, Fae/quest and equipment sections (PDF pp. 1, 7-8)
+provide context, not an exact Amman spelling. Preserve all unrelated
+narration, prior proper-name decisions, tokens and line breaks."	"Greatest friend of the great King Wencen, you stand in the hollow of Amman, wielder of the Hour of the Setting Sun."	"偉大なるウェンセン王の無二の親友。アマンの洞穴に立ち、日没の時を統べる者。"	"您是文森王最好的朋友，站在安曼洞穴，夕阳下的岁月由你掌控。"	"{""person:amman-the-clever"":""accepted""}"	"{""person:amman-the-clever"":""needs-context""}"	"{""person:amman-the-clever"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"63500"	""	"person:amman-the-clever"	"not-an-issue"	"그녀는 아만(Amman)이 만든 망토를 걸치고
+서머스 엔드(Summer's End)를 몰래 지나
+마법 장막의 봉인을 깨려 했네
+에어로르(Airor)를 사랑하는 척했지
+
+벨메이드(Belmaid)의 거짓 사랑에 홀려
+에어로르 경(Sir Airor)은 그녀를 들여보냈네
+그러자 벨메이드(Belmaid)는 몸을 망토로 감췄고
+성의 모습을 바라보았네."	"그녀는 아만(Amman)이 만든 망토를 걸치고
+서머스 엔드(Summer's End)를 몰래 지나
+마법 장막의 봉인을 깨려 했네
+에어로르(Airor)를 사랑하는 척했지
+
+벨메이드(Belmaid)의 거짓 사랑에 홀려
+에어로르 경(Sir Airor)은 그녀를 들여보냈네
+그러자 벨메이드(Belmaid)는 몸을 망토로 감췄고
+성의 모습을 바라보았네."	"English identifies Amman the Clever as the Fae mage/trickster who made
+the cursed Eye of Amman and hid treasure keys/statues. Japanese
+知恵者アマン/アマン and Chinese 智者安曼/安曼 corroborate; normalize
+아만/암만 and the untranslated epithet 더 클레버. Keep source-short
+Amman as 아만(Amman), and explicit full names as
+영리한 아만(Amman the Clever). Preserve full item labels atomically,
+including the distinct Eye of Amman. Seasonal keys and statues remain
+separate objects; no season or Esharra suffix is discarded.
+Default:9392 discusses Amman as a possible name in contrast to Casmaran
+without identifying the Fae trickster: exclude that occurrence from
+this person's scope and leave its source-faithful Korean untouched.
+The manual's setting, Fae/quest and equipment sections (PDF pp. 1, 7-8)
+provide context, not an exact Amman spelling. Preserve all unrelated
+narration, prior proper-name decisions, tokens and line breaks."	"She took the cloak of Amman's make
+And crept through Summer's End,
+To break the seal of magic's veil,
+Airor's love she'd pretend
+
+Seduced by Belmaid's false love
+Sir Airor let her through,
+Then Belmaid did cloak herself,
+When Castle she did view."	"アマンが作ったコートを取り
+サマーズ・エンドをゆっくり進んだ
+魔法のベールの封印を破るため
+エアラへの愛を装って
+
+ベルメイドの偽りの愛に誘惑されて
+サー・エアラは彼女を通してしまった
+そして城を見たその時
+彼女は自ら姿を隠した"	"她拿走了安曼的斗篷
+蹑手蹑脚地走过夏之终焉，
+打破魔法面纱的封印，
+假装自己爱着艾尔
+
+被贝尔梅德的虚假爱情所诱惑
+艾尔先生让她通过，
+贝尔梅德穿上斗篷，
+当她看到城堡的时候。"	"{""person:amman-the-clever"":""not-an-issue""}"	"{""person:amman-the-clever"":""needs-context""}"	"{""person:amman-the-clever"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"64294"	""	"person:amman-the-clever"	"accepted"	"그녀는 암만이 만든 망토를 두르고
+여름의 끝을 몰래 지나갔네.
+마법의 장막을 봉인한 인장을 깨려고
+에어로르(Airor)를 사랑하는 척했네.
+
+벨메이드(Belmaid)의 거짓 사랑에 넘어간
+에어로르 경(Sir Airor)은 그녀를 들여보냈고,
+벨메이드(Belmaid)는 몸을 망토로 감쌌네.
+성이 눈에 들어왔을 때."	"그녀는 아만(Amman)이 만든 망토를 두르고
+여름의 끝을 몰래 지나갔네.
+마법의 장막을 봉인한 인장을 깨려고
+에어로르(Airor)를 사랑하는 척했네.
+
+벨메이드(Belmaid)의 거짓 사랑에 넘어간
+에어로르 경(Sir Airor)은 그녀를 들여보냈고,
+벨메이드(Belmaid)는 몸을 망토로 감쌌네.
+성이 눈에 들어왔을 때."	"English identifies Amman the Clever as the Fae mage/trickster who made
+the cursed Eye of Amman and hid treasure keys/statues. Japanese
+知恵者アマン/アマン and Chinese 智者安曼/安曼 corroborate; normalize
+아만/암만 and the untranslated epithet 더 클레버. Keep source-short
+Amman as 아만(Amman), and explicit full names as
+영리한 아만(Amman the Clever). Preserve full item labels atomically,
+including the distinct Eye of Amman. Seasonal keys and statues remain
+separate objects; no season or Esharra suffix is discarded.
+Default:9392 discusses Amman as a possible name in contrast to Casmaran
+without identifying the Fae trickster: exclude that occurrence from
+this person's scope and leave its source-faithful Korean untouched.
+The manual's setting, Fae/quest and equipment sections (PDF pp. 1, 7-8)
+provide context, not an exact Amman spelling. Preserve all unrelated
+narration, prior proper-name decisions, tokens and line breaks."	"She took the cloak of Amman's make
+And crept through Summer's End,
+To break the seal of magic's veil,
+Airor's love she'd pretend
+
+Seduced by Belmaid's false love
+Sir Airor let her through,
+Then Belmaid did cloak herself,
+When Castle she did view."	"アマンが作ったコートを取り
+サマーズ・エンドをゆっくり進んだ
+魔法のベールの封印を破るため
+エアラへの愛を装って
+
+ベルメイドの偽りの愛に誘惑されて
+サー・エアラは彼女を通してしまった
+そして城を見たその時
+彼女は自ら姿を隠した"	"她拿走了安曼的斗篷
+蹑手蹑脚地走过夏之终焉，
+打破魔法面纱的封印，
+假装自己爱着艾尔
+
+被贝尔梅德的虚假爱情所诱惑
+艾尔先生让她通过，
+贝尔梅德穿上斗篷，
+当她看到城堡的时候。"	"{""person:amman-the-clever"":""accepted""}"	"{""person:amman-the-clever"":""needs-context""}"	"{""person:amman-the-clever"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"64891"	""	"person:amman-the-clever"	"accepted"	"아마 가장 유명한 장난꾼 페이(Fae)일 거야. 필멸자들을 괴롭히고 계략에 빠뜨리는 게 삶의 낙이었지. 우리 할머니 낸은 암만에 관한 이야기를 백 개도 더 알고 계셨어."	"아마 가장 유명한 장난꾼 페이(Fae)일 거야. 필멸자들을 괴롭히고 계략에 빠뜨리는 게 삶의 낙이었지. 우리 할머니 낸은 아만(Amman)에 관한 이야기를 백 개도 더 알고 계셨어."	"English identifies Amman the Clever as the Fae mage/trickster who made
+the cursed Eye of Amman and hid treasure keys/statues. Japanese
+知恵者アマン/アマン and Chinese 智者安曼/安曼 corroborate; normalize
+아만/암만 and the untranslated epithet 더 클레버. Keep source-short
+Amman as 아만(Amman), and explicit full names as
+영리한 아만(Amman the Clever). Preserve full item labels atomically,
+including the distinct Eye of Amman. Seasonal keys and statues remain
+separate objects; no season or Esharra suffix is discarded.
+Default:9392 discusses Amman as a possible name in contrast to Casmaran
+without identifying the Fae trickster: exclude that occurrence from
+this person's scope and leave its source-faithful Korean untouched.
+The manual's setting, Fae/quest and equipment sections (PDF pp. 1, 7-8)
+provide context, not an exact Amman spelling. Preserve all unrelated
+narration, prior proper-name decisions, tokens and line breaks."	"Perhaps the best known trickster Fae, one who's joy in life was to torment mortals and make them fall prey to his plots. My old Nan knew a hundred Amman stories."	"恐らく最も名が知られているフェイの奇術師だ。定命の者を術中にはめて、苦しませることに生涯の幸福を見出した者さ。アマンの話だったら、ナン婆さんが詳しく知っている"	"也许最著名的灵族骗子，他生活的乐趣就是折磨人类，使人类成为他阴谋的牺牲品。我的奶奶知道无数个关于安曼的故事。"	"{""person:amman-the-clever"":""accepted""}"	"{""person:amman-the-clever"":""needs-context""}"	"{""person:amman-the-clever"":""Candidate hit from the English source; verify this occurrence in context.""}"

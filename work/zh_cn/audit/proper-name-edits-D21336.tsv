@@ -1,0 +1,556 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"base"	"699"	"11"	"named work:the-fall-of-dwynian|person:dwynian"	"not-an-issue"	"드위니안의 몰락 (The Fall of Dwynian)"	"드위니안의 몰락 (The Fall of Dwynian)"	"D-21336: Register five explicitly named historical/story individuals and the separate
+book title, anchored to English default:2224/36939/49996 and the source
+labels. Japanese/Chinese corroboration is recorded per row. Preserve the
+already established Korean readings, correct the isolated 드위니언 title
+variant, and add complete bilingual labels or first-mention annotations.
+Keep subsequent names concise within each long cell, and leave unrelated
+historical, council, title and creature terminology unchanged. Official
+Korean manual PDF pages 1-2 provides Fate, Lyria and setting context, and
+page 7 provides quest/faction context, not these individual biographies.
+A shared row across multiple newly registered scopes is counted once. English default:49996 explicitly names Dwynian, the mage and Anathon's pupil, as the tale's protagonist. Japanese ドウィニアン and Chinese 德雯妮安 corroborate. Reuse 드위니안 from base:699 and the standalone default:56288; normalize 드위니언 in the book title. The title's complete bilingual form also covers its embedded person name. English base:699/default:64950 supplies the exact book title; default:21611 quotes its opening lines, and 36939 calls it a tale. Japanese ドウィニアンの没落 and Chinese 德雯妮安的陨落/德文尼安的衰落 corroborate. Preserve the complete paired title and existing spacing at base:699. At default:36939 retain the local article-less English Fall of Dwynian rather than inventing The."	"The Fall of Dwynian"	"ドウィニアンの没落"	"德雯妮安的陨落"	"{""person:dwynian"":""not-an-issue"",""named work:the-fall-of-dwynian"":""not-an-issue""}"	"{""named work:the-fall-of-dwynian"":""needs-context"",""person:dwynian"":""needs-context""}"	"{""named work:the-fall-of-dwynian"":""Candidate hit from the English source; verify this occurrence in context."",""person:dwynian"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"2224"	""	"person:anathon"	"not-an-issue"	"바얄라 티린(Bayala Tirin)은 가파른 타이윌리 절벽(Tywili Cliffs) 위에 자신의 도시가 세워지는 모습을 지켜보았다. 사방에서 부는 바람과 하늘의 모든 별, 출렁이는 바다를 향해 활짝 열린 영광스러운 도시였다. 그래서 바다 위의 별빛이라는 뜻으로 글레어 라스웬(Gleir Rathwen)이라 불렸다. 그곳에서는 장인들이 경이로운 물건을 만들고, 농부들은 평야를 갈고, 사냥꾼은 사냥을 하고, 어부들은 코라클과 작은 배를 타고 해협을 오갔다.
+
+하지만 듀렉(Durek)의 도끼가 낸 균열은 계속 깊어졌다. 그러던 어느 날, 글레어 라스웬 최고의 마법사 아나톤(Anathon)은 북적임과 소음에 지쳤다. 티린(Tirin)이 그랬듯 그의 시선은 스파이어록(Spirerock)으로 향했고, 그곳에 거처를 짓기로 마음먹었다. 그에게 배우려는 제자들이 곧 뒤따랐고, 경이로운 도시와 그 가까이에 있으면서도 떨어져 사는 은둔 마법사들의 이야기가 널리 퍼졌다.
+
+그와 제자가 그곳에 남았더라면, 자만하지 않았더라면, 우리 민족을 아꼈더라면, 글레어 라스웬의 운명을 보고 우리에게 경고했을지도 모른다. 아나톤의 오만과 어리석음은 큰 대가를 치르게 했다. 여신이 여전히 사랑하는 도시였지만, 첫 도시는 정해진 때가 되면 끝을 맞아야 했다. 아나톤이 시선을 돌린 사이, 남쪽에서 무서운 폭풍이 다가오는 것을 아무도 몰랐다. 치명상을 입은 사냥꾼이 열린 성문으로 비틀거리며 들어와 몰려오는 무리에 대해 알리기 전까지 누구도 몰랐다. 요툰(Jottun) 종족의 군대가 땅을 울리며 북쪽으로 진군해 앞길의 모든 것을 짓밟고, 사랑하는 글레어 라스웬에 다가오고 있었다.
+
+경고는 너무 늦었고 우리 민족은 준비가 부족했다. 무장을 다 갖추기도 전에 요툰(Jottun) 무리가 들이닥쳤다. 낙성의 밤에 많은 이가 용감히 싸웠고, 용감히 죽었다. 마침내 우리 의지가 꺾이자 살아남은 자들은 스파이어록으로 달아나 아나톤과 제자들의 힘에 보호받고자 했다. 그들은 바다를 거품 이는 분노로 들끓게 해 요툰(Jottun)이 건널 수 없게 했다. 계획을 끝내지 못한 요툰(Jottun)들은 글레어 라스웬을 파괴하기 시작했다. 새벽이 밝았을 때 바얄라 티린(Bayala Tirin)의 첫 도시는 연기가 피어오르는 폐허가 되어 있었다.
+
+부끄러움과 눈물 속에서 아나톤은 바위에 살던 모두에게 보금자리를 마련해 주었다. 돌을 깎아 통로를 팠다. 첨탑 꼭대기에는 모두에게 운명을 주고 거두어 가는 리리아(Lyria)를 모시는 예배당을 세웠다. 글레어 라스웬이 무너지고 라시르(Rathir)가 태어난 날이었다."	"바얄라 티린(Bayala Tirin)은 가파른 타이윌리 절벽(Tywili Cliffs) 위에 자신의 도시가 세워지는 모습을 지켜보았다. 사방에서 부는 바람과 하늘의 모든 별, 출렁이는 바다를 향해 활짝 열린 영광스러운 도시였다. 그래서 바다 위의 별빛이라는 뜻으로 글레어 라스웬(Gleir Rathwen)이라 불렸다. 그곳에서는 장인들이 경이로운 물건을 만들고, 농부들은 평야를 갈고, 사냥꾼은 사냥을 하고, 어부들은 코라클과 작은 배를 타고 해협을 오갔다.
+
+하지만 듀렉(Durek)의 도끼가 낸 균열은 계속 깊어졌다. 그러던 어느 날, 글레어 라스웬 최고의 마법사 아나톤(Anathon)은 북적임과 소음에 지쳤다. 티린(Tirin)이 그랬듯 그의 시선은 스파이어록(Spirerock)으로 향했고, 그곳에 거처를 짓기로 마음먹었다. 그에게 배우려는 제자들이 곧 뒤따랐고, 경이로운 도시와 그 가까이에 있으면서도 떨어져 사는 은둔 마법사들의 이야기가 널리 퍼졌다.
+
+그와 제자가 그곳에 남았더라면, 자만하지 않았더라면, 우리 민족을 아꼈더라면, 글레어 라스웬의 운명을 보고 우리에게 경고했을지도 모른다. 아나톤의 오만과 어리석음은 큰 대가를 치르게 했다. 여신이 여전히 사랑하는 도시였지만, 첫 도시는 정해진 때가 되면 끝을 맞아야 했다. 아나톤이 시선을 돌린 사이, 남쪽에서 무서운 폭풍이 다가오는 것을 아무도 몰랐다. 치명상을 입은 사냥꾼이 열린 성문으로 비틀거리며 들어와 몰려오는 무리에 대해 알리기 전까지 누구도 몰랐다. 요툰(Jottun) 종족의 군대가 땅을 울리며 북쪽으로 진군해 앞길의 모든 것을 짓밟고, 사랑하는 글레어 라스웬에 다가오고 있었다.
+
+경고는 너무 늦었고 우리 민족은 준비가 부족했다. 무장을 다 갖추기도 전에 요툰(Jottun) 무리가 들이닥쳤다. 낙성의 밤에 많은 이가 용감히 싸웠고, 용감히 죽었다. 마침내 우리 의지가 꺾이자 살아남은 자들은 스파이어록으로 달아나 아나톤과 제자들의 힘에 보호받고자 했다. 그들은 바다를 거품 이는 분노로 들끓게 해 요툰(Jottun)이 건널 수 없게 했다. 계획을 끝내지 못한 요툰(Jottun)들은 글레어 라스웬을 파괴하기 시작했다. 새벽이 밝았을 때 바얄라 티린(Bayala Tirin)의 첫 도시는 연기가 피어오르는 폐허가 되어 있었다.
+
+부끄러움과 눈물 속에서 아나톤은 바위에 살던 모두에게 보금자리를 마련해 주었다. 돌을 깎아 통로를 팠다. 첨탑 꼭대기에는 모두에게 운명을 주고 거두어 가는 리리아(Lyria)를 모시는 예배당을 세웠다. 글레어 라스웬이 무너지고 라시르(Rathir)가 태어난 날이었다."	"D-21336: Register five explicitly named historical/story individuals and the separate
+book title, anchored to English default:2224/36939/49996 and the source
+labels. Japanese/Chinese corroboration is recorded per row. Preserve the
+already established Korean readings, correct the isolated 드위니언 title
+variant, and add complete bilingual labels or first-mention annotations.
+Keep subsequent names concise within each long cell, and leave unrelated
+historical, council, title and creature terminology unchanged. Official
+Korean manual PDF pages 1-2 provides Fate, Lyria and setting context, and
+page 7 provides quest/faction context, not these individual biographies.
+A shared row across multiple newly registered scopes is counted once. English default:2224/36939 identifies Anathon as the mage associated with Rathir's founding and the Orbocant; default:49996 makes him Dwynian's teacher. Japanese アナトン and Chinese 阿纳森 corroborate. Reuse the complete existing paired form at default:2224/55953, adding annotation only to the first mention in each remaining prose cell."	"On the steep Tywili Cliffs, Bayala Tirin saw her city built. A glory it was, open to the four winds, the stars of all the heavens, and the heaving breast of the sea. And so it was called Gleir Rathwen, starlight-over-sea. There artisans wrought marvelous crafts, farmers tilled the plains, hunters hunted, and fishermen went down in coracles and skiffs to ply the strait.
+
+But the fissure of the Durek axe ran ever deep, and one day Anathon, Gleir Rathwen’s greatest mage, grew weary of the bustle and noise. His eyes strayed, as Tirin’s had done, to the Spirerock, and he resolved that there he should make his home. Disciples who wished to learn form him soon followed, and word spread wide of the marvelous city - and the hermit mages who dwelled nearby but apart.
+
+Had he and his pupil stayed; had they not been proud; had they cared for our people, perhaps they would have seen Gleir Rathwen’s Fate and warned us. Anathon’s hauteur and folly cost us dearly, for our first city was appointed its hour and day to end, no matter that our Goddess loved it, still. Anathon turned his gaze, and none knew the terrible storm that came from the south. None knew until the day a hunter staggered through the open gates, wounded mortally, and told of the rolling Horde. An army of Jottun-kind, thundering through the land, moving northward, crushing all in their path. Closing in on beloved Gleir Rathwen.
+
+The warning was too late, and our kindred were ill-prepared. Before they could fully arm themselves the Jottun horde had come. Many bravely fought, and many bravely died on the Night of the Falling Stars. At last, our will was broken and those who remained fled to the Spirerock, seeking refuge and protection from might of Anathon and his pupils, who tossed the seas into a foamy rage the Jottun could not cross. Barred from finishing their work, they set about destroying Gleir Rathwen. When dawn had come, Bayala Tirin’s first city lay in smoldering ruins.
+
+Out of shame and tears, Anathon made a home to all who lived upon his rock. Stone was carved and tunnels dug. A place of worship dedicated upon the spire-top itself to Lyria, who gives all their fate, and takes all away. This was the day Gleir Rathwen fell, and Rathir was born."	"バヤラ・ティリンの加護のもと、街はタイウィリの崖に建てられた。四方の風、満天の星々、そして大きく息をする大海の胸元に門戸を開いたその姿は実に見ごたえあるものであり、海上の星の光を意味するグレイール・ラスウェンの名がついた。街の職人たちは素晴らしい逸品を生み出し、農民たちは平野を耕し、狩人たちは獲物を狩り、漁民たちは網代舟や小舟で往来した。
+
+しかしデュレクの斧の地裂は深く、ある日グレイール・ラスウェンの最強の魔道士であるアナトンが都市の喧騒に愛想を尽かし、その目はティリンのように""ねじれ岩""へと向き、そこに居を構えようと決めたのだった。彼から学びたいと欲する学徒たちも間もなくして後に続き、やがて素晴らしい街のことや、近いようで遠い場所に住んでいる魔道士たちの噂が広まっていった。
+
+彼とその弟子が街に残っていれば、あれほど誇りを持たなければ、我が民を愛してくれていれば、あるいはグレイール・ラスウェンの宿命に気づき、警告してくれていたかもしれない。アナトンの傲慢と無関心の代償は大きく、我らの最初の都市は、女神の祝福を受けながらも滅亡の時へと向かっていた。アナトンが目を逸らしていたことで、南方から押し寄せる恐ろしき嵐のことを知りえた者はいなかったのである。致命傷を負った狩人が開いた大門をくぐり、迫り来る軍勢の一報をもたらすまで、気づきえた者はいなかった。ジョタン族の大軍勢が轟音を立てて北進し、行く手にある全てを踏み潰しつつ、我らがグレイール・ラスウェンに近づきつつあった。
+
+警告は手遅れで、我が同胞たちに準備の余地はなかった。防備を整える前にジョタンの軍が殺到し、""落星の一夜""と呼ばれたその夜、多くの者が勇敢に戦い、勇敢に死んでいった。ついに戦意をくじかれた味方の生き残りは""ねじれ岩""まで敗走し、アナトンとその弟子たちに庇護と助力を懇願した。魔道士たちは大海をたきつけてジョタンの行く手を塞いだ。獲物を見失った彼らはグレイール・ラスウェンを壊滅させ、夜が明けてみるとバヤラ・ティリンの最初の街はくすぶるがれきの山と化していた。
+
+悔いと涙にさいなまれたアナトンは、生き残った者たち全てをその岩に住まわせた。岩は削られ、通路が掘り抜かれ、螺旋上地区には、全てに運命を与える者リリアを奉った、ほこらが設けられた。かくしてグレイール・ラスウェンは滅び、ラシーアが生まれたのである。"	"在陡峭的泰威里悬崖，巴亚拉·提林看着她的城市修建起来。那是一种荣耀，向四边来风，向天空上的星光，以及海面起伏的胸膛而敞开。于是为它取名格利尔拉思文，意为海上的星光。那里的工匠制作着非凡的工艺品，农民在平原上耕作，猎人打猎，渔夫踏上圆舟，踩上小艇在海峡边往返。
+
+可杜雷克之斧的裂痕太深了，有一天格利尔拉思文的伟大法师阿纳森厌烦了喧闹和噪音。他的目光开始涣散，就像提林一样，等到了尖顶岩，他决心在这里安家。想向他学习的信徒不久就跟他走了，流言传遍了这座奇迹般的城市，也传到了那些在附近隐居但又各自分隔的法师那里。
+
+如果他和他的学生留了下来，他们不是那么骄傲，他们关心一下我族之人，也许他们就能看到格利尔拉思文的命运并且警告我们。阿拉东的自大和愚蠢让我们付出了巨大的代价，因为我们第一座城的岁月已经走到了尽头，即便是女神仍旧眷顾着我们。阿纳森目光一转，没有人知道来自南方的恐怖风暴。没有人知道，直到有一天一名猎人蹒跚地走过大门，身受重创，才告知了一支大军席卷而来。一支与约坦类似的军队，雷鸣般踏过这片土地，向北进发，碾过途经的一切。向深爱的格利尔拉思文靠近。
+
+警告来的太迟，而我们家族来不及准备。在他们能够完全武装自己之前，约坦大军已经来了。很多人英勇参战，还有很多人英勇的死在群星陨落的夜晚。最后，我们的意志崩溃了，幸存的人逃到了尖顶岩寻求庇护，寻求强大的阿纳森和他学生的保护，他们能在海洋激起汹涌的怒涛，那些约坦跨不过来。因为完成任务受到阻碍，他们开始摧毁格利尔拉思文。等到黎明降临，巴亚拉·提林的第一座城已经成了燃烧着的废墟。
+
+既感觉耻辱又满含热泪，阿纳森给所有住在岩石上的人安了家。石头精雕细琢又挖了隧道。在塔尖修建了一个专门用来膜拜莉里亚的地方，这位女神赐予了他们命运，又悉数收回。也就是那天格利尔拉思文倒下，拉瑟里诞生了。"	"{""person:anathon"":""not-an-issue""}"	"{""person:anathon"":""needs-context""}"	"{""person:anathon"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"8997"	""	"person:anathon"	"accepted"	"오랜 평화가 이어진 뒤, 라시르(Rathir)에 폭군 여왕 시아라 시다누스(Ciara Sydanus)가 등장했다. 료스알브(Ljosalfar)의 여마도사였던 그녀에 관해서는 알려진 바가 많지 않지만, 그녀의 공포정치는 일부 사람들에게 역병의 시기라 불렸다. 그녀와의 마법 전쟁 중 도시 곳곳에서 병에 걸리는 이들이 나왔기 때문이다. 병은 계속 퍼져 시다누스(Sydanus) 자신보다 더 두려운 존재가 되었다. 그리고 도시 대부분을 파괴하고 많은 목숨을 앗아간 화염이 덮쳐서야 끝이 났다. 대화재라 불리는 그 참사는 기적처럼 병을 누그러뜨렸다. 더는 환자가 생기지 않았고, 앓던 이들도 회복되었다. 마침내 폭군 여왕 시다누스(Sydanus)가 패배했고, 그 뒤 스콜리아 아르카나(Scholia Arcana)가 세워졌다.
+
+이 시기에는 시다누스(Sydanus)가 라시르(Rathir)의 통치권을 장악해 이성과 자제 없이 제멋대로 폭정을 휘두를 수 있게 했던 구체제의 폐단이 널리 논의되었다. 아나톤 시대부터 오르보칸트는 늘 한 명의 마법사가 이끌었고, 그 이름은 모두가 알고 있었다. 그러나 변화가 필요하다는 데 뜻이 모였다. 허영에 찬 야심으로 누구도 의석을 차지하려 들지 못하게, 평의회의 구성원과 그들을 대변하는 엘룬드를 제외한 모두에게 평의회를 비밀로 했다. 또한 누구도 다른 이보다 더 큰 영향력을 갖지 못하도록 오르보칸트의 모든 구성원을 동등하게 하고, 그 위에 군림하는 자는 두지 않았다.
+
+역병의 시기와 대화재로부터 600년이 흘렀고, 라시르(Rathir)는 이러한 조치가 현명했음을 증명했다. 첨탑 위쪽과 아래쪽 주민들은 리리아(Lyria)의 지혜 아래 평화롭고 조화롭게 살아간다."	"오랜 평화가 이어진 뒤, 라시르(Rathir)에 폭군 여왕 시아라 시다누스(Ciara Sydanus)가 등장했다. 료스알브(Ljosalfar)의 여마도사였던 그녀에 관해서는 알려진 바가 많지 않지만, 그녀의 공포정치는 일부 사람들에게 역병의 시기라 불렸다. 그녀와의 마법 전쟁 중 도시 곳곳에서 병에 걸리는 이들이 나왔기 때문이다. 병은 계속 퍼져 시다누스(Sydanus) 자신보다 더 두려운 존재가 되었다. 그리고 도시 대부분을 파괴하고 많은 목숨을 앗아간 화염이 덮쳐서야 끝이 났다. 대화재라 불리는 그 참사는 기적처럼 병을 누그러뜨렸다. 더는 환자가 생기지 않았고, 앓던 이들도 회복되었다. 마침내 폭군 여왕 시다누스(Sydanus)가 패배했고, 그 뒤 스콜리아 아르카나(Scholia Arcana)가 세워졌다.
+
+이 시기에는 시다누스(Sydanus)가 라시르(Rathir)의 통치권을 장악해 이성과 자제 없이 제멋대로 폭정을 휘두를 수 있게 했던 구체제의 폐단이 널리 논의되었다. 아나톤(Anathon) 시대부터 오르보칸트는 늘 한 명의 마법사가 이끌었고, 그 이름은 모두가 알고 있었다. 그러나 변화가 필요하다는 데 뜻이 모였다. 허영에 찬 야심으로 누구도 의석을 차지하려 들지 못하게, 평의회의 구성원과 그들을 대변하는 엘룬드를 제외한 모두에게 평의회를 비밀로 했다. 또한 누구도 다른 이보다 더 큰 영향력을 갖지 못하도록 오르보칸트의 모든 구성원을 동등하게 하고, 그 위에 군림하는 자는 두지 않았다.
+
+역병의 시기와 대화재로부터 600년이 흘렀고, 라시르(Rathir)는 이러한 조치가 현명했음을 증명했다. 첨탑 위쪽과 아래쪽 주민들은 리리아(Lyria)의 지혜 아래 평화롭고 조화롭게 살아간다."	"D-21336: Register five explicitly named historical/story individuals and the separate
+book title, anchored to English default:2224/36939/49996 and the source
+labels. Japanese/Chinese corroboration is recorded per row. Preserve the
+already established Korean readings, correct the isolated 드위니언 title
+variant, and add complete bilingual labels or first-mention annotations.
+Keep subsequent names concise within each long cell, and leave unrelated
+historical, council, title and creature terminology unchanged. Official
+Korean manual PDF pages 1-2 provides Fate, Lyria and setting context, and
+page 7 provides quest/faction context, not these individual biographies.
+A shared row across multiple newly registered scopes is counted once. English default:2224/36939 identifies Anathon as the mage associated with Rathir's founding and the Orbocant; default:49996 makes him Dwynian's teacher. Japanese アナトン and Chinese 阿纳森 corroborate. Reuse the complete existing paired form at default:2224/55953, adding annotation only to the first mention in each remaining prose cell."	"After many years of peace there arose in Rathir the tyrant queen Ciara Sydanus. Little may be said of this Ljosalfar magistrix, except that her reign of terror was called by some the Plaguetimes, for many among the city fell ill during the magical struggle against her. This sickness spread and spread, until it was feared more than the Sydanus herself, and it ended only when the fires came, which ruined much of the city and caused many deaths. Miraculously, The Burning, as it is known, relieved the ailment. No more fell sick and the sick grew better. At last the tyrant queen Sydanus was defeated, and the Scholia Arcana established thereafter.
+
+The abuses of the old system that had allowed Sydanus to seize rule of Rathir and exert her will without reason or restraint was much discussed during this time. And though since the time of Anathon, one mage had always ruled the Orbocant, whose name was known to all, it was agreed there should be a change. So that no one would ever seek a seat for vainglorious ambition, the council was made secret to all but themselves and the Elund, who speaks for them. And so that none hold more sway than another, each member of the Orbocant was deemed an equal, and none superior.
+
+Six hundred years have passed since the Plaguetimes and the Burning, and Rathir has proved the wisdom of these acts. Spiretop and spirebase live in peaceful harmony under the harmony of Lyria's wisdom."	"幾年にもおよぶ平和の後、ラシーアの地にてシアラ・シダナスなる暴君の女王が台頭した。ロサルファーの賢者であるこの女王については詳しくはわかっていないものの、その恐怖の御世は一部では""疫病の時""と呼ばれた。これは彼女との魔術闘争において、都市部に発病者が大勢出たからである。疫病はとどまるところを知らずに広がり、やがてはシダナス自身以上に脅威となったが、炎が押し寄せて街の大半を破壊し、大勢の者を死にいたらしめたことでようやく終息した。後に""大火の災厄""と呼ばれる惨事は奇跡的に疫病の流行を止める結果となり、新たな発病者は出ず、病人らも回復した。暴君シダナス女王もようやく倒され、その後アルカナ大学が設立された。
+
+これらの出来事の前後には、シダナスがラシーアの実験を掌握して理性や自制なしで意のままに圧政を敷くことができた旧体制の問題点が活発に議論された。そしてアナトンの時代以来、オーボカントは万人に名を知られた一名の魔道士が司ってきたものの、変化が必要だとの合意が得られた。何びとも虚栄ゆえの野心で議席を得ようとしないように、議会は自身らと、その代弁者であるエランド以外には秘匿され、また、影響力に差が生じないように、オーボカントの各員は対等とし、格の差はないものとされた。
+
+疫病の時と大火の災厄から六百年が過ぎ、ラシーアはこれらの英断を体現し、尖塔の上に立つ者も、ふもとに住まう者たちも、リリアの知恵のもとに平穏な調和をなしとげ、暮らしている。"	"在多年的和平之后，拉瑟尔崛起了一位暴君——女王席亚拉·辛德鲁斯。关于这位光精灵魔导师乏善可陈，除了她那被一些人称作“瘟疫王朝”的恐怖统治时期，很多在城里的人都因为与她的魔法抗争而生病。这种病不断传播、扩散，后来疾病比辛德鲁斯本人还令人恐惧，直到那场毁掉城市大部分并烧死很多人的大火来临，这一切才终于结束。如大家所知，这场大火灾奇迹般的消灭了疾病。不再有新增病例，生病的人也逐渐康复。最后，女暴君辛德鲁斯被击败，奥术学院自此成立了。
+
+对旧体系的滥用导致辛德鲁斯能够独揽拉瑟尔大权，并且她不需要理由也没有限制地行使自己的意愿——在这段时期人们针对这些问题展开了广泛的讨论。虽然自阿纳森这位家喻户晓的法师开始，奥博坎议会就一直由一名法师独揽大权，但大家都同意该做出改变了。这样就不会有人为了虚荣的野心而争抢头把交椅了，议会秘密结成，除了他们及其代言人埃朗德之外没有人知道。这样也不会有人比其他人拥有更多影响力，奥博坎议会的每名成员都被视作平等的存在，没人高人一头。
+
+距瘟疫王朝和大火灾已经过去了 600 年，拉瑟尔证明了这些举措的明智。塔尖和塔基和谐相处，共同生活在莉里亚智慧的调和之下。"	"{""person:anathon"":""accepted""}"	"{""person:anathon"":""needs-context""}"	"{""person:anathon"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21611"	""	"named work:the-fall-of-dwynian|person:dwynian"	"not-an-issue"	"첨탑(Spire)의 계단을 오를 때면 《드위니안의 몰락(The Fall of Dwynian)》 첫 구절이 떠오른다. 웬딩(The Wending)을 보고도 《돌 그림자(Stone Shadows)》가 떠오르지 않을 수 없다."	"첨탑(Spire)의 계단을 오를 때면 《드위니안의 몰락(The Fall of Dwynian)》 첫 구절이 떠오른다. 웬딩(The Wending)을 보고도 《돌 그림자(Stone Shadows)》가 떠오르지 않을 수 없다."	"D-21336: Register five explicitly named historical/story individuals and the separate
+book title, anchored to English default:2224/36939/49996 and the source
+labels. Japanese/Chinese corroboration is recorded per row. Preserve the
+already established Korean readings, correct the isolated 드위니언 title
+variant, and add complete bilingual labels or first-mention annotations.
+Keep subsequent names concise within each long cell, and leave unrelated
+historical, council, title and creature terminology unchanged. Official
+Korean manual PDF pages 1-2 provides Fate, Lyria and setting context, and
+page 7 provides quest/faction context, not these individual biographies.
+A shared row across multiple newly registered scopes is counted once. English default:49996 explicitly names Dwynian, the mage and Anathon's pupil, as the tale's protagonist. Japanese ドウィニアン and Chinese 德雯妮安 corroborate. Reuse 드위니안 from base:699 and the standalone default:56288; normalize 드위니언 in the book title. The title's complete bilingual form also covers its embedded person name. English base:699/default:64950 supplies the exact book title; default:21611 quotes its opening lines, and 36939 calls it a tale. Japanese ドウィニアンの没落 and Chinese 德雯妮安的陨落/德文尼安的衰落 corroborate. Preserve the complete paired title and existing spacing at base:699. At default:36939 retain the local article-less English Fall of Dwynian rather than inventing The."	"I cannot ascend the steps of the Spire without thinking on the first lines of The Fall of Dwynian. Nor espy the Wending and not recall Stone Shadows."	"螺旋階段を下るときは、""ドウィニアンの没落""の最初の数行を思わず想起してしまう。ウェンディングを見ることも、""動かざる石の影""を思い出すこともない"	"在登上尖塔的台阶时，我不得不想起《德雯妮安的陨落》的第一行。在踏入前行之地时，也不得不想起《岩石之影》。"	"{""person:dwynian"":""not-an-issue"",""named work:the-fall-of-dwynian"":""not-an-issue""}"	"{""named work:the-fall-of-dwynian"":""needs-context"",""person:dwynian"":""needs-context""}"	"{""named work:the-fall-of-dwynian"":""Candidate hit from the English source; verify this occurrence in context."",""person:dwynian"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36939"	""	"named work:the-fall-of-dwynian|person:anathon|person:caethra|person:dwynian"	"accepted"	"우리 민족은 한때 리리아(Lyria)의 사랑이 자신들을 온전히 지켜 준다고 믿었다. 하지만 운명의 실타래를 끊는 손길에서 벗어날 자는 없다는 말도 있었다. 그들은 여신이 내린 선물인 아나톤의 강력한 마법을 보았고, 여신께서 주신 힘을 써서 스스로를 돌봐야 한다고 여겼다. 그래서 백성들은 아나톤에게 이끌어 달라고 청했다. 그러나 아나톤은 사람들의 소란을 싫어했다. ‘시인 카에트라가 너희를 이끌게 하라. 말솜씨가 훌륭하니 너희가 귀 기울일 것이다.’ 하지만 백성들은 아나톤을 원했다. 그러자 그는 ‘카에트라를 내게 보내라. 내가 그녀와 이야기하면, 그녀가 내려가 너희에게 전할 것이다’라고 했다. 그 뒤 아나톤은 마법사들을 모아 원을 만들었으니, 이것이 오르보칸트였다. 카에트라는 그들에게 가서 이야기를 듣고 백성에게 전했다. 그렇게 그녀는 엘룬드가 되었다.
+
+오늘날까지도 오르보칸트가 다스리고 엘룬드가 말한다.
+
+그 뒤 백 년 동안 라시르(Rathir)는 오래된 참나무에 덩굴이 꽃을 피우듯 첨탑 바위 둘레에 세워졌다. 첨탑의 밑동에는 성벽과 흉벽으로 보호된 하층 도시가 들어섰다. 바위를 거의 남기지 않을 만큼 첨탑의 표면을 깎고 다듬었으니, 우리 민족의 솜씨는 참으로 정교했다.
+
+그 시대가 끝날 무렵, 아나톤은 늙어 거의 앞을 보지 못하게 되었다. 그는 자신들이 이룬 모든 것을 바라볼 수 있도록 첨탑 꼭대기 끝으로 데려가 달라고 했다. “우리는 리리아(Lyria)의 자녀다. 하지만 마땅히 그래야 할 만큼 그녀를 사랑하지 않았다.” 그곳에 리리아(Lyria)의 신전을 세우고, 그 앞에는 티린(Tirin)의 자녀들을 이곳으로 이끈 달의 여신 루날라(Lunala)의 정원을 만들라고 명했다. 그는 일 년하고도 하루 동안 말없이 거의 움직이지 않은 채 건설을 지켜보았다. 꼭 그만큼 걸려 완성된 날, 아나톤은 누워서 숨을 거두었다.
+
+그 시대와 바로 뒤이은 시대에 관한 이야기는 많다. 그중 으뜸은 드위니안의 몰락이다."	"우리 민족은 한때 리리아(Lyria)의 사랑이 자신들을 온전히 지켜 준다고 믿었다. 하지만 운명의 실타래를 끊는 손길에서 벗어날 자는 없다는 말도 있었다. 그들은 여신이 내린 선물인 아나톤(Anathon)의 강력한 마법을 보았고, 여신께서 주신 힘을 써서 스스로를 돌봐야 한다고 여겼다. 그래서 백성들은 아나톤에게 이끌어 달라고 청했다. 그러나 아나톤은 사람들의 소란을 싫어했다. ‘시인 카에트라(Caethra)가 너희를 이끌게 하라. 말솜씨가 훌륭하니 너희가 귀 기울일 것이다.’ 하지만 백성들은 아나톤을 원했다. 그러자 그는 ‘카에트라를 내게 보내라. 내가 그녀와 이야기하면, 그녀가 내려가 너희에게 전할 것이다’라고 했다. 그 뒤 아나톤은 마법사들을 모아 원을 만들었으니, 이것이 오르보칸트였다. 카에트라는 그들에게 가서 이야기를 듣고 백성에게 전했다. 그렇게 그녀는 엘룬드가 되었다.
+
+오늘날까지도 오르보칸트가 다스리고 엘룬드가 말한다.
+
+그 뒤 백 년 동안 라시르(Rathir)는 오래된 참나무에 덩굴이 꽃을 피우듯 첨탑 바위 둘레에 세워졌다. 첨탑의 밑동에는 성벽과 흉벽으로 보호된 하층 도시가 들어섰다. 바위를 거의 남기지 않을 만큼 첨탑의 표면을 깎고 다듬었으니, 우리 민족의 솜씨는 참으로 정교했다.
+
+그 시대가 끝날 무렵, 아나톤은 늙어 거의 앞을 보지 못하게 되었다. 그는 자신들이 이룬 모든 것을 바라볼 수 있도록 첨탑 꼭대기 끝으로 데려가 달라고 했다. “우리는 리리아(Lyria)의 자녀다. 하지만 마땅히 그래야 할 만큼 그녀를 사랑하지 않았다.” 그곳에 리리아(Lyria)의 신전을 세우고, 그 앞에는 티린(Tirin)의 자녀들을 이곳으로 이끈 달의 여신 루날라(Lunala)의 정원을 만들라고 명했다. 그는 일 년하고도 하루 동안 말없이 거의 움직이지 않은 채 건설을 지켜보았다. 꼭 그만큼 걸려 완성된 날, 아나톤은 누워서 숨을 거두었다.
+
+그 시대와 바로 뒤이은 시대에 관한 이야기는 많다. 그중 으뜸은 드위니안의 몰락(Fall of Dwynian)이다."	"D-21336: Register five explicitly named historical/story individuals and the separate
+book title, anchored to English default:2224/36939/49996 and the source
+labels. Japanese/Chinese corroboration is recorded per row. Preserve the
+already established Korean readings, correct the isolated 드위니언 title
+variant, and add complete bilingual labels or first-mention annotations.
+Keep subsequent names concise within each long cell, and leave unrelated
+historical, council, title and creature terminology unchanged. Official
+Korean manual PDF pages 1-2 provides Fate, Lyria and setting context, and
+page 7 provides quest/faction context, not these individual biographies.
+A shared row across multiple newly registered scopes is counted once. English default:2224/36939 identifies Anathon as the mage associated with Rathir's founding and the Orbocant; default:49996 makes him Dwynian's teacher. Japanese アナトン and Chinese 阿纳森 corroborate. Reuse the complete existing paired form at default:2224/55953, adding annotation only to the first mention in each remaining prose cell. English default:36939 explicitly identifies the poet Caethra, who speaks to the people as the Elund. Japanese ケイスラ and Chinese 凯瑟拉 corroborate the name/role. Retain the existing Korean 카에트라 and annotate its first mention, without equating the historical individual with contemporary Elund Carth. English default:49996 explicitly names Dwynian, the mage and Anathon's pupil, as the tale's protagonist. Japanese ドウィニアン and Chinese 德雯妮安 corroborate. Reuse 드위니안 from base:699 and the standalone default:56288; normalize 드위니언 in the book title. The title's complete bilingual form also covers its embedded person name. English base:699/default:64950 supplies the exact book title; default:21611 quotes its opening lines, and 36939 calls it a tale. Japanese ドウィニアンの没落 and Chinese 德雯妮安的陨落/德文尼安的衰落 corroborate. Preserve the complete paired title and existing spacing at base:699. At default:36939 retain the local article-less English Fall of Dwynian rather than inventing The."	"While once our people believed they were entirely guarded by Lyria's love, now it was said no thing escapes the cutting of the strands of Fate. And they saw the might of Anathon's magic, which is a gift of the Goddess, and it was said we must use the gifts She has given us and look after ourselves. So our people begged Anathon to lead, but he did not like the bustle and noise of the people. Let the poet Caethra lead you, he said, for she has a fine tongue, and you will listen to her. But our people demanded Anathon, and so he said, let Caethra come up to me, and I will speak to her, and she will go down and speak to you. Anathon then formed a circle of his mages, and this was the Orbocant. And Caethra went to them, and listened, and spoke to the people, and so she was the Elund.
+
+To this day, Orbocant rules and Elund speaks.
+
+In the hundred years that followed, the city of Rathir rose upon around the Spirerock, like flowering vine upon a an ancient oak. The Lower City was laid upon the spire's base, and made secure with walls and battlements. The Spire's face was carved and honed until little of the rock itself remained, so fine was the artistry of our kind.
+
+At the end of this time, when Anathon was very old and nearly blind, he demanded he be led out to the edge of the Spiretop, where he could look out on all that we had done. 'We are Lyria's children,' he said aloud, 'yet we have not loved her as we should.' And so he decreed that a temple be built to Lyria where he stood, and before it a garden to Lunala, goddess of the moon, who guided Tirin's children to this very place. A year and a day he watched its building, saying nothing, moving little. A year and a day it took to build, and the day that it was done, Anathon laid himself down and died.
+
+Many tales are told of these times and those that followed close thereafter. Greatest among these is the Fall of Dwynian."	"我が民はかつてリリアの愛に守られていると信じていたが、それと同時に、何人たりとも運命の切り網からは逃れられないと教えられた。そして彼らはアナトンの魔法の力を目の当たりにした。あれぞまさしく女神の恵みであり、教えに従えば、リリアの贈り物は我々を守るためにある。ゆえに我が民はアナトンの導きを請うた。だが、人々に騒がれるのを嫌ったアナトンは""詩人ケイスラに導かれよ""と言った。弁が立つ彼女の声に耳を傾けよと。しかし、民は一歩も退かない。そこで彼は""ケイスラを呼べ""と言った。私から彼女に、君たちに語りかけるよう説いてみると。そしてアナトンは弟子の魔法使いを集めて、組織を作った。オーボカントだ。やがて現れたケイスラは彼らの話を聞くと、民に語りかけた。すなわちエランドになったわけである。
+
+これは今日でも変わらない。オーボカントが支配し、エランドが代弁する。
+
+その後の数百年間で、樫の大木に絡みつき花を咲かせるつる草のように、""ねじれ岩""の周りにラシーアの街が築かれた。ふもとには下層地区が広がり、壁や胸壁で守られた。表面は岩肌が殆ど残らないくらいまで削られ、磨かれて、ある種の芸術的な優雅さをまとった。
+
+この時代の終わり頃、年老いてほぼ視力を失ったアナトンは、従者に頼んで螺旋階段の端まで連れていってもらい、そこから自分が成し遂げた全てを見渡した。""我々はリリアの子供だ""と彼は言った。""だが、リリアを十分に愛してきたとは言えない""そして、自らの立つ場所にリリアを称える神殿を、その手前にティリンの子らをこの地へと導いた月の女神、ルナーラを称える庭を建てるよう命じた。一年と一日、彼はじっと黙ったまま、殆ど動かずに工事を眺めていた。そして一年と一日かけて建物が完成すると、その日にアナトンは自ら床に入って息を引き取った。
+
+この時代や次の時代には数多くの物語が存在するが、その最高峰は""ドウィニアンの没落""であろう。"	"我们的人曾经相信他们完全被莉里亚的爱守护着，但现在，人们会说没有什么能逃脱命运之线的切割。他们看到了阿纳森的魔法的力量，这是女神的礼物，而且据说我们必须使用她给我们的礼物，照顾好自己。因此，我们的人请求阿纳森来领导他们，但他不喜欢人群的喧闹。他说，让诗人凯瑟拉领导你们吧，因为她有一副好嗓子，你们会听从她的。但我们的人民只想要阿纳颂，于是他说，叫凯瑟拉到我这里来，我会与她说话，她之后会下去与你们说话。然后，阿纳森把他的法师们集结在一处，这就是奥博坎议会的由来。凯瑟拉走到他们身边，听他们说话，然后再向人民讲话，她因此成为了埃朗德。
+
+直到今天，奥博坎议会仍然进行着统治，埃朗德依然转达着前者的话。
+
+在接下来的一百年里，拉瑟里城在尖塔岩周围拔地而起，就像古代橡树上生长出的开花藤蔓一样。下城建在尖塔的基座上，用城墙和城垛进行加固。我们一族的技艺是如此精湛——尖塔的正面经过雕琢和磨砺，直到岩石本身几乎所剩无几。
+
+在这段时间的最后，当阿纳森年事已高，几乎双目失明的时候，他要求别人把他带到尖塔的边缘，在那里他可以看到我们所成就的一切。“我们是莉里亚的孩子，”他大声说，“可是我们没有像应该的那样爱她。“于是，他下令在他站立的地方为莉里亚建一座神庙，再在神庙前为引导着提林的孩子们来到这个地方的月亮女神卢娜拉建一座花园。一年零一天的时间里，他注视着它的建造过程，一言不发，一动不动。建造花了一年零一天的时间，就在建造完成的那一天，阿纳森倒下死去了。
+
+关于这些时代，以及此后紧接而来的时代，有许多故事流传。其中最重要的是德雯妮安的衰落。"	"{""person:anathon"":""accepted"",""person:caethra"":""accepted"",""person:dwynian"":""accepted"",""named work:the-fall-of-dwynian"":""accepted""}"	"{""named work:the-fall-of-dwynian"":""needs-context"",""person:anathon"":""needs-context"",""person:caethra"":""needs-context"",""person:dwynian"":""needs-context""}"	"{""named work:the-fall-of-dwynian"":""Candidate hit from the English source; verify this occurrence in context."",""person:anathon"":""Candidate hit from the English source; verify this occurrence in context."",""person:caethra"":""Candidate hit from the English source; verify this occurrence in context."",""person:dwynian"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"49996"	""	"person:ailoc|person:anathon|person:dwynian|person:ranu"	"accepted"	"이제 들으라, 꿈꾸는 이들과 첨탑을 거니는 이들이여. 눈물과 비탄의 이야기를 들으라. 빛나는 별 드위니안의 이야기, 별만이 낼 수 있는 빛을 내며 빛나고 별만이 떨어지듯 추락한 이야기라네.
+
+라시르(Rathir)의 첫 번째 시대가 끝나갈 무렵, 아나톤은 첨탑 꼭대기에서 다스렸고 모두가 그의 말에 귀를 기울였지. 아래에서 어부들과 함께 살던 이들에게 아이가 태어났어. 물결 꼭대기를 장식하는 흰 포말을 따라 드위니안이라 이름 지었지. 태어난 지 5일 만에 마법의 불꽃을 보였고, 5살에는 힘이 아주 강해져 아나톤의 발치에서 배우던 제자들 사이에 들게 되었어. 그곳에서 리리아(Lyria)의 선물이 준 지혜를 10년간 공부했고, 아나톤에게 직접 마법의 정수를 익혔지. 15살이 된 드위니안보다 재치 있고 현명하고 강한 마법사는 첨탑에 없었어. 라시르(Rathir)의 어떤 소녀도 그녀만큼 아름답지 않았지.
+
+어느 날, 첨탑을 빙 둘러 난 계단을 내려가던 드위니안은 아래에 모인 경비병들을 보았어. 투구와 검이 햇빛을 받아 반짝였지. 그곳에 100명이 서 있었어. 용감하고 당당한 병사 100명이. 하지만 솔직히 말하자면, 거기 1,000명이 있었어도 드위니안의 눈에는 한 사람만 보였을 거야. 이름은 라누. 보기에도 참 아름다운 청년이었지.
+
+그날 밤, 달콤하고 슬픈 노래가 첨탑 꼭대기에서 흘러내렸어. 라누는 몰랐지만, 그 노래는 아래 성벽을 거닐던 그를 위해 부른 것이었지. 근무를 마치고 숙소로 돌아온 그는 문 앞에 놓인 꽃을 발견했어. 꽃을 꺾어 꽂아 둔 게 아니었어. 문 자체가 살아나 문틀에서 초록 줄기가 자라났지. 아침에 일어나 보니 어느 이국땅에서 온 지빠귀 한 마리가 창가에 앉아 있었어. 그 새는 그에게 가장 달콤한 노래를 불러 주면서도 조금도 두려워하지 않았지. 분수 곁을 지날 때면 물속 깊은 곳에서 마음을 사로잡는 두 눈이 보였어. 아름다운 눈, 전에 어디선가 본 적 있는 눈이었지. 꽃과 새, 다른 징조들이 나흘 동안 이어졌어. 닷새째 되던 날, 라누는 검에 비친 모습에서 그녀를, 드위니안을 보았어. 멀찍이 뒤에 서서 돌도 꿰뚫을 듯한 눈으로 자신을 바라보고 있었지. 그 눈을 그는 알고 있었어. 그날 라누는 첨탑을 올라 꼭대기에서 그녀를 찾았어. 그가 '당신이었군.' 하자 그녀는 '그래요, 나예요.'라고 답했지. 드위니안은 자신을 꿰뚫은 사랑이 라누의 마음에도 닿았다는 걸 알았어.
+
+닷새째 되는 날 저녁, 아이록이 나타났어. 바람 속 속삭임이자 파도 위의 어둠, 황금빛 평원에 드리운 한기였지. 작물을 검게 태우고 농민들을 사지째 찢어 뼈를 탐했어. 그러고는 라시르(Rathir) 바깥에 서서 타이윌 절벽에서 포효하며 아나톤에게 나와 맞서라고 도발했지. 그가 저지른 일을 보고 분노에 찬 말을 들은 이들은 모두 경비병을 성문으로 불러 모았어. 한 명도 빠짐없이 소집됐고 라누도 그들 사이에 있었지. 갑옷을 모두 갖춰 입은 라누가 뒤돌아보니 드위니안이 그를 바라보고 있었어.
+
+100명이 넘는 경비병이 라시르(Rathir)를 떠나 진군했어. 하지만 아이록은 병사 한 명당 스레시(Thresh)와 보가트(Boggart), 레이나시를 불러내어 부렸지. 100명이 넘는 경비병이 라시르(Rathir)를 떠났지만, 돌아온 이는 하나도 없었어.
+
+사람들이 그가 저지른 일을 알게 되자 라시르(Rathir)에는 침묵이 내려앉았어. 아나톤의 얼굴에는 근심이 드리웠지만 아무 말도 하지 않았지. 마침내 드위니안이 사람들 앞에 나섰어. 흰 예복을 입고 머리는 정교하게 땋았지. '나는 모든 마법을 익혔어요. 강하고 재빠르며 두려움도 몰라요. 내가 이 재앙을 막지 못한다면 누가 하겠어요?' 그녀가 말했어. 사람들은 압도되어 누구도 반대하지 못했지. 슬픔으로 눈빛이 흐려진 아나톤은 말없이 고개를 끄덕였어.
+
+드위니안은 다리를 건너 라시르(Rathir)의 성문을 나섰어. 검게 탄 들판과 뼈가 널린 벌판을 가로질러, 죽어 가던 라누를 찾았지. 몸을 굽혀 달콤하고도 길게, 단 한 번 입을 맞추고는 일어나 아이록을 향해 걸어갔어.
+
+손목을 한 번 튕겨 보가트들을 태워 없애고, 스레시(Thresh)를 번개로 반으로 갈랐어. 레이나시에게는 얼음과 바람의 소용돌이를 퍼부었지. 그리고 아이록과 맞섰어. 라시르(Rathir)에서 본 두 사람의 싸움은 여름 폭풍 같았다고 해. 먹구름 사이로 밝은 번개가 갈라지고 우르릉거리는 천둥이 울렸지. 마침내 드위니안은 땅속 뼈들을 불러냈고, 땅에서 솟은 날카로운 창 열두 자루가 아이록을 꿰뚫었어. 그가 죽었는지 확인하려 드위니안이 다가가자 아이록은 고개를 들고 한쪽 팔을 빼냈어. 가시 하나의 끝을 부러뜨려 그녀의 가슴을 향해 던졌지. 몸부림치다 솟아난 가시에 찔린 아이록은 남은 생명마저 다했어. 그는 쓰러져 숨을 거뒀고, 자신이 던진 가시가 드위니안의 가슴에 치명상을 입히는 것을 끝내 보지 못했어.
+
+드위니안의 심장은 두 번 꿰뚫렸어. 한 번은 사랑으로, 한 번은 증오로. 치명적인 증오에 찔린 그녀는 마지막 생명의 불씨를 안고 기어갔어. 사랑하는 라누에게 닿을 때까지 기어갔지. 마지막으로 한 번 더 입을 맞추고, 두 팔로 그를 끌어안고, 머리를 내려놓은 채 숨을 거뒀어."	"이제 들으라, 꿈꾸는 이들과 첨탑을 거니는 이들이여. 눈물과 비탄의 이야기를 들으라. 빛나는 별 드위니안(Dwynian)의 이야기, 별만이 낼 수 있는 빛을 내며 빛나고 별만이 떨어지듯 추락한 이야기라네.
+
+라시르(Rathir)의 첫 번째 시대가 끝나갈 무렵, 아나톤(Anathon)은 첨탑 꼭대기에서 다스렸고 모두가 그의 말에 귀를 기울였지. 아래에서 어부들과 함께 살던 이들에게 아이가 태어났어. 물결 꼭대기를 장식하는 흰 포말을 따라 드위니안이라 이름 지었지. 태어난 지 5일 만에 마법의 불꽃을 보였고, 5살에는 힘이 아주 강해져 아나톤의 발치에서 배우던 제자들 사이에 들게 되었어. 그곳에서 리리아(Lyria)의 선물이 준 지혜를 10년간 공부했고, 아나톤에게 직접 마법의 정수를 익혔지. 15살이 된 드위니안보다 재치 있고 현명하고 강한 마법사는 첨탑에 없었어. 라시르(Rathir)의 어떤 소녀도 그녀만큼 아름답지 않았지.
+
+어느 날, 첨탑을 빙 둘러 난 계단을 내려가던 드위니안은 아래에 모인 경비병들을 보았어. 투구와 검이 햇빛을 받아 반짝였지. 그곳에 100명이 서 있었어. 용감하고 당당한 병사 100명이. 하지만 솔직히 말하자면, 거기 1,000명이 있었어도 드위니안의 눈에는 한 사람만 보였을 거야. 이름은 라누(Ranu). 보기에도 참 아름다운 청년이었지.
+
+그날 밤, 달콤하고 슬픈 노래가 첨탑 꼭대기에서 흘러내렸어. 라누는 몰랐지만, 그 노래는 아래 성벽을 거닐던 그를 위해 부른 것이었지. 근무를 마치고 숙소로 돌아온 그는 문 앞에 놓인 꽃을 발견했어. 꽃을 꺾어 꽂아 둔 게 아니었어. 문 자체가 살아나 문틀에서 초록 줄기가 자라났지. 아침에 일어나 보니 어느 이국땅에서 온 지빠귀 한 마리가 창가에 앉아 있었어. 그 새는 그에게 가장 달콤한 노래를 불러 주면서도 조금도 두려워하지 않았지. 분수 곁을 지날 때면 물속 깊은 곳에서 마음을 사로잡는 두 눈이 보였어. 아름다운 눈, 전에 어디선가 본 적 있는 눈이었지. 꽃과 새, 다른 징조들이 나흘 동안 이어졌어. 닷새째 되던 날, 라누는 검에 비친 모습에서 그녀를, 드위니안을 보았어. 멀찍이 뒤에 서서 돌도 꿰뚫을 듯한 눈으로 자신을 바라보고 있었지. 그 눈을 그는 알고 있었어. 그날 라누는 첨탑을 올라 꼭대기에서 그녀를 찾았어. 그가 '당신이었군.' 하자 그녀는 '그래요, 나예요.'라고 답했지. 드위니안은 자신을 꿰뚫은 사랑이 라누의 마음에도 닿았다는 걸 알았어.
+
+닷새째 되는 날 저녁, 아이록(Ailoc)이 나타났어. 바람 속 속삭임이자 파도 위의 어둠, 황금빛 평원에 드리운 한기였지. 작물을 검게 태우고 농민들을 사지째 찢어 뼈를 탐했어. 그러고는 라시르(Rathir) 바깥에 서서 타이윌 절벽에서 포효하며 아나톤에게 나와 맞서라고 도발했지. 그가 저지른 일을 보고 분노에 찬 말을 들은 이들은 모두 경비병을 성문으로 불러 모았어. 한 명도 빠짐없이 소집됐고 라누도 그들 사이에 있었지. 갑옷을 모두 갖춰 입은 라누가 뒤돌아보니 드위니안이 그를 바라보고 있었어.
+
+100명이 넘는 경비병이 라시르(Rathir)를 떠나 진군했어. 하지만 아이록은 병사 한 명당 스레시(Thresh)와 보가트(Boggart), 레이나시를 불러내어 부렸지. 100명이 넘는 경비병이 라시르(Rathir)를 떠났지만, 돌아온 이는 하나도 없었어.
+
+사람들이 그가 저지른 일을 알게 되자 라시르(Rathir)에는 침묵이 내려앉았어. 아나톤의 얼굴에는 근심이 드리웠지만 아무 말도 하지 않았지. 마침내 드위니안이 사람들 앞에 나섰어. 흰 예복을 입고 머리는 정교하게 땋았지. '나는 모든 마법을 익혔어요. 강하고 재빠르며 두려움도 몰라요. 내가 이 재앙을 막지 못한다면 누가 하겠어요?' 그녀가 말했어. 사람들은 압도되어 누구도 반대하지 못했지. 슬픔으로 눈빛이 흐려진 아나톤은 말없이 고개를 끄덕였어.
+
+드위니안은 다리를 건너 라시르(Rathir)의 성문을 나섰어. 검게 탄 들판과 뼈가 널린 벌판을 가로질러, 죽어 가던 라누를 찾았지. 몸을 굽혀 달콤하고도 길게, 단 한 번 입을 맞추고는 일어나 아이록을 향해 걸어갔어.
+
+손목을 한 번 튕겨 보가트들을 태워 없애고, 스레시(Thresh)를 번개로 반으로 갈랐어. 레이나시에게는 얼음과 바람의 소용돌이를 퍼부었지. 그리고 아이록과 맞섰어. 라시르(Rathir)에서 본 두 사람의 싸움은 여름 폭풍 같았다고 해. 먹구름 사이로 밝은 번개가 갈라지고 우르릉거리는 천둥이 울렸지. 마침내 드위니안은 땅속 뼈들을 불러냈고, 땅에서 솟은 날카로운 창 열두 자루가 아이록을 꿰뚫었어. 그가 죽었는지 확인하려 드위니안이 다가가자 아이록은 고개를 들고 한쪽 팔을 빼냈어. 가시 하나의 끝을 부러뜨려 그녀의 가슴을 향해 던졌지. 몸부림치다 솟아난 가시에 찔린 아이록은 남은 생명마저 다했어. 그는 쓰러져 숨을 거뒀고, 자신이 던진 가시가 드위니안의 가슴에 치명상을 입히는 것을 끝내 보지 못했어.
+
+드위니안의 심장은 두 번 꿰뚫렸어. 한 번은 사랑으로, 한 번은 증오로. 치명적인 증오에 찔린 그녀는 마지막 생명의 불씨를 안고 기어갔어. 사랑하는 라누에게 닿을 때까지 기어갔지. 마지막으로 한 번 더 입을 맞추고, 두 팔로 그를 끌어안고, 머리를 내려놓은 채 숨을 거뒀어."	"D-21336: Register five explicitly named historical/story individuals and the separate
+book title, anchored to English default:2224/36939/49996 and the source
+labels. Japanese/Chinese corroboration is recorded per row. Preserve the
+already established Korean readings, correct the isolated 드위니언 title
+variant, and add complete bilingual labels or first-mention annotations.
+Keep subsequent names concise within each long cell, and leave unrelated
+historical, council, title and creature terminology unchanged. Official
+Korean manual PDF pages 1-2 provides Fate, Lyria and setting context, and
+page 7 provides quest/faction context, not these individual biographies.
+A shared row across multiple newly registered scopes is counted once. English default:49996 explicitly names Dwynian, the mage and Anathon's pupil, as the tale's protagonist. Japanese ドウィニアン and Chinese 德雯妮安 corroborate. Reuse 드위니안 from base:699 and the standalone default:56288; normalize 드위니언 in the book title. The title's complete bilingual form also covers its embedded person name. English default:2224/36939 identifies Anathon as the mage associated with Rathir's founding and the Orbocant; default:49996 makes him Dwynian's teacher. Japanese アナトン and Chinese 阿纳森 corroborate. Reuse the complete existing paired form at default:2224/55953, adding annotation only to the first mention in each remaining prose cell. English default:49996 explicitly names Ranu as the guard loved by Dwynian. Japanese ラヌー and Chinese 兰鲁 corroborate. Retain 라누 and annotate the explicit first introduction; later mentions in this same tale remain concise. English default:49996 explicitly names Ailoc as the individual antagonist fought by Dwynian. Japanese アイロック and Chinese 爱洛克 corroborate. Retain 아이록 and annotate the first mention. Person is an individual-name index category only; do not infer a species or a separate NPC identity."	"Listen now you dreamers and you walkers of the spire. Listen now, for I will tell a tale of tears and woe; the tale of Dwynian, a gleaming star, who shone as only stars could shine ‒ and fell as only they could fall.
+
+It was the end of the first age of Rathir, when Anathon ruled from spiretop, and all harkened to his word. Among the fisher-folk below was born a babe, whom they named Dwynian ‒ named after the lace of white that caps the water's waves. At five days she showed the spark of magic; and at five years her powers were so great that she was brought among the pupils who sat at Anathon's feet. Ten years she studied the wisdom of Lyria's gift, there, and from Anathon himself gained mastery of the art. At fifteen years of age, no mage atop the spire was half as cunning, wise, or strong as Dwynian. No girl in Rathir was half as fair.
+
+One day as Dwynian went down the stairs that wind around our Spire, she spied the guards assembled down below. Their helms and swords sparkled in the sun. One hundred of them stood there. One hundred soldiers bold and proud. But let us speak plainly, for all there could have been a thousand, Dwynian saw only one. His name was Ranu and he was lovely to behold.
+
+That night a sweet, sad song drifted from the Spiretop. And though he did not know it, the song was meant for him ‒ for Ranu ‒ as he paced upon the battlements below. When he retired from his post, he found flowers upon his door. Nor were the flowers cut pinned. The door itself had come to life and green stalks sprouted from its frame. In the morning when he rose, a songbird from some exotic land perched in his window. It sang to him the sweetest song and showed no fear of him at all. When he passed a fountain pool, in its depth he saw two haunting eyes. Beautiful eyes. Eyes he had seen somewhere before. And so it went for four days, with flowers, and birds, and other signs. On the fifth day, in the reflection of his sword, he spied her ‒ spied Dwynian ‒ standing far behind him, watching him with eyes that could pierce stone. Eyes he knew. On the fifth day, Ranu climbed the spire and found her at its top. ""It is you,"" he said. ""Yes, she said, it is I."" And she knew the love that had struck her heart had smitten his as well.
+
+On the eve of the fifth day, Ailoc came. He was a whisper on the wind, a darkness on the waves, a chill over the golden plains. He blackened the crops and tore the farmers limb from limb, feasting on their bones. Then he stood outside of Rathir, raged upon the bluffs of Tywil, and dared Anathon to come forth and face him. When everyone saw what he'd done, and heard Ailoc's raging words, the guards were summoned to the gates. Every last guard was called, and Ranu was among them. As he stood in all his armor, he looked back and saw Dwynian, watching him with her gaze.
+
+One hundred guards and more marched out of Rathir. But for every guard, Ailoc called thresh, boggart, and laenashe to his command. One hundred guards and more marched out of Rathir. None returned.
+
+When everyone saw what he had done, a silence fell over Rathir. A grave look fell over Anathon's face, but he spoke no words. At last, Dwynian stood up before them. She wore robes of white, and her hair was plaited in intricate braids. 'I have mastered all the arts of magic,' she said. 'I am strong and swift and I do not know fear. If I cannot stop this scourge, who can?' Awed, no one spoke against her. Anathon's eyes clouded with sadness, then, without a word, he nodded.
+
+Dwynian crossed the bridge and left the gates of Rathir. She strode across the blackened field and then the field of bones. She found her Ranu where he lay dying. She bent and kissed him long and sweet, but once. Then she rose and made her way toward Ailoc.
+
+His boggarts she burnt with a flick of her wrist, and his thresh she split in half with bolts of lightning. The laenashe she struck with ice and tore with knots of wind. And then she came to Ailoc. From Rathir, it was said, their fight appeared like a summer storm, with dark clouds and bright forks of lightning and growling thunderous booms. At last, it is said, she called upon the bones of the earth itself, and they sprang from the ground and cut through Ailoc like a dozen sharpened spears. When Dwynian stepped close to see that he was dead, Ailoc raised his head and freed his arm. He broke the tip from one of the spikes and hurled it at her chest. The effort tore against the spikes and cut the last of life from him. He fell motionless and dead, and never saw the spike he threw hit home, landing fatally in Dwynian's breast.
+
+Twice was Dwynian struck in the heart. Once by love and once by hatred. From deadly hatred she crawled now, with the last of life still in her. She crawled until she reached her love, her Ranu. She kissed him one more time, wrapped her arms around him, lay down her head, and died."	"聞くがいい、夢見人たちよ、そして尖塔を歩く者たちよ。聞くがいい、涙と悲劇の物語を。星ならではの輝きを発する、輝ける星であったドウィニアン、星ならではの堕ちかたをした彼女の物語を。
+
+ラシーアの第一期の終わり頃、アナトンが尖塔の上から支配をし、誰もが彼の言葉に耳を貸していた頃、下層の領民たちの間に女児が生まれ、波のいただきを飾る一筋の白にちなんでドウィニアンと名づけられた。生後5日で魔力の片鱗を見せ、5歳の時にはその魔力の強さを認められ、アナトンの元で研さんに励んでいる弟子たちの間に連れて来られた。その後10年間に渡り、そこでリリアの贈り物の知恵を学び、アナトン自身から魔術の粋を授けられた。15歳となったドウィニアンは機転、識見、力のいずれの面でも、尖塔の上に住むどの魔道士を、そして美しさではラシーアのあらゆる少女を、倍は凌駕していた。
+
+ある日、ドウィニアンが尖塔の周囲を取り巻く階段を下りていくと、眼下に集結している衛兵たちが目に止まった。その兜や剣が陽光を浴びて輝き、百人がそこに、誇り高く堂々と整列していた。しかし、率直に言えば、そこに兵が何千人いようと、ドウィニアンの目には一人しか入らなかった。その名をラヌーという、見目麗しい青年だった。
+
+その晩、甘く切ない歌が尖塔の頂から下りてきた。そして本人はまだ気づき得なかったものの、その歌は眼下の城壁を行き来するラヌーに宛てたものであった。彼が部屋に戻ると、扉の前に花があった。それも摘まれたものではなく、扉そのものが命を得て、その枠から緑の茎が生えていたのだった。朝目覚めてみると、はるか遠くの地に住まうはずの見慣れない鳴き鳥が窓にとまっており、世にも美しい歌を歌いかけ、彼を恐れるそぶりは微塵も見せなかった。噴水の横を通ると、水底から食い入るようにこちらを見つめる美しい一対の眼差しが見えた。それはどこかで見覚えのある目であった。花や鳥やそれ以外の兆しが四日間続き、五日目にラヌーは自らの剣に映り込む姿ドウィニアンに気づいた。はるか後方に立ち、岩すらも貫き通す目、見覚えのあるあの目で彼を見つめる姿に。五日目にラヌーは尖塔を登り、その頂にはドウィニアンが待っていた。""君だったのか""と彼が問うと、""私よ""と彼女が返した。ドウィニアンは知った。自分の心を貫いた愛が、彼の心にも達していたことを。
+
+そして五日目の夜にアイロックがやってきた。風に乗ったささやきのごとく、波の上の闇のごとく、金色の平原に広がる悪寒のごとく。作物を黒変させて農民たちを八つ裂きにし、その骨をむさぼったアイロックはラシーアの外に立ち、タイウィリの崖に阻まれて激高し、下りてきて戦うようにとアナトンを挑発した。アイロックの所業が知れ渡り、その怒れる言葉が聞こえると、衛兵たちが街の門に集合させられた。衛兵は例外なく召集され、ラヌーもその中にいた。鎧を全て身にまとい、振り返ると、そこには彼を見つめるドウィニアンの姿があった。
+
+百人を超える衛兵たちがラシーアから出立した。しかしアイロックは衛兵一人につき、スレッシュ、ボガートそしてレイナシュを召喚して戦わせた。百人を超える衛兵たちがラシーアから出立し、その一人たりとも戻らなかった。
+
+アイロックの所業が知れ渡ると、ラシーアは沈黙に包まれた。アナトンは表情を曇らせたまま、言葉を発しようとしなかった。ついにドウィニアンが一同の前に立ち上がった。白いローブを身にまとい、その髪は丁寧に結われていた。""私はあらゆる魔術に習熟しています""と彼女は切り出した。""私は強く、素早く、恐れを知りません。私にこの災厄が止められなければ、誰に止められましょう？"" 誰もが圧倒され、反対する者はいなかった。両目を悲しみで曇らせ、アナトンのが無言のままうなずいた。
+
+ドウィニアンは橋を渡り、ラシーアの門を出、黒変した畑と骨だらけの平原を歩いていった。愛しのラヌーは虫の息だった。ドウィニアンは身をかがめて彼に甘く、長く、しかし一度だけの口づけをし、立ち上がるとアイロックの方へと向かっていった。
+
+彼女は手首を返して手下のボガートを焼きつくし、スレッシュを雷で二つに割き、レイナシュを氷塊とつむじ風で一掃し、ようやくアイロックの前に立った。ラシーアから見た二人の戦いはまるで夏の嵐のごとく、暗き雲の合間にまばゆい稲光が走り、うなるような轟音が響いてきた。ついにはドウィニアンが大地の骨そのものを呼び寄せ、それらが地面を突き破り、数多の鋭利な槍のごとくアイロックを串刺しにした。ドウィニアンがアイロックの最期を確かめようと近づいた時、アイロックが頭を上げ、片手をふりほどき、棘の一つの先端を折り、彼女の胸めがけて投げつけた。悪あがきでアイロックの身体は引き裂かれ、最後の命を使い尽くした彼が、投げつけた棘の行く末を見ることはなかった。棘はドウィニアンの胸に深々と突き刺さり、致命傷となった。
+
+二度に渡り、ドウィニアンは胸をえぐられた。一度は愛に、一度は憎しみに。最後の命をふりしぼり、殺意の挙げ句からはいずり離れたドウィニアンは、愛するラヌーのもとに辿り着くまで決して止まることはなかった。そして最後にもう一度だけ口づけを交わすと、両腕で彼を抱き締め、頭を預けると、この世を去った。"	"你们这些梦想家，在塔尖行走的人，现在听好了。现在听着，我要讲一个充满泪水和痛苦的故事，德雯妮安的故事，她是一颗闪闪发光的星星，发出只有星星才能发出的光，像星星落下一样落下。
+
+那是拉瑟里时代的末期，阿纳森在塔尖统治，所有人都听从他的指令。下面的渔民生了一个孩子，取名德雯妮安，意为盖在水浪之上的白色浪尖。第五天她就展示出了魔法的火焰，第五年她的力量就已经非常强大，阿纳森把她带到座下当学徒。十岁她就在那里学习了莉里亚之赐的智慧，而且从阿纳森那里掌握了这门技术。十五岁时，塔尖没有一位法师有德雯妮安一半机智，有她一半智慧和强壮。拉瑟里的女孩也没有她一半漂亮。
+
+一天，德雯妮安正走下围绕着塔尖的楼梯，她看见下面的卫兵正在集合。他们的头盔和宝剑在阳光下发出灿烂的光彩。他们有一百个人站在那里。一百个勇敢而自豪的士兵。不过我们直说，即便是那里有一千个人，德雯妮安也只看见一个。他的名字叫兰鲁，看起来很可爱。
+
+那晚塔尖飘荡着甜蜜而悲伤的歌曲。虽然他还不知道，但当他走向下方的城垛时，这首歌就是为他而唱的，为了兰鲁。等他从岗位上回来，他发现自己门前放着一些花。这些花不是摘的，也没有捆扎。那扇门竟然自己活了，绿色的茎秆从门框中生长出来。早上他起床之后，一只来自异域的鸣鸟栖息在他窗边。它为他唱出一首最甜蜜的歌，而且一点儿都不怕他。待他走过一座喷泉，在深处他看见了一双久久难以忘怀的眼睛。一双漂亮的眼睛。一双他之前曾在哪儿见过的眼睛。这样的事情持续了四天，有花，有鸟，还有一些其他的暗示。第五天，在他反光的宝剑上，他看见了她，看见了德雯妮安，远远地站在他的身后，用一双足以洞穿岩石的眼睛望着他。他知道这双眼睛。第五天，兰鲁爬上了塔尖，发现她就在顶上。“是你。”他说。她说，“是，就是我。”她知道席卷她内心的爱意同样也侵袭了他的心脏。
+
+第五天傍晚，爱洛克来了。他是风中的低语，海浪上的黑暗，金黄色平原上的寒意。他烧毁了作物，肢解了农民，以他们的骨头设宴。之后他站在拉瑟里之外，在提威利的悬崖上肆虐，威胁阿纳森前来面对他。所有人看见了他的所作所为，听见了爱洛克的怒吼，卫队就被召集到了大门。每名卫士都接受了召唤，兰鲁就在他们之中。正当他全副武装的站着，他回头看向德雯妮安，她也正注视着他。
+
+超过一百名卫兵从拉瑟里出兵。然而针对每一位卫兵，爱洛克就派魔灵，博格特和长尾怪听候他的差遣。超过一百名卫兵从拉瑟里出兵。没有一个人回来。
+
+每个人见到他的所作所为之后，一阵沉默笼罩着拉瑟里。悲伤的表情落在阿纳森的脸上，然而他一言不发。最后，德雯妮安站在了他们面前。她穿着白色的长袍，她的头发编着复杂的辫子。“我掌握了所有魔法，”她说。“我既强壮又敏捷，而且不知道恐惧。如果我不能阻止这场灾难，谁能？”震惊之余，没人敢讲话反对她。阿纳森的眼神充满了悲伤，之后，一句话没说，他点了点头。
+
+德雯妮安过了桥，离开了拉瑟里的大门。她走过烧焦的土地，走过满是尸骨的土地。她发现她的兰鲁死去的地方。她弯下腰，甜蜜的亲吻了他，亲了很久，但只是一次。之后她站起身，朝爱洛克而去。
+
+她的手腕一弹就烧死了博格特，用闪电把他的魔灵劈成两半。她用寒冰攻击蛇身女妖，用风之结把它们撕碎。之后她来到了爱洛克面前。据拉瑟里的人说，他们那一仗打得就像是夏天的风暴，乌云密布，道道明亮的叉形闪电，雷声炸响如怒号一般。据说最后，她召集了地上所有的尸骨，它们从地面升起，像几十根锋利的长毛向爱洛克刺去。正当德雯妮安走近去看他是不是死了，爱洛克突然抬起头，腾出一只手臂。他把其中一根骨头上的尖刺折断，朝德雯妮安的胸口用力扔去。此举撕裂尸骨，把他最后一点性命也带走了。他倒下一动不动地死去，再也看不见他扔出的骨刺击中目标，致命一击正好刺在德雯妮安的胸口。
+
+德雯妮安两次打在心上。一次是爱，一次是恨。在这致命的恨意之下，此刻她只能匍匐，身上还有最后一点儿生命的迹象。她爬到自己的爱人，兰鲁身边。再次亲吻了他，用她的双臂抱着他，头躺下就死了。"	"{""person:dwynian"":""accepted"",""person:anathon"":""accepted"",""person:ranu"":""accepted"",""person:ailoc"":""accepted""}"	"{""person:ailoc"":""needs-context"",""person:anathon"":""needs-context"",""person:dwynian"":""needs-context"",""person:ranu"":""needs-context""}"	"{""person:ailoc"":""Candidate hit from the English source; verify this occurrence in context."",""person:anathon"":""Candidate hit from the English source; verify this occurrence in context."",""person:dwynian"":""Candidate hit from the English source; verify this occurrence in context."",""person:ranu"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"55953"	""	"person:anathon"	"not-an-issue"	"'우리의 운명은 아침 햇살 앞에 드리운 그림자와 같다고 하라. 그러나 그것은 돌의 그림자이니, 결코 바뀌지 않으리라.' - 아나톤(Anathon)
+
+
+돌을 깎아 만든 굽이진 계단
+
+정교하게 조각한 뼈처럼 얽혀 있고
+
+그 비밀은 누구도 알지 못한 채
+
+돌 그림자 속에서만 속삭여진다
+
+
+
+고대의 말이 나직이 전해 온다
+
+깊은 지하에서 무언가 깨어났다고
+
+굳건하던 강력한 봉인이 깨졌다고
+
+돌 그림자 속에 갇혀 있던 것이
+
+
+아름다운 자태가 계단을 내려오고
+
+새하얀 옷에 머리는 땋아 내렸으며
+
+슬픔과 비애를 품고 걸어
+
+돌 그림자 속으로 내려간다
+
+
+진실인지 꿈인지 알지 못한 채
+
+그녀는 뒤척이는 잠결에 그것들을 보았다
+
+시내에서 솟아오르는 불길한 일들
+
+돌 그림자처럼 치솟는구나
+
+
+그러나 그곳엔 싸울 것이 아무것도 없었고
+
+어둠은 눈부신 빛으로 바뀌었다
+
+섬뜩한 지혜가 그녀의 시야를 채우고
+
+돌 그림자의 지혜가
+
+
+이제 그녀는 첨탑과 부두를 떠돈다
+
+얼굴에는 먼 곳을 보는 듯한 기색
+
+그녀는 필멸자의 종족보다 더 많은 것을 안다
+
+돌 그림자에 관해 알아야 할 것보다도"	"'우리의 운명은 아침 햇살 앞에 드리운 그림자와 같다고 하라. 그러나 그것은 돌의 그림자이니, 결코 바뀌지 않으리라.' - 아나톤(Anathon)
+
+
+돌을 깎아 만든 굽이진 계단
+
+정교하게 조각한 뼈처럼 얽혀 있고
+
+그 비밀은 누구도 알지 못한 채
+
+돌 그림자 속에서만 속삭여진다
+
+
+
+고대의 말이 나직이 전해 온다
+
+깊은 지하에서 무언가 깨어났다고
+
+굳건하던 강력한 봉인이 깨졌다고
+
+돌 그림자 속에 갇혀 있던 것이
+
+
+아름다운 자태가 계단을 내려오고
+
+새하얀 옷에 머리는 땋아 내렸으며
+
+슬픔과 비애를 품고 걸어
+
+돌 그림자 속으로 내려간다
+
+
+진실인지 꿈인지 알지 못한 채
+
+그녀는 뒤척이는 잠결에 그것들을 보았다
+
+시내에서 솟아오르는 불길한 일들
+
+돌 그림자처럼 치솟는구나
+
+
+그러나 그곳엔 싸울 것이 아무것도 없었고
+
+어둠은 눈부신 빛으로 바뀌었다
+
+섬뜩한 지혜가 그녀의 시야를 채우고
+
+돌 그림자의 지혜가
+
+
+이제 그녀는 첨탑과 부두를 떠돈다
+
+얼굴에는 먼 곳을 보는 듯한 기색
+
+그녀는 필멸자의 종족보다 더 많은 것을 안다
+
+돌 그림자에 관해 알아야 할 것보다도"	"D-21336: Register five explicitly named historical/story individuals and the separate
+book title, anchored to English default:2224/36939/49996 and the source
+labels. Japanese/Chinese corroboration is recorded per row. Preserve the
+already established Korean readings, correct the isolated 드위니언 title
+variant, and add complete bilingual labels or first-mention annotations.
+Keep subsequent names concise within each long cell, and leave unrelated
+historical, council, title and creature terminology unchanged. Official
+Korean manual PDF pages 1-2 provides Fate, Lyria and setting context, and
+page 7 provides quest/faction context, not these individual biographies.
+A shared row across multiple newly registered scopes is counted once. English default:2224/36939 identifies Anathon as the mage associated with Rathir's founding and the Orbocant; default:49996 makes him Dwynian's teacher. Japanese アナトン and Chinese 阿纳森 corroborate. Reuse the complete existing paired form at default:2224/55953, adding annotation only to the first mention in each remaining prose cell."	"'Let it be said our Fates are like shadows cast before us in the morning sun. But they are shadows of stone, for they may never change.' - Anathon
+
+
+The winding stairs cut into stone
+
+As intricate as fine-carved bone
+
+Whose mysteries are never known
+
+But whispered in stone shadows
+
+
+
+The ancient words that softly spoken
+
+Something deep below has woken
+
+Potent seals that held were broken
+
+Held within stone shadows
+
+
+A lovely form descends the stair
+
+In pale white gown and plaited hair
+
+Who moves with sad and mournful air
+
+Down into stone shadows
+
+
+Knowing not if truth or dream
+
+Things in restless sleep she's seen
+
+Troubles rising from a stream
+
+Rising like stone shadows
+
+
+But there she finds no thing to fight
+
+And darkness turns to blinding light
+
+And awful wisdom fills her sight
+
+The wisdom of stone shadows.
+
+
+And now she wanders the spire and quays
+
+A distant look upon her face
+
+She knows more than the mortal race
+
+Should know about stone shadows"	"""我々の運命は朝日の投げかける影のようなもの。だが、それは石の影であり、決して形は変わらない""(アナトン)
+
+
+曲がりくねった石彫りの階段
+
+その繊細さは巧妙なる骨の彫刻のごとし
+
+その謎は誰も知らないが
+
+石の影の中でささやかれる
+
+
+
+古き言葉が静かに語る
+
+地の底で何かが目覚めたと
+
+強力な封印が破られたと
+
+石の影の中に囚われし者
+
+
+階段を降りゆく美しき姿
+
+青白いガウンに、編み上げた髪
+
+悲しみと嘆きをその身にまとい
+
+石の影の中へと歩を進める
+
+
+これは夢か現実か
+
+不安な眠りの中で彼女は見た
+
+困難は嵐より巻き起こる
+
+石の影のように立ち昇る
+
+
+だが、彼女が戦うべきものは消え
+
+闇は鮮やかな光へと転ずる
+
+その目に溢れるは畏怖すべき知恵
+
+石の影の畏怖すべき知恵
+
+
+そして彼女は尖塔から岸壁へと歩む
+
+その顔に浮かぶ遠い目は
+
+定命の種よりも知っている
+
+石の影のことを知っている"	"‘若要说我们的命运如晨曦前的影子，尽管去说。但那是磐石的影子，它亘古不变。’ - 阿纳森
+
+
+盘旋楼梯碎成石块
+
+像精雕细琢的骨头一样错综复杂
+
+它们的秘密无人知晓
+
+但低语在石之影
+
+
+
+古代话语被轻柔诉说
+
+深藏地下的东西已醒来
+
+保留的强力封印已破碎
+
+保留在石之影
+
+
+一道可爱的身姿延楼梯向下
+
+穿着白袍头发编成辫子
+
+她移动时带着凄惨悲哀的空气
+
+下降进了石之影
+
+
+不知道是现实还是梦境
+
+她看见事物在无休止的睡眠中
+
+麻烦从小溪中升起
+
+升起就如石之影
+
+
+但是她在那里没有找到要战斗的东西
+
+而黑暗变成了闪烁的光
+
+可怕的智慧充满了她的视野
+
+这智慧来自石之影
+
+
+现在她徘徊在螺旋阶梯和港口
+
+从远处一瞥她的脸
+
+她知道比人族多
+
+应该了解石之影"	"{""person:anathon"":""not-an-issue""}"	"{""person:anathon"":""needs-context""}"	"{""person:anathon"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"56288"	""	"person:dwynian"	"not-an-issue"	"드위니안(Dwynian)"	"드위니안(Dwynian)"	"D-21336: Register five explicitly named historical/story individuals and the separate
+book title, anchored to English default:2224/36939/49996 and the source
+labels. Japanese/Chinese corroboration is recorded per row. Preserve the
+already established Korean readings, correct the isolated 드위니언 title
+variant, and add complete bilingual labels or first-mention annotations.
+Keep subsequent names concise within each long cell, and leave unrelated
+historical, council, title and creature terminology unchanged. Official
+Korean manual PDF pages 1-2 provides Fate, Lyria and setting context, and
+page 7 provides quest/faction context, not these individual biographies.
+A shared row across multiple newly registered scopes is counted once. English default:49996 explicitly names Dwynian, the mage and Anathon's pupil, as the tale's protagonist. Japanese ドウィニアン and Chinese 德雯妮安 corroborate. Reuse 드위니안 from base:699 and the standalone default:56288; normalize 드위니언 in the book title. The title's complete bilingual form also covers its embedded person name."	"Dwynian"	"Dwynian"	"Dwynian"	"{""person:dwynian"":""not-an-issue""}"	"{""person:dwynian"":""needs-context""}"	"{""person:dwynian"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"64950"	""	"named work:the-fall-of-dwynian|person:dwynian"	"accepted"	"드위니언의 몰락"	"드위니안의 몰락(The Fall of Dwynian)"	"D-21336: Register five explicitly named historical/story individuals and the separate
+book title, anchored to English default:2224/36939/49996 and the source
+labels. Japanese/Chinese corroboration is recorded per row. Preserve the
+already established Korean readings, correct the isolated 드위니언 title
+variant, and add complete bilingual labels or first-mention annotations.
+Keep subsequent names concise within each long cell, and leave unrelated
+historical, council, title and creature terminology unchanged. Official
+Korean manual PDF pages 1-2 provides Fate, Lyria and setting context, and
+page 7 provides quest/faction context, not these individual biographies.
+A shared row across multiple newly registered scopes is counted once. English default:49996 explicitly names Dwynian, the mage and Anathon's pupil, as the tale's protagonist. Japanese ドウィニアン and Chinese 德雯妮安 corroborate. Reuse 드위니안 from base:699 and the standalone default:56288; normalize 드위니언 in the book title. The title's complete bilingual form also covers its embedded person name. English base:699/default:64950 supplies the exact book title; default:21611 quotes its opening lines, and 36939 calls it a tale. Japanese ドウィニアンの没落 and Chinese 德雯妮安的陨落/德文尼安的衰落 corroborate. Preserve the complete paired title and existing spacing at base:699. At default:36939 retain the local article-less English Fall of Dwynian rather than inventing The."	"The Fall of Dwynian"	"ドウィニアンの没落"	"德文尼安的衰落"	"{""person:dwynian"":""accepted"",""named work:the-fall-of-dwynian"":""accepted""}"	"{""named work:the-fall-of-dwynian"":""needs-context"",""person:dwynian"":""needs-context""}"	"{""named work:the-fall-of-dwynian"":""Candidate hit from the English source; verify this occurrence in context."",""person:dwynian"":""Candidate hit from the English source; verify this occurrence in context.""}"

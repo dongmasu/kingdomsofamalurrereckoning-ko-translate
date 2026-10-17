@@ -1,0 +1,421 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"
+"base"	"294"	"11"	"place:hall-of-appointments"	"accepted"	"임명자의 전당"	"알현 준비의 전당(Hall of Appointments)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"Hall of Appointments"	"約束の間"	"预约大厅"	"{""place:hall-of-appointments"":""accepted""}"
+"base"	"383"	"11"	"place:adessa-prison"	"not-an-issue"	"아데사 감옥(Adessa Prison)"	"아데사 감옥(Adessa Prison)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"Adessa Prison"	"アデッサの監獄"	"阿德萨监狱"	"{""place:adessa-prison"":""not-an-issue""}"
+"base"	"1546"	"11"	"item:adessa-prison-key|place:adessa-prison"	"not-an-issue"	"아데사 감옥 열쇠(Adessa Prison Key)"	"아데사 감옥 열쇠(Adessa Prison Key)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match. English base:1546, Japanese アデッサの監獄の鍵, and Chinese 阿德萨监狱钥匙 corroborate the full key label. Already canonical; register without changing the cell."	"Adessa Prison Key"	"アデッサの監獄の鍵"	"阿德萨监狱钥匙"	"{""place:adessa-prison"":""not-an-issue"",""item:adessa-prison-key"":""not-an-issue""}"
+"base"	"1928"	"11"	"item:mel-senshir-prison-key|place:mel-senshir-prison"	"accepted"	"멜 센시르(Mel Senshir) 감옥 열쇠"	"멜 센시르 감옥 열쇠(Mel Senshir Prison Key)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5357/10836 and Japanese メル・センシアの監獄/Chinese 梅尔森溪监狱 corroborate the named prison. Preserve the city canonical 멜 센시르. English base:1928, Japanese メル・センシアの監獄の鍵, and Chinese 梅尔森溪监狱钥匙 corroborate the complete key label. Replace the embedded city-only annotation with one full-name annotation."	"Mel Senshir Prison Key"	"メル・センシアの監獄の鍵"	"梅尔森溪监狱钥匙"	"{""place:mel-senshir-prison"":""accepted"",""item:mel-senshir-prison-key"":""accepted""}"
+"base"	"2435"	"11"	"item:rathir-prison-key|place:rathir-prison"	"not-an-issue"	"라시르 감옥 열쇠(Rathir Prison Key)"	"라시르 감옥 열쇠(Rathir Prison Key)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5357/13543/49792 and Japanese ラシーアの監獄/Chinese 拉瑟里监狱 corroborate the named prison. Preserve the city canonical 라시르 and source-local lowercase prison in the narrative without interpreting it as another institution. English base:2435, Japanese ラシーアの監獄の鍵, and Chinese 拉瑟里监狱钥匙 corroborate the full key label. Already canonical; register without changing the cell."	"Rathir Prison Key"	"ラシーアの監獄の鍵"	"拉瑟里监狱钥匙"	"{""place:rathir-prison"":""not-an-issue"",""item:rathir-prison-key"":""not-an-issue""}"
+"base"	"2551"	"11"	"place:summer-sanctuary"	"accepted"	"여름 성역"	"여름 성역(Summer Sanctuary)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:29381/30347/34653/36507 identifies the named place with trainers, an alchemist, and the nurturing of knowledge. Japanese サマー・フェイの聖域 and Chinese 夏之圣所 corroborate. Reuse base:2551 and keep this place distinct from the Summer Court or Fae faction."	"Summer Sanctuary"	"サマー・フェイの聖域"	"夏之圣所"	"{""place:summer-sanctuary"":""accepted""}"
+"base"	"4414"	"11"	"place:primos-sanctuary"	"accepted"	"프리모스(Primos)의 성역"	"프리모스의 성역(Primos Sanctuary)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English base:4414/default:24629 and Japanese プリモスの聖域/Chinese 首领圣所 corroborate the complete place label. Primos is the already registered Kollossae office/title, not a newly inferred person. Reuse base 성역 and retain the previous title dispositions."	"Primos Sanctuary"	"プリモスの聖域"	"首领圣所"	"{""place:primos-sanctuary"":""accepted""}"
+"default"	"2363"	""	"place:adessa-prison"	"not-an-issue"	"아데사 감옥(Adessa Prison)"	"아데사 감옥(Adessa Prison)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"Adessa Prison"	"アデッサの監獄"	"阿德萨监狱"	"{""place:adessa-prison"":""not-an-issue""}"
+"default"	"5357"	""	"place:adessa-prison|place:mel-senshir-prison|place:rathir-prison"	"accepted"	"별 야영지(Star Camp)의 트래블러(Traveler) 애그레이빈 핸드(Agraivin Hand)가 감옥 열쇠를 가져올 때마다 현상금을 주겠다고 했다. 아데사(Adessa), 라시르(Rathir), 멜 센시르(Mel Senshir) 감옥의 열쇠를 사겠다고 한다."	"별 야영지(Star Camp)의 트래블러(Traveler) 애그레이빈 핸드(Agraivin Hand)가 감옥 열쇠를 가져올 때마다 현상금을 주겠다고 했다. 아데사 감옥(Adessa Prison), 라시르 감옥(Rathir Prison), 멜 센시르 감옥(Mel Senshir Prison)의 열쇠를 사겠다고 한다."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match. English default:5357/13543/49792 and Japanese ラシーアの監獄/Chinese 拉瑟里监狱 corroborate the named prison. Preserve the city canonical 라시르 and source-local lowercase prison in the narrative without interpreting it as another institution. English default:5357/10836 and Japanese メル・センシアの監獄/Chinese 梅尔森溪监狱 corroborate the named prison. Preserve the city canonical 멜 센시르."	"Agraivin Hand, a Traveler of Star Camp, has offered me a bounty for each prison key I can bring him. He'll pay for keys from Adessa Prison, Rathir Prison and Mel Senshir Prison."	"""星のキャンプ""のトラベラー、アグレイヴィン・ハンドが、監獄の鍵を持って来れば懸賞金を出すという。アデッサ、ラシーア、メル・センシアの監獄の鍵を買うそうだ。"	"艾格莱文·汉德，星之营地中的一位旅行者向我表示，每带回一把监狱钥匙，便能获得一份奖励。他愿意出价收购阿德萨监狱、拉瑟里监狱和梅尔森溪监狱的钥匙。"	"{""place:adessa-prison"":""accepted"",""place:rathir-prison"":""accepted"",""place:mel-senshir-prison"":""accepted""}"
+"default"	"5748"	""	"place:hall-of-appointments"	"accepted"	"내 역할은 임명관(Hall of Appointments)에 있어. 여름 궁정을 알현하러 오는 대사와 고위 인사들을 준비시키지."	"내 역할은 알현 준비의 전당(Hall of Appointments)에 있어. 여름 궁정을 알현하러 오는 대사와 고위 인사들을 준비시키지."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"My role is with the Hall of Appointments, to prepare visiting ambassadors and dignitaries to meet with the Court of Summer."	"私の役目は約束の間と共にある。大使や高官がサマー・コートへ訪ねてくる際の準備をしている"	"我的职责是在任命大厅，让来访的大使和贵族做好觐见夏廷的准备。"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"9219"	""	"place:hall-of-appointments"	"accepted"	"도시 곳곳에! 고레넷(Gorrenet)은 약속의 전당에 있고, 나머지는 전부 여기저기 흩어져 있어. 정말 끔찍해."	"도시 곳곳에! 고레넷(Gorrenet)은 알현 준비의 전당(Hall of Appointments)에 있고, 나머지는 전부 여기저기 흩어져 있어. 정말 끔찍해."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"Everywhere! Gorrenet is in the Hall of Appointments, but the others are all over the city. What a nightmare."	"あちこちにいる！ ゴアネットは約束の間にいるが、他は街のあちこちにいる。悪夢だよ"	"到处都是！戈伦内特在任命厅，而其他人则在城市各处。可怕的恶梦。"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"10836"	""	"place:mel-senshir-prison"	"accepted"	"멜 센시르(Mel Senshir) 감옥 열쇠."	"멜 센시르 감옥(Mel Senshir Prison) 열쇠."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5357/10836 and Japanese メル・センシアの監獄/Chinese 梅尔森溪监狱 corroborate the named prison. Preserve the city canonical 멜 센시르."	"A key for the Mel Senshir prison."	"メル・センシアの監獄の鍵。"	"梅尔森溪监狱的钥匙。"	"{""place:mel-senshir-prison"":""accepted""}"
+"default"	"13543"	""	"place:rathir-prison"	"accepted"	"라시르(Rathir) 감옥 열쇠"	"라시르 감옥(Rathir Prison) 열쇠"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5357/13543/49792 and Japanese ラシーアの監獄/Chinese 拉瑟里监狱 corroborate the named prison. Preserve the city canonical 라시르 and source-local lowercase prison in the narrative without interpreting it as another institution."	"A key for the Rathir prison."	"ラシーアの監獄の鍵。"	"拉瑟里监狱的钥匙。"	"{""place:rathir-prison"":""accepted""}"
+"default"	"14456"	""	"place:adessa-prison"	"accepted"	"프레스터의 길(Prester's Path)에 청원이 접수됐다. 부당하게 아데사(Adessa) 감옥에 갇힌 에스클라드 타이너(Esklad Teiner)를 찾아가 편지를 전해 달라는 내용이다. 들키지 않고 감방까지 편지를 가져가야 한다."	"프레스터의 길(Prester's Path)에 청원이 접수됐다. 부당하게 아데사 감옥(Adessa Prison)에 갇힌 에스클라드 타이너(Esklad Teiner)를 찾아가 편지를 전해 달라는 내용이다. 들키지 않고 감방까지 편지를 가져가야 한다."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"There's been a petition made to the Prester's Path for someone to visit the wrongly imprisoned Esklad Teiner in Adessa Prison and deliver a letter to him. I need to take the letter to his cell in Prison, without getting caught."	"アデッサの監獄へ不当に投獄されているエスクラド・テイナーに手紙を届けて欲しい、という嘆願がプレスターの嘆願板に提出された。気付かれずに監房まで手紙を届けねばならない。"	"有人向普里斯特小径请愿，希望某个人前往阿德萨监狱，找到一位蒙冤入狱的犯人埃斯科拉德·泰纳，并将一封信交给他。我需要将这封信交给牢房里的他，且不被其他人发现。"	"{""place:adessa-prison"":""accepted""}"
+"default"	"16959"	""	"place:hall-of-appointments"	"accepted"	"알겠소. 하지만 지고왕(High King)은 알현을 청한 사람만 만나 주오. 허가를 받으려면 알현 신청실(Hall of Appointments)에 가야 하오."	"알겠소. 하지만 지고왕(High King)은 알현을 청한 사람만 만나 주오. 허가를 받으려면 알현 준비의 전당(Hall of Appointments)에 가야 하오."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"I understand, but the High King will only meet with those who have sought an audience. If you wish to gain permission you will need to visit the Hall of Appointments."	"なるほど、だが至高王は拝謁を求めた者としかお会いにならない。お会いする許可がほしいなら、約束の間に行くといい"	"我明白，但至高王只会见那些被允许觐见的人。如果你想获得许可，你需要先去会见厅。"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"20249"	""	"place:adessa-prison"	"accepted"	"에스클라드 타이너(Esklad Teiner)는 빵 한 덩이를 훔쳤다는 이유만으로 몇 주째 아데사(Adessa) 감옥에 갇혀 있고, 우리와의 면회도 금지당했다. 제발 누군가가 우리의 사랑과 안부를 담은 이 편지를 프리토리언들에게 들키지 않고 감옥에 있는 그에게 전해 주길 바란다. 보상은 아블리에가 챙겨 줄 것이다."	"에스클라드 타이너(Esklad Teiner)는 빵 한 덩이를 훔쳤다는 이유만으로 몇 주째 아데사 감옥(Adessa Prison)에 갇혀 있고, 우리와의 면회도 금지당했다. 제발 누군가가 우리의 사랑과 안부를 담은 이 편지를 프리토리언들에게 들키지 않고 감옥에 있는 그에게 전해 주길 바란다. 보상은 아블리에가 챙겨 줄 것이다."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"Esklad Teiner has been held in the Adessa Prison for weeks, just for stealing a loaf of bread, and have forbidden us from speaking with him. Please, someone deliver this letter of our love and well wishes to him in the Prison, without attracting the Praetorians. Abblier will see to a reward."	"エスクラド・テイナーがパンをたかだか一斤盗んだかどで何週間も前からアデッサの監獄に収監され、我々の面会を断固拒否している。どなたか、軍団兵に気づかれることなく、愛情とねぎらいを込めた手紙を監獄内の彼に届けてください。成功の暁にはアブリアからお礼が出ます。"	"埃斯科拉德·泰纳已经被关在阿德萨监狱好几个星期了，就因为他偷了一块面包，我们还被禁止和他说话。拜托，请把这封包含着我们的爱和良好祝愿的信交给监狱中的他，同时不引起禁卫军的注意。阿比利尔将会给予你奖励。"	"{""place:adessa-prison"":""accepted""}"
+"default"	"22086"	""	"place:adessa-prison"	"accepted"	"아데사(Adessa) 감옥 열쇠."	"아데사 감옥(Adessa Prison) 열쇠."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"A key for the Adessa prison."	"アデッサの監獄の鍵。"	"阿德萨监狱的钥匙。"	"{""place:adessa-prison"":""accepted""}"
+"default"	"24629"	""	"place:primos-sanctuary"	"accepted"	"프리모스(Primos)의 성소"	"프리모스의 성역(Primos Sanctuary)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English base:4414/default:24629 and Japanese プリモスの聖域/Chinese 首领圣所 corroborate the complete place label. Primos is the already registered Kollossae office/title, not a newly inferred person. Reuse base 성역 and retain the previous title dispositions."	"Primos Sanctuary"	"プリモスの聖域"	"首领圣所"	"{""place:primos-sanctuary"":""accepted""}"
+"default"	"29381"	""	"place:summer-sanctuary"	"accepted"	"영예의 전당(Hall of Accolades)에서 최고의 페이(Fae) 장인들이 솜씨를 발휘한다. 깨달음을 얻으려면 여름의 성소(Summer Sanctuary)에 있는 훈련사를 찾아가면 돼."	"영예의 전당(Hall of Accolades)에서 최고의 페이(Fae) 장인들이 솜씨를 발휘한다. 깨달음을 얻으려면 여름 성역(Summer Sanctuary)에 있는 훈련사를 찾아가면 돼."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:29381/30347/34653/36507 identifies the named place with trainers, an alchemist, and the nurturing of knowledge. Japanese サマー・フェイの聖域 and Chinese 夏之圣所 corroborate. Reuse base:2551 and keep this place distinct from the Summer Court or Fae faction."	"The Hall of Accolades is where the finest Fae crafters offer their services. Trainers can be found in the Summer Sanctuary, where we go when seeking enlightenment."	"栄誉の大広間では、最高の腕を持つフェイの工芸家が店を開いている。ああ、指導者はサマー・フェイの聖域にいるぞ。教えを請うときにはあそこへ行くのさ"	"荣誉殿堂里，有着最好的灵族工匠进行着服务。夏日圣所里有训练师，我们可以在那里获得启迪。"	"{""place:summer-sanctuary"":""accepted""}"
+"default"	"29500"	""	"place:hall-of-appointments"	"accepted"	"왕을 알현하러 오는 자는 누구나 먼저 언더스타일에 있는 알현실에서 허가를 받아야 해. 솔직히 꽤 번거로운 절차인 것 같군."	"왕을 알현하러 오는 자는 누구나 먼저 언더스타일에 있는 알현 준비의 전당(Hall of Appointments)에서 허가를 받아야 해. 솔직히 꽤 번거로운 절차인 것 같군."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"All those who come to greet the king must first be granted permission by the Hall of Appointments in the Understyle, which I might say, seems rather inconvenient."	"王に謁見する者は皆、まずアンダースタイルの約束の間でその許可を得る必要がある。個人的には、ちょっと面倒なんだ"	"所有前来觐见国王的人都必须先得到下界花园会见厅的许可，我不得不说，这似乎很不方便。"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"30347"	""	"place:summer-sanctuary"	"accepted"	"평안하신가, 전하. 지식의 씨앗을 뿌리고 가꾸는 여름 안식처에 온 것을 환영하네."	"평안하신가, 전하. 지식의 씨앗을 뿌리고 가꾸는 여름 성역(Summer Sanctuary)에 온 것을 환영하네."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:29381/30347/34653/36507 identifies the named place with trainers, an alchemist, and the nurturing of knowledge. Japanese サマー・フェイの聖域 and Chinese 夏之圣所 corroborate. Reuse base:2551 and keep this place distinct from the Summer Court or Fae faction."	"Greetings, your grace. Welcome to the Summer Sanctuary, where the seeds of knowledge are sown and nurtured."	"やあ、サマー・フェイの聖域にようこそ。ここは知識の種がまかれ、育まれる場所だ"	"向您问好，陛下。欢迎来到夏之圣所，知识的种子在此播种发芽。"	"{""place:summer-sanctuary"":""accepted""}"
+"default"	"30954"	""	"place:summer-sanctuary"	"accepted"	"여름의 성소"	"여름 성역(Summer Sanctuary)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:29381/30347/34653/36507 identifies the named place with trainers, an alchemist, and the nurturing of knowledge. Japanese サマー・フェイの聖域 and Chinese 夏之圣所 corroborate. Reuse base:2551 and keep this place distinct from the Summer Court or Fae faction."	"Summer Sanctuary"	"サマー・フェイの聖域"	"夏之圣所"	"{""place:summer-sanctuary"":""accepted""}"
+"default"	"32831"	""	"place:adessa-prison"	"accepted"	"아데사(Adessa) 감옥의 에스클라드 타이너(Esklad Teiner)에게 편지를 전달했다. 병원 구역(Hospitalis Quarters) 숙소로 돌아가 청원 게시판 관리인 아블리에와 이야기하고 보상을 받아야겠다."	"아데사 감옥(Adessa Prison)의 에스클라드 타이너(Esklad Teiner)에게 편지를 전달했다. 병원 구역(Hospitalis Quarters) 숙소로 돌아가 청원 게시판 관리인 아블리에와 이야기하고 보상을 받아야겠다."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"I've delivered the letter to Esklad Teiner in Adessa Prison. I should return to the Hospitalis Quarters and speak with Abblier, the custodian of the Quarter's petition board, and claim my reward."	"アデッサの監獄のエスクラド・テイナーに手紙を届けた。救護区域に戻り、依頼掲示板の責任者アブリアと話し、報酬を手に入れよう。"	"我已经将信交给了阿德萨监狱中的埃斯科拉德·泰纳。我得返回医疗营房，与区域请愿告示板的负责人阿比利尔交谈，索取我的报酬。"	"{""place:adessa-prison"":""accepted""}"
+"default"	"33227"	""	"place:adessa-prison"	"accepted"	"아데사(Adessa) 감옥은 시민과 도시 방문객 모두 출입할 수 없습니다."	"아데사 감옥(Adessa Prison)은 시민과 도시 방문객 모두 출입할 수 없습니다."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"Adessa Prison is off-limits to all citizens and guests of the city."	"アデッサの監獄に市民と客人は立ち入れない"	"阿德萨监狱禁止所有市民和本市客人入内。"	"{""place:adessa-prison"":""accepted""}"
+"default"	"34553"	""	"place:hall-of-appointments"	"accepted"	"임명실"	"알현 준비의 전당(Hall of Appointments)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"Hall of Appointments"	"約束の間"	"任命大厅"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"34653"	""	"place:summer-sanctuary"	"accepted"	"경내를 돌아다녀도 돼. 필요한 게 있다면 여름 성소에 연금술사가 있어."	"경내를 돌아다녀도 돼. 필요한 게 있다면 여름 성역(Summer Sanctuary)에 연금술사가 있어."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:29381/30347/34653/36507 identifies the named place with trainers, an alchemist, and the nurturing of knowledge. Japanese サマー・フェイの聖域 and Chinese 夏之圣所 corroborate. Reuse base:2551 and keep this place distinct from the Summer Court or Fae faction."	"I suppose you can wander the grounds. There is an alchemist in the Summer Sanctuary if it's something you require."	"敷地をぶらぶらするのは構わないわよ。何か必要なものがあるなら、サマー・フェイの聖域に錬金術師がいるわ"	"我看你大可在地面游荡。如果你有什么需要的话，在夏之圣所里有个炼金师。"	"{""place:summer-sanctuary"":""accepted""}"
+"default"	"35155"	""	"place:adessa-prison"	"accepted"	"병원 구역의 청원 게시판에 올라온 의뢰에 답해, 아데사(Adessa) 감옥의 죄수 에스클라드 타이너(Esklad Teiner)에게 편지를 전달하기로 했다. 아데사(Adessa) 감옥에 있는 에스클라드(Esklad)에게 편지를 전달했다."	"병원 구역의 청원 게시판에 올라온 의뢰에 답해, 아데사 감옥(Adessa Prison)의 죄수 에스클라드 타이너(Esklad Teiner)에게 편지를 전달하기로 했다. 아데사 감옥(Adessa Prison)에 있는 에스클라드(Esklad)에게 편지를 전달했다."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"I answered a petition from the Hospitals Quarter's petition board to deliver a letter to an inmate of Adessa Prison, named Esklad Teiner. I have delivered the letter to Esklad in Adessa Prison."	"救護区域の依頼掲示板に応え、アデッサの監獄の囚人エスクラド・テイナーに手紙を届けることにした。無事にアデッサの監獄のエスクラド・テイナーに手紙を届けた。"	"我响应了医疗营房请愿板上的一个请愿，将一封信送给阿德萨监狱内的一名囚犯，埃斯科拉德·泰纳。我已经将信交给了阿德萨监狱中的埃斯科拉德。"	"{""place:adessa-prison"":""accepted""}"
+"default"	"36340"	""	"place:hall-of-appointments"	"accepted"	"임명의 전당"	"알현 준비의 전당(Hall of Appointments)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"Hall of Appointments"	"約束の間"	"任命大厅"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"36507"	""	"place:summer-sanctuary"	"accepted"	"여름의 성소에 온 것을 환영한다. 이곳에서는 지식의 씨앗을 뿌리고 가꾼다."	"여름 성역(Summer Sanctuary)에 온 것을 환영한다. 이곳에서는 지식의 씨앗을 뿌리고 가꾼다."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:29381/30347/34653/36507 identifies the named place with trainers, an alchemist, and the nurturing of knowledge. Japanese サマー・フェイの聖域 and Chinese 夏之圣所 corroborate. Reuse base:2551 and keep this place distinct from the Summer Court or Fae faction."	"Welcome to the Summer Sanctuary, where the seeds of knowledge are sown and nurtured."	"サマー・フェイの聖域にようこそ。ここは知識の種がまかれ、育まれる場所だ"	"欢迎来到夏之圣所，知识的种子在此播种发芽。"	"{""place:summer-sanctuary"":""accepted""}"
+"default"	"37842"	""	"place:hall-of-appointments"	"accepted"	"임명실"	"알현 준비의 전당(Hall of Appointments)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"Hall of Appointments"	"約束の間"	"任命大厅"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"38201"	""	"place:hall-of-appointments"	"accepted"	"임명실에서 소식을 기다리고 있지만, 자네가 그곳의 전령일 리는 없겠군. 발라드의 집(House of Ballads) 통치자는 누구에게도 복종하지 않으니까."	"알현 준비의 전당(Hall of Appointments)에서 소식을 기다리고 있지만, 자네가 그곳의 전령일 리는 없겠군. 발라드의 집(House of Ballads) 통치자는 누구에게도 복종하지 않으니까."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"I await news from the Hall of Appointments, but surely you aren't their messenger. The ruler of the House of Ballads serves no one."	"約束の間からの知らせを待っているが、伝令ではなさそうだ。ハウス・オブ・バラッドの支配者は、誰にも従わない"	"我在等待任命大厅的消息，但你肯定不是他们的信使。歌谣之家的统治者不为任何人服务。"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"40163"	""	"place:hall-of-appointments"	"accepted"	"임명 회관"	"알현 준비의 전당(Hall of Appointments)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"Hall of Appointments"	"約束の間"	"任命大厅"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"43811"	""	"place:hall-of-appointments"	"accepted"	"알현 준비의 전당에 온 것을 환영하오. 지고왕(High King)을 알현하고 싶다면 이곳에서 준비하면 되오."	"알현 준비의 전당(Hall of Appointments)에 온 것을 환영하오. 지고왕(High King)을 알현하고 싶다면 이곳에서 준비하면 되오."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"Welcome to the Hall of Appointments. If you wish to gain an audience with the High King, this is where you will prepare."	"約束の間へようこそ。至高王への謁見を求めるなら、ここで受け付けよう"	"欢迎来到会见厅。如果你想得到至高王的接见，这里就是你做准备的地方。"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"43928"	""	"place:hall-of-appointments"	"accepted"	"알현 준비의 전당"	"알현 준비의 전당(Hall of Appointments)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"Hall of Appointments"	"約束の間"	"预约大厅"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"48280"	""	"place:hall-of-appointments"	"accepted"	"알현의 전당에 돌아온 걸 환영해. 이곳 언더스타일에 있는 우리 얘기를 필멸자 친구들에게 하고 있니?"	"알현 준비의 전당(Hall of Appointments)에 돌아온 걸 환영해. 이곳 언더스타일에 있는 우리 얘기를 필멸자 친구들에게 하고 있니?"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"Welcome back to the Hall of Appointments. Are you speaking to your mortal friends about us here in the Understyle?"	"約束の間にようこそ。アンダースタイルの私たちのことを、定命の者たちに話すつもり？"	"欢迎回到会见厅。你在下界花园和你的凡人朋友谈论过我们吗？"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"49792"	""	"place:rathir-prison"	"accepted"	"그는 나를 라시르(Rathir) 감옥에 던져 넣는 대신, 일해서 벌을 갚을 기회를 줬어. 대저택의 하인이 되었지... 거기서 네스타(Nesta)를 처음 만났어."	"그는 나를 라시르 감옥(Rathir Prison)에 던져 넣는 대신, 일해서 벌을 갚을 기회를 줬어. 대저택의 하인이 되었지... 거기서 네스타(Nesta)를 처음 만났어."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5357/13543/49792 and Japanese ラシーアの監獄/Chinese 拉瑟里监狱 corroborate the named prison. Preserve the city canonical 라시르 and source-local lowercase prison in the narrative without interpreting it as another institution."	"Instead of tossing me into Rathir prison, he gave me a chance to work off my punishment. I became a servant in his great house... and that's where I first met Nesta."	"ラシーアの監獄に突き出す代わりに、彼は罰として働く機会を与えてくれた。彼の立派な家で使用人になって... そこでネスタに出会った"	"他没有把我扔进拉瑟里监狱，而是给了我一个减轻惩罚的机会。我成了他的家族仆人……那就是我第一次见到奈斯塔的地方。"	"{""place:rathir-prison"":""accepted""}"
+"default"	"52820"	""	"place:hall-of-appointments"	"accepted"	"도시 반대편에 있는 페이(Fae) 구역이야. 그곳에 임명 전당(Hall of Appointments)과 리세움 숲(Lyceum Grove)이 있어."	"도시 반대편에 있는 페이(Fae) 구역이야. 그곳에 알현 준비의 전당(Hall of Appointments)과 리세움 숲(Lyceum Grove)이 있어."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"It's the Fae neighborhood on the other side of the city. There you'll find the Hall of Appointments and the Lyceum Grove."	"街の反対側にあるフェイのための地区ね。約束の間やリセウム・グローブがあるわ"	"这是城市另一边的灵族社区。在那里你能找到会见厅和学术林。"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"58629"	""	"place:adessa-prison"	"accepted"	"이곳은 아데사(Adessa) 감옥입니다. 공공의 안전을 위해 출입을 금합니다."	"이곳은 아데사 감옥(Adessa Prison)입니다. 공공의 안전을 위해 출입을 금합니다."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"This is Adessa Prison. Admittance is not allowed, for the good of the public."	"ここはアデッサの監獄だ。市民の安全上、立ち入りは許可されていない"	"这里是阿德萨监狱。为了公众的利益，不允许进入。"	"{""place:adessa-prison"":""accepted""}"
+"default"	"59224"	""	"place:hall-of-appointments"	"accepted"	"티타리온(Titarion)을 만나려는 사람은 누구나 이곳 접견실에 있는 올라나(Olaana)를 거쳐야 합니다."	"티타리온(Titarion)을 만나려는 사람은 누구나 이곳 알현 준비의 전당(Hall of Appointments)에 있는 올라나(Olaana)를 거쳐야 합니다."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"All who wish to see Titarion must go through Olaana here in the Hall of Appointments."	"ティタリオンに拝謁したければ、この約束の間にいるオラーナに会うことだ"	"所有想觐见提塔利昂的人都必须在会见厅通过欧拉娜的考察。"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"59764"	""	"place:hall-of-appointments"	"accepted"	"아, 안녕하시오. 전지자 세터 자작이오. 접견실에서 오셨소?"	"아, 안녕하시오. 전지자 세터 자작이오. 알현 준비의 전당(Hall of Appointments)에서 오셨소?"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:5748/16959/29500/43811/59224 explicitly concerns preparing ambassadors and obtaining permission to meet the king, not appointment to office. Japanese 約束の間 and Chinese 会见厅/预约大厅 corroborate. Retain the contextual Korean already used at default:43811/43928; replace misleading 임명 variants and inconsistent reception-room labels."	"Why, hello. I am Viscount Setter the Allseer. Are you from the Hall of Appointments?"	"やあ。セッター子爵だ。約束の間から来たのか？"	"怎么，你好啊。我是“全视者”威斯康特·赛特。你从任命大厅来吗？"	"{""place:hall-of-appointments"":""accepted""}"
+"default"	"61331"	""	"place:adessa-prison"	"not-an-issue"	"아데사 감옥(Adessa Prison)"	"아데사 감옥(Adessa Prison)"	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"Adessa Prison"	"アデッサの監獄"	"阿德萨监狱"	"{""place:adessa-prison"":""not-an-issue""}"
+"default"	"62279"	""	"place:adessa-prison"	"accepted"	"아데사(Adessa) 감옥의 죄수에게 편지를 전해야 했는데, 전하지 못했다."	"아데사 감옥(Adessa Prison)의 죄수에게 편지를 전해야 했는데, 전하지 못했다."	"D-21356: English-led contextual review across affix/base/default of halls,
+sanctuaries, prisons and their exact key labels. The appointments hall
+prepares royal audiences: do not derive its meaning from Japanese or
+from the appointment-to-office sense in older Korean. The manual's
+PDF pp. 7-8 distinguishes quest locations, conversation, trainers,
+alchemy and quest items; it gives no direct facility spellings.
+Keep Primos's prior office/title judgment and all city-name judgments.
+Multiple entity matches on one row are counted once for batch row
+coverage. The shared prison list at default:5357 is expanded into three
+complete bilingual prison names without changing its English meaning. English default:14456/20249/32831/35155/33227 identifies Esklad Teiner's prison and its restricted entry. Japanese アデッサの監獄 and Chinese 阿德萨监狱 corroborate. Keep the facility distinct from the city; Prisoner is not an exact facility-name match."	"I was supposed to deliver a letter to an inmate in Adessa Prison. I'm unable to deliver the letter."	"アデッサの監獄の囚人に手紙を届けるはずだった。もう手紙を届けることはできない。"	"我应该将信送给阿德萨监狱中的一名囚犯。我无法将信送到。"	"{""place:adessa-prison"":""accepted""}"

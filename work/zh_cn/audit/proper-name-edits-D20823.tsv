@@ -1,0 +1,1419 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"base"	"2485"	"11"	"skill:war-cry"	"accepted"	"전투 함성"	"전투 함성(War Cry)"	"skill:war-cry: English source: War Cry. Japanese source: ウォークライ. Chinese source: 战吼. Exact War Cry menu label; Japanese ウォークライ and Chinese menu label corroborate the ability. Canonical Korean follows the menu form 전투 함성. Korean left unchanged unless the row is accepted."	"War Cry"	"ウォークライ"	"战吼"	"{""skill:war-cry"":""accepted""}"	"{""skill:war-cry"":""needs-context""}"	"{""skill:war-cry"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"3033"	"11"	"skill:wrath"	"accepted"	"격노"	"분노(Wrath)"	"skill:wrath: English source: Wrath. Japanese source: ラース. Chinese source: 怒意. Exact Wrath ability-menu label; Japanese ラース and Chinese menu rendering corroborate it. Use the default-menu-supported canonical 분노(Wrath), recording 격노 as a variant. Korean left unchanged unless the row is accepted."	"Wrath"	"ラース"	"怒意"	"{""skill:wrath"":""accepted""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"3120"	"11"	"skill:wrath"	"excluded"	"격노의 투구"	"격노의 투구"	"skill:wrath: English source: Wrath's Helm. Japanese source: ラースのヘルム. Chinese source: 怒意头盔. Wrath's Helm is a complete equipment label, not the Wrath ability; preserve the full compound. Korean left unchanged unless the row is accepted."	"Wrath's Helm"	"ラースのヘルム"	"怒意头盔"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"593"	""	"skill:wrath"	"excluded"	"내 분노를 받아라!"	"내 분노를 받아라!"	"skill:wrath: English source: Feel my wrath!. Japanese source: 我が怒りを受けよ！. Chinese source: 感受我的怒火！. First-person threat uses wrath as ordinary anger. Korean left unchanged unless the row is accepted."	"Feel my wrath!"	"我が怒りを受けよ！"	"感受我的怒火！"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"1496"	""	"skill:wrath"	"excluded"	"아베루스(Aberrus)는 끔찍하게 흉측한 모습 때문에 다른 티탄들에게 외면받았다. 그들은 차마 그를 바라보지도 못했다. 그는 광활하고 황량한 사막에 홀로 살며 브래코르(Vraekor)의 분노를 거스르는 이들에게 경고가 되었다. 그는 맨발로 타오르는 모래를 견디고, 흉터 난 이마를 지지는 햇살과 상처를 할퀴는 무자비한 바람을 버텼다. 다음은 브래코르(Vraekor)가 어떻게 아베루스의 외모를 그토록 망가뜨렸는지에 관한 이야기다.
+
+아베루스는 한때 브래코르(Vraekor)의 충직한 종이자, 끝없이 허기진 신에게 땔감을 모아 바치는 자였다. 어느 날 헬리우스(Helius)가 멀어지고 낮이 짧아지자, 차가운 기운이 온 세상을 뒤덮었다. 자신의 존재감이 약해지자 브래코르(Vraekor)는 분노했다. 사람들은 동굴에 숨고 그의 이름을 불렀지만 작은 모닥불만이 땅을 데울 뿐이었다. 브래코르(Vraekor)는 아베루스를 불러 아말루르 전역에서 자신의 불꽃을 다시 지필 연료를 찾아오라고 명했다.
+
+아베루스는 그 임무가 헛수고임을 알았다. 대순환은 아직 깊은 황혼(Deep Gloam)에서 벗어날 때가 아니었다. 비전의 장막(Arcane Veil)을 넘는 건 어리석은 짓이며, 브래코르(Vraekor)조차 운명의 태피스트리 실을 삼킬 수는 없었다. 아베루스는 마지못해 주인을 만족시킬 연료를 찾아 온 땅을 뒤졌지만 아무것도 찾지 못했다.
+
+그가 돌아오자 브래코르(Vraekor)가 미소 지었다.
+'아베루스, 너는 실패하지 않았다. 네 노력으로 차가운 기운이 물러났고 아말루르의 사람들은 고난이 끝났다는 징표를 바라게 되었지. 운이 좋구나. 네가 가장 훌륭한 불쏘시개를 가져왔으니. 연료를 찾느라 세상의 때를 온몸에 뒤집어썼구나.'
+
+그리하여 브래코르(Vraekor)는 아베루스의 흙빛 피부를 녹여 버렸다."	"아베루스(Aberrus)는 끔찍하게 흉측한 모습 때문에 다른 티탄들에게 외면받았다. 그들은 차마 그를 바라보지도 못했다. 그는 광활하고 황량한 사막에 홀로 살며 브래코르(Vraekor)의 분노를 거스르는 이들에게 경고가 되었다. 그는 맨발로 타오르는 모래를 견디고, 흉터 난 이마를 지지는 햇살과 상처를 할퀴는 무자비한 바람을 버텼다. 다음은 브래코르(Vraekor)가 어떻게 아베루스의 외모를 그토록 망가뜨렸는지에 관한 이야기다.
+
+아베루스는 한때 브래코르(Vraekor)의 충직한 종이자, 끝없이 허기진 신에게 땔감을 모아 바치는 자였다. 어느 날 헬리우스(Helius)가 멀어지고 낮이 짧아지자, 차가운 기운이 온 세상을 뒤덮었다. 자신의 존재감이 약해지자 브래코르(Vraekor)는 분노했다. 사람들은 동굴에 숨고 그의 이름을 불렀지만 작은 모닥불만이 땅을 데울 뿐이었다. 브래코르(Vraekor)는 아베루스를 불러 아말루르 전역에서 자신의 불꽃을 다시 지필 연료를 찾아오라고 명했다.
+
+아베루스는 그 임무가 헛수고임을 알았다. 대순환은 아직 깊은 황혼(Deep Gloam)에서 벗어날 때가 아니었다. 비전의 장막(Arcane Veil)을 넘는 건 어리석은 짓이며, 브래코르(Vraekor)조차 운명의 태피스트리 실을 삼킬 수는 없었다. 아베루스는 마지못해 주인을 만족시킬 연료를 찾아 온 땅을 뒤졌지만 아무것도 찾지 못했다.
+
+그가 돌아오자 브래코르(Vraekor)가 미소 지었다.
+'아베루스, 너는 실패하지 않았다. 네 노력으로 차가운 기운이 물러났고 아말루르의 사람들은 고난이 끝났다는 징표를 바라게 되었지. 운이 좋구나. 네가 가장 훌륭한 불쏘시개를 가져왔으니. 연료를 찾느라 세상의 때를 온몸에 뒤집어썼구나.'
+
+그리하여 브래코르(Vraekor)는 아베루스의 흙빛 피부를 녹여 버렸다."	"skill:wrath: English source: Aberrus is shunned by the other Titans, for he is so horribly disfigured they dare not look upon him. He dwells alone in a vast and empty desert as a warning to others of Vraekor's wrath. There, he endures the burning sands barefoot, the blistering sun upon his scarred brow, and the merciless wind across his wounds. What follows is the tale of how Vraekor so destroyed Aberrus' appearance.
+
+Aberrus was once a dutiful servant of Vraekor, and a gatherer of fuel for the all-hungry god. One day, when Helius grew distant and the days were short, a blanket of cold swept over the world. This angered Vraekor, for his presence was diminished. The people hid in caves and invoked his name, but only small campfires warmed the earth. Vraekor summoned Aberrus, and bid him find fuel to reignite Vraekor's flames throughout Amalur.
+
+Now Aberrus knew his task was in vain, for the cycle was not ready to turn from the Deep Gloam. It would be foolish to cross the Arcane Veil, and not even Vraekor could consume the threads of the tapestry of fate. Reluctantly, he scoured the lands for fuel to satiate his master, and there was none.
+
+When he returned, Vraekor smiled:
+""You have not failed, Aberrus. Your efforts disrupted the blanked of cold, and the people of Amalur call for a sign that their travails are over. What luck, then, that you bring me the greatest of tinder ‒ for in your search you have covered yourself in the grime of the world.""
+
+And thus did Vraekor melt Aberrus' earthen skin.. Japanese source: アベルースは非常に醜い姿であるため、他のタイタンから敬遠されており、彼らは彼のことを見ようとしない。広大で何もない砂漠に居を構え、ブレカーの怒りに同調する者たちに対する警告としていたのである。彼は足の裏を焼くような熱砂、傷ついた眉を火膨れさせるような日差し、そして体の傷に容赦なく吹き付ける風に耐え忍んでいた。以下は何故ブレカーがアベルースの外見をそこまで傷つけたのかという物語だ。
+
+アベルースはかつてブレカーの忠実な召使いで、常に腹を空かせていた神に対し、食物を運んでいた。ある日、ヘリウスが姿をくらまし、日が短くなったため、世界が冷え込んだ時期があった。これによってブレカーは自分の存在が弱まったと怒った。人々は洞窟に隠れて彼を求めたが、小さなキャンプファイアが地面を温めるだけだった。ブレカーはアベルースを呼び出し、ブレカーの炎を再点火させる燃料をアマラーから見つけてくるように申し付けた。
+
+アベルースはその任務が無駄に終わることを知っていた。""円環""は、まだ""黄昏の時代""から動き出す時ではなかったからだ。霊力のベールを裏切るのは馬鹿げたことで、またブレカーでさえも運命のタペストリーを変えることはできなかった。渋々とアベルースは燃料を求めて歩き回り、自分の主人を納得させようとしたが、燃料は見つからなかった。
+
+アベルースが戻ると、ブレカーは笑って言った。
+""お前に失望してはいないぞ、アベルース。お前の努力が寒さを止め、アマラーの民は、苦しい時が終わったと思っている。素晴らしき幸運だ。お前は私に素晴らしい炎を持ってきてくれた。お前は燃料を探す間、世界の垢にまみれてしまったようだな""
+
+こうして、ブレカーは汚れたアベルースの皮膚を溶かした。. Chinese source: 别的泰坦都躲着阿伯鲁斯，因为他被严重毁容了，人们都不敢看他。他独自居住在一片广阔空旷的沙漠中，作为弗烈克的愤怒的警示。在那里，他光脚忍受着沙子的炙烤，猛烈的阳光打在他有伤疤的眉毛上，无情的风擦过他的伤口。下面是弗烈克如何将阿伯鲁斯毁容成这样的故事。
+
+阿伯鲁斯曾经是弗烈克忠实的仆从，也是这位饥肠辘辘的神的收集者。有一天，当赫利乌斯开始远去，白昼也变得越来越短，一层厚厚的寒冷横扫过整个世界。这激怒了弗烈克，因为他的存在感被削弱了。人们躲在山洞里，向他的名字祈求，但只有小小的营火温暖着大地。弗烈克召来了阿伯鲁斯，命令他寻找燃料来重新点燃整个阿玛拉的弗烈克之火。
+
+阿伯鲁斯当场就知道这是项徒劳无功的任务，因为轮回还没准备从深渊薄暮移开呢。穿过奥术帷幕是件愚蠢的事，就算是弗烈克也吃不消命运挂毯的线头。他硬着头皮搜刮大地，希望能找到能够满足他的主人的燃料，但一无所获。
+
+当他回去时，弗烈克微笑道：
+“你没有失败，阿伯鲁斯。你的努力打断了一无所有的寒冷，阿玛拉的人们呼唤着一次神迹，能象征他们的辛勤劳作结束的神迹。幸运的是，你为我带来了最好的火绒——在寻找的过程中，你已经浑身沾满了全世界的煤灰。”
+
+于是弗烈克熔化了阿伯鲁斯土制的皮肤。. Vraekor's wrath is divine anger in the Aberrus story. Korean left unchanged unless the row is accepted."	"Aberrus is shunned by the other Titans, for he is so horribly disfigured they dare not look upon him. He dwells alone in a vast and empty desert as a warning to others of Vraekor's wrath. There, he endures the burning sands barefoot, the blistering sun upon his scarred brow, and the merciless wind across his wounds. What follows is the tale of how Vraekor so destroyed Aberrus' appearance.
+
+Aberrus was once a dutiful servant of Vraekor, and a gatherer of fuel for the all-hungry god. One day, when Helius grew distant and the days were short, a blanket of cold swept over the world. This angered Vraekor, for his presence was diminished. The people hid in caves and invoked his name, but only small campfires warmed the earth. Vraekor summoned Aberrus, and bid him find fuel to reignite Vraekor's flames throughout Amalur.
+
+Now Aberrus knew his task was in vain, for the cycle was not ready to turn from the Deep Gloam. It would be foolish to cross the Arcane Veil, and not even Vraekor could consume the threads of the tapestry of fate. Reluctantly, he scoured the lands for fuel to satiate his master, and there was none.
+
+When he returned, Vraekor smiled:
+""You have not failed, Aberrus. Your efforts disrupted the blanked of cold, and the people of Amalur call for a sign that their travails are over. What luck, then, that you bring me the greatest of tinder ‒ for in your search you have covered yourself in the grime of the world.""
+
+And thus did Vraekor melt Aberrus' earthen skin."	"アベルースは非常に醜い姿であるため、他のタイタンから敬遠されており、彼らは彼のことを見ようとしない。広大で何もない砂漠に居を構え、ブレカーの怒りに同調する者たちに対する警告としていたのである。彼は足の裏を焼くような熱砂、傷ついた眉を火膨れさせるような日差し、そして体の傷に容赦なく吹き付ける風に耐え忍んでいた。以下は何故ブレカーがアベルースの外見をそこまで傷つけたのかという物語だ。
+
+アベルースはかつてブレカーの忠実な召使いで、常に腹を空かせていた神に対し、食物を運んでいた。ある日、ヘリウスが姿をくらまし、日が短くなったため、世界が冷え込んだ時期があった。これによってブレカーは自分の存在が弱まったと怒った。人々は洞窟に隠れて彼を求めたが、小さなキャンプファイアが地面を温めるだけだった。ブレカーはアベルースを呼び出し、ブレカーの炎を再点火させる燃料をアマラーから見つけてくるように申し付けた。
+
+アベルースはその任務が無駄に終わることを知っていた。""円環""は、まだ""黄昏の時代""から動き出す時ではなかったからだ。霊力のベールを裏切るのは馬鹿げたことで、またブレカーでさえも運命のタペストリーを変えることはできなかった。渋々とアベルースは燃料を求めて歩き回り、自分の主人を納得させようとしたが、燃料は見つからなかった。
+
+アベルースが戻ると、ブレカーは笑って言った。
+""お前に失望してはいないぞ、アベルース。お前の努力が寒さを止め、アマラーの民は、苦しい時が終わったと思っている。素晴らしき幸運だ。お前は私に素晴らしい炎を持ってきてくれた。お前は燃料を探す間、世界の垢にまみれてしまったようだな""
+
+こうして、ブレカーは汚れたアベルースの皮膚を溶かした。"	"别的泰坦都躲着阿伯鲁斯，因为他被严重毁容了，人们都不敢看他。他独自居住在一片广阔空旷的沙漠中，作为弗烈克的愤怒的警示。在那里，他光脚忍受着沙子的炙烤，猛烈的阳光打在他有伤疤的眉毛上，无情的风擦过他的伤口。下面是弗烈克如何将阿伯鲁斯毁容成这样的故事。
+
+阿伯鲁斯曾经是弗烈克忠实的仆从，也是这位饥肠辘辘的神的收集者。有一天，当赫利乌斯开始远去，白昼也变得越来越短，一层厚厚的寒冷横扫过整个世界。这激怒了弗烈克，因为他的存在感被削弱了。人们躲在山洞里，向他的名字祈求，但只有小小的营火温暖着大地。弗烈克召来了阿伯鲁斯，命令他寻找燃料来重新点燃整个阿玛拉的弗烈克之火。
+
+阿伯鲁斯当场就知道这是项徒劳无功的任务，因为轮回还没准备从深渊薄暮移开呢。穿过奥术帷幕是件愚蠢的事，就算是弗烈克也吃不消命运挂毯的线头。他硬着头皮搜刮大地，希望能找到能够满足他的主人的燃料，但一无所获。
+
+当他回去时，弗烈克微笑道：
+“你没有失败，阿伯鲁斯。你的努力打断了一无所有的寒冷，阿玛拉的人们呼唤着一次神迹，能象征他们的辛勤劳作结束的神迹。幸运的是，你为我带来了最好的火绒——在寻找的过程中，你已经浑身沾满了全世界的煤灰。”
+
+于是弗烈克熔化了阿伯鲁斯土制的皮肤。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"2202"	""	"skill:wrath"	"excluded"	"그녀는 진실의 빛을 가져오려 했고,
+역병에 시달리는 마을을 구하려 했네.
+그들을 치료할 방법을 찾는 것이 그녀의 사명이었지.
+윈더미어의 시녀, 그녀의 시련.
+
+사악한 시녀와 맞서자 분노가 치밀었고,
+그녀는 치솟는 분노에 몸을 떨었네.
+\""이제 네 사악한 마법을 풀어라.
+그렇지 않으면 이 이야기를 끝내겠다, 맹세코.\"""	"그녀는 진실의 빛을 가져오려 했고,
+역병에 시달리는 마을을 구하려 했네.
+그들을 치료할 방법을 찾는 것이 그녀의 사명이었지.
+윈더미어의 시녀, 그녀의 시련.
+
+사악한 시녀와 맞서자 분노가 치밀었고,
+그녀는 치솟는 분노에 몸을 떨었네.
+\""이제 네 사악한 마법을 풀어라.
+그렇지 않으면 이 이야기를 끝내겠다, 맹세코.\"""	"skill:wrath: English source: She sought to bring the light of truth,
+To save a village plagued;
+To find a cure for them: her quest.
+The Maid of Windemere: her test.
+
+She faced the evil Maid, enraged.
+She trembled with her wrath.
+""Undo your evil magic now
+Or I will end this tale, I vow."". Japanese source: 真実の光をもたらそうとした
+苦しんでいる村を助けるために
+癒しを見つけるのが彼女の探求
+ウィンダメアの烈女は彼女の試練
+
+激怒して邪悪な娘に立ち向かった
+怒りのあまり体が震えた
+""その邪悪な魔法を今すぐ解きなさい
+さもないと、この物語を終わりにする、必ず"". Chinese source: 她试图带来真理之光，
+拯救一个遭受灾难的村庄;
+找到治愈他们的方法：她的追求。
+温德米尔的少女：她的试炼。
+
+她面对邪恶的少女，怒不可遏。
+愤怒令她颤抖。
+“现在就解除你的邪恶魔法
+否则我就结束这个故事，我发誓。”. The poem uses wrath for the Maid’s ordinary emotional anger. Korean left unchanged unless the row is accepted."	"She sought to bring the light of truth,
+To save a village plagued;
+To find a cure for them: her quest.
+The Maid of Windemere: her test.
+
+She faced the evil Maid, enraged.
+She trembled with her wrath.
+""Undo your evil magic now
+Or I will end this tale, I vow."""	"真実の光をもたらそうとした
+苦しんでいる村を助けるために
+癒しを見つけるのが彼女の探求
+ウィンダメアの烈女は彼女の試練
+
+激怒して邪悪な娘に立ち向かった
+怒りのあまり体が震えた
+""その邪悪な魔法を今すぐ解きなさい
+さもないと、この物語を終わりにする、必ず"""	"她试图带来真理之光，
+拯救一个遭受灾难的村庄;
+找到治愈他们的方法：她的追求。
+温德米尔的少女：她的试炼。
+
+她面对邪恶的少女，怒不可遏。
+愤怒令她颤抖。
+“现在就解除你的邪恶魔法
+否则我就结束这个故事，我发誓。”"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"3330"	""	"skill:wrath"	"excluded"	"이 고백에서 내 스승이 어떻게 죽음 직전까지 몰렸는지 밝히겠다.
+우리 임무는 에테네(Ethene)의 종복들을 그분의 힘과 지혜에 걸맞은 신앙심 깊은 상태로 이끄는 것이었다.
+아르케스(Arkes)는 그 임무에서 에테네(Ethene)를 실망시켰다.
+내 지시에 따라 그는 하늘로 강제 소환된 하이페리언(Hyperian)을 찾아내 우리의 인정을 받으려 했다.
+이어진 에테네(Ethene)의 분노가 폭발해 많은 이들이 죽었고, 소중한 아르케스마저 거의 목숨을 잃을 뻔했다."	"이 고백에서 내 스승이 어떻게 죽음 직전까지 몰렸는지 밝히겠다.
+우리 임무는 에테네(Ethene)의 종복들을 그분의 힘과 지혜에 걸맞은 신앙심 깊은 상태로 이끄는 것이었다.
+아르케스(Arkes)는 그 임무에서 에테네(Ethene)를 실망시켰다.
+내 지시에 따라 그는 하늘로 강제 소환된 하이페리언(Hyperian)을 찾아내 우리의 인정을 받으려 했다.
+이어진 에테네(Ethene)의 분노가 폭발해 많은 이들이 죽었고, 소중한 아르케스마저 거의 목숨을 잃을 뻔했다."	"skill:wrath: English source: In this confession I shall tell of how my master was brought nearly to his death.
+Arkes failed Ethene in our mission to bring her servants to a devout state
+That would be worthy of her power and wisdom.
+At my behest, he sought the Hyperian forced to the sky, and earn our recognition.
+The ensuing eruption of Ethene’s wrath killed many, and nearly took dear Arkes.. Japanese source: この告白で、我が師がいかにして死にかけたのかを話そう。
+我らはエセンのしもべ達の信仰心を、彼女の力と賢さにふさわしいものに高めようとしていたが
+その任務の最中、アーケスはエセンの期待を裏切った。
+我が命により、彼はハイペリアンを浮上させて我らに認められんとした。
+エセンの恐るべき怒りの噴火によって大勢が死に、大切なアーケスまでもう少しで死ぬところだった. Chinese source: 在这篇自白中，我将讲述我的主人是如何濒临死亡的。
+在我们的使命中，阿克斯辜负了伊希恩，未能使她的仆从达到一种虔诚的状态
+使他们配得上她的力量和智慧。
+在我的命令下，他找到了被迫升上天空的海伯利安，并赢得了我们的认可。
+随后爆发的伊希恩的怒火杀死了许多人，也几乎杀死了亲爱的阿克斯。. Ethene's wrath is a story event, not the Wrath ability. Korean left unchanged unless the row is accepted."	"In this confession I shall tell of how my master was brought nearly to his death.
+Arkes failed Ethene in our mission to bring her servants to a devout state
+That would be worthy of her power and wisdom.
+At my behest, he sought the Hyperian forced to the sky, and earn our recognition.
+The ensuing eruption of Ethene’s wrath killed many, and nearly took dear Arkes."	"この告白で、我が師がいかにして死にかけたのかを話そう。
+我らはエセンのしもべ達の信仰心を、彼女の力と賢さにふさわしいものに高めようとしていたが
+その任務の最中、アーケスはエセンの期待を裏切った。
+我が命により、彼はハイペリアンを浮上させて我らに認められんとした。
+エセンの恐るべき怒りの噴火によって大勢が死に、大切なアーケスまでもう少しで死ぬところだった"	"在这篇自白中，我将讲述我的主人是如何濒临死亡的。
+在我们的使命中，阿克斯辜负了伊希恩，未能使她的仆从达到一种虔诚的状态
+使他们配得上她的力量和智慧。
+在我的命令下，他找到了被迫升上天空的海伯利安，并赢得了我们的认可。
+随后爆发的伊希恩的怒火杀死了许多人，也几乎杀死了亲爱的阿克斯。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"5661"	""	"skill:wrath"	"accepted"	"격노(Wrath)의 각 파동은 물리 피해 80을 주고, 마지막 타격은 물리 피해 660을 줍니다.
+소모량: 마나 170, 파동마다 +10"	"분노(Wrath)의 각 파동은 물리 피해 80을 주고, 마지막 타격은 물리 피해 660을 줍니다.
+소모량: 마나 170, 파동마다 +10"	"skill:wrath: English source: Each impulse of Wrath does 80 Physical Damage, final hit does 660 Physical Damage.
+Cost: 170 Mana, +10 per Impulse. Japanese source: ""ラース""の各波動が敵に80の物理ダメージを与え、最後の一撃が660の物理ダメージを与える。
+コスト: マナ170 / 波動毎に+10. Chinese source: 怒火的每一次脉冲造成80点物理伤害，最后一次命中造成660点物理伤害。
+消耗：170点法力，每次脉冲+10. The exact Wrath impulse-damage/cost description identifies the named ability; Japanese ラース and Chinese 怒火 corroborate the aligned mechanic. Korean left unchanged unless the row is accepted."	"Each impulse of Wrath does 80 Physical Damage, final hit does 660 Physical Damage.
+Cost: 170 Mana, +10 per Impulse"	"""ラース""の各波動が敵に80の物理ダメージを与え、最後の一撃が660の物理ダメージを与える。
+コスト: マナ170 / 波動毎に+10"	"怒火的每一次脉冲造成80点物理伤害，最后一次命中造成660点物理伤害。
+消耗：170点法力，每次脉冲+10"	"{""skill:wrath"":""accepted""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"6160"	""	"skill:wrath"	"excluded"	"투아사족이 날 이 폐허에... 내 집에 가뒀어. 내 진정한 힘은 알면서도 내 분노는 모르고 있지. 모라 찰린(Maura Chalin)은 잊지 않아."	"투아사족이 날 이 폐허에... 내 집에 가뒀어. 내 진정한 힘은 알면서도 내 분노는 모르고 있지. 모라 찰린(Maura Chalin)은 잊지 않아."	"skill:wrath: English source: The Tuatha have trapped me in this ruin ‒ my home ‒ aware of my true power but ignorant of my wrath. You see, Maura Chalin does not forget.. Japanese source: ツアサの手でこの遺跡に... 我が家に閉じ込められました。私の本当の力を恐れてのことですが、本当の怒りには気づいていない。モウラ・チャリンは忘れません. Chinese source: 图阿撒把我困在这个废墟——我的家里——他们知道我真正的力量，却不知道我的愤怒。你看，莫拉·查林没有忘记。. The speaker contrasts personal wrath with true power. Korean left unchanged unless the row is accepted."	"The Tuatha have trapped me in this ruin ‒ my home ‒ aware of my true power but ignorant of my wrath. You see, Maura Chalin does not forget."	"ツアサの手でこの遺跡に... 我が家に閉じ込められました。私の本当の力を恐れてのことですが、本当の怒りには気づいていない。モウラ・チャリンは忘れません"	"图阿撒把我困在这个废墟——我的家里——他们知道我真正的力量，却不知道我的愤怒。你看，莫拉·查林没有忘记。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"7298"	""	"skill:wrath"	"accepted"	"진노의 각 파동은 물리 피해 55를 주고, 마지막 타격은 물리 피해 360을 줍니다.
+비용: 마나 130, 충격 1회마다 +10"	"분노(Wrath)의 각 파동은 물리 피해 55를 주고, 마지막 타격은 물리 피해 360을 줍니다.
+비용: 마나 130, 충격 1회마다 +10"	"skill:wrath: English source: Each impulse of Wrath does 55 Physical Damage, final hit does 360 Physical Damage.
+Cost: 130 Mana, +10 per Impulse. Japanese source: ""ラース""の各波動が敵に55の物理ダメージを与え、最後の一撃が360の物理ダメージを与える。
+コスト: マナ130 / 波動毎に+10. Chinese source: 怒火的每一次脉冲造成55点物理伤害，最后一次命中造成360点物理伤害。
+消耗：130点法力，每次脉冲+10. The exact Wrath impulse-damage/cost description identifies the named ability; Japanese ラース and Chinese 怒火 corroborate the aligned mechanic. Korean left unchanged unless the row is accepted."	"Each impulse of Wrath does 55 Physical Damage, final hit does 360 Physical Damage.
+Cost: 130 Mana, +10 per Impulse"	"""ラース""の各波動が敵に55の物理ダメージを与え、最後の一撃が360の物理ダメージを与える。
+コスト: マナ130 / 波動毎に+10"	"怒火的每一次脉冲造成55点物理伤害，最后一次命中造成360点物理伤害。
+消耗：130点法力，每次脉冲+10"	"{""skill:wrath"":""accepted""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"7404"	""	"skill:wrath"	"excluded"	"그녀는 진실의 빛을 전하려 했네,
+역병에 시달리는 마을을 구하려고.
+치유법을 찾는 것이 그녀의 과업,
+윈더미어의 시녀, 그녀의 시련.
+
+분노한 채 사악한 시녀와 맞섰고,
+그녀는 분노에 몸을 떨었네.
+“사악한 마법을 지금 당장 풀어라
+아니면 이 이야기를 끝내리라, 맹세하노라.”"	"그녀는 진실의 빛을 전하려 했네,
+역병에 시달리는 마을을 구하려고.
+치유법을 찾는 것이 그녀의 과업,
+윈더미어의 시녀, 그녀의 시련.
+
+분노한 채 사악한 시녀와 맞섰고,
+그녀는 분노에 몸을 떨었네.
+“사악한 마법을 지금 당장 풀어라
+아니면 이 이야기를 끝내리라, 맹세하노라.”"	"skill:wrath: English source: She sought to bring the light of truth,
+To save a village plagued;
+To find a cure for them: her quest.
+The Maid of Windemere: her test.
+
+She faced the evil Maid, enraged.
+She trembled with her wrath.
+""Undo your evil magic now
+Or I will end this tale, I vow."". Japanese source: 真実の光をもたらそうとした
+苦しんでいる村を助けるために
+癒しを見つけるのが彼女の探求
+ウィンダメアの烈女は彼女の試練
+
+激怒して邪悪な娘に立ち向かった
+怒りのあまり体が震えた
+""その邪悪な魔法を今すぐ解きなさい
+さもないと、この物語を終わりにする、必ず"". Chinese source: 她试图带来真理之光，
+拯救一个遭受灾难的村庄;
+找到治愈他们的方法：她的追求。
+温德米尔的少女：她的试炼。
+
+她面对邪恶的少女，怒不可遏。
+愤怒令她颤抖。
+“现在就解除你的邪恶魔法
+否则我就结束这个故事，我发誓。”. The poem uses wrath for the Maid’s ordinary emotional anger. Korean left unchanged unless the row is accepted."	"She sought to bring the light of truth,
+To save a village plagued;
+To find a cure for them: her quest.
+The Maid of Windemere: her test.
+
+She faced the evil Maid, enraged.
+She trembled with her wrath.
+""Undo your evil magic now
+Or I will end this tale, I vow."""	"真実の光をもたらそうとした
+苦しんでいる村を助けるために
+癒しを見つけるのが彼女の探求
+ウィンダメアの烈女は彼女の試練
+
+激怒して邪悪な娘に立ち向かった
+怒りのあまり体が震えた
+""その邪悪な魔法を今すぐ解きなさい
+さもないと、この物語を終わりにする、必ず"""	"她试图带来真理之光，
+拯救一个遭受灾难的村庄;
+找到治愈他们的方法：她的追求。
+温德米尔的少女：她的试炼。
+
+她面对邪恶的少女，怒不可遏。
+愤怒令她颤抖。
+“现在就解除你的邪恶魔法
+否则我就结束这个故事，我发誓。”"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"7518"	""	"skill:wrath"	"excluded"	"사그렐 경(Sir Sagrell), 정령에게 다가갔네
+고르구아스(Gorguath) 깊은 곳으로.
+사악한 줄기와 뿌리를 베었네,
+분노가 닿지 않는 안전한 곳에서,
+옆길로 몰래 돌아가며."	"사그렐 경(Sir Sagrell), 정령에게 다가갔네
+고르구아스(Gorguath) 깊은 곳으로.
+사악한 줄기와 뿌리를 베었네,
+분노가 닿지 않는 안전한 곳에서,
+옆길로 몰래 돌아가며."	"skill:wrath: English source: Sir Sagrell approached the spirit
+Deep within Gorguath.
+He slashed its wicked stalk and root
+Safe from beyond its wrath;
+Slyly from a side path.. Japanese source: サー・サグレルはその魂に近づいて行った
+ゴーグアスの奥深くへ
+その危険な茎と根を切りつけた
+その怒りも届かない安全な所から
+抜け道からこっそりと. Chinese source: 萨格勒尔勋爵靠近幽灵
+在戈尔加斯深处。
+他砍断了它邪恶的茎和根
+远离它的愤怒；
+狡猾地从旁边的小路。. The spirit’s wrath is ordinary creature anger in the poem. Korean left unchanged unless the row is accepted."	"Sir Sagrell approached the spirit
+Deep within Gorguath.
+He slashed its wicked stalk and root
+Safe from beyond its wrath;
+Slyly from a side path."	"サー・サグレルはその魂に近づいて行った
+ゴーグアスの奥深くへ
+その危険な茎と根を切りつけた
+その怒りも届かない安全な所から
+抜け道からこっそりと"	"萨格勒尔勋爵靠近幽灵
+在戈尔加斯深处。
+他砍断了它邪恶的茎和根
+远离它的愤怒；
+狡猾地从旁边的小路。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"7693"	""	"skill:wrath"	"not-an-issue"	"분노(Wrath)의 각 충격파는 물리 피해 70을 줍니다. 마지막 타격은 물리 피해 540을 줍니다.
+소모 마나: 160, 충격파마다 +10"	"분노(Wrath)의 각 충격파는 물리 피해 70을 줍니다. 마지막 타격은 물리 피해 540을 줍니다.
+소모 마나: 160, 충격파마다 +10"	"skill:wrath: English source: Each impulse of Wrath does 70 Physical Damage, final hit does 540 Physical Damage.
+Cost: 160 Mana, +10 per Impulse. Japanese source: ""ラース""の各波動が敵に70の物理ダメージを与え、最後の一撃が540の物理ダメージを与える。
+コスト: マナ160 / 波動毎に+10. Chinese source: 怒火的每一次脉冲造成70点物理伤害，最后一次命中造成540点物理伤害。
+消耗：160点法力，每次脉冲+10. The damage/cost row identifies the Wrath ability; its existing canonical bilingual form 분노(Wrath) is retained. Korean left unchanged unless the row is accepted."	"Each impulse of Wrath does 70 Physical Damage, final hit does 540 Physical Damage.
+Cost: 160 Mana, +10 per Impulse"	"""ラース""の各波動が敵に70の物理ダメージを与え、最後の一撃が540の物理ダメージを与える。
+コスト: マナ160 / 波動毎に+10"	"怒火的每一次脉冲造成70点物理伤害，最后一次命中造成540点物理伤害。
+消耗：160点法力，每次脉冲+10"	"{""skill:wrath"":""not-an-issue""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"9234"	""	"skill:wrath"	"excluded"	"가드플로(Gadflow)가 티르노크와 어떤 거래를 했든, 그 거래가 이제 곧 결실을 맺을 거야. 그때가 오면 세상은 티르노크의 분노를 피하지 못하겠지."	"가드플로(Gadflow)가 티르노크와 어떤 거래를 했든, 그 거래가 이제 곧 결실을 맺을 거야. 그때가 오면 세상은 티르노크의 분노를 피하지 못하겠지."	"skill:wrath: English source: Whatever bargain Gadflow made with Tirnoch, it's about to pay off. And when that happens, the world will not be spared her wrath.. Japanese source: ガドフローがティアノックと結んだ契約が何であろうと、そろそろ精算の時よ。その時が来てしまえば、世界はティアノックの怒りから逃れられないわ. Chinese source: 无论加德弗洛和提尔诺克做了什么交易，都快成功了。当这天到来时，整个世界都无法幸免于她的怒火。. Tirnoch's wrath is a threatened divine reaction in dialogue. Korean left unchanged unless the row is accepted."	"Whatever bargain Gadflow made with Tirnoch, it's about to pay off. And when that happens, the world will not be spared her wrath."	"ガドフローがティアノックと結んだ契約が何であろうと、そろそろ精算の時よ。その時が来てしまえば、世界はティアノックの怒りから逃れられないわ"	"无论加德弗洛和提尔诺克做了什么交易，都快成功了。当这天到来时，整个世界都无法幸免于她的怒火。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"9661"	""	"skill:war-cry"	"accepted"	"전투 함성"	"전투 함성(War Cry)"	"skill:war-cry: English source: War Cry. Japanese source: ウォークライ. Chinese source: 战争嚎叫. Exact War Cry menu label; Japanese ウォークライ and Chinese menu label corroborate the ability. Canonical Korean follows the menu form 전투 함성. Korean left unchanged unless the row is accepted."	"War Cry"	"ウォークライ"	"战争嚎叫"	"{""skill:war-cry"":""accepted""}"	"{""skill:war-cry"":""needs-context""}"	"{""skill:war-cry"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"10263"	""	"skill:wrath"	"accepted"	"진노의 각 파동은 물리 피해 60을 주며, 마지막 타격은 물리 피해 420을 준다.
+비용: 마나 140, 파동당 +10"	"분노(Wrath)의 각 파동은 물리 피해 60을 주며, 마지막 타격은 물리 피해 420을 준다.
+비용: 마나 140, 파동당 +10"	"skill:wrath: English source: Each impulse of Wrath does 60 Physical Damage, final hit does 420 Physical Damage.
+Cost: 140 Mana, +10 per Impulse. Japanese source: ""ラース""の各波動が敵に60の物理ダメージを与え、最後の一撃が420の物理ダメージを与える。
+コスト: マナ140 / 波動毎に+10. Chinese source: 怒火的每一次脉冲造成60点物理伤害，最后一次命中造成420点物理伤害。
+消耗：140点法力，每次脉冲+10. The exact Wrath impulse-damage/cost description identifies the named ability; Japanese ラース and Chinese 怒火 corroborate the aligned mechanic. Korean left unchanged unless the row is accepted."	"Each impulse of Wrath does 60 Physical Damage, final hit does 420 Physical Damage.
+Cost: 140 Mana, +10 per Impulse"	"""ラース""の各波動が敵に60の物理ダメージを与え、最後の一撃が420の物理ダメージを与える。
+コスト: マナ140 / 波動毎に+10"	"怒火的每一次脉冲造成60点物理伤害，最后一次命中造成420点物理伤害。
+消耗：140点法力，每次脉冲+10"	"{""skill:wrath"":""accepted""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"10683"	""	"skill:wrath"	"excluded"	"형제자매 여러분, 에테네(Ethene)의 이름으로 이 글을 씁니다. 그녀의 이름과 추종자들의 이름에 축복이 있기를.
+
+오, 산의 위대한 트롤(Troll)들이여. 발밑의 땅을 흔들고, 나로스의 분노 외에는 두려워하는 것이 없으며, 바위를 부수고 돌을 무너뜨리는 이들이여. 내가 그대들에게 지혜를 전하노라.
+
+지혜란 무엇인가? 아침 태양의 여신이자 가장 높은 옥좌에서 세상을 밝히는 에테네(Ethene)가 내린 선물이다. 그녀는 나로스의 가장 현명한 조언자이며, 나로스조차 그녀의 부름에 귀 기울인다. 가장 단단한 바위도 정에 깎여 나가듯, 산의 트롤(Troll)들이여, 그대들도 위대한 여신의 뜻에 따르라."	"형제자매 여러분, 에테네(Ethene)의 이름으로 이 글을 씁니다. 그녀의 이름과 추종자들의 이름에 축복이 있기를.
+
+오, 산의 위대한 트롤(Troll)들이여. 발밑의 땅을 흔들고, 나로스의 분노 외에는 두려워하는 것이 없으며, 바위를 부수고 돌을 무너뜨리는 이들이여. 내가 그대들에게 지혜를 전하노라.
+
+지혜란 무엇인가? 아침 태양의 여신이자 가장 높은 옥좌에서 세상을 밝히는 에테네(Ethene)가 내린 선물이다. 그녀는 나로스의 가장 현명한 조언자이며, 나로스조차 그녀의 부름에 귀 기울인다. 가장 단단한 바위도 정에 깎여 나가듯, 산의 트롤(Troll)들이여, 그대들도 위대한 여신의 뜻에 따르라."	"skill:wrath: English source: Brothers and sisters, I write to you in the name of Ethene. Blessed be her name and the names of her followers.
+
+O great Trolls of the mountains, you who shake the ground beneath your feet, who fear nothing save the wrath of Naros, who crush rock and crumble stone, I offer wisdom.
+
+What is wisdom? It is the gift of Ethene, the Goddess of the morning sun, who enlightens the world from the highest of thrones. She is the wisest counsel to Naros, who heeds her call, yes, even Naros. Even the densest of rocks yields to the chisel, and so should you, too, Trolls of the mountains, yield to the mind of the great goddess.. Japanese source: 同胞たちよ、エセンの名のもとにこれを記している。彼女、そして彼女の信者に祝福あれ。
+
+ああ、山の偉大なトロールたちよ、足元の大地を揺らし、ナロスの怒り以外に何も恐れない者、そして岩と石を砕きし者よ、知恵を捧げよう。
+
+知恵とは何か。それは朝日の女神、そして最も高き王座からこの世を啓蒙してくださるエセンの授けし贈り物。彼女はナロスの最も賢き助言者だ。ナロス、そうナロスでさえも彼女の言葉に耳を傾ける。最も硬い岩でさえもその刃に屈する。山のトロールたちよ、お前たちもそうなる定めだ。偉大なる女神の心にひれ伏すがいい。. Chinese source: 兄弟姐妹们，我以伊希恩的名义写信给你们。祝福她的名字和她的追随者的名字。
+
+山中的巨魔啊，你们震撼着脚下的大地，你们什么都不怕，除了纳罗斯的愤怒，粉碎了岩石，粉碎了石头，我赐予你们智慧。
+
+智慧是什么？这是伊希恩的礼物，她是清晨太阳的女神，她从最高的宝座上启示着世界。她是纳罗斯最聪明的顾问，她听从她的召唤，是的，即使是纳罗斯也要听从。即使是最致密的岩石也会屈服于凿子，山中的巨魔啊，你们也应该屈服于伟大女神的思想。. The wrath of Naros is a deity's anger in a religious text. Korean left unchanged unless the row is accepted."	"Brothers and sisters, I write to you in the name of Ethene. Blessed be her name and the names of her followers.
+
+O great Trolls of the mountains, you who shake the ground beneath your feet, who fear nothing save the wrath of Naros, who crush rock and crumble stone, I offer wisdom.
+
+What is wisdom? It is the gift of Ethene, the Goddess of the morning sun, who enlightens the world from the highest of thrones. She is the wisest counsel to Naros, who heeds her call, yes, even Naros. Even the densest of rocks yields to the chisel, and so should you, too, Trolls of the mountains, yield to the mind of the great goddess."	"同胞たちよ、エセンの名のもとにこれを記している。彼女、そして彼女の信者に祝福あれ。
+
+ああ、山の偉大なトロールたちよ、足元の大地を揺らし、ナロスの怒り以外に何も恐れない者、そして岩と石を砕きし者よ、知恵を捧げよう。
+
+知恵とは何か。それは朝日の女神、そして最も高き王座からこの世を啓蒙してくださるエセンの授けし贈り物。彼女はナロスの最も賢き助言者だ。ナロス、そうナロスでさえも彼女の言葉に耳を傾ける。最も硬い岩でさえもその刃に屈する。山のトロールたちよ、お前たちもそうなる定めだ。偉大なる女神の心にひれ伏すがいい。"	"兄弟姐妹们，我以伊希恩的名义写信给你们。祝福她的名字和她的追随者的名字。
+
+山中的巨魔啊，你们震撼着脚下的大地，你们什么都不怕，除了纳罗斯的愤怒，粉碎了岩石，粉碎了石头，我赐予你们智慧。
+
+智慧是什么？这是伊希恩的礼物，她是清晨太阳的女神，她从最高的宝座上启示着世界。她是纳罗斯最聪明的顾问，她听从她的召唤，是的，即使是纳罗斯也要听从。即使是最致密的岩石也会屈服于凿子，山中的巨魔啊，你们也应该屈服于伟大女神的思想。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"13074"	""	"skill:wrath"	"excluded"	"모라 찰린(Maura Chalin)이 가장 강한 곳에서 그녀와 싸우고 싶다고? 좋다. 투아타는 아직 내 분노를 맛보지 못했지만, 넌 알게 될 것이다."	"모라 찰린(Maura Chalin)이 가장 강한 곳에서 그녀와 싸우고 싶다고? 좋다. 투아타는 아직 내 분노를 맛보지 못했지만, 넌 알게 될 것이다."	"skill:wrath: English source: You wish to fight Maura Chalin where she is strongest? So be it. The Tuatha cannot yet know my wrath, you will.. Japanese source: モウラ・チャリンの力が最も強い場所で戦いを挑むのですか？ 好きにしなさい。ツアサより先に、怒りを受けるでしょう. Chinese source: 你想在莫拉·查林最强大的地方和她战斗？那请便。图阿撒无法知道我的愤怒，你会的。. The speaker threatens personal wrath in dialogue. Korean left unchanged unless the row is accepted."	"You wish to fight Maura Chalin where she is strongest? So be it. The Tuatha cannot yet know my wrath, you will."	"モウラ・チャリンの力が最も強い場所で戦いを挑むのですか？ 好きにしなさい。ツアサより先に、怒りを受けるでしょう"	"你想在莫拉·查林最强大的地方和她战斗？那请便。图阿撒无法知道我的愤怒，你会的。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"13904"	""	"skill:wrath"	"excluded"	"투아사는 왜 우리에게 이런 짓을 하는 거지? 왜 우리 가문을 노리는 거야? 우리가 이런 분노를 살 만한 일을 대체 뭘 했다고?"	"투아사는 왜 우리에게 이런 짓을 하는 거지? 왜 우리 가문을 노리는 거야? 우리가 이런 분노를 살 만한 일을 대체 뭘 했다고?"	"skill:wrath: English source: Why are the Tuatha doing this to us? Why do they prey upon the House? For what cause do we deserve this wrath?. Japanese source: ツアサはなぜ我らにこのような事を？ なぜ我が一族を狙う？ このような仕打ちを受ける理由があると言うのか？. Chinese source: 为什么图阿撒要对我们这么做？为什么他们要掠夺家族？我们又因何故遭此怒火？. This wrath means the House’s ordinary misfortune or anger. Korean left unchanged unless the row is accepted."	"Why are the Tuatha doing this to us? Why do they prey upon the House? For what cause do we deserve this wrath?"	"ツアサはなぜ我らにこのような事を？ なぜ我が一族を狙う？ このような仕打ちを受ける理由があると言うのか？"	"为什么图阿撒要对我们这么做？为什么他们要掠夺家族？我们又因何故遭此怒火？"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14873"	""	"skill:wrath"	"excluded"	"하지만 갈라포르에 그것을 풀어놓은 것도 똑같이 어리석은 짓이었음을 알아 두시오. 그녀의 분노를 사기 전에 모두 리리아(Lyria)에게 용서를 빌도록 합시다."	"하지만 갈라포르에 그것을 풀어놓은 것도 똑같이 어리석은 짓이었음을 알아 두시오. 그녀의 분노를 사기 전에 모두 리리아(Lyria)에게 용서를 빌도록 합시다."	"skill:wrath: English source: But I assure you, it was equal folly to let it loose on Galafor. Let all pray to Lyria for forgiveness, lest she show her wrath.. Japanese source: けれども、ガラフォーに解き放つのも同じぐらい愚行です。皆でリリアに許しを祈りましょう、お怒りが下る前に. Chinese source: 不过我可以向你保证，把这件事丢开不管也同样是愚蠢的。让所有人向莉里亚祈祷宽恕，以免她发怒。. Lyria's wrath is divine punishment in dialogue. Korean left unchanged unless the row is accepted."	"But I assure you, it was equal folly to let it loose on Galafor. Let all pray to Lyria for forgiveness, lest she show her wrath."	"けれども、ガラフォーに解き放つのも同じぐらい愚行です。皆でリリアに許しを祈りましょう、お怒りが下る前に"	"不过我可以向你保证，把这件事丢开不管也同样是愚蠢的。让所有人向莉里亚祈祷宽恕，以免她发怒。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"17056"	""	"skill:wrath"	"excluded"	"몇 번이나 떠나라고 해야 하지? 필멸자여, 내 분노를 느끼고 싶지는 않을 텐데."	"몇 번이나 떠나라고 해야 하지? 필멸자여, 내 분노를 느끼고 싶지는 않을 텐데."	"skill:wrath: English source: How many times must I tell you to depart? You do not wish to feel my wrath, mortal.. Japanese source: どいてちょうだい。何度言わせるの？ 私を怒らせるとただじゃ済まないわよ. Chinese source: 还要我叫你离开多少次？你可不想感受我的愤怒，凡人。. The speaker threatens personal wrath in dialogue. Korean left unchanged unless the row is accepted."	"How many times must I tell you to depart? You do not wish to feel my wrath, mortal."	"どいてちょうだい。何度言わせるの？ 私を怒らせるとただじゃ済まないわよ"	"还要我叫你离开多少次？你可不想感受我的愤怒，凡人。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"17196"	""	"skill:wrath"	"accepted"	"분노의 각 충동은 물리 피해 75를 주며, 마지막 일격은 물리 피해 600을 줍니다.
+비용: 마나 170, 충동당 +10"	"분노(Wrath)의 각 충동은 물리 피해 75를 주며, 마지막 일격은 물리 피해 600을 줍니다.
+비용: 마나 170, 충동당 +10"	"skill:wrath: English source: Each impulse of Wrath does 75 Physical Damage, final hit does 600 Physical Damage.
+Cost: 170 Mana, +10 per Impulse. Japanese source: ""ラース""の各波動が敵に75の物理ダメージを与え、最後の一撃が600の物理ダメージを与える。
+コスト: マナ170 / 波動毎に+10. Chinese source: 怒火的每一次脉冲造成75点物理伤害，最后一次命中造成600点物理伤害。
+消耗：170点法力，每次脉冲+10. The exact Wrath impulse-damage/cost description identifies the named ability; Japanese ラース and Chinese 怒火 corroborate the aligned mechanic. Korean left unchanged unless the row is accepted."	"Each impulse of Wrath does 75 Physical Damage, final hit does 600 Physical Damage.
+Cost: 170 Mana, +10 per Impulse"	"""ラース""の各波動が敵に75の物理ダメージを与え、最後の一撃が600の物理ダメージを与える。
+コスト: マナ170 / 波動毎に+10"	"怒火的每一次脉冲造成75点物理伤害，最后一次命中造成600点物理伤害。
+消耗：170点法力，每次脉冲+10"	"{""skill:wrath"":""accepted""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"17745"	""	"skill:wrath"	"excluded"	"달의 여신 루날라(Lunala)는 너무나 큰 고통을 겪었고, 그 눈물 자국이 하늘에서 아말루르(Amalur)로 떨어졌다고 한다. 우리 콜로사이(Kollossae)는 지혜의 여신 에테네(Ethene)를 섬기지만, 달의 여신 루날라에게 기도하는 이들도 있다. 이 돌의 여신은 종종 찬란한 빛과 함께 아말루르의 밤을 찾아오며, 그 빛을 전하는 존재가 타이탄 셀리니아(Selinia)다.
+
+셀리니아는 루날라의 사자로서 빛이나 돌의 모습으로 달에서 내려오며, 늘 다급하게 찾아온다. 그가 서두르는 이유는 루날라의 슬픔 때문이다. 루날라는 멀리 떨어져 사는 어머니 대지 가이아(Gaea)를 그리워하며 운다. 이 이별은 루날라의 절망에 따라 깊어졌다 옅어지고, 셀리니아는 눈물짓는 여신을 쉬지 않고 섬긴다.
+
+어느 날 셀리니아가 루날라의 전언을 가져오자, 가이아(Gaea)는 외로이 슬퍼하는 딸을 가엾게 여겼다. 타이탄이 그 임무를 해낼 자격이 있음을 증명한다면 무엇이 딸을 위로할 수 있을지 알려 주겠다고 했다. 셀리니아는 망설였지만, 주인을 향한 헌신은 확고했다.
+
+헤카티르(Hecatyr)의 분노를 살 위험을 무릅쓰고 셀리니아는 비전의 장막(Arcane Veil) 일부를 훔쳤다. 운명들을 피해 달아난 그녀는 그 신비로운 천을 루날라에게 가져갔다. 그 마법의 온기에 감싸인 루날라는 슬픔을 잊고 편안히 그 아래 몸을 숨겼다. 셀리니아가 주인을 도우려 애쓰는 이 일은 매달 반복된다."	"달의 여신 루날라(Lunala)는 너무나 큰 고통을 겪었고, 그 눈물 자국이 하늘에서 아말루르(Amalur)로 떨어졌다고 한다. 우리 콜로사이(Kollossae)는 지혜의 여신 에테네(Ethene)를 섬기지만, 달의 여신 루날라에게 기도하는 이들도 있다. 이 돌의 여신은 종종 찬란한 빛과 함께 아말루르의 밤을 찾아오며, 그 빛을 전하는 존재가 타이탄 셀리니아(Selinia)다.
+
+셀리니아는 루날라의 사자로서 빛이나 돌의 모습으로 달에서 내려오며, 늘 다급하게 찾아온다. 그가 서두르는 이유는 루날라의 슬픔 때문이다. 루날라는 멀리 떨어져 사는 어머니 대지 가이아(Gaea)를 그리워하며 운다. 이 이별은 루날라의 절망에 따라 깊어졌다 옅어지고, 셀리니아는 눈물짓는 여신을 쉬지 않고 섬긴다.
+
+어느 날 셀리니아가 루날라의 전언을 가져오자, 가이아(Gaea)는 외로이 슬퍼하는 딸을 가엾게 여겼다. 타이탄이 그 임무를 해낼 자격이 있음을 증명한다면 무엇이 딸을 위로할 수 있을지 알려 주겠다고 했다. 셀리니아는 망설였지만, 주인을 향한 헌신은 확고했다.
+
+헤카티르(Hecatyr)의 분노를 살 위험을 무릅쓰고 셀리니아는 비전의 장막(Arcane Veil) 일부를 훔쳤다. 운명들을 피해 달아난 그녀는 그 신비로운 천을 루날라에게 가져갔다. 그 마법의 온기에 감싸인 루날라는 슬픔을 잊고 편안히 그 아래 몸을 숨겼다. 셀리니아가 주인을 도우려 애쓰는 이 일은 매달 반복된다."	"skill:wrath: English source: It is said Lunala, Goddess of the Moon, suffered a pain so great that traces of her tears fell from the heavens to Amalur. We Kollossae worship Ethene, the goddess of wisdom, but some also pray to Lunala, the goddess of the moon. This stone goddess often visits the nights of Amalur with her radiance, and the deliverer of this light is the Titan Selinia.
+
+Selinia is the messenger of Lunala, and falls from the moon as light or stone, and always with urgency. The reason for her haste is Lunala's sorrow: she cries for Gaea the earthmother, her distant parent. This separation waxes and wanes with Lunala's despair, and Selinia tirelessly serves the weeping goddess.
+
+One day Selinia brought down the message of Lunala, and Gaea took pity on her forlorn daughter. She told Selinia of what might console her, if the Titan could prove worthy of the task. Selinia hesitated, but her dedication to her mistress was absolute.
+
+Risking the wrath of Hecatyr, Selinia stole a portion of the Arcane Veil, and fleeing the Fates, took the ethereal cloth to Lunala. Warmed by its magic, Lunala lost her woe, and hid comfortably beneath her covering. This act is repeated every month, as Selinia strives to help her mistress.. Japanese source: 月の女神ルナーラが大きな痛みに苦しんだ時、彼女の涙の跡が天からアマラーへ落ちたと言われている。我々カロッサエは、知恵の女神エセンを崇拝しているが、月の女神ルナーラに祈りを捧げる者もいる。この石の女神は輝きながらアマラーを夜に訪れる時がある。この光を運んでいるのはタイタン・セリニアだ。
+
+セリニアはルナーラの使いで、光か石となって月から降りてくる。いつも急を要する形で訪れる。急ぐ理由は、ルナーラの悲しみだ。大地の母であり、遠く離れた親であるガイアのためにルナーラは泣く。この別離は、絶望と共に大きくなったり小さくなったりとルナーラに影響を与え、セリニアはこの泣きじゃくる女神に対し、休むことなく仕えている。
+
+セリニアがルナーラの伝言を運んできたある日、ガイアは絶望している娘に対して同情を示した。ガイアはセリニアが務めをしっかりと果たすという前提で、何がルナーラを慰めるかを伝えた。セリニアはためらったが、彼女の主人に対する献身は絶対的なものだった。
+
+ヘカティールの激怒を受ける危険がある中、セリニアは霊力のベールの一部を盗みだし、フェイツから逃げ出し、美しい衣をルナーラに渡した。その魅力にひきこまれたルナーラは悲しみを忘れ、その衣を気持ちよさそうに身にまとった。これは毎月続けられており、セリニアは自分の主人を助けようと励んでいる。. Chinese source: 据说，月亮女神卢娜拉遭受了巨大的痛苦，她的泪痕一直从天上蔓延到阿玛拉。我们克勒塞人膜拜智慧女神伊希恩，然而有些人也向月亮女神卢娜拉祈祷。这位石女神常带着光辉光顾阿玛拉的夜晚，而这道光的交付者是泰坦族瑟林尼亚。
+
+瑟林尼亚是卢娜拉的传信人，化为光线或石头从月亮上降临，而且总是那么急促。她如此急促的原因是卢娜拉的悲伤：她为大地母亲盖亚，她遥远的亲人而哭泣。这场分离伴着卢娜拉的绝望时盛时衰，而瑟林尼亚不厌其烦地侍奉着哭泣的女神。
+
+有一天，瑟林尼亚带来卢娜拉的消息，盖亚对她孤单的女儿十分同情。她告诉瑟林尼亚怎么样可以安慰她，如果泰坦族能证明此举的价值。瑟林尼亚犹豫了，但她对女主人的献身精神是纯粹的。
+
+冒着激怒赫卡提尔的风险，瑟林尼亚偷走了奥术帷幕的一部分，逃离了命运，把这件精巧的衣裳拿给了卢娜拉。感受到魔法的温暖，卢娜拉忘记了痛苦，舒服地躲在自己的华裳之下。此举每个月都会重复，瑟林尼亚很想帮助她的女主人。. Hecatyr's wrath is a mythic consequence in the Selinia story. Korean left unchanged unless the row is accepted."	"It is said Lunala, Goddess of the Moon, suffered a pain so great that traces of her tears fell from the heavens to Amalur. We Kollossae worship Ethene, the goddess of wisdom, but some also pray to Lunala, the goddess of the moon. This stone goddess often visits the nights of Amalur with her radiance, and the deliverer of this light is the Titan Selinia.
+
+Selinia is the messenger of Lunala, and falls from the moon as light or stone, and always with urgency. The reason for her haste is Lunala's sorrow: she cries for Gaea the earthmother, her distant parent. This separation waxes and wanes with Lunala's despair, and Selinia tirelessly serves the weeping goddess.
+
+One day Selinia brought down the message of Lunala, and Gaea took pity on her forlorn daughter. She told Selinia of what might console her, if the Titan could prove worthy of the task. Selinia hesitated, but her dedication to her mistress was absolute.
+
+Risking the wrath of Hecatyr, Selinia stole a portion of the Arcane Veil, and fleeing the Fates, took the ethereal cloth to Lunala. Warmed by its magic, Lunala lost her woe, and hid comfortably beneath her covering. This act is repeated every month, as Selinia strives to help her mistress."	"月の女神ルナーラが大きな痛みに苦しんだ時、彼女の涙の跡が天からアマラーへ落ちたと言われている。我々カロッサエは、知恵の女神エセンを崇拝しているが、月の女神ルナーラに祈りを捧げる者もいる。この石の女神は輝きながらアマラーを夜に訪れる時がある。この光を運んでいるのはタイタン・セリニアだ。
+
+セリニアはルナーラの使いで、光か石となって月から降りてくる。いつも急を要する形で訪れる。急ぐ理由は、ルナーラの悲しみだ。大地の母であり、遠く離れた親であるガイアのためにルナーラは泣く。この別離は、絶望と共に大きくなったり小さくなったりとルナーラに影響を与え、セリニアはこの泣きじゃくる女神に対し、休むことなく仕えている。
+
+セリニアがルナーラの伝言を運んできたある日、ガイアは絶望している娘に対して同情を示した。ガイアはセリニアが務めをしっかりと果たすという前提で、何がルナーラを慰めるかを伝えた。セリニアはためらったが、彼女の主人に対する献身は絶対的なものだった。
+
+ヘカティールの激怒を受ける危険がある中、セリニアは霊力のベールの一部を盗みだし、フェイツから逃げ出し、美しい衣をルナーラに渡した。その魅力にひきこまれたルナーラは悲しみを忘れ、その衣を気持ちよさそうに身にまとった。これは毎月続けられており、セリニアは自分の主人を助けようと励んでいる。"	"据说，月亮女神卢娜拉遭受了巨大的痛苦，她的泪痕一直从天上蔓延到阿玛拉。我们克勒塞人膜拜智慧女神伊希恩，然而有些人也向月亮女神卢娜拉祈祷。这位石女神常带着光辉光顾阿玛拉的夜晚，而这道光的交付者是泰坦族瑟林尼亚。
+
+瑟林尼亚是卢娜拉的传信人，化为光线或石头从月亮上降临，而且总是那么急促。她如此急促的原因是卢娜拉的悲伤：她为大地母亲盖亚，她遥远的亲人而哭泣。这场分离伴着卢娜拉的绝望时盛时衰，而瑟林尼亚不厌其烦地侍奉着哭泣的女神。
+
+有一天，瑟林尼亚带来卢娜拉的消息，盖亚对她孤单的女儿十分同情。她告诉瑟林尼亚怎么样可以安慰她，如果泰坦族能证明此举的价值。瑟林尼亚犹豫了，但她对女主人的献身精神是纯粹的。
+
+冒着激怒赫卡提尔的风险，瑟林尼亚偷走了奥术帷幕的一部分，逃离了命运，把这件精巧的衣裳拿给了卢娜拉。感受到魔法的温暖，卢娜拉忘记了痛苦，舒服地躲在自己的华裳之下。此举每个月都会重复，瑟林尼亚很想帮助她的女主人。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18309"	""	"skill:wrath"	"excluded"	"나의 무기여, 나의 제자여, 잘하고 있구나. 떠오르는 태양이 되어라! 폭풍의 분노가 되어라! 한 놈도 살려 두지 않으면 내 축복을 얻을 것이다!"	"나의 무기여, 나의 제자여, 잘하고 있구나. 떠오르는 태양이 되어라! 폭풍의 분노가 되어라! 한 놈도 살려 두지 않으면 내 축복을 얻을 것이다!"	"skill:wrath: English source: My weapon, my disciple ‒ you do well. Be the rising sun! Be the tempest's wrath! Leave none alive and you shall earn my blessing!. Japanese source: 我が武器、我が門弟よ... 上手くやるのだぞ。昇りゆく太陽となれ！ 怒りの嵐となれ！ 1人残らず倒せば、祝福を授けてやる！. Chinese source: 我的武器，我的徒弟，你做得很好。你就像一颗冉冉升起的新星！让暴风雨来得更猛烈些吧！把他们都杀了，一个不留，我会祝福你的！. The tempest's wrath is figurative battle rhetoric. Korean left unchanged unless the row is accepted."	"My weapon, my disciple ‒ you do well. Be the rising sun! Be the tempest's wrath! Leave none alive and you shall earn my blessing!"	"我が武器、我が門弟よ... 上手くやるのだぞ。昇りゆく太陽となれ！ 怒りの嵐となれ！ 1人残らず倒せば、祝福を授けてやる！"	"我的武器，我的徒弟，你做得很好。你就像一颗冉冉升起的新星！让暴风雨来得更猛烈些吧！把他们都杀了，一个不留，我会祝福你的！"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"19199"	""	"skill:wrath"	"excluded"	"하수도에서 행운을 빌어. 쥐들에게 우리 분노를 보여 줘!"	"하수도에서 행운을 빌어. 쥐들에게 우리 분노를 보여 줘!"	"skill:wrath: English source: I wish you luck in the sewers. The rats will feel our wrath!. Japanese source: 下水道では気をつけてな。我々の怒りを思い知らせてやってくれ！. Chinese source: 希望你在下水道一切顺利。老鼠会尝到我们的怒火！. The speaker uses wrath as ordinary anger toward the rats. Korean left unchanged unless the row is accepted."	"I wish you luck in the sewers. The rats will feel our wrath!"	"下水道では気をつけてな。我々の怒りを思い知らせてやってくれ！"	"希望你在下水道一切顺利。老鼠会尝到我们的怒火！"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24470"	""	"skill:wrath"	"accepted"	"격노의 파동은 한 번 일어날 때마다 물리 피해 65를 줍니다. 마지막 타격은 물리 피해 480을 줍니다.
+소모 마나: 150, 파동 1회마다 +10"	"분노(Wrath)의 파동은 한 번 일어날 때마다 물리 피해 65를 줍니다. 마지막 타격은 물리 피해 480을 줍니다.
+소모 마나: 150, 파동 1회마다 +10"	"skill:wrath: English source: Each impulse of Wrath does 65 Physical Damage, final hit does 480 Physical Damage.
+Cost: 150 Mana, +10 per Impulse. Japanese source: ""ラース""の各波動が敵に65の物理ダメージを与え、最後の一撃が480の物理ダメージを与える。
+コスト: マナ150 / 波動毎に+10. Chinese source: 怒火的每一次脉冲造成65点物理伤害，最后一次命中造成480点物理伤害。
+消耗：150点法力，每次脉冲+10. The exact Wrath impulse-damage/cost description identifies the named ability; Japanese ラース and Chinese 怒火 corroborate the aligned mechanic. Korean left unchanged unless the row is accepted."	"Each impulse of Wrath does 65 Physical Damage, final hit does 480 Physical Damage.
+Cost: 150 Mana, +10 per Impulse"	"""ラース""の各波動が敵に65の物理ダメージを与え、最後の一撃が480の物理ダメージを与える。
+コスト: マナ150 / 波動毎に+10"	"怒火的每一次脉冲造成65点物理伤害，最后一次命中造成480点物理伤害。
+消耗：150点法力，每次脉冲+10"	"{""skill:wrath"":""accepted""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24879"	""	"skill:wrath"	"excluded"	"겨울의 가장 위대한 영웅들은 언제나 베일(Bhaile)의 창백한 가지에서 떨어졌네,
+예리한 피에트라(Pietra)부터 굶주린 훌건(Hoolgan)까지.
+투아사가 우리를 지배하려 들자,
+영웅들이 일어나 겨울을 지켰네.
+
+가드플로(Gadflow)는 도전을 비웃고,
+티르노크(Tirnoch)의 분노를 불러냈네.
+순식간에 가장 충성스러운 영웅들이 프리즈미어 첨탑에 꿰뚫렸지.
+우리의 영웅들은 사라져 다시는 태어나지 못했고,
+우리 민족은 가드플로(Gadflow)의 광기에 굴복했네."	"겨울의 가장 위대한 영웅들은 언제나 베일(Bhaile)의 창백한 가지에서 떨어졌네,
+예리한 피에트라(Pietra)부터 굶주린 훌건(Hoolgan)까지.
+투아사가 우리를 지배하려 들자,
+영웅들이 일어나 겨울을 지켰네.
+
+가드플로(Gadflow)는 도전을 비웃고,
+티르노크(Tirnoch)의 분노를 불러냈네.
+순식간에 가장 충성스러운 영웅들이 프리즈미어 첨탑에 꿰뚫렸지.
+우리의 영웅들은 사라져 다시는 태어나지 못했고,
+우리 민족은 가드플로(Gadflow)의 광기에 굴복했네."	"skill:wrath: English source: The greatest heroes of Winter have always fallen from the Bhaile's pale boughs,
+from Pietra the Keen to Hoolgan the Hungry.
+When the Tuatha claimed dominance over us,
+heroes arose to defend Winter.
+
+Gadflow laughed at their challenge,
+and called up Tirnoch's wrath.
+In a second, our most loyal heroes were impaled by Prismere spires.
+Our heroes were gone, never to be reborn ‒
+and our people succumbed to Gadflow's madness.. Japanese source: ウィンター・フェイの偉大な英雄達は全てベイルの青白い大枝から落ちた。
+勇敢なピエトラから空腹のフールガンまで。
+ツアサが支配しようとした時、
+ウィンター・フェイを守るために英雄達が現れた。
+
+ガドフローは挑戦を笑い、
+ティアノックの怒りを引き出した。
+あっという間に、最も誠実な英雄がプリスミアの槍で突き刺された。
+英雄はいなくなり、決して再誕しなかった。
+そしてガドフローの乱心に屈服した. Chinese source: 冬天最伟大的英雄总是会从巴哈勒苍白的树枝上坠落，
+从热切的彼得拉到饥肠辘辘的霍根。
+当图阿撒人声称统治我们时
+英雄们挺身而出保卫冬天。
+
+加德弗洛嘲笑他们的挑战，
+激起了提尔诺克的愤怒。
+在一秒钟内，我们最忠诚的英雄被赤晶尖塔刺穿了。
+我们的英雄死了，再也不会重生了——
+我们的人民屈服于加德弗洛的疯狂。. Tirnoch's wrath is a lore event, not the named ability. Korean left unchanged unless the row is accepted."	"The greatest heroes of Winter have always fallen from the Bhaile's pale boughs,
+from Pietra the Keen to Hoolgan the Hungry.
+When the Tuatha claimed dominance over us,
+heroes arose to defend Winter.
+
+Gadflow laughed at their challenge,
+and called up Tirnoch's wrath.
+In a second, our most loyal heroes were impaled by Prismere spires.
+Our heroes were gone, never to be reborn ‒
+and our people succumbed to Gadflow's madness."	"ウィンター・フェイの偉大な英雄達は全てベイルの青白い大枝から落ちた。
+勇敢なピエトラから空腹のフールガンまで。
+ツアサが支配しようとした時、
+ウィンター・フェイを守るために英雄達が現れた。
+
+ガドフローは挑戦を笑い、
+ティアノックの怒りを引き出した。
+あっという間に、最も誠実な英雄がプリスミアの槍で突き刺された。
+英雄はいなくなり、決して再誕しなかった。
+そしてガドフローの乱心に屈服した"	"冬天最伟大的英雄总是会从巴哈勒苍白的树枝上坠落，
+从热切的彼得拉到饥肠辘辘的霍根。
+当图阿撒人声称统治我们时
+英雄们挺身而出保卫冬天。
+
+加德弗洛嘲笑他们的挑战，
+激起了提尔诺克的愤怒。
+在一秒钟内，我们最忠诚的英雄被赤晶尖塔刺穿了。
+我们的英雄死了，再也不会重生了——
+我们的人民屈服于加德弗洛的疯狂。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"25915"	""	"skill:wrath"	"excluded"	"고백하건대, 스승님이 죽을 뻔한 경위를 밝히겠다.
+우리의 임무는 에테네(Ethene)의 종복들을 신앙심 깊게 만드는 것이었지만, 아르케스(Arkes)는 실패했다.
+그들은 에테네(Ethene)의 힘과 지혜에 걸맞은 자들이어야 했다.
+내 명령에 따라 그는 하이페리온을 하늘로 띄워 우리의 인정을 얻으려 했다.
+그 뒤 에테네(Ethene)의 분노가 폭발해 많은 이가 죽었고, 소중한 아르케스마저 거의 목숨을 잃었다."	"고백하건대, 스승님이 죽을 뻔한 경위를 밝히겠다.
+우리의 임무는 에테네(Ethene)의 종복들을 신앙심 깊게 만드는 것이었지만, 아르케스(Arkes)는 실패했다.
+그들은 에테네(Ethene)의 힘과 지혜에 걸맞은 자들이어야 했다.
+내 명령에 따라 그는 하이페리온을 하늘로 띄워 우리의 인정을 얻으려 했다.
+그 뒤 에테네(Ethene)의 분노가 폭발해 많은 이가 죽었고, 소중한 아르케스마저 거의 목숨을 잃었다."	"skill:wrath: English source: In this confession I shall tell of how my master was brought nearly to his death.
+Arkes failed Ethene in our mission to bring her servants to a devout state
+That would be worthy of her power and wisdom.
+At my behest, he sought the Hyperian forced to the sky, and earn our recognition.
+The ensuing eruption of Ethene’s wrath killed many, and nearly took dear Arkes.. Japanese source: この告白で、我が師がいかにして死にかけたのかを話そう。
+我らはエセンのしもべ達の信仰心を、彼女の力と賢さにふさわしいものに高めようとしていたが
+その任務の最中、アーケスはエセンの期待を裏切った。
+我が命により、彼はハイペリアンを浮上させて我らに認められんとした。
+エセンの恐るべき怒りの噴火によって大勢が死に、大切なアーケスまでもう少しで死ぬところだった. Chinese source: 在这篇自白中，我将讲述我的主人是如何濒临死亡的。
+在我们的使命中，阿克斯辜负了伊希恩，未能使她的仆从达到一种虔诚的状态
+使他们配得上她的力量和智慧。
+在我的命令下，他找到了被迫升上天空的海伯利安，并赢得了我们的认可。
+随后爆发的伊希恩的怒火杀死了许多人，也几乎杀死了亲爱的阿克斯。. Ethene's wrath is a story event, not the Wrath ability. Korean left unchanged unless the row is accepted."	"In this confession I shall tell of how my master was brought nearly to his death.
+Arkes failed Ethene in our mission to bring her servants to a devout state
+That would be worthy of her power and wisdom.
+At my behest, he sought the Hyperian forced to the sky, and earn our recognition.
+The ensuing eruption of Ethene’s wrath killed many, and nearly took dear Arkes."	"この告白で、我が師がいかにして死にかけたのかを話そう。
+我らはエセンのしもべ達の信仰心を、彼女の力と賢さにふさわしいものに高めようとしていたが
+その任務の最中、アーケスはエセンの期待を裏切った。
+我が命により、彼はハイペリアンを浮上させて我らに認められんとした。
+エセンの恐るべき怒りの噴火によって大勢が死に、大切なアーケスまでもう少しで死ぬところだった"	"在这篇自白中，我将讲述我的主人是如何濒临死亡的。
+在我们的使命中，阿克斯辜负了伊希恩，未能使她的仆从达到一种虔诚的状态
+使他们配得上她的力量和智慧。
+在我的命令下，他找到了被迫升上天空的海伯利安，并赢得了我们的认可。
+随后爆发的伊希恩的怒火杀死了许多人，也几乎杀死了亲爱的阿克斯。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26572"	""	"skill:wrath"	"excluded"	"크랜윈의 분노를 맛봐라!"	"크랜윈의 분노를 맛봐라!"	"skill:wrath: English source: Feel the Cranwyn's wrath!. Japanese source: クランウィンの怒りを感じるがいい！. Chinese source: 感受克朗文的怒火！. Cranwyn's wrath is ordinary threatening dialogue. Korean left unchanged unless the row is accepted."	"Feel the Cranwyn's wrath!"	"クランウィンの怒りを感じるがいい！"	"感受克朗文的怒火！"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28247"	""	"skill:wrath"	"excluded"	"신들이 그대의 몸을 빌려 이 전당에 다시 오신다. 그들이 나타나 분노를 드러냈던 자리에 서라."	"신들이 그대의 몸을 빌려 이 전당에 다시 오신다. 그들이 나타나 분노를 드러냈던 자리에 서라."	"skill:wrath: English source: In you, the gods visit this chamber once more. You shall stand where they appeared and made manifest their wrath.. Japanese source: あなたの姿を借りて、神々は再びここを訪れる。彼らが現れて怒りを明らかにした場所に立ってくれ. Chinese source: 神会通过你再次来到这个前厅。你应该站在他们出现的地方，让他们宣泄自己的怒火。. The gods’ wrath is ordinary divine anger in the scene. Korean left unchanged unless the row is accepted."	"In you, the gods visit this chamber once more. You shall stand where they appeared and made manifest their wrath."	"あなたの姿を借りて、神々は再びここを訪れる。彼らが現れて怒りを明らかにした場所に立ってくれ"	"神会通过你再次来到这个前厅。你应该站在他们出现的地方，让他们宣泄自己的怒火。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30988"	""	"skill:wrath"	"excluded"	"절박한 시절에는 그의 생각도 일리가 있었어. 하지만 신들의 분노를 불러온 뒤 살아남은 건 그와 나뿐이었지."	"절박한 시절에는 그의 생각도 일리가 있었어. 하지만 신들의 분노를 불러온 뒤 살아남은 건 그와 나뿐이었지."	"skill:wrath: English source: It... in desperate times, his thought made sense. But when I brought the wrath of the gods down, only he and I survived.. Japanese source: 絶望的な時代に、彼の考えは道理にかなって見えた。だが神々の怒りを招き、生き残ったのは我々二人だけだった. Chinese source: 在绝望之际，他的想法无可厚非。可当我引发了神的震怒时，只有我和他活了下来。. The wrath of the gods describes a past catastrophe. Korean left unchanged unless the row is accepted."	"It... in desperate times, his thought made sense. But when I brought the wrath of the gods down, only he and I survived."	"絶望的な時代に、彼の考えは道理にかなって見えた。だが神々の怒りを招き、生き残ったのは我々二人だけだった"	"在绝望之际，他的想法无可厚非。可当我引发了神的震怒时，只有我和他活了下来。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31094"	""	"skill:wrath"	"excluded"	"아카라의 분노를 느껴라!"	"아카라의 분노를 느껴라!"	"skill:wrath: English source: Feel Akara's wrath!. Japanese source: アカラの怒りを！. Chinese source: 感受阿卡拉的愤怒吧！. Akara's wrath is a spoken threat, not the ability. Korean left unchanged unless the row is accepted."	"Feel Akara's wrath!"	"アカラの怒りを！"	"感受阿卡拉的愤怒吧！"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"33667"	""	"skill:wrath"	"excluded"	"전쟁 병기의 불길이 포효하고
+하늘의 길을 뒤흔든다
+가드플로(Gadflow)의 이름으로 그들은 더욱 싸우고
+지난날의 평화를 저버린 채
+분노에 차 이웃을 살해하리라."	"전쟁 병기의 불길이 포효하고
+하늘의 길을 뒤흔든다
+가드플로(Gadflow)의 이름으로 그들은 더욱 싸우고
+지난날의 평화를 저버린 채
+분노에 차 이웃을 살해하리라."	"skill:wrath: English source: The flames of warlike engines roar
+And quake through heaven's path
+In Gadflow's name they battle more
+And then, despite the peace of yore
+Will murder neighbors in their wrath.. Japanese source: 戦いの炎が轟音をあげ
+天への道を揺らす
+ガドフローの名でさらに戦う
+過去の平和を投げ捨て
+怒りに任せて隣人を殺すだろう. Chinese source: 战争机器的火焰咆哮着
+在天堂之路上颤抖
+以加德弗洛的名义，他们继续战斗
+然后，不顾过去的和平
+愤怒地谋杀他们的邻居。. Their wrath means ordinary anger in a poem. Korean left unchanged unless the row is accepted."	"The flames of warlike engines roar
+And quake through heaven's path
+In Gadflow's name they battle more
+And then, despite the peace of yore
+Will murder neighbors in their wrath."	"戦いの炎が轟音をあげ
+天への道を揺らす
+ガドフローの名でさらに戦う
+過去の平和を投げ捨て
+怒りに任せて隣人を殺すだろう"	"战争机器的火焰咆哮着
+在天堂之路上颤抖
+以加德弗洛的名义，他们继续战斗
+然后，不顾过去的和平
+愤怒地谋杀他们的邻居。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34029"	""	"skill:wrath"	"excluded"	"의심하는 자들 중 가장 비천한 자들은 약탈자가 된다. 피에 굶주리고 난폭하며 분노밖에 모르는 자들이다. 그들을 숙청해야 한다."	"의심하는 자들 중 가장 비천한 자들은 약탈자가 된다. 피에 굶주리고 난폭하며 분노밖에 모르는 자들이다. 그들을 숙청해야 한다."	"skill:wrath: English source: The lowest of these doubters become Marauders ‒ bloodthirsty and violent, capable of nothing but wrath. They must be purged.. Japanese source: 信仰を疑う者たちの中でも、最低の連中がマローダーになるの。血に飢えていて凶暴で、怒りのままに行動する。彼らを排除しなければ. Chinese source: 这些怀疑者中最卑贱的是掠夺者——嗜血而暴力，满腔都是愤怒。必须清除他们。. Wrath is a generic description of the Marauders’ temperament. Korean left unchanged unless the row is accepted."	"The lowest of these doubters become Marauders ‒ bloodthirsty and violent, capable of nothing but wrath. They must be purged."	"信仰を疑う者たちの中でも、最低の連中がマローダーになるの。血に飢えていて凶暴で、怒りのままに行動する。彼らを排除しなければ"	"这些怀疑者中最卑贱的是掠夺者——嗜血而暴力，满腔都是愤怒。必须清除他们。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34452"	""	"skill:wrath"	"excluded"	"전쟁 병기의 불길이 포효하고
+하늘의 길을 뒤흔든다
+가드플로(Gadflow)의 이름으로 그들은 더욱 싸우고
+지난날의 평화를 저버린 채
+분노에 차 이웃을 살해하리라."	"전쟁 병기의 불길이 포효하고
+하늘의 길을 뒤흔든다
+가드플로(Gadflow)의 이름으로 그들은 더욱 싸우고
+지난날의 평화를 저버린 채
+분노에 차 이웃을 살해하리라."	"skill:wrath: English source: The flames of warlike engines roar
+And quake through heaven's path
+In Gadflow's name they battle more
+And then, despite the peace of yore
+Will murder neighbors in their wrath.. Japanese source: 戦いの炎が轟音をあげ
+天への道を揺らす
+ガドフローの名でさらに戦う
+過去の平和を投げ捨て
+怒りに任せて隣人を殺すだろう. Chinese source: 战争机器的火焰咆哮着
+在天堂之路上颤抖
+以加德弗洛的名义，他们继续战斗
+然后，不顾过去的和平
+愤怒地谋杀他们的邻居。. Their wrath means ordinary anger in a poem. Korean left unchanged unless the row is accepted."	"The flames of warlike engines roar
+And quake through heaven's path
+In Gadflow's name they battle more
+And then, despite the peace of yore
+Will murder neighbors in their wrath."	"戦いの炎が轟音をあげ
+天への道を揺らす
+ガドフローの名でさらに戦う
+過去の平和を投げ捨て
+怒りに任せて隣人を殺すだろう"	"战争机器的火焰咆哮着
+在天堂之路上颤抖
+以加德弗洛的名义，他们继续战斗
+然后，不顾过去的和平
+愤怒地谋杀他们的邻居。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35147"	""	"skill:wrath"	"excluded"	"카스토르의 분노"	"카스토르의 분노"	"skill:wrath: English source: Castor's Wrath. Japanese source: カストールへの報復. Chinese source: 卡斯托的怒火. Castor's Wrath is a complete named title; preserve it without treating Wrath as the ability. Korean left unchanged unless the row is accepted."	"Castor's Wrath"	"カストールへの報復"	"卡斯托的怒火"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37262"	""	"skill:wrath"	"excluded"	"폭풍의 분노를 맞아라!"	"폭풍의 분노를 맞아라!"	"skill:wrath: English source: Face the storm's wrath!. Japanese source: 嵐の怒りに触れよ！. Chinese source: 面对风暴的愤怒！. The storm's wrath is figurative weather imagery. Korean left unchanged unless the row is accepted."	"Face the storm's wrath!"	"嵐の怒りに触れよ！"	"面对风暴的愤怒！"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37517"	""	"skill:wrath"	"excluded"	"과부의 분노"	"과부의 분노"	"skill:wrath: English source: The Widow's Wrath. Japanese source: ウィドウの憤怒. Chinese source: 寡妇的怒火. The Widow's Wrath is a complete named title; preserve the full label. Korean left unchanged unless the row is accepted."	"The Widow's Wrath"	"ウィドウの憤怒"	"寡妇的怒火"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39284"	""	"skill:wrath"	"excluded"	"고르구아스 깊은 곳에서
+사그렐 경(Sir Sagrell)은 영혼에게 다가갔다.
+사악한 줄기와 뿌리를 베었으니
+그 분노가 닿지 않는 곳에서,
+옆길로 몰래 다가서서."	"고르구아스 깊은 곳에서
+사그렐 경(Sir Sagrell)은 영혼에게 다가갔다.
+사악한 줄기와 뿌리를 베었으니
+그 분노가 닿지 않는 곳에서,
+옆길로 몰래 다가서서."	"skill:wrath: English source: Sir Sagrell approached the spirit
+Deep within Gorguath.
+He slashed its wicked stalk and root
+Safe from beyond its wrath;
+Slyly from a side path.. Japanese source: サー・サグレルはその魂に近づいて行った
+ゴーグアスの奥深くへ
+その危険な茎と根を切りつけた
+その怒りも届かない安全な所から
+抜け道からこっそりと. Chinese source: 萨格勒尔勋爵靠近幽灵
+在戈尔加斯深处。
+他砍断了它邪恶的茎和根
+远离它的愤怒；
+狡猾地从旁边的小路。. The spirit’s wrath is ordinary creature anger in the poem. Korean left unchanged unless the row is accepted."	"Sir Sagrell approached the spirit
+Deep within Gorguath.
+He slashed its wicked stalk and root
+Safe from beyond its wrath;
+Slyly from a side path."	"サー・サグレルはその魂に近づいて行った
+ゴーグアスの奥深くへ
+その危険な茎と根を切りつけた
+その怒りも届かない安全な所から
+抜け道からこっそりと"	"萨格勒尔勋爵靠近幽灵
+在戈尔加斯深处。
+他砍断了它邪恶的茎和根
+远离它的愤怒；
+狡猾地从旁边的小路。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"40462"	""	"skill:wrath"	"excluded"	"티르녹의 분노를 느껴라."	"티르녹의 분노를 느껴라."	"skill:wrath: English source: Feel Tirnoch's wrath.. Japanese source: ティアノックの怒りを知れ！. Chinese source: 感受提尔诺克的怒火吧。. Tirnoch's wrath is a spoken threat, not the ability. Korean left unchanged unless the row is accepted."	"Feel Tirnoch's wrath."	"ティアノックの怒りを知れ！"	"感受提尔诺克的怒火吧。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"40478"	""	"skill:wrath"	"excluded"	"그림은 동쪽 날개에 있을 거야. 잊지 마, 동쪽 날개야. 똑바로 하지 않으면 내 분노를 맛보게 될 거다."	"그림은 동쪽 날개에 있을 거야. 잊지 마, 동쪽 날개야. 똑바로 하지 않으면 내 분노를 맛보게 될 거다."	"skill:wrath: English source: Grim will be in the east wing. Remember that ‒ Grim is in the east wing. Do the right thing, or face my wrath.. Japanese source: グリムは東棟に来るわ。いい？ 東棟よ。私を怒らせたくなかったら、間違った行動を取らないで. Chinese source: 格里姆会在东厢房。记住，格里姆在东厢房。放聪明点，否则就尝尝我的怒火吧。. The speaker threatens personal wrath in dialogue. Korean left unchanged unless the row is accepted."	"Grim will be in the east wing. Remember that ‒ Grim is in the east wing. Do the right thing, or face my wrath."	"グリムは東棟に来るわ。いい？ 東棟よ。私を怒らせたくなかったら、間違った行動を取らないで"	"格里姆会在东厢房。记住，格里姆在东厢房。放聪明点，否则就尝尝我的怒火吧。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41015"	""	"skill:wrath"	"accepted"	"분노"	"분노(Wrath)"	"skill:wrath: English source: Wrath. Japanese source: ラース. Chinese source: 愤怒. Exact Wrath ability-menu label; Japanese ラース and Chinese menu rendering corroborate it. Use the default-menu-supported canonical 분노(Wrath), recording 격노 as a variant. Korean left unchanged unless the row is accepted."	"Wrath"	"ラース"	"愤怒"	"{""skill:wrath"":""accepted""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"42635"	""	"skill:wrath"	"excluded"	"하지만 그 뒤 아르케스(Arkes)가 신들의 분노를 샀어. 난 그게 신앙에 늘 돌아오는 보답인 줄 알았지."	"하지만 그 뒤 아르케스(Arkes)가 신들의 분노를 샀어. 난 그게 신앙에 늘 돌아오는 보답인 줄 알았지."	"skill:wrath: English source: But then, Arkes brought down the wrath of the gods. I thought that was how faith was always rewarded.. Japanese source: だがそれから、アーケスは神々の怒りを招いた。信仰に対する報いは常にそういうものだと思った. Chinese source: 可后来阿克斯招致了众神的怒火。我曾以为那就是信仰神明的后果。. The wrath of the gods describes a past catastrophe. Korean left unchanged unless the row is accepted."	"But then, Arkes brought down the wrath of the gods. I thought that was how faith was always rewarded."	"だがそれから、アーケスは神々の怒りを招いた。信仰に対する報いは常にそういうものだと思った"	"可后来阿克斯招致了众神的怒火。我曾以为那就是信仰神明的后果。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43145"	""	"skill:wrath"	"excluded"	"모이드는 고운 여왕,
+도크알브(Dokkalfar) 중 으뜸.
+루비처럼 빛난 입술,
+머리는 곱게 틀어 올렸네.
+그녀는 여러 일로 이름났지,
+웃음도, 노여움도.
+하지만 옥좌에서 다스리지 않고,
+목욕탕에서 나라를 다스렸네.
+드베르가가 만든 구리 욕조,
+여왕은 그 안에 들었지.
+하루 열 번 목욕을 했어도,
+아무도 까닭을 묻지 않았네.
+반짝이게 다듬은 다리,
+윤이 나도록 문지른 가슴.
+손이며 엉덩이며 모두 아름다웠지만,
+누구에게도 보이지 않았네.
+전쟁이 나면 적을 맞았지,
+욕조에 앉은 채로.
+회담이 끝나고 나면 평화가 찾아왔네,
+그게 늘 비결이었지.
+그런 몸매를 지녔으니,
+늘 손질이 필요했네.
+목욕을 본 이들은 정신 차려야 했지,
+욕망에 이성이 휩쓸리기 전에.
+사실 꽤 괜찮은 전략이었다네,
+전해지는 이야기대로라면.
+하지만 결과는 썩 좋지 않았지,
+그녀가 너무 늙고 나서는."	"모이드는 고운 여왕,
+도크알브(Dokkalfar) 중 으뜸.
+루비처럼 빛난 입술,
+머리는 곱게 틀어 올렸네.
+그녀는 여러 일로 이름났지,
+웃음도, 노여움도.
+하지만 옥좌에서 다스리지 않고,
+목욕탕에서 나라를 다스렸네.
+드베르가가 만든 구리 욕조,
+여왕은 그 안에 들었지.
+하루 열 번 목욕을 했어도,
+아무도 까닭을 묻지 않았네.
+반짝이게 다듬은 다리,
+윤이 나도록 문지른 가슴.
+손이며 엉덩이며 모두 아름다웠지만,
+누구에게도 보이지 않았네.
+전쟁이 나면 적을 맞았지,
+욕조에 앉은 채로.
+회담이 끝나고 나면 평화가 찾아왔네,
+그게 늘 비결이었지.
+그런 몸매를 지녔으니,
+늘 손질이 필요했네.
+목욕을 본 이들은 정신 차려야 했지,
+욕망에 이성이 휩쓸리기 전에.
+사실 꽤 괜찮은 전략이었다네,
+전해지는 이야기대로라면.
+하지만 결과는 썩 좋지 않았지,
+그녀가 너무 늙고 나서는."	"skill:wrath: English source: Moed was a comely queen,
+A Dokkalfar, par none.
+Her lips, like rubies with their sheen,
+Her hair up in a bun.
+Was known for many things, such as
+Her laughter and her wrath.
+But she did not rule from a throne.
+She ruled from in her bath.
+A copper-tub, of Dverga-make
+The queen did occupy.
+Ten baths a day the queen did take
+Without one reason why.
+Her legs, polished to shine
+Her bosom, scrubbed to glow
+Her hands, her hips, all fine,
+If ever they were shown.
+If there was war, she'd meet the foe
+Just sitting in the tub.
+At meeting's end, a peace we'd know
+That was the basic rub.
+A body such as hers would need
+Constant maintenance
+And those that saw her bathe took heed,
+As lust o'ertook their sense.
+In truth, it was a tactic sound,
+As is the story told.
+But success was somewhat less, we found,
+Once she had grown too old.. Japanese source: 女王モードは器量よし
+並ぶ者なきドカルファー
+唇はルビーのごとく艶やかで
+髪は束に結っていた
+よく笑い、よく怒る
+そんな事でも知られていたが
+彼女は玉座から統べずに
+風呂から統べた
+ドゥバーガが造った青銅の浴槽は
+女王専用の特別製
+1日10回入浴し
+誰も不思議に思わない
+足はピカピカに磨かれ
+胸はゴシゴシ洗うたびに膨らむ
+その手も、その唇も、すべてが美しいのに
+決して人前にはさらさない
+戦いのときも、女王は湯船の中で
+敵と対した
+戦いの最後に
+いつものゴシゴシが聞こえたら一安心
+彼女のような体は
+こまめなお手入れが必要だ
+彼女の入浴を見た者は警戒した
+欲望に心を奪われないように
+実のところ、彼女は誘っていたという話だ
+そのゴシゴシという音で
+だが、誘いに乗る者は減っていった
+彼女が年老いてしまったら. Chinese source: 莫伊德后很俊俏，
+暗精灵中无人及。
+唇如红宝石闪耀，
+头发梳起成圆髻。
+出名之事有不少，
+音容笑貌脾气燥。
+统治不把王权靠。
+原来全都靠洗澡。
+铜桶迪维尔干造，
+王后每天把它用。
+一天十次把澡泡，
+其中缘由没人懂。
+双腿洗得会发光，
+双胸搓得亮闪闪。
+双手双唇还像样，
+如果有天能展览。
+战争来临遇敌人，
+就把澡盆拿来坐。
+会议结束就平稳，
+基本全靠手来搓。
+如有她这般身体，
+时时刻刻需维护。
+见她洗澡须留意，
+此欲意识管不住。
+确实听来有策略，
+正如故事里所讲。
+然而胜利渐欠缺，
+一旦岁月变太长。. The queen’s wrath means her ordinary temper in a comic poem. Korean left unchanged unless the row is accepted."	"Moed was a comely queen,
+A Dokkalfar, par none.
+Her lips, like rubies with their sheen,
+Her hair up in a bun.
+Was known for many things, such as
+Her laughter and her wrath.
+But she did not rule from a throne.
+She ruled from in her bath.
+A copper-tub, of Dverga-make
+The queen did occupy.
+Ten baths a day the queen did take
+Without one reason why.
+Her legs, polished to shine
+Her bosom, scrubbed to glow
+Her hands, her hips, all fine,
+If ever they were shown.
+If there was war, she'd meet the foe
+Just sitting in the tub.
+At meeting's end, a peace we'd know
+That was the basic rub.
+A body such as hers would need
+Constant maintenance
+And those that saw her bathe took heed,
+As lust o'ertook their sense.
+In truth, it was a tactic sound,
+As is the story told.
+But success was somewhat less, we found,
+Once she had grown too old."	"女王モードは器量よし
+並ぶ者なきドカルファー
+唇はルビーのごとく艶やかで
+髪は束に結っていた
+よく笑い、よく怒る
+そんな事でも知られていたが
+彼女は玉座から統べずに
+風呂から統べた
+ドゥバーガが造った青銅の浴槽は
+女王専用の特別製
+1日10回入浴し
+誰も不思議に思わない
+足はピカピカに磨かれ
+胸はゴシゴシ洗うたびに膨らむ
+その手も、その唇も、すべてが美しいのに
+決して人前にはさらさない
+戦いのときも、女王は湯船の中で
+敵と対した
+戦いの最後に
+いつものゴシゴシが聞こえたら一安心
+彼女のような体は
+こまめなお手入れが必要だ
+彼女の入浴を見た者は警戒した
+欲望に心を奪われないように
+実のところ、彼女は誘っていたという話だ
+そのゴシゴシという音で
+だが、誘いに乗る者は減っていった
+彼女が年老いてしまったら"	"莫伊德后很俊俏，
+暗精灵中无人及。
+唇如红宝石闪耀，
+头发梳起成圆髻。
+出名之事有不少，
+音容笑貌脾气燥。
+统治不把王权靠。
+原来全都靠洗澡。
+铜桶迪维尔干造，
+王后每天把它用。
+一天十次把澡泡，
+其中缘由没人懂。
+双腿洗得会发光，
+双胸搓得亮闪闪。
+双手双唇还像样，
+如果有天能展览。
+战争来临遇敌人，
+就把澡盆拿来坐。
+会议结束就平稳，
+基本全靠手来搓。
+如有她这般身体，
+时时刻刻需维护。
+见她洗澡须留意，
+此欲意识管不住。
+确实听来有策略，
+正如故事里所讲。
+然而胜利渐欠缺，
+一旦岁月变太长。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"44913"	""	"skill:wrath"	"excluded"	"《리페리온의 찬가》 보충 자료
+
+
+리리아(Lyria)가 사랑하는 이
+
+리리아(Lyria)가 사랑하는 그녀를, 리리아(Lyria)는 지키고
+
+마음과 정신이 순수한 그는 그녀가 수호하네
+
+긍지 높은 이들 사이에 선 그녀는 축복받고
+
+갈라포르의 자격 없는 그는 문전박대당하리
+
+
+위대한 시대
+
+페이(Fae)가 우리 땅에 진군하던 때를 기억하라
+
+피 묻은 손으로 전쟁터를 누비던 그들을 기억하라
+
+그들이 사악하고 비열하더라도 기억하라
+
+그들은 리리아(Lyria) 분노의 도구였고, 줄곧 그렇게 운명지어졌음을
+
+
+축복받은 갈라포르
+
+갈라포르
+
+선하고 순수한 땅
+
+페이(Fae)는 이제 없고
+
+부랑자도 빈민도 없다
+
+전쟁이 끝난 뒤로
+
+갈라포르에는"	"《리페리온의 찬가》 보충 자료
+
+
+리리아(Lyria)가 사랑하는 이
+
+리리아(Lyria)가 사랑하는 그녀를, 리리아(Lyria)는 지키고
+
+마음과 정신이 순수한 그는 그녀가 수호하네
+
+긍지 높은 이들 사이에 선 그녀는 축복받고
+
+갈라포르의 자격 없는 그는 문전박대당하리
+
+
+위대한 시대
+
+페이(Fae)가 우리 땅에 진군하던 때를 기억하라
+
+피 묻은 손으로 전쟁터를 누비던 그들을 기억하라
+
+그들이 사악하고 비열하더라도 기억하라
+
+그들은 리리아(Lyria) 분노의 도구였고, 줄곧 그렇게 운명지어졌음을
+
+
+축복받은 갈라포르
+
+갈라포르
+
+선하고 순수한 땅
+
+페이(Fae)는 이제 없고
+
+부랑자도 빈민도 없다
+
+전쟁이 끝난 뒤로
+
+갈라포르에는"	"skill:wrath: English source: Supplementary to the Llyferion's Hymns
+
+
+Who Lyria Loves
+
+She who Lyria loves, Lyria protects
+
+He who is pure of heart and mind she guards
+
+She who stands among the proud is blessed
+
+But he who's not worthy from Galafor is barred
+
+
+A Mighty Time
+
+Remember when it was, when the Fae marched on our lands
+
+Remember how they marched in war, marched with bloody hands
+
+And know though they are wicked, and know though they are vile
+
+That they were tools of Lyria's wrath, and destined all the while
+
+
+Blessed Galafor
+
+Galafor
+
+Good and pure
+
+Fae no more
+
+No vagrant and no poor
+
+Not since the war
+
+In Galafor. Japanese source: リリフェリオン賛歌(追加分)
+
+
+リリアは愛
+
+リリアは愛、リリアは守り手
+
+無垢なる心を持つ者は庇護され
+
+誇りをもて戦う者は祝福を得るが
+
+ガラフォーの価値なき者は拒まれん
+
+
+強き時代
+
+思い出せ、フェイが我らの土地を行進した時代を
+
+思い出せ、フェイが血まみれの手で行軍した姿を
+
+そして知るのだ、彼らがいかに邪悪で汚れていようとも
+
+彼らはリリアの怒りの矛、全ては宿命の定めるままに
+
+
+祝福されしガラフォー
+
+ガラフォー
+
+善にして純粋
+
+フェイはもうおらず
+
+不幸や貧困も姿を消した
+
+戦争以来そうなった
+
+ガラフォーではそうなった. Chinese source: 补充了莉弗瑞昂的赞美诗
+
+
+莉里亚所爱之人
+
+莉里亚爱谁，便会保护谁
+
+她守护着拥有纯洁心灵的他
+
+她庇佑着站在骄傲之人当中的她
+
+但从加拉弗尔来的不值得的人是被禁止的
+
+
+伟大的时代
+
+曾记得何时，灵族在我们的土地上行军
+
+记得他们如何在战争中行进，双手沾满着鲜血行进
+
+知道虽然他们是邪恶的，知道虽然他们是卑鄙的
+
+他们是莉里亚的愤怒的工具，并且一直都是注定如此
+
+
+被祝福的加拉弗尔
+
+加拉弗尔
+
+美好且纯粹
+
+不再有灵族
+
+没有流浪汉，也没有穷人
+
+自从加拉弗尔
+
+爆发战争以来. Lyria's wrath is a figurative force in a hymn. Korean left unchanged unless the row is accepted."	"Supplementary to the Llyferion's Hymns
+
+
+Who Lyria Loves
+
+She who Lyria loves, Lyria protects
+
+He who is pure of heart and mind she guards
+
+She who stands among the proud is blessed
+
+But he who's not worthy from Galafor is barred
+
+
+A Mighty Time
+
+Remember when it was, when the Fae marched on our lands
+
+Remember how they marched in war, marched with bloody hands
+
+And know though they are wicked, and know though they are vile
+
+That they were tools of Lyria's wrath, and destined all the while
+
+
+Blessed Galafor
+
+Galafor
+
+Good and pure
+
+Fae no more
+
+No vagrant and no poor
+
+Not since the war
+
+In Galafor"	"リリフェリオン賛歌(追加分)
+
+
+リリアは愛
+
+リリアは愛、リリアは守り手
+
+無垢なる心を持つ者は庇護され
+
+誇りをもて戦う者は祝福を得るが
+
+ガラフォーの価値なき者は拒まれん
+
+
+強き時代
+
+思い出せ、フェイが我らの土地を行進した時代を
+
+思い出せ、フェイが血まみれの手で行軍した姿を
+
+そして知るのだ、彼らがいかに邪悪で汚れていようとも
+
+彼らはリリアの怒りの矛、全ては宿命の定めるままに
+
+
+祝福されしガラフォー
+
+ガラフォー
+
+善にして純粋
+
+フェイはもうおらず
+
+不幸や貧困も姿を消した
+
+戦争以来そうなった
+
+ガラフォーではそうなった"	"补充了莉弗瑞昂的赞美诗
+
+
+莉里亚所爱之人
+
+莉里亚爱谁，便会保护谁
+
+她守护着拥有纯洁心灵的他
+
+她庇佑着站在骄傲之人当中的她
+
+但从加拉弗尔来的不值得的人是被禁止的
+
+
+伟大的时代
+
+曾记得何时，灵族在我们的土地上行军
+
+记得他们如何在战争中行进，双手沾满着鲜血行进
+
+知道虽然他们是邪恶的，知道虽然他们是卑鄙的
+
+他们是莉里亚的愤怒的工具，并且一直都是注定如此
+
+
+被祝福的加拉弗尔
+
+加拉弗尔
+
+美好且纯粹
+
+不再有灵族
+
+没有流浪汉，也没有穷人
+
+自从加拉弗尔
+
+爆发战争以来"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"46371"	""	"skill:wrath"	"excluded"	"다크바리의 분노를 맛봐라!"	"다크바리의 분노를 맛봐라!"	"skill:wrath: English source: Feel Darkvari wrath!. Japanese source: ダークヴァリの怒りを知れ！. Chinese source: 感受达克瓦瑞的怒火吧！. Darkvari wrath is ordinary threatening dialogue. Korean left unchanged unless the row is accepted."	"Feel Darkvari wrath!"	"ダークヴァリの怒りを知れ！"	"感受达克瓦瑞的怒火吧！"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"48468"	""	"skill:wrath"	"excluded"	"베일소프는 조용한 마을이었다. 주민 대부분은 바라니(Varani)였고, 삶은 소박하고 평화로웠다.
+
+그러던 어느 날 아침, 마을 사람들이 식량 창고가 털리고 식량이 모조리 사라진 것을 발견하면서 그 평화는 깨졌다.
+
+마을 사람들은 여름 내내 땀 흘려 일하며 매년 왕실에 바칠 공물을 모았다. 공물은 바로 다음 날 아침에 바치기로 되어 있었다. 감시관은 범인을 찾으라며 마을 사람 모두를 숲으로 보냈다. 밤이 될 때까지 도둑을 잡지 못하자, 주민들은 풀이 죽은 채 집으로 돌아가 왕의 분노를 걱정하며 잠을 청했다.
+
+하지만 집에 도착해 보니 모든 집 문이 잠겨 있었다. 결국 그들은 마을 광장에서 노숙했다.
+
+다음 날 아침 눈을 뜨자, 노움만큼이나 키가 작은 알파르 소녀가 밝은 얼굴로 그들을 맞았다.
+
+“베일소프 주민 여러분, 안녕하세요. 저는 열두 손가락 에이슬링입니다. 여러분의 왕실 공물을 훔치고 집에 들어가지 못하게 한 것도 저예요. 둘 다 꽤 괜찮은 장난이지만, 제 솜씨는 아직 거기서 끝나지 않아요. 여러분 모두를 도둑으로 만드는 게 진짜 묘수죠.”
+
+주민들은 작은 소녀를 멍하니 바라봤지만, 누구도 입을 열지 못했다.
+
+“이제 제 말대로 하세요. 공물은 돌려드릴 테니 함께 성으로 가요. 그곳에서는 저를 여러분 중 한 명인 것처럼 소개하고, 제가 여러분 사이에 있다는 사실을 누구에게도 밝혀선 안 돼요. 제가 찾는 것을 손에 넣고 무사히 돌아오면 집을 돌려드리고 다시는 괴롭히지 않겠어요.”
+
+마을 사람들은 달리 방법이 없어 동의했다. 하슬렌보르그에 도착하자 경비병들이 ‘에이슬링’이라는 수배 도적을 아느냐고 물었지만, 주민 중 누구도 그녀를 밀고하지 않았다. 북적이는 성 안에 들어서자 에이슬링은 무리에서 슬그머니 빠져나갔다. 주민들 중에는 그녀를 밀고하고 싶은 이가 많았지만, 그녀의 계략에 가담한 일로 왕이 베일소프를 어떻게 볼지 두려워했다.
+
+작은 도적은 커다란 관을 뒤에 끌고 돌아왔다. 그녀가 말했다. “이 관 안에는 에릭 왕의 시신뿐 아니라 왕의 검과 보석도 모두 들어 있어요. 팔면 큰돈을 벌겠지만, 바레사르크의 야를에게 시신을 팔면 그보다 훨씬 큰돈을 받을 수 있죠.”
+
+마을 사람들은 더 큰 공포에 휩싸였다. 하지만 지금 사실을 털어놓으면 왕이 모두 죽일 거라고 확신했다. 성이 보이지 않는 곳까지 벗어난 에이슬링은 관을 가지고 떠났다. 떠나기 전, 약속대로 열쇠가 든 자루를 감시관에게 건넸다.
+
+에이슬링을 떨쳐 낸 주민들은 안도의 한숨을 내쉬고 평범한 일상으로 돌아갔다.
+
+몇 달 뒤 하슬렌보르그와 바레사르크 사이에 전쟁이 터졌다. 전쟁은 20년 동안 타올랐고, 베일소프는 가장 먼저 불타 사라진 마을이 되었다."	"베일소프는 조용한 마을이었다. 주민 대부분은 바라니(Varani)였고, 삶은 소박하고 평화로웠다.
+
+그러던 어느 날 아침, 마을 사람들이 식량 창고가 털리고 식량이 모조리 사라진 것을 발견하면서 그 평화는 깨졌다.
+
+마을 사람들은 여름 내내 땀 흘려 일하며 매년 왕실에 바칠 공물을 모았다. 공물은 바로 다음 날 아침에 바치기로 되어 있었다. 감시관은 범인을 찾으라며 마을 사람 모두를 숲으로 보냈다. 밤이 될 때까지 도둑을 잡지 못하자, 주민들은 풀이 죽은 채 집으로 돌아가 왕의 분노를 걱정하며 잠을 청했다.
+
+하지만 집에 도착해 보니 모든 집 문이 잠겨 있었다. 결국 그들은 마을 광장에서 노숙했다.
+
+다음 날 아침 눈을 뜨자, 노움만큼이나 키가 작은 알파르 소녀가 밝은 얼굴로 그들을 맞았다.
+
+“베일소프 주민 여러분, 안녕하세요. 저는 열두 손가락 에이슬링입니다. 여러분의 왕실 공물을 훔치고 집에 들어가지 못하게 한 것도 저예요. 둘 다 꽤 괜찮은 장난이지만, 제 솜씨는 아직 거기서 끝나지 않아요. 여러분 모두를 도둑으로 만드는 게 진짜 묘수죠.”
+
+주민들은 작은 소녀를 멍하니 바라봤지만, 누구도 입을 열지 못했다.
+
+“이제 제 말대로 하세요. 공물은 돌려드릴 테니 함께 성으로 가요. 그곳에서는 저를 여러분 중 한 명인 것처럼 소개하고, 제가 여러분 사이에 있다는 사실을 누구에게도 밝혀선 안 돼요. 제가 찾는 것을 손에 넣고 무사히 돌아오면 집을 돌려드리고 다시는 괴롭히지 않겠어요.”
+
+마을 사람들은 달리 방법이 없어 동의했다. 하슬렌보르그에 도착하자 경비병들이 ‘에이슬링’이라는 수배 도적을 아느냐고 물었지만, 주민 중 누구도 그녀를 밀고하지 않았다. 북적이는 성 안에 들어서자 에이슬링은 무리에서 슬그머니 빠져나갔다. 주민들 중에는 그녀를 밀고하고 싶은 이가 많았지만, 그녀의 계략에 가담한 일로 왕이 베일소프를 어떻게 볼지 두려워했다.
+
+작은 도적은 커다란 관을 뒤에 끌고 돌아왔다. 그녀가 말했다. “이 관 안에는 에릭 왕의 시신뿐 아니라 왕의 검과 보석도 모두 들어 있어요. 팔면 큰돈을 벌겠지만, 바레사르크의 야를에게 시신을 팔면 그보다 훨씬 큰돈을 받을 수 있죠.”
+
+마을 사람들은 더 큰 공포에 휩싸였다. 하지만 지금 사실을 털어놓으면 왕이 모두 죽일 거라고 확신했다. 성이 보이지 않는 곳까지 벗어난 에이슬링은 관을 가지고 떠났다. 떠나기 전, 약속대로 열쇠가 든 자루를 감시관에게 건넸다.
+
+에이슬링을 떨쳐 낸 주민들은 안도의 한숨을 내쉬고 평범한 일상으로 돌아갔다.
+
+몇 달 뒤 하슬렌보르그와 바레사르크 사이에 전쟁이 터졌다. 전쟁은 20년 동안 타올랐고, 베일소프는 가장 먼저 불타 사라진 마을이 되었다."	"skill:wrath: English source: Balethorpe was a quiet, mostly Varani, town. Life there was simple and peaceful.
+
+This quiet ended the morning the villagers awoke to discover that their food stores had been broken open and all their food taken.
+
+The village had toiled all summer to amass the food for the annual royal tribute and they were to present it the very next morning. The warden dispatched the entire town into the woods to find the villain. As night fell, no thief had been caught, so the villagers glumly returned home to rest and dread the King’s wrath.
+
+But when they arrived, they found the doors to all their homes locked. So they slept outside in the town square.
+
+When they awoke the next morning, a small alfar girl, no taller than a gnome, greeted them brightly.
+
+“Greetings citizens of Balethorpe, I am Aisling Twelve-Fingers and I have stolen your royal tribute and barred you from your homes. Fine tricks both, but not my greatest. That will be the trick of turning you all into thieves.""
+
+The villagers gawped at the tiny girl, but none could muster a sound.
+
+""You will do as I command. I will restore to you your tribute and we will go together to the castle. There you will present me as one of your own and dare not reveal to anyone that I am among you. If I am able to collect what I seek and return here safely, I will restore your homes to you and never trouble you again.
+
+The townsfolk, seeing no other choice, agreed. When they arrived at Haslenborg, the guards questioned them about a wanted bandit named “Aisling,” but no villager betrayed her. Once inside the bustling castle, Aisling stole away from the group. Many of the villagers ached to betray her but feared what the king would think of Balethorpe for their part in her ruse.
+
+When the tiny bandit returned, she was dragging behind her a large coffin. She announced: ""Inside of this coffin is not just the body of King Erik, but also all his sword and jewels. I will make a fortune selling them, but not nearly so much as I will get selling his body to the jarl of Baresark.”
+
+The townsfolk were more fearful than ever, but felt sure that the king would kill them all if they spoke up now. Once beyond the sight of the castle, Aisling took the coffin and departed, but not before handing a bag of keys to the warden as promised.
+
+Happy to be rid of Aisling, the townsfolk breathed a sigh of relief and returned to life as normal.
+
+A few months later, a war ignited between Haslenborg and Baresark that would blaze for twenty years. The town of Balethorpe was the first village to be burned to the ground.. Japanese source: ベイルソープは静かな村で、住民の大半はヴラニだった。そこでの暮らしは質素で平穏だった。
+
+その平穏が、とある朝に破られた。村人達が目ざめると食料庫がこじ開けられており、食料が残らず持ちされていたのだ。
+
+村をあげて夏の間中働き続け、毎年の王国への奉納分の食料を貯めていたのであり、納付の期日は翌朝に迫っていた。警務官が村民全員を動員して森で犯人探しをさせたものの、日が暮れても盗人は見つからず、村人たちは意気消沈して家に帰り、王の怒りを受ける覚悟を決めるしかなかった。
+
+しかし村に戻ってみると、家の扉が全て施錠されていて中に入れないため、広場で野宿をせざるを得なかった。
+
+翌朝目ざめてみると、ノームくらいの身長しかない小さなアルファーの少女が笑顔で彼らにあいさつした。
+
+""ベイルソープの皆さん、十二指のエイスリングと申します。皆さんの奉納分を盗み出し、自宅から閉め出した者です。どちらもなかなかの手際ですが、まだまだ序の口です。決め手は皆さんを盗人たらしめることです""
+
+村人たちは呆然とこの小さな少女に見とれていたが、誰も口を開けなかった。
+
+""皆さんには私の指示どおりにしていただきます。奉納分をお返ししますので、いっしょにお城に向かいましょう。そこで皆さんは私が皆さんの一員であるふりをしてください。決して私の正体をばらしたりなさらぬように。目当てのものを手に入れて無事にここに戻れた暁には、皆さんがご自宅に帰れるようにし、二度とご迷惑はおかけしません""
+
+村民たちは他にどうすることもできず、これに同意したのだった。ハスレンボーグに着くと番兵たちにエイスリングと名乗るお尋ね者の盗賊について聞かれたものの、村民の誰も彼女の存在を明かすことはしなかった。せわしい城内に入るとエイスリングは一行から離れた。村民の多くは彼女を裏切りたくてうずうずしていたものの、ベイルソープが村をあげてまやかしに協力したことを王にどのように思われるかを恐れ、踏み切れずにいた。
+
+小さな盗賊はやがて、大きな棺を引きずりながら戻って来てこういった。""この棺にはエリック王の遺体のみならず、その剣と装飾品一式が入っています。これらを売ることでひともうけするつもりですが、彼の遺体をバレサルクの首長に売りつければ、遥かに巨額の見返りが得られるでしょう""
+
+村民の不安はこれでさらに高まったものの、今白状しても王は全員を処刑するだろうとの確信が彼らを踏みとどまらせた。城から見えない位置まで来ると、エイスリングは約束どおりに警務官に多数の鍵が入った袋を渡すと、棺をもって去っていった。
+
+エイスリングがいなくなったことで安堵した村民たちは日頃の暮らしへと戻った。
+
+数ヵ月後、ハスレンボーグとバレサルクとの間に戦乱が勃発し、以後20年間に渡り戦火を撒き散らすことになり、ベイルソープ村は真っ先に焼き尽くされてしまったのだった。. Chinese source: 贝莱索普是一个安静的，大部分居民是瓦拉尼人的小镇。那里的生活简单而平静。
+
+这份平静在早晨结束了，村民们醒来后发现粮仓被撬开了，所有的食物都被拿走了。
+
+整个夏天，这个村子都在辛苦地收集食物，准备一年一度的皇家贡品，他们将在第二天早上送上贡品。督察员把全镇的人都派到树林里去找那个恶棍。夜幕降临，没有小偷被抓住，所以村民们闷闷不乐地回家休息，害怕国王的愤怒。
+
+但是当他们回到家的时候，他们发现所有的门都锁上了。所以他们睡在外面的城镇广场上。
+
+第二天早上，他们醒来时，一个个子不比侏儒高的精灵小女孩兴高采烈地跟他们打招呼。
+
+“你们好，贝莱索普的公民们，我是十二指爱丝琳，是我偷了你们的贡品，并且把你们关在家门外。两个诡计都很好，但都不是我的最高水平。我最高水平的诡计会把你们都变成盗贼。”
+
+村民们呆呆地看着那个小女孩，但谁也发不出一点声音。
+
+“你们会照我的话去做。我会把贡品还给你们，我们一起去城堡。在那里，你要把我介绍成你们的自己人，不敢向任何人透露我在你们之中。如果我能找到我要找的东西，并且安全返回这里，我将把家还给你们，永远不会再来打扰你们。
+
+镇民们看没有别的选择，就同意了。当他们到达哈斯伦堡时，卫兵询问他们见没见过一个名叫爱丝琳的通缉犯，但没有村民出卖她。一进入熙熙攘攘的城堡，爱丝琳就悄悄离开了队伍。许多村民都很想背叛她，但又害怕国王会因为他们参与了她的诡计而对贝莱索普有什么看法。
+
+那小强盗回来时，她正拖着一口大棺材。她宣布：“棺材里不仅有埃瑞克国王的尸体，还有他所有的剑和珠宝。我可以把它们卖掉，赚一大笔钱，但远远比不上把他的尸体卖给狂暴斗士的首领能赚到的钱。”
+
+镇民们更害怕了，但他们确信，如果他们现在敢说出来的话，国王会把他们都杀掉。一走出城堡，爱丝琳就带着棺材离开了，但按照约定，她还是把一袋钥匙交给了督察员。
+
+摆脱了爱丝琳，镇民们很高兴，松了一口气，恢复了正常的生活。
+
+几个月后，一场持续了二十年的战争在哈斯伦堡和狂暴斗士之间爆发了。贝莱索普镇是第一个被夷为平地的村庄。. The King's wrath means ordinary punishment in a story. Korean left unchanged unless the row is accepted."	"Balethorpe was a quiet, mostly Varani, town. Life there was simple and peaceful.
+
+This quiet ended the morning the villagers awoke to discover that their food stores had been broken open and all their food taken.
+
+The village had toiled all summer to amass the food for the annual royal tribute and they were to present it the very next morning. The warden dispatched the entire town into the woods to find the villain. As night fell, no thief had been caught, so the villagers glumly returned home to rest and dread the King’s wrath.
+
+But when they arrived, they found the doors to all their homes locked. So they slept outside in the town square.
+
+When they awoke the next morning, a small alfar girl, no taller than a gnome, greeted them brightly.
+
+“Greetings citizens of Balethorpe, I am Aisling Twelve-Fingers and I have stolen your royal tribute and barred you from your homes. Fine tricks both, but not my greatest. That will be the trick of turning you all into thieves.""
+
+The villagers gawped at the tiny girl, but none could muster a sound.
+
+""You will do as I command. I will restore to you your tribute and we will go together to the castle. There you will present me as one of your own and dare not reveal to anyone that I am among you. If I am able to collect what I seek and return here safely, I will restore your homes to you and never trouble you again.
+
+The townsfolk, seeing no other choice, agreed. When they arrived at Haslenborg, the guards questioned them about a wanted bandit named “Aisling,” but no villager betrayed her. Once inside the bustling castle, Aisling stole away from the group. Many of the villagers ached to betray her but feared what the king would think of Balethorpe for their part in her ruse.
+
+When the tiny bandit returned, she was dragging behind her a large coffin. She announced: ""Inside of this coffin is not just the body of King Erik, but also all his sword and jewels. I will make a fortune selling them, but not nearly so much as I will get selling his body to the jarl of Baresark.”
+
+The townsfolk were more fearful than ever, but felt sure that the king would kill them all if they spoke up now. Once beyond the sight of the castle, Aisling took the coffin and departed, but not before handing a bag of keys to the warden as promised.
+
+Happy to be rid of Aisling, the townsfolk breathed a sigh of relief and returned to life as normal.
+
+A few months later, a war ignited between Haslenborg and Baresark that would blaze for twenty years. The town of Balethorpe was the first village to be burned to the ground."	"ベイルソープは静かな村で、住民の大半はヴラニだった。そこでの暮らしは質素で平穏だった。
+
+その平穏が、とある朝に破られた。村人達が目ざめると食料庫がこじ開けられており、食料が残らず持ちされていたのだ。
+
+村をあげて夏の間中働き続け、毎年の王国への奉納分の食料を貯めていたのであり、納付の期日は翌朝に迫っていた。警務官が村民全員を動員して森で犯人探しをさせたものの、日が暮れても盗人は見つからず、村人たちは意気消沈して家に帰り、王の怒りを受ける覚悟を決めるしかなかった。
+
+しかし村に戻ってみると、家の扉が全て施錠されていて中に入れないため、広場で野宿をせざるを得なかった。
+
+翌朝目ざめてみると、ノームくらいの身長しかない小さなアルファーの少女が笑顔で彼らにあいさつした。
+
+""ベイルソープの皆さん、十二指のエイスリングと申します。皆さんの奉納分を盗み出し、自宅から閉め出した者です。どちらもなかなかの手際ですが、まだまだ序の口です。決め手は皆さんを盗人たらしめることです""
+
+村人たちは呆然とこの小さな少女に見とれていたが、誰も口を開けなかった。
+
+""皆さんには私の指示どおりにしていただきます。奉納分をお返ししますので、いっしょにお城に向かいましょう。そこで皆さんは私が皆さんの一員であるふりをしてください。決して私の正体をばらしたりなさらぬように。目当てのものを手に入れて無事にここに戻れた暁には、皆さんがご自宅に帰れるようにし、二度とご迷惑はおかけしません""
+
+村民たちは他にどうすることもできず、これに同意したのだった。ハスレンボーグに着くと番兵たちにエイスリングと名乗るお尋ね者の盗賊について聞かれたものの、村民の誰も彼女の存在を明かすことはしなかった。せわしい城内に入るとエイスリングは一行から離れた。村民の多くは彼女を裏切りたくてうずうずしていたものの、ベイルソープが村をあげてまやかしに協力したことを王にどのように思われるかを恐れ、踏み切れずにいた。
+
+小さな盗賊はやがて、大きな棺を引きずりながら戻って来てこういった。""この棺にはエリック王の遺体のみならず、その剣と装飾品一式が入っています。これらを売ることでひともうけするつもりですが、彼の遺体をバレサルクの首長に売りつければ、遥かに巨額の見返りが得られるでしょう""
+
+村民の不安はこれでさらに高まったものの、今白状しても王は全員を処刑するだろうとの確信が彼らを踏みとどまらせた。城から見えない位置まで来ると、エイスリングは約束どおりに警務官に多数の鍵が入った袋を渡すと、棺をもって去っていった。
+
+エイスリングがいなくなったことで安堵した村民たちは日頃の暮らしへと戻った。
+
+数ヵ月後、ハスレンボーグとバレサルクとの間に戦乱が勃発し、以後20年間に渡り戦火を撒き散らすことになり、ベイルソープ村は真っ先に焼き尽くされてしまったのだった。"	"贝莱索普是一个安静的，大部分居民是瓦拉尼人的小镇。那里的生活简单而平静。
+
+这份平静在早晨结束了，村民们醒来后发现粮仓被撬开了，所有的食物都被拿走了。
+
+整个夏天，这个村子都在辛苦地收集食物，准备一年一度的皇家贡品，他们将在第二天早上送上贡品。督察员把全镇的人都派到树林里去找那个恶棍。夜幕降临，没有小偷被抓住，所以村民们闷闷不乐地回家休息，害怕国王的愤怒。
+
+但是当他们回到家的时候，他们发现所有的门都锁上了。所以他们睡在外面的城镇广场上。
+
+第二天早上，他们醒来时，一个个子不比侏儒高的精灵小女孩兴高采烈地跟他们打招呼。
+
+“你们好，贝莱索普的公民们，我是十二指爱丝琳，是我偷了你们的贡品，并且把你们关在家门外。两个诡计都很好，但都不是我的最高水平。我最高水平的诡计会把你们都变成盗贼。”
+
+村民们呆呆地看着那个小女孩，但谁也发不出一点声音。
+
+“你们会照我的话去做。我会把贡品还给你们，我们一起去城堡。在那里，你要把我介绍成你们的自己人，不敢向任何人透露我在你们之中。如果我能找到我要找的东西，并且安全返回这里，我将把家还给你们，永远不会再来打扰你们。
+
+镇民们看没有别的选择，就同意了。当他们到达哈斯伦堡时，卫兵询问他们见没见过一个名叫爱丝琳的通缉犯，但没有村民出卖她。一进入熙熙攘攘的城堡，爱丝琳就悄悄离开了队伍。许多村民都很想背叛她，但又害怕国王会因为他们参与了她的诡计而对贝莱索普有什么看法。
+
+那小强盗回来时，她正拖着一口大棺材。她宣布：“棺材里不仅有埃瑞克国王的尸体，还有他所有的剑和珠宝。我可以把它们卖掉，赚一大笔钱，但远远比不上把他的尸体卖给狂暴斗士的首领能赚到的钱。”
+
+镇民们更害怕了，但他们确信，如果他们现在敢说出来的话，国王会把他们都杀掉。一走出城堡，爱丝琳就带着棺材离开了，但按照约定，她还是把一袋钥匙交给了督察员。
+
+摆脱了爱丝琳，镇民们很高兴，松了一口气，恢复了正常的生活。
+
+几个月后，一场持续了二十年的战争在哈斯伦堡和狂暴斗士之间爆发了。贝莱索普镇是第一个被夷为平地的村庄。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"52236"	""	"skill:wrath"	"excluded"	"내 분노를 받아라!"	"내 분노를 받아라!"	"skill:wrath: English source: Feel my wrath!. Japanese source: 我が怒りを受けよ！. Chinese source: 感受我的怒火！. First-person threat uses wrath as ordinary anger. Korean left unchanged unless the row is accepted."	"Feel my wrath!"	"我が怒りを受けよ！"	"感受我的怒火！"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"52534"	""	"skill:wrath"	"excluded"	"벨렌의 분노(Belen's Wrath)"	"벨렌의 분노(Belen's Wrath)"	"skill:wrath: English source: Belen's Wrath. Japanese source: ベイレンの怒り. Chinese source: 贝伦之怒. Belen's Wrath is a complete named title with a source-supported Korean parenthetical; retain it atomically. Korean left unchanged unless the row is accepted."	"Belen's Wrath"	"ベイレンの怒り"	"贝伦之怒"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"55208"	""	"skill:wrath"	"excluded"	"겨울의 가장 위대한 영웅들은 언제나 베일(Bhaile)의 창백한 가지에서 떨어졌네,
+예리한 피에트라(Pietra)부터 굶주린 훌건(Hoolgan)까지.
+투아사가 우리를 지배하려 들자,
+영웅들이 일어나 겨울을 지켰네.
+
+가드플로(Gadflow)는 도전을 비웃고,
+티르노크(Tirnoch)의 분노를 불러냈네.
+순식간에 가장 충성스러운 영웅들이 프리즈미어 첨탑에 꿰뚫렸지.
+우리의 영웅들은 사라져 다시는 태어나지 못했고,
+우리 민족은 가드플로(Gadflow)의 광기에 굴복했네."	"겨울의 가장 위대한 영웅들은 언제나 베일(Bhaile)의 창백한 가지에서 떨어졌네,
+예리한 피에트라(Pietra)부터 굶주린 훌건(Hoolgan)까지.
+투아사가 우리를 지배하려 들자,
+영웅들이 일어나 겨울을 지켰네.
+
+가드플로(Gadflow)는 도전을 비웃고,
+티르노크(Tirnoch)의 분노를 불러냈네.
+순식간에 가장 충성스러운 영웅들이 프리즈미어 첨탑에 꿰뚫렸지.
+우리의 영웅들은 사라져 다시는 태어나지 못했고,
+우리 민족은 가드플로(Gadflow)의 광기에 굴복했네."	"skill:wrath: English source: The greatest heroes of Winter have always fallen from the Bhaile's pale boughs,
+from Pietra the Keen to Hoolgan the Hungry.
+When the Tuatha claimed dominance over us,
+heroes arose to defend Winter.
+
+Gadflow laughed at their challenge,
+and called up Tirnoch's wrath.
+In a second, our most loyal heroes were impaled by Prismere spires.
+Our heroes were gone, never to be reborn ‒
+and our people succumbed to Gadflow's madness.. Japanese source: ウィンター・フェイの偉大な英雄達は全てベイルの青白い大枝から落ちた。
+勇敢なピエトラから空腹のフールガンまで。
+ツアサが支配しようとした時、
+ウィンター・フェイを守るために英雄達が現れた。
+
+ガドフローは挑戦を笑い、
+ティアノックの怒りを引き出した。
+あっという間に、最も誠実な英雄がプリスミアの槍で突き刺された。
+英雄はいなくなり、決して再誕しなかった。
+そしてガドフローの乱心に屈服した. Chinese source: 冬天最伟大的英雄总是会从巴哈勒苍白的树枝上坠落，
+从热切的彼得拉到饥肠辘辘的霍根。
+当图阿撒人声称统治我们时
+英雄们挺身而出保卫冬天。
+
+加德弗洛嘲笑他们的挑战，
+激起了提尔诺克的愤怒。
+在一秒钟内，我们最忠诚的英雄被赤晶尖塔刺穿了。
+我们的英雄死了，再也不会重生了——
+我们的人民屈服于加德弗洛的疯狂。. Tirnoch's wrath is a lore event, not the named ability. Korean left unchanged unless the row is accepted."	"The greatest heroes of Winter have always fallen from the Bhaile's pale boughs,
+from Pietra the Keen to Hoolgan the Hungry.
+When the Tuatha claimed dominance over us,
+heroes arose to defend Winter.
+
+Gadflow laughed at their challenge,
+and called up Tirnoch's wrath.
+In a second, our most loyal heroes were impaled by Prismere spires.
+Our heroes were gone, never to be reborn ‒
+and our people succumbed to Gadflow's madness."	"ウィンター・フェイの偉大な英雄達は全てベイルの青白い大枝から落ちた。
+勇敢なピエトラから空腹のフールガンまで。
+ツアサが支配しようとした時、
+ウィンター・フェイを守るために英雄達が現れた。
+
+ガドフローは挑戦を笑い、
+ティアノックの怒りを引き出した。
+あっという間に、最も誠実な英雄がプリスミアの槍で突き刺された。
+英雄はいなくなり、決して再誕しなかった。
+そしてガドフローの乱心に屈服した"	"冬天最伟大的英雄总是会从巴哈勒苍白的树枝上坠落，
+从热切的彼得拉到饥肠辘辘的霍根。
+当图阿撒人声称统治我们时
+英雄们挺身而出保卫冬天。
+
+加德弗洛嘲笑他们的挑战，
+激起了提尔诺克的愤怒。
+在一秒钟内，我们最忠诚的英雄被赤晶尖塔刺穿了。
+我们的英雄死了，再也不会重生了——
+我们的人民屈服于加德弗洛的疯狂。"	"{""skill:wrath"":""excluded""}"	"{""skill:wrath"":""needs-context""}"	"{""skill:wrath"":""Candidate hit from the English source; verify this occurrence in context.""}"

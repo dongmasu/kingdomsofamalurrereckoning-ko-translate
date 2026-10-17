@@ -1,0 +1,369 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"
+"base"	"6"	"11"	"place:brunuath"	"not-an-issue"	"브루누아스(Brunuath)"	"브루누아스(Brunuath)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. Japanese ブルヌアス and Chinese 布鲁诺斯 corroborate the Fae hollow where Osduin performs The Flowering. Retain the existing bilingual base spelling."	"Brunuath"	"ブルヌアス"	"布鲁诺斯"	"{""place:brunuath"":""not-an-issue""}"
+"base"	"40"	"11"	"place:ghennig"	"accepted"	"게닉(Ghennig)"	"게니그(Ghennig)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"Ghennig"	"ゲンニグ"	"格尼格"	"{""place:ghennig"":""accepted""}"
+"base"	"155"	"11"	"place:gloamthicket"	"not-an-issue"	"글룸시킷(Gloamthicket)"	"글룸시킷(Gloamthicket)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"Gloamthicket"	"繁茂の洞窟"	"黄昏密林"	"{""place:gloamthicket"":""not-an-issue""}"
+"base"	"180"	"11"	"place:ghennig"	"accepted"	"게닉(Ghennig)으로 가는 문"	"게니그(Ghennig)으로 가는 문"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"Door To Ghennig"	"ゲンニグへの扉"	"通往格尼格的门"	"{""place:ghennig"":""accepted""}"
+"base"	"191"	"11"	"place:mull-rane"	"not-an-issue"	"멀레인(Mull-Rane)"	"멀레인(Mull-Rane)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:39641/50270/57248 identifies ruins on the pilgrim's route, corroborated by Japanese ムル＝レイン/ムル・レイン and Chinese 穆尔莱恩. Reuse base:191's spelling without introducing another spacing/hyphen variant."	"Mull-Rane"	"ムル・レイン"	"穆尔莱恩"	"{""place:mull-rane"":""not-an-issue""}"
+"base"	"3875"	"11"	"place:ghennig"	"accepted"	"게닉(Ghennig) 탑 열쇠"	"게니그(Ghennig) 탑 열쇠"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"Ghennig Tower Key"	"ゲンニグ塔の鍵"	"格尼格高塔钥匙"	"{""place:ghennig"":""accepted""}"
+"default"	"1748"	""	"place:mull-rane"	"not-an-issue"	"멀레인(Mull-Rane) 계약을 완료했다."	"멀레인(Mull-Rane) 계약을 완료했다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:39641/50270/57248 identifies ruins on the pilgrim's route, corroborated by Japanese ムル＝レイン/ムル・レイン and Chinese 穆尔莱恩. Reuse base:191's spelling without introducing another spacing/hyphen variant."	"The Mull-Rane contract is done."	"ムル＝レインの仕事が終わった"	"穆尔莱恩的任务已完成。"	"{""place:mull-rane"":""not-an-issue""}"
+"default"	"2373"	""	"place:gloamthicket"	"not-an-issue"	"글룸시킷(Gloamthicket)에서 뭘 하면 되지?"	"글룸시킷(Gloamthicket)에서 뭘 하면 되지?"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"What do I do in Gloamthicket?"	"繁茂の洞窟で何をすればいい？"	"我在黄昏密林中做什么？"	"{""place:gloamthicket"":""not-an-issue""}"
+"default"	"3802"	""	"place:ghennig"	"accepted"	"그헤니그(Ghennig)에서 오드라(Audra) 만나기"	"게니그(Ghennig)에서 오드라(Audra) 만나기"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"Meet Audra in Ghennig"	"ゲンニグでオードラと会う"	"去格尼格找奥德拉"	"{""place:ghennig"":""accepted""}"
+"default"	"7943"	""	"place:brunuath"	"not-an-issue"	"좋아. 바라던 대로는 아니지만, 넌 운명이 허락한 것만 할 수 있었지. 하지만 보더릴(Boderill)이 떠났으니 너도 떠나야 해. 브루누아스(Brunuath)를 떠나."	"좋아. 바라던 대로는 아니지만, 넌 운명이 허락한 것만 할 수 있었지. 하지만 보더릴(Boderill)이 떠났으니 너도 떠나야 해. 브루누아스(Brunuath)를 떠나."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. Japanese ブルヌアス and Chinese 布鲁诺斯 corroborate the Fae hollow where Osduin performs The Flowering. Retain the existing bilingual base spelling."	"Very well. Although this was not as I hoped, you could only do what Fate permits. But, since Boderill should be gone, so should you: leave Brunuath."	"いいだろう。望んだ形ではないが、運命の許す限りのことをすればいい。ただ、ボーデリルと同じようにブルヌアスからは去ってくれ"	"很好。尽管这不是我所希望的，但是你只能做命运允许的事情。但是，既然波德里尔走了，那么你也该走了：离开布鲁诺斯。"	"{""place:brunuath"":""not-an-issue""}"
+"default"	"11245"	""	"place:brunuath"	"not-an-issue"	"크리살레(Chrysalae) 씨앗을 심었고, 오스두인(Osduin)은 '개화(The Flowering)' 의식을 시작했다. 그는 브루누아스(Brunuath)의 중앙 발판에 서라고 했다."	"크리살레(Chrysalae) 씨앗을 심었고, 오스두인(Osduin)은 '개화(The Flowering)' 의식을 시작했다. 그는 브루누아스(Brunuath)의 중앙 발판에 서라고 했다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. Japanese ブルヌアス and Chinese 布鲁诺斯 corroborate the Fae hollow where Osduin performs The Flowering. Retain the existing bilingual base spelling."	"The chrysalae seeds have been placed and Osduin has begun ""The Flowering"" ceremonial rite. He wants me to stand on the middle platform in Brunuath."	"クリサリーの種が置かれた。オスドゥインは""開花の儀""を開始した。ブルヌアスの真ん中の祭壇に立つよう指示された。"	"克里萨拉种子放置完毕，奥斯杜因开始进行“花期”仪式。他希望我站在布鲁诺斯中央的平台上。"	"{""place:brunuath"":""not-an-issue""}"
+"default"	"11719"	""	"place:gloamthicket"	"accepted"	"스콜리아 아르카나(Scholia Arcana)의 교관 텔레마코스 라스프(Telemachus Rasp)가 글룸씨켓(Gloamthicket)으로 가서 인근의 입문자를 노리는 밴션 여사제(Banshaen Priestess)를 죽여 달라고 했다. 괴물을 처치했고 텔레마코스(Telemachus)에게 감사를 받았다."	"스콜리아 아르카나(Scholia Arcana)의 교관 텔레마코스 라스프(Telemachus Rasp)가 글룸시킷(Gloamthicket)으로 가서 인근의 입문자를 노리는 밴션 여사제(Banshaen Priestess)를 죽여 달라고 했다. 괴물을 처치했고 텔레마코스(Telemachus)에게 감사를 받았다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"Telemachus Rasp, an instructor of the Scholia Arcana, asked me to travel to Gloamthicket and kill a Banshaen Priestess that had been preying on initiates in the area. I killed the monster and got Telemachus's thanks."	"アルカナ大学の指導者テレマコス・ラスプに、アカサの繁茂の洞窟へ行き、入門者を攻撃するバンシェン・プリーステスを殺すよう頼まれた。無事に怪物を殺し、テレマコスに感謝された。"	"忒勒马科斯·拉斯普，奥术学院的一位导师，请求我前往阿卡撒的黄昏密林，消灭一个以奥术学院启蒙者为猎物的蛇身鱼怪女祭司。我消灭了那只怪物，收获了忒勒马科斯的感谢。"	"{""place:gloamthicket"":""accepted""}"
+"default"	"14608"	""	"place:ghennig"	"accepted"	"언덕 위 요새인 게니그로 가야 해. 안에서 만나자."	"언덕 위 요새인 게니그(Ghennig)로 가야 해. 안에서 만나자."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"We need to go to Ghennig, the keep on the hill. Meet me inside."	"丘にある砦、ゲンニグに行かないと。中で会いましょう"	"我们需要去往山上的格尼格要塞。在里面见我。"	"{""place:ghennig"":""accepted""}"
+"default"	"14620"	""	"place:gloamthicket"	"accepted"	"글룸시커릿은 페이(Fae) 마법을 관찰하기에 더없이 좋은 곳이었어. 하지만 요즘은 입문자들이 돌아오지 않아. 뭔가가 그들을 노리고 있어."	"글룸시킷(Gloamthicket)은 페이(Fae) 마법을 관찰하기에 더없이 좋은 곳이었어. 하지만 요즘은 입문자들이 돌아오지 않아. 뭔가가 그들을 노리고 있어."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"Gloamthicket was an ideal spot for them to observe Fae magic. But lately, they haven't been returning. Something's preying on the initiates."	"フェイの魔法を観察するには繁茂の洞窟がうってつけだが、最近あそこに行かせた入門者たちが戻ってこない。何かに食われたか..."	"黄昏密林是他们观看灵族魔法的理想之地。但是最近他们还没回来。有什么东西在捕食启蒙者。"	"{""place:gloamthicket"":""accepted""}"
+"default"	"16052"	""	"place:gloamthicket"	"accepted"	"스콜리아 아르카나(Scholia Arcana)의 교관 텔레마코스 라스프(Telemachus Rasp)가 아카사(Acatha)의 글룸시케트(Gloamthicket)로 가서, 던전을 방문하는 스콜리아 아르카나(Scholia Arcana) 수련생들을 공격한 밴션 여사제(Banshaen Priestess)를 처치해 달라고 했다."	"스콜리아 아르카나(Scholia Arcana)의 교관 텔레마코스 라스프(Telemachus Rasp)가 아카사(Acatha)의 글룸시킷(Gloamthicket)으로 가서, 던전을 방문하는 스콜리아 아르카나(Scholia Arcana) 수련생들을 공격한 밴션 여사제(Banshaen Priestess)를 처치해 달라고 했다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"Telemachus Rasp, an instructor of the Scholia Arcana, has asked me to travel to Gloamthicket in Acatha and kill a Banshaen Priestess that has been attacking Scholia Arcana initiates that visit the dungeon."	"アルカナ大学の指導者テレマコス・ラスプに、アカサの繁茂の洞窟へ行き、洞窟を訪れるアルカナ大学の入門者を攻撃するバンシェン・プリーステスを殺すよう頼まれた。"	"忒勒马科斯·拉斯普，奥术学院的一位导师，请求我前往阿卡撒的黄昏密林，消灭一个曾对前往地牢的奥术学院启蒙者发起攻击的蛇身鱼怪女祭司。"	"{""place:gloamthicket"":""accepted""}"
+"default"	"17659"	""	"place:ghennig"	"accepted"	"서둘러, 게니그(Ghennig)에게 가야 해."	"서둘러, 게니그(Ghennig)에 가야 해."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"Quickly, we must get to Ghennig."	"早くゲンニグにたどり着かないと"	"快点，我们必须赶往格尼格。"	"{""place:ghennig"":""accepted""}"
+"default"	"18853"	""	"place:ghennig"	"not-an-issue"	"평범해 보이지만, 게니그(Ghennig)에 있는 무언가를 여는 열쇠임이 틀림없다."	"평범해 보이지만, 게니그(Ghennig)에 있는 무언가를 여는 열쇠임이 틀림없다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"A simple looking key that must open something in Ghennig."	"ゲンニグの何かを開けるシンプルな鍵。"	"一把看起来很简单的钥匙，一定能打开格尼格的什么东西。"	"{""place:ghennig"":""not-an-issue""}"
+"default"	"19840"	""	"place:brunuath"	"accepted"	"모은 크리살라 씨앗을 가지고 페이(Fae)의 브루누아스 동굴에 있는 오스두인(Osduin)을 만나야 한다. 그곳에서 페이(Fae)의 의식인 ‘개화’가 열릴 예정이다."	"모은 크리살라 씨앗을 가지고 페이(Fae)의 브루누아스(Brunuath) 동굴에 있는 오스두인(Osduin)을 만나야 한다. 그곳에서 페이(Fae)의 의식인 ‘개화’가 열릴 예정이다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. Japanese ブルヌアス and Chinese 布鲁诺斯 corroborate the Fae hollow where Osduin performs The Flowering. Retain the existing bilingual base spelling."	"I should meet Osduin in the Fae Hollow of Brunuath with the gathered chrysalae seeds. That is where the Fae ceremony ""The Flowering"" is to take place."	"フェイのブルヌアス洞穴にいるオスドゥインに、集めたクリサリーの種を渡そう。そこでフェイの儀式""開花""が行われる。"	"我应该带着收集到的克里萨拉种子前往布鲁诺斯的灵族洞穴与奥斯杜因碰面。灵族的“花期”仪式将在那里进行。"	"{""place:brunuath"":""accepted""}"
+"default"	"21090"	""	"place:brunuath"	"accepted"	"오스두인(Osduin)과 개화 의식을 돕기로 했다. 다음으로 브루누아스 의식실의 흙무더기마다 씨앗을 하나씩 올려놓아야 한다. 내가 씨앗을 놓는 동안 오스두인(Osduin)이 의식을 준비할 것이다."	"오스두인(Osduin)과 개화 의식을 돕기로 했다. 다음으로 브루누아스(Brunuath) 의식실의 흙무더기마다 씨앗을 하나씩 올려놓아야 한다. 내가 씨앗을 놓는 동안 오스두인(Osduin)이 의식을 준비할 것이다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. Japanese ブルヌアス and Chinese 布鲁诺斯 corroborate the Fae hollow where Osduin performs The Flowering. Retain the existing bilingual base spelling."	"I agreed to help Osduin with The Flowering. The next step is to place each seed atop one of the mounds in Brunuath's ceremonial chamber. Osduin will prepare for the ceremony while I place the seeds."	"""開花の儀""に協力するとオスドゥインに約束した。次はブルヌアスの儀式の部屋にある容器に、種を植えねばならない。種を植える間に、オスドゥインは儀式の準備をする。"	"我同意帮助奥斯杜因完成“花期”仪式。下一步是将种子放在布鲁诺斯仪式中间的土丘上。奥斯杜因会在我放置种子时着手准备。"	"{""place:brunuath"":""accepted""}"
+"default"	"21938"	""	"place:ghennig"	"not-an-issue"	"영웅, 부탁이 하나 더 있어. 마녀 기사 클레란(Witch Knight Khleran)이 언덕 위의 요새 게니그(Ghennig)에 숨어 있어."	"영웅, 부탁이 하나 더 있어. 마녀 기사 클레란(Witch Knight Khleran)이 언덕 위의 요새 게니그(Ghennig)에 숨어 있어."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"I have another favor to ask of you, hero. The Witch Knight Khleran is holed up in Ghennig, the keep on the hill."	"英雄にもう1つお願いがあるの。魔騎士クレランは、丘にある砦、ゲンニグにいる"	"英雄，我还想请你帮个忙。女巫骑士克勒兰躲藏在山上的格尼格要塞里。"	"{""place:ghennig"":""not-an-issue""}"
+"default"	"23595"	""	"place:ghennig"	"not-an-issue"	"게니그(Ghennig)를 떠나라"	"게니그(Ghennig)를 떠나라"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"Leave Ghennig"	"ゲンニグから出る"	"离开格尼格"	"{""place:ghennig"":""not-an-issue""}"
+"default"	"23855"	""	"place:gloamthicket"	"accepted"	"글룸티켓(Gloamthicket)의 움푹 팬 숲속으로 들어왔다. 텔레마코스 라스프(Telemachus Rasp)가 말한 밴션 여사제(Banshaen Priestess)를 찾아, 근처의 스콜리아 아르카나(Scholia Arcana) 입문자들을 더 공격하기 전에 처치해야 한다."	"글룸시킷(Gloamthicket)의 움푹 팬 숲속으로 들어왔다. 텔레마코스 라스프(Telemachus Rasp)가 말한 밴션 여사제(Banshaen Priestess)를 찾아, 근처의 스콜리아 아르카나(Scholia Arcana) 입문자들을 더 공격하기 전에 처치해야 한다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"I've entered the hollow of Gloamthicket. I should find the Banshaen Priestess that Telemachus Rasp told me about, and kill it before it attacks any more Scholia Arcana initiates in the area."	"繁茂の洞窟洞穴に侵入した。テレマコス・ラスプの言っていたバンシェン・プリーステスを見つけ、周囲にいるアルカナ大学の入門者がこれ以上攻撃される前に殺さねばならない。"	"我进入了黄昏密林。我应该找到忒勒马科斯·拉斯普提到的蛇身鱼怪女祭司，并在它向区域内其他奥术学院启蒙者发动攻击前将其消灭。"	"{""place:gloamthicket"":""accepted""}"
+"default"	"26877"	""	"place:gloamthicket"	"accepted"	"글룸씨켓에 무슨 문제가 있지?"	"글룸시킷(Gloamthicket)에 무슨 문제가 있지?"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"What's wrong with Gloamthicket?"	"繁茂の洞窟は大丈夫なのか？"	"黄昏密林怎么了？"	"{""place:gloamthicket"":""accepted""}"
+"default"	"26929"	""	"place:ghennig"	"accepted"	"마녀기사 클레란은 키닝에 있는 게니그 요새 꼭대기에 있다. 오드라 피란(Audra Firan)이 그를 처치하는 걸 도와 달라고 했다."	"마녀기사 클레란은 키닝에 있는 게니그(Ghennig) 요새 꼭대기에 있다. 오드라 피란(Audra Firan)이 그를 처치하는 걸 도와 달라고 했다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"The Witch Knight Khleran is at the top of Ghennig, a keep located in the Keening. Audra Firan has asked me to help her kill him."	"魔騎士クレランはキーニングのゲンニグ砦の最上階にいる。オードラ・フィランに戦いの手助けを頼まれた。"	"女巫骑士克勒兰位于格尼格顶端，这是哀恸之地中的一处堡垒。奥德拉·费兰请求我帮助她消灭他。"	"{""place:ghennig"":""accepted""}"
+"default"	"27454"	""	"place:mull-rane"	"accepted"	"도난당한 두루마리 - 멀-레인(Mull-Rane)"	"도난당한 두루마리 - 멀레인(Mull-Rane)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:39641/50270/57248 identifies ruins on the pilgrim's route, corroborated by Japanese ムル＝レイン/ムル・レイン and Chinese 穆尔莱恩. Reuse base:191's spelling without introducing another spacing/hyphen variant."	"Stolen Scrolls - Mull-Rane"	"盗まれた巻き物－ムル＝レイン"	"被盗卷轴 - 穆尔莱恩"	"{""place:mull-rane"":""accepted""}"
+"default"	"31424"	""	"place:ghennig"	"accepted"	"오드라 피란(Audra Firan)이 게닉 요새에서 만나자고 했다. 마녀 기사 클레란을 물리치는 일을 도와 달라고 한다."	"오드라 피란(Audra Firan)이 게니그(Ghennig) 요새에서 만나자고 했다. 마녀 기사 클레란을 물리치는 일을 도와 달라고 한다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"Audra Firan wants me to meet her in the keep of Ghennig. She wishes for me to help her defeat the Witch Knight Khleran."	"オードラ・フィランにゲンニグ砦で落ち合うよう頼まれた。一緒に魔騎士クレランを倒して欲しいという。"	"奥德拉·费兰希望我前往格尼格的堡垒与她见面。她希望我帮助她击败女巫骑士克勒兰。"	"{""place:ghennig"":""accepted""}"
+"default"	"33537"	""	"place:ghennig"	"accepted"	"게닉에서 오드라 만나기"	"게니그(Ghennig)에서 오드라 만나기"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"Meet Audra in Ghennig"	"ゲンニグでオードラと会う"	"去格尼格找奥德拉"	"{""place:ghennig"":""accepted""}"
+"default"	"34134"	""	"place:mull-rane"	"accepted"	"멀레인에서 잃어버린 두루마리를 모두 되찾았다. 계약 보수를 받으러 헬름가드 요새(Helmgard Keep)의 한리크에게 돌아가야겠다."	"멀레인(Mull-Rane)에서 잃어버린 두루마리를 모두 되찾았다. 계약 보수를 받으러 헬름가드 요새(Helmgard Keep)의 한리크에게 돌아가야겠다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:39641/50270/57248 identifies ruins on the pilgrim's route, corroborated by Japanese ムル＝レイン/ムル・レイン and Chinese 穆尔莱恩. Reuse base:191's spelling without introducing another spacing/hyphen variant."	"I have recovered all the lost scrolls from Mull-Rane. I should return to Hanrik in Helmgard Keep to collect the contract pay."	"ムル・レインで行方不明の巻き物を全て回収した。ヘルムガード砦のハンリクの元へ戻り、報奨金を手に入れよう。"	"我在穆尔莱恩找回了所有丢失的卷轴。我应该将它们交给赫尔姆加德要塞的汉里克换取契约报酬。"	"{""place:mull-rane"":""accepted""}"
+"default"	"34459"	""	"place:brunuath"	"accepted"	"브루누아스"	"브루누아스(Brunuath)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. Japanese ブルヌアス and Chinese 布鲁诺斯 corroborate the Fae hollow where Osduin performs The Flowering. Retain the existing bilingual base spelling."	"Brunuath"	"Brunuath"	"Brunuath"	"{""place:brunuath"":""accepted""}"
+"default"	"34731"	""	"place:brunuath"	"accepted"	"먼저 크리살라이 씨앗을 모아. 그런 다음 브루누아스에서 만나면 의식을 시작할 수 있어."	"먼저 크리살라이 씨앗을 모아. 그런 다음 브루누아스(Brunuath)에서 만나면 의식을 시작할 수 있어."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. Japanese ブルヌアス and Chinese 布鲁诺斯 corroborate the Fae hollow where Osduin performs The Flowering. Retain the existing bilingual base spelling."	"First, gather the chrysalae seeds. Then meet me in Brunuath, and the ceremony can commence."	"まずクリサリーの種を集めてくれ。ブルヌアスで私に会ってくれれば儀式を開始できる"	"首先，收集野生种子。然后在布鲁诺斯与我见面，仪式就可以开始了。"	"{""place:brunuath"":""accepted""}"
+"default"	"39334"	""	"place:gloamthicket"	"accepted"	"글룸시켓에 가 봤어? 그 괴물은 죽였고?"	"글룸시킷(Gloamthicket)에 가 봤어? 그 괴물은 죽였고?"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"Been to Gloamthicket yet? Killed that monster?"	"繁茂の洞窟へは？ あの怪物を倒したのか？"	"去过黄昏密林吗？杀了那个怪物吗？"	"{""place:gloamthicket"":""accepted""}"
+"default"	"39410"	""	"place:ghennig"	"accepted"	"영웅, 부탁 하나 더 하자. 마녀기사 클레란이 언덕 위 요새 게닉에 틀어박혀 있어."	"영웅, 부탁 하나 더 하자. 마녀기사 클레란이 언덕 위 요새 게니그(Ghennig)에 틀어박혀 있어."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"I have another favor to ask of you, hero. The Witch Knight Khleran is holed up in Ghennig, the keep on the hill."	"英雄にもう1つお願いがあるの。魔騎士クレランは、丘にある砦、ゲンニグにいる"	"英雄，我还想请你帮个忙。女巫骑士克勒兰躲藏在山上的格尼格要塞里。"	"{""place:ghennig"":""accepted""}"
+"default"	"39641"	""	"place:mull-rane"	"accepted"	"순례자의 두루마리들이 멀-레인 폐허로 가는 길에 코볼트(Kobold) 무리에게 도둑맞았다. 주인은 잃어버린 두루마리를 전부 되찾아 주면 보상하겠다고 한다."	"순례자의 두루마리들이 멀레인(Mull-Rane) 폐허로 가는 길에 코볼트(Kobold) 무리에게 도둑맞았다. 주인은 잃어버린 두루마리를 전부 되찾아 주면 보상하겠다고 한다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:39641/50270/57248 identifies ruins on the pilgrim's route, corroborated by Japanese ムル＝レイン/ムル・レイン and Chinese 穆尔莱恩. Reuse base:191's spelling without introducing another spacing/hyphen variant."	"A pilgrim's scrolls were stolen by a pack of kobolds en route to the Mull-Rane ruins. The owner will pay for the return of all of the lost scrolls."	"巡礼者の巻き物がムル・レインへの道中でコボルドの群れに盗まれた。全ての巻き物を取り返せば、持ち主が報酬を払うそうだ。"	"一位朝圣者的卷轴在前往穆尔莱恩遗迹的路上被一伙狗头人偷走了。失主愿意为找回这些卷轴支付一定的报酬。"	"{""place:mull-rane"":""accepted""}"
+"default"	"40863"	""	"place:gloamthicket"	"accepted"	"글룸시켓의 밴션 여사제(Banshaen Priestess)를 처치해, 그 동굴의 마법을 연구하러 오는 스콜리아 아르카나(Scholia Arcana) 입문자들을 안전하게 지켰다. 라시르(Rathir) 지부회관의 텔레마코스(Telemachus)에게 돌아가 알려야겠다."	"글룸시킷(Gloamthicket)의 밴션 여사제(Banshaen Priestess)를 처치해, 그 동굴의 마법을 연구하러 오는 스콜리아 아르카나(Scholia Arcana) 입문자들을 안전하게 지켰다. 라시르(Rathir) 지부회관의 텔레마코스(Telemachus)에게 돌아가 알려야겠다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"I've killed the Banshaen Priestess of Gloamthicket, ensuring the safety of the Scholia Arcana Initiates that come to the hollow to study its magics. I should return to Telemachus in the Rathir Chapter House and let him know."	"繁茂の洞窟のバンシェン・プリーステスを殺し、洞穴で魔法の練習をするアルカナ大学の入門者の安全を確保した。ラシーア支部へ戻り、テレマコスに知らせよう。"	"我杀死了黄昏密林中的蛇身鱼怪女祭司，确保了来到这里进行研究的奥术学院启蒙者的人身安全。我应该回拉瑟里的礼拜堂向忒勒马科斯复命。"	"{""place:gloamthicket"":""accepted""}"
+"default"	"42351"	""	"place:gloamthicket"	"accepted"	"입문자들을 아카사(Acatha)의 페이(Fae) 동굴인 글룸시켓으로 보내는 것도 수련 과정의 일부야. 그곳에서 제자들은 페이(Fae)의 마법을 직접 경험하지."	"입문자들을 아카사(Acatha)의 페이(Fae) 동굴인 글룸시킷(Gloamthicket)으로 보내는 것도 수련 과정의 일부야. 그곳에서 제자들은 페이(Fae)의 마법을 직접 경험하지."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"Part of training involves sending initiates to Gloamthicket, a Fae hollow in Acatha. It gives my pupils first-hand experience with Fae magics."	"訓練の一環として入門者たちをアカサの""繁茂の洞窟""に送っているんだ。あそこならフェイの魔法に肌身で触れることができるからな"	"训练的一部分涉及向黄昏密林——一处阿卡撒的灵族洞穴——派遣启蒙者。它为我的学生提供了使用灵族魔法的一手经验。"	"{""place:gloamthicket"":""accepted""}"
+"default"	"42896"	""	"place:gloamthicket"	"accepted"	"글룸시켓으로 이동"	"글룸시킷(Gloamthicket)으로 이동"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"Go to Gloamthicket"	"繁茂の洞窟に行く"	"前往黄昏密林"	"{""place:gloamthicket"":""accepted""}"
+"default"	"45515"	""	"place:ghennig"	"not-an-issue"	"게니그(Ghennig)"	"게니그(Ghennig)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"Ghennig"	"ゲンニグ"	"格尼格"	"{""place:ghennig"":""not-an-issue""}"
+"default"	"45550"	""	"place:brunuath"	"not-an-issue"	"브루누아스(Brunuath)"	"브루누아스(Brunuath)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. Japanese ブルヌアス and Chinese 布鲁诺斯 corroborate the Fae hollow where Osduin performs The Flowering. Retain the existing bilingual base spelling."	"Brunuath"	"ブルヌアス"	"布鲁诺斯"	"{""place:brunuath"":""not-an-issue""}"
+"default"	"47742"	""	"place:brunuath"	"accepted"	"다 모으면 브루누아스 골짜기에서 날 찾아."	"다 모으면 브루누아스(Brunuath) 골짜기에서 날 찾아."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. Japanese ブルヌアス and Chinese 布鲁诺斯 corroborate the Fae hollow where Osduin performs The Flowering. Retain the existing bilingual base spelling."	"When you have gathered them, seek me in Brunuath Hollow."	"集め終わったら、ブルヌアス洞穴に会いに来てくれ"	"收集完成后，来布鲁诺斯洞穴找我。"	"{""place:brunuath"":""accepted""}"
+"default"	"49697"	""	"place:gloamthicket"	"accepted"	"황혼 덤불숲"	"글룸시킷(Gloamthicket)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"Gloamthicket"	"繁茂の洞窟"	"黄昏密林"	"{""place:gloamthicket"":""accepted""}"
+"default"	"50270"	""	"place:mull-rane"	"accepted"	"순례자의 두루마리들이 물레인 유적으로 가던 길에 코볼트(Kobold) 무리에게 도둑맞았다. 주인은 두루마리를 되찾기 위해 후한 보상을 지급했다."	"순례자의 두루마리들이 멀레인(Mull-Rane) 유적으로 가던 길에 코볼트(Kobold) 무리에게 도둑맞았다. 주인은 두루마리를 되찾기 위해 후한 보상을 지급했다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:39641/50270/57248 identifies ruins on the pilgrim's route, corroborated by Japanese ムル＝レイン/ムル・レイン and Chinese 穆尔莱恩. Reuse base:191's spelling without introducing another spacing/hyphen variant."	"A pilgrim's scrolls were stolen by a pack of kobolds en route to the Mull-Rane ruins. The owner has paid handsomely for their return."	"巡礼者の巻き物がムル＝レインへの道中でコボルドの群れに盗まれた。巻き物を持ち主に返すと、たっぷり報酬をくれた。"	"一位朝圣者的卷轴在前往穆尔莱恩遗迹的路上被一伙狗头人偷走了。失而复得的主人支付了丰厚的报酬。"	"{""place:mull-rane"":""accepted""}"
+"default"	"51716"	""	"place:mull-rane"	"accepted"	"멀 레인(Mull-Rane)"	"멀레인(Mull-Rane)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:39641/50270/57248 identifies ruins on the pilgrim's route, corroborated by Japanese ムル＝レイン/ムル・レイン and Chinese 穆尔莱恩. Reuse base:191's spelling without introducing another spacing/hyphen variant."	"Mull-Rane"	"ムル＝レイン"	"穆尔莱恩"	"{""place:mull-rane"":""accepted""}"
+"default"	"53460"	""	"place:gloamthicket"	"accepted"	"글룸시켓(Gloamthicket)"	"글룸시킷(Gloamthicket)"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:42351 identifies a Fae hollow in Acatha visited by Scholia Arcana initiates; Japanese 繁茂の洞窟 and Chinese 黄昏密林 corroborate. Reuse base:155's spelling rather than mixing 글룸씨켓/글룸시켓/글룸시케트/글룸티켓/글룸시커릿/황혼 덤불숲."	"Gloamthicket"	"繁茂の洞窟"	"黄昏密林"	"{""place:gloamthicket"":""accepted""}"
+"default"	"55435"	""	"place:ghennig"	"not-an-issue"	"게니그(Ghennig)의 마녀 기사"	"게니그(Ghennig)의 마녀 기사"	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"Witch Knight of Ghennig"	"ゲンニグの魔騎士"	"格尼格的女巫骑士"	"{""place:ghennig"":""not-an-issue""}"
+"default"	"57248"	""	"place:mull-rane"	"not-an-issue"	"학구적인 순례자 한 명이 멀레인(Mull-Rane) 유적 근처를 지나가다 코볼트(Kobold) 무리에게 잔인하게 습격당했다. 로포쿠(Lopoku)의 가호로 무사히 빠져나왔지만, 빼앗긴 두루마리 다섯 권을 되찾고 싶어 한다. 돌려받으면 보상하겠다고 한다."	"학구적인 순례자 한 명이 멀레인(Mull-Rane) 유적 근처를 지나가다 코볼트(Kobold) 무리에게 잔인하게 습격당했다. 로포쿠(Lopoku)의 가호로 무사히 빠져나왔지만, 빼앗긴 두루마리 다섯 권을 되찾고 싶어 한다. 돌려받으면 보상하겠다고 한다."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:39641/50270/57248 identifies ruins on the pilgrim's route, corroborated by Japanese ムル＝レイン/ムル・レイン and Chinese 穆尔莱恩. Reuse base:191's spelling without introducing another spacing/hyphen variant."	"While one scholarly pilgrim was making her way by the ruins of Mull-Rane, she was savagely attacked by a band of Kobolds. While she thanks Lupoku she escaped in one piece, she deeply regrets the five scrolls they took and will pay for their return."	"ムル＝レインの遺跡の近くを通った、学者でもある女性の巡礼者が凶暴なコボルドの一団に襲われ、ルポクのご加護で無事に逃げ延びたものの、巻き物5枚を奪われてしまった。大変痛手に感じており、奪還してくれる者には報酬を贈ると言っている。"	"一名好学的朝圣者在前往穆尔莱恩遗迹的途中，遭到了一伙狗头人的残忍袭击。她感谢鲁珀库神保佑她全身而退，同时也为被抢走五张卷轴而后悔不已，如果他们再回来，她将付出代价。"	"{""place:mull-rane"":""not-an-issue""}"
+"default"	"62893"	""	"place:ghennig"	"not-an-issue"	"오드라 피란(Audra Firan)이 마녀 기사 클레란을 쓰러뜨리는 걸 도왔어. 그는 한때 게니그(Ghennig)의 성채에 살았던 악명 높은 투아사(Tuatha) 장군이었지."	"오드라 피란(Audra Firan)이 마녀 기사 클레란을 쓰러뜨리는 걸 도왔어. 그는 한때 게니그(Ghennig)의 성채에 살았던 악명 높은 투아사(Tuatha) 장군이었지."	"D-21351: Cross-check all affix/base/default source rows for four independently
+named places, using English for identity and Japanese/Chinese to
+corroborate the scene. Normalize only the reviewed place-name spans;
+preserve unrelated people, quests, and creature wording. The official
+Korean manual's opening setting and quest sections provide world and
+exploration context, not exact spellings for these four local sites.
+Apply bilingual canonical forms and repair only directly affected
+location/directional particles. No PAK-derived evidence is used. English default:14608/21938/26929 identifies a keep on a hill, corroborated by Japanese ゲンニグ and Chinese 格尼格. Normalize 게닉/그헤니그 to 게니그 and correct the person-directed 에게 at default:17659 to location-directed 에."	"I have helped Audra Firan defeat the Witch Knight Khleran, who once resided in the keep of Ghennig. He was a notorious Tuatha general."	"オードラ・フィランが魔騎士クレランを倒すのを助けた。クレランはかつてゲンニグ砦に住んでいた、悪名高いツアサの将軍だった。"	"我帮助奥德拉·费兰消灭了格尼格堡垒中的女巫骑士克勒兰。他是一位臭名昭著的图阿撒将军。"	"{""place:ghennig"":""not-an-issue""}"

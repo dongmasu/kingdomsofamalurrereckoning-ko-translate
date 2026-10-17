@@ -3,7 +3,7 @@
 ## 한국어
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261014105405/KingdomsOfAmalur_Korean_zh_cn_20261014105405.zip)
+- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261017193017/KingdomsOfAmalur_Korean_zh_cn_20261017193017.zip)
 
 ### 작업 배경과 감사
 
@@ -23,7 +23,9 @@ CSV에서는 메뉴와 대사가 한데 섞여 있고, 이어지는 대사도 �
 
 `Tipo_Variante`는 각 문자열에 붙은 variant 코드입니다. 성별이나 단·복수 같은 문법 구분을 나타내는 것으로 추정되지만, 게임 내 선택 규칙과 코드의 정확한 의미는 확인되지 않았습니다. 한국어에서는 이런 문법 구분이 대부분 드러나지 않으므로 같은 번역을 여러 variant에 사용하는 경우가 있습니다.
 
-아이템 이름에 붙는 영어 `of ...` 형태는 이 프로젝트의 조합 표기에서 `반지 *얼음 방패*`처럼 별표로 감싼 수식어로 나타냅니다. 동사와 목적어가 조합되는 경우에는 `폭파하기:`처럼 콜론을 붙여 뒤에 목적어가 이어짐을 표시합니다. 이는 프로젝트 안에서 조합을 구분하기 위한 표기 관례입니다. 인명·지명·고유명사는 대체로 한글과 원문을 함께 적지만, 일부는 한글만 표기합니다.
+아이템 이름에 붙는 영어 `of ...` 형태는 이 프로젝트의 조합 표기에서 `반지 *얼음 방패*`처럼 별표로 감싼 수식어로 나타냅니다. 동사와 목적어가 조합되는 경우에는 `폭파하기:`처럼 콜론을 붙여 뒤에 목적어가 이어짐을 표시합니다. 이는 프로젝트 안에서 조합을 구분하기 위한 표기 관례입니다.
+
+고유명사는 영어 원문을 기준으로 [고유명사 사전](work/zh_cn/audit/proper-name-glossary.tsv)을 구축하여 통일하는 작업을 진행 중입니다. 인명·지명뿐 아니라 세력·조직·종족·신·몬스터·스킬·퀘스트·고유 아이템·작품(책·노래·발라드 등), 고유 직책·칭호·행사, 고유한 세계관·우주론 개념도 포함하며, 확정한 이름은 `한글(English)`로 표기합니다. 복합 인명도 각 구성 요소와 별도로 하나의 고유명사 항목으로 관리하며, 전체 이름을 `브론웬 센(Bronwen Senn)`처럼 한 번만 병기합니다. `브론웬(Bronwen) 센(Senn)`처럼 구성 요소마다 영문을 중복 병기하지 않습니다. `affix`, `base`, `default` 세 파일의 출현 문맥을 함께 확인하고, 공식 한글 설명서의 용어와 일본어·중국어를 교차 검증합니다. 같은 영어 단어라도 일반어·동명이인은 구분하며, 근거가 불충분한 항목은 임의로 바꾸지 않습니다. [출현 후보 및 판정 목록](work/zh_cn/audit/proper-name-occurrences.tsv)과 [검토 기록](work/zh_cn/audit/README.md)을 남깁니다. 현재 사전과 후보 목록은 구축·검토 중이며 전체 고유명사 표기 통일이 끝난 것은 아닙니다.
 
 특히 `_base`의 영어 원문이 대문자 `The`로 시작하면 단순한 정관사로만 처리하지 말고, 아이템명·퀘스트명 등 제목이나 고유명사일 가능성을 먼저 살핍니다. 문맥에 맞는 한국어 제목으로 옮기고, 이름을 식별하기 쉽도록 `한글 (The English Name)` 형식의 원문 병기도 검토합니다. 다만 `The`로 시작한다는 이유만으로 무조건 고유명사라고 단정하지 말고 실제 문맥을 확인합니다.
 
@@ -134,7 +136,7 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 ## English
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261014105405/KingdomsOfAmalur_Korean_zh_cn_20261014105405.zip)
+- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261017193017/KingdomsOfAmalur_Korean_zh_cn_20261017193017.zip)
 
 ### Project Background and Acknowledgements
 
@@ -154,7 +156,9 @@ The CSV mixes menu strings and dialogue, and lines from the same conversation ca
 
 `Tipo_Variante` is the variant code attached to each string. It may represent grammatical distinctions such as gender or singular/plural, but the exact code meanings and in-game selection rules have not been confirmed. Korean usually does not express these distinctions in the same way, so the same Korean text is sometimes used across multiple variants.
 
-For item names containing English `of ...` constructions, this project's composition convention marks the modifier with asterisks, as in `반지 *얼음 방패*`. When a verb is combined with an object, a colon marks the verb portion, as in `폭파하기:`. These are project-specific conventions for distinguishing composed strings. Names of people, places, and other proper nouns are generally written in Hangul with the original spelling in parentheses, though some appear in Hangul only.
+For item names containing English `of ...` constructions, this project's composition convention marks the modifier with asterisks, as in `반지 *얼음 방패*`. When a verb is combined with an object, a colon marks the verb portion, as in `폭파하기:`. These are project-specific conventions for distinguishing composed strings.
+
+An [English-indexed proper-name glossary](work/zh_cn/audit/proper-name-glossary.tsv) standardizes people, places, factions, organizations, peoples/species, deities, monsters, skills, quests, unique named items, named works such as books, songs, and ballads, proper offices/titles and events, and distinctive world-lore or cosmological concepts as `한글(English)`. Full compound names are maintained as distinct entries alongside their components and paired once as a complete name, for example `브론웬 센(Bronwen Senn)`, not component-by-component as `브론웬(Bronwen) 센(Senn)`. Registered occurrences are reviewed across `affix`, `base`, and `default`, using the official Korean manual and Japanese/Chinese corroboration. The [candidate occurrence/disposition index](work/zh_cn/audit/proper-name-occurrences.tsv) distinguishes reviewed names, contextual exclusions, and evidence-limited holds; the latest checkpoint in the [review records](work/zh_cn/audit/README.md) supplies current counts and CSV hashes. The separate heuristic discovery list includes ordinary words and title fragments, not just verified proper names. Overall proper-name discovery and consistency are not claimed complete while this review continues. See the [current validation record](work/zh_cn/audit/proper-name-continuation-validation-20261015.md).
 
 For `_base` entries whose English source begins with capitalized `The`, do not treat it as only a definite article by default. First consider whether the string is an item name, quest name, or other title/proper name. Translate it as a natural Korean title in context, and consider retaining the source as `Korean (The English Name)` to make the name traceable. The initial `The` is a cue to inspect context, not proof that every such string is a proper noun.
 

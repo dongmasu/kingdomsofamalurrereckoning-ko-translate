@@ -1,0 +1,438 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"base"	"1463"	"11"	"resource:edelweiss"	"accepted"	"에델바이스"	"에델바이스(Edelweiss)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"Edelweiss"	"エーデルワイス"	"雪绒花"	"{""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"3687"	"11"	"resource:tindertwig"	"not-an-issue"	"틴더트윅(Tindertwig)"	"틴더트윅(Tindertwig)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"Tindertwig"	"ティンダートウィッグ"	"火柴枝"	"{""resource:tindertwig"":""not-an-issue""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"3840"	"11"	"resource:edelweiss"	"accepted"	"에델바이스"	"에델바이스(Edelweiss)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"Edelweiss"	"エーデルワイス"	"雪绒花"	"{""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"4193"	"11"	"resource:tindertwig"	"not-an-issue"	"틴더트윅(Tindertwig)"	"틴더트윅(Tindertwig)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"Tindertwig"	"ティンダートウィッグ"	"火柴枝"	"{""resource:tindertwig"":""not-an-issue""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"364"	""	"resource:tindertwig"	"not-an-issue"	"이성에게 더 설득력 있게 말할 수 있게 해 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+스카우드 나무껍질(Scarwood Bark) (1)
+틴더트윅(Tindertwig) (1)
+하늘꽃(Sky Blossom) (1)"	"이성에게 더 설득력 있게 말할 수 있게 해 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+스카우드 나무껍질(Scarwood Bark) (1)
+틴더트윅(Tindertwig) (1)
+하늘꽃(Sky Blossom) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"A potion to increase your persuasive skills with the opposite sex can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarwood Bark (1)
+Tindertwig (1)
+Sky Blossom (1)"	"以下の素材を錬金術台で使えば、異性の相手に対する説得力を強化するポーションを調合できる
+
+スカーウッドの樹皮(1)
+ティンダートウィッグ(1)
+スカイブロッサム(1)"	"一种能提高你对异性的口才技能的药水，可在炼金工作台使用下列试剂合成：
+
+伤痕之木树皮（1）
+火柴枝（1）
+天空之花（1）"	"{""resource:tindertwig"":""not-an-issue""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"714"	""	"resource:edelweiss|resource:tindertwig"	"not-an-issue"	"피격 시 적을 75% 확률로 불태우는 효과가 잠시 지속되는 물약.
+
+틴더트윅(Tindertwig) (3)
+에델바이스(Edelweiss) (2)
+바닷아마(Seaflax) (1)
+운명의 정수(Essence of Fate) (1)"	"피격 시 적을 75% 확률로 불태우는 효과가 잠시 지속되는 물약.
+
+틴더트윅(Tindertwig) (3)
+에델바이스(Edelweiss) (2)
+바닷아마(Seaflax) (1)
+운명의 정수(Essence of Fate) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"A potion to temporarily give a 75% chance to Burn enemies when attacked.
+
+Tindertwig (3)
+Edelweiss (2)
+Seaflax (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、攻撃してきた敵を75%の確率で炎上させる効果があるポーションを調合できる
+
+ティンダートウィッグ(3)
+エーデルワイス(2)
+シーフラックス(1)
+フェイトエッセンス(1)"	"一种能暂时使你在受到攻击时有75%的几率灼烧敌人的药水。
+
+火柴枝（3）
+雪绒花（2）
+海亚麻（1）
+命运精华（1）"	"{""resource:tindertwig"":""not-an-issue"",""resource:edelweiss"":""not-an-issue""}"	"{""resource:edelweiss"":""needs-context"",""resource:tindertwig"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context."",""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"3996"	""	"resource:tindertwig"	"not-an-issue"	"대장장이 기술을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트윅(Tindertwig) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"대장장이 기술을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트윅(Tindertwig) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"A potion to temporarily increase your Blacksmithing skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、鍛冶スキルを一時的に上昇させるポーションを調合できる
+
+ティンダートウィッグ(2)
+スカイブロッサム(2)
+ブラッドルート(2)
+フェイトエッセンス(1)"	"一种可以暂时提高你的锻造技能的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:tindertwig"":""not-an-issue""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"8159"	""	"resource:tindertwig"	"accepted"	"그러니까 불 물약이 필요해. 틴더트위그(Tindertwig)와 스카우드 나무껍질(Scarwood Bark)이야. 글렌다라 숲(Glendara Wood)에 있지만, 나 같은 사람에겐 너무 위험한 곳이지."	"그러니까 불 물약이 필요해. 틴더트윅(Tindertwig)와 스카우드 나무껍질(Scarwood Bark)이야. 글렌다라 숲(Glendara Wood)에 있지만, 나 같은 사람에겐 너무 위험한 곳이지."	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"So it's fire potions. Tindertwig and Scarwood Bark. They're out in Glendara Wood, but the Wood's been far too dangerous for the likes of me."	"だから炎攻撃薬が要る。ティンダートウィッグとスカーウッドの樹皮。グレンダーラの森にあるんだが、あそこは私のような者にはあまりに危険な場所だ"	"所以说就是火焰药水。火柴枝和伤痕之木树皮。它们就在格伦达拉森林里，但是那树林对我这样的人来说太危险了。"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"8629"	""	"resource:tindertwig"	"accepted"	"틴더트위그는 이름과 달리 불이 잘 붙지 않고 다른 식물보다 수분을 오래 머금는다. 잘 말려 태우면 그 재로 물약에 {*3화염}의 정수를 부여할 수 있다."	"틴더트윅(Tindertwig)는 이름과 달리 불이 잘 붙지 않고 다른 식물보다 수분을 오래 머금는다. 잘 말려 태우면 그 재로 물약에 {*3화염}의 정수를 부여할 수 있다."	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"Tindertwig is, rather ironically, fairly difficult to light, maintaining its moisture far longer than most plants. If carefully dried and burned, however, its ash can grant the pure essence of {*3Fire} to a potion."	"""火口の小枝""を意味するティンダートウィッグは他の植物よりも遥かに長く水分を保持する。その名に反して火をつけにくい部類に入るが、入念に乾燥させて燃やせば、灰を使ってポーションに{*3炎}のエッセンスを付与できる。"	"十分讽刺的是，火柴枝非常难以点燃，它的储水性比大部分植物都要强。不过如果经过精心的干燥和燃烧，它的灰烬就可以赋予药剂纯净的{*3火焰}精华。"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"9813"	""	"resource:edelweiss"	"accepted"	"헤카티르(Hecatyr)는 세 어머니, 곧 곰과 늑대와 암탉이다. 그녀는 관문의 아버지다. 헤카티르(Hecatyr)는 비전의 장막(Arcane Veil) 곁에서 네가 지나가는 길을 지켜보고 태피스트리의 문턱을 수호한다. 그녀는 산 자들을 죽은 자들에게 인도했다. 그녀의 비밀은 최초의 비밀이었고, 그녀의 길은 흙과 뼈로 표시되어 있다.
+
+태고에는 용감한 자들이 피와 에델바이스를 제물로 바쳐 헤카티르(Hecatyr)를 소환했다. 그녀는 그 의식을 거스를 수 없었다. 영원한 관문을 떠나라는 강요를 받을 때마다 큰 재앙이 뒤따랐다. 바다가 말라붙고, 화산이 분출하고, 대낮이 어두워지거나 황혼이 끝내 찾아오지 않았다. 모든 재앙이 위대한 순환(Great Cycle) 자체를 위협했기에 헤카티르(Hecatyr)는 이 마법의 속박에서 벗어나고 싶어 했다.
+
+이 마법은 죽음의 지배 아래 있었다. 그래서 헤카티르(Hecatyr)는 벨렌(Belen)을 찾아가 부탁했다.
+‘벨렌(Belen), 부디 강령술의 지식을 알려다오. 그래야 그 힘의 노예에서 벗어날 수 있어.’
+
+벨렌(Belen)은 음울하고 고독한 신이었으며 헤카티르(Hecatyr)의 청을 거절했다. 그녀는 분노해 벨렌(Belen)을 위협했다.
+‘필멸의 마법을 내놓아라. 그러지 않으면 모든 문을 걸어 잠그고 모든 관문을 닫아 버리겠다.’
+
+무심한 신은 다시 헤카티르(Hecatyr)를 거절했다. 그러자 그녀는 그를 설득했다.
+‘벨렌(Belen), 죽음의 이치를 알려 준다면 네게 자손을 주겠다.’
+
+이 말에 벨렌(Belen)은 흥미를 느꼈다. 후손을 남기는 일은 자신의 영역보다도 더 중요했기 때문이다. 벨렌(Belen)은 헤카티르(Hecatyr)가 필멸의 존재에 저항할 수 있도록 강령술을 가르쳤다. 나중에 벨렌(Belen)이 아이를 원하자 헤카티르(Hecatyr)는 웃으며 말했다.
+‘나는 이제, 그리고 영원히 그 어떤 요구에도 얽매이지 않는다.’"	"헤카티르(Hecatyr)는 세 어머니, 곧 곰과 늑대와 암탉이다. 그녀는 관문의 아버지다. 헤카티르(Hecatyr)는 비전의 장막(Arcane Veil) 곁에서 네가 지나가는 길을 지켜보고 태피스트리의 문턱을 수호한다. 그녀는 산 자들을 죽은 자들에게 인도했다. 그녀의 비밀은 최초의 비밀이었고, 그녀의 길은 흙과 뼈로 표시되어 있다.
+
+태고에는 용감한 자들이 피와 에델바이스(Edelweiss)를 제물로 바쳐 헤카티르(Hecatyr)를 소환했다. 그녀는 그 의식을 거스를 수 없었다. 영원한 관문을 떠나라는 강요를 받을 때마다 큰 재앙이 뒤따랐다. 바다가 말라붙고, 화산이 분출하고, 대낮이 어두워지거나 황혼이 끝내 찾아오지 않았다. 모든 재앙이 위대한 순환(Great Cycle) 자체를 위협했기에 헤카티르(Hecatyr)는 이 마법의 속박에서 벗어나고 싶어 했다.
+
+이 마법은 죽음의 지배 아래 있었다. 그래서 헤카티르(Hecatyr)는 벨렌(Belen)을 찾아가 부탁했다.
+‘벨렌(Belen), 부디 강령술의 지식을 알려다오. 그래야 그 힘의 노예에서 벗어날 수 있어.’
+
+벨렌(Belen)은 음울하고 고독한 신이었으며 헤카티르(Hecatyr)의 청을 거절했다. 그녀는 분노해 벨렌(Belen)을 위협했다.
+‘필멸의 마법을 내놓아라. 그러지 않으면 모든 문을 걸어 잠그고 모든 관문을 닫아 버리겠다.’
+
+무심한 신은 다시 헤카티르(Hecatyr)를 거절했다. 그러자 그녀는 그를 설득했다.
+‘벨렌(Belen), 죽음의 이치를 알려 준다면 네게 자손을 주겠다.’
+
+이 말에 벨렌(Belen)은 흥미를 느꼈다. 후손을 남기는 일은 자신의 영역보다도 더 중요했기 때문이다. 벨렌(Belen)은 헤카티르(Hecatyr)가 필멸의 존재에 저항할 수 있도록 강령술을 가르쳤다. 나중에 벨렌(Belen)이 아이를 원하자 헤카티르(Hecatyr)는 웃으며 말했다.
+‘나는 이제, 그리고 영원히 그 어떤 요구에도 얽매이지 않는다.’"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"Hecatyr is the three-mother, the bear, the wolf, and the hen. She is the father of the portal. Hecatyr watches your passage from beside the Arcane Veil, and guards the threshold of the tapestry. She guided the living to the dead. Her secrets were the first secrets, and her way is marked by earth and bone.
+
+In ancient times, the brave would summon Hecatyr with offerings of blood and edelweiss. She could not resist the ritual, and when forced to leave the eternal gateway it resulted in great calamities. Oceans would empty, volcanoes erupt, the day would darken or dusk never arrive. Hecatyr desired freedom from the bonds of this magic since every disaster threatened the Great Cycle itself.
+
+This magic was the dominion of Death, so Hecatyr went to Belen and asked him,
+""Please Belen, give me the knowledge of necromancy, so that I may no longer be slave to its power.""
+
+Belen was a sullen and lonely god, and refuted Hecatyr. She became incensed and threatened Belen,
+""Give me the magic of mortality or I will bar all doors and close all gateways.""
+
+Again the apathetic god rejected Hecatyr. So she persuaded him,
+""Belen, I will give you progeny if you show me the ways of Death.""
+
+This intrigued Belen, for legacy was greater than even his domain. He taught her the art of necromancy so that she could resist that which was mortal. When Belen in turn desired a child Hecatyr laughed,
+""I am free from demands, now and forever."""	"ヘカティールは熊、狼、そして雌鶏たちの母であり、""門""の父である。ヘカティールは霊力のベールの横から航海を見守り、タペストリーの入り口を守っている。彼女は生者を死へと導いた。彼女の秘密は本当の秘密であり、彼女のやり方は大地と骨によって表される。
+
+古代、勇者が血とエーデルワイスを使ってヘカティールを召喚した。彼女は儀式に逆らうことが出来ず、永久の門を去るように言われた時は、大惨事となった。海は干からび、火山が噴火し、空は暗くなり、夜明けは二度と来なくなった。""大円環""がありとあらゆる災害に脅かされていたため、ヘカティールは、この魔法の力から解き放たれることを望んだ。
+
+この魔法は死神によって操られていたので、ヘカティールはベイレンへ赴き、
+彼に""ベイレン、お願いだ。降霊術を教えてくれ。そうすれば私は魔術に支配されることはなくなるだろう""と頼んだ。
+
+ベイレンは無愛想で孤独な神で、ヘカティールの頼みを断った。彼女は怒って、ベイレンを脅かした。
+""死の魔法を渡せ。さもなくば全ての扉を閉じ、全ての門を閉じてしまうぞ""
+
+冷淡な神は再びヘカティールの頼みを断った。そこで今度は説得しようとした。
+""ベイレン、もし死の魔法を見せてくれたら、世継ぎをやろう""
+
+これがベイレンの興味を引いた。自分の領地さえよりも重要なものが得られると思ったのだ。彼は降霊術を披露し、彼女は致命的な魔術から解き放たれた。そしてベイレンが謝礼として子供を欲しがると、
+ヘカティールは笑って、""私は要求から永遠に解き放たれた身だ""と言った。"	"赫卡提尔是熊，狼和母鸡的母亲。她也是生死门之父。赫卡提尔在奥义帷幕旁边看着你走过通道，并在通道口守着幕帘。她带领生者走向死亡。她的秘密就是最初的秘密，她的一生铺满尘土与尸骨。
+
+上古时期，勇者用鲜血与雪绒花献祭，用来召唤赫卡提尔。她抵抗不住这样的仪式，被迫离开了永恒不灭的大门，结果招致了巨大的灾难。海洋腾空，火山爆发，要么天昏地暗，要么黄昏不至。因为每一场灾难都在威胁着大轮回，赫卡提尔渴望自由，想要远离魔法的约束。
+
+这种魔法受死神的支配，于是黑卡泰尔去找贝伦，向他乞求。
+“贝伦，请赐予我通灵之术，我则免于此种力量的奴役。”
+
+贝伦这位神灵，阴郁而孤僻，拒绝了赫卡提尔。赫卡提尔愤怒了，威胁贝伦道：“告诉我死亡之魔法，否则我插上所以大门，关闭所有通道。”
+
+冷漠的神灵再次拒绝了赫卡提尔。于是她劝告贝伦，
+“贝伦，如果你向我展示了死亡之道，我就给你生个孩子。”
+
+贝伦动心了，因为后继有人比他掌管的一切都更加重要。于是他把通灵之术教给了赫卡提尔，这样她就能抵抗死亡的力量。转而当贝伦想要孩子的时候，赫卡提尔笑了，
+“我现在可以不接受任何要求，永远都不用。”"	"{""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"12453"	""	"resource:edelweiss"	"not-an-issue"	"다음 재료로 연금술 작업대에서 물약을 만들면, 공격을 받았을 때 50% 확률로 적을 일시적으로 감전시킬 수 있습니다:
+
+일 페탈(Eel Petal) (2)
+에델바이스(Edelweiss) (1)"	"다음 재료로 연금술 작업대에서 물약을 만들면, 공격을 받았을 때 50% 확률로 적을 일시적으로 감전시킬 수 있습니다:
+
+일 페탈(Eel Petal) (2)
+에델바이스(Edelweiss) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"A potion to temporarily give a 50% chance to Shock enemies when attacked.
+
+Eel Petal (2)
+Edelweiss (1)"	"以下の素材を錬金術の作業台で使えば、攻撃してきた敵を50%の確率で感電させる効果があるポーションを調合できる:
+
+イールの花びら(2)
+エーデルワイス(1)"	"一种能暂时使你在受到攻击时有50%的几率震击敌人的药水。
+
+鳗鱼花（2）
+雪绒花（1）"	"{""resource:edelweiss"":""not-an-issue""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18996"	""	"resource:tindertwig"	"accepted"	"틴더트위그는 호수 남쪽의 동굴 같은 고갯길에서 자주 찾아볼 수 있어. 스카우드 나무껍질(Scarwood Bark)은 글렌다라 숲 북쪽 폐허 근처에서 구하면 돼."	"틴더트윅(Tindertwig)는 호수 남쪽의 동굴 같은 고갯길에서 자주 찾아볼 수 있어. 스카우드 나무껍질(Scarwood Bark)은 글렌다라 숲 북쪽 폐허 근처에서 구하면 돼."	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"Tindertwig's often in that cave-like pass south of the lake. And Scarwood Bark's found by the ruins in northern Glendara Wood."	"ティンダートウィッグはよく湖の南にある、洞窟みたいな山道に生えているよ。そしてスカーウッドの樹皮は、グレンダーラの森北側の遺跡近くにある"	"火柴枝常常长在湖的南岸，那条像洞窟一样的通道。而伤痕之木树皮就在北格伦达拉森林的废墟附近。"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20622"	""	"resource:tindertwig"	"accepted"	"다음 재료를 연금술 작업대에서 섞으면 대장 기술을 일시적으로 높이는 물약을 만들 수 있다:
+
+틴더트위그(Tindertwig) (1)
+하늘꽃(Sky Blossom) (1)"	"다음 재료를 연금술 작업대에서 섞으면 대장 기술을 일시적으로 높이는 물약을 만들 수 있다:
+
+틴더트윅(Tindertwig) (1)
+하늘꽃(Sky Blossom) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"A potion to temporarily increase your Blacksmithing skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (1)
+Sky Blossom (1)"	"以下の素材を錬金術台で使えば、鍛冶スキルを一時的に上昇させるポーションを調合できる
+
+ティンダートウィッグ(1)
+スカイブロッサム(1)"	"一种可以暂时提高你的锻造技能的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（1）
+天空之花（1）"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"22543"	""	"resource:edelweiss"	"accepted"	"피격 시 75% 확률로 적을 빙결시키는 효과를 일시적으로 부여하는 물약.
+
+화이트 플레이크(White Flake) (3)
+에델바이스(2)
+바닷아마(Seaflax)(1)
+운명의 정수(1)"	"피격 시 75% 확률로 적을 빙결시키는 효과를 일시적으로 부여하는 물약.
+
+화이트 플레이크(White Flake) (3)
+에델바이스(Edelweiss)(2)
+바닷아마(Seaflax)(1)
+운명의 정수(1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"A potion to temporarily give a 75% chance to Freeze enemies when attacked.
+
+White Flake (3)
+Edelweiss (2)
+Seaflax (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、攻撃してきた敵を75%の確率で凍結させる効果があるポーションを調合できる:
+
+ホワイト・フレーク(3)
+エーデルワイス(2)
+シーフラックス(1)
+フェイトのエッセンス(1)"	"一种能暂时使你在受到攻击时有75%的几率冰冻敌人的药水。
+
+白垩片（3）
+雪绒花（2）
+海亚麻（1）
+命运精华（1）"	"{""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26173"	""	"resource:tindertwig"	"accepted"	"화염 피해량을 높이는 물약은 다음 시약을 사용해 연금술 작업대에서 만들 수 있습니다:
+
+틴더트윅 (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)"	"화염 피해량을 높이는 물약은 다음 시약을 사용해 연금술 작업대에서 만들 수 있습니다:
+
+틴더트윅(Tindertwig) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"A potion to increase your Fire damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (3)
+Scarwood Bark (2)
+Bloodroot (1)"	"以下の素材を錬金術台で使えば、敵に与える火炎ダメージを強化するポーションを調合できる
+
+ティンダートウィッグ(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)"	"一种可以提高你的火焰伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（3）
+伤痕之木树皮（2）
+血根草（1）"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34826"	""	"resource:edelweiss"	"accepted"	"공격받으면 적을 75% 확률로 감전시키는 효과를 일시적으로 부여하는 물약입니다.
+
+일 페탈(Eel Petal) (3)
+에델바이스 (2)
+바닷아마(Seaflax) (1)
+운명의 정수 (1)"	"공격받으면 적을 75% 확률로 감전시키는 효과를 일시적으로 부여하는 물약입니다.
+
+일 페탈(Eel Petal) (3)
+에델바이스(Edelweiss) (2)
+바닷아마(Seaflax) (1)
+운명의 정수 (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"A potion to temporarily give a 75% chance to Shock enemies when attacked.
+
+Eel Petal (3)
+Edelweiss (2)
+Seaflax (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、攻撃してきた敵を75%の確率で感電させる効果があるポーションを調合できる
+
+イールの花びら(3)
+エーデルワイス(2)
+シーフラックス(1)
+フェイトエッセンス(1)"	"一种能暂时使你在受到攻击时有75%的几率震击敌人的药水。
+
+鳗鱼花（3）
+雪绒花（2）
+海亚麻（1）
+命运精华（1）"	"{""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37102"	""	"resource:edelweiss"	"not-an-issue"	"공격받으면 공격자를 60% 확률로 얼리는 효과가 일시적으로 부여되는 물약입니다.
+
+화이트 플레이크(White Flake) (3)
+에델바이스(Edelweiss) (2)
+바닷아마(Seaflax) (1)"	"공격받으면 공격자를 60% 확률로 얼리는 효과가 일시적으로 부여되는 물약입니다.
+
+화이트 플레이크(White Flake) (3)
+에델바이스(Edelweiss) (2)
+바닷아마(Seaflax) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"A potion to temporarily give a 60% chance to Freeze enemies when attacked.
+
+White Flake (3)
+Edelweiss (2)
+Seaflax (1)"	"以下の素材を錬金術の作業台で使えば、攻撃してきた敵を60%の確率で凍結させる効果があるポーションを調合できる:
+
+ホワイト・フレーク(3)
+エーデルワイス(2)
+シーフラックス(1)"	"一种能暂时使你在受到攻击时有60%的几率冰冻敌人的药水。
+
+白垩片（3）
+雪绒花（2）
+海亚麻（1）"	"{""resource:edelweiss"":""not-an-issue""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39322"	""	"resource:edelweiss"	"accepted"	"공격받을 때 적을 감전시킬 확률이 일시적으로 60%가 되는 물약입니다.
+
+일 페탈(Eel Petal) (3)
+에델바이스 (2)
+바닷아마(Seaflax) (1)"	"공격받을 때 적을 감전시킬 확률이 일시적으로 60%가 되는 물약입니다.
+
+일 페탈(Eel Petal) (3)
+에델바이스(Edelweiss) (2)
+바닷아마(Seaflax) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"A potion to temporarily give a 60% chance to Shock enemies when attacked.
+
+Eel Petal (3)
+Edelweiss (2)
+Seaflax (1)"	"以下の素材を錬金術台で使えば、攻撃してきた敵を60%の確率で感電させる効果があるポーションを調合できる
+
+イールの花びら(3)
+エーデルワイス(2)
+シーフラックス(1)"	"一种能暂时使你在受到攻击时有60%的几率震击敌人的药水。
+
+鳗鱼花（3）
+雪绒花（2）
+海亚麻（1）"	"{""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41594"	""	"resource:tindertwig"	"accepted"	"화염 피해를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트위그 (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"화염 피해를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트윅(Tindertwig) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"A potion to increase your Fire damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える火炎ダメージを強化するポーションを調合できる
+
+ティンダートウィッグ(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种可以提高你的火焰伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"42291"	""	"resource:edelweiss|resource:tindertwig"	"accepted"	"피격 시 적을 60% 확률로 불태우는 효과를 일시적으로 부여하는 물약.
+
+팅더트위그 (3)
+에델바이스 (2)
+바닷아마(Seaflax) (1)"	"피격 시 적을 60% 확률로 불태우는 효과를 일시적으로 부여하는 물약.
+
+틴더트윅(Tindertwig) (3)
+에델바이스(Edelweiss) (2)
+바닷아마(Seaflax) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"A potion to temporarily give a 60% chance to Burn enemies when attacked.
+
+Tindertwig (3)
+Edelweiss (2)
+Seaflax (1)"	"以下の素材を錬金術の作業台で使えば、攻撃してきた敵を60%の確率で炎上させる効果があるポーションを調合できる:
+
+ティンダートウィッグ(3)
+エーデルワイス(2)
+シーフラックス(1)"	"一种能暂时使你在受到攻击时有60%的几率灼烧敌人的药水。
+
+火柴枝（3）
+雪绒花（2）
+海亚麻（1）"	"{""resource:tindertwig"":""accepted"",""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context"",""resource:tindertwig"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context."",""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"42761"	""	"resource:tindertwig"	"accepted"	"화염 피해를 증가시키는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있다:
+
+팅더트위그 (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"화염 피해를 증가시키는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있다:
+
+틴더트윅(Tindertwig) (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"A potion to increase your Fire damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (2)
+Scarwood Bark (1)"	"以下の素材を錬金術台で使えば、敵に与える火炎ダメージを強化するポーションを調合できる
+
+ティンダートウィッグ(2)
+スカーウッドの樹皮(1)"	"一种可以提高你的火焰伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（2）
+伤痕之木树皮（1）"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43871"	""	"resource:edelweiss"	"accepted"	"공격받을 때 적을 50% 확률로 얼리는 효과를 일시적으로 부여하는 물약입니다.
+
+화이트 플레이크(White Flake) (2)
+에델바이스 (1)"	"공격받을 때 적을 50% 확률로 얼리는 효과를 일시적으로 부여하는 물약입니다.
+
+화이트 플레이크(White Flake) (2)
+에델바이스(Edelweiss) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"A potion to temporarily give a 50% chance to Freeze enemies when attacked.
+
+White Flake (2)
+Edelweiss (1)"	"以下の素材を錬金術の作業台で使えば、攻撃してきた敵を50%の確率で凍結させる効果があるポーションを調合できる:
+
+ホワイト・フレーク(2)
+エーデルワイス(1)"	"一种能暂时使你在受到攻击时有50%的几率冰冻敌人的药水。
+
+白垩片（2）
+雪绒花（1）"	"{""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"44029"	""	"resource:tindertwig"	"accepted"	"틴더트위그"	"틴더트윅(Tindertwig)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"Tindertwig"	"ティンダートウィッグ"	"火柴枝"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"49140"	""	"resource:edelweiss"	"accepted"	"에델바이스 꽃의 향기로운 꽃가루에는 {*3반사}의 정수가 들어 있어, 그 효과를 담아내는 물약을 만드는 데 매우 유용하다."	"에델바이스(Edelweiss) 꽃의 향기로운 꽃가루에는 {*3반사}의 정수가 들어 있어, 그 효과를 담아내는 물약을 만드는 데 매우 유용하다."	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"The aromatic pollen of the Edelweiss flower contains the essence of {*3Reflection} and is very helpful in potions that seek to capture that effect."	"エーデルワイスの花の芳香を発する花粉には{*3反射}のエッセンスが含まれている。その効果を活用するポーションの調合では重宝される。"	"雪绒花的芳香花粉含有{*3反伤}的精华，在试图包含这种效果的药水中非常有用。"	"{""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50439"	""	"resource:tindertwig"	"accepted"	"틴더트위그는 아이언홀드 통로에서 가장 쉽게 찾을 수 있고, 스카우드 나무껍질(Scarwood Bark)은 글렌다라 숲 북쪽 유적 근처에서 찾을 수 있다."	"틴더트윅(Tindertwig)는 아이언홀드 통로에서 가장 쉽게 찾을 수 있고, 스카우드 나무껍질(Scarwood Bark)은 글렌다라 숲 북쪽 유적 근처에서 찾을 수 있다."	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"Tindertwig, which is easiest found in Ironhold Passage, and Scarwood Bark, which is found near the ruins in northern Glendara Wood."	"ティンダートウィッグならアイアンホールドの通路、スカーウッドの樹皮はグレンダーラの森の北側の遺跡近くで見つけられるだろう"	"火柴枝在铁堡通道最好找，还有伤痕之木树皮，在北格伦达拉森林的废墟附近。"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"54169"	""	"resource:tindertwig"	"accepted"	"틴더트위그(Tindertwig)는 아이언홀드 통로(Ironhold Passage)에서 가장 쉽게 찾을 수 있고, 스카우드 나무껍질(Scarwood Bark)은 글렌다라 숲 북쪽 유적 근처에서 구할 수 있어."	"틴더트윅(Tindertwig)는 아이언홀드 통로(Ironhold Passage)에서 가장 쉽게 찾을 수 있고, 스카우드 나무껍질(Scarwood Bark)은 글렌다라 숲 북쪽 유적 근처에서 구할 수 있어."	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"Tindertwig, which is easiest found in Ironhold Passage, and Scarwood Bark, which is found near the ruins in northern Glendara Wood."	"ティンダートウィッグならアイアンホールドの通路、スカーウッドの樹皮はグレンダーラの森の北側の遺跡近くで見つけられるだろう"	"火柴枝在铁堡通道最好找，还有伤痕之木树皮，在北格伦达拉森林的废墟附近。"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"58010"	""	"resource:edelweiss|resource:tindertwig"	"accepted"	"공격받을 때 적을 50% 확률로 불태우는 효과를 일시적으로 부여하는 물약입니다.
+
+틴더트위그 (2)
+에델바이스 (1)"	"공격받을 때 적을 50% 확률로 불태우는 효과를 일시적으로 부여하는 물약입니다.
+
+틴더트윅(Tindertwig) (2)
+에델바이스(Edelweiss) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"A potion to temporarily give a 50% chance to Burn enemies when attacked.
+
+Tindertwig (2)
+Edelweiss (1)"	"以下の素材を錬金術台で使えば、攻撃してきた敵を50%の確率で炎上させる効果があるポーションを調合できる
+
+ティンダートウィッグ(2)
+エーデルワイス(1)"	"一种能暂时使你在受到攻击时有50%的几率灼烧敌人的药水。
+
+火柴枝（2）
+雪绒花（1）"	"{""resource:tindertwig"":""accepted"",""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context"",""resource:tindertwig"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context."",""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"59341"	""	"resource:edelweiss"	"accepted"	"에델바이스"	"에델바이스(Edelweiss)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:49140 identifies the named Edelweiss flower and its potion use; recipes and default:9813 ritual context refer to the same flower. Japanese エーデルワイス and Chinese 雪绒花 corroborate. Keep the existing Korean name 에델바이스 and add the English pair only where absent. Do not infer real-world pharmacology or alter the ritual/reagent context."	"Edelweiss"	"エーデルワイス"	"雪绒花"	"{""resource:edelweiss"":""accepted""}"	"{""resource:edelweiss"":""needs-context""}"	"{""resource:edelweiss"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"61417"	""	"resource:tindertwig"	"not-an-issue"	"아, 안녕. 지금은 기분이 아주 좋아. 틴더트윅(Tindertwig)에서 불어오는 바람 덕분이야. 피곤하게 만들지만 행복해져."	"아, 안녕. 지금은 기분이 아주 좋아. 틴더트윅(Tindertwig)에서 불어오는 바람 덕분이야. 피곤하게 만들지만 행복해져."	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"Oh, hello. I feel quite good right now. It's the wind off the Tindertwig. Makes you tired, but happy."	"あら、こんにちは。今とても気分がいいの。ティンダートウィッグの匂いのせいね。疲れるけど、幸せになるわ"	"哦，你好。我现在感觉不错。那是火柴枝吹来的风。让你疲惫，却又快乐。"	"{""resource:tindertwig"":""not-an-issue""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"61745"	""	"resource:tindertwig"	"not-an-issue"	"연금술 작업대에서 다음 재료를 섞으면 화염 피해 저항을 높이는 물약을 만들 수 있습니다:
+
+틴더트윅(Tindertwig) (2)
+이사의 숨결(Ysa's Breath) (1)"	"연금술 작업대에서 다음 재료를 섞으면 화염 피해 저항을 높이는 물약을 만들 수 있습니다:
+
+틴더트윅(Tindertwig) (2)
+이사의 숨결(Ysa's Breath) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"A potion to increase your resistance to Fire damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (2)
+Ysa's Breath (1)"	"以下の素材を錬金術の作業台で使えば、炎ダメージに対する耐性を強化するポーションを調合できる:
+
+ティンダートウィッグ(2)
+イーサブレス(1)"	"一种可以提高你对火焰伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（2）
+伊萨之息（1）"	"{""resource:tindertwig"":""not-an-issue""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"64148"	""	"resource:tindertwig"	"accepted"	"대장기술을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트위그(Tindertwig) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (1)"	"대장기술을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트윅(Tindertwig) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (1)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"A potion to temporarily increase your Blacksmithing skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (2)
+Sky Blossom (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、鍛冶スキルを一時的に上昇させるポーションを調合できる:
+
+ティンダートウィッグ(2)
+スカイ・ブロッサム(2)
+ブラッドルート(1)"	"一种可以暂时提高你的锻造技能的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（2）
+天空之花（2）
+血根草（1）"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"64696"	""	"resource:tindertwig"	"accepted"	"틴더트위그(Tindertwig)"	"틴더트윅(Tindertwig)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"Tindertwig"	"Tindertwig"	"Tindertwig"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"64731"	""	"resource:tindertwig"	"accepted"	"틴더트위그(Tindertwig)"	"틴더트윅(Tindertwig)"	"D-21273: English-first plant/reagent consistency across affix/base/default. Official manual PDF p. 4 defines the Alchemy skill and PDF p. 8 describes Reagents, Recipes and Alchemy Workbenches, but gives no name for these plants. Only source-mapped name spans change; quantities, potion effects, other named entities, particles, tokens and exact line breaks remain intact. No affix hit. English default:8629 explicitly describes Tindertwig as a plant used for potions, default:8159/50439 gives gathering context, and recipes list quantities. Japanese ティンダートウィッグ and Chinese 火柴枝 corroborate. Reuse both base labels 틴더트윅(Tindertwig), replacing 틴더트위그 and the 팅더 typo. Default:64696 has source-English fallback support; identity is independently established by the repeated base/quest labels. Preserve the wind/scent wording at default:61417 rather than expand a name correction into a new interpretation."	"Tindertwig"	"ティンダートウィッグ"	"火柴枝"	"{""resource:tindertwig"":""accepted""}"	"{""resource:tindertwig"":""needs-context""}"	"{""resource:tindertwig"":""Candidate hit from the English source; verify this occurrence in context.""}"

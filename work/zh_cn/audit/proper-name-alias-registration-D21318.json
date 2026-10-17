@@ -1,0 +1,50 @@
+{
+  "batches": [
+    21318,
+    21319
+  ],
+  "new_occurrences": 88,
+  "corrective_existing_keys": [
+    "2577",
+    "8567",
+    "12523",
+    "24852",
+    "32496",
+    "44296",
+    "49583"
+  ],
+  "untouched_overlapping_keys": [
+    "27",
+    "5491",
+    "16690",
+    "55381",
+    "62058"
+  ],
+  "new_entities": 0,
+  "original_entity": {
+    "entity_key": "person:bisarane",
+    "english_canonical": "Bisarane",
+    "category": "person",
+    "korean_canonical": "비사라네(Bisarane)",
+    "english_aliases": "",
+    "korean_variants": "비사레인|비사라니|비사란|비자레인",
+    "evidence_ids": "D-21037-D-21040|base:4143|default:8147|default:56524|default:48091",
+    "status": "confirmed",
+    "notes": "Named Winter Fae individual and King/leader of the House of Sorrows, explicitly self-identified in English default:8147 and default:56524 and described as a Winter Fae associated with the House in default:48091. Person denotes the named individual, not a claim of mortality or a playable race. Japanese ビザレイン and Chinese 比萨拉恩/比萨兰 corroborate identity. Normalize observed 비사레인/비사라니 to the corpus-majority 비사라네. Keep the House of Sorrows and the magical force Sorrows distinct from this person. The official Korean manual PDF pages 1-2 provide Fate/deity context and established names of related gods (Gaea, Lyria, Belen, Vraekor); its non-exhaustive playable patron list does not settle this name."
+  },
+  "updated_entity": {
+    "entity_key": "person:bisarane",
+    "english_canonical": "Bisarane",
+    "category": "person",
+    "korean_canonical": "비사라네(Bisarane)",
+    "english_aliases": "Saturnyn",
+    "korean_variants": "비사레인|비사라니|비사란|비자레인|사투르닌|새터닌|사터닌",
+    "evidence_ids": "D-21037-D-21040|base:4143|default:8147|default:56524|default:48091|D-21318-D-21319|default:2577|default:32496",
+    "status": "confirmed",
+    "notes": "Named Winter Fae individual and King/leader of the House of Sorrows, explicitly self-identified in English default:8147 and default:56524 and described as a Winter Fae associated with the House in default:48091. Person denotes the named individual, not a claim of mortality or a playable race. Japanese ビザレイン and Chinese 比萨拉恩/比萨兰 corroborate identity. Normalize observed 비사레인/비사라니 to the corpus-majority 비사라네. Keep the House of Sorrows and the magical force Sorrows distinct from this person. The official Korean manual PDF pages 1-2 provide Fate/deity context and established names of related gods (Gaea, Lyria, Belen, Vraekor); its non-exhaustive playable patron list does not settle this name. D-21318-D-21319: English default:2577 explicitly says Bisarane revealed he was Saturnyn, and default:32496 repeats the reveal; Japanese and Chinese corroborate the single identity. Register Saturnyn only as an alias of existing person:bisarane, not a new person. Preserve 비사라네(Bisarane); annotate the source-local alias 사투르닌(Saturnyn), normalizing 새터닌/사터닌. English anchors meaning, Japanese サタンニン and Chinese 萨图恩宁 support the name. Saturnalia is a distinct festival, Cadoroc is not established as this identity, and the creeping-vine comparison at default:34174 is a metaphor, not a named item. Official Korean manual PDF pp. 1-2 and 7 provide Winter Court/Fate and House of Sorrows faction context, not this alias spelling. Existing terminal keys are not newly discovered occurrences; seven accepted alias-span corrections retain their statuses and prior evidence, and five already correct keys are untouched."
+  },
+  "initial_glossary_sha256": "d3400bc65785fadec7bbd67399afaad9ba2209e83c6dfd7fbc630a473009eaf4",
+  "initial_index_sha256": "15004410061e120afb7b0a0c1889f2f996c968dad623797203c88191994ae5e2",
+  "original_index_non_snapshot_sha256": "d2bbfb4bc89deedbc360b9406683bd23dcf89744c80c6ff8b1718d0a07813050",
+  "verified": "All original index records retained; only seven accepted alias-span corrections append evidence, keeping prior evidence and status. All unrelated records and glossary entries preserved. Exactly 88 new keys, no duplicate entity or occurrence."
+}

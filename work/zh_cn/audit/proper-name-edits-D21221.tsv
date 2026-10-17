@@ -1,0 +1,280 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"112"	""	"person:augusta-adele"	"accepted"	"아우구스타 아델(Augusta Adele)"	"어거스타 아델(Augusta Adele)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese オーガスタ・アデル and Chinese 奥古斯塔·阿戴尔 corroborate the full name. Reuse the in-corpus short Augusta spelling 어거스타 and surname 아델; do not create bare-name aliases."	"Augusta Adele"	"オーガスタ・アデル"	"奥古斯塔·阿戴尔"	"{""person:augusta-adele"":""accepted""}"	"{""person:augusta-adele"":""needs-context""}"	"{""person:augusta-adele"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"2858"	""	"person:angsar-solsvard"	"not-an-issue"	"그레이브홀의 영주(Lord of Gravehal) - 드베르가(Dverga) 전사 족장이자 그레이브홀 요새(Gravehal Keep)의 건설자인 앙사르 솔스바르드(Angsar Solsvard)의 대모험."	"그레이브홀의 영주(Lord of Gravehal) - 드베르가(Dverga) 전사 족장이자 그레이브홀 요새(Gravehal Keep)의 건설자인 앙사르 솔스바르드(Angsar Solsvard)의 대모험."	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese アングサー・ソルスヴァード and Chinese 安格萨·索尔斯瓦德 corroborate the named Gravehal builder. Retain default:2858's 앙사르 spelling; do not silently alias the distinct English spelling Ansgar Solsvard or infer that the different heir narrative names the same person."	"Lord of Gravehal ‒ The odyssey of Angsar Solsvard, Dverga warrior-chief and builder of Gravehal Keep."	"グレイバルの王: ドゥバーガの戦士にして族長、グレイバル砦の建立者であるアングサー・ソルスヴァードの冒険記。"	"格雷夫霍领主——安格萨·索尔斯瓦德，迪维尔干的战士首领，格雷夫霍要塞建造者的艰险旅途。"	"{""person:angsar-solsvard"":""not-an-issue""}"	"{""person:angsar-solsvard"":""needs-context""}"	"{""person:angsar-solsvard"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"3094"	""	"person:johan-vernt"	"accepted"	"요한 베른트(Johan Vernt)"	"요한 버른트(Johan Vernt)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese ジョハン・ヴァーント and Chinese 约翰·冯特 corroborate. Follow the already registered Vernt family spelling 버른트, without merging Johan and Garaner or assigning the unlinked bare Vernt fallback label."	"Johan Vernt"	"ジョハン・ヴァーント"	"约翰·冯特"	"{""person:johan-vernt"":""accepted""}"	"{""person:johan-vernt"":""needs-context""}"	"{""person:johan-vernt"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"8303"	""	"person:jennery-vauner"	"not-an-issue"	"제너리 바우너(Jennery Vauner)"	"제너리 바우너(Jennery Vauner)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese ジェネリー・ボーナ and Chinese 詹内瑞·沃纳尔 corroborate; default:14523 explicitly calls Syllareta his wife. Reuse default:8303 and the separately registered Syllareta Vauner family's surname 바우너, without merging people."	"Jennery Vauner"	"ジェネリー・ボーナ"	"詹内瑞·沃纳尔"	"{""person:jennery-vauner"":""not-an-issue""}"	"{""person:jennery-vauner"":""needs-context""}"	"{""person:jennery-vauner"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"9442"	""	"person:halder-rodric"	"accepted"	"핼더 로드릭(Halder Rodric)"	"할더 로드릭(Halder Rodric)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese ハルダー・ロドリック and Chinese 哈尔德·罗德里克 corroborate. Reuse default:52841 할더, also present in the short-name label, without automatically registering short Halder as a person alias."	"Halder Rodric"	"ハルダー・ロドリック"	"哈尔德·罗德里克"	"{""person:halder-rodric"":""accepted""}"	"{""person:halder-rodric"":""needs-context""}"	"{""person:halder-rodric"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"13627"	""	"person:gwastl-brad"	"not-an-issue"	"그와스틀 브래드(Gwastl Brad)"	"그와스틀 브래드(Gwastl Brad)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese グワストル・ブラッド and Chinese 格瓦斯特尔·布拉德 corroborate the Tirin's Rest contact. Reuse default:13627 그와스틀 브래드. Brad and Cergren business references are not personal aliases."	"Gwastl Brad"	"グワストル・ブラッド"	"格瓦斯特尔·布拉德"	"{""person:gwastl-brad"":""not-an-issue""}"	"{""person:gwastl-brad"":""needs-context""}"	"{""person:gwastl-brad"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14523"	""	"person:jennery-vauner"	"accepted"	"미안, 내가 정신이 없었군. 제너리 보너(Jennery Vauner)야. 캐너록(Canneroc)의 치료사인 아내 실라레타(Syllareta)를 위해 약재를 모으고 있어."	"미안, 내가 정신이 없었군. 제너리 바우너(Jennery Vauner)야. 캐너록(Canneroc)의 치료사인 아내 실라레타(Syllareta)를 위해 약재를 모으고 있어."	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese ジェネリー・ボーナ and Chinese 詹内瑞·沃纳尔 corroborate; default:14523 explicitly calls Syllareta his wife. Reuse default:8303 and the separately registered Syllareta Vauner family's surname 바우너, without merging people."	"Sorry, I forget myself. I'm Jennery Vauner. I gather reagents for my wife Syllareta, Canneroc's mediciner."	"すまない、取り乱してしまった。俺はジェネリー・ボーナ。医師である妻のシラリータのために、素材を集めている"	"抱歉，我有点忘形了。我是詹内瑞·沃纳尔。我为我的妻子塞拉里塔收集试剂，她是坎能诺克的医生。"	"{""person:jennery-vauner"":""accepted""}"	"{""person:jennery-vauner"":""needs-context""}"	"{""person:jennery-vauner"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"15889"	""	"person:gefroy-stoine"	"not-an-issue"	"신들이 그들에게 자비를 베풀기를. 아카라(Akara)가 그들에게 평화를 내리기를. 그들의 죄를 잊지 않으리라.
+
+- 콜 도드윈(Call Dodwin)
+- 퓐 말위치(Pwyn Malwich)
+- 에이가르 마드리스(Aegar Madrith)
+- 이다스 사프(Idas Saf)
+- 옹가 울신(Onga Woolsin)
+- 애슬리 피오르드(Astley Fjord)
+- 게프로이 스토인(Gefroy Stoine)
+- 헬와 홀스티그(Helwa Holstig)
+- 델프 로어식(Delf Loerthic)
+- 타리 홀스티그(Tari Holstig)"	"신들이 그들에게 자비를 베풀기를. 아카라(Akara)가 그들에게 평화를 내리기를. 그들의 죄를 잊지 않으리라.
+
+- 콜 도드윈(Call Dodwin)
+- 퓐 말위치(Pwyn Malwich)
+- 에이가르 마드리스(Aegar Madrith)
+- 이다스 사프(Idas Saf)
+- 옹가 울신(Onga Woolsin)
+- 애슬리 피오르드(Astley Fjord)
+- 게프로이 스토인(Gefroy Stoine)
+- 헬와 홀스티그(Helwa Holstig)
+- 델프 로어식(Delf Loerthic)
+- 타리 홀스티그(Tari Holstig)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese ゲフロイ・ストイン and Chinese 戈弗里·斯多英 corroborate the memorial-list full name. Reuse default:15889 게프로이 스토인. Abel Gefroy is another person; no bare Gefroy or Stoine alias is inferred."	"May the gods show them mercy. May Akara grant them peace. Their crimes will not be forgotten.
+
+-Call Dodwin
+-Pwyn Malwich
+-Aegar Madrith
+-Idas Saf
+-Onga Woolsin
+-Astley Fjord
+-Gefroy Stoine
+-Helwa Holstig
+-Delf Loerthic
+-Tari Holstig"	"神々の御慈悲あれ。アカラよ、彼らに平穏を。その罪が忘れ去られることはないだろう。
+
+-コール・ドドウィン
+-プウィン・マルウィッチ
+-エイガー・マドリス
+-アイダス・サフ
+-オンガ・ウールシン
+-アストリー・フィヨルド
+-ゲフロイ・ストイン
+-ヘルワ・ホルスティグ
+-デルフ・レルシック
+-タリ・ホルスティグ"	"愿神灵赐予他们仁慈。愿阿卡拉赐予他们和平。他们的罪恶不会被人遗忘。
+
+-考尔·多德文
+-普文·麦尔维奇
+-艾戈尔·曼德里斯
+-伊达斯·撒夫
+-翁高·乌尔辛
+-阿斯特利·福约德
+-戈弗里·斯多英
+-海尔洼·霍斯迪格
+-德尔福·罗尔斯克
+-塔里·霍斯迪格"	"{""person:gefroy-stoine"":""not-an-issue""}"	"{""person:gefroy-stoine"":""needs-context""}"	"{""person:gefroy-stoine"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"17930"	""	"person:angsar-solsvard"	"accepted"	"강력한 그레이브홀 요새(Gravehal Keep)는 전설적인 드베르가 광전사 앙스가르 솔스바르드(Angsar Solsvard)가 사랑하는 신부에게 선물하려고 지었다."	"강력한 그레이브홀 요새(Gravehal Keep)는 전설적인 드베르가 광전사 앙사르 솔스바르드(Angsar Solsvard)가 사랑하는 신부에게 선물하려고 지었다."	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese アングサー・ソルスヴァード and Chinese 安格萨·索尔斯瓦德 corroborate the named Gravehal builder. Retain default:2858's 앙사르 spelling; do not silently alias the distinct English spelling Ansgar Solsvard or infer that the different heir narrative names the same person."	"The mighty fortress of Gravehal Keep was built by the legendary Dvergan Berzerker Angsar Solsvard, as a gift to his beloved bride."	"堅牢なる要塞、グレイバル砦は、伝説のドゥバーガのバーサーカー、アングサー・ソルスヴァードが愛する妻に贈るために建立したとされている。"	"格雷夫霍要塞是传说中的迪维尔干狂战士安格萨·索尔斯瓦德作为送给他心爱的新娘的礼物而建造的。"	"{""person:angsar-solsvard"":""accepted""}"	"{""person:angsar-solsvard"":""needs-context""}"	"{""person:angsar-solsvard"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"19539"	""	"person:gefroy-stoine"	"accepted"	"신들께서 그들에게 자비를 베푸시기를. 아카라(Akara)께서 그들에게 평화를 주시기를. 그들의 죄는 잊히지 않으리라.
+
+- 콜 도드윈
+- 푸윈 말위치
+- 에이가르 마드리스(Aegar Madrith)
+- 이다스 사프
+- 옹가 울신
+- 애슬리 피오르드
+- 제프로이 스토인
+- 헬와 홀스티그
+- 델프 로어식(Delf Loerthic)
+-"	"신들께서 그들에게 자비를 베푸시기를. 아카라(Akara)께서 그들에게 평화를 주시기를. 그들의 죄는 잊히지 않으리라.
+
+- 콜 도드윈
+- 푸윈 말위치
+- 에이가르 마드리스(Aegar Madrith)
+- 이다스 사프
+- 옹가 울신
+- 애슬리 피오르드
+- 게프로이 스토인(Gefroy Stoine)
+- 헬와 홀스티그
+- 델프 로어식(Delf Loerthic)
+-"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese ゲフロイ・ストイン and Chinese 戈弗里·斯多英 corroborate the memorial-list full name. Reuse default:15889 게프로이 스토인. Abel Gefroy is another person; no bare Gefroy or Stoine alias is inferred."	"May the gods show them mercy. May Akara grant them peace. Their crimes will not be forgotten.
+
+-Call Dodwin
+-Pwyn Malwich
+-Aegar Madrith
+-Idas Saf
+-Onga Woolsin
+-Astley Fjord
+-Gefroy Stoine
+-Helwa Holstig
+-Delf Loerthic
+-"	"神々の御慈悲あれ。アカラよ、彼らに平穏を。その罪が忘れ去られることはないだろう。
+
+-コール・ドドウィン
+-プウィン・マルウィッチ
+-エイガー・マドリス
+-アイダス・サフ
+-オンガ・ウールシン
+-アストリー・フィヨルド
+-ゲフロイ・ストイン
+-ヘルワ・ホルスティグ
+-デルフ・レルシック
+-"	"愿神灵赐予他们仁慈。愿阿卡拉赐予他们和平。他们的罪恶不会被人遗忘。
+
+-考尔·多德文
+-普文·麦尔维奇
+-艾戈尔·曼德里斯
+-伊达斯·撒夫
+-翁高·乌尔辛
+-阿斯特利·福约德
+-戈弗里·斯多英
+-海尔洼·霍斯迪格
+-德尔福·罗尔斯克
+-"	"{""person:gefroy-stoine"":""accepted""}"	"{""person:gefroy-stoine"":""needs-context""}"	"{""person:gefroy-stoine"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21085"	""	"person:gwastl-brad"	"accepted"	"그와스트 브래드가 티린의 안식처(Tirin's Rest)에 죄수가 있다고 실수로 입을 흘렸다. 더는 말해 주지 않았다. 마을의 다른 누군가라면 더 알려 줄지도 모른다."	"그와스틀 브래드(Gwastl Brad)가 티린의 안식처(Tirin's Rest)에 죄수가 있다고 실수로 입을 흘렸다. 더는 말해 주지 않았다. 마을의 다른 누군가라면 더 알려 줄지도 모른다."	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese グワストル・ブラッド and Chinese 格瓦斯特尔·布拉德 corroborate the Tirin's Rest contact. Reuse default:13627 그와스틀 브래드. Brad and Cergren business references are not personal aliases."	"Gwastl Brad accidentally let slip that there is some sort of prisoner in Tirin's Rest. He refused to say anything more. Perhaps someone else in the village will reveal more."	"ティリンの休憩所に囚人がいると、グワストル・ブラッドが漏らしたが、それ以上話そうとしない。他の村人から何か聞けるかも知れない。"	"格瓦斯特尔·布拉德不经意间提到，提林栖所中关押着一个囚犯。他拒绝开口说话。或许村庄内有人知道更多详情。"	"{""person:gwastl-brad"":""accepted""}"	"{""person:gwastl-brad"":""needs-context""}"	"{""person:gwastl-brad"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21763"	""	"person:gwastl-brad"	"accepted"	"이번 시즌:
+
+메이라 마운(Meyra Maun) . . . 금화 50닢
+
+그렘 헤일(Graem Haille) . . . 금화 112닢
+
+T. 타리온(T. Tarion) . . . 금화 7닢
+
+과스틀 브래드(Gwastl Brad) . . . 금화 200닢
+
+아테오프 세르그렌(Atheof Cergren) . . . 금화 200닢
+
+에린 메니아드(Ereen Meniadh) . . . 금화 11닢"	"이번 시즌:
+
+메이라 마운(Meyra Maun) . . . 금화 50닢
+
+그렘 헤일(Graem Haille) . . . 금화 112닢
+
+T. 타리온(T. Tarion) . . . 금화 7닢
+
+그와스틀 브래드(Gwastl Brad) . . . 금화 200닢
+
+아테오프 세르그렌(Atheof Cergren) . . . 금화 200닢
+
+에린 메니아드(Ereen Meniadh) . . . 금화 11닢"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese グワストル・ブラッド and Chinese 格瓦斯特尔·布拉德 corroborate the Tirin's Rest contact. Reuse default:13627 그와스틀 브래드. Brad and Cergren business references are not personal aliases."	"This season:
+
+Meyra Maun . . . 50 gold
+
+Graem Haille . . . 112 gold
+
+T. Tarion . . . 7 gold
+
+Gwastl Brad . . . 200 gold
+
+Atheof Cergren . . . 200 gold
+
+Ereen Meniadh . . . 11 gold"	"今季の献金者:
+
+メイラ・マウン... 50ゴールド
+
+グラエム・ヘイル... 112ゴールド
+
+T・タリオン... 7ゴールド
+
+グワストル・ブラッド... 200ゴールド
+
+エシオフ・サーグレン... 200ゴールド
+
+エリーン・メニアダ... 11ゴールド"	"这个季节：
+
+梅拉·莫恩。..50金币
+
+格雷厄姆·海利。..112金币
+
+T.塔瑞昂。..7金币
+
+格瓦斯特尔·布拉德。..200金币
+
+阿西奥夫·赛格伦。..200金币
+
+厄林·蒙尼亚德。..11金币"	"{""person:gwastl-brad"":""accepted""}"	"{""person:gwastl-brad"":""needs-context""}"	"{""person:gwastl-brad"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29020"	""	"person:gefroy-stoine"	"accepted"	"신들이 그들에게 자비를 베푸시길. 아카라(Akara)가 그들에게 평안을 주시길. 그들의 죄는 잊히지 않을 것이다.
+
+-콜 도드윈(Call Dodwin)
+-프윈 말위치(Pwyn Malwich)
+-에이가르 마드리스(Aegar Madrith)
+-나라 아르도나(Nara Ardona)
+-이다스 사프(Idas Saf)
+-에이먼 스노드윈(Eyman Snordwin)
+-위즈미 톨리비아(Wismey Tholivia)
+-옹가 울신(Onga Woolsin)
+-애슬리 피오르드(Astley Fjord)
+-제프루아 스토인(Gefroy Stoine)
+-헬와 홀스티그(Helwa Holstig)
+-델프 로어식(Delf Loerthic)
+-
+-
+-"	"신들이 그들에게 자비를 베푸시길. 아카라(Akara)가 그들에게 평안을 주시길. 그들의 죄는 잊히지 않을 것이다.
+
+-콜 도드윈(Call Dodwin)
+-프윈 말위치(Pwyn Malwich)
+-에이가르 마드리스(Aegar Madrith)
+-나라 아르도나(Nara Ardona)
+-이다스 사프(Idas Saf)
+-에이먼 스노드윈(Eyman Snordwin)
+-위즈미 톨리비아(Wismey Tholivia)
+-옹가 울신(Onga Woolsin)
+-애슬리 피오르드(Astley Fjord)
+-게프로이 스토인(Gefroy Stoine)
+-헬와 홀스티그(Helwa Holstig)
+-델프 로어식(Delf Loerthic)
+-
+-
+-"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese ゲフロイ・ストイン and Chinese 戈弗里·斯多英 corroborate the memorial-list full name. Reuse default:15889 게프로이 스토인. Abel Gefroy is another person; no bare Gefroy or Stoine alias is inferred."	"May the gods show them mercy. May Akara grant them peace. Their cimes will not be forgotten.
+
+-Call Dodwin
+-Pwyn Malwich
+-Aegar Madrith
+-Nara Ardona
+-Idas Saf
+-Eyman Snordwin
+-Wismey Tholivia
+-Onga Woolsin
+-Astley Fjord
+-Gefroy Stoine
+-Helwa Holstig
+-Delf Loerthic
+-
+-
+-"	"神々の御慈悲あれ。アカラよ、彼らに平穏を。その罪が忘れ去られることはないだろう。
+
+-コール・ドドウィン
+-プウィン・マルウィッチ
+-エイガー・マドリス
+-ナーラ・アードナ
+-アイダス・サフ
+-エイマン・スノードウィン
+-ウィズメイ・ソリヴィア
+-オンガ・ウールシン
+-アストリー・フィヨルド
+-ゲフロイ・ストイン
+-ヘルワ・ホルスティグ
+-デルフ・レルシック
+-
+-
+-"	"愿神灵赐予他们仁慈。愿阿卡拉赐予他们和平。他们的罪恶不会被人遗忘。
+
+-考尔·多德文
+-普文·麦尔维奇
+-艾戈尔·曼德里斯
+-纳拉·阿多纳
+-伊达斯·撒夫
+-艾曼·斯罗德文
+-威斯梅·托利维亚
+-翁高·乌尔辛
+-阿斯特利·福约德
+-戈弗里·斯多英
+-海尔洼·霍斯迪格
+-德尔福·罗尔斯克
+-
+-
+-"	"{""person:gefroy-stoine"":""accepted""}"	"{""person:gefroy-stoine"":""needs-context""}"	"{""person:gefroy-stoine"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32740"	""	"person:angsar-solsvard"	"accepted"	"드베르가 선원들이 갤로우스 엔드(Gallows End)를 점령하는 건 시간문제였다. 천연 요새와 얕은 만, 북쪽 해안의 보호초가 강력한 방어력을 갖춘 섬이었기 때문이다. 공개적으로 인정하는 이는 없었지만, 그들을 끌어당긴 건 그보다 더 깊은 무언가, 기묘하고 초자연적이기까지 한 충동이기도 했다. 섬에 영구적인 거점을 세우고 장기적으로 안전을 지키기 위해 드베르가는 고지대와 해안 절벽을 깊숙이 파고들어 나무와 진흙으로 된 일련의 터널을 만들었다. 이를 ‘패스팅(fastings)’이라고 불렀다. 이 통로망은 본섬 전체를 가로지르고 해안과 모래톱에 흩어진 작은 섬들까지 뻗어 있어, 모든 통로가 서로 연결되어 있음을 시사한다.
+
+이 근면한 드워프들을 이끈 이는 드베르가 광전사 앙사르 솔스바르드였다. 그는 옵시디언 섬(Obsidian Isle)의 영주 울스텐의 아들이었다. 울스텐 족장은 섬에 상륙하던 중 목숨을 잃었고, 드베르가들은 곧 이 섬을 자기들 말로 ‘위험하다’는 뜻인 바라린(Varalin)이라 불렀다. 아버지가 죽은 뒤 솔스바르드는 섬 남쪽 해변에 야영지를 세우고, 다른 드베르가 건축물과는 어울리지 않을 만큼 거대한 거처인 그레이브홀 요새(Gravehal Keep)를 짓기 시작했다. 현장에 남은 유물로 보아 솔스바르드는 그곳을 노예무역 거점으로 만들려 했던 듯하다. 그랬다면 드베르가의 세력은 서쪽 프로스트브레이크 해(Frostbreak Sea) 깊숙이까지 뻗었을 것이다."	"드베르가 선원들이 갤로우스 엔드(Gallows End)를 점령하는 건 시간문제였다. 천연 요새와 얕은 만, 북쪽 해안의 보호초가 강력한 방어력을 갖춘 섬이었기 때문이다. 공개적으로 인정하는 이는 없었지만, 그들을 끌어당긴 건 그보다 더 깊은 무언가, 기묘하고 초자연적이기까지 한 충동이기도 했다. 섬에 영구적인 거점을 세우고 장기적으로 안전을 지키기 위해 드베르가는 고지대와 해안 절벽을 깊숙이 파고들어 나무와 진흙으로 된 일련의 터널을 만들었다. 이를 ‘패스팅(fastings)’이라고 불렀다. 이 통로망은 본섬 전체를 가로지르고 해안과 모래톱에 흩어진 작은 섬들까지 뻗어 있어, 모든 통로가 서로 연결되어 있음을 시사한다.
+
+이 근면한 드워프들을 이끈 이는 드베르가 광전사 앙사르 솔스바르드(Angsar Solsvard)였다. 그는 옵시디언 섬(Obsidian Isle)의 영주 울스텐의 아들이었다. 울스텐 족장은 섬에 상륙하던 중 목숨을 잃었고, 드베르가들은 곧 이 섬을 자기들 말로 ‘위험하다’는 뜻인 바라린(Varalin)이라 불렀다. 아버지가 죽은 뒤 솔스바르드는 섬 남쪽 해변에 야영지를 세우고, 다른 드베르가 건축물과는 어울리지 않을 만큼 거대한 거처인 그레이브홀 요새(Gravehal Keep)를 짓기 시작했다. 현장에 남은 유물로 보아 솔스바르드는 그곳을 노예무역 거점으로 만들려 했던 듯하다. 그랬다면 드베르가의 세력은 서쪽 프로스트브레이크 해(Frostbreak Sea) 깊숙이까지 뻗었을 것이다."	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese アングサー・ソルスヴァード and Chinese 安格萨·索尔斯瓦德 corroborate the named Gravehal builder. Retain default:2858's 앙사르 spelling; do not silently alias the distinct English spelling Ansgar Solsvard or infer that the different heir narrative names the same person."	"It was only a matter of time before Dverga sailors captured the island of Gallows End, drawn by its strong natural defenses, shallow inlet, and the protected reef on the northern coast; and while no one ever admitted it openly, they were also attracted by something deeper, a strange, even supernatural compulsion. To establish a permanent presence on the island, and to insure its long term security, the Dverga burrowed deep into the highlands and coastal cliffs, creating a series of wood and mud tunnels called fastings. This network of passages spans the length of the main island, and throughout smaller islands scattering the shores and sandbars, suggesting that all the passages are connected.
+
+Leader of these industrious dwarfs was the Dverga Berzerker Angsar Solsvard, son of Ulsten, a lord of the Obsidian Isle. Ulsten Chief perished during the landing on the island, which the Dverga quickly dubbed Varalin, meaning ""dangerous"" in their native tongue. After the death of his father, Solsvard proceeded to construct a camp upon the southern beaches of the island and begin work on Gravehal Keep, a monstrous dwelling that is not in keeping with any other Dvergan structure. Artifacts left at the site suggest that Solsvard intended to establish a slaving hub, one that could extend the Dverga's reach far into the western Frostbreak Sea."	"防衛に適した地形、水深の浅い入り江、そして北岸の強固なサンゴ礁が盾になる島となれば、ドゥバーガの船乗りたちがガローズ・エンドを占拠するのは時間の問題だった。そして、公言する者こそいなかったものの、何かより深いもの、奇妙な、超常的とすら言える衝動によって引き寄せられていたのだった。島に拠点を構え、長期的に守りを固めるため、ドゥバーガは高地部分や沿岸部の崖などを延々と掘り進み、木と泥で固めた一連の地下通路を作っていった。網目状に広がるこれらの通路は本島の全長に及び、海岸や砂州に面した小さな島にも及んでいるため、全ての通路が繋がっているものと考えられる。
+
+これらの勤勉なドワーフのリーダーはオブシディアン島のいち領主であるウルステンの息子にして、ドゥバーガのバーサーカー、アングサー・ソルスヴァードであった。父であるウルステンは島への上陸の際に命を落とし、ドゥバーガたちはすぐに島を母語で危険を意味する""ヴァラリン""と名づけたのであった。父の死後、ソルスヴァードは島の南側の浜辺に野営地を築き、他のドゥバーガの建造物とは一線を画した巨大な拠点、グレイバル砦の建設にとりかかった。現場に残されていた器具などから推察するに、ソルスヴァードはそこに奴隷貿易の拠点を設立するつもりだったらしく、そうなればドゥバーガらの勢力圏はフロストブレイク海の西側深くまで広がっていたところだ。"	"有它那强大的天然防御，入水口很浅，再加上北部海岸线起保护作用的礁石，迪维尔干水手占领绞架角这座岛屿不过是时间的问题；虽然没有人公开承诺过，他们同时也深受某种奇异而超自然的强制力而吸引。为了在岛上永久存在，也为了确保长期的安全，迪维尔干人在高地和海崖深处开挖地洞，建造了一批木头和泥巴砌成的隧道，叫做法斯廷。这条通道网贯穿了主岛，还有分散在海岸和沙堤的小岛，表示所有通道都是连在一起的。
+
+这群勤劳的矮人首领是迪维尔干狂战士安格萨·索尔斯瓦德，黑曜岛领主阿尔斯顿的儿子。首领阿尔斯顿在登陆这座岛时就死了，迪维尔干人立刻把这座岛称为瓦拉林，本地话的意思是“危险”。父亲死后，索尔斯瓦德继续在岛屿的南部沙滩上修建要塞，在格雷夫霍要塞继续开工，这是一座和其他任何迪维尔干建筑都不相符的庞大建筑。留在那里的人工产物显示，索尔斯瓦德企图建立一座奴隶中心，一座能够将迪维尔干的触手远远地延伸到西部裂霜海的奴隶中心。"	"{""person:angsar-solsvard"":""accepted""}"	"{""person:angsar-solsvard"":""needs-context""}"	"{""person:angsar-solsvard"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41913"	""	"person:jennery-vauner"	"accepted"	"제너리 보너"	"제너리 바우너(Jennery Vauner)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese ジェネリー・ボーナ and Chinese 詹内瑞·沃纳尔 corroborate; default:14523 explicitly calls Syllareta his wife. Reuse default:8303 and the separately registered Syllareta Vauner family's surname 바우너, without merging people."	"Jennery Vauner"	"ジェネリー・ボーナ"	"詹内瑞·沃纳尔"	"{""person:jennery-vauner"":""accepted""}"	"{""person:jennery-vauner"":""needs-context""}"	"{""person:jennery-vauner"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"52841"	""	"person:halder-rodric"	"not-an-issue"	"할더 로드릭(Halder Rodric)"	"할더 로드릭(Halder Rodric)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese ハルダー・ロドリック and Chinese 哈尔德·罗德里克 corroborate. Reuse default:52841 할더, also present in the short-name label, without automatically registering short Halder as a person alias."	"Halder Rodric"	"ハルダー・ロドリック"	"哈尔德·罗德里克"	"{""person:halder-rodric"":""not-an-issue""}"	"{""person:halder-rodric"":""needs-context""}"	"{""person:halder-rodric"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"55548"	""	"person:johan-vernt"	"accepted"	"요한 번트(Johan Vernt)"	"요한 버른트(Johan Vernt)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese ジョハン・ヴァーント and Chinese 约翰·冯特 corroborate. Follow the already registered Vernt family spelling 버른트, without merging Johan and Garaner or assigning the unlinked bare Vernt fallback label."	"Johan Vernt"	"ジョハン・ヴァーント"	"约翰·冯特"	"{""person:johan-vernt"":""accepted""}"	"{""person:johan-vernt"":""needs-context""}"	"{""person:johan-vernt"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"57789"	""	"person:gwastl-brad"	"accepted"	"과스틀 브래드"	"그와스틀 브래드(Gwastl Brad)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese グワストル・ブラッド and Chinese 格瓦斯特尔·布拉德 corroborate the Tirin's Rest contact. Reuse default:13627 그와스틀 브래드. Brad and Cergren business references are not personal aliases."	"Gwastl Brad"	"グワストル・ブラッド"	"格瓦斯特尔·布拉德"	"{""person:gwastl-brad"":""accepted""}"	"{""person:gwastl-brad"":""needs-context""}"	"{""person:gwastl-brad"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"61316"	""	"person:augusta-adele"	"accepted"	"어거스타 애덜(Augusta Adele)"	"어거스타 아델(Augusta Adele)"	"D-21221: English-led full-name review across affix/base/default. Only explicit full-name spans are normalized; shared surnames do not establish identity. Official Korean manual PDF pages 1 and 8 give setting and dialogue context, not these NPC spellings. Hreid Amelthoe versus Hreid Amlethoe is deliberately outside this batch pending identity review; no uncertain spelling is silently merged. Japanese オーガスタ・アデル and Chinese 奥古斯塔·阿戴尔 corroborate the full name. Reuse the in-corpus short Augusta spelling 어거스타 and surname 아델; do not create bare-name aliases."	"Augusta Adele"	"オーガスタ・アデル"	"奥古斯塔·阿戴尔"	"{""person:augusta-adele"":""accepted""}"	"{""person:augusta-adele"":""needs-context""}"	"{""person:augusta-adele"":""Candidate hit from the English source; verify this occurrence in context.""}"

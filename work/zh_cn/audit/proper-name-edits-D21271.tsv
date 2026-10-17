@@ -1,0 +1,931 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"28437"	""	"resource:bloodroot|resource:embereyes"	"accepted"	"잃은 마나를 회복하는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다.
+
+소프트스크래블 가루 (3)
+엠버아이즈 (2)
+블러드루트 (1)
+운명 정수 (1)"	"잃은 마나를 회복하는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다.
+
+소프트스크래블 가루 (3)
+엠버아이즈(Embereyes) (2)
+혈근초(Bloodroot) (1)
+운명 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:62263 explicitly identifies Embereyes as an herb, and recipes list it as a reagent. Japanese エンバーアイズ and Chinese 灰烬之眼 corroborate. Preserve the established majority source-name transcription 엠버아이즈; unify 잿불눈 and 엠버아이. Greater Embereyes keeps its qualifier. On Embereyes is a separate complete book title: exclude its reagent occurrence and review its full title independently. The manual defines Alchemy/reagents generically, not this plant spelling. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to restore lost Mana can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (3)
+Embereyes (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、消費したマナを回復させるポーションを調合できる
+
+ソフトスクラブルパウダー(3)
+エンバーアイズ(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种能恢复失去的法力的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（3）
+灰烬之眼（2）
+血根草（1）
+命运精华（1）"	"{""resource:embereyes"":""accepted"",""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context"",""resource:embereyes"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context."",""resource:embereyes"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28795"	""	"resource:searstalk"	"not-an-issue"	"시어스토크(Searstalk)를 얻었다. 루카 소렌(Luca Soren)을 치료할 수 있도록 아르하우스 보름(Arhaus Vorm)에게 돌아가야겠다."	"시어스토크(Searstalk)를 얻었다. 루카 소렌(Luca Soren)을 치료할 수 있도록 아르하우스 보름(Arhaus Vorm)에게 돌아가야겠다."	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:46910 identifies Searstalk as the rare Sidhe plant used to treat Luca Soren, and default:25890/28795/48762 confirms the same cure. Japanese シアスターク and Chinese 火炎叶 corroborate. Retain the established quest spelling 시어스토크 and normalize the isolated base 시어스탈크. Preserve other character/place names, quest actions and particles. No affix hit."	"I have acquired a Searstalk. I should return to Arhaus Vorm so that he can use it to cure Luca Soren."	"シアスタークを手に入れた。ルカ・ソレンを治すため、アーハウス・ヴォームに届けよう。"	"我拿到了火炎叶。我要将它交给阿豪斯·沃尔姆，这样就能治好卢卡·索伦。"	"{""resource:searstalk"":""not-an-issue""}"	"{""resource:searstalk"":""needs-context""}"	"{""resource:searstalk"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29252"	""	"resource:bloodroot"	"accepted"	"얼음 피해량을 높이는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다.
+
+화이트 플레이크(White Flake) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+블러드루트 (1)
+운명 정수 (1)"	"얼음 피해량을 높이는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다.
+
+화이트 플레이크(White Flake) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to increase all your Ice damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+White Flake (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える冷気ダメージを強化するポーションを調合できる
+
+ホワイトフレーク(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种可以提高你的寒冰伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+白垩片（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29465"	""	"resource:seaflax"	"accepted"	"얼음 피해 저항을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+화이트 플레이크(White Flake) (2)
+이사의 숨결(Ysa's Breath)(2)
+씨플랙스(1)
+운명의 정수(1)"	"얼음 피해 저항을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+화이트 플레이크(White Flake) (2)
+이사의 숨결(Ysa's Breath)(2)
+바닷아마(Seaflax)(1)
+운명의 정수(1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to increase your resistance to Ice damage can be mixed at an Alchemy Workbench using the following reagents:
+
+White Flake (2)
+Ysa's Breath (2)
+Seaflax (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、氷のダメージに対する耐性を強化するポーションを調合できる:
+
+ホワイト・フレーク(2)
+イーサブレス(2)
+シーフラックス(1)
+フェイトのエッセンス(1)"	"一种可以提高你对寒冰伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+白垩片（2）
+伊萨之息（2）
+海亚麻（1）
+命运精华（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30058"	""	"resource:seaflax"	"accepted"	"번개 저항을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+일 페탈(Eel Petal)(2)
+이사의 숨결(Ysa's Breath)(2)
+시 플랙스(1)"	"번개 저항을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+일 페탈(Eel Petal)(2)
+이사의 숨결(Ysa's Breath)(2)
+바닷아마(Seaflax)(1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to increase your Lightning Resistance can be mixed at an Alchemy Workbench using the following reagents:
+
+Eel Petal (2)
+Ysa's Breath (2)
+Seaflax (1)"	"以下の素材を錬金術の作業台で使えば、雷のダメージに対する耐性を強化するポーションを調合できる:
+
+イールの花びら(2)
+イーサブレス(2)
+シーフラックス(1)"	"一种可以提高你的雷电抗性的药水，可在炼金工作台使用下列试剂合成：
+
+鳗鱼花（2）
+伊萨之息（2）
+海亚麻（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30450"	""	"resource:bloodroot"	"accepted"	"물리 피해량을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+사티바 섬유 (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+블러드루트 (2)
+운명의 정수 (1)"	"물리 피해량을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+사티바 섬유 (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to increase your Physical damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (3)
+Scarwood Bark (3)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える物理ダメージを強化するポーションを調合できる
+
+サティヴァの葉(3)
+スカーウッドの樹皮(3)
+ブラッドルート(2)
+フェイトエッセンス(1)"	"一种可以提高你的物理伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（3）
+伤痕之木树皮（3）
+血根草（2）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30847"	""	"resource:bloodroot"	"accepted"	"번개 피해량을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+일 페탈(Eel Petal) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+블러드루트 (1)
+운명의 정수 (1)"	"번개 피해량을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+일 페탈(Eel Petal) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to increase your Lightning damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Eel Petal (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、敵に与える電撃ダメージを強化するポーションを調合できる:
+
+イールの花びら(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトのエッセンス(1)"	"一种可以提高你的雷电伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+鳗鱼花（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31005"	""	"resource:embereyes"	"accepted"	"대부분의 질병 증상을 치료하는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+잿불눈 (2)
+이사의 숨결(Ysa's Breath) (2)"	"대부분의 질병 증상을 치료하는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+엠버아이즈(Embereyes) (2)
+이사의 숨결(Ysa's Breath) (2)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:62263 explicitly identifies Embereyes as an herb, and recipes list it as a reagent. Japanese エンバーアイズ and Chinese 灰烬之眼 corroborate. Preserve the established majority source-name transcription 엠버아이즈; unify 잿불눈 and 엠버아이. Greater Embereyes keeps its qualifier. On Embereyes is a separate complete book title: exclude its reagent occurrence and review its full title independently. The manual defines Alchemy/reagents generically, not this plant spelling."	"A potion to cure the effects of most diseases can be mixed at an Alchemy Workbench using the following reagents:
+
+Embereyes (2)
+Ysa's Breath (2)"	"以下の素材を錬金術の作業台で使えば、ほとんどの病気を治療可能なポーションを調合できる:
+
+エンバーアイズ(2)
+イーサブレス(2)"	"一种看治疗大多数疾病的效果的药水，可在炼金工作台使用下列试剂合成：
+
+灰烬之眼（2）
+伊萨之息（2）"	"{""resource:embereyes"":""accepted""}"	"{""resource:embereyes"":""needs-context""}"	"{""resource:embereyes"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31330"	""	"resource:seaflax"	"accepted"	"출혈 피해 저항을 높이는 물약은 연금술 작업대에서 다음 시약을 섞어 만들 수 있다:
+
+스칼렛 플로우스톤(Scarlet Flowstone) (2)
+이사의 숨결(Ysa's Breath) (2)
+바다아마 (1)
+운명의 정수 (1)"	"출혈 피해 저항을 높이는 물약은 연금술 작업대에서 다음 시약을 섞어 만들 수 있다:
+
+스칼렛 플로우스톤(Scarlet Flowstone) (2)
+이사의 숨결(Ysa's Breath) (2)
+바닷아마(Seaflax) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to increase your resistance to Bleeding damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarlet Flowstone (2)
+Ysa's Breath (2)
+Seaflax (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、出血ダメージに対する耐性を強化するポーションを調合できる:
+
+スカーレット・フローストーン(2)
+イーサブレス(2)
+シーフラックス(1)
+フェイトのエッセンス(1)"	"一种可以提高你对流血伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+猩红流石（2）
+伊萨之息（2）
+海亚麻（1）
+命运精华（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32621"	""	"resource:bloodroot"	"accepted"	"체력 재생을 빠르게 해 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+블랙 코호시(3)
+스칼렛 플로우스톤(Scarlet Flowstone)(2)
+블러드루트(1)"	"체력 재생을 빠르게 해 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+블랙 코호시(3)
+스칼렛 플로우스톤(Scarlet Flowstone)(2)
+혈근초(Bloodroot)(1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion of rapid Health Regeneration can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Scarlet Flowstone (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、ライフの自動回復を高速化するポーションを調合できる:
+
+ブラック・コホシュ(3)
+スカーレット・フローストーン(2)
+ブラッドルート(1)"	"一种能提供快速生命回复的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+猩红流石（2）
+血根草（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32670"	""	"resource:bloodroot"	"accepted"	"독 피해를 높여 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+크리플스포어 갓(3)
+스카우드 나무껍질(Scarwood Bark)(2)
+블러드루트(1)"	"독 피해를 높여 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+크리플스포어 갓(3)
+스카우드 나무껍질(Scarwood Bark)(2)
+혈근초(Bloodroot)(1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to increase your Poison damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (3)
+Scarwood Bark (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、敵に与える毒ダメージを強化するポーションを調合できる:
+
+クリップルスポア・キャップ(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)"	"一种可以提高你的毒素伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（3）
+伤痕之木树皮（2）
+血根草（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34826"	""	"resource:seaflax"	"accepted"	"공격받으면 적을 75% 확률로 감전시키는 효과를 일시적으로 부여하는 물약입니다.
+
+일 페탈(Eel Petal) (3)
+에델바이스 (2)
+씨플랙스 (1)
+운명의 정수 (1)"	"공격받으면 적을 75% 확률로 감전시키는 효과를 일시적으로 부여하는 물약입니다.
+
+일 페탈(Eel Petal) (3)
+에델바이스 (2)
+바닷아마(Seaflax) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to temporarily give a 75% chance to Shock enemies when attacked.
+
+Eel Petal (3)
+Edelweiss (2)
+Seaflax (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、攻撃してきた敵を75%の確率で感電させる効果があるポーションを調合できる
+
+イールの花びら(3)
+エーデルワイス(2)
+シーフラックス(1)
+フェイトエッセンス(1)"	"一种能暂时使你在受到攻击时有75%的几率震击敌人的药水。
+
+鳗鱼花（3）
+雪绒花（2）
+海亚麻（1）
+命运精华（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34913"	""	"resource:bloodroot"	"accepted"	"연금술 작업대에서 다음 재료를 섞으면 체력이 빠르게 회복되는 물약을 만들 수 있습니다.
+
+블랙 코호시 (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (2)
+블러드루트 (1)
+운명의 정수 (1)"	"연금술 작업대에서 다음 재료를 섞으면 체력이 빠르게 회복되는 물약을 만들 수 있습니다.
+
+블랙 코호시 (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion of rapid Health Regeneration can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Scarlet Flowstone (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、ライフの自動回復を高速化するポーションを調合できる
+
+ブラックコホシュ(3)
+スカーレットフローストーン(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种能提供快速生命回复的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+猩红流石（2）
+血根草（1）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34930"	""	"resource:seaflax"	"accepted"	"연금술 작업대에서 다음 재료를 섞으면 모든 방어구 수치가 일시적으로 증가하는 물약을 만들 수 있습니다.
+
+씨플랙스 (2)
+이사의 숨결(Ysa's Breath) (1)"	"연금술 작업대에서 다음 재료를 섞으면 모든 방어구 수치가 일시적으로 증가하는 물약을 만들 수 있습니다.
+
+바닷아마(Seaflax) (2)
+이사의 숨결(Ysa's Breath) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to temporarily increase all your armor can be mixed at an Alchemy Workbench using the following reagents:
+
+Seaflax (2)
+Ysa's Breath (1)"	"以下の素材を錬金術台で使えば、防御力を全面的に強化するポーションを調合できる
+
+シーフラックス(2)
+イーサブレス(1)"	"一种能暂时提高你的所有护甲的药水，可在炼金工作台使用下列试剂合成：
+
+海亚麻（2）
+伊萨之息（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35585"	""	"resource:bloodroot"	"accepted"	"연금술 작업대에서 다음 재료를 섞으면 물리 피해량을 높이는 물약을 만들 수 있습니다.
+
+사티바 섬유 (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+블러드루트 (1)"	"연금술 작업대에서 다음 재료를 섞으면 물리 피해량을 높이는 물약을 만들 수 있습니다.
+
+사티바 섬유 (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to increase your Physical damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (3)
+Scarwood Bark (3)
+Bloodroot (1)"	"以下の素材を錬金術台で使えば、敵に与える物理ダメージを強化するポーションを調合できる
+
+サティヴァの葉(3)
+スカーウッドの樹皮(3)
+ブラッドルート(1)"	"一种可以提高你的物理伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（3）
+伤痕之木树皮（3）
+血根草（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36590"	""	"resource:bloodroot"	"accepted"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+별엉겅퀴 (3)
+혈근초 (1)"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+별엉겅퀴 (3)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase your Max Mana can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (3)
+Star Thistle (3)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、マナの最大値を一時的に増加させるポーションを調合できる:
+
+ソフトスクラブル・パウダー(3)
+スターシスル(3)
+ブラッドルート(1)"	"一种可以暂时提高你的最大法力的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（3）
+矢车菊（3）
+血根草（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36871"	""	"resource:seaflax"	"accepted"	"물리 피해 저항 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+사티바 섬유 (3)
+이사의 숨결(Ysa's Breath) (3)
+씨플랙스 (2)
+운명의 정수 (1)"	"물리 피해 저항 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+사티바 섬유 (3)
+이사의 숨결(Ysa's Breath) (3)
+바닷아마(Seaflax) (2)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to increase your resistance to Physical damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (3)
+Ysa's Breath (3)
+Seaflax (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、物理ダメージに対する耐性を強化するポーションを調合できる
+
+サティヴァの葉(3)
+イーサブレス(3)
+シーフラックス(2)
+フェイトエッセンス(1)"	"一种可以提高你对物理伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（3）
+伊萨之息（3）
+海亚麻（2）
+命运精华（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36918"	""	"resource:bloodroot"	"accepted"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+별엉겅퀴 (3)
+혈근초 (1)
+운명의 정수 (1)"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+별엉겅퀴 (3)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase your Max Mana can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (3)
+Star Thistle (3)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、マナの最大値を一時的に増加させるポーションを調合できる:
+
+ソフトスクラブル・パウダー(3)
+スターシスル(3)
+ブラッドルート(1)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的最大法力的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（3）
+矢车菊（3）
+血根草（1）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37102"	""	"resource:seaflax"	"accepted"	"공격받으면 공격자를 60% 확률로 얼리는 효과가 일시적으로 부여되는 물약입니다.
+
+화이트 플레이크(White Flake) (3)
+에델바이스(Edelweiss) (2)
+시플랙스(Seaflax) (1)"	"공격받으면 공격자를 60% 확률로 얼리는 효과가 일시적으로 부여되는 물약입니다.
+
+화이트 플레이크(White Flake) (3)
+에델바이스(Edelweiss) (2)
+바닷아마(Seaflax) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to temporarily give a 60% chance to Freeze enemies when attacked.
+
+White Flake (3)
+Edelweiss (2)
+Seaflax (1)"	"以下の素材を錬金術の作業台で使えば、攻撃してきた敵を60%の確率で凍結させる効果があるポーションを調合できる:
+
+ホワイト・フレーク(3)
+エーデルワイス(2)
+シーフラックス(1)"	"一种能暂时使你在受到攻击时有60%的几率冰冻敌人的药水。
+
+白垩片（3）
+雪绒花（2）
+海亚麻（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38617"	""	"resource:bloodroot"	"accepted"	"연금술 작업대에서 다음 재료를 사용하면 디스펠 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+별엉겅퀴 (2)
+하늘꽃(Sky Blossom)(2)
+피뿌리 (2)
+운명의 정수 (1)"	"연금술 작업대에서 다음 재료를 사용하면 디스펠 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+별엉겅퀴 (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase your Dispelling skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、解呪スキルを一時的に上昇させるポーションを調合できる:
+
+スターシスル(2)
+スカイ・ブロッサム(2)
+ブラッドルート(2)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的驱散技能的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39235"	""	"resource:seaflax"	"accepted"	"시플랙스"	"바닷아마(Seaflax)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"Seaflax"	"シーフラックス"	"海亚麻"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39322"	""	"resource:seaflax"	"accepted"	"공격받을 때 적을 감전시킬 확률이 일시적으로 60%가 되는 물약입니다.
+
+일 페탈(Eel Petal) (3)
+에델바이스 (2)
+시플랙스 (1)"	"공격받을 때 적을 감전시킬 확률이 일시적으로 60%가 되는 물약입니다.
+
+일 페탈(Eel Petal) (3)
+에델바이스 (2)
+바닷아마(Seaflax) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to temporarily give a 60% chance to Shock enemies when attacked.
+
+Eel Petal (3)
+Edelweiss (2)
+Seaflax (1)"	"以下の素材を錬金術台で使えば、攻撃してきた敵を60%の確率で感電させる効果があるポーションを調合できる
+
+イールの花びら(3)
+エーデルワイス(2)
+シーフラックス(1)"	"一种能暂时使你在受到攻击时有60%的几率震击敌人的药水。
+
+鳗鱼花（3）
+雪绒花（2）
+海亚麻（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41575"	""	"resource:bloodroot"	"accepted"	"모든 능력의 위력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+별엉겅퀴 (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+블러드루트 (1)"	"모든 능력의 위력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+별엉겅퀴 (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase the power of all your Abilities can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (3)
+Scarwood Bark (3)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、全アビリティの威力を一時的に強化するポーションを調合できる:
+
+スターシスル(3)
+スカーウッドの樹皮(3)
+ブラッドルート(1)"	"一种能暂时提高你的所有能力的威力的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（3）
+伤痕之木树皮（3）
+血根草（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41594"	""	"resource:bloodroot"	"accepted"	"화염 피해를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트위그 (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+블러드루트 (1)
+운명의 정수 (1)"	"화염 피해를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트위그 (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to increase your Fire damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える火炎ダメージを強化するポーションを調合できる
+
+ティンダートウィッグ(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种可以提高你的火焰伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"42291"	""	"resource:seaflax"	"accepted"	"피격 시 적을 60% 확률로 불태우는 효과를 일시적으로 부여하는 물약.
+
+팅더트위그 (3)
+에델바이스 (2)
+시플랙스 (1)"	"피격 시 적을 60% 확률로 불태우는 효과를 일시적으로 부여하는 물약.
+
+팅더트위그 (3)
+에델바이스 (2)
+바닷아마(Seaflax) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to temporarily give a 60% chance to Burn enemies when attacked.
+
+Tindertwig (3)
+Edelweiss (2)
+Seaflax (1)"	"以下の素材を錬金術の作業台で使えば、攻撃してきた敵を60%の確率で炎上させる効果があるポーションを調合できる:
+
+ティンダートウィッグ(3)
+エーデルワイス(2)
+シーフラックス(1)"	"一种能暂时使你在受到攻击时有60%的几率灼烧敌人的药水。
+
+火柴枝（3）
+雪绒花（2）
+海亚麻（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43146"	""	"resource:bloodroot"	"accepted"	"일시적으로 설득 기술을 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+리치우드 나무껍질(Leechwood Bark) (2)
+하늘꽃(Sky Blossom)(2)
+블러드루트 (2)
+운명의 정수 (1)"	"일시적으로 설득 기술을 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+리치우드 나무껍질(Leechwood Bark) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase your Persuasion skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Leechwood Bark (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、説得スキルを一時的に上昇させるポーションを調合できる:
+
+リーチウッドの樹皮(2)
+スカイ・ブロッサム(2)
+ブラッドルート(2)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的口才技能的药水，可在炼金工作台使用下列试剂合成：
+
+水蛭木树皮（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43220"	""	"resource:bloodroot"	"accepted"	"혼돈 피해량을 크게 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+혼돈의 정수(Chaos Essence) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+블러드루트 (1)
+운명의 정수 (1)"	"혼돈 피해량을 크게 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+혼돈의 정수(Chaos Essence) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to greatly increase your Chaos damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Chaos Essence (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、敵に与える混沌ダメージを強化するポーションを調合できる:
+
+混沌のエッセンス(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトのエッセンス(1)"	"一种可以大大提高你的混乱伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+混乱精华（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43292"	""	"resource:bloodroot"	"accepted"	"출혈 피해를 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+스칼렛 플로우스톤(Scarlet Flowstone) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+블러드루트 (1)"	"출혈 피해를 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+스칼렛 플로우스톤(Scarlet Flowstone) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to increase your Bleeding damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarlet Flowstone (3)
+Scarwood Bark (2)
+Bloodroot (1)"	"以下の素材を錬金術台で使えば、敵に与える出血ダメージを強化するポーションを調合できる
+
+スカーレットフローストーン(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)"	"一种可以提高你的流血伤害的药水，可在炼金工作台使用下列试剂合成：
+
+猩红流石（3）
+伤痕之木树皮（2）
+血根草（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43383"	""	"resource:bloodroot|resource:seaflax"	"accepted"	"방어력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+바다아마 (2)
+이사의 숨결(Ysa's Breath) (2)
+블러드루트 (1)
+운명의 정수 (1)"	"방어력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+바닷아마(Seaflax) (2)
+이사의 숨결(Ysa's Breath) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase all your armor can be mixed at an Alchemy Workbench using the following reagents:
+
+Seaflax (2)
+Ysa's Breath (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、防御力を全面的に強化するポーションを調合できる
+
+シーフラックス(2)
+イーサブレス(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种能暂时提高你的所有护甲的药水，可在炼金工作台使用下列试剂合成：
+
+海亚麻（2）
+伊萨之息（2）
+血根草（1）
+命运精华（1）"	"{""resource:seaflax"":""accepted"",""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context"",""resource:seaflax"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context."",""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43689"	""	"resource:bloodroot"	"accepted"	"연금술 작업대에서 다음 시약을 사용하면 마나가 빠르게 재생되는 물약을 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (2)
+블러드루트 (1)
+운명의 정수 (1)"	"연금술 작업대에서 다음 시약을 사용하면 마나가 빠르게 재생되는 물약을 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to grant you rapid Mana Regeneration can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (3)
+Scarlet Flowstone (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、マナの自動回復を高速化するポーションを調合できる
+
+ソフトスクラブルパウダー(3)
+スカーレットフローストーン(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种能让你获得快速法力回复的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（3）
+猩红流石（2）
+血根草（1）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"44914"	""	"resource:embereyes"	"accepted"	"그의 이름은 카르스(Karth) 힐프레드였어. 어느 날 아침 문밖에서 엠버아이를 뒤지고 있는 그를 봤지. 식물에 대해 아주 잘 알고 있어서 놀랐어."	"그의 이름은 카르스(Karth) 힐프레드였어. 어느 날 아침 문밖에서 엠버아이즈(Embereyes)를 뒤지고 있는 그를 봤지. 식물에 대해 아주 잘 알고 있어서 놀랐어."	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:62263 explicitly identifies Embereyes as an herb, and recipes list it as a reagent. Japanese エンバーアイズ and Chinese 灰烬之眼 corroborate. Preserve the established majority source-name transcription 엠버아이즈; unify 잿불눈 and 엠버아이. Greater Embereyes keeps its qualifier. On Embereyes is a separate complete book title: exclude its reagent occurrence and review its full title independently. The manual defines Alchemy/reagents generically, not this plant spelling."	"His name was Karth Hilfred. I found him one morning outside my door picking through the Embereyes. I was impressed how well he knew his way around a plant."	"名はカース・ヒルフレッド。ある朝、扉の外でエンバーアイズを探し回っている彼を見つけたの。植物にとても詳しいので感心したわ"	"他叫卡尔斯·希尔弗雷德。有一天早晨，我发现他在我的门外搜寻灰烬之眼。最令我印象深刻的是他对工厂周围的环境非常熟悉。"	"{""resource:embereyes"":""accepted""}"	"{""resource:embereyes"":""needs-context""}"	"{""resource:embereyes"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"46523"	""	"resource:bloodroot"	"accepted"	"블러드루트"	"혈근초(Bloodroot)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"Bloodroot"	"ブラッドルート"	"血根草"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"46637"	""	"resource:bloodroot"	"accepted"	"은신 기술을 일시적으로 높여 주는 물약은 연금술 작업대에서 다음 시약을 사용해 만들 수 있습니다:
+
+크리플스포어 갓 (2)
+하늘꽃(Sky Blossom)(2)
+블러드루트 (2)
+운명의 정수 (1)"	"은신 기술을 일시적으로 높여 주는 물약은 연금술 작업대에서 다음 시약을 사용해 만들 수 있습니다:
+
+크리플스포어 갓 (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase your Stealth skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、隠密スキルを一時的に上昇させるポーションを調合できる
+
+クリップルスポアの笠(2)
+スカイブロッサム(2)
+ブラッドルート(2)
+フェイトエッセンス(1)"	"一种可以暂时提高你的潜行技能的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"46910"	""	"resource:searstalk"	"accepted"	"루카 소렌(Luca Soren)이 스레시(Thresh)에 공격당했다. 상처가 심각하고 스레시(Thresh)의 독에 드물게 나타나는 반응을 보인다. 아르하우스 보름(Arhaus Vorm)의 말로는 치료하려면 시드헤에서만 자라는 희귀 식물 시어스토크가 필요하다고 한다. 내가 찾아오겠다고 했다."	"루카 소렌(Luca Soren)이 스레시(Thresh)에 공격당했다. 상처가 심각하고 스레시(Thresh)의 독에 드물게 나타나는 반응을 보인다. 아르하우스 보름(Arhaus Vorm)의 말로는 치료하려면 시드헤에서만 자라는 희귀 식물 시어스토크(Searstalk)가 필요하다고 한다. 내가 찾아오겠다고 했다."	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:46910 identifies Searstalk as the rare Sidhe plant used to treat Luca Soren, and default:25890/28795/48762 confirms the same cure. Japanese シアスターク and Chinese 火炎叶 corroborate. Retain the established quest spelling 시어스토크 and normalize the isolated base 시어스탈크. Preserve other character/place names, quest actions and particles. No affix hit."	"Luca Soren has been attacked by a thresh. Her wounds are serious; she has had a rare reaction to thresh's venom. Arhaus Vorm says that in order to cure her he needs a rare plant, a Searstalk, which is found only within the Sidhe. I have agreed to find one."	"ルカ・ソレンがスレッシュに襲われ、重傷を負った。アーハウス・ヴォームによると、スレッシュの毒への特異な反応が見られるため、治療にはシーにしか育たないシアスタークという珍しい植物が必要だという。この植物を見つけると約束した。"	"卢卡·索伦受到了长尾怪的攻击。她受伤非常严重，而且对长尾怪的毒素产生了特殊反应。阿豪斯·沃尔姆称，想要治好她需要一种稀有的植物，叫做火炎叶，这种植物只能在仙境内找到。我同意去找一株。"	"{""resource:searstalk"":""accepted""}"	"{""resource:searstalk"":""needs-context""}"	"{""resource:searstalk"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"47933"	""	"resource:seaflax"	"accepted"	"원소 피해 저항을 높이는 물약은 아래 재료를 사용해 연금술 작업대에서 만들 수 있다:
+
+별 엉겅퀴 (3)
+이사의 숨결(Ysa's Breath) (3)
+바다아마 (2)
+운명의 정수 (1)"	"원소 피해 저항을 높이는 물약은 아래 재료를 사용해 연금술 작업대에서 만들 수 있다:
+
+별 엉겅퀴 (3)
+이사의 숨결(Ysa's Breath) (3)
+바닷아마(Seaflax) (2)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to increase your resistance to Elemental damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (3)
+Ysa's Breath (3)
+Seaflax (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、属性ダメージに対する耐性を強化するポーションを調合できる:
+
+スターシスル(3)
+イーサブレス(3)
+シーフラックス(2)
+フェイトのエッセンス(1)"	"一种可以提高你对元素伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（3）
+伊萨之息（3）
+海亚麻（2）
+命运精华（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"48297"	""	"resource:bloodroot|resource:embereyes"	"accepted"	"잃은 체력을 회복하는 물약은 아래 재료를 사용해 연금술 작업대에서 만들 수 있다:
+
+블랙 코호시 (3)
+엠버아이즈 (2)
+블러드루트 (1)
+운명의 정수 (1)"	"잃은 체력을 회복하는 물약은 아래 재료를 사용해 연금술 작업대에서 만들 수 있다:
+
+블랙 코호시 (3)
+엠버아이즈(Embereyes) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:62263 explicitly identifies Embereyes as an herb, and recipes list it as a reagent. Japanese エンバーアイズ and Chinese 灰烬之眼 corroborate. Preserve the established majority source-name transcription 엠버아이즈; unify 잿불눈 and 엠버아이. Greater Embereyes keeps its qualifier. On Embereyes is a separate complete book title: exclude its reagent occurrence and review its full title independently. The manual defines Alchemy/reagents generically, not this plant spelling. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to restore lost health can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Embereyes (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、失われたライフを回復するポーションを調合できる
+
+ブラックコホシュ(3)
+エンバーアイズ(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种能恢复失去的生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+灰烬之眼（2）
+血根草（1）
+命运精华（1）"	"{""resource:embereyes"":""accepted"",""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context"",""resource:embereyes"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context."",""resource:embereyes"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"48762"	""	"resource:searstalk"	"accepted"	"즉시 루카에게 이걸 투여하겠다. 시어스토크라면 독을 금세 제거할 거야."	"즉시 루카에게 이걸 투여하겠다. 시어스토크(Searstalk)라면 독을 금세 제거할 거야."	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:46910 identifies Searstalk as the rare Sidhe plant used to treat Luca Soren, and default:25890/28795/48762 confirms the same cure. Japanese シアスターク and Chinese 火炎叶 corroborate. Retain the established quest spelling 시어스토크 and normalize the isolated base 시어스탈크. Preserve other character/place names, quest actions and particles. No affix hit."	"I shall administer this to Luca at once. The Searstalk should make quick work of the venom."	"すぐにこれをルカに与えよう。シアスタークがあれば、すぐに毒が消えるだろう"	"我要马上把这个交给卢卡。火炎叶应该能快速消解毒素。"	"{""resource:searstalk"":""accepted""}"	"{""resource:searstalk"":""needs-context""}"	"{""resource:searstalk"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50040"	""	"resource:embereyes"	"accepted"	"잿불눈"	"엠버아이즈(Embereyes)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:62263 explicitly identifies Embereyes as an herb, and recipes list it as a reagent. Japanese エンバーアイズ and Chinese 灰烬之眼 corroborate. Preserve the established majority source-name transcription 엠버아이즈; unify 잿불눈 and 엠버아이. Greater Embereyes keeps its qualifier. On Embereyes is a separate complete book title: exclude its reagent occurrence and review its full title independently. The manual defines Alchemy/reagents generically, not this plant spelling."	"Embereyes"	"エンバーアイズ"	"灰烬之眼"	"{""resource:embereyes"":""accepted""}"	"{""resource:embereyes"":""needs-context""}"	"{""resource:embereyes"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50503"	""	"resource:bloodroot"	"accepted"	"다음 재료를 사용해 연금술 작업대에서 독 피해량을 높이는 물약을 만들 수 있다.
+
+크리플스포어 갓 (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+블러드루트 (1)
+운명의 정수 (1)"	"다음 재료를 사용해 연금술 작업대에서 독 피해량을 높이는 물약을 만들 수 있다.
+
+크리플스포어 갓 (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to increase your Poison damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える毒ダメージを強化するポーションを調合できる
+
+クリップルスポアの笠(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种可以提高你的毒素伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50971"	""	"resource:searstalk"	"not-an-issue"	"시어스토크(Searstalk)는 물이 흐르며 안개가 피어오르는 곳에서 자란다고 해."	"시어스토크(Searstalk)는 물이 흐르며 안개가 피어오르는 곳에서 자란다고 해."	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:46910 identifies Searstalk as the rare Sidhe plant used to treat Luca Soren, and default:25890/28795/48762 confirms the same cure. Japanese シアスターク and Chinese 火炎叶 corroborate. Retain the established quest spelling 시어스토크 and normalize the isolated base 시어스탈크. Preserve other character/place names, quest actions and particles. No affix hit."	"Searstalk is supposed to grow near flowing, misting water."	"シアスタークは、水が湧き上がり霧になる場所で育つらしい"	"火炎叶一般生长在雾气萦绕的流水附近。"	"{""resource:searstalk"":""not-an-issue""}"	"{""resource:searstalk"":""needs-context""}"	"{""resource:searstalk"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"51715"	""	"resource:bloodroot"	"accepted"	"연금술 작업대에서 다음 재료를 섞으면 설득 기술을 일시적으로 높이는 물약을 만들 수 있습니다:
+
+리치우드 나무껍질(Leechwood Bark) (2)
+하늘꽃(Sky Blossom) (2)
+블러드루트(Bloodroot) (1)"	"연금술 작업대에서 다음 재료를 섞으면 설득 기술을 일시적으로 높이는 물약을 만들 수 있습니다:
+
+리치우드 나무껍질(Leechwood Bark) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase your Persuasion skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Leechwood Bark (2)
+Sky Blossom (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、説得スキルを一時的に上昇させるポーションを調合できる:
+
+リーチウッドの樹皮(2)
+スカイ・ブロッサム(2)
+ブラッドルート(1)"	"一种可以暂时提高你的口才技能的药水，可在炼金工作台使用下列试剂合成：
+
+水蛭木树皮（2）
+天空之花（2）
+血根草（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"52608"	""	"resource:bloodroot"	"accepted"	"상업 기술을 일시적으로 높여 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+사티바 섬유(Sativa Fibers) (2)
+하늘꽃(Sky Blossom) (2)
+블러드루트(Bloodroot) (1)"	"상업 기술을 일시적으로 높여 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+사티바 섬유(Sativa Fibers) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase your Mercantile skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (2)
+Sky Blossom (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、商才スキルを一時的に上昇させるポーションを調合できる:
+
+サティヴァの葉(2)
+スカイ・ブロッサム(2)
+ブラッドルート(1)"	"一种可以暂时提高你的交易技能的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（2）
+天空之花（2）
+血根草（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"54765"	""	"resource:bloodroot"	"accepted"	"다음 재료를 연금술 작업대에서 섞으면 상술 기술(Mercantile)을 일시적으로 높이는 물약을 만들 수 있다:
+
+사티바 섬유(Sativa Fibers) (2)
+하늘꽃(Sky Blossom) (2)
+블러드루트(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"다음 재료를 연금술 작업대에서 섞으면 상술 기술(Mercantile)을 일시적으로 높이는 물약을 만들 수 있다:
+
+사티바 섬유(Sativa Fibers) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase your Mercantile skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、商才スキルを一時的に上昇させるポーションを調合できる:
+
+サティヴァの葉(2)
+スカイ・ブロッサム(2)
+ブラッドルート(2)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的交易技能的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"55550"	""	"resource:embereyes"	"not-an-issue"	"빠르네. 나머지 시약도 찾아왔구나. 이 도시 사람 대부분은 엠버아이즈(Embereyes)와 하드스크래블(Hardscrabble)도 구별하지 못할 거야."	"빠르네. 나머지 시약도 찾아왔구나. 이 도시 사람 대부분은 엠버아이즈(Embereyes)와 하드스크래블(Hardscrabble)도 구별하지 못할 거야."	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:62263 explicitly identifies Embereyes as an herb, and recipes list it as a reagent. Japanese エンバーアイズ and Chinese 灰烬之眼 corroborate. Preserve the established majority source-name transcription 엠버아이즈; unify 잿불눈 and 엠버아이. Greater Embereyes keeps its qualifier. On Embereyes is a separate complete book title: exclude its reagent occurrence and review its full title independently. The manual defines Alchemy/reagents generically, not this plant spelling."	"That was quick. You found the rest of the reagents. Most people in this city wouldn't know Embereyes from Hardscrabble."	"早かったね。残りの素材を見つけたのか。不毛の地のエンバーアイズのことなんて、街の住民のほとんどは知らない"	"真快啊。你找到了剩下的试剂。这个城市的大多数人都区分不了灰烬之眼和硬皮草。"	"{""resource:embereyes"":""not-an-issue""}"	"{""resource:embereyes"":""needs-context""}"	"{""resource:embereyes"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"56554"	""	"resource:seaflax"	"accepted"	"독 저항력을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+크리플스포어 갓(2)
+이사의 숨결(Ysa's Breath)(2)
+바다아마(1)
+운명의 정수(1)"	"독 저항력을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+크리플스포어 갓(2)
+이사의 숨결(Ysa's Breath)(2)
+바닷아마(Seaflax)(1)
+운명의 정수(1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to increase your Poison Resistance can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Ysa's Breath (2)
+Seaflax (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、毒に対する耐性を強化するポーションを調合できる
+
+クリップルスポアの笠(2)
+イーサブレス(2)
+シーフラックス(1)
+フェイトエッセンス(1)"	"一种可以提高你的毒素抗性的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+伊萨之息（2）
+海亚麻（1）
+命运精华（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"56756"	""	"resource:embereyes"	"not-an-issue"	"엠버아이즈(Embereyes)"	"엠버아이즈(Embereyes)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:62263 explicitly identifies Embereyes as an herb, and recipes list it as a reagent. Japanese エンバーアイズ and Chinese 灰烬之眼 corroborate. Preserve the established majority source-name transcription 엠버아이즈; unify 잿불눈 and 엠버아이. Greater Embereyes keeps its qualifier. On Embereyes is a separate complete book title: exclude its reagent occurrence and review its full title independently. The manual defines Alchemy/reagents generically, not this plant spelling."	"Embereyes"	"エンバーアイズ"	"灰烬之眼"	"{""resource:embereyes"":""not-an-issue""}"	"{""resource:embereyes"":""needs-context""}"	"{""resource:embereyes"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"57608"	""	"resource:seaflax"	"accepted"	"얼음 피해 저항력을 높이는 물약은 연금술 작업대에서 다음 시약을 섞어 만들 수 있습니다:
+
+화이트 플레이크(White Flake) (2)
+이사의 숨결(Ysa's Breath) (2)
+바다 아마 (1)"	"얼음 피해 저항력을 높이는 물약은 연금술 작업대에서 다음 시약을 섞어 만들 수 있습니다:
+
+화이트 플레이크(White Flake) (2)
+이사의 숨결(Ysa's Breath) (2)
+바닷아마(Seaflax) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:10994 describes dried braided Seaflax threads as a protective potion reagent; default:59501 gives its planting/crop context. Japanese シーフラックス and Chinese 海亚麻 identify the same plant in labels, recipes and prose. Reuse the existing semantic base label 바닷아마 and pair Seaflax, replacing the unpaired/variant phonetic forms only in English-mapped rows. Preserve quantities, recipe effects and crop timing. No affix hit."	"A potion to increase your resistance to Ice damage can be mixed at an Alchemy Workbench using the following reagents:
+
+White Flake (2)
+Ysa's Breath (2)
+Seaflax (1)"	"以下の素材を錬金術の作業台で使えば、氷のダメージに対する耐性を強化するポーションを調合できる:
+
+ホワイト・フレーク(2)
+イーサブレス(2)
+シーフラックス(1)"	"一种可以提高你对寒冰伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+白垩片（2）
+伊萨之息（2）
+海亚麻（1）"	"{""resource:seaflax"":""accepted""}"	"{""resource:seaflax"":""needs-context""}"	"{""resource:seaflax"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"58241"	""	"resource:searstalk"	"accepted"	"시어스토크는 물이 흐르고 안개가 피어오르는 곳 근처에서 자란다고 들었어. 강을 따라 북쪽으로 가 봐."	"시어스토크(Searstalk)는 물이 흐르고 안개가 피어오르는 곳 근처에서 자란다고 들었어. 강을 따라 북쪽으로 가 봐."	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English default:46910 identifies Searstalk as the rare Sidhe plant used to treat Luca Soren, and default:25890/28795/48762 confirms the same cure. Japanese シアスターク and Chinese 火炎叶 corroborate. Retain the established quest spelling 시어스토크 and normalize the isolated base 시어스탈크. Preserve other character/place names, quest actions and particles. No affix hit."	"I've heard that Searstalk grow near flowing, misting water, so you might try following the river north."	"シアスタークは水が湧き上がり霧になる場所の近くで育つらしい。川を北にたどってみるといい"	"我听说火炎叶生长在雾气萦绕的流水附近，所以你可以尝试沿着这条河向北找找。"	"{""resource:searstalk"":""accepted""}"	"{""resource:searstalk"":""needs-context""}"	"{""resource:searstalk"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"58576"	""	"resource:bloodroot"	"accepted"	"다음 재료를 연금술 작업대에서 혼합하면 자물쇠 따기 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+일 페탈(Eel Petal) (2)
+하늘꽃(Sky Blossom)(2)
+혈근 (1)"	"다음 재료를 연금술 작업대에서 혼합하면 자물쇠 따기 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+일 페탈(Eel Petal) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase your Lockpicking skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Eel Petal (2)
+Sky Blossom (2)
+Bloodroot (1)"	"以下の素材を錬金術台で使えば、開錠スキルを一時的に上昇させるポーションを調合できる
+
+イールの花びら(2)
+スカイブロッサム(2)
+ブラッドルート(1)"	"一种可以暂时提高你的开锁技能的药水，可在炼金工作台使用下列试剂合成：
+
+鳗鱼花（2）
+天空之花（2）
+血根草（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"58914"	""	"resource:bloodroot"	"accepted"	"다음 시약을 연금술 작업대에서 혼합하면 숨겨진 물건 찾기 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+딱정벌레 소금 (2)
+하늘꽃(Sky Blossom)(2)
+혈근 (1)"	"다음 시약을 연금술 작업대에서 혼합하면 숨겨진 물건 찾기 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+딱정벌레 소금 (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency review across affix/base/default. Official Korean manual PDF p. 4 (Alchemy skill) and p. 8 (crafting, Reagents and Recipes) supply gameplay context, not plant-specific names. Edit only mapped name spans; retain all effects, quantities, existing other-name annotations, tokens, line breaks, prose and particles. English labels and potion recipes identify Bloodroot as a plant reagent; default:63572 also describes a blooming bloodroot. Japanese ブラッドルート and Chinese 血根草 corroborate. Reuse existing Korean base 혈근초 and already-paired recipes, unifying 블러드루트, 혈근 and 피뿌리. Do not infer real-world pharmacology or change quantities/effects. No affix hit."	"A potion to temporarily increase your Detect Hidden skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarab Salts (2)
+Sky Blossom (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、探知スキルを一時的に上昇させるポーションを調合できる:
+
+スカラベの塩(2)
+スカイ・ブロッサム(2)
+ブラッドルート(1)"	"一种可以暂时提高你的侦测隐藏技能的药水，可在炼金工作台使用下列试剂合成：
+
+甲虫盐（2）
+天空之花（2）
+血根草（1）"	"{""resource:bloodroot"":""accepted""}"	"{""resource:bloodroot"":""needs-context""}"	"{""resource:bloodroot"":""Candidate hit from the English source; verify this occurrence in context.""}"

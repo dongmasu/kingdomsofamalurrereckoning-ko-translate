@@ -1,0 +1,598 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"36133"	""	"resource:softscrabble-powder"	"accepted"	"침수된 광산과 동굴에서 광맥으로 발견되는 소프트스크래블 가루는 {*3마나} 관련 물약을 만드는 데 쓰입니다."	"침수된 광산과 동굴에서 광맥으로 발견되는 소프트스크래블 가루(Softscrabble Powder)는 {*3마나} 관련 물약을 만드는 데 쓰입니다."	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:36133 explicitly identifies Softscrabble Powder as a mineral deposit used in Mana potions. Japanese ソフトスクラブル・パウダー and Chinese 软爪石粉末 corroborate. Pair the complete material label, not only Softscrabble. Existing canonical full annotations remain unchanged. Do not turn the mineral into a plant or merge it with Hardscrabble."	"A mineral deposit of flooded mines and caves, Softscrabble Powder aids in the creation of potions related to {*3Mana}."	"浸水した鉱山や洞窟で鉱床として見つかるソフトスクラブル・パウダーは、{*3マナ}に関連するポーションの調合に役立つ。"	"作为被淹没的矿井和洞穴中的矿藏，软爪石粉末能够帮助制造与{*3法力}有关的药水。"	"{""resource:softscrabble-powder"":""accepted""}"	"{""resource:softscrabble-powder"":""needs-context""}"	"{""resource:softscrabble-powder"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36136"	""	"resource:essence-of-fate"	"accepted"	"운명의 힘을 즉시 가득 채워 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+운명의 정수 (4)"	"운명의 힘을 즉시 가득 채워 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+운명의 정수(Essence of Fate) (4)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to instantly fill you with Fate energy can be mixed at an Alchemy Workbench using the following reagents:
+
+Essence of Fate (4)"	"以下の素材を錬金術台で使えば、フェイトを一気に満たすポーションを調合できる
+
+フェイトエッセンス(4)"	"一种能立即让你充满命运能量的药水，可在炼金工作台使用下列试剂合成：
+
+命运精华（4）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36590"	""	"resource:softscrabble-powder"	"accepted"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+별엉겅퀴(Star Thistle) (3)
+혈근초(Bloodroot) (1)"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루(Softscrabble Powder) (3)
+별엉겅퀴(Star Thistle) (3)
+혈근초(Bloodroot) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:36133 explicitly identifies Softscrabble Powder as a mineral deposit used in Mana potions. Japanese ソフトスクラブル・パウダー and Chinese 软爪石粉末 corroborate. Pair the complete material label, not only Softscrabble. Existing canonical full annotations remain unchanged. Do not turn the mineral into a plant or merge it with Hardscrabble."	"A potion to temporarily increase your Max Mana can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (3)
+Star Thistle (3)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、マナの最大値を一時的に増加させるポーションを調合できる:
+
+ソフトスクラブル・パウダー(3)
+スターシスル(3)
+ブラッドルート(1)"	"一种可以暂时提高你的最大法力的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（3）
+矢车菊（3）
+血根草（1）"	"{""resource:softscrabble-powder"":""accepted""}"	"{""resource:softscrabble-powder"":""needs-context""}"	"{""resource:softscrabble-powder"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36871"	""	"resource:essence-of-fate"	"accepted"	"물리 피해 저항 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+사티바 섬유(Sativa Fibers) (3)
+이사의 숨결(Ysa's Breath) (3)
+바닷아마(Seaflax) (2)
+운명의 정수 (1)"	"물리 피해 저항 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+사티바 섬유(Sativa Fibers) (3)
+이사의 숨결(Ysa's Breath) (3)
+바닷아마(Seaflax) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to increase your resistance to Physical damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (3)
+Ysa's Breath (3)
+Seaflax (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、物理ダメージに対する耐性を強化するポーションを調合できる
+
+サティヴァの葉(3)
+イーサブレス(3)
+シーフラックス(2)
+フェイトエッセンス(1)"	"一种可以提高你对物理伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（3）
+伊萨之息（3）
+海亚麻（2）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36918"	""	"resource:essence-of-fate|resource:softscrabble-powder"	"accepted"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+별엉겅퀴(Star Thistle) (3)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루(Softscrabble Powder) (3)
+별엉겅퀴(Star Thistle) (3)
+혈근초(Bloodroot) (1)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:36133 explicitly identifies Softscrabble Powder as a mineral deposit used in Mana potions. Japanese ソフトスクラブル・パウダー and Chinese 软爪石粉末 corroborate. Pair the complete material label, not only Softscrabble. Existing canonical full annotations remain unchanged. Do not turn the mineral into a plant or merge it with Hardscrabble. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to temporarily increase your Max Mana can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (3)
+Star Thistle (3)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、マナの最大値を一時的に増加させるポーションを調合できる:
+
+ソフトスクラブル・パウダー(3)
+スターシスル(3)
+ブラッドルート(1)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的最大法力的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（3）
+矢车菊（3）
+血根草（1）
+命运精华（1）"	"{""resource:softscrabble-powder"":""accepted"",""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context"",""resource:softscrabble-powder"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context."",""resource:softscrabble-powder"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38617"	""	"resource:essence-of-fate"	"accepted"	"연금술 작업대에서 다음 재료를 사용하면 디스펠 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+별엉겅퀴(Star Thistle) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"연금술 작업대에서 다음 재료를 사용하면 디스펠 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+별엉겅퀴(Star Thistle) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to temporarily increase your Dispelling skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、解呪スキルを一時的に上昇させるポーションを調合できる:
+
+スターシスル(2)
+スカイ・ブロッサム(2)
+ブラッドルート(2)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的驱散技能的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41594"	""	"resource:essence-of-fate"	"accepted"	"화염 피해를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트윅(Tindertwig) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"화염 피해를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트윅(Tindertwig) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to increase your Fire damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える火炎ダメージを強化するポーションを調合できる
+
+ティンダートウィッグ(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种可以提高你的火焰伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43146"	""	"resource:essence-of-fate"	"accepted"	"일시적으로 설득 기술을 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+리치우드 나무껍질(Leechwood Bark) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"일시적으로 설득 기술을 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+리치우드 나무껍질(Leechwood Bark) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to temporarily increase your Persuasion skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Leechwood Bark (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、説得スキルを一時的に上昇させるポーションを調合できる:
+
+リーチウッドの樹皮(2)
+スカイ・ブロッサム(2)
+ブラッドルート(2)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的口才技能的药水，可在炼金工作台使用下列试剂合成：
+
+水蛭木树皮（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43220"	""	"resource:essence-of-fate"	"accepted"	"혼돈 피해량을 크게 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+혼돈의 정수(Chaos Essence) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"혼돈 피해량을 크게 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+혼돈의 정수(Chaos Essence) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to greatly increase your Chaos damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Chaos Essence (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、敵に与える混沌ダメージを強化するポーションを調合できる:
+
+混沌のエッセンス(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトのエッセンス(1)"	"一种可以大大提高你的混乱伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+混乱精华（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43383"	""	"resource:essence-of-fate"	"accepted"	"방어력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+바닷아마(Seaflax) (2)
+이사의 숨결(Ysa's Breath) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"방어력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+바닷아마(Seaflax) (2)
+이사의 숨결(Ysa's Breath) (2)
+혈근초(Bloodroot) (1)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to temporarily increase all your armor can be mixed at an Alchemy Workbench using the following reagents:
+
+Seaflax (2)
+Ysa's Breath (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、防御力を全面的に強化するポーションを調合できる
+
+シーフラックス(2)
+イーサブレス(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种能暂时提高你的所有护甲的药水，可在炼金工作台使用下列试剂合成：
+
+海亚麻（2）
+伊萨之息（2）
+血根草（1）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43689"	""	"resource:essence-of-fate|resource:softscrabble-powder"	"accepted"	"연금술 작업대에서 다음 시약을 사용하면 마나가 빠르게 재생되는 물약을 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"연금술 작업대에서 다음 시약을 사용하면 마나가 빠르게 재생되는 물약을 만들 수 있습니다:
+
+소프트스크래블 가루(Softscrabble Powder) (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (2)
+혈근초(Bloodroot) (1)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:36133 explicitly identifies Softscrabble Powder as a mineral deposit used in Mana potions. Japanese ソフトスクラブル・パウダー and Chinese 软爪石粉末 corroborate. Pair the complete material label, not only Softscrabble. Existing canonical full annotations remain unchanged. Do not turn the mineral into a plant or merge it with Hardscrabble. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to grant you rapid Mana Regeneration can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (3)
+Scarlet Flowstone (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、マナの自動回復を高速化するポーションを調合できる
+
+ソフトスクラブルパウダー(3)
+スカーレットフローストーン(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种能让你获得快速法力回复的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（3）
+猩红流石（2）
+血根草（1）
+命运精华（1）"	"{""resource:softscrabble-powder"":""accepted"",""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context"",""resource:softscrabble-powder"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context."",""resource:softscrabble-powder"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"44155"	""	"resource:hardscrabble"	"excluded"	"내가 해야 한다고 믿은 일을 했을 뿐이야. 페인 가문의 사람이 이렇게 힘겹게 살게 됐다고 생각해 봐. 이 얼마나 부당한가!"	"내가 해야 한다고 믿은 일을 했을 뿐이야. 페인 가문의 사람이 이렇게 힘겹게 살게 됐다고 생각해 봐. 이 얼마나 부당한가!"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:55550 compares Embereyes with Hardscrabble while discussing gathered reagents; Japanese and Chinese are recorded verbatim, with Chinese 硬皮草 supporting a named material and Japanese rendering the comparison differently. Retain the existing paired name without asserting a particular plant/mineral species. Lowercase hardscrabble in default:12614 (life) and default:44155 (existence) is an ordinary adjective, explicitly excluded and unchanged."	"I did what I believed I had to do. Think of it, a Payne reduced to such a hardscrabble existence. What an injustice!"	"私はすべきと思ったことをした。考えてもみろ。私はこうも卑しい身に落ちたんだぞ。なんと不当なことか！"	"我做了我认为该做的事。想想看，一个佩恩家的人沦落到如此穷困潦倒的地步。多么不公平！"	"{""resource:hardscrabble"":""excluded""}"	"{""resource:hardscrabble"":""needs-context""}"	"{""resource:hardscrabble"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"46104"	""	"resource:softscrabble-powder"	"accepted"	"소프트스크래블 가루"	"소프트스크래블 가루(Softscrabble Powder)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:36133 explicitly identifies Softscrabble Powder as a mineral deposit used in Mana potions. Japanese ソフトスクラブル・パウダー and Chinese 软爪石粉末 corroborate. Pair the complete material label, not only Softscrabble. Existing canonical full annotations remain unchanged. Do not turn the mineral into a plant or merge it with Hardscrabble."	"Softscrabble Powder"	"ソフトスクラブルパウダー"	"软爪石粉末"	"{""resource:softscrabble-powder"":""accepted""}"	"{""resource:softscrabble-powder"":""needs-context""}"	"{""resource:softscrabble-powder"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"46193"	""	"resource:scarab-salts"	"accepted"	"스카라베 소금"	"풍뎅이 소금(Scarab Salts)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English base:2187/2747 and recipes identify Scarab Salts; default:52784 also names the material in crafting the Seal. Japanese スカラベの塩 and Chinese 甲虫盐 corroborate. Reuse both existing semantic base labels 풍뎅이 소금 and pair the full source material, unifying the phonetic variants. No bare Scarab alias: the Scarab Gornak creature context is unrelated."	"Scarab Salts"	"スカラベの塩"	"甲虫盐"	"{""resource:scarab-salts"":""accepted""}"	"{""resource:scarab-salts"":""needs-context""}"	"{""resource:scarab-salts"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"46637"	""	"resource:essence-of-fate"	"accepted"	"은신 기술을 일시적으로 높여 주는 물약은 연금술 작업대에서 다음 시약을 사용해 만들 수 있습니다:
+
+크리플스포어 갓(Cripplespore Caps) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"은신 기술을 일시적으로 높여 주는 물약은 연금술 작업대에서 다음 시약을 사용해 만들 수 있습니다:
+
+크리플스포어 갓(Cripplespore Caps) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to temporarily increase your Stealth skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、隠密スキルを一時的に上昇させるポーションを調合できる
+
+クリップルスポアの笠(2)
+スカイブロッサム(2)
+ブラッドルート(2)
+フェイトエッセンス(1)"	"一种可以暂时提高你的潜行技能的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"47705"	""	"resource:softscrabble-powder"	"accepted"	"최대 마나를 일시적으로 늘리는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+소프트스크래블 가루(2)
+별엉겅퀴(Star Thistle)(2)"	"최대 마나를 일시적으로 늘리는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+소프트스크래블 가루(Softscrabble Powder)(2)
+별엉겅퀴(Star Thistle)(2)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:36133 explicitly identifies Softscrabble Powder as a mineral deposit used in Mana potions. Japanese ソフトスクラブル・パウダー and Chinese 软爪石粉末 corroborate. Pair the complete material label, not only Softscrabble. Existing canonical full annotations remain unchanged. Do not turn the mineral into a plant or merge it with Hardscrabble."	"A potion to temporarily increase your Max Mana can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (2)
+Star Thistle (2)"	"以下の素材を錬金術の作業台で使えば、マナの最大値を一時的に増加させるポーションを調合できる:
+
+ソフトスクラブル・パウダー(2)
+スターシスル(2)"	"一种可以暂时提高你的最大法力的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（2）
+矢车菊（2）"	"{""resource:softscrabble-powder"":""accepted""}"	"{""resource:softscrabble-powder"":""needs-context""}"	"{""resource:softscrabble-powder"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"47933"	""	"resource:essence-of-fate"	"accepted"	"원소 피해 저항을 높이는 물약은 아래 재료를 사용해 연금술 작업대에서 만들 수 있다:
+
+별엉겅퀴(Star Thistle) (3)
+이사의 숨결(Ysa's Breath) (3)
+바닷아마(Seaflax) (2)
+운명의 정수 (1)"	"원소 피해 저항을 높이는 물약은 아래 재료를 사용해 연금술 작업대에서 만들 수 있다:
+
+별엉겅퀴(Star Thistle) (3)
+이사의 숨결(Ysa's Breath) (3)
+바닷아마(Seaflax) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to increase your resistance to Elemental damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (3)
+Ysa's Breath (3)
+Seaflax (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、属性ダメージに対する耐性を強化するポーションを調合できる:
+
+スターシスル(3)
+イーサブレス(3)
+シーフラックス(2)
+フェイトのエッセンス(1)"	"一种可以提高你对元素伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（3）
+伊萨之息（3）
+海亚麻（2）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"48297"	""	"resource:essence-of-fate"	"accepted"	"잃은 체력을 회복하는 물약은 아래 재료를 사용해 연금술 작업대에서 만들 수 있다:
+
+블랙 코호시(Black Cohosh) (3)
+엠버아이즈(Embereyes) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"잃은 체력을 회복하는 물약은 아래 재료를 사용해 연금술 작업대에서 만들 수 있다:
+
+블랙 코호시(Black Cohosh) (3)
+엠버아이즈(Embereyes) (2)
+혈근초(Bloodroot) (1)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to restore lost health can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Embereyes (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、失われたライフを回復するポーションを調合できる
+
+ブラックコホシュ(3)
+エンバーアイズ(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种能恢复失去的生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+灰烬之眼（2）
+血根草（1）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50503"	""	"resource:essence-of-fate"	"accepted"	"다음 재료를 사용해 연금술 작업대에서 독 피해량을 높이는 물약을 만들 수 있다.
+
+크리플스포어 갓(Cripplespore Caps) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"다음 재료를 사용해 연금술 작업대에서 독 피해량을 높이는 물약을 만들 수 있다.
+
+크리플스포어 갓(Cripplespore Caps) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to increase your Poison damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える毒ダメージを強化するポーションを調合できる
+
+クリップルスポアの笠(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种可以提高你的毒素伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50915"	""	"resource:essence-of-fate"	"accepted"	"...그러므로 운명의 정수는 변형 가능한 물질, 아니 유체라고 하는 편이 맞다. 연구할 가치가 있는 세 가지 구성 특성이 드러난다. 방법, 특성, 그리고 상호관계적-주관적 에너지다.
+
+이 가운데 방법과 특성이 가장 흥미롭다. 상호관계적-주관적 에너지는 통제된 환경에서 분석할 수 없기 때문이다. 이 에너지는 끊임없이 변동하며 네 원소 권역 중 어느 것에도 속하지 않는다. 반면 방법과 특성은 에소비안 척도에 따라 쉽게 도표화할 수 있다.
+
+네 번째 특성일 가능성이 있는 다차원 적응 굴절에 대해서는 추가 연구가 필요하다."	"...그러므로 운명의 정수(Essence of Fate)는 변형 가능한 물질, 아니 유체라고 하는 편이 맞다. 연구할 가치가 있는 세 가지 구성 특성이 드러난다. 방법, 특성, 그리고 상호관계적-주관적 에너지다.
+
+이 가운데 방법과 특성이 가장 흥미롭다. 상호관계적-주관적 에너지는 통제된 환경에서 분석할 수 없기 때문이다. 이 에너지는 끊임없이 변동하며 네 원소 권역 중 어느 것에도 속하지 않는다. 반면 방법과 특성은 에소비안 척도에 따라 쉽게 도표화할 수 있다.
+
+네 번째 특성일 가능성이 있는 다차원 적응 굴절에 대해서는 추가 연구가 필요하다."	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	". . . the essence of Fate, therefore, is a malleable substance, or rather, a fluid one. Three constitutive properties present themselves for further study: Methods, Characteristics, and Intercorrelative-Subjective Energy.
+
+Of said properties, the Methods and Characteristics are of the greatest interest, as the Intercorrelative-Subjective Energy is impossible to analyze in a controlled environment. Fluctuation of Intercorrelative Subjective Energy is constant, and it does not adhere to any of the four elemental spheres, whereas the Methods and Characteristics are easily charted along the Essovian scale.
+
+Further inquiry to be made into a fourth possible property: Multidimensional Adaptive Refraction."	"…よってフェイトのエッセンスは従順な物質だ。いや、流動体と言うべきか。ここでさらに方法論、特性、相関的自発性エネルギーという3つの構成要素について詳しく見てみたい。
+
+この中でもっとも重要なのは方法論と特性だ。相関的自発性エネルギーは制御環境下では分析不可能である。相関的自発性エネルギーは屈折しやすく、四大属性のいずれにも付着しない。一方、方法論と特性はエッソビアン比率を用いて簡単にチャート化できる。
+
+第4の構成要素候補である多次元適応屈折作用については、さらなる調査が必要だ。"	"...所以命运精华是一种有延展性的物质——不如说是一种液体。有三种结构性质值得进一步研究：方法、特性和内部相关-主观性能量。
+
+说到性质，方法和特性是最让人感兴趣的，因为内部相关-主观性能量不可能在受控环境中进行分析。内部相关-主观性能量处于时常的波动之中，而且并不依附于四元素范围中的任何一种，而方法和特性则可以很轻松地用埃索维亚图表来绘制出来。
+
+进一步我们将会探究可能存在的第四种性质：适应性多维折射。"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"51685"	""	"resource:essence-of-fate|resource:softscrabble-powder"	"not-an-issue"	"연금술 작업대에서 다음 재료를 섞으면 이동 속도를 크게 높이는 물약을 만들 수 있습니다:
+
+혼돈의 정수(Chaos Essence) (3)
+블랙 코호시(Black Cohosh) (2)
+소프트스크래블 가루(Softscrabble Powder) (1)
+운명의 정수(Essence of Fate) (1)"	"연금술 작업대에서 다음 재료를 섞으면 이동 속도를 크게 높이는 물약을 만들 수 있습니다:
+
+혼돈의 정수(Chaos Essence) (3)
+블랙 코호시(Black Cohosh) (2)
+소프트스크래블 가루(Softscrabble Powder) (1)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:36133 explicitly identifies Softscrabble Powder as a mineral deposit used in Mana potions. Japanese ソフトスクラブル・パウダー and Chinese 软爪石粉末 corroborate. Pair the complete material label, not only Softscrabble. Existing canonical full annotations remain unchanged. Do not turn the mineral into a plant or merge it with Hardscrabble. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"An especially potent utility potion boosting your movement speed can be mixed at an Alchemy Workbench using the following reagents:
+
+Chaos Essence (3)
+Black Cohosh (2)
+Softscrabble Powder (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、移動速度を強化するポーションを調合できる:
+
+混沌のエッセンス(3)
+ブラック・コホシュ(2)
+ソフトスクラブル・パウダー(1)
+フェイトのエッセンス(1)"	"一种可以提高你的移动速度的特别有效的效用药水，可在炼金工作台使用下列试剂合成：
+
+混乱精华（3）
+黑升麻（2）
+软爪石粉末（1）
+命运精华（1）"	"{""resource:softscrabble-powder"":""not-an-issue"",""resource:essence-of-fate"":""not-an-issue""}"	"{""resource:essence-of-fate"":""needs-context"",""resource:softscrabble-powder"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context."",""resource:softscrabble-powder"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"52676"	""	"resource:scarab-salts"	"accepted"	"치명타 확률을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+스카라베 소금(3)
+사티바 섬유(Sativa Fibers)(2)
+스카우드 나무껍질(Scarwood Bark)(1)"	"치명타 확률을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+풍뎅이 소금(Scarab Salts)(3)
+사티바 섬유(Sativa Fibers)(2)
+스카우드 나무껍질(Scarwood Bark)(1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English base:2187/2747 and recipes identify Scarab Salts; default:52784 also names the material in crafting the Seal. Japanese スカラベの塩 and Chinese 甲虫盐 corroborate. Reuse both existing semantic base labels 풍뎅이 소금 and pair the full source material, unifying the phonetic variants. No bare Scarab alias: the Scarab Gornak creature context is unrelated."	"A potion to increase your chance to Critical Hit can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarab Salts (3)
+Sativa Fibers (2)
+Scarwood Bark (1)"	"以下の素材を錬金術台で使えば、クリティカルヒットの発生率を高めるポーションを調合できる
+
+スカラベの塩(3)
+サティヴァの葉(2)
+スカーウッドの樹皮(1)"	"一种能够提高你的暴击几率的药水，可在炼金工作台使用下列试剂合成：
+
+甲虫盐（3）
+亚麻纤维（2）
+伤痕之木树皮（1）"	"{""resource:scarab-salts"":""accepted""}"	"{""resource:scarab-salts"":""needs-context""}"	"{""resource:scarab-salts"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"52784"	""	"resource:scarab-salts"	"accepted"	"그 인장은 내 고조할머니이자 케일드(Caeled) 귀족의 시조인 초대 클라리 안실라(Clary Ansilla)가 만들었어. 그녀가 직접 스카라베 소금과 타이레니움(Tyrenium)으로 빚었지."	"그 인장은 내 고조할머니이자 케일드(Caeled) 귀족의 시조인 초대 클라리 안실라(Clary Ansilla)가 만들었어. 그녀가 직접 풍뎅이 소금(Scarab Salts)과 타이레니움(Tyrenium)으로 빚었지."	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English base:2187/2747 and recipes identify Scarab Salts; default:52784 also names the material in crafting the Seal. Japanese スカラベの塩 and Chinese 甲虫盐 corroborate. Reuse both existing semantic base labels 풍뎅이 소금 and pair the full source material, unifying the phonetic variants. No bare Scarab alias: the Scarab Gornak creature context is unrelated."	"The Seal was forged by my great, great grandmother the first Clary Ansilla, mother of the Caeled nobles. She crafted it herself from scarab salts and tyrenium."	"紋章は高祖母の、キャレッド貴族の母である初代クラリー・アンシラが作った。スカラベの塩とティアニウムを使って、自分で作り上げた"	"这个奖章由我的曾曾曾祖母克拉里·安西拉，凯乐德贵族之母所铸造的。她亲自用甲虫盐和泰尔金制作。"	"{""resource:scarab-salts"":""accepted""}"	"{""resource:scarab-salts"":""needs-context""}"	"{""resource:scarab-salts"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"54765"	""	"resource:essence-of-fate"	"not-an-issue"	"다음 재료를 연금술 작업대에서 섞으면 상술 기술(Mercantile)을 일시적으로 높이는 물약을 만들 수 있다:
+
+사티바 섬유(Sativa Fibers) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"다음 재료를 연금술 작업대에서 섞으면 상술 기술(Mercantile)을 일시적으로 높이는 물약을 만들 수 있다:
+
+사티바 섬유(Sativa Fibers) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to temporarily increase your Mercantile skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、商才スキルを一時的に上昇させるポーションを調合できる:
+
+サティヴァの葉(2)
+スカイ・ブロッサム(2)
+ブラッドルート(2)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的交易技能的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:essence-of-fate"":""not-an-issue""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"54783"	""	"resource:essence-of-fate"	"not-an-issue"	"다음 재료를 연금술 작업대에서 섞으면 잠시 동안 적의 체력을 흡수하는 물약을 만들 수 있다:
+
+블랙 코호시(Black Cohosh) (3)
+리치우드 나무껍질(Leechwood Bark) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+운명의 정수(Essence of Fate) (1)"	"다음 재료를 연금술 작업대에서 섞으면 잠시 동안 적의 체력을 흡수하는 물약을 만들 수 있다:
+
+블랙 코호시(Black Cohosh) (3)
+리치우드 나무껍질(Leechwood Bark) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion that enables you to absorb health from your enemies for a short duration can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Leechwood Bark (3)
+Scarwood Bark (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、短時間ながら敵からライフを吸収する力が得られるポーションを調合できる:
+
+ブラック・コホシュ(3)
+リーチウッドの樹皮(3)
+スカーウッドの樹皮(2)
+フェイトのエッセンス(1)"	"一种能让你在短时间内从敌人身上吸取生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+水蛭木树皮（3）
+伤痕之木树皮（2）
+命运精华（1）"	"{""resource:essence-of-fate"":""not-an-issue""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"55550"	""	"resource:hardscrabble"	"not-an-issue"	"빠르네. 나머지 시약도 찾아왔구나. 이 도시 사람 대부분은 엠버아이즈(Embereyes)와 하드스크래블(Hardscrabble)도 구별하지 못할 거야."	"빠르네. 나머지 시약도 찾아왔구나. 이 도시 사람 대부분은 엠버아이즈(Embereyes)와 하드스크래블(Hardscrabble)도 구별하지 못할 거야."	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:55550 compares Embereyes with Hardscrabble while discussing gathered reagents; Japanese and Chinese are recorded verbatim, with Chinese 硬皮草 supporting a named material and Japanese rendering the comparison differently. Retain the existing paired name without asserting a particular plant/mineral species. Lowercase hardscrabble in default:12614 (life) and default:44155 (existence) is an ordinary adjective, explicitly excluded and unchanged."	"That was quick. You found the rest of the reagents. Most people in this city wouldn't know Embereyes from Hardscrabble."	"早かったね。残りの素材を見つけたのか。不毛の地のエンバーアイズのことなんて、街の住民のほとんどは知らない"	"真快啊。你找到了剩下的试剂。这个城市的大多数人都区分不了灰烬之眼和硬皮草。"	"{""resource:hardscrabble"":""not-an-issue""}"	"{""resource:hardscrabble"":""needs-context""}"	"{""resource:hardscrabble"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"56554"	""	"resource:essence-of-fate"	"accepted"	"독 저항력을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+크리플스포어 갓(Cripplespore Caps)(2)
+이사의 숨결(Ysa's Breath)(2)
+바닷아마(Seaflax)(1)
+운명의 정수(1)"	"독 저항력을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+크리플스포어 갓(Cripplespore Caps)(2)
+이사의 숨결(Ysa's Breath)(2)
+바닷아마(Seaflax)(1)
+운명의 정수(Essence of Fate)(1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to increase your Poison Resistance can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Ysa's Breath (2)
+Seaflax (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、毒に対する耐性を強化するポーションを調合できる
+
+クリップルスポアの笠(2)
+イーサブレス(2)
+シーフラックス(1)
+フェイトエッセンス(1)"	"一种可以提高你的毒素抗性的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+伊萨之息（2）
+海亚麻（1）
+命运精华（1）"	"{""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"57973"	""	"resource:scarab-salts"	"accepted"	"마법 치명타 확률을 높이는 물약은 연금술 작업대에서 다음 시약을 섞어 만들 수 있습니다:
+
+스카라베 소금 (2)
+별엉겅퀴(Star Thistle) (1)"	"마법 치명타 확률을 높이는 물약은 연금술 작업대에서 다음 시약을 섞어 만들 수 있습니다:
+
+풍뎅이 소금(Scarab Salts) (2)
+별엉겅퀴(Star Thistle) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English base:2187/2747 and recipes identify Scarab Salts; default:52784 also names the material in crafting the Seal. Japanese スカラベの塩 and Chinese 甲虫盐 corroborate. Reuse both existing semantic base labels 풍뎅이 소금 and pair the full source material, unifying the phonetic variants. No bare Scarab alias: the Scarab Gornak creature context is unrelated."	"A potion to increase your chance to Critical Hit with magic can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarab Salts (2)
+Star Thistle (1)"	"以下の素材を錬金術台で使えば、魔法でのクリティカルヒットの発生率を高めるポーションを調合できる
+
+スカラベの塩(2)
+スターシスル(1)"	"一种能够提高你的魔法暴击几率的药水，可在炼金工作台使用下列试剂合成：
+
+甲虫盐（2）
+矢车菊（1）"	"{""resource:scarab-salts"":""accepted""}"	"{""resource:scarab-salts"":""needs-context""}"	"{""resource:scarab-salts"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"58072"	""	"resource:essence-of-fate|resource:scarab-salts"	"accepted"	"마법 치명타 확률을 높이는 물약은 연금술 작업대에서 다음 시약을 섞어 만들 수 있습니다:
+
+스카라베 소금 (3)
+별엉겅퀴(Star Thistle) (2)
+스카우드 나무껍질(Scarwood Bark) (2)
+운명의 정수 (1)"	"마법 치명타 확률을 높이는 물약은 연금술 작업대에서 다음 시약을 섞어 만들 수 있습니다:
+
+풍뎅이 소금(Scarab Salts) (3)
+별엉겅퀴(Star Thistle) (2)
+스카우드 나무껍질(Scarwood Bark) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English base:2187/2747 and recipes identify Scarab Salts; default:52784 also names the material in crafting the Seal. Japanese スカラベの塩 and Chinese 甲虫盐 corroborate. Reuse both existing semantic base labels 풍뎅이 소금 and pair the full source material, unifying the phonetic variants. No bare Scarab alias: the Scarab Gornak creature context is unrelated. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"A potion to increase your chance to Critical Hit with magic can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarab Salts (3)
+Star Thistle (2)
+Scarwood Bark (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、魔法でのクリティカルヒットの発生率を高めるポーションを調合できる
+
+スカラベの塩(3)
+スターシスル(2)
+スカーウッドの樹皮(2)
+フェイトエッセンス(1)"	"一种能够提高你的魔法暴击几率的药水，可在炼金工作台使用下列试剂合成：
+
+甲虫盐（3）
+矢车菊（2）
+伤痕之木树皮（2）
+命运精华（1）"	"{""resource:scarab-salts"":""accepted"",""resource:essence-of-fate"":""accepted""}"	"{""resource:essence-of-fate"":""needs-context"",""resource:scarab-salts"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context."",""resource:scarab-salts"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"58914"	""	"resource:scarab-salts"	"accepted"	"다음 시약을 연금술 작업대에서 혼합하면 숨겨진 물건 찾기 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+딱정벌레 소금 (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (1)"	"다음 시약을 연금술 작업대에서 혼합하면 숨겨진 물건 찾기 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+풍뎅이 소금(Scarab Salts) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English base:2187/2747 and recipes identify Scarab Salts; default:52784 also names the material in crafting the Seal. Japanese スカラベの塩 and Chinese 甲虫盐 corroborate. Reuse both existing semantic base labels 풍뎅이 소금 and pair the full source material, unifying the phonetic variants. No bare Scarab alias: the Scarab Gornak creature context is unrelated."	"A potion to temporarily increase your Detect Hidden skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarab Salts (2)
+Sky Blossom (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、探知スキルを一時的に上昇させるポーションを調合できる:
+
+スカラベの塩(2)
+スカイ・ブロッサム(2)
+ブラッドルート(1)"	"一种可以暂时提高你的侦测隐藏技能的药水，可在炼金工作台使用下列试剂合成：
+
+甲虫盐（2）
+天空之花（2）
+血根草（1）"	"{""resource:scarab-salts"":""accepted""}"	"{""resource:scarab-salts"":""needs-context""}"	"{""resource:scarab-salts"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"61993"	""	"resource:essence-of-fate"	"not-an-issue"	"운명의 정수(Essence of Fate)로 물약 만들기"	"운명의 정수(Essence of Fate)로 물약 만들기"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:32014 explicitly identifies Essence of Fate as a special reagent obtained in Reckoning mode; base labels and potion recipes corroborate. Japanese フェイトエッセンス and Chinese 命运精华 support the same substance, including the forged shield at default:1369, Gallows bloom comparison at default:15444, and scholarly fluid discussion at default:50915. Reuse 운명의 정수, standardize the omitted genitive, and annotate the material only. Keep Fate, Fate energy, recipe effects, comparison claims and scholarly theories otherwise unchanged."	"Make a potion with the Essence of Fate."	"フェイトのエッセンスを使ってポーションを製作する。"	"使用命运精华配制一剂药水。"	"{""resource:essence-of-fate"":""not-an-issue""}"	"{""resource:essence-of-fate"":""needs-context""}"	"{""resource:essence-of-fate"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"62212"	""	"resource:softscrabble-powder"	"not-an-issue"	"잃은 마나를 회복하는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루(Softscrabble Powder) (3)
+엠버아이즈(Embereyes) (2)
+혈근초(Bloodroot) (1)"	"잃은 마나를 회복하는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루(Softscrabble Powder) (3)
+엠버아이즈(Embereyes) (2)
+혈근초(Bloodroot) (1)"	"English-first material-name consistency across affix/base/default. Official Korean manual PDF pp. 1, 3 and 5 supplies Fate/Reckoning context, and PDF pp. 4 and 8 supplies Alchemy/reagent context; the source UI and descriptions establish the specific material names. Preserve every quantity, effect, particle, token, exact line break and unrelated name. English default:36133 explicitly identifies Softscrabble Powder as a mineral deposit used in Mana potions. Japanese ソフトスクラブル・パウダー and Chinese 软爪石粉末 corroborate. Pair the complete material label, not only Softscrabble. Existing canonical full annotations remain unchanged. Do not turn the mineral into a plant or merge it with Hardscrabble."	"A potion to restore lost Mana can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (3)
+Embereyes (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、消費したマナを回復させるポーションを調合できる:
+
+ソフトスクラブル・パウダー(3)
+エンバーアイズ(2)
+ブラッドルート(1)"	"一种能恢复失去的法力的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（3）
+灰烬之眼（2）
+血根草（1）"	"{""resource:softscrabble-powder"":""not-an-issue""}"	"{""resource:softscrabble-powder"":""needs-context""}"	"{""resource:softscrabble-powder"":""Candidate hit from the English source; verify this occurrence in context.""}"

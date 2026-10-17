@@ -1,0 +1,196 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"1150"	""	"person:cach-cranwyn"	"accepted"	"이런 탐험에는 마법사가 있으면 언제나 좋지. 캐시는 예외지만. 그래도 마음을 바꿀지도 모르지."	"이런 탐험에는 마법사가 있으면 언제나 좋지. 카슈(Cach)는 예외지만. 그래도 마음을 바꿀지도 모르지."	"Row-scoped short personal name, not a global surname/family alias.
+English default:5064 explicitly gives Cach Cranwyn as the expedition mage
+and later calls him Cach alongside Sveri; default:32598 also links the
+Cranwyn mage with Cach. Japanese カシュ and Chinese 察赫 corroborate the
+short name in each scoped row. Reuse the existing full-name entry's
+카슈(Cach), correcting 캐시/캐크/캐치/카크/카쉬/카흐 and supplying a missing
+English annotation. Do not change references to Cranwyn nobility or the
+surname-only battle cry default:26572, whose precise referent is not
+established by the short-name scope. Retain all 12 already-indexed
+full-name rows and D-21333's Denric edits. Official Korean manual PDF
+pages 1-3 supplies Dokkalfar/Faelands context, not this personal name."	"A mage is always good to have on an expedition like this. Except for Cach. But maybe he’ll come around."	"こういう探検では、絶対に魔道士がいたほうがいい。カシュだけは別だがな。だが彼も来るかも知れない"	"像这样的探险有法师作伴挺好的。除了察赫以外。不过他应该会接受的。"	"{""person:cach-cranwyn"":""accepted""}"	"{""person:cach-cranwyn"":""needs-context""}"	"{""person:cach-cranwyn"":""Newly discovered exact expedition-mage short-name occurrence.""}"
+"default"	"12812"	""	"person:cach-cranwyn"	"accepted"	"남쪽 통로(Southern Passage)는 위험천만했다. 피로 뒤덮인 거대한 석상을 발견했다고 생각했지만, 알고 보니 석상이 아니라 콜로사이족(Kollossae) 한 명의 시체였다. 캐크(Cach)는 달아났다. 스베리(Sveri)는 함정에 걸려 죽었고, 나는 마침내 이름을 알아낸 괴물, 프테릭스(pteryx)와 싸우다 부상을 입었다. 원정은 참사로 끝났고, 낯선 이만 남았다.
+
+우리는 남쪽 통로(Southern Passage)의 어둠 속에서 헤어졌다. 그 여인은 자비롭게도 치유 물약을 남겨 주었다. 그 물약이 내 목숨을 구했다고 지금도 확신한다. 그녀가 출구를 찾던 중 갑작스러운 붕괴가 우리를 갈라놓았고, 평생 다시는 그녀를 보지 못할 것만 같았다. 나는 남쪽 통로(Southern Passage)에서 살아남으려 애썼고, 네 번째 동료는 에테네(Ethene)의 부름을 받은 자가 되었다."	"남쪽 통로(Southern Passage)는 위험천만했다. 피로 뒤덮인 거대한 석상을 발견했다고 생각했지만, 알고 보니 석상이 아니라 콜로사이족(Kollossae) 한 명의 시체였다. 카슈(Cach)는 달아났다. 스베리(Sveri)는 함정에 걸려 죽었고, 나는 마침내 이름을 알아낸 괴물, 프테릭스(pteryx)와 싸우다 부상을 입었다. 원정은 참사로 끝났고, 낯선 이만 남았다.
+
+우리는 남쪽 통로(Southern Passage)의 어둠 속에서 헤어졌다. 그 여인은 자비롭게도 치유 물약을 남겨 주었다. 그 물약이 내 목숨을 구했다고 지금도 확신한다. 그녀가 출구를 찾던 중 갑작스러운 붕괴가 우리를 갈라놓았고, 평생 다시는 그녀를 보지 못할 것만 같았다. 나는 남쪽 통로(Southern Passage)에서 살아남으려 애썼고, 네 번째 동료는 에테네(Ethene)의 부름을 받은 자가 되었다."	"Row-scoped short personal name, not a global surname/family alias.
+English default:5064 explicitly gives Cach Cranwyn as the expedition mage
+and later calls him Cach alongside Sveri; default:32598 also links the
+Cranwyn mage with Cach. Japanese カシュ and Chinese 察赫 corroborate the
+short name in each scoped row. Reuse the existing full-name entry's
+카슈(Cach), correcting 캐시/캐크/캐치/카크/카쉬/카흐 and supplying a missing
+English annotation. Do not change references to Cranwyn nobility or the
+surname-only battle cry default:26572, whose precise referent is not
+established by the short-name scope. Retain all 12 already-indexed
+full-name rows and D-21333's Denric edits. Official Korean manual PDF
+pages 1-3 supplies Dokkalfar/Faelands context, not this personal name."	"The Southern Passage was treacherous. Cach fled after we found what we thought was a large stone statue covered in blood (now, I know this was no statue, but a corpse of one of the Kollossae). Sveri was killed by a trap, and I was wounded in a battle with monsters I can finally put a name to, the pteryx. Our expedition was a disaster, and only the stranger remained.
+
+We parted ways in the dark of the Southern Passage. In her generosity, she left me a healing potion (which, I am convinced to this very day, saved my life). As she searched for an exit, a sudden cave-in separated us, and I would not see her again for what seemed like a lifetime. I spent my time trying to survive in the Southern Passage while our fourth companion became Beckoned of Ethene."	"南側通路は何も信用できなかった。私たちが血で覆われた巨大な石像だと思ったもの(今はこれが石像ではなく、カロッサエの死体だということは分かっている)を見つけた後、カシュは逃げ出した。スヴェリは罠にかかって死に、私は怪物と戦って負傷した。今はこの怪物はプテリクスという名前だということを知っている。私たちの探検は大惨事となり、よそ者だけが残った。
+
+我々は南側通路の闇の中、別々の方向に別れることにした。寛大な彼女は、ライフポーション(これが私の命を救ってくれたと今でも思っている)を残してくれた。彼女が出口を探していると、突然崩落があり、私たちはバラバラになってしまい、彼女をこの先2度と見ることはなかった。私は南側通路で生き残ろうと時間を費やし、一方4人目の仲間は、エセンの招かれし者となった。"	"南部通道很危险。在我们发现了一个被血迹覆盖的我们以为的巨大石头雕像后，察赫逃跑了（现在，我知道这不是雕像，而是一具克勒塞的尸体）。斯薇里被陷阱杀死，我在与怪物们的战斗中受伤，我终于可以给它们起个名字了，那就是龙枭。我们的远征是一场灾难，只留下了那个陌生人。
+
+我们在黑暗的南方通道里分道扬镳。出于慷慨，她给我留下了一剂治疗药水（直到今天，我仍然相信是它救了我的命）。当她寻找出口时，一个突然的塌方把我们分开了，我似乎今生都不会再见到她了。当我们的第四个同伴受到伊希恩的召唤时，我把时间花在了设法在南方通道中生存。"	"{""person:cach-cranwyn"":""accepted""}"	"{""person:cach-cranwyn"":""needs-context""}"	"{""person:cach-cranwyn"":""Newly discovered exact expedition-mage short-name occurrence.""}"
+"default"	"18500"	""	"person:cach-cranwyn"	"accepted"	"캐시(Cach)의 눈에는 악마가 서려 있었어. 우리가 발견한 그게 뭔지는 모르겠지만, 이런 일을 감당하지 못하는 사람도 있는 법이지."	"카슈(Cach)의 눈에는 악마가 서려 있었어. 우리가 발견한 그게 뭔지는 모르겠지만, 이런 일을 감당하지 못하는 사람도 있는 법이지."	"Row-scoped short personal name, not a global surname/family alias.
+English default:5064 explicitly gives Cach Cranwyn as the expedition mage
+and later calls him Cach alongside Sveri; default:32598 also links the
+Cranwyn mage with Cach. Japanese カシュ and Chinese 察赫 corroborate the
+short name in each scoped row. Reuse the existing full-name entry's
+카슈(Cach), correcting 캐시/캐크/캐치/카크/카쉬/카흐 and supplying a missing
+English annotation. Do not change references to Cranwyn nobility or the
+surname-only battle cry default:26572, whose precise referent is not
+established by the short-name scope. Retain all 12 already-indexed
+full-name rows and D-21333's Denric edits. Official Korean manual PDF
+pages 1-3 supplies Dokkalfar/Faelands context, not this personal name."	"Cach had the devil in his eyes. Don't know what that thing we found was, but some just don't have the stomach for this kind of work."	"カシュの目には悪魔が取りついてる。あれが何だったかは分からないが、中にはこの手の仕事ができないヤツもいるってことだ"	"察赫那眼神就跟着了魔一样。不知道我们发现的到底是什么东西，但是有些人确实就不适合干这种活。"	"{""person:cach-cranwyn"":""accepted""}"	"{""person:cach-cranwyn"":""needs-context""}"	"{""person:cach-cranwyn"":""Newly discovered exact expedition-mage short-name occurrence.""}"
+"default"	"18788"	""	"person:cach-cranwyn"	"accepted"	"빌어먹을 겁쟁이. 캐시가 왜 그리 호들갑을 떨었는지 모르겠군. 누가 쓰러뜨린 조각상 하나일 뿐인데... 온통 피투성이가 됐다고."	"빌어먹을 겁쟁이. 카슈(Cach)가 왜 그리 호들갑을 떨었는지 모르겠군. 누가 쓰러뜨린 조각상 하나일 뿐인데... 온통 피투성이가 됐다고."	"Row-scoped short personal name, not a global surname/family alias.
+English default:5064 explicitly gives Cach Cranwyn as the expedition mage
+and later calls him Cach alongside Sveri; default:32598 also links the
+Cranwyn mage with Cach. Japanese カシュ and Chinese 察赫 corroborate the
+short name in each scoped row. Reuse the existing full-name entry's
+카슈(Cach), correcting 캐시/캐크/캐치/카크/카쉬/카흐 and supplying a missing
+English annotation. Do not change references to Cranwyn nobility or the
+surname-only battle cry default:26572, whose precise referent is not
+established by the short-name scope. Retain all 12 already-indexed
+full-name rows and D-21333's Denric edits. Official Korean manual PDF
+pages 1-3 supplies Dokkalfar/Faelands context, not this personal name."	"Damn craven. Don't know what Cach was getting so worked up for. Just a statue somebody toppled over... and got all bloody."	"クソ洞窟が。カシュはなぜあんなに取り乱したんだろう。誰かが像の上に転倒して… 血だらけになっただけなのに"	"该死的懦夫。真不知道察赫怕个什么。只是一尊翻倒的塑像……就成这样了。"	"{""person:cach-cranwyn"":""accepted""}"	"{""person:cach-cranwyn"":""needs-context""}"	"{""person:cach-cranwyn"":""Newly discovered exact expedition-mage short-name occurrence.""}"
+"default"	"21663"	""	"person:cach-cranwyn"	"accepted"	"계속 가야 해. 캐시(Cach)는 아무 쓸모가 없었고... 스베리(Sveri)는 이제 아무도 돕지 않아. 처음부터 우리 몫이었던 것 같아."	"계속 가야 해. 카슈(Cach)는 아무 쓸모가 없었고... 스베리(Sveri)는 이제 아무도 돕지 않아. 처음부터 우리 몫이었던 것 같아."	"Row-scoped short personal name, not a global surname/family alias.
+English default:5064 explicitly gives Cach Cranwyn as the expedition mage
+and later calls him Cach alongside Sveri; default:32598 also links the
+Cranwyn mage with Cach. Japanese カシュ and Chinese 察赫 corroborate the
+short name in each scoped row. Reuse the existing full-name entry's
+카슈(Cach), correcting 캐시/캐크/캐치/카크/카쉬/카흐 and supplying a missing
+English annotation. Do not change references to Cranwyn nobility or the
+surname-only battle cry default:26572, whose precise referent is not
+established by the short-name scope. Retain all 12 already-indexed
+full-name rows and D-21333's Denric edits. Official Korean manual PDF
+pages 1-3 supplies Dokkalfar/Faelands context, not this personal name."	"We keep going. Cach proved to be useless... and Sveri's not helping anyone, anymore. Looks like it was always up to us."	"進み続ける。カシュは役に立たなかったし... スヴェリはもう誰にも手を貸さない。結局我々二人だけだ"	"我们继续前进。察赫一点用都没有……斯薇里现在也帮不上忙了。看来还是只能指望我们了。"	"{""person:cach-cranwyn"":""accepted""}"	"{""person:cach-cranwyn"":""needs-context""}"	"{""person:cach-cranwyn"":""Newly discovered exact expedition-mage short-name occurrence.""}"
+"default"	"32598"	""	"person:cach-cranwyn"	"accepted"	"기록 I
+몇 주 동안 찾아 헤맨 끝에, 미치광이 덴릭(Denric the Crazed)이 나로스의 이빨(Teeth of Naros)로 항해하며 쓴 일지 제3권을 찾아냈다. 제1권과 제2권은 도무지 이해하기 어려웠다. 굶주림에 미쳐 가는 사람의 횡설수설이라고밖에는 할 수 없었지만, 세 번째 부분에서 덴릭은 비밀을 밝힌다.
+아데사(Adessa)의 학자는 아니지만, 굶주린 수도사의 헛소리 너머로 대강 무슨 일인지 짐작할 수는 있다. 덴릭은 나로스의 이빨(Teeth of Naros)로 통하는 지하 통로를 찾았다. 적어도 그렇게 내기를 걸 만한 근거는 있다. 그가 기록한 부와 장관에 관한 이야기도 어느 정도는 사실이었을 것이다. 뭔가를 보고 정신이 나간 것 같다.
+이제 남은 질문은 하나다. 어디서부터 시작할까? 마지막으로 탐험대를 꾸린 지 오래됐다. 동료도 필요하고 계획도 세워야 한다.
+
+기록 II
+운이 따라 줘서 덴릭이 ‘남쪽 통로(Southern Passage)’라고 부른 입구를 찾아냈다. 소문을 꽤 많이 쫓아다녀야 했다. 설명에 맞는 동굴은 여럿이었지만, 대부분은 뚫고 지나가야 할 에틴(Ettin) 군대가 없었다. 물론 내게 일이 그렇게 쉽게 풀릴 리 없지.
+캐너록(Canneroc)에 작전 기지를 마련할 수 있을 줄 알았다. 하지만 마을에서 스무 걸음도 떨어지기 전에 무슨 일이 있었는지 알 수 있었다. 온통 거미줄투성이였고, 밖에는 사람 그림자 하나 없었다. 요즘 웹우드(Webwood)는 무서운 곳이 됐다. 불쌍한 사람들.
+다행히 고어하트(Gorhart) 여관에 묵을 곳을 구해 서신 몇 통을 작성했다. 스베리(Sveri)에게 진 빚을 갚으라고 해 볼 생각이다. 내가 받으러 왔다고 하면 반가워하진 않겠지만. 그래도 다른 누구에게 정찰을 맡기고 싶지는 않다. 스베리(Sveri)는 이런 일을 백 번도 넘게 해 봤으니 잘 해낼 거다.
+
+기록 III
+떠돌이 마법사 한 명을 설득해 마침내 동행하게 했다. 크랜윈이라는 도크알브(Dokkalfar)다. 그 가문은 들어 본 적 없지만, 감히 그렇게 말하진 못하겠다. 멋 부리기를 좋아하는 듯하지만, 실력이 소문난 것의 반만 돼도 눈짓과 간단한 주문으로 온갖 위기를 넘길 수 있을 거다.
+그래도 여정에 합류하려는 사람은 더 찾지 못했다. 한 명만 더 있으면 안전하게 갈 수 있을 것 같다. 하지만 나로스의 이빨(Teeth of Naros)은 평판이 끔찍하다. 덴릭의 이야기를 읽어 주면 줄수록 여관과 술집 사람들은 식인 거인과 기이한 고난에 관한 수도사의 기록에만 관심을 보인다.
+이쯤에서 포기하려 한다. 남쪽 통로(Southern Passage) 밖에 야영지를 세우고, 카흐와 스베리(Sveri)가 길에서 동행할 사람을 찾아내면 신들의 축복으로 여기겠다."	"기록 I
+몇 주 동안 찾아 헤맨 끝에, 미치광이 덴릭(Denric the Crazed)이 나로스의 이빨(Teeth of Naros)로 항해하며 쓴 일지 제3권을 찾아냈다. 제1권과 제2권은 도무지 이해하기 어려웠다. 굶주림에 미쳐 가는 사람의 횡설수설이라고밖에는 할 수 없었지만, 세 번째 부분에서 덴릭은 비밀을 밝힌다.
+아데사(Adessa)의 학자는 아니지만, 굶주린 수도사의 헛소리 너머로 대강 무슨 일인지 짐작할 수는 있다. 덴릭은 나로스의 이빨(Teeth of Naros)로 통하는 지하 통로를 찾았다. 적어도 그렇게 내기를 걸 만한 근거는 있다. 그가 기록한 부와 장관에 관한 이야기도 어느 정도는 사실이었을 것이다. 뭔가를 보고 정신이 나간 것 같다.
+이제 남은 질문은 하나다. 어디서부터 시작할까? 마지막으로 탐험대를 꾸린 지 오래됐다. 동료도 필요하고 계획도 세워야 한다.
+
+기록 II
+운이 따라 줘서 덴릭이 ‘남쪽 통로(Southern Passage)’라고 부른 입구를 찾아냈다. 소문을 꽤 많이 쫓아다녀야 했다. 설명에 맞는 동굴은 여럿이었지만, 대부분은 뚫고 지나가야 할 에틴(Ettin) 군대가 없었다. 물론 내게 일이 그렇게 쉽게 풀릴 리 없지.
+캐너록(Canneroc)에 작전 기지를 마련할 수 있을 줄 알았다. 하지만 마을에서 스무 걸음도 떨어지기 전에 무슨 일이 있었는지 알 수 있었다. 온통 거미줄투성이였고, 밖에는 사람 그림자 하나 없었다. 요즘 웹우드(Webwood)는 무서운 곳이 됐다. 불쌍한 사람들.
+다행히 고어하트(Gorhart) 여관에 묵을 곳을 구해 서신 몇 통을 작성했다. 스베리(Sveri)에게 진 빚을 갚으라고 해 볼 생각이다. 내가 받으러 왔다고 하면 반가워하진 않겠지만. 그래도 다른 누구에게 정찰을 맡기고 싶지는 않다. 스베리(Sveri)는 이런 일을 백 번도 넘게 해 봤으니 잘 해낼 거다.
+
+기록 III
+떠돌이 마법사 한 명을 설득해 마침내 동행하게 했다. 크랜윈이라는 도크알브(Dokkalfar)다. 그 가문은 들어 본 적 없지만, 감히 그렇게 말하진 못하겠다. 멋 부리기를 좋아하는 듯하지만, 실력이 소문난 것의 반만 돼도 눈짓과 간단한 주문으로 온갖 위기를 넘길 수 있을 거다.
+그래도 여정에 합류하려는 사람은 더 찾지 못했다. 한 명만 더 있으면 안전하게 갈 수 있을 것 같다. 하지만 나로스의 이빨(Teeth of Naros)은 평판이 끔찍하다. 덴릭의 이야기를 읽어 주면 줄수록 여관과 술집 사람들은 식인 거인과 기이한 고난에 관한 수도사의 기록에만 관심을 보인다.
+이쯤에서 포기하려 한다. 남쪽 통로(Southern Passage) 밖에 야영지를 세우고, 카슈(Cach)와 스베리(Sveri)가 길에서 동행할 사람을 찾아내면 신들의 축복으로 여기겠다."	"Row-scoped short personal name, not a global surname/family alias.
+English default:5064 explicitly gives Cach Cranwyn as the expedition mage
+and later calls him Cach alongside Sveri; default:32598 also links the
+Cranwyn mage with Cach. Japanese カシュ and Chinese 察赫 corroborate the
+short name in each scoped row. Reuse the existing full-name entry's
+카슈(Cach), correcting 캐시/캐크/캐치/카크/카쉬/카흐 and supplying a missing
+English annotation. Do not change references to Cranwyn nobility or the
+surname-only battle cry default:26572, whose precise referent is not
+established by the short-name scope. Retain all 12 already-indexed
+full-name rows and D-21333's Denric edits. Official Korean manual PDF
+pages 1-3 supplies Dokkalfar/Faelands context, not this personal name."	"Entry I
+After weeks of searching, I managed to track down the third volume of Denric the Crazed’s journal on his voyage to the Teeth of Naros. I’ve puzzled over volumes one and two - for all intents and purposes, the ravings of a man slipping into starvation - but in the third part of his tale, Denric reveals his secret.
+I may not be one of those Adessa Scholars, but I can look past the ravings of a famished monk to know what is likely. Denric found an underground route to the Teeth of Naros, or at least I’m willing to wager that he has. I can only assume that the claims of wealth and splendor he recorded were in some part true. I have a feeling that he saw something that set him off.
+So the only question I have now is - where to begin? It’s been a long while since I’ve done an expedition. But I’m going to need a crew, and I’m going to need a plan.
+
+Entry II
+With some luck, I’ve pinpointed the entrance to this “Southern Passage” as Denric called it. Had to chase down more than a few rumors to do so - lot of caves that matched his description, and most of them didn’t have an army of ettin that I had to get through. But, of course, things couldn’t be easy for me.
+I thought that I’d be able to at least make a base of operation in Canneroc. But I didn’t get within twenty paces before I saw what had happened to the place - covered with webs, not a soul out of doors. The Webwood’s become a fierce place of late. Poor sods.
+Thankfully, I managed to get a spot at the Gorhart Inn, where I drafted some correspondence. I figured that it would be worth calling on the favor Sveri owes me -though I doubt she’ll be happy that I’ve come to collect. All the same, I don’t trust anyone else to be my scout. Sveri’s done this a hundred times before-she’ll do good work.
+
+Entry III
+Finally managed to bend the ear of a wandering mage enough to come with me. A Dokkalfar, named Cranwyn - never heard of the family, but I dare not say so. Seems he’s a bit of a dandy, but if half the talk of his skill is true, then he should be able to get us through any tight spots with a wink and a cantrip.
+That said, I can’t find any more that are willing to join us on the journey. All we need is one more , and I’m comfortable that we can make the journey safely. But the Teeth of Naros has an awful reputation. The more I read from Denric’s tales to the inns and pubs I find, the more people focus on the monks’ accounts of flesh-eating giants and mysterious travails.
+At this point, I’m giving up. I’ll set up camp outside Southern Passage, and if Cach and Sveri can find someone on the road, then the gods will give me their blessing."	"その1
+何週間も探し続けた挙げ句、熱狂者デンリックがナロスの牙への旅路に記した日誌の三巻目を探し当てることができた。一巻目と二巻目は理解しようと奮闘してだいぶ時間をかけたが、どちらも飢えつつある男が正気を失っていく話で、それ以上のことはなさそうだ。しかし話の三巻目で、デンリックが秘密を明かす。
+自分はアデッサの学者ではないが、飢えた修道士の戯れ言の向こうに見え隠れする事実の推測くらいはできる。デンリックはナロスの牙への地下道を見つけたのだと、少なくとも賭けてもいい程度には思われる。彼が書き残した富みと輝きに関する言及は、少なくとも部分的には正しかったのだろう。何かを目にして、それで激高したのでないかと考えている。
+こうなると、残る疑問は1つだけで、どこから始めればいいのだろう、ということだ。最後に調査隊に参加したのは大分昔だ。部下と、計画が必要になる。
+
+その2
+幸運にも恵まれ、デンリックが""南側通路""と称していたものの入口を特定できた。かなりの数の噂を検証することになった。彼の説明が当てはまる洞窟がたくさんあり、その殆どには突破しなければならないエティンの軍団がいなかった。もちろん、そう簡単に事が進むはずもないのだが。
+キャネロックに足がかりくらいは作れるかと思っていたんだが、20歩手前まで来た時点で何が起きたかは明白だった。そこらじゅうがクモの巣だらけで、表を歩いている人影が1人もいなかった。ウェブウッドも最近、恐ろしい場所になってきた。困ったものだ。
+幸い、ゴーハートの宿屋で場所を借りて手紙の下書きが書けた。スヴェリへの貸しを返してもらうのも手かと思ったわけだ。本人は喜んでくれそうにないが。いずれにせよ、偵察を任せられるのは彼女だけだ。スヴェリは慣れっこだから、いい仕事をしてくれるだろう。
+
+その3
+ようやく流れ者の魔道士を、同行してくれるように説得できた。クランウィンという名のドカルファーだ。家の名前は聞いたことないが、面と向かってそうは言えない。どうも伊達男の臭いがするが、豪語の半分でも実力があれば、困りそうな局面もちょっとした機転と魔法で切り抜けてくれるだろう。
+とはいえ、それ以外に同行してくれそうな面々を見つけられずにいる。あと1人いてくれれば無事にたどり着ける自信があるんだが、ナロスの牙はかなり悪名高い。立ち寄った宿屋や酒場でデンリックの物語を読み聞かせてやればやるほど、大半の連中が人食いの巨人だの、得体の知れない辛苦などに気をとられるようだ。
+もはや諦めて、南側通路の外で野営をして、カシュとスヴェリが通りすがりの誰かを見つけてでもくれれば、神々の祝福をいただけるだろう。"	"段落一
+经过数月的搜寻之后，我成功追踪到了疯人德里克关于纳罗斯之牙航程日志的第三卷。我对前两卷中所述的动机和目的一直迷惑不解，认为不过是一个快要饿死的人在那儿疯言疯语，可到了故事的第三部分，德里克终于揭示了自己的秘密。
+我虽然不是一名阿德萨学者，可我能从一个要饿死的僧人的疯话中探知他说的可能是什么。德里克找到了一条通往纳罗斯之牙的地下通道，至少我赌他已经找到了。我只能推测他所记录的财宝和异象部分是真的。我有一种感觉，是他看见了什么把他逼疯的。
+于是现在我只有一个问题，从哪里开始？自我上次探险以来，已经过了好久了。现在我需要一支队伍，还需要制订一个计划。
+
+段落二
+运气使然，我已经找到了德里克所说“南部通道”的入口。听信了多少传闻才找到了这个地方，很多洞穴都符合德里克的描述，可大多数洞穴都没有成群的双头魔把守。当然，对我来说事情没有这么简单。
+我想我至少要在坎能洛克建一个行动基地。可我刚走了不到二十步，就看到了这个地方现在的状况，到处都是蛛网，路上一个人影儿都没有。蛛网森林变成了一个凶险的地方。真是可怜的地方。
+幸运的是，我在郭哈特旅馆找了个房间，在那里我写了几封信。我盘算着最好叫斯薇里还我个人情，不过我怀疑我去找她还人情，她不会太高兴。尽管如此，我也不会信任其他人做我的斥候。斯薇里干这事情上百来次了，她会做得很好。
+
+段落三
+终于成功劝来了一个云游法师跟着我。他叫克朗文，来自暗精灵家族，不过我可不敢说自己从未听说过这个家族。他似乎有一点好打扮，不过只要他有自己说的本事的一半，那他眨下眼，施个咒就能带我轻松通过任何危险的地方。
+即便如此，我也再找不到其他人加入我们这趟行程了。我们就还需要一个人，这趟行程的安全性我就放心了。然而纳罗斯之牙的名声可不怎么好。我在找到的旅馆和酒馆里讲德里克的故事，我讲得越多，人们就越关注这个僧人所记载的食肉巨人与神秘的痛苦体验。
+在这个节骨眼上，我就要放弃了。我在南部通道之外扎营，如果察赫和斯薇里能在路上碰到个什么人能一起上路，那么就是上帝在向我赐福了。"	"{""person:cach-cranwyn"":""accepted""}"	"{""person:cach-cranwyn"":""needs-context""}"	"{""person:cach-cranwyn"":""Newly discovered exact expedition-mage short-name occurrence.""}"
+"default"	"45496"	""	"person:cach-cranwyn"	"accepted"	"캐치(Cach)와 스베리(Sveri)를 설득해 합류시키는 데만 몇 주가 걸렸어. 한 명만 더 있으면 몫을 지나치게 나누지 않고도 더 많이 챙길 수 있어."	"카슈(Cach)와 스베리(Sveri)를 설득해 합류시키는 데만 몇 주가 걸렸어. 한 명만 더 있으면 몫을 지나치게 나누지 않고도 더 많이 챙길 수 있어."	"Row-scoped short personal name, not a global surname/family alias.
+English default:5064 explicitly gives Cach Cranwyn as the expedition mage
+and later calls him Cach alongside Sveri; default:32598 also links the
+Cranwyn mage with Cach. Japanese カシュ and Chinese 察赫 corroborate the
+short name in each scoped row. Reuse the existing full-name entry's
+카슈(Cach), correcting 캐시/캐크/캐치/카크/카쉬/카흐 and supplying a missing
+English annotation. Do not change references to Cranwyn nobility or the
+surname-only battle cry default:26572, whose precise referent is not
+established by the short-name scope. Retain all 12 already-indexed
+full-name rows and D-21333's Denric edits. Official Korean manual PDF
+pages 1-3 supplies Dokkalfar/Faelands context, not this personal name."	"It took weeks even to convince Cach and Sveri to join me. With a fourth, we can take a bigger haul without sharing too much of it."	"カシュとスヴェリを仲間に引き入れるだけで数週間もかかった。4人目がいれば儲けは大きくなり、しかも分け前はそれほど減らさずに済む"	"我花了几周才说服察赫和斯薇里加入。再来个第四位，我们就能多搬些财宝，每个人分到的也不会少。"	"{""person:cach-cranwyn"":""accepted""}"	"{""person:cach-cranwyn"":""needs-context""}"	"{""person:cach-cranwyn"":""Newly discovered exact expedition-mage short-name occurrence.""}"
+"default"	"50959"	""	"person:cach-cranwyn"	"accepted"	"성공이라고 하긴 어렵지, 그렇지? 캐시(Cach)는 도망쳤고, 스베리(Sveri)는... 하지만 그들은 위험을 알고 있었어. 우리 모두 알고 있었지."	"성공이라고 하긴 어렵지, 그렇지? 카슈(Cach)는 도망쳤고, 스베리(Sveri)는... 하지만 그들은 위험을 알고 있었어. 우리 모두 알고 있었지."	"Row-scoped short personal name, not a global surname/family alias.
+English default:5064 explicitly gives Cach Cranwyn as the expedition mage
+and later calls him Cach alongside Sveri; default:32598 also links the
+Cranwyn mage with Cach. Japanese カシュ and Chinese 察赫 corroborate the
+short name in each scoped row. Reuse the existing full-name entry's
+카슈(Cach), correcting 캐시/캐크/캐치/카크/카쉬/카흐 and supplying a missing
+English annotation. Do not change references to Cranwyn nobility or the
+surname-only battle cry default:26572, whose precise referent is not
+established by the short-name scope. Retain all 12 already-indexed
+full-name rows and D-21333's Denric edits. Official Korean manual PDF
+pages 1-3 supplies Dokkalfar/Faelands context, not this personal name."	"Can't really say it was a success, can we? Cach ran off, and Sveri... but they ‒ they knew the risks. We all did."	"成功だったとは言い切れないな。カシュは逃げ、スヴェリは... だが連中は危険を知っていた。皆知っていたんだ"	"这并不算是成功，不是吗？察赫逃跑了，而斯薇里...但他们——他们知道有风险。我们都知道。"	"{""person:cach-cranwyn"":""accepted""}"	"{""person:cach-cranwyn"":""needs-context""}"	"{""person:cach-cranwyn"":""Newly discovered exact expedition-mage short-name occurrence.""}"
+"default"	"51335"	""	"person:cach-cranwyn"	"accepted"	"남쪽 통로(Southern Passage)는 위험천만했다. 피로 뒤덮인 커다란 석상이라고 생각했던 것을 발견한 뒤 카크(Cach)는 달아났다. 이제 와서 알지만, 그건 석상이 아니라 콜로사이(Kollossae)의 시체였다. 스베리(Sveri)는 함정에 목숨을 잃었고, 나는 마침내 이름을 알아낸 괴물 익룡(Pteryx)과 싸우다 부상당했다. 원정은 재앙으로 끝났고, 낯선 이만 남았다.
+
+우리는 남쪽 통로(Southern Passage)의 어둠 속에서 헤어졌다. 그는 호의로 치유 물약을 남겨 줬고, 지금도 그게 목숨을 구했다고 믿는다. 그가 출구를 찾던 중 갑자기 동굴이 무너져 우리를 갈라놓았고, 한평생이 지난 듯한 시간이 흐를 때까지 그를 다시 보지 못했다. 나는 남쪽 통로(Southern Passage)에서 살아남으려 애썼고, 네 번째 동료는 에테네(Ethene)의 부름받은 자(Beckoned)가 되었다."	"남쪽 통로(Southern Passage)는 위험천만했다. 피로 뒤덮인 커다란 석상이라고 생각했던 것을 발견한 뒤 카슈(Cach)는 달아났다. 이제 와서 알지만, 그건 석상이 아니라 콜로사이(Kollossae)의 시체였다. 스베리(Sveri)는 함정에 목숨을 잃었고, 나는 마침내 이름을 알아낸 괴물 익룡(Pteryx)과 싸우다 부상당했다. 원정은 재앙으로 끝났고, 낯선 이만 남았다.
+
+우리는 남쪽 통로(Southern Passage)의 어둠 속에서 헤어졌다. 그는 호의로 치유 물약을 남겨 줬고, 지금도 그게 목숨을 구했다고 믿는다. 그가 출구를 찾던 중 갑자기 동굴이 무너져 우리를 갈라놓았고, 한평생이 지난 듯한 시간이 흐를 때까지 그를 다시 보지 못했다. 나는 남쪽 통로(Southern Passage)에서 살아남으려 애썼고, 네 번째 동료는 에테네(Ethene)의 부름받은 자(Beckoned)가 되었다."	"Row-scoped short personal name, not a global surname/family alias.
+English default:5064 explicitly gives Cach Cranwyn as the expedition mage
+and later calls him Cach alongside Sveri; default:32598 also links the
+Cranwyn mage with Cach. Japanese カシュ and Chinese 察赫 corroborate the
+short name in each scoped row. Reuse the existing full-name entry's
+카슈(Cach), correcting 캐시/캐크/캐치/카크/카쉬/카흐 and supplying a missing
+English annotation. Do not change references to Cranwyn nobility or the
+surname-only battle cry default:26572, whose precise referent is not
+established by the short-name scope. Retain all 12 already-indexed
+full-name rows and D-21333's Denric edits. Official Korean manual PDF
+pages 1-3 supplies Dokkalfar/Faelands context, not this personal name."	"The Southern Passage was treacherous. Cach fled after we found what we thought was a large stone statue covered in blood (now, I know this was no statue, but a corpse of one of the Kollossae). Sveri was killed by a trap, and I was wounded in a battle with monsters I can finally put a name to, the pteryx. Our expedition was a disaster, and only the stranger remained.
+
+We parted ways in the dark of the Southern Passage. In his generosity, he left me a healing potion (which, I am convinced to this very day, saved my life). As he searched for an exit, a sudden cave-in separated us, and I would not see him again for what seemed like a lifetime. I spent my time trying to survive in the Southern Passage while our fourth companion became Beckoned of Ethene."	"南側通路は何も信用できなかった。私たちが血で覆われた巨大な石像だと思ったもの(今はこれが石像ではなく、カロッサエの死体だということは分かっている)を見つけた後、カシュは逃げ出した。スヴェリは罠にかかって死に、私は怪物と戦って負傷した。今はこの怪物はプテリクスという名前だということを知っている。私たちの探検は大惨事となり、よそ者だけが残った。
+
+我々は南側通路の闇の中、別々の方向に別れることにした。寛大な彼は、ライフポーション(これが私の命を救ってくれたと今でも思っている)を残してくれた。彼が出口を探していると、突然崩落があり、私たちはバラバラになってしまい、彼をこの先2度と見ることはなかった。私は南側通路で生き残ろうと時間を費やし、一方4人目の仲間は、エセンの招かれし者となった。"	"南部通道很危险。在我们发现了一个被血迹覆盖的我们以为的巨大石头雕像后，察赫逃跑了（现在，我知道这不是雕像，而是一具克勒塞的尸体）。斯薇里被陷阱杀死，我在与怪物们的战斗中受伤，我终于可以给它们起个名字了，那就是龙枭。我们的远征是一场灾难，只留下了那个陌生人。
+
+我们在黑暗的南方通道里分道扬镳。出于慷慨，他给我留下了一剂治疗药水（直到今天，我仍然相信是它救了我的命）。当他寻找出口时，一个突然的塌方把我们分开了，我似乎今生都不会再见到他了。当我们的第四个同伴受到伊希恩的召唤时，我把时间花在了设法在南方通道中生存。"	"{""person:cach-cranwyn"":""accepted""}"	"{""person:cach-cranwyn"":""needs-context""}"	"{""person:cach-cranwyn"":""Newly discovered exact expedition-mage short-name occurrence.""}"
+"default"	"53323"	""	"person:cach-cranwyn"	"accepted"	"나로스의 이빨(Teeth of Naros)로 가던 중, 카쉬(Cach)가 도망치고 스베리(Sveri)가 죽은 뒤 동굴 붕괴로 헬릭(Helyc)과 떨어졌다. 뒤로 가는 길은 막혔으니, 다른 출구가 있는지 알아보려면 이 동굴을 혼자 계속 나아가야 한다."	"나로스의 이빨(Teeth of Naros)로 가던 중, 카슈(Cach)가 도망치고 스베리(Sveri)가 죽은 뒤 동굴 붕괴로 헬릭(Helyc)과 떨어졌다. 뒤로 가는 길은 막혔으니, 다른 출구가 있는지 알아보려면 이 동굴을 혼자 계속 나아가야 한다."	"Row-scoped short personal name, not a global surname/family alias.
+English default:5064 explicitly gives Cach Cranwyn as the expedition mage
+and later calls him Cach alongside Sveri; default:32598 also links the
+Cranwyn mage with Cach. Japanese カシュ and Chinese 察赫 corroborate the
+short name in each scoped row. Reuse the existing full-name entry's
+카슈(Cach), correcting 캐시/캐크/캐치/카크/카쉬/카흐 and supplying a missing
+English annotation. Do not change references to Cranwyn nobility or the
+surname-only battle cry default:26572, whose precise referent is not
+established by the short-name scope. Retain all 12 already-indexed
+full-name rows and D-21333's Denric edits. Official Korean manual PDF
+pages 1-3 supplies Dokkalfar/Faelands context, not this personal name."	"While traveling to the Teeth of Naros, I have become separated from Helyc by a cave-in after Cach fled and Sveri died. Now that the way behind me is blocked, I should press forward alone to see if there's another way out of this cave."	"ナロスの牙の探検中、カシュが逃げてスヴェリが死んだ後、洞窟が崩落してヘリクとはぐれてしまった。後方の道が塞がれたので、洞窟を進んで他の出口を探そう。"	"在去往纳罗斯之牙途中，察赫逃走了，斯薇里死了，我就因为这场风波和赫利克分开了。既然我背后的路封锁了，我就应该独自前行，看是否有其他路离开这个洞穴。"	"{""person:cach-cranwyn"":""accepted""}"	"{""person:cach-cranwyn"":""needs-context""}"	"{""person:cach-cranwyn"":""Newly discovered exact expedition-mage short-name occurrence.""}"

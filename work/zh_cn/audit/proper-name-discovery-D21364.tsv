@@ -1,0 +1,509 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"
+"base"	"312"	"11"	"named work:the-seasteel-golems|resource:seasteel"	"not-an-issue"	"바다강철 골렘들 (The Seasteel Golems)"	"바다강철 골렘들 (The Seasteel Golems)"	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works. The exact English book labels at base:312 and default:39776 agree with Japanese 海洋鉄のゴーレム and Chinese 海钢魔像; default:3224 explicitly describes a telling of their tale. Retain the complete Korean title 바다강철 골렘들. Do not turn the descriptive lowercase seasteel golems in default:3224 into an asserted exact book-title alias."	"The Seasteel Golems"	"海洋鉄のゴーレム"	"海钢魔像"	"{""resource:seasteel"":""not-an-issue"",""named work:the-seasteel-golems"":""not-an-issue""}"
+"base"	"2180"	"11"	"resource:seasteel"	"accepted"	"시스틸(Seasteel) 꾸러미"	"바다강철(Seasteel) 꾸러미"	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Bundle of Seasteel"	"海洋鉄の塊"	"捆束海钢"	"{""resource:seasteel"":""accepted""}"
+"base"	"4366"	"11"	"named work:the-virtues-of-seasteel|resource:seasteel"	"accepted"	"해양강의 장점 (The Virtues of Seasteel)"	"바다강철의 장점(The Virtues of Seasteel)"	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works. Exact base:4366/default:26944 labels and the material treatise at default:35162 establish the source-local work and subject. Japanese 海洋鉄の利点 and Chinese 海钢的优点 support the existing 장점 wording. Align only the material name and complete English title; infer no author or historical identity."	"The Virtues of Seasteel"	"海洋鉄の利点"	"海钢的优点"	"{""resource:seasteel"":""accepted"",""named work:the-virtues-of-seasteel"":""accepted""}"
+"default"	"2111"	""	"resource:seasteel"	"not-an-issue"	"바다강철(Seasteel) 꾸러미"	"바다강철(Seasteel) 꾸러미"	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Bundles of Seasteel"	"海洋鉄の塊"	"成捆的海钢"	"{""resource:seasteel"":""not-an-issue""}"
+"default"	"3224"	""	"named work:the-seasteel-golems|resource:seasteel"	"accepted"	"바다강철 골렘에 관한 이야기를 들려주는 책."	"바다강철(seasteel) 골렘에 관한 이야기를 들려주는 책."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works. The exact English book labels at base:312 and default:39776 agree with Japanese 海洋鉄のゴーレム and Chinese 海钢魔像; default:3224 explicitly describes a telling of their tale. Retain the complete Korean title 바다강철 골렘들. Do not turn the descriptive lowercase seasteel golems in default:3224 into an asserted exact book-title alias."	"A telling of the tale of the seasteel golems."	"海洋鉄ゴーレムの物語を伝えている。"	"讲述了海钢魔像的故事。"	"{""resource:seasteel"":""accepted"",""named work:the-seasteel-golems"":""excluded""}"
+"default"	"7813"	""	"resource:seasteel"	"accepted"	"이번에는 해안석 세 묶음, 곰 가죽 네 묶음, 불씨나무 세 묶음, 바다강철 세 묶음이 필요해."	"이번에는 해안석 세 묶음, 곰 가죽 네 묶음, 불씨나무 세 묶음, 바다강철(seasteel) 세 묶음이 필요해."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"For this, I will need three bundles of beachstone, four bundles of bear hide, three bundles of emberwood, and three bundles of seasteel."	"今回必要なのは、ビーチストーン3塊、熊の皮4束、エンバーウッド3束、海洋鉄3塊だ"	"为此，我需要三包沙滩石、四捆熊皮、三捆灰烬木和三捆海钢。"	"{""resource:seasteel"":""accepted""}"
+"default"	"8257"	""	"resource:seasteel"	"accepted"	"다음 재료를 구해 줘. 해안석 네 묶음, 불씨나무 세 묶음, 돛천 두 묶음, 바다강철 세 묶음이야."	"다음 재료를 구해 줘. 해안석 네 묶음, 불씨나무 세 묶음, 돛천 두 묶음, 바다강철(seasteel) 세 묶음이야."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"I'll just need you to get me the following materials - four bundles of beachstone, three bundles of emberwood, two bundles of sailcloth, and three bundles of seasteel."	"これから言う資材を集めてきてほしい。ビーチストーンを4塊、エンバーウッドを3束、帆布を2束、そして海洋鉄を3塊だ"	"我只需要您给我以下材料——四包沙滩石、三捆灰烬木、两捆帆布和三捆海钢。"	"{""resource:seasteel"":""accepted""}"
+"default"	"9808"	""	"resource:seasteel"	"accepted"	"해양강을 구하기가 이렇게 어려운 줄 몰랐어. 귀하게 여겨지는 것도 당연하네."	"바다강철(seasteel)을 구하기가 이렇게 어려운 줄 몰랐어. 귀하게 여겨지는 것도 당연하네."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"I didn't realize how hard seasteel was to come by. No wonder it's so prized."	"海洋鉄が入手困難な物だなんて知らなかった。貴重なはずよね"	"我没想到海钢这么难找到。难怪它是如此珍贵。"	"{""resource:seasteel"":""accepted""}"
+"default"	"15086"	""	"resource:seasteel"	"accepted"	"드베르가(Dverga)의 새 보금자리를 찾아 나선 마트 왕(King Maht)은 프로스트브레이크 해(Frostbreak Sea)를 항해하다 옵시디언 섬(Obsidian Isle)을 발견했다. 칼레바(Kaleva) 왕자가 죽고 배 바루파키르호(Barufakir)를 잃은 뒤, 왕은 드베르가족을 옵시디언 섬(Obsidian Isle)에 영구히 정착시키기로 했다. 자신의 배 나글파르호(Naglfar)를 지키기 위해 왕은 배를 옵시디언 섬(Obsidian Isle) 정상의 칼데라로 옮길 계획을 세웠다. 마트 왕(King Maht)은 드베르간(Dvergan) 대장장이와 룬 각인사들을 모아 나글파르호(Naglfar)를 정박할 곳까지 운반할 골렘들을 만들게 했다. 배를 옮긴 뒤에는 골렘들이 배를 지키며, 다시 필요해질 때까지 안전하게 보관할 예정이었다.
+
+새로 발견한 해강철을 사용해 대장장이와 룬 각인사들은 골렘 13기를 만들었다. 조립이 끝나자 골렘들은 거대한 배를 옵시디언 섬(Obsidian Isle) 정상까지 운반하라는 명령을 받았다. 시간이 흐르면서 골렘은 눈에 뒤덮였고, 결국 완전히 얼음 속에 갇혔다. 이제 배 아래에는 거대한 검은 얼음 기둥 12개만 남아 있다. 왕이 하임달리르(Heimdallyr)라는 이름을 붙인 수호 열쇠 골렘만은 이런 운명을 피했다. 가장 강력한 골렘은 나글파르호(Naglfar) 갑판에서 경비를 서며 침입에 대비했다."	"드베르가(Dverga)의 새 보금자리를 찾아 나선 마트 왕(King Maht)은 프로스트브레이크 해(Frostbreak Sea)를 항해하다 옵시디언 섬(Obsidian Isle)을 발견했다. 칼레바(Kaleva) 왕자가 죽고 배 바루파키르호(Barufakir)를 잃은 뒤, 왕은 드베르가족을 옵시디언 섬(Obsidian Isle)에 영구히 정착시키기로 했다. 자신의 배 나글파르호(Naglfar)를 지키기 위해 왕은 배를 옵시디언 섬(Obsidian Isle) 정상의 칼데라로 옮길 계획을 세웠다. 마트 왕(King Maht)은 드베르간(Dvergan) 대장장이와 룬 각인사들을 모아 나글파르호(Naglfar)를 정박할 곳까지 운반할 골렘들을 만들게 했다. 배를 옮긴 뒤에는 골렘들이 배를 지키며, 다시 필요해질 때까지 안전하게 보관할 예정이었다.
+
+새로 발견한 바다강철(seasteel)을 사용해 대장장이와 룬 각인사들은 골렘 13기를 만들었다. 조립이 끝나자 골렘들은 거대한 배를 옵시디언 섬(Obsidian Isle) 정상까지 운반하라는 명령을 받았다. 시간이 흐르면서 골렘은 눈에 뒤덮였고, 결국 완전히 얼음 속에 갇혔다. 이제 배 아래에는 거대한 검은 얼음 기둥 12개만 남아 있다. 왕이 하임달리르(Heimdallyr)라는 이름을 붙인 수호 열쇠 골렘만은 이런 운명을 피했다. 가장 강력한 골렘은 나글파르호(Naglfar) 갑판에서 경비를 서며 침입에 대비했다."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Searching for a new home for the Dverga, King Maht sailed the Frostbreak Sea until he found the Obsidian Isle. Following the death of Prince Kaleva and the loss of his ship the Barufakir, the King decided that the dwarfs would permanently settle upon Obsidian Isle. To protect his own ship, the Naglfar, the king planned to transport it to the caldera at the top of Obsidian Isle. King Maht commissioned a group of Dvergan smiths and runebinders to create a host of golems that could carry the Naglfar to its chosen resting place. Once the ship was moved, the golems would protect it and keep it safe should it ever be needed again.
+
+Using the newly discovered seasteel, the smiths and runebinders created thirteen golems. Once assembled, the golems were commanded to carry the great ship to the top of the Obsidian Isle. Over time, the golems became covered in snow and were eventually completed encased in ice. All that remains of them now are twelve great columns of dark ice beneath the ship. Only the guardian key-golem, dubbed Heimdallyr by the King, was spared this fate. Instead, the greatest of the golems stood guard on the deck of the Naglfar to defend it against any incursion."	"マハト王はドゥバーガの新たな住みかを探してフロストブレイク海を船でさまよい続け、やがてオブシディアン島を発見した。バルファキア号が失われ、カレーヴァ王子が命を落とした後、王はドワーフらに、オブシディアン島に腰を据えさせる決断を下した。そして自ら座上するナグルファー号を守るため、オブシディアン島の最上部にあるカルデラに運ぼうと考えた。マハト王はドゥバーガの鍛冶やルーンバインダーの一団を集め、ナグルファー号をそこまで運べるゴーレムの大群を生み出すように依頼した。船の搬送後、ゴーレムたちはその守りにつき、必要となるまで待機させる予定だった。
+
+鍛冶とルーンバインダーたちは新発見の海洋鉄を使い、13体のゴーレムを新造した。組み立てが終わると、ゴーレムたちは船をオブシディアン島の最上部に運ぶよう命じられた。時が経つとともにゴーレムたちは雪に埋もれ、やがて完全に氷に封じ込められてしまい、今や船の下に12本の巨大な暗色の氷柱が見えるだけとなってしまった。王によりハイムダリーアと銘打たれた主格の守り手ゴーレムのみがその末路を免れた。一団最大のゴーレムは侵入者に備え、ナグルファー号の甲板上で見張りについた。"	"为了在迪维尔干找到新家，马特国王驶过裂霜海，直至找到了黑曜岛。卡勒瓦王子死了，自己的船巴鲁法奇尔号也丢了，国王决定侏儒将会永远定居在黑曜岛。为了保护自己的船纳戈法号，国王计划把它运到黑耀岛顶上的火山口。马特国王委任了一群迪维尔干铁匠和贴符师建造大批魔像，它们能把纳戈法号抬到指定长眠的地方。一旦船移走了，只要不会再需要它，魔像就能保护它，保证它的安全。
+
+铁匠和贴符师使用新发现的海钢建造了十三个魔像。这些魔像聚集之后，就命令它们把这艘大船抬到黑曜岛顶上。久而久之，魔像被白雪覆盖，最后完全封在雪里。现在船下就剩下了十二块黑冰。只有那个国王赐名黑姆达利尔的关键魔像守护者逃过了这样的命运。这个最伟大的魔像反而镇守在纳戈法号的甲板上抵抗任何形式的入侵。"	"{""resource:seasteel"":""accepted""}"
+"default"	"16478"	""	"resource:seasteel"	"not-an-issue"	"바다강철(seasteel)은 섬 해안에서, 잿불나무(emberwood)와 돛천(sailcloth)은 난파선 주변이나 패스팅(fastings) 안에서 찾을 수 있을 거야."	"바다강철(seasteel)은 섬 해안에서, 잿불나무(emberwood)와 돛천(sailcloth)은 난파선 주변이나 패스팅(fastings) 안에서 찾을 수 있을 거야."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"You should be able to find seasteel on the coast of the island, and emberwood and sailcloth near shipwrecks or inside fastings."	"海洋鉄は島の海岸で見つかるはず。エンバーウッドと帆布は難破船の近くか地下通路の中だ"	"您应该能在该岛的海岸上找到海钢，并在沉船附近或通道内部找到灰烬木和帆布。"	"{""resource:seasteel"":""not-an-issue""}"
+"default"	"23468"	""	"resource:seasteel"	"accepted"	"엠버우드(Emberwood), 돛천, 곰가죽, 해강철, 해변석. 섬 곳곳에서 충분히 구할 수 있지만, 늘 안전한 곳에 있는 건 아니야."	"엠버우드(Emberwood), 돛천, 곰가죽, 바다강철(seasteel), 해변석. 섬 곳곳에서 충분히 구할 수 있지만, 늘 안전한 곳에 있는 건 아니야."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Emberwood, sailcloth, bearhide, seasteel, and beachstone. They can all be found in sufficient quantities around the island, but not always in the safest locales."	"エンバーウッド、帆布、熊の皮、海洋鉄、ビーチストーン。島で十分に見つかるが、必ずしも安全な場所にあるとは限らない"	"灰烬木、帆布、熊皮、海钢和沙滩石。在岛上到处都能找到足够的数量，但并不总是在最安全的地方。"	"{""resource:seasteel"":""accepted""}"
+"default"	"26419"	""	"resource:seasteel"	"accepted"	"바다 강철로 만든 이 페이블레이드는 맹금인 매의 형상을 본떠 제작되었다. 고귀한 매를 닮은 이 무기는 빠르고 소리 없이 적을 벤다."	"바다강철(seasteel)로 만든 이 페이블레이드는 맹금인 매의 형상을 본떠 제작되었다. 고귀한 매를 닮은 이 무기는 빠르고 소리 없이 적을 벤다."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"These seasteel Faeblades are fashioned in the shape of predatory hawks. Like the noble beasts they resemble, these weapons strike swift and silently."	"獰猛な鷹に似せた海洋鉄製のフェイブレード。鷹の高潔さが象徴するように、素早く音をたてずに攻撃が可能。"	"这些海钢灵剑被做成了掠食性鹰的形状。正如它们所模仿的高贵野兽一样，这些武器的攻击迅速、悄无声息。"	"{""resource:seasteel"":""accepted""}"
+"default"	"26549"	""	"resource:seasteel"	"accepted"	"해양 강철 묶음"	"바다강철(Seasteel) 묶음"	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Bundles of Seasteel"	"海洋鉄の塊"	"成捆的海钢"	"{""resource:seasteel"":""accepted""}"
+"default"	"26944"	""	"named work:the-virtues-of-seasteel|resource:seasteel"	"accepted"	"해양 강철의 장점"	"바다강철의 장점(The Virtues of Seasteel)"	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works. Exact base:4366/default:26944 labels and the material treatise at default:35162 establish the source-local work and subject. Japanese 海洋鉄の利点 and Chinese 海钢的优点 support the existing 장점 wording. Align only the material name and complete English title; infer no author or historical identity."	"The Virtues of Seasteel"	"海洋鉄の利点"	"海钢的优点"	"{""resource:seasteel"":""accepted"",""named work:the-virtues-of-seasteel"":""accepted""}"
+"default"	"27575"	""	"resource:seasteel"	"accepted"	"이를 위해 엠버우드 두 묶음, 돛천 두 묶음, 시스틸 네 묶음이 필요해."	"이를 위해 엠버우드 두 묶음, 돛천 두 묶음, 바다강철(seasteel) 네 묶음이 필요해."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"For this I'll need two bundles of emberwood, two bundles of sailcloth, and four bundles of seasteel."	"これにはエンバーウッドが2束、帆布が2束、海洋鉄が4塊必要になる"	"为此，我需要两捆灰烬木，两捆帆布和四捆海钢。"	"{""resource:seasteel"":""accepted""}"
+"default"	"35162"	""	"resource:seasteel"	"accepted"	"씨스틸은 실용성이 뛰어나고 인장 강도가 높으며 가벼워 귀하게 여겨지는 마법 금속이다. 씨스틸이 발견되는 곳은 옵시디언 섬(Obsidian Isle)뿐이다. 그곳에서도 씨스틸은 극히 한정된 양만 얻을 수 있으며, 일 년에 한 번만 섬의 해안에 나타난다. 이웃 환초에서 폭풍이 몰아친 뒤 씨스틸이 밀물처럼 밀려와 섬의 해변에 덩어리째 쌓이고, 사람들은 그것을 손으로 거둔다.
+
+자연 상태의 씨스틸은 차가운 물에 떨어뜨린 녹은 밀랍처럼 칙칙한 회색 덩어리로 보인다. 씨스틸의 가장 흥미로운 특성 중 하나는 부력이다. 정련하면 부력은 줄어들지만, 강도와 가벼움은 그대로 유지된다. 또한 부식에 강하고 거울처럼 빛나도록 연마할 수 있으며 변색되지 않아 선박 용도로 인기가 높다.
+
+옵시디언 섬(Obsidian Isle)에 처음 정착한 드베르가(Dverga)들은 씨스틸에 감탄하며 그것으로 무기와 도구를 만드는 법을 익혔다. 그들은 씨스틸을 자기 종족에게 바다의 선물로 여겨 섬 밖으로 거의 내보내지 않았다. 씨스틸은 금보다도 귀하게 여겨졌고, 엠버딥(Emberdeep)의 주조 길드가 탐욕스럽게 독점했다. 드베르가(Dverga)들은 다른 왕국이 씨스틸을 빼앗으려 할까 두려워 외지인에게 그 존재를 거의 말하지 않는다."	"바다강철(Seasteel)은 실용성이 뛰어나고 인장 강도가 높으며 가벼워 귀하게 여겨지는 마법 금속이다. 바다강철(seasteel)이 발견되는 곳은 옵시디언 섬(Obsidian Isle)뿐이다. 그곳에서도 바다강철(seasteel)은 극히 한정된 양만 얻을 수 있으며, 일 년에 한 번만 섬의 해안에 나타난다. 이웃 환초에서 폭풍이 몰아친 뒤 바다강철(seasteel)이 밀물처럼 밀려와 섬의 해변에 덩어리째 쌓이고, 사람들은 그것을 손으로 거둔다.
+
+자연 상태의 바다강철(seasteel)은 차가운 물에 떨어뜨린 녹은 밀랍처럼 칙칙한 회색 덩어리로 보인다. 바다강철(Seasteel)의 가장 흥미로운 특성 중 하나는 부력이다. 정련하면 부력은 줄어들지만, 강도와 가벼움은 그대로 유지된다. 또한 부식에 강하고 거울처럼 빛나도록 연마할 수 있으며 변색되지 않아 선박 용도로 인기가 높다.
+
+옵시디언 섬(Obsidian Isle)에 처음 정착한 드베르가(Dverga)들은 바다강철(seasteel)에 감탄하며 그것으로 무기와 도구를 만드는 법을 익혔다. 그들은 바다강철(seasteel)을 자기 종족에게 바다의 선물로 여겨 섬 밖으로 거의 내보내지 않았다. 바다강철(seasteel)은 금보다도 귀하게 여겨졌고, 엠버딥(Emberdeep)의 주조 길드가 탐욕스럽게 독점했다. 드베르가(Dverga)들은 다른 왕국이 바다강철(seasteel)을 빼앗으려 할까 두려워 외지인에게 그 존재를 거의 말하지 않는다."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Seasteel is an enchanted metal that is prized for its utilitarian qualities, high tensile strength, and light weight. Obsidian Isle is the one place where seasteel is known to be found. Even then, seasteel can only be found in limited quantities, and only appears once a year upon the Obsidian Isle’s shores. Storms from a neighboring atoll precede the tide of seasteel’s arrival, which washes up in nuggets on the Isle’s beaches and is collected by hand.
+
+In its natural state, seasteel appears as dull grey blobs, much like molten wax that has been dropped in cold water. Seasteel’s buoyancy is one of its most interesting qualities. While the buoyancy of the metal diminishes once it has been refined, it remains strong and very light. It is also resistant to corrosion, polishes to a mirror shine, and never tarnishes, making it desirable for nautical uses.
+
+The first Dverga to settle on Obsidian Isle marveled at seasteel and learned to craft weapons and other tools from it. They saw it as one of the sea’s gifts to their race, and would rarely export it beyond the Isle’s shores. So valued was seasteel that it was prized more than gold, and greedily hoarded by the Foundry Guild in Emberdeep. The Dverga never speak of seasteel to outsiders, for fear that the other kingdoms would try to steal it from them."	"海洋鉄はその高い実用性、伸張強度および軽量性ゆえに重宝されている魔法の金属で、オブシディアン島でのみ発見されている。それもごく限られた量であり、一年に一度だけ、オブシディアン島の浜辺で採集できる。近くの環礁由来の嵐が先んじて到来し、海洋鉄は小塊の形で島の浜辺に漂着し、手作業で集められる。
+
+自然状態での海洋鉄は、熱で溶けたロウを冷水に滴下したかのような、くすんだ灰色の粒といった外観をしている。海洋鉄の特性でも最も興味深いのはその浮揚性と言えるだろう。精錬されると浮揚性が減少するものの、強度と軽量性は保たれるうえに、腐食に強く、磨けば鏡として使えるほどに輝き、決して変色しないため、船舶用途への使用に適している。
+
+オブシディアン島に最初に住み着いたドゥバーガは、海洋鉄の性質に驚嘆し、それを使って武器や道具を作り出す技を編み出していった。彼らは海洋鉄のことを海からの贈り物の一つと考え、島の外には滅多に輸出しなかった。海洋鉄は金以上に重宝され、エンバーディープの鋳造ギルドが貪欲に貯め込むこととなった。ドゥバーガは海洋鉄を他の王国に奪われることを恐れるあまり、よそ者の前でその名を口にすることすらしなかった。"	"海钢是一种金属，因其高实用性能、高抗拉强度和轻重量而备受赞誉。黑曜岛是已知的唯一一个出产海钢的地方。即便如此，海钢也只能在有限的范围内找到，而且每年只在黑曜岛岸边出现一次。来自邻近环礁的风暴预示着海钢潮汐的到来，潮汐将一块一块的海钢冲上岛屿的沙滩，然后再由采集者手工采集。
+
+在自然状态下，海钢的外观是暗灰色的块状物，就像是熔化后坠入冷水里的的蜡滴一样。海钢的浮力是它最有趣的特性之一。虽然这种金属的浮力在精炼后会减弱，但它仍然很坚固，重量也很轻。它还具有耐腐蚀、可抛光出镜面光泽、永不褪色等优点，非常适合航海用途。
+
+第一批在黑曜岛定居的迪维尔干对“海钢”感到惊奇，并学会了用它来制作武器和其他工具。他们认为这是大海送给他们种族的礼物之一，因此很少把它出口到岛外。海钢的价值超过黄金，因此被深烬城的铸造公会贪婪地囤积起来。迪维尔干从不向外人提及海钢，因为他们担心其他王国会试图从他们那里偷走它。"	"{""resource:seasteel"":""accepted""}"
+"default"	"39776"	""	"named work:the-seasteel-golems|resource:seasteel"	"accepted"	"바다강철 골렘들"	"바다강철 골렘들(The Seasteel Golems)"	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works. The exact English book labels at base:312 and default:39776 agree with Japanese 海洋鉄のゴーレム and Chinese 海钢魔像; default:3224 explicitly describes a telling of their tale. Retain the complete Korean title 바다강철 골렘들. Do not turn the descriptive lowercase seasteel golems in default:3224 into an asserted exact book-title alias."	"The Seasteel Golems"	"海洋鉄のゴーレム"	"海钢魔像"	"{""resource:seasteel"":""accepted"",""named work:the-seasteel-golems"":""accepted""}"
+"default"	"41511"	""	"resource:seasteel"	"accepted"	"바다강철 꾸러미"	"바다강철(Seasteel) 꾸러미"	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Bundles of Seasteel"	"海洋鉄の塊"	"成捆的海钢"	"{""resource:seasteel"":""accepted""}"
+"default"	"42450"	""	"resource:seasteel"	"accepted"	"다만 재료가 필요해. 비치스톤 세 묶음, 곰가죽 두 묶음, 시스틸 세 묶음이야."	"다만 재료가 필요해. 비치스톤 세 묶음, 곰가죽 두 묶음, 바다강철(seasteel) 세 묶음이야."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"I'll need some materials though ‒ three bundles of beachstone, two bundles of bearhide, and three bundles of seasteel."	"ただし、資材が必要だ。ビーチストーン3塊、熊の皮2束、海洋鉄3塊だ"	"不过，我还需要一些材料——三包沙滩石、两捆熊皮和三捆海钢。"	"{""resource:seasteel"":""accepted""}"
+"default"	"42863"	""	"resource:seasteel"	"accepted"	"시스틸은 보통 해안가에서 찾을 수 있어. 상자를 발견할 만한 곳을 지도에 표시해 줄게."	"바다강철(Seasteel)은 보통 해안가에서 찾을 수 있어. 상자를 발견할 만한 곳을 지도에 표시해 줄게."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Seasteel is usually found around the coast. I'll mark on your map where you're likely to find the crates."	"海洋鉄は海岸付近で見つかるはず。見つけられそうな場所は、地図に印を付けておくよ"	"海钢通常可以在沿海地区找到。我会在您的地图上标记出板条箱可能的位置。"	"{""resource:seasteel"":""accepted""}"
+"default"	"42958"	""	"resource:seasteel"	"accepted"	"소가죽 5개
+돛천 5개
+해양철 5개"	"소가죽 5개
+돛천 5개
+바다강철(Seasteel) 5개"	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"5 Ox Hide
+5 Sailcloth
+5 Seasteel"	"牛皮 5
+帆布 5
+海洋鉄 5"	"5 牛皮
+5 帆布
+5 海钢"	"{""resource:seasteel"":""accepted""}"
+"default"	"47542"	""	"resource:seasteel"	"accepted"	"알파르(Alfar) 군함 III
+
+이 난파선은 산산조각이 나 있어 한때 배였다는 사실조차 알아보기 어려웠다. 선장은 적어도 잠시 동안은 살아 있었다. 선원들은 멜 센시르(Mel Senshir)에서 휴가를 보내고 라시르(Rathir)로 돌아가던 중이었던 듯하다. 끝내 돌아가지는 못했지만, 적어도 더는 싸우지 않아도 된다.
+
+레드 리전(Red Legion) 슬루프선 II
+
+레드 리전(Red Legion)은 한때처럼 두려움의 대상인 해적은 아니지만, 여전히 프로스트브레이크 해(Frostbreak Sea)를 자주 드나든다. 이 배는 드베르간(Dvergan) 약탈선의 공격을 받은 듯하다. 목재가 드워프의 불길에 그을려 있었다. 생존자는 없었다.
+
+마르사리올 서커스선 I
+
+어릴 때 이런 배를 직접 본 적은 있지만, 어째서인지 이 서커스선은 이토록 먼 북쪽까지 떠내려왔다. 선체에 칠해진 선명한 색으로 배를 알아봤다. 생존자는 없었지만 포도주 한 상자가 남아 있었다. 나중에 쓰려고 안전한 곳에 숨겨 두었다.
+
+노움 삼단노선 II
+
+또 다른 학술선이 해안에 밀려왔다. 그들이 무엇을 연구하려 했는지는 조금 더 오랫동안 수수께끼로 남겠지. 노트와 책이 산더미처럼 쌓여 있었지만 쓸 만한 건 하나도 없었다. 지난 며칠 밤은 그 종이로 불을 지폈다.
+
+알마인(Almain) 체류선 I
+
+난파선을 발견했을 때 생존자가 열두 명 있었지만, 데드 켈(Dead Kel)이 먼저 덮쳤다. 간신히 목숨을 건졌지만 정착민들은 그러지 못했다.
+
+비전 카라크선 I
+
+마법사선의 잔해를 뒤지는 건 언제나 위험이 따른다. 마법 함정이 곳곳에 널려 있기 때문이다. 다행히 손가락 하나 잃지 않았고, 괜찮은 지팡이도 찾아냈다. 케이프 솔라스(Cape Solace)에서 누군가와 더 쓸모 있는 물건으로 바꿀 수 있을지 알아봐야겠다.
+
+드베르간(Dvergan) 약탈선 III
+
+이 난파선은 사실 꽤 오래전부터 여기에 있었다. 드베르가인(Dverga)들이 섬에 정착하던 무렵의 배일지도 모른다. 배에는 해강철이 잔뜩 실려 있다. 패디(Paddy)가 언젠가 요새를 되찾는다면 건네줄 수 있겠지."	"알파르(Alfar) 군함 III
+
+이 난파선은 산산조각이 나 있어 한때 배였다는 사실조차 알아보기 어려웠다. 선장은 적어도 잠시 동안은 살아 있었다. 선원들은 멜 센시르(Mel Senshir)에서 휴가를 보내고 라시르(Rathir)로 돌아가던 중이었던 듯하다. 끝내 돌아가지는 못했지만, 적어도 더는 싸우지 않아도 된다.
+
+레드 리전(Red Legion) 슬루프선 II
+
+레드 리전(Red Legion)은 한때처럼 두려움의 대상인 해적은 아니지만, 여전히 프로스트브레이크 해(Frostbreak Sea)를 자주 드나든다. 이 배는 드베르간(Dvergan) 약탈선의 공격을 받은 듯하다. 목재가 드워프의 불길에 그을려 있었다. 생존자는 없었다.
+
+마르사리올 서커스선 I
+
+어릴 때 이런 배를 직접 본 적은 있지만, 어째서인지 이 서커스선은 이토록 먼 북쪽까지 떠내려왔다. 선체에 칠해진 선명한 색으로 배를 알아봤다. 생존자는 없었지만 포도주 한 상자가 남아 있었다. 나중에 쓰려고 안전한 곳에 숨겨 두었다.
+
+노움 삼단노선 II
+
+또 다른 학술선이 해안에 밀려왔다. 그들이 무엇을 연구하려 했는지는 조금 더 오랫동안 수수께끼로 남겠지. 노트와 책이 산더미처럼 쌓여 있었지만 쓸 만한 건 하나도 없었다. 지난 며칠 밤은 그 종이로 불을 지폈다.
+
+알마인(Almain) 체류선 I
+
+난파선을 발견했을 때 생존자가 열두 명 있었지만, 데드 켈(Dead Kel)이 먼저 덮쳤다. 간신히 목숨을 건졌지만 정착민들은 그러지 못했다.
+
+비전 카라크선 I
+
+마법사선의 잔해를 뒤지는 건 언제나 위험이 따른다. 마법 함정이 곳곳에 널려 있기 때문이다. 다행히 손가락 하나 잃지 않았고, 괜찮은 지팡이도 찾아냈다. 케이프 솔라스(Cape Solace)에서 누군가와 더 쓸모 있는 물건으로 바꿀 수 있을지 알아봐야겠다.
+
+드베르간(Dvergan) 약탈선 III
+
+이 난파선은 사실 꽤 오래전부터 여기에 있었다. 드베르가인(Dverga)들이 섬에 정착하던 무렵의 배일지도 모른다. 배에는 바다강철(seasteel)이 잔뜩 실려 있다. 패디(Paddy)가 언젠가 요새를 되찾는다면 건네줄 수 있겠지."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Alfar Warship III
+
+This wreck was in pieces, hard to tell it was even a ship once. The captain was still alive, at least for a little bit. Apparently they were on leave from Mel Senshir, headed back to Rathir. They never made it back, but at least they won’t have to fight anymore.
+
+Red Legion Sloop II
+
+The Red Legion aren’t the feared pirates they once were, but they still frequent the Frostbreak Sea. It appears this one had been attacked by a Dvergan Raider, as the wood was scorched by dwarven fire. There were no survivors.
+
+Marsariol Circus Ship I
+
+I’d only seen these ships in person as a boy, but for some reason this circus ship wandered this far north. The bright colors painted onto its wood gave it away. There were no survivors, but there was a case of wine, which I’ve hidden safely away for future use.
+
+Gnomish Trireme II
+
+Another scholar ship washed ashore. Whatever they were hoping to research will just have to remain a mystery a little bit longer. I found piles upon piles of notes and books, but nothing valuable. I’ve been using the paper to keep my fire going these last few nights.
+
+Almain Sojourner I
+
+When I found the wreck there were a dozen survivors, but Dead Kel got the jump on me. I narrowly escaped with my life, but can’t say the same for the settlers.
+
+Arcane Carrack I
+
+It’s always a bit dangerous sifting through the wreck of a mage ship. Magical traps abound. Fortunately I didn’t lose any fingers, and I did manage to find a nice wand. I think I’ll see if I can’t trade it to someone in Cape Solace for something more useful.
+
+Dvergan Raider III
+
+This wreck had actually been here quite awhile. Might even have been from around the time the Dverga settled the island. Plenty of seasteel aboard, which I can give to Paddy in case he ever does manage to reclaim that keep."	"アルファーの軍艦III
+
+この船はバラバラに破壊されており、かつて船だったことが分からない位だった。船長は少なくともしばらくの間は息があった。彼らはメル・センシアから逃げ、ラシーアへ戻ろうとしていたようだ。戻ることはできなかったが、少なくとももうこれ以上戦う必要はない。
+
+レッドリージョン団のスループ型帆船II
+
+レッドリージョン団は、かつてのように恐れられた海賊ではないが、今でもフロストブレイク海に現れる。どうやらこの船はドゥバーガ・レイダーによって攻撃されたようで、木材がドワーフの火によって焦げていた。生存者はいなかった。
+
+マーサリオルのサーカス船I
+
+この船の種類は幼い頃に見たことがあるだけだったが、どういうわけかこの船はこんな北まで流れ着いた。木材に施された明るい色彩が見えていた。生存者はいなかったが、ワインが1箱残っていたので、この先のために安全な場所へ隠しておいた。
+
+ノームの3段櫂ガレー船
+
+再び研究船が浜に打ち上げられた。彼らが何を調査しようとしていたのかが分かるのには申越し時間がかかりそうだ。積み上げられたノートや本の山を見つけたが、価値がありそうなものは1つもなかった。ここ数日はその紙を火にくべて使っている。
+
+アルメインの滞在者
+
+難破船を見つけた時、10人ばかりの生存者がいたが、デッド・ケルが先手を打ってきた。こちらは辛うじて逃げ出せたが、入植者たちが逃げ出せたかどうかは分からない。
+
+アーケンのキャラック船I
+
+魔法使いの船のがれきを漁るのは多少危険だ。魔法の罠が至る所にしかけてある。幸運なことに指を失うこともなく、素晴らしい杖を見つけた。サラス岬で、何かもっと便利なものと交換できないだろうか。
+
+ドゥバーガ・レイダーIII
+
+この難破船は、もう長いことここにある。ドゥバーガが島を手に入れた頃からあったのかもしれない。大量の海洋鉄が積まれているから、パディーがあの砦を取り戻すことがあれば、これを渡せばいい。"	"精灵战船 III
+
+残骸已经化成碎片，很难认出它曾经是一艘船。船长当时还活着，起码多活了一会儿。很显然他们是从梅尔森溪启航，准备返回拉瑟尔。但是他们再也没能回去，不过至少他们不用再战斗了。
+
+雷德帮单桅帆船 II
+
+雷德帮已经不是曾经那个令人闻风丧胆的海盗团伙了，不过他们还是经常出没于霜断海。看来这一艘是被迪维尔干劫掠者攻击了，因为船木已经被矮人炮火烧焦了。没有幸存者。
+
+马萨里奥马戏团船 I
+
+我只有小时候亲眼见过这些船，但是由于某种原因，这艘马戏团船竟然漂流到了这种极北之地。粉刷在船木上的鲜艳颜色已经褪去。船上没有幸存者，但是有一箱酒，我已经把它藏到安全的地方，以备将来之需。
+
+侏儒三层划桨战船 II
+
+又一艘学者船只被冲上岸边。不管他们希望研究的是什么，都不得不再隐藏在神秘面纱下一阵子了。我找到了一堆又一堆的笔记和书籍，但是没有一点值钱的东西。在这最后的几天晚上，我一直在用这些纸来保持营火不熄灭。
+
+阿尔曼旅居者 I
+
+当我找到残骸时，那里还有十多名幸存者，但是亡者克尔比我抢先一步。我堪堪逃过一劫，不过那些殖民者能不能跟我一样就不好说了。
+
+奥术大帆船 I
+
+探查法师船的残骸总是有一点危险。因为到处都是魔法陷阱。幸运的是我没丢掉一根手指，而且还成功找到一根魔杖。我觉得可以在宽慰角试试能不能拿它和谁换点更有用的东西。
+
+迪维尔干劫掠者 III
+
+这个残骸其实已经在这里很久了。甚至能追溯到迪维尔干人刚在这个岛上定居的时候。船上载了好多海钢，我可以趁帕迪还没成功拿到之前借花献佛一下。"	"{""resource:seasteel"":""accepted""}"
+"default"	"50541"	""	"resource:seasteel"	"accepted"	"해변석 다발 3개, 곰 가죽 다발 4개, 잿나무 다발 3개, 바다강철 다발 3개가 필요해."	"해변석 다발 3개, 곰 가죽 다발 4개, 잿나무 다발 3개, 바다강철(seasteel) 다발 3개가 필요해."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"For this I will need three bundles of beachstone, four bundles of bear hide, three bundles of emberwood, and three bundles of seasteel."	"今回必要なのは、ビーチストーン3塊、熊の皮4束、エンバーウッド3束、海洋鉄3塊だ"	"为此，我需要三包沙滩石、四捆熊皮、三捆灰烬木和三捆海钢。"	"{""resource:seasteel"":""accepted""}"
+"default"	"54463"	""	"resource:seasteel"	"accepted"	"건축에 쓰이는 해철(Sea Steel) 묶음."	"건축에 쓰이는 바다강철(seasteel) 묶음."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Bundle of seasteel used for construction."	"建設に使われる、海洋鉄の塊。"	"一批用于建筑的海钢。"	"{""resource:seasteel"":""accepted""}"
+"default"	"54794"	""	"resource:seasteel"	"not-an-issue"	"악명 높은 해적 데드 켈(Dead Kel)이 지녔던, 아름답게 빛나는 이 사브르는 최고급 바다강철(seasteel)로 만들었다. 손잡이는 라시르(Rathir)의 엘룬드(Elund)를 위해 제작됐지만, 데드 켈(Dead Kel)이 오르보칸트(Orbocant)의 비밀 전령선을 침몰시켰을 때 훔쳐 갔다."	"악명 높은 해적 데드 켈(Dead Kel)이 지녔던, 아름답게 빛나는 이 사브르는 최고급 바다강철(seasteel)로 만들었다. 손잡이는 라시르(Rathir)의 엘룬드(Elund)를 위해 제작됐지만, 데드 켈(Dead Kel)이 오르보칸트(Orbocant)의 비밀 전령선을 침몰시켰을 때 훔쳐 갔다."	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Carried by the notorious pirate Dead Kel, this beautiful, gleaming saber is crafted from the finest seasteel. Its hilt was made for the Elund of Rathir, but was stolen when Dead Kel sank a secret Orbocant skipper."	"この美しく光るサーベルは最高品質の海洋鉄から作られ、悪名高い海賊デッド・ケルが所持していた。柄はラシーアのエランドのために作られたが、デッド・ケルがオーボカントの密使船を沈めた時に奪い取った。"	"由臭名昭著的海盗亡者克尔使用，这闪闪发光的美丽军刀是用最好的海钢制成的。它的剑柄是为拉瑟里的埃朗德制造的，但是当亡者克尔击沉一名奥博坎议会的秘密船长时，剑柄被偷走了。"	"{""resource:seasteel"":""not-an-issue""}"
+"default"	"57282"	""	"resource:seasteel"	"accepted"	"시스틸 묶음"	"바다강철(Seasteel) 묶음"	"D-21364: Review 26 distinct base/default source keys for the fictional Seasteel
+material and its two complete book labels, counting overlapping material
+and work matches once per CSV row. Normalize only the attested material
+spellings, including the incorrect invented English spacing Sea Steel.
+Keep full book titles atomic rather than nesting material parentheses.
+Preserve source-local Seasteel/seasteel case for material references,
+construction quantities, all surrounding names, weapons, paragraphs,
+anaphors and quest narration. Default:35162 already re-expresses the
+third-paragraph English ""it"" as the material's name; retain that Korean
+name reference and annotate it with lowercase seasteel, without adding
+or deleting a narrative statement. The official Korean manual PDF pp. 7-8
+explains equipment, quest items and crafting materials, but does not
+list this expansion metal. Affix has no matching source row. English default:35162 explicitly identifies Seasteel as the light, strong enchanted metal collected on Obsidian Isle; default:15086 describes its use for the Naglfar golems, default:54463 construction, and default:26419/54794 weapons. Japanese 海洋鉄 and Chinese 海钢 corroborate the same material. Reuse the repeated active semantic form 바다강철, including base:312/default:2111/39776; do not change ordinary steel or other construction supplies. Preserve source-local capitalization for explicit material occurrences and use complete labels for the two separately registered works."	"Bundles of Seasteel"	"海洋鉄の塊"	"成捆的海钢"	"{""resource:seasteel"":""accepted""}"

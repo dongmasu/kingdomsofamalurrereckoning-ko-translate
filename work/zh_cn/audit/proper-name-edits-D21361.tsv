@@ -1,0 +1,753 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"base"	"7"	"11"	"person:uror"	"not-an-issue"	"우로르(Uror)"	"우로르(Uror)"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:32026 explicitly says the depicted woman's name Uror is etched on the statue base. Japanese ウロル and Chinese 乌若尔 corroborate. Register only this name; do not infer that she is a goddess, a living NPC, or any particular race."	"Uror"	"ウロル"	"乌若尔"	"{""person:uror"":""not-an-issue""}"	"{""person:uror"":""needs-context""}"	"{""person:uror"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"1009"	"11"	"place:odarath"	"not-an-issue"	"오다라스(Odarath)"	"오다라스(Odarath)"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Odarath"	"オダラス"	"欧达拉斯"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"1208"	"11"	"place:tulan"	"not-an-issue"	"툴란(Tulan)"	"툴란(Tulan)"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:39080/47697/49534 identifies the cave connected to passages beneath Mel Aglir. Japanese テュラン and Chinese 图兰 corroborate. Reuse base:1208 and retain the descriptive 동굴 separately."	"Tulan"	"テュラン"	"图兰"	"{""place:tulan"":""not-an-issue""}"	"{""place:tulan"":""needs-context""}"	"{""place:tulan"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"2835"	"11"	"item:odarath-stone|place:odarath"	"accepted"	"오다라스(Odarath)의 돌"	"오다라스의 돌(Odarath Stone)"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person. English base:2835, Japanese オダラスの石 and Chinese 欧达拉斯之石 corroborate the complete object label. Keep the named stone distinct from the region."	"Odarath Stone"	"オダラスの石"	"欧达拉斯之石"	"{""place:odarath"":""accepted"",""item:odarath-stone"":""accepted""}"	"{""item:odarath-stone"":""needs-context"",""place:odarath"":""needs-context""}"	"{""item:odarath-stone"":""Candidate hit from the English source; verify this occurrence in context."",""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"4285"	"11"	"place:odarath|place:odarath-jail"	"accepted"	"오다라스 감옥"	"오다라스 감옥(Odarath Jail)"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person. English base:4285, Japanese オダラスの監獄 and Chinese 欧达拉斯监狱 corroborate the complete jail label. Do not merge it with the Odarath region."	"Odarath Jail"	"オダラスの監獄"	"欧达拉斯监狱"	"{""place:odarath"":""accepted"",""place:odarath-jail"":""accepted""}"	"{""place:odarath"":""needs-context"",""place:odarath-jail"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context."",""place:odarath-jail"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"903"	""	"place:odarath"	"not-an-issue"	"실드링 요새(Shieldring Keep)의 계약서에 따르면, 오다라스(Odarath)의 우거진 덤불(Overgrown Thicket)에서 귀중한 책이 사라졌다고 한다. 주인이 놀라 쫓겨나면서 잃어버린 모양이다. 마침 내가 이미 그 책을 찾아 가지고 있다."	"실드링 요새(Shieldring Keep)의 계약서에 따르면, 오다라스(Odarath)의 우거진 덤불(Overgrown Thicket)에서 귀중한 책이 사라졌다고 한다. 주인이 놀라 쫓겨나면서 잃어버린 모양이다. 마침 내가 이미 그 책을 찾아 가지고 있다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"According to a contract from Shieldring Keep, a valuable book was lost in Overgrown Thicket, in Odarath, when the owner was surprised and chased away. As it happens, I had already found the book, and have it now."	"シールドリング砦の依頼によると、オダラスの""密林の洞窟""で貴重な本が行方不明になった。驚いた持ち主が置いて逃げたらしい。その本を偶然見つけて手に入れた。"	"根据盾环要塞发布的一项契约，有一本珍贵的书在欧达拉斯的茂密丛林遗失了，失主当时受了惊吓逃走了。碰巧我已经找到了这本书带在身上。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"4936"	""	"place:odarath"	"not-an-issue"	"한동안 알파르(Alfar)를 위해 전쟁터에서 싸웠지만, 아무것도 달라지지 않았어. 투아사(Tuatha) 감옥에서 5년을 보낸 뒤 풀려나 고향 오다라스(Odarath)로 돌아왔지. 내 미래는 여기 있어."	"한동안 알파르(Alfar)를 위해 전쟁터에서 싸웠지만, 아무것도 달라지지 않았어. 투아사(Tuatha) 감옥에서 5년을 보낸 뒤 풀려나 고향 오다라스(Odarath)로 돌아왔지. 내 미래는 여기 있어."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"I went to war for the Alfar for a time, but that led nowhere. After five years in a Tuatha prison I was liberated and returned home, to Odarath. My future is here."	"しばらくアルファーと共に戦場で戦ったが、何も変わらなかった。5年間ツアサの監獄に投獄された後、解放され故郷のオダラスに戻ってきたんだ。私の未来はここにある"	"我一度曾为精灵们打过仗，但并没什么出路。我在图阿撒监狱里度过了五年，最终被释放，回到了欧达拉斯的家里。我的未来就在这里。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"5562"	""	"place:odarath"	"not-an-issue"	"난 농부 집안 출신이야. 오다라스(Odarath)에서 시작해 에라셀 평원(Plains of Erathell)으로 옮겼고, 수년간 이주민으로 지냈어."	"난 농부 집안 출신이야. 오다라스(Odarath)에서 시작해 에라셀 평원(Plains of Erathell)으로 옮겼고, 수년간 이주민으로 지냈어."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"I'm a farm boy, really. Started in Odarath, moved to the Plains of Erathell and spent years as a migrant."	"俺は農家の出身だ。最初はオダラス、それからエラセル平原へ引っ越し、移民として暮らした"	"其实我是农家子弟。我出身欧达拉斯，搬到伊拉塞尔平原做了多年的移民。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"11770"	""	"place:odarath"	"not-an-issue"	"에어리(Aery)가 치유 물약이 필요하다고 했나? 안타깝게도 오다라스(Odarath)에는 그런 게 귀해. 전쟁 때문에 보급품을 구하기가 훨씬 어려워졌어."	"에어리(Aery)가 치유 물약이 필요하다고 했나? 안타깝게도 오다라스(Odarath)에는 그런 게 귀해. 전쟁 때문에 보급품을 구하기가 훨씬 어려워졌어."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"So Aery thinks we need a healing potion, eh? Too bad those are scarce in Odarath. The war's made supplies a lot harder to come by."	"ポーションが必要だと、アエリーが言ったのか？ 残念ながら、オダラスでは不足している。戦争のせいで、物資が入手しづらいんだ"	"艾莉认为我们需要一瓶治疗药水，是吗？很稀罕那些在欧达拉斯很稀缺。战争使得物资更加难以获得。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"12833"	""	"place:odarath"	"not-an-issue"	"내가 꾸며 낸 일을 생각하면 이런 호의도 받을 자격이 없어. 오다라스(Odarath)에 재앙이 닥친다면 그건 모두 내 탓이야."	"내가 꾸며 낸 일을 생각하면 이런 호의도 받을 자격이 없어. 오다라스(Odarath)에 재앙이 닥친다면 그건 모두 내 탓이야."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"I do not deserve such goodwill after what I've engineered. If disaster occurs in Odarath it will be on my head."	"何を作ったかを思えば、もったいないほどの親切だわ。もしオダラスに大惨事が起これば、私の責任よ"	"在策划了这些之后，我不配得到这样的好意。如果欧达拉斯受难，我会承担责任。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"15435"	""	"place:odarath"	"accepted"	"오다라스에 오신 걸 환영합니다"	"오다라스(Odarath)에 오신 걸 환영합니다"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Welcome to Odarath"	"オダラスへようこそ"	"欢迎来到欧达拉斯"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"19198"	""	"person:uror"	"accepted"	"우로르"	"우로르(Uror)"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:32026 explicitly says the depicted woman's name Uror is etched on the statue base. Japanese ウロル and Chinese 乌若尔 corroborate. Register only this name; do not infer that she is a goddess, a living NPC, or any particular race."	"Uror"	"ウロル"	"乌若尔"	"{""person:uror"":""accepted""}"	"{""person:uror"":""needs-context""}"	"{""person:uror"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"19898"	""	"place:tulan"	"accepted"	"툴란"	"툴란(Tulan)"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:39080/47697/49534 identifies the cave connected to passages beneath Mel Aglir. Japanese テュラン and Chinese 图兰 corroborate. Reuse base:1208 and retain the descriptive 동굴 separately."	"Tulan"	"テュラン"	"图兰"	"{""place:tulan"":""accepted""}"	"{""place:tulan"":""needs-context""}"	"{""place:tulan"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20030"	""	"place:odarath"	"accepted"	"오다라스는 거친 땅이야. 매일 숲의 야수와 사악한 마음을 품은 자들의 악행에 맞서야 하지."	"오다라스(Odarath)는 거친 땅이야. 매일 숲의 야수와 사악한 마음을 품은 자들의 악행에 맞서야 하지."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Odarath is a savage land. Every day we must face both the beasts of the wood and the evil of wicked hearts."	"オダラスは未開の地だ。木の獣やいたずらな悪意に毎日立ち向かわなければならない"	"欧达拉斯是一片野蛮之地。每天，我们都必须面对森林中的野兽和邪恶的心。"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21327"	""	"place:odarath"	"accepted"	"일루비아(Iluvia)를 말하는 거겠지. 경솔한 바보 같으니. 네 거주지에는 물론 오다라스 전체에도 얼씬하지 말라고 했는데, 내 경고를 들은 적이 없어."	"일루비아(Iluvia)를 말하는 거겠지. 경솔한 바보 같으니. 네 거주지에는 물론 오다라스(Odarath) 전체에도 얼씬하지 말라고 했는데, 내 경고를 들은 적이 없어."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"No doubt you speak of Iluvia. Impetuous fool. I told her to avoid your settlement, to avoid Odarath altogether. She never listened to my warnings."	"イルヴィアのことだな。軽はずみな愚か者だ。お前たちの居住地にも、オダラスにも近づくなと警告したが、聞く耳を持たなかった"	"你说的一定是伊露维娅。冲动的傻瓜。我告诉她避开你的定居地，避开整个欧达拉斯。她从不听我的警告。"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"23540"	""	"place:odarath"	"not-an-issue"	"오다라스(Odarath)"	"오다라스(Odarath)"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Odarath"	"オダラス"	"欧达拉斯"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24099"	""	"place:odarath"	"not-an-issue"	"레드 이드워드(Red Idward)가 죽었다. 델프 수사(Brother Delf)에게 돌아가 소식을 전해야 한다. 그는 오다라스(Odarath) 서부의 성 오드윅 선교회(St. Odwig's Mission)에 있을 것이다."	"레드 이드워드(Red Idward)가 죽었다. 델프 수사(Brother Delf)에게 돌아가 소식을 전해야 한다. 그는 오다라스(Odarath) 서부의 성 오드윅 선교회(St. Odwig's Mission)에 있을 것이다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Red Idward is dead, and now I should return to Brother Delf and give him the news. He should be at St. Odwig's Mission in western Odarath."	"レッド・イドワードは死んだ。ブラザー・デルフに知らせよう。西オダラスの聖オドウィグ修道院にいるはずだ。"	"雷德·伊德瓦尔德已经死了，是时候将他的死讯告知德尔夫修士了。他应该在欧达拉斯西部的圣奥德威格布道所。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24853"	""	"place:odarath"	"accepted"	"여름, 6일째, 새벽
+
+오늘은 별일 없었다. 여정은 이제 막 시작됐고 숲은 아직 외지인에게 꽤 너그럽다. 경고를 무시한 건 현명한 선택이었다. 경쟁자는 없다. 아만(Amman)의 열쇠를 찾는 건 나만의 몫이고, 찾는 건 시간문제일 뿐이다. 숲 곳곳의 아만(Amman) 조각상들이 나를 비웃는다. 열쇠만 손에 넣으면 조각상들을 열고 보물을 차지할 수 있다. 곧 그렇게 될 것이다.
+
+여름, 13일째, 해질녘
+
+오다라스는 늘 들었던 대로 아름답다. 특히 성 오드윅 영구 선교원 북쪽의 위험한 땅이 그렇다. 스프라이트에게 거의 당할 뻔했다! 고어하트(Gorhart)에서 온 용감한 마을 사람이 나타나 구해 주지 않았다면 말이다. 그는 자신을 우그나르 오드그레이(Ugnar Odgray)라고 소개했다. 참 별난 이름이다. 바라니(Varani)가 아니면 그런 이름을 가질 리가 없다.
+
+여름, 67일째, 새벽
+
+오늘 발라드의 집(House of Ballads)의 영지를 방문했다! 성인이 된 뒤로 줄곧 이 전설적인 인물들을 연구해 왔으니, 잠깐이라도 볼 수 있다면 먼 길을 온 보람이 있다. 아만(Amman)의 열쇠 하나가 높은 성벽 안에 있을 거라는 생각이 들기 시작했다. 내 연구가 맞다면 곧 열쇠가 있는 곳을 알아낼 수 있을 것이다.
+
+여름, 83일째, 해질녘
+
+해냈다! 아데사(Adessa)의 연대기를 몇 년이나 뒤지고 페이(Fae)의 땅을 샅샅이 조사한 끝에, 마침내 전설 속 아만(Amman)의 열쇠 다섯 개 중 하나를 손에 넣었다!
+
+이제 나머지 네 개만 찾으면 된다...."	"여름, 6일째, 새벽
+
+오늘은 별일 없었다. 여정은 이제 막 시작됐고 숲은 아직 외지인에게 꽤 너그럽다. 경고를 무시한 건 현명한 선택이었다. 경쟁자는 없다. 아만(Amman)의 열쇠를 찾는 건 나만의 몫이고, 찾는 건 시간문제일 뿐이다. 숲 곳곳의 아만(Amman) 조각상들이 나를 비웃는다. 열쇠만 손에 넣으면 조각상들을 열고 보물을 차지할 수 있다. 곧 그렇게 될 것이다.
+
+여름, 13일째, 해질녘
+
+오다라스(Odarath)는 늘 들었던 대로 아름답다. 특히 성 오드윅 영구 선교원 북쪽의 위험한 땅이 그렇다. 스프라이트에게 거의 당할 뻔했다! 고어하트(Gorhart)에서 온 용감한 마을 사람이 나타나 구해 주지 않았다면 말이다. 그는 자신을 우그나르 오드그레이(Ugnar Odgray)라고 소개했다. 참 별난 이름이다. 바라니(Varani)가 아니면 그런 이름을 가질 리가 없다.
+
+여름, 67일째, 새벽
+
+오늘 발라드의 집(House of Ballads)의 영지를 방문했다! 성인이 된 뒤로 줄곧 이 전설적인 인물들을 연구해 왔으니, 잠깐이라도 볼 수 있다면 먼 길을 온 보람이 있다. 아만(Amman)의 열쇠 하나가 높은 성벽 안에 있을 거라는 생각이 들기 시작했다. 내 연구가 맞다면 곧 열쇠가 있는 곳을 알아낼 수 있을 것이다.
+
+여름, 83일째, 해질녘
+
+해냈다! 아데사(Adessa)의 연대기를 몇 년이나 뒤지고 페이(Fae)의 땅을 샅샅이 조사한 끝에, 마침내 전설 속 아만(Amman)의 열쇠 다섯 개 중 하나를 손에 넣었다!
+
+이제 나머지 네 개만 찾으면 된다...."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Summer, Day 6, Daybreak
+
+Nothing today. My journey is young and the forest remains fairly hospitable to outsiders. Ignoring the warnings was a wise decision. There are no rivals. The search for Amman's keys belongs to me, and me alone. It is only a matter of time. The statues of Amman litter the forest, taunting me. If I can just secure the keys, I will be able to open them and partake of their treasures. Soon.
+
+Summer, Day 13, Dusk
+
+Odarath is as beautiful as I have always heard, especially the perilous lands north of St. Odwig's Perpetual Mission. I was almost struck down by a sprite! That is until a brave villager from Gorhart arrived on the scene to act as my savior. He introduced himself as Ugnar Odgray. Such an odd name, it could only belong to a Varani.
+
+Summer, Day 67, Daybreak
+
+I visited the House of Ballads grounds today! All of my adult life has been spent learning about these legendary figures, so even a slight glimpse was worth the trip. I am beginning to believe that one of Amman's keys lies behind its high walls. If my scholarly work has been done correctly, the location of the keys will soon be known to me.
+
+Summer, Day 83, Dusk
+
+I have done it! At long last, after years searching in the annals of Adessa and scouring the fae lands, I have secured one of the five fabled keys of Amman!
+
+Now only if I could find the other four...."	"夏、6日目、夜明け
+
+今日は何もない。旅は始まったばかりだし、この森は今のところよそ者に対しても優しい。警告を無視して正解だった。ライバルは一人もいない。アマンの鍵を探す者は私だけ。発見は時間の問題だろう。森のあちこちに立つアマンの像が私を挑発してくる。鍵さえ見つけたら、中のお宝を頂戴できる。もうすぐだ。
+
+夏、13日目、夕暮れ
+
+オダラスは噂にたがわぬ美しい場所だ。とりわけ、聖オドウィグ終身修道院の北側の危険なエリアは素晴らしい。危うくスプライトに殺されるところだった。ゴーハートの勇敢な村人が救助に駆けつけてくれなかったら、死んでいただろう。ウグナー・オドグレイ。彼はそう自己紹介した。変わった名だ。そういう名を持つのはヴラニだけだ。
+
+夏、67日目、夜明け
+
+今日はハウス・オブ・バラードの庭を訪れた。大人になってからの私は、このハウスの偉人たちの研究に全ての時間を注いできた。それゆえ、一目見られただけでも、この旅に出た価値はあった。思うに、アマンの鍵の1つは、この高い壁の内側にあるような気がする。私の研究が正しければ、もうじき鍵の在り処が判明する。
+
+夏、83日目、夕暮れ
+
+やったぞ。何年もかけてアデッサの記録を読み調べ、フェイの土地を探し歩いた結果、ついに伝説のアマンの鍵を5本手に入れた！
+
+後は残りの4本を探すだけだ…"	"夏天，第6天，黎明
+
+今天无事发生。我的旅程才刚刚开始，森林对外人来说还是相当友好的。无视这些警告是一个明智的决定。这里没有敌人。寻找安曼的钥匙的旅程只属于我一个人。找到它们只是时间问题。安曼的雕像散布在森林里，嘲弄着我。如果我能找到钥匙，我就能打开它们，拿走它们的宝藏。快了。
+
+夏天，第13天，黄昏
+
+欧达拉斯就和我听闻的一样美丽，尤其是圣奥德威格的永恒布道所北部的危险地带。我差点被一只妖精击倒！直到一位来自郭哈特的勇敢村民来到现场，救了我的命。他自称乌格纳·奥德格雷。这么奇怪的名字，只可能属于瓦拉尼人。
+
+夏天，第67天，破晓
+
+我今天拜访了歌谣家族的领地！我的整个成年生活都花在了解这些传奇人物上了，所以哪怕只是看一眼都是值得的。我开始相信安曼的一把钥匙就藏在高高的城墙后面。如果我的学术工作做得正确，我很快就会知道钥匙的位置了。
+
+夏天，第83天，黄昏
+
+我做到了！多年来，我在阿德萨的编年史中寻觅，在灵族大陆四处寻找，终于找到了安曼传说中的五把钥匙中的一把！
+
+现在，如果我能再找到另外四把就好了……"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"25869"	""	"place:odarath"	"accepted"	"오다라스"	"오다라스(Odarath)"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Odarath"	"Odarath"	"Odarath"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"27153"	""	"place:odarath"	"not-an-issue"	"네가 한 일이 얼마나 중요한지 아무리 강조해도 지나치지 않아. 네가 그 보급품을 파괴하기 전까지 오다라스(Odarath) 전체가 언제 죽을지 모르는 처지였어."	"네가 한 일이 얼마나 중요한지 아무리 강조해도 지나치지 않아. 네가 그 보급품을 파괴하기 전까지 오다라스(Odarath) 전체가 언제 죽을지 모르는 처지였어."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"I cannot emphasize the importance of what you've done. Until you destroyed those shipments, all of Odarath was living on borrowed time."	"あなたがしたことの重要性は語り尽くせないわ。積み荷を破壊してくれなかったら、オダラスの皆が全員死ぬところだったのよ"	"我再怎么强调你所做之事的重要性也不为过。在你摧毁那些货物之前，整个欧达拉斯都活在寅吃卯粮的窘境中。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31601"	""	"place:odarath"	"accepted"	"이제{*1 45분} 동안 {*1오다라스}를 {*1달렌타스(Dalentarth)} 지역에서 탐험할 수 있습니다. 데모를 {*1일시 정지}하거나 {*1대화} 중일 때는 타이머가 멈춥니다. NPC와 대화할 때는 서두르지 마세요."	"이제{*1 45분} 동안 {*1오다라스}(Odarath)를 {*1달렌타스(Dalentarth)} 지역에서 탐험할 수 있습니다. 데모를 {*1일시 정지}하거나 {*1대화} 중일 때는 타이머가 멈춥니다. NPC와 대화할 때는 서두르지 마세요."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"You now have{*1 45 minutes} to explore {*1Odarath} in the lands of {*1Dalentarth}. The timer halts when you {*1pause} the demo or are in a {*1conversation}. Take your time when talking to NPCs."	"今回は{*1最大45分間}で{*1ダレンタース}の地にある{*1オダラス}を冒険できます。体験版では{*1ポーズ}をかけている間と、{*1会話}中は、タイマーが止まります。キャラクターたちと話す時は焦らずゆっくり対話しましょう。"	"你现在拥有{*1 45分钟}来在{*1达伦塔斯}的大地上探索{*1欧达拉斯}。计时会在你{*1暂停}演示或进入{*1对话}时暂停。所以和 NPC 对话时不用着急。"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31721"	""	"place:odarath"	"accepted"	"연금술사 난네 한리(Nanne Hanri)를 도와 도난당한 조제법을 찾아내고, 오다라스 사람들에게 해를 끼치기 전에 파괴했다."	"연금술사 난네 한리(Nanne Hanri)를 도와 도난당한 조제법을 찾아내고, 오다라스(Odarath) 사람들에게 해를 끼치기 전에 파괴했다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"I've aided the alchemist Nanne Hanri in finding her stolen formula and destroying it before it could harm anyone in Odarath."	"錬金術師ナンネ・ハンリを助け、オダラスの住民に危害が及ぶ前に、盗まれた調合法を見つけて破壊した。"	"我帮助炼金术师南妮·汉里找到了失窃的配方，并在它对欧达拉斯中的任何人造成伤害前，将其摧毁了。"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32026"	""	"person:uror"	"not-an-issue"	"이 조각상은 몸에 꼭 붙는 가죽옷을 입고 유혹하듯 손짓하는 여인을 묘사한다. 받침대에는 ‘우로르(Uror)’라는 이름이 새겨져 있다."	"이 조각상은 몸에 꼭 붙는 가죽옷을 입고 유혹하듯 손짓하는 여인을 묘사한다. 받침대에는 ‘우로르(Uror)’라는 이름이 새겨져 있다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:32026 explicitly says the depicted woman's name Uror is etched on the statue base. Japanese ウロル and Chinese 乌若尔 corroborate. Register only this name; do not infer that she is a goddess, a living NPC, or any particular race."	"This statue depicts a woman in tight leathers, gesturing seductively. The name 'Uror' can be found etched upon the base."	"ぴっちりとした革の服に身を包み、誘惑する仕草を見せる女性の像。""ウロル""の名が土台に刻み込まれている。"	"这尊雕像描绘了一个穿着紧身皮衣的女人，摆出诱人的姿势。底座上刻着“乌若尔”这个名字。"	"{""person:uror"":""not-an-issue""}"	"{""person:uror"":""needs-context""}"	"{""person:uror"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"33343"	""	"place:tulan"	"accepted"	"툴란 수색하기"	"툴란(Tulan) 수색하기"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:39080/47697/49534 identifies the cave connected to passages beneath Mel Aglir. Japanese テュラン and Chinese 图兰 corroborate. Reuse base:1208 and retain the descriptive 동굴 separately."	"Search Tulan"	"テュランを調べる"	"寻找图兰"	"{""place:tulan"":""accepted""}"	"{""place:tulan"":""needs-context""}"	"{""place:tulan"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35315"	""	"place:odarath"	"accepted"	"달렌타스(Dalentarth)에서 이처럼 정교한 수제품을 한 지붕 아래서 모두 찾을 수 있는 곳이 어디겠습니까? 잉가 리스버그(Inga Risberg)의 섬세한 금속 세공품, 올리앤더 싱클레어(Oleander Sinclair)의 고급 물약, 눈부신 솜씨로 수놓은 이불과 머리쓰개까지!
+
+저희 상품은 오다라스에서 에메어(Emaire)까지 알려져 판매되고 있습니다!"	"달렌타스(Dalentarth)에서 이처럼 정교한 수제품을 한 지붕 아래서 모두 찾을 수 있는 곳이 어디겠습니까? 잉가 리스버그(Inga Risberg)의 섬세한 금속 세공품, 올리앤더 싱클레어(Oleander Sinclair)의 고급 물약, 눈부신 솜씨로 수놓은 이불과 머리쓰개까지!
+
+저희 상품은 오다라스(Odarath)에서 에메어(Emaire)까지 알려져 판매되고 있습니다!"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Where in all Dalentarth can such a panoply of fine crafted goods be found beneath one roof? Fine metalwork of Inga Risberg, the exquisite potions of Oleander Sinclair, quilts and headwraps of the most stunning needlework!
+
+Our goods are known and sold from Odarath to Emaire!"	"ダレンタース広しといえども、これだけの上物を数多く揃えているのは当店だけ！ インガ・リスバーグの精巧な鉄細工に、オリアンダー・シンクレアの高級ポーション、そして繊細さを極めたキルトやヘアバンド！
+
+当店の製品は、オダラスやエマイアでも売られてます！"	"在达伦塔斯的所有地方，哪里还可以向这里一样，在同一个地方找到整套精美的手工制品呢？因加·里斯贝格的精致金属制品，奥林德·辛克莱的精致药水，以及用最精湛的针线技艺制作的被子和头巾！
+
+从欧达拉斯到伊梅尔，我们的货物无人不知，处处有得卖！"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36137"	""	"place:odarath"	"accepted"	"에이버리,
+
+미사루(Mitharu)께서 내게 계시하셨네. 나는 성 오드윅 선교소와 오다라스를 떠나야 하네. 사랑에 빠졌는데, 금지된 사랑이기 때문이지. 우리 교단은 그런 세속적인 일에 눈살을 찌푸릴 뿐 아니라, 그 행동은 자네에게도 수치가 될 걸세. ‘왜냐고?’ 묻겠지. 이 여인을 사랑할 수 없는 건 그 여인이 리카(Rikka), 바로 자네의 아내이기 때문이네.
+
+그래서 선교소를 떠나 자선 담당관 자리도 내려놓으려 하네. 언젠가 돌아올지도 모르지만, 수치스러운 모습으로는 아닐 걸세. 자네와 리카(Rikka), 그리고 스승이신 미사루(Mitharu)께 그럴 수는 없네.
+
+잘 있게, 친구이자 형제여. 편히 쉬게. 고통 없는 안식을 누리길.
+
+영원한 전우,
+메이슨"	"에이버리,
+
+미사루(Mitharu)께서 내게 계시하셨네. 나는 성 오드윅 선교소와 오다라스(Odarath)를 떠나야 하네. 사랑에 빠졌는데, 금지된 사랑이기 때문이지. 우리 교단은 그런 세속적인 일에 눈살을 찌푸릴 뿐 아니라, 그 행동은 자네에게도 수치가 될 걸세. ‘왜냐고?’ 묻겠지. 이 여인을 사랑할 수 없는 건 그 여인이 리카(Rikka), 바로 자네의 아내이기 때문이네.
+
+그래서 선교소를 떠나 자선 담당관 자리도 내려놓으려 하네. 언젠가 돌아올지도 모르지만, 수치스러운 모습으로는 아닐 걸세. 자네와 리카(Rikka), 그리고 스승이신 미사루(Mitharu)께 그럴 수는 없네.
+
+잘 있게, 친구이자 형제여. 편히 쉬게. 고통 없는 안식을 누리길.
+
+영원한 전우,
+메이슨"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Avery,
+
+Mitharu has made it known to me. I must leave St. Odwig's Mission, and Odarath. You see, I am in love, and that love is forbidden. Not only does my Order frown upon such earthly concerns, but such an act would dishonor you, as well. ""Why?"" you may ask. I cannot love this woman because it is Rikka. It is your wife.
+
+So I am taking leave of the mission, abandoning my post as Alms Master. Perhaps one day I will return, but not in disgrace. I cannot do that to you, or to Rikka, or to my master, Mitharu.
+
+Farewell, my friend and brother. Rest in good peace. Soft peace. Peace without further pain.
+
+Your brother in arms forever,
+Mason"	"エイブリー
+
+ミサールのお告げがあった。私は聖オドウィグの修道院を去らなければならない。オダラスを。実は恋をしていてね。禁断の恋を。そうした世俗的な悩みは同胞のちょう笑を浴びるのみならず、君の名誉を傷つけることにもなる。""なぜ？""かって？ 私がこの女性を愛せないのは、彼女がリッカだから。君の妻だからだよ。
+
+だから私は修道院を出る。托鉢の師としての地位も捨てる。いつか戻ってくるかもしれないが、それは恥を雪いでからだ。君に迷惑はかけられない。リッカにも、我が主ミサールにも。
+
+さらばだ、我が友、我が兄弟。安らかに眠れ。穏やかに。これ以上苦しむ必要はない。
+
+君の永遠の義兄弟
+メイソン"	"艾弗里,
+
+米萨鲁已经告诉我了。我必须离开圣奥德威格布道所，还有欧达拉斯。你看，我恋爱了，那种爱是不被允许的。不仅是我的教团不赞成这种世俗的关心，而且这种行为也会使你蒙羞。你可能会问：“为什么？”我不能爱这个女人，因为是丽卡。是你的妻子。
+
+因此，我要离开这个布道所，放弃我布施长的职位。也许有一天我会回来，但不会带着耻辱。我不能这样对你，对丽卡，对我的主人米萨鲁。
+
+再见，我的朋友和兄弟。安息吧。安息吧。不再痛苦。
+
+你永远的战友，
+梅森"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38689"	""	"place:odarath|title:secrets-of-odarath"	"accepted"	"오다라스의 비밀: 오다라스 사람들은 로어스톤에 속마음을 털어놓는다."	"오다라스의 비밀(Secrets of Odarath): 오다라스(Odarath) 사람들은 로어스톤에 속마음을 털어놓는다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person. English default:38689 is the complete heading followed by a description of people confiding in Lorestones. Japanese オダラスの秘密 and Chinese 欧达拉斯的秘密 corroborate; register the title, not an inferred book or another physical place."	"Secrets of Odarath ‒ The people of Odarath confide in the Lorestones."	"オダラスの秘密: オダラスの民がロアストーンに語ったこと"	"欧达拉斯的秘密——欧达拉斯人民向智慧石吐露秘密。"	"{""place:odarath"":""accepted"",""title:secrets-of-odarath"":""accepted""}"	"{""place:odarath"":""needs-context"",""title:secrets-of-odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context."",""title:secrets-of-odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39080"	""	"place:tulan"	"accepted"	"이 저주받은 마을은 문 앞까지 들이닥친 투아사(Tuatha)에 정신이 팔린 나머지, 한복판에 있는 괴물을 보지 못하게 됐다! 가족 하나가 몰살당하고, 여러 사람이 실종됐으며, 수많은 여행자가 길에서 사라졌는데도... 아무것도 하지 않는다...
+
+오늘도 칸드리안 경을 만나려 했지만 또다시 문전박대를 당했다. 멍청이들.
+
+이 사건은 갈수록 기묘하다. 단서들이 서로 맞지 않는다. 상처 중 일부는 이빨이나 발톱에 물린 흔적 같지만, 희생자 집 벽에 튄 핏자국은 대검 같은 커다란 칼에 의해 생겼을 수도 있다. 실종자는 여럿인데 시신은 지금껏 두 구만 발견됐다. 나머지는 어디 있지?
+
+패트릭 모르칸(Morkan)은 말한 것보다 더 많은 걸 알고 있다. 그의 지하실에 들어갈 수만 있다면 뭔가 더 밝혀낼지도 모른다. 적어도 여관 주인 데이스 선생은 이 지역의 물자와 길 안내를 도와주고 있다.
+
+오늘 저녁 식사 때 그가 말한 곳, 툴란 동굴을 내일 찾아가 볼 생각이다. 마을 아래로 이어지는 오래된 통로망과 연결되어 있을지도 모른다. 마을 사람들을 그곳으로 끌고 가는 것이 무엇인지 단서를 찾을 수 있을지도."	"이 저주받은 마을은 문 앞까지 들이닥친 투아사(Tuatha)에 정신이 팔린 나머지, 한복판에 있는 괴물을 보지 못하게 됐다! 가족 하나가 몰살당하고, 여러 사람이 실종됐으며, 수많은 여행자가 길에서 사라졌는데도... 아무것도 하지 않는다...
+
+오늘도 칸드리안 경을 만나려 했지만 또다시 문전박대를 당했다. 멍청이들.
+
+이 사건은 갈수록 기묘하다. 단서들이 서로 맞지 않는다. 상처 중 일부는 이빨이나 발톱에 물린 흔적 같지만, 희생자 집 벽에 튄 핏자국은 대검 같은 커다란 칼에 의해 생겼을 수도 있다. 실종자는 여럿인데 시신은 지금껏 두 구만 발견됐다. 나머지는 어디 있지?
+
+패트릭 모르칸(Morkan)은 말한 것보다 더 많은 걸 알고 있다. 그의 지하실에 들어갈 수만 있다면 뭔가 더 밝혀낼지도 모른다. 적어도 여관 주인 데이스 선생은 이 지역의 물자와 길 안내를 도와주고 있다.
+
+오늘 저녁 식사 때 그가 말한 곳, 툴란(Tulan) 동굴을 내일 찾아가 볼 생각이다. 마을 아래로 이어지는 오래된 통로망과 연결되어 있을지도 모른다. 마을 사람들을 그곳으로 끌고 가는 것이 무엇인지 단서를 찾을 수 있을지도."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:39080/47697/49534 identifies the cave connected to passages beneath Mel Aglir. Japanese テュラン and Chinese 图兰 corroborate. Reuse base:1208 and retain the descriptive 동굴 separately."	"This cursed village is so caught up in the Tuatha at their door, they have become blind to the monster within their midst! An entire family has been slaughtered, several more individuals gone missing, and untold travelers pulled from the roads... and they do nothing...
+
+Attempted to gain an audience with Lord Kandrian today, again. Was refused at the gate, again. Idiots.
+
+This case continues to surprise. No clue is consistent ‒ some of the wounds appear to be from tooth, or claw, but blood spray on the walls of the victims' home could have been made from a large blade, such as a greatsword. Numerous individuals have gone missing, but only two corpses have ever been found. Where are the others?
+
+Patrick Morkan knows more than he is telling. If I can just get into his basement, perhaps I can uncover something more. At least the innkeeper, Master Dace, has been helpful in providing me with supplies and directions regarding the local area.
+
+A place he mentioned to me over dinner tonight ‒ the cave of Tulan ‒ I think I will search there tomorrow. It might be connected to an old network of passageways that lead underneath the town. Perhaps I will find evidence of whatever is taking these villagers there."	"この呪われた村はツアサの存在があまりに身近すぎて、人々は村の中にいる怪物すら目に入らなくなっている！ 家族が全員むごたらしく殺され、大勢が行方不明になり、名も無き旅人たちが街道から連れ去られていると言うのに... 彼らは何もしないのだ...
+
+今日、もう一度、カンドリアン卿との謁見を頼んでみたが、またもや門前払いを食らった。マヌケどもめ。
+
+この事件は驚きの連続だ。証拠に一貫性が見られない。いくつかはかみ傷か、引っかき傷のように見えるが、犠牲者の家の壁に飛び散った血は、グレートソードのような大剣によるものだ。失踪者はかなりの数に上るのに、見つかった死体は2つだけ。他の者はどこへ行ったんだ？
+
+パトリック・モーカンはまだ何か隠している。彼の家の地下室に潜り込めれば、何か見つかるかもしれない。少なくとも宿屋の大将デイスは協力的で、物資も分けてくれるし、この辺の地理について行き方を教えてくれる。
+
+今夜、夕食の席で彼が話してくれたテュラン洞窟... 明日そこを調べてみよう。村の地下へと通じる古代回廊群と繋がっているのかもしれない。ひょっとしたら、村人を連れ去っている何者かの証拠が見つかるかも。"	"这个被诅咒的村庄被他们门前的图阿撒困住了，他们对他们中间的怪物视而不见！整个家庭被屠杀，好几个人失踪，数量未知的旅行者消失在了道路上……而他们什么也不做……
+
+今天我又再次尝试去见坎德利安领主了。在门口再次被拒绝了。蠢货们。
+
+这个案子持续让人吃惊。没有一致的线索——一些伤口似乎是牙齿或爪子造成的，但受害者家墙壁上的血迹可能是由一把大剑，比如一把巨剑，造成的。许多人失踪了，但却只找到了两具尸体。其他人在哪儿呢？
+
+帕特里克·莫尔坎隐瞒了一些东西没有说。如果我能进入他的地下室，也许我能发现更多的东西。至少旅馆老板戴斯大人已经帮我提供了生活用品和关于当地的方向。
+
+他今晚和我吃饭时提到的一个地方——图兰洞穴——我想我明天会去那里找找。它可能连接着通往城镇地下的旧通道网络。也许我能找到把这些村民带到那里的东西的证据。"	"{""place:tulan"":""accepted""}"	"{""place:tulan"":""needs-context""}"	"{""place:tulan"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39632"	""	"place:odarath"	"accepted"	"요르반(Yolvan)은 달렌타스(Dalentarth) 한복판에 자리한 기묘하게 평온한 섬이다. 수수께끼 같은 오다라스, 악명 높은 웹우드(Webwood), 마법에 물든 글렌다라(Glendara)와 맞닿아 있으며, 이 땅에서 ‘자연’ 생물이 살아남은 보루로 주로 알려져 있다. 곰과 늑대, 영양이 사는 것은 물론이고, 이곳에 마법 생물이 없는 것도 아니다. 실제로 스프라이트가 늑대 무리를 공격하거나, 곰이 굴에 잘못 들어온 트롤(Troll)과 싸우는 광경도 종종 볼 수 있다. 이 이중성은 워스원(Warsworn)이 이곳 요새에 기지를 두고 있고, 신비로운 페이(Fae) 기관인 발라드의 집(House of Ballads)이 빤히 보이는 곳에 있다는 사실을 생각하면 더욱 두드러진다. 두 집단이 서로 교류한다면 대체로 우호적인 편이지만, 요르반(Yolvan)의 자연과 비자연 사이에 긴장이 흐르는 것은 흥미롭다.
+
+이 지역은 실제로 꽤 작다. 마법의 숲이 퍼져 나간 탓이라고 보는 이들도 있고, 마법이 늘었다는 인식이 그 현상을 부추겼다고 말하기도 한다. 다만 수목 한계선이 갑자기 낮아지는 모습은 눈에 띈다. 로르카레인(Lorca-Rane)에서 볼 수 있는 것과 비슷한 폐허가 넓게 펼쳐져 있지만, 기원은 여전히 수수께끼다. 페이(Fae) 건축물도, 에라시(Erathi) 건축물도, 이 지역 요새의 양식도 닮지 않았다. 용감하게 탐험하는 이가 밝혀낼 몇 가지 비밀이 그 안에 있다고 한다.
+
+아아, 요르반(Yolvan)에 대해 더 무슨 말을 할 수 있을까? 숲의 리듬을 이루는 짧은 한 박자이자 달렌타스(Dalentarth) 연대기의 각주 같은 곳. 깊이 신경 쓰기엔 너무 작고, 무시하기엔 너무 크며, 호기심을 끌기엔 너무 평범하고, 지루해지기엔 너무 신비롭다. 많은 이에게 이곳은 한 마법의 숲에서 다음 숲으로 가는 길목일 뿐이다. 하지만 세상 물정에 밝은 여행자에게 요르반(Yolvan)은 그 자체로 목적지다."	"요르반(Yolvan)은 달렌타스(Dalentarth) 한복판에 자리한 기묘하게 평온한 섬이다. 수수께끼 같은 오다라스(Odarath), 악명 높은 웹우드(Webwood), 마법에 물든 글렌다라(Glendara)와 맞닿아 있으며, 이 땅에서 ‘자연’ 생물이 살아남은 보루로 주로 알려져 있다. 곰과 늑대, 영양이 사는 것은 물론이고, 이곳에 마법 생물이 없는 것도 아니다. 실제로 스프라이트가 늑대 무리를 공격하거나, 곰이 굴에 잘못 들어온 트롤(Troll)과 싸우는 광경도 종종 볼 수 있다. 이 이중성은 워스원(Warsworn)이 이곳 요새에 기지를 두고 있고, 신비로운 페이(Fae) 기관인 발라드의 집(House of Ballads)이 빤히 보이는 곳에 있다는 사실을 생각하면 더욱 두드러진다. 두 집단이 서로 교류한다면 대체로 우호적인 편이지만, 요르반(Yolvan)의 자연과 비자연 사이에 긴장이 흐르는 것은 흥미롭다.
+
+이 지역은 실제로 꽤 작다. 마법의 숲이 퍼져 나간 탓이라고 보는 이들도 있고, 마법이 늘었다는 인식이 그 현상을 부추겼다고 말하기도 한다. 다만 수목 한계선이 갑자기 낮아지는 모습은 눈에 띈다. 로르카레인(Lorca-Rane)에서 볼 수 있는 것과 비슷한 폐허가 넓게 펼쳐져 있지만, 기원은 여전히 수수께끼다. 페이(Fae) 건축물도, 에라시(Erathi) 건축물도, 이 지역 요새의 양식도 닮지 않았다. 용감하게 탐험하는 이가 밝혀낼 몇 가지 비밀이 그 안에 있다고 한다.
+
+아아, 요르반(Yolvan)에 대해 더 무슨 말을 할 수 있을까? 숲의 리듬을 이루는 짧은 한 박자이자 달렌타스(Dalentarth) 연대기의 각주 같은 곳. 깊이 신경 쓰기엔 너무 작고, 무시하기엔 너무 크며, 호기심을 끌기엔 너무 평범하고, 지루해지기엔 너무 신비롭다. 많은 이에게 이곳은 한 마법의 숲에서 다음 숲으로 가는 길목일 뿐이다. 하지만 세상 물정에 밝은 여행자에게 요르반(Yolvan)은 그 자체로 목적지다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Yolvan is a curious island of normalcy in the heart of Dalentarth. Bordered by the enigmatic Odarath, the notorious Webwood and the enchanted Glendara, Yolvan is known primarily as the bastion of ""natural"" creatures in these lands. And while bears, wolves and antelope are certainly to be found here, the area is not as devoid of more magical forms of life. In fact, it is sometimes a common occurrence to see sprites attacking packs of wolves, or bears doing battle with the odd troll that has stumbled into their den. This dichotomy is even more apparent when one considers the fact that the Warsworn keep a base in a stronghold here, within eyeshot of the mystical fae institution known as the House of Ballads. And, while interactions (if any) between the two groups are often genial enough, it is curious to note the tension between the natural and the unnatural in Yolvan.
+
+The area is actually rather small ‒ which some have attributed to the spread of the more magical forests, exacerbated by what many perceive to be a rise in magic ‒ but noticeable for the sudden drop of the tree-line. There are large expanses of ruins, similar to those found in Lorca-Rane, but whose origins remain rather mysterious. They do not resemble fae architecture, or Erathi, or those of the stronghold in the region. But they are known to house a few secrets to be uncovered by those brave enough to explore them.
+
+Alas, what more can be said of Yolvan? This small beat in the rhythm of the forest, this footnote in the annals of Dalentarth. Too small to care deeply of, too large to ignore, too normal to pique curiosity, but too mysterious to inspire boredom. For many, it is but a means of traveling from one magical wood to the next. But for the worldlier traveler, it is a destination in and of itself."	"ダレンタース中央部に位置するヨルヴァンは興味深いまでに平凡な島だ。謎めいたオダラス、悪名高いウェブウッド、魅惑的なグレンダーラと境界を接するヨルヴァンは、この辺り一帯の""自然""生物の最後の砦として知られる。確かにこの島では熊、狼、レイヨウといった動物たちが見つかるが、その一方で魔法生物がいないわけでもない。むしろ、妖精が狼の群れを襲ったり、熊たちがねぐらの中で奇怪なトロールと取っ組み合ったりしている場面をよく見かける。こうした二面性は、ウォースウォーンがこの島の、拠点たる砦を、ハウス・オブ・バラッドと呼ばれる神秘的なフェイの建物が見える場所に、拠点たる砦を有しているとう事実を考慮することで、より明確になってくる。両者の接触(もしあれば)が概して穏便に終わる一方、ヨルヴァンにおける自然と不自然の緊迫した関係はなかなか興味深い。
+
+実のところ、島自体はかなり狭い(その理由を、いわゆる魔力の上昇によって拍車がかかった、魔法の森の拡張に求める者もいる)が、突如として森が途切れるために意外と目立つ。島にはローカ＝レインのものによく似た遺跡が広く点在するが、その起源は比較的謎めいている。フェイやエラシの建築物とは似ていないし、同地域の砦や要塞とも異なるのだ。もっとも、いつかこの遺跡を探検する勇者が現れて、その謎を解き明かしてくれるはずである。
+
+ヨルヴァンについて言えるのはこれくらいだ。この島は森のリズムの短い一拍。ダレンタース全体から見たら書物の中の脚注のようなもの。熱心に気にかけるには小さすぎ、無視するには大きすぎ、好奇心をかき立てるには普通すぎ、退屈を誘うには神秘的すぎる。多くの人にとっては魔法の森から次の場所への通過点にすぎないが、より世俗的な旅行者にとっては、その場所自体が目的地となる。"	"尤凡是达伦塔斯中心的一个奇怪的常态岛屿。尤凡与神秘的欧达拉斯、臭名昭著的蛛网森林和被施了魔法的格伦达拉接壤，主要被认为是这些土地上的“自然”生物的堡垒。虽然肯定能在这里找到熊、狼和羚羊，但这个地区并非没有更神奇的生命形式。事实上，妖精攻击狼群，或者熊与闯入它们巢穴的奇怪巨魔搏斗，有时是很常见的事情。当你考虑到一个事实，即誓战者就在被称为歌谣家族的神秘灵族机构的眼皮子底下，将这里的一个要塞作为了基地，你会发现这种对立更加明显。而且，虽然这两个族群之间的互动（如果有的话）往往是足够亲切的，但在尤凡中发现自然和非自然之间的紧张关系还是很有趣的。
+
+这片区域实际上相当小——一些人认为这是魔法森林的扩张造成的，许多人则认为是魔法的崛起加剧了这一现象——但可以注意到林木线的突然下降。这里有大片的废墟，与在洛卡莱恩发现的类似，但其起源仍然相当神秘。它们不像灵族建筑，不像埃拉西建筑，也不像该地区的要塞建筑。但众所周知，它们隐藏着一些秘密，只有那些足够勇敢去探索的人才能发现。
+
+唉，对于尤凡，还可以说些什么呢？它只是森林韵律中的一个小节拍，达连塔斯编年史上的一个脚注。既太小而无法引起深切关心，又太大了而无法被忽视，既太正常而无法激起好奇心，又太神秘了而无法引起厌倦。对许多人来说，它只是一个从一个魔法森林旅行到另一个魔法森林的途径。但对于世间的盗贼来说，它本身就是一个目的地。"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41257"	""	"place:tulan"	"accepted"	"툴란으로 이동"	"툴란(Tulan)으로 이동"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:39080/47697/49534 identifies the cave connected to passages beneath Mel Aglir. Japanese テュラン and Chinese 图兰 corroborate. Reuse base:1208 and retain the descriptive 동굴 separately."	"Travel to Tulan"	"テュランへ向かう"	"去图兰﻿"	"{""place:tulan"":""accepted""}"	"{""place:tulan"":""needs-context""}"	"{""place:tulan"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"47697"	""	"place:tulan"	"accepted"	"레르카라(Lerkara)의 마지막 일지는 근처 툴란 동굴을 가리키고 있었다. 그곳에서 그녀를 찾아 멜 아글리르(Mel Aglir) 마을에서 벌어진 기이한 일에 대해 더 알아낼 수 있을지도 모른다."	"레르카라(Lerkara)의 마지막 일지는 근처 툴란(Tulan) 동굴을 가리키고 있었다. 그곳에서 그녀를 찾아 멜 아글리르(Mel Aglir) 마을에서 벌어진 기이한 일에 대해 더 알아낼 수 있을지도 모른다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:39080/47697/49534 identifies the cave connected to passages beneath Mel Aglir. Japanese テュラン and Chinese 图兰 corroborate. Reuse base:1208 and retain the descriptive 동굴 separately."	"Lerkara's last journal entry pointed toward the nearby cave of Tulan. Perhaps I will find her there, and learn more about the strange occurrences in the village of Mel Aglir."	"ラーカラの日誌の最後は、近くのテュラン洞窟について書かれていた。そこで彼女を発見できれば、メル・アグリア村での不可解な現象についてさらに分かるかも知れない。"	"勒卡拉的最后一篇日记指向了附近的图兰洞穴。或许我能在那里找到她，并了解到为何梅尔阿格里尔怪事频发。"	"{""place:tulan"":""accepted""}"	"{""place:tulan"":""needs-context""}"	"{""place:tulan"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"49330"	""	"place:odarath"	"accepted"	"오다라스의 페이(Fae)와 고어하트(Gorhart) 마을의 알마인(Almain) 주민들 사이의 갈등을 누그러뜨리는 데 도움을 줄 사람을 죽이고 말았다. 앞으로 문제가 생길지도 모른다."	"오다라스(Odarath)의 페이(Fae)와 고어하트(Gorhart) 마을의 알마인(Almain) 주민들 사이의 갈등을 누그러뜨리는 데 도움을 줄 사람을 죽이고 말았다. 앞으로 문제가 생길지도 모른다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"I've killed someone who can help me ease tensions between the Fae of Odarath and the Almain villagers in Gorhart. This may cause problems in the future."	"オダラスのフェイとアルメインのゴーハート住民の間にある緊張関係を緩和するための協力者を殺してしまった。将来的に問題が起こるかも知れない。"	"我杀死了一个能够帮助我缓和欧达拉斯的灵族与郭哈特镇内的阿尔曼人之间紧张局势的人。这可能会在未来造成麻烦。"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"49534"	""	"place:tulan"	"accepted"	"툴란 동굴이 멜 아글리르(Mel Aglir) 마을 아래의 도살장으로 곧장 이어진다는 걸 알아냈다. 레르카라(Lerkara) 펠(Fel)은 패트릭 모르칸(Patrick Morkan)에게 그곳에 감금돼 있었다. 아내를 잃은 슬픔에 빠진 모르칸(Morkan)은 아내와의 결혼 생활을 지키려고 강령술에 손을 댔다. 그 후 그는 마을 사람들을 죽은 아내의 좀비 시체에게 먹이로 주고 있었다. 레르카라(Lerkara)는 두 사람 모두 당장 죽여야 한다고 주장한다."	"툴란(Tulan) 동굴이 멜 아글리르(Mel Aglir) 마을 아래의 도살장으로 곧장 이어진다는 걸 알아냈다. 레르카라(Lerkara) 펠(Fel)은 패트릭 모르칸(Patrick Morkan)에게 그곳에 감금돼 있었다. 아내를 잃은 슬픔에 빠진 모르칸(Morkan)은 아내와의 결혼 생활을 지키려고 강령술에 손을 댔다. 그 후 그는 마을 사람들을 죽은 아내의 좀비 시체에게 먹이로 주고 있었다. 레르카라(Lerkara)는 두 사람 모두 당장 죽여야 한다고 주장한다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:39080/47697/49534 identifies the cave connected to passages beneath Mel Aglir. Japanese テュラン and Chinese 图兰 corroborate. Reuse base:1208 and retain the descriptive 동굴 separately."	"I have discovered that the cave of Tulan leads directly to an abattoir beneath the village of Mel Aglir. Lerkara Fel has been imprisoned there by Patrick Morkan. Grieved greatly at the loss of his wife, Morkan turned to necromancy in an attempt to preserve his marriage. He has since been feeding villagers to the zombified corpse of his dead wife. Lerkara insists I must kill them both immediately."	"テュラン洞窟がメル・アグリア村の真下にある食肉処理場に繋がることが分かった。ラーカラ・フェルはパトリック・モーカンによって監禁されていた。妻を失った悲しみのあまり、モーカンは妻を""保存""しようと死霊術に頼り、村人たちを死んだ妻のゾンビの餌にしていたのだ。ラーカラは2人をすぐに殺せという。"	"我发现图兰洞穴直通梅尔阿格里尔村庄下方的一处屠宰场。勒卡拉·费尔一直被帕特里克·莫坎囚禁在这里。丧妻之痛使莫坎沉迷于招魂术，并试图复活自己的妻子。他一直在将村民作为丧尸妻子的食粮。勒卡拉表示，我必须立即杀了他们两个。"	"{""place:tulan"":""accepted""}"	"{""place:tulan"":""needs-context""}"	"{""place:tulan"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"51533"	""	"place:odarath"	"not-an-issue"	"머지않아 내 숲도 예전 모습을 되찾을 거야. 시간이 걸리겠지, 아주 오래 걸리겠지만, 내 거미줄이 오다라스(Odarath)와 글렌다라(Glendara)의 나무에 걸릴 날이 올 거야. 네가 두 눈으로 보게 될 거야."	"머지않아 내 숲도 예전 모습을 되찾을 거야. 시간이 걸리겠지, 아주 오래 걸리겠지만, 내 거미줄이 오다라스(Odarath)와 글렌다라(Glendara)의 나무에 걸릴 날이 올 거야. 네가 두 눈으로 보게 될 거야."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Soon, my wood will be as it once was ‒ it will take time, so much time, but my webs will be spun in the trees of Odarath and Glendara. You shall witness."	"今に私の森はかつての姿を取り戻す。それには長い時間を要するわ。でも、我が糸がオダラスとグレンダーラの木々に張り巡らされるのよ。今に分かるわ"	"很快，我的森林就会恢复到从前的样子——需要时间，很长的时间，但我的网会织到欧达拉斯和格伦达拉的树木上。你将亲眼见证。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"53444"	""	"place:odarath"	"not-an-issue"	"틸(Til)의 분실된 책을 전부 회수했다. 오다라스(Odarath)의 성 오드윅 영구 선교회(St. Odwig's Perpetual Mission)로 가서 경전 도서관에 돌려줘야겠다."	"틸(Til)의 분실된 책을 전부 회수했다. 오다라스(Odarath)의 성 오드윅 영구 선교회(St. Odwig's Perpetual Mission)로 가서 경전 도서관에 돌려줘야겠다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"I've recovered all of Brother's Til's missing books. I should travel to St. Odwig's Perpetual Mission in Odarath and return them to the scripture library."	"ブラザー・ティルの行方不明の本を回収した。オダラスの聖オドウィグ終身修道院へ行き、聖書図書館に返却しよう。"	"我已经取回了蒂尔修士丢失的每一本藏书。我应该前往欧达拉斯的圣奥德威格永恒布道所，将它们放回图书馆。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"53868"	""	"place:odarath"	"not-an-issue"	"오다라스(Odarath)는 풋내기가 올 곳이 아니야. 길을 벗어나지 말고 칼자루에서 손을 떼지 마. 무슨 일이든 대비해야 해."	"오다라스(Odarath)는 풋내기가 올 곳이 아니야. 길을 벗어나지 말고 칼자루에서 손을 떼지 마. 무슨 일이든 대비해야 해."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Odarath is no place for fledglings. Stay on the roads and keep your hand on your hilt. Be ready for anything."	"オダラスは半人前が来る場所じゃないの。道から外れず、常に武器を構えておくことね。油断してはダメよ"	"欧达拉斯不是菜鸟该来的地方。上路吧，时刻握着刀柄。准备应对突发状况。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"56033"	""	"place:odarath"	"not-an-issue"	"오다라스(Odarath)"	"오다라스(Odarath)"	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Odarath"	"オダラス"	"欧达拉斯"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"59008"	""	"place:odarath"	"accepted"	"레드 이드워드(Red Idward)와 함께하기로 하고, 산적 동료들을 배신한 죄로 델프 수사(Brother Delf)를 죽이기로 했다. 델프(Delf)를 죽이면 그의 재물을 차지할 수 있다. 그 재물 대부분은 델프(Delf)가 범죄자로 지내며 모은 것이다. 델프(Delf)는 오다라스 서부의 성 오드윅 선교소에 있다."	"레드 이드워드(Red Idward)와 함께하기로 하고, 산적 동료들을 배신한 죄로 델프 수사(Brother Delf)를 죽이기로 했다. 델프(Delf)를 죽이면 그의 재물을 차지할 수 있다. 그 재물 대부분은 델프(Delf)가 범죄자로 지내며 모은 것이다. 델프(Delf)는 오다라스(Odarath) 서부의 성 오드윅 선교소에 있다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"I've agreed to work for Red Idward, and to kill Brother Delf for his crime against his bandit kin. When I kill Delf, I am welcome to his treasures, most of which were gathered during his time as a criminal. Delf is located at St. Odwig's Mission in western Odarath."	"レッド・イドワードに協力し、仲間の盗賊を裏切ったブラザー・デルフを殺すことにした。デルフを殺せば、犯罪者時代に集めた財宝が手に入る。デルフは西オダラスの聖オドウィグ修道院にいる。"	"我同意帮助雷德·伊德瓦尔德，令德尔夫修士为对他的强盗伙伴所做出的行径付出血的代价。杀死德尔夫后，他的财宝也会归我所有，其中大部分财富都是当初非法所得。德尔夫就在欧达拉斯西部的圣奥德威格布道所。"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"60151"	""	"place:odarath"	"not-an-issue"	"네가 오다라스(Odarath)에 계속 있으면 아르보스(Arbos)와 난 다른 지역으로 거점을 옮겨야 할지도 몰라. 네가 장사에 방해되거든."	"네가 오다라스(Odarath)에 계속 있으면 아르보스(Arbos)와 난 다른 지역으로 거점을 옮겨야 할지도 몰라. 네가 장사에 방해되거든."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"If you stay in Odarath, Arbos and I may have to move our operation to another region. You're bad for business."	"あなたがオダラスに留まるなら、私とアルボスは別の場所で活動した方がよさそうね。こっちの仕事がやりづらいもの"	"如果你待在欧达拉斯，我和阿波斯可能不得不把我们的计划转移到其他地区。你会耽误我们办事。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"61174"	""	"place:odarath"	"not-an-issue"	"달렌타스(Dalentarth)의 마법 숲을 피해 남쪽으로 내려가 안전한 피난처를 찾던 알마인(Almain) 정착민들이 우연히 웹우드(Webwood)를 발견했다는 사실은 다소 민망한 일이다. 요르반(Yolvan)의 햇살과 비교적 평온한 기운에 힘을 얻은 그들은 오다라스(Odarath)를 뒤덮은 나무만큼 오래되고 키 큰 나무들을 만날 때까지 남쪽으로 향했다. 그러나 숲바닥까지 햇살이 드는 그곳과 달리, 이 남쪽 숲은 어둡고 음침했으며, 나무마다 거대하고 사나운 거미의 거미줄이 덮여 있었다. 숲은 바로 그 특징에서 웹우드(Webwood)라는 이름을 얻었다.
+
+처음에 무엇이 그들을 그곳에 머물게 했는지 나는 확신할 수 없다. 긴 여정에 지쳤기 때문일 수도 있고, 이곳에서 이익을 얻을 수 있다고 본 야심 찬 사람이 있었을 수도 있다. 어쨌든 발견한 지 얼마 지나지 않아 첫 정착민들은 농기구를 내던지고 새로 생계를 꾸릴 방법을 고안했다. 바로 비단 채취였다. 탐욕에 이끌렸든 미쳐서 그랬든, 남녀를 가리지 않고 웹우드(Webwood)의 나무에 올라가 가지에서 거미줄을 거둔 뒤, 오늘날 캐너록(Canneroc)의 고운 비단으로 알려진 직물로 가공했다.
+
+그 뒤로 이 야만적인 생존 방식을 현대화하려는 시도가 몇 차례 있었다. 악명 높은 거미 농장 설립 시도도 그중 하나였다. 하지만 지금까지 비단 채취 방식은 거의 바뀌지 않았다. 늘 경계를 늦추는 사람에게 웹우드(Webwood)는 위험한 곳인데도 비단 채취꾼들이 그토록 오래 살아남은 것은 기적에 가깝다. 그들은 이 숲이 다른 어디에서도 들어 본 적 없는 고요함을 품고 있다고 말한다. 숲이 고요할 때야말로 사람은 가장 두려워해야 한다. 숲의 그늘과 거미줄 사이에 도사리는 것은 거미만이 아니기 때문이다. 과부도 있다.
+
+내가 알기로 과부는 숲만큼이나 오래된 민간 전승이다. 페이(Fae)들이 전해 온 이야기라고 하지만, 이 숲에는 페이(Fae)가 거의 없었다는 점을 생각하면 이해하기 어렵다. 과부의 노래는 대개 이런 이야기로 불린다. 아름답고 살인적인 페이(Fae) 여인이 눈에 띄는 남자들을 모조리 유혹한 뒤, 그들의 결혼식 밤에 죽인다는 것이다. 숲을 조심하지 않는 이들에게 주는 교훈이었을 수도 있고, 음침한 황야에 약간의 낭만을 더하려는 이야기였을 수도 있다. 하지만 분명 사실은 아니다."	"달렌타스(Dalentarth)의 마법 숲을 피해 남쪽으로 내려가 안전한 피난처를 찾던 알마인(Almain) 정착민들이 우연히 웹우드(Webwood)를 발견했다는 사실은 다소 민망한 일이다. 요르반(Yolvan)의 햇살과 비교적 평온한 기운에 힘을 얻은 그들은 오다라스(Odarath)를 뒤덮은 나무만큼 오래되고 키 큰 나무들을 만날 때까지 남쪽으로 향했다. 그러나 숲바닥까지 햇살이 드는 그곳과 달리, 이 남쪽 숲은 어둡고 음침했으며, 나무마다 거대하고 사나운 거미의 거미줄이 덮여 있었다. 숲은 바로 그 특징에서 웹우드(Webwood)라는 이름을 얻었다.
+
+처음에 무엇이 그들을 그곳에 머물게 했는지 나는 확신할 수 없다. 긴 여정에 지쳤기 때문일 수도 있고, 이곳에서 이익을 얻을 수 있다고 본 야심 찬 사람이 있었을 수도 있다. 어쨌든 발견한 지 얼마 지나지 않아 첫 정착민들은 농기구를 내던지고 새로 생계를 꾸릴 방법을 고안했다. 바로 비단 채취였다. 탐욕에 이끌렸든 미쳐서 그랬든, 남녀를 가리지 않고 웹우드(Webwood)의 나무에 올라가 가지에서 거미줄을 거둔 뒤, 오늘날 캐너록(Canneroc)의 고운 비단으로 알려진 직물로 가공했다.
+
+그 뒤로 이 야만적인 생존 방식을 현대화하려는 시도가 몇 차례 있었다. 악명 높은 거미 농장 설립 시도도 그중 하나였다. 하지만 지금까지 비단 채취 방식은 거의 바뀌지 않았다. 늘 경계를 늦추는 사람에게 웹우드(Webwood)는 위험한 곳인데도 비단 채취꾼들이 그토록 오래 살아남은 것은 기적에 가깝다. 그들은 이 숲이 다른 어디에서도 들어 본 적 없는 고요함을 품고 있다고 말한다. 숲이 고요할 때야말로 사람은 가장 두려워해야 한다. 숲의 그늘과 거미줄 사이에 도사리는 것은 거미만이 아니기 때문이다. 과부도 있다.
+
+내가 알기로 과부는 숲만큼이나 오래된 민간 전승이다. 페이(Fae)들이 전해 온 이야기라고 하지만, 이 숲에는 페이(Fae)가 거의 없었다는 점을 생각하면 이해하기 어렵다. 과부의 노래는 대개 이런 이야기로 불린다. 아름답고 살인적인 페이(Fae) 여인이 눈에 띄는 남자들을 모조리 유혹한 뒤, 그들의 결혼식 밤에 죽인다는 것이다. 숲을 조심하지 않는 이들에게 주는 교훈이었을 수도 있고, 음침한 황야에 약간의 낭만을 더하려는 이야기였을 수도 있다. 하지만 분명 사실은 아니다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"The Webwood was, rather embarrassingly, chanced upon by a group of Almain settlers who wished to find safe haven from the magical forests of Dalentarth by plunging south. Cheered on by the sunlight and relative calm of Yolvan, they continued south until they found trees that were as ancient and tall as those which dominate Odarath. But unlike those lands, where sunlight is still seen on the forest floor,
+this southern wood was a place of dark and gloom, its trees covered in the silk of large and savage spiders. It was from this feature that the forest drew its name: Webwood.
+
+What drove them to stay at first, I cannot say for certain Perhaps it was exhaustion from their journey, perhaps it was an enterprising individual who saw the profit that stood to be made. In any event, not long after discovery did the original settlers throw down their farming tools and invented a new means to earn their bread: silkfarming. Drawn by greed or insanity, these men and women would ascend the trees of Webwood to harvest the spider-silk from its branches, and then process it into the textile known today as Canneroc gossamer.
+
+There have since been several attempts to try and modernize this rather barbaric means of survival ‒ including one notorious attempt at establishing a spider-farm ‒ but to this day, the art of silkfarming is largely unchanged. It is only miraculous that the silkfarmers have survived as long as they did, for the Webwood can be a dangerous place for those that are not always alert. The silkfarmers will say that there's a silence in the wood, unlike any they've heard elsewhere. And when it is silent, that is when a man best be afraid, for there are more than spiders that lurk in the shadows and webs of the forest. There is also the Widow.
+
+From what I understand, the Widow is a folktale as old as the forest itself. Allegedly a story passed on by the fae (which I cannot understand, for the presence of fae in this wood has always been minimal), the song of the Widow is usually sung to the tune of this: a homicidal and beautiful fae woman goes around seducing every man she sees, only to kill them on their wedding nights. Perhaps it was meant to be a lesson to those that were not careful of the wood, or perhaps it was simply to give a bit of charm to a gloomy stretch of wilderness. But it is clearly untrue."	"あまり大きい声では言えないが、ウェブウッドはダレンタースの魔法の森を南下して安全な場所を探し求めたアルメインの一団によって偶然発見された。ヨルヴァンの陽光と予想外の静けさに歓喜した彼らは、やがて森に出くわすまで南下を続けた。それはオダラスに広がるような背の高い、古代の森だったが、林床にも光が射し込むあの森とは違い、この南の森は暗くて陰うつで、森の木は凶暴な巨大蜘蛛の糸に覆われていた。それがこの森が""ウェブウッド""と呼ばれるようになった所以である。
+
+そもそも何が彼らをその森に留まらせたのか。確かな事は言えないが、おそらく長旅の疲れのせいではないか。あるいはこの森が金になると踏んだ進取的な者がいたか。いずれにせよ、発見後さほど経たずして、最初の移住者たちは農耕具を捨て、食い扶持を稼ぐ新たな方法を編み出した。絹採取である。欲に目がくらんだのか、頭が錯乱したのか、この者たちはウェブウッドの木をよじ登って、その枝から蜘蛛の糸を採取しようと考えた。そしてそれらを今日""キャネロックの柔糸""の名で知られる繊維に加工したのである。
+
+それ以来、このどちらかと言うと原始的な生活の手段を現代化する試みが何度かなされた。その中のひとつがあの悪名高い、蜘蛛農園の設立であるが、今日に至るまで、絹採取の基本的なやり方は殆ど変化していない。ウェブウッドは危機意識の低い者にとっては危険な場所になるため、絹採り職人が絶滅せずに済んだのは奇跡と言うしかない。彼らは他で聞いた話とは違って、この森は静かだと言うが、森が静かなときこそ最大級の警戒が求められるのである。というのも、この森の暗がりに潜むのは蜘蛛だけではない。ウィドウもいるからだ。
+
+私の知る限り、ウィドウは森そのものと同じくらい古い民間伝承である。一説では、フェイが語り継いできた物語と言われ(もっとも、この森でフェイに遭遇する確率が常に低かったことに鑑みれば、この説には納得できないが)、ウィドウの歌は常に""殺意を秘めた美しいフェイの女が次々と男たちを誘惑していき、結婚式の晩に彼らを殺害する""というストーリーで歌われる。おそらくは森に対して不用心な者たちへの教訓的な歌だったのだろう。あるいは単に、この陰気な森にちょっとした魅力を与えたかったのか。無論、後者であるはずはないが。"	"让人尴尬的是，蛛网森林被一群阿尔曼定居者偶然发现，他们本希望通过向南行进，从达伦塔斯的魔法森林中寻找一处安全的避难所。在阳光和尤凡的相对平静的鼓舞下，他们继续向南行进，直到他们发现了和欧达拉斯那里一样古老和高大的树木。但与那些阳光仍能照到森林地面的地方不同，
+这片南方森林是一片幽暗的地方，树木上覆盖着巨大而野性的蜘蛛丝。这片森林就是因这一特点而得名为蛛网森林。
+
+我不敢肯定最初是什么驱使他们留下来的，也许是旅途劳累，也许某个野心勃勃的人看到了即将获得的利益。不管怎样，在发现新大陆后不久，最初的定居者们就扔下农具，发明了一种新的谋生手段：缫丝。在贪婪或疯狂的驱使下，这些男人和女人会爬上蛛网森林的树木，从树枝上收集蜘蛛丝，然后将其加工成今天的坎能诺克蛛丝。
+
+从那以后，他们进行了多次尝试来使这种相当野蛮的生存方式现代化——包括一次臭名昭著的建立蜘蛛农场的尝试——但直到今天，缫丝的技艺也基本上没有改变。令人惊奇的是，对于那些不总是那么警觉的人来说，蛛网森林可能是一个危险的地方，但缫丝者们却活得很久。缫丝者们会说树林里一片寂静，不像他们在其他地方听到的那样。当它沉默的时候，那就是一个人最应该害怕的时候，因为潜伏在森林的阴影和蜘蛛网里的可不止蜘蛛。还有寡妇。
+
+据我所知，寡妇是一个和森林本身一样古老的民间故事。根据一则灵族流传下来的故事（我无法理解，因为灵族的存在在这座森林里一直是最少的），寡妇的歌通常是用这样的调子唱的：一名杀气腾腾的美丽灵族女人会到处引诱她看到的每个男人，只为了在他们的新婚之夜杀死对方。也许这是给那些不太注意森林的人上的一课，也许只是为了给一片幽暗的荒野增添些许魅力。但这显然不是真的。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"62263"	""	"place:odarath"	"not-an-issue"	"{LINE_INDENT}I. 개요
+
+엘루두스 세넬로스(Eludus Senelos), 통칭 엠버아이즈(Embereyes)의 정수는 명백히 대지 원소권에 속한다. 이 식물은 주로 알레스타 숲속 빈터(Allestar Glade)의 양치식물과 키 큰 풀 사이에서 자라지만, 동굴 안이나 나무 밑동에서도 볼 수 있다. 보통 허리 높이까지 자라며 가까운 종인 스위트로즈(Sweetrose)보다 색이 더 밝다. 엠버아이즈(Embereyes)를 관찰한 결과, 이런 종류의 약초를 흔히 마시기 좋은 상태로 바꾸는 서리 원소 혼합물에도 반응하지 않는 경우가 많다는 사실을 알 수 있었다. 엠버아이즈(Embereyes)의 정수를 추출하려면 먼저 식물을 걸쭉한 반죽이 될 때까지 으깨야 한다. 이 약초의 정수를 뽑아내는 방법은 비슷한 효능을 지닌 다른 식물종과 혼합하는 데 달려 있다. 연금술사 올리앤더 싱클레어(Oleander Sinclair)와 학자 난네 한리(Nanne Hanri), 아우라 한리(Aura Hanri)의 저술에 그 방법이 상세히 기록되어 있다.
+
+그렇다면 이 약초를 복용한 이들에게 이토록 이로운 변화를 일으키는 약효 성분은 무엇일까? 앞서 제시했듯, 알레스타 숲속 빈터(Allestar Glade)와 오다라스(Odarath) 일대에서 자생하는 식물군의 원소적 본성만으로는 같은 원소권에 속한 다른 생물체와 얼마나 잘 융합할지 예측할 수 없다. 마찬가지로 제조 방법만으로 정수의 성질을 일정하게 통제할 수도 없다. 이는 유용하면서도 위험하다. 새로운 조제법을 만들 때는 서로 부정적으로 반응하는 성분이 어떤 결과를 낳을지 신중히 따져야 하기 때문이다. 그런 경우에는 몸을 쇠약하게 하는 독이 만들어질 수도, 유익한 강장제가 만들어질 수도 있다.
+
+그렇다면 이 약초에서 파생되는 어떤 특성을 원소적 본성 탓으로 돌릴 수 있을까? 가장 안정적이고 믿을 만한 원소권인 대지가 이런 불안정성의 주된 원인일 리는 없다. 다음 논문에서는 엠버아이즈(Embereyes)의 연금술적 잠재력을 결정하는 더 근본적인 요소가 무엇인지 논하겠다. 궁극적으로는 엠버아이즈(Embereyes)의 약효에 관한 새로운 이론, 즉 다른 작용 인자가 혼합물의 최종적인 불안정성을 좌우한다는 이론을 제시하려 한다."	"{LINE_INDENT}I. 개요
+
+엘루두스 세넬로스(Eludus Senelos), 통칭 엠버아이즈(Embereyes)의 정수는 명백히 대지 원소권에 속한다. 이 식물은 주로 알레스타 숲속 빈터(Allestar Glade)의 양치식물과 키 큰 풀 사이에서 자라지만, 동굴 안이나 나무 밑동에서도 볼 수 있다. 보통 허리 높이까지 자라며 가까운 종인 스위트로즈(Sweetrose)보다 색이 더 밝다. 엠버아이즈(Embereyes)를 관찰한 결과, 이런 종류의 약초를 흔히 마시기 좋은 상태로 바꾸는 서리 원소 혼합물에도 반응하지 않는 경우가 많다는 사실을 알 수 있었다. 엠버아이즈(Embereyes)의 정수를 추출하려면 먼저 식물을 걸쭉한 반죽이 될 때까지 으깨야 한다. 이 약초의 정수를 뽑아내는 방법은 비슷한 효능을 지닌 다른 식물종과 혼합하는 데 달려 있다. 연금술사 올리앤더 싱클레어(Oleander Sinclair)와 학자 난네 한리(Nanne Hanri), 아우라 한리(Aura Hanri)의 저술에 그 방법이 상세히 기록되어 있다.
+
+그렇다면 이 약초를 복용한 이들에게 이토록 이로운 변화를 일으키는 약효 성분은 무엇일까? 앞서 제시했듯, 알레스타 숲속 빈터(Allestar Glade)와 오다라스(Odarath) 일대에서 자생하는 식물군의 원소적 본성만으로는 같은 원소권에 속한 다른 생물체와 얼마나 잘 융합할지 예측할 수 없다. 마찬가지로 제조 방법만으로 정수의 성질을 일정하게 통제할 수도 없다. 이는 유용하면서도 위험하다. 새로운 조제법을 만들 때는 서로 부정적으로 반응하는 성분이 어떤 결과를 낳을지 신중히 따져야 하기 때문이다. 그런 경우에는 몸을 쇠약하게 하는 독이 만들어질 수도, 유익한 강장제가 만들어질 수도 있다.
+
+그렇다면 이 약초에서 파생되는 어떤 특성을 원소적 본성 탓으로 돌릴 수 있을까? 가장 안정적이고 믿을 만한 원소권인 대지가 이런 불안정성의 주된 원인일 리는 없다. 다음 논문에서는 엠버아이즈(Embereyes)의 연금술적 잠재력을 결정하는 더 근본적인 요소가 무엇인지 논하겠다. 궁극적으로는 엠버아이즈(Embereyes)의 약효에 관한 새로운 이론, 즉 다른 작용 인자가 혼합물의 최종적인 불안정성을 좌우한다는 이론을 제시하려 한다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"{LINE_INDENT}I. Abstract
+
+The essence of Eludus Senelos, known as Embereyes, is clearly of the Earth sphere. The plant is most commonly found among the ferns and tall grasses of Allestar Glade, although it can grow in caves or at the base of trees. A typical specimen will be of waist height and is brighter in color than the closely related Sweetrose. Of Embereyes, it can be surveyed that many do not react to the mixture of Frost elements that can often reduce herbs of this nature to a more potable constitution. In order to extract the essence of Embereyes, the plant must first be mashed into a thick pulp. Extracting the nature of said herb is a matter of combination with other similarly potent varieties of flora. These methods are carefully detailed in the works of Oleander Sinclair, Alchemist, as well as Scholars Nanne Hanri and Aura Hanri.
+
+What, however, is the remedial property with which this herb can affect such a beneficial change to its imbibers? As I have previously suggested, the elemental nature of the family of plants found natively in the region of Allestar Glade and Odarath does not predict the quality of confluence with other bodies of the same elemental sphere. Similarly, method does not control the consistency of the essence. This is both useful and dangerous, as new formulae for its employment must carefully consider the outcome of negatively corresponding components. In such cases, it may just as likely produce a debilitating poison as a helpful tonic.
+
+What derivatives of this herb, then, can be attributed to the elemental nature? Earth, being the most constant and dependable of elemental spheres cannot be the primary cause of this instability. In the following paper, I will argue that there is something more fundamental to the nature of Embereyes that determines its alchemical potential. Ultimately, I will propose a new theory for the medicinal properties of Embereyes, namely, that another agent is determining the volatility of resultant mixtures."	"{LINE_INDENT}1.要録
+
+エルドゥス・セネロス、通称エンバーアイズのエッセンスは明らかに""土""の領域にある。アリスター湿原のシダや高草と一緒によく見つかるが、洞窟内や木の根元にも生息する。典型的な個体は腰くらいの背丈で、近親種のスイートローズに比べて色合いが鮮やか。エンバーアイズは多くの場合、この種のハーブを大概より飲みやすい状態へと変化させる冷却系エッセンスの混合物とは反応しない。エンバーアイズのエッセンスを抽出するには、まずはその草をどろどろになるまですりつぶす必要がある。このハーブの本質が引き出せるかどうかは、同様に優れた効能を持つ他の植物との組み合わせ次第だ。その手法については錬金術師オリアンダー・シンクレアや、ナンネ・ハンリやオーラ・ハンリといった学者たちの著書に詳しい。
+
+しかし、このハーブのどの薬効成分が、飲用者に有益な変化をもたらすのか？ 以前にも示唆したが、アリスター湿原やオダラス地方に自生する植物相の属性的特性から、同じ特性を持つその他の組織体との融和性を予測する事はできない。また、方法を変えてもエッセンスの本質は変わらない。これは好都合であると同時に危険性も秘めている。特に未知の調合法においては、成分同士の消極的反応が招く結果を慎重に考慮する必要がある。こうした場合には、有用な強壮剤と危険な毒が同じくらいの確率で生成され得る。
+
+となると、このハーブの派生的要素のどの部分が、その属性的特性に帰する事ができるのか？ もっとも安定し信頼できる属性である""土""が、こうした不安定さを生んでいるとは到底考えられない。次回の論文ではエンバーアイズの錬金的価値を決定する、より根源的な何かについて論じてみたい。そして最終的には、エンバーアイズの薬効成分に関する新説、主として第三の素材が生成される混合物の変動性を決定するという説を掲げてみたい。"	"{LINE_INDENT}I. 摘要
+
+埃卢多斯·塞内洛斯，也就是我们所知的灰烬之眼的精华，显然属于土元素球。这种植物最常出现在艾勒斯达林地的蕨类植物和高草中间，虽然它也可以在洞穴或在树的底部生长。植株通常可以达到腰部高度，颜色较之其近亲甜蔷薇要更鲜亮一些。可以观察到，许多灰烬之眼对冰霜元素的混合物没有反应，而后者原本通常会使这种性质的草药变得更适合服用。为了提取灰烬之眼的精华，必须先把这种植物捣碎成厚浆。对这种草药的精华进行萃取，需要将对其他具有类似功效的植物使用的方法混合起来。这些方法在炼金术士欧利安德·辛克莱以及学者南妮·汉里和奥拉·汉里的著作中都有详细的描述。
+
+然而，这种草药的治疗特性是否会对它的服用者产生有益的影响？正如我先前所指出的，我们无法根据原产于艾勒斯达林地和欧达拉斯地区的植物科的基本性质，来预测具有同一元素球的其他个体的融合质量。同样，方法也不能控制精华的一致性。这既是有用的，也是危险的，因为用到这一草药的新配方必须认真考虑消极的相应组成部分的结果。在这种情况下，它很可能既产生一种使人衰弱的毒药，又能产生有益的补药。
+
+那么，这种药草的哪些不稳定性产物可以归因于其元素精华呢？土，作为最稳定和最可靠的元素球体，不可能是这种不稳定的主要原因。在接下来的文章中，我将论证，在灰烬之眼的本质中，有一些更基本的东西决定着它的炼金术潜能。最后，我将提出一种关于灰烬之眼药物特性的新理论，即另一种药剂决定着合成混合物的稳定性。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"62574"	""	"place:odarath"	"not-an-issue"	"오래된 숲에는 거미가 셀 수 없이 많아. 한때 이곳부터 오다라스(Odarath)까지 숲이 이어졌다는 얘기를 들었어."	"오래된 숲에는 거미가 셀 수 없이 많아. 한때 이곳부터 오다라스(Odarath)까지 숲이 이어졌다는 얘기를 들었어."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"The old forest is home to countless spiders. I've heard of a time when it stretched from here to Odarath."	"古い森には無数の蜘蛛が住みついている。ここからオダラスまで広がった時もあったそうだ"	"这片古老的森林是无数蜘蛛的家园。我听说它曾经从这里一路蔓延到欧达拉斯。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"63540"	""	"place:odarath"	"not-an-issue"	"오래된 숲은 셀 수 없이 많은 거미의 보금자리야. 한때는 이곳에서 오다라스(Odarath)까지 이어졌다는 얘길 들었어."	"오래된 숲은 셀 수 없이 많은 거미의 보금자리야. 한때는 이곳에서 오다라스(Odarath)까지 이어졌다는 얘길 들었어."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"The old forest is home to countless spiders. I've heard of a time when it stretched from here to Odarath."	"古い森には無数の蜘蛛が住みついている。ここからオダラスまで広がった時もあったそうだ"	"这片古老的森林是无数蜘蛛的家园。我听说它曾经从这里一路蔓延到欧达拉斯。"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"63670"	""	"place:odarath"	"not-an-issue"	"난 이 근방 사람이 아니야. 북쪽의 고어하트(Gorhart)에서 왔지. 꽤 괜찮은 곳이야. 물론 오다라스(Odarath) 숲이 무섭지만 않다면 말이야..."	"난 이 근방 사람이 아니야. 북쪽의 고어하트(Gorhart)에서 왔지. 꽤 괜찮은 곳이야. 물론 오다라스(Odarath) 숲이 무섭지만 않다면 말이야..."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"Wasn't from these parts. Came from the north ‒ from Gorhart. Nice enough place, but if they think the woods of Odarath are frightening...."	"俺はこの土地の人間じゃないんだ。北にあるゴーハートからやってきた。なかなかいい場所だぞ。オダラスの森が恐ろしくなければだが..."	"不是来自本地。是从北方的郭哈特来的。不错的地方，但如果他们认为欧达拉斯的森林很可怕……"	"{""place:odarath"":""not-an-issue""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"64377"	""	"place:odarath"	"accepted"	"실드링 요새(Shieldring Keep)의 계약서에 따르면, 주인이 어떤 짐승에게 놀라 쫓기다가 오다라스의 우거진 덤불(Overgrown Thicket)에 귀중한 책을 잃어버렸다고 한다."	"실드링 요새(Shieldring Keep)의 계약서에 따르면, 주인이 어떤 짐승에게 놀라 쫓기다가 오다라스(Odarath)의 우거진 덤불(Overgrown Thicket)에 귀중한 책을 잃어버렸다고 한다."	"D-21361: Discover unregistered exact English names across all three resources:
+two geographic names, the named woman depicted by a statue, and three
+complete Odarath-based object/place/title labels. Aligned Japanese and
+Chinese corroborate each source-local context, but do not override English.
+Official Korean manual PDF p. 1 supplies forest/region setting and
+PDF pp. 7-8 quest/exploration context, not direct spellings for these
+names. Preserve neighboring named sites/people, including all prior
+Amman annotations in the journal, and count shared entity hits once per
+resource/ID/variant row. No historical global tally is reused.
+At default:31601 retain the exact highlighted token {*1오다라스} and
+append (Odarath) outside its brace; all markup bytes remain unchanged. English default:20030/39632/62263 identifies a region/forest land, corroborated by Japanese オダラス and Chinese 欧达拉斯. Reuse the existing consistent 오다라스 spelling and pair missing references; do not infer a city or person."	"According to a contract from Shieldring Keep, a valuable book was lost in Overgrown Thicket ‒ in Odarath ‒ when the owner was surprised and chased away by some kind of animal."	"シールドリング砦の依頼によると、オダラスの""密林の洞窟""で貴重な本が行方不明になった。何らかの動物に驚いた持ち主が、置いて逃げたらしい。"	"盾环要塞的契约上说，一本重要书籍在欧达拉斯的茂密丛林中丢失了，失主当时收到了某种动物的追击。"	"{""place:odarath"":""accepted""}"	"{""place:odarath"":""needs-context""}"	"{""place:odarath"":""Candidate hit from the English source; verify this occurrence in context.""}"

@@ -1,0 +1,406 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"16667"	""	"place:erathell"	"accepted"	"에라셀의 형성"	"에라셀(Erathell)의 형성"	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The Shaping of Erathell"	"エラセルの形成"	"伊拉塞尔的形成"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"17238"	""	"place:erathell"	"accepted"	"위대한 장군 말이야… 그녀와 센(Senn) 자매는 오래된 친구야. 에라셀에서 함께 자랐지."	"위대한 장군 말이야… 그녀와 센(Senn) 자매는 오래된 친구야. 에라셀(Erathell)에서 함께 자랐지."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The Great General... she and the Senn sisters are old friends, you know. The grew up together in Erathell."	"""偉大なる将軍""... 彼女とセン姉妹は昔からの仲だ。エラセルで一緒に育ったのさ"	"伟大的将军……她和塞恩姐妹俩是老朋友了，你知道的。他们一起在伊拉塞尔长大。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"17249"	""	"place:erathell"	"accepted"	"북부 에라셀에 있는 에메어(Emaire)로 가서 ‘샤드폴이 살아났다’는 전언의 뜻을 알아내야 한다."	"북부 에라셀(Erathell)에 있는 에메어(Emaire)로 가서 ‘샤드폴이 살아났다’는 전언의 뜻을 알아내야 한다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"I must travel to Emaire in Northern Erathell to discern the meaning of the message ""Shardfall has come alive""."	"北エラセルのエマイアへ向かい、""シャードフォールが動き出した""という伝言の意味を確かめなければならない。"	"我必须前往北部海岸的伊梅尔，弄清楚“晶瀑活过来了”这条信息的含义。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"17355"	""	"place:erathell"	"accepted"	"서문
+
+바실리카의 학자들이 이 땅에서 흔히 페이(Fae)라고 부르는 생명체를 연구해 달라고 처음 요청했을 때, 나는 선뜻 내키지 않았다. 연금술 식물학자인 내가 무슨 논리로 이 땅의 토착민들에 관한 기록을 작성해야 한단 말인가? 바실리카의 목적에는 문화사학자나 해부학자, 아니면 분류학자가 더 잘 부응했을 게 분명했다. 하지만 내가 몰랐던 사실은, 바실리카가 그렇게 고집한 이유가 바로 그 분야의 대표자들이 이미 당신 손에 들린 책을 편찬하는 임무를 맡았기 때문이라는 점이었다. 그리고 그들은 누구의 잘못도 없이 각자 나름의 방식으로 실패했다.
+
+페이(Fae)란 무엇인가? 이 가장 기본적인 질문조차 답하지 못한다면, 다음 페이지들은 노움의 지식 체계에 아무것도 보탤 수 없다. 페이(Fae)는 달렌타스(Dalentarth)와 클루리콘(Klurikon)의 숲에 사는 지성 있는 종족이라는 사실을 우리는 안다. 또한 더 나은 말이 없어 ‘부족’이라 부르는 두 무리로 나뉘며, 그들이 여름과 겨울의 계절과 어떤 식으로든 연결되거나 조화를 이룬다는 점도 안다. 페이(Fae)에게 뚜렷한 성별 차이가 있기는 하지만, 겉모습에 불과하고 어쩌면 선택에 따른 차이일 수도 있으며, 번식이나 사회적 책무에는 영향을 주지 않는 듯하다. 페이(Fae)는 필멸자가 아니며, 어떤 형태로든 환생해 죽은 뒤 얼마간 시간이 지나면 되살아난다는 사실도 안다. 게다가 페이(Fae)는 마법과 깊이 결속된 존재로, 지금까지 노움이 만난 어떤 종족보다도 마법성이 강하다.
+
+하지만 그게 전부는 아니다. 보가트(Boggart)와 스프리트 등 ‘야생 페이(Wild Fae)’라 불리는 생물도 있으며, 이들 역시 여름 페이(Summer Fae) 및 겨울 페이(Winter Fae)와 어떤 관계가 있다는 사실을 안다. 내가 이 서문을 쓰는 지금, 알라바스트라(Alabastra)에 새로운 페이(Fae) ‘부족’이 나타났다는 소문이 있다. 그들은 여름 페이(Summer Fae)나 겨울 페이(Winter Fae)가 지금껏 보여 준 것보다 훨씬 호전적이라고 한다.
+
+이 추가 사실들이라도 적어도 처음의 질문에는 어느 정도 답해 줄 수 있을 것이다. 페이(Fae)는 마법 생명체이며, 그 본질은 자연 전체만큼이나 변화무쌍하다. 데티어(Detyre)의 붉은 바위와 에라셀 평원의 초원이 하나의 땅을 이루듯, 서로 다른 여러 생명체도 우리가 통틀어 ‘페이(Fae)’라 부르는 하나의 집단에 속한다.
+
+생리학적으로는 여러 해 연구했는데도 페이(Fae)에 관해 알려진 것이 많지 않다. 페이(Fae)의 해부 구조는 우리와 어느 정도 닮았지만, 식물에 더 가까운지도 모른다. 바실리카가 결국 식물학자가 이 연구에 더 유용하다고 결론 내린 이유도 아마 그것일 것이다. 그런 해부학적 특징이 어떻게 결합했는지는 여전히 수수께끼다. 사실 페이(Fae)에 관한 거의 모든 것이 수수께끼지만, 마법이 그들의 신체 기능에 중요한 역할을 한다고 상상할 수밖에 없다.
+
+사회적으로 페이(Fae)는 종잡기 어렵다. 평범한 야수처럼 야생에서 홀로 살아갈 수도 있고, 복잡한 사회적 교류를 나눌 수도 있다. 달렌타스(Dalentarth)의 원시림에 페이(Fae)의 도시, 혹은 그와 비슷한 무언가가 숨겨져 있다는 소문이 끊이지 않지만, 실제로 본 사람은 거의 없다. 내가 확인할 수 있는 보고에 따르면 여름 페이(Summer Fae)에게는 여름 궁정이라는 권력 기관이 있으며, 대왕이 그곳을 다스리는 듯하다. 그러나 그들은 세금이나 공물을 내지 않고, 누구에게도 충성을 맹세하지 않으며, 전쟁에도 나서지 않는다. 그렇다면 이런 권력의 중앙집권은 무슨 목적으로 존재하는가? 다른 많은 것과 마찬가지로, 페이(Fae)에게 물어도 그저 존재하니까 존재하고 예전부터 늘 그랬다는 대답만 들을 것이다. 그런 제도가 정말 영원할 수 있을까? 실체도 없이 그런 칭호와 의식이 의미를 가질 수 있을까? 페이(Fae)는 실제로 사회를 이루기보다 사회를 이루는 흉내를 내며 노는 것에 가까워 보인다.
+
+확실히 말할 수 있는 것은 페이(Fae)가 다른 종족보다 훨씬 오래된 종족이라는 점이다. 연대를 확인할 수 있는 에라시(Erathi)와 페이(Fae)의 유적을 드물게나마 발견하면, 두 종족이 거의 같은 시기에 비롯되었다는 사실을 밝혀낼 수 있다. 증명하기는 어렵다. 페이(Fae)는 식물 재료로 건축하는 경향이 있는데, 식물은 썩기 마련이기 때문이다. 그래도 정황 증거만으로 페이(Fae)가 아말러(Amalur)에서 가장 오래된 생명체일 수 있다고 결론 내리기에는 충분하다. 하지만 그들의 역사가 어떻게 흘러왔는지 알아보려는 일은 나무에게 평생 무엇을 이루었는지 묻는 것만큼이나 보람이 없다. 페이(Fae)는 백 년을 살 수도 있지만, 한자리에 얼어붙은 듯 머무르기 때문이다. 물어보면 주변에서 일어난 사건을 불확실하게 답할지도 모른다. 사실 페이(Fae)에게 그 백 년은 일련의 반복, 시간의 시작부터 되풀이되어 시간의 끝까지 계속될 순환일 뿐이다.
+
+이 책에서 보이듯 페이(Fae)는 모든 일이 반복된다고 말한다. 경험적 증거는 그렇지 않음을 보여 주지만, 그들의 말에도 일리가 있다. 페이(Fae)에게는 아무것도 변하지 않기 때문이다."	"서문
+
+바실리카의 학자들이 이 땅에서 흔히 페이(Fae)라고 부르는 생명체를 연구해 달라고 처음 요청했을 때, 나는 선뜻 내키지 않았다. 연금술 식물학자인 내가 무슨 논리로 이 땅의 토착민들에 관한 기록을 작성해야 한단 말인가? 바실리카의 목적에는 문화사학자나 해부학자, 아니면 분류학자가 더 잘 부응했을 게 분명했다. 하지만 내가 몰랐던 사실은, 바실리카가 그렇게 고집한 이유가 바로 그 분야의 대표자들이 이미 당신 손에 들린 책을 편찬하는 임무를 맡았기 때문이라는 점이었다. 그리고 그들은 누구의 잘못도 없이 각자 나름의 방식으로 실패했다.
+
+페이(Fae)란 무엇인가? 이 가장 기본적인 질문조차 답하지 못한다면, 다음 페이지들은 노움의 지식 체계에 아무것도 보탤 수 없다. 페이(Fae)는 달렌타스(Dalentarth)와 클루리콘(Klurikon)의 숲에 사는 지성 있는 종족이라는 사실을 우리는 안다. 또한 더 나은 말이 없어 ‘부족’이라 부르는 두 무리로 나뉘며, 그들이 여름과 겨울의 계절과 어떤 식으로든 연결되거나 조화를 이룬다는 점도 안다. 페이(Fae)에게 뚜렷한 성별 차이가 있기는 하지만, 겉모습에 불과하고 어쩌면 선택에 따른 차이일 수도 있으며, 번식이나 사회적 책무에는 영향을 주지 않는 듯하다. 페이(Fae)는 필멸자가 아니며, 어떤 형태로든 환생해 죽은 뒤 얼마간 시간이 지나면 되살아난다는 사실도 안다. 게다가 페이(Fae)는 마법과 깊이 결속된 존재로, 지금까지 노움이 만난 어떤 종족보다도 마법성이 강하다.
+
+하지만 그게 전부는 아니다. 보가트(Boggart)와 스프리트 등 ‘야생 페이(Wild Fae)’라 불리는 생물도 있으며, 이들 역시 여름 페이(Summer Fae) 및 겨울 페이(Winter Fae)와 어떤 관계가 있다는 사실을 안다. 내가 이 서문을 쓰는 지금, 알라바스트라(Alabastra)에 새로운 페이(Fae) ‘부족’이 나타났다는 소문이 있다. 그들은 여름 페이(Summer Fae)나 겨울 페이(Winter Fae)가 지금껏 보여 준 것보다 훨씬 호전적이라고 한다.
+
+이 추가 사실들이라도 적어도 처음의 질문에는 어느 정도 답해 줄 수 있을 것이다. 페이(Fae)는 마법 생명체이며, 그 본질은 자연 전체만큼이나 변화무쌍하다. 데티어(Detyre)의 붉은 바위와 에라셀(Erathell) 평원의 초원이 하나의 땅을 이루듯, 서로 다른 여러 생명체도 우리가 통틀어 ‘페이(Fae)’라 부르는 하나의 집단에 속한다.
+
+생리학적으로는 여러 해 연구했는데도 페이(Fae)에 관해 알려진 것이 많지 않다. 페이(Fae)의 해부 구조는 우리와 어느 정도 닮았지만, 식물에 더 가까운지도 모른다. 바실리카가 결국 식물학자가 이 연구에 더 유용하다고 결론 내린 이유도 아마 그것일 것이다. 그런 해부학적 특징이 어떻게 결합했는지는 여전히 수수께끼다. 사실 페이(Fae)에 관한 거의 모든 것이 수수께끼지만, 마법이 그들의 신체 기능에 중요한 역할을 한다고 상상할 수밖에 없다.
+
+사회적으로 페이(Fae)는 종잡기 어렵다. 평범한 야수처럼 야생에서 홀로 살아갈 수도 있고, 복잡한 사회적 교류를 나눌 수도 있다. 달렌타스(Dalentarth)의 원시림에 페이(Fae)의 도시, 혹은 그와 비슷한 무언가가 숨겨져 있다는 소문이 끊이지 않지만, 실제로 본 사람은 거의 없다. 내가 확인할 수 있는 보고에 따르면 여름 페이(Summer Fae)에게는 여름 궁정이라는 권력 기관이 있으며, 대왕이 그곳을 다스리는 듯하다. 그러나 그들은 세금이나 공물을 내지 않고, 누구에게도 충성을 맹세하지 않으며, 전쟁에도 나서지 않는다. 그렇다면 이런 권력의 중앙집권은 무슨 목적으로 존재하는가? 다른 많은 것과 마찬가지로, 페이(Fae)에게 물어도 그저 존재하니까 존재하고 예전부터 늘 그랬다는 대답만 들을 것이다. 그런 제도가 정말 영원할 수 있을까? 실체도 없이 그런 칭호와 의식이 의미를 가질 수 있을까? 페이(Fae)는 실제로 사회를 이루기보다 사회를 이루는 흉내를 내며 노는 것에 가까워 보인다.
+
+확실히 말할 수 있는 것은 페이(Fae)가 다른 종족보다 훨씬 오래된 종족이라는 점이다. 연대를 확인할 수 있는 에라시(Erathi)와 페이(Fae)의 유적을 드물게나마 발견하면, 두 종족이 거의 같은 시기에 비롯되었다는 사실을 밝혀낼 수 있다. 증명하기는 어렵다. 페이(Fae)는 식물 재료로 건축하는 경향이 있는데, 식물은 썩기 마련이기 때문이다. 그래도 정황 증거만으로 페이(Fae)가 아말러(Amalur)에서 가장 오래된 생명체일 수 있다고 결론 내리기에는 충분하다. 하지만 그들의 역사가 어떻게 흘러왔는지 알아보려는 일은 나무에게 평생 무엇을 이루었는지 묻는 것만큼이나 보람이 없다. 페이(Fae)는 백 년을 살 수도 있지만, 한자리에 얼어붙은 듯 머무르기 때문이다. 물어보면 주변에서 일어난 사건을 불확실하게 답할지도 모른다. 사실 페이(Fae)에게 그 백 년은 일련의 반복, 시간의 시작부터 되풀이되어 시간의 끝까지 계속될 순환일 뿐이다.
+
+이 책에서 보이듯 페이(Fae)는 모든 일이 반복된다고 말한다. 경험적 증거는 그렇지 않음을 보여 주지만, 그들의 말에도 일리가 있다. 페이(Fae)에게는 아무것도 변하지 않기 때문이다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Introduction
+
+When I was initially approached by the Scholars of the Basilica to conduct a study of the creature commonly referred to in these lands as ""Fae,"" I was apprehensive. By what logic was I, an alchemical botanist, be charged with compiling a written record of the indigenous peoples of this land? Surely the Basilica's needs could better have been served by a cultural historian, an anatomist, or even a taxonomist. Little did I know that the insistence of the Basilica stemmed from the fact that, indeed, a representative from each of these disciplines had been previously assigned the task of assembling the tome you now hold in your hands. And, through no fault of their own, each of them failed in their own way.
+
+What is a Fae? If we cannot satisfy even this most base of questions, then the following pages can contribute nothing to the corpus of gnomish knowledge. We know that Fae are a sentient race that dwells in the forests Dalentarth, and those of Klurikon. We also know that they seem to be divided into two ""tribes,"" for lack of a better term, that are somehow aligned or otherwise attuned to the seasons of summer and winter. Though Fae appear in distinct genders, these are apparently superficial (perhaps, even elective) differences, and have no impact on their reproduction or social responsibility. We also know that the Fae are not mortal - they are subject to some form of reincarnation, returning to life at some point after they die. In addition, Fae are intensely magical beings, more so than any other race encounter thus far by the gnomes.
+
+But there is more. We also know that there are creatures referred to as ""wild Fae"" - boggarts, sprits and others - which are somehow also related to the Summer and Winter Fae. There are rumors that, at the time I am writing this introduction, that a new ""tribe"" of Fae has appeared in Alabastra, and are far more militant than either the Summer or Winter Fae have ever demonstrated themselves to be.
+
+If anything, these additional facts can answer our initial questions, at least in part. A Fae is a magical being, whose essence is as mutable as the whole of nature. Just as both the red rocks of Detyre and the steppes of the Plains of Erathell are both part of one land, so too are many different creatures part of the one collective that we refer to as ""Fae.""
+
+Physiologically, not much is known about the Fae, even after years of study. I do know that Fae anatomy, though it bears some semblance to our own, is perhaps more similar to that of a plant (which, I presume, is why the Basilica eventually concluded a botanist would be more useful to conduct such a study). How and why such anatomical features were combined remains a mystery (indeed, almost everything about the Fae remains a mystery), but I can only imagine that magic plays a strong role in their bodily functions.
+
+Socially, the Fae are bedeviling. They are as capable of living alone in the wild, no better than a common beast, as they are of complex social interaction. Rumors persist that the Fae have a city, or something like it, hidden in the primordial forests of Dalentarth, though few have ever seen it. From what reports I can verify, it seems that the Summer Fae have some authoritative body which goes by the name of the Court of Summer. This is apparently ruled over by a High King. But they pay no taxes or tithes, swear no fealties nor fight in wars. For what purpose, then, does this centralization of power exist? Like so many things, a Fae will only tell you that it exists because it does, and that it always has. Could such an institution really be so eternal? Could such titles and rituals really have meaning without substance? It seems more likely that the Fae are playing at having a society than actually having one.
+
+We can say with some certainty that the Fae are an old race, older than many others by far. In rare cases where we can find datable Erathi and Fae ruins, we can successfully establish that both originated around the same time. This can be difficult to prove, since Fae tend to construct with plant matter - which has a habit of decaying - but though the evidence is circumstantial, it is enough to conclude that the Fae are perhaps the oldest living things in Amalur. But seeking to learn about the course of that history is about as satisfying as interviewing a tree on the accomplishments of its life - for though a Fae might live a hundred years, it does so frozen in place. When asked, a Fae might answer with some uncertainty about the events that transpired. In truth, those hundred years are to a Fae a series of repetitions, of cycles that have repeated since time began and will repeat until time ends.
+
+As this book will show, a Fae will tell you that everything repeats. And though empirical evidence proves otherwise, they are partly right - for a Fae, nothing ever changes."	"序
+
+教会堂の学者たちに、この地で""フェイ""と呼ばれている生物の研究を打診されたとき、私はあまり乗り気ではなかった。錬金植物学者である私が、なぜこの地の先住民に関する本を書かなければならないのか？ 教会堂のそういう要求には文化史家や解剖学者、なんなら分類学者の方がより的確に応えられるはずだ。その時には知る由もなかったが、教会堂が私に白羽の矢を立てたのは、実のところ、これらの研究分野の大家と呼ばれる者たちは以前、君が今手にしている本の編纂を任されていたのだ。そして、彼らに落ち度はなかったが、できた本は失敗だった。
+
+フェイとは何者なのか？ この最も基本的な質問にすら満足に答える事ができないのなら、この先のページはノームがその知識を増強する上で何の貢献も果たさない。我々はフェイがダレンタースやクルリコンの森に暮らす知覚種族である事を知っている。また、彼らが2つの""部族""に分類される事も知っている。それらの部族が夏と冬という季節と結びつき、波長が一致する事も。フェイには明確な性的差異があるが、それらはあくまでも表面的な(ややもすると選択的な)差異であり、彼らの繁殖や社会的責任には何の影響も及ぼさない。また、フェイが定命ではない事も知っている。彼らは一種の転生を行い、一度死んでも、どこかの時点で復活するのだ。それに加えて、フェイは、ノームが過去に遭遇したどの種族よりも、魔法との結びつきが強固な種族である。
+
+それだけではない。我々はまた、""ワイルド・フェイ""と呼ばれる生物(ボガートやスピリットなど)が存在する事も知っている。これらの生物もまたサマー・フェイやウィンター・フェイと何らかの繋がりを持っている。私がこの序章の執筆中に聞いた噂によると、アラバストラに新たなフェイの""部族""が出現したらしい。彼らは夏と冬のフェイのいずれよりもはるかに好戦的なのだとか。
+
+どちらかと言うと、こうした追加的事実の方が、冒頭の質問に対して少なくとも部分的には答えてくれそうだ。フェイは魔法生物であり、その本質は全ての自然のように移ろいやすい。ちょうどデティアの赤い岩と、エラセル平原の大草原のいずれもがこの国の一部であるように、多くの異なる生物も、我々が総合的に""フェイ""と呼ぶ存在の一部なのだろう。
+
+フェイの精神性については、すでに長年研究されているが、詳しい事は殆ど分かっていない。フェイの身体構造は、部分的に我々と類似する点もあるが、どちらかと言うと草のそれに近い(おそらく、だからこそ教会堂はこのテーマの研究者に植物学者を押すべきだと結論付けたのだろう)。そうした解剖学的特徴がどう融合しているのかは未だに謎だ(というか、フェイに関しては大部分が謎なのだが)が、魔法が彼らの身体機能に重要な役割を果たしている事は想像に難くない。
+
+社会的には、フェイは人嫌いである。彼らは普通の獣のように、荒野で一人でも生きていく事ができる。それと同時に、複雑な社交性も持つ。噂によると、フェイはダレンタースの原始の森の中に隠された町や、それに近い存在を有しているらしい(それを実際に目にした者は殆どいないが)。信頼できる筋の報告に基づけば、サマー・フェイはサマー・フェイの宮殿と呼ばれる権力母体を有していて、この宮殿は至高王によって支配される。しかし、彼らが税金を払ったり、年貢を納めたりすることはない。忠誠を誓って戦争することも。では、この権力中枢は何のために存在するのか？ フェイに聞いたところで、いつものごとく、そこにあるから存在するのだとしか言わないだろう。昔からそこにあるのだと。だが、そういう体制がそこまで不変なことなどあり得るのだろうか？ そういう称号や儀式が、中身もなく意味を持つことなど可能なのか？ どうやらフェイは社会を実際に保有するというよりも、社会を保有して遊んでいると言った方が近いような気がする。
+
+我々がある程度の確信を持って言えるのは、フェイは他の誰よりも古い種族だということだ。ごく稀に、その年代が分かるエラシやフェイの遺跡が発見されることがあり、そうした場合には、どちらも同じ時代のものだと確定することができる。だが、それを証明するのは難しい。なぜならフェイは、建築物の資材にいずれ腐ってしまう植物を用いるからである。とはいえ、証拠は状況的ながら、フェイがアマラーで最古の生物だと結論づけるには十分だ。もっとも、フェイの歴史を学ぼうとすることは、森の木にその生涯の功績を尋ねるようなもので、満足のいく結果を得ることは難しい。なにしろフェイは100年生きるかもしれないが、殆どひとつの場所から動かない。質問したところで、身の周りで起きた出来事についてあいまいな答えが返ってくるだけだろう。事実、そうした数百年はフェイにとって一連の繰り返しでしかない。それは時の始まりから続く巡りであり、時が終わるまで繰り返されるのだ。
+
+本書が示すように、フェイは物事は繰り返すという事実を教えてくれる。そして、経験上、それに該当しないケースもあるとはいえ、彼らはある程度正しい。フェイにとっては、この世に変化するものなど何ひとつ存在しないのだ。"	"简介
+
+大教堂学者初次接触我，想要调查这片大陆上通常所指的“灵族”生物时，我有些不理解。我一个炼金植物学家，竟然要我负责编写这片大陆土著居民的文字记录，这是什么逻辑？文化历史学家，解剖学家，甚至分类学家都能更好地满足大教堂的需求才对。原来我不知道的是，大教堂一再坚持源自于这样一个事实，这些学科的代表人物之前都被派来收集你现在手中拿着的这本巨著。他们自己的做法没有错误，只不过每一个人都失败了而已。
+
+什么是灵族？如果这样一个基本的问题都无法给出满意的答案，那么接下来的内容对侏儒知识文库就没有任何贡献。我们知道灵族是有知觉的种族，聚居在达伦塔斯和克琉孔的森林。我们也知道他们似乎分成了两个“部落”，也没有更好的术语来描述了，这两个部落不知怎得，和夏冬两个季节要么对齐要么调和。虽然灵族性别差异明显，但这都是十分表面或许甚至是可选的差异，对他们的繁殖或社会分工没有影响。我们还知道灵族是不死的，他们受到某种形式的轮回，死后在某种程度上会再次复活。此外，灵族都是强大的魔法生物，比侏儒目前遇到的任何种族都更强大。
+
+而且不仅如此。我们还知道有种生物叫“野生灵族”，比如博格特，妖精以及其他，他们不知怎得也和夏灵冬灵有关系。有谣传称，我在写这篇简介时，一支灵族新“部落”出现在了阿拉巴斯特拉，比夏灵和冬灵他们自己所展现的还要好斗得多。
+
+不管怎样，这些补充事实能够回答我们最开始的问题，至少也能回答一部分。灵族是魔法生物，其精粹与整个自然一样反复无常。就像迪特里的红岩和伊拉塞尔平原的草原都是大陆的一部分，很多不同类型的生物也是我们所指的“灵族”这个集体的一部分。
+
+生理方面对灵族的了解并不多，即便已经研究了多年。但我知道灵族解剖下来，虽然和我们自己有很多相似之处，其实与植物更加相似（我猜，这就是为什么大教堂最终得出结论，植物学家进行这样的研究会更加有用）。这些解剖特征是怎么结合的，为什么可以结合依旧是一个谜（确实，灵族的一切基本上都是谜），不过我只能想象，魔法在他们的身体机能中起了强大的作用。
+
+在社交方面，灵族让人很恼火。他们可以独自在野外生活，和普通的野兽差不多，同时也有复杂的社会互动。谣传坚持说灵族有一座城市，或者类似的东西，藏在达伦塔斯的原始森林中，然而从未有人见过。从报告中我可以证实，好像夏灵拥有某种权威主体名叫夏廷。很明显是受一位至高王统治。不过他们不用交税，没有什一税，不用效忠也不用参战。那存在这种集中权力是为了什么呢？灵族只会告诉你，和许多东西一样，它就是存在，一直都在那里。这样的机构真的能像这样永远存在吗？这样的头衔和仪式真的能够拥有物质之外的意义吗？好像灵族假装有个社会而不是真的有个社会更有可能。
+
+我们可以肯定地说灵族是一个古老的种族，比现在的许多种族都要古老。一些罕见的案例中，我们可以找到年代确定的埃拉西遗迹和灵族遗迹，可以成功立论两者起源于同一时期。这很难证明，因为灵族倾向于使用植物建材，这种材料总会腐烂，不过虽然证据靠情况推断，也足以得出结论，灵族或许是阿玛拉最古老的生物。想要了解这段历史就像询问一棵树它一生的成就一样不尽人意，即便灵族能活一百年，他所做的一切都留在原地。当被问起时，灵族可能会含混地回答已经证实的事件。事实上，灵族的几百年就是一系列的重复，自时间开始这种循坏就开始重复，而且会重复到时间结束。
+
+这本书会你展示，就像灵族说的，一切都在重复。即便实验证据证明并非如此，其中部分也是对的，对灵族来说，从未有过任何变化。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18091"	""	"place:erathell"	"not-an-issue"	"에라셀 투기장(Erathell Arena)"	"에라셀 투기장(Erathell Arena)"	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Erathell Arena"	"エラセル闘技場"	"伊拉塞尔竞技场"	"{""place:erathell"":""not-an-issue""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18471"	""	"place:erathell"	"not-an-issue"	"위대한 순환(Great Cycle)은 아말러(Amalur)에 강력한 마법을 가져왔다.
+비전의 장막(Arcane Veil)은 이사(Ysa) 왕의 통치를 낳았고, 만물이 균형을 이룬 끝에 그 통치의 파멸 또한 낳았다.
+계절이 지나 여름이 시들어 가을이 되자, 오언(Ohn) 경은 힘을 키웠다.
+정오의 그늘이 옅어지듯 이사 왕의 영향력도 약해졌다.
+패란즈(Faelands)는 움트기를 멈추었고, 나른함의 안개가 숲을 침묵시켰다.
+겨울 달이 이지러지자, 모든 것이 시작됐다. 어두워진 에라셀(Erathell) 평원에 무시무시한 천둥이 굴러갔다."	"위대한 순환(Great Cycle)은 아말러(Amalur)에 강력한 마법을 가져왔다.
+비전의 장막(Arcane Veil)은 이사(Ysa) 왕의 통치를 낳았고, 만물이 균형을 이룬 끝에 그 통치의 파멸 또한 낳았다.
+계절이 지나 여름이 시들어 가을이 되자, 오언(Ohn) 경은 힘을 키웠다.
+정오의 그늘이 옅어지듯 이사 왕의 영향력도 약해졌다.
+패란즈(Faelands)는 움트기를 멈추었고, 나른함의 안개가 숲을 침묵시켰다.
+겨울 달이 이지러지자, 모든 것이 시작됐다. 어두워진 에라셀(Erathell) 평원에 무시무시한 천둥이 굴러갔다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The Great Cycle brought powerful magic to Amalur.
+The Arcane Veil begat King Ysa's reign, and, all things in balance, also its destruction.
+The seasons passed, the summer wilted into autumn and Lord Ohn culled his strength.
+King Ysa's sway receded as does the shade at noon.
+The Faelands rested from their sprouting, and a haze of indolence silenced the woods.
+When the winter moon waned, it began. A terrible thunder rolled across the darkened Plains of Erathell."	"""大円環""はアマラーに強大な魔力をもたらした。
+霊力のベールがイーサ王の支配を引き起こし、破壊を含めた全てが均衡を保った。
+季節が過ぎ、夏が弱って秋になると、オーン卿は力を手にした。
+昼間の影と同じように、イーサ王の支配は弱まった。
+フェイランドは成長を止め、怠惰の霧が森を沈黙させた。
+冬の月が薄れた時、それは始まった。暗くなったエラセル平原にひどい雷が響き渡った"	"伟大轮回为阿玛拉带来了强大的魔法。
+奥术帷幕导致了伊萨王的统治，以及所有事物的平衡，也导致了它的毁灭。
+四季轮替，夏天渐渐变成了秋天，欧恩的力量削弱了。
+伊萨王的统治就像正午的阴影一样消失了。
+灵族大陆停止了发芽，懒散的阴霾笼罩了树林。
+当冬天的月亮消失的时候，它就开始了。可怕的雷声响彻黑暗的伊拉塞尔平原。"	"{""place:erathell"":""not-an-issue""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18499"	""	"place:erathell"	"not-an-issue"	"나는 에라셀(Erathell) 평원에 있는 트래블러(Traveler)의 거점, 달 야영지(Moon Camp)로 파견되었다. 그곳에서 대사제(Hierophant)는 나에게 라시르(Rathir)에서 유물 몇 점을 훔치라고 했다. 대사제가 부탁한 물건을 전부 훔쳤고, 야영지의 지도자 이리온(Irion)이 소원해진 아내 마에르(Maire)와 재회하도록 도왔다."	"나는 에라셀(Erathell) 평원에 있는 트래블러(Traveler)의 거점, 달 야영지(Moon Camp)로 파견되었다. 그곳에서 대사제(Hierophant)는 나에게 라시르(Rathir)에서 유물 몇 점을 훔치라고 했다. 대사제가 부탁한 물건을 전부 훔쳤고, 야영지의 지도자 이리온(Irion)이 소원해진 아내 마에르(Maire)와 재회하도록 도왔다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"I was sent to Moon Camp, the Traveler's base in the Plains of Erathell. There, I was asked to steal a number of artifacts from the city of Rathir by the Hierophant. I've stolen all the items that the Hierophant asked me to steal, and reunited the camp's leader, Irion, with his estranged wife, Maire."	"トラベラーズのエラセル平原の基地、""月のキャンプ""へ送られた。そこで祈祷師にラシーアから幾つかのアーティファクトを盗むよう頼まれた。全てのアイテムを盗み、キャンプのリーダーのイリオンと疎遠になっていた妻のマイアを再会させられた。"	"我被派去月亮营地——伊拉塞尔平原上的旅行者大本营。在那里，大祭司让我从拉瑟里城偷一些神器。我偷到了大祭司让我偷的所有物品，还成功地让营地首领艾利安与分离的妻子麦内重聚。"	"{""place:erathell"":""not-an-issue""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18775"	""	"place:erathell"	"accepted"	"그는 에라텔 평원의 위대한 연금술사였어. 꽤 괴짜였지만 천재였지. 에메어(Emaire)에 사는 그의 딸들도 그를 닮았고... 사람들은 내가 이상하다고 생각하더라."	"그는 에라셀(Erathell) 평원의 위대한 연금술사였어. 꽤 괴짜였지만 천재였지. 에메어(Emaire)에 사는 그의 딸들도 그를 닮았고... 사람들은 내가 이상하다고 생각하더라."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"He was the great alchemist of the Plains of Erathell. Quite eccentric, but brilliant. His daughters in Emaire took after him... and people think I'm weird."	"エラセル平原の偉大な錬金術師だった。変人だけど、すごく優秀だった。エマイアにいる娘も彼に似て... 皆、私のことも変だと思ってるみたい"	"他是伊拉塞尔平原的伟大炼金术士。很古怪，但很聪明。他在伊梅尔的女儿们都很像他……而人们还觉得我这人很奇怪。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"19703"	""	"place:erathell"	"accepted"	"돌 하나하나가 노래 속 목소리야. 모든 돌이 제 몫을 노래하면 에라셀이 나타날 거야. 그러지 못하면 이 암울한 시대에 걸맞은 어둠의 존재들이 대신 나타나겠지."	"돌 하나하나가 노래 속 목소리야. 모든 돌이 제 몫을 노래하면 에라셀(Erathell)이 나타날 거야. 그러지 못하면 이 암울한 시대에 걸맞은 어둠의 존재들이 대신 나타나겠지."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Each stone is a voice in the song. When all have sung in their part, the Erathell will appear ‒ but if not, dark things for these dark times will show instead."	"それぞれの石が詩を奏でます。すべての石が歌えば、エラセルは現れる。でなければ、暗い時代の暗き存在が現れるでしょう"	"每块石头都是歌中的一缕声音。等它们全都唱过自己的段落，伊拉塞尔就会降临——如果没有，就会出现这黑暗年月更黑暗的事物。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"19836"	""	"place:erathell"	"accepted"	"비문에는 ‘위대한 목소리들이 노래를 시작할 때’ 문이 열린다고 적혀 있어. 에라셀 곳곳에 흩어진 바람돌을 뜻하는 것 같아."	"비문에는 ‘위대한 목소리들이 노래를 시작할 때’ 문이 열린다고 적혀 있어. 에라셀(Erathell) 곳곳에 흩어진 바람돌을 뜻하는 것 같아."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The inscription says the gate will open ""When the great voices rise in song."" I think this means the Windstones that are spread across Erathell."	"碑文によると、門は""偉大な声が歌となれば""開くらしいの。これはエラセル各地に点在する風音石のことを指しているのだと思うわ"	"碑文说，“当伟大的声音响起时”，大门就会打开。我想这指的是四散在伊拉塞尔的风石。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20629"	""	"place:erathell"	"not-an-issue"	"셰이퍼(Shaper)는 대리석 폐허의 전원에 자신의 음악을 남겼네.
+평원은 부드러운 풀을 싹틔웠지.
+생기 없는 개울은 푸른 언덕 사이를 굽이돌며 속삭이고, 바람 맞는 절벽으로 향하는 온화한 여정을 노래했네.
+그렇게 에라셀(Erathell)의 교향곡이 시작되었지."	"셰이퍼(Shaper)는 대리석 폐허의 전원에 자신의 음악을 남겼네.
+평원은 부드러운 풀을 싹틔웠지.
+생기 없는 개울은 푸른 언덕 사이를 굽이돌며 속삭이고, 바람 맞는 절벽으로 향하는 온화한 여정을 노래했네.
+그렇게 에라셀(Erathell)의 교향곡이 시작되었지."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The Shaper bequeathed her music to the countryside of marbled ruin.
+The plains birthed the gentle grass.
+Listless streams meandered through the verdant hills and babbled of their gentle travel to the face of the windswept cliffs.
+Thus the symphony of Erathell began."	"""形作る者""は音楽を大理石の遺跡の地方に残した。
+平原には柔らかな草が生えた。
+物憂げな小川が、緑に覆われた丘の間を曲がりくねって進み、さらさらと音を立てながら風の当たる崖へ穏やかに進んだ。
+こうしてエラセルのシンフォニーが始まった"	"塑造者把她的音乐遗赠给大理石废墟的乡村。
+平原孕育出温柔的小草。
+倦怠的溪流蜿蜒穿过青翠的小山，潺潺细语地向风吹过的悬崖流去。
+于是，伊拉塞尔的交响曲开始了。"	"{""place:erathell"":""not-an-issue""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21451"	""	"place:erathell"	"accepted"	"페이(Fae)들을 에라셀 평원에서 몰아냈다고 전쟁에서 이긴 건 아니다! 지금도 우리 아들딸들이 클루리콘(Klurikon)의 어둠 속에서 몸을 웅크리고 있다. 겨울 땅은 춥고, 사랑스러운 아이들에게 양말과 담요, 새 검, 고급 과자가 필요하다.
+
+할 수 있는 만큼 보태서 이런 물건과 그 밖의 필수품을 전선으로 보내라. 갈대노래 여관의 메이라에게 기부하거나 성소의 상자에 직접 넣으면 된다."	"페이(Fae)들을 에라셀(Erathell) 평원에서 몰아냈다고 전쟁에서 이긴 건 아니다! 지금도 우리 아들딸들이 클루리콘(Klurikon)의 어둠 속에서 몸을 웅크리고 있다. 겨울 땅은 춥고, 사랑스러운 아이들에게 양말과 담요, 새 검, 고급 과자가 필요하다.
+
+할 수 있는 만큼 보태서 이런 물건과 그 밖의 필수품을 전선으로 보내라. 갈대노래 여관의 메이라에게 기부하거나 성소의 상자에 직접 넣으면 된다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Though Fae have been driven from the Plains of Erathell, do not think the war is won! Even now, we have sons and daughters huddling in the gloom of Klurikon. There, in the Winter Lands, it is cold, and our darling children need socks, blankets, new swords, and fine confections.
+
+Give what you can to send all these things and other Necessaries to the Front. Collections are taken by Meyra at the Reedsong Inn, or directly at the box in the Sanctuary."	"エラセル平原からフェイを追放したとは言え、戦争に勝ったと思うのは早計です。今でも、我々の息子や娘たちはクルリコンの闇の中で身を寄せ合っています。ウィンター・フェイの王国はあまりに寒く、我らの愛しい子らには靴下や毛布、新しい剣、それに甘いお菓子が必要です。
+
+できる限りでかまいません。上記のものや、その他の必需品を前線へ送りましょう。寄付は葦歌の宿のメイラに渡すか、直接聖域の箱に入れてください。"	"虽然灵族已被赶出伊拉塞尔平原，但不要认为我们已经赢得了战争的胜利！即使是现在，在克琉孔的黑暗中，我们的孩子们挤作一团。在那儿，在冬季大陆上，天气很冷，我们亲爱的孩子们需要袜子、毯子、新的剑和精致的糖果。
+
+尽你所能把这些东西和其他必需品送到前线去。梅拉会在芦歌旅馆或直接在圣所的箱子里收取收集品。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21865"	""	"place:erathell|faction:children-of-erathell"	"accepted"	"에라셀의 자손 의복"	"에라셀의 자손(Children of Erathell) 의복"	"The exact source name is the Children of Erathell cult, not the place itself; exclude this key from place:erathell. English identifies the extinct cult; Japanese and Chinese aligned text corroborate. Standardize its Korean name to 에라셀의 자손(Children of Erathell) without changing the associated item or dialogue."	"Children of Erathell Raiment"	"""エラセルの末裔たち""の服"	"伊拉塞尔·莱门特之子"	"{""place:erathell"":""excluded"",""faction:children-of-erathell"":""accepted""}"	"{""place:erathell"":""needs-context"",""faction:children-of-erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context."",""faction:children-of-erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"22343"	""	"place:erathell"	"accepted"	"그리하여 폭군 여왕 시다누스(Sydanus)가 에라셀(Erathell)의 들판을 허벅지 높이까지 피로 물들인 투쟁의 시대에, 뜻밖의 세 영혼이 어둠에서 빠져나올 길을 찾았다.
+
+첫 번째는 엘로단 블러드굿(Elodan Bloodgood)이라는 남자였다. 바라니(Varani) 출신의 석공인 그는 돌에 관한 지식을 찾아 먼 북쪽에서 에라셀로 왔다. 시다누스의 이름으로 신전을 지으라는 명령을 거부한 그는 감옥에 던져졌다.
+
+두 번째는 마루스 토릭스(Marus Torix)라는 노움이었다. 재능 있는 영지학자로, 오래전에 도서관의 안락하고 안전한 삶을 떠나 직접 세상을 보고 배우러 여행길에 올랐다. 시다누스와 그 정권을 무조건 숭배하라는 교리와 다른 가르침을 전했다는 이유로 그 역시 감옥에 갇혔다.
+
+세 번째는 라시르(Rathir)의 지하 감옥 깊은 곳에서 태어난 알파르(Alfar) 소녀 엘리너 브레아(Eleanor Brea)였다. 그녀는 유일한 집이었던 어둠에 눈이 먼 채 어른으로 자랐다.
+
+엠피리언(Empyrean)의 감옥 깊은 어둠 속에서 엘리너 브레아가 성인이 되었을 때, 원소 마법의 재능이 그녀에게 깃들었다. 분노에 휩싸인 소녀는 지하 감옥을 불태워 버렸다.
+
+토릭스와 블러드굿 두 스승의 지도를 받으며 그녀는 자신의 재능을 다루는 법을 배웠고, 셋은 함께 폭군 여왕에게 감히 맞섰다.
+
+배우고자 하는 이라면 누구에게나 가르침을 주는 새로운 스승과 마법사, 장인들의 무리가 생겼다는 소문은 빠르게 퍼졌다. 시간이 흐르자 엠피리언의 권력에 맞설 용기를 낸 이들이 더해졌고, 세 명의 저항으로 시작한 무리는 곧 열 명, 백 명, 천 명으로 늘어났다.
+
+끔찍한 마법 전쟁이 벌어졌다. 수천 명이 죽고 도시 전체가 세상에서 지워졌으며, 양측이 승리를 얻으려 필사적으로 수단을 만들어 내는 동안 헤아릴 수 없는 공포가 태어났다.
+
+엠피리언은 어떤 수단을 써서라도 적을 파괴하려 했다. 아무리 큰 희생도, 아무리 끔찍한 만행도 마다하지 않았다. 가장 어둡고 사악한 술법을 좇았으며, 백성이 치른 대가는 누구의 기억에도 견줄 것이 없었다.
+
+하지만 세 사람의 빛은 꺼지지 않았다. 블러드굿 스승의 힘과 지혜, 기술은 희망의 형태와 토대를 세웠다. 토릭스 스승의 총명함과 지식, 통찰은 속박의 사슬을 풀었다. 브레아 여사의 열정과 정신, 분노는 자유로 가는 길을 밝혔다.
+
+혼자서는 누구도 해낼 수 없던 일을 세 사람은 함께 이루었다. 자유를 얻은 지 7년 뒤, 그들은 라시르(Rathir) 첨탑의 높은 곳에서 시다누스와 싸웠고 암흑 엠피리언은 감금되었다. 파괴하기엔 너무 강했던 그녀는 훗날 스콜리아 아르카나(Scholia Arcana)가 세워질 터 아래에 가두어졌고, 세 창립자가 만든 신비한 문양과 룬으로 봉인되었다. 그녀는 이곳에 계속 갇혀 있을 것이며, 대현자여, 그대는 그녀의 감옥을 지키는 유일한 파수꾼이다. 학회는 암흑 엠피리언의 지배가 되돌아오지 않도록 최고의 지식에 도달하기 위해 세워졌다. 이 지혜를 지키고, 합당한 후계자를 찾아라.
+
+서로 다른 길이 우리를 노예의 사슬로 이끌었다. 하지만 바로 그곳에서 서로에게서 힘을 얻었고, 함께 자유를 찾았다. 그렇게 스콜리아 아르카나(Scholia Arcana)가 탄생했다."	"그리하여 폭군 여왕 시다누스(Sydanus)가 에라셀(Erathell)의 들판을 허벅지 높이까지 피로 물들인 투쟁의 시대에, 뜻밖의 세 영혼이 어둠에서 빠져나올 길을 찾았다.
+
+첫 번째는 엘로단 블러드굿(Elodan Bloodgood)이라는 남자였다. 바라니(Varani) 출신의 석공인 그는 돌에 관한 지식을 찾아 먼 북쪽에서 에라셀(Erathell)로 왔다. 시다누스의 이름으로 신전을 지으라는 명령을 거부한 그는 감옥에 던져졌다.
+
+두 번째는 마루스 토릭스(Marus Torix)라는 노움이었다. 재능 있는 영지학자로, 오래전에 도서관의 안락하고 안전한 삶을 떠나 직접 세상을 보고 배우러 여행길에 올랐다. 시다누스와 그 정권을 무조건 숭배하라는 교리와 다른 가르침을 전했다는 이유로 그 역시 감옥에 갇혔다.
+
+세 번째는 라시르(Rathir)의 지하 감옥 깊은 곳에서 태어난 알파르(Alfar) 소녀 엘리너 브레아(Eleanor Brea)였다. 그녀는 유일한 집이었던 어둠에 눈이 먼 채 어른으로 자랐다.
+
+엠피리언(Empyrean)의 감옥 깊은 어둠 속에서 엘리너 브레아가 성인이 되었을 때, 원소 마법의 재능이 그녀에게 깃들었다. 분노에 휩싸인 소녀는 지하 감옥을 불태워 버렸다.
+
+토릭스와 블러드굿 두 스승의 지도를 받으며 그녀는 자신의 재능을 다루는 법을 배웠고, 셋은 함께 폭군 여왕에게 감히 맞섰다.
+
+배우고자 하는 이라면 누구에게나 가르침을 주는 새로운 스승과 마법사, 장인들의 무리가 생겼다는 소문은 빠르게 퍼졌다. 시간이 흐르자 엠피리언의 권력에 맞설 용기를 낸 이들이 더해졌고, 세 명의 저항으로 시작한 무리는 곧 열 명, 백 명, 천 명으로 늘어났다.
+
+끔찍한 마법 전쟁이 벌어졌다. 수천 명이 죽고 도시 전체가 세상에서 지워졌으며, 양측이 승리를 얻으려 필사적으로 수단을 만들어 내는 동안 헤아릴 수 없는 공포가 태어났다.
+
+엠피리언은 어떤 수단을 써서라도 적을 파괴하려 했다. 아무리 큰 희생도, 아무리 끔찍한 만행도 마다하지 않았다. 가장 어둡고 사악한 술법을 좇았으며, 백성이 치른 대가는 누구의 기억에도 견줄 것이 없었다.
+
+하지만 세 사람의 빛은 꺼지지 않았다. 블러드굿 스승의 힘과 지혜, 기술은 희망의 형태와 토대를 세웠다. 토릭스 스승의 총명함과 지식, 통찰은 속박의 사슬을 풀었다. 브레아 여사의 열정과 정신, 분노는 자유로 가는 길을 밝혔다.
+
+혼자서는 누구도 해낼 수 없던 일을 세 사람은 함께 이루었다. 자유를 얻은 지 7년 뒤, 그들은 라시르(Rathir) 첨탑의 높은 곳에서 시다누스와 싸웠고 암흑 엠피리언은 감금되었다. 파괴하기엔 너무 강했던 그녀는 훗날 스콜리아 아르카나(Scholia Arcana)가 세워질 터 아래에 가두어졌고, 세 창립자가 만든 신비한 문양과 룬으로 봉인되었다. 그녀는 이곳에 계속 갇혀 있을 것이며, 대현자여, 그대는 그녀의 감옥을 지키는 유일한 파수꾼이다. 학회는 암흑 엠피리언의 지배가 되돌아오지 않도록 최고의 지식에 도달하기 위해 세워졌다. 이 지혜를 지키고, 합당한 후계자를 찾아라.
+
+서로 다른 길이 우리를 노예의 사슬로 이끌었다. 하지만 바로 그곳에서 서로에게서 힘을 얻었고, 함께 자유를 찾았다. 그렇게 스콜리아 아르카나(Scholia Arcana)가 탄생했다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"And so it came to pass that in the years of strife, when the tyrant Queen Sydanus had sown the fields of Erathell thigh deep with blood, three unlikely souls found the way out of the dark.
+
+The first was a man named Elodan Bloodgood. A Varani shaper, he came to Erathell from far to the north, searching the world for the knowledge of stone. After refusing to build a temple in Sydanus’ name, he was cast into prison.
+
+The second was a Gnome named Marus Torix. A gifted gnosticant, he had long ago left the safety and comfort of his libraries to travel the world, to learn of things with his own eyes. For teaching a doctrine different from the unquestioning worship of Sydanus and her regime, he, too, was cast into prison.
+
+The third was born deep within the dungeons of Rathir, a young Alfar girl named Eleanor Brea who grew to maturity blinded by the darkness that was her only home.
+
+Upon Eleanor Brea’s ascendance to adulthood deep within the dark of the Empyrean’s prisons, the gifts of elemental magics came to her. In fury, the girl burned the dungeon to the ground.
+
+Guided by Masters Torix and Bloodgood, she learned to wield her gift and, together, the three of them dared to fight against the tyrant queen.
+
+Word spread quickly of a new group of masters, mages, and artisans who would teach any willing to learn. In time, others courageous enough to challenge the Empyrean’s might came forward, and what had started with a resistance of three quickly became ten, then a hundred, then a thousand.
+
+Terrible battles of magic were waged. Thousands perished; entire cities were scoured from the face of the world, and untold horrors were birthed as each side tried desperately to craft the means of their victory.
+
+The Empyrean sought the destruction of their enemies by any method - no sacrifice was too great, no atrocity too horrid. The darkest and the foulest of arts were pursued, and the cost to the populace was unrivaled by that of anyone’s memory.
+
+But the light of the three refused to be extinguished. The strength of Master Bloodgood, his wisdom and his skill, set the form and foundation of their hope. The brilliance of Master Torix, his knowledge and his insight, unlocked the chains of their bondage. And the passion of Mistress Brea, her spirit and her fury, lit the way to freedom.
+
+What none could do alone, these three achieved together. Seven years after earning their freedom, high upon the heights of the spire of Rathir, they battled Sydanus, and the Dark Empyrean was imprisoned. Too powerful to be destroyed, she was contained beneath what would become the grounds of the Scholia Arcana, sealed away by the arcane glyphs and runes of our three founders. Here she will remain and you, Archsage, are the only sentinel of her prison. For on this foundation was the order built: to reach the greatest extents of knowledge, lest the reign of the Dark Empyrean returns again. Guard this wisdom, and find a worthy successor.
+
+Different paths had led each into the chains of slavery. But it was there that each found strength from the other, and together, found their freedom. And so it was that the Scholia Arcana came to be."	"そうして、天帝シダナスがエラセル平原を膝が浸かるほどの血の海に変えた闘争の数年間に、3つの有難き魂が暗闇を抜ける道を見つけた。
+
+最初の魂はエローダン・ブラッドグッド。はるか北の地からエラセルへやって来たヴラニの建築家で、石について学ぶために世界をめぐっていた。シダナス名義で寺院を建てることを拒んだ彼は、投獄の憂き目にあった。
+
+2つ目の魂はマルス・トリクスという名のノーム。才能ある知識人で、快適で安全な図書館にはとうの昔に見切りをつけて、その目で物事を学ぶために世界行脚の旅に出た。シダナスとその体制の絶対的崇拝とは異なる教義を教えたため、彼も投獄された。
+
+3つ目の魂はラシーアの地下迷宮の奥で生まれた、エレノア・ブレアという名の若きアルファー。彼女は唯一の故郷である暗闇に光を奪われたまま成長した。
+
+天帝の牢獄の暗闇の中で大人になったその日、エレノア・ブレアに属性魔法の才能が舞い下りた。彼女は地下迷宮を焼き払った。
+
+トリクスとブラッドグッドという2人の賢人の下、彼女は自らの才能の扱い方を学んだ。そして、3人は大胆にも、天帝に戦いを挑んだ。
+
+望む者には分け隔てなく知識を授けるという賢人、魔導師、芸術家たちから成る新しいグループの噂はたちまち広まった。やがて、彼らの他にも天帝の支配に挑む勇者が歩み出て、3人の抵抗から始まったものはすぐに10人になり、100人になり、1000人になった。
+
+恐ろしい魔法戦争が幕を開けた。数千人が死に、いくつもの街が丸ごとこの世から消滅した。両者が死に物狂いで勝つための手段を編み出そうとするたび、未知の恐怖が産声を上げた。
+
+天帝はあらゆる手を使って敵を滅ぼそうとした。犠牲はすべからく軽んじられ、どんな残虐行為も許された。この世でもっとも邪悪でおぞましい秘術が追究され、庶民は誰の記憶にもないほど甚大な代償を払わされた。
+
+しかし、3つの灯りが消えることはなかった。ブラッドグッドの力、知恵、技術は皆の希望の礎となった。聡明なるトリクスはその知識と洞察力によって、皆を束縛する鎖を断ち切った。そしてブレアはその情熱と魂と怒りによって、自由への道を照らした。
+
+1人では不可能な事を、この3人は力を合わせて成し遂げた。自由を得てからの7年間、彼らはラシーアの尖塔の高みからシダナスと戦い、天帝を幽閉せしめた。滅ぼせないほど強大な力を持つシダナスは、のちにアルカナ大学が建設される場所の地下に閉じ込められ、3人の創設者が作った謎めいた印とルーンによって封印された。彼女はこれからもそこに居続ける。そして、大賢者たるそなたは彼女の牢獄の唯一の番人。アルカナが造られし基盤を守るため、際限なき知識を追い求めよ。天帝の復活を許してはならぬ。この知識を守り抜き、価値ある後継者を見つけよ。
+
+異なる道が3人を奴隷の鎖へと至らしめた。しかし、そこで彼らは互いに学び合い、共に自由を見つけた。そして、それこそがアルカナ大学の精神なのである。"	"于是，在战乱的年代，在女暴君赛达纳斯让伊拉塞尔大地上鲜血深至大腿的时候，三个出人意料的人走出了黑暗。
+
+第一个是一个叫厄洛丹·布拉德古德的男人。一位瓦拉尼塑造者，他从遥远的北方来到伊拉塞尔，在世界各地寻找关于石头的知识。他拒绝为赛达纳斯建造神庙，于是被关进了监狱。
+
+第二个是一个叫马鲁斯·托里克斯的侏儒。一个有天赋的真知信徒，他离开了安全舒适的藏书室去周游世界，用自己的眼睛去了解事物。由于他的教义不同于对赛达纳斯和她的政权不容置疑的绝对崇拜，他也被关进了监狱。
+
+第三个出生在拉瑟里的地牢深处，是一个名叫埃莉诺·布雷亚的精灵小女孩，她在成长过程中错误地以为黑暗才是自己唯一的家。
+
+埃莉诺·布雷亚在最高天监狱的黑暗深处长大成人后，自然魔法的天赋降临到她的身上。女孩愤怒地把地牢烧为平地。
+
+在托里克斯大师和布拉德古德大师的指导下，她学会了运用自己的天赋，他们三个人一起勇敢地对抗女暴君。
+
+出现了一群新的大师、法师和工匠，而且他们愿意教任何愿意学习的人，这个消息很快就传开了。随着时间的流逝，其他有胆敢挑战最高天力量的人也出现了，开始时只有三个人的抵抗组织很快就变成了十个人，然后是一百个，然后是一千个。
+
+可怕的魔法战争开始了。成千上万人死去；整座城市从世界的表面上被抹掉，在双方都不顾一切地试图制造胜利的手段时，数不清的恐怖就这样诞生了。
+
+最高天想尽一切办法毁灭他们的敌人——再大的牺牲、再恐怖的暴行都可以。他们追求最黑暗、最卑鄙的技艺，人民付出的代价前所未见。
+
+但是那三个人的光芒并没有熄灭。布拉德古德大师的力量，他的智慧和技巧，奠定了他们希望的形式和基础。托里克斯大师的智慧，他的知识和洞察力，解开了他们的枷锁。布雷亚女士的热情，她的精神和愤怒，照亮了通向自由的道路。
+
+这三个人共同完成了没人能够独自完成的任务。在赢得自由的七年之后，他们在拉瑟里尖塔上与赛达纳斯作战，黑暗最高天被囚禁了。她过于强大而不能被消灭，她被限制在后来成为奥术学院地基的地下，被我们的三位创始人的奥术符号和符文封印着。她将继续留在这里，而你，大贤者，是她的监狱里唯一的哨兵。在这片地基上建立起了秩序：最大范围地获取知识，以免黑暗最高天的统治卷土重来。你要守护这智慧，找到能胜任的继承人。
+
+不同的道路把每个人都带进了奴役的锁链。但正是在那里，他们从彼此身上获得了力量，一起获得了自由。奥术学院由此而生。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"23884"	""	"place:erathell"	"not-an-issue"	"칸드리안 요새(Kandrian Keep)의 영주들은 여러 세대에 걸쳐 에라셀 평원(Plains of Erathell)의 여러 지역을 다스려 왔어."	"칸드리안 요새(Kandrian Keep)의 영주들은 여러 세대에 걸쳐 에라셀 평원(Plains of Erathell)의 여러 지역을 다스려 왔어."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"For generations the lords of Kandrian Keep have ruled over various parts of the Plains of Erathell."	"カンドリアン砦の主は、何代にも渡ってエラセル平原の様々な地域を支配してきた"	"坎德利安要塞的领主世代统治着伊拉塞尔平原的各个地区。"	"{""place:erathell"":""not-an-issue""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24083"	""	"place:erathell"	"not-an-issue"	"마지막으로 들은 바로는 틸레라 장군(General Tilera)이 전세를 뒤집을 방법을 찾아 북부 에라셀(Erathell) 어딘가에 있다고 했어. 우룰 터스크(Urul-Tusk)에 분대를 데려간 것 같아."	"마지막으로 들은 바로는 틸레라 장군(General Tilera)이 전세를 뒤집을 방법을 찾아 북부 에라셀(Erathell) 어딘가에 있다고 했어. 우룰 터스크(Urul-Tusk)에 분대를 데려간 것 같아."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Last I heard, General Tilera was somewhere in northern Erathell, searching for a way to turn the tide of the war. I think she took a squad to Urul-Tusk."	"部隊を連れてウル・タスクに向かったらしいわ。戦争の流れを変えるものを探しているはずよ"	"我听说提勒拉将军在伊拉塞尔北部的某个地方，她在寻找扭转战局的方法。我想她带了一支小队去乌鲁尔图斯克了。"	"{""place:erathell"":""not-an-issue""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"25040"	""	"place:erathell"	"accepted"	"나는 스코리아 광산의 선임 작업반장이야. 예전엔 에라셀의 동굴에서 일했지만, 사촌 아싸드(Athad)가 나를 모투스 광업(Motus Mining)으로 영입했지. 결과가 참 좋기도 하군."	"나는 스코리아 광산의 선임 작업반장이야. 예전엔 에라셀(Erathell)의 동굴에서 일했지만, 사촌 아싸드(Athad)가 나를 모투스 광업(Motus Mining)으로 영입했지. 결과가 참 좋기도 하군."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"I'm the elder foreman of Skoria Mine. I used to work the caves of Erathell; but my cousin Athad recruited me for Motus Mining. Look how well that turned out."	"俺はスコーリア鉱山の作業長だ。エラセルにある洞窟で働いてたが、従兄弟のアサードがモータス・マイニング社の仕事を紹介してくれた。こっちに来て正解だったよ"	"我是斯考瑞亚矿场的老工头。我曾在伊拉塞尔的洞穴里工作；但我的堂兄阿萨德把我招进了莫图斯矿业公司。看看结果有多好。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"25300"	""	"place:erathell"	"accepted"	"우린 여신 리리아(Lyria)께 기도해. 에라셀에서 전쟁이 한창일 때, 여사제의 말씀이 우리를 이끌고 지켜 주셨어."	"우린 여신 리리아(Lyria)께 기도해. 에라셀(Erathell)에서 전쟁이 한창일 때, 여사제의 말씀이 우리를 이끌고 지켜 주셨어."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"We pray to the Goddess Lyria. When war raged in Erathell, we found the words of our Priestess to guide and shield us."	"女神リリアを崇めています。エラセルが戦争になったとき、あの神官の言葉が導きと守りを与えてくださいました"	"我们向女神莉里亚祈祷。当战争在伊拉塞尔爆发时，我们找到了女祭司的话来指引和保护我们。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26115"	""	"place:erathell|item:erathells-blessing"	"accepted"	"에라셀의 축복"	"에라셀의 축복(The Erathell's Blessing)"	"The exact source is the named item The Erathell's Blessing, not a standalone place reference; exclude this key from place:erathell. English names the item; Japanese and Chinese aligned text corroborate. Preserve the full item label atomically as 에라셀의 축복(The Erathell's Blessing)."	"The Erathell's Blessing"	"エラセルの祝福"	"伊拉塞尔的祝福"	"{""place:erathell"":""excluded"",""item:erathells-blessing"":""accepted""}"	"{""place:erathell"":""needs-context"",""item:erathells-blessing"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context."",""item:erathells-blessing"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26441"	""	"place:erathell"	"accepted"	"브리건드 홀 동굴에서 찾은 유물, 시분의 심장은 고대 워스원(Warsworn)의 금고에서 도난당한 물건이었다. 타인(Tine)은 헬름가드 요새(Helmgard Keep)에서 성주 그리안 셰인(Grian Shane)과 함께 심장 도난 사건을 조사하라고 했다. 헬름가드(Helmgard)는 탈라레인(Tala-Rane)에 있는 에라텔 평원에 있다."	"브리건드 홀 동굴에서 찾은 유물, 시분의 심장은 고대 워스원(Warsworn)의 금고에서 도난당한 물건이었다. 타인(Tine)은 헬름가드 요새(Helmgard Keep)에서 성주 그리안 셰인(Grian Shane)과 함께 심장 도난 사건을 조사하라고 했다. 헬름가드(Helmgard)는 탈라레인(Tala-Rane)에 있는 에라셀(Erathell) 평원에 있다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The Heart of Sibun, the relic I found in Brigand Hall Caverns, was in fact stolen from an ancient Warsworn vault. Tine has asked me to investigate the Heart's theft, beginning at Helmgard Keep with Castellan Grian Shane. Helmgard lies on the Plains of Erathell, in Tala-Rane."	"ブリガンド洞窟で見つけた遺物、シブンの心臓は、実は古代のウォースウォーンの宝物庫から盗まれたものだった。城主グリアン・シェインと共に、まずヘルムガード砦で心臓の盗難を調査するよう、タインに頼まれた。ヘルムガードはタラ＝レインのエラセル平原にある。"	"我在强盗大厅洞穴中找到了的圣物斯本之心，是被人从古老的誓战者穹顶中盗走的。泰恩要求我与城主格里安·谢恩一起，对斯本之心的失窃案进行调查，从赫尔姆加德要塞开始。赫尔姆加德就在塔拉莱恩的伊拉塞尔平原上。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26625"	""	"place:erathell"	"accepted"	"에라텔 평원이 기다리고 있어. 블러디 본즈도 날 겁주진 못했어. 계획을 포기할 정도는 아니었지."	"에라셀(Erathell) 평원이 기다리고 있어. 블러디 본즈도 날 겁주진 못했어. 계획을 포기할 정도는 아니었지."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The Plains of Erathell await. Bloody Bones didn't scare me. Not enough for me to abandon my plans."	"エラセル平原がお待ちかねよ。ブラッディ・ボーンズなんて怖くなかった。計画をあきらめるほどじゃないわ"	"伊拉塞尔平原正等着我们。血腥骸骨并没有吓到我。就凭他还没能让我放弃自己的计划。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"27313"	""	"place:erathell"	"not-an-issue"	"패란즈(Faelands) 전쟁 초기에 에라셀(Erathell) 방어전에서 영웅이자 순교자가 된 베릴 디아라(Beril Diara)가 헬리우스(Helius) 신전에서 철야 기도와 환시를 겪은 뒤 받은 물건이다."	"패란즈(Faelands) 전쟁 초기에 에라셀(Erathell) 방어전에서 영웅이자 순교자가 된 베릴 디아라(Beril Diara)가 헬리우스(Helius) 신전에서 철야 기도와 환시를 겪은 뒤 받은 물건이다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Received after a vigil and vision at a Helius shrine by Beril Diara, a hero and martyr of the early defense of Erathell in the Faelands War."	"ヘリウスの聖堂での徹夜祭が終わった後、フェイランド戦争の初期にエラセルを守って殉教した英雄のベリル・ディアラが受け取った。"	"贝瑞尔·迪亚拉在赫利乌斯神龛守夜和幻视后得到的，他是灵族大陆战争早期保卫伊拉塞尔的英雄和殉道者。"	"{""place:erathell"":""not-an-issue""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"27935"	""	"place:erathell"	"not-an-issue"	"에라셀(Erathell)의 각 바람돌(Windstone)에서 종을 울려. 문을 여는 유일한 방법이야."	"에라셀(Erathell)의 각 바람돌(Windstone)에서 종을 울려. 문을 여는 유일한 방법이야."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Go sound the chime at each Windstone in Erathell. That's the only way to open the gates."	"エラセルの風音石全部にチャイムの音を聴かせるの。それが門を開くための唯一の方法よ"	"去伊拉塞尔的每一块风石处敲响钟。这是打开门的唯一办法。"	"{""place:erathell"":""not-an-issue""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28909"	""	"place:erathell|faction:children-of-erathell"	"accepted"	"금박 가죽 장갑은 한때 에라시(Erathi)라 불리는 마법 존재를 숭배하던 멸망한 교단, 에라텔의 자손들(Children of Erathell)이 착용했다. 지금은 갤로우스 엔드(Gallows End)의 정신적 지도자인 사이온(Scion)을 지키는 수호자 집단, 감시자들(Watchers)이 그들의 예복을 입는다."	"금박 가죽 장갑은 한때 에라시(Erathi)라 불리는 마법 존재를 숭배하던 멸망한 교단, 에라셀의 자손(Children of Erathell)이 착용했다. 지금은 갤로우스 엔드(Gallows End)의 정신적 지도자인 사이온(Scion)을 지키는 수호자 집단, 감시자들(Watchers)이 그들의 예복을 입는다."	"The exact source name is the Children of Erathell cult, not the place itself; exclude this key from place:erathell. English identifies the extinct cult; Japanese and Chinese aligned text corroborate. Standardize its Korean name to 에라셀의 자손(Children of Erathell) without changing the associated item or dialogue."	"These gilt leather floves were once worn by members of the Children of Erathell, an extinct cult that worshipped the magical beings known as Erathi. Their vestments are now worn by the Watchers, a group of guardians who protect the Scion, spiritual leader of Gallows End."	"この金の皮手袋は、エラシという名で知られる魔法種族を崇拝し、今は滅んだ""エラセルの末裔たち""というカルト教団員が着用していた。現在、彼らの衣服はガローズ・エンドの精神的指導者で、サイオンを守る""監視者""という守護者が着用している。"	"这些镀金的皮革手套曾经是伊拉塞尔之子的成员戴的，那是一个已经灭绝的邪教，崇拜被称为埃拉西的魔法生物。他们的法衣现在由守望者穿着，守望者是一群保护绞架角的精神领袖，子孙的卫士。"	"{""place:erathell"":""excluded"",""faction:children-of-erathell"":""accepted""}"	"{""place:erathell"":""needs-context"",""faction:children-of-erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context."",""faction:children-of-erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29115"	""	"place:erathell"	"accepted"	"제발 그렇게 해줘. 내가 아는 것만 해도 에라텔 평원(Plains of Erathell)의 주요 거점으로 최소 여섯 개가 보내졌어."	"제발 그렇게 해줘. 내가 아는 것만 해도 에라셀 평원(Plains of Erathell)의 주요 거점으로 최소 여섯 개가 보내졌어."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Please do. There are at least six that I know of, sent to the major strongholds of the Plains of Erathell."	"ぜひそうして。知る限りでは少なくとも6つが、エラセル平原の主要な要塞へ送られた"	"拜托，据我所知至少有六个被送往伊拉希尔平原的堡垒。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29327"	""	"place:erathell"	"accepted"	"어리석고 건방진 폭군이 몇 번이나 에라텔(Erathell)을 침공하더라도 칸드리안 요새(Kandrian Keep)는 무너지지 않았어."	"어리석고 건방진 폭군이 몇 번이나 에라셀(Erathell)을 침공하더라도 칸드리안 요새(Kandrian Keep)는 무너지지 않았어."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"In every incursion upon Erathell by foolish, upstart tyrants, Kandrian Keep has never fallen."	"成り上がりの暴君など、いかなる愚者がエラセルに入り込もうと、カンドリアン砦は永遠だ"	"无论有多少愚蠢和自大的暴君对伊拉塞尔发起攻击，坎德利安要塞都不会沦陷。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29682"	""	"place:erathell"	"accepted"	"대부분은 에라셀 평원의 요새로 보내졌어. 네가 발견하는 건 뭐든 기꺼이 받고, 금화로 사례할게."	"대부분은 에라셀(Erathell) 평원의 요새로 보내졌어. 네가 발견하는 건 뭐든 기꺼이 받고, 금화로 사례할게."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"They were primarily sent to the strongholds of the Plains of Erathell. But any that you find will be gladly welcomed, and thanked with gold."	"遺物はエラセル平原の要塞へ送られたの。見つかったものはいくつでも喜んで受け取り、謝礼金を払うわ"	"他们主要被送往伊拉希尔平原的堡垒。我们欢迎你所发现的一切，并会用黄金加以感谢。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29685"	""	"place:erathell|faction:children-of-erathell"	"accepted"	"이 섬뜩한 황금 두건은 멸망한 광신 집단 에라셀의 자손들이 쓰던 것이다. 그들은 에라시(Erathi)라 불리는 마법 존재를 숭배했다. 그들의 예복은 이제 갤로우스 엔드(Gallows End)의 정신적 지도자인 사이온(Scion)을 지키는 수호자 집단, 감시자들이 입는다."	"이 섬뜩한 황금 두건은 멸망한 광신 집단 에라셀의 자손(Children of Erathell)이 쓰던 것이다. 그들은 에라시(Erathi)라 불리는 마법 존재를 숭배했다. 그들의 예복은 이제 갤로우스 엔드(Gallows End)의 정신적 지도자인 사이온(Scion)을 지키는 수호자 집단, 감시자들이 입는다."	"The exact source name is the Children of Erathell cult, not the place itself; exclude this key from place:erathell. English identifies the extinct cult; Japanese and Chinese aligned text corroborate. Standardize its Korean name to 에라셀의 자손(Children of Erathell) without changing the associated item or dialogue."	"This haunting golden hood was worn by members of the Children of Erathell, an extinct cult that worshipped the magical beings known as Erathi. Their vestments are now worn by the Watchers, a group of guardians who protect the Scion, spiritual leader of Gallows End."	"この呪われた金色のフードは、エラシという名で知られる魔法種族を崇拝し、今は滅んだ""エラセルの末裔たち""というカルト教団員が着用していた。現在、彼らの衣服はガローズ・エンドの精神的指導者で、サイオンを守る""監視者""という守護者が着用している。"	"这顶金冠曾经是伊拉塞尔之子的成员戴的，那是一个已经灭绝的邪教，崇拜被称为埃拉西的魔法生物。他们的法衣现在由守望者穿着，守望者是一群保护绞架角的精神领袖，子孙的卫士。"	"{""place:erathell"":""excluded"",""faction:children-of-erathell"":""accepted""}"	"{""place:erathell"":""needs-context"",""faction:children-of-erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context."",""faction:children-of-erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29713"	""	"place:erathell"	"accepted"	"마치스는 에라셀에서 데티어(Detyre)로 이어지는 주요 길이다. 하지만 암울한 시절이라 그 길을 걷지 않는 이도 많다."	"마치스는 에라셀(Erathell)에서 데티어(Detyre)로 이어지는 주요 길이다. 하지만 암울한 시절이라 그 길을 걷지 않는 이도 많다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The Marches are a main avenue from Erathell into Detyre. But many choose not to walk the road in these dark times."	"マーチズはエラセルとデティアをつなぐ主要路だ。物騒なご時世だから避けて通る者も多い"	"红色边境是从伊拉塞尔到迪特里的主要通道。但许多人在这些黑暗时期会选择不走这条路。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30766"	""	"place:erathell"	"accepted"	"하지만 그들은 불협화음을 견디지 못해. 네 노래가 에라셀을 불러내지 못한다면, 이 어두운 시대에 더 어두운 것들을 불러낼 거야..."	"하지만 그들은 불협화음을 견디지 못해. 네 노래가 에라셀(Erathell)을 불러내지 못한다면, 이 어두운 시대에 더 어두운 것들을 불러낼 거야..."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"But they will not suffer a cacophony ‒ if the song you play will not call the Erathell, it will call darker things, for these dark times...."	"しかし、詩は不協和音に耐えられません。奏でられた詩がエラセルを呼びだせなければ、この時代に合った暗い存在を呼び出すことになります…"	"但它们可受不了噪音——如果你奏出的歌谣没法唤出伊拉塞尔，就会唤出更黑暗的东西，毕竟这是黑暗年月……"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31282"	""	"place:erathell"	"not-an-issue"	"다음 경기장으로 갈 때가 됐어! 승리의 경기(Victory Games) 다음 경기는 패란즈(Faelands) 북동부에 있는 에라셀 투기장(Erathell Arena)에서 열릴 거야."	"다음 경기장으로 갈 때가 됐어! 승리의 경기(Victory Games) 다음 경기는 패란즈(Faelands) 북동부에 있는 에라셀 투기장(Erathell Arena)에서 열릴 거야."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Time to travel to the next arena! The next round of the Victory Games will take place in Erathell Arena in the northeast Faelands."	"次の闘技場へ行く頃合いだ！ ビクトリーゲームズの次のラウンドは、フェイランド北東のエラセル闘技場にて行われる"	"是时候前往下一处竞技场了！胜利大赛的下一轮比赛将在灵族大陆东北部的伊拉塞尔竞技场举行。"	"{""place:erathell"":""not-an-issue""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31887"	""	"place:erathell"	"accepted"	"라시르(Rathir) 지부로 돌아왔을 때 자리에 없었던 점 사과하네. 자네가 되찾은 태양석 유물에 깃든 복잡한 마법을 계속 생각하다가, 직접 실험을 해 보기로 했네.
+
+이 편지가 제때 도착했다면 자네도 기꺼이 함께해 주게. 나는 스카이크라운(Skycrown) 산의 크리스나크 틴트리(Creathnach Thintri) 첨탑 꼭대기에 있을 걸세. 에라셀에서 유일한 산이니 찾기 어렵지 않을 걸세.
+
+사반트 에이선 엥가르(Aethan Engar)
+
+추신. 동봉한 구리 반지는 자네가 숙련자 계급으로 승진했음을 나타내는 공식 표식이네. 축하하네!"	"라시르(Rathir) 지부로 돌아왔을 때 자리에 없었던 점 사과하네. 자네가 되찾은 태양석 유물에 깃든 복잡한 마법을 계속 생각하다가, 직접 실험을 해 보기로 했네.
+
+이 편지가 제때 도착했다면 자네도 기꺼이 함께해 주게. 나는 스카이크라운(Skycrown) 산의 크리스나크 틴트리(Creathnach Thintri) 첨탑 꼭대기에 있을 걸세. 에라셀(Erathell)에서 유일한 산이니 찾기 어렵지 않을 걸세.
+
+사반트 에이선 엥가르(Aethan Engar)
+
+추신. 동봉한 구리 반지는 자네가 숙련자 계급으로 승진했음을 나타내는 공식 표식이네. 축하하네!"	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"I must offer my apologies for not being present upon your return to the Rathir chapterhouse. Continued ponderings regarding the intricacies of the magics involved in the Sun Stone artifact you recovered have compelled me to attempt an experiment of sorts.
+
+Should you receive this missive in time, please consider yourself welcome to join me. I will be found atop the spire of Creathnach Thintri ‒ Skycrown mountain, as it is called. It shouldn't be difficult to find, as it is the only mountain in all of Erathell.
+
+Savant Aethan Engar
+
+PS Consider the copper ring accompanying this letter an official symbol of your promotion to the rank of Adept. Congratulations!"	"君がラシーア支部へ戻った時に立ち会えずに申し訳ない。君が回収した例の遺物、""太陽石""の複雑な魔法について思案を巡らせてみたが、ある種の実験を行ってみることにした。
+
+この手紙が予定通りに届いたら、君にもこの実験に参加してほしい。私はクリースナック・シントリィ... スカイクラウン山の頂上にいる。エラセルでは唯一の山だから、すぐに見つかるはずだ。
+
+一級魔道師イーサン・エンガー
+
+追伸。同封の銅の指輪は君が一級魔道師に昇格したことを示す、正式な証だ。おめでとう！"	"你回到拉瑟里的礼堂我都没来见你，对此我必须向你道歉。我对你修复的太阳石造物中所蕴含魔法的复杂性进行了持续不断的思索，这驱使我准备尝试各种试验。
+
+若你及时收到此公函，请知晓我十分欢迎你的加入。我将在克里亚斯纳克·辛特利——俗称天冠山——之巅等候。它应该不难找，因为整个伊拉塞尔仅此一座山。
+
+博学者艾森·恩加尔
+
+另，随信一同寄出的铜戒指为你晋升至侍者的官方象征，望知悉。恭喜！"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31889"	""	"place:erathell"	"accepted"	"조형자는 대리석 폐허의 들판에 자신의 음악을 남겼다.
+평원에서는 부드러운 풀이 돋아났다.
+생기 없는 시냇물이 푸른 언덕 사이를 굽이치며 흘렀고, 바람 맞는 절벽 앞까지 온화한 여정을 졸졸 노래했다.
+그렇게 에라셀의 교향곡이 시작되었다."	"조형자는 대리석 폐허의 들판에 자신의 음악을 남겼다.
+평원에서는 부드러운 풀이 돋아났다.
+생기 없는 시냇물이 푸른 언덕 사이를 굽이치며 흘렀고, 바람 맞는 절벽 앞까지 온화한 여정을 졸졸 노래했다.
+그렇게 에라셀(Erathell)의 교향곡이 시작되었다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The Shaper bequeathed her music to the countryside of marbled ruin.
+The plains birthed the gentle grass.
+Listless streams meandered through the verdant hills and babbled of their gentle travel to the face of the windswept cliffs.
+Thus the symphony of Erathell began."	"""形作る者""は音楽を大理石の遺跡の地方に残した。
+平原には柔らかな草が生えた。
+物憂げな小川が、緑に覆われた丘の間を曲がりくねって進み、さらさらと音を立てながら風の当たる崖へ穏やかに進んだ。
+こうしてエラセルのシンフォニーが始まった"	"塑造者把她的音乐遗赠给大理石废墟的乡村。
+平原孕育出温柔的小草。
+倦怠的溪流蜿蜒穿过青翠的小山，潺潺细语地向风吹过的悬崖流去。
+于是，伊拉塞尔的交响曲开始了。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31976"	""	"place:erathell"	"accepted"	"제4장: 에라셀의 속삭임"	"제4장: 에라셀(Erathell)의 속삭임"	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"IV. Whispers of Erathell"	"第4章: エラセルのささやき"	"四伊拉塞尔的低语"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32256"	""	"place:erathell"	"accepted"	"위대한 순환(Great Cycle)은 아말러(Amalur)에 강대한 마법을 가져왔다.
+비전의 장막은 이사 왕의 통치를 낳았고, 만물이 균형을 이루며 그 통치의 파멸도 함께 낳았다.
+계절이 흘러 여름은 시들어 가을이 되었고, 오운 경은 힘을 거두었다.
+한낮의 그림자가 옅어지듯 이사 왕의 지배도 약해졌다.
+패란즈(Faelands)의 싹트는 기운은 잦아들고, 나태의 안개가 숲을 침묵시켰다.
+겨울달이 기울자 모든 것이 시작되었다. 어두워진 에라셀 평원에 무시무시한 천둥이 울려 퍼졌다."	"위대한 순환(Great Cycle)은 아말러(Amalur)에 강대한 마법을 가져왔다.
+비전의 장막은 이사 왕의 통치를 낳았고, 만물이 균형을 이루며 그 통치의 파멸도 함께 낳았다.
+계절이 흘러 여름은 시들어 가을이 되었고, 오운 경은 힘을 거두었다.
+한낮의 그림자가 옅어지듯 이사 왕의 지배도 약해졌다.
+패란즈(Faelands)의 싹트는 기운은 잦아들고, 나태의 안개가 숲을 침묵시켰다.
+겨울달이 기울자 모든 것이 시작되었다. 어두워진 에라셀(Erathell) 평원에 무시무시한 천둥이 울려 퍼졌다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The Great Cycle brought powerful magic to Amalur.
+The Arcane Veil begat King Ysa's reign, and, all things in balance, also its destruction.
+The seasons passed, the summer wilted into autumn and Lord Ohn culled his strength.
+King Ysa's sway receded as does the shade at noon.
+The Faelands rested from their sprouting, and a haze of indolence silenced the woods.
+When the winter moon waned, it began. A terrible thunder rolled across the darkened Plains of Erathell."	"""大円環""はアマラーに強大な魔力をもたらした。
+霊力のベールがイーサ王の支配を引き起こし、破壊を含めた全てが均衡を保った。
+季節が過ぎ、夏が弱って秋になると、オーン卿は力を手にした。
+昼間の影と同じように、イーサ王の支配は弱まった。
+フェイランドは成長を止め、怠惰の霧が森を沈黙させた。
+冬の月が薄れた時、それは始まった。暗くなったエラセル平原にひどい雷が響き渡った"	"伟大轮回为阿玛拉带来了强大的魔法。
+奥术帷幕导致了伊萨王的统治，以及所有事物的平衡，也导致了它的毁灭。
+四季轮替，夏天渐渐变成了秋天，欧恩的力量削弱了。
+伊萨王的统治就像正午的阴影一样消失了。
+灵族大陆停止了发芽，懒散的阴霾笼罩了树林。
+当冬天的月亮消失的时候，它就开始了。可怕的雷声响彻黑暗的伊拉塞尔平原。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"33442"	""	"place:erathell"	"accepted"	"아침 태양의 부흥 — 세 장엄자가 에라셀에서 다시 태어나 대지를 빚다."	"아침 태양의 부흥 — 세 장엄자가 에라셀(Erathell)에서 다시 태어나 대지를 빚다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Rise of the Morning Suns ‒ The three majestics are reborn in Erathell to shape the land."	"朝日の目覚め: エラセルを創造せし偉大なる存在の3人"	"日出——三个造物者在伊拉塞尔重生，重塑大地。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"33628"	""	"place:erathell"	"accepted"	"제5장 - 도크알브(Dokkalfar)
+
+도크알브(Dokkalfar)의 역사
+도크알브(Dokkalfar)는 아말러(Amalur)의 태동기까지 거슬러 올라가는 유구한 역사를 지닌 고대 종족이다. 모든 알파르(Alfar)와 마찬가지로, 이들의 선조는 글렌 수세인(Glen Suthain)이라 불리는 얼어붙은 숲에 살았다. 도크알브(Dokkalfar)는 추운 지방에 사는 사촌 료스알브(Ljosalfar)(제8장 참조)와 갈라섰지만, 그 이유는 분명하지 않다. 일부 학자는 우연히 벌어진 두레크-알파르(Alfar) 전쟁이 분열의 계기였다고 본다. 많은 료스알브(Ljosalfar)가 추운 북쪽에 남은 반면, 도크알브(Dokkalfar)는 알파리아라 불리는 땅의 다른 지역에 정착했다. 가장 큰 도크알브(Dokkalfar) 집단은 에라셀 평원에 터를 잡고, 문명의 중심지로 라시르(Rathir)를 건설했다. 도크알브(Dokkalfar)의 역사를 더 자세히 알고 싶다면 라시르(Rathir)의 오르멘드가 쓴 『리파르스테어』를 읽어 보라. 크리네우스의 『라시르(Rathir) 건국기』도 훌륭한 참고 자료다.
+
+도크알브(Dokkalfar)의 외모
+피부색이 더 짙다는 점을 빼면, 도크알브(Dokkalfar)는 대체로 료스알브(Ljosalfar)(제8장 참조)와 외모가 같다. 평균 키는 2미터이며 몸무게는 160~170파운드다. 학자들은 이들의 타고난 ‘운동선수 같은’ 신체가 어디서 비롯됐는지 논쟁하지만, 대부분의 도크알브(Dokkalfar)는 호리호리한 체형이다. 보통 상황이나 손님에 맞춰 머리와 얼굴, 옷차림에 일시적인 장식을 더한다. 이들의 옷 상당수는 알마인(Almain), 료스알브(Ljosalfar), 심지어 바라니(Varani)의 기준으로도 ‘유혹적’이거나 ‘경계심을 풀게 하는’ 것으로 여겨진다.
+
+도크알브(Dokkalfar) 사회
+도크알브(Dokkalfar)는 마법의 여신 리리아(Lyria)를 숭배한다. 이들의 사회는 종교를 중심으로 조직되어 있으며, 종족 전체가 여신을 기리는 의식을 자주 치른다. 라시르(Rathir)의 정부는 리리아(Lyria)의 아들 또는 딸이라 불리는 사제들이 이끈다. 도크알브(Dokkalfar) 사회는 모계 중심이며 정부와 상업을 이끄는 이들 대부분은 여성이다."	"제5장 - 도크알브(Dokkalfar)
+
+도크알브(Dokkalfar)의 역사
+도크알브(Dokkalfar)는 아말러(Amalur)의 태동기까지 거슬러 올라가는 유구한 역사를 지닌 고대 종족이다. 모든 알파르(Alfar)와 마찬가지로, 이들의 선조는 글렌 수세인(Glen Suthain)이라 불리는 얼어붙은 숲에 살았다. 도크알브(Dokkalfar)는 추운 지방에 사는 사촌 료스알브(Ljosalfar)(제8장 참조)와 갈라섰지만, 그 이유는 분명하지 않다. 일부 학자는 우연히 벌어진 두레크-알파르(Alfar) 전쟁이 분열의 계기였다고 본다. 많은 료스알브(Ljosalfar)가 추운 북쪽에 남은 반면, 도크알브(Dokkalfar)는 알파리아라 불리는 땅의 다른 지역에 정착했다. 가장 큰 도크알브(Dokkalfar) 집단은 에라셀(Erathell) 평원에 터를 잡고, 문명의 중심지로 라시르(Rathir)를 건설했다. 도크알브(Dokkalfar)의 역사를 더 자세히 알고 싶다면 라시르(Rathir)의 오르멘드가 쓴 『리파르스테어』를 읽어 보라. 크리네우스의 『라시르(Rathir) 건국기』도 훌륭한 참고 자료다.
+
+도크알브(Dokkalfar)의 외모
+피부색이 더 짙다는 점을 빼면, 도크알브(Dokkalfar)는 대체로 료스알브(Ljosalfar)(제8장 참조)와 외모가 같다. 평균 키는 2미터이며 몸무게는 160~170파운드다. 학자들은 이들의 타고난 ‘운동선수 같은’ 신체가 어디서 비롯됐는지 논쟁하지만, 대부분의 도크알브(Dokkalfar)는 호리호리한 체형이다. 보통 상황이나 손님에 맞춰 머리와 얼굴, 옷차림에 일시적인 장식을 더한다. 이들의 옷 상당수는 알마인(Almain), 료스알브(Ljosalfar), 심지어 바라니(Varani)의 기준으로도 ‘유혹적’이거나 ‘경계심을 풀게 하는’ 것으로 여겨진다.
+
+도크알브(Dokkalfar) 사회
+도크알브(Dokkalfar)는 마법의 여신 리리아(Lyria)를 숭배한다. 이들의 사회는 종교를 중심으로 조직되어 있으며, 종족 전체가 여신을 기리는 의식을 자주 치른다. 라시르(Rathir)의 정부는 리리아(Lyria)의 아들 또는 딸이라 불리는 사제들이 이끈다. 도크알브(Dokkalfar) 사회는 모계 중심이며 정부와 상업을 이끄는 이들 대부분은 여성이다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Chapter 5 - The Dokkalfar
+
+Dokkalfar History
+The Dokkalfar are an ancient race of people, whose vast history can be traced to the very beginnings of Amalur. Like all Alfar, their ancestral home is a frozen forest known as Glen Suthain. The Dokkalfar split from their wintry cousins, the Ljosalfar (see Chapter 8), although the reasons why are unclear. Some scholars point to the coincidence of the Durek-Alfar war as the impetus behind the separation. While many Ljosalfar remained in the cold north, the Dokkalfar settled in other parts of the lands known as Alfaria. The largest group of Dokkalfar settled in the Plains of Erathell, where they built the city of Rathir as the center of their civilization. For a more complete history of the Dokkalfar, read the Llyfarstair by Ormend of Rathir. The Founding of Rathir by Crinneus is also an excellent reference on the subject.
+
+Dokkalfar Appearance
+The Dokkalfar are in general identical to the Ljosalfar (see Chapter 8) in appearance, except for a darker coloration of their skin. On average, they stand at 2 m tall, and weigh between 160-170 lbs. Scholars debate the origin of their naturally ""athletic"" biology, but most Dokkalfar conform to a slimmer body type. Typically, temporary accents to hair, face and clothing are worn to fit the situation or guest, and much of their garments are considered ""seductive"" or ""disarming"" by Almain, Ljosalfar, or even Varani standards.
+
+Dokkalfar Society
+The Dokkalfar worship Lyria, the goddess of magic. Their society is organized around their religion, and as a race, the Dokkalfar hold many ceremonies to honor their goddess. The government of Rathir is led by the priests and priestesses of their religion, known as the Sons or Daughters of Lyria. The Dokkalfar are matriarchal, with leaders of government and commerce being largely female."	"第5章: ドカルファー
+
+ドカルファーの歴史
+ドカルファーは古代の種族で、その長大な歴史はまさにアマラーの生誕期にまでさかのぼる。すべてのアルファー同様、グレン渓谷の名で知られる凍てついた森を始祖地とするドカルファーは、その冷淡なるいとこ、ロサルファー(第8章を参照)から枝分かれした種族だが、そうなった理由ははっきりしない。一部の専門家は、デュレク・アルファー戦争という偶然が、別離の潜在的な引き金になったと指摘する。多くのロサルファーが今も極寒の北部に留まる一方、ドカルファーはアルファリアのその他の地域に移り住んだ。ドカルファーの最大勢力はエラセル平原に定住し、彼らはそこにドカルファー文明の中心地となる都市、ラシーアを建設した。ドカルファーのより詳細な歴史については、ラシーアのオーメンド著""ルリファーステア""やクリンネウス著""ラシーアの誕生""がかなり参考になる。
+
+ドカルファーの容姿
+肌の色がやや濃い点を除けば、外見的にはロサルファー(第8章を参照)と変わらない。平均身長は2メートルで、体重は75キロ前後。学者たちは、生まれつき""強健な""ドカルファーの身体の起源について討議するが、大半のドカルファーはスリムと言ってよい体格に当てはまる。状況や訪問客に合わせて、髪や顔や衣服に一時的なアクセントを付け加えるのが一般的で、彼らの衣装の大半は、アルメインやロサルファー、さらにはヴラニの基準でも""魅惑的""で""油断を誘う""と考えられる。
+
+ドカルファーの社会
+ドカルファーは魔法の女神リリアを崇拝する。彼らの社会は信仰を中心に組織化され、女神を称える儀式を数多く執り行う。ラシーアの政府を引っ張るのは、リリアの息子や娘たちと呼ばれる神官たちである。ドカルファーの社会は女性優位で、政府や産業界のリーダーの多くは女性で占められる。"	"第五章 - 暗精灵
+
+暗精灵的历史
+暗精灵是一个古老的民族，其悠久的历史可以追溯到阿玛拉的起源。与所有精灵一样，他们的发源地是一片叫做苏塞恩峡谷的寒冷森林。暗精灵从他们寒冷的表亲光精灵（见第八章）中分离出来，尽管原因尚不清楚。一些学者指出，杜雷克-精灵战争是分裂背后的推动因素。许多光精灵仍然生活在寒冷的北方，但暗精灵在被称为阿尔法的其他地方定居下来。最大的暗精灵族群定居在伊拉塞尔平原，他们建造了拉瑟里城作为他们文明的中心。想要完整了解暗精灵的历史，请阅读拉瑟里的奥蒙德所著的《利法斯泰尔》。克林努斯的《拉瑟里的建立》也是很好的参考。
+
+暗精灵的外貌
+除了皮肤颜色较深外，暗精灵与光精灵（见第八章）在外貌上大体相同。他们平均身高2米，体重在160-170磅之间。学者们对他们天生的“运动”生理的起源争论不休，但大多数暗精灵的体型都很苗条。一般来说，发型、化妆和服装的搭配是为了适应场合或客人，他们的很多服装在阿尔曼、光精灵、甚至瓦拉尼的标准中被认为是“诱人的”或“让人放松戒备的”。
+
+暗精灵社会
+暗精灵崇拜魔法女神莉里亚。他们的社会是围绕宗教组织起来的，作为一个种族，暗精灵会举行许多仪式来祭祀他们的女神。拉瑟里的政府是由他们的宗教祭司和女祭司领导的，被称为莉里亚的女儿或儿子。暗精灵是母系氏族，政府和商业的领导人大部分是女性。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"33770"	""	"place:erathell"	"not-an-issue"	"우린 여기서 철수할 거야. 다음 경기에 관심 있으면 에라셀 투기장(Erathell Arena)에서 만나."	"우린 여기서 철수할 거야. 다음 경기에 관심 있으면 에라셀 투기장(Erathell Arena)에서 만나."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"We're packing up here, but if you're interested in entering another match meet me at Erathell Arena."	"我々はここを引き払うが、もし次の試合に興味があるなら、エラセル闘技場で会おう"	"我们在收拾东西，要是你有兴趣参加另一场比赛，请到伊拉塞尔竞技场找我。"	"{""place:erathell"":""not-an-issue""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34336"	""	"place:erathell"	"accepted"	"그 뒤로 타이윌리(Tywili), 여명의 행군, 받아치기의 전쟁, 바를레인의 책략전…… 그리고 마침내 오리에이터의 항전(Orieator's Stand)이 있었지. 그는 에라셀에서 투아사(Tuatha)를 몰아내다 전사했어."	"그 뒤로 타이윌리(Tywili), 여명의 행군, 받아치기의 전쟁, 바를레인의 책략전…… 그리고 마침내 오리에이터의 항전(Orieator's Stand)이 있었지. 그는 에라셀(Erathell)에서 투아사(Tuatha)를 몰아내다 전사했어."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Then in Tywili, the Dawn March, the War of Parries, Varlaine's Gambit ‒ and finally, Orieator's Stand. He died driving the Tuatha from Erathell."	"続いて""タイウィリ""、""夜明けの行軍""、""受け流し戦争""、""ヴァーレインの策略戦""... そして""オリエーターの防衛戦""でも。そしてツアサをエラセルから追い払って亡くなったのです"	"接着是提威利、黎明行军、帕里斯之战、瓦尔莱茵的甘贝特，最后是奥瑞亚特保卫战。他在将图阿撒驱离伊拉塞尔时死去了。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34491"	""	"place:erathell"	"accepted"	"잿더미와 유령의 땅이야. 아주 오래전 투아사(Tuatha)가 에라셀 평원에 상륙한 곳이지. 지금은 아무것도 남지 않았어."	"잿더미와 유령의 땅이야. 아주 오래전 투아사(Tuatha)가 에라셀(Erathell) 평원에 상륙한 곳이지. 지금은 아무것도 남지 않았어."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"A place of cinders and ghosts. It's where the Tuatha made landfall on the Plains of Erathell, all those years ago. Nothing left there, now."	"焼け跡と幽霊で有名な場所ね。ツアサがずっと昔にエラセル平原で圧勝したのもあそこよ。今では何も残ってないわ"	"一个满是煤渣和幽灵的地方。多年前，图阿撒就是从这里登陆伊拉塞尔平原。现在那里什么也没有了。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34507"	""	"place:erathell"	"accepted"	"에라셀에서 보자."	"에라셀(Erathell)에서 보자."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"I'll see you in Erathell."	"エラセルで会おう"	"我们伊拉塞尔见。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34706"	""	"place:erathell"	"accepted"	"에라텔의 위대한 알파르(Alfar) 요새는 돌브 아르네(Dolve Arne), 비르키, 리센, 칸드리안(Kandrian), 돌브 웨일(Dolve Wayle), 코르간 요새(Corgan Hold)다."	"에라셀(Erathell)의 위대한 알파르(Alfar) 요새는 돌브 아르네(Dolve Arne), 비르키, 리센, 칸드리안(Kandrian), 돌브 웨일(Dolve Wayle), 코르간 요새(Corgan Hold)다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The great Alfar strongholds of Erathell are Dolve Arne, Virki, Rithen, Kandrian, Dolve Wayle, and Corgan Hold."	"エラセルの主要なアルファー要塞はドルベ・アーン、ヴァーキ、リゼン、カンドリアン砦、ドルベ・ウェイル、そしてコルガン砦よ"	"伊拉塞尔平原的精灵堡垒分别为，阿恩城堡、维尔吉、瑞森、坎德利安、韦勒城堡和科尔根要塞。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35730"	""	"place:erathell"	"accepted"	"그들은 체구는 작지만 튼튼한 드베르가 선원들로, 에라텔 북쪽의 왕국과 섬들을 다스린다. 크기에 속지 마라. 사나운 이들이다."	"그들은 체구는 작지만 튼튼한 드베르가 선원들로, 에라셀(Erathell) 북쪽의 왕국과 섬들을 다스린다. 크기에 속지 마라. 사나운 이들이다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"They are dwarf mariners, small but sturdy sea folk who rule the kingdoms and islands north of Erathell. Don't be fooled by their size. They are fierce."	"体は小さいけどたくましい、ドワーフの船乗りで、エラセルの北にある王国と島々を支配してる。サイズにだまされるな。凶暴だ"	"他们是矮人水手，小而强壮的水手，统治着伊拉塞尔北部的王国和岛屿。不要被他们的体型愚弄了。他们很凶猛。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36385"	""	"place:erathell"	"accepted"	"멀리 가진 못했을 거야. 투아사(Tuatha)가 에라셀에 거점을 차렸으니 그쪽으로 달아났겠지. 드렌드힐에서 놈을 찾아 대가를 치르게 해. 난 치료법을 찾을 테니까!"	"멀리 가진 못했을 거야. 투아사(Tuatha)가 에라셀(Erathell)에 거점을 차렸으니 그쪽으로 달아났겠지. 드렌드힐에서 놈을 찾아 대가를 치르게 해. 난 치료법을 찾을 테니까!"	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Well, he won't get far. The Tuatha have taken a stronghold in Erathell, and I'll bet he's fled there. Find him in Drendhil, and make him pay while I search for a cure!"	"奴に望みはない。ツアサはエラセルの拠点を手に入れた。きっとそこで逃げ出したはずだ。ドレンドヒルで奴を見つけ出し、思い知らせてやれ。その間私は治療法を探そう！"	"他走不了太远。图阿撒占领了伊拉塞尔的一个据点，我打赌他逃到那里去了。去德伦希尔找到他，让他付出代价，我会寻找治疗方法！"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36489"	""	"place:erathell"	"accepted"	"한때 칸드리안(Kandrian)은 에라셀 전역에서 가장 안전한 지역이었다."	"한때 칸드리안(Kandrian)은 에라셀(Erathell) 전역에서 가장 안전한 지역이었다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Kandrian was once the safest region in all of Erathell."	"以前のカンドリアンは、エラセルで最も安全な場所だった"	"坎德利安曾经是整个伊拉塞尔最安全的地区。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37123"	""	"place:erathell"	"accepted"	"이사(Ysa) 지부는 에라셀 평원의 라시르(Rathir) 지부에 딸린 작은 분회일 뿐이야."	"이사(Ysa) 지부는 에라셀(Erathell) 평원의 라시르(Rathir) 지부에 딸린 작은 분회일 뿐이야."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"The Ysa Chapter is but a small branch of our larger Rathir Chapter, in the Plains of Erathell."	"イーサ支部は、ラシーア支部に属するエラセル平原の小さな支部にすぎないわ"	"伊萨分会只是位于伊拉塞尔平原的拉瑟里分会的一个小分支。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38050"	""	"place:erathell"	"accepted"	"에라텔의 헬름가드 요새(Helmgard Keep)로 가서 도둑질이 어떻게 벌어졌는지 조사하라. 헬름가드(Helmgard) 성주 그리안 셰인(Grian Shane)과 대화하라."	"에라셀(Erathell)의 헬름가드 요새(Helmgard Keep)로 가서 도둑질이 어떻게 벌어졌는지 조사하라. 헬름가드(Helmgard) 성주 그리안 셰인(Grian Shane)과 대화하라."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Travel to Helmgard Keep, in Erathell, and investigate how this theft occurred. Speak to Grian Shane, Helmgard's Castellan."	"エラセルのヘルムガード砦へ行き、これが盗まれた経緯を調べてくれ。ヘルムガードの城主、グリアン・シェインと話すのだ"	"去伊拉塞尔的赫尔姆加德要塞，在那里调查这起盗窃案的前因后果。和赫尔姆加德的城主格里安·谢恩对话。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38285"	""	"place:erathell"	"accepted"	"독실한 알마인(Almain) 선교사 크리거(Kreger)가 미든(The Midden)의 알파르(Alfar) 시체에서 귀걸이를 회수해 달라고 부탁했다. 에라텔에 있는 민간인들에게 보내려는 모양이다. 가져오는 귀걸이마다 보수를 주겠다고 했다."	"독실한 알마인(Almain) 선교사 크리거(Kreger)가 미든(The Midden)의 알파르(Alfar) 시체에서 귀걸이를 회수해 달라고 부탁했다. 에라셀(Erathell)에 있는 민간인들에게 보내려는 모양이다. 가져오는 귀걸이마다 보수를 주겠다고 했다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"An Almain missionary named Kreger the Devout has asked me to recover earrings from the corpses of the Alfar in the Midden. He hopes to send them to the civilians back in Erathell. He will pay me for every earring I bring him."	"アルメインの伝道者、信仰者クリガーに、ミッデンのアルファーの死体から耳飾りを回収するよう頼まれた。死者の数を記録したいそうだ。耳飾りの数に応じて報酬を払うという。"	"一位名叫坚定者克里格的阿尔曼传教士请求我从贝冢的精灵尸体上回收耳环。他希望能将这些耳环交还给伊拉塞尔的市民。每带回一个耳环，他便会支付给我一定的报酬。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38932"	""	"place:erathell"	"accepted"	"컬른 난민 지도자 엘로드 에드먼은 투아사(Tuatha)가 에라셀 평원에 스파이 세 명을 두었다고 믿는다. 그는 그들을 찾아 처리해 달라고 부탁했다. 물론 속임수를 멈추게 할 다른 방법이 있을지도 모른다. 엘로드의 말로는 두 명은 버림받은 평원(Forsaken Plain)에, 한 명은 에메어(Emaire) 마을에 있다."	"컬른 난민 지도자 엘로드 에드먼은 투아사(Tuatha)가 에라셀(Erathell) 평원에 스파이 세 명을 두었다고 믿는다. 그는 그들을 찾아 처리해 달라고 부탁했다. 물론 속임수를 멈추게 할 다른 방법이 있을지도 모른다. 엘로드의 말로는 두 명은 버림받은 평원(Forsaken Plain)에, 한 명은 에메어(Emaire) 마을에 있다."	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"Elrod Edman, leader of the refugees from Coln, believes that the Tuatha have three spies in the Plains of Erathell. He has asked me to hunt these people and deal with them, although there may be other ways to get them to stop their deception. Elrod believes two of them are in the Forsaken Plain, and one is in Emaire village."	"コルン難民のリーダー、エルロッド・エドマンの考えでは、エラセル平原にツアサのスパイが3人いるらしい。他にも策略を阻止する手段はありそうだが、スパイを見つけ出して対処するよう頼まれた。2人は見捨てられた平原、1人はエマイア村にいるらしい。"	"艾尔罗德·埃德曼，科恩的难民领袖，认为图阿撒在伊拉塞尔平原安插了三个间谍。他请求我找到并解决掉他们，虽然可以用其他办法终止他们的间谍行为。艾尔罗德认为两个在遗忘平原，一个在伊梅尔村庄。"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39139"	""	"place:erathell"	"accepted"	"에라셀 평원으로"	"에라셀(Erathell) 평원으로"	"English names the place Erathell; Japanese エラセル and Chinese 伊拉塞尔 are corroborating evidence. Normalize only 에라텔 to 에라셀 and add the English label when no complete bilingual Erathell compound already covers the name. Preserve complete names such as Plains of Erathell and Erathell Arena without nested labels."	"To Plains of Erathell"	"エラセル平原へ"	"去伊拉塞尔平原"	"{""place:erathell"":""accepted""}"	"{""place:erathell"":""needs-context""}"	"{""place:erathell"":""Candidate hit from the English source; verify this occurrence in context.""}"

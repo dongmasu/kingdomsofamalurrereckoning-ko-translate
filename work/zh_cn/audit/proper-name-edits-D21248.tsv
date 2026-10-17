@@ -1,0 +1,124 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"base"	"1123"	"11"	"place:sea-foam-tavern"	"accepted"	"씨폼(Sea Foam) 선술집"	"씨폼 선술집(Sea Foam Tavern)"	"D-21248: English-led named-venue comparison across all three resources with exact aligned Japanese and Chinese. Manual PDF pages 3/4/8/9 provide world, map, dialogue and inhabited-place context, not an exhaustive inn directory. Nine distinct rows cover seven venues; retain unrelated proper names, the long poem/book, speaker register, particles, tokens and exact paragraph breaks. Existing 28 indexed holds and separate unresolved Hreid identity remain unchanged; no historical global tally. English base:1123 names Sea Foam Tavern. English default:14749 describes sitting in the Sea Foam, and default:29868 recalls meeting someone outside it. Japanese シーフォーム酒場/シーフォーム and Chinese 海沫酒馆 corroborate the venue, though Japanese translates the long book literally. Normalize 씨폼, 바다 거품 and 바다거품 only in these three approved venue mentions. Preserve source-short Sea Foam in prose instead of inserting Tavern into its English annotation."	"Sea Foam Tavern"	"シーフォーム酒場"	"海沫酒馆"	"{""place:sea-foam-tavern"":""accepted""}"	"{""place:sea-foam-tavern"":""needs-context""}"	"{""place:sea-foam-tavern"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"1400"	"11"	"place:valor-inn"	"accepted"	"용맹 여관"	"용맹 여관(Valor Inn)"	"D-21248: English-led named-venue comparison across all three resources with exact aligned Japanese and Chinese. Manual PDF pages 3/4/8/9 provide world, map, dialogue and inhabited-place context, not an exhaustive inn directory. Nine distinct rows cover seven venues; retain unrelated proper names, the long poem/book, speaker register, particles, tokens and exact paragraph breaks. Existing 28 indexed holds and separate unresolved Hreid identity remain unchanged; no historical global tally. English base:1400 is the named Valor Inn destination label, Japanese バローの宿屋 and Chinese 英勇旅馆 corroborate the inn. Retain the Korean 용맹 여관; do not assert an identity with the House of Valor faction or Valor Arena."	"Valor Inn"	"バローの宿屋"	"英勇旅馆"	"{""place:valor-inn"":""accepted""}"	"{""place:valor-inn"":""needs-context""}"	"{""place:valor-inn"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"1854"	"11"	"place:thelgood-inn"	"accepted"	"셀굿(Thelgood) 여관"	"셀굿 여관(Thelgood Inn)"	"D-21248: English-led named-venue comparison across all three resources with exact aligned Japanese and Chinese. Manual PDF pages 3/4/8/9 provide world, map, dialogue and inhabited-place context, not an exhaustive inn directory. Nine distinct rows cover seven venues; retain unrelated proper names, the long poem/book, speaker register, particles, tokens and exact paragraph breaks. Existing 28 indexed holds and separate unresolved Hreid identity remain unchanged; no historical global tally. English base:1854 explicitly names Thelgood Inn; Japanese セルグッドの宿屋 and Chinese 塞尔古德旅馆 corroborate. Retain established 셀굿 and pair the complete inn name rather than only Thelgood. This is a distinct place entry, not a second person or proof of ownership by the registered Thelgood person."	"Thelgood Inn"	"セルグッドの宿屋"	"塞尔古德旅馆"	"{""place:thelgood-inn"":""accepted""}"	"{""place:thelgood-inn"":""needs-context""}"	"{""place:thelgood-inn"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"4343"	"11"	"place:summerland-inn"	"accepted"	"서머랜드 여관"	"서머랜드 여관(Summerland Inn)"	"D-21248: English-led named-venue comparison across all three resources with exact aligned Japanese and Chinese. Manual PDF pages 3/4/8/9 provide world, map, dialogue and inhabited-place context, not an exhaustive inn directory. Nine distinct rows cover seven venues; retain unrelated proper names, the long poem/book, speaker register, particles, tokens and exact paragraph breaks. Existing 28 indexed holds and separate unresolved Hreid identity remain unchanged; no historical global tally. English base:4343 names Summerland Inn, Japanese サマーランドの宿屋 and Chinese 夏国旅馆 corroborate. Retain existing 서머랜드 여관 and annotate the full source label; no inference about the wider Summerlands."	"Summerland Inn"	"サマーランドの宿屋"	"夏国旅馆"	"{""place:summerland-inn"":""accepted""}"	"{""place:summerland-inn"":""needs-context""}"	"{""place:summerland-inn"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"4842"	"11"	"place:golden-wheel-inn"	"accepted"	"황금 바퀴 여관"	"황금 바퀴 여관(Golden Wheel Inn)"	"D-21248: English-led named-venue comparison across all three resources with exact aligned Japanese and Chinese. Manual PDF pages 3/4/8/9 provide world, map, dialogue and inhabited-place context, not an exhaustive inn directory. Nine distinct rows cover seven venues; retain unrelated proper names, the long poem/book, speaker register, particles, tokens and exact paragraph breaks. Existing 28 indexed holds and separate unresolved Hreid identity remain unchanged; no historical global tally. English base:4842 names Golden Wheel Inn, Japanese 金の輪亭 and Chinese 金轮旅馆 corroborate the named inn. Retain existing 황금 바퀴 여관 and add the full English label."	"Golden Wheel Inn"	"金の輪亭"	"金轮旅馆"	"{""place:golden-wheel-inn"":""accepted""}"	"{""place:golden-wheel-inn"":""needs-context""}"	"{""place:golden-wheel-inn"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14550"	""	"place:salty-salmon-inn"	"accepted"	"솔티 새먼 여관"	"솔티 새먼 여관(Salty Salmon Inn)"	"D-21248: English-led named-venue comparison across all three resources with exact aligned Japanese and Chinese. Manual PDF pages 3/4/8/9 provide world, map, dialogue and inhabited-place context, not an exhaustive inn directory. Nine distinct rows cover seven venues; retain unrelated proper names, the long poem/book, speaker register, particles, tokens and exact paragraph breaks. Existing 28 indexed holds and separate unresolved Hreid identity remain unchanged; no historical global tally. English default:14550 names Salty Salmon Inn, Japanese ソルティサーモン宿屋 and Chinese 咸鲑鱼旅馆 corroborate the venue. Retain existing 솔티 새먼 여관 and annotate the complete label."	"Salty Salmon Inn"	"ソルティサーモン宿屋"	"咸鲑鱼旅馆"	"{""place:salty-salmon-inn"":""accepted""}"	"{""place:salty-salmon-inn"":""needs-context""}"	"{""place:salty-salmon-inn"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14749"	""	"place:sea-foam-tavern"	"accepted"	"바다 거품 여관에서 굵은 팔을 자랑스럽게 드러낸 채 앉아 날 놀리던 그가 어렴풋이 기억나는군."	"씨폼(Sea Foam) 선술집에서 굵은 팔을 자랑스럽게 드러낸 채 앉아 날 놀리던 그가 어렴풋이 기억나는군."	"D-21248: English-led named-venue comparison across all three resources with exact aligned Japanese and Chinese. Manual PDF pages 3/4/8/9 provide world, map, dialogue and inhabited-place context, not an exhaustive inn directory. Nine distinct rows cover seven venues; retain unrelated proper names, the long poem/book, speaker register, particles, tokens and exact paragraph breaks. Existing 28 indexed holds and separate unresolved Hreid identity remain unchanged; no historical global tally. English base:1123 names Sea Foam Tavern. English default:14749 describes sitting in the Sea Foam, and default:29868 recalls meeting someone outside it. Japanese シーフォーム酒場/シーフォーム and Chinese 海沫酒馆 corroborate the venue, though Japanese translates the long book literally. Normalize 씨폼, 바다 거품 and 바다거품 only in these three approved venue mentions. Preserve source-short Sea Foam in prose instead of inserting Tavern into its English annotation."	"I do seem to remember him and his bulky arms sitting smugly in the Sea Foam, taunting me."	"どうやら覚えているのは、独善的なヤツの姿と、その太い腕だ。""シーフォーム""で馬鹿にされたんだ"	"我似乎记得他带着他笨重的武器坐在海沫酒馆，嘲笑我。"	"{""place:sea-foam-tavern"":""accepted""}"	"{""place:sea-foam-tavern"":""needs-context""}"	"{""place:sea-foam-tavern"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"27427"	""	"place:crossroads-inn"	"accepted"	"교차로 여관"	"교차로 여관(Crossroads Inn)"	"D-21248: English-led named-venue comparison across all three resources with exact aligned Japanese and Chinese. Manual PDF pages 3/4/8/9 provide world, map, dialogue and inhabited-place context, not an exhaustive inn directory. Nine distinct rows cover seven venues; retain unrelated proper names, the long poem/book, speaker register, particles, tokens and exact paragraph breaks. Existing 28 indexed holds and separate unresolved Hreid identity remain unchanged; no historical global tally. English default:27427 names Crossroads Inn, Japanese クロスロード宿屋 and Chinese 十字路口旅馆 corroborate the named venue. Retain existing 교차로 여관 and annotate the complete label; do not globally alias generic crossroads."	"Crossroads Inn"	"クロスロード宿屋"	"十字路口旅馆"	"{""place:crossroads-inn"":""accepted""}"	"{""place:crossroads-inn"":""needs-context""}"	"{""place:crossroads-inn"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29868"	""	"place:sea-foam-tavern"	"accepted"	"이건 바다거품 술집 밖에서 만난 그 늙은 바보 이야기야. 풍만한 몸매지만 코가 부러진 코볼트(Kobold) 같은 얼굴을 한 딸을 둔 자 말이지. 이름이 뭐였더라? 제럴드? 제프로이? 그레고르? 젠장, 기억이 안 나네.
+
+불쌍한 늙은 부랑자를 노래하네,
+끔찍한 딸을 둔 사내를.
+그녀는 흉측하고 끔찍한 꼴...
+
+너무 잔인한가? 그럴지도. 젠장, 유머는 내 장기가 아니야. 뭐, 어쩔 수 없지. 그 딸은 외모가 형편없었지만, 그렇다고 내가 그녀를 잘 알게 되는 데 방해가 되진 않았어. 내가 여자를 가리는 사람이라고 말하려는 건 아니야. 아, 참 고달픈 인생이야. 붓끝의 재치와 목소리의 청명함으로 살아가는 떠돌이 음유시인의 유쾌한 모험이라니. 다른 시도 해볼까?
+
+사냥꾼과 귀한 집안에서 태어난 이들이여,
+용기 있는 사내라면 누구나 알리라,
+성실한 아내를 아끼고 사랑하며,
+그녀가 우울할 때 보살피라;
+절름발이 노파! 절름발이 노파!
+
+신들이시여, 대체 이게 무슨 노래란 말인가? 영감이 바닥났군. 술에 흠뻑 취해야겠어. 호화로운 침낭에 들기 전에 마지막으로 한 번만 더 써보자.
+
+어디에나 있는 아름다운 여인들을 두고,
+난 나약한 사내들을 찬양하네;
+엘빈도, 칼윈도, 글라르도 아니니,
+그들의 말엔 독침이 맺혀 있네.
+
+젠장! 이 지긋지긋한 졸작은 이제 질렸어. 클루리콘(Klurikon)의 아가씨들을 모조리 쫓아내려는 건가? 뭐, 아가씨가 그리 많지도 않지만. 거짓말을 더 잘 다듬어야겠어. 여인의 구혼자를 형편없는 놈으로 그려서는 음유시인이 그녀의 마음, 그리고 다른 곳까지 얻을 수 없지. 진작 이런 대단한 사실을 깨달았어야 할 텐데. 아무래도 아니었나 봐.
+
+여인들은 용맹하고 고집 센 사내들의 이야기를 듣고 싶어 할 뿐이야. 마음을 굳게 먹고 완전한 악당들의 이야기를 더 써야겠어."	"이건 씨폼(Sea Foam) 선술집 밖에서 만난 그 늙은 바보 이야기야. 풍만한 몸매지만 코가 부러진 코볼트(Kobold) 같은 얼굴을 한 딸을 둔 자 말이지. 이름이 뭐였더라? 제럴드? 제프로이? 그레고르? 젠장, 기억이 안 나네.
+
+불쌍한 늙은 부랑자를 노래하네,
+끔찍한 딸을 둔 사내를.
+그녀는 흉측하고 끔찍한 꼴...
+
+너무 잔인한가? 그럴지도. 젠장, 유머는 내 장기가 아니야. 뭐, 어쩔 수 없지. 그 딸은 외모가 형편없었지만, 그렇다고 내가 그녀를 잘 알게 되는 데 방해가 되진 않았어. 내가 여자를 가리는 사람이라고 말하려는 건 아니야. 아, 참 고달픈 인생이야. 붓끝의 재치와 목소리의 청명함으로 살아가는 떠돌이 음유시인의 유쾌한 모험이라니. 다른 시도 해볼까?
+
+사냥꾼과 귀한 집안에서 태어난 이들이여,
+용기 있는 사내라면 누구나 알리라,
+성실한 아내를 아끼고 사랑하며,
+그녀가 우울할 때 보살피라;
+절름발이 노파! 절름발이 노파!
+
+신들이시여, 대체 이게 무슨 노래란 말인가? 영감이 바닥났군. 술에 흠뻑 취해야겠어. 호화로운 침낭에 들기 전에 마지막으로 한 번만 더 써보자.
+
+어디에나 있는 아름다운 여인들을 두고,
+난 나약한 사내들을 찬양하네;
+엘빈도, 칼윈도, 글라르도 아니니,
+그들의 말엔 독침이 맺혀 있네.
+
+젠장! 이 지긋지긋한 졸작은 이제 질렸어. 클루리콘(Klurikon)의 아가씨들을 모조리 쫓아내려는 건가? 뭐, 아가씨가 그리 많지도 않지만. 거짓말을 더 잘 다듬어야겠어. 여인의 구혼자를 형편없는 놈으로 그려서는 음유시인이 그녀의 마음, 그리고 다른 곳까지 얻을 수 없지. 진작 이런 대단한 사실을 깨달았어야 할 텐데. 아무래도 아니었나 봐.
+
+여인들은 용맹하고 고집 센 사내들의 이야기를 듣고 싶어 할 뿐이야. 마음을 굳게 먹고 완전한 악당들의 이야기를 더 써야겠어."	"D-21248: English-led named-venue comparison across all three resources with exact aligned Japanese and Chinese. Manual PDF pages 3/4/8/9 provide world, map, dialogue and inhabited-place context, not an exhaustive inn directory. Nine distinct rows cover seven venues; retain unrelated proper names, the long poem/book, speaker register, particles, tokens and exact paragraph breaks. Existing 28 indexed holds and separate unresolved Hreid identity remain unchanged; no historical global tally. English base:1123 names Sea Foam Tavern. English default:14749 describes sitting in the Sea Foam, and default:29868 recalls meeting someone outside it. Japanese シーフォーム酒場/シーフォーム and Chinese 海沫酒馆 corroborate the venue, though Japanese translates the long book literally. Normalize 씨폼, 바다 거품 and 바다거품 only in these three approved venue mentions. Preserve source-short Sea Foam in prose instead of inserting Tavern into its English annotation."	"This one is about that old fool I met outside the Sea Foam, the one with the daughter of bountiful proportions, but with the visage of a kobold with a broken nose? What his name again? Gerald? Gefroy? Gregor? Blast. I don't recall.
+
+Of a poor old derelict I write,
+Who had a horrific daughter,
+She was an ugly gruesome sight…
+
+Is it too cruel? Perhaps, yes. Blast. Humor does not exhibit my strength. All for the best, I suppose. His daughter may have been sorely lacking in appearances, but that did not prevent me from knowing her well. Not that I would ever claim to be selective. Oh, it is a troubling life I lead, the merry adventures of a displaced balladeer, surviving by wit of his pen and clarity of voice. Let's try another, shall we?
+
+You hunters and nobleman born,
+All men of good courage know,
+Care and admire your dutiful wife,
+Care for her when she is low;
+Lame old woman! Lame old woman!
+
+What in the name of the gods was that about? My inspiration fails me. What I require is a good sousing. I shall proceed with my final attempt before retiring to my luxurious bedroll.
+
+All luscious ladies near and far,
+It is in praise of weak men I sing;
+Not Elbin, a Calwyn, or a Glar,
+For their words drip a poisonous sting.
+
+Blast! I've had enough with this tired mediocrity. Am I trying to drive away every young maiden in Klurikon? Not that there are very many, mind you. I must work on my untruths. A bard never wins the heart - and other parts - of a lady by painting her suitors as a wretch. One would think I'd discovered this powerful revelation long before now. Clearly that is not the case.
+
+The fairer sex wishes only to be regaled with tales of valor and bullheadedness. I must strengthen my resolve to write more tales of utter scoundrels."	"これは私が泡の海の外れで会った、愚かな老人についての歌だ。プロポーションは抜群ながら、曲がった鼻とコボルトの顔を持つ娘を連れたあの老人の。彼の名前は何だったか？ ジェラルド？ ゲフロイ？ グレゴール？ 思い出せない。
+
+哀れな家なしお爺さん
+恐ろしい娘を連れていた
+彼女は醜く、おぞましく…
+
+残酷すぎるか？ かもしれない。ふん。ユーモアは私の強みじゃない。そうとも。確かにあの娘の容姿は痛々しいほど劣っていたが、彼女のことをじっくり知り得なかったわけじゃない。自分が面食いだとも思わないが。まったく因果な人生だ。宿無し吟唱詩人の愉快な冒険、ウィットとペンと美声をよすがに生きてきた。よし、もう一度やってみよう。
+
+汝は狩人、高貴な生まれ
+正しき勇者は皆、知っている
+汝の細君を愛して称えん
+落ち込む彼女を励まさん
+ぐず婆さん！ ぐず婆さん！
+
+これは一体どういう歌なんだ？ インスピレーションが切れた。酒でも飲んで酔っ払うか。最後にもう一回やってから、豪華な床につくとしよう。
+
+この世の美しき淑女たちへ
+これはか弱き男を称える歌
+エルビンでも、カルウィンでも、グレアでもない
+なぜなら彼女らの言葉は毒のひと刺し
+
+ぐわっ、あまりに陳腐！ こんな歌ではクルリコン中の麗らかな乙女が逃げ出してしまう。そういった乙女は何人もいないがね。もっと誠実にいこう。理想の恋人を惨めに描いても、吟遊詩人は女性のハートを奪えない。ハート以外の場所も。ようやくこの決定的真理に気づいた。もっと昔に気づいてて然るべきなんだろうが、ようやく分かった。
+
+女性が聞きたいのは質実剛健なる男の話だけ。決めたぞ。これからは掛け値なしの無頼漢の物語を書こう。"	"这个讲的是我在海沫酒馆外面遇到的那个老傻瓜，他有个女儿身材很丰满，但长着一张有着破鼻子的狗头人的脸？他叫什么来着？杰拉德？戈弗里？格雷戈尔？该死的。我想不起来了。
+
+我写了一个可怜的老流浪汉，
+他有一个可怕的女儿
+她是一个丑陋可怕的尊容……
+是不是太残忍了？也许，是的。该死的。幽默不能显示我的力量。我想这是最好的结果。他的女儿也许在外貌方面极度欠缺，但这并没有妨碍我对她的了解。并不是说我有选择性。哦，我过的是一种麻烦的生活，一个流离失所的民谣歌手的快乐冒险，靠自己机智的笔锋和清澈的声音生存。让我们试试另一个，好吗？
+
+你们这些天生的猎人和贵族，
+所有勇敢的人都知道，
+关心和欣赏你任劳任怨的妻子，
+在她情绪低落的时候关心她；
+跛足的老女人！跛足的老女人！
+
+究竟是怎么回事？我的灵感枯竭了。我所需要的是一件好衣服。在我回到豪华的卧室之前，我将进行最后一次尝试。
+
+到处都是美丽的女人，
+我歌颂弱者；
+不是艾尔宾，不是卡尔文，也不是格拉尔，
+因为他们的话中有毒刺。
+
+该死的！我受够了这种乏味的平庸。我是不是要把克琉孔的每一个少女都赶走？容我提醒你，那并不是很多。我必须改正我的谎言。吟游诗人永远无法通过把她的求婚者描绘成一个坏蛋来赢得女士的心和其他部分。人们会认为我在很久以前就发现了这个强大的启示。显然情况并非如此。
+
+女性只希望听到英勇无畏和刚愎自用的故事。我必须下定决心，写更多关于坏蛋的故事。"	"{""place:sea-foam-tavern"":""accepted""}"	"{""place:sea-foam-tavern"":""needs-context""}"	"{""place:sea-foam-tavern"":""Candidate hit from the English source; verify this occurrence in context.""}"

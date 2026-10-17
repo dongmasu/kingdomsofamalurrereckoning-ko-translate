@@ -1,0 +1,48 @@
+{
+  "batch": 21438,
+  "entity_key": "person:vilsar",
+  "new_entities": 0,
+  "new_occurrences": 0,
+  "original_entity": {
+    "entity_key": "person:vilsar",
+    "english_canonical": "Vilsar",
+    "category": "person",
+    "korean_canonical": "빌사르(Vilsar)",
+    "english_aliases": "",
+    "korean_variants": "빌사르",
+    "evidence_ids": "default:32154",
+    "status": "confirmed",
+    "notes": "Confirmed personal name imported from D-20383; per-ID evidence in person-single-word-edits-D20383.tsv."
+  },
+  "updated_entity": {
+    "entity_key": "person:vilsar",
+    "english_canonical": "Oreyn Vilsar",
+    "category": "person",
+    "korean_canonical": "오레인 빌사르(Oreyn Vilsar)",
+    "english_aliases": "Vilsar",
+    "korean_variants": "빌사르|오레인 빌사르",
+    "evidence_ids": "default:32154|D-21438",
+    "status": "confirmed",
+    "notes": "Confirmed personal name imported from D-20383; per-ID evidence in person-single-word-edits-D20383.tsv. D-21438: The full English form Oreyn Vilsar is already owned by person:vilsar in all seven terminal occurrence decisions. Japanese オレイン・ヴィルサー, Chinese 奥瑞恩·维尔萨 and the existing Korean 오레인 빌사르(Oreyn Vilsar) agree. English 23730 identifies Marga Sammoc's lover eaten by Jottun. Promote the same stable entity to its complete name and retain Vilsar as an alias; do not add Oreyn, which also occurs in the deer/transformation story and requires separate contextual review. No prior person/key decision is reopened."
+  },
+  "initial_glossary_sha256": "8e8eb07d7b836a1d9f11d6a1e83bb953ee82b8c59df775eb04ceac73b407e313",
+  "final_glossary_sha256": "b69b685a8ea9784bf1a25f37398c6cb6b075ba21cfdf9f6a42d705c7757a4920",
+  "initial_occurrence_index_sha256": "b0a86aaec576b03dadaf35838e34456d3d3143d05176dfde9ecbfdffcd29f722",
+  "final_occurrence_index_sha256": "b0a86aaec576b03dadaf35838e34456d3d3143d05176dfde9ecbfdffcd29f722",
+  "csv_sha256_before": {
+    "affix": "9ae001a379b766612293d076eafb5b02a27ac2de70f05f2f98a706f7aef5607c",
+    "base": "cbf7c2c41a7c56e5c1828177492b3156097090e3bc66dd6fac0e6589e5470e27",
+    "default": "83070cc4c83f6691633c7f539fa70d493295c11577c9120c0668f3f7766ad9ca"
+  },
+  "csv_sha256_after": {
+    "affix": "9ae001a379b766612293d076eafb5b02a27ac2de70f05f2f98a706f7aef5607c",
+    "base": "cbf7c2c41a7c56e5c1828177492b3156097090e3bc66dd6fac0e6589e5470e27",
+    "default": "83070cc4c83f6691633c7f539fa70d493295c11577c9120c0668f3f7766ad9ca"
+  },
+  "residual_validation": [
+    "Source/index key differences: missing=0, documented exclusions=0, contextual extras=766, undocumented extras=0",
+    "Source/occurrence comparison: 40278 source matches, 41044 indexed matches, 73430 CSV rows",
+    "Terminal matches without a covering bilingual English label: 0"
+  ],
+  "verified": "Seven exact terminal full-name rows verified against their original manifests; all index bytes and translation CSV bytes preserved."
+}

@@ -1,0 +1,771 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"base"	"224"	"11"	"resource:sativa-fibers"	"accepted"	"사티바 섬유"	"사티바 섬유(Sativa Fibers)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"Sativa Fibers"	"サティヴァの葉"	"亚麻纤维"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"1282"	"11"	"resource:star-thistle"	"accepted"	"별엉겅퀴"	"별엉겅퀴(Star Thistle)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"Star Thistle"	"スターシスル"	"矢车菊"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"3209"	"11"	"resource:star-thistle"	"accepted"	"별 엉겅퀴"	"별엉겅퀴(Star Thistle)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"Star Thistle"	"スターシスル"	"矢车菊"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"3543"	"11"	"resource:black-cohosh"	"accepted"	"검은 승마"	"블랙 코호시(Black Cohosh)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology."	"Black Cohosh"	"ブラック・コホシュ"	"黑升麻"	"{""resource:black-cohosh"":""accepted""}"	"{""resource:black-cohosh"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"4128"	"11"	"resource:black-cohosh"	"accepted"	"검은 승마"	"블랙 코호시(Black Cohosh)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology."	"Black Cohosh"	"ブラック・コホシュ"	"黑升麻"	"{""resource:black-cohosh"":""accepted""}"	"{""resource:black-cohosh"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"190"	""	"resource:black-cohosh"	"not-an-issue"	"연금술 작업대에서 다음 재료를 사용하면 잃은 생명력을 회복하는 물약을 만들 수 있습니다:
+
+블랙 코호시(Black Cohosh) (3)
+엠버아이즈(Embereyes) (2)
+혈근초(Bloodroot) (1)"	"연금술 작업대에서 다음 재료를 사용하면 잃은 생명력을 회복하는 물약을 만들 수 있습니다:
+
+블랙 코호시(Black Cohosh) (3)
+엠버아이즈(Embereyes) (2)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology."	"A potion to restore lost health can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Embereyes (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、失われたライフを回復するポーションを調合できる:
+
+ブラック・コホシュ(3)
+エンバーアイズ(2)
+ブラッドルート(1)"	"一种能恢复失去的生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+灰烬之眼（2）
+血根草（1）"	"{""resource:black-cohosh"":""not-an-issue""}"	"{""resource:black-cohosh"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"5457"	""	"resource:sativa-fibers"	"not-an-issue"	"직조 사티바 섬유(Woven Sativa Fibers)는 매우 튼튼하고 질긴 재료라, {*3물리} 세계에 작용하는 물약을 만드는 데 가장 적합합니다."	"직조 사티바 섬유(Woven Sativa Fibers)는 매우 튼튼하고 질긴 재료라, {*3물리} 세계에 작용하는 물약을 만드는 데 가장 적합합니다."	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"Woven Sativa Fibers are among the toughest and most resilient materials, and are best used in potions that aim to deal with the {*3Physical} world."	"編んだサティヴァの葉はもっとも頑丈で回復力に富む素材で、{*3物理}世界に関連するポーションに使用されている。"	"编制好的亚麻纤维最强韧有弹力的材料之一，最适合用来制作处理 {*3物理} 世界的药水。"	"{""resource:sativa-fibers"":""not-an-issue""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"5745"	""	"resource:sativa-fibers|resource:star-thistle"	"accepted"	"다음 재료를 연금술 작업대에서 혼합하면 모든 공격 피해를 크게 높이는 물약을 만들 수 있습니다:
+
+사티바 섬유(Sativa Fibers) (4)
+스타 시슬(Star Thistle) (4)
+스카우드 나무껍질(Scarwood Bark) (3)
+운명의 정수(Essence of Fate) (1)"	"다음 재료를 연금술 작업대에서 혼합하면 모든 공격 피해를 크게 높이는 물약을 만들 수 있습니다:
+
+사티바 섬유(Sativa Fibers) (4)
+별엉겅퀴(Star Thistle) (4)
+스카우드 나무껍질(Scarwood Bark) (3)
+운명의 정수(Essence of Fate) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to greatly increase all your damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (4)
+Star Thistle (4)
+Scarwood Bark (3)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与えるあらゆるダメージを大幅に強化するポーションを調合できる
+
+サティヴァの葉(4)
+スターシスル(4)
+スカーウッドの樹皮(3)
+フェイトエッセンス(1)"	"一种可以大大提高你所有的伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（4）
+矢车菊（4）
+伤痕之木树皮（3）
+命运精华（1）"	"{""resource:star-thistle"":""accepted"",""resource:sativa-fibers"":""not-an-issue""}"	"{""resource:sativa-fibers"":""needs-context"",""resource:star-thistle"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context."",""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"6507"	""	"resource:star-thistle"	"accepted"	"다음 재료를 연금술 작업대에서 혼합하면 일정 시간 완전히 투명해지는 물약을 만들 수 있습니다:
+
+스타 시슬(Star Thistle) (2)
+크리플스포어 갓(Cripplespore Caps) (1)
+하늘꽃(Sky Blossom) (2)
+운명의 정수(Essence of Fate) (1)"	"다음 재료를 연금술 작업대에서 혼합하면 일정 시간 완전히 투명해지는 물약을 만들 수 있습니다:
+
+별엉겅퀴(Star Thistle) (2)
+크리플스포어 갓(Cripplespore Caps) (1)
+하늘꽃(Sky Blossom) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to render you completely invisible for a duration can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (2)
+Cripplespore Caps (1)
+Sky Blossom (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、一時的に姿を完全に透明化させるポーションを調合できる
+
+スターシスル(2)
+クリップルスポアの笠(1)
+スカイブロッサム(2)
+フェイトエッセンス(1)"	"一种能使你在一段时间内完全隐形的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（2）
+杀人菇伞盖（1）
+天空之花（2）
+命运精华（1）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"7423"	""	"resource:black-cohosh"	"not-an-issue"	"약효로 오래전부터 알려진 블랙 코호시(Black Cohosh) 뿌리를 잘게 썰어 다른 재료와 섞으면, 물약에 {*3체력}의 정수를 불어넣을 수 있다."	"약효로 오래전부터 알려진 블랙 코호시(Black Cohosh) 뿌리를 잘게 썰어 다른 재료와 섞으면, 물약에 {*3체력}의 정수를 불어넣을 수 있다."	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology."	"Long known for their medicinal properties, Black Cohosh roots can be shredded and combined with other Reagants to imbue a potion with the essence of good {*3Health}."	"昔から薬効があることで知られていたブラックコホシュの根を刻んで他の素材と組み合わせれば、{*3ライフ}のエッセンスをポーションに付与できる。"	"黑升麻的药用价值早已为人所知，它的根可以切碎并与其他药剂混合，使药水充满{*3生命}的精华。"	"{""resource:black-cohosh"":""not-an-issue""}"	"{""resource:black-cohosh"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"8966"	""	"resource:black-cohosh"	"not-an-issue"	"연금술 작업대에서 다음 재료를 사용하면 일정 시간 동안 적의 생명력을 흡수하는 물약을 만들 수 있습니다:
+
+블랙 코호시(Black Cohosh) (3)
+리치우드 나무껍질(Leechwood Bark) (3)
+스카우드 나무껍질(Scarwood Bark) (1)"	"연금술 작업대에서 다음 재료를 사용하면 일정 시간 동안 적의 생명력을 흡수하는 물약을 만들 수 있습니다:
+
+블랙 코호시(Black Cohosh) (3)
+리치우드 나무껍질(Leechwood Bark) (3)
+스카우드 나무껍질(Scarwood Bark) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology."	"A potion that enables you to absorb health from your enemies for a short duration can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Leechwood Bark (3)
+Scarwood Bark (1)"	"以下の素材を錬金術台で使えば、短時間ながら敵からライフを吸収する力が得られるポーションを調合できる
+
+ブラックコホシュ(3)
+リーチウッドの樹皮(3)
+スカーウッドの樹皮(1)"	"一种能让你在短时间内从敌人身上吸取生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+水蛭木树皮（3）
+伤痕之木树皮（1）"	"{""resource:black-cohosh"":""not-an-issue""}"	"{""resource:black-cohosh"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"9264"	""	"resource:star-thistle"	"accepted"	"너무 오래 자리를 비웠어, 내 사랑. 식어 버린 침대 시트가 그걸 말해 주네.
+
+장난꾸러기 같으니. 닭이 울기도 전에 내 방에서 빠져나가 내 욕망을 채워 주지 않고 달아났지? 별장 열쇠를 네게 준 내가 바보였어. 그 열쇠가 현관문만 연 게 아니란 건 우리 둘 다 알잖아. 자물쇠가 삐걱대던 소리가 아직도 귓가에 맴돌아. 침대 기둥이 회벽에 깊은 흠집까지 남겼지. 난 그걸 전리품처럼 여긴다네.
+
+그런데 넌 여기서 멀리 떨어져 있어. 네 목에 닿던 까칠한 수염도, 완벽한 입술 사이로 새어 나오던 부드러운 숨소리도 느낄 수 없을 만큼. 네 빈자리를 채워 줄 사람을 찾을 수야 있겠지만, 아무도 그러지 못하더군. 이 광활하고 어두운 라시르(Rathir)의 밤에 내가 외치고 싶은 이름은 오직 네 이름뿐이야.
+
+복슬복슬하고 엄격한 네 주인은 네 다정함을 알고 있을까? 웬딩의 창가에서 내게 사랑 노래를 불러 주던 밤이나, 황혼의 정원 깊숙이 별엉겅퀴 가지 아래서 시를 지어 주던 일을 말이야. 내 생각엔 모를 거야! 그에게 넌 그저 고용된 칼일 뿐이니까. 안타깝구나, 내 사랑. 넌 무기가 아니라 내 외로움이라는 상처를 감싸 안고 달래 주는 사람이건만. 가슴이 저릴 때마다 네 이름을 부른다네.
+
+어서 돌아와, 가시곰. 시트는 차가워지고 침대 기둥도 네가 다시 쿵쿵 울려 주길 기다려.
+
+클레나"	"너무 오래 자리를 비웠어, 내 사랑. 식어 버린 침대 시트가 그걸 말해 주네.
+
+장난꾸러기 같으니. 닭이 울기도 전에 내 방에서 빠져나가 내 욕망을 채워 주지 않고 달아났지? 별장 열쇠를 네게 준 내가 바보였어. 그 열쇠가 현관문만 연 게 아니란 건 우리 둘 다 알잖아. 자물쇠가 삐걱대던 소리가 아직도 귓가에 맴돌아. 침대 기둥이 회벽에 깊은 흠집까지 남겼지. 난 그걸 전리품처럼 여긴다네.
+
+그런데 넌 여기서 멀리 떨어져 있어. 네 목에 닿던 까칠한 수염도, 완벽한 입술 사이로 새어 나오던 부드러운 숨소리도 느낄 수 없을 만큼. 네 빈자리를 채워 줄 사람을 찾을 수야 있겠지만, 아무도 그러지 못하더군. 이 광활하고 어두운 라시르(Rathir)의 밤에 내가 외치고 싶은 이름은 오직 네 이름뿐이야.
+
+복슬복슬하고 엄격한 네 주인은 네 다정함을 알고 있을까? 웬딩의 창가에서 내게 사랑 노래를 불러 주던 밤이나, 황혼의 정원 깊숙이 별엉겅퀴(Star Thistle) 가지 아래서 시를 지어 주던 일을 말이야. 내 생각엔 모를 거야! 그에게 넌 그저 고용된 칼일 뿐이니까. 안타깝구나, 내 사랑. 넌 무기가 아니라 내 외로움이라는 상처를 감싸 안고 달래 주는 사람이건만. 가슴이 저릴 때마다 네 이름을 부른다네.
+
+어서 돌아와, 가시곰. 시트는 차가워지고 침대 기둥도 네가 다시 쿵쿵 울려 주길 기다려.
+
+클레나"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"You've been away too long, my love. The cold sheets betray you.
+
+You are a scamp, are you not, slipping from my chambers before the cock crowed and denying my desire its due? I should have known better than to give you the key to my cottage. We can agree that it opened far more than my front door, and that the squeak of the lock won't be fleeing these ears any time soon. My bedposts left quite a scar on the plaster, to be sure. I view them as trophies, I do.
+
+And here you are far from me, so far in fact that I can't feel the scraggly daggers of your beard against my neck, or hear the purr of your breath as it escapes your perfect lips. Yes, I could find one to fill your many spaces, but alas, none can. Your name is the only scream I wish to utter in these vast, dark Rathir nights.
+
+Does your fluffed and rigid master know of your sweetness, of the nights spent serenading me from my window on the Wending, or the poems composed beneath the bough of Star Thistle deep in the Twilight Garden? My guess is that he does not! You are but a hired blade to him. It is a pity, my love, for you are not a weapon but the very salve that cradles the wound of my loneliness. Every time I ache, I cry your name.
+
+Hurry home, Prickly Bear. My sheets grow cold, and my bedposts miss their clatter.
+
+Clena"	"早く戻ってきて。あなたのいないベッドは冷たいわ。
+
+あなたってひどい人。雄鶏が鳴く前に私の部屋から出ていって、燃え上がった私の欲望を置き去りにしていくなんて。コテージの鍵を渡すんじゃなかった。その鍵は玄関以上のものを開けてしまったのよ。そうでしょう？ 鍵がカチャリと回る音が耳から離れない。今でも聞こえてきそう。ベッドの柱が壁に当たって、大きな傷になっているわ。私にとっては勲章のようなものだけど。
+
+そして今、あなたは遠いところにいる。あまりに遠すぎて、私の首に触れるそのモジャモジャのあごひげすら感じられないし、あなたの完ぺきな唇から洩れる吐息も聞こえない。別の男であなたの空白を埋めようとしても、やっぱりだめ。できないの。この真っ暗でだだっ広いラシーアの夜に私が叫びたいのは、あなたの名前だけ。
+
+あなたのふわふわで厳格なご主人様は、あなたの優しさを知ってるのかしら。夜、ウェンディングの窓から愛の歌をささやいてくれるあなたや、黄昏の庭の奥に咲くスターシスルの枝の下で詩を創ってみせるあなたを。知っているはずがないわ。あなたは彼にとってただの傭兵。悲しいことね。だってあなたは武器ではなく、私の孤独を癒やしてくれるゆりかごなのに。胸が苦しくなるたびに、あなたの名前を呼んでるの。
+
+早く帰ってきて、ちくちくクマさん。シーツが冷たいの。早くベッドの柱を荒々しく揺さぶって。
+
+クレナ"	"你离开太久了，我的爱人。冰冷的床单暴露了你。
+
+你是一个人渣，不是吗？在公鸡啼鸣之前就从我的房间里溜走，不承认我的欲望是理所应当的？我就不应该把我的小屋的钥匙给你的。我们一致认为，它比我的前门大得多，而且锁上的吱吱声会在耳中萦绕很久的时间。说真的，我的床柱子在石膏上留下了一道伤疤。我视它们为战利品，不骗你。
+
+你现在离我很远，远到我都无法感觉到你那乱蓬蓬的胡子蹭着我的脖子，也听不到从你完美的嘴唇里呼出的呼噜声。是的，我可以找一个人来填补你留下的许多空白，但是，唉，没有人可以。你的名字是我在这茫茫黑夜中唯一想尖叫喊出的东西。
+
+你那纤弱死板的主人可知道你的甜蜜，可知道你曾在黄昏时，在我窗前为我唱小夜曲，又或者在微光花园的深处，在团团簇簇的矢车菊下为我作诗？我猜他不知道！对他来说，你不过是一个雇佣兵。我的爱人，这太可惜了，因为你不是一件武器，而是抚慰我孤独伤口的药膏。每一次我疼痛时，我都会哭喊你的名字。
+
+快点回家，毛熊。我的被褥变冷了，我的床柱也怀念它们的咔嗒声响。
+
+科琳娜"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"10809"	""	"resource:star-thistle"	"accepted"	"모든 능력의 위력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+스타 시슬(Star Thistle) (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"모든 능력의 위력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+별엉겅퀴(Star Thistle) (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to temporarily increase the power of all your Abilities can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (3)
+Scarwood Bark (3)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、全アビリティの威力を一時的に強化するポーションを調合できる:
+
+スターシスル(3)
+スカーウッドの樹皮(3)
+ブラッドルート(2)
+フェイトのエッセンス(1)"	"一种能暂时提高你的所有能力的威力的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（3）
+伤痕之木树皮（3）
+血根草（2）
+命运精华（1）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"10881"	""	"resource:star-thistle"	"accepted"	"스타 시슬을 조금 더 넣어 볼까..."	"별엉겅퀴(Star Thistle)를 조금 더 넣어 볼까..."	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"Perhaps a touch more Star thistle..."	"スターシスルをもうちょっと..."	"也许再多一棵矢车菊……"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"11069"	""	"resource:sativa-fibers"	"not-an-issue"	"다음 재료를 사용해 연금술 작업대에서 관통 피해량을 모두 높이는 물약을 만들 수 있다:
+
+스카우드 나무껍질(Scarwood Bark) (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (3)
+사티바 섬유(Sativa Fibers) (1)"	"다음 재료를 사용해 연금술 작업대에서 관통 피해량을 모두 높이는 물약을 만들 수 있다:
+
+스카우드 나무껍질(Scarwood Bark) (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (3)
+사티바 섬유(Sativa Fibers) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to increase all your Piercing damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarwood Bark (3)
+Scarlet Flowstone (3)
+Sativa Fibers (1)"	"以下の素材を錬金術台で使えば、敵に与える貫通ダメージを強化するポーションを調合できる
+
+スカーウッドの樹皮(3)
+スカーレットフローストーン(3)
+サティヴァの葉(1)"	"一种能提高你的所有穿透伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+伤痕之木树皮（3）
+猩红流石（3）
+亚麻纤维（1）"	"{""resource:sativa-fibers"":""not-an-issue""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"11096"	""	"resource:star-thistle"	"accepted"	"스타 시슬(Star Thistle)"	"별엉겅퀴(Star Thistle)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"Star Thistle"	"スターシスル"	"矢车菊"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"13802"	""	"resource:sativa-fibers"	"accepted"	"치명타 확률을 높이는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다:
+
+스카라브 소금(2)
+사티바 섬유(1)"	"치명타 확률을 높이는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다:
+
+스카라브 소금(2)
+사티바 섬유(Sativa Fibers)(1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to increase your chance to Critical Hit can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarab Salts (2)
+Sativa Fibers (1)"	"以下の素材を錬金術台で使えば、クリティカルヒットの発生率を高めるポーションを調合できる
+
+スカラベの塩(2)
+サティヴァの葉(1)"	"一种能够提高你的暴击几率的药水，可在炼金工作台使用下列试剂合成：
+
+甲虫盐（2）
+亚麻纤维（1）"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14578"	""	"resource:sativa-fibers"	"accepted"	"상술 스킬을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다:
+
+사티바 섬유(1)
+하늘꽃(Sky Blossom)(1)"	"상술 스킬을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다:
+
+사티바 섬유(Sativa Fibers)(1)
+하늘꽃(Sky Blossom)(1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to temporarily increase your Mercantile skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (1)
+Sky Blossom (1)"	"以下の素材を錬金術の作業台で使えば、商才スキルを一時的に上昇させるポーションを調合できる:
+
+サティヴァの葉(1)
+スカイ・ブロッサム(1)"	"一种可以暂时提高你的交易技能的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（1）
+天空之花（1）"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"15532"	""	"resource:sativa-fibers"	"accepted"	"연금술사 라일라 재닉(Janick)이 귀한 사티바 섬유 식물에 갈 수 있도록 도왔다. 고마움의 표시로 라일라는 자기 상품을 할인해 주고, 여동생 몰리의 서비스도 할인해 주기로 했다."	"연금술사 라일라 재닉(Janick)이 귀한 사티바 섬유(Sativa Fibers) 식물에 갈 수 있도록 도왔다. 고마움의 표시로 라일라는 자기 상품을 할인해 주고, 여동생 몰리의 서비스도 할인해 주기로 했다."	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"I helped alchemist Lila Janick get to her precious Sativa Fiber plants, and as a thank you she gave me a discount on her merchandise and her sister Molly's services."	"錬金術師のリラ・ジャニックを手伝い、貴重な植物のサティヴァの葉を収穫した。礼として、自分の商品と妹であるモリーのサービスを割引するという。"	"我帮助炼金术士莱拉·雅尼克获得了宝贵的亚麻纤维，作为答谢，她给予了我一定的商品折扣，她的姐妹莫莉也愿意为我提供帮助。"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"15591"	""	"resource:star-thistle"	"accepted"	"몰리를 만났어? 난 몰리를 좋아해. 몇 년째 못 만났지. 몰리는 연금술 이야기를 좋아하고, 난 직접 연금술을 하는 걸 좋아해. 별엉겅퀴를 먹어 봤어? 입안이 타오르지."	"몰리를 만났어? 난 몰리를 좋아해. 몇 년째 못 만났지. 몰리는 연금술 이야기를 좋아하고, 난 직접 연금술을 하는 걸 좋아해. 별엉겅퀴(Star Thistle)를 먹어 봤어? 입안이 타오르지."	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"You met Molly? I love Molly. We haven't seen each other for years. She likes to talk about alchemy, while I like to do it. Have you ever eaten Star Thistle? It burns."	"モリーに会ったの？ 彼女は大好きよ。もう何年も会ってないわ。錬金術の話をするのが好きなのよね。私は実践の方が好き。スターシスルを食べたことは？ とても刺激的よ"	"你见过莫莉了？我爱莫莉。我们好几年没见过面了。她喜欢谈炼金术的事，我也正喜欢炼金。你有没有驰过矢车菊？它能烧起来。"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"16097"	""	"resource:black-cohosh"	"accepted"	"이동 속도를 높이는 보조 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+혼돈의 정수(Chaos Essence) (2)
+블랙 코호시 (1)"	"이동 속도를 높이는 보조 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+혼돈의 정수(Chaos Essence) (2)
+블랙 코호시(Black Cohosh) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology."	"A utility potion boosting your movement speed can be mixed at an Alchemy Workbench using the following reagents:
+
+Chaos Essence (2)
+Black Cohosh (1)"	"以下の素材を錬金術の作業台で使えば、移動速度を強化するポーションを調合できる:
+
+混沌のエッセンス(2)
+ブラック・コホシュ(1)"	"一种可以提高你的移动速度的效用药水，可在炼金工作台使用下列试剂合成：
+
+混乱精华（2）
+黑升麻（1）"	"{""resource:black-cohosh"":""accepted""}"	"{""resource:black-cohosh"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18163"	""	"resource:black-cohosh|resource:sativa-fibers"	"not-an-issue"	"최대 체력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다:
+
+블랙 코호시(Black Cohosh) (2)
+사티바 섬유(Sativa Fibers) (2)"	"최대 체력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다:
+
+블랙 코호시(Black Cohosh) (2)
+사티바 섬유(Sativa Fibers) (2)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to temporarily increase your maximum Health can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (2)
+Sativa Fibers (2)"	"以下の素材を錬金術の作業台で使えば、ライフの最大値を一時的に増加させるポーションを調合できる:
+
+ブラック・コホシュ(2)
+サティヴァの葉(2)"	"一种可以暂时提高你的最大生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（2）
+亚麻纤维（2）"	"{""resource:black-cohosh"":""not-an-issue"",""resource:sativa-fibers"":""not-an-issue""}"	"{""resource:black-cohosh"":""needs-context"",""resource:sativa-fibers"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context."",""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18633"	""	"resource:sativa-fibers"	"not-an-issue"	"다음 재료를 연금술 작업대에서 섞으면 관통 피해를 높이는 물약을 만들 수 있습니다:
+
+스카우드 나무껍질(Scarwood Bark) (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (3)
+사티바 섬유(Sativa Fibers) (2)
+운명의 정수(Essence of Fate) (1)"	"다음 재료를 연금술 작업대에서 섞으면 관통 피해를 높이는 물약을 만들 수 있습니다:
+
+스카우드 나무껍질(Scarwood Bark) (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (3)
+사티바 섬유(Sativa Fibers) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to increase all your Piercing damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarwood Bark (3)
+Scarlet Flowstone (3)
+Sativa Fibers (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える貫通ダメージを強化するポーションを調合できる
+
+スカーウッドの樹皮(3)
+スカーレットフローストーン(3)
+サティヴァの葉(2)
+フェイトエッセンス(1)"	"一种能提高你的所有穿透伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+伤痕之木树皮（3）
+猩红流石（3）
+亚麻纤维（2）
+命运精华（1）"	"{""resource:sativa-fibers"":""not-an-issue""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"19317"	""	"resource:black-cohosh"	"not-an-issue"	"블랙 코호시(Black Cohosh)"	"블랙 코호시(Black Cohosh)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology."	"Black Cohosh"	"ブラック・コホシュ"	"黑升麻"	"{""resource:black-cohosh"":""not-an-issue""}"	"{""resource:black-cohosh"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"19398"	""	"resource:black-cohosh|resource:sativa-fibers"	"accepted"	"연금술 작업대에서 다음 시약을 사용해 최대 체력을 일시적으로 증가시키는 물약을 만들 수 있다:
+
+블랙 코호시(3)
+사티바 섬유(3)
+혈근초(Bloodroot)(1)
+운명의 정수(1)"	"연금술 작업대에서 다음 시약을 사용해 최대 체력을 일시적으로 증가시키는 물약을 만들 수 있다:
+
+블랙 코호시(Black Cohosh)(3)
+사티바 섬유(Sativa Fibers)(3)
+혈근초(Bloodroot)(1)
+운명의 정수(1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to temporarily increase your maximum Health can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Sativa Fibers (3)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、ライフの最大値を一時的に増加させるポーションを調合できる:
+
+ブラック・コホシュ(3)
+サティヴァの葉(3)
+ブラッドルート(1)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的最大生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+亚麻纤维（3）
+血根草（1）
+命运精华（1）"	"{""resource:black-cohosh"":""accepted"",""resource:sativa-fibers"":""accepted""}"	"{""resource:black-cohosh"":""needs-context"",""resource:sativa-fibers"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context."",""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21496"	""	"resource:sativa-fibers|resource:star-thistle"	"accepted"	"다음 시약을 연금술 작업대에서 섞으면 모든 피해량을 높이는 물약을 만들 수 있다:
+
+사티바 섬유 (3)
+스타 시슬 (3)
+스카우드 나무껍질(Scarwood Bark) (2)"	"다음 시약을 연금술 작업대에서 섞으면 모든 피해량을 높이는 물약을 만들 수 있다:
+
+사티바 섬유(Sativa Fibers) (3)
+별엉겅퀴(Star Thistle) (3)
+스카우드 나무껍질(Scarwood Bark) (2)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to increase all your damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (3)
+Star Thistle (3)
+Scarwood Bark (2)"	"以下の素材を錬金術台で使えば、敵に与えるあらゆるダメージを強化するポーションを調合できる
+
+サティヴァの葉(3)
+スターシスル(3)
+スカーウッドの樹皮(2)"	"一种能提高你的所有伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（3）
+矢车菊（3）
+伤痕之木树皮（2）"	"{""resource:star-thistle"":""accepted"",""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context"",""resource:star-thistle"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context."",""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21671"	""	"resource:black-cohosh|resource:sativa-fibers"	"not-an-issue"	"다음 재료를 사용하면 연금술 작업대에서 최대 체력을 일시적으로 높이는 물약을 만들 수 있다:
+
+블랙 코호시(Black Cohosh) (3)
+사티바 섬유(Sativa Fibers) (3)
+혈근초(Bloodroot) (1)"	"다음 재료를 사용하면 연금술 작업대에서 최대 체력을 일시적으로 높이는 물약을 만들 수 있다:
+
+블랙 코호시(Black Cohosh) (3)
+사티바 섬유(Sativa Fibers) (3)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to temporarily increase your maximum Health can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Sativa Fibers (3)
+Bloodroot (1)"	"以下の素材を錬金術台で使えば、ライフの最大値を一時的に増加させるポーションを調合できる
+
+ブラックコホシュ(3)
+サティヴァの葉(3)
+ブラッドルート(1)"	"一种可以暂时提高你的最大生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+亚麻纤维（3）
+血根草（1）"	"{""resource:black-cohosh"":""not-an-issue"",""resource:sativa-fibers"":""not-an-issue""}"	"{""resource:black-cohosh"":""needs-context"",""resource:sativa-fibers"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context."",""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"22794"	""	"resource:star-thistle"	"accepted"	"다음 재료를 연금술 작업대에서 섞으면 모든 능력의 위력을 일시적으로 높이는 물약을 만들 수 있습니다:
+
+별엉겅퀴(2)
+스카우드 나무껍질(Scarwood Bark)(2)"	"다음 재료를 연금술 작업대에서 섞으면 모든 능력의 위력을 일시적으로 높이는 물약을 만들 수 있습니다:
+
+별엉겅퀴(Star Thistle)(2)
+스카우드 나무껍질(Scarwood Bark)(2)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to temporarily increase the power of all your Abilities can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (2)
+Scarwood Bark (2)"	"以下の素材を錬金術の作業台で使えば、全アビリティの威力を一時的に強化するポーションを調合できる:
+
+スターシスル(2)
+スカーウッドの樹皮(2)"	"一种能暂时提高你的所有能力的威力的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（2）
+伤痕之木树皮（2）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"23567"	""	"resource:sativa-fibers|resource:star-thistle"	"accepted"	"연금술 작업대에서 다음 재료를 사용하면 모든 유형의 피해 저항을 높이는 물약을 만들 수 있습니다:
+
+사티바 섬유(Sativa Fibers) (3)
+스타 시슬(Star Thistle) (3)
+이사의 숨결(Ysa's Breath) (2)
+운명의 정수(Essence of Fate) (1)"	"연금술 작업대에서 다음 재료를 사용하면 모든 유형의 피해 저항을 높이는 물약을 만들 수 있습니다:
+
+사티바 섬유(Sativa Fibers) (3)
+별엉겅퀴(Star Thistle) (3)
+이사의 숨결(Ysa's Breath) (2)
+운명의 정수(Essence of Fate) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to increase all your resistance to all types of damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (3)
+Star Thistle (3)
+Ysa's Breath (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、あらゆる種類のダメージに対する耐性を強化するポーションを調合できる
+
+サティヴァの葉(3)
+スターシスル(3)
+イーサブレス(2)
+フェイトエッセンス(1)"	"一种能提高你对所有类型伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（3）
+矢车菊（3）
+伊萨之息（2）
+命运精华（1）"	"{""resource:star-thistle"":""accepted"",""resource:sativa-fibers"":""not-an-issue""}"	"{""resource:sativa-fibers"":""needs-context"",""resource:star-thistle"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context."",""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24258"	""	"resource:star-thistle"	"accepted"	"연금술 작업대에서 다음 재료를 사용해 원소 피해 저항력을 높이는 물약을 만들 수 있습니다:
+
+별엉겅퀴 (3)
+이사의 숨결(Ysa's Breath) (3)
+바닷아마(Seaflax) (1)"	"연금술 작업대에서 다음 재료를 사용해 원소 피해 저항력을 높이는 물약을 만들 수 있습니다:
+
+별엉겅퀴(Star Thistle) (3)
+이사의 숨결(Ysa's Breath) (3)
+바닷아마(Seaflax) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to increase your resistance to Elemental damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (3)
+Ysa's Breath (3)
+Seaflax (1)"	"以下の素材を錬金術の作業台で使えば、属性ダメージに対する耐性を強化するポーションを調合できる:
+
+スターシスル(3)
+イーサブレス(3)
+シーフラックス(1)"	"一种可以提高你对元素伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（3）
+伊萨之息（3）
+海亚麻（1）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"25090"	""	"resource:black-cohosh"	"accepted"	"연금술 작업대에서 다음 재료를 사용해 잃어버린 생명력을 회복하는 물약을 만들 수 있습니다:
+
+블랙 코호시 (2)
+엠버아이즈(Embereyes) (1)"	"연금술 작업대에서 다음 재료를 사용해 잃어버린 생명력을 회복하는 물약을 만들 수 있습니다:
+
+블랙 코호시(Black Cohosh) (2)
+엠버아이즈(Embereyes) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology."	"A potion to restore lost health can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (2)
+Embereyes (1)"	"以下の素材を錬金術の作業台で使えば、失われたライフを回復するポーションを調合できる:
+
+ブラック・コホシュ(2)
+エンバーアイズ(1)"	"一种能恢复失去的生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（2）
+灰烬之眼（1）"	"{""resource:black-cohosh"":""accepted""}"	"{""resource:black-cohosh"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28236"	""	"resource:sativa-fibers"	"accepted"	"사티바 섬유"	"사티바 섬유(Sativa Fibers)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"Sativa Fiber"	"サティヴァの葉"	"亚麻纤维"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28390"	""	"resource:star-thistle"	"accepted"	"회피 확률을 크게 높이는 강력한 보조 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다.
+
+혼돈의 정수(Chaos Essence) (3)
+원초의 이븐루트 (2)
+별엉겅퀴 (1)
+운명 정수 (1)"	"회피 확률을 크게 높이는 강력한 보조 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있습니다.
+
+혼돈의 정수(Chaos Essence) (3)
+원초의 이븐루트 (2)
+별엉겅퀴(Star Thistle) (1)
+운명 정수 (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"An especially potent utility potion boosting your evasion chance can be mixed at an Alchemy Workbench using the following reagents:
+
+Chaos Essence (3)
+Primal Evenroot (2)
+Star Thistle (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、回避率を高めるポーションを調合できる:
+
+混沌のエッセンス(3)
+プライマル・イーブンルート(2)
+スターシスル(1)
+フェイトのエッセンス(1)"	"一种可以提高你的躲避几率的特别有效的效用药水，可在炼金工作台使用下列试剂合成：
+
+混乱精华（3）
+原初晚根草（2）
+矢车菊（1）
+命运精华（1）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30300"	""	"resource:star-thistle"	"accepted"	"마법 치명타 확률을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+스카라베 소금 (3)
+별엉겅퀴 (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"마법 치명타 확률을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+스카라베 소금 (3)
+별엉겅퀴(Star Thistle) (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to increase your chance to Critical Hit with magic can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarab Salts (3)
+Star Thistle (2)
+Scarwood Bark (1)"	"以下の素材を錬金術の作業台で使えば、魔法でのクリティカルヒットの発生率を高めるポーションを調合できる:
+
+スカラベの塩(3)
+スターシスル(2)
+スカーウッドの樹皮(1)"	"一种能够提高你的魔法暴击几率的药水，可在炼金工作台使用下列试剂合成：
+
+甲虫盐（3）
+矢车菊（2）
+伤痕之木树皮（1）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30450"	""	"resource:sativa-fibers"	"accepted"	"물리 피해량을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+사티바 섬유 (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"물리 피해량을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:
+
+사티바 섬유(Sativa Fibers) (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to increase your Physical damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (3)
+Scarwood Bark (3)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える物理ダメージを強化するポーションを調合できる
+
+サティヴァの葉(3)
+スカーウッドの樹皮(3)
+ブラッドルート(2)
+フェイトエッセンス(1)"	"一种可以提高你的物理伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（3）
+伤痕之木树皮（3）
+血根草（2）
+命运精华（1）"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32503"	""	"resource:sativa-fibers"	"accepted"	"다음 시약을 사용해 연금술 작업대에서 치명타 확률을 높이는 물약을 조제할 수 있습니다:
+
+스카라브 소금 (3)
+사티바 섬유 (2)
+스카우드 나무껍질(Scarwood Bark) (2)
+운명의 정수 (1)"	"다음 시약을 사용해 연금술 작업대에서 치명타 확률을 높이는 물약을 조제할 수 있습니다:
+
+스카라브 소금 (3)
+사티바 섬유(Sativa Fibers) (2)
+스카우드 나무껍질(Scarwood Bark) (2)
+운명의 정수 (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to increase your chance to Critical Hit can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarab Salts (3)
+Sativa Fibers (2)
+Scarwood Bark (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、クリティカルヒットの発生率を高めるポーションを調合できる:
+
+スカラベの塩(3)
+サティヴァの葉(2)
+スカーウッドの樹皮(2)
+フェイトのエッセンス(1)"	"一种能够提高你的暴击几率的药水，可在炼金工作台使用下列试剂合成：
+
+甲虫盐（3）
+亚麻纤维（2）
+伤痕之木树皮（2）
+命运精华（1）"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32621"	""	"resource:black-cohosh"	"accepted"	"체력 재생을 빠르게 해 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+블랙 코호시(3)
+스칼렛 플로우스톤(Scarlet Flowstone)(2)
+혈근초(Bloodroot)(1)"	"체력 재생을 빠르게 해 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+블랙 코호시(Black Cohosh)(3)
+스칼렛 플로우스톤(Scarlet Flowstone)(2)
+혈근초(Bloodroot)(1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology."	"A potion of rapid Health Regeneration can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Scarlet Flowstone (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、ライフの自動回復を高速化するポーションを調合できる:
+
+ブラック・コホシュ(3)
+スカーレット・フローストーン(2)
+ブラッドルート(1)"	"一种能提供快速生命回复的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+猩红流石（2）
+血根草（1）"	"{""resource:black-cohosh"":""accepted""}"	"{""resource:black-cohosh"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"33812"	""	"resource:sativa-fibers"	"accepted"	"식물을 모아 팔고, 섞고, 먹어. 아직 용도를 알아내지 못한 것도 있어. 내가 가장 원하는 건 신선하고 아직 따지 않은 사티바 섬유야."	"식물을 모아 팔고, 섞고, 먹어. 아직 용도를 알아내지 못한 것도 있어. 내가 가장 원하는 건 신선하고 아직 따지 않은 사티바 섬유(Sativa Fibers)야."	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"I collect plants, to sell, to mix, to eat. Some of them I haven't figured out what to do with yet. What I'd love is some Sativa Fiber, fresh, and unpicked."	"集めた植物は売ったり、混ぜたり、食べたりする。用途が判明しないものもある。大好物は新鮮で摘み取られていないサティヴァの葉よ"	"我收集植物，出售、混合、食用。有些我还没想好怎么处理。我想要一些新鲜的、未经挑选的亚麻纤维。"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34913"	""	"resource:black-cohosh"	"accepted"	"연금술 작업대에서 다음 재료를 섞으면 체력이 빠르게 회복되는 물약을 만들 수 있습니다.
+
+블랙 코호시 (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"연금술 작업대에서 다음 재료를 섞으면 체력이 빠르게 회복되는 물약을 만들 수 있습니다.
+
+블랙 코호시(Black Cohosh) (3)
+스칼렛 플로우스톤(Scarlet Flowstone) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:7423 describes Black Cohosh roots used in potion making; both base labels and health recipes identify the same reagent. Japanese ブラック・コホシュ and Chinese 黑升麻 corroborate. Reuse the established paired 블랙 코호시 rather than the isolated 검은 승마 labels. Do not infer real-world pharmacology."	"A potion of rapid Health Regeneration can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Scarlet Flowstone (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、ライフの自動回復を高速化するポーションを調合できる
+
+ブラックコホシュ(3)
+スカーレットフローストーン(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种能提供快速生命回复的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+猩红流石（2）
+血根草（1）
+命运精华（1）"	"{""resource:black-cohosh"":""accepted""}"	"{""resource:black-cohosh"":""needs-context""}"	"{""resource:black-cohosh"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35585"	""	"resource:sativa-fibers"	"accepted"	"연금술 작업대에서 다음 재료를 섞으면 물리 피해량을 높이는 물약을 만들 수 있습니다.
+
+사티바 섬유 (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (1)"	"연금술 작업대에서 다음 재료를 섞으면 물리 피해량을 높이는 물약을 만들 수 있습니다.
+
+사티바 섬유(Sativa Fibers) (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to increase your Physical damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (3)
+Scarwood Bark (3)
+Bloodroot (1)"	"以下の素材を錬金術台で使えば、敵に与える物理ダメージを強化するポーションを調合できる
+
+サティヴァの葉(3)
+スカーウッドの樹皮(3)
+ブラッドルート(1)"	"一种可以提高你的物理伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（3）
+伤痕之木树皮（3）
+血根草（1）"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36590"	""	"resource:star-thistle"	"accepted"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+별엉겅퀴 (3)
+혈근초(Bloodroot) (1)"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+별엉겅퀴(Star Thistle) (3)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to temporarily increase your Max Mana can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (3)
+Star Thistle (3)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、マナの最大値を一時的に増加させるポーションを調合できる:
+
+ソフトスクラブル・パウダー(3)
+スターシスル(3)
+ブラッドルート(1)"	"一种可以暂时提高你的最大法力的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（3）
+矢车菊（3）
+血根草（1）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36871"	""	"resource:sativa-fibers"	"accepted"	"물리 피해 저항 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+사티바 섬유 (3)
+이사의 숨결(Ysa's Breath) (3)
+바닷아마(Seaflax) (2)
+운명의 정수 (1)"	"물리 피해 저항 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+사티바 섬유(Sativa Fibers) (3)
+이사의 숨결(Ysa's Breath) (3)
+바닷아마(Seaflax) (2)
+운명의 정수 (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"A potion to increase your resistance to Physical damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (3)
+Ysa's Breath (3)
+Seaflax (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、物理ダメージに対する耐性を強化するポーションを調合できる
+
+サティヴァの葉(3)
+イーサブレス(3)
+シーフラックス(2)
+フェイトエッセンス(1)"	"一种可以提高你对物理伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（3）
+伊萨之息（3）
+海亚麻（2）
+命运精华（1）"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36918"	""	"resource:star-thistle"	"accepted"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+별엉겅퀴 (3)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"최대 마나를 일시적으로 늘려 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+소프트스크래블 가루 (3)
+별엉겅퀴(Star Thistle) (3)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to temporarily increase your Max Mana can be mixed at an Alchemy Workbench using the following reagents:
+
+Softscrabble Powder (3)
+Star Thistle (3)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、マナの最大値を一時的に増加させるポーションを調合できる:
+
+ソフトスクラブル・パウダー(3)
+スターシスル(3)
+ブラッドルート(1)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的最大法力的药水，可在炼金工作台使用下列试剂合成：
+
+软爪石粉末（3）
+矢车菊（3）
+血根草（1）
+命运精华（1）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37439"	""	"resource:sativa-fibers"	"accepted"	"안녕. 날씨 참 좋네. 사티바 섬유(Sativa Fiber)를 봤어? 못 봤어도 괜찮아. 계속 찾아볼게. 날씨 참 좋다."	"안녕. 날씨 참 좋네. 사티바 섬유(Sativa Fibers)를 봤어? 못 봤어도 괜찮아. 계속 찾아볼게. 날씨 참 좋다."	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"Oh, hello. Lovely weather. Have you spotted any Sativa Fiber? It's okay if you haven't. I'll keep looking. Lovely weather."	"こんにちは。いい天気ね。サティヴァの葉は見かけた？ まだならいいわ。探してみる。いい天気だわ"	"哦，你好。天气真不错。你找到亚麻纤维了吗？没找到也没关系。我会接着找。天气真不错。"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38117"	""	"resource:star-thistle"	"accepted"	"별엉겅퀴 전달"	"별엉겅퀴(Star Thistle) 전달"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"Deliver the star thistle"	"スターシスルを届ける"	"送交矢车菊"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38435"	""	"resource:star-thistle"	"accepted"	"짧은 시간 동안 완전히 투명해지는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다.
+
+별엉겅퀴 (2)
+크리플스포어 갓(Cripplespore Caps) (1)
+하늘꽃(Sky Blossom)(2)"	"짧은 시간 동안 완전히 투명해지는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다.
+
+별엉겅퀴(Star Thistle) (2)
+크리플스포어 갓(Cripplespore Caps) (1)
+하늘꽃(Sky Blossom)(2)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to render you completely invisible for a short duration can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (2)
+Cripplespore Caps (1)
+Sky Blossom (2)"	"以下の素材を錬金術の作業台で使えば、短時間ながら姿を完全に透明化させるポーションを調合できる:
+
+スターシスル(2)
+クリップルスポア・キャップ(1)
+スカイ・ブロッサム(2)"	"一种能使你在短时间内完全隐形的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（2）
+杀人菇伞盖（1）
+天空之花（2）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38617"	""	"resource:star-thistle"	"accepted"	"연금술 작업대에서 다음 재료를 사용하면 디스펠 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+별엉겅퀴 (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"연금술 작업대에서 다음 재료를 사용하면 디스펠 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+별엉겅퀴(Star Thistle) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to temporarily increase your Dispelling skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、解呪スキルを一時的に上昇させるポーションを調合できる:
+
+スターシスル(2)
+スカイ・ブロッサム(2)
+ブラッドルート(2)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的驱散技能的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41575"	""	"resource:star-thistle"	"accepted"	"모든 능력의 위력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+별엉겅퀴 (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (1)"	"모든 능력의 위력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+별엉겅퀴(Star Thistle) (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+혈근초(Bloodroot) (1)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to temporarily increase the power of all your Abilities can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (3)
+Scarwood Bark (3)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、全アビリティの威力を一時的に強化するポーションを調合できる:
+
+スターシスル(3)
+スカーウッドの樹皮(3)
+ブラッドルート(1)"	"一种能暂时提高你的所有能力的威力的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（3）
+伤痕之木树皮（3）
+血根草（1）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41698"	""	"resource:star-thistle"	"accepted"	"원소 피해 저항을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+별엉겅퀴 (2)
+이사의 숨결(Ysa's Breath) (2)"	"원소 피해 저항을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+별엉겅퀴(Star Thistle) (2)
+이사의 숨결(Ysa's Breath) (2)"	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English default:48055 explicitly names Star Thistle wildgrass and its blossoms as a potion ingredient; recipes, gathering objectives and gardening prose corroborate. Japanese スターシスル supports the English name; Chinese consistently uses 矢车菊 but is not authority for identifying a real-world species. Keep the existing semantic 별엉겅퀴, unify its spacing and the 스타 시슬 form, and pair Star Thistle. The normalized vowel-ending name requires 을-to-를 at default:10881 and 이-to-가 at default:59501; these two particle corrections were identified in the independent pre-edit review. Preserve flowers/grass distinctions, quantities and all plant effects."	"A potion to increase your resistance to Elemental damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (2)
+Ysa's Breath (2)"	"以下の素材を錬金術の作業台で使えば、属性ダメージに対する耐性を強化するポーションを調合できる:
+
+スターシスル(2)
+イーサブレス(2)"	"一种可以提高你对元素伤害的抗性的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（2）
+伊萨之息（2）"	"{""resource:star-thistle"":""accepted""}"	"{""resource:star-thistle"":""needs-context""}"	"{""resource:star-thistle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41977"	""	"resource:sativa-fibers"	"accepted"	"거미 둥지를 없애 리라가 사티바 섬유를 수확할 수 있게 했다. 좋은 소식을 전하러 리라에게 돌아가야겠다. 여름의 요람을 돌아다니고 있을 것이다."	"거미 둥지를 없애 리라가 사티바 섬유(Sativa Fibers)를 수확할 수 있게 했다. 좋은 소식을 전하러 리라에게 돌아가야겠다. 여름의 요람을 돌아다니고 있을 것이다."	"English-first reagent consistency; exact aligned Japanese/Chinese retained in the manifest. Official Korean manual PDF pp. 4 and 8 supplies Alchemy, Reagent and Recipe context, not individual plant spellings. Preserve all quantities, effects, names outside the approved spans, tokens and exact line breaks; only the two documented Star Thistle particles change to fit the normalized name. English base:224 and recipes name Sativa Fibers; default:15532/33812/37439/41977/63566 corroborates singular Sativa Fiber as the harvested plant material. Japanese サティヴァの葉 and Chinese 亚麻纤维 support identity, but English Fibers controls the material noun. Reuse 사티바 섬유 and pair the complete canonical ingredient label. Preserve default:5457’s covering Woven Sativa Fibers annotation unchanged rather than duplicate it. Sativa Road is a distinct place; Sativa Stalk/Stalks and bare Sativa require their own scope. Register no bare Sativa alias."	"I've cleared out the spider's nest keeping Lila from harvesting the Sativa Fiber. I should return to Lila and give her the good news. She should be roaming the Cradle of Summer."	"リラがサティヴァの葉を収穫できるよう、スパイダーの巣を始末した。良い知らせをリラに伝えよう。""夏のゆりかご""をうろついているはずだ。"	"我清除了蜘蛛巢穴，莱拉可以自由采摘亚麻纤维了。我得将这个好消息告诉莱拉·雅尼克。她能够在夏之摇篮自由采集了。"	"{""resource:sativa-fibers"":""accepted""}"	"{""resource:sativa-fibers"":""needs-context""}"	"{""resource:sativa-fibers"":""Candidate hit from the English source; verify this occurrence in context.""}"

@@ -1,0 +1,32 @@
+# D-20740 Edit Addendum
+
+Latest verified proper-name batch: D-20740 (2026-10-15).
+Reviewed 26 distinct resource/ID/variant keys: {"not-an-issue"=>10, "accepted"=>16}.
+Groups: {"person:wencen"=>9, "person:holt"=>1, "person:airmer"=>3, "person:oleyn"=>2, "person:canwen"=>2, "person:egan"=>2, "person:etair"=>3, "person:ceanna"=>1, "person:farrara"=>2, "person:rast-brattigan"=>2, "person:owaiglyn"=>1}. Last reviewed key: default:64976: / person:rast-brattigan.
+Next batch: D-20741; first reviewed held indexed key: faction:house-of-pride / default:15644:.
+Indexed matches: 18493; accepted=11764, excluded=1220, not-an-issue=5497, uncertain=12.
+Remaining unreviewed indexed matches: 0, in 0 distinct CSV row keys.
+Reviewed unresolved indexed holds: 12, in 10 distinct CSV row keys.
+If only reviewed holds remain, continue discovery/residual checks; do not reopen them without new evidence.
+These are focused entity/row index states, not global translation totals.
+Sequential default review through ID 65134 remains completed and is not recounted.
+Full proper-name discovery/residual validation remains incomplete; do not claim overall completion.
+Active CSV SHA-256:
+- affix: `23e4e9e47f730d55b2a717619c7cc6245b72f135cf14d550ccac7928b41cbe1a`.
+- base: `54bcc7236fb53843dcbc8b8c3c0503d39dba8eb0608d0e5db46d1861cedf810e`.
+- default: `a7bb4831aa587d13b8253f973f236822b8cb4f38c3d54f7d5d80528091a33118`.
+Last batch pre-edit backups and byte validation:
+- default: 16 cells; pre `f7e8066c56706f9d905f6ac02a68a33b9451945d6561f24d6c3c8be4195e6050`; post `a7bb4831aa587d13b8253f973f236822b8cb4f38c3d54f7d5d80528091a33118`; backup `/private/tmp/ko-translate-backups/20261015/before-proper-name-D20740/locatexts_zh_cn.koalocatext_default.csv`.
+default: PASS 16 cells; 65135 ordered rows; masked non-target bytes + inverse equal backup; SHA-256 a7bb4831aa587d13b8253f973f236822b8cb4f38c3d54f7d5d80528091a33118
+Last actual CSV-edit backups (retained across no-edit batches):
+- default: 16 cells; pre `f7e8066c56706f9d905f6ac02a68a33b9451945d6561f24d6c3c8be4195e6050`; post `a7bb4831aa587d13b8253f973f236822b8cb4f38c3d54f7d5d80528091a33118`; backup `/private/tmp/ko-translate-backups/20261015/before-proper-name-D20740/locatexts_zh_cn.koalocatext_default.csv`.
+Aligned inventory: 73430 rows; SHA-256 `cb5305bab7a7af98d7f42d4b270c4787cfa663b33ca4af7025ff6f1964b4be5f`.
+Report: `work/zh_cn/audit/named-scope-review-D20740-20261015.md`.
+Addendum: `work/zh_cn/audit/named-scope-edit-addendum-D20740-20261015.md`.
+Exact source comparison manifest: `work/zh_cn/audit/proper-name-edits-D20740.tsv`.
+
+
+The byte-preserving editor and separate verifier checked BOM, the exact
+mixed line-ending sequence, headers, row count/order, keys/variants,
+target Texto values, unchanged non-target cells/bytes, and inverse
+reconstruction against byte-identical pre-edit backups.

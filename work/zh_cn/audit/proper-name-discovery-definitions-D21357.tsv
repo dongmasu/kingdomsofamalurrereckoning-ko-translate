@@ -1,0 +1,16 @@
+"entity_key"	"english_canonical"	"category"	"korean_canonical"	"english_aliases"	"korean_variants"	"evidence_ids"	"status"	"notes"
+"person:amman-the-clever"	"Amman the Clever"	"person"	"영리한 아만(Amman the Clever)"	"Amman"	"암만|아만 더 클레버"	"D-21357-D-21358"	"confirmed"	"English identifies Amman the Clever as the Fae mage/trickster who made
+the cursed Eye of Amman and hid treasure keys/statues. Japanese
+知恵者アマン/アマン and Chinese 智者安曼/安曼 corroborate; normalize
+아만/암만 and the untranslated epithet 더 클레버. Keep source-short
+Amman as 아만(Amman), and explicit full names as
+영리한 아만(Amman the Clever). Preserve full item labels atomically,
+including the distinct Eye of Amman. Seasonal keys and statues remain
+separate objects; no season or Esharra suffix is discarded.
+Default:9392 discusses Amman as a possible name in contrast to Casmaran
+without identifying the Fae trickster: exclude that occurrence from
+this person's scope and leave its source-faithful Korean untouched.
+The manual's setting, Fae/quest and equipment sections (PDF pp. 1, 7-8)
+provide context, not an exact Amman spelling. Preserve all unrelated
+narration, prior proper-name decisions, tokens and line breaks."
+"item:eye-of-amman"	"Eye of Amman"	"unique item"	"아만의 눈(Eye of Amman)"	""	"암만의 눈"	"D-21357-D-21358"	"confirmed"	"English default:9480/55176 identifies a cursed magical gem/amulet made by the Fae Amman, cleansed at Syl's altar and returned to one of two claimants. Japanese アマンの眼 and Chinese 安曼之眼 corroborate. Keep the object separate from its maker, and retain quest/book-heading contexts without inventing another object."

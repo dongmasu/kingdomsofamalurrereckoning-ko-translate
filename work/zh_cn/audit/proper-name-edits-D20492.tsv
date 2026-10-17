@@ -1,0 +1,67 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"5958"	""	"faction:house-of-ballads"	"accepted"	"발라드의 갑옷을 획득해 장착하기"	"발라드의 갑옷(Ballads armor)을 획득해 장착하기"	"EN Ballads armor, JA バラッドの防具, ZH 歌谣护甲 identify the shortened named armor phrase. Add its exact English wording as a bilingual compound exception, rather than inventing House of Ballads in the source. Faction affiliation remains unasserted."	"Loot and equip Ballads armor"	"バラッドの防具を入手し、装備する"	"洗劫并装备歌谣护甲"	""	"{""faction:house-of-ballads"":""uncertain""}"	"{""faction:house-of-ballads"":""D-20468: English says “Ballads armor” while Japanese uses only バラッド and Chinese 歌谣护甲; faction affiliation is plausible but not explicit enough to force House of Ballads here.""}"
+"default"	"5967"	""	"unique_item:cryamor"	"not-an-issue"	"크라이아모어(Cryamor)"	"크라이아모어(Cryamor)"	"EN bare Cryamor label leaves person-versus-pet-sword identity unresolved; both independently established entities use exactly 크라이아모어(Cryamor). JA/ZH likewise contain the same bare name. No material textual ambiguity remains, so retain the bilingual label as not-an-issue for display only, without asserting entity identity."	"Cryamor"	"クライアモア"	"克莱莫尔"	""	"{""unique_item:cryamor"":""uncertain""}"	"{""unique_item:cryamor"":""D-20489: unique_item:cryamor: Bare identical Cryamor label does not identify whether it is the person or the pet sword. Both use the same confirmed bilingual spelling; retain text, defer entity assignment only. Do not reuse a prior personal-name label disposition as independent identity evidence.""}"
+"default"	"7609"	""	"unique_item:cryamor"	"not-an-issue"	"크라이아모어(Cryamor)"	"크라이아모어(Cryamor)"	"EN bare Cryamor label leaves person-versus-pet-sword identity unresolved; both independently established entities use exactly 크라이아모어(Cryamor). JA/ZH likewise contain the same bare name. No material textual ambiguity remains, so retain the bilingual label as not-an-issue for display only, without asserting entity identity."	"Cryamor"	"クライアモア"	"克莱莫尔"	""	"{""unique_item:cryamor"":""uncertain""}"	"{""unique_item:cryamor"":""D-20489: unique_item:cryamor: Bare identical Cryamor label does not identify whether it is the person or the pet sword. Both use the same confirmed bilingual spelling; retain text, defer entity assignment only. Do not reuse a prior personal-name label disposition as independent identity evidence.""}"
+"default"	"11246"	""	"faction:house-of-pride"	"accepted"	"내 적은 가드플로(Gadflow)야. 프라이드(Pride)가 아니라고."	"내 적은 가드플로(Gadflow)야. 긍지의 집(House of Pride)가 아니라고."	"EN contrasts Gadflow against capitalized Pride as an enemy; JA プライド and ZH 高傲家族 (House/family) resolve the faction referent. Use the confirmed House of Pride canonical, not an abstract emotion."	"Gadflow is my enemy, not Pride."	"敵はガドフローだ。プライドではない"	"加德弗洛是我的敌人，高傲家族不是。"	""	"{""faction:house-of-pride"":""uncertain""}"	"{""faction:house-of-pride"":""D-20470: The English capitalized Pride may refer to the House of Pride, but the phrasing is poetic/elliptical or overlaps generic pride; Japanese/Chinese do not settle the exact faction reference. Retained unchanged.""}"
+"default"	"15644"	""	"faction:house-of-pride"	"uncertain"	"숲과 산기슭을 지나,
+골짜기와 푸른 초원을 지나,
+여름과 겨울, 낮과 밤을 지나,
+계절과 노래의 신성한 전당을 지나,
+복수와 긍지와 슬픔을 지나,
+페이사냥꾼(Faehunter)의 각반이 내딛는 발자국이 메아리친다."	"숲과 산기슭을 지나,
+골짜기와 푸른 초원을 지나,
+여름과 겨울, 낮과 밤을 지나,
+계절과 노래의 신성한 전당을 지나,
+복수와 긍지와 슬픔을 지나,
+페이사냥꾼(Faehunter)의 각반이 내딛는 발자국이 메아리친다."	"EN poetic Seasons/Vengeance/Pride/Sorrow stanza and JA transliterated names versus ZH abstract emotions leave a material choice between literal verse and full faction names. Retain verse without expanding absent House wording; explicit prose at 42093/47186 does not prove this poem must use the same expanded title."	"Through the woods and mountainside,
+Through the hollows and green meadow,
+Through the Summer, Winter, day and night,
+Through the hallowed halls of Seasons and song,
+Through the Vengeance, Pride, and Sorrow,
+Echo the footfalls of the Greaves of the Faehunter."	"森と山に、
+洞穴と草原に、
+夏、冬、昼と夜に、
+季節と歌の神聖な広間に、
+ヴェンジェンス、プライド、ソローに、
+フェイハンターのグリーブの音が響く"	"穿过森林和山岳，
+穿过山谷和青青牧场，
+度过冬夏和日夜，
+穿过四季神圣的大厅和歌唱，
+越过复仇、荣耀和悲伤，
+猎灵人护胫的脚步在回响。"	""	"{""faction:house-of-pride"":""uncertain""}"	"{""faction:house-of-pride"":""D-20470: The English capitalized Pride may refer to the House of Pride, but the phrasing is poetic/elliptical or overlaps generic pride; Japanese/Chinese do not settle the exact faction reference. Retained unchanged.""}"
+"default"	"38407"	""	"unique_item:cryamor"	"not-an-issue"	"크라이아모어(Cryamor)"	"크라이아모어(Cryamor)"	"EN bare Cryamor label leaves person-versus-pet-sword identity unresolved; both independently established entities use exactly 크라이아모어(Cryamor). JA/ZH likewise contain the same bare name. No material textual ambiguity remains, so retain the bilingual label as not-an-issue for display only, without asserting entity identity."	"Cryamor"	"クライアモア"	"克莱莫尔"	""	"{""unique_item:cryamor"":""uncertain""}"	"{""unique_item:cryamor"":""D-20489: unique_item:cryamor: Bare identical Cryamor label does not identify whether it is the person or the pet sword. Both use the same confirmed bilingual spelling; retain text, defer entity assignment only. Do not reuse a prior personal-name label disposition as independent identity evidence.""}"
+"default"	"42093"	""	"faction:house-of-pride|faction:house-of-sorrows|faction:house-of-vengeance"	"accepted"	"변화의 시대였다.
+계절은 늘 그렇듯 순환했지만, 땅속 깊은 곳엔 냉기가 도사리고 있었다.
+그것은 겨울의 추위가 아니었다.
+비탄과 긍지, 복수의 집 곁에서 새로운 혼란이 싹텄다. 지금껏 본 적 없는 마법이었다."	"변화의 시대였다.
+계절은 늘 그렇듯 순환했지만, 땅속 깊은 곳엔 냉기가 도사리고 있었다.
+그것은 겨울의 추위가 아니었다.
+비탄의 집(House of Sorrows)과 긍지의 집(House of Pride), 복수의 집(House of Vengeance) 곁에서 새로운 혼란이 싹텄다. 지금껏 본 적 없는 마법이었다."	"EN explicitly enumerates the Houses of Sorrows, Pride and Vengeance; JA ハウス・オブ・ソロー、プライド、ヴェンジェンス and ZH 悲伤、高傲和复仇家族 corroborate all three Houses. The earlier uncertain Pride disposition was unnecessary in this explicit context. Add the three established bilingual names while preserving all line breaks."	"It was a time of change.
+The cycles of the seasons turned as ever, but inside the bones of the earth, there lurked a cold.
+It was not the cold of Winter.
+Beside the Houses of Sorrows, Pride and Vengeance, a new turmoil fomented ‒ a magic hitherto unseen."	"変化の時だった。
+季節の""円環""はいつものように変わったが、大地の骨の中には冷気が隠れていた。
+それは冬の寒さではなかった。
+ハウス・オブ・ソロー、プライド、ヴェンジェンスの他に、新たな不安が生まれた。それはこれまで見たこともないような魔法"	"这是一个变革的时代。
+季节的轮回一如既往，但在大地的骨头里，潜伏着一种寒冷。
+这不是冬天的寒冷。
+在悲伤、高傲和复仇家族之外，一种新的骚动——一种迄今未见过的魔力——被煽动起来。"	""	"{""faction:house-of-pride"":""uncertain"",""faction:house-of-sorrows"":""excluded"",""faction:house-of-vengeance"":""excluded""}"	"{""faction:house-of-pride"":""D-20471: The English capitalized Pride may refer to the House of Pride, but the phrasing is poetic/elliptical or overlaps generic pride; Japanese/Chinese do not settle the exact faction reference. Retained unchanged."",""faction:house-of-sorrows"":""D-20476: English uses sorrow/sorrows in its ordinary emotional, seasonal, or story sense rather than identifying the House of Sorrows faction; Japanese/Chinese context supports the non-faction reading."",""faction:house-of-vengeance"":""D-20484: English uses vengeance as an ordinary concept or a distinct title/item rather than identifying the House of Vengeance faction; Japanese/Chinese context supports the non-faction reading.""}"
+"default"	"42985"	""	"unique_item:cryamor"	"not-an-issue"	"크라이아모어(Cryamor)"	"크라이아모어(Cryamor)"	"EN bare Cryamor label leaves person-versus-pet-sword identity unresolved; both independently established entities use exactly 크라이아모어(Cryamor). JA/ZH likewise contain the same bare name. No material textual ambiguity remains, so retain the bilingual label as not-an-issue for display only, without asserting entity identity."	"Cryamor"	"クライアモア"	"克莱莫尔"	""	"{""unique_item:cryamor"":""uncertain""}"	"{""unique_item:cryamor"":""D-20489: unique_item:cryamor: Bare identical Cryamor label does not identify whether it is the person or the pet sword. Both use the same confirmed bilingual spelling; retain text, defer entity assignment only. Do not reuse a prior personal-name label disposition as independent identity evidence.""}"
+"default"	"47186"	""	"faction:house-of-pride|faction:house-of-sorrows|faction:house-of-vengeance"	"accepted"	"변화의 시기였다.
+계절은 여느 때처럼 순환했지만, 대지의 뼛속에는 냉기가 도사리고 있었다.
+그것은 겨울의 냉기가 아니었다.
+비탄의 집과 긍지의 집, 복수의 집 곁에서 새로운 소요가 싹텄다. 지금껏 본 적 없는 마법이었다."	"변화의 시기였다.
+계절은 여느 때처럼 순환했지만, 대지의 뼛속에는 냉기가 도사리고 있었다.
+그것은 겨울의 냉기가 아니었다.
+비탄의 집(House of Sorrows)과 긍지의 집(House of Pride), 복수의 집(House of Vengeance) 곁에서 새로운 소요가 싹텄다. 지금껏 본 적 없는 마법이었다."	"EN explicitly enumerates the Houses of Sorrows, Pride and Vengeance; JA ハウス・オブ・ソロー、プライド、ヴェンジェンス and ZH 悲伤、高傲和复仇家族 corroborate all three Houses. The earlier uncertain Pride disposition was unnecessary in this explicit context. Add the three established bilingual names while preserving all line breaks."	"It was a time of change.
+The cycles of the seasons turned as ever, but inside the bones of the earth, there lurked a cold.
+It was not the cold of Winter.
+Beside the Houses of Sorrows, Pride and Vengeance, a new turmoil fomented ‒ a magic hitherto unseen."	"変化の時だった。
+季節の""円環""はいつものように変わったが、大地の骨の中には冷気が隠れていた。
+それは冬の寒さではなかった。
+ハウス・オブ・ソロー、プライド、ヴェンジェンスの他に、新たな不安が生まれた。それはこれまで見たこともないような魔法"	"这是一个变革的时代。
+季节的轮回一如既往，但在大地的骨头里，潜伏着一种寒冷。
+这不是冬天的寒冷。
+在悲伤、高傲和复仇家族之外，一种新的骚动——一种迄今未见过的魔力——被煽动起来。"	""	"{""faction:house-of-pride"":""uncertain"",""faction:house-of-sorrows"":""excluded"",""faction:house-of-vengeance"":""excluded""}"	"{""faction:house-of-pride"":""D-20471: The English capitalized Pride may refer to the House of Pride, but the phrasing is poetic/elliptical or overlaps generic pride; Japanese/Chinese do not settle the exact faction reference. Retained unchanged."",""faction:house-of-sorrows"":""D-20477: English uses sorrow/sorrows in its ordinary emotional, seasonal, or story sense rather than identifying the House of Sorrows faction; Japanese/Chinese context supports the non-faction reading."",""faction:house-of-vengeance"":""D-20484: English uses vengeance as an ordinary concept or a distinct title/item rather than identifying the House of Vengeance faction; Japanese/Chinese context supports the non-faction reading.""}"
+"default"	"62013"	""	"faction:house-of-valor"	"excluded"	"나는 엔가드(Engard)의 책무를 수행하는 엔가드의 원(Circle of Engard)을 이끌어. 동료들과 나는 용맹의 챔피언을 섬기지. 필멸자 사칭자가 아니라 엔가드라 불리는 페이를 말하는 거야."	"나는 엔가드(Engard)의 책무를 수행하는 엔가드의 원(Circle of Engard)을 이끌어. 동료들과 나는 용맹의 챔피언을 섬기지. 필멸자 사칭자가 아니라 엔가드라 불리는 페이를 말하는 거야."	"EN Champion of Valor is explicitly a title of the Fae Engard contrasted with the mortal pretender, not the House of Valor faction name. JA チャンピオン and ZH 冠军 corroborate a champion. Preserve title and exclude this House-entity candidate only."	"I direct the Circle of Engard in its duties. My allies and I serve the Champion of Valor ‒ not the mortal pretender, but the Fae known as Engard."	"サークル・オブ・エンガードを指揮するのが私の務めだ。我々はチャンピオンに仕えている。偽りのチャンピオンにではなく、エンガードの名で知られるフェイに"	"我指导恩加德教派履行自己的职责。我和我的盟友们为应用冠军服务——不是那个凡人冒牌货，而是一名被称为恩加德的灵族。"	""	"{""faction:house-of-valor"":""uncertain""}"	"{""faction:house-of-valor"":""D-20482: “Champion of Valor” may be the House of Valor title, but English does not name the House and Japanese does not disambiguate it from the distinct arena champion. Retained unchanged.""}"
+"default"	"62813"	""	"unique_item:cryamor"	"not-an-issue"	"크라이아모어(Cryamor)"	"크라이아모어(Cryamor)"	"EN bare Cryamor label leaves person-versus-pet-sword identity unresolved; both independently established entities use exactly 크라이아모어(Cryamor). JA/ZH likewise contain the same bare name. No material textual ambiguity remains, so retain the bilingual label as not-an-issue for display only, without asserting entity identity."	"Cryamor"	"Cryamor"	"Cryamor"	""	"{""unique_item:cryamor"":""uncertain""}"	"{""unique_item:cryamor"":""D-20490: unique_item:cryamor: Bare identical Cryamor label does not identify whether it is the person or the pet sword. Both use the same confirmed bilingual spelling; retain text, defer entity assignment only. Do not reuse a prior personal-name label disposition as independent identity evidence.""}"

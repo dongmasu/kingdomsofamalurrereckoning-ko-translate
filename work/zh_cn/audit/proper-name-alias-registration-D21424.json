@@ -1,0 +1,30 @@
+{
+  "batch": 21424,
+  "new_entities": 0,
+  "new_occurrences": 10,
+  "original_entity": {
+    "entity_key": "event:god-storm",
+    "english_canonical": "God Storm",
+    "category": "named event",
+    "korean_canonical": "신의 폭풍(God Storm)",
+    "english_aliases": "The God Storm",
+    "korean_variants": "신폭풍",
+    "evidence_ids": "D-21197|default:3411|default:7155|default:32097|default:35334|default:39650|default:61425",
+    "status": "confirmed",
+    "notes": "English identifies God Storm as the named Fae conflict; Japanese 神の嵐 and Chinese 上帝风暴 corroborate. Standardize as 신의 폭풍(God Storm), preserving the distinct and separately registered Withering War. English anchors identity and capitalization; Japanese ウルフパック/神の嵐 and Chinese 狼群/上帝风暴 corroborate. The official Korean manual provides general faction and history context but does not prescribe these specific names. Preserve generic wolf packs as ordinary nouns and do not conflate the separately registered Withering War."
+  },
+  "updated_entity": {
+    "entity_key": "event:god-storm",
+    "english_canonical": "God Storm",
+    "category": "named event",
+    "korean_canonical": "신의 폭풍(God Storm)",
+    "english_aliases": "The God Storm|Godstorm",
+    "korean_variants": "신폭풍|신들의 폭풍|고드스톰",
+    "evidence_ids": "D-21197|default:3411|default:7155|default:32097|default:35334|default:39650|default:61425|D-21424|default:50060",
+    "status": "confirmed",
+    "notes": "English identifies God Storm as the named Fae conflict; Japanese 神の嵐 and Chinese 上帝风暴 corroborate. Standardize as 신의 폭풍(God Storm), preserving the separately registered Withering War title. English anchors identity and capitalization; Japanese ウルフパック/神の嵐 and Chinese 狼群/上帝风暴 corroborate. The official Korean manual provides general faction and history context but does not prescribe these specific names. Preserve generic wolf packs as ordinary nouns and do not conflate the separately registered Withering War. D-21424: Godstorm is the closed compound spelling of the existing God Storm event, not a second entity. English default:50060 calls Godstorm the Fae battle called Withering War; default:61425 explicitly says God Storm, or Withering War. Japanese 神の嵐/ゴッドストーム and Chinese 神之风暴 corroborate the same event. These remain separate English title entries, not distinct historical events; this corrects only the misleading distinct wording in the D-21197 glossary notes. Retain existing 신의 폭풍, annotate the source-local spelling Godstorm, and do not reopen any prior God Storm or Withering War occurrence."
+  },
+  "initial_index_sha256": "887067d6dafd3db8424ec5061e6b2bd965bc719276756b6a2e552af1de724a7d",
+  "initial_glossary_sha256": "3da2f913ff6f0e5ec6e461a2bfb93dfedcbc8b357dfc735a247b5051d73cd197",
+  "verified": "Every prior occurrence disposition and evidence preserved; exactly ten new alias keys."
+}

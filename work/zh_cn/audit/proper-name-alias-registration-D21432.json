@@ -1,0 +1,71 @@
+{
+  "batch": 21432,
+  "entity_key": "person:wulf",
+  "new_entities": 0,
+  "new_occurrences": 0,
+  "reconciled_existing_source_rows": 20,
+  "candidate_refresh_terms_reconciled_from_D21431": 35,
+  "existing_candidate_phrases_with_added_contexts": 577,
+  "added_candidate_context_observations": 4460,
+  "exact_terminal_occurrence_links": 4461,
+  "context_link_status_counts": {
+    "not-an-issue": 848,
+    "accepted": 3138,
+    "excluded": 474,
+    "uncertain": 1
+  },
+  "context_link_provenance_counts": {
+    "prior-manifest": 4432,
+    "source-verified-no-edit": 11,
+    "source-verified-exclusion": 17,
+    "source-verified-restored-exclusion": 1
+  },
+  "original_entity": {
+    "entity_key": "person:wulf",
+    "english_canonical": "Wulf",
+    "category": "person",
+    "korean_canonical": "울프(Wulf)",
+    "english_aliases": "",
+    "korean_variants": "울프",
+    "evidence_ids": "default:8203|D-21204|default:53060|default:5744|default:60091|default:63810|default:7130",
+    "status": "confirmed",
+    "notes": "Confirmed personal name imported from D-20383; per-ID evidence in person-single-word-edits-D20383.tsv. D-21204 compared all five Brother Wulf candidate rows; the Mitharu monk context and Chinese 修士 support 울프 수사(Brother Wulf)."
+  },
+  "updated_entity": {
+    "entity_key": "person:wulf",
+    "english_canonical": "Wulf Godfrey",
+    "category": "person",
+    "korean_canonical": "울프 고드프리(Wulf Godfrey)",
+    "english_aliases": "Wulf",
+    "korean_variants": "울프|울프 고드프리",
+    "evidence_ids": "default:8203|D-21204|default:53060|default:5744|default:60091|default:63810|default:7130|D-21432|default:1564|default:5915|default:6334|default:13135|default:13306|default:14389|default:15158|default:18105|default:19244|default:19993|default:29978|default:31120|default:33184|default:37656|default:38901|default:39507|default:40206|default:48778|default:51499|default:60665",
+    "status": "confirmed",
+    "notes": "Confirmed personal name imported from D-20383; per-ID evidence in person-single-word-edits-D20383.tsv. D-21204 compared all five Brother Wulf candidate rows; the Mitharu monk context and Chinese 修士 support 울프 수사(Brother Wulf). D-21432: The complete personal name Wulf Godfrey is an explicit English full-name form of the already registered Wulf. All 20 exact default source rows were checked against Japanese ウルフ・ゴドフリー and Chinese 伍尔夫·戈弗雷; their Korean cells already contain 울프 고드프리(Wulf Godfrey). Keep the stable entity key person:wulf, register Wulf Godfrey as its canonical full name, and retain Wulf as the short-name alias. Existing occurrence decisions and evidence are unchanged."
+  },
+  "initial_glossary_sha256": "8f9f9535eb7ba06032ab964cd52b530650aa90fff85ac19beb08f19ec1ed508a",
+  "final_glossary_sha256": "70797b1eff16dc4659a98f92217739b031fb438e2a73879b6b5a4e50e1c1e695",
+  "initial_occurrence_index_sha256": "f8969c0ea7a5e7d4e9eff8521cba576e8d7cf3d41963493d5687e89e804d822e",
+  "final_occurrence_index_sha256": "f8969c0ea7a5e7d4e9eff8521cba576e8d7cf3d41963493d5687e89e804d822e",
+  "initial_candidate_file_sha256": "c95d4014cb0f14afcf2819b44c5aea75de4c91a4993ec0e7280edace000d489e",
+  "final_candidate_file_sha256": "9c202b99b0b84721b419cd82572775a1064a02d0c21b172ab97b25b504118d73",
+  "csv_sha256_before": {
+    "affix": "9ae001a379b766612293d076eafb5b02a27ac2de70f05f2f98a706f7aef5607c",
+    "base": "e4521c29995176a29744b33c9ff7b1c67facf18715b08101489c78e2d8ad0ebc",
+    "default": "2ab3d1318242df6091d365fc43287522a541b304dee4de779c40740de56c5c85"
+  },
+  "csv_sha256_after": {
+    "affix": "9ae001a379b766612293d076eafb5b02a27ac2de70f05f2f98a706f7aef5607c",
+    "base": "e4521c29995176a29744b33c9ff7b1c67facf18715b08101489c78e2d8ad0ebc",
+    "default": "2ab3d1318242df6091d365fc43287522a541b304dee4de779c40740de56c5c85"
+  },
+  "prior_occurrence_status_counts": {
+    "not-an-issue": 12,
+    "accepted": 8
+  },
+  "residual_validation": [
+    "Source/index key differences: missing=0, documented exclusions=0, contextual extras=762, undocumented extras=0",
+    "Source/occurrence comparison: 40141 source matches, 40903 indexed matches, 73430 CSV rows",
+    "Terminal matches without a covering bilingual English label: 0"
+  ],
+  "verified": "All 20 exact source rows and existing terminal manifests agree across English, Japanese, Chinese and Korean; existing occurrence decisions/evidence and translation CSV bytes are unchanged."
+}

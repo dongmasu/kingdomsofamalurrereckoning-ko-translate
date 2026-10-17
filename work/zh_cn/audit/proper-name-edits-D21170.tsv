@@ -1,0 +1,731 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"37161"	""	"person:three-swords"	"accepted"	"삼검(Three Swords)이라는 이름만 알려진 바라니(Varani) 용병의 전설적인 칼 가운데 하나다. 오랜 세월에 닳고 녹슬었다."	"세 자루의 검(Three Swords)이라는 이름만 알려진 바라니(Varani) 용병의 전설적인 칼 가운데 하나다. 오랜 세월에 닳고 녹슬었다."	"English explicitly calls Three Swords a Varani blademaster/mercenary and explains the epithet comes from his favored three weapons; dialogue, corpse objectives and his legendary blades refer to the same person. Japanese スリーソード and Chinese 传说三剑 corroborate. Normalize the source-specific epithet variants without treating the three weapons as a separate entity. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"One of the legendary blades belonging to a Varani mercenary known only as Three Swords. It is weathered and rusty with age."	"スリーソードの名のみが知られている、ヴラニの傭兵の所有とされる伝説的な武器の一つ。長年の間に風化して錆びついてしまっている。"	"属于瓦拉尼雇佣兵的传说三剑中的一把。它随着时间风化生锈了。"	"{""person:three-swords"":""accepted""}"	"{""person:three-swords"":""needs-context""}"	"{""person:three-swords"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37304"	""	"resource:scarwood-bark"	"not-an-issue"	"연금술 작업대에서 다음 재료를 사용하면 번개 피해를 높이는 물약을 만들 수 있습니다:
+
+일 페탈(Eel Petal) (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"연금술 작업대에서 다음 재료를 사용하면 번개 피해를 높이는 물약을 만들 수 있습니다:
+
+일 페탈(Eel Petal) (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to increase your Lightning damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Eel Petal (2)
+Scarwood Bark (1)"	"以下の素材を錬金術の作業台で使えば、敵に与える電撃ダメージを強化するポーションを調合できる:
+
+イールの花びら(2)
+スカーウッドの樹皮(1)"	"一种可以提高你的雷电伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+鳗鱼花（2）
+伤痕之木树皮（1）"	"{""resource:scarwood-bark"":""not-an-issue""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"40539"	""	"resource:leechwood-bark"	"accepted"	"리치우드 나무껍질"	"리치우드 나무껍질(Leechwood Bark)"	"English lists Leechwood Bark as an alchemical reagent; Japanese リーチウッドの樹皮 and Chinese 水蛭木树皮 corroborate. Normalize the localized Leechwood stem and omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Leechwood Bark"	"リーチウッドの樹皮"	"水蛭木树皮"	"{""resource:leechwood-bark"":""accepted""}"	"{""resource:leechwood-bark"":""needs-context""}"	"{""resource:leechwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41575"	""	"resource:scarwood-bark"	"accepted"	"모든 능력의 위력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+별엉겅퀴 (3)
+스카우드 나무껍질 (3)
+블러드루트 (1)"	"모든 능력의 위력을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+별엉겅퀴 (3)
+스카우드 나무껍질(Scarwood Bark) (3)
+블러드루트 (1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to temporarily increase the power of all your Abilities can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (3)
+Scarwood Bark (3)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、全アビリティの威力を一時的に強化するポーションを調合できる:
+
+スターシスル(3)
+スカーウッドの樹皮(3)
+ブラッドルート(1)"	"一种能暂时提高你的所有能力的威力的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（3）
+伤痕之木树皮（3）
+血根草（1）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41594"	""	"resource:scarwood-bark"	"accepted"	"화염 피해를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트위그 (3)
+스카우드 나무껍질 (2)
+블러드루트 (1)
+운명의 정수 (1)"	"화염 피해를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+틴더트위그 (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+블러드루트 (1)
+운명의 정수 (1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to increase your Fire damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える火炎ダメージを強化するポーションを調合できる
+
+ティンダートウィッグ(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种可以提高你的火焰伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"42501"	""	"resource:leechwood-bark"	"not-an-issue"	"흡혈나무는 주변의 모든 식물을 목 졸라 죽을 때까지 영양분을 빼앗는 불길한 능력으로 숲의 전승에 잘 알려져 있다. 따라서 흡혈나무 껍질 가루가 물약에 {*3흡혈}과 같은 특성을 부여할 수 있다는 것도 그리 놀랍지 않다."	"흡혈나무는 주변의 모든 식물을 목 졸라 죽을 때까지 영양분을 빼앗는 불길한 능력으로 숲의 전승에 잘 알려져 있다. 따라서 흡혈나무 껍질 가루가 물약에 {*3흡혈}과 같은 특성을 부여할 수 있다는 것도 그리 놀랍지 않다."	"English lists Leechwood Bark as an alchemical reagent; Japanese リーチウッドの樹皮 and Chinese 水蛭木树皮 corroborate. Normalize the localized Leechwood stem and omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"The Leechwood Tree is renowned in woodland lore for its unsettling ability to strangle any and all other flora around it, and draw their nutrients away until they die. As such, it is perhaps unsurprising that powdered Leechwood Bark can grant its {*3Leech}-like nature to a potion."	"リーチウッドの木は周囲のあらゆる木々を締めつけ、枯れるまで養分を横取りするという特質故に森の伝承では有名である。樹皮を粉末化したリーチウッドの樹皮が、ポーションに{*3吸収}の特質を付与できるのもうなずける。"	"水蛭木在林地传说中有着令人不安的能力，它可以勒死周围的任何植物群，并带走营养直到它们死亡。同样，也许不足为奇的是，水蛭木树皮粉末可以赋予药水它那{*3水蛭}的特性。"	"{""resource:leechwood-bark"":""not-an-issue""}"	"{""resource:leechwood-bark"":""needs-context""}"	"{""resource:leechwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"42742"	""	"resource:scarwood-bark"	"accepted"	"얼음 피해를 모두 증가시키는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있다:
+
+화이트 플레이크 (2)
+스카우드 껍질 (1)"	"얼음 피해를 모두 증가시키는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있다:
+
+화이트 플레이크 (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to increase all your Ice damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+White Flake (2)
+Scarwood Bark (1)"	"以下の素材を錬金術台で使えば、敵に与える冷気ダメージを強化するポーションを調合できる
+
+ホワイトフレーク(2)
+スカーウッドの樹皮(1)"	"一种可以提高你的寒冰伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+白垩片（2）
+伤痕之木树皮（1）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"42761"	""	"resource:scarwood-bark"	"accepted"	"화염 피해를 증가시키는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있다:
+
+팅더트위그 (2)
+스카우드 껍질 (1)"	"화염 피해를 증가시키는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있다:
+
+팅더트위그 (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to increase your Fire damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Tindertwig (2)
+Scarwood Bark (1)"	"以下の素材を錬金術台で使えば、敵に与える火炎ダメージを強化するポーションを調合できる
+
+ティンダートウィッグ(2)
+スカーウッドの樹皮(1)"	"一种可以提高你的火焰伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+火柴枝（2）
+伤痕之木树皮（1）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43146"	""	"resource:leechwood-bark"	"not-an-issue"	"일시적으로 설득 기술을 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+거머리나무 껍질 (2)
+하늘꽃 (2)
+블러드루트 (2)
+운명의 정수 (1)"	"일시적으로 설득 기술을 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+거머리나무 껍질 (2)
+하늘꽃 (2)
+블러드루트 (2)
+운명의 정수 (1)"	"English lists Leechwood Bark as an alchemical reagent; Japanese リーチウッドの樹皮 and Chinese 水蛭木树皮 corroborate. Normalize the localized Leechwood stem and omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to temporarily increase your Persuasion skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Leechwood Bark (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、説得スキルを一時的に上昇させるポーションを調合できる:
+
+リーチウッドの樹皮(2)
+スカイ・ブロッサム(2)
+ブラッドルート(2)
+フェイトのエッセンス(1)"	"一种可以暂时提高你的口才技能的药水，可在炼金工作台使用下列试剂合成：
+
+水蛭木树皮（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:leechwood-bark"":""not-an-issue""}"	"{""resource:leechwood-bark"":""needs-context""}"	"{""resource:leechwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43220"	""	"resource:scarwood-bark"	"accepted"	"혼돈 피해량을 크게 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+혼돈 정수 (3)
+스카우드 나무껍질 (2)
+블러드루트 (1)
+운명의 정수 (1)"	"혼돈 피해량을 크게 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+혼돈 정수 (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+블러드루트 (1)
+운명의 정수 (1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to greatly increase your Chaos damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Chaos Essence (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、敵に与える混沌ダメージを強化するポーションを調合できる:
+
+混沌のエッセンス(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトのエッセンス(1)"	"一种可以大大提高你的混乱伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+混乱精华（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"43292"	""	"resource:scarwood-bark"	"accepted"	"출혈 피해를 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+스칼렛 플로우스톤(Scarlet Flowstone) (3)
+스카우드 나무껍질 (2)
+블러드루트 (1)"	"출혈 피해를 높이는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있습니다:
+
+스칼렛 플로우스톤(Scarlet Flowstone) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+블러드루트 (1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to increase your Bleeding damage can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarlet Flowstone (3)
+Scarwood Bark (2)
+Bloodroot (1)"	"以下の素材を錬金術台で使えば、敵に与える出血ダメージを強化するポーションを調合できる
+
+スカーレットフローストーン(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)"	"一种可以提高你的流血伤害的药水，可在炼金工作台使用下列试剂合成：
+
+猩红流石（3）
+伤痕之木树皮（2）
+血根草（1）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"44187"	""	"person:three-swords"	"accepted"	"그가 즐겨 쓰던 무기가 세 자루라 '세 검'이라 불렸어."	"그가 즐겨 쓰던 무기가 세 자루라 '세 자루의 검(Three Swords)'이라 불렸어."	"English explicitly calls Three Swords a Varani blademaster/mercenary and explains the epithet comes from his favored three weapons; dialogue, corpse objectives and his legendary blades refer to the same person. Japanese スリーソード and Chinese 传说三剑 corroborate. Normalize the source-specific epithet variants without treating the three weapons as a separate entity. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"He was called ""Three Swords"" for the three weapons he favored."	"彼が好んだ三つの武器から、""スリーソード""と呼ばれていた"	"他因偏爱三种武器而被称为“传说三剑”。"	"{""person:three-swords"":""accepted""}"	"{""person:three-swords"":""needs-context""}"	"{""person:three-swords"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"45139"	""	"resource:scarwood-bark"	"accepted"	"스카우드 나무껍질"	"스카우드 나무껍질(Scarwood Bark)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Scarwood Bark"	"スカーウッドの樹皮"	"伤痕之木树皮"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"47071"	""	"unique item:honor-brands"	"accepted"	"새 페이(Fae) 블레이드를 좀 봐. 명예의 낙인(Honor Brands)이라고 불러. 이사(Ysa)에서 페이(Fae) 장인들이 직접 만든 진품이지."	"새 페이(Fae) 블레이드를 좀 봐. 아너 브랜드(Honor Brands)이라고 불러. 이사(Ysa)에서 페이(Fae) 장인들이 직접 만든 진품이지."	"English calls Honor Brands forged Faeblades, including counterfeit blades made by Brit Hagni/Codgan and later Ysa-made authentic examples. Japanese オナーブランド and Chinese 荣耀之刃/荣誉佩剑 corroborate a named blade line, not generic honor marks. Normalize transliteration and literal Korean forms; preserve the Ysa-qualified complete title at default 64046. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"You should see my new Faeblades. Honor Brands, they're called. Authentic, forged by expert Fae craftsmen here in Ysa."	"新調したフェイブレードをぜひ見てちょうだい。""オナーブランド""って言うの。イーサの一流フェイ職人の作品よ"	"你应该看看我的新灵剑。它们被称为荣誉佩剑。真品，由伊萨的灵族工匠打造。"	"{""unique item:honor-brands"":""accepted""}"	"{""unique item:honor-brands"":""needs-context""}"	"{""unique item:honor-brands"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"48137"	""	"place:obsidian-isle"	"accepted"	"엠버딥은 옵시디언 섬에 있는 드베르가의 도시다."	"엠버딥은 옵시디언 섬(Obsidian Isle)에 있는 드베르가의 도시다."	"English names the island location in repeated travel, ship and quest references. Japanese オブシディアン島 and Chinese 黑曜石岛 corroborate. Reuse the repeated phonetic 옵시디언 섬, rather than one-off 오브시디언 or literal 흑요석. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Emberdeep is a Dverga city on the Obsidian Isle."	"エンバーディープは、オブシディアン島にあるドゥバーガの都市です"	"深烬城是黑曜岛上的一座迪维尔干城市。"	"{""place:obsidian-isle"":""accepted""}"	"{""place:obsidian-isle"":""needs-context""}"	"{""place:obsidian-isle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"48254"	""	"resource:scarwood-bark"	"accepted"	"물리 피해를 높이는 물약은 아래 재료를 사용해 연금술 작업대에서 만들 수 있다:
+
+사티바 섬유 (2)
+스카우드 나무껍질 (2)"	"물리 피해를 높이는 물약은 아래 재료를 사용해 연금술 작업대에서 만들 수 있다:
+
+사티바 섬유 (2)
+스카우드 나무껍질(Scarwood Bark) (2)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to increase your Physical damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Sativa Fibers (2)
+Scarwood Bark (2)"	"以下の素材を錬金術台で使えば、敵に与える物理ダメージを強化するポーションを調合できる
+
+サティヴァの葉(2)
+スカーウッドの樹皮(2)"	"一种可以提高你的物理伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+亚麻纤维（2）
+伤痕之木树皮（2）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"48265"	""	"place:obsidian-isle"	"accepted"	"내가 저지른 일에는 변명의 여지가 없어. 변명할 수 있다고 말해 너를 모욕하진 않겠어. 날 알잖아. 충분히 고민하지 않고 이런 결정을 내릴 리 없다는 걸.
+
+친구여, 여러 해가 흘렀어. 사랑하는 가족과 함께 보낼 수도 있었던 시간이었지. 너와 나는 아름다운 날들을 많이 함께 보냈고, 그 시간은 언제나 내 마음 가까이에 있을 거야. 내가 기대받는 일을 해내려면 그 모든 밝은 기억이 필요해.
+
+데드 켈(Dead Kel)이 악당이라는 걸 알아. 그 사실을 잊지 않았어. 하지만 그는 자기 손에 있는 온갖 강압 수단을 써서라도 원하는 걸 얻을 거야. 내가 아니면 다른 누군가가 자원하겠지. 아니면 고문을 당해 억지로 나서거나. 적어도 나는 알고도, 기꺼이, 계획을 세워 이 결정을 내렸어.
+
+나는 데드 켈(Dead Kel)을 위해 이 부하들을 만들어 줄 거야. 그러면 그는 나를 옵시디언 섬으로 데려가겠지. 그곳에서 고향으로 돌아갈 배편을 마련할 수 있어. 이해하겠니, 콘래드? 빼앗긴 삶으로 돌아갈 기회를 얻게 될 거야. 우리가 늘 이야기하고, 섬의 기나긴 밤마다 꿈꾸던 일이야.
+
+언젠가 너도 행복을 찾을 거야. 파도 너머에서든, 여기 갤로우스 엔드(Gallows End)에서든. 내 안엔 네 일부가 함께할 거야.
+
+사랑을 담아,
+앵거라드"	"내가 저지른 일에는 변명의 여지가 없어. 변명할 수 있다고 말해 너를 모욕하진 않겠어. 날 알잖아. 충분히 고민하지 않고 이런 결정을 내릴 리 없다는 걸.
+
+친구여, 여러 해가 흘렀어. 사랑하는 가족과 함께 보낼 수도 있었던 시간이었지. 너와 나는 아름다운 날들을 많이 함께 보냈고, 그 시간은 언제나 내 마음 가까이에 있을 거야. 내가 기대받는 일을 해내려면 그 모든 밝은 기억이 필요해.
+
+데드 켈(Dead Kel)이 악당이라는 걸 알아. 그 사실을 잊지 않았어. 하지만 그는 자기 손에 있는 온갖 강압 수단을 써서라도 원하는 걸 얻을 거야. 내가 아니면 다른 누군가가 자원하겠지. 아니면 고문을 당해 억지로 나서거나. 적어도 나는 알고도, 기꺼이, 계획을 세워 이 결정을 내렸어.
+
+나는 데드 켈(Dead Kel)을 위해 이 부하들을 만들어 줄 거야. 그러면 그는 나를 옵시디언 섬(Obsidian Isle)으로 데려가겠지. 그곳에서 고향으로 돌아갈 배편을 마련할 수 있어. 이해하겠니, 콘래드? 빼앗긴 삶으로 돌아갈 기회를 얻게 될 거야. 우리가 늘 이야기하고, 섬의 기나긴 밤마다 꿈꾸던 일이야.
+
+언젠가 너도 행복을 찾을 거야. 파도 너머에서든, 여기 갤로우스 엔드(Gallows End)에서든. 내 안엔 네 일부가 함께할 거야.
+
+사랑을 담아,
+앵거라드"	"English names the island location in repeated travel, ship and quest references. Japanese オブシディアン島 and Chinese 黑曜石岛 corroborate. Reuse the repeated phonetic 옵시디언 섬, rather than one-off 오브시디언 or literal 흑요석. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"There are no excuses for what I have done. I will not insult you by claiming that there is. You know me. I never would have made this decision without much deliberation.
+
+Years have passed, my friend, years that I could have spent with my beloved kin. You and I shared many beautiful days, and those hours will never be far from me. I will need every bright memory to do what is expected of me.
+
+I know that Dead Kel is a villain. I have not forgotten that. But he will get what he wants, through whatever coercion is his to employ. If not me, then another will volunteer for service, or be tortured into it. At least I make the decision knowingly, willingly, and with a plan.
+
+I will create these minions for Dead Kel, and then he will transport me to the Obsidian Isle, where I can arrange for passage home. Do you understand, Conrad? I will have a chance to return to the life that was taken from me. It's what we always talked about, what we dreamed of through every long island night.
+
+One day you will find your happiness, too, whether it's beyond the waves or here on Gallows End. I take a piece of you with me.
+
+Love,
+Angharad"	"自分がしたことの言い訳などできない。できるなどと主張して侮辱することはしない。私を良く知るあなたなら、悩み抜いた末での決断だと察してくれるでしょう。
+
+何年もの時が過ぎた。近しい人々と一緒に過ごせたかもしれない時間。あなたとは美しい日を幾度も共に過ごした。あの想い出は常に私の心の近くにあります。求められる役割を果たすためには、輝く想い出は一つでも多い方がいい。
+
+デッド・ケルが悪党なのは承知しています。そのことを忘れなどしません。けれど彼はあらゆる手段を駆使して、欲するものを必ず手に入れる。私でなければ、他の誰かが志願するか、拷問の挙げ句に屈服することでしょう。自分の意志で進んで、しかも考えがあって決意していることが大事なのです。
+
+私はデッド・ケルのために手下を作り出してやり、彼はオブシディアン島まで私を運んでくれる。そこから故郷へと渡ればいい。わかってもらえるかしら、コンラッド。無情にも奪われた暮らしに、戻れるかもしれない。我々が絶えず話題にし続けた、島の長い夜、朝まで見続けた夢なのです。
+
+いつの日か、あなたも自分の幸せを見つけることでしょう。それが波の向こうであれ、このガローズ・エンドであれ。あなたの心の一部は、常に私と共にあります。
+
+愛情を込めて
+アンガラード"	"我所做的事没有任何借口。我不会通过说有来侮辱你。你知道我的。我决不会不经过深思熟虑就做出这个决定。
+
+许多年过去了，我的朋友，许多我本可以和我挚爱的亲人一起度过的时光。你和我共度了许多美好的日子，那些时光永远不会离我而去。我需要每一段美好的回忆来完成他人对我的期望。
+
+我知道亡者克尔是个恶棍。我没有忘记那一点。但是他终将得到他想要的，为此他会不择手段。如果不是我，也会有另一个人会自愿服务，或者被折磨得愿意服务。至少我是有意识地、心甘情愿地、有计划地做出这个决定的。
+
+我将为亡者克尔创造这些仆从，然后他将把我带到黑曜石岛，在那里我可以安排回家的事宜。你能理解吗，康拉德？我将有机会找回被夺走的生活。这是我们经常谈论的话题，是我们在每个漫漫岛屿之夜的梦想。
+
+总有一天，你也会找到自己的幸福，不管它是在浪涛的彼岸，还是在这里的绞架角岛屿上。我随身带着你的一部分。
+
+爱你的，
+安哈蕾德"	"{""place:obsidian-isle"":""accepted""}"	"{""place:obsidian-isle"":""needs-context""}"	"{""place:obsidian-isle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"49058"	""	"person:three-swords"	"accepted"	"그는 날 이겼지만 목숨 대신 내 검 헬베인을 가져갔어. 스리 소드가 죽은 곳을 찾아 검을 되찾아 줘."	"그는 날 이겼지만 목숨 대신 내 검 헬베인을 가져갔어. 세 자루의 검(Three Swords)가 죽은 곳을 찾아 검을 되찾아 줘."	"English explicitly calls Three Swords a Varani blademaster/mercenary and explains the epithet comes from his favored three weapons; dialogue, corpse objectives and his legendary blades refer to the same person. Japanese スリーソード and Chinese 传说三剑 corroborate. Normalize the source-specific epithet variants without treating the three weapons as a separate entity. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"He bested me, and instead of taking my life, he took my sword, Hellbane. I want you to find where Three Swords died and retrieve the weapon."	"彼は私を打ち負かし、命の代わりに剣を... ヘルベインを奪った。スリーソードが死んだ場所を見つけ出し、武器を取り戻してほしい"	"他曾击败了我，但没有杀我，而是夺走了我的剑，地狱灾祸。我希望你找到传说三剑死的地方并找到他的武器。"	"{""person:three-swords"":""accepted""}"	"{""person:three-swords"":""needs-context""}"	"{""person:three-swords"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"49084"	""	"place:obsidian-isle"	"accepted"	"한때 엠버딥의 남자들은 모두 ‘맨다리 자매’ 중 한 명에게 열렬히 빠져 있었다. 아스트리드, 토라, 헬가. 셋 중 누가 가장 아름답고 매혹적인지 가리기는 어려웠고, 그 때문에 많은 드워프가 목숨이나 팔다리를 잃었다.
+
+자매들이 어디서 왔는지는 알려지지 않았지만, 아주 어릴 때 집을 뛰쳐나온 것으로 여겨진다. 왜 그랬는지, 스스로 떠난 것인지 아니면 어린 시절부터 지닌 매혹적인 힘 때문이었는지는 짐작만 할 뿐이다. 그 뒤 자매들은 이곳저곳을 떠돌았다. 환대가 식거나, 흥분한 남자 무리와 분노한 여자들에게 쫓겨나기 전까지 한곳에 오래 머물지 않았다.
+
+드베르가의 배가 뗏목에 탄 자매들을 발견하면서 엠버딥 남자들과의 인연이 시작됐다. 자매들이 배에 오른 지 몇 분도 안 되어 그들의 존재가 큰 난투극을 불러왔다고 한다. 오랫동안 바다에 나와 있던 남자들로 가득한 배에서 소란이 이는 건 놀랄 일이 아니지만, 이번 다툼은 유례가 없었다. 자매들의 거부할 수 없는 아름다움에 더해, 키가 작은 드베르가에게는 그들의 큰 키까지 새로웠으니 선원들은 완전히 제정신을 잃었다.
+
+며칠 뒤 배는 예기치 않게 엠버딥으로 돌아왔고, 자매들은 배에서 내리라는 명령을 받았다. 선장은 자매들을 선실, 정확히는 자기 선실에 가두기 전에 선택지를 내밀었다. “육지로 내리든가, 널빤지에서 뛰어내리든가.” 바다 생활에 싫증이 난 자매들은 기꺼이 육지를 택했다.
+
+엠버딥에서도 자매들은 이전의 어떤 일보다 큰 소동을 일으켰다. 훤칠한 키와 짧은 치마를 즐겨 입는 취향 덕분에, 엠버딥에서 가장 키 큰 남자조차도 상상하지 못했던 매혹적인 모습을 볼 수 있었다. 키가 작은 남자들은 그보다도 더 숨 막히는 광경을 보았다고 했다.
+
+자매들은 아름답고 이국적일 뿐 아니라, 저마다 다른 방식으로 남자를 홀렸다. 아스트리드는 금발과 긴 다리, 토라는 달콤한 목소리와 웃음, 헬가는 검 솜씨로 말이다. 특히 막내 헬가의 검 솜씨는 자주 화제가 됐지만, 정작 그녀가 칼을 다루는 모습을 봤다는 사람은 아무도 없었다.
+
+하지만 자매들의 체류는 예상대로 짧았다. 아름다운 여자는 남자와 여자 모두의 질투를 불러일으키기 마련이고, 맨다리 자매도 예외가 아니었다. 자매들이 옵시디언 섬 곳곳의 침실에 드나들기 시작하자, 드워프 대가문의 여자들이 자매들을 쫓아내라며 아우성쳤다. 그러나 의회의 남자 의원들은 모두 자매들에게 홀딱 빠져 있었고, 추방을 거부했다.
+
+그러던 중 자매 셋이 라시르 사절의 침실에서 발견됐다. 사절은 도망쳤지만 자매들은 그러지 못했다. 서둘러 열린 재판에서 자매들은 평화를 어지럽히고 그 밖의 도덕적 문란을 저지른 죄로 유죄 판결을 받아 바다에 던져지는 형을 선고받았다. 자매들은 자비를 구했지만 아무도 귀 기울이지 않았다. 셋은 차례로 깊은 바닷속에 숨을 거두었다.
+
+오늘날에도 드베르가 남자들은 자매들이 무사히 살아 허술한 뗏목 위에서 기다리고 있기를 바라며 몰래 바다로 나간다. 고향에 남은 이들도 맨다리 자매가 단 하룻밤이라도 돌아오기를 애타게 기다린다."	"한때 엠버딥의 남자들은 모두 ‘맨다리 자매’ 중 한 명에게 열렬히 빠져 있었다. 아스트리드, 토라, 헬가. 셋 중 누가 가장 아름답고 매혹적인지 가리기는 어려웠고, 그 때문에 많은 드워프가 목숨이나 팔다리를 잃었다.
+
+자매들이 어디서 왔는지는 알려지지 않았지만, 아주 어릴 때 집을 뛰쳐나온 것으로 여겨진다. 왜 그랬는지, 스스로 떠난 것인지 아니면 어린 시절부터 지닌 매혹적인 힘 때문이었는지는 짐작만 할 뿐이다. 그 뒤 자매들은 이곳저곳을 떠돌았다. 환대가 식거나, 흥분한 남자 무리와 분노한 여자들에게 쫓겨나기 전까지 한곳에 오래 머물지 않았다.
+
+드베르가의 배가 뗏목에 탄 자매들을 발견하면서 엠버딥 남자들과의 인연이 시작됐다. 자매들이 배에 오른 지 몇 분도 안 되어 그들의 존재가 큰 난투극을 불러왔다고 한다. 오랫동안 바다에 나와 있던 남자들로 가득한 배에서 소란이 이는 건 놀랄 일이 아니지만, 이번 다툼은 유례가 없었다. 자매들의 거부할 수 없는 아름다움에 더해, 키가 작은 드베르가에게는 그들의 큰 키까지 새로웠으니 선원들은 완전히 제정신을 잃었다.
+
+며칠 뒤 배는 예기치 않게 엠버딥으로 돌아왔고, 자매들은 배에서 내리라는 명령을 받았다. 선장은 자매들을 선실, 정확히는 자기 선실에 가두기 전에 선택지를 내밀었다. “육지로 내리든가, 널빤지에서 뛰어내리든가.” 바다 생활에 싫증이 난 자매들은 기꺼이 육지를 택했다.
+
+엠버딥에서도 자매들은 이전의 어떤 일보다 큰 소동을 일으켰다. 훤칠한 키와 짧은 치마를 즐겨 입는 취향 덕분에, 엠버딥에서 가장 키 큰 남자조차도 상상하지 못했던 매혹적인 모습을 볼 수 있었다. 키가 작은 남자들은 그보다도 더 숨 막히는 광경을 보았다고 했다.
+
+자매들은 아름답고 이국적일 뿐 아니라, 저마다 다른 방식으로 남자를 홀렸다. 아스트리드는 금발과 긴 다리, 토라는 달콤한 목소리와 웃음, 헬가는 검 솜씨로 말이다. 특히 막내 헬가의 검 솜씨는 자주 화제가 됐지만, 정작 그녀가 칼을 다루는 모습을 봤다는 사람은 아무도 없었다.
+
+하지만 자매들의 체류는 예상대로 짧았다. 아름다운 여자는 남자와 여자 모두의 질투를 불러일으키기 마련이고, 맨다리 자매도 예외가 아니었다. 자매들이 옵시디언 섬(Obsidian Isle) 곳곳의 침실에 드나들기 시작하자, 드워프 대가문의 여자들이 자매들을 쫓아내라며 아우성쳤다. 그러나 의회의 남자 의원들은 모두 자매들에게 홀딱 빠져 있었고, 추방을 거부했다.
+
+그러던 중 자매 셋이 라시르 사절의 침실에서 발견됐다. 사절은 도망쳤지만 자매들은 그러지 못했다. 서둘러 열린 재판에서 자매들은 평화를 어지럽히고 그 밖의 도덕적 문란을 저지른 죄로 유죄 판결을 받아 바다에 던져지는 형을 선고받았다. 자매들은 자비를 구했지만 아무도 귀 기울이지 않았다. 셋은 차례로 깊은 바닷속에 숨을 거두었다.
+
+오늘날에도 드베르가 남자들은 자매들이 무사히 살아 허술한 뗏목 위에서 기다리고 있기를 바라며 몰래 바다로 나간다. 고향에 남은 이들도 맨다리 자매가 단 하룻밤이라도 돌아오기를 애타게 기다린다."	"English names the island location in repeated travel, ship and quest references. Japanese オブシディアン島 and Chinese 黑曜石岛 corroborate. Reuse the repeated phonetic 옵시디언 섬, rather than one-off 오브시디언 or literal 흑요석. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"For a time, every man of Emberdeep was rapturously in love with one of the “Barelegs Sisters”: Astrid, Thora, and Helga. It was hard to argue – and many a dwarf lost life or limb trying – which of the three was the most beautiful and enchanting.
+
+The place whence they came is not known, but it is generally believed that they ran away from home when very young. One can only speculate on the reason and whether they left by their own choice or by consequence of their beguiling effect (even as very young ladies). They thence moved from place to place, never staying long before wearing out their welcome or fleeing from a frothing manly mob and an enraged womanly populace.
+
+Their time amongst the men of Emberdeep began when they were found floating aboard a raft by a Dverga ship. They were not, it is told, on board but a few minutes before their presence triggered something of a donnybrook. Such a ruckus would not be unexpected on a ship full of men long at sea, but this row was without equal. So irresistible were the sisters’ beauty and–to the diminutive Dverga–their novel tallness, that the crew took complete leave of their wits.
+
+After a few days, the ship returned unexpectedly to Emberdeep whereupon the sisters were ordered ashore. Before the captain confined them to quarters (specifically, the captain’s own quarters) he gave them a choice: “go ashore or off the plank.” The sisters, who’d grown bored of their time at sea, gladly obliged.
+
+In Emberdeep, the sisters caused a stir unmatched even by their previous exploits. Their towering height and preference for shortened dresses offered even the tallest man of Emberdeep an irresistible and heretofore unimagined view of their beauty. And the shorter men among them described an even more breathtaking vista.
+
+Not only were the sisters beautiful and exotic, but each was capable of driving a man mad in her own way: Astrid for her blond hair and long legs, Thora for her sweet voice and laugh, and Helga for her way with a sword. The last is curious as it was a fact often repeated of the youngest sister, but no one could ever recall seeing her handle a blade.
+
+But, their stay was to be predictably brief. Beautiful women always inflame jealousy in both men and women, and the Barelegs Sisters were no exception. Once they began appearing in bedrooms all over the Obsidian Isle, the women of the great dwarven houses howled for their expulsion. But the Council – its members, to a man, smitten with the sisters – refused.
+
+So it was, until all three sisters were discovered in the bedchambers of a Rathiri envoy. The envoy himself managed to flee, but the sisters were not so fortunate. A quickly staged trial found them guilty of a disquieting of the peace and other moral outrages and sentenced them cast into the sea. Their pleas for mercy fell on deaf ears as each surrendered their breath to the deep.
+
+To this day, Dvergan men take to the seas in secret hope of finding the sisters alive, well, and waiting aboard a flimsy raft, and those back home pine for the Barelegs Sisters to return, even if for only one night."	"ある時期、エンバーディープの男たちが一人残らず、アストリッド、ゾーラ、ヘルガの""裸足の姉妹""の誰かに夢中になっていたことがあった。3人のうち誰が最も美しく、魅惑的であるかを討論するのは困難で、かなりの数のドワーフが命や手足を失ったりしたのだった。
+
+三姉妹の出身地はわかっていなかったものの、非常に若くして家を出たものだと認識されている。彼女らがそうした理由、および家出が自分たちの意志によるものなのか、その魅力(非常に若い頃から美しかった)の結果としてなのかは、推測するしかない。以後は様々な場所を転々とし、移った先で歓迎されなくなると、飢えた男たちの集団と怒りを露わにした女性陣の集団の両方に追われながら、その場を離れるのだった。
+
+エンバーディープの男たちとの接点は、三姉妹がいかだで漂流しているところをドゥバーガの船により救出されたことで始まった。乗船して数分で船員たちは彼女らをめぐって乱闘状態になったと言われている。男だけで長期間洋上に出ている船では驚くことでもなかったが、騒ぎはかつてないほどのものとなった。三姉妹の美しさ、そして背が低めなドゥバーガたちにとって、彼女らの身長の高さが新鮮だったことも手伝って、船の乗員はすっかり正気を失ってしまったのだ。
+
+数日後、船は予定外にエンバーディープに戻り、三姉妹は上陸するよう命じられた。船長が彼女らを閉じこめる(もちろん、船長室に)前に、""上陸するか、板を歩かされて海に落とされるか""の選択肢を突きつけたと言われている。洋上の暮らしに退屈し始めていた三姉妹は、喜んで上陸を選んだという。
+
+エンバーディープでは三姉妹は自分たちとしても史上最大の大騒ぎを引き起こし、その身長の高さと、短めのドレスを好むという傾向ゆえ、エンバーディープ一の身長を誇る男といえども彼女らの美しさを耐え難い、想像を超えたような構図で見せつけられたのである。そして身長の低い男たちは、さらに息をのむような光景を口々に語ったという。
+
+三姉妹は美しく、魅惑的なだけでなく、それぞれが男を夢中にさせる異なる魅力の持ち主だった。アストリッドは金髪と長い脚、ゾーラは可愛らしい声と笑いかた、そしてヘルガは剣術の腕だった。とりわけヘルガの場合は、実際に剣を扱っている所を見た者がいないのに、繰り返し話題にされる点なのが奇妙である。
+
+あいにく、三姉妹の滞在はここでも案の定、短いものとなるのだった。美しい女性というものは男にも女にも、ねたみの炎をともすものであり、""裸足の姉妹""も例外ではなかった。三姉妹がオブシディアン島じゅうの寝室に出現するようになってからは、ドワーフの名家の女性たちが追放するようにと大声で騒ぎ立てた。しかし議会は一人残らず三姉妹の魅力に当てられてしまっており、これを却下したのだった。
+
+そんな日々が続いたものの、ある時ラシーアからの使者の寝室に三姉妹全員がいるのが判明し、使者本人は逃げ延びたものの、三姉妹はそこまで運が微笑まず、素早く実施された裁判で平和を乱した罪を始め、道徳的に言語道断な罪の数々で有罪となり、海に投げ入れて処刑することが決まってしまった。三姉妹の命乞いに応じる者はおらず、一人、また一人とその命を海の深みに奪われていったのだった。
+
+今でもなお、ドゥバーガの男たちが出港して海に出る際には、三姉妹が元気に生き延びて頼りないいかだで漂流しながらどこかで待っているのではないかと願望を抱き、陸で待つ男たちは""裸足の姉妹""が一夜でいいので戻っては来ないかと恋焦がれるのであった。"	"一时间，深烬城的每个男人都兴高采烈地爱上了“赤腿姐妹”的其中一位。阿斯特丽德、托拉和海尔格。不容置辩，她们三位是最漂亮，最摄人心魄的，很多矮人搭上了性命，抢断手脚。
+
+她们从哪里来没人知道，不过普遍都相信她们是小时候从家里跑出来的。推测原因，她们要么是自己选择离开，要么就是太过引人注目的结果（即便还是小女孩）。从那以后她们四处奔波，受尽欢迎之后总是待不了多久，要么从发泡的男人坑中逃出来，要么从愤怒的女人堆中逃出来。
+
+在一所迪维尔干船的救生筏上发现她们之后，她们就开始了和深烬城人相处的时光。据说，她们登船不到几分钟，她们的出现就引发了骚乱。对于长时间待在海上的男人来说，船上出现这样的骚乱也不是意料之外的事情，但这一次争吵可非比往常。三姐妹的美貌无人能挡，对矮小的迪维尔干人来说，她们的身高更是要命，结果船员们完全失去了理智。
+
+几天后，这艘船出乎意料地回到了深烬城，在那里要求三姐妹上岸。在船长将她们软禁到船舱（具体得讲，船长的船舱）之前，船长让她们做个选择：“要么上岸，要么跳海。”这三姐妹，厌倦了海上的时光，欣然接受了。
+
+就是在深烬城，姐妹们也引发了一场和之前的探险经历不相匹配的骚动。她们高耸的身材以及对短裙的偏爱，给深烬城哪怕是最高的男人一种无法抵抗，难以想象的美感。那些不那么高的人描述起来，就是一番更加惊心动魄的景象。
+
+三姐妹不仅漂亮，极富异域风情，而且她们每一个人都能以自己的方式让男人抓狂：阿斯特丽德一头金色的秀发，一双大长腿；托拉有她那甜美的声音与笑容；海尔格持剑的方式与众不同。最小的妹妹这一神奇特点常常为人称道，可就是没有人能回忆起她用剑的样子。
+
+然而，她们停留的时间总是可以预见的那么短。漂亮女人总是惹得男人也羡慕，女人也嫉妒，赤腿姐妹也不例外。她们只要一在黑曜岛上的寝室里出现，那些矮人房子里的妇女就开始怒吼要赶她们走。但是议会成员，都是被这帮姐妹俘获的男人，他们拒绝了。
+
+一直到在拉瑟里使者的寝室里发现这三姐妹。使者本人成功逃脱了，可三姐妹就没那么幸运了。法庭立即审判，三人扰乱秩序，行为失德，投入海中以示惩罚。三人虽恳求原谅，可众人听而不闻，最终向深海投出了性命。
+
+直到今天，迪维尔干人都秘密进海，希望能发现三姐妹还活着，期待有一艘小筏靠岸，那些回到家的人也期待赤腿姐妹归来，哪怕就一个晚上。"	"{""place:obsidian-isle"":""accepted""}"	"{""place:obsidian-isle"":""needs-context""}"	"{""place:obsidian-isle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"49453"	""	"resource:scarwood-bark"	"accepted"	"스카우드 나무껍질"	"스카우드 나무껍질(Scarwood Bark)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Scarwood Bark"	"スカーウッドの樹皮"	"伤痕之木树皮"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50395"	""	"resource:leechwood-bark"	"accepted"	"다음 재료를 사용해 연금술 작업대에서 모든 경험치 획득량을 일시적으로 높이는 물약을 만들 수 있다.
+
+프리즈미어 가루 (2)
+리치우드 껍질 (1)"	"다음 재료를 사용해 연금술 작업대에서 모든 경험치 획득량을 일시적으로 높이는 물약을 만들 수 있다.
+
+프리즈미어 가루 (2)
+리치우드 나무껍질(Leechwood Bark) (1)"	"English lists Leechwood Bark as an alchemical reagent; Japanese リーチウッドの樹皮 and Chinese 水蛭木树皮 corroborate. Normalize the localized Leechwood stem and omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to temporarily increase all Experience gains can be mixed at an Alchemy Workbench using the following reagents:
+
+Prismere Dust (2)
+Leechwood Bark (1)"	"以下の素材を錬金術の作業台で使えば、あらゆる経験値獲得を一時的に増加させるポーションを調合できる:
+
+プリスミアダスト(2)
+リーチウッドの樹皮(1)"	"一种能暂时提高所有经验获得的药水，可在炼金工作台使用下列试剂合成：
+
+赤晶矿尘（2）
+水蛭木树皮（1）"	"{""resource:leechwood-bark"":""accepted""}"	"{""resource:leechwood-bark"":""needs-context""}"	"{""resource:leechwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50420"	""	"unique item:honor-brands"	"accepted"	"명예의 낙인! 명예의 낙인 여기 있어요!"	"아너 브랜드(Honor Brands)! 아너 브랜드(Honor Brands) 여기 있어요!"	"English calls Honor Brands forged Faeblades, including counterfeit blades made by Brit Hagni/Codgan and later Ysa-made authentic examples. Japanese オナーブランド and Chinese 荣耀之刃/荣誉佩剑 corroborate a named blade line, not generic honor marks. Normalize transliteration and literal Korean forms; preserve the Ysa-qualified complete title at default 64046. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Honor brands! Honor brands here!"	"""オナーブランド""ならこちらで！"	"荣誉佩剑！这里有荣誉佩剑！"	"{""unique item:honor-brands"":""accepted""}"	"{""unique item:honor-brands"":""needs-context""}"	"{""unique item:honor-brands"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50436"	""	"person:three-swords"	"accepted"	"삼검의 시신 찾기"	"세 자루의 검(Three Swords)의 시신 찾기"	"English explicitly calls Three Swords a Varani blademaster/mercenary and explains the epithet comes from his favored three weapons; dialogue, corpse objectives and his legendary blades refer to the same person. Japanese スリーソード and Chinese 传说三剑 corroborate. Normalize the source-specific epithet variants without treating the three weapons as a separate entity. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Find the Corpse of Three Swords"	"スリーソードの遺体を探す"	"找到三剑客的尸体"	"{""person:three-swords"":""accepted""}"	"{""person:three-swords"":""needs-context""}"	"{""person:three-swords"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50439"	""	"resource:scarwood-bark"	"accepted"	"틴더트위그는 아이언홀드 통로에서 가장 쉽게 찾을 수 있고, 스카우드 껍질은 글렌다라 숲 북쪽 유적 근처에서 찾을 수 있다."	"틴더트위그는 아이언홀드 통로에서 가장 쉽게 찾을 수 있고, 스카우드 나무껍질(Scarwood Bark)은 글렌다라 숲 북쪽 유적 근처에서 찾을 수 있다."	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Tindertwig, which is easiest found in Ironhold Passage, and Scarwood Bark, which is found near the ruins in northern Glendara Wood."	"ティンダートウィッグならアイアンホールドの通路、スカーウッドの樹皮はグレンダーラの森の北側の遺跡近くで見つけられるだろう"	"火柴枝在铁堡通道最好找，还有伤痕之木树皮，在北格伦达拉森林的废墟附近。"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50503"	""	"resource:scarwood-bark"	"accepted"	"다음 재료를 사용해 연금술 작업대에서 독 피해량을 높이는 물약을 만들 수 있다.
+
+크리플스포어 갓 (3)
+스카우드 껍질 (2)
+블러드루트 (1)
+운명의 정수 (1)"	"다음 재료를 사용해 연금술 작업대에서 독 피해량을 높이는 물약을 만들 수 있다.
+
+크리플스포어 갓 (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+블러드루트 (1)
+운명의 정수 (1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to increase your Poison damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える毒ダメージを強化するポーションを調合できる
+
+クリップルスポアの笠(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种可以提高你的毒素伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"51715"	""	"resource:leechwood-bark"	"accepted"	"연금술 작업대에서 다음 재료를 섞으면 설득 기술을 일시적으로 높이는 물약을 만들 수 있습니다:
+
+리치우드 껍질(Leechwood Bark) (2)
+하늘꽃(Sky Blossom) (2)
+블러드루트(Bloodroot) (1)"	"연금술 작업대에서 다음 재료를 섞으면 설득 기술을 일시적으로 높이는 물약을 만들 수 있습니다:
+
+리치우드 나무껍질(Leechwood Bark) (2)
+하늘꽃(Sky Blossom) (2)
+블러드루트(Bloodroot) (1)"	"English lists Leechwood Bark as an alchemical reagent; Japanese リーチウッドの樹皮 and Chinese 水蛭木树皮 corroborate. Normalize the localized Leechwood stem and omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to temporarily increase your Persuasion skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Leechwood Bark (2)
+Sky Blossom (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、説得スキルを一時的に上昇させるポーションを調合できる:
+
+リーチウッドの樹皮(2)
+スカイ・ブロッサム(2)
+ブラッドルート(1)"	"一种可以暂时提高你的口才技能的药水，可在炼金工作台使用下列试剂合成：
+
+水蛭木树皮（2）
+天空之花（2）
+血根草（1）"	"{""resource:leechwood-bark"":""accepted""}"	"{""resource:leechwood-bark"":""needs-context""}"	"{""resource:leechwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"52354"	""	"resource:scarwood-bark"	"accepted"	"독 피해를 높이는 물약은 다음 재료를 연금술 작업대에서 섞어 만들 수 있습니다.
+
+크리플스포어 갓(Cripplespore Caps) (2)
+스카우드 껍질(Scarwood Bark) (1)"	"독 피해를 높이는 물약은 다음 재료를 연금술 작업대에서 섞어 만들 수 있습니다.
+
+크리플스포어 갓(Cripplespore Caps) (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to increase your Poison damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Scarwood Bark (1)"	"以下の素材を錬金術の作業台で使えば、敵に与える毒ダメージを強化するポーションを調合できる:
+
+クリップルスポア・キャップ(2)
+スカーウッドの樹皮(1)"	"一种可以提高你的毒素伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+伤痕之木树皮（1）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"52676"	""	"resource:scarwood-bark"	"accepted"	"치명타 확률을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+스카라베 소금(3)
+사티바 섬유(2)
+스카우드 나무껍질(1)"	"치명타 확률을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+스카라베 소금(3)
+사티바 섬유(2)
+스카우드 나무껍질(Scarwood Bark)(1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to increase your chance to Critical Hit can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarab Salts (3)
+Sativa Fibers (2)
+Scarwood Bark (1)"	"以下の素材を錬金術台で使えば、クリティカルヒットの発生率を高めるポーションを調合できる
+
+スカラベの塩(3)
+サティヴァの葉(2)
+スカーウッドの樹皮(1)"	"一种能够提高你的暴击几率的药水，可在炼金工作台使用下列试剂合成：
+
+甲虫盐（3）
+亚麻纤维（2）
+伤痕之木树皮（1）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"54169"	""	"resource:scarwood-bark"	"accepted"	"틴더트위그(Tindertwig)는 아이언홀드 통로(Ironhold Passage)에서 가장 쉽게 찾을 수 있고, 스카우드 껍질(Scarwood Bark)은 글렌다라 숲 북쪽 유적 근처에서 구할 수 있어."	"틴더트위그(Tindertwig)는 아이언홀드 통로(Ironhold Passage)에서 가장 쉽게 찾을 수 있고, 스카우드 나무껍질(Scarwood Bark)은 글렌다라 숲 북쪽 유적 근처에서 구할 수 있어."	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Tindertwig, which is easiest found in Ironhold Passage, and Scarwood Bark, which is found near the ruins in northern Glendara Wood."	"ティンダートウィッグならアイアンホールドの通路、スカーウッドの樹皮はグレンダーラの森の北側の遺跡近くで見つけられるだろう"	"火柴枝在铁堡通道最好找，还有伤痕之木树皮，在北格伦达拉森林的废墟附近。"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"54495"	""	"place:obsidian-isle"	"accepted"	"8일째: 라시르(Rathir)를 질서 있게 떠났다. 순조로운 출발과 순풍을 타고 이번 원정을 시작했다. 내 방식과는 다르지만 오브리를 이번 원정에 동행시키기로 했다. 제자와 조수는 늘 새로운 방식으로 사람을 성가시게 한다. 이번처럼 긴 항해에서는 더더욱 그렇다. 상냥하고 연구 실력도 훌륭한 아가씨지만, 발견의 시대에 경쟁력 있는 학자에게 필요한 독한 면은 부족한 것 같다. 두고 보자.
+
+14일째: 오늘은 바다가 거칠다. 오브리는 계속 투덜댄다. 육지에 도착하는 이야기만 한다. 프로스트브레이크 해(Frostbreak)에 사나운 날씨가 닥칠 줄 몰랐단 말인가? 이 광활하고 험한 바다는 내가 감히 셀 수 없을 만큼 많은 선원을 죽였다. 온화한 바다로 알려진 곳이 아니다. 오브리는 아래 선실에서 대부분의 시간을 보내며 새 논문, 드베르간(Dvergan)어에 관한 글을 쓰고 있다. 인상적인 작품이라는 건 부정할 수 없다. 서론을 고치도록 허락해 주었는데, 논증이 내 경력 초창기에 했던 연구를 떠올리게 했다. 내 연구에도 그런 생기가 아직 남아 있으면 좋으련만.
+
+22일째: 동쪽 바다에서 오브시디언 섬(Obsidian Isle)이 솟아올랐다. 항로를 벗어났다. 한참이나. 저 얼빠진 놈들 때문에 배와 승선자 전원이 물에 잠기지 않고 여기까지 온 게 놀라울 지경이다. 드베르간 탑의 밝고 깜빡이는 불빛 옆을 지나면서 오브리의 논문이 떠올랐다. 다시 읽게 해 달라고 부탁했다. 학자로서 성공하게 해 줄 만한 작품이다. 아니, 다시 성공하게 해 줄지도. 아, 다시 존경받을 수 있다면...
+
+41일째: 날씨가 변했다. 작은 배가 바람에 뒤집히지 않기를 빌며 갑판 아래 숨는 수밖에 없다. 갤로우스 엔드(Gallows End)가 가까워졌다. 갑판장이 번개가 번쩍이는 사이 모래 해안을 얼핏 봤다고 한다. 다른 것도 보인다고 한다... 해적이다. 데드 켈(Dead Kel)이 섬 주위를 배회한다는 소문은 들었지만, 늘 프로스트브레이크 해(Frostbreak)의 다른 이야기처럼 전설일 뿐이라 여겼다. 오브리는 폭풍 속에서도 잠들어 있다. 바보 같으니. 논문이 침대 곁에 아무렇게나 놓여 있다. 가져가기는 아주 쉽겠지. 하지만 그러면 나는 어떤 인간이 되는 걸까? 방금 무슨 소리지? 배에 누군가 올라탔다!"	"8일째: 라시르(Rathir)를 질서 있게 떠났다. 순조로운 출발과 순풍을 타고 이번 원정을 시작했다. 내 방식과는 다르지만 오브리를 이번 원정에 동행시키기로 했다. 제자와 조수는 늘 새로운 방식으로 사람을 성가시게 한다. 이번처럼 긴 항해에서는 더더욱 그렇다. 상냥하고 연구 실력도 훌륭한 아가씨지만, 발견의 시대에 경쟁력 있는 학자에게 필요한 독한 면은 부족한 것 같다. 두고 보자.
+
+14일째: 오늘은 바다가 거칠다. 오브리는 계속 투덜댄다. 육지에 도착하는 이야기만 한다. 프로스트브레이크 해(Frostbreak)에 사나운 날씨가 닥칠 줄 몰랐단 말인가? 이 광활하고 험한 바다는 내가 감히 셀 수 없을 만큼 많은 선원을 죽였다. 온화한 바다로 알려진 곳이 아니다. 오브리는 아래 선실에서 대부분의 시간을 보내며 새 논문, 드베르간(Dvergan)어에 관한 글을 쓰고 있다. 인상적인 작품이라는 건 부정할 수 없다. 서론을 고치도록 허락해 주었는데, 논증이 내 경력 초창기에 했던 연구를 떠올리게 했다. 내 연구에도 그런 생기가 아직 남아 있으면 좋으련만.
+
+22일째: 동쪽 바다에서 옵시디언 섬(Obsidian Isle)이 솟아올랐다. 항로를 벗어났다. 한참이나. 저 얼빠진 놈들 때문에 배와 승선자 전원이 물에 잠기지 않고 여기까지 온 게 놀라울 지경이다. 드베르간 탑의 밝고 깜빡이는 불빛 옆을 지나면서 오브리의 논문이 떠올랐다. 다시 읽게 해 달라고 부탁했다. 학자로서 성공하게 해 줄 만한 작품이다. 아니, 다시 성공하게 해 줄지도. 아, 다시 존경받을 수 있다면...
+
+41일째: 날씨가 변했다. 작은 배가 바람에 뒤집히지 않기를 빌며 갑판 아래 숨는 수밖에 없다. 갤로우스 엔드(Gallows End)가 가까워졌다. 갑판장이 번개가 번쩍이는 사이 모래 해안을 얼핏 봤다고 한다. 다른 것도 보인다고 한다... 해적이다. 데드 켈(Dead Kel)이 섬 주위를 배회한다는 소문은 들었지만, 늘 프로스트브레이크 해(Frostbreak)의 다른 이야기처럼 전설일 뿐이라 여겼다. 오브리는 폭풍 속에서도 잠들어 있다. 바보 같으니. 논문이 침대 곁에 아무렇게나 놓여 있다. 가져가기는 아주 쉽겠지. 하지만 그러면 나는 어떤 인간이 되는 걸까? 방금 무슨 소리지? 배에 누군가 올라탔다!"	"English names the island location in repeated travel, ship and quest references. Japanese オブシディアン島 and Chinese 黑曜石岛 corroborate. Reuse the repeated phonetic 옵시디언 섬, rather than one-off 오브시디언 or literal 흑요석. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Day 8: Departing Rathir in good order, we have begun this expedition with merry tidings and with a fair wind at our back. I've agreed to allow Aubrey to accompany me on this expedition, although it is contrary to my methods. Apprentices and assistants always find new ways to aggravate you, especially during a drawn out voyage such as this one. She is a sweet girl, and her work is extraordinary, but I fear she does not have the devilish nature required of a competitive scholar in this age of discovery. We shall see.
+
+Day 14: The seas are rough today. Aubrey will not cease her braying. All she talks of is reaching land. Did she not expect there to be ferocious weather upon the Frostbreak? This vast, troubled ocean has killed more sailors than I dare count. It is not known for its amiability. She spends much of her time in the cabin below, hard at work on a new paper, a discourse on the Dvergan tongue. It is impressive, that cannot be denied. She allows me to revise the introduction, and the arguments are reminiscent of some of my own studies from an earlier stage in my career. I only hope my own work still carries such a spark.
+
+Day 22: The Obsidian Isle rises from the eastern waters. We are off course ‒ far off course. These thick-headed miscreants, I am amazed they have had the skill to bring us this far without swamping the vessel and everyone aboard. As we pass by the bright, flickering fires of the Dvergan towers, I can't help but remember Aubrey's paper. She let me read it again. It is the kind of work that will make a career. Or, that will revive one. Oh, to be respected again....
+
+Day 41: The weather has turned. Our only recourse is to hide below decks, praying that the wind doesn't flip over our tiny little vessel. Gallows End is near. The boatswain claims he glimpsed its sandy shores in between flickers of lightning. There is something else, as well... pirates. Dead Kel is known to prowl the waters surrounding this isle, but I always just assumed he was a myth, like everything else in the Frostbreak. Aubrey sleeps through the maelstrom. Fool. Her paper sits there by her bedside, unattended. It would be so easy to take it. But what kind of man would that make me? What was that noise? We have been boarded!"	"8日目: ラシーアからの出立は幸先良好で、遠征の出だしは順風満帆と言える。私のやりかたとは違うが、今回のオーブリーの同伴を許すことにした。弟子や助手というものは必ず新たな方法で困らせてくれる。今回のような長めの旅となれば尚更だ。気立てがいい娘で、実績は素晴らしい。だが、この発見の多き時代に学者として一線を張るには、悪魔的なものを持ち合わせていなければならない。彼女にそれがあるのだろうか。まあ、いずれ分かる。
+
+14日目: 今日は海が荒れている。オーブリーは絶えずうめいている。陸に上がることしか頭にないようだ。フロストブレイク海の厳しい天候を予測しなかったというのか？ この広大で荒ぶる大海は、数え切れんほどの船乗りを犠牲にしている。愛想で知られているわけではない。彼女は時間の大半を、下の船室で新たな論文に費やしている。ドゥバーガの言葉に関する一編のようだ。読み応えがあるのは確かだ。導入部の手直しには応じてくれ、要旨には私がもっと若かった頃に行なった研究を思わせる点がある。私自身の研究にも、このぐらいの輝きが残されているといいのだが。
+
+22日目: 東方の波間にオブシディアン島が姿を現した。我々は予定航路を外れている、それも大幅に。ろくでなしどもめが。船を難破させて我々を全滅させずにここまで連れて来たのが驚きだ。ドゥバーガの塔の明るく、ちらつく灯の横を通りながら、オーブリーの論文を思い出さずにはいられなかった。もう一度読ませてもらったが、一流と認められるきっかけになるような仕事だ。あるいは、返り咲けるか。再び尊敬を集められればと思うと…
+
+41日目: 天候が悪化した。船倉に潜み、風が我らの小船を転覆させないことを祈るばかりだ。ガローズ・エンドが近い。甲板長が稲妻の輝きの合間に砂浜を目にしたと主張している。だが他にも何かいる。海賊だ。デッド・ケルは島の周囲の水域に現れると言われているが、フロストブレイク海の他の噂同様、昔からただの伝説だと思っていた。オーブリーは嵐の中でも眠っている。愚かな。論文が寝床のそばに置いたままになっている。手を伸ばせば届きそうだ。だがそんなことをしてみろ、自分ではいられなくなる。今の音は何だ？ ヤツらが乗り込んで来たのか！？"	"第八天：我们以良好的状态离开了拉瑟里，顺着潮汐和风向出发了。我已经同意让奥布里陪我一起去探险，尽管这并不符合我的一贯风格。学徒和助手总是会找到新的办法来激怒你，尤其是在这样的长途旅行中。她是一个可爱的女孩，她的工作也很出色，但我担心她不具备在这个探索的时代竞争激烈的学者所需要的那种邪恶的天性。我们会知道的。
+
+第十四天：今天的海况很差。奥布里不停地嚎叫。她只会说上岸。难道她没有预计到霜断海的天气会很恶劣吗？这片辽阔而混乱的海洋杀死的水手比我敢于统计的数量还多。它并不以和蔼可亲而闻名。她把大部分时间都花在下面的小屋里，努力地写一篇新论文——关于迪维尔干语的论述。不可否认，它很出色。她允许我修改引言，这些论点让我想起了我职业生涯早期的一些研究。我只希望我自己的著作还能出现这样的火花。
+
+第二十二天：黑曜岛从东部水域升起。我们偏离了航向——偏离了很远。这些蠢货，我很惊讶他们居然有本事把我们带到这么远的地方，而没有把船和船上的人一起翻到海里。当我们经过迪维尔干塔楼明亮闪烁的火焰时，我不禁想起了奥布里的论文。她又让我读了一遍。它是那种能够成就事业的著作。或者说，是那种能够让事业复活的。噢，再次被人尊重……
+
+第四十一天：天气变了。我们唯一的办法就是躲在甲板下面，祈祷风不会把我们的小船吹翻。离绞架角很近。水手长说他在闪电之间瞥见了它的沙滩。还有别的东西，还有……海盗。人人都知道亡者克尔在这座小岛附近的水域出没，但我一直都认为他只是个传说，和霜断海上的其他东西一样。奥布里在暴风雨中睡着了。蠢货。她的论文放在床边，无人照管。拿走它会很容易的。但那样的话，我成了什么人了？那是什么声音？我们被接舷了！"	"{""place:obsidian-isle"":""accepted""}"	"{""place:obsidian-isle"":""needs-context""}"	"{""place:obsidian-isle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"54783"	""	"resource:leechwood-bark|resource:scarwood-bark"	"accepted"	"다음 재료를 연금술 작업대에서 섞으면 잠시 동안 적의 체력을 흡수하는 물약을 만들 수 있다:
+
+블랙 코호시(Black Cohosh) (3)
+리치우드 껍질(Leechwood Bark) (3)
+스카우드 껍질(Scarwood Bark) (2)
+운명의 정수(Essence of Fate) (1)"	"다음 재료를 연금술 작업대에서 섞으면 잠시 동안 적의 체력을 흡수하는 물약을 만들 수 있다:
+
+블랙 코호시(Black Cohosh) (3)
+리치우드 나무껍질(Leechwood Bark) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+운명의 정수(Essence of Fate) (1)"	"English lists Leechwood Bark as an alchemical reagent; Japanese リーチウッドの樹皮 and Chinese 水蛭木树皮 corroborate. Normalize the localized Leechwood stem and omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion that enables you to absorb health from your enemies for a short duration can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (3)
+Leechwood Bark (3)
+Scarwood Bark (2)
+Essence of Fate (1)"	"以下の素材を錬金術の作業台で使えば、短時間ながら敵からライフを吸収する力が得られるポーションを調合できる:
+
+ブラック・コホシュ(3)
+リーチウッドの樹皮(3)
+スカーウッドの樹皮(2)
+フェイトのエッセンス(1)"	"一种能让你在短时间内从敌人身上吸取生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（3）
+水蛭木树皮（3）
+伤痕之木树皮（2）
+命运精华（1）"	"{""resource:leechwood-bark"":""accepted"",""resource:scarwood-bark"":""accepted""}"	"{""resource:leechwood-bark"":""needs-context"",""resource:scarwood-bark"":""needs-context""}"	"{""resource:leechwood-bark"":""Candidate hit from the English source; verify this occurrence in context."",""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"56124"	""	"resource:leechwood-bark"	"not-an-issue"	"다음 재료를 사용해 연금술 작업대에서 설득 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+리치우드 나무껍질(Leechwood Bark) (1)
+스카이 블로섬(Sky Blossom) (1)"	"다음 재료를 사용해 연금술 작업대에서 설득 기술을 일시적으로 높이는 물약을 만들 수 있습니다.
+
+리치우드 나무껍질(Leechwood Bark) (1)
+스카이 블로섬(Sky Blossom) (1)"	"English lists Leechwood Bark as an alchemical reagent; Japanese リーチウッドの樹皮 and Chinese 水蛭木树皮 corroborate. Normalize the localized Leechwood stem and omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to temporarily increase your Persuasion skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Leechwood Bark (1)
+Sky Blossom (1)"	"以下の素材を錬金術台で使えば、説得スキルを一時的に上昇させるポーションを調合できる
+
+リーチウッドの樹皮(1)
+スカイブロッサム(1)"	"一种可以暂时提高你的口才技能的药水，可在炼金工作台使用下列试剂合成：
+
+水蛭木树皮（1）
+天空之花（1）"	"{""resource:leechwood-bark"":""not-an-issue""}"	"{""resource:leechwood-bark"":""needs-context""}"	"{""resource:leechwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"56536"	""	"resource:leechwood-bark"	"accepted"	"적에게서 짧은 시간 동안 생명력을 흡수하는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+블랙 코호시(2)
+리치우드 껍질(2)"	"적에게서 짧은 시간 동안 생명력을 흡수하는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+블랙 코호시(2)
+리치우드 나무껍질(Leechwood Bark)(2)"	"English lists Leechwood Bark as an alchemical reagent; Japanese リーチウッドの樹皮 and Chinese 水蛭木树皮 corroborate. Normalize the localized Leechwood stem and omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion that enables you to absorb health from your enemies for a short duration can be mixed at an Alchemy Workbench using the following reagents:
+
+Black Cohosh (2)
+Leechwood Bark (2)"	"以下の素材を錬金術の作業台で使えば、短時間ながら敵からライフを吸収する力が得られるポーションを調合できる:
+
+ブラック・コホシュ(2)
+リーチウッドの樹皮(2)"	"一种能让你在短时间内从敌人身上吸取生命的药水，可在炼金工作台使用下列试剂合成：
+
+黑升麻（2）
+水蛭木树皮（2）"	"{""resource:leechwood-bark"":""accepted""}"	"{""resource:leechwood-bark"":""needs-context""}"	"{""resource:leechwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"58072"	""	"resource:scarwood-bark"	"accepted"	"마법 치명타 확률을 높이는 물약은 연금술 작업대에서 다음 시약을 섞어 만들 수 있습니다:
+
+스카라베 소금 (3)
+별엉겅퀴 (2)
+스카우드 나무껍질 (2)
+운명의 정수 (1)"	"마법 치명타 확률을 높이는 물약은 연금술 작업대에서 다음 시약을 섞어 만들 수 있습니다:
+
+스카라베 소금 (3)
+별엉겅퀴 (2)
+스카우드 나무껍질(Scarwood Bark) (2)
+운명의 정수 (1)"	"English lists Scarwood Bark as a repeatable alchemical reagent alongside other named plants; Japanese スカーウッドの樹皮 and Chinese 伤痕之木树皮 confirm bark, not an arbitrary tree. Reuse the existing Scarwood stem and normalize omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to increase your chance to Critical Hit with magic can be mixed at an Alchemy Workbench using the following reagents:
+
+Scarab Salts (3)
+Star Thistle (2)
+Scarwood Bark (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、魔法でのクリティカルヒットの発生率を高めるポーションを調合できる
+
+スカラベの塩(3)
+スターシスル(2)
+スカーウッドの樹皮(2)
+フェイトエッセンス(1)"	"一种能够提高你的魔法暴击几率的药水，可在炼金工作台使用下列试剂合成：
+
+甲虫盐（3）
+矢车菊（2）
+伤痕之木树皮（2）
+命运精华（1）"	"{""resource:scarwood-bark"":""accepted""}"	"{""resource:scarwood-bark"":""needs-context""}"	"{""resource:scarwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"62191"	""	"person:three-swords"	"accepted"	"세 검의 시체 찾기"	"세 자루의 검(Three Swords)의 시체 찾기"	"English explicitly calls Three Swords a Varani blademaster/mercenary and explains the epithet comes from his favored three weapons; dialogue, corpse objectives and his legendary blades refer to the same person. Japanese スリーソード and Chinese 传说三剑 corroborate. Normalize the source-specific epithet variants without treating the three weapons as a separate entity. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Find the Corpse of Three Swords"	"スリーソードの遺体を探す"	"找到三剑客的尸体"	"{""person:three-swords"":""accepted""}"	"{""person:three-swords"":""needs-context""}"	"{""person:three-swords"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"62450"	""	"resource:leechwood-bark"	"accepted"	"모든 경험치 획득량을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+프리즈미어 가루(Prismere Dust) (3)
+리치우드 껍질(Leechwood Bark) (2)
+블러드루트(Bloodroot) (1)"	"모든 경험치 획득량을 일시적으로 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+프리즈미어 가루(Prismere Dust) (3)
+리치우드 나무껍질(Leechwood Bark) (2)
+블러드루트(Bloodroot) (1)"	"English lists Leechwood Bark as an alchemical reagent; Japanese リーチウッドの樹皮 and Chinese 水蛭木树皮 corroborate. Normalize the localized Leechwood stem and omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"A potion to temporarily increase all Experience gains can be mixed at an Alchemy Workbench using the following reagents:
+
+Prismere Dust (3)
+Leechwood Bark (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、あらゆる経験値獲得を一時的に増加させるポーションを調合できる:
+
+プリスミアダスト(3)
+リーチウッドの樹皮(2)
+ブラッドルート(1)"	"一种能暂时提高所有经验获得的药水，可在炼金工作台使用下列试剂合成：
+
+赤晶矿尘（3）
+水蛭木树皮（2）
+血根草（1）"	"{""resource:leechwood-bark"":""accepted""}"	"{""resource:leechwood-bark"":""needs-context""}"	"{""resource:leechwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"63146"	""	"resource:leechwood-bark"	"accepted"	"리치우드 나무껍질 수확"	"리치우드 나무껍질(Leechwood Bark) 수확"	"English lists Leechwood Bark as an alchemical reagent; Japanese リーチウッドの樹皮 and Chinese 水蛭木树皮 corroborate. Normalize the localized Leechwood stem and omitted/shortened 나무껍질 forms. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Harvest Leechwood Bark"	"リーチウッドの樹皮を収穫する"	"获取水蛭木树皮"	"{""resource:leechwood-bark"":""accepted""}"	"{""resource:leechwood-bark"":""needs-context""}"	"{""resource:leechwood-bark"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"63688"	""	"place:obsidian-isle"	"accepted"	"오늘은 잔잔하다. 바다는 맑고 하늘은 밝다. 물자는 있지만 값이 비싸다. 빌어먹을 알파르(Alfar).
+
+갑판장이 출항을 미뤄 달라고 한다. 프라이데리(Pryderi)에서 점쟁이를 만났다. 미신에 빠진 멍청이.
+
+우리는 방해받지 않고 출항할 준비를 한다. 감옥에 화물을 넘겼다. 살인범 둘, 사기꾼 하나. 흑요석 섬(Obsidian Isle)으로 갈 항해에 몇 명을 새로 태웠다.
+
+명단은 다음과 같다:
+
+감방 1: 에일로드 잉그빌드(Eirlod Ingvild); V; M
+
+감방 2: 올리르 에이커(Allwrir Aker); V; M
+
+감방 3: 세오드 거스퍼스(Ceod Gurthfurth); A; M
+
+감방 4: 미드레 베사크(Mydre Bethach); D; F
+
+감방 5: 우르탄 코티(Urthan Cotty); L; M
+
+감방 6: 와인 신릭(Wine Cynric); A; M
+
+감방 7: 맥 펨슨(Mack Pemson); G; M
+
+감방 8: 올라프 아스발드손(Olaf Asvaldsson); V; M
+
+감방 9: 베그 미스(Beg Mys); D; M
+
+감방 10: 아브위르 고르웨드(Abwyr Gorwed); D; M
+
+평온한 항해와 드넓은 바다를 바라며.
+
+선장 스콘(Captain Sconn)
+셰클피시호(Shacklefish)"	"오늘은 잔잔하다. 바다는 맑고 하늘은 밝다. 물자는 있지만 값이 비싸다. 빌어먹을 알파르(Alfar).
+
+갑판장이 출항을 미뤄 달라고 한다. 프라이데리(Pryderi)에서 점쟁이를 만났다. 미신에 빠진 멍청이.
+
+우리는 방해받지 않고 출항할 준비를 한다. 감옥에 화물을 넘겼다. 살인범 둘, 사기꾼 하나. 옵시디언 섬(Obsidian Isle)으로 갈 항해에 몇 명을 새로 태웠다.
+
+명단은 다음과 같다:
+
+감방 1: 에일로드 잉그빌드(Eirlod Ingvild); V; M
+
+감방 2: 올리르 에이커(Allwrir Aker); V; M
+
+감방 3: 세오드 거스퍼스(Ceod Gurthfurth); A; M
+
+감방 4: 미드레 베사크(Mydre Bethach); D; F
+
+감방 5: 우르탄 코티(Urthan Cotty); L; M
+
+감방 6: 와인 신릭(Wine Cynric); A; M
+
+감방 7: 맥 펨슨(Mack Pemson); G; M
+
+감방 8: 올라프 아스발드손(Olaf Asvaldsson); V; M
+
+감방 9: 베그 미스(Beg Mys); D; M
+
+감방 10: 아브위르 고르웨드(Abwyr Gorwed); D; M
+
+평온한 항해와 드넓은 바다를 바라며.
+
+선장 스콘(Captain Sconn)
+셰클피시호(Shacklefish)"	"English names the island location in repeated travel, ship and quest references. Japanese オブシディアン島 and Chinese 黑曜石岛 corroborate. Reuse the repeated phonetic 옵시디언 섬, rather than one-off 오브시디언 or literal 흑요석. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Calm today. Seas clear, sky bright. Supplies available, but prices high. Damn Alfar.
+
+Boatswain requests that we postpone departure. Visited a soothsayer in the Pryderi. Superstitious fool.
+
+We prepare to sail, unhindered. Delivered cargo to the prison: 2 killers; 1 swindler. Picked up several new faces for our voyage to the Obsidian Isle.
+
+Manifest is as follows:
+
+Enclosure 1: Eirlod Ingvild; V; M
+
+Enclosure 2: Allwrir Aker; V; M
+
+Enclosure 3: Ceod Gurthfurth; A; M
+
+Enclosure 4: Mydre Bethach; D; F
+
+Enclosure 5: Urthan Cotty; L; M
+
+Enclosure 6: Wine Cynric; A; M
+
+Enclosure 7: Mack Pemson; G; M
+
+Enclosure 8: Olaf Asvaldsson; V; M
+
+Enclosure 9: Beg Mys; D; M
+
+Enclosure 10: Abwyr Gorwed; D; M
+
+Looking to the heavens for peaceful sailing, open ocean.
+
+Captain Sconn
+Shacklefish"	"今日の天気は落ち着いている。海上は視界良好、空も晴れ。物資はあるものの、値段が高い。アルファーめ。
+
+甲板長が出発を遅らせてほしいと主張している。プライデリ商会で占い師にかかったらしい。迷信好きの馬鹿め。
+
+我々は予定どおり出航する。積荷は監獄に届けた。人殺しが2名、詐欺師が1名。オブシディアン島への旅のために何人かの新顔を仕入れた。
+
+内訳は以下のとおり:
+
+監房1: エイルロド・イングヴィルド V M
+
+監房2: オールリル・エイカー V M
+
+監房3: セオド・ガースファース A M
+
+監房4: ミドレ・ベサッチ D F
+
+監房5: ウルザン・コッティ L M
+
+監房6: ワイン・シンリック A M
+
+監房7: マック・ペムソン G M
+
+監房8: オーラフ・アスヴァルズソン V M
+
+監房9: ベグ・ミス D M
+
+監房10: アブウィル・ゴーウェッド D M
+
+平穏な航海と開けた海を祈って。
+
+シャクルフィッシュ号
+スコン船長"	"今日无事。海清天明。供应充足，但价格高昂。该死的精灵。
+
+水手长要求我们推迟出航。在普里德利找了算命的。迷信的傻瓜。
+
+我们准备出航，不受阻碍。交付监狱的货物：两个杀人犯；一个诈骗犯。为前往黑曜岛的旅程选了几个新面孔。
+
+名单如下：
+
+附件1：埃罗德·英格维德；瓦拉尼人；男性
+
+附件2：阿尔维尔·阿克尔；瓦拉尼人；男性
+
+附件3：赛欧德·古斯弗斯；阿尔曼人；男性
+
+附件4：米德雷·贝塔赫；暗精灵；女性
+
+附件5：尤桑·考蒂；光精灵；男性
+
+附件6：瓦恩·辛瑞克；阿尔曼人；男性
+
+附件7：麦克·派姆森；侏儒；男性
+
+附件8：奥拉夫·阿斯瓦尔德森；瓦拉尼人；男性
+
+附件9：拜格·米斯；暗精灵；男性
+
+附件10：阿伯维尔·戈维德；暗精灵；男性
+
+向上天祈祷平静的航行和开放的海洋。
+
+斯库恩船长
+镣铐鱼号"	"{""place:obsidian-isle"":""accepted""}"	"{""place:obsidian-isle"":""needs-context""}"	"{""place:obsidian-isle"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"64046"	""	"unique item:honor-brands"	"accepted"	"이사의 명예 표장(Ysa Honor Brands) 제작"	"이사의 아너 브랜드(Honor Brands)(Ysa Honor Brands) 제작"	"English calls Honor Brands forged Faeblades, including counterfeit blades made by Brit Hagni/Codgan and later Ysa-made authentic examples. Japanese オナーブランド and Chinese 荣耀之刃/荣誉佩剑 corroborate a named blade line, not generic honor marks. Normalize transliteration and literal Korean forms; preserve the Ysa-qualified complete title at default 64046. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"Forge Ysa Honor Brands"	"イーサオナーブランドを製作する"	"打造伊萨荣耀品牌"	"{""unique item:honor-brands"":""accepted""}"	"{""unique item:honor-brands"":""needs-context""}"	"{""unique item:honor-brands"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"65134"	""	"person:three-swords"	"accepted"	"검술의 달인 쓰리 소즈(Three Swords)의 전설적인 무기를 찾았다. 더펠(Derfel)은 헬베인을 다시 손에 쥐면 분명 기뻐할 거야."	"검술의 달인 세 자루의 검(Three Swords)의 전설적인 무기를 찾았다. 더펠(Derfel)은 헬베인을 다시 손에 쥐면 분명 기뻐할 거야."	"English explicitly calls Three Swords a Varani blademaster/mercenary and explains the epithet comes from his favored three weapons; dialogue, corpse objectives and his legendary blades refer to the same person. Japanese スリーソード and Chinese 传说三剑 corroborate. Normalize the source-specific epithet variants without treating the three weapons as a separate entity. Official Korean manual PDF pp. 4, 7 and 8 provides alchemy, equipment, and faction/quest context; it does not enumerate these named reagents or DLC locations. All three resources searched. Normalize only exact source-matched spans; keep reagent quantities, formatting, other entities, existing terminal decisions and historical global totals unchanged."	"I have found the legendary weapons of the blademaster Three Swords. Derfel would undoubtedly be pleased to grasp Hellbane once more."	"剣豪、スリーソードの伝説の武器を見つけた。デルフェルは再びヘルベインを手にすれば、満足するに違いない。"	"我找到了剑圣“传说三剑”的传奇佩剑。地狱灾祸的失而复得一定会令德尔菲尔倍感欣慰。"	"{""person:three-swords"":""accepted""}"	"{""person:three-swords"":""needs-context""}"	"{""person:three-swords"":""Candidate hit from the English source; verify this occurrence in context.""}"

@@ -1,0 +1,223 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"
+"base"	"2122"	"11"	"place:gorhart-inn"	"accepted"	"고어하트(Gorhart) 여관"	"고어하트 여관(Gorhart Inn)"	"English default:21764 identifies the famous Gorhart Inn and its proprietor; Japanese ゴーハートの宿/ゴーハートの宿屋 and Chinese 郭哈特旅馆 corroborate the venue. Replace component-only 고어하트(Gorhart) 여관 with the complete atomic pair. This inn is a separate scope from place:gorhart; preserve every existing parent-town disposition, including accepted/not-an-issue records. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Gorhart Inn"	"ゴーハートの宿"	"郭哈特旅馆"	"{""place:gorhart-inn"":""accepted""}"
+"base"	"3542"	"11"	"place:summers-end"	"accepted"	"여름의 끝"	"서머스 엔드(Summer's End)"	"English default:11999 identifies the village of Summer's End and default:56050 its village and forest. Japanese サマーズ・エンド and Chinese 夏之终焉 corroborate the place. Normalize 여름의 끝 to 서머스 엔드. Default:64294 changes 끝을 to 엔드를; default:63500 is already valid and its distinct poem translation remains byte-identical. At default:54948 Chinese renders the name literally as 夏天的结束; explicit English and Japanese establish the location, not an ordinary season-ending event. Exclude the nested place match in each separately registered complete stone/subplace label. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Summer's End"	"サマーズ・エンド"	"夏之终焉"	"{""place:summers-end"":""accepted""}"
+"base"	"3837"	"11"	"item:summers-end-stone|place:summers-end"	"accepted"	"서머스 엔드(Summer's End)의 돌"	"서머스 엔드의 돌(Summer's End Stone)"	"English base:3837 gives the complete Summer's End Stone label; Japanese サマーズ・エンドの石 and Chinese 夏之终焉之石 confirm its modifier relationship. Preserve the existing 의 돌 wording and pair the whole title. The nested place match is excluded; no rarity or runtime mechanics are inferred. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Summer's End Stone"	"サマーズ・エンドの石"	"夏之终焉之石"	"{""place:summers-end"":""excluded"",""item:summers-end-stone"":""accepted""}"
+"default"	"11937"	""	"place:summers-end"	"not-an-issue"	"수정들을 드러내려면 호루라기를 불어야 한다. 모습을 드러내면 파괴할 수 있어. 그러면 시녀(The Maid)의 마법이 풀리고 서머스 엔드(Summer's End)는 혼란에 빠질 거야."	"수정들을 드러내려면 호루라기를 불어야 한다. 모습을 드러내면 파괴할 수 있어. 그러면 시녀(The Maid)의 마법이 풀리고 서머스 엔드(Summer's End)는 혼란에 빠질 거야."	"English default:11999 identifies the village of Summer's End and default:56050 its village and forest. Japanese サマーズ・エンド and Chinese 夏之终焉 corroborate the place. Normalize 여름의 끝 to 서머스 엔드. Default:64294 changes 끝을 to 엔드를; default:63500 is already valid and its distinct poem translation remains byte-identical. At default:54948 Chinese renders the name literally as 夏天的结束; explicit English and Japanese establish the location, not an ordinary season-ending event. Exclude the nested place match in each separately registered complete stone/subplace label. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"I should use the whistle to make the crystals appear. Once I can see them I can destroy them, ending the Maid's enchantment and sending Summer's End into chaos."	"笛を使えば、クリスタルが現れる。目で見ることができれば、破壊できる。""ウィンダメアの烈女""の魔法も消え、サマーズ・エンドは混沌に陥るだろう。"	"我应该使用长笛令水晶显形。只要能够看到，我就能摧毁它们，终结少女的魔法，使夏之终焉陷入混乱。"	"{""place:summers-end"":""not-an-issue""}"
+"default"	"11999"	""	"place:summers-end"	"not-an-issue"	"제1일
+시야의 장막 너머, 서머스 엔드(Summer's End) 마을에 있는 윈더미어의 시녀(Maid of Windemere)의 소굴까지 추적해 갔다. 그녀가 나를 찾아내 거래를 제안했다...
+제2일
+시녀(The Maid)의 선택을 받은 기사로서 그녀와 함께하기로 했다. 그녀는 서쪽의 시엘리 궁정(Seelie Court)에 맞설 군대를 모으고 있다. 그녀가 운시엘리(Unseelie), 아니면 투아사(Tuatha)의 첩자일까 두렵다. 그래도 발라드의 집(House of Ballads)이 내게 줄 수 있는 것보다 더 큰 영광을 약속했다. 그게 전부다.
+제3일
+이제 지긋지긋하다. 야생 페이(Wild Fae)를 형제라 부를 수는 없다. 평원과 깊은 숲의 이 짐승들을 말이다. 피에 굶주린 욕망과 분노에 이끌려 움직인다. 이곳은 내 자리가 아니다. 나는 야수가 아니다. 적어도 명예만은 지녔다...
+제4일
+시녀(The Maid)의 왕국을 떠났지만 누군가 따라오는 것 같다. 이 갑옷, 내가 머리에 쓴 투구 때문이다. 저주받았다고 생각한다. 또 저기 있다... 덤불이 움직였다. 저녁을 맞이하기도 전에 죽을 것 같다.
+제5일
+이 섬에서 맞서 싸우겠다. 투구를 벗을 수 없다. 이제야 알겠다. 투구를 벗으면 야수들이 덮칠 테고 나는 끝장이다. 여기서 놈들이 오기를 기다리겠다. 놈들은 배신의 대가를 치르게 하려 한다. 하지만 나는 마녀를 배신하지 않았다. 나 자신을 배신했다. 나는 불행하다. 발라드의 집(House of Ballads)도 불행하구나.
+제6일
+굶주리고 있다. 투구가 몸을 짓누른다. 속삭임이 들린다. 놈들이 오고 있다."	"제1일
+시야의 장막 너머, 서머스 엔드(Summer's End) 마을에 있는 윈더미어의 시녀(Maid of Windemere)의 소굴까지 추적해 갔다. 그녀가 나를 찾아내 거래를 제안했다...
+제2일
+시녀(The Maid)의 선택을 받은 기사로서 그녀와 함께하기로 했다. 그녀는 서쪽의 시엘리 궁정(Seelie Court)에 맞설 군대를 모으고 있다. 그녀가 운시엘리(Unseelie), 아니면 투아사(Tuatha)의 첩자일까 두렵다. 그래도 발라드의 집(House of Ballads)이 내게 줄 수 있는 것보다 더 큰 영광을 약속했다. 그게 전부다.
+제3일
+이제 지긋지긋하다. 야생 페이(Wild Fae)를 형제라 부를 수는 없다. 평원과 깊은 숲의 이 짐승들을 말이다. 피에 굶주린 욕망과 분노에 이끌려 움직인다. 이곳은 내 자리가 아니다. 나는 야수가 아니다. 적어도 명예만은 지녔다...
+제4일
+시녀(The Maid)의 왕국을 떠났지만 누군가 따라오는 것 같다. 이 갑옷, 내가 머리에 쓴 투구 때문이다. 저주받았다고 생각한다. 또 저기 있다... 덤불이 움직였다. 저녁을 맞이하기도 전에 죽을 것 같다.
+제5일
+이 섬에서 맞서 싸우겠다. 투구를 벗을 수 없다. 이제야 알겠다. 투구를 벗으면 야수들이 덮칠 테고 나는 끝장이다. 여기서 놈들이 오기를 기다리겠다. 놈들은 배신의 대가를 치르게 하려 한다. 하지만 나는 마녀를 배신하지 않았다. 나 자신을 배신했다. 나는 불행하다. 발라드의 집(House of Ballads)도 불행하구나.
+제6일
+굶주리고 있다. 투구가 몸을 짓누른다. 속삭임이 들린다. 놈들이 오고 있다."	"English default:11999 identifies the village of Summer's End and default:56050 its village and forest. Japanese サマーズ・エンド and Chinese 夏之终焉 corroborate the place. Normalize 여름의 끝 to 서머스 엔드. Default:64294 changes 끝을 to 엔드를; default:63500 is already valid and its distinct poem translation remains byte-identical. At default:54948 Chinese renders the name literally as 夏天的结束; explicit English and Japanese establish the location, not an ordinary season-ending event. Exclude the nested place match in each separately registered complete stone/subplace label. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Day 1
+I tracked the Maid of Windemere to her lair, the village of Summer's End, beyond the veil of sight. She found me, and had an offer...
+Day 2
+I have taken up with the Maid of Windemere, as one of her chosen knights. She is assembling an army to challenge the Seelie Court in the west. I fear she is an agent of the Unseelie, or even the Tuatha. Still, she has promised me glory beyond what the House of Ballads can offer me. That is all that matters.
+Day 3
+I have had enough. I cannot call wild Fae my brethren. Not these beasts of the plains and deep forests. They are driven by blood lust and rage. I do not belong here. I am not a wild animal. I have honor... if nothing else.
+Day 4
+I have left the Maid's kingdom, but fear I am being followed. It is this suit of armor, this helmet I wear upon my head. I believe it has been cursed. There it is again... a movement in the brush. I fear I will not live to see the evening.
+Day 5
+I will take my stand upon this island. I cannot remove the helmet. I know this now. If I do, the beasts will strike, and I am finished. I will stand here and wait for it to come. They wish to punish me for my betrayal. But I have not betrayed the witch. I have betrayed myself. Woe is me. Woe is the House of Ballads.
+Day 6
+I am starving. The helmet weighs me down. I hear the whispers. They are coming."	"1日目
+""ウィンダメアの烈女""の根城を突き止めた。視覚のベールの先にあるサマーズ・エンドの村だ。彼女は私を見つけて、取引を持ちかけてきた...
+2日目
+""ウィンダメアの烈女""と親しくなった。彼女の騎士に選ばれたのだ。彼女は西のサマー・コートに挑むため、軍隊を集めている。彼女がウィンター・コートやツアサの手先でなければよいが。それでも、彼女はハウス・オブ・バラッドでは得られない栄誉を私に約束してくれた。それが何より重要だ。
+3日目
+もう十分だ。野生のフェイを同胞と呼ぶことはできない。平原や深い森に棲むこの獣たちを。奴らは血みどろの欲望や怒りに駆られて動く。ここに私の居場所はない。私は野蛮な獣ではないのだ。私には誇りがある... 他には何もないが。
+4日目
+""ウィンダメアの烈女""の王国を発ったが、尾けられてる気がする。この鎧のせいか、兜のせいか。恐らく呪われてる。ほら、まただ... 茂みががさごそ動いた。今晩の月が拝めるかどうか不安だ。
+5日目
+私はこの島で戦う。兜が脱げない。今悟った。じきに獣たちが襲ってくれば、私は死ぬ。だからここでその時を待つ。奴らは裏切った私を罰したがっているが、私はあの魔女を裏切ってはいない。私は自分自身を裏切ったのだ。問題の原因は私にある。ハウス・オブ・バラッドに。
+6日目
+腹が減った。兜がずしりと重い。ささやき声が聞こえる。奴らが来る。"	"第一天
+我在视线之外，循着温德米尔的少女的足迹，来到了她的巢穴——夏之终焉。她发现了我，提出了一笔交易……
+第二天
+我跟温德米尔的少女合作，成了她选中的骑士。她正在组建一支军队挑战西方的夏灵宫廷。我担心她是冬灵，甚至是图阿撒的代理人。尽管如此，她已经向我许诺了歌谣之家不能给予我的荣耀。那才是最重要的。
+第三天
+我受够了。我没法把荒野灵族当成我的同胞。这些平原和密林里的野兽。他们被嗜血和愤怒驱动。我不属于这里。我不是野蛮的动物。就算我什么都没有了……我还有荣誉。
+第四天
+我已经离开了少女的王国，但我担心有人在跟踪我。是我穿的这套盔甲，我戴在头上的头盔。我相信它被诅咒了。又来了……灌木丛里有东西在动。恐怕我活不过今晚了。
+第五天
+我要坚守这座小岛。我不能摘下头盔。我现在明白了。如果我摘下来，野兽就会攻击我，我就完蛋了。我要坚守这里，等待它的到来。他们想惩罚我的背叛。但我没有背叛女巫。我背叛了我自己。我的命运悲惨。歌谣之家的命运悲惨。
+第六天
+我要饿死了。头盔拖累了我。我听到了低语。他们要来了。"	"{""place:summers-end"":""not-an-issue""}"
+"default"	"21764"	""	"place:gorhart-inn"	"accepted"	"어서 들어오시오. 불가에서 장화를 쉬게 하고, 우리 최고급 술로 근심을 씻어 내시오. 나는 아르닉 아르두나(Arnick Arduna), 여기는 이름난 고어하트(Gorhart) 여관이오."	"어서 들어오시오. 불가에서 장화를 쉬게 하고, 우리 최고급 술로 근심을 씻어 내시오. 나는 아르닉 아르두나(Arnick Arduna), 여기는 이름난 고어하트 여관(Gorhart Inn)이오."	"English default:21764 identifies the famous Gorhart Inn and its proprietor; Japanese ゴーハートの宿/ゴーハートの宿屋 and Chinese 郭哈特旅馆 corroborate the venue. Replace component-only 고어하트(Gorhart) 여관 with the complete atomic pair. This inn is a separate scope from place:gorhart; preserve every existing parent-town disposition, including accepted/not-an-issue records. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Come in, rest your boots by the fire, and drown your worries in a flagon of our finest. I am Arnick Arduna, and this is the famous Gorhart Inn."	"さあ中に入って。暖炉のそばで足を休め、最高級の酒に酔いしれるといい。俺はアルニック・アルデュナ、ここは有名なゴーハートの宿だ"	"进来吧，在火边烤下靴子，让我们上好的美酒淹没掉你所有的烦恼。我是亚尼克·阿杜那，而舍下就是有名的郭哈特旅馆。"	"{""place:gorhart-inn"":""accepted""}"
+"default"	"24805"	""	"place:gorhart-inn"	"accepted"	"고어하트(Gorhart) 여관"	"고어하트 여관(Gorhart Inn)"	"English default:21764 identifies the famous Gorhart Inn and its proprietor; Japanese ゴーハートの宿/ゴーハートの宿屋 and Chinese 郭哈特旅馆 corroborate the venue. Replace component-only 고어하트(Gorhart) 여관 with the complete atomic pair. This inn is a separate scope from place:gorhart; preserve every existing parent-town disposition, including accepted/not-an-issue records. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Gorhart Inn"	"ゴーハートの宿"	"郭哈特旅馆"	"{""place:gorhart-inn"":""accepted""}"
+"default"	"29968"	""	"place:gorhart-inn"	"accepted"	"고어하트(Gorhart) 여관에 오신 걸 환영합니다."	"고어하트 여관(Gorhart Inn)에 오신 걸 환영합니다."	"English default:21764 identifies the famous Gorhart Inn and its proprietor; Japanese ゴーハートの宿/ゴーハートの宿屋 and Chinese 郭哈特旅馆 corroborate the venue. Replace component-only 고어하트(Gorhart) 여관 with the complete atomic pair. This inn is a separate scope from place:gorhart; preserve every existing parent-town disposition, including accepted/not-an-issue records. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Welcome to Gorhart Inn."	"ゴーハートの宿へようこそ"	"欢迎来到郭哈特旅馆。"	"{""place:gorhart-inn"":""accepted""}"
+"default"	"30469"	""	"place:summers-end"	"accepted"	"여름의 끝에 있는 시녀(The Maid)의 마을에서 살아남았어. 이제 시녀(The Maid)와 마법의 궁정(Court of Enchantments)이 윈더미어 성(Castle Windemere) 안에서 나를 기다리고 있어."	"서머스 엔드(Summer's End)에 있는 시녀(The Maid)의 마을에서 살아남았어. 이제 시녀(The Maid)와 마법의 궁정(Court of Enchantments)이 윈더미어 성(Castle Windemere) 안에서 나를 기다리고 있어."	"English default:11999 identifies the village of Summer's End and default:56050 its village and forest. Japanese サマーズ・エンド and Chinese 夏之终焉 corroborate the place. Normalize 여름의 끝 to 서머스 엔드. Default:64294 changes 끝을 to 엔드를; default:63500 is already valid and its distinct poem translation remains byte-identical. At default:54948 Chinese renders the name literally as 夏天的结束; explicit English and Japanese establish the location, not an ordinary season-ending event. Exclude the nested place match in each separately registered complete stone/subplace label. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"I've managed to survive the Maid's village of Summer's End. Now the Maid ‒ and the Court of Enchantments ‒ wait for me inside the fortress of Castle Windemere."	"""ウィンダメアの烈女""のお膝元、サマーズ・エンドを生きて出ることができた。""ウィンダメアの烈女""と英雄院の一同はウィンダメア城の中で待っているはずだ。"	"我活着逃出了夏之终焉中少女的村庄。现在，少女和附魔廷，正在温德米尔城堡中等待着我。"	"{""place:summers-end"":""accepted""}"
+"default"	"32598"	""	"place:gorhart-inn"	"accepted"	"기록 I
+몇 주 동안 찾아 헤맨 끝에, 미치광이 덴릭(Denric the Crazed)이 나로스의 이빨(Teeth of Naros)로 항해하며 쓴 일지 제3권을 찾아냈다. 제1권과 제2권은 도무지 이해하기 어려웠다. 굶주림에 미쳐 가는 사람의 횡설수설이라고밖에는 할 수 없었지만, 세 번째 부분에서 덴릭은 비밀을 밝힌다.
+아데사(Adessa)의 학자는 아니지만, 굶주린 수도사의 헛소리 너머로 대강 무슨 일인지 짐작할 수는 있다. 덴릭은 나로스의 이빨(Teeth of Naros)로 통하는 지하 통로를 찾았다. 적어도 그렇게 내기를 걸 만한 근거는 있다. 그가 기록한 부와 장관에 관한 이야기도 어느 정도는 사실이었을 것이다. 뭔가를 보고 정신이 나간 것 같다.
+이제 남은 질문은 하나다. 어디서부터 시작할까? 마지막으로 탐험대를 꾸린 지 오래됐다. 동료도 필요하고 계획도 세워야 한다.
+
+기록 II
+운이 따라 줘서 덴릭이 ‘남쪽 통로(Southern Passage)’라고 부른 입구를 찾아냈다. 소문을 꽤 많이 쫓아다녀야 했다. 설명에 맞는 동굴은 여럿이었지만, 대부분은 뚫고 지나가야 할 에틴(Ettin) 군대가 없었다. 물론 내게 일이 그렇게 쉽게 풀릴 리 없지.
+캐너록(Canneroc)에 작전 기지를 마련할 수 있을 줄 알았다. 하지만 마을에서 스무 걸음도 떨어지기 전에 무슨 일이 있었는지 알 수 있었다. 온통 거미줄투성이였고, 밖에는 사람 그림자 하나 없었다. 요즘 웹우드(Webwood)는 무서운 곳이 됐다. 불쌍한 사람들.
+다행히 고어하트(Gorhart) 여관에 묵을 곳을 구해 서신 몇 통을 작성했다. 스베리(Sveri)에게 진 빚을 갚으라고 해 볼 생각이다. 내가 받으러 왔다고 하면 반가워하진 않겠지만. 그래도 다른 누구에게 정찰을 맡기고 싶지는 않다. 스베리(Sveri)는 이런 일을 백 번도 넘게 해 봤으니 잘 해낼 거다.
+
+기록 III
+떠돌이 마법사 한 명을 설득해 마침내 동행하게 했다. 크랜윈이라는 도크알브(Dokkalfar)다. 그 가문은 들어 본 적 없지만, 감히 그렇게 말하진 못하겠다. 멋 부리기를 좋아하는 듯하지만, 실력이 소문난 것의 반만 돼도 눈짓과 간단한 주문으로 온갖 위기를 넘길 수 있을 거다.
+그래도 여정에 합류하려는 사람은 더 찾지 못했다. 한 명만 더 있으면 안전하게 갈 수 있을 것 같다. 하지만 나로스의 이빨(Teeth of Naros)은 평판이 끔찍하다. 덴릭의 이야기를 읽어 주면 줄수록 여관과 술집 사람들은 식인 거인과 기이한 고난에 관한 수도사의 기록에만 관심을 보인다.
+이쯤에서 포기하려 한다. 남쪽 통로(Southern Passage) 밖에 야영지를 세우고, 카슈(Cach)와 스베리(Sveri)가 길에서 동행할 사람을 찾아내면 신들의 축복으로 여기겠다."	"기록 I
+몇 주 동안 찾아 헤맨 끝에, 미치광이 덴릭(Denric the Crazed)이 나로스의 이빨(Teeth of Naros)로 항해하며 쓴 일지 제3권을 찾아냈다. 제1권과 제2권은 도무지 이해하기 어려웠다. 굶주림에 미쳐 가는 사람의 횡설수설이라고밖에는 할 수 없었지만, 세 번째 부분에서 덴릭은 비밀을 밝힌다.
+아데사(Adessa)의 학자는 아니지만, 굶주린 수도사의 헛소리 너머로 대강 무슨 일인지 짐작할 수는 있다. 덴릭은 나로스의 이빨(Teeth of Naros)로 통하는 지하 통로를 찾았다. 적어도 그렇게 내기를 걸 만한 근거는 있다. 그가 기록한 부와 장관에 관한 이야기도 어느 정도는 사실이었을 것이다. 뭔가를 보고 정신이 나간 것 같다.
+이제 남은 질문은 하나다. 어디서부터 시작할까? 마지막으로 탐험대를 꾸린 지 오래됐다. 동료도 필요하고 계획도 세워야 한다.
+
+기록 II
+운이 따라 줘서 덴릭이 ‘남쪽 통로(Southern Passage)’라고 부른 입구를 찾아냈다. 소문을 꽤 많이 쫓아다녀야 했다. 설명에 맞는 동굴은 여럿이었지만, 대부분은 뚫고 지나가야 할 에틴(Ettin) 군대가 없었다. 물론 내게 일이 그렇게 쉽게 풀릴 리 없지.
+캐너록(Canneroc)에 작전 기지를 마련할 수 있을 줄 알았다. 하지만 마을에서 스무 걸음도 떨어지기 전에 무슨 일이 있었는지 알 수 있었다. 온통 거미줄투성이였고, 밖에는 사람 그림자 하나 없었다. 요즘 웹우드(Webwood)는 무서운 곳이 됐다. 불쌍한 사람들.
+다행히 고어하트 여관(Gorhart Inn)에 묵을 곳을 구해 서신 몇 통을 작성했다. 스베리(Sveri)에게 진 빚을 갚으라고 해 볼 생각이다. 내가 받으러 왔다고 하면 반가워하진 않겠지만. 그래도 다른 누구에게 정찰을 맡기고 싶지는 않다. 스베리(Sveri)는 이런 일을 백 번도 넘게 해 봤으니 잘 해낼 거다.
+
+기록 III
+떠돌이 마법사 한 명을 설득해 마침내 동행하게 했다. 크랜윈이라는 도크알브(Dokkalfar)다. 그 가문은 들어 본 적 없지만, 감히 그렇게 말하진 못하겠다. 멋 부리기를 좋아하는 듯하지만, 실력이 소문난 것의 반만 돼도 눈짓과 간단한 주문으로 온갖 위기를 넘길 수 있을 거다.
+그래도 여정에 합류하려는 사람은 더 찾지 못했다. 한 명만 더 있으면 안전하게 갈 수 있을 것 같다. 하지만 나로스의 이빨(Teeth of Naros)은 평판이 끔찍하다. 덴릭의 이야기를 읽어 주면 줄수록 여관과 술집 사람들은 식인 거인과 기이한 고난에 관한 수도사의 기록에만 관심을 보인다.
+이쯤에서 포기하려 한다. 남쪽 통로(Southern Passage) 밖에 야영지를 세우고, 카슈(Cach)와 스베리(Sveri)가 길에서 동행할 사람을 찾아내면 신들의 축복으로 여기겠다."	"English default:21764 identifies the famous Gorhart Inn and its proprietor; Japanese ゴーハートの宿/ゴーハートの宿屋 and Chinese 郭哈特旅馆 corroborate the venue. Replace component-only 고어하트(Gorhart) 여관 with the complete atomic pair. This inn is a separate scope from place:gorhart; preserve every existing parent-town disposition, including accepted/not-an-issue records. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Entry I
+After weeks of searching, I managed to track down the third volume of Denric the Crazed’s journal on his voyage to the Teeth of Naros. I’ve puzzled over volumes one and two - for all intents and purposes, the ravings of a man slipping into starvation - but in the third part of his tale, Denric reveals his secret.
+I may not be one of those Adessa Scholars, but I can look past the ravings of a famished monk to know what is likely. Denric found an underground route to the Teeth of Naros, or at least I’m willing to wager that he has. I can only assume that the claims of wealth and splendor he recorded were in some part true. I have a feeling that he saw something that set him off.
+So the only question I have now is - where to begin? It’s been a long while since I’ve done an expedition. But I’m going to need a crew, and I’m going to need a plan.
+
+Entry II
+With some luck, I’ve pinpointed the entrance to this “Southern Passage” as Denric called it. Had to chase down more than a few rumors to do so - lot of caves that matched his description, and most of them didn’t have an army of ettin that I had to get through. But, of course, things couldn’t be easy for me.
+I thought that I’d be able to at least make a base of operation in Canneroc. But I didn’t get within twenty paces before I saw what had happened to the place - covered with webs, not a soul out of doors. The Webwood’s become a fierce place of late. Poor sods.
+Thankfully, I managed to get a spot at the Gorhart Inn, where I drafted some correspondence. I figured that it would be worth calling on the favor Sveri owes me -though I doubt she’ll be happy that I’ve come to collect. All the same, I don’t trust anyone else to be my scout. Sveri’s done this a hundred times before-she’ll do good work.
+
+Entry III
+Finally managed to bend the ear of a wandering mage enough to come with me. A Dokkalfar, named Cranwyn - never heard of the family, but I dare not say so. Seems he’s a bit of a dandy, but if half the talk of his skill is true, then he should be able to get us through any tight spots with a wink and a cantrip.
+That said, I can’t find any more that are willing to join us on the journey. All we need is one more , and I’m comfortable that we can make the journey safely. But the Teeth of Naros has an awful reputation. The more I read from Denric’s tales to the inns and pubs I find, the more people focus on the monks’ accounts of flesh-eating giants and mysterious travails.
+At this point, I’m giving up. I’ll set up camp outside Southern Passage, and if Cach and Sveri can find someone on the road, then the gods will give me their blessing."	"その1
+何週間も探し続けた挙げ句、熱狂者デンリックがナロスの牙への旅路に記した日誌の三巻目を探し当てることができた。一巻目と二巻目は理解しようと奮闘してだいぶ時間をかけたが、どちらも飢えつつある男が正気を失っていく話で、それ以上のことはなさそうだ。しかし話の三巻目で、デンリックが秘密を明かす。
+自分はアデッサの学者ではないが、飢えた修道士の戯れ言の向こうに見え隠れする事実の推測くらいはできる。デンリックはナロスの牙への地下道を見つけたのだと、少なくとも賭けてもいい程度には思われる。彼が書き残した富みと輝きに関する言及は、少なくとも部分的には正しかったのだろう。何かを目にして、それで激高したのでないかと考えている。
+こうなると、残る疑問は1つだけで、どこから始めればいいのだろう、ということだ。最後に調査隊に参加したのは大分昔だ。部下と、計画が必要になる。
+
+その2
+幸運にも恵まれ、デンリックが""南側通路""と称していたものの入口を特定できた。かなりの数の噂を検証することになった。彼の説明が当てはまる洞窟がたくさんあり、その殆どには突破しなければならないエティンの軍団がいなかった。もちろん、そう簡単に事が進むはずもないのだが。
+キャネロックに足がかりくらいは作れるかと思っていたんだが、20歩手前まで来た時点で何が起きたかは明白だった。そこらじゅうがクモの巣だらけで、表を歩いている人影が1人もいなかった。ウェブウッドも最近、恐ろしい場所になってきた。困ったものだ。
+幸い、ゴーハートの宿屋で場所を借りて手紙の下書きが書けた。スヴェリへの貸しを返してもらうのも手かと思ったわけだ。本人は喜んでくれそうにないが。いずれにせよ、偵察を任せられるのは彼女だけだ。スヴェリは慣れっこだから、いい仕事をしてくれるだろう。
+
+その3
+ようやく流れ者の魔道士を、同行してくれるように説得できた。クランウィンという名のドカルファーだ。家の名前は聞いたことないが、面と向かってそうは言えない。どうも伊達男の臭いがするが、豪語の半分でも実力があれば、困りそうな局面もちょっとした機転と魔法で切り抜けてくれるだろう。
+とはいえ、それ以外に同行してくれそうな面々を見つけられずにいる。あと1人いてくれれば無事にたどり着ける自信があるんだが、ナロスの牙はかなり悪名高い。立ち寄った宿屋や酒場でデンリックの物語を読み聞かせてやればやるほど、大半の連中が人食いの巨人だの、得体の知れない辛苦などに気をとられるようだ。
+もはや諦めて、南側通路の外で野営をして、カシュとスヴェリが通りすがりの誰かを見つけてでもくれれば、神々の祝福をいただけるだろう。"	"段落一
+经过数月的搜寻之后，我成功追踪到了疯人德里克关于纳罗斯之牙航程日志的第三卷。我对前两卷中所述的动机和目的一直迷惑不解，认为不过是一个快要饿死的人在那儿疯言疯语，可到了故事的第三部分，德里克终于揭示了自己的秘密。
+我虽然不是一名阿德萨学者，可我能从一个要饿死的僧人的疯话中探知他说的可能是什么。德里克找到了一条通往纳罗斯之牙的地下通道，至少我赌他已经找到了。我只能推测他所记录的财宝和异象部分是真的。我有一种感觉，是他看见了什么把他逼疯的。
+于是现在我只有一个问题，从哪里开始？自我上次探险以来，已经过了好久了。现在我需要一支队伍，还需要制订一个计划。
+
+段落二
+运气使然，我已经找到了德里克所说“南部通道”的入口。听信了多少传闻才找到了这个地方，很多洞穴都符合德里克的描述，可大多数洞穴都没有成群的双头魔把守。当然，对我来说事情没有这么简单。
+我想我至少要在坎能洛克建一个行动基地。可我刚走了不到二十步，就看到了这个地方现在的状况，到处都是蛛网，路上一个人影儿都没有。蛛网森林变成了一个凶险的地方。真是可怜的地方。
+幸运的是，我在郭哈特旅馆找了个房间，在那里我写了几封信。我盘算着最好叫斯薇里还我个人情，不过我怀疑我去找她还人情，她不会太高兴。尽管如此，我也不会信任其他人做我的斥候。斯薇里干这事情上百来次了，她会做得很好。
+
+段落三
+终于成功劝来了一个云游法师跟着我。他叫克朗文，来自暗精灵家族，不过我可不敢说自己从未听说过这个家族。他似乎有一点好打扮，不过只要他有自己说的本事的一半，那他眨下眼，施个咒就能带我轻松通过任何危险的地方。
+即便如此，我也再找不到其他人加入我们这趟行程了。我们就还需要一个人，这趟行程的安全性我就放心了。然而纳罗斯之牙的名声可不怎么好。我在找到的旅馆和酒馆里讲德里克的故事，我讲得越多，人们就越关注这个僧人所记载的食肉巨人与神秘的痛苦体验。
+在这个节骨眼上，我就要放弃了。我在南部通道之外扎营，如果察赫和斯薇里能在路上碰到个什么人能一起上路，那么就是上帝在向我赐福了。"	"{""place:gorhart-inn"":""accepted""}"
+"default"	"32924"	""	"place:summers-end|place:summers-end-bell-tower"	"accepted"	"서머스 엔드 - 종탑"	"서머스 엔드 - 종탑(Summer's End - Bell Tower)"	"English default:32924 gives the complete Summer's End - Bell Tower label, Japanese サマーズ・エンド - 鐘楼 and Chinese 夏之终焉 - 钟楼. Preserve the existing 종탑 descriptor and separators; pair the whole place label and exclude its nested parent match. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Summer's End - Bell Tower"	"サマーズ・エンド - 鐘楼"	"夏之终焉 - 钟楼"	"{""place:summers-end"":""excluded"",""place:summers-end-bell-tower"":""accepted""}"
+"default"	"33999"	""	"place:gorhart-inn"	"accepted"	"상급 치유 물약을 구했다. 페이(Fae) 처녀의 병을 돌보려는 허크 애드월드(Herc Adwold)에게 가져다줘야 한다. 그는 고어하트(Gorhart) 여관에 있다."	"상급 치유 물약을 구했다. 페이(Fae) 처녀의 병을 돌보려는 허크 애드월드(Herc Adwold)에게 가져다줘야 한다. 그는 고어하트 여관(Gorhart Inn)에 있다."	"English default:21764 identifies the famous Gorhart Inn and its proprietor; Japanese ゴーハートの宿/ゴーハートの宿屋 and Chinese 郭哈特旅馆 corroborate the venue. Replace component-only 고어하트(Gorhart) 여관 with the complete atomic pair. This inn is a separate scope from place:gorhart; preserve every existing parent-town disposition, including accepted/not-an-issue records. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"I've obtained a Greater Healing Potion and should bring it to Herc Adwold at Gorhart Inn, where he's trying to nurse the Fae maiden back to health."	"ライフポーション(中)を手に入れたので、ゴーハートの宿のヘーク・アドウォルドに持ち帰ろう。フェイの乙女の治療に役立つはずだ。"	"我已经获得了一瓶强效治疗药水，是时候将它交给郭哈特旅馆的赫克·阿德沃德了，他一定会努力照顾那位灵族女性的。"	"{""place:gorhart-inn"":""accepted""}"
+"default"	"42316"	""	"place:gorhart-inn"	"accepted"	"고어하트(Gorhart) 여관"	"고어하트 여관(Gorhart Inn)"	"English default:21764 identifies the famous Gorhart Inn and its proprietor; Japanese ゴーハートの宿/ゴーハートの宿屋 and Chinese 郭哈特旅馆 corroborate the venue. Replace component-only 고어하트(Gorhart) 여관 with the complete atomic pair. This inn is a separate scope from place:gorhart; preserve every existing parent-town disposition, including accepted/not-an-issue records. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Gorhart Inn"	"ゴーハートの宿"	"郭哈特旅馆"	"{""place:gorhart-inn"":""accepted""}"
+"default"	"43647"	""	"place:summers-end|place:summers-end-chantry"	"accepted"	"여름의 끝 - 성소"	"서머스 엔드 - 성소(Summer's End - Chantry)"	"English default:43647 gives the complete Summer's End - Chantry label, Japanese サマーズ・エンド - 礼拝堂 and Chinese 夏之终焉 - 礼拜堂. Preserve the existing 성소 descriptor while normalizing the parent spelling and pairing the whole place label; do not introduce an unrelated descriptor rewrite. Exclude the nested parent match. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Summer's End - Chantry"	"サマーズ・エンド - 礼拝堂"	"夏之终焉 - 礼拜堂"	"{""place:summers-end"":""excluded"",""place:summers-end-chantry"":""accepted""}"
+"default"	"44661"	""	"place:gorhart-inn"	"accepted"	"주인이자 운영자로서, 고어하트(Gorhart) 여관에 머무는 동안 손님이 편안히 지낼 수 있도록 늘 애쓰고 있습니다."	"주인이자 운영자로서, 고어하트 여관(Gorhart Inn)에 머무는 동안 손님이 편안히 지낼 수 있도록 늘 애쓰고 있습니다."	"English default:21764 identifies the famous Gorhart Inn and its proprietor; Japanese ゴーハートの宿/ゴーハートの宿屋 and Chinese 郭哈特旅馆 corroborate the venue. Replace component-only 고어하트(Gorhart) 여관 with the complete atomic pair. This inn is a separate scope from place:gorhart; preserve every existing parent-town disposition, including accepted/not-an-issue records. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"As owner and proprietor, I am always looking for ways to make your stay at the Gorhart Inn a pleasant one."	"オーナー兼経営者として、ゴーハートの宿で快適なひと時を過ごせるよう努めているよ"	"作为所有者和业主，我总是想尽办法，让你愉快地住在郭哈特旅馆。"	"{""place:gorhart-inn"":""accepted""}"
+"default"	"44664"	""	"place:summers-end"	"accepted"	"여름의 끝"	"서머스 엔드(Summer's End)"	"English default:11999 identifies the village of Summer's End and default:56050 its village and forest. Japanese サマーズ・エンド and Chinese 夏之终焉 corroborate the place. Normalize 여름의 끝 to 서머스 엔드. Default:64294 changes 끝을 to 엔드를; default:63500 is already valid and its distinct poem translation remains byte-identical. At default:54948 Chinese renders the name literally as 夏天的结束; explicit English and Japanese establish the location, not an ordinary season-ending event. Exclude the nested place match in each separately registered complete stone/subplace label. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Summer's End"	"サマーズ・エンド"	"夏之终焉"	"{""place:summers-end"":""accepted""}"
+"default"	"48072"	""	"place:gorhart-inn"	"accepted"	"고어하트(Gorhart) 여관"	"고어하트 여관(Gorhart Inn)"	"English default:21764 identifies the famous Gorhart Inn and its proprietor; Japanese ゴーハートの宿/ゴーハートの宿屋 and Chinese 郭哈特旅馆 corroborate the venue. Replace component-only 고어하트(Gorhart) 여관 with the complete atomic pair. This inn is a separate scope from place:gorhart; preserve every existing parent-town disposition, including accepted/not-an-issue records. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"Gorhart Inn"	"ゴーハートの宿"	"郭哈特旅馆"	"{""place:gorhart-inn"":""accepted""}"
+"default"	"49413"	""	"place:summers-end"	"accepted"	"서머스 엔드의 야생 페이(Wild Fae)들은 시녀(The Maid)의 마법으로 온순해져 있다. 그 힘은 성 이드릭(St. Eadric) 선교회의 수도사들을 미치게 한 바로 그 정체불명의 수정에서 나온다. 울프(Wulf) 수사의 피리를 불면 수정을 찾아 파괴할 수 있을지도 모른다."	"서머스 엔드(Summer's End)의 야생 페이(Wild Fae)들은 시녀(The Maid)의 마법으로 온순해져 있다. 그 힘은 성 이드릭(St. Eadric) 선교회의 수도사들을 미치게 한 바로 그 정체불명의 수정에서 나온다. 울프(Wulf) 수사의 피리를 불면 수정을 찾아 파괴할 수 있을지도 모른다."	"English default:11999 identifies the village of Summer's End and default:56050 its village and forest. Japanese サマーズ・エンド and Chinese 夏之终焉 corroborate the place. Normalize 여름의 끝 to 서머스 엔드. Default:64294 changes 끝을 to 엔드를; default:63500 is already valid and its distinct poem translation remains byte-identical. At default:54948 Chinese renders the name literally as 夏天的结束; explicit English and Japanese establish the location, not an ordinary season-ending event. Exclude the nested place match in each separately registered complete stone/subplace label. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"The wild Fae in Summer's End are kept pacified by the Maid's enchantments, which are powered by the same mysterious crystal that drove the monks at St. Eadric's to madness. Perhaps if I use Brother Wulf's whistle I can find and destroy them."	"サマーズ・エンドの野生のフェイは、""ウィンダメアの烈女""の魔法により静められている。使われているのは、聖イードリックの修道士の正気を失わせた物と同じ、謎のクリスタルだ。ブラザー・ウルフの笛を使えば、破壊できるかも知れない。"	"这位住在夏之终焉的荒野灵族在少女的魔法下非常平静，并获得了使圣艾德里克的僧侣变得疯狂的神秘水晶的强化。或许，如果我使用伍尔夫修士的长笛，就能找到并摧毁这些水晶。"	"{""place:summers-end"":""accepted""}"
+"default"	"54948"	""	"place:summers-end"	"not-an-issue"	"이 열쇠로 윈더미어 왕국(kingdom of Windemere) 서머스 엔드(Summer's End)에 있는 마법의 종탑을 열 수 있다."	"이 열쇠로 윈더미어 왕국(kingdom of Windemere) 서머스 엔드(Summer's End)에 있는 마법의 종탑을 열 수 있다."	"English default:11999 identifies the village of Summer's End and default:56050 its village and forest. Japanese サマーズ・エンド and Chinese 夏之终焉 corroborate the place. Normalize 여름의 끝 to 서머스 엔드. Default:64294 changes 끝을 to 엔드를; default:63500 is already valid and its distinct poem translation remains byte-identical. At default:54948 Chinese renders the name literally as 夏天的结束; explicit English and Japanese establish the location, not an ordinary season-ending event. Exclude the nested place match in each separately registered complete stone/subplace label. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"This key unlocks the magical bell tower of Summer's End, in the kingdom of Windemere."	"ウィンダメア王国のサマーズ・エンドにある、魔法の鐘楼を開く鍵。"	"这把钥匙能打开温德米尔王国的魔法钟楼，夏天的结束。"	"{""place:summers-end"":""not-an-issue""}"
+"default"	"56050"	""	"place:summers-end"	"not-an-issue"	"수정은 서머스 엔드(Summer's End)의 마을과 숲 곳곳에 숨겨져 있어. 맨눈으로는 볼 수 없고, 음악의 음률로 불러낼 때만 모습을 드러내."	"수정은 서머스 엔드(Summer's End)의 마을과 숲 곳곳에 숨겨져 있어. 맨눈으로는 볼 수 없고, 음악의 음률로 불러낼 때만 모습을 드러내."	"English default:11999 identifies the village of Summer's End and default:56050 its village and forest. Japanese サマーズ・エンド and Chinese 夏之终焉 corroborate the place. Normalize 여름의 끝 to 서머스 엔드. Default:64294 changes 끝을 to 엔드를; default:63500 is already valid and its distinct poem translation remains byte-identical. At default:54948 Chinese renders the name literally as 夏天的结束; explicit English and Japanese establish the location, not an ordinary season-ending event. Exclude the nested place match in each separately registered complete stone/subplace label. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"The crystals are hidden around the village and forest of Summer's End. You cannot see them with the naked eye. They appear only when summoned by a musical tone."	"クリスタルは村の周囲やサマーズ・エンドの森に隠されているが、肉眼で見ることはできない。音楽に呼ばれたときだけ姿を現すんだ"	"水晶就藏在夏之终焉的村庄和森林各处。你仅凭肉眼无法看到它们。只有一种特定的音调，才能使水晶出现。"	"{""place:summers-end"":""not-an-issue""}"
+"default"	"63500"	""	"place:summers-end"	"not-an-issue"	"그녀는 아만(Amman)이 만든 망토를 걸치고
+서머스 엔드(Summer's End)를 몰래 지나
+마법 장막의 봉인을 깨려 했네
+에어로르(Airor)를 사랑하는 척했지
+
+벨메이드(Belmaid)의 거짓 사랑에 홀려
+에어로르 경(Sir Airor)은 그녀를 들여보냈네
+그러자 벨메이드(Belmaid)는 몸을 망토로 감췄고
+성의 모습을 바라보았네."	"그녀는 아만(Amman)이 만든 망토를 걸치고
+서머스 엔드(Summer's End)를 몰래 지나
+마법 장막의 봉인을 깨려 했네
+에어로르(Airor)를 사랑하는 척했지
+
+벨메이드(Belmaid)의 거짓 사랑에 홀려
+에어로르 경(Sir Airor)은 그녀를 들여보냈네
+그러자 벨메이드(Belmaid)는 몸을 망토로 감췄고
+성의 모습을 바라보았네."	"English default:11999 identifies the village of Summer's End and default:56050 its village and forest. Japanese サマーズ・エンド and Chinese 夏之终焉 corroborate the place. Normalize 여름의 끝 to 서머스 엔드. Default:64294 changes 끝을 to 엔드를; default:63500 is already valid and its distinct poem translation remains byte-identical. At default:54948 Chinese renders the name literally as 夏天的结束; explicit English and Japanese establish the location, not an ordinary season-ending event. Exclude the nested place match in each separately registered complete stone/subplace label. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"She took the cloak of Amman's make
+And crept through Summer's End,
+To break the seal of magic's veil,
+Airor's love she'd pretend
+
+Seduced by Belmaid's false love
+Sir Airor let her through,
+Then Belmaid did cloak herself,
+When Castle she did view."	"アマンが作ったコートを取り
+サマーズ・エンドをゆっくり進んだ
+魔法のベールの封印を破るため
+エアラへの愛を装って
+
+ベルメイドの偽りの愛に誘惑されて
+サー・エアラは彼女を通してしまった
+そして城を見たその時
+彼女は自ら姿を隠した"	"她拿走了安曼的斗篷
+蹑手蹑脚地走过夏之终焉，
+打破魔法面纱的封印，
+假装自己爱着艾尔
+
+被贝尔梅德的虚假爱情所诱惑
+艾尔先生让她通过，
+贝尔梅德穿上斗篷，
+当她看到城堡的时候。"	"{""place:summers-end"":""not-an-issue""}"
+"default"	"64294"	""	"place:summers-end"	"accepted"	"그녀는 아만(Amman)이 만든 망토를 두르고
+여름의 끝을 몰래 지나갔네.
+마법의 장막을 봉인한 인장을 깨려고
+에어로르(Airor)를 사랑하는 척했네.
+
+벨메이드(Belmaid)의 거짓 사랑에 넘어간
+에어로르 경(Sir Airor)은 그녀를 들여보냈고,
+벨메이드(Belmaid)는 몸을 망토로 감쌌네.
+성이 눈에 들어왔을 때."	"그녀는 아만(Amman)이 만든 망토를 두르고
+서머스 엔드(Summer's End)를 몰래 지나갔네.
+마법의 장막을 봉인한 인장을 깨려고
+에어로르(Airor)를 사랑하는 척했네.
+
+벨메이드(Belmaid)의 거짓 사랑에 넘어간
+에어로르 경(Sir Airor)은 그녀를 들여보냈고,
+벨메이드(Belmaid)는 몸을 망토로 감쌌네.
+성이 눈에 들어왔을 때."	"English default:11999 identifies the village of Summer's End and default:56050 its village and forest. Japanese サマーズ・エンド and Chinese 夏之终焉 corroborate the place. Normalize 여름의 끝 to 서머스 엔드. Default:64294 changes 끝을 to 엔드를; default:63500 is already valid and its distinct poem translation remains byte-identical. At default:54948 Chinese renders the name literally as 夏天的结束; explicit English and Japanese establish the location, not an ordinary season-ending event. Exclude the nested place match in each separately registered complete stone/subplace label. English is the meaning and identity anchor; Japanese and Chinese are supporting aligned evidence. Register only these complete names, without broad Summer, End or Gorhart aliases. Preserve all unrelated wording, names, tokens and exact line breaks. Earlier person/place dispositions and evidence are unchanged; no historical translation tally is recounted."	"She took the cloak of Amman's make
+And crept through Summer's End,
+To break the seal of magic's veil,
+Airor's love she'd pretend
+
+Seduced by Belmaid's false love
+Sir Airor let her through,
+Then Belmaid did cloak herself,
+When Castle she did view."	"アマンが作ったコートを取り
+サマーズ・エンドをゆっくり進んだ
+魔法のベールの封印を破るため
+エアラへの愛を装って
+
+ベルメイドの偽りの愛に誘惑されて
+サー・エアラは彼女を通してしまった
+そして城を見たその時
+彼女は自ら姿を隠した"	"她拿走了安曼的斗篷
+蹑手蹑脚地走过夏之终焉，
+打破魔法面纱的封印，
+假装自己爱着艾尔
+
+被贝尔梅德的虚假爱情所诱惑
+艾尔先生让她通过，
+贝尔梅德穿上斗篷，
+当她看到城堡的时候。"	"{""place:summers-end"":""accepted""}"

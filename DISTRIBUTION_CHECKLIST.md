@@ -1,14 +1,17 @@
 # Distribution Readiness Checklist
 
-Status as of 2026-10-14: the user approved promotion of the existing package
-to the official GitHub Release, and GitHub confirms it is not marked as a
-prerelease. The ZIP asset is linked in `README.md`. The sequential default
+Release snapshot as of 2026-10-17: the user requested a new tagged official
+release before continuing proper-name review. The new ZIP includes accepted
+edits through D-21569; its build, round-trip, installer static tests, and ZIP
+integrity checks passed. The asset link is updated in `README.md`; see
+`work/zh_cn/audit/release-20261017.md` for the exact tag, hashes, and scope.
+Full proper-name discovery remains incomplete. The sequential default
 review is complete through ID 65134; all 140 zh_cn-specific affix variants
 also have recorded dispositions. The user confirmed Korean rendering in the
 zh_cn setup without `locatexts_en_us.characterset` or
 `fontlist_common.koafontlist`.
 
-This is the published release, not a pending candidate. The Windows installer
+This is an official-release snapshot, not a prerelease candidate. The Windows installer
 has not been independently exercised on Windows, and broad UI, long-play,
 other-locale, and cross-version checks were not part of the recorded smoke
 test. These are documented limitations, not a reason to relabel the
@@ -40,7 +43,7 @@ The official ZIP omits the characterset and common font list and contains:
   `SHA256SUMS.txt`.
 
 The released ZIP is
-`dist/20261014105405/KingdomsOfAmalur_Korean_zh_cn_20261014105405.zip`. It
+`dist/20261017193017/KingdomsOfAmalur_Korean_zh_cn_20261017193017.zip`. It
 contains 32 payload files (three localization binaries and 29 Noto font
 resources), with no common font list or characterset. Generated `dist/`
 packages are ignored by Git and are attached to GitHub Releases instead of
@@ -56,8 +59,8 @@ The ZIP passed build-time localization round-trip and archive integrity
 checks. Its included PowerShell script is byte-identical to the ASCII-only
 source script. Users should launch it by double-clicking
 `RunKoreanPatch.bat`; directly double-clicking `.ps1` may open it in an editor.
-The user approved this package as the official release. The full-font ZIP was
-not separately retested in-game after packaging; the recorded user test
+The user requested this updated package as an official release. This ZIP was
+not separately retested in-game after packaging; the recorded 2026-10-14 user test
 confirmed Korean output in the zh_cn setup without the characterset or common
 font list. Do not describe that brief test as comprehensive coverage.
 
@@ -96,9 +99,9 @@ matched against a depot manifest; the in-game test was a brief smoke test.
   English resources. The release binaries are generated from `work/zh_cn/`;
   `src/` remains immutable.
 
-- The 2026-10-14 user-approved release remains the published package. If later
-  accepted translation changes are made, rebuild and validate a new package
-  before replacing or superseding that release.
+- The 2026-10-17 snapshot supersedes the 2026-10-14 package with accepted
+  translation edits through D-21569. Subsequent accepted edits require a new
+  build and validation before another release; do not silently reuse this ZIP.
 
 ## Build Record and Optional Validation
 
@@ -151,9 +154,9 @@ matched against a depot manifest; the in-game test was a brief smoke test.
 2. Bilingual README introduction, context, and source links (updated
   2026-10-07; user may review).
 3. Prepare the distribution ZIP (completed and round-trip validated
-  2026-10-14).
-4. Publish the repository and release asset (completed 2026-10-14); the user
-  explicitly approved promotion to the official, non-prerelease release.
+  2026-10-14; rebuilt and validated 2026-10-17).
+4. Publish the repository and release asset (initial release 2026-10-14;
+  updated official-release snapshot requested 2026-10-17).
 5. Complete linguistic review (sequential default-ID review through 65134
   and all 140 extra affix dispositions are recorded). The historical
   unidentified 987-key tally discrepancy was closed at the user's direction

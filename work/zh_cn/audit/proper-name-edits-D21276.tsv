@@ -1,0 +1,336 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"base"	"800"	"11"	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"크리플스포어(Cripplespore) 버섯갓"	"크리플스포어 갓(Cripplespore Caps)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"Cripplespore Caps"	"クリップルスポア・キャップ"	"杀人菇伞盖"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"1111"	"11"	"resource:cripplespore"	"not-an-issue"	"크리플스포어(Cripplespore)"	"크리플스포어(Cripplespore)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted."	"Cripplespore"	"クリップルスポア"	"杀人菇"	"{""resource:cripplespore"":""not-an-issue""}"	"{""resource:cripplespore"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"6507"	""	"resource:cripplespore|resource:cripplespore-caps"	"not-an-issue"	"다음 재료를 연금술 작업대에서 혼합하면 일정 시간 완전히 투명해지는 물약을 만들 수 있습니다:
+
+스타 시슬(Star Thistle) (2)
+크리플스포어 갓(Cripplespore Caps) (1)
+하늘꽃(Sky Blossom) (2)
+운명의 정수(Essence of Fate) (1)"	"다음 재료를 연금술 작업대에서 혼합하면 일정 시간 완전히 투명해지는 물약을 만들 수 있습니다:
+
+스타 시슬(Star Thistle) (2)
+크리플스포어 갓(Cripplespore Caps) (1)
+하늘꽃(Sky Blossom) (2)
+운명의 정수(Essence of Fate) (1)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to render you completely invisible for a duration can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (2)
+Cripplespore Caps (1)
+Sky Blossom (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、一時的に姿を完全に透明化させるポーションを調合できる
+
+スターシスル(2)
+クリップルスポアの笠(1)
+スカイブロッサム(2)
+フェイトエッセンス(1)"	"一种能使你在一段时间内完全隐形的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（2）
+杀人菇伞盖（1）
+天空之花（2）
+命运精华（1）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""not-an-issue""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"6570"	""	"resource:cripplespore|resource:cripplespore-caps"	"not-an-issue"	"다음 재료를 연금술 작업대에서 혼합하면 은신 기술을 일시적으로 높이는 물약을 만들 수 있습니다:
+
+크리플스포어 갓(Cripplespore Caps) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (1)"	"다음 재료를 연금술 작업대에서 혼합하면 은신 기술을 일시적으로 높이는 물약을 만들 수 있습니다:
+
+크리플스포어 갓(Cripplespore Caps) (2)
+하늘꽃(Sky Blossom) (2)
+혈근초(Bloodroot) (1)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to temporarily increase your Stealth skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Sky Blossom (2)
+Bloodroot (1)"	"以下の素材を錬金術台で使えば、隠密スキルを一時的に上昇させるポーションを調合できる
+
+クリップルスポアの笠(2)
+スカイブロッサム(2)
+ブラッドルート(1)"	"一种可以暂时提高你的潜行技能的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+天空之花（2）
+血根草（1）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""not-an-issue""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"7247"	""	"resource:cripplespore"	"not-an-issue"	"오랜 연구 끝에 연금술에 쓰이는 천연 재료는 그 정수뿐 아니라 조합 방식에 따라서도 분류할 수 있다는 사실을 알게 되었다. 하지만 이 일을 가볍게 여겨서는 안 된다. 크리플스포어(Cripplespore)를 한 꼬집 잘못 넣기만 해도 가장 건장한 요툰(Jottun)조차 며칠 동안 쇠약해질 수 있다. 그래서 이 책을 쓴다. 미래의 연금술사와 약제사, 치유사, 약초사들이 이 위험하고 신비로운 기술을 능숙하게 다룰 수 있도록 말이다.
+초심자라면 조리법과 재료를 빠짐없이 정리한 목록에 관심이 있을 것이다. 하지만 나는 더 가치 있는 지식을 전하려 한다. 물약, 영약, 강장제, 회복제, 의약제와 그 밖의 모든 연금술 제품이 어떤 방식으로 만들어지는지에 관한 지식이다. 처음에는 기초적인 내용처럼 보일 수 있다. 가장 미숙한 연금술사라도 이 정보에서 답을 알아낼 수 있을 테니까. 하지만 대부분의 연금술사는 마법 액체 한 병을 만드는 과정에서 정확히 무슨 일이 일어나는지 제대로 이해하지 못한다. 여기에 그 과정을 간략히 적는다.
+첫째, 연금술사에게는 알맞은 도구가 필요하며, 그중 가장 중요한 것은 연금술 작업대에 있다. 작업 공간과 그에 딸린 장비는 아주 사소한 연금술 작업에도 반드시 필요하다. 다행히 아말러(Amalur)의 거의 모든 마을과 촌락에서 작업대를 찾을 수 있다.
+둘째, 그만큼 중요한 것으로 연금술사에게는 재료 자체가 필요하다. 재료를 모으는 일도 하나의 기술이자 공예이며, 패란즈(Faelands)의 식물에서 연금 재료를 수확하는 데만 전념하는 용감한 이들도 많다. 가장 다양하고 풍부하게 자라는 곳은 에라셀(Erathell) 평원의 여름의 요람(Cradle of Summer)이지만, 달렌타스(Dalentarth)의 다양한 식물상에서도 풍성한 재료를 얻을 수 있고, 데티어(Detyre)의 사막에는 온갖 광물과 꽃이 숨겨져 있다.
+재료는 정말 많아서 이곳에 전부 열거할 수 없을 정도다. 하지만 수확할 가치가 있는 재료라면 저마다 핵심 정수를 품고 있다는 원칙이 널리 받아들여진다. 예를 들어 사티바 줄기(Sativa Stalk)를 보자. 이 질기고 흔한 풀은 패란즈(Faelands) 전역의 극한 기후와 환경에서도 자란다. 복용자의 신체에 영향을 주는 여러 물약에 쓰이며, 물리적인 성질의 정수가 깃든 것이 분명하다. 이 풀에서 거둔 섬유가 물질세계와 관련된 정수를 품고 있으리라고 쉽게 짐작할 수 있다.
+마지막으로, 연금술사는 고유한 조리법과 섬세하고 복잡한 재료를 조합하는 데 필요한 경험을 갖춰야 한다. 물약을 만드는 방법은 끓이기, 으깨기, 하소, 승화, 훈연, 증류, 희석, 흡수, 흡착, 세라티오, 크로마토그래피, 응고 등 셀 수 없이 많다. 용감한 이들은 조리법 없이 실험할 수도 있지만 매우 위험하므로 비상시가 아니라면 강력히 권하지 않는다.
+이것이 연금술 지식 전체는 아니지만 탄탄한 기초가 되어 줄 것이다. 이제 이 지식을 바탕으로 기초적인 연금술을 할 수 있다. 이 분야에서 더 발전하려면 오직 스스로 꾸준히 노력해야 한다. 행운을 빌며, 네 물약이 언제나 맛있기를."	"오랜 연구 끝에 연금술에 쓰이는 천연 재료는 그 정수뿐 아니라 조합 방식에 따라서도 분류할 수 있다는 사실을 알게 되었다. 하지만 이 일을 가볍게 여겨서는 안 된다. 크리플스포어(Cripplespore)를 한 꼬집 잘못 넣기만 해도 가장 건장한 요툰(Jottun)조차 며칠 동안 쇠약해질 수 있다. 그래서 이 책을 쓴다. 미래의 연금술사와 약제사, 치유사, 약초사들이 이 위험하고 신비로운 기술을 능숙하게 다룰 수 있도록 말이다.
+초심자라면 조리법과 재료를 빠짐없이 정리한 목록에 관심이 있을 것이다. 하지만 나는 더 가치 있는 지식을 전하려 한다. 물약, 영약, 강장제, 회복제, 의약제와 그 밖의 모든 연금술 제품이 어떤 방식으로 만들어지는지에 관한 지식이다. 처음에는 기초적인 내용처럼 보일 수 있다. 가장 미숙한 연금술사라도 이 정보에서 답을 알아낼 수 있을 테니까. 하지만 대부분의 연금술사는 마법 액체 한 병을 만드는 과정에서 정확히 무슨 일이 일어나는지 제대로 이해하지 못한다. 여기에 그 과정을 간략히 적는다.
+첫째, 연금술사에게는 알맞은 도구가 필요하며, 그중 가장 중요한 것은 연금술 작업대에 있다. 작업 공간과 그에 딸린 장비는 아주 사소한 연금술 작업에도 반드시 필요하다. 다행히 아말러(Amalur)의 거의 모든 마을과 촌락에서 작업대를 찾을 수 있다.
+둘째, 그만큼 중요한 것으로 연금술사에게는 재료 자체가 필요하다. 재료를 모으는 일도 하나의 기술이자 공예이며, 패란즈(Faelands)의 식물에서 연금 재료를 수확하는 데만 전념하는 용감한 이들도 많다. 가장 다양하고 풍부하게 자라는 곳은 에라셀(Erathell) 평원의 여름의 요람(Cradle of Summer)이지만, 달렌타스(Dalentarth)의 다양한 식물상에서도 풍성한 재료를 얻을 수 있고, 데티어(Detyre)의 사막에는 온갖 광물과 꽃이 숨겨져 있다.
+재료는 정말 많아서 이곳에 전부 열거할 수 없을 정도다. 하지만 수확할 가치가 있는 재료라면 저마다 핵심 정수를 품고 있다는 원칙이 널리 받아들여진다. 예를 들어 사티바 줄기(Sativa Stalk)를 보자. 이 질기고 흔한 풀은 패란즈(Faelands) 전역의 극한 기후와 환경에서도 자란다. 복용자의 신체에 영향을 주는 여러 물약에 쓰이며, 물리적인 성질의 정수가 깃든 것이 분명하다. 이 풀에서 거둔 섬유가 물질세계와 관련된 정수를 품고 있으리라고 쉽게 짐작할 수 있다.
+마지막으로, 연금술사는 고유한 조리법과 섬세하고 복잡한 재료를 조합하는 데 필요한 경험을 갖춰야 한다. 물약을 만드는 방법은 끓이기, 으깨기, 하소, 승화, 훈연, 증류, 희석, 흡수, 흡착, 세라티오, 크로마토그래피, 응고 등 셀 수 없이 많다. 용감한 이들은 조리법 없이 실험할 수도 있지만 매우 위험하므로 비상시가 아니라면 강력히 권하지 않는다.
+이것이 연금술 지식 전체는 아니지만 탄탄한 기초가 되어 줄 것이다. 이제 이 지식을 바탕으로 기초적인 연금술을 할 수 있다. 이 분야에서 더 발전하려면 오직 스스로 꾸준히 노력해야 한다. 행운을 빌며, 네 물약이 언제나 맛있기를."	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted."	"In my many years of study I have found that the natural ingredients used in the practice of Alchemy, can as easily be categorized by their method of combination as by their essences. However, the task is not to be taken lightly. One wayward pinch of Cripplespore is enough to leave even the heartiest Jottun weak for days. For this reason, I am writing this book; so that future alchemists, apothecaries, healers and herbalists succeed in practicing this dangerous and mysterious art.
+Whereas a complete and exhaustive list of recipes and reagents may be of interest to the novice, I instead will provide a more valuable knowledge: the manner in which the potions, elixirs, tonics, restoratives, physics and all other alchemical products are constructed. At first, this may seem elementary; the information can be divined by even the most inexperienced alchemist. However, there is a great lack of understanding by most practitioners of Alchemy at what exactly occurs during the process of creating a vial of magical liquid. Here, in abbreviated form, is that process.
+First, the alchemist needs the proper tools, and the most vital of these can be found in the alchemy workbench. This space, and the accompanying equipment, is necessary for even the most minor of alchemical procedures. Fortunately, workbenches can be found throughout Amalur in almost every town and village.
+Secondly, and just as crucial, the alchemist needs the reagents themselves. Reagent gathering is a skill and craft unto itself, and many a brave soul has focused on nothing but the harvesting of alchemical reagents from the plants of the Faelands. The greatest concentration and variety of these plants can be found in the Cradle of Summer in the Plains of Erathell, however, the diverse flora of Dalentarth often yields a bountiful variety, and the deserts of Detyre can hide a cornucopia of minerals and flowers.
+There are a great number of reagents, indeed, too many to list here. However, one commonly accepted principle is that every reagent worth harvesting carries within itself a prime essence. Take, for example, the Sativa Stalk. This tough, ubiquitous weed can be found throughout the Faelands, in the most extreme climates and conditions. It is required in many potions that involve affecting the corporeal aspects of the imbiber, and clearly is imbued with an essence of a physical nature. It is easily surmised that the harvested fibers of this weed possess an essence relating to the physical world.
+Finally, the alchemist must possess the unique recipe, and appropriate experience required to handle the delicate and intricate nature of combining reagents. There are countless methods for mixing potions: boiling, mashing, calcination, sublimation, smoking, distillation, dilution, absorption, adsorption, ceration, chromatography, congelation, and so forth. The brave may even experiment without a recipe, however it is a dangerous risk and is strongly discouraged except in cases of emergency.
+While this is by no means the entire body of knowledge of alchemical method, it is a solid foundation. Armed with this knowledge, you are now able to perform rudimentary alchemy. Only through your own dedication will you progress in this field. Good luck, and may your potions always taste delicious."	"長年の研究の中で、私は錬金術に用いられる自然素材は、その配合法だけでなくエッセンスによっても簡単に分類できることが分かった。だが、このタスクを甘く見てはいけない。クリップルスポアを何気なくひとつまみするだけで、もっとも健康なジョタンが数日間、病気で寝込むリスクがあるのだから。ゆえに、私は本書をしたためる。未来の錬金術師や薬剤師、ヒーラーたちが、この危険で謎めいた秘術をうまく実践できるように。
+初学者に一番興味があるのはレシピや素材を完ぺきに網羅したリストだろうが、私はより貴重な知識を提供したい。つまり、ポーションやエリクサー、トニック、強壮剤、下剤といった錬金術の産物がどうやって造られるのかという知識だ。まず、基本的な事に思えるかもしれないが、どんなに未熟な錬金術師にとっても情報は大切である。それなのに、経験豊富な錬金術師ですら、魔法の液体の入った瓶ができあがる過程で何が起きているのか、正確に理解しているとは言いがたい。簡単に言えばプロセスを。
+第一に、錬金術師には正しい道具が必要だ。特に大切な道具は錬金術の作業台で見つかる。このスペースと、その周りにある装置類は、どんなに些細な錬金の手順においても不可欠なもの。幸いにも、作業台はアマラーのほぼ全ての町や村にある。
+次に、これも同じくらい重要だが、錬金術には素材が必要だ。素材集めは錬金術同様に高い技術を要し、フェイランドの植物から錬金の素材を収穫する事だけに執念を燃やす勇者も数多く存在した。とりわけエラセル平原の""夏のゆりかご""近辺には多彩な植物たちが密生しているが、ダレンタースの多様な植物相もバラエティに富んだ素材を提供する。デティアの砂漠も隠された鉱物や花の宝庫だ。
+実際のところ、この世には途方もない数の素材が存在する。あまりに多すぎて、ここで全てを列挙することは不可能なほど。だが、一般原則として、収穫に値する全ての素材が何らかの貴重なエッセンスを内包している。例えばサティヴァの茎。このどこにでも生える強靭な草は、フェイランド全域で見つかる。暑さや寒さに関係なく、どんな条件下でも育つことができる。飲用者の肉体面に影響を与える多くのポーションで、この草が必要になる事からも、サティヴァの茎が物理的性質を帯びたエッセンスを宿している事は明らかだ。この草の繊維に含まれるエッセンスが物質界との関わりが強いことは容易に推測できる。
+最後に、錬金術師は独自のレシピを持つべきである。そして、繊細で複雑な性質を持つ素材を正しく組み合わせられるだけの経験が必要だ。ポーションの作り方は、煮る、すりつぶす、焼成する、いぶす、蒸留する、希釈する、吸収する、融解させる、ろ過する、凝結させるなど、無数に存在する。勇気のある者はレシピなしで実験してもよいが、危険が大きいため、緊急時以外は避けたほうが賢明だろう。
+これが錬金の手法に関する知識の全てではないが、確固たる土台にはなる。この知識で武装した今、君は基礎的な錬金を行う事ができるはずだ。あとはひたすら努力して成長するのみ。幸運を祈る。そして常に美味なるポーションを作ってくれたまえ。"	"根据我的多年研究，我发现用于炼金术的天然材料，既能用化合的方法轻松分类，也能用材料内含的精粹分类。然而，要完成此项任务并不是那么轻松。哪怕是一小撮杀人菇，控制不好就足以让最硬朗的约坦虚弱好多天。因此，我写下了这本书；这样未来的炼金术士，药剂师，治疗师和草药师就能成功地使用这种危险而神秘的技艺。
+虽然完整而详尽的配方及药材列表可能初学者很感兴趣，但我却想提供更有价值的知识：药水，圣水，补药，补品，物理以及所有其他的炼金产品制作的方式。一开始听起来可能会觉得很基础，即便是最缺乏经验的炼金术士也能领悟这些信息。然而，产生一小瓶魔法液体的过程中到底会发生什么，很多炼金术从业者其实并不了解。下面是这个过程的简化版本。
+首先，炼金术士需要适当的工具，其中最重要的能够在炼金工作台上找到。这个地方有的设备，即便是最微小的炼金程序都需要。幸运的是，在阿玛拉的几乎每个村镇都能找到工作台。
+其次一点同样重要，炼金术士自己需要准备药材。药材采集本身就是一门手艺，很多勇士都只致力于从灵族大陆的植物中收获炼金用的试剂。这些植物大多都集中在伊拉塞尔平原里夏的摇篮，不过达伦塔斯也常出产各种各样的植物群，而迪特里的沙漠里也藏着丰富的矿物与花朵。
+药材的数量太多了，在这里确实很难列举。不过，普遍接受的原则是，只有自身内含精粹的药材才值得收获。举个例子，比如亚麻秆。这种坚硬而普通的草药整个灵族大陆都能找到，哪怕是气候环境再极端。许多包含影响饮用者物理属性的药水，显然就要求要含有物理性质的精粹。这样就可以轻松推断，这种药草收获后的纤维中就含有与物理世界相关联的精粹。
+最后，炼金术士必须拥有独一无二的配方，并且要求有适当的经验才能掌控本来就微妙而复杂的药材化合。混合药水的方法有很多种：煮沸、研磨、煅烧、升华、烟熏、蒸馏、稀释、吸收、吸附、蜡化、层析以及凝结等。有些胆大的人没有配方就进行实验，这种尝试十分危险，若非紧急情况强烈建议不要这么做。
+虽然这不可能涵盖炼金方法的整体知识，却打下了一个坚实的基础。有这些知识武装，你现在就能进行基本的炼金。只有通过自己努力，才能在这个领域取得进步。祝你好运，愿你制作的药水总是那么好喝。"	"{""resource:cripplespore"":""not-an-issue""}"	"{""resource:cripplespore"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"11654"	""	"resource:cripplespore|resource:cripplespore-caps"	"not-an-issue"	"다음 재료를 사용해 연금술 작업대에서 독 저항력을 높이는 물약을 만들 수 있다:
+
+크리플스포어 갓(Cripplespore Caps) (2)
+이사의 숨결(Ysa's Breath) (2)
+바닷아마(Seaflax) (1)"	"다음 재료를 사용해 연금술 작업대에서 독 저항력을 높이는 물약을 만들 수 있다:
+
+크리플스포어 갓(Cripplespore Caps) (2)
+이사의 숨결(Ysa's Breath) (2)
+바닷아마(Seaflax) (1)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to increase your Poison Resistance can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Ysa's Breath (2)
+Seaflax (1)"	"以下の素材を錬金術台で使えば、毒に対する耐性を強化するポーションを調合できる
+
+クリップルスポアの笠(2)
+イーサブレス(2)
+シーフラックス(1)"	"一种可以提高你的毒素抗性的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+伊萨之息（2）
+海亚麻（1）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""not-an-issue""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"22088"	""	"resource:cripplespore|resource:cripplespore-caps"	"not-an-issue"	"다음 재료를 사용하면 연금술 작업대에서 은신 기술을 일시적으로 높이는 물약을 만들 수 있다:
+
+크리플스포어 갓(Cripplespore Caps) (1)
+하늘꽃(Sky Blossom) (1)"	"다음 재료를 사용하면 연금술 작업대에서 은신 기술을 일시적으로 높이는 물약을 만들 수 있다:
+
+크리플스포어 갓(Cripplespore Caps) (1)
+하늘꽃(Sky Blossom) (1)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to temporarily increase your Stealth skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (1)
+Sky Blossom (1)"	"以下の素材を錬金術の作業台で使えば、隠密スキルを一時的に上昇させるポーションを調合できる:
+
+クリップルスポア・キャップ(1)
+スカイ・ブロッサム(1)"	"一种可以暂时提高你的潜行技能的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（1）
+天空之花（1）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""not-an-issue""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"23711"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"크리플스포어 갓"	"크리플스포어 갓(Cripplespore Caps)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"Cripplespore Caps"	"クリップルスポア・キャップ"	"杀人菇伞盖"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30543"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"난네 한리(Nanne Hanri) 저, 『크리플스포어 갓에 관한 변증법적 고찰』"	"난네 한리(Nanne Hanri) 저, 『크리플스포어 갓(Cripplespore Caps)에 관한 변증법적 고찰』"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A Dialectical Survey of Cripplespore Caps by Nanne Hanri"	"ナンネ・ハンリ著""クリップルスポアの弁証法的考究"""	"《杀人菇伞盖的辩证研究》，作者南妮·汉里"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31164"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"크리플스포어 갓과 일 페탈(Eel Petal)이야. 산속 야생에 널려 있어."	"크리플스포어 갓(Cripplespore Caps)과 일 페탈(Eel Petal)이야. 산속 야생에 널려 있어."	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"Cripplespore Caps and Eel Petal. There's plenty to be had out in the mountain wilds."	"クリップルスポア・キャップと、イールの花びらね。山の方の荒野には、たくさんある"	"杀人菇伞盖和鳗鱼花。在山野里有很多。"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32670"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"독 피해를 높여 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+크리플스포어 갓(3)
+스카우드 나무껍질(Scarwood Bark)(2)
+혈근초(Bloodroot)(1)"	"독 피해를 높여 주는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+크리플스포어 갓(Cripplespore Caps)(3)
+스카우드 나무껍질(Scarwood Bark)(2)
+혈근초(Bloodroot)(1)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to increase your Poison damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (3)
+Scarwood Bark (2)
+Bloodroot (1)"	"以下の素材を錬金術の作業台で使えば、敵に与える毒ダメージを強化するポーションを調合できる:
+
+クリップルスポア・キャップ(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)"	"一种可以提高你的毒素伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（3）
+伤痕之木树皮（2）
+血根草（1）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38435"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"짧은 시간 동안 완전히 투명해지는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다.
+
+별엉겅퀴 (2)
+절름발이 포자 갓 (1)
+하늘꽃(Sky Blossom)(2)"	"짧은 시간 동안 완전히 투명해지는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다.
+
+별엉겅퀴 (2)
+크리플스포어 갓(Cripplespore Caps) (1)
+하늘꽃(Sky Blossom)(2)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to render you completely invisible for a short duration can be mixed at an Alchemy Workbench using the following reagents:
+
+Star Thistle (2)
+Cripplespore Caps (1)
+Sky Blossom (2)"	"以下の素材を錬金術の作業台で使えば、短時間ながら姿を完全に透明化させるポーションを調合できる:
+
+スターシスル(2)
+クリップルスポア・キャップ(1)
+スカイ・ブロッサム(2)"	"一种能使你在短时间内完全隐形的药水，可在炼金工作台使用下列试剂合成：
+
+矢车菊（2）
+杀人菇伞盖（1）
+天空之花（2）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"42240"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"크리플스포어 갓의 정수란 무엇이며, 그것을 채집하면 무엇을 할 수 있을까? 이 물음에 답하기 위해 달렌타스(Dalentarth)의 수많은 동굴에 자생하는 버섯 종을 깊고 면밀하게 살펴보겠다. 여러 학자는 불안정한 이 재료를 일상적인 연금술에 쓰면 생기는 한계에 관한 이론을 내놓았다. 그러나 진정한 연금술사라면 비전문가가 빠지는 함정을 피할 수 있다. 총명하고 역경 앞에서도 굴하지 않는다면, 크리플스포어 갓의 잠재력을 끌어내는 과정에서 따르는 위험을 극복할 수 있다.
+
+먼저 크리플스포어 갓이 정확히 무엇인지 살펴보자. 크리플스포어 갓은 큰 나무 밑동에서 흔히 발견되는 균류다. 방해받지 않고 자라면 적어도 사람 눈높이까지 자란다는 점이 독특하다. 희미한 금속 냄새를 풍기며, 누르스름한 갈색을 띤다. 원뿔형 자실체는 가늘고 자루 가까이에서 색이 짙어진다. 몸체 전체가 은은한 빛을 내기도 한다.
+
+하지만 크리플스포어 갓의 물리적 특징만으로 그 본질을 모두 알 수 있을까? 크리플스포어의 독성은 내 자매이자 학자인 아우라 한리(Aura Hanri)가 쓴 『균학 연구 개론』에 상세히 기록되어 있다. 버섯의 생물학적 구조에서 발견되는 독소뿐 아니라, 크리플스포어의 마법 정수도 확고히 독의 영역에 속한다. 이 때문에 무해해 보이는 크리플스포어는 강력한 연금술 재료가 된다.
+
+그 정수를 어떻게 조사해야 할까? 이 버섯의 진정한 효능과 용도는 표면 아래를 파고들어야만 드러난다. 단순한 현장 조사로 관찰할 수 있는 것보다 훨씬 많은 것이 있다. 호기심을 품고, 성급한 편견으로 이끄는 기본 전제에 의문을 제기해야 한다.
+
+다시 묻겠다. 이 기만적인 연금술 재료를 채집하면 무엇을 할 수 있을까? 많은 것이 가능하다. 무엇보다도, 내가 개인적으로 연구하는 주제는..."	"크리플스포어 갓(Cripplespore Caps)의 정수란 무엇이며, 그것을 채집하면 무엇을 할 수 있을까? 이 물음에 답하기 위해 달렌타스(Dalentarth)의 수많은 동굴에 자생하는 버섯 종을 깊고 면밀하게 살펴보겠다. 여러 학자는 불안정한 이 재료를 일상적인 연금술에 쓰면 생기는 한계에 관한 이론을 내놓았다. 그러나 진정한 연금술사라면 비전문가가 빠지는 함정을 피할 수 있다. 총명하고 역경 앞에서도 굴하지 않는다면, 크리플스포어 갓(Cripplespore Caps)의 잠재력을 끌어내는 과정에서 따르는 위험을 극복할 수 있다.
+
+먼저 크리플스포어 갓(Cripplespore Caps)이 정확히 무엇인지 살펴보자. 크리플스포어 갓(Cripplespore Caps)은 큰 나무 밑동에서 흔히 발견되는 균류다. 방해받지 않고 자라면 적어도 사람 눈높이까지 자란다는 점이 독특하다. 희미한 금속 냄새를 풍기며, 누르스름한 갈색을 띤다. 원뿔형 자실체는 가늘고 자루 가까이에서 색이 짙어진다. 몸체 전체가 은은한 빛을 내기도 한다.
+
+하지만 크리플스포어 갓(Cripplespore Caps)의 물리적 특징만으로 그 본질을 모두 알 수 있을까? 크리플스포어(Cripplespore)의 독성은 내 자매이자 학자인 아우라 한리(Aura Hanri)가 쓴 『균학 연구 개론』에 상세히 기록되어 있다. 버섯의 생물학적 구조에서 발견되는 독소뿐 아니라, 크리플스포어(Cripplespore)의 마법 정수도 확고히 독의 영역에 속한다. 이 때문에 무해해 보이는 크리플스포어(Cripplespore)는 강력한 연금술 재료가 된다.
+
+그 정수를 어떻게 조사해야 할까? 이 버섯의 진정한 효능과 용도는 표면 아래를 파고들어야만 드러난다. 단순한 현장 조사로 관찰할 수 있는 것보다 훨씬 많은 것이 있다. 호기심을 품고, 성급한 편견으로 이끄는 기본 전제에 의문을 제기해야 한다.
+
+다시 묻겠다. 이 기만적인 연금술 재료를 채집하면 무엇을 할 수 있을까? 많은 것이 가능하다. 무엇보다도, 내가 개인적으로 연구하는 주제는..."	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"What is the essence of Cripplespore Cap, and what is possible in harvesting one? This question will lead us through a deep and thorough examination of the species of mushroom indigenous to the many caves of Dalentarth. Many scholars have posited theories on the shortcomings of such a volatile ingredient in the use of everyday alchemy, however, a true alchemist can avoid the pitfalls of the laywoman. Should one be astute of mind and resilient in the face of adversity, one can overcome the hazards involved when achieving the potential of the Cripplespore Cap.
+
+Let us begin by examining what, exactly, is the Cripplespore Cap. The Cripplespore Cap is a type of fungus, often found at the base of large trees. It is unique in that, when left to grow undisturbed, it will reach at least eye level. It exudes a faint metallic odor and is yellowish-brown in color. The conical fruit body is narrow and darkens near the stalk. The entire body also glows with a soft luminescence.
+
+But do the physical characteristics of the Cripplespore Cap capture the entirety of what it is? The poisonous nature of Cripplespores has been well-documented in the Overview of Mycological Study by my sister and fellow Scholar, Aura Hanri. Besides the toxins found in the mushroom's biology, the magical essence of the Cripplespore is firmly in the Poison sphere. This makes this harmless looking Cripplespore a formidable alchemy ingredient.
+
+How do we go about investigating this essence? The true potency and uses of this mushroom are only exposed when we probe beneath the surface. There is much more than can be observed by simple field research. One must have an inquisitive mind, and question the basic, fundamental assumptions that predispose us to a hasty bias.
+
+Once again, what is possible in harvesting this deceptive alchemical ingredient? Many things. The first and foremost, and the subject of my personal research is . . ."	"クリップルスポア・キャップのエッセンスとは何か？ 収穫することで一体何が可能になるのか？ この問いを立脚点に、ダレンタースの多くの洞窟に自生するこのキノコについて入念かつ徹底的に論じてみたい。多くの学者が、日々の錬金術の実践の中で、この不安定な素材の短所ばかりに着目して諸説を唱えてきた。しかし真の錬金術師であれば、そうした素人じみた錯誤を回避できる。どんな逆境においても明晰で粘り強い精神を発揮できる者であれば、クリップルスポア・キャップの真の力を得ようとする際の危険にも、打ち勝つことができよう。
+
+まずは、クリップルスポア・キャップの実体を知ることから始めたい。クリップルスポア・キャップは大木の根本でよく見つかるキノコの仲間だ。個性的なキノコで、何にも邪魔されずに成長すると、少なくとも目の高さくらいまでは育つ。かすかな金属臭を放ち、色は黄色っぽい茶色。円錐形の子実体は細長く、柄に近づくほど黒っぽくなる。また、全体的に柔らかな光を放つ。
+
+だが、その外見的特徴からだけでは、クリップルスポア・キャップの本質は見えてこない。このキノコは毒を持っており、それについては私の姉妹でもある学者のオーラ・ハンリ著""菌類学概論""に詳しい。そしてその毒性は、このキノコの魔法のエッセンスにも及んでいる。だからこそ、この無害な見かけのクリップルスポアは恐るべき錬金術の素材にもなる。
+
+では、どうやってこのエッセンスを調査するのか？ このキノコの真の効能と用途は、その表皮の下をのぞいてみない限り解明できない。単なる実地調査だけでは不十分だし、何より真摯な探究心が求められる。基本的な前提を疑い、我々を結論へと急がせる先入観を捨てる必要がある。
+
+では、再び問おう。この人の目をあざむく錬金術の素材を収穫することで、一体何が可能なのか？ 多くのことだ。そして何より、私の個人的研究のテーマは…"	"杀人菇伞盖的本质是什么？收获一个杀人菇伞盖会产生什么可能？这个问题将引导我们对这种原产于达伦塔斯的许多洞穴中的蘑菇进行深入和彻底的检查。许多学者对这种挥发性成分在日常炼金术中的不足之处提出了理论，然而，一个真正的炼金术士可以避开外行人面临的陷阱。如果一个人在面对逆境时思维敏捷、适应力强，其就能在发掘杀人菇伞盖的潜力时克服潜在的危险。
+
+让我们先来看看到底什么是杀人菇伞盖。杀人菇伞盖是一种真菌，经常出现在大树的根部。它的独特之处在于，当它不受干扰地生长时，至少能达到与眼睛平齐的高度。它散发出淡淡的金属气味，外观呈黄褐色。圆锥形的果体狭窄，并在靠近茎的地方颜色变深。整个身体还会发出柔和的荧光。
+
+但是，杀人菇伞盖的物理特征是否完全反映了它的本质呢？我的姐姐兼同事奥拉·汉里在《真菌学研究综述》中已经详细地记录了杀人菇的毒性。除了在这种蘑菇的生物体中发现的毒素外，杀人菇的神奇精华在毒素球中也十分稳定。这使得这种看起来无害的杀人菇成为了一种可怕的炼金术成分。
+
+我们如何着手研究这一精华？这种蘑菇的真正效力和用途只有在我们深入探索它的内里时才会显露出来。这比通过简单的实地研究所能观察到的要多得多。人必须有一颗好奇的心，对那些使我们容易产生草率偏见的基本假设提出质疑。
+
+再一次，收获这种欺骗性的炼金术成分会产生什么可能？很多东西。首先也是最重要的，是为我的个人研究提供一个主题。.."	"{""resource:cripplespore"":""accepted"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"44946"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"크리플스포어 갓은 제대로 조제하면 매우 치명적이며, {*3독}이 들어가는 물약에 아주 효과적이다."	"크리플스포어 갓(Cripplespore Caps)은 제대로 조제하면 매우 치명적이며, {*3독}이 들어가는 물약에 아주 효과적이다."	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"Incredibly deadly if prepared correctly, Cripplespore Caps are highly effective in potions that involve {*3Poison}."	"適切に処置すれば非常に力価の強い猛毒となるクリップルスポアの笠は、{*3毒}に関連したポーションの素材として非常に有用である。"	"杀人菇伞盖如果处理得当后极端致命，在含有{*3毒素}的药水中非常有效。"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"46637"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"은신 기술을 일시적으로 높여 주는 물약은 연금술 작업대에서 다음 시약을 사용해 만들 수 있습니다:
+
+크리플스포어 갓 (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"은신 기술을 일시적으로 높여 주는 물약은 연금술 작업대에서 다음 시약을 사용해 만들 수 있습니다:
+
+크리플스포어 갓(Cripplespore Caps) (2)
+하늘꽃(Sky Blossom)(2)
+혈근초(Bloodroot) (2)
+운명의 정수 (1)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to temporarily increase your Stealth skill can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Sky Blossom (2)
+Bloodroot (2)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、隠密スキルを一時的に上昇させるポーションを調合できる
+
+クリップルスポアの笠(2)
+スカイブロッサム(2)
+ブラッドルート(2)
+フェイトエッセンス(1)"	"一种可以暂时提高你的潜行技能的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+天空之花（2）
+血根草（2）
+命运精华（1）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"48816"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"- 고기 (10)
+- 크리플스포어 갓 (3)
+- 일 페탈(Eel Petal) (3)
+- 꽃 장식
+- 크라운홀드(Crownhold) 금화 (5)"	"- 고기 (10)
+- 크리플스포어 갓(Cripplespore Caps) (3)
+- 일 페탈(Eel Petal) (3)
+- 꽃 장식
+- 크라운홀드(Crownhold) 금화 (5)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"- Meat (10)
+- Cripplespore Caps (3)
+- Eel Petal (3)
+- Floral Arrangements
+- Crownhold Gold (5)"	"- 肉（10）
+- クリップルスポア・キャップ（3）
+- イールの花びら（3）
+- 花の装飾
+- クラウンホールド・ゴールド（5）"	"- 肉（10）
+- 杀人菇伞盖 （3）
+- 鳗鱼花 （3）
+- 花卉装饰
+- 皇冠堡黄金（5）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50503"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"다음 재료를 사용해 연금술 작업대에서 독 피해량을 높이는 물약을 만들 수 있다.
+
+크리플스포어 갓 (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"다음 재료를 사용해 연금술 작업대에서 독 피해량을 높이는 물약을 만들 수 있다.
+
+크리플스포어 갓(Cripplespore Caps) (3)
+스카우드 나무껍질(Scarwood Bark) (2)
+혈근초(Bloodroot) (1)
+운명의 정수 (1)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to increase your Poison damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (3)
+Scarwood Bark (2)
+Bloodroot (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、敵に与える毒ダメージを強化するポーションを調合できる
+
+クリップルスポアの笠(3)
+スカーウッドの樹皮(2)
+ブラッドルート(1)
+フェイトエッセンス(1)"	"一种可以提高你的毒素伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（3）
+伤痕之木树皮（2）
+血根草（1）
+命运精华（1）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"52354"	""	"resource:cripplespore|resource:cripplespore-caps"	"not-an-issue"	"독 피해를 높이는 물약은 다음 재료를 연금술 작업대에서 섞어 만들 수 있습니다.
+
+크리플스포어 갓(Cripplespore Caps) (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"독 피해를 높이는 물약은 다음 재료를 연금술 작업대에서 섞어 만들 수 있습니다.
+
+크리플스포어 갓(Cripplespore Caps) (2)
+스카우드 나무껍질(Scarwood Bark) (1)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to increase your Poison damage output can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Scarwood Bark (1)"	"以下の素材を錬金術の作業台で使えば、敵に与える毒ダメージを強化するポーションを調合できる:
+
+クリップルスポア・キャップ(2)
+スカーウッドの樹皮(1)"	"一种可以提高你的毒素伤害输出的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+伤痕之木树皮（1）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""not-an-issue""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"56554"	""	"resource:cripplespore|resource:cripplespore-caps"	"accepted"	"독 저항력을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+크리플스포어 갓(2)
+이사의 숨결(Ysa's Breath)(2)
+바닷아마(Seaflax)(1)
+운명의 정수(1)"	"독 저항력을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:
+
+크리플스포어 갓(Cripplespore Caps)(2)
+이사의 숨결(Ysa's Breath)(2)
+바닷아마(Seaflax)(1)
+운명의 정수(1)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to increase your Poison Resistance can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Ysa's Breath (2)
+Seaflax (1)
+Essence of Fate (1)"	"以下の素材を錬金術台で使えば、毒に対する耐性を強化するポーションを調合できる
+
+クリップルスポアの笠(2)
+イーサブレス(2)
+シーフラックス(1)
+フェイトエッセンス(1)"	"一种可以提高你的毒素抗性的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+伊萨之息（2）
+海亚麻（1）
+命运精华（1）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""accepted""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"63033"	""	"resource:cripplespore|resource:cripplespore-caps"	"not-an-issue"	"독 저항력을 높이는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있다:
+
+크리플스포어 갓(Cripplespore Caps) (2)
+이사의 숨결(Ysa's Breath) (1)"	"독 저항력을 높이는 물약은 연금술 작업대에서 다음 재료를 섞어 만들 수 있다:
+
+크리플스포어 갓(Cripplespore Caps) (2)
+이사의 숨결(Ysa's Breath) (1)"	"D-21276: English-first named fungus and harvested ingredient review across all three resources. The official Korean manual PDF p. 4 and p. 8 establishes Alchemy, Reagents and Recipes but does not name this fungus. Preserve ingredient quantities, poison effects, scholarly prose, author names, existing other-name annotations, tokens and line breaks. No affix hit. Count overlapping species/cap matches once per CSV row. English base:1111 names Cripplespore and default:42240 distinguishes the mushroom species (including plural Cripplespores) from its Caps. Japanese クリップルスポア and Chinese 杀人菇 corroborate the species. Default:7247 names the poisonous ingredient generically. Exclude the shorter lexical hit in rows naming only Caps; annotate the three species-only mentions separately from five cap mentions in default:42240. No new pharmacological or real-world species identity is asserted. English base:800 and recipes identify the harvested Cripplespore Caps; default:42240 explicitly describes the singular Cripplespore Cap and the mushroom species. Japanese クリップルスポア・キャップ/クリップルスポアの笠 and Chinese 杀人菇伞盖 corroborate. Reuse the established 크리플스포어 갓 and pair the entire ingredient name, including the singular source alias. Normalize default:38435 절름발이 포자 갓 and the split base annotation. Keep species-only references distinct rather than automatically append 갓."	"A potion to increase your Poison Resistance can be mixed at an Alchemy Workbench using the following reagents:
+
+Cripplespore Caps (2)
+Ysa's Breath (1)"	"以下の素材を錬金術の作業台で使えば、毒に対する耐性を強化するポーションを調合できる:
+
+クリップルスポア・キャップ(2)
+イーサブレス(1)"	"一种可以提高你的毒素抗性的药水，可在炼金工作台使用下列试剂合成：
+
+杀人菇伞盖（2）
+伊萨之息（1）"	"{""resource:cripplespore"":""excluded"",""resource:cripplespore-caps"":""not-an-issue""}"	"{""resource:cripplespore"":""needs-context"",""resource:cripplespore-caps"":""needs-context""}"	"{""resource:cripplespore"":""Candidate hit from the English source; verify this occurrence in context."",""resource:cripplespore-caps"":""Candidate hit from the English source; verify this occurrence in context.""}"

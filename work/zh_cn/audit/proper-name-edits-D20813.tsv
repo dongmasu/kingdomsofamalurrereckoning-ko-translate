@@ -1,0 +1,192 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"base"	"1428"	"11"	"skill:gambit"	"accepted"	"책략"	"갬빗(Gambit)"	"skill:gambit: English Gambit; Japanese ガンビット; Chinese 甘贝特. Normalized only the reviewed Korean span to 갬빗(Gambit); matched the particle to the Korean ending and preserved surrounding source text."	"Gambit"	"ガンビット"	"甘贝特"	"{""skill:gambit"":""accepted""}"	"{""skill:gambit"":""needs-context""}"	"{""skill:gambit"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"1847"	"11"	"skill:frost-trap"	"accepted"	"서리 함정"	"서리 덫(Frost Trap)"	"skill:frost-trap: English Frost Trap; Japanese フロストトラップ; Chinese 冰霜陷阱. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"Frost Trap"	"フロストトラップ"	"冰霜陷阱"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"4189"	"11"	"skill:lunge"	"accepted"	"돌진"	"돌진(Lunge)"	"skill:lunge: English Lunge; Japanese ランジ; Chinese 猛冲. Normalized only the reviewed Korean span to 돌진(Lunge); matched the particle to the Korean ending and preserved surrounding source text."	"Lunge"	"ランジ"	"猛冲"	"{""skill:lunge"":""accepted""}"	"{""skill:lunge"":""needs-context""}"	"{""skill:lunge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"4767"	"11"	"skill:smoke-bomb"	"accepted"	"연막탄"	"연막탄(Smoke Bomb)"	"skill:smoke-bomb: English Smoke Bomb; Japanese スモークボム; Chinese 烟雾弹. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Smoke Bomb"	"スモークボム"	"烟雾弹"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"61"	""	"skill:lunge"	"not-an-issue"	"돌진(Lunge)은 연계 점수 1점당 속도가 6% 증가합니다."	"돌진(Lunge)은 연계 점수 1점당 속도가 6% 증가합니다."	"skill:lunge: English Lunge gains +6% Speed per Combo Point; Japanese ランジがコンボポイントごとに+6%のスピードを得る; Chinese 每获得一连击点数，冲锋都可增加6%的速度。. Normalized only the reviewed Korean span to 돌진(Lunge); matched the particle to the Korean ending and preserved surrounding source text."	"Lunge gains +6% Speed per Combo Point"	"ランジがコンボポイントごとに+6%のスピードを得る"	"每获得一连击点数，冲锋都可增加6%的速度。"	"{""skill:lunge"":""not-an-issue""}"	"{""skill:lunge"":""needs-context""}"	"{""skill:lunge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"1015"	""	"skill:frost-trap"	"accepted"	"서리 함정의 피해가 10 증가하고, 20% 확률로 대상을 3초 동안 기절시킵니다."	"서리 덫(Frost Trap)의 피해가 10 증가하고, 20% 확률로 대상을 3초 동안 기절시킵니다."	"skill:frost-trap: English Frost Trap does 10 additional damage and has a 20% chance to Stun targets for 3 seconds.; Japanese ""フロストトラップ""のダメージが10アップし、20%の確率で敵をマヒさせる(3秒間)。; Chinese 冰霜陷阱会造成10点额外伤害，并有20%的几率眩晕目标，持续3秒。. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"Frost Trap does 10 additional damage and has a 20% chance to Stun targets for 3 seconds."	"""フロストトラップ""のダメージが10アップし、20%の確率で敵をマヒさせる(3秒間)。"	"冰霜陷阱会造成10点额外伤害，并有20%的几率眩晕目标，持续3秒。"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"1798"	""	"skill:smoke-bomb"	"accepted"	"{*1[강화]}
+더 손을 본 덕분에 연막탄 효과에 치명적인 독구름을 추가할 수 있게 되었다."	"{*1[강화]}
+더 손을 본 덕분에 연막탄(Smoke Bomb) 효과에 치명적인 독구름을 추가할 수 있게 되었다."	"skill:smoke-bomb: English {*1[Upgrade]}
+Further tinkering has enabled you to add a deadly Poison cloud to the effects of your Smoke Bomb.; Japanese {*1[アップグレード]}
+化学式を改良することにより、スモークボムに毒の効果を追加する。; Chinese {*1[升级]}
+经过进一步的修补，你在烟雾弹的效果中添加了致命的毒云。. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"{*1[Upgrade]}
+Further tinkering has enabled you to add a deadly Poison cloud to the effects of your Smoke Bomb."	"{*1[アップグレード]}
+化学式を改良することにより、スモークボムに毒の効果を追加する。"	"{*1[升级]}
+经过进一步的修补，你在烟雾弹的效果中添加了致命的毒云。"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"5248"	""	"skill:smoke-bomb"	"accepted"	"연계 점수 1점당 연막탄 재사용 대기시간이 20% 감소합니다."	"연계 점수 1점당 연막탄(Smoke Bomb) 재사용 대기시간이 20% 감소합니다."	"skill:smoke-bomb: English Reduces Smoke Bomb cooldown time by 20% per Combo Point; Japanese スモークボムのクールダウン時間がコンボポイントごとに20%軽減される; Chinese 每获得一连击点数，可减少烟雾弹20%的冷却时间。. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Reduces Smoke Bomb cooldown time by 20% per Combo Point"	"スモークボムのクールダウン時間がコンボポイントごとに20%軽減される"	"每获得一连击点数，可减少烟雾弹20%的冷却时间。"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"5742"	""	"skill:lunge"	"excluded"	"돌진 연계 공격"	"돌진 연계 공격"	"skill:lunge: Lunge Combo is a distinct full English/Japanese/Chinese compound label; preserve its complete Korean label."	"Lunge Combo"	"ランジコンボ"	"冲锋连击"	"{""skill:lunge"":""excluded""}"	"{""skill:lunge"":""needs-context""}"	"{""skill:lunge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"8831"	""	"skill:smoke-bomb"	"accepted"	"연막탄은 물리 피해 19를 주고 적을 5초 동안 기절시킵니다.
+6초 동안 적의 감지에 들키지 않습니다.
+비용: 마나 55"	"연막탄(Smoke Bomb)은 물리 피해 19를 주고 적을 5초 동안 기절시킵니다.
+6초 동안 적의 감지에 들키지 않습니다.
+비용: 마나 55"	"skill:smoke-bomb: English Smoke Bomb does 19 Physical Damage and Stuns enemies for 5 seconds.
+You are hidden from detection for 6 seconds.
+Cost: 55 Mana; Japanese スモークボムが敵に19の物理ダメージとマヒ効果(5秒間)を与える。
+敵から6秒間見つからなくなる。
+コスト: マナ55; Chinese 烟雾弹造成19点物理伤害，并眩晕敌人5秒。
+你躲避侦测6秒。
+消耗：55法力. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Smoke Bomb does 19 Physical Damage and Stuns enemies for 5 seconds.
+You are hidden from detection for 6 seconds.
+Cost: 55 Mana"	"スモークボムが敵に19の物理ダメージとマヒ効果(5秒間)を与える。
+敵から6秒間見つからなくなる。
+コスト: マナ55"	"烟雾弹造成19点物理伤害，并眩晕敌人5秒。
+你躲避侦测6秒。
+消耗：55法力"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"9323"	""	"skill:smoke-bomb"	"accepted"	"연막탄은 피해 7을 주고 적을 2초 동안 기절시킵니다.
+6초 동안 적의 감지에 들키지 않습니다.
+비용: 마나 40"	"연막탄(Smoke Bomb)은 피해 7을 주고 적을 2초 동안 기절시킵니다.
+6초 동안 적의 감지에 들키지 않습니다.
+비용: 마나 40"	"skill:smoke-bomb: English Smoke Bomb deals 7 Damage and Stuns enemies for 2 seconds.
+You are hidden from detection for 6 seconds.
+Cost: 40 Mana; Japanese スモークボムが敵に7の物理ダメージとマヒ効果(2秒間)を与える。
+敵から6秒間見つからなくなる。
+コスト: マナ40; Chinese 烟雾弹造成7点物理伤害，并眩晕敌人2秒。
+你躲避侦测6秒。
+消耗：40点法力. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Smoke Bomb deals 7 Damage and Stuns enemies for 2 seconds.
+You are hidden from detection for 6 seconds.
+Cost: 40 Mana"	"スモークボムが敵に7の物理ダメージとマヒ効果(2秒間)を与える。
+敵から6秒間見つからなくなる。
+コスト: マナ40"	"烟雾弹造成7点物理伤害，并眩晕敌人2秒。
+你躲避侦测6秒。
+消耗：40点法力"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14166"	""	"skill:frost-trap"	"accepted"	"서리 덫의 추가 피해가 40 증가하고, 대상에게 6초 동안 기절 효과를 줄 확률이 40%가 됩니다."	"서리 덫(Frost Trap)의 추가 피해가 40 증가하고, 대상에게 6초 동안 기절 효과를 줄 확률이 40%가 됩니다."	"skill:frost-trap: English Frost Trap does 40 additional damage and has a 40% chance to Stun targets for 6 seconds.; Japanese ""フロストトラップ""のダメージが40アップし、40%の確率で敵をマヒさせる(6秒間)。; Chinese 冰霜陷阱会造成40点额外伤害，并有40%的几率眩晕目标，持续6秒。. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"Frost Trap does 40 additional damage and has a 40% chance to Stun targets for 6 seconds."	"""フロストトラップ""のダメージが40アップし、40%の確率で敵をマヒさせる(6秒間)。"	"冰霜陷阱会造成40点额外伤害，并有40%的几率眩晕目标，持续6秒。"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14329"	""	"skill:smoke-bomb"	"accepted"	"연막탄에 5초 동안 독 피해 30을 추가합니다."	"연막탄(Smoke Bomb)에 5초 동안 독 피해 30을 추가합니다."	"skill:smoke-bomb: English Adds 30 Poison Damage over 5 Seconds to Smoke Bomb.; Japanese 30の毒ダメージ(5秒間)を与える効果をスモークボムに追加する。; Chinese 5秒内为烟雾弹添加30点毒素伤害。. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Adds 30 Poison Damage over 5 Seconds to Smoke Bomb."	"30の毒ダメージ(5秒間)を与える効果をスモークボムに追加する。"	"5秒内为烟雾弹添加30点毒素伤害。"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14985"	""	"skill:smoke-bomb"	"accepted"	"연막탄에 5초 동안 독 피해 60을 추가합니다."	"연막탄(Smoke Bomb)에 5초 동안 독 피해 60을 추가합니다."	"skill:smoke-bomb: English Adds 60 Poison Damage over 5 Seconds to Smoke Bomb.; Japanese 60の毒ダメージ(5秒間)を与える効果をスモークボムに追加する。; Chinese 5秒内为烟雾弹添加60点毒素伤害。. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Adds 60 Poison Damage over 5 Seconds to Smoke Bomb."	"60の毒ダメージ(5秒間)を与える効果をスモークボムに追加する。"	"5秒内为烟雾弹添加60点毒素伤害。"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14990"	""	"skill:frost-trap"	"accepted"	"서리 덫은 냉기 피해 35와 3초에 걸친 빙결 피해 6을 줍니다.
+마나 소모량: 25"	"서리 덫(Frost Trap)은 냉기 피해 35와 3초에 걸친 빙결 피해 6을 줍니다.
+마나 소모량: 25"	"skill:frost-trap: English Frost Trap deals 35 Ice Damage and 6 Freezing Damage over 3 seconds.
+Cost: 25 mana; Japanese ""フロストトラップ""にかかった敵に対し、35の氷ダメージと6の凍結ダメージ(3秒間)を与える。
+コスト: マナ25; Chinese 冰霜陷阱会在3秒内造成35点寒冰伤害和6点冰冻伤害。
+消耗：25点法力. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"Frost Trap deals 35 Ice Damage and 6 Freezing Damage over 3 seconds.
+Cost: 25 mana"	"""フロストトラップ""にかかった敵に対し、35の氷ダメージと6の凍結ダメージ(3秒間)を与える。
+コスト: マナ25"	"冰霜陷阱会在3秒内造成35点寒冰伤害和6点冰冻伤害。
+消耗：25点法力"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"15077"	""	"skill:frost-trap"	"accepted"	"{*1[사용형]}
+폭발하면 주변의 모든 적에게 냉기 및 빙결 피해를 주는 서리 덫을 설치합니다. 한 번에 최대 4개까지 설치할 수 있습니다."	"{*1[사용형]}
+폭발하면 주변의 모든 적에게 냉기 및 빙결 피해를 주는 서리 덫(Frost Trap)을 설치합니다. 한 번에 최대 4개까지 설치할 수 있습니다."	"skill:frost-trap: English {*1[Active]}
+Plant a Frost Trap which causes Ice and Freezing damage to all nearby enemies when it explodes. A maximum of 4 traps can be placed at a time.; Japanese {*1[アクティブ]}
+起爆すると周囲の敵に氷・凍結ダメージを与える氷の罠を設置する。一度に4つまで設置可能。; Chinese {*1[主动]}
+放置一个冰霜陷阱，爆炸时会对附近所有敌人造成寒冰和冰冻伤害。同时可至多放置 4 个陷阱。. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"{*1[Active]}
+Plant a Frost Trap which causes Ice and Freezing damage to all nearby enemies when it explodes. A maximum of 4 traps can be placed at a time."	"{*1[アクティブ]}
+起爆すると周囲の敵に氷・凍結ダメージを与える氷の罠を設置する。一度に4つまで設置可能。"	"{*1[主动]}
+放置一个冰霜陷阱，爆炸时会对附近所有敌人造成寒冰和冰冻伤害。同时可至多放置 4 个陷阱。"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"15245"	""	"skill:chain-lightning"	"accepted"	"연쇄 번개"	"연쇄 번개(Chain Lightning)"	"skill:chain-lightning: English Chain Lightning; Japanese チェインライトニング; Chinese 连锁雷电. Normalized only the reviewed Korean span to 연쇄 번개(Chain Lightning); matched the particle to the Korean ending and preserved surrounding source text."	"Chain Lightning"	"チェインライトニング"	"连锁雷电"	"{""skill:chain-lightning"":""accepted""}"	"{""skill:chain-lightning"":""needs-context""}"	"{""skill:chain-lightning"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"15363"	""	"skill:adrenaline-surge"	"accepted"	"아드레날린 분출 효과 지속 중 치명타 확률 +20%"	"아드레날린 분출(Adrenaline Surge) 효과 지속 중 치명타 확률 +20%"	"skill:adrenaline-surge: English +20% Chance to Critical Hit while Adrenaline Surge is in effect; Japanese ""アドレナリンサージ""実行中のクリティカルヒット率+20%; Chinese 肾上腺素生效时，暴击几率+20%. Normalized only the reviewed Korean span to 아드레날린 분출(Adrenaline Surge); matched the particle to the Korean ending and preserved surrounding source text."	"+20% Chance to Critical Hit while Adrenaline Surge is in effect"	"""アドレナリンサージ""実行中のクリティカルヒット率+20%"	"肾上腺素生效时，暴击几率+20%"	"{""skill:adrenaline-surge"":""accepted""}"	"{""skill:adrenaline-surge"":""needs-context""}"	"{""skill:adrenaline-surge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"15523"	""	"skill:adrenaline-surge"	"accepted"	"아드레날린 분출 효과 지속 중 치명타 확률 +35%"	"아드레날린 분출(Adrenaline Surge) 효과 지속 중 치명타 확률 +35%"	"skill:adrenaline-surge: English +35% Chance to Critical Hit while Adrenaline Surge is in effect; Japanese ""アドレナリンサージ""実行中のクリティカルヒット率+35%; Chinese 肾上腺素生效时，暴击几率+35%. Normalized only the reviewed Korean span to 아드레날린 분출(Adrenaline Surge); matched the particle to the Korean ending and preserved surrounding source text."	"+35% Chance to Critical Hit while Adrenaline Surge is in effect"	"""アドレナリンサージ""実行中のクリティカルヒット率+35%"	"肾上腺素生效时，暴击几率+35%"	"{""skill:adrenaline-surge"":""accepted""}"	"{""skill:adrenaline-surge"":""needs-context""}"	"{""skill:adrenaline-surge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"15652"	""	"skill:smoke-bomb"	"accepted"	"연막탄에 5초 동안 독 피해 90을 추가합니다."	"연막탄(Smoke Bomb)에 5초 동안 독 피해 90을 추가합니다."	"skill:smoke-bomb: English Adds 90 Poison Damage over 5 Seconds to Smoke Bomb.; Japanese 90の毒ダメージ(5秒間)を与える効果をスモークボムに追加する。; Chinese 5秒内为烟雾弹添加90点毒素伤害。. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Adds 90 Poison Damage over 5 Seconds to Smoke Bomb."	"90の毒ダメージ(5秒間)を与える効果をスモークボムに追加する。"	"5秒内为烟雾弹添加90点毒素伤害。"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18345"	""	"skill:lunge"	"uncertain"	"{*1[활성]}
+초자연적인 속도로 적을 지나쳐 뒤에서 공격합니다."	"{*1[활성]}
+초자연적인 속도로 적을 지나쳐 뒤에서 공격합니다."	"skill:lunge: English, Japanese, and Chinese describe the Lunge ability, but the Korean sentence translates the action without a bounded name span. Left unchanged rather than inject a new name."	"{*1[Active]}
+Lunge past your foes with preternatural speed to attack them from behind."	"{*1[アクティブ]}
+目にもとまらぬ速さで駆け抜け、敵を背後から攻撃する。"	"{*1[主动]}
+以不可思议的速度猛冲过敌人，然后从后边攻击他们。"	"{""skill:lunge"":""uncertain""}"	"{""skill:lunge"":""needs-context""}"	"{""skill:lunge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20551"	""	"skill:gambit"	"not-an-issue"	"갬빗(Gambit)"	"갬빗(Gambit)"	"skill:gambit: English Gambit; Japanese ガンビット; Chinese 甘贝特. Normalized only the reviewed Korean span to 갬빗(Gambit); matched the particle to the Korean ending and preserved surrounding source text."	"Gambit"	"ガンビット"	"甘贝特"	"{""skill:gambit"":""not-an-issue""}"	"{""skill:gambit"":""needs-context""}"	"{""skill:gambit"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20836"	""	"skill:gambit"	"excluded"	"갬빗 소형 함정"	"갬빗 소형 함정"	"skill:gambit: Gambit Trap Small is a distinct compound ability label, not the standalone Gambit skill."	"Gambit Trap Small"	"ガンビットトラップ(小)"	"小型甘贝特陷阱"	"{""skill:gambit"":""excluded""}"	"{""skill:gambit"":""needs-context""}"	"{""skill:gambit"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20978"	""	"skill:smoke-bomb"	"accepted"	"연막탄은 물리 피해 25를 주고 적을 5초 동안 기절시킵니다.
+6초 동안 적의 감지에 들키지 않습니다.
+소모량: 마나 55"	"연막탄(Smoke Bomb)은 물리 피해 25를 주고 적을 5초 동안 기절시킵니다.
+6초 동안 적의 감지에 들키지 않습니다.
+소모량: 마나 55"	"skill:smoke-bomb: English Smoke Bomb does 25 Physical Damage and Stuns enemies for 5 seconds.
+You are hidden from detection for 6 seconds.
+Cost: 55 Mana; Japanese スモークボムが敵に25の物理ダメージとマヒ効果(5秒間)を与える。
+敵から6秒間見つからなくなる。
+コスト: マナ55; Chinese 烟雾弹造成25点物理伤害，并晕眩敌人5秒。
+你躲避侦测6秒。
+消耗：55法力. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Smoke Bomb does 25 Physical Damage and Stuns enemies for 5 seconds.
+You are hidden from detection for 6 seconds.
+Cost: 55 Mana"	"スモークボムが敵に25の物理ダメージとマヒ効果(5秒間)を与える。
+敵から6秒間見つからなくなる。
+コスト: マナ55"	"烟雾弹造成25点物理伤害，并晕眩敌人5秒。
+你躲避侦测6秒。
+消耗：55法力"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"23906"	""	"skill:frost-trap"	"accepted"	"서리 덫은 냉기 피해 30과 동결 피해 4를 2초 동안 줍니다.
+소모 마나: 20"	"서리 덫(Frost Trap)은 냉기 피해 30과 동결 피해 4를 2초 동안 줍니다.
+소모 마나: 20"	"skill:frost-trap: English Frost Trap deals 30 Ice Damage and 4 Freezing Damage over 2 seconds.
+Cost: 20 mana; Japanese ""フロストトラップ""にかかった敵に対し、30の氷ダメージと4の凍結ダメージ(2秒間)を与える。
+コスト: マナ20; Chinese 冰霜陷阱会在2秒内造成30点寒冰伤害和4点冰冻伤害。
+消耗：20点法力. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"Frost Trap deals 30 Ice Damage and 4 Freezing Damage over 2 seconds.
+Cost: 20 mana"	"""フロストトラップ""にかかった敵に対し、30の氷ダメージと4の凍結ダメージ(2秒間)を与える。
+コスト: マナ20"	"冰霜陷阱会在2秒内造成30点寒冰伤害和4点冰冻伤害。
+消耗：20点法力"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24739"	""	"skill:adrenaline-surge"	"accepted"	"{*1[업그레이드]}
+아드레날린 분출이 지속되는 동안 집중력이 최고조에 달해 치명타를 가할 확률이 증가합니다."	"{*1[업그레이드]}
+아드레날린 분출(Adrenaline Surge)이 지속되는 동안 집중력이 최고조에 달해 치명타를 가할 확률이 증가합니다."	"skill:adrenaline-surge: English {*1[Upgrade]}
+You achieve new heights of focus while an Adrenaline Surge is in effect, increasing your chance to deal Critical Hits.; Japanese {*1[アップグレード]}
+""アドレナリンサージ""を実行している間、集中力が大幅に高まる。その結果、クリティカルヒット率がアップする。; Chinese {*1[升级]}
+当肾上腺素起效时，你达到了专注的新高度，因此你的暴击率提升了。. Normalized only the reviewed Korean span to 아드레날린 분출(Adrenaline Surge); matched the particle to the Korean ending and preserved surrounding source text."	"{*1[Upgrade]}
+You achieve new heights of focus while an Adrenaline Surge is in effect, increasing your chance to deal Critical Hits."	"{*1[アップグレード]}
+""アドレナリンサージ""を実行している間、集中力が大幅に高まる。その結果、クリティカルヒット率がアップする。"	"{*1[升级]}
+当肾上腺素起效时，你达到了专注的新高度，因此你的暴击率提升了。"	"{""skill:adrenaline-surge"":""accepted""}"	"{""skill:adrenaline-surge"":""needs-context""}"	"{""skill:adrenaline-surge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24931"	""	"skill:adrenaline-surge"	"accepted"	"아드레날린 분출 중 치명타 확률 +30%"	"아드레날린 분출(Adrenaline Surge) 중 치명타 확률 +30%"	"skill:adrenaline-surge: English +30% Chance to Critical Hit while Adrenaline Surge is in effect; Japanese ""アドレナリンサージ""実行中のクリティカルヒット率+30%; Chinese 肾上腺素生效时，暴击几率+30%. Normalized only the reviewed Korean span to 아드레날린 분출(Adrenaline Surge); matched the particle to the Korean ending and preserved surrounding source text."	"+30% Chance to Critical Hit while Adrenaline Surge is in effect"	"""アドレナリンサージ""実行中のクリティカルヒット率+30%"	"肾上腺素生效时，暴击几率+30%"	"{""skill:adrenaline-surge"":""accepted""}"	"{""skill:adrenaline-surge"":""needs-context""}"	"{""skill:adrenaline-surge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26263"	""	"skill:adrenaline-surge"	"accepted"	"아드레날린 폭주 효과가 지속되는 동안 치명타 확률 +25%"	"아드레날린 분출(Adrenaline Surge) 효과가 지속되는 동안 치명타 확률 +25%"	"skill:adrenaline-surge: English +25% Chance to Critical Hit while Adrenaline Surge is in effect; Japanese ""アドレナリンサージ""実行中のクリティカルヒット率+25%; Chinese 肾上腺素生效时，暴击几率+25%. Normalized only the reviewed Korean span to 아드레날린 분출(Adrenaline Surge); matched the particle to the Korean ending and preserved surrounding source text."	"+25% Chance to Critical Hit while Adrenaline Surge is in effect"	"""アドレナリンサージ""実行中のクリティカルヒット率+25%"	"肾上腺素生效时，暴击几率+25%"	"{""skill:adrenaline-surge"":""accepted""}"	"{""skill:adrenaline-surge"":""needs-context""}"	"{""skill:adrenaline-surge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26371"	""	"skill:gambit"	"excluded"	"갬빗 연계 공격"	"갬빗 연계 공격"	"skill:gambit: Gambit Combo is a distinct compound ability label, not the standalone Gambit skill."	"Gambit Combo"	"ガンビットコンボ"	"甘贝特连击"	"{""skill:gambit"":""excluded""}"	"{""skill:gambit"":""needs-context""}"	"{""skill:gambit"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28707"	""	"skill:frost-trap"	"accepted"	"서리 덫은 냉기 피해 55와 빙결 피해 15를 5초 동안 줍니다.
+비용: 마나 40"	"서리 덫(Frost Trap)은 냉기 피해 55와 빙결 피해 15를 5초 동안 줍니다.
+비용: 마나 40"	"skill:frost-trap: English Frost Trap deals 55 Ice Damage and 15 Freezing Damage over 5 seconds.
+Cost: 40 mana; Japanese ""フロストトラップ""にかかった敵に対し、55の氷ダメージと15の凍結ダメージ(5秒間)を与える。
+コスト: マナ40; Chinese 冰霜陷阱会在5秒内造成55点寒冰伤害和15点冰冻伤害。
+消耗：40点法力. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"Frost Trap deals 55 Ice Damage and 15 Freezing Damage over 5 seconds.
+Cost: 40 mana"	"""フロストトラップ""にかかった敵に対し、55の氷ダメージと15の凍結ダメージ(5秒間)を与える。
+コスト: マナ40"	"冰霜陷阱会在5秒内造成55点寒冰伤害和15点冰冻伤害。
+消耗：40点法力"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28719"	""	"skill:adrenaline-surge"	"accepted"	"아드레날린 분출이 지속되는 동안 치명타 확률 +5%"	"아드레날린 분출(Adrenaline Surge)이 지속되는 동안 치명타 확률 +5%"	"skill:adrenaline-surge: English +5% Chance to Critical Hit while Adrenaline Surge is in effect; Japanese ""アドレナリンサージ""実行中のクリティカルヒット率+5%; Chinese 肾上腺素生效时，暴击几率+5%. Normalized only the reviewed Korean span to 아드레날린 분출(Adrenaline Surge); matched the particle to the Korean ending and preserved surrounding source text."	"+5% Chance to Critical Hit while Adrenaline Surge is in effect"	"""アドレナリンサージ""実行中のクリティカルヒット率+5%"	"肾上腺素生效时，暴击几率+5%"	"{""skill:adrenaline-surge"":""accepted""}"	"{""skill:adrenaline-surge"":""needs-context""}"	"{""skill:adrenaline-surge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29672"	""	"skill:frost-trap"	"accepted"	"서리 덫이 주는 피해가 15 증가하고, 25% 확률로 대상을 3초 동안 기절시킨다."	"서리 덫(Frost Trap)이 주는 피해가 15 증가하고, 25% 확률로 대상을 3초 동안 기절시킨다."	"skill:frost-trap: English Frost Trap does 15 additional damage and has a 25% chance to Stun targets for 3 seconds.; Japanese ""フロストトラップ""のダメージが15アップし、25%の確率で敵をマヒさせる(3秒間)。; Chinese 冰霜陷阱会造成15点额外伤害，并有25%的几率眩晕目标，持续3秒。. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"Frost Trap does 15 additional damage and has a 25% chance to Stun targets for 3 seconds."	"""フロストトラップ""のダメージが15アップし、25%の確率で敵をマヒさせる(3秒間)。"	"冰霜陷阱会造成15点额外伤害，并有25%的几率眩晕目标，持续3秒。"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30150"	""	"skill:frost-trap"	"accepted"	"서리 덫"	"서리 덫(Frost Trap)"	"skill:frost-trap: English Frost Trap; Japanese フロストトラップ; Chinese 冰霜陷阱. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"Frost Trap"	"フロストトラップ"	"冰霜陷阱"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"33483"	""	"skill:smoke-bomb"	"accepted"	"연막탄"	"연막탄(Smoke Bomb)"	"skill:smoke-bomb: English Smoke Bomb; Japanese スモークボム; Chinese 烟雾弹. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Smoke Bomb"	"スモークボム"	"烟雾弹"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34336"	""	"skill:gambit"	"excluded"	"그 뒤로 타이윌리, 여명의 행군, 받아치기의 전쟁, 바를레인의 책략전…… 그리고 마침내 오리에이터(Orieator)의 결전이 있었지. 그는 에라셀에서 투아사를 몰아내다 전사했어."	"그 뒤로 타이윌리, 여명의 행군, 받아치기의 전쟁, 바를레인의 책략전…… 그리고 마침내 오리에이터(Orieator)의 결전이 있었지. 그는 에라셀에서 투아사를 몰아내다 전사했어."	"skill:gambit: The English Gambit mention belongs to a complete historical title or named maneuver, corroborated by Japanese and Chinese; preserve the full title and do not annotate its component."	"Then in Tywili, the Dawn March, the War of Parries, Varlaine's Gambit ‒ and finally, Orieator's Stand. He died driving the Tuatha from Erathell."	"続いて""タイウィリ""、""夜明けの行軍""、""受け流し戦争""、""ヴァーレインの策略戦""... そして""オリエーターの防衛戦""でも。そしてツアサをエラセルから追い払って亡くなったのです"	"接着是提威利、黎明行军、帕里斯之战、瓦尔莱茵的甘贝特，最后是奥瑞亚特保卫战。他在将图阿撒驱离伊拉塞尔时死去了。"	"{""skill:gambit"":""excluded""}"	"{""skill:gambit"":""needs-context""}"	"{""skill:gambit"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"34934"	""	"skill:frost-trap"	"accepted"	"서리 덫은 추가 피해 25를 주며, 35% 확률로 대상을 4초 동안 기절시킵니다."	"서리 덫(Frost Trap)은 추가 피해 25를 주며, 35% 확률로 대상을 4초 동안 기절시킵니다."	"skill:frost-trap: English Frost Trap does 25 additional damage and has a 35% chance to Stun targets for 4 seconds.; Japanese ""フロストトラップ""のダメージが25アップし、35%の確率で敵をマヒさせる(4秒間)。; Chinese 冰霜陷阱会造成25点额外伤害，并有35%的几率眩晕目标，持续4秒。. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"Frost Trap does 25 additional damage and has a 35% chance to Stun targets for 4 seconds."	"""フロストトラップ""のダメージが25アップし、35%の確率で敵をマヒさせる(4秒間)。"	"冰霜陷阱会造成25点额外伤害，并有35%的几率眩晕目标，持续4秒。"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35062"	""	"skill:adrenaline-surge"	"accepted"	"아드레날린 파동이 지속되는 동안 치명타 확률 +15%"	"아드레날린 분출(Adrenaline Surge)이 지속되는 동안 치명타 확률 +15%"	"skill:adrenaline-surge: English +15% Chance to Critical Hit while Adrenaline Surge is in effect; Japanese ""アドレナリンサージ""実行中のクリティカルヒット率+15%; Chinese 肾上腺素生效时，暴击几率+15%. Normalized only the reviewed Korean span to 아드레날린 분출(Adrenaline Surge); matched the particle to the Korean ending and preserved surrounding source text."	"+15% Chance to Critical Hit while Adrenaline Surge is in effect"	"""アドレナリンサージ""実行中のクリティカルヒット率+15%"	"肾上腺素生效时，暴击几率+15%"	"{""skill:adrenaline-surge"":""accepted""}"	"{""skill:adrenaline-surge"":""needs-context""}"	"{""skill:adrenaline-surge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37639"	""	"skill:conservative-casting"	"accepted"	"마나 절약 시전"	"마나 절약 시전(Conservative Casting)"	"skill:conservative-casting: English Conservative Casting; Japanese コンサバティブキャスト; Chinese 节能施法. Normalized only the reviewed Korean span to 마나 절약 시전(Conservative Casting); matched the particle to the Korean ending and preserved surrounding source text."	"Conservative Casting"	"コンサバティブキャスト"	"节能施法"	"{""skill:conservative-casting"":""accepted""}"	"{""skill:conservative-casting"":""needs-context""}"	"{""skill:conservative-casting"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37813"	""	"skill:smoke-bomb"	"accepted"	"연막탄은 물리 피해 10을 주고 적을 3초 동안 기절시킵니다.
+6초 동안 적의 탐지를 피합니다.
+소모 마나: 45"	"연막탄(Smoke Bomb)은 물리 피해 10을 주고 적을 3초 동안 기절시킵니다.
+6초 동안 적의 탐지를 피합니다.
+소모 마나: 45"	"skill:smoke-bomb: English Smoke Bomb deals 10 Physical Damage and Stuns enemies for 3 seconds.
+You are hidden from detection for 6 seconds.
+Cost: 45 Mana; Japanese スモークボムが敵に10の物理ダメージとマヒ効果(3秒間)を与える。
+敵から6秒間見つからなくなる。
+コスト: マナ45; Chinese 烟雾弹造成10点物理伤害，并眩晕敌人3秒。
+你躲避侦测6秒。
+消耗：45点法力. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Smoke Bomb deals 10 Physical Damage and Stuns enemies for 3 seconds.
+You are hidden from detection for 6 seconds.
+Cost: 45 Mana"	"スモークボムが敵に10の物理ダメージとマヒ効果(3秒間)を与える。
+敵から6秒間見つからなくなる。
+コスト: マナ45"	"烟雾弹造成10点物理伤害，并眩晕敌人3秒。
+你躲避侦测6秒。
+消耗：45点法力"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38243"	""	"skill:lunge"	"accepted"	"돌진"	"돌진(Lunge)"	"skill:lunge: English Lunge; Japanese ランジ; Chinese 猛冲. Normalized only the reviewed Korean span to 돌진(Lunge); matched the particle to the Korean ending and preserved surrounding source text."	"Lunge"	"ランジ"	"猛冲"	"{""skill:lunge"":""accepted""}"	"{""skill:lunge"":""needs-context""}"	"{""skill:lunge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39752"	""	"skill:adrenaline-surge"	"accepted"	"아드레날린 쇄도 활성화 중일 때"	"아드레날린 분출(Adrenaline Surge) 활성화 중일 때"	"skill:adrenaline-surge: English while Adrenaline Surge is active; Japanese (""アドレナリンサージ""がアクティブ時); Chinese 肾上腺素激活时. Normalized only the reviewed Korean span to 아드레날린 분출(Adrenaline Surge); matched the particle to the Korean ending and preserved surrounding source text."	"while Adrenaline Surge is active"	"(""アドレナリンサージ""がアクティブ時)"	"肾上腺素激活时"	"{""skill:adrenaline-surge"":""accepted""}"	"{""skill:adrenaline-surge"":""needs-context""}"	"{""skill:adrenaline-surge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39956"	""	"skill:gambit"	"excluded"	"갬빗 함정"	"갬빗 함정"	"skill:gambit: Gambit Trap is a distinct compound ability label, not the standalone Gambit skill."	"Gambit Trap"	"ガンビットトラップ"	"甘贝特陷阱"	"{""skill:gambit"":""excluded""}"	"{""skill:gambit"":""needs-context""}"	"{""skill:gambit"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"40360"	""	"skill:assassin's-art"	"accepted"	"암살자의 기술"	"암살자의 예술(Assassin's Art)"	"skill:assassin's-art: English Assassin's Art; Japanese アサシンアート; Chinese 刺客的艺术. Normalized only the reviewed Korean span to 암살자의 예술(Assassin's Art); matched the particle to the Korean ending and preserved surrounding source text."	"Assassin's Art"	"アサシンアート"	"刺客的艺术"	"{""skill:assassin's-art"":""accepted""}"	"{""skill:assassin's-art"":""needs-context""}"	"{""skill:assassin's-art"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"40948"	""	"skill:adrenaline-surge"	"accepted"	"아드레날린 분출"	"아드레날린 분출(Adrenaline Surge)"	"skill:adrenaline-surge: English Adrenaline Surge; Japanese アドレナリンサージ; Chinese 肾上腺素. Normalized only the reviewed Korean span to 아드레날린 분출(Adrenaline Surge); matched the particle to the Korean ending and preserved surrounding source text."	"Adrenaline Surge"	"アドレナリンサージ"	"肾上腺素"	"{""skill:adrenaline-surge"":""accepted""}"	"{""skill:adrenaline-surge"":""needs-context""}"	"{""skill:adrenaline-surge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41047"	""	"skill:smoke-bomb"	"accepted"	"연막탄은 물리 피해 14를 주고 적을 4초 동안 기절시킵니다.
+6초 동안 적에게 발각되지 않습니다.
+소모 마나: 50"	"연막탄(Smoke Bomb)은 물리 피해 14를 주고 적을 4초 동안 기절시킵니다.
+6초 동안 적에게 발각되지 않습니다.
+소모 마나: 50"	"skill:smoke-bomb: English Smoke Bomb deals 14 Physical Damage and Stuns enemies for 4 seconds.
+You are hidden from detection for 6 seconds.
+Cost: 50 Mana; Japanese スモークボムが敵に14の物理ダメージとマヒ効果(4秒間)を与える。
+敵から6秒間見つからなくなる。
+コスト: マナ50; Chinese 烟雾弹造成14点物理伤害，并眩晕敌人4秒。
+你躲避侦测6秒。
+消耗：50法力. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Smoke Bomb deals 14 Physical Damage and Stuns enemies for 4 seconds.
+You are hidden from detection for 6 seconds.
+Cost: 50 Mana"	"スモークボムが敵に14の物理ダメージとマヒ効果(4秒間)を与える。
+敵から6秒間見つからなくなる。
+コスト: マナ50"	"烟雾弹造成14点物理伤害，并眩晕敌人4秒。
+你躲避侦测6秒。
+消耗：50法力"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41652"	""	"skill:gambit"	"excluded"	"제2차 맹공. 마법사와 니스카루(Niskaru)의 첫 결탁, 아가드의 배신, 그리고 케어윈(Caerwyn)의 책략으로 거둔 승리."	"제2차 맹공. 마법사와 니스카루(Niskaru)의 첫 결탁, 아가드의 배신, 그리고 케어윈(Caerwyn)의 책략으로 거둔 승리."	"skill:gambit: The English Gambit mention belongs to a complete historical title or named maneuver, corroborated by Japanese and Chinese; preserve the full title and do not annotate its component."	"The Second Onslaught. The first collusion of mages and Niskaru, Agard's Betrayal, and the victory of Caerwyn's Gambit."	"第二の襲来。魔道士とニスカルの初の結託、アガルドの裏切り、ケアウィンの勝利が描かれている。"	"第二次猛攻。法师和尼斯卡鲁的第一次勾结，阿加德的背叛，以及卡尔文的甘贝特的胜利。"	"{""skill:gambit"":""excluded""}"	"{""skill:gambit"":""needs-context""}"	"{""skill:gambit"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"45656"	""	"skill:frost-trap"	"accepted"	"서리 덫은 냉기 피해 40과 빙결 피해 10을 4초 동안 줍니다.
+비용: 마나 30"	"서리 덫(Frost Trap)은 냉기 피해 40과 빙결 피해 10을 4초 동안 줍니다.
+비용: 마나 30"	"skill:frost-trap: English Frost Trap deals 40 Ice Damage and 10 Freezing Damage over 4 seconds.
+Cost: 30 mana; Japanese ""フロストトラップ""にかかった敵に対し、40の氷ダメージと10の凍結ダメージ(4秒間)を与える。
+コスト: マナ30; Chinese 冰霜陷阱会在4秒内造成40点寒冰伤害和10点冰冻伤害。
+消耗：30点法力. Normalized only the reviewed Korean span to 서리 덫(Frost Trap); matched the particle to the Korean ending and preserved surrounding source text."	"Frost Trap deals 40 Ice Damage and 10 Freezing Damage over 4 seconds.
+Cost: 30 mana"	"""フロストトラップ""にかかった敵に対し、40の氷ダメージと10の凍結ダメージ(4秒間)を与える。
+コスト: マナ30"	"冰霜陷阱会在4秒内造成40点寒冰伤害和10点冰冻伤害。
+消耗：30点法力"	"{""skill:frost-trap"":""accepted""}"	"{""skill:frost-trap"":""needs-context""}"	"{""skill:frost-trap"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"47507"	""	"skill:smoke-bomb"	"accepted"	"연막탄에 독 피해 150을 추가하며, 효과는 5초 동안 지속됩니다."	"연막탄(Smoke Bomb)에 독 피해 150을 추가하며, 효과는 5초 동안 지속됩니다."	"skill:smoke-bomb: English Adds 150 Poison Damage over 5 Seconds to Smoke Bomb.; Japanese 150の毒ダメージ(5秒間)を与える効果をスモークボムに追加する。; Chinese 5秒内为烟雾弹添加150点毒素伤害。. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Adds 150 Poison Damage over 5 Seconds to Smoke Bomb."	"150の毒ダメージ(5秒間)を与える効果をスモークボムに追加する。"	"5秒内为烟雾弹添加150点毒素伤害。"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"49718"	""	"skill:smoke-bomb"	"accepted"	"연막탄에 독 피해 120을 5초 동안 추가."	"연막탄(Smoke Bomb)에 독 피해 120을 5초 동안 추가."	"skill:smoke-bomb: English Adds 120 Poison Damage over 5 Seconds to Smoke Bomb.; Japanese 120の毒ダメージ(5秒間)を与える効果をスモークボムに追加する。; Chinese 5秒内为烟雾弹添加120点毒素伤害。. Normalized only the reviewed Korean span to 연막탄(Smoke Bomb); matched the particle to the Korean ending and preserved surrounding source text."	"Adds 120 Poison Damage over 5 Seconds to Smoke Bomb."	"120の毒ダメージ(5秒間)を与える効果をスモークボムに追加する。"	"5秒内为烟雾弹添加120点毒素伤害。"	"{""skill:smoke-bomb"":""accepted""}"	"{""skill:smoke-bomb"":""needs-context""}"	"{""skill:smoke-bomb"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"51888"	""	"skill:assassin's-art"	"accepted"	"최고의 암살자가 되고 싶다면 은신 기술과 재주 계열의 암살자의 예술 능력을 올리고 단검을 사용해."	"최고의 암살자가 되고 싶다면 은신 기술과 재주 계열의 암살자의 예술(Assassin's Art) 능력을 올리고 단검을 사용해."	"skill:assassin's-art: English Invest in the Stealth skill, the Assassin's Art ability on the Finesse tree, and wield daggers if you want to be the ultimate assassin.; Japanese 最高の暗殺者になるには、隠密スキルとフィネスツリーの暗殺者アートのアビリティを上昇させ、ダガーを使おう。; Chinese 如果你想成为终极刺客，就投资潜行技能，以及灵巧技能树上的“刺客技艺”能力，并挥舞匕首。. Normalized only the reviewed Korean span to 암살자의 예술(Assassin's Art); matched the particle to the Korean ending and preserved surrounding source text."	"Invest in the Stealth skill, the Assassin's Art ability on the Finesse tree, and wield daggers if you want to be the ultimate assassin."	"最高の暗殺者になるには、隠密スキルとフィネスツリーの暗殺者アートのアビリティを上昇させ、ダガーを使おう。"	"如果你想成为终极刺客，就投资潜行技能，以及灵巧技能树上的“刺客技艺”能力，并挥舞匕首。"	"{""skill:assassin's-art"":""accepted""}"	"{""skill:assassin's-art"":""needs-context""}"	"{""skill:assassin's-art"":""Candidate hit from the English source; verify this occurrence in context.""}"

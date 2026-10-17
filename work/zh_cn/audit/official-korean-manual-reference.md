@@ -35,20 +35,29 @@ check the PDF spread before relying on a printed-page citation.
 | Ljosalfar | 료스알브 | 1 |
 | Dokkalfar | 도크알브 | 1 |
 | Belen | 벨렌 | 2 |
-| Inadon | 이나돈 | 2 |
+| Ynadon | 이나돈 | 2 |
 | Mitharu | 미사루 | 2 |
 | Lyria | 리리아 | 2 |
-| Gaia | 가이아 | 2 |
+| Gaea | 가이아 | 2 |
 | Ethene | 에테네 | 2 |
 | Aryllia | 아릴리아 | 2 |
 | Njordir | 뇨르디르 | 2 |
-| Sairdon | 사이르돈 | 2 |
+| Thyrdon | 사이르돈 | 2 |
 | Vraekor | 브래코르 | 2 |
 | Lopoku | 로포쿠 | 2 |
-| Oshon | 오샨 | 2 |
+| Ohnshan | 오샨 | 2 |
 
 Keep the distinction between the god Mitharu (`미사루`) and the Mitharan
 people/adjective (`미타란`) established by English context.
+
+English spellings in this table are aligned to the source CSVs, not inferred
+by romanizing the manual's Korean. D-20392 (2026-10-15) corrects the former
+guessed `Inadon`/`Gaia`/`Sairdon`/`Oshon` headings using the divine-role menu
+rows at default 26106/15781/42685/48696. The original PDF/extraction is
+unchanged. Source `Lupoku` also denotes `Lopoku` (Mischief patron, default
+13951/2009); both map to manual `로포쿠`. Use each English row's local
+wording for gender/titles: default 11113 says goddess/her for Ohnshan even
+though the menu says God of Air.
 
 ## Skills and Crafting
 
@@ -78,8 +87,15 @@ The manual distinguishes these weapon classes (PDF p. 7, printed pp. 13-14):
 | Hammers | 해머 |
 | Daggers | 대거 |
 | Longbows | 롱보우 |
-| Faeblades | 페이블레이드 |
+| Faeblades | 패블레이드 |
 | Greatswords | 그레이트소드 |
+
+On 2026-10-16, the original PDF page 7 (printed page 13) was rendered and
+visually checked for D-21274: it explicitly prints `패블레이드(Faeblades)`,
+matching the extraction. The former `페이블레이드` table entry was an
+incorrect reference transcription, not an authorized alternate manual
+spelling. D-21274 uses `패블레이드 숙련(Faeblade Mastery)`. This correction
+does not silently rewrite prior translation decisions or their history.
 
 The manual also uses `서클릿` as the established Korean equipment term in
 the audited corpus; preserve the distinction between a circlet and a crown

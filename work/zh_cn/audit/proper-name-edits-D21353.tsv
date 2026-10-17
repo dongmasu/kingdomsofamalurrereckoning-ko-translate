@@ -1,0 +1,143 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"base"	"64"	"11"	"item:daybreaker"	"not-an-issue"	"데이브레이커(Daybreaker)"	"데이브레이커(Daybreaker)"	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:49358 identifies the named enchanted sword with colored glass resembling prismere. Japanese デイブレーカー and Chinese 破晓者 corroborate. Keep base:64 spelling and annotate the description."	"Daybreaker"	"デイブレーカー"	"破晓者"	"{""item:daybreaker"":""not-an-issue""}"	"{""item:daybreaker"":""needs-context""}"	"{""item:daybreaker"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"70"	"11"	"item:gloamfrost"	"not-an-issue"	"글룸프로스트(Gloamfrost)"	"글룸프로스트(Gloamfrost)"	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"Gloamfrost"	"グロームフロスト"	"冰雪黄昏"	"{""item:gloamfrost"":""not-an-issue""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"379"	"11"	"resource:sweetrose"	"accepted"	"스위트로즈"	"스위트로즈(Sweetrose)"	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:62263 compares this named plant to Embereyes; Japanese スイートローズ and Chinese 甜蔷薇 corroborate. Use the existing transliteration and add missing English at base:379/default:19615. Do not change the already bilingual botanical comparison."	"Sweetrose"	"スイートローズ"	"甜蔷薇"	"{""resource:sweetrose"":""accepted""}"	"{""resource:sweetrose"":""needs-context""}"	"{""resource:sweetrose"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"base"	"700"	"11"	"item:gloamfrost"	"not-an-issue"	"글룸프로스트(Gloamfrost) 막대"	"글룸프로스트(Gloamfrost) 막대"	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"Gloamfrost dowel"	"グロームフロストのダウエル"	"冰雪黄昏榫"	"{""item:gloamfrost"":""not-an-issue""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"2292"	""	"item:gloamfrost"	"not-an-issue"	"리베너 타르수스(Rivener Tarsus), 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire). 필멸자의 세계까지 삼킬 뻔한 전쟁을 끝내려고 만든 놀라운 무기 세 자루야."	"리베너 타르수스(Rivener Tarsus), 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire). 필멸자의 세계까지 삼킬 뻔한 전쟁을 끝내려고 만든 놀라운 무기 세 자루야."	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"They are Rivener Tarsus, Gloamfrost, and Ender's Fire, three incredible weapons forged to end a war that was threatening to engulf your mortal world."	"リベナーターサス、グロームフロスト、エンダーズファイア... 定命の者たちまでも巻き込みかけた戦いを終結させるために造られた、3本の武器だ"	"那是爆裂之骨、冰雪黄昏，还有安德之火，三把不可思议的武器，被铸来结束一场威胁凡人世界的战争。"	"{""item:gloamfrost"":""not-an-issue""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"6936"	""	"item:gloamfrost"	"not-an-issue"	"페이(Fae)의 지팡이 세 개, 리베너 타르수스(Rivener Tarsus)와 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire)을 찾아 다시 만들기로 했다. 지팡이 조각들은 도난당해 다른 무기에 쓰였다. 도둑들을 찾아 지팡이를 되찾고, 부품을 회수해 원래 무기로 다시 만들어야 한다."	"페이(Fae)의 지팡이 세 개, 리베너 타르수스(Rivener Tarsus)와 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire)을 찾아 다시 만들기로 했다. 지팡이 조각들은 도난당해 다른 무기에 쓰였다. 도둑들을 찾아 지팡이를 되찾고, 부품을 회수해 원래 무기로 다시 만들어야 한다."	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"I've agreed to track down and remake the three Fae staffs Rivener Tarsus, Gloamfrost, and Ender's Fire. The pieces have been stolen and forged into other weapons. I should search out the thieves, obtain their staffs, salvage the components, and then remake the original weapons."	"フェイの強力な3本の杖、リベナーターサス、グロームフロスト、エンダーズファイアを発見し、修復する約束をした。杖は盗まれて別の武器の製作に使われている。泥棒を探し出し、武器と部品を回収し、元の杖に修復しなければならない。"	"我同意找到并重铸三把灵族法杖，爆裂之骨、冰雪黄昏和安德之火。找到这些被盗走的碎片后，能够将其打造成其他武器。我应该找到那群小偷，夺回被偷走的法杖，回收可用的部件，随后进行重铸。"	"{""item:gloamfrost"":""not-an-issue""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"7111"	""	"item:gloamfrost"	"not-an-issue"	"리베너 타르수스(Rivener Tarsus), 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire)을 다시 만들려면 대장간이 필요하다. 에메어(Emaire) 마을의 블루 베어 주점(Blue Bear Tavern) 밖에서 하나 본 것 같다. 먼저 가져온 지팡이 세 개를 분해해 핵심 부품을 회수하고, 추가 부품도 찾아야 한다."	"리베너 타르수스(Rivener Tarsus), 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire)을 다시 만들려면 대장간이 필요하다. 에메어(Emaire) 마을의 블루 베어 주점(Blue Bear Tavern) 밖에서 하나 본 것 같다. 먼저 가져온 지팡이 세 개를 분해해 핵심 부품을 회수하고, 추가 부품도 찾아야 한다."	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"In order to rebuild Rivener Tarsus, Gloamfrost, and Ender's Fire, I must find a blacksmith forge. I think I noticed one outside the Blue Bear Tavern in the village of Emaire. First I must salvage the three staffs I've taken and get their core components, and then I will need additional pieces."	"リベナーターサス、グロームフロスト、そしてエンダーズファイアを復元するには、鍛冶場が必要だ。エマイア村のブルーベア酒場の近くにある。まず集めた3本の杖から主要部品を取り出し、さらに部品を集めねばならない。"	"为重铸爆裂之骨、冰雪黄昏和安德之火，我必须找到一处锻造炉。我注意到伊梅尔村庄的蓝熊酒馆外就有一个。首先，我必须对三把拿回的法杖进行回收，获得其中的核心零件，之后，我需要一些的额外的零件。"	"{""item:gloamfrost"":""not-an-issue""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"7796"	""	"item:gloamfrost"	"not-an-issue"	"그래, 먼지쟁이. 리베너 타르수스(Rivener Tarsus), 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire)이 아직 없어. 훔쳐 간 자들을 쫓지 않으면 돌려받기 어려울 것 같아."	"그래, 먼지쟁이. 리베너 타르수스(Rivener Tarsus), 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire)이 아직 없어. 훔쳐 간 자들을 쫓지 않으면 돌려받기 어려울 것 같아."	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"Yes, dustling. Rivener Tarsus, Gloamfrost, and Ender's Fire are still missing, and I fear they will not be returned until someone pursues the thieves who took them."	"ああ。リベナーターサスも、グロームフロストも、エンダーズファイアもまだ見つかっておらん。誰かが盗人どもを探し出すまでは戻らんだろう"	"是的，凡人。爆裂之骨、冰雪黄昏，还有安德之火仍然下落不明。如果没人去追查盗贼，他们就不会被还回来。"	"{""item:gloamfrost"":""not-an-issue""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"19615"	""	"resource:sweetrose"	"accepted"	"스위트로즈 획득."	"스위트로즈(Sweetrose) 획득."	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:62263 compares this named plant to Embereyes; Japanese スイートローズ and Chinese 甜蔷薇 corroborate. Use the existing transliteration and add missing English at base:379/default:19615. Do not change the already bilingual botanical comparison."	"Sweetrose acquired."	"スイートローズを手に入れた。"	"得到甜玫瑰。"	"{""resource:sweetrose"":""accepted""}"	"{""resource:sweetrose"":""needs-context""}"	"{""resource:sweetrose"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30061"	""	"item:gloamfrost"	"not-an-issue"	"강력한 페이(Fae)의 지팡이 리베너 타르수스(Rivener Tarsus), 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire)을 재련해 정당한 수호자인 칼로르 경에게 돌려주었다."	"강력한 페이(Fae)의 지팡이 리베너 타르수스(Rivener Tarsus), 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire)을 재련해 정당한 수호자인 칼로르 경에게 돌려주었다."	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"I reforged the powerful Fae staffs Rivener Tarsus, Gloamfrost, and Ender's Fire and returned them to their rightful protector, Lord Callor."	"強力なフェイの杖、リベナー・ターサス、グロームフロスト、エンダーズ・ファイアを修復し、正当な保護者のカロール卿へ返却した。"	"我重铸了灵族法杖爆裂之骨、冰雪黄昏和安德之火，并将它们交还给了守护者，考洛领主。"	"{""item:gloamfrost"":""not-an-issue""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31187"	""	"item:gloamfrost"	"accepted"	"어스름서리"	"글룸프로스트(Gloamfrost)"	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"Gloamfrost"	"グロームフロスト"	"冰雪黄昏"	"{""item:gloamfrost"":""accepted""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"33792"	""	"item:gloamfrost"	"accepted"	"그사이 오운 경(Lord Ohn)의 군대는 오랫동안 지휘관과 떨어져 있었고 낯선 땅에서 싸워야 했다. 전세는 천천히, 그러나 결정적으로 실리(Seelie) 군대에 유리하게 기울었다. 밤이 되자 오운 경(Lord Ohn)의 군대는 사기를 잃고 달아나려 했다. 하지만 위험천만한 평원에서 서쪽 페이(Fae) 군대가 늪지대의 싱크홀로 이어지는 단 세 개의 출구마다 매복하고 있었다. 그들은 적군 대부분을 도륙하고, 리베너 타르수스(Rivener Tarsus), 글룸프로스트, 엔더의 불꽃(Ender's Fire)이라는 위대한 지팡이의 힘으로 대지를 갈라놓았다."	"그사이 오운 경(Lord Ohn)의 군대는 오랫동안 지휘관과 떨어져 있었고 낯선 땅에서 싸워야 했다. 전세는 천천히, 그러나 결정적으로 실리(Seelie) 군대에 유리하게 기울었다. 밤이 되자 오운 경(Lord Ohn)의 군대는 사기를 잃고 달아나려 했다. 하지만 위험천만한 평원에서 서쪽 페이(Fae) 군대가 늪지대의 싱크홀로 이어지는 단 세 개의 출구마다 매복하고 있었다. 그들은 적군 대부분을 도륙하고, 리베너 타르수스(Rivener Tarsus), 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire)이라는 위대한 지팡이의 힘으로 대지를 갈라놓았다."	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"In the meantime, with Lord Ohn's army long separated from its commander, and with Lord Ohn's army on unfamiliar ground, the tide of battle shifted slowly, and then decisively, in favor of the Seelie armies. As night fell, the morale of Lord Ohn's army collapsed, and they tried to flee, but the plains were treacherous, and western Fae forces gathered in ambush along the only three exits from the swampy sinkhole, slaughtering most of the enemy, cracking the earth with the might of the great staffs Rivener Tarsus, Gloamfrost, and Ender's Fire."	"一方、オーン卿の軍が長いこと指揮官と切り離され、不慣れな土地での行軍を続ける中、徐々に戦いの流れが変わっていった。間違いなく、シーリー軍の優勢へと。やがて夜の訪れと共に、オーン軍の士気は崩壊し、兵はこぞって逃走を図った。だが、その危険な平原で、西のフェイの軍勢は敵を待ち伏せした。泥沼のすりばち穴から出られるたった3つの出口付近に兵を集めて敵の大半を虐殺し、リベナーターサス、グロームフロスト、エンダーズファイアという大いなる杖で大地を引き裂いたのである。"	"同时，欧恩领主的军队长时间与指挥官分隔，处在不熟悉的地方，战争形势在缓步地逆转，最终决定性的投向了夏灵军队。夜幕降临，欧恩领主麾下军队士气大跌，士兵想要逃走，然而平原危机四伏，西部灵族势力聚集在沼泽沟口，在仅有的三条出口设下埋伏，利用爆裂之骨，冰雪黄昏，安德之火三大法杖的力量，屠杀了大量敌人，震撼了整片土地。"	"{""item:gloamfrost"":""accepted""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39451"	""	"item:gloamfrost"	"accepted"	"칼러 경을 죽였다. 이제 강력한 지팡이 리베너 타르수스(Rivener Tarsus), 글룸프로스트, 엔더의 불꽃(Ender's Fire)을 찾아 여름의 요람으로 되돌리도록 그를 도울 수 없게 됐다."	"칼러 경을 죽였다. 이제 강력한 지팡이 리베너 타르수스(Rivener Tarsus), 글룸프로스트(Gloamfrost), 엔더의 불꽃(Ender's Fire)을 찾아 여름의 요람으로 되돌리도록 그를 도울 수 없게 됐다."	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"I've killed Lord Callor. Now I cannot aid him in finding and restoring the powerful staffs Rivener Tarsus, Gloamfrost, and Ender's Fire to the Cradle of Summer."	"カロール卿を殺した。強力なフェイの杖、リベナー・ターサス、グロームフロスト、エンダーズ・ファイアを発見し、""夏のゆりかご""に戻すことは不可能になった。"	"我杀死了考洛领主。现在，我不能再帮助他找到强大法杖爆裂之骨、冰雪黄昏和安德之火，并带回夏之摇篮了。"	"{""item:gloamfrost"":""accepted""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"49358"	""	"item:daybreaker"	"accepted"	"투아사(Tuatha)의 프리스미어 검과 비슷한 양식으로 만든 데이브레이커는 세공과 마법부여 덕에 힘을 얻는다. '프리스미어'는 사실 색유리에 불과하다."	"투아사(Tuatha)의 프리스미어 검과 비슷한 양식으로 만든 데이브레이커(Daybreaker)는 세공과 마법부여 덕에 힘을 얻는다. '프리스미어'는 사실 색유리에 불과하다."	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:49358 identifies the named enchanted sword with colored glass resembling prismere. Japanese デイブレーカー and Chinese 破晓者 corroborate. Keep base:64 spelling and annotate the description."	"Styled like a Tuatha prismere sword, Daybreaker owes its power to its craft and enchantments. Its 'prismere' is really just colored glass."	"ツアサが使うプリスミアの剣に似た様式。デイブレーカーの力は、その技巧と付呪によるところが大きい。本来ならプリスミアを使う所は、着色されたただのガラスとなっている。"	"式样类似图阿撒的赤晶剑一样，破晓者的力量来自于它的制造和魔法。它的“赤晶”实际上只是彩色玻璃。"	"{""item:daybreaker"":""accepted""}"	"{""item:daybreaker"":""needs-context""}"	"{""item:daybreaker"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"54421"	""	"item:gloamfrost"	"accepted"	"글롬프로스트(Gloamfrost)"	"글룸프로스트(Gloamfrost)"	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:2292/6936/7111/33792 establishes one of three legendary Fae staffs, not a location. Japanese グロームフロスト and Chinese 冰雪黄昏 corroborate. Keep base:70 spelling and normalize 글롬프로스트/어스름서리. Its dowel is a component referring to the staff, not a second staff identity."	"Gloamfrost"	"Gloamfrost"	"Gloamfrost"	"{""item:gloamfrost"":""accepted""}"	"{""item:gloamfrost"":""needs-context""}"	"{""item:gloamfrost"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"62263"	""	"resource:sweetrose"	"not-an-issue"	"{LINE_INDENT}I. 개요
+
+엘루두스 세넬로스(Eludus Senelos), 통칭 엠버아이즈(Embereyes)의 정수는 명백히 대지 원소권에 속한다. 이 식물은 주로 알레스타 숲속 빈터(Allestar Glade)의 양치식물과 키 큰 풀 사이에서 자라지만, 동굴 안이나 나무 밑동에서도 볼 수 있다. 보통 허리 높이까지 자라며 가까운 종인 스위트로즈(Sweetrose)보다 색이 더 밝다. 엠버아이즈(Embereyes)를 관찰한 결과, 이런 종류의 약초를 흔히 마시기 좋은 상태로 바꾸는 서리 원소 혼합물에도 반응하지 않는 경우가 많다는 사실을 알 수 있었다. 엠버아이즈(Embereyes)의 정수를 추출하려면 먼저 식물을 걸쭉한 반죽이 될 때까지 으깨야 한다. 이 약초의 정수를 뽑아내는 방법은 비슷한 효능을 지닌 다른 식물종과 혼합하는 데 달려 있다. 연금술사 올리앤더 싱클레어(Oleander Sinclair)와 학자 난네 한리(Nanne Hanri), 아우라 한리(Aura Hanri)의 저술에 그 방법이 상세히 기록되어 있다.
+
+그렇다면 이 약초를 복용한 이들에게 이토록 이로운 변화를 일으키는 약효 성분은 무엇일까? 앞서 제시했듯, 알레스타 숲속 빈터(Allestar Glade)와 오다라스(Odarath) 일대에서 자생하는 식물군의 원소적 본성만으로는 같은 원소권에 속한 다른 생물체와 얼마나 잘 융합할지 예측할 수 없다. 마찬가지로 제조 방법만으로 정수의 성질을 일정하게 통제할 수도 없다. 이는 유용하면서도 위험하다. 새로운 조제법을 만들 때는 서로 부정적으로 반응하는 성분이 어떤 결과를 낳을지 신중히 따져야 하기 때문이다. 그런 경우에는 몸을 쇠약하게 하는 독이 만들어질 수도, 유익한 강장제가 만들어질 수도 있다.
+
+그렇다면 이 약초에서 파생되는 어떤 특성을 원소적 본성 탓으로 돌릴 수 있을까? 가장 안정적이고 믿을 만한 원소권인 대지가 이런 불안정성의 주된 원인일 리는 없다. 다음 논문에서는 엠버아이즈(Embereyes)의 연금술적 잠재력을 결정하는 더 근본적인 요소가 무엇인지 논하겠다. 궁극적으로는 엠버아이즈(Embereyes)의 약효에 관한 새로운 이론, 즉 다른 작용 인자가 혼합물의 최종적인 불안정성을 좌우한다는 이론을 제시하려 한다."	"{LINE_INDENT}I. 개요
+
+엘루두스 세넬로스(Eludus Senelos), 통칭 엠버아이즈(Embereyes)의 정수는 명백히 대지 원소권에 속한다. 이 식물은 주로 알레스타 숲속 빈터(Allestar Glade)의 양치식물과 키 큰 풀 사이에서 자라지만, 동굴 안이나 나무 밑동에서도 볼 수 있다. 보통 허리 높이까지 자라며 가까운 종인 스위트로즈(Sweetrose)보다 색이 더 밝다. 엠버아이즈(Embereyes)를 관찰한 결과, 이런 종류의 약초를 흔히 마시기 좋은 상태로 바꾸는 서리 원소 혼합물에도 반응하지 않는 경우가 많다는 사실을 알 수 있었다. 엠버아이즈(Embereyes)의 정수를 추출하려면 먼저 식물을 걸쭉한 반죽이 될 때까지 으깨야 한다. 이 약초의 정수를 뽑아내는 방법은 비슷한 효능을 지닌 다른 식물종과 혼합하는 데 달려 있다. 연금술사 올리앤더 싱클레어(Oleander Sinclair)와 학자 난네 한리(Nanne Hanri), 아우라 한리(Aura Hanri)의 저술에 그 방법이 상세히 기록되어 있다.
+
+그렇다면 이 약초를 복용한 이들에게 이토록 이로운 변화를 일으키는 약효 성분은 무엇일까? 앞서 제시했듯, 알레스타 숲속 빈터(Allestar Glade)와 오다라스(Odarath) 일대에서 자생하는 식물군의 원소적 본성만으로는 같은 원소권에 속한 다른 생물체와 얼마나 잘 융합할지 예측할 수 없다. 마찬가지로 제조 방법만으로 정수의 성질을 일정하게 통제할 수도 없다. 이는 유용하면서도 위험하다. 새로운 조제법을 만들 때는 서로 부정적으로 반응하는 성분이 어떤 결과를 낳을지 신중히 따져야 하기 때문이다. 그런 경우에는 몸을 쇠약하게 하는 독이 만들어질 수도, 유익한 강장제가 만들어질 수도 있다.
+
+그렇다면 이 약초에서 파생되는 어떤 특성을 원소적 본성 탓으로 돌릴 수 있을까? 가장 안정적이고 믿을 만한 원소권인 대지가 이런 불안정성의 주된 원인일 리는 없다. 다음 논문에서는 엠버아이즈(Embereyes)의 연금술적 잠재력을 결정하는 더 근본적인 요소가 무엇인지 논하겠다. 궁극적으로는 엠버아이즈(Embereyes)의 약효에 관한 새로운 이론, 즉 다른 작용 인자가 혼합물의 최종적인 불안정성을 좌우한다는 이론을 제시하려 한다."	"D-21353: Review all three resources for each exact English name, distinguishing
+the legendary staff and enchanted sword from the named botanical
+resource. The official Korean manual's equipment/crafting sections
+(PDF pp. 6-8) distinguish staves, swords, and salvage, while its alchemy
+guidance supplies plant/material context; none supplies these exact
+names. Preserve established bilingual neighboring item names and all
+unrelated narrative wording, tokens and line breaks. English default:62263 compares this named plant to Embereyes; Japanese スイートローズ and Chinese 甜蔷薇 corroborate. Use the existing transliteration and add missing English at base:379/default:19615. Do not change the already bilingual botanical comparison."	"{LINE_INDENT}I. Abstract
+
+The essence of Eludus Senelos, known as Embereyes, is clearly of the Earth sphere. The plant is most commonly found among the ferns and tall grasses of Allestar Glade, although it can grow in caves or at the base of trees. A typical specimen will be of waist height and is brighter in color than the closely related Sweetrose. Of Embereyes, it can be surveyed that many do not react to the mixture of Frost elements that can often reduce herbs of this nature to a more potable constitution. In order to extract the essence of Embereyes, the plant must first be mashed into a thick pulp. Extracting the nature of said herb is a matter of combination with other similarly potent varieties of flora. These methods are carefully detailed in the works of Oleander Sinclair, Alchemist, as well as Scholars Nanne Hanri and Aura Hanri.
+
+What, however, is the remedial property with which this herb can affect such a beneficial change to its imbibers? As I have previously suggested, the elemental nature of the family of plants found natively in the region of Allestar Glade and Odarath does not predict the quality of confluence with other bodies of the same elemental sphere. Similarly, method does not control the consistency of the essence. This is both useful and dangerous, as new formulae for its employment must carefully consider the outcome of negatively corresponding components. In such cases, it may just as likely produce a debilitating poison as a helpful tonic.
+
+What derivatives of this herb, then, can be attributed to the elemental nature? Earth, being the most constant and dependable of elemental spheres cannot be the primary cause of this instability. In the following paper, I will argue that there is something more fundamental to the nature of Embereyes that determines its alchemical potential. Ultimately, I will propose a new theory for the medicinal properties of Embereyes, namely, that another agent is determining the volatility of resultant mixtures."	"{LINE_INDENT}1.要録
+
+エルドゥス・セネロス、通称エンバーアイズのエッセンスは明らかに""土""の領域にある。アリスター湿原のシダや高草と一緒によく見つかるが、洞窟内や木の根元にも生息する。典型的な個体は腰くらいの背丈で、近親種のスイートローズに比べて色合いが鮮やか。エンバーアイズは多くの場合、この種のハーブを大概より飲みやすい状態へと変化させる冷却系エッセンスの混合物とは反応しない。エンバーアイズのエッセンスを抽出するには、まずはその草をどろどろになるまですりつぶす必要がある。このハーブの本質が引き出せるかどうかは、同様に優れた効能を持つ他の植物との組み合わせ次第だ。その手法については錬金術師オリアンダー・シンクレアや、ナンネ・ハンリやオーラ・ハンリといった学者たちの著書に詳しい。
+
+しかし、このハーブのどの薬効成分が、飲用者に有益な変化をもたらすのか？ 以前にも示唆したが、アリスター湿原やオダラス地方に自生する植物相の属性的特性から、同じ特性を持つその他の組織体との融和性を予測する事はできない。また、方法を変えてもエッセンスの本質は変わらない。これは好都合であると同時に危険性も秘めている。特に未知の調合法においては、成分同士の消極的反応が招く結果を慎重に考慮する必要がある。こうした場合には、有用な強壮剤と危険な毒が同じくらいの確率で生成され得る。
+
+となると、このハーブの派生的要素のどの部分が、その属性的特性に帰する事ができるのか？ もっとも安定し信頼できる属性である""土""が、こうした不安定さを生んでいるとは到底考えられない。次回の論文ではエンバーアイズの錬金的価値を決定する、より根源的な何かについて論じてみたい。そして最終的には、エンバーアイズの薬効成分に関する新説、主として第三の素材が生成される混合物の変動性を決定するという説を掲げてみたい。"	"{LINE_INDENT}I. 摘要
+
+埃卢多斯·塞内洛斯，也就是我们所知的灰烬之眼的精华，显然属于土元素球。这种植物最常出现在艾勒斯达林地的蕨类植物和高草中间，虽然它也可以在洞穴或在树的底部生长。植株通常可以达到腰部高度，颜色较之其近亲甜蔷薇要更鲜亮一些。可以观察到，许多灰烬之眼对冰霜元素的混合物没有反应，而后者原本通常会使这种性质的草药变得更适合服用。为了提取灰烬之眼的精华，必须先把这种植物捣碎成厚浆。对这种草药的精华进行萃取，需要将对其他具有类似功效的植物使用的方法混合起来。这些方法在炼金术士欧利安德·辛克莱以及学者南妮·汉里和奥拉·汉里的著作中都有详细的描述。
+
+然而，这种草药的治疗特性是否会对它的服用者产生有益的影响？正如我先前所指出的，我们无法根据原产于艾勒斯达林地和欧达拉斯地区的植物科的基本性质，来预测具有同一元素球的其他个体的融合质量。同样，方法也不能控制精华的一致性。这既是有用的，也是危险的，因为用到这一草药的新配方必须认真考虑消极的相应组成部分的结果。在这种情况下，它很可能既产生一种使人衰弱的毒药，又能产生有益的补药。
+
+那么，这种药草的哪些不稳定性产物可以归因于其元素精华呢？土，作为最稳定和最可靠的元素球体，不可能是这种不稳定的主要原因。在接下来的文章中，我将论证，在灰烬之眼的本质中，有一些更基本的东西决定着它的炼金术潜能。最后，我将提出一种关于灰烬之眼药物特性的新理论，即另一种药剂决定着合成混合物的稳定性。"	"{""resource:sweetrose"":""not-an-issue""}"	"{""resource:sweetrose"":""needs-context""}"	"{""resource:sweetrose"":""Candidate hit from the English source; verify this occurrence in context.""}"

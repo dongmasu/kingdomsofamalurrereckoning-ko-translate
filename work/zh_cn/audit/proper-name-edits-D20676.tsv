@@ -1,0 +1,296 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"16540"	""	"skill:sphere-of-protection"	"accepted"	"{*1[강화]}
+보호막 구체(Sphere of Protection)가 활성화된 동안 주변에 영체 구슬이 생겨, 맞은 적에게 피해를 줍니다."	"{*1[강화]}
+보호의 구체(Sphere of Protection)가 활성화된 동안 주변에 영체 구슬이 생겨, 맞은 적에게 피해를 줍니다."	"skill:sphere-of-protection: English identifies the named ability/item (Sphere of Protection), corroborated by Japanese プロテクションスフィア and Chinese 保护之球. Normalize only its reviewed Korean span to 보호의 구체(Sphere of Protection); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"{*1[Upgrade]}
+While Sphere of Protection is active, ethereal orbs are created around you which deal damage to enemies they hit."	"{*1[アップグレード]}
+""プロテクションスフィア""がアクティブな間、接触した敵にダメージを与える魔法のオーブが生成される。"	"{*1[升级]}
+开启守护之球时，你周围会生成空灵球体，对它们击中的敌人造成伤害。"	"{""skill:sphere-of-protection"":""accepted""}"	"{""skill:sphere-of-protection"":""needs-context""}"	"{""skill:sphere-of-protection"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"17012"	""	"skill:relentless-assault"	"accepted"	"맹렬한 공격이 활성화된 동안:
+생명력 26 흡수 확률 +20%"	"끈질긴 맹공(Relentless Assault)이 활성화된 동안:
+생명력 26 흡수 확률 +20%"	"skill:relentless-assault: English identifies the named ability/item (Relentless Assault), corroborated by Japanese リレントレスアサルト and Chinese 无情突袭. Normalize only its reviewed Korean span to 끈질긴 맹공(Relentless Assault); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"While Relentless Assault is active:
++20% Chance to Steal 26 Health"	"""リレントレスアサルト""がアクティブ時:
+26のライフを吸収する確率+20%"	"无情突袭﻿被激活时：
++20% 几率盗取 26 点生命"	"{""skill:relentless-assault"":""accepted""}"	"{""skill:relentless-assault"":""needs-context""}"	"{""skill:relentless-assault"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"17366"	""	"skill:shadow-flare"	"accepted"	"출혈 및 중독 효과가 85%, 암흑 섬광 피해가 55% 증가합니다."	"출혈 및 중독 효과가 85%, 그림자 섬광(Shadow Flare) 피해가 55% 증가합니다."	"skill:shadow-flare: English identifies the named ability/item (Shadow Flare), corroborated by Japanese シャドウフレア and Chinese 暗影耀斑. Normalize only its reviewed Korean span to 그림자 섬광(Shadow Flare); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Increases Bleeding and Poison effects by 85% and Shadow Flare damage by 55%."	"出血・毒効果が85%アップし、シャドウフレアのダメージが55%アップする。"	"流血和毒素效果提高85%，暗影闪击伤害提高55%。"	"{""skill:shadow-flare"":""accepted""}"	"{""skill:shadow-flare"":""needs-context""}"	"{""skill:shadow-flare"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18309"	""	"skill:tempest"	"excluded"	"나의 무기여, 나의 제자여, 잘하고 있구나. 떠오르는 태양이 되어라! 폭풍의 분노가 되어라! 한 놈도 살려 두지 않으면 내 축복을 얻을 것이다!"	"나의 무기여, 나의 제자여, 잘하고 있구나. 떠오르는 태양이 되어라! 폭풍의 분노가 되어라! 한 놈도 살려 두지 않으면 내 축복을 얻을 것이다!"	"skill:tempest: English uses the ordinary object/weather word or a separate equipment title, not this ability name; Korean remains unchanged."	"My weapon, my disciple ‒ you do well. Be the rising sun! Be the tempest's wrath! Leave none alive and you shall earn my blessing!"	"我が武器、我が門弟よ... 上手くやるのだぞ。昇りゆく太陽となれ！ 怒りの嵐となれ！ 1人残らず倒せば、祝福を授けてやる！"	"我的武器，我的徒弟，你做得很好。你就像一颗冉冉升起的新星！让暴风雨来得更猛烈些吧！把他们都杀了，一个不留，我会祝福你的！"	"{""skill:tempest"":""excluded""}"	"{""skill:tempest"":""needs-context""}"	"{""skill:tempest"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18794"	""	"skill:ice-barrage"	"accepted"	"모든 빙결 효과의 지속 시간이 100% 증가하고, 얼음 탄막의 피해가 40% 증가합니다."	"모든 빙결 효과의 지속 시간이 100% 증가하고, 얼음 탄막(Ice Barrage)의 피해가 40% 증가합니다."	"skill:ice-barrage: English identifies the named ability/item (Ice Barrage), corroborated by Japanese アイスバラージ and Chinese 寒冰弹幕. Normalize only its reviewed Korean span to 얼음 탄막(Ice Barrage); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Increase duration of all Freezing effects by 100% and Ice Barrage damage by 40%."	"凍結効果の持続時間が100%アップし、""アイスバラージ""のダメージが40%アップする。"	"所有冰冻效果持续时间增加100%，寒冰弹幕伤害提高40%。"	"{""skill:ice-barrage"":""accepted""}"	"{""skill:ice-barrage"":""needs-context""}"	"{""skill:ice-barrage"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18836"	""	"skill:mark-of-flame"	"accepted"	"최대 6개의 대상을 표식합니다. 발동하면 불꽃의 표식이 화염 피해 250과 연소 피해 35를 줍니다.
+표식 비용: 마나 10
+발동 비용: 마나 42"	"최대 6개의 대상을 표식합니다. 발동하면 화염의 표식(Mark of Flame)이 화염 피해 250과 연소 피해 35를 줍니다.
+표식 비용: 마나 10
+발동 비용: 마나 42"	"skill:mark-of-flame: English identifies the named ability/item (Mark of Flame), corroborated by Japanese マークオブフレイム and Chinese 烈焰印记. Normalize only its reviewed Korean span to 화염의 표식(Mark of Flame); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Tag up to 6 targets. When executed, Mark of Flame deals 250 Fire Damage and 35 Burning Damage.
+Cost to Mark: 10 mana
+Cost to Execute: 42 mana"	"最大6体の標的をマーキングできる。起爆させると、250の炎ダメージと35の炎上ダメージを与える。
+マーキングのコスト: マナ10
+起爆のコスト: マナ42"	"标记最多6个目标。 触发时，烈焰印记造成250点火焰伤害和35点燃烧伤害。
+标记消耗：10法力
+触发消耗：42法力"	"{""skill:mark-of-flame"":""accepted""}"	"{""skill:mark-of-flame"":""needs-context""}"	"{""skill:mark-of-flame"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"19617"	""	"skill:mark-of-flame"	"accepted"	"최대 4개의 대상을 표시합니다. 발동하면 화염 표식이 화염 피해 190과 연소 피해 25를 줍니다.
+표식 지정 소모량: 마나 10
+발동 소모량: 마나 39"	"최대 4개의 대상을 표시합니다. 발동하면 화염의 표식(Mark of Flame)이 화염 피해 190과 연소 피해 25를 줍니다.
+표식 지정 소모량: 마나 10
+발동 소모량: 마나 39"	"skill:mark-of-flame: English identifies the named ability/item (Mark of Flame), corroborated by Japanese マークオブフレイム and Chinese 烈焰印记. Normalize only its reviewed Korean span to 화염의 표식(Mark of Flame); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Tag up to 4 targets. When executed, Mark of Flame deals 190 Fire Damage and 25 Burning Damage.
+Cost to Mark: 10 Mana
+Cost to Execute: 39 Mana"	"最大4体の標的をマーキングできる。起爆させると、190の炎ダメージと25の炎上ダメージを与える。
+マーキングのコスト: マナ10
+起爆のコスト: マナ39"	"标记最多4个目标。 触发时，烈焰印记造成190点火焰伤害和25点燃烧伤害。
+标记消耗：10法力
+触发消耗：39法力"	"{""skill:mark-of-flame"":""accepted""}"	"{""skill:mark-of-flame"":""needs-context""}"	"{""skill:mark-of-flame"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20003"	""	"skill:shadow-flare"	"accepted"	"출혈 및 중독 효과가 40% 증가하고, 그림자 섬광 피해가 30% 증가합니다."	"출혈 및 중독 효과가 40% 증가하고, 그림자 섬광(Shadow Flare) 피해가 30% 증가합니다."	"skill:shadow-flare: English identifies the named ability/item (Shadow Flare), corroborated by Japanese シャドウフレア and Chinese 暗影耀斑. Normalize only its reviewed Korean span to 그림자 섬광(Shadow Flare); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Increases Bleeding and Poison effects by 40% and Shadow Flare damage by 30%."	"出血・毒効果が40%アップし、シャドウフレアのダメージが30%アップする。"	"流血和毒素效果提高40%，暗影闪击伤害提高30%。"	"{""skill:shadow-flare"":""accepted""}"	"{""skill:shadow-flare"":""needs-context""}"	"{""skill:shadow-flare"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20531"	""	"skill:shadow-flare"	"accepted"	"출혈 및 중독 효과가 30% 증가하고, 그림자 섬광 피해가 20% 증가합니다."	"출혈 및 중독 효과가 30% 증가하고, 그림자 섬광(Shadow Flare) 피해가 20% 증가합니다."	"skill:shadow-flare: English identifies the named ability/item (Shadow Flare), corroborated by Japanese シャドウフレア and Chinese 暗影耀斑. Normalize only its reviewed Korean span to 그림자 섬광(Shadow Flare); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Increases Bleeding and Poison effects by 30% and Shadow Flare damage by 20%."	"出血・毒効果が30%アップし、""シャドウフレア""のダメージが20%アップする。"	"流血和毒素效果提高30%，暗影闪击伤害提高20%。"	"{""skill:shadow-flare"":""accepted""}"	"{""skill:shadow-flare"":""needs-context""}"	"{""skill:shadow-flare"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20536"	""	"skill:meteor"	"accepted"	"여기서 저주는 플레이어의 요청에 응하려고 자신에게 운석 주문을 시전해 자폭한다."	"여기서 저주는 플레이어의 요청에 응하려고 자신에게 운석(Meteor) 주문을 시전해 자폭한다."	"skill:meteor: English identifies the named ability/item (Meteor), corroborated by Japanese メテオ and Chinese 流星. Normalize only its reviewed Korean span to 운석(Meteor); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Here the Curse self-destructs, calling down the meteor spell on himself in an attempt to accede to the player's request."	"ここでは呪いが要求に応じようとして自らに隕石の呪文を使い、自滅している。"	"在这里，诅咒自毁了，对他自己召唤了流星咒语，以试图同意玩家的要求。"	"{""skill:meteor"":""accepted""}"	"{""skill:meteor"":""needs-context""}"	"{""skill:meteor"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20690"	""	"skill:relentless-assault"	"accepted"	"{*1[강화]}
+무자비한 습격이 지속되는 동안, 공격을 적중시키면 활력을 어느 정도 회복할 수 있습니다."	"{*1[강화]}
+끈질긴 맹공(Relentless Assault)이 지속되는 동안, 공격을 적중시키면 활력을 어느 정도 회복할 수 있습니다."	"skill:relentless-assault: English identifies the named ability/item (Relentless Assault), corroborated by Japanese リレントレスアサルト and Chinese 无情突袭. Normalize only its reviewed Korean span to 끈질긴 맹공(Relentless Assault); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"{*1[Upgrade]}
+While Relentless Assault is in effect, each of your strikes may grant you a measure of renewed vigor."	"{*1[アップグレード]}
+""リレントレスアサルト""を実行中、攻撃によって自らの体力を回復できるようになる。"	"{*1[升级]}
+当无情突袭起效时，你的每一击都可能为你恢复一定程度的生命力。"	"{""skill:relentless-assault"":""accepted""}"	"{""skill:relentless-assault"":""needs-context""}"	"{""skill:relentless-assault"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21276"	""	"skill:battle-frenzy"	"accepted"	"+100% 총 피해량 (6회 연속 처치 시)
+전투 광란 효과는 20초 동안 지속되며, 적을 처치할 때마다 지속 시간이 초기화됩니다.
+지속 소모량: 마나 30%"	"+100% 총 피해량 (6회 연속 처치 시)
+전투 광란(Battle Frenzy) 효과는 20초 동안 지속되며, 적을 처치할 때마다 지속 시간이 초기화됩니다.
+지속 소모량: 마나 30%"	"skill:battle-frenzy: English identifies the named ability/item (Battle Frenzy), corroborated by Japanese バトルフレンジー and Chinese 战斗狂热. Normalize only its reviewed Korean span to 전투 광란(Battle Frenzy); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"+100% Total Damage for your 6th consecutive kill.
+Battle Frenzy buff lasts 20 seconds, each kill resets the duration.
+Sustained Cost: 30% Mana"	"6体目の敵を倒すと攻撃力が100%アップするようになる。
+""バトルフレンジ―""が20秒間持続し、敵を倒すごとに時間がリセットされる。
+持続コスト: 最大マナの30%"	"你的第6次连续击杀的总伤害+100%。
+战斗狂热增益持续20秒，每一次击杀都将重置该持续时间。
+持续消耗：30%法力"	"{""skill:battle-frenzy"":""accepted""}"	"{""skill:battle-frenzy"":""needs-context""}"	"{""skill:battle-frenzy"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21521"	""	"unique_item:shadow-prism"	"accepted"	"{*1그림자 프리즘(shadow prism)}을 획득했습니다.{LINE_SPACE}이 특수 아이템을 사용하면 적들이 그림자 프리즘을 사용한 지점을 {*1조사}하게 됩니다."	"{*1그림자 프리즘(Shadow Prism)}을 획득했습니다.{LINE_SPACE}이 특수 아이템을 사용하면 적들이 그림자 프리즘(Shadow Prism)을 사용한 지점을 {*1조사}하게 됩니다."	"unique_item:shadow-prism: English identifies the named ability/item (Shadow Prism), corroborated by Japanese シャドウプリズム and Chinese 暗影棱镜. Normalize only its reviewed Korean span to 그림자 프리즘(Shadow Prism); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"You have obtained a {*1shadow prism}.{LINE_SPACE}These special items, when used, cause enemies to {*1Investigate} the location that the Shadow Prism is used."	"{*1シャドウプリズム}を手に入れました。{LINE_SPACE}使った地点に敵を{*1引きつける}特殊なアイテムです。"	"你获得了一个{*1暗影棱镜}。{LINE_SPACE}暗影棱镜是一种特殊的道具，使用后会导致敌人{*1探察}使用它的区域。"	"{""unique_item:shadow-prism"":""accepted""}"	"{""unique_item:shadow-prism"":""needs-context""}"	"{""unique_item:shadow-prism"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21806"	""	"skill:relentless-assault"	"accepted"	"무자비한 맹공(Relentless Assault)은 16초 동안 지속되며 방어도가 10% 감소합니다.
+비용: 마나 45"	"끈질긴 맹공(Relentless Assault)은 16초 동안 지속되며 방어도가 10% 감소합니다.
+비용: 마나 45"	"skill:relentless-assault: English identifies the named ability/item (Relentless Assault), corroborated by Japanese リレントレスアサルト and Chinese 无情突袭. Normalize only its reviewed Korean span to 끈질긴 맹공(Relentless Assault); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Relentless Assault lasts 16 seconds, and reduces your armor by 10%.
+Cost: 45 Mana"	"""リレントレスアサルト""が16秒間持続し、防御力が10%ダウンする。
+コスト: マナ45"	"无情突袭持续16秒钟，并且降低你10%护甲。
+消耗：45点法力"	"{""skill:relentless-assault"":""accepted""}"	"{""skill:relentless-assault"":""needs-context""}"	"{""skill:relentless-assault"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"22118"	""	"skill:relentless-assault"	"accepted"	"무자비한 맹공(Relentless Assault)이 활성화된 동안:
+생명력 35 흡수 확률 +20%"	"끈질긴 맹공(Relentless Assault)이 활성화된 동안:
+생명력 35 흡수 확률 +20%"	"skill:relentless-assault: English identifies the named ability/item (Relentless Assault), corroborated by Japanese リレントレスアサルト and Chinese 无情突袭. Normalize only its reviewed Korean span to 끈질긴 맹공(Relentless Assault); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"While Relentless Assault is active:
++20% Chance to Steal 35 Health"	"""リレントレスアサルト""がアクティブ時:
+35のライフを吸収する確率+20%"	"无情突袭﻿被激活时：
++20% 几率盗取 35 点生命"	"{""skill:relentless-assault"":""accepted""}"	"{""skill:relentless-assault"":""needs-context""}"	"{""skill:relentless-assault"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"22216"	""	"skill:tempest"	"excluded"	"너희 필멸자는 이 이야기에서 신화를 만들어 낸다.
+수많은 전투와 패배, 승리가 있었다. 폭풍은 누구도 비켜 가지 않았다.
+오언(Ohn) 경의 군대가 모여 땅을 뒤흔들자 너희 조상들은 몸을 숨겼다.
+그들은 다가오는 구름을 찢는 번개처럼 겨울 페이를 내리친 찬란한 이사의 이야기를 속삭였다.
+너희가 전쟁에 관해 아는 것은 그게 전부다."	"너희 필멸자는 이 이야기에서 신화를 만들어 낸다.
+수많은 전투와 패배, 승리가 있었다. 폭풍은 누구도 비켜 가지 않았다.
+오언(Ohn) 경의 군대가 모여 땅을 뒤흔들자 너희 조상들은 몸을 숨겼다.
+그들은 다가오는 구름을 찢는 번개처럼 겨울 페이를 내리친 찬란한 이사의 이야기를 속삭였다.
+너희가 전쟁에 관해 아는 것은 그게 전부다."	"skill:tempest: English uses the ordinary object/weather word or a separate equipment title, not this ability name; Korean remains unchanged."	"It is from this tale that you mortals create myths.
+There were many battles, many losses, many victories. The tempest spared no one.
+Your ancestors hid as the ground trembled under the gathered armies of Lord Ohn.
+They whispered tales of the radiant Ysa, striking the Winter Fae like lightning tearing the looming clouds.
+It was everything you know of war."	"定命の者はこの物語から神話を作る。
+多くの戦い、敗北、勝利があった。大嵐は誰も見逃さなかった。
+集まったオーン卿の軍の足元で大地は震え、定命の者の祖先は身を隠した。
+のしかかる雲を引き裂く稲妻のようにウィンター・フェイを打つ、輝けるイーサの物語を囁いた。
+定命の者が戦いについて知っているのは、それが全てだ"	"正是从这个故事中，你们凡人创造了神话。
+里面有着许多战役，许多失败，许多胜利。风暴之下，无一幸免。
+大地在欧恩领主的大军面前震颤，你们的祖先躲藏了起来。
+他们窃窃私语着光辉的伊萨的故事，后者像闪电撕裂逼近的云层般，击中了冬灵。
+这是你所知道的关于战争的一切。"	"{""skill:tempest"":""excluded""}"	"{""skill:tempest"":""needs-context""}"	"{""skill:tempest"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"22542"	""	"skill:relentless-assault"	"accepted"	"맹공이 활성화된 동안:
+체력 28 흡수 확률 +20%"	"끈질긴 맹공(Relentless Assault)이 활성화된 동안:
+체력 28 흡수 확률 +20%"	"skill:relentless-assault: English identifies the named ability/item (Relentless Assault), corroborated by Japanese リレントレスアサルト and Chinese 无情突袭. Normalize only its reviewed Korean span to 끈질긴 맹공(Relentless Assault); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"While Relentless Assault is active:
++20% Chance to Steal 28 Health"	"""リレントレスアサルト""がアクティブ時:
+28のライフを吸収する確率+20%"	"无情突袭﻿被激活时：
++20% 几率盗取 28 点生命"	"{""skill:relentless-assault"":""accepted""}"	"{""skill:relentless-assault"":""needs-context""}"	"{""skill:relentless-assault"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"22547"	""	"skill:meteor"	"accepted"	"운석"	"운석(Meteor)"	"skill:meteor: English identifies the named ability/item (Meteor), corroborated by Japanese メテオ and Chinese 流星. Normalize only its reviewed Korean span to 운석(Meteor); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Meteor"	"メテオ"	"流星"	"{""skill:meteor"":""accepted""}"	"{""skill:meteor"":""needs-context""}"	"{""skill:meteor"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"22850"	""	"skill:storm-bolt"	"accepted"	"+50% 감전 피해가 적 사이로 전이될 확률, 폭풍 번개 피해 +50%"	"+50% 감전 피해가 적 사이로 전이될 확률, 폭풍의 번개(Storm Bolt) 피해 +50%"	"skill:storm-bolt: English identifies the named ability/item (Storm Bolt), corroborated by Japanese ストームボルト and Chinese 风暴雷霆. Normalize only its reviewed Korean span to 폭풍의 번개(Storm Bolt); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"+50% chance for Shocking Damage to propagate between enemies and increases Storm Bolt damage by 50%."	"感電ダメージが他の敵に拡散する確率が50%アップし、""ストームボルト""のダメージが50%アップする。"	"震荡伤害在敌人之间传播的几率+50%，风暴雷霆的伤害提高50%。"	"{""skill:storm-bolt"":""accepted""}"	"{""skill:storm-bolt"":""needs-context""}"	"{""skill:storm-bolt"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"23244"	""	"skill:ice-barrage"	"accepted"	"모든 빙결 효과의 지속 시간 250% 증가, 얼음 포화(Ice Barrage) 피해 60% 증가"	"모든 빙결 효과의 지속 시간 250% 증가, 얼음 탄막(Ice Barrage) 피해 60% 증가"	"skill:ice-barrage: English identifies the named ability/item (Ice Barrage), corroborated by Japanese アイスバラージ and Chinese 寒冰弹幕. Normalize only its reviewed Korean span to 얼음 탄막(Ice Barrage); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Increase duration of all Freezing effects by 250% and Ice Barrage damage by 60%."	"凍結効果の持続時間が250%アップし、""アイスバラージ""のダメージが60%アップする。"	"所有冰冻效果持续时间增加250%，寒冰弹幕伤害提高60%。"	"{""skill:ice-barrage"":""accepted""}"	"{""skill:ice-barrage"":""needs-context""}"	"{""skill:ice-barrage"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"23843"	""	"skill:relentless-assault"	"accepted"	"맹렬한 맹공(Relentless Assault)이 활성화된 동안:
+생명력 32 흡수 확률 +20%"	"끈질긴 맹공(Relentless Assault)이 활성화된 동안:
+생명력 32 흡수 확률 +20%"	"skill:relentless-assault: English identifies the named ability/item (Relentless Assault), corroborated by Japanese リレントレスアサルト and Chinese 无情突袭. Normalize only its reviewed Korean span to 끈질긴 맹공(Relentless Assault); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"While Relentless Assault is active:
++20% Chance to Steal 32 Health"	"""リレントレスアサルト""がアクティブ時:
+32のライフを吸収する確率+20%"	"无情突袭﻿被激活时：
++20% 几率盗取 32 点生命"	"{""skill:relentless-assault"":""accepted""}"	"{""skill:relentless-assault"":""needs-context""}"	"{""skill:relentless-assault"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24276"	""	"skill:battle-frenzy"	"accepted"	"전투 격노가 활성화된 동안"	"전투 광란(Battle Frenzy)가 활성화된 동안"	"skill:battle-frenzy: English identifies the named ability/item (Battle Frenzy), corroborated by Japanese バトルフレンジー and Chinese 战斗狂热. Normalize only its reviewed Korean span to 전투 광란(Battle Frenzy); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"while Battle Frenzy is active"	"(""バトルフレンジー""がアクティブ時)"	"战斗狂热激活时"	"{""skill:battle-frenzy"":""accepted""}"	"{""skill:battle-frenzy"":""needs-context""}"	"{""skill:battle-frenzy"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24291"	""	"skill:harpoon"	"accepted"	"작살"	"작살(Harpoon)"	"skill:harpoon: English identifies the named ability/item (Harpoon), corroborated by Japanese ハープーン and Chinese 鱼叉. Normalize only its reviewed Korean span to 작살(Harpoon); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Harpoon"	"ハープーン"	"鱼叉"	"{""skill:harpoon"":""accepted""}"	"{""skill:harpoon"":""needs-context""}"	"{""skill:harpoon"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24594"	""	"skill:tempest"	"excluded"	"첫째 날
+
+바루파키르 호가 선원들과 함께 사라졌다. 아버지께 내 가치를 증명하지 못했을지도 모르지만, 아버지도 젊었을 땐 성급하셨다. 이해해 주실 거라 믿는다. 이 작은 섬을 둘러싼 폭풍의 기세를 보면, 조만간 구조될 것 같진 않다. 혼자 남았지만 포기하지 않겠다. 내 백성은 나를 잊지 않을 것이다.
+
+둘째 날
+
+선원들의 시신이 해안으로 밀려오기 시작했다. 바닷물에 불고 두들겨 맞아 처참한 모습이었다. 각자의 시신에 돌을 매달아 제대로 장례를 치른 뒤, 내가 닿을 수 있는 가장 깊은 바다로 옮겼다. 그들은 영원히 심해에서 일하고 싸우게 될 테고, 나는 끝없는 폭풍이 비웃는 가운데 이곳에 남아 지켜볼 것이다. 바루파키르 호의 시체도 암초에 걸린 채 보인다. 더는 쓸 수 없고, 곧 폭풍에 휩쓸려 가겠지.
+
+셋째 날
+
+이 해안에 오려 한 걸 후회하는가? 어리석은 짓이었나? 어쩌면 그랬을지도 모른다. 그래도 후회되는 것이 있다면 바루파키르 호를 잃은 일이다. 나글파르호를 빼면 그보다 훌륭한 배는 없었다. 선원들의 목숨은 그들 스스로 내놓은 것이고, 기꺼이 희생했지만... 그 배는 다시 구할 수 없다. 그것이 내 실패의 척도이자 짊어져야 할 수치다.
+
+넷째 날
+
+시신이 더는 밀려오지 않는다. 선원은 절반만 확인했다. 나머지는 살아남았을까? 아버지가 구조했을까? 아니면 바닷속으로 가라앉아 게와 뱀장어의 먹이가 되었을까?
+
+다섯째 날
+
+오늘은 섬 안쪽을 돌아보기로 했다. 목이 말라 맑고 차가운 웅덩이에서 물을 마시려 무릎을 꿇었다. 곧 이곳에 나 혼자만 있는 게 아니라는 걸 알았다. 아름답고 매혹적인 페이들이 나타났다. 검을 뽑고 그들이 마법을 걸기를 기다렸지만, 그들은 마법을 쓰지 않았다. 대신 나를 지도자에게 데려갔고, 그는 따뜻하게 맞아 주었다. 그들의 말을 이해할 수 없지만 언젠가는 알아들을 수 있기를 바란다.
+
+여섯째 날
+
+페이들은 내 말을 꽤 잘 알아듣지만, 나는 그들이 하는 말을 하나도 모르겠다. 동족에게 돌아가게 도와 달라고 했지만, 그들은 웃으며 미소만 지었다. 그들의 아름다움에도 불구하고 점점 답답해진다. 그들은 내가 이 섬을 떠나도록 도울 생각이 없는 듯하지만, 나는 꼭 돌아갈 것이다. 지독한 폭풍을 헤엄쳐 건너야 하더라도 동족에게 돌아가겠다.
+
+일곱째 날
+
+네 님프가 섬을 안내하며 여러 곳을 가리켜 주었다. 살아가는 데 필요한 먹을거리와 물을 어디서 찾는지도 알려 주었다. 내가 달라진 것 같지만 무엇이 변했는지는 말하기 어렵다. 어젯밤 속상했던 것 같은데 이유가 기억나지 않는다. 나중에 떠오를지도 모르겠다..."	"첫째 날
+
+바루파키르 호가 선원들과 함께 사라졌다. 아버지께 내 가치를 증명하지 못했을지도 모르지만, 아버지도 젊었을 땐 성급하셨다. 이해해 주실 거라 믿는다. 이 작은 섬을 둘러싼 폭풍의 기세를 보면, 조만간 구조될 것 같진 않다. 혼자 남았지만 포기하지 않겠다. 내 백성은 나를 잊지 않을 것이다.
+
+둘째 날
+
+선원들의 시신이 해안으로 밀려오기 시작했다. 바닷물에 불고 두들겨 맞아 처참한 모습이었다. 각자의 시신에 돌을 매달아 제대로 장례를 치른 뒤, 내가 닿을 수 있는 가장 깊은 바다로 옮겼다. 그들은 영원히 심해에서 일하고 싸우게 될 테고, 나는 끝없는 폭풍이 비웃는 가운데 이곳에 남아 지켜볼 것이다. 바루파키르 호의 시체도 암초에 걸린 채 보인다. 더는 쓸 수 없고, 곧 폭풍에 휩쓸려 가겠지.
+
+셋째 날
+
+이 해안에 오려 한 걸 후회하는가? 어리석은 짓이었나? 어쩌면 그랬을지도 모른다. 그래도 후회되는 것이 있다면 바루파키르 호를 잃은 일이다. 나글파르호를 빼면 그보다 훌륭한 배는 없었다. 선원들의 목숨은 그들 스스로 내놓은 것이고, 기꺼이 희생했지만... 그 배는 다시 구할 수 없다. 그것이 내 실패의 척도이자 짊어져야 할 수치다.
+
+넷째 날
+
+시신이 더는 밀려오지 않는다. 선원은 절반만 확인했다. 나머지는 살아남았을까? 아버지가 구조했을까? 아니면 바닷속으로 가라앉아 게와 뱀장어의 먹이가 되었을까?
+
+다섯째 날
+
+오늘은 섬 안쪽을 돌아보기로 했다. 목이 말라 맑고 차가운 웅덩이에서 물을 마시려 무릎을 꿇었다. 곧 이곳에 나 혼자만 있는 게 아니라는 걸 알았다. 아름답고 매혹적인 페이들이 나타났다. 검을 뽑고 그들이 마법을 걸기를 기다렸지만, 그들은 마법을 쓰지 않았다. 대신 나를 지도자에게 데려갔고, 그는 따뜻하게 맞아 주었다. 그들의 말을 이해할 수 없지만 언젠가는 알아들을 수 있기를 바란다.
+
+여섯째 날
+
+페이들은 내 말을 꽤 잘 알아듣지만, 나는 그들이 하는 말을 하나도 모르겠다. 동족에게 돌아가게 도와 달라고 했지만, 그들은 웃으며 미소만 지었다. 그들의 아름다움에도 불구하고 점점 답답해진다. 그들은 내가 이 섬을 떠나도록 도울 생각이 없는 듯하지만, 나는 꼭 돌아갈 것이다. 지독한 폭풍을 헤엄쳐 건너야 하더라도 동족에게 돌아가겠다.
+
+일곱째 날
+
+네 님프가 섬을 안내하며 여러 곳을 가리켜 주었다. 살아가는 데 필요한 먹을거리와 물을 어디서 찾는지도 알려 주었다. 내가 달라진 것 같지만 무엇이 변했는지는 말하기 어렵다. 어젯밤 속상했던 것 같은데 이유가 기억나지 않는다. 나중에 떠오를지도 모르겠다..."	"skill:tempest: English uses the ordinary object/weather word or a separate equipment title, not this ability name; Korean remains unchanged."	"Day 1
+
+The Barufakir's gone, along with my crew. Maybe I've failed to prove my worth to my father, but he was no less hasty in his youth. I'm sure he'll understand. Considering the strength of the storm that surrounds this tiny island, I don’t expect to be rescued anytime soon. I'm alone here, but I won't give up. My people won't forget me.
+
+Day 2
+
+The bodies of my crew have started to wash ashore, bloated and battered by the sea. I've given them each a proper burial, weighing them down with stones before carrying them into the deepest water I can reach. They shall toil and fight in the Depths forever, while I remain here and watch the endless storm as it mocks me. The Barufakir's corpse, too, is visible upon the reef. It is beyond use and will soon be washed away by the tempest.
+
+Day 3
+
+Do I regret my attempt to reach these shores? Was it a foolish thing to do? Maybe. If I rue anything, though, it is the loss of the Barufakir. A finer ship was never borne upon the bosom of the water, unless it was the Naglfar. The lives of my crew were theirs to give, and they did so gladly... but the ship can't be replaced. That's the measure of my failure, and the shame that I must bear.
+
+Day 4
+
+The bodies have stopped washing up. Only half the crew could be accounted for. Did the others survive? Were they picked up by my father? Or did they sink beneath the water where crabs and eels will feast upon them?
+
+Day 5
+
+Today I decided to wander inland. Thirsty, I knelt to drink from a clear, cold pool. I soon discovered that I'm not alone here. Fae creatures appeared, beautiful and inviting. Though I drew my steel and waited for them to ensorcel me, they refrained from using their magic. Instead, they took me to their leader, who welcomed me warmly. I cannot understand them, but I hope that I will in time.
+
+Day 6
+
+The fae understand me well enough, but I don't have a clue what they're saying. I've asked them to help me return to my people, but they only smile and laugh. I'm quickly becoming frustrated, despite their beauty. I get the impression they're not interested in helping me leave this island of theirs, but I'm bent upon it. I'll get back to my people, even if I have to swim through that infernal storm to do it.
+
+Day 7
+
+The four nymphs walked me across their island, pointing out many things. They've shown me where to find food and water, things that I'll need if I'm to survive. I feel different, but it's hard to say what's changed. It's as if I was upset last night, but I can't remember why. Maybe it'll come to me later..."	"1日目
+
+バルファキア号が部下たちと共に消えてしまった。父上の期待には応えられなかったかもしれないが、彼自身も若い頃は私と同じくらい軽率だったはずだ。理解してくださるだろう。この小島を取り巻く嵐の凄まじさを見れば、すぐに救出される見込みはなさそうだ。独りになってしまったが、あきらめなどしない。民は私を忘れないだろう。
+
+2日目
+
+部下たちの遺体が浜辺に打ち上げられ始めた。膨らみ、海にもまれたむごたらしい姿だ。一人一人に石をくくりつけ、たどり着ける最も深い水域に運んで水葬した。彼らは海の底で永遠に働き、戦い続け、私はこの終わりない嵐にあざ笑われるがまま、ここに残るのだ。バルファキア号のむくろも砂州上に見える。航行は望めず、すぐに暴風により流されてしまうだろう。
+
+3日目
+
+私はこの浜辺にたどり着こうと試みたことを後悔しているのだろうか。愚かな考えだったのだろうか。そうかもしれない。しかし、後悔していることがあるとすれば、それはバルファキア号を失ったことだ。ナグルファー号を除けば、波の胸間に抱かれた船であれほど見事なものがあっただろうか。部下たちの命は当人達がすすんで差し出したものだが、あの船に代わるものなどありえない。それこそが私の失敗の本態であり、私が負うべき恥なのである。
+
+4日目
+
+遺体が流れ着かなくなった。乗員の半数しか発見できていない。残りの者たちは生き残ったのだろうか。父上により救出されたのだろうか。それとも水の底へと沈み、カニやウツボの餌食にされつつあるのだろうか。
+
+5日目
+
+本日は内陸部へと足を延ばすことにした。喉が渇いたので冷たい、澄んだ池から水を飲もうとひざまずいた。間もなくして、自分以外にも気配がすることに気づいた。フェイたちが現れたのだ。その姿は美しく、魅力的なものだった。剣を抜いて魔術に翻弄される覚悟をしたものの、魔法を使われることはなく、彼女らの長の元へと連れていかれ、手厚い歓迎を受けた。彼女たちの発する言葉はわからないものの、じきにおぼえられればと願っている。
+
+6日目
+
+フェイたちは私の意志を十分に理解できるようだが、私には彼女達の言葉がまるでわからない。同胞たちの元へと帰る手助けを頼んだものの、微笑んだり笑ったりするだけだ。彼女らを美しく感じる反面、不満が急速に溜まりつつある。私は彼女らの棲むこの島から離れると決意しているが、あちらは手を貸してくれるつもりはないようだ。何が何でも祖国に帰ってみせる。たとえあの忌々しい嵐を泳いで抜けざるを得なかったとしてもだ。
+
+7日目
+
+四人のニンフたちは島を案内してくれ、たくさんのものを指し示してくれた。食べ物や水など、生き延びるのに必要なもののありかを教えてくれた。自分の中で何かが変わったような気がするが、それが何なのかはよくわからない。昨晩は不満を覚えていた気がするのだが、理由が思い出せない。いずれ思い出すだろう…"	"第一天
+
+巴鲁法奇尔号沉了，还带走了我的船员们。也许我没能向父亲证明我的价值，但他年轻时也一样性急。我相信他会理解的。考虑到围绕着这个小岛的风暴的强度，我不指望能很快获救。我只有自己，但我不会放弃。我的人民不会忘记我的。
+
+第二天
+
+我的船员们的尸体开始被冲上岸，被海水泡得肿胀不堪。我给了他们每个人一个像样的葬礼，用石头给他们配重，然后把他们带到我能走到的最深的水里。他们将永远在深海里劳作和战斗，而我则留在这里，看着永不停歇的风暴嘲笑我。巴鲁法奇尔号的尸体也出现在了暗礁上。它已经没法使用，很快就会被暴风雨冲走。
+
+第三天
+
+我后悔自己想来这片海岸上吗？这样做是愚蠢的吗？也许吧。如果说我有什么遗憾的话，那就是失去了巴鲁法奇尔号。从来没有一艘船比它更漂亮，除了纳戈法号。船员们的生命属于他们自己，而他们乐于牺牲……但这艘船无可替代。这是我失败的衡量，也是我必须承受的耻辱。
+
+第四天
+
+已经不再有尸体被冲上岸了。只找到了一半的船员。其他人还活着吗？他们被我父亲接走了？还是沉到了水底，被螃蟹和鳗鱼吃掉了？
+
+第五天
+
+今天我决定往内陆走走。渴了，我跪在清澈冰冷的池塘里喝水。我很快发现我在这里并不孤单。灵族出现了，美丽而诱人。虽然我拔出剑来，等着他们来迷惑我，他们却没有使用他们的魔法。他们反而带我去见了他们的领袖，他热情地欢迎我。我不能理解他们，但我希望我能慢慢理解。
+
+第六天
+
+灵族能理解我，但我不明白他们在说什么。我请求他们帮助我回到我的人民身边，但他们只会微笑和大笑。我很快就变得沮丧，尽管他们很漂亮。我有种感觉，他们没有兴趣帮助我离开他们的岛，但我决心要离开。我要回到我的人民身边，即便是要游过那个地狱般的风暴。
+
+第七天
+
+四个宁芙带我走遍她们的小岛，指出许多东西给我看。她们告诉我哪里可以找到食物和水，这些都是我生存所需要的。我感觉不一样了，但很难说是什么变了。我昨天好像很沮丧，但我不记得为什么了。也许过会儿我会想起来的……"	"{""skill:tempest"":""excluded""}"	"{""skill:tempest"":""needs-context""}"	"{""skill:tempest"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24658"	""	"skill:ice-barrage"	"accepted"	"모든 빙결 효과의 지속시간이 150% 증가하고 얼음 탄막의 피해량이 50% 증가합니다."	"모든 빙결 효과의 지속시간이 150% 증가하고 얼음 탄막(Ice Barrage)의 피해량이 50% 증가합니다."	"skill:ice-barrage: English identifies the named ability/item (Ice Barrage), corroborated by Japanese アイスバラージ and Chinese 寒冰弹幕. Normalize only its reviewed Korean span to 얼음 탄막(Ice Barrage); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Increase duration of all Freezing effects by 150% and Ice Barrage damage by 50%."	"凍結効果の持続時間が150%アップし、""アイスバラージ""のダメージが50%アップする。"	"所有冰冻效果持续时间增加150%，寒冰弹幕伤害提高50%。"	"{""skill:ice-barrage"":""accepted""}"	"{""skill:ice-barrage"":""needs-context""}"	"{""skill:ice-barrage"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"25953"	""	"skill:mark-of-flame"	"accepted"	"화상 피해 +100%, 화염 표식 피해 +50%."	"화상 피해 +100%, 화염의 표식(Mark of Flame) 피해 +50%."	"skill:mark-of-flame: English identifies the named ability/item (Mark of Flame), corroborated by Japanese マークオブフレイム and Chinese 烈焰印记. Normalize only its reviewed Korean span to 화염의 표식(Mark of Flame); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"All Burning Damage increased by 100% and Mark of Flame damage by 50%."	"炎上ダメージが100%アップし、""マークオブフレイム""のダメージが50%アップする。"	"所有灼烧伤害提高100%，火焰标记的伤害提高50%。"	"{""skill:mark-of-flame"":""accepted""}"	"{""skill:mark-of-flame"":""needs-context""}"	"{""skill:mark-of-flame"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26462"	""	"skill:storm-bolt"	"accepted"	"감전 피해가 적 사이로 전이될 확률 +20%, 폭풍 화살 피해 20% 증가."	"감전 피해가 적 사이로 전이될 확률 +20%, 폭풍의 번개(Storm Bolt) 피해 20% 증가."	"skill:storm-bolt: English identifies the named ability/item (Storm Bolt), corroborated by Japanese ストームボルト and Chinese 风暴雷霆. Normalize only its reviewed Korean span to 폭풍의 번개(Storm Bolt); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"+20% chance for Shocking Damage to propagate between enemies and increases Storm Bolt damage by 20%."	"感電ダメージが他の敵に拡散する確率が20%アップし、""ストームボルト""のダメージが20%アップする。"	"震荡伤害在敌人之间传播的几率+20%，风暴雷霆的伤害提高20%。"	"{""skill:storm-bolt"":""accepted""}"	"{""skill:storm-bolt"":""needs-context""}"	"{""skill:storm-bolt"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26840"	""	"skill:ice-barrage"	"accepted"	"모든 빙결 효과의 지속 시간 75% 증가, 얼음 포화 피해 30% 증가."	"모든 빙결 효과의 지속 시간 75% 증가, 얼음 탄막(Ice Barrage) 피해 30% 증가."	"skill:ice-barrage: English identifies the named ability/item (Ice Barrage), corroborated by Japanese アイスバラージ and Chinese 寒冰弹幕. Normalize only its reviewed Korean span to 얼음 탄막(Ice Barrage); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Increase duration of all Freezing effects by 75% and Ice Barrage damage by 30%."	"凍結効果の持続時間が75%アップし、""アイスバラージ""のダメージが30%アップする。"	"所有冰冻效果持续时间增加75%，寒冰弹幕伤害提高30%。"	"{""skill:ice-barrage"":""accepted""}"	"{""skill:ice-barrage"":""needs-context""}"	"{""skill:ice-barrage"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26910"	""	"skill:summon-faer-gorta"	"accepted"	"페어 고르타 소환"	"페어 고르타 소환(Summon Faer Gorta)"	"skill:summon-faer-gorta: English identifies the named ability/item (Summon Faer Gorta), corroborated by Japanese サモン・フェア・ゴータ and Chinese 召唤骷髅兵. Normalize only its reviewed Korean span to 페어 고르타 소환(Summon Faer Gorta); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Summon Faer Gorta"	"サモン・フェアゴータ"	"召唤骷髅兵"	"{""skill:summon-faer-gorta"":""accepted""}"	"{""skill:summon-faer-gorta"":""needs-context""}"	"{""skill:summon-faer-gorta"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"27958"	""	"skill:ice-barrage"	"accepted"	"모든 빙결 효과의 지속 시간이 200% 증가하고 얼음 포화(Ice Barrage) 피해가 55% 증가합니다."	"모든 빙결 효과의 지속 시간이 200% 증가하고 얼음 탄막(Ice Barrage) 피해가 55% 증가합니다."	"skill:ice-barrage: English identifies the named ability/item (Ice Barrage), corroborated by Japanese アイスバラージ and Chinese 寒冰弹幕. Normalize only its reviewed Korean span to 얼음 탄막(Ice Barrage); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Increase duration of all Freezing effects by 200% and Ice Barrage damage by 55%."	"凍結効果の持続時間が200%アップし、""アイスバラージ""のダメージが55%アップする。"	"所有冰冻效果持续时间增加200%，寒冰弹幕伤害提高55%。"	"{""skill:ice-barrage"":""accepted""}"	"{""skill:ice-barrage"":""needs-context""}"	"{""skill:ice-barrage"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28088"	""	"skill:tempest"	"excluded"	"하지만 결국 이건 여러 계절에 걸친 일인가, 갑작스러운 폭풍인가? 썩은 것을 감춘다고 수확을 망치지 않는가? 아니다."	"하지만 결국 이건 여러 계절에 걸친 일인가, 갑작스러운 폭풍인가? 썩은 것을 감춘다고 수확을 망치지 않는가? 아니다."	"skill:tempest: English uses the ordinary object/weather word or a separate equipment title, not this ability name; Korean remains unchanged."	"But in the end, is this a part of the many seasons, or the sudden tempest. Does hiding the rot not spoil the harvest? No."	"だが結局、これは長い年月の一部なのか、あるいは突然の大嵐か。腐敗を隠すことは恵みを害するのか？ 違う"	"但是最后，这是长年累月的结果，还是突如其来的暴风雨？掩盖腐烂不会破坏收成吗？没有。"	"{""skill:tempest"":""excluded""}"	"{""skill:tempest"":""needs-context""}"	"{""skill:tempest"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28448"	""	"skill:tempest"	"accepted"	"폭풍"	"템페스트(Tempest)"	"skill:tempest: English identifies the named ability/item (Tempest), corroborated by Japanese テンペスト and Chinese 暴风雨. Normalize only its reviewed Korean span to 템페스트(Tempest); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Tempest"	"テンペスト"	"风暴"	"{""skill:tempest"":""accepted""}"	"{""skill:tempest"":""needs-context""}"	"{""skill:tempest"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28683"	""	"skill:shadow-flare"	"accepted"	"그림자 섬광"	"그림자 섬광(Shadow Flare)"	"skill:shadow-flare: English identifies the named ability/item (Shadow Flare), corroborated by Japanese シャドウフレア and Chinese 暗影耀斑. Normalize only its reviewed Korean span to 그림자 섬광(Shadow Flare); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Shadow Flare"	"シャドウフレア"	"暗影耀斑"	"{""skill:shadow-flare"":""accepted""}"	"{""skill:shadow-flare"":""needs-context""}"	"{""skill:shadow-flare"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28798"	""	"skill:relentless-assault"	"accepted"	"무자비한 맹공은 10초 동안 지속되며 방어도를 30% 낮춥니다.
+비용: 마나 35"	"끈질긴 맹공(Relentless Assault)은 10초 동안 지속되며 방어도를 30% 낮춥니다.
+비용: 마나 35"	"skill:relentless-assault: English identifies the named ability/item (Relentless Assault), corroborated by Japanese リレントレスアサルト and Chinese 无情突袭. Normalize only its reviewed Korean span to 끈질긴 맹공(Relentless Assault); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Relentless Assault lasts 10 seconds, and reduces your armor by 30%.
+Cost: 35 Mana"	"""リレントレスアサルト""が10秒間持続し、防御力が30%ダウンする。
+コスト: マナ35"	"无情突袭持续10秒钟，并且降低你30%护甲。
+消耗：35点法力"	"{""skill:relentless-assault"":""accepted""}"	"{""skill:relentless-assault"":""needs-context""}"	"{""skill:relentless-assault"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"29814"	""	"skill:battle-frenzy"	"accepted"	"전투 격노 중 물리 및 관통 피해 저항 +12%"	"전투 광란(Battle Frenzy) 중 물리 및 관통 피해 저항 +12%"	"skill:battle-frenzy: English identifies the named ability/item (Battle Frenzy), corroborated by Japanese バトルフレンジー and Chinese 战斗狂热. Normalize only its reviewed Korean span to 전투 광란(Battle Frenzy); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"+12% Physical and Piercing Damage Resistance during Battle Frenzy"	"""バトルフレンジー""実行中の物理・貫通ダメージ耐性+12%"	"处于战斗狂热中时，物理和穿透伤害抗性+12%"	"{""skill:battle-frenzy"":""accepted""}"	"{""skill:battle-frenzy"":""needs-context""}"	"{""skill:battle-frenzy"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30388"	""	"skill:battle-frenzy"	"accepted"	"전투 격노 상태에서 물리 및 관통 피해 저항 +20%"	"전투 광란(Battle Frenzy) 상태에서 물리 및 관통 피해 저항 +20%"	"skill:battle-frenzy: English identifies the named ability/item (Battle Frenzy), corroborated by Japanese バトルフレンジー and Chinese 战斗狂热. Normalize only its reviewed Korean span to 전투 광란(Battle Frenzy); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"+20% Physical and Piercing Damage Resistance during Battle Frenzy"	"""バトルフレンジー""実行中の物理・貫通ダメージ耐性+20%"	"处于战斗狂热中时，物理和穿透伤害抗性+20%"	"{""skill:battle-frenzy"":""accepted""}"	"{""skill:battle-frenzy"":""needs-context""}"	"{""skill:battle-frenzy"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30691"	""	"skill:meteor"	"excluded"	"하늘에서 운석을 불러내 전방의 범위에 막대한 피해를 준다."	"하늘에서 운석을 불러내 전방의 범위에 막대한 피해를 준다."	"skill:meteor: English uses the ordinary object/weather word or a separate equipment title, not this ability name; Korean remains unchanged."	"Calls forth a meteor from the skies, dealing massive damage to the area before you."	"天空より隕石を呼び出し、前方のエリア内の敵に大ダメージを与える。"	"从天空召唤出一颗流星，对你面前的区域造成巨大的伤害。"	"{""skill:meteor"":""excluded""}"	"{""skill:meteor"":""needs-context""}"	"{""skill:meteor"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"30879"	""	"skill:mark-of-flame"	"accepted"	"최대 7개의 대상을 표시한다. 발화 표식을 발동하면 화염 피해 280과 연소 피해 40을 준다.
+표시 비용: 마나 10
+발동 비용: 마나 42"	"최대 7개의 대상을 표시한다. 화염의 표식(Mark of Flame)을 발동하면 화염 피해 280과 연소 피해 40을 준다.
+표시 비용: 마나 10
+발동 비용: 마나 42"	"skill:mark-of-flame: English identifies the named ability/item (Mark of Flame), corroborated by Japanese マークオブフレイム and Chinese 烈焰印记. Normalize only its reviewed Korean span to 화염의 표식(Mark of Flame); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Tag up to 7 targets. When executed, Mark of Flame deals 280 Fire Damage and 40 Burning Damage.
+Cost to Mark: 10 mana
+Cost to Execute: 42 mana"	"最大7体の標的をマーキングできる。起爆させると、280の炎ダメージと40の炎上ダメージを与える。
+マーキングのコスト: マナ10
+起爆のコスト: マナ42"	"标记最多7个目标。 触发时，烈焰印记造成280点火焰伤害和40点燃烧伤害。
+标记消耗：10法力
+触发消耗：42法力"	"{""skill:mark-of-flame"":""accepted""}"	"{""skill:mark-of-flame"":""needs-context""}"	"{""skill:mark-of-flame"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32929"	""	"skill:battle-frenzy"	"accepted"	"전투 격노 중 공격 속도 +10%"	"전투 광란(Battle Frenzy) 중 공격 속도 +10%"	"skill:battle-frenzy: English identifies the named ability/item (Battle Frenzy), corroborated by Japanese バトルフレンジー and Chinese 战斗狂热. Normalize only its reviewed Korean span to 전투 광란(Battle Frenzy); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"+10% Attack Speed while in Battle Frenzy"	"""バトルフレンジー""実行中の攻撃速度+10%"	"处于战斗狂热中时，攻击速度+10%"	"{""skill:battle-frenzy"":""accepted""}"	"{""skill:battle-frenzy"":""needs-context""}"	"{""skill:battle-frenzy"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32945"	""	"skill:storm-bolt"	"accepted"	"+70% 확률로 감전 피해가 적들 사이로 전이되며, 스톰 볼트 피해가 60% 증가합니다."	"+70% 확률로 감전 피해가 적들 사이로 전이되며, 폭풍의 번개(Storm Bolt) 피해가 60% 증가합니다."	"skill:storm-bolt: English identifies the named ability/item (Storm Bolt), corroborated by Japanese ストームボルト and Chinese 风暴雷霆. Normalize only its reviewed Korean span to 폭풍의 번개(Storm Bolt); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"+70% chance for Shocking Damage to propagate between enemies and increases Storm Bolt damage by 60%."	"感電ダメージが他の敵に拡散する確率が70%アップし、""ストームボルト""のダメージが60%アップする。"	"震荡伤害在敌人之间传播的几率+70%，风暴雷霆的伤害提高60%。"	"{""skill:storm-bolt"":""accepted""}"	"{""skill:storm-bolt"":""needs-context""}"	"{""skill:storm-bolt"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"33310"	""	"skill:battle-frenzy"	"accepted"	"전투 격노 (활성)"	"전투 광란(Battle Frenzy) (활성)"	"skill:battle-frenzy: English identifies the named ability/item (Battle Frenzy), corroborated by Japanese バトルフレンジー and Chinese 战斗狂热. Normalize only its reviewed Korean span to 전투 광란(Battle Frenzy); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Battle Frenzy (active)"	"バトルフレンジー(アクティブ)"	"战斗狂热（激活）"	"{""skill:battle-frenzy"":""accepted""}"	"{""skill:battle-frenzy"":""needs-context""}"	"{""skill:battle-frenzy"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35056"	""	"skill:healing-surge"	"accepted"	"치유 파동"	"치유 파동(Healing Surge)"	"skill:healing-surge: English identifies the named ability/item (Healing Surge), corroborated by Japanese ヒーリングサージ and Chinese 治疗波涌. Normalize only its reviewed Korean span to 치유 파동(Healing Surge); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Healing Surge"	"ヒーリングサージ"	"治疗波涌"	"{""skill:healing-surge"":""accepted""}"	"{""skill:healing-surge"":""needs-context""}"	"{""skill:healing-surge"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35064"	""	"skill:blade-honing"	"accepted"	"칼날 연마"	"칼날 연마(Blade Honing)"	"skill:blade-honing: English identifies the named ability/item (Blade Honing), corroborated by Japanese ブレードホーニング and Chinese 磨刀. Normalize only its reviewed Korean span to 칼날 연마(Blade Honing); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Blade Honing"	"ブレードホーニング"	"磨刀"	"{""skill:blade-honing"":""accepted""}"	"{""skill:blade-honing"":""needs-context""}"	"{""skill:blade-honing"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35233"	""	"skill:battle-frenzy"	"accepted"	"전투 격노 지속 중 물리 및 관통 피해 저항 +4%"	"전투 광란(Battle Frenzy) 지속 중 물리 및 관통 피해 저항 +4%"	"skill:battle-frenzy: English identifies the named ability/item (Battle Frenzy), corroborated by Japanese バトルフレンジー and Chinese 战斗狂热. Normalize only its reviewed Korean span to 전투 광란(Battle Frenzy); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"+4% Physical and Piercing Damage Resistance during Battle Frenzy"	"""バトルフレンジー""実行中の物理・貫通ダメージ耐性+4%"	"处于战斗狂热中时，物理和穿透伤害抗性+4%"	"{""skill:battle-frenzy"":""accepted""}"	"{""skill:battle-frenzy"":""needs-context""}"	"{""skill:battle-frenzy"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35525"	""	"skill:battle-frenzy"	"accepted"	"+첫 번째 적 처치 시 총 피해량 +10%, 연속 두 번째 적 처치 시 총 피해량 +20%
+전투 격노 효과는 10초간 지속되며, 적을 처치할 때마다 지속 시간이 초기화됩니다.
+지속 비용: 마나 30%"	"+첫 번째 적 처치 시 총 피해량 +10%, 연속 두 번째 적 처치 시 총 피해량 +20%
+전투 광란(Battle Frenzy) 효과는 10초간 지속되며, 적을 처치할 때마다 지속 시간이 초기화됩니다.
+지속 비용: 마나 30%"	"skill:battle-frenzy: English identifies the named ability/item (Battle Frenzy), corroborated by Japanese バトルフレンジー and Chinese 战斗狂热. Normalize only its reviewed Korean span to 전투 광란(Battle Frenzy); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"+10% Total Damage for your 1st kill, +20% Total Damage for your 2nd consecutive kill.
+Battle Frenzy buff lasts 10 seconds, each kill resets the duration.
+Sustained Cost: 30% Mana"	"敵を1体倒すと攻撃力が10%アップし、2体倒すと20%アップする。
+""バトルフレンジー""が10秒間持続し、敵を倒すごとに時間がリセットされる。
+持続コスト: 最大マナの30%"	"你的第1次击杀的总伤害+10%，你的第2次连续击杀的总伤害+20%。
+战斗狂热增益持续10秒，每一次击杀都将重置该持续时间。
+持续消耗：30%法力"	"{""skill:battle-frenzy"":""accepted""}"	"{""skill:battle-frenzy"":""needs-context""}"	"{""skill:battle-frenzy"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35810"	""	"skill:shadow-flare"	"accepted"	"출혈 및 독 효과가 20% 증가하고 그림자 섬광 피해가 10% 증가합니다."	"출혈 및 독 효과가 20% 증가하고 그림자 섬광(Shadow Flare) 피해가 10% 증가합니다."	"skill:shadow-flare: English identifies the named ability/item (Shadow Flare), corroborated by Japanese シャドウフレア and Chinese 暗影耀斑. Normalize only its reviewed Korean span to 그림자 섬광(Shadow Flare); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Increases Bleeding and Poison effects by 20% and Shadow Flare damage by 10%."	"出血・毒効果が20%アップし、""シャドウフレア""のダメージが10%アップする。"	"流血和毒素效果提高20%，暗影闪击伤害提高10%。"	"{""skill:shadow-flare"":""accepted""}"	"{""skill:shadow-flare"":""needs-context""}"	"{""skill:shadow-flare"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35837"	""	"skill:elemental-rage"	"accepted"	"원소 격노"	"원소의 격노(Elemental Rage)"	"skill:elemental-rage: English identifies the named ability/item (Elemental Rage), corroborated by Japanese エレメンタルレイジ and Chinese 元素愤怒. Normalize only its reviewed Korean span to 원소의 격노(Elemental Rage); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Elemental Rage"	"エレメンタルレイジ"	"元素愤怒"	"{""skill:elemental-rage"":""accepted""}"	"{""skill:elemental-rage"":""needs-context""}"	"{""skill:elemental-rage"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36072"	""	"skill:battle-frenzy"	"accepted"	"전투 격노 상태일 때 공격 속도 +20%"	"전투 광란(Battle Frenzy) 상태일 때 공격 속도 +20%"	"skill:battle-frenzy: English identifies the named ability/item (Battle Frenzy), corroborated by Japanese バトルフレンジー and Chinese 战斗狂热. Normalize only its reviewed Korean span to 전투 광란(Battle Frenzy); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"+20% Attack Speed while in Battle Frenzy"	"""バトルフレンジー""実行中の攻撃速度+20%"	"处于战斗狂热中时，攻击速度+20%"	"{""skill:battle-frenzy"":""accepted""}"	"{""skill:battle-frenzy"":""needs-context""}"	"{""skill:battle-frenzy"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36857"	""	"skill:shadow-flare"	"accepted"	"출혈 및 중독 효과가 100% 증가하고, 그림자 섬광 피해가 60% 증가합니다."	"출혈 및 중독 효과가 100% 증가하고, 그림자 섬광(Shadow Flare) 피해가 60% 증가합니다."	"skill:shadow-flare: English identifies the named ability/item (Shadow Flare), corroborated by Japanese シャドウフレア and Chinese 暗影耀斑. Normalize only its reviewed Korean span to 그림자 섬광(Shadow Flare); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"Increases Bleeding and Poison effects by 100% and Shadow Flare damage by 60%."	"出血・毒効果が100%アップし、シャドウフレアのダメージが60%アップする。"	"流血和毒素效果提高100%，暗影闪击伤害提高60%。"	"{""skill:shadow-flare"":""accepted""}"	"{""skill:shadow-flare"":""needs-context""}"	"{""skill:shadow-flare"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37662"	""	"skill:shadow-flare"	"accepted"	"{*1[지속 효과]}
+비전 기술로 모든 독 및 출혈 공격의 지속 시간이 늘어납니다. 그림자 섬광 피해도 증가합니다."	"{*1[지속 효과]}
+비전 기술로 모든 독 및 출혈 공격의 지속 시간이 늘어납니다. 그림자 섬광(Shadow Flare) 피해도 증가합니다."	"skill:shadow-flare: English identifies the named ability/item (Shadow Flare), corroborated by Japanese シャドウフレア and Chinese 暗影耀斑. Normalize only its reviewed Korean span to 그림자 섬광(Shadow Flare); all quantities, game tokens, localized marker boundaries, particles and line breaks remain intact."	"{*1[Passive]}
+Secret techniques enable you to extend the duration of all your Poison and Bleeding attacks. Also increases Shadow Flare damage."	"{*1[パッシブ]}
+秘密の技術を習得し、毒・出血攻撃の持続時間を延長する。また、シャドウフレアのダメージがアップする。"	"{*1[被动]}
+你通过神秘的技艺延长了所有毒素和流血伤害的持续时间。同时也提升了暗影耀斑的伤害。"	"{""skill:shadow-flare"":""accepted""}"	"{""skill:shadow-flare"":""needs-context""}"	"{""skill:shadow-flare"":""Candidate hit from the English source; verify this occurrence in context.""}"
