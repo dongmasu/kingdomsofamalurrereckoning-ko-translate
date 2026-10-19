@@ -8,6 +8,31 @@ ROOT = File.expand_path('../../..', __dir__)
 AUDIT = __dir__
 BACKUPS = '/private/tmp/ko-translate-backups/20261015'
 RESOURCES = %w[affix base default].freeze
+# Recorded hashes show D-21543 was applied before the later-numbered
+# D-21541/D-21542 correction passes.
+STAGE_SEQUENCE_OVERRIDES = { 21_543 => 21_540.5 }.freeze
+NON_NAME_EDIT_STAGES = [
+  {
+    d: 21799, order: 1,
+    manifest: File.join(AUDIT, 'proper-name-candidate-edits-D21799.tsv'),
+    backup: '/private/tmp/ko-translate-backups/20261018/before-proper-name-D21799'
+  },
+  {
+    d: 21814, order: 1,
+    manifest: File.join(AUDIT, 'proper-name-short-label-edits-D21814.tsv'),
+    backup: '/private/tmp/ko-translate-backups/20261018/before-proper-name-D21814'
+  },
+  {
+    d: 21568, order: 1,
+    manifest: File.join(AUDIT, 'proper-name-text-corrections-D21568.tsv'),
+    backup: '/private/tmp/ko-translate-backups/20261017/before-proper-name-D21568'
+  },
+  {
+    d: 21569, order: 1,
+    manifest: File.join(AUDIT, 'japanese-parenthetical-review-D21569.tsv'),
+    backup: '/private/tmp/ko-translate-backups/20261017/before-default-parenthetical-D21569'
+  }
+].freeze
 
 def key(row)
   [row.fetch('ID_Linha'), row['Tipo_Variante'].to_s]
@@ -185,11 +210,13 @@ def verify_full_chain
 $stdout.sync = true
 stages = Dir.glob(File.join(AUDIT, 'proper-name-edits-D*.tsv')).map do |manifest|
   d = File.basename(manifest)[/\Aproper-name-edits-D(\d+)\.tsv\z/, 1].to_i
-  { d: d, order: 0, manifest: manifest,
+  { d: d, order: 0,
+    sequence: STAGE_SEQUENCE_OVERRIDES.fetch(d, d), manifest: manifest,
     backup: File.join(BACKUPS, "before-proper-name-D#{d}") }
 end
 
 stages.concat([
+  *NON_NAME_EDIT_STAGES,
   {
     d: 21415, order: 1,
     manifest: File.join(AUDIT, 'proper-name-short-residual-D21415.tsv'),
@@ -213,7 +240,7 @@ stages.concat([
     backup: File.join(BACKUPS, 'before-proper-name-D20393-houses')
   }
 ])
-stages.sort_by! { |stage| [stage[:d], stage[:order]] }
+stages.sort_by! { |stage| [stage.fetch(:sequence, stage[:d]), stage[:order]] }
 
 states = RESOURCES.to_h do |resource|
   path = File.join(ROOT, 'work/zh_cn',
@@ -277,8 +304,14 @@ stages.reverse_each do |stage|
         expected['Texto'] = target['new']
         ordinals << ordinal + 1
       end
-      raise "non-target cell changed D-#{stage[:d]}" unless
-        expected == current[ordinal].to_h
+      actual = current[ordinal].to_h
+      unless expected == actual
+        changed_fields = (expected.keys | actual.keys).select do |field|
+          expected[field] != actual[field]
+        end
+        raise "non-target cell changed D-#{stage[:d]} " \
+              "key=#{key(row).inspect} fields=#{changed_fields.inspect}"
+      end
     end
     raise "missing target D-#{stage[:d]}" unless ordinals.length == targets.length
 

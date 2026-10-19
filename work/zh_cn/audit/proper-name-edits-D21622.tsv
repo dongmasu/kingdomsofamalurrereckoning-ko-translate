@@ -1,0 +1,111 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"10592"	""	"skill:warding-blast"	"accepted"	"수호 폭발"	"수호 폭발(Warding Blast)"	"English default:42670/49345 explicitly call Mage's Vortex and Warding
+Blast special attacks. default:50229 defines the Staff block attack
+that groups enemies and the Sceptre block attack that launches a
+projectile. This contextual evidence, missed by the earlier isolated
+label proposal, supports two named skill entries. Japanese
+メイジボルテックス/ウォーディングブラスト and Chinese 法师漩涡/守护冲击
+corroborate the source spans. Add complete English annotations to the
+standalone labels and immediately after the existing localized {*1...}
+closing braces. Preserve every localized marker byte, the optional
+Korean genitive particle variants, actions, values, line endings and
+unrelated text. Canonical labels use the existing standalone Korean
+forms; genitive/non-genitive token forms are grammatical variants,
+not different skill identities. All affix/base/default sources were
+checked: four occurrences per skill, five distinct default rows.
+The official Korean manual extraction/reference do not directly name
+these attacks. No PAK material, global translation recount, release
+update or inferred relationship to other abilities is involved.
+Full residual discovery/validation continues after this batch."	"Warding Blast"	"ウォーディングブラスト"	"守护冲击"	"{""skill:warding-blast"":""accepted""}"	"{""skill:warding-blast"":""needs-context""}"	"{""skill:warding-blast"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"12387"	""	"skill:mages-vortex"	"accepted"	"마법사의 소용돌이"	"마법사의 소용돌이(Mage's Vortex)"	"English default:42670/49345 explicitly call Mage's Vortex and Warding
+Blast special attacks. default:50229 defines the Staff block attack
+that groups enemies and the Sceptre block attack that launches a
+projectile. This contextual evidence, missed by the earlier isolated
+label proposal, supports two named skill entries. Japanese
+メイジボルテックス/ウォーディングブラスト and Chinese 法师漩涡/守护冲击
+corroborate the source spans. Add complete English annotations to the
+standalone labels and immediately after the existing localized {*1...}
+closing braces. Preserve every localized marker byte, the optional
+Korean genitive particle variants, actions, values, line endings and
+unrelated text. Canonical labels use the existing standalone Korean
+forms; genitive/non-genitive token forms are grammatical variants,
+not different skill identities. All affix/base/default sources were
+checked: four occurrences per skill, five distinct default rows.
+The official Korean manual extraction/reference do not directly name
+these attacks. No PAK material, global translation recount, release
+update or inferred relationship to other abilities is involved.
+Full residual discovery/validation continues after this batch."	"Mage's Vortex"	"メイジボルテックス"	"法师漩涡"	"{""skill:mages-vortex"":""accepted""}"	"{""skill:mages-vortex"":""needs-context""}"	"{""skill:mages-vortex"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"42670"	""	"skill:warding-blast|skill:mages-vortex"	"accepted"	"{*1마법사의 소용돌이}와 {*1수호 폭발} 특수 공격은 추가 운명을 부여합니다."	"{*1마법사의 소용돌이}(Mage's Vortex)와 {*1수호 폭발}(Warding Blast) 특수 공격은 추가 운명을 부여합니다."	"English default:42670/49345 explicitly call Mage's Vortex and Warding
+Blast special attacks. default:50229 defines the Staff block attack
+that groups enemies and the Sceptre block attack that launches a
+projectile. This contextual evidence, missed by the earlier isolated
+label proposal, supports two named skill entries. Japanese
+メイジボルテックス/ウォーディングブラスト and Chinese 法师漩涡/守护冲击
+corroborate the source spans. Add complete English annotations to the
+standalone labels and immediately after the existing localized {*1...}
+closing braces. Preserve every localized marker byte, the optional
+Korean genitive particle variants, actions, values, line endings and
+unrelated text. Canonical labels use the existing standalone Korean
+forms; genitive/non-genitive token forms are grammatical variants,
+not different skill identities. All affix/base/default sources were
+checked: four occurrences per skill, five distinct default rows.
+The official Korean manual extraction/reference do not directly name
+these attacks. No PAK material, global translation recount, release
+update or inferred relationship to other abilities is involved.
+Full residual discovery/validation continues after this batch."	"{*1Mage's Vortex} and {*1Warding Blast} special attacks award bonus Fate."	"{*1""メイジボルテックス""}と{*1""ウォーディングブラスト""}が、フェイトの獲得にボーナスを与える。"	"{*1法师漩涡}和{*1守护冲击}特殊攻击会获得额外命运。"	"{""skill:warding-blast"":""accepted"",""skill:mages-vortex"":""accepted""}"	"{""skill:warding-blast"":""needs-context"",""skill:mages-vortex"":""needs-context""}"	"{""skill:warding-blast"":""Candidate hit from the English source; verify this occurrence in context."",""skill:mages-vortex"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"49345"	""	"skill:warding-blast|skill:mages-vortex"	"accepted"	"{*1마법사 소용돌이}와 {*1수호의 폭발} 특수 공격은 기본 피해뿐 아니라 지속 피해도 입힐 수 있다."	"{*1마법사 소용돌이}(Mage's Vortex)와 {*1수호의 폭발}(Warding Blast) 특수 공격은 기본 피해뿐 아니라 지속 피해도 입힐 수 있다."	"English default:42670/49345 explicitly call Mage's Vortex and Warding
+Blast special attacks. default:50229 defines the Staff block attack
+that groups enemies and the Sceptre block attack that launches a
+projectile. This contextual evidence, missed by the earlier isolated
+label proposal, supports two named skill entries. Japanese
+メイジボルテックス/ウォーディングブラスト and Chinese 法师漩涡/守护冲击
+corroborate the source spans. Add complete English annotations to the
+standalone labels and immediately after the existing localized {*1...}
+closing braces. Preserve every localized marker byte, the optional
+Korean genitive particle variants, actions, values, line endings and
+unrelated text. Canonical labels use the existing standalone Korean
+forms; genitive/non-genitive token forms are grammatical variants,
+not different skill identities. All affix/base/default sources were
+checked: four occurrences per skill, five distinct default rows.
+The official Korean manual extraction/reference do not directly name
+these attacks. No PAK material, global translation recount, release
+update or inferred relationship to other abilities is involved.
+Full residual discovery/validation continues after this batch."	"{*1Mage's Vortex} and {*1Warding Blast} special attacks can apply damage over time in addition to their base damage."	"{*1""メイジボルテックス""}と{*1""ウォーディングブラスト""}が、通常のダメージに加え、時間経過性ダメージを与えるようになる。"	"{*1法师漩涡}和{*1守护冲击}特殊攻击除基础伤害外，还会随时间增加伤害。"	"{""skill:warding-blast"":""accepted"",""skill:mages-vortex"":""accepted""}"	"{""skill:warding-blast"":""needs-context"",""skill:mages-vortex"":""needs-context""}"	"{""skill:warding-blast"":""Candidate hit from the English source; verify this occurrence in context."",""skill:mages-vortex"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50229"	""	"skill:warding-blast|skill:mages-vortex"	"accepted"	"셉터의 마나 소모량이 최대 마나의 5%에서 4%로 감소합니다.
+
+{*1마법사의 소용돌이} - 지팡이로 방어 중 공격하면 정면의 적을 한곳으로 끌어당깁니다.
+
+{*1수호의 폭발} - 셉터로 방어 중 공격하면 대상에게 발사체를 날립니다."	"셉터의 마나 소모량이 최대 마나의 5%에서 4%로 감소합니다.
+
+{*1마법사의 소용돌이}(Mage's Vortex) - 지팡이로 방어 중 공격하면 정면의 적을 한곳으로 끌어당깁니다.
+
+{*1수호의 폭발}(Warding Blast) - 셉터로 방어 중 공격하면 대상에게 발사체를 날립니다."	"English default:42670/49345 explicitly call Mage's Vortex and Warding
+Blast special attacks. default:50229 defines the Staff block attack
+that groups enemies and the Sceptre block attack that launches a
+projectile. This contextual evidence, missed by the earlier isolated
+label proposal, supports two named skill entries. Japanese
+メイジボルテックス/ウォーディングブラスト and Chinese 法师漩涡/守护冲击
+corroborate the source spans. Add complete English annotations to the
+standalone labels and immediately after the existing localized {*1...}
+closing braces. Preserve every localized marker byte, the optional
+Korean genitive particle variants, actions, values, line endings and
+unrelated text. Canonical labels use the existing standalone Korean
+forms; genitive/non-genitive token forms are grammatical variants,
+not different skill identities. All affix/base/default sources were
+checked: four occurrences per skill, five distinct default rows.
+The official Korean manual extraction/reference do not directly name
+these attacks. No PAK material, global translation recount, release
+update or inferred relationship to other abilities is involved.
+Full residual discovery/validation continues after this batch."	"Reduce Sceptre costs to 4% of your maximum Mana, instead of 5%.
+
+{*1Mage's Vortex} - Attack while blocking with the Staff to draw all enemies in front of you to a central location.
+
+{*1Warding Blast} - Attack while blocking with the Sceptre to send a launching projectile towards your target."	"セプターのコストを最大マナの5%から4%にダウンさせる。
+
+{*1""メイジボルテックス""} - ブロック中にスタッフで攻撃すると、正面の敵を一ヶ所に集めることができる。
+
+{*1""ウォーディングブラスト""} - ブロック中にセプターで攻撃すると、標的に向かって地を這うエネルギーが照射される。"	"权杖消耗从5%最大法力降低到4%最大法力。
+
+{*1法师漩涡} - 用法杖招架时攻击，将你面前的所有敌人吸引到一个中心位置。
+
+{*1守护冲击} - 用权杖招架时攻击，向你的目标发射发射物。"	"{""skill:warding-blast"":""accepted"",""skill:mages-vortex"":""accepted""}"	"{""skill:warding-blast"":""needs-context"",""skill:mages-vortex"":""needs-context""}"	"{""skill:warding-blast"":""Candidate hit from the English source; verify this occurrence in context."",""skill:mages-vortex"":""Candidate hit from the English source; verify this occurrence in context.""}"

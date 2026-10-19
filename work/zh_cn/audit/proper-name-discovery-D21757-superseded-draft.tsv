@@ -1,0 +1,90 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"
+"base"	"1434"	"11"	"item:heartstone"	"accepted"	"심장석"	"하트스톤(Heartstone)"	"English identifies a ritual Heartstone given to the player and used to reflect affinity; Japanese ハートストーン and Chinese 心之石 corroborate. Register the item/class, not a unique one-of-a-kind object. Use 하트스톤(Heartstone). D-16940 at default:56130 remains a separate historical affinity uncertainty."	"Heartstone"	"ハートストーン"	"心之石"	"{""item:heartstone"":""accepted""}"
+"base"	"2119"	"11"	"place:heart-of-the-sidhe"	"accepted"	"시드(Sidhe)의 심장"	"시드의 심장(Heart of the Sidhe)"	"English directs the player to stand at this named site and places a meditation pool within it; Japanese シーの中心 and Chinese 仙境之心 corroborate the location reading. Normalize to 시드의 심장(Heart of the Sidhe) without nested parentheses. Keep the separate lore:sidhe record at base:2119:11; D-17963 at default:61749 remains a broader historical uncertainty."	"Heart of the Sidhe"	"シーの中心"	"仙境之心"	"{""place:heart-of-the-sidhe"":""accepted""}"
+"base"	"4634"	"11"	"place:hall-of-accolades"	"accepted"	"명예의 전당"	"영예의 전당(Hall of Accolades)"	"English, Japanese 栄誉の大広間, and Chinese 荣誉殿堂 identify the Hall as a named location. Use 영예의 전당(Hall of Accolades). Preserve D-9231 at default:29381 as historical sentence-level not-an-issue; this batch adds only the separate proper-name classification."	"Hall of Accolades"	"栄誉の大広間"	"荣誉殿堂"	"{""place:hall-of-accolades"":""accepted""}"
+"default"	"7787"	""	"place:heart-of-the-sidhe"	"accepted"	"니랄림(Nyralim)은 내 힘이 인상적이었다며 그 힘을 올바르게 사용할 지혜도 갖췄길 바란다고 했어. 시드(Sidhe)의 심장(Heart of the Sidhe)에 있는 연못에서 명상하면 그 지혜를 보여 주겠대."	"니랄림(Nyralim)은 내 힘이 인상적이었다며 그 힘을 올바르게 사용할 지혜도 갖췄길 바란다고 했어. 시드의 심장(Heart of the Sidhe)에 있는 연못에서 명상하면 그 지혜를 보여 주겠대."	"English directs the player to stand at this named site and places a meditation pool within it; Japanese シーの中心 and Chinese 仙境之心 corroborate the location reading. Normalize to 시드의 심장(Heart of the Sidhe) without nested parentheses. Keep the separate lore:sidhe record at base:2119:11; D-17963 at default:61749 remains a broader historical uncertainty."	"Nyralim told me that he was impressed by my power, and hopes I possess the wisdom to use it correctly. He says he will show me this wisdom when I meditate at the pool in the Heart of the Sidhe."	"ニラリムは""力に感心した""と私に告げ、""それを正しく使う知恵があるといいが""とも言った。シーの中心の泉で瞑想する時、知恵を授けるという。"	"尼拉利姆告诉我，我的力量令他感到震惊，并希望我能智慧地利用这力量。他说当我在仙境之心的池塘里进行冥想时，他会向我传授这种智慧。"	"{""place:heart-of-the-sidhe"":""accepted""}"
+"default"	"8403"	""	"place:hall-of-accolades"	"accepted"	"훈장 수여의 전당"	"영예의 전당(Hall of Accolades)"	"English, Japanese 栄誉の大広間, and Chinese 荣誉殿堂 identify the Hall as a named location. Use 영예의 전당(Hall of Accolades). Preserve D-9231 at default:29381 as historical sentence-level not-an-issue; this batch adds only the separate proper-name classification."	"Hall of Accolades"	"栄誉の大広間"	"荣誉殿堂"	"{""place:hall-of-accolades"":""accepted""}"
+"default"	"11299"	""	"place:hallowed-tree"	"not-an-issue"	"비탄의 집(House of Sorrows)이라 불리는 겨울 페이(Winter Fae) 무리가 미든(The Midden)을 중심으로 삶의 터전을 일구었다.
+그들은 그곳의 시신들을 모시고 돌보며, 가져온 죽은 이들로 땅을 성스럽게 한다.
+우리 민족의 문화를 보존하고 이곳을 겨울의 요람으로 만드는 이들이 바로 그들이다.
+그 대가로 그들은 표식을 받았다. 미든(The Midden)의 시신들 사이에서 자라는, 흰 껍질과 붉은 잎을 지닌 작은 묘목이다.
+그들은 그것을 성목(Hallowed Tree)이라 부른다."	"비탄의 집(House of Sorrows)이라 불리는 겨울 페이(Winter Fae) 무리가 미든(The Midden)을 중심으로 삶의 터전을 일구었다.
+그들은 그곳의 시신들을 모시고 돌보며, 가져온 죽은 이들로 땅을 성스럽게 한다.
+우리 민족의 문화를 보존하고 이곳을 겨울의 요람으로 만드는 이들이 바로 그들이다.
+그 대가로 그들은 표식을 받았다. 미든(The Midden)의 시신들 사이에서 자라는, 흰 껍질과 붉은 잎을 지닌 작은 묘목이다.
+그들은 그것을 성목(Hallowed Tree)이라 부른다."	"English explicitly names the House of Sorrows beacon sapling Hallowed Tree; Japanese 聖なる木 and Chinese 圣树 corroborate. Use 성목(Hallowed Tree). Preserve D-3288 at default:11299 as a separate historical lore/rite uncertainty."	"A group of Winter Fae, called the House of Sorrows, have built their lives around the Midden.
+They feed and tend the bodies there, and sanctify the ground with what dead they bring.
+It is they who preserve the culture of our people, and make this the Cradle of Winter.
+For their part, they have been given a beacon; a small sapling of white bark and red leaves, growing from the bodies in the Midden.
+They call it the Hallowed Tree."	"ハウス・オブ・ソローと呼ばれるウィンター・フェイの一団が、ミッデンの周りで生活を始めた。
+そこに遺体を運び入れ、世話をし、命なき物で地面を浄化する。
+フェイの文化を守り、これを""冬のゆりかご""たらしめているのは彼ら。
+目印が与えられている。白い樹皮と赤い葉を持つ小さな若木。ミッデンにある遺体から生えている。
+その木は""聖なる木""と呼ばれる"	"一群被称为“悲灵家族”的冬灵，在贝冢周围安家落户。
+他们在那里喂养和照料尸体，用死者带来的东西使土地变得神圣。
+是他们保护了我们的人民的文明，使这里成为了冬之摇篮。
+对他们来说，他们得到了灯塔：一棵从贝冢的尸堆里长出来的，有着白色树皮和红色叶子的小树。
+他们称之为圣树。"	"{""place:hallowed-tree"":""not-an-issue""}"
+"default"	"20621"	""	"place:hallowed-tree"	"accepted"	"엄숙하도다, 엄숙한 성목이여,
+묘지에 영광 있으라.
+서쪽 숲에서 멀리 떨어진 이곳에도
+죽어 가는 이들에게 안식이 깃드는가."	"엄숙하도다, 엄숙한 성목(Hallowed Tree)이여,
+묘지에 영광 있으라.
+서쪽 숲에서 멀리 떨어진 이곳에도
+죽어 가는 이들에게 안식이 깃드는가."	"English explicitly names the House of Sorrows beacon sapling Hallowed Tree; Japanese 聖なる木 and Chinese 圣树 corroborate. Use 성목(Hallowed Tree). Preserve D-3288 at default:11299 as a separate historical lore/rite uncertainty."	"Solemn, Solemn Hallowed Tree,
+Glory to the graveyard be.
+Far from forests of the west
+Do the dying have this rest."	"それはそれは厳かで""聖なる木""
+墓地に栄光あれ
+西の森のはるか遠く
+どうか死を迎える者たちに安らぎを"	"庄严，庄严的神圣之树，
+光荣归于坟墓。
+远离西方的森林
+让垂死的人休息吧。"	"{""place:hallowed-tree"":""accepted""}"
+"default"	"25042"	""	"place:hallowed-tree"	"accepted"	"장엄하고 장엄한 성스러운 나무여,
+묘지에 영광이 있으라.
+서쪽 숲에서 멀리 떨어진 이곳에서
+죽어 가는 이들에게 안식을 주소서."	"장엄하고 장엄한 성목(Hallowed Tree)이여,
+묘지에 영광이 있으라.
+서쪽 숲에서 멀리 떨어진 이곳에서
+죽어 가는 이들에게 안식을 주소서."	"English explicitly names the House of Sorrows beacon sapling Hallowed Tree; Japanese 聖なる木 and Chinese 圣树 corroborate. Use 성목(Hallowed Tree). Preserve D-3288 at default:11299 as a separate historical lore/rite uncertainty."	"Solemn, Solemn Hallowed Tree,
+Glory to the graveyard be.
+Far from forests of the west
+Do the dying have this rest."	"それはそれは厳かで""聖なる木""
+墓地に栄光あれ
+西の森のはるか遠く
+どうか死を迎える者たちに安らぎを"	"庄严，庄严的神圣之树，
+光荣归于坟墓。
+远离西方的森林
+让垂死的人休息吧。"	"{""place:hallowed-tree"":""accepted""}"
+"default"	"29381"	""	"place:hall-of-accolades"	"not-an-issue"	"영예의 전당(Hall of Accolades)에서 최고의 페이(Fae) 장인들이 솜씨를 발휘한다. 깨달음을 얻으려면 여름 성역(Summer Sanctuary)에 있는 훈련사를 찾아가면 돼."	"영예의 전당(Hall of Accolades)에서 최고의 페이(Fae) 장인들이 솜씨를 발휘한다. 깨달음을 얻으려면 여름 성역(Summer Sanctuary)에 있는 훈련사를 찾아가면 돼."	"English, Japanese 栄誉の大広間, and Chinese 荣誉殿堂 identify the Hall as a named location. Use 영예의 전당(Hall of Accolades). Preserve D-9231 at default:29381 as historical sentence-level not-an-issue; this batch adds only the separate proper-name classification."	"The Hall of Accolades is where the finest Fae crafters offer their services. Trainers can be found in the Summer Sanctuary, where we go when seeking enlightenment."	"栄誉の大広間では、最高の腕を持つフェイの工芸家が店を開いている。ああ、指導者はサマー・フェイの聖域にいるぞ。教えを請うときにはあそこへ行くのさ"	"荣誉殿堂里，有着最好的灵族工匠进行着服务。夏日圣所里有训练师，我们可以在那里获得启迪。"	"{""place:hall-of-accolades"":""not-an-issue""}"
+"default"	"32644"	""	"item:heartstone"	"accepted"	"미든(The Midden)으로 가서 시련의 전당(Proving Halls)이라 불리는 곳을 찾아라. 이 하트스톤이 안으로 들어가게 해 줄 것이다. 전당에 들어가면 내 질문에 대한 답을 얻을 수 있겠지."	"미든(The Midden)으로 가서 시련의 전당(Proving Halls)이라 불리는 곳을 찾아라. 이 하트스톤(Heartstone)이 안으로 들어가게 해 줄 것이다. 전당에 들어가면 내 질문에 대한 답을 얻을 수 있겠지."	"English identifies a ritual Heartstone given to the player and used to reflect affinity; Japanese ハートストーン and Chinese 心之石 corroborate. Register the item/class, not a unique one-of-a-kind object. Use 하트스톤(Heartstone). D-16940 at default:56130 remains a separate historical affinity uncertainty."	"Go to the Midden and find the place called the Proving Halls. This Heartstone will grant you access. Once you are within the halls, my questions will be answered."	"ミッデンに赴き、試練の祠という場所を探せ。このハートストーンがあれば辿り着ける。広間に着けば、私の問いも答えが出よう"	"去贝冢吧，然后找到那个叫证明大厅的地方。心之石会让你进去的。一旦你进入了大厅，我的问题就会得到解答。"	"{""item:heartstone"":""accepted""}"
+"default"	"33802"	""	"place:hallowed-tree"	"accepted"	"비탄의 집(House of Sorrows)이라 불리는 겨울 페이(Winter Fae) 무리가 미든(The Midden)을 중심으로 삶의 터전을 꾸렸다.
+그들은 그곳의 시신을 먹이고 돌보며, 죽은 이들을 데려와 땅을 정화한다.
+우리 민족의 문화를 지키고 이곳을 겨울의 요람으로 만드는 이들이 바로 그들이다.
+그들에게는 길잡이가 주어졌다. 미든(The Midden)의 시신들 사이에서 자라나는, 흰 껍질과 붉은 잎을 지닌 작은 묘목이다.
+그들은 그것을 성스러운 나무라고 부른다."	"비탄의 집(House of Sorrows)이라 불리는 겨울 페이(Winter Fae) 무리가 미든(The Midden)을 중심으로 삶의 터전을 꾸렸다.
+그들은 그곳의 시신을 먹이고 돌보며, 죽은 이들을 데려와 땅을 정화한다.
+우리 민족의 문화를 지키고 이곳을 겨울의 요람으로 만드는 이들이 바로 그들이다.
+그들에게는 길잡이가 주어졌다. 미든(The Midden)의 시신들 사이에서 자라나는, 흰 껍질과 붉은 잎을 지닌 작은 묘목이다.
+그들은 그것을 성목(Hallowed Tree)라고 부른다."	"English explicitly names the House of Sorrows beacon sapling Hallowed Tree; Japanese 聖なる木 and Chinese 圣树 corroborate. Use 성목(Hallowed Tree). Preserve D-3288 at default:11299 as a separate historical lore/rite uncertainty."	"A group of Winter Fae, called the House of Sorrows, have built their lives around the Midden.
+They feed and tend the bodies there, and sanctify the ground with what dead they bring.
+It is they who preserve the culture of our people, and make this the Cradle of Winter.
+For their part, they have been given a beacon; a small sapling of white bark and red leaves, growing from the bodies in the Midden.
+They call it the Hallowed Tree."	"ハウス・オブ・ソローと呼ばれるウィンター・フェイの一団が、ミッデンの周りで生活を始めた。
+そこに遺体を運び入れ、世話をし、命なき物で地面を浄化する。
+フェイの文化を守り、これを""冬のゆりかご""たらしめているのは彼ら。
+目印が与えられている。白い樹皮と赤い葉を持つ小さな若木。ミッデンにある遺体から生えている。
+その木は""聖なる木""と呼ばれる"	"一群被称为“悲灵家族”的冬灵，在贝冢周围安家落户。
+他们在那里喂养和照料尸体，用死者带来的东西使土地变得神圣。
+是他们保护了我们的人民的文明，使这里成为了冬之摇篮。
+对他们来说，他们得到了灯塔：一棵从贝冢的尸堆里长出来的，有着白色树皮和红色叶子的小树。
+他们称之为圣树。"	"{""place:hallowed-tree"":""accepted""}"
+"default"	"34160"	""	"place:heart-of-the-sidhe"	"accepted"	"가서 시드(Sidhe)의 심장에 서라. 그곳에서 이사(Ysa)를 찾을 수 있을 것이다. 어쩌면 지혜도 얻게 되겠지."	"가서 시드의 심장(Heart of the Sidhe)에 서라. 그곳에서 이사(Ysa)를 찾을 수 있을 것이다. 어쩌면 지혜도 얻게 되겠지."	"English directs the player to stand at this named site and places a meditation pool within it; Japanese シーの中心 and Chinese 仙境之心 corroborate the location reading. Normalize to 시드의 심장(Heart of the Sidhe) without nested parentheses. Keep the separate lore:sidhe record at base:2119:11; D-17963 at default:61749 remains a broader historical uncertainty."	"Go, and stand at the Heart of the Sidhe. There, you will find Ysa. And perhaps you will find wisdom, as well."	"行け、シーの中心に立つのだ。そこでイーサは見つかるだろう。もしかすると知恵もな"	"去吧，站到仙境的中心。你会在那里找到伊萨。也许你也会找到智慧。"	"{""place:heart-of-the-sidhe"":""accepted""}"
+"default"	"45471"	""	"place:heart-of-the-sidhe"	"accepted"	"시드(Sidhe)의 심장부에 서라. 그 길이 이사의 정원(Gardens of Ysa)으로 이어지면 허락하겠다."	"시드의 심장(Heart of the Sidhe)에 서라. 그 길이 이사의 정원(Gardens of Ysa)으로 이어지면 허락하겠다."	"English directs the player to stand at this named site and places a meditation pool within it; Japanese シーの中心 and Chinese 仙境之心 corroborate the location reading. Normalize to 시드의 심장(Heart of the Sidhe) without nested parentheses. Keep the separate lore:sidhe record at base:2119:11; D-17963 at default:61749 remains a broader historical uncertainty."	"Stand at the Heart of the Sidhe and if that path includes the Gardens of Ysa, I shall allow it."	"シーの中心に立て。イーサの庭園へつながる道を行くなら、立ち入りを認めよう"	"站在仙境的中心，如果道路包括了伊萨花园，那我就同意。"	"{""place:heart-of-the-sidhe"":""accepted""}"
+"default"	"51226"	""	"place:heart-of-the-sidhe"	"accepted"	"가서 시드(Sidhe)의 심장에 서라. 거기서 이사(Ysa)를 찾을 수 있을 거다. 어쩌면 지혜도 얻겠지."	"가서 시드의 심장(Heart of the Sidhe)에 서라. 거기서 이사(Ysa)를 찾을 수 있을 거다. 어쩌면 지혜도 얻겠지."	"English directs the player to stand at this named site and places a meditation pool within it; Japanese シーの中心 and Chinese 仙境之心 corroborate the location reading. Normalize to 시드의 심장(Heart of the Sidhe) without nested parentheses. Keep the separate lore:sidhe record at base:2119:11; D-17963 at default:61749 remains a broader historical uncertainty."	"Go, and stand at the Heart of the Sidhe. There, you will find Ysa. And perhaps you will find wisdom, as well."	"行け、シーの中心に立つのだ。そこでイーサは見つかるだろう。もしかすると知恵もな"	"去吧，站到仙境的中心。你会在那里找到伊萨。也许你也会找到智慧。"	"{""place:heart-of-the-sidhe"":""accepted""}"
+"default"	"52361"	""	"place:hallowed-tree"	"accepted"	"성목"	"성목(Hallowed Tree)"	"English explicitly names the House of Sorrows beacon sapling Hallowed Tree; Japanese 聖なる木 and Chinese 圣树 corroborate. Use 성목(Hallowed Tree). Preserve D-3288 at default:11299 as a separate historical lore/rite uncertainty."	"Hallowed Tree"	"聖なる木"	"圣树"	"{""place:hallowed-tree"":""accepted""}"
+"default"	"53541"	""	"place:heart-of-the-sidhe"	"accepted"	"가서 시드(Sidhe)의 심장에 서라. 그곳에서 이사(Ysa)를 찾을 것이다. 어쩌면 지혜도 얻겠지."	"가서 시드의 심장(Heart of the Sidhe)에 서라. 그곳에서 이사(Ysa)를 찾을 것이다. 어쩌면 지혜도 얻겠지."	"English directs the player to stand at this named site and places a meditation pool within it; Japanese シーの中心 and Chinese 仙境之心 corroborate the location reading. Normalize to 시드의 심장(Heart of the Sidhe) without nested parentheses. Keep the separate lore:sidhe record at base:2119:11; D-17963 at default:61749 remains a broader historical uncertainty."	"Go, and stand at the Heart of the Sidhe. There, you will find Ysa. And perhaps you will find wisdom, as well."	"行け、シーの中心に立つのだ。そこでイーサは見つかるだろう。もしかすると知恵もな"	"去吧，站到仙境的中心。你会在那里找到伊萨。也许你也会找到智慧。"	"{""place:heart-of-the-sidhe"":""accepted""}"
+"default"	"56130"	""	"item:heartstone"	"not-an-issue"	"그렇다면 우리 편에 온 것을 환영한다, 필멸자여. 시련을 시작할 때 네게 준 하트스톤(Heartstone)이 이제 우리와의 친화도를 나타낼 것이다."	"그렇다면 우리 편에 온 것을 환영한다, 필멸자여. 시련을 시작할 때 네게 준 하트스톤(Heartstone)이 이제 우리와의 친화도를 나타낼 것이다."	"English identifies a ritual Heartstone given to the player and used to reflect affinity; Japanese ハートストーン and Chinese 心之石 corroborate. Register the item/class, not a unique one-of-a-kind object. Use 하트스톤(Heartstone). D-16940 at default:56130 remains a separate historical affinity uncertainty."	"Then welcome to our ranks, mortal. The Heartstone I gave you at the start of the trials will now reflect your affinity with us."	"では一員として歓迎しよう、定命の者。試練の最初に渡したハートストーンが、我らに属する証明となる"	"欢迎加入我们，凡人。我在考验开始时给了你一块心之石，如今它代表你和我们是同伴。"	"{""item:heartstone"":""not-an-issue""}"
+"default"	"59607"	""	"item:heartstone"	"accepted"	"이제 너도 우리 가문의 일원이야. 내가 준 심장석이 우리와 네가 얼마나 이어져 있는지 보여 줄 거야."	"이제 너도 우리 가문의 일원이야. 내가 준 하트스톤(Heartstone)이 우리와 네가 얼마나 이어져 있는지 보여 줄 거야."	"English identifies a ritual Heartstone given to the player and used to reflect affinity; Japanese ハートストーン and Chinese 心之石 corroborate. Register the item/class, not a unique one-of-a-kind object. Use 하트스톤(Heartstone). D-16940 at default:56130 remains a separate historical affinity uncertainty."	"You are of our House now. The Heartstone I gave you will reflect your affinity with us."	"これでお前は我らがハウス・オブ・ソローの一員となる。お前に渡したハートストーンが関係を示す"	"你现在是我们家族的人了。我给你的心之石会代表你和我们是同伴。"	"{""item:heartstone"":""accepted""}"
+"default"	"61749"	""	"place:heart-of-the-sidhe"	"accepted"	"가서 시드(Sidhe)의 심장(Heart of the Sidhe)에 서라. 그곳에서 이사(Ysa)를 찾을 수 있을 것이다. 어쩌면 지혜도 얻겠지."	"가서 시드의 심장(Heart of the Sidhe)에 서라. 그곳에서 이사(Ysa)를 찾을 수 있을 것이다. 어쩌면 지혜도 얻겠지."	"English directs the player to stand at this named site and places a meditation pool within it; Japanese シーの中心 and Chinese 仙境之心 corroborate the location reading. Normalize to 시드의 심장(Heart of the Sidhe) without nested parentheses. Keep the separate lore:sidhe record at base:2119:11; D-17963 at default:61749 remains a broader historical uncertainty."	"Go, and stand at the Heart of the Sidhe. There, you will find Ysa. And perhaps you will find wisdom, as well."	"行け、シーの中心に立つのだ。そこでイーサは見つかるだろう。もしかすると知恵もな"	"去吧，站到仙境的中心。你会在那里找到伊萨。也许你也会找到智慧。"	"{""place:heart-of-the-sidhe"":""accepted""}"

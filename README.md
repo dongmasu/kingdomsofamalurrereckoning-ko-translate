@@ -3,11 +3,11 @@
 ## 한국어
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261017193017/KingdomsOfAmalur_Korean_zh_cn_20261017193017.zip)
+- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261019233647/KingdomsOfAmalur_Korean_zh_cn_20261019233647.zip)
 
 ### 작업 배경과 감사
 
-유튜브에서 [노박님의 게임 소개 영상](https://www.youtube.com/watch?v=nCVV3Ql-_rU)을 보고 *Kingdoms of Amalur: Re-Reckoning*에 관심을 갖게 됐습니다. 게임을 무척 신나게 소개해 주셔서 직접 해보고 싶어졌습니다. 처음에는 [zxcv3428님의 한글화 패치](https://zxcv3428.tistory.com/215)를 받아 플레이했습니다. 그 패치 덕분에 게임을 즐길 수 있어 감사하지만, 제가 받은 배포본이 1GB가 넘는 완성형 PAK이었고 영어 로케일(`en_us`)을 한글 텍스트로 교체해 영어를 선택하면 한글이 표시되는 점은 아쉬웠습니다. 그래서 필요한 리소스만 배포하고 각자 보유한 게임 파일로 패키지를 재구성하는 방식을 직접 만들어보기로 했습니다.
+유튜브에서 [노박님의 게임 소개 영상](https://www.youtube.com/watch?v=nCVV3Ql-_rU)을 보고 *Kingdoms of Amalur: Re-Reckoning*에 관심을 갖게 됐습니다. 게임을 무척 신나게 소개해 주셔서 직접 해보고 싶어졌습니다. 처음에는 ~~zxcv3428님의 한글화 패치~~로 알고 있던 배포본을 받아 플레이했습니다. 이후 원본 게시물이 [한무테님의 블로그](https://m.blog.naver.com/gusrud6151/224392008033)에 있는 것을 확인했습니다. 그 한글화 덕분에 게임을 즐길 수 있어 감사하지만, 제가 받은 배포본이 1GB가 넘는 완성형 PAK이었고 영어 로케일(`en_us`)을 한글 텍스트로 교체해 영어를 선택하면 한글이 표시되는 점은 아쉬웠습니다. 그래서 필요한 리소스만 배포하고 각자 보유한 게임 파일로 패키지를 재구성하는 방식을 직접 만들어보기로 했습니다.
 
 작업 중 [커뮤니티 개선판](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527)이 나온 것도 확인했습니다. 기존 한글화의 번역을 개선한 작업을 반갑게 생각합니다. 또한 꾸준히 업데이트해 주시고 번역 품질도 점점 나아지고 있어, 개선판으로 게임을 즐기시는 게 더 나은 선택일 것이라고 생각합니다. 다만 제가 아쉽게 느꼈던 배포 방식과 언어 슬롯 문제는 개선판에서도 해결되지 않은 것으로 보여 독립적인 번역 작업을 계속하기로 했습니다.
 
@@ -23,9 +23,14 @@ CSV에서는 메뉴와 대사가 한데 섞여 있고, 이어지는 대사도 �
 
 `Tipo_Variante`는 각 문자열에 붙은 variant 코드입니다. 성별이나 단·복수 같은 문법 구분을 나타내는 것으로 추정되지만, 게임 내 선택 규칙과 코드의 정확한 의미는 확인되지 않았습니다. 한국어에서는 이런 문법 구분이 대부분 드러나지 않으므로 같은 번역을 여러 variant에 사용하는 경우가 있습니다.
 
-아이템 이름에 붙는 영어 `of ...` 형태는 이 프로젝트의 조합 표기에서 `반지 *얼음 방패*`처럼 별표로 감싼 수식어로 나타냅니다. 동사와 목적어가 조합되는 경우에는 `폭파하기:`처럼 콜론을 붙여 뒤에 목적어가 이어짐을 표시합니다. 이는 프로젝트 안에서 조합을 구분하기 위한 표기 관례입니다.
+아이템 이름에 붙는 영어 `of ...` 형태는 이 프로젝트의 조합 표기에서 `반지 *얼음 방패*`처럼 별표로 감싼 수식어로 나타냅니다. 동사와 목적어가 조합되는 경우에는 `폭파하기:`처럼 콜론을 붙여 뒤에 목적어가 이어짐을 표시합니다. 아이템에 발동 조건이 이름 뒤에 붙는 경우에는 영어 `at Night`를 `(야간)`처럼 괄호로 표시해 야간에만 능력이 발휘됨을 나타냅니다. 이는 프로젝트 안에서 조합과 조건을 구분하기 위한 표기 관례입니다.
 
-고유명사는 영어 원문을 기준으로 [고유명사 사전](work/zh_cn/audit/proper-name-glossary.tsv)을 구축하여 통일하는 작업을 진행 중입니다. 인명·지명뿐 아니라 세력·조직·종족·신·몬스터·스킬·퀘스트·고유 아이템·작품(책·노래·발라드 등), 고유 직책·칭호·행사, 고유한 세계관·우주론 개념도 포함하며, 확정한 이름은 `한글(English)`로 표기합니다. 복합 인명도 각 구성 요소와 별도로 하나의 고유명사 항목으로 관리하며, 전체 이름을 `브론웬 센(Bronwen Senn)`처럼 한 번만 병기합니다. `브론웬(Bronwen) 센(Senn)`처럼 구성 요소마다 영문을 중복 병기하지 않습니다. `affix`, `base`, `default` 세 파일의 출현 문맥을 함께 확인하고, 공식 한글 설명서의 용어와 일본어·중국어를 교차 검증합니다. 같은 영어 단어라도 일반어·동명이인은 구분하며, 근거가 불충분한 항목은 임의로 바꾸지 않습니다. [출현 후보 및 판정 목록](work/zh_cn/audit/proper-name-occurrences.tsv)과 [검토 기록](work/zh_cn/audit/README.md)을 남깁니다. 현재 사전과 후보 목록은 구축·검토 중이며 전체 고유명사 표기 통일이 끝난 것은 아닙니다.
+지금까지 확인한 고유명사의 표기는 [고유명사 사전](work/zh_cn/audit/proper-name-glossary.tsv)과 [출현 후보 및 판정 목록](work/zh_cn/audit/proper-name-occurrences.tsv), [검토 기록](work/zh_cn/audit/README.md)을 참고합니다. 복합 인명은 전체 이름을 `브론웬 센(Bronwen Senn)`처럼 한 번만 병기하고, `브론웬(Bronwen) 센(Senn)`처럼 구성 요소마다 영문을 중복 표기하지 않습니다. 고유명사를 빠짐없이 찾아 검토하는 전수 확인은 잔여 작업에서 제외합니다. 기존 사전과 기록은 현재까지 확인한 내용을 담은 참고 자료이며, 전체 고유명사 확인이 끝났다는 뜻은 아닙니다. 나중에 전수 확인을 다시 진행하기로 하면 이 기록을 바탕으로 재개할 수 있습니다.
+
+남은 번역 작업은 다음 두 가지입니다.
+
+1. 직접 게임을 플레이하며 발견한 번역 오류를 수정합니다. 플레이 범위에 한계가 있으므로 전체 검증을 의미하지 않습니다.
+2. 휴리스틱 탐색으로 번역 오류 후보를 찾아 검토하고, 명확한 오류를 수정합니다. 이 과정에서 고유명사 표기 오류를 발견하면 기존 사전을 참고해 바로잡고, 필요한 경우에만 관련 기록을 갱신합니다. 전수 조사 배치는 재개하지 않습니다.
 
 특히 `_base`의 영어 원문이 대문자 `The`로 시작하면 단순한 정관사로만 처리하지 말고, 아이템명·퀘스트명 등 제목이나 고유명사일 가능성을 먼저 살핍니다. 문맥에 맞는 한국어 제목으로 옮기고, 이름을 식별하기 쉽도록 `한글 (The English Name)` 형식의 원문 병기도 검토합니다. 다만 `The`로 시작한다는 이유만으로 무조건 고유명사라고 단정하지 말고 실제 문맥을 확인합니다.
 
@@ -33,7 +38,8 @@ CSV에서는 메뉴와 대사가 한데 섞여 있고, 이어지는 대사도 �
 
 - [노박님의 게임 소개 영상](https://www.youtube.com/watch?v=nCVV3Ql-_rU)
 - [Amalur PT-BR 번역 및 추출·재패킹 스크립트](https://www.nexusmods.com/kingdomsofamalurrereckoning/mods/67)
-- [기존 한글화 패치 - zxcv3428님](https://zxcv3428.tistory.com/215)
+- ~~기존 한글화 패치 - zxcv3428~~
+- [원본 한글화 게시물 - 한무테님](https://m.blog.naver.com/gusrud6151/224392008033)
 - [커뮤니티 개선판](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527)
 - [나무위키 「킹덤 오브 아말러」 문서](https://namu.wiki/w/%ED%82%B9%EB%8D%A4%20%EC%98%A4%EB%B8%8C%20%EC%95%84%EB%A7%90%EB%9F%AC) - 세계관과 용어 맥락을 확인하기 위한 보조 참고자료
 
@@ -136,11 +142,11 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 ## English
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261017193017/KingdomsOfAmalur_Korean_zh_cn_20261017193017.zip)
+- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261019233647/KingdomsOfAmalur_Korean_zh_cn_20261019233647.zip)
 
 ### Project Background and Acknowledgements
 
-I became interested in *Kingdoms of Amalur: Re-Reckoning* after watching [Novak's enthusiastic YouTube introduction to the game](https://www.youtube.com/watch?v=nCVV3Ql-_rU). I first played it using the [Korean patch by zxcv3428](https://zxcv3428.tistory.com/215), and I am grateful that it made the game accessible to me. I did, however, find two things disappointing: the copy I downloaded was a complete PAK archive over 1 GB, and it replaced the English (`en_us`) text, so selecting English displayed Korean. I therefore decided to make a patch that distributes only the needed resources and rebuilds the package using files already in each player's game installation.
+I became interested in *Kingdoms of Amalur: Re-Reckoning* after watching [Novak's enthusiastic YouTube introduction to the game](https://www.youtube.com/watch?v=nCVV3Ql-_rU). I first played with a release I understood to be ~~zxcv3428's Korean patch~~. I later found the original Korean patch post on [Hanmutae's blog](https://m.blog.naver.com/gusrud6151/224392008033). I am grateful that the patch made the game accessible to me. I did, however, find two things disappointing: the copy I downloaded was a complete PAK archive over 1 GB, and it replaced the English (`en_us`) text, so selecting English displayed Korean. I therefore decided to make a patch that distributes only the needed resources and rebuilds the package using files already in each player's game installation.
 
 During my work, I also saw a [community improvement patch](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527). I welcome the effort to improve the earlier Korean localization. The patch has also continued to receive updates, and its translation quality keeps improving, so it may be an even better way to enjoy the game. However, it did not appear to address the distribution and locale-slot issues that mattered to me, so I decided to continue this independent project.
 
@@ -156,9 +162,14 @@ The CSV mixes menu strings and dialogue, and lines from the same conversation ca
 
 `Tipo_Variante` is the variant code attached to each string. It may represent grammatical distinctions such as gender or singular/plural, but the exact code meanings and in-game selection rules have not been confirmed. Korean usually does not express these distinctions in the same way, so the same Korean text is sometimes used across multiple variants.
 
-For item names containing English `of ...` constructions, this project's composition convention marks the modifier with asterisks, as in `반지 *얼음 방패*`. When a verb is combined with an object, a colon marks the verb portion, as in `폭파하기:`. These are project-specific conventions for distinguishing composed strings.
+For item names containing English `of ...` constructions, this project's composition convention marks the modifier with asterisks, as in `반지 *얼음 방패*`. When a verb is combined with an object, a colon marks the verb portion, as in `폭파하기:`. If an item's activation condition follows its name, a condition such as `at Night` is shown in parentheses as `(야간)`, indicating that the ability works only at night. These are project-specific conventions for distinguishing composed strings and conditions.
 
-An [English-indexed proper-name glossary](work/zh_cn/audit/proper-name-glossary.tsv) standardizes people, places, factions, organizations, peoples/species, deities, monsters, skills, quests, unique named items, named works such as books, songs, and ballads, proper offices/titles and events, and distinctive world-lore or cosmological concepts as `한글(English)`. Full compound names are maintained as distinct entries alongside their components and paired once as a complete name, for example `브론웬 센(Bronwen Senn)`, not component-by-component as `브론웬(Bronwen) 센(Senn)`. Registered occurrences are reviewed across `affix`, `base`, and `default`, using the official Korean manual and Japanese/Chinese corroboration. The [candidate occurrence/disposition index](work/zh_cn/audit/proper-name-occurrences.tsv) distinguishes reviewed names, contextual exclusions, and evidence-limited holds; the latest checkpoint in the [review records](work/zh_cn/audit/README.md) supplies current counts and CSV hashes. The separate heuristic discovery list includes ordinary words and title fragments, not just verified proper names. Overall proper-name discovery and consistency are not claimed complete while this review continues. See the [current validation record](work/zh_cn/audit/proper-name-continuation-validation-20261015.md).
+Use the existing [proper-name glossary](work/zh_cn/audit/proper-name-glossary.tsv), [candidate occurrence/disposition index](work/zh_cn/audit/proper-name-occurrences.tsv), and [review records](work/zh_cn/audit/README.md) as references for names already examined. Pair full compound names once, for example `브론웬 센(Bronwen Senn)`, not component-by-component as `브론웬(Bronwen) 센(Senn)`. Exhaustive proper-name discovery and consistency review are no longer active work items. These records are partial references, not a claim that all names have been found or verified; the review can be resumed from them if the user later chooses to reopen it.
+
+The remaining translation work is:
+
+1. Fix translation errors found while playing the game. Gameplay coverage is necessarily limited and does not amount to complete validation.
+2. Use heuristic searches to find and review candidate translation errors, and fix clear errors. If a proper-name error is found, use the existing glossary to correct it and update related records only as needed; do not resume exhaustive proper-name batches.
 
 For `_base` entries whose English source begins with capitalized `The`, do not treat it as only a definite article by default. First consider whether the string is an item name, quest name, or other title/proper name. Translate it as a natural Korean title in context, and consider retaining the source as `Korean (The English Name)` to make the name traceable. The initial `The` is a cue to inspect context, not proof that every such string is a proper noun.
 
@@ -166,7 +177,8 @@ For `_base` entries whose English source begins with capitalized `The`, do not t
 
 - [Novak's YouTube introduction to the game](https://www.youtube.com/watch?v=nCVV3Ql-_rU)
 - [Amalur PT-BR translation and extraction/repacking scripts](https://www.nexusmods.com/kingdomsofamalurrereckoning/mods/67)
-- [Earlier Korean patch by zxcv3428](https://zxcv3428.tistory.com/215)
+- ~~Earlier Korean patch - zxcv3428~~
+- [Original Korean patch post by Hanmutae](https://m.blog.naver.com/gusrud6151/224392008033)
 - [Community improvement patch](https://gall.dcinside.com/mgallery/board/view/?id=rpgundivded&no=66527)
 - [Namu Wiki article on Kingdoms of Amalur](https://namu.wiki/w/%ED%82%B9%EB%8D%A4%20%EC%98%A4%EB%B8%8C%20%EC%95%84%EB%A7%90%EB%9F%AC) - secondary context for setting and terminology
 

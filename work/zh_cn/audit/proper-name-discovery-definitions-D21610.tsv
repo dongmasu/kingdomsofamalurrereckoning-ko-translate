@@ -1,0 +1,16 @@
+"entity_key"	"english_canonical"	"category"	"korean_canonical"	"english_aliases"	"korean_variants"	"evidence_ids"	"status"	"notes"
+"skill:arrow-storm"	"Arrow Storm"	"skill"	"화살 폭풍(Arrow Storm)"	""	"화살 폭풍"	"D-21610|default:14400|default:22412|default:23594|default:41928|default:53778"	"confirmed"	"English default:22412 explicitly identifies Arrow Storm as a Longbow
+Special executed from block. Japanese アローストーム and Chinese
+箭矢风暴 corroborate the ability and the three damage-rank descriptions.
+Retain established 화살 폭풍, adding its complete English name once
+per row. Keep the complete existing localized {*1화살 폭풍} token
+byte-identical and put (Arrow Storm) immediately after its closing brace.
+Later same-row Korean mentions are not redundantly annotated.
+Retain +20%, +40%, +60%, max arrows +1 and the block activation meaning.
+All affix/base/default sources were searched; only these five default
+keys contain the exact source name. The official Korean manual
+extraction/reference supplies no direct name entry. No other ability
+or ordinary weather term is classified by inference.
+These are new skill/entity row dispositions, not a recount of historical
+translation judgments. Full discovery/residual validation remains
+incomplete. Published release ZIP unchanged; no in-game rendering test."

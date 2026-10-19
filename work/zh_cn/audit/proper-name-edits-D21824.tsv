@@ -1,0 +1,19 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"13500"	""	"candidate:The White At War"	"accepted"	"전쟁터의 백색"	"전쟁터의 백색(The White At War)"	"English gives the exact label `The White At War`. Japanese `戦場の白`
+reads as “white on the battlefield”; Chinese differs by row, with
+`战争中的白色` at default:13500 and `参战的老兵` at base:1712:11.
+Preserve each existing Korean rendering: add the missing exact English
+parenthetical at default:13500 and remove only the extra space before the
+already complete parenthetical at base:1712:11. This bilingual-label
+normalization does not decide whether “White” refers to a person/group
+or visual image. D-4003 at default:13500 remains uncertain and is not
+resolved or recounted. Exact source key: default:13500:."	"The White At War"	"戦場の白"	"战争中的白色"	"{}"	"{}"	"{}"
+"base"	"1712"	"11"	"candidate:The White At War"	"accepted"	"전쟁 중의 백색 (The White At War)"	"전쟁 중의 백색(The White At War)"	"English gives the exact label `The White At War`. Japanese `戦場の白`
+reads as “white on the battlefield”; Chinese differs by row, with
+`战争中的白色` at default:13500 and `参战的老兵` at base:1712:11.
+Preserve each existing Korean rendering: add the missing exact English
+parenthetical at default:13500 and remove only the extra space before the
+already complete parenthetical at base:1712:11. This bilingual-label
+normalization does not decide whether “White” refers to a person/group
+or visual image. D-4003 at default:13500 remains uncertain and is not
+resolved or recounted. Exact source key: base:1712:11."	"The White At War"	"戦場の白"	"参战的老兵"	"{}"	"{}"	"{}"

@@ -57,8 +57,15 @@ Use the following evidence order:
 
 Reuse terminology from the official Korean manual. Do not silently resolve
 materially ambiguous English, conflicting references, unclear speaker
-context, or uncertain names. Continue with clear rows and record unresolved
-items in `work/zh_cn/audit/` for consolidated review.
+context, or uncertain names. Exhaustive proper-name discovery is closed as
+an active workstream; do not resume sequential proper-name batches or
+residual audits unless the user explicitly reopens them. Use the existing
+glossary and audit records as partial references when correcting a
+proper-name error encountered during the remaining work. The remaining
+translation review is limited to errors
+found during gameplay and heuristic searches for candidate translation
+errors; fix clear errors and record unresolved items in
+`work/zh_cn/audit/` without turning them into an exhaustive name queue.
 
 ## Editing Invariants
 

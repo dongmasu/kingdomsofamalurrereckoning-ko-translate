@@ -1,0 +1,17 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"34960"	""	"person:galataea"	"accepted"	"이디라(Idylla)의 콜로사이(Kollossae) 석공 페이서터(Pacetor)가 도움을 청했다. 도시 밖으로 나가는 것이 금지된 그는 내가 아래쪽 나로스의 이빨(Teeth of Naros)에 있는 워런으로 가서 아내 갈라테아의 안전을 확인해 주길 바란다. 도시가 공중으로 들어 올려질 때 아내가 그곳에 남겨졌다고 한다. 워런으로 가서 페이서터의 아내가 무사한지 확인해야겠다."	"이디라(Idylla)의 콜로사이(Kollossae) 석공 페이서터(Pacetor)가 도움을 청했다. 도시 밖으로 나가는 것이 금지된 그는 내가 아래쪽 나로스의 이빨(Teeth of Naros)에 있는 워런으로 가서 아내 갈라테이아(Galatea)의 안전을 확인해 주길 바란다. 도시가 공중으로 들어 올려질 때 아내가 그곳에 남겨졌다고 한다. 워런으로 가서 페이서터의 아내가 무사한지 확인해야겠다."	"English default:34960 names Pacetor's wife Galatea, left in the Warren
+when Idylla rose. English default:18558 and 58466 name the same wife
+Galataea and identify the Warren/statue story; the first of those
+explicitly says ""my wife, Galataea"". Japanese uses ガラテイア in all
+three rows; Chinese 伽拉忒亚/加拉泰娅 corroborates the wife reference.
+Register source spelling Galatea as an alias of existing person:galataea,
+not a new person. Reuse established 갈라테이아 from the existing
+standalone labels and D-20436 decisions. At 34960 use the source-local
+English Galatea in the pair; do not rewrite immutable English sources.
+Only this previously unindexed entity/row key receives a new disposition.
+Preserve all 17 existing Galataea entity/key dispositions, the newly
+reviewed Pacetor wording, the other names and all non-name text.
+All affix/base/default sources were searched: adding this alias exposes
+exactly one new match, with no affix hits. The official Korean manual
+extraction/reference gives no direct spelling for this person.
+Full discovery/residual validation remains incomplete. Release ZIP unchanged."	"Pacetor, a Kollossae mason of Idylla, has asked for my help. He is forbidden from leaving the city, so he wants me to travel to the Warren in the Teeth of Naros below and ensure the safety of his wife, Galatea, who was left there when the city was raised. I should go to the Warren and make sure Pacetor's wife is unharmed."	"アイデラのカロッサエの石職人ペイスターに助けを求められた。街を出ることを禁じられているので、代わりに下にあるナロスの牙のウォーレンへ行き、街が上昇した際に置き去りにされた妻ガラテイアの無事を確認して欲しいという。ウォーレンへ行き、ペイスターの妻の無事を確認しよう。"	"伊迪拉的一位克勒塞石匠佩斯托尔寻求我的帮助。他被禁止离开这座城市，所以他想让我去到纳罗斯之牙下面的窄巷确保他妻子伽拉忒亚的安全，城市飞升的时候，她被留在了那里。我应该前往窄巷，确保佩斯托尔的妻子毫发无损。"	"{""person:galataea"":""accepted""}"	"{""person:galataea"":""needs-context""}"	"{""person:galataea"":""Candidate hit from the English source; verify this occurrence in context.""}"

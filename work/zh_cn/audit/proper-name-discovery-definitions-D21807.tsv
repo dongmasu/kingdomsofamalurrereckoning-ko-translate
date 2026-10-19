@@ -1,0 +1,20 @@
+"entity_key"	"english_canonical"	"category"	"korean_canonical"	"english_aliases"	"korean_variants"	"evidence_ids"	"status"	"notes"
+"unique_item:tear-of-mitharu"	"Tear of Mitharu"	"unique item"	"미사루의 눈물(Tear of Mitharu)"	""	"미사루(Mitharu)의 눈물|미사루의 눈물"	"D-21807|base:3792:11|default:54405"	"confirmed"	"English-led source-wide review identifies the named relic Tear of Mitharu:
+the base label and payment record name the same item, and dialogue describes
+its use in relation to the cursed amulet. Japanese consistently uses
+ミサールの涙, including the quoted objective phrase. Chinese supports the
+item at the label and payment record; default:43776 instead mistranslates
+Tear as 撕裂, so that cell is not treated as corroborating the meaning.
+Reuse the established Korean deity spelling 미사루 and render the complete
+item atomically as 미사루의 눈물(Tear of Mitharu), avoiding nested
+parentheses. Annotate only exact item-name spans, including the six
+grammatical affix variants; preserve the action label, particles, dialogue,
+line breaks, and all surrounding wording. The record's “one missing gem,”
+listed quantity, and “family heirloom” context support a named object, not
+a gameplay rarity or a claim that every mention proves one physical item's
+continuity. Preserve all prior deity:mitharu dispositions. This resolves
+the exact named-item identity/display question left by D-13450 at
+default:43776 and only the Tear component of D-3897 at default:13271;
+their broader sentence and other-entity questions remain held. English is
+authoritative; Japanese and Chinese are supplementary. No PAK-derived
+evidence."

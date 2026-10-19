@@ -1,0 +1,208 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"54698"	""	"named work:shadow-of-enfamanir"	"not-an-issue"	"이 페이 케언(Fae Cairn)은 로어스톤(Lorestone)의 일종으로, 「엔파마니르의 그림자(Shadow of Enfamanir)」 발라드에 관한 내용을 담고 있다. 발라드의 집(House of Ballads)과 관련된 장소에서 찾을 수 있는 메아리석(Echo Stone)과 함께 사용하도록 만들어졌다."	"이 페이 케언(Fae Cairn)은 로어스톤(Lorestone)의 일종으로, 「엔파마니르의 그림자(Shadow of Enfamanir)」 발라드에 관한 내용을 담고 있다. 발라드의 집(House of Ballads)과 관련된 장소에서 찾을 수 있는 메아리석(Echo Stone)과 함께 사용하도록 만들어졌다."	"English-led complete work-title review across affix/base/default, with
+aligned Japanese, Chinese and current Korean inspected for every key.
+Register the ballad and book separately as named works, not their
+characters, owners or authors. No bare Shadow, Enfamanir, Missives or
+Sable alias is introduced, and Sable is not inferred to be a person.
+Normalize only explicitly allowlisted complete Korean title spans;
+replace partial-name parentheses with the whole English title.
+Preserve quotation marks, the base:3930 (봉인됨) suffix, grammatical
+plural 들, runtime controls, line endings and all unrelated wording.
+Two necessary title-final particle changes are explicitly allowlisted.
+Retain same-row generic 서신/책 references without inventing a source
+full title where Korean uses an anaphor. Existing person, monster,
+place and other entity/key dispositions remain independently owned.
+This focused registration does not recount prior translation tallies.
+The official Korean manual's faction and Lorestone sections provide
+general ballad/story context but no spelling for either work.
+No PAK or derived resource evidence is used.
+default:26329 explicitly names the famous Fae ballad Shadow of
+Enfamanir, recounting Farrara's rescue from the Niskaru Horrinox;
+default:54698 independently says the Fae Cairn relates that ballad.
+Japanese エンファマニアの影 and Chinese 恩法玛尼尔的阴影/暗影
+corroborate the whole title. Reuse the existing 엔파마니르의 그림자
+spelling; leave both separate creature-name mentions at 26329 intact.
+default:60140 is textually identical to the standalone title labels,
+but D-17888 explicitly left its canonical spacing/transliteration
+unresolved. Preserve that historical hold and its already bilingual
+Korean unchanged as a new uncertain work/key record, not a resolution
+of the prior judgment."	"This Fae Cairn, a kind of Lorestone, relates the ballad Shadow of Enfamanir. It is meant to be used with an Echo Stone, found in locations related to the House of Ballads."	"ロアストーンの一種であるこのフェイのケルンは、""エンファマニアの影""を伝えるという。ハウス・オブ・バラッドにゆかりのある場所にあるエコーストーンを合わせて使うことが想定されている。"	"这个灵族灵球，一种智慧石，讲的是恩法玛尼尔的阴影。它要和回音石配合使用，与歌谣之家有关的地方都能找到回音石。"	"{""named work:shadow-of-enfamanir"":""not-an-issue""}"	"{""named work:shadow-of-enfamanir"":""needs-context""}"	"{""named work:shadow-of-enfamanir"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"54737"	""	"named work:missives-of-sable"	"not-an-issue"	"그림(Grim)이 대사제(Hierophant)를 권좌에서 끌어내리는 일을 도와 달라고 했다. 그러려면 세이블의 서신(Missives of Sable)을 찾는 걸 도와야 한다. 그림은 에라시(Erathi) 유적인 검게 그을린 전당(Blackened Hall)으로 가라고 했다. 그곳에 있는 마법 거울, 앰비언트의 거울(Glass of Ambient)이 서신을 찾아 줄 것이며 그림은 그 서신을 복수에 쓸 것이다. 던전 입구 근처에 도구를 숨겨 두었다고 한다."	"그림(Grim)이 대사제(Hierophant)를 권좌에서 끌어내리는 일을 도와 달라고 했다. 그러려면 세이블의 서신(Missives of Sable)을 찾는 걸 도와야 한다. 그림은 에라시(Erathi) 유적인 검게 그을린 전당(Blackened Hall)으로 가라고 했다. 그곳에 있는 마법 거울, 앰비언트의 거울(Glass of Ambient)이 서신을 찾아 줄 것이며 그림은 그 서신을 복수에 쓸 것이다. 던전 입구 근처에 도구를 숨겨 두었다고 한다."	"English-led complete work-title review across affix/base/default, with
+aligned Japanese, Chinese and current Korean inspected for every key.
+Register the ballad and book separately as named works, not their
+characters, owners or authors. No bare Shadow, Enfamanir, Missives or
+Sable alias is introduced, and Sable is not inferred to be a person.
+Normalize only explicitly allowlisted complete Korean title spans;
+replace partial-name parentheses with the whole English title.
+Preserve quotation marks, the base:3930 (봉인됨) suffix, grammatical
+plural 들, runtime controls, line endings and all unrelated wording.
+Two necessary title-final particle changes are explicitly allowlisted.
+Retain same-row generic 서신/책 references without inventing a source
+full title where Korean uses an anaphor. Existing person, monster,
+place and other entity/key dispositions remain independently owned.
+This focused registration does not recount prior translation tallies.
+The official Korean manual's faction and Lorestone sections provide
+general ballad/story context but no spelling for either work.
+No PAK or derived resource evidence is used.
+default:9095 calls Missives of Sable an ancient book; 10966 calls it
+a tome and 36448 a book important to the gnomes. Japanese 黒紋章の書
+consistently identifies the same work; Chinese 萨贝尔书卷 supports
+the title, while 24939's 黑色信函 is a semantic rendering, not a
+different work. D-19038 already found 24939 intelligible from recurring
+corpus evidence; D-18257 and D-18351 establish 세이블의 서신.
+Normalize full title variants 서한/서신집/밀서/검은 서신/사절문서
+to that established title without asserting authorship by Sable.
+At 8283 and 36448 the second English full title is rendered by a
+Korean anaphor: retain it. At 12766 both Korean full-title spans
+correspond to two English full titles and are paired separately.
+default:18226 changes title-final 가 to 이 and 37293 changes 를 to 을;
+these particles must agree with the normalized final consonant 신."	"Grim wants me to help him remove the Hierophant from power. To do this, he will need me to help find the Missives of Sable. He wants me to go to the Blackened Hall, an Erathi ruin which houses the Glass of Ambient ‒ a magical mirror that will help Grim find the Missives, which he will use for his revenge. He left a stash of tools near the dungeon's entrance."	"""導き手""を権力の座から下ろすのに協力して欲しいと、グリムに頼まれた。そのためには、黒紋章の書が必要だ。エラシの遺跡、""漆黒の宮""に保管されている、""眺望のガラス""という魔法の鏡を使えば書が見つかり、復讐が果たせるそうだ。ダンジョンの入口付近に道具を置いてあるという。"	"格里姆想让我帮他除掉大祭司。为此，他需要我帮忙找到萨贝尔书卷。他想让我去黑暗大厅，那是一个埃拉西废墟，里面放着方圆之镜，可以帮助格里姆找到用来复仇的书卷。他在地牢入口附近留下了一堆工具。"	"{""named work:missives-of-sable"":""not-an-issue""}"	"{""named work:missives-of-sable"":""needs-context""}"	"{""named work:missives-of-sable"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"54854"	""	"named work:missives-of-sable"	"not-an-issue"	"세이블의 서신(Missives of Sable)"	"세이블의 서신(Missives of Sable)"	"English-led complete work-title review across affix/base/default, with
+aligned Japanese, Chinese and current Korean inspected for every key.
+Register the ballad and book separately as named works, not their
+characters, owners or authors. No bare Shadow, Enfamanir, Missives or
+Sable alias is introduced, and Sable is not inferred to be a person.
+Normalize only explicitly allowlisted complete Korean title spans;
+replace partial-name parentheses with the whole English title.
+Preserve quotation marks, the base:3930 (봉인됨) suffix, grammatical
+plural 들, runtime controls, line endings and all unrelated wording.
+Two necessary title-final particle changes are explicitly allowlisted.
+Retain same-row generic 서신/책 references without inventing a source
+full title where Korean uses an anaphor. Existing person, monster,
+place and other entity/key dispositions remain independently owned.
+This focused registration does not recount prior translation tallies.
+The official Korean manual's faction and Lorestone sections provide
+general ballad/story context but no spelling for either work.
+No PAK or derived resource evidence is used.
+default:9095 calls Missives of Sable an ancient book; 10966 calls it
+a tome and 36448 a book important to the gnomes. Japanese 黒紋章の書
+consistently identifies the same work; Chinese 萨贝尔书卷 supports
+the title, while 24939's 黑色信函 is a semantic rendering, not a
+different work. D-19038 already found 24939 intelligible from recurring
+corpus evidence; D-18257 and D-18351 establish 세이블의 서신.
+Normalize full title variants 서한/서신집/밀서/검은 서신/사절문서
+to that established title without asserting authorship by Sable.
+At 8283 and 36448 the second English full title is rendered by a
+Korean anaphor: retain it. At 12766 both Korean full-title spans
+correspond to two English full titles and are paired separately.
+default:18226 changes title-final 가 to 이 and 37293 changes 를 to 을;
+these particles must agree with the normalized final consonant 신."	"Missives of Sable"	"黒紋章の書"	"萨贝尔书卷"	"{""named work:missives-of-sable"":""not-an-issue""}"	"{""named work:missives-of-sable"":""needs-context""}"	"{""named work:missives-of-sable"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"55414"	""	"named work:missives-of-sable"	"not-an-issue"	"세이블의 서신(Missives of Sable)이군. 이 책에 뭐가 적혔는지 보고 싶지만... 나중에 보자. 덮개는 그대로 씌워 둬."	"세이블의 서신(Missives of Sable)이군. 이 책에 뭐가 적혔는지 보고 싶지만... 나중에 보자. 덮개는 그대로 씌워 둬."	"English-led complete work-title review across affix/base/default, with
+aligned Japanese, Chinese and current Korean inspected for every key.
+Register the ballad and book separately as named works, not their
+characters, owners or authors. No bare Shadow, Enfamanir, Missives or
+Sable alias is introduced, and Sable is not inferred to be a person.
+Normalize only explicitly allowlisted complete Korean title spans;
+replace partial-name parentheses with the whole English title.
+Preserve quotation marks, the base:3930 (봉인됨) suffix, grammatical
+plural 들, runtime controls, line endings and all unrelated wording.
+Two necessary title-final particle changes are explicitly allowlisted.
+Retain same-row generic 서신/책 references without inventing a source
+full title where Korean uses an anaphor. Existing person, monster,
+place and other entity/key dispositions remain independently owned.
+This focused registration does not recount prior translation tallies.
+The official Korean manual's faction and Lorestone sections provide
+general ballad/story context but no spelling for either work.
+No PAK or derived resource evidence is used.
+default:9095 calls Missives of Sable an ancient book; 10966 calls it
+a tome and 36448 a book important to the gnomes. Japanese 黒紋章の書
+consistently identifies the same work; Chinese 萨贝尔书卷 supports
+the title, while 24939's 黑色信函 is a semantic rendering, not a
+different work. D-19038 already found 24939 intelligible from recurring
+corpus evidence; D-18257 and D-18351 establish 세이블의 서신.
+Normalize full title variants 서한/서신집/밀서/검은 서신/사절문서
+to that established title without asserting authorship by Sable.
+At 8283 and 36448 the second English full title is rendered by a
+Korean anaphor: retain it. At 12766 both Korean full-title spans
+correspond to two English full titles and are paired separately.
+default:18226 changes title-final 가 to 이 and 37293 changes 를 to 을;
+these particles must agree with the normalized final consonant 신."	"The Missives of Sable. I'd like to see what these pages hold... but that needs to wait, keep that shroud on it."	"黒紋章の書か。中身が知りたいのは山々だが... それは後のお楽しみだ。幕はそのままにしておこう"	"萨贝尔书卷。我想看看这本书的内容……但这需要等待，把帷幕罩在上面。"	"{""named work:missives-of-sable"":""not-an-issue""}"	"{""named work:missives-of-sable"":""needs-context""}"	"{""named work:missives-of-sable"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"59088"	""	"named work:missives-of-sable"	"accepted"	"그걸 이용하면 세이블의 서신들을 찾을 수 있어. 놈들이 그 책을 워낙 잘 숨겨 놔서 달리 방법이 없어."	"그걸 이용하면 세이블의 서신(Missives of Sable)들을 찾을 수 있어. 놈들이 그 책을 워낙 잘 숨겨 놔서 달리 방법이 없어."	"English-led complete work-title review across affix/base/default, with
+aligned Japanese, Chinese and current Korean inspected for every key.
+Register the ballad and book separately as named works, not their
+characters, owners or authors. No bare Shadow, Enfamanir, Missives or
+Sable alias is introduced, and Sable is not inferred to be a person.
+Normalize only explicitly allowlisted complete Korean title spans;
+replace partial-name parentheses with the whole English title.
+Preserve quotation marks, the base:3930 (봉인됨) suffix, grammatical
+plural 들, runtime controls, line endings and all unrelated wording.
+Two necessary title-final particle changes are explicitly allowlisted.
+Retain same-row generic 서신/책 references without inventing a source
+full title where Korean uses an anaphor. Existing person, monster,
+place and other entity/key dispositions remain independently owned.
+This focused registration does not recount prior translation tallies.
+The official Korean manual's faction and Lorestone sections provide
+general ballad/story context but no spelling for either work.
+No PAK or derived resource evidence is used.
+default:9095 calls Missives of Sable an ancient book; 10966 calls it
+a tome and 36448 a book important to the gnomes. Japanese 黒紋章の書
+consistently identifies the same work; Chinese 萨贝尔书卷 supports
+the title, while 24939's 黑色信函 is a semantic rendering, not a
+different work. D-19038 already found 24939 intelligible from recurring
+corpus evidence; D-18257 and D-18351 establish 세이블의 서신.
+Normalize full title variants 서한/서신집/밀서/검은 서신/사절문서
+to that established title without asserting authorship by Sable.
+At 8283 and 36448 the second English full title is rendered by a
+Korean anaphor: retain it. At 12766 both Korean full-title spans
+correspond to two English full titles and are paired separately.
+default:18226 changes title-final 가 to 이 and 37293 changes 를 to 을;
+these particles must agree with the normalized final consonant 신."	"We can use it to find the Missives of Sable, and the gnomes have that book so well hidden there ain't no other way."	"それを使えば黒紋章の書が見つかるかも知れない。ノームがあれだけ厳重に隠匿してる以上、他に打つ手はない"	"我们可以用它找到萨贝尔书卷，侏儒将那本书藏得很隐蔽，没有别的办法。"	"{""named work:missives-of-sable"":""accepted""}"	"{""named work:missives-of-sable"":""needs-context""}"	"{""named work:missives-of-sable"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"60140"	""	"named work:shadow-of-enfamanir"	"uncertain"	"엔파마니르의 그림자(Shadow of Enfamanir)"	"엔파마니르의 그림자(Shadow of Enfamanir)"	"English-led complete work-title review across affix/base/default, with
+aligned Japanese, Chinese and current Korean inspected for every key.
+Register the ballad and book separately as named works, not their
+characters, owners or authors. No bare Shadow, Enfamanir, Missives or
+Sable alias is introduced, and Sable is not inferred to be a person.
+Normalize only explicitly allowlisted complete Korean title spans;
+replace partial-name parentheses with the whole English title.
+Preserve quotation marks, the base:3930 (봉인됨) suffix, grammatical
+plural 들, runtime controls, line endings and all unrelated wording.
+Two necessary title-final particle changes are explicitly allowlisted.
+Retain same-row generic 서신/책 references without inventing a source
+full title where Korean uses an anaphor. Existing person, monster,
+place and other entity/key dispositions remain independently owned.
+This focused registration does not recount prior translation tallies.
+The official Korean manual's faction and Lorestone sections provide
+general ballad/story context but no spelling for either work.
+No PAK or derived resource evidence is used.
+D-17888 retained: uncertain unchanged; no new authority resolves the historical canonical-reading hold.
+default:26329 explicitly names the famous Fae ballad Shadow of
+Enfamanir, recounting Farrara's rescue from the Niskaru Horrinox;
+default:54698 independently says the Fae Cairn relates that ballad.
+Japanese エンファマニアの影 and Chinese 恩法玛尼尔的阴影/暗影
+corroborate the whole title. Reuse the existing 엔파마니르의 그림자
+spelling; leave both separate creature-name mentions at 26329 intact.
+default:60140 is textually identical to the standalone title labels,
+but D-17888 explicitly left its canonical spacing/transliteration
+unresolved. Preserve that historical hold and its already bilingual
+Korean unchanged as a new uncertain work/key record, not a resolution
+of the prior judgment."	"Shadow of Enfamanir"	"エンファマニアの影"	"恩法玛尼尔的阴影"	"{""named work:shadow-of-enfamanir"":""uncertain""}"	"{""named work:shadow-of-enfamanir"":""needs-context""}"	"{""named work:shadow-of-enfamanir"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"61153"	""	"named work:missives-of-sable"	"not-an-issue"	"망각의 장막(Shroud of Omission)에 싸인 세이블의 서신(Missives of Sable)."	"망각의 장막(Shroud of Omission)에 싸인 세이블의 서신(Missives of Sable)."	"English-led complete work-title review across affix/base/default, with
+aligned Japanese, Chinese and current Korean inspected for every key.
+Register the ballad and book separately as named works, not their
+characters, owners or authors. No bare Shadow, Enfamanir, Missives or
+Sable alias is introduced, and Sable is not inferred to be a person.
+Normalize only explicitly allowlisted complete Korean title spans;
+replace partial-name parentheses with the whole English title.
+Preserve quotation marks, the base:3930 (봉인됨) suffix, grammatical
+plural 들, runtime controls, line endings and all unrelated wording.
+Two necessary title-final particle changes are explicitly allowlisted.
+Retain same-row generic 서신/책 references without inventing a source
+full title where Korean uses an anaphor. Existing person, monster,
+place and other entity/key dispositions remain independently owned.
+This focused registration does not recount prior translation tallies.
+The official Korean manual's faction and Lorestone sections provide
+general ballad/story context but no spelling for either work.
+No PAK or derived resource evidence is used.
+default:9095 calls Missives of Sable an ancient book; 10966 calls it
+a tome and 36448 a book important to the gnomes. Japanese 黒紋章の書
+consistently identifies the same work; Chinese 萨贝尔书卷 supports
+the title, while 24939's 黑色信函 is a semantic rendering, not a
+different work. D-19038 already found 24939 intelligible from recurring
+corpus evidence; D-18257 and D-18351 establish 세이블의 서신.
+Normalize full title variants 서한/서신집/밀서/검은 서신/사절문서
+to that established title without asserting authorship by Sable.
+At 8283 and 36448 the second English full title is rendered by a
+Korean anaphor: retain it. At 12766 both Korean full-title spans
+correspond to two English full titles and are paired separately.
+default:18226 changes title-final 가 to 이 and 37293 changes 를 to 을;
+these particles must agree with the normalized final consonant 신."	"The Missives of Sable, wrapped within the Shroud of Omission."	"""隠れ蓑""にくるまれている黒紋章の書。"	"萨贝尔书卷，包裹在遗忘尸布之中。"	"{""named work:missives-of-sable"":""not-an-issue""}"	"{""named work:missives-of-sable"":""needs-context""}"	"{""named work:missives-of-sable"":""Candidate hit from the English source; verify this occurrence in context.""}"

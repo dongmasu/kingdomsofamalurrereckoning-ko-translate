@@ -48,6 +48,16 @@ class ReviewedProperNameDiscoveryTest < Minitest::Test
     validate
   end
 
+  def test_gameplay_mechanic_matches_existing_glossary_schema
+    entity_key = 'gameplay mechanic:example'
+    @definitions.first['entity_key'] = entity_key
+    @definitions.first['category'] = 'gameplay mechanic'
+    @reviews.first['entity_key'] = entity_key
+    @reviews.first['entity_dispositions_json'] = JSON.generate(entity_key => 'accepted')
+    @generated.first['entity_key'] = entity_key
+    validate
+  end
+
   def test_lore_term_matches_existing_glossary_schema
     @definitions.first['category'] = 'lore term'
     validate
@@ -101,9 +111,43 @@ class ReviewedProperNameDiscoveryTest < Minitest::Test
     assert_raises(RuntimeError) { validate }
   end
 
+  def test_localized_display_content_can_be_reviewed
+    @reviews.first['old'] = '{*1Example} {1} <b>$target$</b>'
+    @reviews.first['new'] = '{*1예시(Example)} {1} <b>$target$</b>'
+    validate
+  end
+
+  def test_localized_marker_and_inner_opaque_tokens_remain_protected
+    @reviews.first['old'] = '{*1Example <b>$target$</b>} {1}'
+    [
+      '{*2예시(Example) <b>$target$</b>} {1}',
+      '{*1예시(Example) <i>$target$</i>} {1}',
+      '{*1예시(Example) <b>$other$</b>} {1}',
+      '{*1예시(Example) <b>$target$</b>} {2}',
+      '{1} {*1예시(Example) <b>$target$</b>}',
+      '{*1예시(Example) <b>$target$</b>} {1} {1}'
+    ].each do |text|
+      @reviews.first['new'] = text
+      assert_raises(RuntimeError, text) { validate }
+    end
+  end
+
   def test_missing_evidence_is_rejected
     @reviews.first.delete('evidence')
     assert_raises(RuntimeError) { validate }
+  end
+
+  def test_blank_chinese_is_allowed_when_source_locale_has_no_text
+    @reviews.first['chinese'] = ''
+    validate
+    inventory = {
+      ['default', '1', ''] => {
+        'en_texts_json' => '["Example"]',
+        'ja_texts_json' => '["例"]',
+        'zh_text' => ''
+      }
+    }
+    ReviewedProperNameDiscovery.validate_sources!(@reviews, inventory)
   end
 
   def test_orphaned_backup_directory_blocks_registration

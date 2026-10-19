@@ -1,0 +1,15 @@
+"entity_key"	"english_canonical"	"category"	"korean_canonical"	"english_aliases"	"korean_variants"	"evidence_ids"	"status"	"notes"
+"person:gertern-asker"	"Gertern Asker"	"person"	"게르턴 애스커(Gertern Asker)"	""	"게르턴 애스커|게르턴 아스커|거턴 애스커"	"D-21595"	"confirmed"	"English identifies Gertern Asker in six default keys; Japanese
+ゲーテルン・アスカー and Chinese 戈尔滕·阿斯克尔 corroborate. Normalize
+the Korean full name to 게르턴 애스커(Gertern Asker) in all six source
+rows: default:9183, 24693, 32291, 36923, 38512 and 59318. This corrects
+local 애스커/아스커 and 거턴 variants while pairing the complete name.
+In 59318, pair the first full-name mention only and retain the later short
+given-name reference 게르턴. Preserve Bristletongue, Felltown, Asker's
+Alley, The Understyle, Jakasen and all other reviewed identities as
+separate entities. No given-name, surname, family-business or tavern
+aliases are inferred. Chinese default:38512 instead has 格特恩·阿斯特尔;
+English identity and Japanese alignment control this row. The exact full
+name has no affix/base hits. The official Korean manual files have no
+direct entry. The D-21569 release ZIP is unchanged; proper-name discovery
+remains incomplete. Every occurrence was checked against aligned English, Japanese and Chinese across affix/base/default."

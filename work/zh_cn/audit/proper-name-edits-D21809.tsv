@@ -1,0 +1,1046 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"11"	""	"faction:gnome-templars"	"not-an-issue"	"그는 내가 정체를 밝혀내려던 템플러(Templars)의 첩자임이 틀림없어. 누구든 내 눈을 피해 다니다니 실력이 대단하군. 조심해야겠어."	"그는 내가 정체를 밝혀내려던 템플러(Templars)의 첩자임이 틀림없어. 누구든 내 눈을 피해 다니다니 실력이 대단하군. 조심해야겠어."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:11:."	"He must be an agent of the Templars I sought to uncover. Whoever he is, he is very skilled to escape my notice. We must be careful."	"私が正体を暴こうとしていた聖堂騎士の手先に違いないわ。誰であれ、私の目を逃れるとは大した技量よ。用心するべきね"	"他一定是我要揭露的圣殿骑士的密探。不管他是谁，他总能巧妙地避开我的注意。我们必须小心。"	"{""faction:gnome-templars"":""not-an-issue""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"983"	""	"faction:gnome-templars"	"accepted"	"템플러들은 전쟁에서 취할 입장에 대해 잠정적으로 의결정족수를 채웠다. 하지만 신중한 몇몇이 내게 이 편지를 작성해 달라고 부탁했다."	"템플러(Templars)들은 전쟁에서 취할 입장에 대해 잠정적으로 의결정족수를 채웠다. 하지만 신중한 몇몇이 내게 이 편지를 작성해 달라고 부탁했다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:983:."	"The Templars have reached a tentative quorum regarding our stance in the war. But a cautious few requested I draft this letter."	"聖堂騎士の決議は、戦争での立ち回りについて定数に達したわ。でも、用心深い数名が手紙を書かせた"	"关于我们在战争中的立场，圣殿骑士已经在多数制投票中达到了初步的法定人数。但有些谨慎的人要求我起草这封信。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"1553"	""	"faction:gnome-templars"	"accepted"	"제1부: 서론
+
+노움의 역사는 길고도 눈부시다. 우리의 역사는 지식과 권력 그 자체의 기록이다. 학자, 프레토리안 근위대원(Praetorians), 템플러라는 세 기둥을 통해 우리는 성공과 업적으로 빛나는 인상적이고 광대한 사회를 세웠다. 진보와 모든 문명의 발전을 향한 우리의 변함없는 헌신은 아말러(Amalur)의 다른 모든 시민에게 축복이 되었으며, 여러 왕국과 정부 사이의 우호 관계에 아낌없이 기여한 덕분에 노움은 어떤 상황에서도 귀중한 동맹으로 자리매김했다. 실제로 마법과 연금술 연구에서 우리가 이룬 업적이 없었다면 아말러(Amalur) 자체를 더 깊이 이해하고 배우려는 과정에서 많은 발전이 이루어지지 못했을 것이다."	"제1부: 서론
+
+노움의 역사는 길고도 눈부시다. 우리의 역사는 지식과 권력 그 자체의 기록이다. 학자, 프레토리안 근위대원(Praetorians), 템플러(Templars)라는 세 기둥을 통해 우리는 성공과 업적으로 빛나는 인상적이고 광대한 사회를 세웠다. 진보와 모든 문명의 발전을 향한 우리의 변함없는 헌신은 아말러(Amalur)의 다른 모든 시민에게 축복이 되었으며, 여러 왕국과 정부 사이의 우호 관계에 아낌없이 기여한 덕분에 노움은 어떤 상황에서도 귀중한 동맹으로 자리매김했다. 실제로 마법과 연금술 연구에서 우리가 이룬 업적이 없었다면 아말러(Amalur) 자체를 더 깊이 이해하고 배우려는 과정에서 많은 발전이 이루어지지 못했을 것이다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:1553:."	"Part I - Introduction
+
+The history of the gnomes is a long and prodigious one. Ours is the record of knowledge and might itself. Through our three pillars of Scholars, Praetorians and Templars, we have built an impressive and far-reaching society of success and accomplishment. Our enduring dedication to progress and the improvement of all civilization is a boon to all the other citizens of Amalur, and our generous contributions to the amicable relations between other kingdoms and governments has cemented the gnomish people as a valuable ally in any situation. Indeed, were it not for our achievements in the study of magic and alchemy, many advances would not have been made in the pursuit of a greater understanding and learning of Amalur itself."	"第1部: 序
+
+ノームの歴史は長くて壮大なものだ。それは知識の記録であり、力そのものである。学者、兵士、聖堂騎士という3本の柱を軸に、我々は、成功と偉業に彩られた、印象的で遠大な社会を作り上げた。その辛抱強い努力によってあらゆる文明の成功や発展に寄与し、アマラーの全ての民の前に道を示してきた。そして、寛大なる心でもって他の王国や政府と友好関係を築き上げ、どんな状況でも頼りになる味方としてのノームの評価を盤石なものにした。実際のところ、我々がアマラーそのものについて今のように深く理解し、知悉しているのは、魔法や錬金術の研究においてノームが残した業績があったからである。"	"第一部分 - 简介
+
+侏儒的历史悠久而伟大。我们的历史记载的就是智慧与力量本身。通过我们的三大支柱——学者，禁卫军和圣殿骑士，我们建立的社会写满了成功与成就，既令人钦佩又难以超越。我们为了进步作出的长久奉献以及对所有文明的提升，对阿玛拉其他共鸣来说都大有益处，而且我们对王国与政府之间的友好关系作出的慷慨贡献已经把侏儒一族粘合在了一起，在任何情况下都是珍贵的伙伴。确实，如果没有我们在魔法与炼金研究上的成就，在追求更好地理解和学习阿玛拉上很多进步都不会实现。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"2080"	""	"faction:gnome-templars"	"accepted"	"노움도 먹고살아야지. 우리 모두가 템플러나 프레토리안 근위대(Praetorians)는 아니니까."	"노움도 먹고살아야지. 우리 모두가 템플러(Templars)나 프레토리안 근위대(Praetorians)는 아니니까."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:2080:."	"Gnome's got to make a living somehow. Not all of us are Templars and Praetorians."	"ノームはどうにか生計を立てねばならん。全員が聖堂騎士や軍団兵というわけではない"	"侏儒总得想办法谋生。我们不是所有人都是圣殿骑士或者禁卫军的。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"2530"	""	"faction:gnome-templars"	"accepted"	"템플러들"	"템플러(Templars)들"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:2530:."	"Templars"	"聖堂騎士"	"圣殿骑士"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"3261"	""	"faction:gnome-templars"	"accepted"	"우리는 노움 사회의 무력 조직이야. 질서와 복종을 유지하고, 성전기사단의 뜻을 따르도록 보장하지."	"우리는 노움 사회의 무력 조직이야. 질서와 복종을 유지하고, 템플러(Templars)의 뜻을 따르도록 보장하지."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:3261:."	"We are the militant arm of gnomish society. We ensure that there is order, obedience, and support for the will of the Templars."	"ノーム社会の武装兵だ。聖堂騎士たちの意志を実現するため、秩序と忠誠と支援を守っている"	"我们是侏儒社会的武装部队。我们维护秩序，确保民众服从，并且支持圣殿骑士的意志。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"4172"	""	"faction:gnome-templars"	"accepted"	"나는 사회과학이나 정치 담론을 공부한 적도, 거기에 많은 시간을 쏟은 적도 없다. 하지만 매들린 멩크스(Madeline Menx)의 말을 빌리자면, 나의 무지는 ‘마음의 안정을 주는 힘의 원천’이다.
+현재 아데사(Adessa)에 자리 잡은 권위주의 체제에도 나름의 장점이 있음을 알고 있다. 우리는 도시의 보장 제도와 치안을 누리고, 연구를 위한 탄탄한 지역 자금 지원을 받으며, 사회에서 가장 총명한 이들을 어디에 배치할지 명확한 목표를 세울 수 있다. 그 밖에도 장점은 많다.
+하지만 나는 지금 권력을 쥔 여러 행정관과 템플러를 끌어내리고, 자유로운 민주 사회를 받아들여 한층 높은 사회적 품격에 이를 수 있다고 굳게 믿는다.
+현재 노움 사회에 드러난 경쟁심을 없애면 도시의 부와 빈곤을 똑같이 나누고(불운한 이들을 돕는 동시에 재능 있는 이들을 옭아매고), 개인적인 불만을 달래며(위대한 실험에 써야 할 자금을 다른 곳으로 돌려서), 물론 아데사(Adessa)의 모든 시민(반체제 인사, 무정부주의자, 밑바닥 기생충, 어리석은 자, 그리고 대체로 무지한 자까지)에게 발언권을 줄 수 있다.
+[이 내용은 몇 페이지 더 이어진다.]"	"나는 사회과학이나 정치 담론을 공부한 적도, 거기에 많은 시간을 쏟은 적도 없다. 하지만 매들린 멩크스(Madeline Menx)의 말을 빌리자면, 나의 무지는 ‘마음의 안정을 주는 힘의 원천’이다.
+현재 아데사(Adessa)에 자리 잡은 권위주의 체제에도 나름의 장점이 있음을 알고 있다. 우리는 도시의 보장 제도와 치안을 누리고, 연구를 위한 탄탄한 지역 자금 지원을 받으며, 사회에서 가장 총명한 이들을 어디에 배치할지 명확한 목표를 세울 수 있다. 그 밖에도 장점은 많다.
+하지만 나는 지금 권력을 쥔 여러 행정관과 템플러(Templars)를 끌어내리고, 자유로운 민주 사회를 받아들여 한층 높은 사회적 품격에 이를 수 있다고 굳게 믿는다.
+현재 노움 사회에 드러난 경쟁심을 없애면 도시의 부와 빈곤을 똑같이 나누고(불운한 이들을 돕는 동시에 재능 있는 이들을 옭아매고), 개인적인 불만을 달래며(위대한 실험에 써야 할 자금을 다른 곳으로 돌려서), 물론 아데사(Adessa)의 모든 시민(반체제 인사, 무정부주의자, 밑바닥 기생충, 어리석은 자, 그리고 대체로 무지한 자까지)에게 발언권을 줄 수 있다.
+[이 내용은 몇 페이지 더 이어진다.]"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:4172:."	"I have never trained nor devoted much of my time to the social sciences or political discourse; however, my ignorance is, in the words of Madeline Menx, ""a source of comforting strength.""
+I am aware that there are some merits to the authoritative system currently in place in Adessa. We enjoy municipal insurances and securites, strong localized funding for research, a clear aim for where our society's brightest minds may be allocated, among many others.
+However, I believe with the utmost conviction that we should removed from power the various administrators and Templars that are currently at head, with the believe that we can ascend to a higher level of social grace by adopting a free Democratic society.
+By removing the competitive nature of gnomish society as currently exhibited, we may equally distribute the city's wealth (and the city's poverty), aid the less fortunate (and shackle the gifted), appease personal issues (by redirecting funds that would otherwise be used to finance our greatest experiments) and, of course, give voice to the entire citizenry of Adessa (including dissidents, anarchists, bottom-feaders, the feeble-minded and the uninformed at large.)
+[This goes on for several pages]"	"私はその人生においてただの一度も、社会科学の研究に明け暮れた事も、政治論議に没入した事もない。しかし、私のこうした無知はマデリーン・メンクスの言葉を借りるなら""快適なる力の源""なのだ。
+現在、アデッサに蔓延する権威主義にはいくつか利点がある。我々は市政の保証と安全を享受でき、研究への極めて局所的な資金援助も受けられる。何より、我々の社会の優秀な頭脳の割り振りに関して、明確な指針が得られる。
+だが、私は確信する。現在の支配層である様々な役人や聖堂騎士たちから権力を剥奪し、自由な民主的社会へと移行することによって、我々の社会はより洗練された次元へ到達することができると。
+現在のノーム社会で見られる競争性を排除することで、我々はアデッサの富(と貧困)を公平に配分し、恵まれない者たちを支援し(そして恵まれた者たちを制限し)、個々の問題の解決に当たり(通常なら、我々の偉大なる実験に充てられる資金を転用することで)、そしてもちろん、アデッサの全市民(反体制派、アナーキスト、貧困者や無学者などの社会的弱者も含めて)に発言権を与えることが可能になるかもしれないのだ。
+（以下、数ページに渡って続く）"	"我从未受过社会科学以及政治话语的训练，也不曾投入太多时间，不过我还是无知到不能理解玛德琳·门克斯的这句话，“安抚之力的来源”。
+我意识到阿德萨现行的权力体系有一些优势。我们可以享受市政保险和证券，当地充足的科研资金，目标很明确，社会中的智囊团相比其他人能够分配到多少。
+然而，现在各种管理人员和圣殿骑士当权，我相信只要坚信我们能从这样的权力结构中脱离出来，相信我们的社会能通过向自由民主的社会学习，可以提升到一个更高的境界。
+通过除掉侏儒社会现在展现出来的竞争性本质，我们可以平等分配整个城市的财产（以及整个城市的贫穷），帮助不那么幸运的人（限制有天赋的人），缓解个人问题（通过重新分配可能会被用在支撑伟大实验的资金），当然也会让阿德萨的所有公民说出自己的观点（包括持异议者，无政府主义者，活在底端的人，头脑简单的人，最后还有无知的人。）
+【此后还有几页】"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"4264"	""	"faction:gnome-templars"	"accepted"	"템플러"	"템플러(Templars)"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:4264:."	"Templars"	"聖堂騎士"	"圣殿骑士"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"4528"	""	"faction:gnome-templars"	"accepted"	"나와 동료 템플러들은 모든 필멸자의 삶을 더 나아지게 할 연구를 후원하고 있어."	"나와 동료 템플러(Templars)들은 모든 필멸자의 삶을 더 나아지게 할 연구를 후원하고 있어."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:4528:."	"My fellow Templars and I sponsor research that will lead to the betterment of all mortals."	"私は仲間の聖堂騎士と共に、全定命の者の向上につながる研究を発起した"	"我和我的圣殿骑士伙伴赞助了旨在改善凡人福祉的研究。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"4573"	""	"faction:gnome-templars"	"accepted"	"우리는 노움 사회의 중추야. 학자들이 두뇌라면 템플러는 의지지. 하지만 우리는... 그 모든 일을 가능하게 하는 수단이야."	"우리는 노움 사회의 중추야. 학자들이 두뇌라면 템플러(Templars)는 의지지. 하지만 우리는... 그 모든 일을 가능하게 하는 수단이야."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:4573:."	"We are the backbone of gnomish society. The Scholars are the brain, the Templars are the will. But we ‒ we are the means."	"ノーム社会の基幹となる存在だ。学者たちは脳で、聖堂騎士たちは意志、そして我々は... 手足といったところだろう"	"我们是侏儒社会的中坚力量。学者们是头脑，圣殿骑士是意志。而我们——我们是手段。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"4850"	""	"faction:gnome-templars"	"accepted"	"이 도시의 지도자들인 템플러는 서로 뜻이 맞지 않아. 각자 충성을 바치는 대상도 다르고, 목적도 서로 충돌하지. 네가 그들 사이에 끼어든 모양이야."	"이 도시의 지도자들인 템플러(Templars)는 서로 뜻이 맞지 않아. 각자 충성을 바치는 대상도 다르고, 목적도 서로 충돌하지. 네가 그들 사이에 끼어든 모양이야."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:4850:."	"This city... our leadership, the Templars, don't see eye-to-eye. They have separate allegiances, and conflicting motives. And it seems like you're in the middle of them."	"この街では... 我々の主導者である聖堂騎士同士が対立している。忠誠の対象や行動理由が一致していないのだ。お前もそれに巻き込まれているようだな"	"这座城市……我们的领袖，圣殿骑士，意见并不一致。他们有各自的忠诚和冲突的动机。看起来似乎你被夹在了他们之间。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"6365"	""	"faction:gnome-templars"	"accepted"	"성전 기사단"	"템플러(Templars)"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:6365:."	"Templars"	"聖堂騎士"	"圣殿骑士"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"7285"	""	"faction:gnome-templars"	"accepted"	"정말 조심하는 게 좋겠어요. 템플러들이 당신을 알고 있어요... 애초에 당신을 가볍게 대할 생각은 없었으니까요..."	"정말 조심하는 게 좋겠어요. 템플러(Templars)들이 당신을 알고 있어요... 애초에 당신을 가볍게 대할 생각은 없었으니까요..."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:7285:."	"I would be very careful, if I were you. You are known to the Templars... and it was never their intention to treat you lightly...."	"慎重になった方がいいわ。聖堂騎士たちに評判が知れ渡っている... 優しく扱ってもらえるとは思わない方がいいわね..."	"如果我是你的话，我会非常小心。圣殿骑士们都认识你……他们从来没有想过要轻视你……"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"7317"	""	"faction:gnome-templars"	"accepted"	"포럼(Forum)은 우리 사회의 민주적 중심지야. 템플러들이 이끌지만, 모든 노움은 포럼에서 자유롭게 의견을 말할 수 있어."	"포럼(Forum)은 우리 사회의 민주적 중심지야. 템플러(Templars)들이 이끌지만, 모든 노움은 포럼에서 자유롭게 의견을 말할 수 있어."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:7317:."	"The Forum is the democratic center of our society. Though the Templars lead, all gnomes are allowed to speak their mind in the Forum."	"評議院は我々の社会の民主的な中心地。聖堂騎士たちが主導してるけど、ノームなら誰でも評議院での発言が許されてる"	"广场是我们社会的民主中心。尽管由圣殿骑士领导，所有的侏儒都可以在广场上表达自己的想法。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"9693"	""	"faction:gnome-templars"	"accepted"	"성전기사단은 우리 민족의 위대함, 즉 지혜와 창의력, 용기와 정의를 보여 주는 본보기다."	"템플러(Templars)는 우리 민족의 위대함, 즉 지혜와 창의력, 용기와 정의를 보여 주는 본보기다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:9693:."	"The Templars exemplify what is great about our people: wisdom, ingenuity, bravery and justice."	"聖堂騎士たちは我が種族の優秀さの見本だ。知恵、創造力、勇気、正義を彼らは体現している"	"圣殿骑士体现着我们人民的伟大之处：智慧、创新、勇敢和正义。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"13725"	""	"faction:gnome-templars"	"accepted"	"템플러들과 불미스러운 일이 있은 뒤, 옥티엔(Octienne)은 사람들의 눈에 덜 띄는 곳으로 내 연구를 옮기기로 했다."	"템플러(Templars)들과 불미스러운 일이 있은 뒤, 옥티엔(Octienne)은 사람들의 눈에 덜 띄는 곳으로 내 연구를 옮기기로 했다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:13725:."	"After an unfortunate incident with the Templars, Octienne decided to move my work someplace a little further from the public eye."	"聖堂騎士たちとの不幸な一件があった後、オクティエンヌは私の研究を公衆の目から遠ざけることに決めた"	"在和圣殿骑士发生了一次不幸的事故后，奥克蒂安决定把我的工作转移到更远离大众视线的地方。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"13929"	""	"faction:gnome-templars"	"accepted"	"포럼의 평의회에서 템플러들은 우리 사회의 발전을 이끌어. 우리의 눈부신 성과는 지식에 대한 그들의 흔들림 없는 추구 덕분이야."	"포럼의 평의회에서 템플러(Templars)들은 우리 사회의 발전을 이끌어. 우리의 눈부신 성과는 지식에 대한 그들의 흔들림 없는 추구 덕분이야."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:13929:."	"From their council in the Forum, the Templars guide the advancement of our society. Our tremendous successes are due to their unswerving pursuit of knowledge."	"公会堂の評議会から、聖堂騎士は社会の発展を導く。私たちの多大な成功は彼らの揺るぎない知識探求のおかげだわ"	"圣殿骑士从他们在议事堂的理事会引领社会前进。我们的巨大成功都要归功于他们对知识的不懈追求。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"14606"	""	"faction:gnome-templars"	"accepted"	"불쾌하다는 건 알아… 하지만 성전 기사단과 일하다 보면 저절로 이런 식으로 생각하게 돼. 그래야 살아남을 수 있으니까."	"불쾌하다는 건 알아… 하지만 템플러(Templars)와 일하다 보면 저절로 이런 식으로 생각하게 돼. 그래야 살아남을 수 있으니까."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:14606:."	"I know it's... unpleasant, but when you work with the Templars, you just start thinking this way. It helps you stay alive."	"分かるとも… 不愉快なのは。だが聖堂騎士と仕事をすれば、こう考えるようになるもんだ。そうすれば死ななくて済むからな"	"我知道这……令人不快，但当你和圣殿骑士合作时，你就会开始这样想。它能帮你活下去。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"15860"	""	"faction:gnome-templars"	"accepted"	"우리가 당했어. 전쟁을 위해 널 이용하려던 템플러 기사단을 찾아내려고 샌드스톤 저택(Sandstone Villa)을 네게 준 거였어."	"우리가 당했어. 전쟁을 위해 널 이용하려던 템플러(Templars)를 찾아내려고 샌드스톤 저택(Sandstone Villa)을 네게 준 거였어."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:15860:."	"We've been had. I gave you Sandstone Villa, hoping to use it to uncover the Templars who have been plotting to exploit you for war."	"欺かれたのよ。サンドストーン邸を与えた目的は、あなたを戦争に利用しようと企む聖堂騎士を発見することだった"	"我们一直如此。我给了你沙石庄园，希望用它来揭露那些阴谋利用你发动战争的圣殿骑士。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"18097"	""	"faction:gnome-templars"	"accepted"	"성전 기사들"	"템플러(Templars)들"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:18097:."	"Templars"	"聖堂騎士"	"圣殿骑士"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"20329"	""	"faction:gnome-templars"	"accepted"	"성전기사단"	"템플러(Templars)"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:20329:."	"Templars"	"聖堂騎士"	"圣殿骑士"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21294"	""	"faction:gnome-templars"	"accepted"	"서기인 내 업무에는 성전기사단을 위한 정치 서한 작성도 포함돼."	"서기인 내 업무에는 템플러(Templars)를 위한 정치 서한 작성도 포함돼."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:21294:."	"As a scrivener, my duties include drafting political correspondence for the Templars."	"書記官の仕事には、聖堂騎士のために政治的書簡を書くことも含まれている"	"作为一名代笔人，我的职责包括为圣殿骑士们起草政治信件。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"21434"	""	"faction:gnome-templars"	"accepted"	"투아사(Tuatha)가 알레스타(Allestar)에서 포모러스 휴그(Fomorous Hugues)를 공격한 뒤로 노움 성전기사단은 그와 연락이 끊겼다. 옥티엔(Octienne)은 휴그(Hugues)가 한때 솔트웰 동굴(Saltwell Caverns)을 실험실로 썼다고 했다. 그곳에서부터 그를 찾아야겠다."	"투아사(Tuatha)가 알레스타(Allestar)에서 포모러스 휴그(Fomorous Hugues)를 공격한 뒤로 노움 템플러(Templars)는 그와 연락이 끊겼다. 옥티엔(Octienne)은 휴그(Hugues)가 한때 솔트웰 동굴(Saltwell Caverns)을 실험실로 썼다고 했다. 그곳에서부터 그를 찾아야겠다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:21434:."	"The gnome Templars have lost contact with Fomorous Hugues since the Tuatha attacked him at Allestar. Octienne says that Saltwell Caverns was once used by Hugues as a lab. My search for him should start there."	"フォモラス・ヒューズがアリスターでツアサに攻撃されてから、ノームの聖堂騎士への連絡が途絶えたようだ。かつてヒューズの研究所であったソルトウェル洞窟を探すよう、オクティエンヌに頼まれた。"	"自图阿撒袭击了艾勒斯达之后，侏儒圣殿骑士便与佛摩罗斯·修格斯失去了联系。奥克蒂安称，修格斯曾经将盐井矿作为实验室使用。我应该从那里开始找起。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24378"	""	"faction:gnome-templars"	"accepted"	"내가 견습생이었을 때, 스승님은 평생 잊지 못할 조언을 해 주셨다. 사람의 가장 좋은 면을 이끌어 내는 열쇠는 그 사람의 결핍을 없애 주는 것이라고 하셨다. 생존을 걱정하거나 근심에 짓눌린 정신은 빛날 수 없다고.
+
+그래서 아데사(Adessa)의 인재들이 온전히 역량을 발휘하도록, 평생 필요한 것을 책임지는 기관을 만들고자 했다. 그것이 바로 대회계원(Grand Bursar's)이었다. 도시의 모든 재정을 공급하고 관리해 학자와 성전기사단이 그런 사소한 일로 귀한 정신을 소모하지 않게 하는 곳이었다.
+
+우리 종족이 마음을 쏟은 모든 일이 그러했듯, 대회계원(Bursar's)도 훌륭히 제 역할을 해냈다. 라시르(Rathir)의 상인들까지 우리를 투자금을 맡길 수 있는 안정적인 곳으로 여겼다. 그리고 우리 은행가들은 이전에 우리 사회가 사용하던 금융 구조를 빠르게 혁신했다.
+
+필요를 충족하고 나서야 대회계원(Bursar's)이 우리 필요의 절반만 해결한다는 걸 알았다. 그래서 아르카디움(Arcadium)이 세워졌다."	"내가 견습생이었을 때, 스승님은 평생 잊지 못할 조언을 해 주셨다. 사람의 가장 좋은 면을 이끌어 내는 열쇠는 그 사람의 결핍을 없애 주는 것이라고 하셨다. 생존을 걱정하거나 근심에 짓눌린 정신은 빛날 수 없다고.
+
+그래서 아데사(Adessa)의 인재들이 온전히 역량을 발휘하도록, 평생 필요한 것을 책임지는 기관을 만들고자 했다. 그것이 바로 대회계원(Grand Bursar's)이었다. 도시의 모든 재정을 공급하고 관리해 학자와 템플러(Templars)가 그런 사소한 일로 귀한 정신을 소모하지 않게 하는 곳이었다.
+
+우리 종족이 마음을 쏟은 모든 일이 그러했듯, 대회계원(Bursar's)도 훌륭히 제 역할을 해냈다. 라시르(Rathir)의 상인들까지 우리를 투자금을 맡길 수 있는 안정적인 곳으로 여겼다. 그리고 우리 은행가들은 이전에 우리 사회가 사용하던 금융 구조를 빠르게 혁신했다.
+
+필요를 충족하고 나서야 대회계원(Bursar's)이 우리 필요의 절반만 해결한다는 걸 알았다. 그래서 아르카디움(Arcadium)이 세워졌다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:24378:."	"When I was an apprentice, my master gave me a piece of advice that I never forgot. He told me that the key to fostering the best of someone was to eliminate their needs. A mind cannot be brilliant if it is concerned for survival, or burdened with worry.
+
+And so, to get the best out of Adessa's minds, I endeavored to create the institution that would see to their needs for the entirety of their lives ‒ the Grand Bursar's. It was to supply and manage all of the city's finances, so that our scholars and templars might not burden their great minds with such minutia.
+
+And like all things that my race has put its mind to, the Bursar's has performed admirably. We were quickly seen by merchants as far as Rathir as a stable means of housing their investments. And our bankers were quick to revolutionize the financial structures previously employed by our society.
+
+With our needs seen to, I could see that the Bursar's would only serve half of our needs. Which led to the construction of the Arcadium."	"私がまだ弟子の頃、師匠に決して忘れられない助言をもらった。師匠は言った。優れた者を育てたかったら、まず、彼らの不足を満たしてやれと。生きるのに精一杯で、不安で心が一杯なら、どんな頭脳も聡明にはなり得ない。
+
+そうして、アデッサで最高の頭脳を育むため、私は生涯に渡って彼らの不足を満たすための組織の設立に邁進した。それが大会計院である。それは街の財務を一括管理するための施設。これにより我々学者や聖堂騎士たちは、そうした些末な事で優れた頭脳をすり減らす必要がなくなるわけである。
+
+そして、我が種族がその知恵を注ぎ込んだ全てのもの同様、バーサーも感嘆すべき成功を収めた。我々はたちまちにして、ラシーアの商人たちからも投資金を預ける上でもっとも安心できる場所だとみなされるようになった。そして、バーサーはかつて我々の社会が導入した金融構造に大変革をもたらしたのである。
+
+我々の不足が満たされて気づいた。バーサーが満たしたのは不足の半分だけだったことに。その結果、建設されたのがアルカディウムである。"	"当我还是个学徒的时候，我的老师给了我一个我永远不会忘记的建议。他告诉我，培养一个人最好的一面的关键是消除他们的需求。如果一颗心只关心生存，或者背负着忧虑，它就不可能是辉煌的。
+
+所以，为了充分利用阿德萨的头脑，我努力创建一个机构，来满足他们一生的需求——大财务司。它的目的是供给和管理城市的所有财政，这样我们的学者和圣殿骑士就不会用这些琐事来给他们伟大的思想增添负担了。
+
+就像我的种族所精心经营的所有事情一样，大财务司的表现令人钦佩。我们很快就被远在拉瑟里的商人视为稳定的投资场所。而且我们的银行家很快就对我们社会以前使用的财政结构进行了改革。
+
+在满足我们的需求时，我可以看到大财务司只会满足我们一半的需求。这导致了竞技场的建造。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"24560"	""	"faction:gnome-templars"	"accepted"	"그렇네. 성전기사단이 우리 학자들에게 연구를 맡긴 주제는 아주 다양하지."	"그렇네. 템플러(Templars)가 우리 학자들에게 연구를 맡긴 주제는 아주 다양하지."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:24560:."	"Indeed. There are a variety of subjects that the Templars are having we Scholars research."	"その通りだ。我々学者は、聖堂騎士から様々な事について調査を依頼される"	"的确。圣殿骑士们要求我们学者研究的课题有很多。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"26673"	""	"faction:gnome-templars"	"accepted"	"문헌에는 유물이 강력하다고만 되어 있고, 구체적으로 무엇을 할 수 있는지는 밝혀져 있지 않다. 그래도 성전기사단은 그런 물건을 자기들 감시 아래 두는 게 최선이라고 생각한다."	"문헌에는 유물이 강력하다고만 되어 있고, 구체적으로 무엇을 할 수 있는지는 밝혀져 있지 않다. 그래도 템플러(Templars)는 그런 물건을 자기들 감시 아래 두는 게 최선이라고 생각한다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:26673:."	"Texts say the artifacts are powerful, but what they can do is never explicitly stated. Regardless, the Templars feel it best to place such items under their guard."	"強力な魔法具であると伝えられているが、使用目的が明確にされていない。だが聖堂騎士たちは、そんな品であれば彼らの手元に置くべきだと考えているようだ"	"有文献称这些神器很强大，但对它们能做到什么却没有明说。尽管如此，圣殿骑士觉得最好还是由他们亲自看管这些神器。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"28929"	""	"faction:gnome-templars"	"accepted"	"옥티엔(Octienne)의 기록과 성전기사들의 도움으로 클루리콘(Klurikon)에 있는 벤트리니오(Ventrinio)의 비밀 연구실 위치를 알아냈다. 그곳에서 알라바스트라(Alabastra)로 들어갈 방법을 찾을 수 있다."	"옥티엔(Octienne)의 기록과 템플러(Templars)들의 도움으로 클루리콘(Klurikon)에 있는 벤트리니오(Ventrinio)의 비밀 연구실 위치를 알아냈다. 그곳에서 알라바스트라(Alabastra)로 들어갈 방법을 찾을 수 있다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:28929:."	"With Octienne's notes and the assistance of the Templars, I know the location of Ventrinio's secret lab in Klurikon. There, I can find a way into Alabastra."	"オクティエンヌのメモと聖堂騎士たちの協力のおかげで、クルリコンにあるヴェントリニーオの秘密の研究所の場所が分かった。そこからアラバストラへ行く道を探せる。"	"在奥克蒂安的日记和圣殿骑士的帮助下，我知晓了凡特里尼奥在克琉孔建立的秘密实验室的具体位置。在这里，我就能找到进入阿拉巴斯特拉的方法。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"31969"	""	"faction:gnome-templars"	"accepted"	"화이트스톤(Whitestone)에 온 뒤로 잘 지내고 있길 바라오. 먼지와 더위에 속지 마시오. 아포타이어(Apotyre)는 꽤 아름다운 곳이라오. 특히 저녁이면 별들이 얼굴을 내밀고, 아데사(Adessa)의 불길에서 피어오른 연기 뒤로 반짝이는 모습을 볼 수 있지. 하늘의 경치만큼은 어디에서도 이보다 나은 곳을 찾지 못할 거요.
+
+누이 센다가 우리 가족인 그라스타르를 대표해 자네에게 편지를 쓰라고 권했소. 우리는 자부심 강하고 소박한 광부 집안이오. 미리아 서부에서 왔으며, 우리 가문은 알마인(Almain)이 알마인(Almain) 부족을 통일할 때 그를 도왔소. 우리는 늘 믿는 바를 위해 싸우고, 머리 위 지붕과 몸을 따뜻하게 해 줄 옷, 배를 채울 음식을 얻으려 부지런히 일해 왔소. 받은 축복을 당연하게 여기지 않는 것이 우리 방식이오. 하지만 더는 침묵할 수 없소.
+
+내 딸 타인이 죽어 가고 있소. 어머니는 스네이크테일의 물 때문이라 하지만, 노움들은 물이 깨끗하다고 장담했소. 그들의 학자들이 몇 번이고 검사했다오. 그런데도 어린 딸은 계속 피를 토하오. 이알프헬름 씨, 그 축축한 기침 소리는 듣기만 해도 끔찍하오. 햇빛을 가리고 피를 얼리는 듯하지. 차마 견디기 어렵소. 밤이 내려앉고 타인이 발작적인 기침에 시달릴 때면, 나는 밖으로 나와 별을 바라보며 이 사막의 죽음에서 멀리 달아나고 싶다고 빌곤 하오. 평생 아포타이어(Apotyre)의 굽이치는 모래 언덕을 사랑해 왔지만, 이제는 파헤쳐질 무덤만 보인다오.
+
+자네는 화이트스톤(Whitestone)의 시장이자 이곳 아포타이어(Apotyre) 사람들의 지도자요. 노움들이 기꺼이 섬겨 온 우리에게 안긴 고통에 책임을 지라고 요구할 수는 없소? 그들은 우리 말을 듣지 않고 도움을 청하는 호소도 외면했소. 아버지는 아데사(Adessa)까지 가서 바실리카 그노스트라(Basilica Gnostra)의 템플러들에게 따졌지만 소용없었소. 그들은 자기 종족의 비밀은 나눌 수 없다며 아버지를 쫓아냈소. 물론 그 비밀이 우리를 죽이고 있을지도 모르는데 말이오.
+
+부탁하오, 에스윈(Eswin) 시장. 조금이라도 연민이 있다면 나를 찾아와 주시오. 아니, 차라리 고통의 근원으로 곧장 가서 우리 모두에게 닥친 재앙의 책임자인 모투스 광업(Motus Mining Interests)의 노움 학자들에게 진실을 물어봐 주시오. 아포타이어(Apotyre)의 오래된 격언처럼 말이오. “우리 뼈는 돌이고, 마음은 태양이라. 어두운 전당에서 태어났어도 빛을 향해 솟아오르리.” 읽어 주어 고맙소. 미사루(Mitharu)의 축복이 있기를.
+
+그대의 친구,
+헤스트 그라스타르"	"화이트스톤(Whitestone)에 온 뒤로 잘 지내고 있길 바라오. 먼지와 더위에 속지 마시오. 아포타이어(Apotyre)는 꽤 아름다운 곳이라오. 특히 저녁이면 별들이 얼굴을 내밀고, 아데사(Adessa)의 불길에서 피어오른 연기 뒤로 반짝이는 모습을 볼 수 있지. 하늘의 경치만큼은 어디에서도 이보다 나은 곳을 찾지 못할 거요.
+
+누이 센다가 우리 가족인 그라스타르를 대표해 자네에게 편지를 쓰라고 권했소. 우리는 자부심 강하고 소박한 광부 집안이오. 미리아 서부에서 왔으며, 우리 가문은 알마인(Almain)이 알마인(Almain) 부족을 통일할 때 그를 도왔소. 우리는 늘 믿는 바를 위해 싸우고, 머리 위 지붕과 몸을 따뜻하게 해 줄 옷, 배를 채울 음식을 얻으려 부지런히 일해 왔소. 받은 축복을 당연하게 여기지 않는 것이 우리 방식이오. 하지만 더는 침묵할 수 없소.
+
+내 딸 타인이 죽어 가고 있소. 어머니는 스네이크테일의 물 때문이라 하지만, 노움들은 물이 깨끗하다고 장담했소. 그들의 학자들이 몇 번이고 검사했다오. 그런데도 어린 딸은 계속 피를 토하오. 이알프헬름 씨, 그 축축한 기침 소리는 듣기만 해도 끔찍하오. 햇빛을 가리고 피를 얼리는 듯하지. 차마 견디기 어렵소. 밤이 내려앉고 타인이 발작적인 기침에 시달릴 때면, 나는 밖으로 나와 별을 바라보며 이 사막의 죽음에서 멀리 달아나고 싶다고 빌곤 하오. 평생 아포타이어(Apotyre)의 굽이치는 모래 언덕을 사랑해 왔지만, 이제는 파헤쳐질 무덤만 보인다오.
+
+자네는 화이트스톤(Whitestone)의 시장이자 이곳 아포타이어(Apotyre) 사람들의 지도자요. 노움들이 기꺼이 섬겨 온 우리에게 안긴 고통에 책임을 지라고 요구할 수는 없소? 그들은 우리 말을 듣지 않고 도움을 청하는 호소도 외면했소. 아버지는 아데사(Adessa)까지 가서 바실리카 그노스트라(Basilica Gnostra)의 템플러(Templars)들에게 따졌지만 소용없었소. 그들은 자기 종족의 비밀은 나눌 수 없다며 아버지를 쫓아냈소. 물론 그 비밀이 우리를 죽이고 있을지도 모르는데 말이오.
+
+부탁하오, 에스윈(Eswin) 시장. 조금이라도 연민이 있다면 나를 찾아와 주시오. 아니, 차라리 고통의 근원으로 곧장 가서 우리 모두에게 닥친 재앙의 책임자인 모투스 광업(Motus Mining Interests)의 노움 학자들에게 진실을 물어봐 주시오. 아포타이어(Apotyre)의 오래된 격언처럼 말이오. “우리 뼈는 돌이고, 마음은 태양이라. 어두운 전당에서 태어났어도 빛을 향해 솟아오르리.” 읽어 주어 고맙소. 미사루(Mitharu)의 축복이 있기를.
+
+그대의 친구,
+헤스트 그라스타르"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:31969:."	"I hope you are faring very well after your recent arrival in Whitestone. Don't be fooled by the dust and the heat. Apotyre can be quite beautiful, especially in the evenings when the stars show their faces, peeking out from behind the smoke of Adessa's fires. You won't find a better view of the heavens anywhere.
+
+My sister Cenda suggested that I write to you on behalf of our family, the Grastars. We are a clan of proud, simple people, miners by trade, originating from the western lands of Myria where our family supported Almere in his unification of the Almain tribes. It has always been our way to fight for what we believe, and to labor hard for the roof above our head, the clothes that keep us warm, and the meals that fill our bellies. It is not our way to take our blessings for granted. But I can stay silent no longer.
+
+My daughter Tine is dying. Mother says it's the water in the Snaketail, but the gnomes assured us that it was clean. Their Scholars tested it time and again. Still my little girl coughs blood. It is terrible to hear, Mr. Ealfhelmn, a wet cough that shades the sun and turns the blood to ice. I can hardly bear to hear it. Sometimes, when the night falls and the fits take my Tine, I slip outside to marvel at the stars, and to wish myself far away from this desert death. All of my life I've embraced the rolling dunes of Apotyre. Now I see only graves waiting to be dug.
+
+You are the mayor of Whitestone, the leader of our people here in Apotyre. Can you not demand that the gnomes take responsibility for the pain they've wrought upon us, their willing servants? They will not listen to us. They have ignored our pleas for aid. My father has even traveled to Adessa and confronted the Templars at the Basilica Gnostra, to no avail. They turned him away, claiming that the secrets of their people could not be shared. Of course these same secrets may be killing us.
+
+Please, Mayor Eswin, if you have any compassion you will seek me out. Or better yet you will go straight to the source of our agony, and get the truth from the gnome Scholars of Motus Mining Interests, those responsible for the disaster that has befallen us all. As the old Apotyre saying goes: ""Our bones are stone, our hearts the sun; we may be born of the dark halls, but we rise into light."" Thank you for reading this and Mitharu bless you.
+
+Your friend,
+Heste Grastar"	"先日ホワイトストーンに到着されてから、お加減はいかがでしょうか。どうか、ほこりと暑さに惑わされませぬよう。アポティアは、とりわけ星々が顔を見せ、アデッサの火々から立ちのぼる煙の陰から顔を見せる晩どきには、なかなか美しいものです。これほど美しい夜空は他での目にできないでしょう。
+
+姉妹のセンダから、我らグラスター家を代表してお手紙を差し上げるよう提案されました。私の一族は誇り高く実直で、鉱山業を営んでおります。元は西方のミリアの地の出て、当地ではアルメアによるアルメイン諸族の統一を支えておりました。我ら一族は昔から信ずるもののために戦い、頭上の屋根と、寒さをしりぞく衣服と、腹を満たしてくれる食事を確保するために汗水流して働くことを信条としています。我らのたまわっている恩恵を当然のものと考えることは決していたしません。しかし私はもはや沈黙を続けることはできかねます。
+
+娘のタイネが死にかけています。母はスネークテイルの水のせいだと言っていますが、ノームたちは水質が清浄であると強固に主張しています。学者たちが何度も何度も検査を重ねたそうです。それでも私の幼い娘は咳き込むと血を吐きます。アールフェルム殿、あれは陽をかげらせ、血を凍りつかせるような、おそろしげな咳です。耳にするだけで断腸の思いです。時に、日が暮れてタイネが咳の発作を起こした時、私は表に出て星々をながめ、この砂漠によどむ死から遠くへ飛んで行けないだろうかと夢想します。私は生涯を通じてアポティアの砂丘を愛してきました。なのに今ではこれから掘るであろう墓穴しか目に浮かびません。
+
+ホワイトストーンの市長にして、このアポティアでの我らの長である市長殿の権限をもって、同意のもとで従事する我々にノーム達がもたらした苦痛の責任を、彼らにとらせることはできませんでしょうか。彼らは聞く耳をもたず、助けを求めてもなしのつぶてです。ついには父がアデッサまで出向き、ノーストラ教会堂の聖堂騎士たちに詰め寄ったのですが、徒労に終わりました。同族の秘密を開示するわけにはいかないと、門前払いをされたのです。その秘密こそが我々を殺しているかもしれませんのに。
+
+エズウィン市長殿にお願い申し上げます。あなたに思いやりがあるなら、私をお訪ねください。もしくは苦痛の出どころへ直接お出向きになり、我ら全員に降りかかった災厄の原因である、モータス・マイニング社の学者たちから真実を聞き出してください。アポティアに古くから伝わることわざのように""我らの骨は石、心は太陽。暗き殿堂より生まれた者も、光の中へと昇りゆく""のです。お読みいただきありがとうございました。ミサールの祝福がありますように。
+
+なにとぞ、お願いいたします。
+ヘスト・グラスター"	"望你近日到白石镇后一切安好。不要被这里的尘土和高温唬到。阿波泰尔可以很漂亮，特别是有星星露面的傍晚，从阿德萨烟火之后去看。你在其他地方根本找不到比这片天空更好的景致。
+
+我姐姐森妲建议我应该代表格拉斯塔尔家族给你写封信。我们一族是自豪的普通人，职业矿工，自玛丽亚西部大陆而来，曾支持阿尔曼尔统一阿尔梅勒部落。我族总是为了自己的信念而战，为了头上的屋顶而辛劳工作，为了保暖的衣服，为了饱腹的餐食。我们从不认为自己的福气理所应当。可我不能再保持沉默。
+
+我女儿苔恩快要死了。母亲说是蛇尾河水的缘故，但是侏儒却向我们保证河水是干净的。他们的学者检验了好多次。然而我的小女儿还是在咳血。听起来太揪心了，艾尔菲尔姆先生，每一次湿嗑都遮天蔽日，化血成冰。我听不下去了。有时候每到夜幕降临，癫痫就找上了我的苔恩，我溜出来望着星空，希望自己远离这悲凉的死亡。我一生都拥抱着阿波泰尔这起伏的沙丘。如今我只看见等待挖掘的坟墓。
+
+你是白石镇的镇长，阿波泰尔人民的领导者。你难道就不要求侏儒为我们受的苦负责吗，我们甘愿做他们的仆人啊？他们不会听我们的。他们对我们的求救视而不见。我父亲曾到阿德萨去过，面对着灵知大教堂的圣殿骑士，毫无办法。他们把父亲赶走，声称他族的秘密不能分享。当然这些秘密同样能杀掉我们。
+
+求你了，艾斯文镇长，你要是有点同情心，就来找我吧。或者你最好可以直接去到我们痛苦的根源，从莫图斯矿业公司的侏儒学者那里得知真相，他们要为降到我族的灾难负责。阿波泰尔老话说得好：“我们的筋骨就像石头，我们的心脏就像太阳；我们虽生于黑暗之殿，但我们向着阳光而活。”感谢您的拨冗审阅，愿米萨鲁保佑你。
+
+你的朋友，
+黑斯特·格拉斯塔"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"32508"	""	"faction:gnome-templars"	"accepted"	"도무스는 아데사(Adessa)의 모든 정치 업무가 이루어지는 곳이야. 템플러들이 정책을 정하고, 우리가 그곳에서 실행하지."	"도무스는 아데사(Adessa)의 모든 정치 업무가 이루어지는 곳이야. 템플러(Templars)들이 정책을 정하고, 우리가 그곳에서 실행하지."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:32508:."	"The Domus is where all of Adessa's political work is done. The Templars determine the policy, and it is there that we enact it."	"公文書院はアデッサの政治的中心地だ。聖堂騎士たちが決めた政策を制定する場所なんだ"	"阿德萨所有的政治工作都在多姆斯完成。圣殿骑士决策，我们制定政策。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"35199"	""	"faction:gnome-templars"	"accepted"	"템플러는 노움족의 지도자들입니다. 우리는 수가 많아 때로는 서로 대립하기도 하죠. 하지만 우리 마음속에는 우리 민족, 아니 모든 민족을 위하는 선의가 있습니다."	"템플러(Templars)는 노움족의 지도자들입니다. 우리는 수가 많아 때로는 서로 대립하기도 하죠. 하지만 우리 마음속에는 우리 민족, 아니 모든 민족을 위하는 선의가 있습니다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:35199:."	"The Templars are the leaders of the gnomish people. We are many, and sometimes at odds. But we have the goodness of our people ‒ all peoples in our heart."	"聖堂騎士たちはノームの指導者的存在。数が多いからときには対立するけど、私たち種族の高潔さは失ってないつもりよ。全ての種族のことも考えてるわ"	"圣殿骑士是侏儒族的领导者。我们人数众多，有时会起争执。但我们拥有美德——我们心怀所有族人。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"36695"	""	"faction:gnome-templars"	"accepted"	"성전기사단"	"템플러(Templars)"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:36695:."	"Templars"	"聖堂騎士"	"圣殿骑士"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"37126"	""	"faction:gnome-templars"	"accepted"	"네가 여기 있으면 동료 중 몇몇이 유혹을 이기지 못할 테지... 그래서 그들을 감시하려고 널 지켜보는 거야. 그게 우리 성전기사들이 해야 하는 게임이니까."	"네가 여기 있으면 동료 중 몇몇이 유혹을 이기지 못할 테지... 그래서 그들을 감시하려고 널 지켜보는 거야. 그게 우리 템플러(Templars)들이 해야 하는 게임이니까."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:37126:."	"Your presence here is too tempting for some of my colleagues... so I observe you, to observe them. That is the game we Templars must play."	"あなたがここにいれば、引きつけられる聖堂騎士がいる... そいつらを監視するためにあなたを監視する。それが聖堂騎士のゲームなの"	"你在这里的出现对我的一些同事来说太诱人了……所以我观察你，观察他们。这是我们圣殿骑士必须玩的游戏。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38000"	""	"faction:gnome-templars"	"accepted"	"성전 기사단"	"템플러(Templars)"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:38000:."	"Templars"	"聖堂騎士"	"圣殿骑士"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"38169"	""	"faction:gnome-templars"	"accepted"	"우리 성전 기사단은 이제 그가 겉으로 드러난 행동뿐 아니라 숨겨진 행동까지 책임지게 해야 한다."	"우리 템플러(Templars)는 이제 그가 겉으로 드러난 행동뿐 아니라 숨겨진 행동까지 책임지게 해야 한다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:38169:."	"It is clear that we Templars must make him assume responsibility for his actions ‒ overt as well as hidden."	"聖堂騎士として、彼が責任を取らせることは明白よ… 公的にも、内部的にもね"	"显然，我们圣殿骑士必须让他对自己所有公开和隐瞒的行为负责。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39068"	""	"faction:gnome-templars"	"accepted"	"두 번째 순환: 알파르(Alfar).
+사랑하는 이여, 이 섬을 가로지르려면 볼품없이 기어 다녀야 하니 당신은 싫어하겠지. 발을 잘못 디디면 위험하니까.
+그토록 많은 밤이 지나기 전 태양 야영지(Sun Camp)에서 보았던 곡예사들처럼, 나도 비틀거리며 이리저리 몸을 꼬아야 할 것 같아.
+에라시(Erathi)만이 갤로우스 엔드(Gallows End)의 유일한 주민은 아니었어. 물론 가장 오래된 주민임은 틀림없지만.
+북쪽과 남쪽의 천연 동굴에는 사람과 짐승을 비롯해 여러 존재가 찾아왔던 흔적이 남아 있어.
+해변에는 알파르(Alfar)의 무기와 갑옷이 널려 있어. 가져가도 될 보물들이지.
+그들 역시 서둘러 떠난 듯해.
+불길한 흐름이야. 대체 무엇이 모두를 공포에 떨게 하는 걸까?
+네트, 템플러들에게 안부를 전해 줘. 언제나 당신을 생각하고 있어."	"두 번째 순환: 알파르(Alfar).
+사랑하는 이여, 이 섬을 가로지르려면 볼품없이 기어 다녀야 하니 당신은 싫어하겠지. 발을 잘못 디디면 위험하니까.
+그토록 많은 밤이 지나기 전 태양 야영지(Sun Camp)에서 보았던 곡예사들처럼, 나도 비틀거리며 이리저리 몸을 꼬아야 할 것 같아.
+에라시(Erathi)만이 갤로우스 엔드(Gallows End)의 유일한 주민은 아니었어. 물론 가장 오래된 주민임은 틀림없지만.
+북쪽과 남쪽의 천연 동굴에는 사람과 짐승을 비롯해 여러 존재가 찾아왔던 흔적이 남아 있어.
+해변에는 알파르(Alfar)의 무기와 갑옷이 널려 있어. 가져가도 될 보물들이지.
+그들 역시 서둘러 떠난 듯해.
+불길한 흐름이야. 대체 무엇이 모두를 공포에 떨게 하는 걸까?
+네트, 템플러(Templars)들에게 안부를 전해 줘. 언제나 당신을 생각하고 있어."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:39068:."	"Cycle, the Second: The Alfar.
+You would not enjoy the awkward scrambles needed to traverse this isle, my love. They are treacherous.
+I must resemble the tumblers we witnessed in Sun Camp all those many nights ago, reeling and twisting.
+The Erathi were not the only inhabitants of Gallows End ‒ though surely the oldest.
+Natural caverns in the north and south boast evidence of a variety of other visitors ‒ both man and beast.
+Alfar weapons and armor litter the beaches, treasures for the taking.
+They, too, seemed to have departed in haste.
+It is a troubling trend. What is terrorizing everyone?
+Give my good wishes to the Templars, dear Nette. As always, you are in my thoughts."	"2番目のサイクル、アルファー。
+この島を横断するには無様に這い歩く必要があるから、君なら嫌がるはずだ。足場が不安定だからね。
+何日も前に私たちが""太陽のキャンプ""で見たタンブラーは、糸繰や撚糸に似ていた。
+エラシはガローズ・エンドの唯一の住人ではなかった。もちろん最古の住人ではあるが。
+南北にある天然の洞窟には、他の様々な訪問者達の痕跡が残されている。それも人間と獣の両方だ。
+アルファーの武器と防具が浜に散らかっていて、宝の取り放題だ。
+彼らも慌てて出発したようだった。
+厄介な動きだ。皆は何を恐れていたんだ？
+愛しいネッテ、聖堂騎士達によろしく伝えてくれ。いつも無事を祈っているよ"	"轮回，第二：精灵。
+你不会喜欢穿越这个岛所需要的笨拙的爬行，我的爱人。爬行是危险的。
+我一定像许多个夜晚前我们在太阳营地看到的那些摇摇欲坠的翻滚者。
+埃拉西并不是绞架角的唯一居民——尽管他们无疑是最古老的。
+在北部和南部的天然洞穴有各种各样的其他造访者留下的证据，这些造访者既有人类也有动物。
+精灵武器和护甲散落在海滩上，成为了对后来者而言值得带走的珍宝。
+他们似乎也是在匆忙间离开的。
+这是一个令人不安的趋势。是什么让所有生命恐惧？
+亲爱的涅缇，代我向圣殿骑士们问好。我一如既往地思念着你。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39380"	""	"faction:gnome-templars"	"accepted"	"두 번째 순환: 알파르(Alfar).
+사랑하는 이여, 이 섬을 가로지르려면 볼품없이 기어 다녀야 하니 당신은 싫어하겠지. 발을 잘못 디디면 위험하니까.
+그토록 많은 밤이 지나기 전 태양 야영지(Sun Camp)에서 보았던 곡예사들처럼, 나도 비틀거리며 이리저리 몸을 꼬아야 할 것 같아.
+에라시(Erathi)만이 갤로우스 엔드(Gallows End)의 유일한 주민은 아니었어. 물론 가장 오래된 주민임은 틀림없지만.
+북쪽과 남쪽의 천연 동굴에는 사람과 짐승을 비롯해 여러 존재가 찾아왔던 흔적이 남아 있어.
+해변에는 알파르(Alfar)의 무기와 갑옷이 널려 있어. 가져가도 될 보물들이지.
+그들 역시 서둘러 떠난 듯해.
+불길한 흐름이야. 대체 무엇이 모두를 공포에 떨게 하는 걸까?
+네트, 템플러들에게 안부를 전해 줘. 언제나 당신을 생각하고 있어."	"두 번째 순환: 알파르(Alfar).
+사랑하는 이여, 이 섬을 가로지르려면 볼품없이 기어 다녀야 하니 당신은 싫어하겠지. 발을 잘못 디디면 위험하니까.
+그토록 많은 밤이 지나기 전 태양 야영지(Sun Camp)에서 보았던 곡예사들처럼, 나도 비틀거리며 이리저리 몸을 꼬아야 할 것 같아.
+에라시(Erathi)만이 갤로우스 엔드(Gallows End)의 유일한 주민은 아니었어. 물론 가장 오래된 주민임은 틀림없지만.
+북쪽과 남쪽의 천연 동굴에는 사람과 짐승을 비롯해 여러 존재가 찾아왔던 흔적이 남아 있어.
+해변에는 알파르(Alfar)의 무기와 갑옷이 널려 있어. 가져가도 될 보물들이지.
+그들 역시 서둘러 떠난 듯해.
+불길한 흐름이야. 대체 무엇이 모두를 공포에 떨게 하는 걸까?
+네트, 템플러(Templars)들에게 안부를 전해 줘. 언제나 당신을 생각하고 있어."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:39380:."	"Cycle, the Second: The Alfar.
+You would not enjoy the awkward scrambles needed to traverse this isle, my love. They are treacherous.
+I must resemble the tumblers we witnessed in Sun Camp all those many nights ago, reeling and twisting.
+The Erathi were not the only inhabitants of Gallows End ‒ though surely the oldest.
+Natural caverns in the north and south boast evidence of a variety of other visitors ‒ both man and beast.
+Alfar weapons and armor litter the beaches, treasures for the taking.
+They, too, seemed to have departed in haste.
+It is a troubling trend. What is terrorizing everyone?
+Give my good wishes to the Templars, dear Nette. As always, you are in my thoughts."	"2番目のサイクル、アルファー。
+この島を横断するには無様に這い歩く必要があるから、君なら嫌がるはずだ。足場が不安定だからね。
+何日も前に私たちが""太陽のキャンプ""で見たタンブラーは、糸繰や撚糸に似ていた。
+エラシはガローズ・エンドの唯一の住人ではなかった。もちろん最古の住人ではあるが。
+南北にある天然の洞窟には、他の様々な訪問者達の痕跡が残されている。それも人間と獣の両方だ。
+アルファーの武器と防具が浜に散らかっていて、宝の取り放題だ。
+彼らも慌てて出発したようだった。
+厄介な動きだ。皆は何を恐れていたんだ？
+愛しいネッテ、聖堂騎士達によろしく伝えてくれ。いつも無事を祈っているよ"	"轮回，第二：精灵。
+你不会喜欢穿越这个岛所需要的笨拙的爬行，我的爱人。爬行是危险的。
+我一定像许多个夜晚前我们在太阳营地看到的那些摇摇欲坠的翻滚者。
+埃拉西并不是绞架角的唯一居民——尽管他们无疑是最古老的。
+在北部和南部的天然洞穴有各种各样的其他造访者留下的证据，这些造访者既有人类也有动物。
+精灵武器和护甲散落在海滩上，成为了对后来者而言值得带走的珍宝。
+他们似乎也是在匆忙间离开的。
+这是一个令人不安的趋势。是什么让所有生命恐惧？
+亲爱的涅缇，代我向圣殿骑士们问好。我一如既往地思念着你。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39513"	""	"faction:gnome-templars"	"accepted"	"템플러"	"템플러(Templars)"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:39513:."	"Templars"	"聖堂騎士"	"圣殿骑士"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"39891"	""	"faction:gnome-templars"	"accepted"	"성전 기사단"	"템플러(Templars)"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:39891:."	"Templars"	"聖堂騎士"	"圣殿骑士"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41258"	""	"faction:gnome-templars"	"accepted"	"마법을 주입해 무생물을 움직이는 기술을 여러 방면으로 연구하고 있어. 템플 기사들뿐 아니라 자네도 관심 있나?"	"마법을 주입해 무생물을 움직이는 기술을 여러 방면으로 연구하고 있어. 템플러(Templars)들뿐 아니라 자네도 관심 있나?"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:41258:."	"I'm doing a number of studies on the art of animating inert objects through magic induction. Have you taken an interest in it as well as the Templars?"	"不活動物体を魔法誘発で動かす技術を色々と研究しているんだ。聖堂騎士たちのように、興味がおありかな？"	"我正在做一些通过魔法导入给惰性物体赋活的研究。你对此和圣殿骑士都有兴趣吗？"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"41576"	""	"faction:gnome-templars"	"accepted"	"포럼은 모든 노움의 공간이야. 우리 기사단은 사람들이 통치를 믿어 주는 게 오히려 겸허할 따름이지."	"포럼은 모든 노움의 공간이야. 우리 템플러(Templars)는 사람들이 통치를 믿어 주는 게 오히려 겸허할 따름이지."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:41576:."	"The Forum is a place for all gnomes, where we Templars are humbled by the people's trust in governance."	"全てのノームのための場所よ。""評議院""では民衆の政治への信頼が、我々聖堂騎士をも恐縮させるの"	"议事堂为所有侏儒而设，我们圣殿骑士深感荣幸，大家对我们的治理十分信任。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"45045"	""	"faction:gnome-templars"	"accepted"	"우리 문명이 나아갈 길을 두고 성전기사들의 생각이 모두 같은 건 아니야. 내 고용주처럼 말이지."	"우리 문명이 나아갈 길을 두고 템플러(Templars)들의 생각이 모두 같은 건 아니야. 내 고용주처럼 말이지."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:45045:."	"The Templars are not all of like mind for what road our civilization needs to take. Such as my employer."	"聖堂騎士は文明がたどるべき道など少しも気にかけない。私の雇い主がいい例だ"	"我们的文明需要走哪条路，圣殿骑士的想法并不完全一致。比如我的雇主。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"45594"	""	"faction:gnome-templars"	"accepted"	"안타깝지만 영혼의 샘(Well of Souls) 연구는 중단될 거야. 옥티엔(Octienne)은 일을 비밀리에 진행했으니, 다른 성전기사단원들이 최대한 자세히 알아내려 하겠지."	"안타깝지만 영혼의 샘(Well of Souls) 연구는 중단될 거야. 옥티엔(Octienne)은 일을 비밀리에 진행했으니, 다른 템플러(Templars)들이 최대한 자세히 알아내려 하겠지."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:45594:."	"Unfortunately, research on the Well of Souls will be put on hold. Octienne organized it in secret, and the other Templars will want to learn all they can of it."	"残念ながら、""魂の泉""の研究は中断だ。オクティエンヌは秘密裏に事を進めていたから、他の聖堂騎士はできるだけ多く知りたいと思っているだろう"	"可惜，关于灵魂之井的研究将被搁置。奥克蒂安是秘密行事，其他圣殿骑士一定会想法设法进行了解。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"46941"	""	"faction:gnome-templars"	"accepted"	"하지만 그게 사실이라 해도... 물론 사실이 아니지만... 코던(Courdan)에 대한 처벌은 필수라는 걸 알아야 해. 그래야 우리 성전기사단이 계속 맡은 바 임무를 수행할 수 있으니까."	"하지만 그게 사실이라 해도... 물론 사실이 아니지만... 코던(Courdan)에 대한 처벌은 필수라는 걸 알아야 해. 그래야 우리 템플러(Templars)가 계속 맡은 바 임무를 수행할 수 있으니까."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:46941:."	"But were this true ‒ and it isn't ‒ you should realize that Courdan's punishment is a necessity, for it allows our Templars to continue functioning as they must."	"でも、もし本当なら… もちろん違うけれど… コーダンへの罰は必然だと理解すべきよ。我々の聖堂騎士が必要な義務を果たすためにはね"	"但如果这是真的——它不是——你应该意识到科丹的惩罚是必要的，因为它让我们的圣殿骑士们继续发挥他们必须的作用。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"47489"	""	"faction:gnome-templars"	"accepted"	"템플러들은 포럼에서 도시를 다스려. 그들 중 한 명의 후원을 받지 않고서는 도시에서 아무 일도 해낼 수 없어."	"템플러(Templars)들은 포럼에서 도시를 다스려. 그들 중 한 명의 후원을 받지 않고서는 도시에서 아무 일도 해낼 수 없어."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:47489:."	"The Templars rule from the Forum, and you can't get a thing done in the city without the sponsorship of one of them."	"聖堂騎士は評議院からその権限を振るっている。だから街では、聖堂騎士の後援なしには何も行えない"	"圣殿骑士从议事堂发号施令，在这座城市里，没有他们的赞助你什么事也做不了。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"50466"	""	"faction:gnome-templars"	"accepted"	"모투스 광업(Motus Mining)은 아데사(Adessa)의 대회계원(Grand Bursar's)과 유리한 재정 관계를 맺고 있으며, 도시에서 가장 오래 재임한 템플러들의 정치적 영향력도 누리고 있다. 하지만 우리 기관의 특성상 시가 공식적으로 지원할 수 없는 예측 불가능한 사건과 상황이 생기기도 한다. 특히 인사(제3장)나 유동성(제1장) 관련 사안은 본사에서 몇 장의 명령서만 보내도 어떻게든 처리할 수 있지만, 사람이나 신의 행위로 지사 주변 환경에 큰 영향을 미치는 사고와 사건은 지사장의 관할이다.
+
+이는 단지 실무상의 이유 때문이다. 지사장으로서 당신은 사고가 주변 지역에 미친 구체적 영향, 즉 우선순위에 따라 자원 채취, 환경 복구와 안정화 비용, 광부 안전, 경작 가능성, 민간인 거주에 미친 영향을 본사보다 잘 알고 있을 것이다. 이런 지식과 현장에 바로 접근할 수 있다는 이점을 결합하면, 지사의 활동이 간접적으로 초래했을 수 있는 환경 문제를 신속하고 단호하게 해결하기가 훨씬 쉬워진다.
+
+환경 관련 문제를 다룰 준비가 충분히 됐다고 느끼기 어려울 수 있다. 그런 일이 생기면 반드시 따라야 할 몇 가지 핵심 단계가 있다:
+
+1) 봉쇄: 무엇보다 환경 재난이 발생하면 가장 먼저 피해 지역을 봉쇄해야 한다. 대부분의 경우 광산 갱도를 막아 지하의 독기를 퍼뜨리지 못하게 하는 것만으로 충분하다. 하지만 이 단계에는 광부든 민간인이든 피해 지역에 있는 사람을 격리하는 일도 포함된다. 유독 물질에 노출됐는지는 따지지 않는다.
+
+2) 복구: 피해 지역을 파악하고 격리했다면 손상된 환경을 복구해야 한다. 고장 난 수문 펌프든 유황 가스 분출구든 코볼트(Kobold) 소굴이든, 문제의 원인을 찾아 체계적으로 제거해야 한다. 당면한 재난뿐 아니라 앞으로 일어날 재난을 막기 위해서도 원인을 반드시 해결해야 한다.
+
+3) 보상: 환경 재난의 원인을 처리한 뒤에도 그 영향은 땅과 주민들의 기억 속에 오래 남을 수 있다. 지사가 인근 정착지에 피해를 준 재난을 처리했다면, 주민들이 참아 준 데 대한 보상을 하는 편이 좋다. 예를 들어 지사와 거래할 때 할인을 제공하거나 대회계원(Grand Bursar's)의 약속어음을 건넬 수 있다. 우리는 후자를 권장한다. 어음의 가치를 아는 사람은 많지만, 실제로 현금화하려고 아데사(Adessa)까지 가는 사람은 거의 없기 때문이다. 또한 보상 차원에서 지사장은 광산 생산량을 늘려 본사의 손실을 메워야 한다.
+
+위 단계를 실행할 수 없다면, 즉 드물게 환경 재난을 봉쇄할 수도 없고 피해를 충분히 복구할 수도 없다면, 제20장 '재배치와 책임 위임'을 참고하라."	"모투스 광업(Motus Mining)은 아데사(Adessa)의 대회계원(Grand Bursar's)과 유리한 재정 관계를 맺고 있으며, 도시에서 가장 오래 재임한 템플러(Templars)들의 정치적 영향력도 누리고 있다. 하지만 우리 기관의 특성상 시가 공식적으로 지원할 수 없는 예측 불가능한 사건과 상황이 생기기도 한다. 특히 인사(제3장)나 유동성(제1장) 관련 사안은 본사에서 몇 장의 명령서만 보내도 어떻게든 처리할 수 있지만, 사람이나 신의 행위로 지사 주변 환경에 큰 영향을 미치는 사고와 사건은 지사장의 관할이다.
+
+이는 단지 실무상의 이유 때문이다. 지사장으로서 당신은 사고가 주변 지역에 미친 구체적 영향, 즉 우선순위에 따라 자원 채취, 환경 복구와 안정화 비용, 광부 안전, 경작 가능성, 민간인 거주에 미친 영향을 본사보다 잘 알고 있을 것이다. 이런 지식과 현장에 바로 접근할 수 있다는 이점을 결합하면, 지사의 활동이 간접적으로 초래했을 수 있는 환경 문제를 신속하고 단호하게 해결하기가 훨씬 쉬워진다.
+
+환경 관련 문제를 다룰 준비가 충분히 됐다고 느끼기 어려울 수 있다. 그런 일이 생기면 반드시 따라야 할 몇 가지 핵심 단계가 있다:
+
+1) 봉쇄: 무엇보다 환경 재난이 발생하면 가장 먼저 피해 지역을 봉쇄해야 한다. 대부분의 경우 광산 갱도를 막아 지하의 독기를 퍼뜨리지 못하게 하는 것만으로 충분하다. 하지만 이 단계에는 광부든 민간인이든 피해 지역에 있는 사람을 격리하는 일도 포함된다. 유독 물질에 노출됐는지는 따지지 않는다.
+
+2) 복구: 피해 지역을 파악하고 격리했다면 손상된 환경을 복구해야 한다. 고장 난 수문 펌프든 유황 가스 분출구든 코볼트(Kobold) 소굴이든, 문제의 원인을 찾아 체계적으로 제거해야 한다. 당면한 재난뿐 아니라 앞으로 일어날 재난을 막기 위해서도 원인을 반드시 해결해야 한다.
+
+3) 보상: 환경 재난의 원인을 처리한 뒤에도 그 영향은 땅과 주민들의 기억 속에 오래 남을 수 있다. 지사가 인근 정착지에 피해를 준 재난을 처리했다면, 주민들이 참아 준 데 대한 보상을 하는 편이 좋다. 예를 들어 지사와 거래할 때 할인을 제공하거나 대회계원(Grand Bursar's)의 약속어음을 건넬 수 있다. 우리는 후자를 권장한다. 어음의 가치를 아는 사람은 많지만, 실제로 현금화하려고 아데사(Adessa)까지 가는 사람은 거의 없기 때문이다. 또한 보상 차원에서 지사장은 광산 생산량을 늘려 본사의 손실을 메워야 한다.
+
+위 단계를 실행할 수 없다면, 즉 드물게 환경 재난을 봉쇄할 수도 없고 피해를 충분히 복구할 수도 없다면, 제20장 '재배치와 책임 위임'을 참고하라."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:50466:."	"Though Motus Mining enjoys an advantageous financial relation with the Grand Bursar's of Adessa - as well as the political clout of some of the city's most tenured Templars - the nature of our institutions makes certain unforeseeable events and circumstances unsupportable by the city in an official capacity. Notably, while almost all events concerned with personnel (Chapter 3) and liquidity (Chapter 1) can be dealt with in some manner with but a few writs from the Home Office, events that involve accidents or incidents with significant impact on a branch's surrounding environment (caused by acts of men or gods) fall under the jurisdiction of the branch head.
+
+This is simply for logistical reasons. As branch head, you will be more familiar with the intimate details of your accident's impact on the surrounding area (specifically, its impact on resource harvesting, cost of environmental repair and destabilization, miner safety, arability, and civilian population, in order of priority) than the Home Office. Coupling this knowledge with your immediate proximity to the problem makes it far easier to enact quick and decisive resolutions to environmental deficiencies the branch's activities may have indirectly caused.
+
+You may find it difficult to feel adequately prepared to deal with problems of an environmental nature. There are several key steps that must be taken, should such an event arise:
+
+1) CONTAINMENT: First and foremost, the principle step to take in an environmental calamity is to contain the affected area. In the vast majority of cases, this is often as simple as sealing off a mine tunnel to prevent the dispersal of subterranean miasma. However, this step also requires that any affected personages - miner or civilian - be quarantined, regardless of whether or not they were exposed to toxic phenomena.
+
+2) REPARATION: One the afflicted areas of the environment have been identified and cordoned off, work on repairing the damage must begin. The source of the issue - a faulty sluice pump, a sulfurous vent or a den of kobolds - has to be uncovered and systematically obliterated. It is important to note that the source of the issue must be resolved not only to solve the current disaster, but future ones as well.
+
+3) COMPENSATION: The effects of the environmental calamaties can linger long after their causes are dealt with - both in the land itself and in the memories of its inhabitants. If your branch has dealt with a calamity that has impacted a neighboring settlement, perhaps it is best to reward that settlement for its patience - such as offering discounted trade with the branch, or providing them with promissory notes from the Grand Bursar's (a practice which we encourage - though many recognize the value of such notes, few rarely make the journey to Adessa to honor them). And, by compensation, the branch head must increase production of the mine in order to compensate the Home Office for money lost.
+
+Should the above steps not be attainable (in the rare instance where an environmental disaster cannot be contained, nor its effects sufficiently repaired), please consult Chapter 20: On Reassignment and the Delegation of Responsibilities."	"モータス・マイニング社はアデッサの大会計院と(そして市で最も権威ある、政治的影響力を持つ聖堂騎士たちと)経済的に有利な関係を築いているが、我が社の業務は時として、市がその公式な権限下で支援することが不可能な、予期せぬ事態や状況を招くことがある。人事(第3章)や精算(第1章)に関する事例の大半は本社からの数枚の命令書によりある程度の解決が可能だが、現地支部の周辺環境に重大な影響を及ぼす(人為的または天変地異により生じる)事故や事件については支部長の管轄に属するものとする。
+
+これは単にそうするのが論理的だからだ。支部長はその事故が周辺環境に与える影響(とりわけ、優先度が高い順に、資源採取、環境修復費、鉱員の安全、一般住民に対する影響)について、本社の誰よりも熟知しているだろうし、現場に最も近い責任者として迅速かつ的確な判断を下すことも容易で、現地支部の業務によって間接的に生じうる環境災害を解決へと導きやすいわけだ。
+
+周辺環境への問題に対して、事前に十分な対策を施しておく事は難しい。そこで、そのような事例が生じたときに必ず踏むべき重要なステップを記載しておく。
+
+1)封じ込め: 環境災害時に第一にすべきことは、汚染地域の封じ込めである。多くの場合、単に坑道の入口を封鎖するだけで、地下由来の毒物の拡散を防ぐことが可能だ。だが、これは汚染地域にいる人々(鉱員や民間人)の隔離を伴う。その際、彼らが毒性の現象にさらされたかどうかは一切問わない。
+
+2)修復: 汚染区域を特定し、封鎖したのち、損害の復旧を開始する。問題の根源(水門のポンプの故障、硫黄ガスの噴出、コボルドの巣など)を突き止めて、効率的に排除すること。その時に確実に問題を排除しておけば、以降の損害も防ぐことができる。
+
+3)補償: 環境災害の影響は根源を取り除いても長期的に(現場においても、住民の記憶の中でも)継続する。もし、担当支部の隣接集落にまで影響が及ぶ環境災害を対処した場合には、住民に見舞金を支払うのが望ましい(支部との交易時に割引をオファーする、大会計院の約束手形を提供するなど。特に後者が推奨される。こうした手形の価値は分かっていても、わざわざアデッサまで足を運んで換金する者はごくわずかだ)。さらに、現地支部長は、鉱山の産出量を増加させることで、本社の損失を補てんすることが望ましい。
+
+上記のステップが達成不能な場合(環境災害の封じ込めができない、または被害を十分に回復できないといった稀なケース)には、第20章""配置転換と責任の委譲""を参照されたし。"	"尽管莫图斯矿业与阿德萨的大财政局有着良好的财务关系——以及对这座城市的一些最受尊崇的圣殿骑士具有政治影响力——但由于我们制度的性质，这座城市是无法以官方身份支持某些不可预见的事件和情况的。值得注意的是，尽管几乎所有涉及人员（第3章）和流动性（第1章）的事件可以用内政厅的几个法令以某种方式进行处理，但与对分公司周围环境有重大影响的事故或事件相关的情况（由人或神的行为引起）均由分公司的负责人进行管辖。
+
+这只是出于后勤方面的原因。作为分公司负责人，你将比内政厅更熟悉你的事故对周围地区的影响的详情（具体来说，即它对资源开采、环境修复和破坏稳定的成本、矿工安全、可靠性和平民人口的影响，按优先顺序排列）。将这些知识与你对问题的直接了解结合起来，就可以更容易地制定出迅速而果断的解决方案，解决分公司活动可能间接造成的环境缺陷。
+
+你可能会发现自己很难做好充分的准备来处理与环境有关的问题。如果出现这种情况，必须采取以下几个关键步骤：
+
+1）控制：首先，在环境灾难中采取的主要步骤是控制受影响的地区。在绝大多数情况下，这往往只需简单地封闭一个矿井隧道，以防止地下瘴气的扩散。但是，这一步骤还要求对任何受影响的人士——矿工或平民——进行隔离，不管他们是否接触过有毒现象。
+
+2）修复：一旦受灾地区的环境得到确认并被封锁，修复工作就必须开始。问题的根源，例如，一个有缺陷的水闸泵、一个硫磺喷口或一个狗头人的巢穴，必须被发现并系统地清除。值得注意的是，必须解决问题的根源——因为我们不仅要解决当前的灾难，而且要解决未来的灾难。
+
+3）补偿：环境灾难的影响在其原因得到处理之后可能会持续很长时间——无论是在土地本身，还是在其居民的记忆中。如果你的分公司处理的是影响了附近定居点的灾难，也许最好的办法是奖励该定居点以感谢其耐心——如提供与分公司的贸易优惠，或向他们提供来自大财务官的纸币（我们鼓励这种做法——尽管许多人认识到这种纸币的价值，但很少有人会前往阿德萨去实现它们）。在进行过补偿之后，分公司负责人必须增加矿山的产量，以补偿总公司的损失。
+
+如果无法实现上述步骤（在罕见的情况下，环境灾难无法得到控制，其影响也无法得到充分修复），请参阅第20章：关于重新分配和委派职责。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"52739"	""	"faction:gnome-templars"	"accepted"	"포럼(Forum)은 내가 사랑하는 도시에 남길 마지막 건물이 될 것이다. 몸이 너무 쇠약해 완공을 보지 못하리라는 생각에 비통함이 밀려온다.
+
+그러나 언젠가 이곳은 모든 노움이 목소리를 내고, 정의롭고 자애로운 성전 기사들의 말을 들을 중심지가 될 것이다. 이곳은 도시를 하나로 묶는 중심축, 도시의 심장이자 영혼이 되리라.
+
+이제 더는 이 도시의 설계도를 그리고, 도시를 이룰 돌 하나하나를 세밀히 그려 낼 수 없다고 생각하니 눈물이 난다. 하지만 사랑하는 독자여, 이 도시를 세운 내 여정을 줄곧 함께한 그대에게 작은 선물을 남긴다.
+
+리브라리움(Livrarium)의 책장 어딘가에 웅변술을 익히고자 하는 이들을 위한 책 한 권을 숨겨 두었다. 그 가르침을 배우고, 내가 세상을 떠난 뒤에는 그 기술로 이 멋진 도시의 소문을 퍼뜨려 다오.
+
+- 갈레눈 헤젬(Galenun Hegem)"	"포럼(Forum)은 내가 사랑하는 도시에 남길 마지막 건물이 될 것이다. 몸이 너무 쇠약해 완공을 보지 못하리라는 생각에 비통함이 밀려온다.
+
+그러나 언젠가 이곳은 모든 노움이 목소리를 내고, 정의롭고 자애로운 템플러(Templars)들의 말을 들을 중심지가 될 것이다. 이곳은 도시를 하나로 묶는 중심축, 도시의 심장이자 영혼이 되리라.
+
+이제 더는 이 도시의 설계도를 그리고, 도시를 이룰 돌 하나하나를 세밀히 그려 낼 수 없다고 생각하니 눈물이 난다. 하지만 사랑하는 독자여, 이 도시를 세운 내 여정을 줄곧 함께한 그대에게 작은 선물을 남긴다.
+
+리브라리움(Livrarium)의 책장 어딘가에 웅변술을 익히고자 하는 이들을 위한 책 한 권을 숨겨 두었다. 그 가르침을 배우고, 내가 세상을 떠난 뒤에는 그 기술로 이 멋진 도시의 소문을 퍼뜨려 다오.
+
+- 갈레눈 헤젬(Galenun Hegem)"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:52739:."	"The Forum would be the last of the building I would leave to my beloved city, and woe fills me for being too infirm to see it to its completion.
+
+But here, in time, will be a center for all gnomes to have a voice, to hear the words of the just and kind Templars. Here will be the central pin that holds the city together ‒ its heart, its soul.
+
+I weep to think I will no longer sketch the plans and detail the stones that will form this city. But for you, dear reader, who has been fit to follow me throughout my journey in making this city, I leave a simple gift:
+
+There is a book hidden in the stacks of the Livrarium, dedicated to those that wish to master the art of speech. Learn its teachings, and use the skill to spread word of my marvelous city after I have passed.
+
+- Galenun Hegem"	"公会堂は、私がこの愛する街のために遺せる最後の建物になる。残念ながら、この衰弱し、老いさらばえた体では、その完成を見届ける事はできないだろうが。
+
+しかし、この建物はいずれ、全てのノームが声を上げ、公明正大なる聖堂騎士たちの言葉を聞くために集う場所になる。この建物が街をひとつに繋ぎとめる大黒柱に… この街の心、魂になるのだ。
+
+悲しいことに、私にはもう、この計画の下絵を描き、この街の血肉となる石について詳しく語ることはできない。しかし、この街を造るという私の旅に最後まで付き合ってくれた愛する読者のために、ちょっとした贈り物を残したい。
+
+図書院の書物の山の中に、弁論術を極めたい者のために書かれた一冊の本を隠しておいた。その書の教えを学ぶのだ。そして私が死んだら、その技術を用いて、我が壮麗なる都市の話を広めてほしい。
+
+ガレナン・ヘジェム"	"广场将是我留给我心爱城市的最后一座建筑，而悲哀充斥了我，因为我会因太脆弱而无法看到它的完成。
+
+但是，假以时日，这里将成为一个中心——所有侏儒都可以在这里发声，并听到公正善良的圣殿骑士的话语。这里将成为连接这座城市的中心点——它的心脏，它的灵魂。
+
+当我想到我将不再描绘这座城市的蓝图和构造它的石头的细节时，我不禁潸然泪下。但是，亲爱的读者，在我建造这座城市的整个旅程中，你一直忠实地追随我，为此，我给你留下了一份简单的礼物：
+
+有一本书藏在图书馆的书架里，献给那些希望掌握语言艺术的人。跟随其中的教导，并在我死后用这项技能来传播我的神奇城市的信息。
+
+- 盖勒伦·赫格姆"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"53009"	""	"faction:gnome-templars"	"accepted"	"바실리카 그노스트라(Basilica Gnostra)에서 동료의 연구 계획을 살펴보고 있어. 조리엘(Jorielle)은 성전 기사단 안에서도 대단히 중요한 인물이야."	"바실리카 그노스트라(Basilica Gnostra)에서 동료의 연구 계획을 살펴보고 있어. 조리엘(Jorielle)은 템플러(Templars) 안에서도 대단히 중요한 인물이야."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:53009:."	"In the Basilica Gnostra, attending a research proposal of a colleague. Jorielle is extremely important, even among the Templars."	"ノーストラ教会堂で、同僚の調査提案に同行している。ジョリエルは聖堂騎士の中ですら極めて重要な人物だ"	"在灵知大教堂，参加一个同事的研究计划。乔瑞艾尼非常重要，即便在圣殿骑士里也是。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"58238"	""	"faction:gnome-templars"	"accepted"	"도무스 폴리티카(Domus Politica)는 섬들의 템플러, 학자, 프레토리안 근위대(Praetorians)가 따를 정치 정책을 수립하고 유지하기 위해 존재한다."	"도무스 폴리티카(Domus Politica)는 섬들의 템플러(Templars), 학자, 프레토리안 근위대(Praetorians)가 따를 정치 정책을 수립하고 유지하기 위해 존재한다."	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:58238:."	"The Domus Politica exists for the express purpose of creating and maintaining the political policies of the Templars, Scholars and Praetorians of the Isles."	"公文書院は、""アイルズ""の聖堂騎士、学者、軍団兵の行政上の政策の策定と調整、そのためだけに存在している"	"多姆斯政府存在的明确目的是创建和维护群岛的圣殿骑士、学者和禁卫军的政治政策。"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"58773"	""	"faction:gnome-templars"	"accepted"	"성전기사단은 날 바보라고 생각하겠지. 이걸 들고 어떻게 그들에게 돌아가지?"	"템플러(Templars)는 날 바보라고 생각하겠지. 이걸 들고 어떻게 그들에게 돌아가지?"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:58773:."	"The Templars are going to think me a fool. How am I to return to them with these?"	"聖堂騎士には只のバカと思われてしまう。どうやってこんな物を持ち帰ればいい？"	"圣殿骑士们会觉得我是个傻瓜。我怎么能带着这些东西回去？"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"
+"default"	"60158"	""	"faction:gnome-templars"	"accepted"	"내 마지막 순간에도 다른 생각은 나지 않는다. 우리는 함께다.
+
+우리를 위해 많은 계획을 세웠다. 열쇠가 있다. 가장 귀한 집이자 드베르간(Dvergan)의 왕관에 박힌 보석, 그레이브홀 요새(Gravehal Keep)의 열쇠다. 언더시 패스팅(Undersea Fasting)의 고여 있는 물속 깊이 탐험하다 발견했다.
+
+참 볼품없는 물건이다. 갤로우스 엔드(Gallows End)로 돌아가 성전기사처럼 살 수도 있었다. 하고 싶은 일은 무엇이든 손에 닿는 곳에 있었을 텐데. 하지만 그럴 수 없고, 내가 죽으면 열쇠도 쓸모없어진다. 마을에 있는 건축가에게 맡겼다. 그는 우리 편이고, 큰일을 해낼 거라고 진심으로 믿는다.
+
+우리 것이 될 수도 있었지만, 너무 많은 것을 빼앗겼다. 하나쯤 더 잃는다고 뭐가 달라지겠는가?
+
+부디 잘 살아라, 사랑하는 네트.
+
+-아레스"	"내 마지막 순간에도 다른 생각은 나지 않는다. 우리는 함께다.
+
+우리를 위해 많은 계획을 세웠다. 열쇠가 있다. 가장 귀한 집이자 드베르간(Dvergan)의 왕관에 박힌 보석, 그레이브홀 요새(Gravehal Keep)의 열쇠다. 언더시 패스팅(Undersea Fasting)의 고여 있는 물속 깊이 탐험하다 발견했다.
+
+참 볼품없는 물건이다. 갤로우스 엔드(Gallows End)로 돌아가 템플러(Templars)처럼 살 수도 있었다. 하고 싶은 일은 무엇이든 손에 닿는 곳에 있었을 텐데. 하지만 그럴 수 없고, 내가 죽으면 열쇠도 쓸모없어진다. 마을에 있는 건축가에게 맡겼다. 그는 우리 편이고, 큰일을 해낼 거라고 진심으로 믿는다.
+
+우리 것이 될 수도 있었지만, 너무 많은 것을 빼앗겼다. 하나쯤 더 잃는다고 뭐가 달라지겠는가?
+
+부디 잘 살아라, 사랑하는 네트.
+
+-아레스"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence. Exact source key: default:60158:."	"In my final moments I think of nothing else. We are together.
+
+I had such plans for us. I have the key, you see, the key to Gravehal Keep, most prized of domiciles, the jewel in the Dvergan crown. I came upon it in my explorations, deep in the standing waters of Undersea Fasting.
+
+It is such an unassuming thing. We could have returned to Gallows End and lived like Templars, our every whim within reach. Alas, it is not to be, and the key will do me no good when I am dead. I left it with the archiect, the one in the village. He is one of us, and I truly believe that he will do great things.
+
+It could have been ours, but so many things were taken from us. What is one more?
+
+Live on, dear Nette.
+
+-Ares"	"最後の時を迎え、私は他のことは何も考えていない。私たちは一緒だ。
+
+私は、私たちのために計画を立てていた。私は鍵を持っている。この地で最も高価にして、ドゥバーガの王冠の宝石とも言えるグレイバル砦への鍵だ。私は探検のさなか、アンダーシー地下通路の淀んだ水の奥深くでこれに出会った。
+
+何の飾り気もない代物だ。私たちはガローズ・エンドに戻り、全ての思い付きを実現可能な形にしつつ聖堂騎士たちのように暮らせばよかった。しかし、そうはいかない。私が死ねば鍵は役に立たないのだ。私は鍵を村にいる建築家に渡した。彼は私たちの仲間で、上手く使ってくれるだろうと信じている。
+
+私たちのものにすることもできたが、多くのものが私たちから奪われた。あと1つ失ったところでどうなるというのだ。
+
+愛するネッテよ、元気で。
+
+アレス"	"在我最后的时光里，我没想别的。我们在一起。
+
+我为了彼此做好了计划。我有钥匙，知道吗，格雷夫霍要塞的钥匙，那是最宝贵的住所，迪维尔干座下的明珠。我穿过海底通道的水帘，在洞穴深处找到了这把钥匙。
+
+这东西真不起眼。我们本可以回到绞架角像圣殿骑士一样活着，任何心血来潮都触手可及。唉，那是不可能的，我要是死了，这把钥匙对我来说就没用了。我把它交给了村里的一位建筑师。他是我们中的一员，我真的相信他能干一番大事。
+
+那本可能是我们的，然而我们被夺走了太多东西。还有什么呢？
+
+好好活着，亲爱的涅缇。
+
+——阿瑞斯"	"{""faction:gnome-templars"":""accepted""}"	"{""faction:gnome-templars"":""needs-context""}"	"{""faction:gnome-templars"":""Candidate hit from the English source; verify this occurrence in context.""}"

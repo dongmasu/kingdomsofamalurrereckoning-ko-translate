@@ -1,0 +1,898 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"
+"default"	"9793"	""	"person:urthan-nara"	"accepted"	"이런... 내 심포지엄 일정이 우르탄 나라의 강연과 겹쳤나 봐. 그녀가 화낼 텐데..."	"이런... 내 심포지엄 일정이 우르탄 나라(Urthan Nara)의 강연과 겹쳤나 봐. 그녀가 화낼 텐데..."	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Oh dear... it seems that I've had my symposium scheduled at the same time as Urthan Nara's lecture... she's going to be cross."	"おっと... シンポジウムの開催日時をウルザン・ナーラの講義と同じ日時にしてしまったようだ。彼女、気を悪くするだろうな"	"天啊……好像我把自己的研讨会安排在了尤桑·纳拉上课的时候……她会生气的。"	"{""person:urthan-nara"":""accepted""}"
+"default"	"10038"	""	"person:luethar-de-groot"	"accepted"	"루서 데그루트, 이 지역 주민이다. 몇 달 전까지 알파르(Alfar) 군에서 복무했다. 동쪽 끝 클루리콘(Klurikon)에 주둔했다고 들었다."	"루에타르 드 그루트(Luethar De Groot), 이 지역 주민이다. 몇 달 전까지 알파르(Alfar) 군에서 복무했다. 동쪽 끝 클루리콘(Klurikon)에 주둔했다고 들었다."	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Luethar De Groot, a local. He served with Alfar up until a few months ago. Heard he was stationed in the far east. Klurikon."	"ルーサー・デグルート、地元民だ。数ヶ月前までアルファーに務めていた。東の果て、クルリコンに駐留していたらしい"	"略萨·德·格鲁特，一个当地人。几个月前他还在精灵军里服役。听说他驻扎在远东。克琉孔。"	"{""person:luethar-de-groot"":""accepted""}"
+"default"	"15614"	""	"person:luethar-de-groot"	"not-an-issue"	"블랙우드 감시관(Warden Blackwood)이 모욕을 퍼부었지만, 그의 살인 사건 수사를 돕기로 했다. 피해자는 수정 전쟁(Crystal War)에서 돌아온 지 얼마 안 된 알파르(Alfar) 군(Alfar Military) 출신 베테랑, 루에타르 드 그루트(Luethar De Groot)였다. 범행 현장과 시신에서 살인 단서를 찾아보고, 게일 크로싱(Gale Crossing)의 주민들과도 이야기해야겠다."	"블랙우드 감시관(Warden Blackwood)이 모욕을 퍼부었지만, 그의 살인 사건 수사를 돕기로 했다. 피해자는 수정 전쟁(Crystal War)에서 돌아온 지 얼마 안 된 알파르(Alfar) 군(Alfar Military) 출신 베테랑, 루에타르 드 그루트(Luethar De Groot)였다. 범행 현장과 시신에서 살인 단서를 찾아보고, 게일 크로싱(Gale Crossing)의 주민들과도 이야기해야겠다."	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Despite Warden Blackwood's insults, I've decided to aid him in his murder investigation. The victim was Luethar De Groot, a veteran of the Alfar Military who recently returned from the Crystal War. I should check the crime scene and body for clues to the murder, and I should talk to villagers in Gale Crossing."	"衛士ブラックウッドは無礼だが、彼の殺人事件の捜査を手伝うことにした。被害者はクリスタル戦争から最近帰ってきた、ルーサー・デグルートというアルファー軍の退役兵だ。現場と死体を調べて殺人事件の手掛かりを探し、ゲイル・クロッシングの村人と話そう。"	"尽管布莱克伍德典狱长出言不逊，我还是决定协助他调查谋杀案。被害者是略萨·德·格鲁特，他是一名刚从水晶之战回来的精灵军退伍士兵。我应该检查犯罪现场和尸体来寻找谋杀的线索，还应该和狂风路口的村民谈谈。"	"{""person:luethar-de-groot"":""not-an-issue""}"
+"default"	"21510"	""	"person:reed-buckley"	"not-an-issue"	"점령 중인데도 크라운홀드(Crownhold)의 요리사 리드 버클리(Reed Buckley)는 입맛 까다로운 단골손님들에게 어디서도 맛볼 수 없는 진미를 내놓고 싶어 한다. 내가 여행 중에 모아 오는 희귀한 고기는 무엇이든 기꺼이 사 주겠다고 했다. 바게스트(Barghest), 보가트(Boggart), 스프라이트(Sprite), 트롤(Troll)의 고기가 포함된다."	"점령 중인데도 크라운홀드(Crownhold)의 요리사 리드 버클리(Reed Buckley)는 입맛 까다로운 단골손님들에게 어디서도 맛볼 수 없는 진미를 내놓고 싶어 한다. 내가 여행 중에 모아 오는 희귀한 고기는 무엇이든 기꺼이 사 주겠다고 했다. 바게스트(Barghest), 보가트(Boggart), 스프라이트(Sprite), 트롤(Troll)의 고기가 포함된다."	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Despite the occupation, Crownhold chef Reed Buckley wishes to offer his more discerning clientele fine dishes that aren't available anywhere else. He will gladly buy any rare meat that I can collect on my travels. This includes cuts from Barghests, Boggarts, Sprites, and Trolls."	"クラウンホールドが占拠されていても、料理人のリード・バックリーは味のわかる常連客に他では食べられない極上の料理を出したいと望んでいる。彼は旅の途中で手に入れた珍しい肉を喜んで買い上げてくれる。バーゲスト、ボガート、スプライト、トロールの肉だ。"	"尽管城市被占领了，皇冠堡的大厨里德·巴克利仍然希望能为他挑剔的顾客们提供别处没有的美食。他很乐意收购我旅途中收集到的任何稀有肉类。这包括从魔狼、博格特、妖精和巨魔身上切下来的肉。"	"{""person:reed-buckley"":""not-an-issue""}"
+"default"	"24220"	""	"person:conrad-cronberg"	"accepted"	"콘래드 크론버그에게 돌아가기"	"콘래드 크론버그(Conrad Cronberg)에게 돌아가기"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Return to Conrad Cronberg"	"コンラッド・クロンバーグの元へ戻る"	"回去见康拉德·科隆伯格"	"{""person:conrad-cronberg"":""accepted""}"
+"default"	"26896"	""	"person:luethar-de-groot"	"accepted"	"엔라이트(Enright) 대장에 따르면, 루에타르 드 그루트와 네티 블레빈스(Nettie Blevins)는 울프 팩(Wolf Pack)이라는 정예 암살 부대의 일원이었다. 그들은 투아사(Tuatha)의 전선 뒤에서 활동했고, 군 지휘부의 승인 없이 작전을 수행하는 일이 잦았다. 엔라이트는 미스로스(Mithros)에 울프 팩(Wolf Pack)의 또 다른 대원, 레인저 메이스 다켄(Mace Darkken)이 있다고 했다. 메이스(Mace)를 찾아 동료들에게 무슨 일이 있었는지 알려 줘야겠다."	"엔라이트(Enright) 대장에 따르면, 루에타르 드 그루트(Luethar De Groot)와 네티 블레빈스(Nettie Blevins)는 울프 팩(Wolf Pack)이라는 정예 암살 부대의 일원이었다. 그들은 투아사(Tuatha)의 전선 뒤에서 활동했고, 군 지휘부의 승인 없이 작전을 수행하는 일이 잦았다. 엔라이트는 미스로스(Mithros)에 울프 팩(Wolf Pack)의 또 다른 대원, 레인저 메이스 다켄(Mace Darkken)이 있다고 했다. 메이스(Mace)를 찾아 동료들에게 무슨 일이 있었는지 알려 줘야겠다."	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"According to Captain Enright, Luethar De Groot and Nettie Blevins were both part of an elite death squad called the Wolf Pack. They operated behind Tuatha lines and often carried out operations without the consent of the military leadership. Enright also said that there is one other member of the Wolf Pack in Mithros, a ranger named Mace Darkken. I should find Mace and tell him about what happened to his companions."	"エンライト隊長によれば、ルーサー・デグルートとネッティ・ブレビンスは、ウルフパックという精鋭暗殺部隊に所属していた。彼らはツアサとの前線で活動し、軍司令部の承認を得ずに作戦を実行することが多かった。またエンライトは、ミスロスにメイス・ダーケンというウルフパックのレンジャーがいると言っていた。メイスを見つけ出し、同僚に何が起きたのか伝えよう。"	"根据恩赖特队长的说法，略萨·德·格鲁特和内蒂·布莱文斯都是一支名为狼群的精英敢死队的成员。他们在图阿撒阵线后方作战，并且经常在没有军事领导同意的情况下进行行动。恩赖特说在米萨罗斯还有一个狼群成员——一个名叫梅斯·达肯的游侠。我应该找到梅斯，告诉他他的同伴们出了什么事。"	"{""person:luethar-de-groot"":""accepted""}"
+"default"	"28625"	""	"person:mallory-grieves"	"not-an-issue"	"맬러리 그리브스(Mallory Grieves)"	"맬러리 그리브스(Mallory Grieves)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Mallory Grieves"	"マロリー・グリーブス"	"马洛里·格里夫斯"	"{""person:mallory-grieves"":""not-an-issue""}"
+"default"	"29202"	""	"person:reed-buckley"	"not-an-issue"	"리드 버클리(Reed Buckley)"	"리드 버클리(Reed Buckley)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Reed Buckley"	"リード・バックリー"	"里德·巴克利"	"{""person:reed-buckley"":""not-an-issue""}"
+"default"	"29865"	""	"person:athad-gruferth"	"accepted"	"아사드 그루퍼스"	"아사드 그루퍼스(Athad Gruferth)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Athad Gruferth"	"アサード・グルファース"	"阿萨德·格鲁菲斯"	"{""person:athad-gruferth"":""accepted""}"
+"default"	"29938"	""	"person:teithi-rhin"	"accepted"	"테이티 린"	"테이티 린(Teithi Rhin)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Teithi Rhin"	"テイシ・リン"	"忒提·瑞因"	"{""person:teithi-rhin"":""accepted""}"
+"default"	"30212"	""	"person:dreid-cadyr"	"accepted"	"드레이드 케이더"	"드레이드 케이더(Dreid Cadyr)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Dreid Cadyr"	"ドレイド・カディア"	"德雷德·卡迪尔"	"{""person:dreid-cadyr"":""accepted""}"
+"default"	"30515"	""	"person:enger-loren"	"accepted"	"엥거 로렌"	"엥거 로렌(Enger Loren)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Enger Loren"	"エンガー・ロレン"	"恩格尔·洛伦"	"{""person:enger-loren"":""accepted""}"
+"default"	"30591"	""	"person:birgette-steen"	"accepted"	"비르제트 스틴"	"비르제트 스틴(Birgette Steen)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Birgette Steen"	"ブリジッテ・スティーン"	"柏吉特·斯蒂恩"	"{""person:birgette-steen"":""accepted""}"
+"default"	"30651"	""	"person:isaac-tarn"	"accepted"	"아이작 탄"	"아이작 탄(Isaac Tarn)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Isaac Tarn"	"アイザック・ターン"	"艾萨克·塔恩"	"{""person:isaac-tarn"":""accepted""}"
+"default"	"30673"	""	"person:lia-talwist"	"accepted"	"리아 탈위스트"	"리아 탈위스트(Lia Talwist)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Lia Talwist"	"リア・タルウィスト"	"莉亚·塔尔维斯特"	"{""person:lia-talwist"":""accepted""}"
+"default"	"30783"	""	"person:reen-quiller"	"accepted"	"린 퀼러"	"린 퀼러(Reen Quiller)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Reen Quiller"	"リーン・キュラー"	"里恩·奎勒"	"{""person:reen-quiller"":""accepted""}"
+"default"	"30888"	""	"person:freynold-korrast"	"accepted"	"프레이놀드 코라스트"	"프레이놀드 코라스트(Freynold Korrast)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Freynold Korrast"	"フレイノルド・コラスト"	"弗雷诺尔德·科拉斯特"	"{""person:freynold-korrast"":""accepted""}"
+"default"	"30958"	""	"person:dulac-lasien"	"accepted"	"둘락 라시엔"	"둘락 라시엔(Dulac Lasien)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Dulac Lasien"	"デュラック・ラシアン"	"杜拉克·雷森"	"{""person:dulac-lasien"":""accepted""}"
+"default"	"31087"	""	"person:manon-souris"	"accepted"	"마농 수리"	"마농 수리(Manon Souris)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Manon Souris"	"マノン・サウリス"	"马侬·苏里斯"	"{""person:manon-souris"":""accepted""}"
+"default"	"31425"	""	"person:manon-souris"	"accepted"	"마농 수리"	"마농 수리(Manon Souris)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Manon Souris"	"マノン・サウリス"	"马侬·苏里斯"	"{""person:manon-souris"":""accepted""}"
+"default"	"31603"	""	"person:luethar-de-groot"	"accepted"	"루에타르 드 그루트"	"루에타르 드 그루트(Luethar De Groot)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Luethar De Groot"	"ルーサー・デグルート"	"略萨·德·格鲁特"	"{""person:luethar-de-groot"":""accepted""}"
+"default"	"31851"	""	"person:mallory-grieves"	"accepted"	"맬러리 그리브스"	"맬러리 그리브스(Mallory Grieves)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Mallory Grieves"	"マロリー・グリーブス"	"马洛里·格里夫斯"	"{""person:mallory-grieves"":""accepted""}"
+"default"	"33879"	""	"person:ney-csalan"	"accepted"	"네이 살란"	"네이 살란(Ney Csalan)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Ney Csalan"	"ネイ・カスラン"	"奈伊·萨兰"	"{""person:ney-csalan"":""accepted""}"
+"default"	"34061"	""	"person:kenway-wolsey"	"accepted"	"켄웨이 울시"	"켄웨이 울시(Kenway Wolsey)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Kenway Wolsey"	"ケンウェイ・ウォルシー"	"肯维·沃尔西"	"{""person:kenway-wolsey"":""accepted""}"
+"default"	"34646"	""	"person:urthan-nara"	"accepted"	"우르탄 나라"	"우르탄 나라(Urthan Nara)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Urthan Nara"	"ウルザン・ナーラ"	"尤桑·纳拉"	"{""person:urthan-nara"":""accepted""}"
+"default"	"35146"	""	"person:gregor-reese"	"accepted"	"그레고르 리스"	"그레고르 리스(Gregor Reese)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Gregor Reese"	"グレゴー・リース"	"格雷戈尔·里斯"	"{""person:gregor-reese"":""accepted""}"
+"default"	"35378"	""	"person:reed-buckley"	"accepted"	"리드 버클리"	"리드 버클리(Reed Buckley)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Reed Buckley"	"リード・バックリー"	"里德·巴克利"	"{""person:reed-buckley"":""accepted""}"
+"default"	"35537"	""	"person:conrad-cronberg"	"accepted"	"콘래드 크론버그가 친구 앙가라드 글린도어(Angharad Glyndowr)를 설득해 데드 켈(Dead Kel)과의 거래를 파기해 달라고 부탁했다. 해적은 선원들을 위한 하수인을 만들어 주면 섬에서 탈출시켜 주겠다고 앙가라드(Angharad)에게 약속했다. 그녀는 머드홀드 패스팅(Mudhold Fasting)의 가장 아래에 있다."	"콘래드 크론버그(Conrad Cronberg)가 친구 앙가라드 글린도어(Angharad Glyndowr)를 설득해 데드 켈(Dead Kel)과의 거래를 파기해 달라고 부탁했다. 해적은 선원들을 위한 하수인을 만들어 주면 섬에서 탈출시켜 주겠다고 앙가라드(Angharad)에게 약속했다. 그녀는 머드홀드 패스팅(Mudhold Fasting)의 가장 아래에 있다."	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Conrad Cronberg has asked me to convince his friend Angharad Glyndowr to back out of her agreement with Dead Kel. The pirate promised Angharad an escape from the island if she creates minions for his crew. She is at the bottom of Mudhold Fasting."	"コンラッド・クロンバーグに頼まれ、デッド・ケルとの取引をやめるよう、彼の友人のアンガラード・グリンドアを説得することになった。海賊は手下の乗組員を作り出すことと引き換えに、彼女を島から脱出させると約束したのだ。彼女はマッドホールドの地下通路の底にいる。"	"康拉德·科隆伯格叫我说服他的朋友安哈蕾德·格林多尔退出与亡者克尔的协议。只要她帮他的船员制造小兵，这帮海盗一定带安哈蕾德逃离这座岛。她在泥岩通道的底部。"	"{""person:conrad-cronberg"":""accepted""}"
+"default"	"36666"	""	"person:urthan-nara"	"accepted"	"숙련자 우르탄 나라"	"숙련자 우르탄 나라(Urthan Nara)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Adept Urthan Nara"	"魔道師ウルザン・ナーラ"	"侍者尤桑·纳拉"	"{""person:urthan-nara"":""accepted""}"
+"default"	"36805"	""	"person:conrad-cronberg"	"accepted"	"콘래드 크론버그"	"콘래드 크론버그(Conrad Cronberg)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Conrad Cronberg"	"コンラッド・クロンバーグ"	"康拉德·科隆伯格"	"{""person:conrad-cronberg"":""accepted""}"
+"default"	"37672"	""	"person:jon-aaron"	"accepted"	"존 애런"	"존 애런(Jon Aaron)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Jon Aaron"	"ジョン・アーロン"	"琼·亚伦"	"{""person:jon-aaron"":""accepted""}"
+"default"	"48702"	""	"person:luethar-de-groot"	"accepted"	"루에타르 드 그루트를 알아?"	"루에타르 드 그루트(Luethar De Groot)를 알아?"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Did you know Luethar De Groot?"	"ルーサー・デグルートを知ってるか？"	"你认识略萨·德·格鲁特吗？"	"{""person:luethar-de-groot"":""accepted""}"
+"default"	"52169"	""	"person:conrad-cronberg"	"not-an-issue"	"콘래드 크론버그(Conrad Cronberg)가 죽었어. 친구 앙가라드(Angharad)가 데드 켈(Dead Kel)과 맺은 거래에서 벗어나도록 도와주려던 그의 일을 더는 도울 수 없어."	"콘래드 크론버그(Conrad Cronberg)가 죽었어. 친구 앙가라드(Angharad)가 데드 켈(Dead Kel)과 맺은 거래에서 벗어나도록 도와주려던 그의 일을 더는 도울 수 없어."	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Conrad Cronberg has died, and I can no longer aid him in his attempts to save his friend Angharad from her deal with Dead Kel."	"コンラッド・クロンバーグは死んだ。彼の友人のアンガラードを、デッド・ケルとの取引から救うことはできなくなった。"	"康拉德·科隆伯格已经死了，而我也不再能帮他拯救他朋友，把安哈蕾德从她和亡者凯克尔的交易中拯救出来。"	"{""person:conrad-cronberg"":""not-an-issue""}"
+"default"	"53633"	""	"person:freynold-korrast"	"not-an-issue"	"프레이놀드 코라스트(Freynold Korrast)"	"프레이놀드 코라스트(Freynold Korrast)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Freynold Korrast"	"フレイノルド・コラスト"	"弗雷诺尔德·科拉斯特"	"{""person:freynold-korrast"":""not-an-issue""}"
+"default"	"57029"	""	"person:luethar-de-groot"	"accepted"	"루에타르 드 그루트를 알아?"	"루에타르 드 그루트(Luethar De Groot)를 알아?"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Did you know Luethar De Groot?"	"ルーサー・デグルートを知ってるか？"	"你认识略萨·德·格鲁特吗？"	"{""person:luethar-de-groot"":""accepted""}"
+"default"	"57647"	""	"person:conrad-cronberg"	"accepted"	"콘래드 크론베르크"	"콘래드 크론버그(Conrad Cronberg)"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Conrad Cronberg"	"コンラッド・クロンバーグ"	"康拉德·科隆伯格"	"{""person:conrad-cronberg"":""accepted""}"
+"default"	"57868"	""	"person:luethar-de-groot"	"accepted"	"네티(Nettie)의 시신에서 흥미로운 단서가 몇 가지 나왔다. 첫째, 루에타르 드 그루트에게서 발견된 것과 비슷한 늑대 목걸이를 하고 있었다. 둘째, 상관인 엔라이트(Enright) 대위가 서명한 알파르(Alfar) 군 제대 서류를 지니고 있었다. 엔라이트 대위는 크라운홀드(Crownhold)에 사는 듯하다. 네티(Nettie)와 루에타르에 대해 대위와 얘기해 봐야겠다."	"네티(Nettie)의 시신에서 흥미로운 단서가 몇 가지 나왔다. 첫째, 루에타르 드 그루트(Luethar De Groot)에게서 발견된 것과 비슷한 늑대 목걸이를 하고 있었다. 둘째, 상관인 엔라이트(Enright) 대위가 서명한 알파르(Alfar) 군 제대 서류를 지니고 있었다. 엔라이트 대위는 크라운홀드(Crownhold)에 사는 듯하다. 네티(Nettie)와 루에타르에 대해 대위와 얘기해 봐야겠다."	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Nettie's body held several interesting clues. First, she wore a wolf necklace similar to the one found on Luethar De Groot. Second, she carried with her her Alfar Military discharge papers signed by her superior officer, Captain Enright. It appears that Captain Enright lives in Crownhold. I should talk to her about Nettie and Luethar."	"ネッティの死体にはいくつか興味深い手掛かりがあった。まず、彼女はルーサー・デグルートと似た、オオカミのネックレスをつけていた。次に彼女はアルファー軍からの除隊証書を持っていて、そこには上官のエンライト隊長の署名があった。エンライト隊長はクラウンホールドに住んでいるらしい。ネッティとルーサーのことについて、彼女と話そう。"	"内蒂的尸体上有几条有趣的线索。首先，她戴着一条狼头项链，和略萨·德·格鲁特身上的那条很像。其次，她随身带着她的上官恩赖特队长签署的精灵军退伍文件。恩赖特队长似乎住在皇冠堡。我应该找她谈谈关于内蒂和略萨的事情。"	"{""person:luethar-de-groot"":""accepted""}"
+"default"	"63922"	""	"person:luethar-de-groot"	"accepted"	"루에타르 드 흐로트(Luethar de Groot)의 시신"	"루에타르 드 그루트(Luethar de Groot)의 시신"	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Luethar de Groot’s Corpse"	"ルーサー・デグルートの死体"	"略萨·德·格鲁特的尸体"	"{""person:luethar-de-groot"":""accepted""}"
+"default"	"64067"	""	"person:urthan-nara"	"not-an-issue"	"아쉽게도 난 그 일에 재주가 없어. 근처에 도와줄 사람이 몇 명 있지. 우르탄 나라(Urthan Nara)나 아르탄 케이드(Artan Caid) 말이야."	"아쉽게도 난 그 일에 재주가 없어. 근처에 도와줄 사람이 몇 명 있지. 우르탄 나라(Urthan Nara)나 아르탄 케이드(Artan Caid) 말이야."	"English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged."	"Shame, that I have no skill with it myself. There are a few others around that might be of help ‒ Urthan Nara, or Artan Caid."	"残念ながら自分にはその心得がない。ウルザン・ナーラかアータン・ケイドなら、力になってくれるだろう"	"不好意思，我对此一窍不通。周围可能还有其他人能提供帮助——尤桑·纳拉或亚坦·凯德。"	"{""person:urthan-nara"":""not-an-issue""}"

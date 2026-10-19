@@ -1,0 +1,15 @@
+"entity_key"	"english_canonical"	"category"	"korean_canonical"	"english_aliases"	"korean_variants"	"evidence_ids"	"status"	"notes"
+"faction:gnome-templars"	"Templars"	"faction"	"템플러(Templars)"	""	"템플러|템플러들|성전기사단|성전 기사단|성전기사들|성전 기사들|성전기사단원|성전 기사단원|템플러 기사단|템플 기사들|기사단"	"D-21809|default:58652|default:62486"	"confirmed"	"English names the Templars as a distinct Gnomish social group: default:62486
+explicitly calls Scholars, Templars, and Praetorians three castes, while
+default:58652 directly calls them the Gnome Templar faction. The 50
+capitalized and one lowercase English plural-token keys were checked
+across the aligned corpus. Japanese
+聖堂騎士 and Chinese 圣殿骑士 consistently support the same group reading;
+they do not determine Korean spelling. Standardize the entity name as
+템플러(Templars), retaining Korean grammatical particles and plural markers.
+default:11 already has the complete pair and remains unchanged. The source
+also uses singular Templar as a personal rank/title; those rows are outside
+this plural faction scope. D-19521's terminal sentence finding at 62486 is
+preserved; this is a distinct faction-name annotation, not a reopened or
+recounted sentence judgment. D-17729's separate uncertainty about the
+meaning of “code” at default:58652 remains open. No PAK-derived evidence."

@@ -67,6 +67,34 @@ class VerifyProperNameFullChainTest < Minitest::Test
     ]], parse_document_hashes(File.read(path), 'default')
   end
 
+  def test_non_name_edit_stages_are_in_the_chain
+    assert_equal [21_799, 21_814, 21_568, 21_569],
+                 NON_NAME_EDIT_STAGES.map { |stage| stage.fetch(:d) }
+
+    NON_NAME_EDIT_STAGES.each do |stage|
+      rows = CSV.read(stage.fetch(:manifest), headers: true, col_sep: "\t")
+      edits = rows.select { |row| row['old'] != row['new'] }
+      assert edits.any?
+      assert File.file?(File.join(stage.fetch(:backup),
+                                  'locatexts_zh_cn.koalocatext_default.csv'))
+    end
+    parenthetical = NON_NAME_EDIT_STAGES.last
+    rows = CSV.read(parenthetical.fetch(:manifest), headers: true, col_sep: "\t")
+    edits = rows.select { |row| row['old'] != row['new'] }
+    assert_equal 77, edits.length
+    assert edits.any? { |row| row['resource'] == 'default' && row['ID_Linha'] == '428' }
+  end
+
+  def test_d21543_precedes_later_numbered_praetorian_correction_passes
+    d21543 = File.read(File.join(AUDIT, 'named-scope-edit-addendum-D21543-20261017.md'))
+    d21541 = File.read(File.join(AUDIT, 'named-scope-edit-addendum-D21541-20261017.md'))
+    d21543_hashes = parse_document_hashes(d21543, 'default')
+    d21541_hashes = parse_document_hashes(d21541, 'default')
+
+    assert_equal d21541_hashes.first.first, d21543_hashes.first.last
+    assert_operator STAGE_SEQUENCE_OVERRIDES.fetch(21_543), :<, 21_541
+  end
+
   def test_resource_keyed_multiline_hash_pairs
     text = <<~MARKDOWN
       Pre-edit SHA-256: `base`

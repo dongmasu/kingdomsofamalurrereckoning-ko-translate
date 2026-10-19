@@ -1,0 +1,15 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"base"	"3322"	"11"	"named work:sigbert-journal"	"accepted"	"시그버트의 일지(Sigbert's Journal)"	"시그버트의 일지(Sigbert's Journal)"	"D-21585 metadata correction after independent review: English base:3322
+says Sigbert's Journal, Japanese シグバートの日誌 and Chinese
+西格伯特的日记; default:8927 says Journal of Sigbert Sawerth, Japanese
+シグバート・サワースの日誌 and Chinese 西格伯特·萨维尔斯的日记.
+The owner-person evidence does not independently establish that these
+are the same physical journal or work. Remove the unsupported title
+alias and retain two independent source-label entries, without asserting
+they are different physical objects either. Preserve the existing
+local short/full Korean title pairs. Rekey the single base occurrence,
+retaining its D-21580 accepted disposition rather than creating a new
+acceptance. Preserve the long-label occurrence and all other entity
+statuses/evidence. No CSV edit, new translation decision, reopened hold
+or change to occurrence-status counts; no new backup is necessary.
+This corrects registry metadata only, not the earlier person identity."	"Sigbert's Journal"	"シグバートの日誌"	"西格伯特的日记"	"{""named work:sigbert-journal"":""accepted""}"	"{""named work:journal-of-sigbert-sawerth"":""accepted""}"	"{""named work:journal-of-sigbert-sawerth"":""D-21580: Review 17 complete journal/notes/memoir titles across affix/base/default,\nusing established owner-name spellings without reopening owner-person\ndispositions. There are 27 source keys/matches: 13 base and 14 default,\nno affix hits. English defines each work; exact Japanese and Chinese\nevidence is retained per row. Both reference languages corroborate the\ndiary/notes/memoir type and names. The non-exhaustive official Korean\nmanual has no direct entries for these works. Keep the two lowercase\ndescriptive journal mentions (default:26858 Stellan, 33302 Pagus)\nunchanged/excluded, rather than treating all nouns as display titles.\nDefault:38228 explicitly uses capitalized Brother Padric's Travel Notes\ninside its description: pair that whole title, use the same 여행 기록\nas its two labels, and retain the Splitrock description and punctuation.\nSigbert's Journal is the source-short label for the fully named journal\nwhose author was established in D-21575; preserve the local short title\nrather than adding the surname to base:3322.\nNo generic Journal, Notes or Memoirs alias is added. Complete bilingual\nworks do not receive redundant nested owner annotations. Preserve all\nother entities, wording, actions, tokens, line endings and prior decisions.\nThis is focused work-title review, not a recount of global translation\ntotals or a completion claim. The D-21569 release ZIP is unchanged.""}"

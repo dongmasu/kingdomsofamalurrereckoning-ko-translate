@@ -1,15 +1,15 @@
 # Distribution Readiness Checklist
 
-Release snapshot as of 2026-10-17: the user requested a new tagged official
-release before continuing proper-name review. The new ZIP includes accepted
-edits through D-21569; its build, round-trip, installer static tests, and ZIP
-integrity checks passed. The asset link is updated in `README.md`; see
-`work/zh_cn/audit/release-20261017.md` for the exact tag, hashes, and scope.
-Full proper-name discovery remains incomplete. The sequential default
-review is complete through ID 65134; all 140 zh_cn-specific affix variants
-also have recorded dispositions. The user confirmed Korean rendering in the
-zh_cn setup without `locatexts_en_us.characterset` or
-`fontlist_common.koafontlist`.
+Release snapshot as of 2026-10-19: the official ZIP includes accepted
+translation edits through D-21851. Build, round-trip, installer regression,
+audit regression, and ZIP integrity checks passed. The asset link is updated
+in `README.md`; see `work/zh_cn/audit/release-20261019.md` for the exact tag,
+hashes, and validation scope. Exhaustive proper-name discovery remains
+incomplete but is closed as an active workstream at the user's direction.
+The sequential default review is complete through ID 65134; all 140
+zh_cn-specific affix variants also have recorded dispositions. The user
+confirmed Korean rendering in the zh_cn setup without
+`locatexts_en_us.characterset` or `fontlist_common.koafontlist`.
 
 This is an official-release snapshot, not a prerelease candidate. The Windows installer
 has not been independently exercised on Windows, and broad UI, long-play,
@@ -43,7 +43,7 @@ The official ZIP omits the characterset and common font list and contains:
   `SHA256SUMS.txt`.
 
 The released ZIP is
-`dist/20261017193017/KingdomsOfAmalur_Korean_zh_cn_20261017193017.zip`. It
+`dist/20261019233647/KingdomsOfAmalur_Korean_zh_cn_20261019233647.zip`. It
 contains 32 payload files (three localization binaries and 29 Noto font
 resources), with no common font list or characterset. Generated `dist/`
 packages are ignored by Git and are attached to GitHub Releases instead of
@@ -99,8 +99,8 @@ matched against a depot manifest; the in-game test was a brief smoke test.
   English resources. The release binaries are generated from `work/zh_cn/`;
   `src/` remains immutable.
 
-- The 2026-10-17 snapshot supersedes the 2026-10-14 package with accepted
-  translation edits through D-21569. Subsequent accepted edits require a new
+- The 2026-10-19 snapshot supersedes the 2026-10-17 package with accepted
+  translation edits through D-21851. Subsequent accepted edits require a new
   build and validation before another release; do not silently reuse this ZIP.
 
 ## Build Record and Optional Validation
@@ -154,9 +154,9 @@ matched against a depot manifest; the in-game test was a brief smoke test.
 2. Bilingual README introduction, context, and source links (updated
   2026-10-07; user may review).
 3. Prepare the distribution ZIP (completed and round-trip validated
-  2026-10-14; rebuilt and validated 2026-10-17).
+   2026-10-14; rebuilt and validated 2026-10-17 and 2026-10-19).
 4. Publish the repository and release asset (initial release 2026-10-14;
-  updated official-release snapshot requested 2026-10-17).
+   updated official-release snapshots requested 2026-10-17 and 2026-10-19).
 5. Complete linguistic review (sequential default-ID review through 65134
   and all 140 extra affix dispositions are recorded). The historical
   unidentified 987-key tally discrepancy was closed at the user's direction

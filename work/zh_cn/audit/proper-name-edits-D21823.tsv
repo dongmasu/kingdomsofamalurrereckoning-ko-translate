@@ -1,0 +1,19 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"18848"	""	"candidate:The Two-Faced Troll"	"accepted"	"두 얼굴의 트롤(Troll)"	"두 얼굴의 트롤(The Two-Faced Troll)"	"English gives the exact label `The Two-Faced Troll`; Japanese
+`双頭のトロール` and Chinese `双头巨魔` corroborate the Troll referent
+but describe a two-headed form rather than English “two-faced.” Preserve
+the established Korean `두 얼굴의 트롤` unchanged. At default:18848,
+replace only the incomplete `(Troll)` annotation with the complete source
+label; at base:1221:11, remove only the space before the existing English
+parenthesis so the two exact labels share one display format. D-5952 at
+default:18848 remains uncertain about the intended image/face-versus-head
+distinction; this label-only edit does not resolve or recount it. Exact source key: default:18848:."	"The Two-Faced Troll"	"双頭のトロール"	"双头巨魔"	"{}"	"{""monster:troll"":""accepted""}"	"{""monster:troll"":""D-20802: monster:troll / default:18848:: EN primary: \""The Two-Faced Troll\""; JA corroboration: \""双頭のトロール\""; ZH corroboration: \""双头巨魔\""; KO context: \""두 얼굴의 트롤\"". Normalized only bounded, source-matched Korean species spans. Existing full bilingual compounds/titles, particles, placeholders, line breaks, and surrounding text are preserved.""}"
+"base"	"1221"	"11"	"candidate:The Two-Faced Troll"	"accepted"	"두 얼굴의 트롤 (The Two-Faced Troll)"	"두 얼굴의 트롤(The Two-Faced Troll)"	"English gives the exact label `The Two-Faced Troll`; Japanese
+`双頭のトロール` and Chinese `双头巨魔` corroborate the Troll referent
+but describe a two-headed form rather than English “two-faced.” Preserve
+the established Korean `두 얼굴의 트롤` unchanged. At default:18848,
+replace only the incomplete `(Troll)` annotation with the complete source
+label; at base:1221:11, remove only the space before the existing English
+parenthesis so the two exact labels share one display format. D-5952 at
+default:18848 remains uncertain about the intended image/face-versus-head
+distinction; this label-only edit does not resolve or recount it. Exact source key: base:1221:11."	"The Two-Faced Troll"	"双頭のトロール"	"双头巨魔"	"{}"	"{""monster:troll"":""not-an-issue""}"	"{""monster:troll"":""D-20798: monster:troll / base:1221:11: EN primary: \""The Two-Faced Troll\""; JA corroboration: \""双頭のトロール\""; ZH corroboration: \""双头巨魔\""; KO context: \""두 얼굴의 트롤 (The Two-Faced Troll)\"". The canonical Korean form or a source-supported full bilingual compound is already present; preserved it atomically without nested species labels.""}"

@@ -1,0 +1,1301 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"
+"default"	"8156"	""	"person:gordan-lot"	"not-an-issue"	"라토퍼(Ratofer)의 허가장을 되찾았다. 그는 아이텐(Ayten)의 여관 주인 고든 롯(Gordan Lot)이 관심을 보일 거라고 했다. 허가장을 아이텐(Ayten)으로 가져가 고든에게 팔아야겠다."	"라토퍼(Ratofer)의 허가장을 되찾았다. 그는 아이텐(Ayten)의 여관 주인 고든 롯(Gordan Lot)이 관심을 보일 거라고 했다. 허가장을 아이텐(Ayten)으로 가져가 고든에게 팔아야겠다."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"I have recovered Ratofer's charter. He told me that Gordan Lot, Ayten's innkeep, would be interested in purchasing it. I should bring it back to Ayten and sell it to Gordan."	"ラトファーの勅許状を回収した。アイテンの宿屋の主人、ゴーダン・ロットが買うかも知れないという。アイテンに持ち帰り、ゴーダンに売ろう。"	"我找回了拉托弗的特许状。他告诉我，艾腾的旅馆老板，戈丹·洛特，可能会对它感兴趣。我应该将它带到艾腾并卖给戈丹。"	"{""person:gordan-lot"":""not-an-issue""}"
+"default"	"9334"	""	"person:rota-jansen"	"accepted"	"로타 얀센에게 돌아가기"	"로타 얀센(Rota Jansen)에게 돌아가기"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Return to Rota Jansen"	"ロタ・ジャンセンの元へ戻る"	"回去找罗塔·詹森"	"{""person:rota-jansen"":""accepted""}"
+"default"	"9894"	""	"person:seila-twayn"	"accepted"	"오래전 리리아의 사원(Temple of Lyria)은 신도들에게 성물을 빌려주곤 했다. 전쟁이 터졌을 때 많은 성물이 라시르(Rathir)에서 멀리 떨어져 있었고, 그 뒤로 행방이 묘연해졌다. 신전의 세일라 트웨인은 성물을 찾아 돌려주면 금화를 주겠다고 한다."	"오래전 리리아의 사원(Temple of Lyria)은 신도들에게 성물을 빌려주곤 했다. 전쟁이 터졌을 때 많은 성물이 라시르(Rathir)에서 멀리 떨어져 있었고, 그 뒤로 행방이 묘연해졌다. 신전의 세일라 트웨인(Seila Twayn)은 성물을 찾아 돌려주면 금화를 주겠다고 한다."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Years ago, the Temple of Lyria would lend out relics to its faithful. When the war struck, many of these were far from Rathir, and have been lost ever since. Seila Twayn, in the Temple, will give gold for any of these that are returned to her."	"その昔、リリア寺院は信者に遺物を貸し出していた。戦争が起きた時、その多くはラシーアから遠い場所にあり、それ以来失われてしまった。寺院のセリア・トゥワインが、遺物を見つけて持ち帰ればゴールドを支払うという。"	"多年之前，莉里亚神庙会将圣物借给自己的信徒。当战争来袭，许多圣物离开了拉瑟里，从此杳无音信。神庙中的赛拉·特韦恩，愿意为找回这些圣物支付一定的报酬。"	"{""person:seila-twayn"":""accepted""}"
+"default"	"10277"	""	"person:ragna-senn"	"accepted"	"모두 다섯 명이야. 에니온 가이우스(Enion Gaius), 타릭 스미스(Tarrick Smith), 세페드라 윌(Sephedra Wyll), 에이드런 티르(Aedran Tyr), 그리고 내 여동생 라그나 센."	"모두 다섯 명이야. 에니온 가이우스(Enion Gaius), 타릭 스미스(Tarrick Smith), 세페드라 윌(Sephedra Wyll), 에이드런 티르(Aedran Tyr), 그리고 내 여동생 라그나 센(Ragna Senn)."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"There are five in total: Enion Gaius, Tarrick Smith, Sephedra Wyll, Aedran Tyr, and my sister, Ragna Senn."	"全部で5人。エニオン・ガイアス、タリック・スミス、スフェルドラ・ウィリ、アイドラン・ティア、そして我が妹ラグナ・セン"	"共有五人：埃尼恩·盖尤斯、塔里克·史密斯、赛菲德拉·维尔、艾德兰·提尔和我的妹妹拉格纳·塞恩。"	"{""person:ragna-senn"":""accepted""}"
+"default"	"12865"	""	"person:morticrum-addler"	"not-an-issue"	"숙련자 모티크룸 애들러(Adept Morticrum Addler)"	"숙련자 모티크룸 애들러(Adept Morticrum Addler)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Adept Morticrum Addler"	"魔道師モーティクルム・アドラー"	"侍者莫提克朗姆·阿德勒"	"{""person:morticrum-addler"":""not-an-issue""}"
+"default"	"17071"	""	"person:ilmo-grimstaad"	"not-an-issue"	"일모 그림스타드(Ilmo Grimstaad)"	"일모 그림스타드(Ilmo Grimstaad)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Ilmo Grimstaad"	"イルモ・グリムスタード"	"伊尔莫·格里姆斯塔德"	"{""person:ilmo-grimstaad"":""not-an-issue""}"
+"default"	"18590"	""	"person:galeena-strout"	"not-an-issue"	"재정착 캠프의 갈리나 스트라우트(Galeena Strout)는 여러 종류의 니스카루(Niskaru) 괴물 이빨을 연구하려고 나에게 모아 달라고 했다."	"재정착 캠프의 갈리나 스트라우트(Galeena Strout)는 여러 종류의 니스카루(Niskaru) 괴물 이빨을 연구하려고 나에게 모아 달라고 했다."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Galeena Strout in Resettlement Camp wants to research on the fangs from different Niskaru monsters and wants me to collect them for her."	"移民キャンプのガレーナ・ストラウトは、様々なニスカルの牙を研究したいらしく、牙の収集を依頼してきた。"	"移居营地的加莱娜·斯特劳特想研究不同的尼斯卡鲁怪物的尖牙，她想让我帮她收集它们。"	"{""person:galeena-strout"":""not-an-issue""}"
+"default"	"20595"	""	"person:rota-jansen"	"accepted"	"내 이름은 얀센이야. 로타 얀센. 내가 이 마차 행렬을 이끌지. 새로운 기회를 찾아 서쪽으로 향하는 여행자들이 모인 것뿐이야."	"내 이름은 얀센이야. 로타 얀센(Rota Jansen). 내가 이 마차 행렬을 이끌지. 새로운 기회를 찾아 서쪽으로 향하는 여행자들이 모인 것뿐이야."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"The name's Jansen. Rota Jansen. I lead this caravan. Just a group of travelers heading west, looking for new opportunities."	"私はジャンセン。ロタ・ジャンセン。このキャラバンを率いてる。新しい機会を求めて、西へ向かう旅人の集まりだ"	"我叫詹森。罗塔·詹森。我带着这支车队。我们只是一群往西走、寻找新的机会的旅行者。"	"{""person:rota-jansen"":""accepted""}"
+"default"	"22254"	""	"person:pell-grandy"	"not-an-issue"	"펠 그랜디(Pell Grandy)"	"펠 그랜디(Pell Grandy)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Pell Grandy"	"ペル・グランディー"	"佩尔·格兰迪"	"{""person:pell-grandy"":""not-an-issue""}"
+"default"	"23837"	""	"person:elya-madmyr"	"not-an-issue"	"엘리아 매드미어(Elya Madmyr)"	"엘리아 매드미어(Elya Madmyr)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Elya Madmyr"	"エリヤ・マドミア"	"艾尔亚·麦德米尔"	"{""person:elya-madmyr"":""not-an-issue""}"
+"default"	"24051"	""	"person:isak-thorn"	"not-an-issue"	"아이작 손(Isak Thorn)이 안됐지만, 수정 전쟁(Crystal War)에서 우리 모두 누군가를 잃었어."	"아이작 손(Isak Thorn)이 안됐지만, 수정 전쟁(Crystal War)에서 우리 모두 누군가를 잃었어."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"My heart aches for Isak Thorn, but we all lost somebody in the Crystal War."	"アイザック・ソーンのことはかわいそうだが、みんなクリスタル戦争で誰かを亡くしてる"	"我为伊萨克·索恩感到心痛，但我们都在水晶之战中失去了一些人。"	"{""person:isak-thorn"":""not-an-issue""}"
+"default"	"27656"	""	"person:dramil-frink"	"not-an-issue"	"드라밀 프링크(Dramil Frink)"	"드라밀 프링크(Dramil Frink)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Dramil Frink"	"ドラミル・フリンク"	"德拉米尔·弗林克"	"{""person:dramil-frink"":""not-an-issue""}"
+"default"	"28472"	""	"person:gordan-lot"	"not-an-issue"	"고든 롯(Gordan Lot)이 죽었다. 라토퍼(Ratofer)의 임무를 완료할 수 없다."	"고든 롯(Gordan Lot)이 죽었다. 라토퍼(Ratofer)의 임무를 완료할 수 없다."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Gordan Lot has died. I'm unable to complete Ratofer's tasks."	"ゴーダン・ロットは死んだ。ラトファーの仕事を達成できない。"	"戈丹·洛特已死。我无法完成拉托弗的任务。"	"{""person:gordan-lot"":""not-an-issue""}"
+"default"	"30251"	""	"person:ragna-senn"	"accepted"	"라그나 센을 처치하라"	"라그나 센(Ragna Senn)을 처치하라"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Defeat Ragna Senn"	"ラグナ・センを倒す"	"击败拉格纳·塞恩"	"{""person:ragna-senn"":""accepted""}"
+"default"	"34365"	""	"person:rota-jansen"	"accepted"	"로타 얀센의 대상이 도적들에게 습격당했다더군."	"로타 얀센(Rota Jansen)의 대상이 도적들에게 습격당했다더군."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"I heard Rota Jansen's caravan was attacked by bandits."	"ロタ・ジャンセンのキャラバンが攻撃されたらしいわ"	"我听说罗塔·詹森的车队被强盗袭击了。"	"{""person:rota-jansen"":""accepted""}"
+"default"	"36525"	""	"person:pell-grandy"	"accepted"	"보급품이 필요하면 펠 그랜디나 윌 도널과 이야기해."	"보급품이 필요하면 펠 그랜디(Pell Grandy)나 윌 도널과 이야기해."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Speak to Pell Grandy or Wil Donnall if you're looking for supplies."	"物資を補充したいならペル・グランディーかウィル・ドナルと話すといい"	"如果你要寻找补给，可以去找佩尔·格兰迪或威尔·唐纳谈谈。"	"{""person:pell-grandy"":""accepted""}"
+"default"	"36861"	""	"person:gordan-lot"	"accepted"	"여관 주인 고든 롯이 살 사람이야. 얼마를 부르든 그에게 넘겨."	"여관 주인 고든 롯(Gordan Lot)이 살 사람이야. 얼마를 부르든 그에게 넘겨."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Its buyer is Gordan Lot, the innkeep. Give it to him, whatever he asks for it."	"買い手は宿屋の主のゴーダン・ロットだ。彼に渡してくれ。何を請求されても構わん"	"买主是酒馆老板戈丹丹·洛特。将它交给他，不管他要什么。"	"{""person:gordan-lot"":""accepted""}"
+"default"	"39233"	""	"person:isak-thorn"	"not-an-issue"	"아이작 손(Isak Thorn)"	"아이작 손(Isak Thorn)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Isak Thorn"	"アイザック・ソーン"	"伊萨克·索恩"	"{""person:isak-thorn"":""not-an-issue""}"
+"default"	"39770"	""	"person:curran-crand"	"accepted"	"커런 크랜드"	"커런 크랜드(Curran Crand)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Curran Crand"	"カラン・クランド"	"柯伦·克兰德"	"{""person:curran-crand"":""accepted""}"
+"default"	"40180"	""	"person:cod-aelfgar"	"accepted"	"코드 앨프가르"	"코드 앨프가르(Cod Aelfgar)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Cod Aelfgar"	"コッド・エフガー"	"柯德·埃尔夫加尔"	"{""person:cod-aelfgar"":""accepted""}"
+"default"	"40495"	""	"person:raf-klyr"	"accepted"	"라프 클라이르"	"라프 클라이르(Raf Klyr)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Raf Klyr"	"ラフィ・クリル"	"拉夫·凯勒"	"{""person:raf-klyr"":""accepted""}"
+"default"	"41384"	""	"person:osen-ridan"	"accepted"	"오센 리단"	"오센 리단(Osen Ridan)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Osen Ridan"	"オセン・リダン"	"奥森·瑞丹"	"{""person:osen-ridan"":""accepted""}"
+"default"	"41427"	""	"person:ilmo-grimstaad"	"accepted"	"일모 그림스타드"	"일모 그림스타드(Ilmo Grimstaad)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Ilmo Grimstaad"	"イルモ・グリムスタード"	"伊尔莫·格里姆斯塔德"	"{""person:ilmo-grimstaad"":""accepted""}"
+"default"	"41728"	""	"person:grygal-apopal"	"accepted"	"그리갈 아포팔"	"그리갈 아포팔(Grygal Apopal)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Grygal Apopal"	"グリガル・アポパル"	"格雷加尔·阿珀帕尔"	"{""person:grygal-apopal"":""accepted""}"
+"default"	"41915"	""	"person:klang-tarrycheek"	"accepted"	"클랭 태리치크"	"클랭 태리칙(Klang Tarrycheek)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Klang Tarrycheek"	"クラング・タリーチーク"	"克朗·泰瑞奇克"	"{""person:klang-tarrycheek"":""accepted""}"
+"default"	"42012"	""	"person:osa-aeldhelm"	"accepted"	"오사 엘드헬름"	"오사 엘드헬름(Osa Aeldhelm)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Osa Aeldhelm"	"オーサ・エルドヘルム"	"奥萨·阿尔德海姆"	"{""person:osa-aeldhelm"":""accepted""}"
+"default"	"42069"	""	"person:gham-bleur"	"accepted"	"감 블뢰르"	"감 블뢰르(Gham Bleur)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Gham Bleur"	"ガム・ブルー"	"加姆·布莱尔"	"{""person:gham-bleur"":""accepted""}"
+"default"	"42410"	""	"person:gordan-lot"	"accepted"	"고든 롯"	"고든 롯(Gordan Lot)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Gordan Lot"	"ゴーダン・ロット"	"戈丹·洛特"	"{""person:gordan-lot"":""accepted""}"
+"default"	"42612"	""	"person:ragna-senn"	"accepted"	"라그나 센"	"라그나 센(Ragna Senn)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Ragna Senn"	"ラグナ・セン"	"拉格纳·塞恩"	"{""person:ragna-senn"":""accepted""}"
+"default"	"42680"	""	"person:beatrice-beck"	"accepted"	"비어트리스 벡"	"비어트리스 벡(Beatrice Beck)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Beatrice Beck"	"ベアトリス・ベック"	"比阿特丽斯·贝克"	"{""person:beatrice-beck"":""accepted""}"
+"default"	"43085"	""	"person:isak-thorn"	"accepted"	"아이작 손"	"아이작 손(Isak Thorn)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Isak Thorn"	"アイザック・ソーン"	"伊萨克·索恩"	"{""person:isak-thorn"":""accepted""}"
+"default"	"43731"	""	"person:elya-madmyr"	"accepted"	"엘리아 매드미어"	"엘리아 매드미어(Elya Madmyr)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Elya Madmyr"	"エリヤ・マドミア"	"艾尔亚·麦德米尔"	"{""person:elya-madmyr"":""accepted""}"
+"default"	"43847"	""	"person:galeena-strout"	"accepted"	"갈리나 스트라우트"	"갈리나 스트라우트(Galeena Strout)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Galeena Strout"	"ガレーナ・ストラウト"	"加莱娜·斯特劳特"	"{""person:galeena-strout"":""accepted""}"
+"default"	"43948"	""	"person:grald-ullard"	"accepted"	"그랄드 울라드"	"그랄드 울라드(Grald Ullard)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Grald Ullard"	"グラルド・ウラルド"	"吉拉德·乌尔拉德"	"{""person:grald-ullard"":""accepted""}"
+"default"	"44008"	""	"person:rota-jansen"	"accepted"	"로타 얀센"	"로타 얀센(Rota Jansen)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Rota Jansen"	"ロタ・ジャンセン"	"罗塔·詹森"	"{""person:rota-jansen"":""accepted""}"
+"default"	"44147"	""	"person:shalarein-forstid"	"accepted"	"샬라레인 포스티드"	"샬라레인 포스티드(Shalarein Forstid)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Shalarein Forstid"	"シャラレイン・フォースティッド"	"莎拉琳·弗斯提德"	"{""person:shalarein-forstid"":""accepted""}"
+"default"	"44173"	""	"person:morticrum-addler"	"accepted"	"모티크룸 애들러"	"모티크룸 애들러(Morticrum Addler)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Morticrum Addler"	"モーティクルム・アドラー"	"莫提克朗姆·阿德勒"	"{""person:morticrum-addler"":""accepted""}"
+"default"	"44246"	""	"person:dramil-frink"	"accepted"	"드라밀 프링크"	"드라밀 프링크(Dramil Frink)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Dramil Frink"	"ドラミル・フリンク"	"德拉米尔·弗林克"	"{""person:dramil-frink"":""accepted""}"
+"default"	"44505"	""	"person:ragna-senn"	"accepted"	"라그나 센"	"라그나 센(Ragna Senn)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Ragna Senn"	"ラグナ・セン"	"拉格纳·塞恩"	"{""person:ragna-senn"":""accepted""}"
+"default"	"44547"	""	"person:waera-logue"	"accepted"	"웨라 로그"	"웨라 로그(Waera Logue)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Waera Logue"	"ワエラ・ローグ"	"瓦拉·洛格"	"{""person:waera-logue"":""accepted""}"
+"default"	"44761"	""	"person:pell-grandy"	"accepted"	"펠 그랜디"	"펠 그랜디(Pell Grandy)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Pell Grandy"	"ペル・グランディー"	"佩尔·格兰迪"	"{""person:pell-grandy"":""accepted""}"
+"default"	"45021"	""	"person:seila-twayn"	"accepted"	"세일라 트웨인"	"세일라 트웨인(Seila Twayn)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Seila Twayn"	"セリア・トゥワイン"	"塞拉·特韦恩"	"{""person:seila-twayn"":""accepted""}"
+"default"	"45260"	""	"person:beatrice-beck"	"accepted"	"비어트리스 벡"	"비어트리스 벡(Beatrice Beck)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Beatrice Beck"	"ベアトリス・ベック"	"比阿特丽斯·贝克"	"{""person:beatrice-beck"":""accepted""}"
+"default"	"47482"	""	"person:elya-madmyr"	"accepted"	"이병 엘리아 매드미어, 복무 신고합니다! 아, 아무도 안 속겠네."	"이병 엘리아 매드미어(Elya Madmyr), 복무 신고합니다! 아, 아무도 안 속겠네."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Private Elya Madmyr, reporting for duty! Oh, I am not fooling anyone."	"黄金平原亭エリヤ・マドミア、出頭しました！ って、バカみたいね、私"	"列兵埃莉娅·玛德迈尔，前来报到！哦，我不是在愚弄任何人。"	"{""person:elya-madmyr"":""accepted""}"
+"default"	"47629"	""	"person:rota-jansen"	"accepted"	"로타 얀센"	"로타 얀센(Rota Jansen)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Rota Jansen"	"ロタ・ジャンセン"	"罗塔·詹森"	"{""person:rota-jansen"":""accepted""}"
+"default"	"48322"	""	"person:ragna-senn"	"accepted"	"라그나 센"	"라그나 센(Ragna Senn)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Ragna Senn"	"ラグナ・セン"	"拉格纳·塞恩"	"{""person:ragna-senn"":""accepted""}"
+"default"	"49021"	""	"person:galeena-strout"	"accepted"	"갈리나 스트라우트"	"갈리나 스트라우트(Galeena Strout)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Galeena Strout"	"ガレーナ・ストラウト"	"加莱娜·斯特劳特"	"{""person:galeena-strout"":""accepted""}"
+"default"	"49083"	""	"person:ragna-senn"	"accepted"	"라그나 센"	"라그나 센(Ragna Senn)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Ragna Senn"	"ラグナ・セン"	"拉格纳·塞恩"	"{""person:ragna-senn"":""accepted""}"
+"default"	"57369"	""	"person:klang-tarrycheek"	"not-an-issue"	"클랭 태리칙(Klang Tarrycheek)"	"클랭 태리칙(Klang Tarrycheek)"	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"Klang Tarrycheek"	"クラング・タリーチーク"	"克朗·泰瑞奇克"	"{""person:klang-tarrycheek"":""not-an-issue""}"
+"default"	"59805"	""	"person:galeena-strout"	"accepted"	"니스카루(Niskaru) 송곳니를 몇 개 얻었다. 보수를 받으려면 갈리나 스트라우트에게 가져가야겠다."	"니스카루(Niskaru) 송곳니를 몇 개 얻었다. 보수를 받으려면 갈리나 스트라우트(Galeena Strout)에게 가져가야겠다."	"Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged."	"I have acquired some Niskaru Fangs. I should bring them to Galeena Strout for payment."	"ニスカルの牙をいくつか手に入れた。ガレーナ・ストラウトの元へ持っていき、報酬をもらおう。"	"我弄到了一些尼斯卡鲁尖牙。我应该把它们带给加莱娜·斯特劳特换取报酬。"	"{""person:galeena-strout"":""accepted""}"

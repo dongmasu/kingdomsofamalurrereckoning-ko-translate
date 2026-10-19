@@ -11,8 +11,11 @@ module ReviewedProperNameDiscovery
   CATEGORIES = ['person', 'place', 'faction', 'organization', 'people', 'item',
                 'deity', 'monster', 'skill', 'quest', 'unique item',
                 'named work', 'title', 'lore term', 'named event', 'creature',
-                'resource'].freeze
+                'resource', 'gameplay mechanic'].freeze
   OPAQUE = /\$[^$]*\$|<[^>\r\n]*>|\{[^{}\r\n]*\}/
+  # {*1...} is translated display text. Protect its prefix/braces and any
+  # embedded variables/tags, rather than freezing the display text itself.
+  STRUCTURAL = /\$[^$]*\$|<[^>\r\n]*>|\{\*\d+|\{[^{}\r\n]*\}|[{}]/
 
   module_function
 
@@ -53,7 +56,8 @@ module ReviewedProperNameDiscovery
     reviewed = reviews.flat_map do |row|
       required = %w[resource ID_Linha Tipo_Variante entity_key status old new evidence english japanese chinese entity_dispositions_json]
       raise 'missing discovery manifest field' unless required.all? { |field| !row[field].nil? }
-      raise 'missing discovery evidence' if %w[evidence english japanese chinese].any? { |field| row[field].strip.empty? }
+      # Chinese is supplementary and may be blank in the aligned source CSV.
+      raise 'missing discovery evidence' if %w[evidence english japanese].any? { |field| row[field].strip.empty? }
       dispositions = JSON.parse(row.fetch('entity_dispositions_json'))
       raise 'discovery entities/dispositions differ' unless
         dispositions.keys.sort == row.fetch('entity_key').split('|').sort
@@ -62,7 +66,7 @@ module ReviewedProperNameDiscovery
         row['status'] == 'accepted' &&
         (row['old'] == row['new'] || !dispositions.value?('accepted'))
       raise 'discovery changes opaque tokens or line breaks' unless
-        row.fetch('old').scan(OPAQUE) == row.fetch('new').scan(OPAQUE) &&
+        row.fetch('old').scan(STRUCTURAL) == row.fetch('new').scan(STRUCTURAL) &&
         row['old'].scan(/\r\n|\r|\n/) == row['new'].scan(/\r\n|\r|\n/)
       raise 'invalid discovery status' unless
         ([row['status']] + dispositions.values).all? { |status| %w[accepted not-an-issue excluded uncertain].include?(status) }

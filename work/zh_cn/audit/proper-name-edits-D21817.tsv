@@ -1,0 +1,133 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"24097"	""	"candidate:The Isles"	"accepted"	"군도"	"군도(The Isles)"	"This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:24097:."	"The Isles"	"アイルズ"	"群岛"	"{}"	"{}"	"{}"
+"default"	"22615"	""	"candidate:The Isles"	"not-an-issue"	"장벽(The Walls)은 조수들과 나 같은 평범한 연구자들의 터전이지. 우린 군도(The Isles)의 기관들이 최상의 지원을 받도록 힘쓰고 있어."	"장벽(The Walls)은 조수들과 나 같은 평범한 연구자들의 터전이지. 우린 군도(The Isles)의 기관들이 최상의 지원을 받도록 힘쓰고 있어."	"The Korean text already includes the exact English label `The Isles` in parentheses. No edit or entity reclassification is needed for this candidate membership. Preserve every existing row-level index status/evidence and prior decision. This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:22615:."	"The Walls are home to the assistants, the mundane researchers like myself. We strive to ensure that the institutions of the Isles are optimally supported."	"""ウォールズ""は助手の者や私のような一般研究者にとって、家のような場所だ。""アイルズ""にある各機関を最大限に支援できるよう努めている"	"高墙是助手们以及像我这样平凡的研究人员的家园。我们努力确保群岛的各个机构得到最佳支持。"	"{}"	"{""place:the-walls"":""not-an-issue""}"	"{""place:the-walls"":""D-21460: default:22615: District housing assistants and researchers, contrasted with the Isles; already paired. EN anchor=\""The Walls are home to the assistants\""; JA=\""ウォールズ\""; ZH=\""高墙\"". Named Adessa district. English is primary; aligned locales support only the stated local reading. Preserve all other names, complete labels, opaque tokens and exact line breaks. No prior entity disposition is superseded and no global Wall/Walls alias is inferred.""}"
+"default"	"22986"	""	"candidate:The Isles"	"not-an-issue"	"군도(The Isles)의 프레토리안 근위병(Praetorians)단을 지휘하고 있네. 문제가 있으면 내 부하 중 한 명을 찾아오게."	"군도(The Isles)의 프레토리안 근위병(Praetorians)단을 지휘하고 있네. 문제가 있으면 내 부하 중 한 명을 찾아오게."	"The Korean text already includes the exact English label `The Isles` in parentheses. No edit or entity reclassification is needed for this candidate membership. Preserve every existing row-level index status/evidence and prior decision. This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:22986:."	"I oversee the Praetorians in the Isles. If you have any matters of concern, please seek out one of my men."	"""アイルズ""の軍団兵たちをまとめてるんだ。何か問題があったら、うちの部下に報告してくれ"	"我监督群岛上的禁卫军。如果你有任何事，请去找我的手下。"	"{}"	"{""organization:praetorians"":""accepted""}"	"{""organization:praetorians"":""D-21541: English establishes the Praetorians as one of the three gnomish castes (default:1553, default:62486) and as a named military order (default:40829); Decanus references at default:8433/default:9670 place the rank within that body. Japanese 兵士/軍団兵/近衛兵 and Chinese 禁卫军 corroborate a military organization, not a species; 詰所 supports the separately scoped Garrison context. The official Korean manual extraction has no direct Praetorian or gnomish-caste entry and supplies no competing Korean name. Register the organization as 프레토리안 근위대(Praetorians), with source-attested singular Praetorian and Praetorian order aliases only. Singular member mentions use 프레토리안(Praetorian), or 프레토리안 근위병(Praetorian) when the Korean role head is present. Keep Praetorian Garrison, Praetorian Watch, Praetorian Guard, and Praetorian Keymaster as separate complete labels; do not infer a Paige identity from short Praetorian Paige rows. Preserve every prior entity/key disposition and all other text, role heads, particles, number, opaque tokens, and exact line breaks. English is primary; Japanese/Chinese support is recorded per source row. No PAK evidence, source edits, or historical tally recount.""}"
+"default"	"51449"	""	"candidate:The Isles"	"not-an-issue"	"제도(The Isles)"	"제도(The Isles)"	"The Korean text already includes the exact English label `The Isles` in parentheses. No edit or entity reclassification is needed for this candidate membership. Preserve every existing row-level index status/evidence and prior decision. This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:51449:."	"The Isles"	"アイルズ"	"群岛"	"{}"	"{}"	"{}"
+"default"	"51487"	""	"candidate:The Isles"	"not-an-issue"	"제도(The Isles)에는 무슨 일로 왔나? 용건을 말하게. 난 꽤 바쁘거든."	"제도(The Isles)에는 무슨 일로 왔나? 용건을 말하게. 난 꽤 바쁘거든."	"The Korean text already includes the exact English label `The Isles` in parentheses. No edit or entity reclassification is needed for this candidate membership. Preserve every existing row-level index status/evidence and prior decision. This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:51487:."	"Have you come to the Isles on any business? Please state your intention; I'm quite busy."	"アイルズには仕事で来たの？ 忙しいから要件は端的にね"	"你来群岛有什么事吗？请说明来意，我可是很忙的。"	"{}"	"{}"	"{}"
+"default"	"51665"	""	"candidate:The Isles"	"not-an-issue"	"제도(The Isles)를 돌아다닐 때 조심하게. 이곳엔 돌봐야 할 귀중품이 많으니까."	"제도(The Isles)를 돌아다닐 때 조심하게. 이곳엔 돌봐야 할 귀중품이 많으니까."	"The Korean text already includes the exact English label `The Isles` in parentheses. No edit or entity reclassification is needed for this candidate membership. Preserve every existing row-level index status/evidence and prior decision. This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:51665:."	"Be careful making your way around the Isles. We've many valuable things to tend to here."	"""アイルズ""では気をつけて移動してくれよ。貴重なものがあちこちにあるから"	"在群岛走路时要小心。我们有很多珍贵的东西要照看。"	"{}"	"{}"	"{}"
+"default"	"53812"	""	"candidate:The Isles"	"not-an-issue"	"군도(The Isles)"	"군도(The Isles)"	"The Korean text already includes the exact English label `The Isles` in parentheses. No edit or entity reclassification is needed for this candidate membership. Preserve every existing row-level index status/evidence and prior decision. This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:53812:."	"The Isles"	"アイルズ"	"群岛"	"{}"	"{}"	"{}"
+"default"	"55782"	""	"candidate:The Isles"	"not-an-issue"	"군도(The Isles)"	"군도(The Isles)"	"The Korean text already includes the exact English label `The Isles` in parentheses. No edit or entity reclassification is needed for this candidate membership. Preserve every existing row-level index status/evidence and prior decision. This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:55782:."	"The Isles"	"アイルズ"	"群岛"	"{}"	"{}"	"{}"
+"default"	"56160"	""	"candidate:The Isles"	"not-an-issue"	"아일즈(The Isles)에는 아직 할 일이 많지만, 언젠가 아데사(Adessa)가 태양보다 더 밝게 빛날 거라고 장담할게."	"아일즈(The Isles)에는 아직 할 일이 많지만, 언젠가 아데사(Adessa)가 태양보다 더 밝게 빛날 거라고 장담할게."	"The Korean text already includes the exact English label `The Isles` in parentheses. No edit or entity reclassification is needed for this candidate membership. Preserve every existing row-level index status/evidence and prior decision. This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:56160:."	"Well, there is much work left to be done to the Isles, but I can assure you that one day, Adessa will shine brighter than the sun."	"""アイルズ""ではまだまだやるべきことが残ってるけど、きっといつかアデッサは太陽よりもまぶしく輝くわ"	"群岛还有很多工作要做，但我向你保证，有朝一日阿德萨会比太阳更加耀眼辉煌。"	"{}"	"{""place:adessa"":""not-an-issue""}"	"{""place:adessa"":""D-20669: English names the gnomish city Adessa; aligned Japanese アデッサ and Chinese 阿德萨 corroborate. Retained 아데사(Adessa), including repeated mentions and particles. Existing full mine, laboratory, library and crater pairs are preserved; exact named prison, district, book and numbered titles use one complete bilingual pair. No other text, token, number or line ending was changed. The official manual supplies setting context, not this city spelling.""}"
+"default"	"61288"	""	"candidate:The Isles"	"not-an-issue"	"아데사(Adessa)의 군도(The Isles), 바실리카 그노스트라(Basilica Gnostra)에 있는 비안 세브루스(Vian Cevrus)에게 귀중한 소포를 배달할, 정직과 신뢰를 갖춘 사람을 찾습니다. 물품 인수 시 보수를 지급합니다."	"아데사(Adessa)의 군도(The Isles), 바실리카 그노스트라(Basilica Gnostra)에 있는 비안 세브루스(Vian Cevrus)에게 귀중한 소포를 배달할, 정직과 신뢰를 갖춘 사람을 찾습니다. 물품 인수 시 보수를 지급합니다."	"The Korean text already includes the exact English label `The Isles` in parentheses. No edit or entity reclassification is needed for this candidate membership. Preserve every existing row-level index status/evidence and prior decision. This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:61288:."	"Person of highest integrity and reliability sought to deliver valuable package to one Vian Cevrus in Basilica Gnostra, The Isles, Adessa. Payment upon receipt of goods."	"アデッサの""アイルズ""にあるノーストラ教会堂、ビアン・セブラス宛ての重要な包みを届ける、誠実さ、信頼度ともに最高峰の人物求む。報酬は配達の完了時に支払われるものとする。"	"某位极其正直可靠的人需要把一个珍贵包裹送给阿德萨群岛，灵知大教堂的维安·瑟弗路斯。货到付款。"	"{}"	"{""person:vian-cevrus"":""not-an-issue"",""place:adessa"":""not-an-issue"",""place:basilica-gnostra"":""not-an-issue""}"	"{""person:vian-cevrus"":""D-21603: English-led review of 28 complete personal names across affix/base/default:\n50 source keys, one base row and 49 default rows, no affix hits.\nExact English, Japanese and Chinese cells are retained in the manifest.\nPreserve established paired spellings: Peta 페타 레스딕 at 51378,\nRaina 라이나 노른 at 17810/25852, Oliver 올리버 다탄 at 12764/53565,\nDylan 딜런 그레이버너 at 37874, Gawait 게웨이트 핸드 at 11963,\nAlard 알라드 에이딕 at 18198, Gebhardt 게브하르트 함 at 7048.\nEren uses the existing label 에렌 칼스 at 48898 instead of the isolated\n에런 케일스 in its aligned trading dialogue. Other existing Korean\nspellings remain unchanged; no new pronunciation is invented.\nVian Cevrus is the named healer/scholar in the storage, delivery and\ndissertation rows. Preserve the full Scholar Vian Cevrus annotation at\n51882 without nested name parentheses. Chinese 维安/薇安 and the\n瑟弗路斯/切维鲁斯 variants are supporting evidence, not new identities.\nRaina's Chinese 雷纳·恩霍恩 title-row variation does not override\nEnglish Raina Njorn and Japanese ライナ・ジョーン.\nByrn Dodwin is not merged with Byrn Elgar or Captain Dodwyn; Will Barns\nis not Wil Donall/Donnall; Freya/Hakon Apullos and the Aedic names are\nnot assigned family relationships merely from shared surnames.\nAlard's arena wager, captive objective and label retain their exact\nfull-name form without inventing biography or altering wager values.\nNo component aliases are inferred. The official Korean manual\nextraction/reference has no direct entries for these names. Preserve\nall other entity decisions, words, actions, ranks, particles, tokens\nand line endings. This is not a global tally or discovery-completion\nclaim. The published release ZIP is unchanged."",""place:adessa"":""D-20670: English names the gnomish city Adessa; aligned Japanese アデッサ and Chinese 阿德萨 corroborate. Retained 아데사(Adessa), including repeated mentions and particles. Existing full mine, laboratory, library and crater pairs are preserved; exact named prison, district, book and numbered titles use one complete bilingual pair. No other text, token, number or line ending was changed. The official manual supplies setting context, not this city spelling."",""place:basilica-gnostra"":""D-20931: English names the Adessa scholarly institution and its building. Across the aligned corpus, Japanese ノーストラ教会堂 and Chinese 灵知大教堂 corroborate identity, not Korean spelling; individual source exceptions are noted separately. Retain the established source-traceable most frequent form 바실리카 그노스트라; prior sentence-level judgments are not recounted. The manual's PDF p. 1 setting and p. 7 quest/faction context do not provide direct spellings for these names. Its omission is not contrary evidence. English is primary; no PAK-derived evidence.""}"
+"default"	"6296"	""	"candidate:The Isles"	"not-an-issue"	"우리가 섬들(The Isles)로 내려가는 걸 저들이 싫어해. 거기 중요한 뭔가가 있는 모양이야..."	"우리가 섬들(The Isles)로 내려가는 걸 저들이 싫어해. 거기 중요한 뭔가가 있는 모양이야..."	"The Korean text already includes the exact English label `The Isles` in parentheses. No edit or entity reclassification is needed for this candidate membership. Preserve every existing row-level index status/evidence and prior decision. This candidate scope covers the exact standalone/title label and its
+paired label evidence, not a complete source-wide adjudication of every
+Isles sentence. English is the semantic anchor; Japanese アイルズ and
+Chinese 群岛 support the source wording but do not settle whether the
+Korean should be a proper-region name or the generic rendering 군도/제도.
+At default:24097, preserve the accepted Korean rendering 군도 and add
+only the exact English label: 군도(The Isles). D-18815's not-an-issue
+translation finding remains intact; D-7741 and D-19539's separate
+proper-region/canonical-form uncertainty is not resolved. The other ten
+reviewed memberships already carry The Isles in Korean parentheses and
+remain unchanged, with all row-level index findings preserved. No entity
+is registered, and no prior index decision is changed. Exact source key: default:6296:."	"They don't like us going down into the Isles. Guess there's some important things down there...."	"私たちが""アイルズ""に入るのを連中は気に入らないらしい。何か大事なものがあるのかも..."	"他们不喜欢我们去群岛。我猜下面有一些重要的东西……"	"{}"	"{}"	"{}"

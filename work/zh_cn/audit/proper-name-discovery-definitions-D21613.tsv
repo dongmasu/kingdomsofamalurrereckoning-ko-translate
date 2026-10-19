@@ -1,0 +1,17 @@
+"entity_key"	"english_canonical"	"category"	"korean_canonical"	"english_aliases"	"korean_variants"	"evidence_ids"	"status"	"notes"
+"place:urul-tusk"	"Urul-Tusk"	"place"	"우룰 터스크(Urul-Tusk)"	"Urul Tusk"	"우룰 터스크|우룰터스크|우룰투스크|우룰의 엄니"	"D-21613|base:2861:11|base:4330:11|default:1050|default:12284|default:16319|default:24083|default:31884|default:35462|default:36149|default:38510|default:41983|default:42322|default:42382|default:53678|default:55632|default:58121|default:59817|default:63628|default:64121|default:64661|default:64849|default:8459"	"confirmed"	"English explicitly identifies Urul-Tusk as the sealed ruin/tomb containing
+the Piercing Light, with gates and the Windstone quest. The space-only
+Urul Tusk spelling at base:4330/default:35462 refers to this same place:
+Japanese ウル・タスク and Chinese 乌鲁尔图斯克/乌卢尔-塔斯克 corroborate.
+Reuse base:2861 우룰 터스크(Urul-Tusk), normalizing 우룰터스크 and
+우룰투스크 and replacing the isolated literal 우룰(Urul)의 엄니 label.
+Keep the source-local English space-only spelling inside its pair;
+do not rewrite source files or merge an independently named Urul.
+Retain later same-row short place references without duplicate pairs.
+Preserve all D-21612 Windstone changes, other names, quest states,
+source typos, tokens, counts and line endings. The official Korean
+manual extraction/reference has no direct entry for this place.
+All affix/base/default sources were searched: 22 matching keys,
+two base and 20 default, no affix hits. These are new place/entity
+events, not a recount of past translation decisions.
+Full discovery/residual validation remains incomplete. Release ZIP unchanged."

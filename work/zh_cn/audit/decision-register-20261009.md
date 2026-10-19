@@ -1,36 +1,1897 @@
 # Translation Finding Decision Register
 
+
+## D-21656: Enfamanir Creature And Separate Ballad Title
+
+Reviewed 15 distinct resource/ID/variant keys and
+15 entity matches: {"excluded"=>6, "accepted"=>8, "not-an-issue"=>1}.
+Canonical forms: 엔파마니르(Enfamanir).
+English default:26329 explicitly identifies Enfamanir as a dreaded Niskaru Horrinox; default:35224 independently names the wicked Niskaru. Japanese エンファマニア and Chinese 恩法玛尼尔/恩法曼米尔 corroborate. Reuse the established 엔파마니르(Enfamanir) at default:61125. The ballad Shadow of Enfamanir remains a separate named work: exclude title-only rows and preserve its complete bilingual title. At 26329 pair only the two independent creature references. Preserve prior D-9881/D-9893/D-16552/D-17888/D-18153 sentence, title and other-name holds; this narrow annotation is not a resolution or recount of those translation judgments. No additional biography or identity merge is inferred. Official Korean manual context gives no direct spelling for this individual creature.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21659: The Keening Region
+
+Reviewed 16 distinct resource/ID/variant keys and
+16 entity matches: {"accepted"=>10, "not-an-issue"=>5, "excluded"=>1}.
+Canonical forms: 키닝(The Keening).
+English-led all-resource review found 15 exact region references to The Keening and one separate title, The Keening Curse. Battle history, the named southern edge/peaks, a keep located in the Keening, a hollow's position, and a line explicitly calling it a place establish the region. Japanese キーニング supports the name form; Chinese 哀恸之地 independently renders the place. Register only place:the-keening and normalize its Korean display to 키닝(The Keening), including the existing 통곡 variant and missing English annotations. Exclude The Keening Curse as a distinct title; do not infer that it names or belongs to the region. All 15 exact source keys and the excluded title were checked across affix/base/default. The official Korean manual files contain no direct Keening entry; their omission is not contrary evidence. Existing row findings and historical translation totals are not reopened or recounted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21660: Rahnil Hollow Name
+
+Reviewed 11 distinct resource/ID/variant keys and
+11 entity matches: {"not-an-issue"=>5, "accepted"=>6}.
+Canonical forms: 라닐(Rahnil).
+English default:26539 explicitly names Alleia's hollow Rahnil, and default:41526/56783 independently identify a hollow on the southern edge of the Keening. Default:36130 and 54639 describe entering that location; the altar and map labels corroborate it. Japanese consistently uses ラーニル and Chinese 拉尼尔. Reuse the already paired 라닐(Rahnil) from the base map/altar labels and multiple default rows, normalizing the isolated 라흐닐 variant and adding missing English annotations. Pair each actual mention, including both mentions in default:36130, without expanding pronouns or changing the altar's generic descriptor. Do not register Rahnil Altar as a separate unique item or infer a new personal identity. The official Korean manual files have no direct Rahnil entry. D-2171's completed-action/return sequence and D-17113's route judgment remain historical findings; this narrowly evidenced name standardization does not resolve or recount their other uncertainties. All affix/base/default matches were checked; no affix match exists.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21661: Laland Post And Shining Labyrinth
+
+Reviewed 4 distinct resource/ID/variant keys and
+4 entity matches: {"accepted"=>3, "not-an-issue"=>1}.
+Canonical forms: 랄랜드 초소(Laland Post); 빛나는 미궁(Shining Labyrinth).
+English base:4464 names Laland Post and default:60500 explicitly directs the reader to it. Japanese ラーランド駐屯地 and Chinese 拉兰德前哨 corroborate a named post. Reuse the established paired 랄랜드 초소 (Laland Post) in the directional row rather than retaining the isolated 전초기지 variant. Base:4834 and default:2966 independently present Shining Labyrinth as an exact label; Japanese シャイニング迷宮 and Chinese 闪耀迷宫/闪烁迷宫 agree on a named labyrinth. Retain the existing Korean 빛나는 미궁 and add its complete English annotation. No location, occupants, history, relation to another labyrinth, or release/game validation is inferred from these labels. The official Korean manual files have no direct entries for either name. All exact all-resource source matches are covered, with no affix hits. Other entity findings and historical global translation tallies are unchanged.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21662: Castle Glory And Wall Of Whispers
+
+Reviewed 2 distinct resource/ID/variant keys and
+3 entity matches: {"accepted"=>2}.
+Canonical forms: 영광의 성(Castle Glory); 속삭임의 장벽(Wall of Whispers).
+English base:322 labels Castle Glory; default:48605 explicitly locates the Wall of Whispers beneath Castle Glory, where the letter writer and companion were meditating. Japanese 栄光の城/ささやきの壁 and Chinese 光荣城堡/私语墙壁 independently corroborate the two named sites. Retain the base label's 영광의 성, replacing 성 글로리 in the letter; preserve the letter's 속삭임의 장벽 for Wall of Whispers. Add complete English annotations to these exact location spans only. Register no biography, relationship, new Crossing alias, or unseen geography. The single source letter is sufficient for its explicitly named wall but not a claim about the wall's engine resource type. The official Korean manual has no direct entries for either site. Affix/base/default source matches and prior glossary ownership were checked. Preserve all other words, entities, clauses and historical translation dispositions.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21663: The Crossing Magical Site
+
+Reviewed 71 distinct resource/ID/variant keys and
+71 entity matches: {"not-an-issue"=>11, "excluded"=>12, "accepted"=>48}.
+Canonical forms: 크로싱(The Crossing).
+English default:45739 explicitly defines the Crossing as a protected source of magical energy; 30333 locates it amidst a subterranean lake, 46271/47600 below/in the depths of Caer Elatha, and 11304/64948 link it to the land's magic. This cross-corpus evidence establishes a named magical site rather than an ordinary road intersection. Japanese uses 力の交差点 and クロッシング for the same Maxen/Halcyor/Pura story. Chinese varies 关口, 十字祭坛 and 十字路口; at 25969 it instead says 狂风路口. English and Japanese agree at that row; do not merge this site with the independently registered Gale Crossing settlement. Reuse the already prevalent paired 크로싱(The Crossing), normalizing 교차로/교차점/교차의 장 only in independent site references. Preserve the existing Crossing Keepers organization and Font of the Crossing compound labels as excluded component matches without nested annotations or a new identity judgment. At 48605 pair the two independent site references but retain the complete organization label. At 26306 restore the explicitly source-named destination instead of the generic 통로; preserve the previously accepted 감시관의 의식 and all other wording. Earlier lexical/lore holds are not retroactively marked resolved or recounted; this records only the new site-name scope. The manual gives world/Fae background, not a direct Crossing spelling. All exact article forms across affix/base/default were checked; there are 71 default keys. Bare Crossing forms in other compounds are not registered as aliases.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21666: Shadowskin Armor Set And Complete Equipment Labels
+
+Reviewed 7 distinct resource/ID/variant keys and
+12 entity matches: {"accepted"=>6, "not-an-issue"=>1}.
+Canonical forms: 섀도스킨(Shadowskin); 섀도스킨 장화(Shadowskin Boots); 섀도스킨 두건(Shadowskin Cowl); 섀도스킨 레깅스(Shadowskin Leggings); 섀도스킨 조끼(Shadowskin Vest); 섀도스킨 장갑(Shadowskin Gloves).
+Review the explicit Shadowskin armor-set label and five source-exact
+equipment titles across base/default; affix has no matching source row.
+Keep the Shadowskin set identity separate from the Shroud of Omission.
+English supplies the explicit armor-set classification; Japanese and
+Chinese corroborate the name and complete equipment labels. On each
+equipment row, exclude the set-name component match and register only
+the whole bilingual item title. Preserve the existing sentence and
+Shroud disposition at default:54687. D-16549 was closed as not an issue
+by D-20168; neither that translation decision nor D-21433's Shroud
+decision is reopened or recounted here. The official Korean manual
+extraction/reference has no direct Shadowskin entry.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21667: Shadowthorn Hollow Place And Unclassified Homonyms
+
+Reviewed 6 distinct resource/ID/variant keys and
+6 entity matches: {"excluded"=>4, "not-an-issue"=>1, "accepted"=>1}.
+Canonical forms: 섀도손(Shadowthorn).
+English default:14028 explicitly locates Aurenda in the Fae hollow, Shadowthorn; default:42510 names Shadowthorn Hollow as the burial place of a Fae relic. Japanese シャドウソーン and シャドウソーン洞穴, with Chinese 暗影荆棘灵族洞穴 and 影刺谷, corroborate the place. Register only place:shadowthorn, with the explicit source alias Shadowthorn Hollow. Reuse the established 섀도손(Shadowthorn) at default:14028 and annotate the complete 섀도손 동굴(Shadowthorn Hollow) span at default:42510. Preserve the existing refuge wording at 14028. Exclude bare same-name labels base:1582:11 and default:2357/39881/62125 from place ownership, unchanged: their referents are not established. In particular, do not infer that the base label is this place or that it is an identified item. D-383 was closed by D-19602 without identifying the bare 2357 label; D-4167 was closed by D-19651. Preserve those terminal histories, D-12654/D-19874 at 39881, and D-17984 at 62125. Preserve D-19925's hollow/cave correction at 42510 without resolving D-13030's separate wording questions. Existing D-20450 Aurenda exclusion and D-20691/D-20703 Fae dispositions remain untouched. These are new place-specific matches, not reclassifications or recounts of earlier terminal keys or global totals. All affix/base/default source rows were checked; there are six exact name-bearing keys and no affix hits. The official Korean manual extraction/reference has no direct entry.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21668: Rose-of-Shadows Named Poison
+
+Reviewed 14 distinct resource/ID/variant keys and
+14 entity matches: {"accepted"=>10, "not-an-issue"=>4}.
+Canonical forms: 그림자 장미(Rose-of-Shadows).
+English default:61973 explicitly identifies Rose-of-Shadows as a named poison used in Walen's plan to fake his death and escape military duty. Default:18834 describes its apparent-death effect; 35503/45332 describe applying it to the opponent's sword, and 6817/17692/36774 describe buying or obtaining it from Gelphyne. Japanese シャドウローズ and Chinese 暗影玫瑰 corroborate the same named substance across all 14 source keys. Reuse the established paired 그림자 장미(Rose-of-Shadows) in the topic/objective labels. Normalize 그림자의 장미 and 장미의 그림자 only within this exact substance-name span and add missing English annotations. Register an item/substance, not a botanical species, person, unique weapon, or new biography. Other names and the meaning of dueling second remain outside this name-only scope. Preserve the terminal sentence judgments at 36774/60111 and the separate historical D-552/D-11493/D-17888 questions; do not rewrite or recount them as new global dispositions. The official Korean manual has no direct entry. All affix/base/default sources were checked, with no affix matches.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21669: Crymbil Goblin Race And Source Labels
+
+Reviewed 6 distinct resource/ID/variant keys and
+6 entity matches: {"not-an-issue"=>4, "accepted"=>2}.
+Canonical forms: 크림빌(Crymbil).
+English default:8742 explicitly identifies Crymbil and Skratta as goblin races; default:12848 independently describes the mysterious Crymbil race. Japanese クリンビル and Chinese 克伦比尔 corroborate the name, not any additional lore. Reuse the Korean stem 크림빌 from the already paired base:2447:11 label 크림빌 (The Crymbil) and the existing prose pairs. Register people:crymbil as the race, with canonical 크림빌(Crymbil). The attested article-bearing alias The Crymbil is used only for the complete base:2447:11/default:20118 source labels; preserve the existing base label, including its spacing. Do not infer a separate named work, unique item, individual, or equipment identity from those labels. All six source keys were checked across affix/base/default: one base and five default keys, with no affix or compound equipment-label hits. Equipment compounds require independent identity evidence; a species modifier alone is insufficient and must not produce a new item owner or nested parentheses. Unknown source compounds fail closed for a separate exclusion review, rather than receiving a species annotation. At default:55479 annotate only the independent race reference; preserve Odonata and the existing bust description without inventing an item name. Preserve D-18275's terminal not-an-issue decision at default:20118 and D-2452's sentence judgment at default:8742. This name-only registration and missing annotation do not reopen or recount those translation decisions, the separate D-16492/D-20164 holds, or historical global totals. Preserve all other names, wording, particles, tokens, and line breaks. The official Korean manual extraction/reference has no direct Crymbil entry. Source CSVs remain read-only; no PAK is consulted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21670: The Quartenion Book And Separate Script
+
+Reviewed 3 distinct resource/ID/variant keys and
+3 entity matches: {"not-an-issue"=>1, "accepted"=>1, "excluded"=>1}.
+Canonical forms: 쿼터니언(The Quartenion).
+English default:12357 explicitly introduces excerpts from The Quartenion by Benedict Ashman and a numbered chapter. Japanese names the work 四元数 with the author and an excerpt, while Chinese gives the author and book title 四元. Default:42324 is the identical complete title. Reuse the already paired 쿼터니언(The Quartenion) in the excerpt and replace only the isolated unpaired 콰터니언 title. Register a named work, not a mathematical term or a lore-writing system. Default:45438 instead says Quartenion hand, an Erathi script/writing style; exclude that match and preserve its existing translation and D-13905 hold. No relationship between the title and that script is inferred. D-3596's terminal chapter-heading/lineation judgment is preserved. The official Korean manual has no direct title entry. All affix/base/ default exact Quartenion matches were checked; only these three default keys exist. Other names, the author's annotation and line breaks remain untouched, and no historical translation total is recounted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21671: Sparrows Rag-Picker Group
+
+Reviewed 37 distinct resource/ID/variant keys and
+37 entity matches: {"accepted"=>36, "excluded"=>1}.
+Canonical forms: 참새단(Sparrows).
+English 39724/49154 explicitly defines the Sparrows as Rathir's rag-pickers led by Selni; 20919/61558 describes the orphans/rag-pickers living in tunnels, and the Talibor/Dunn murder story repeats this same collective identity. Japanese スズメ and Chinese 麻雀 consistently corroborate these people, not birds. Register one faction/group with the established D-19762/D-19764/D-19863/D-19872 Korean 참새단, replacing 스패로우단/스패로우들/참새들 only in the source-matched group spans. Exact The Sparrows topic labels retain their full article in English; other group annotations use Sparrows. At 31232 the source's final singular a Sparrow of our kind explicitly denotes a member, so use 참새단원(Sparrow) locally without a global Sparrow alias. Retain singular-label identity questions elsewhere. The group's possessive nest descriptions remain nest/hideout descriptions, not new map-site identities. Default:59501 is explicitly an ordinary bird comparison in a farming text, excluded unchanged. Preserve the existing sentence judgments and other names, including Orwin Dunn, Gelphyne, Selni, Lyria and Eriad Talibor. Prior terminal keys and historical tally updates are not repeated; only the new glossary/entity-row scope is recorded. Correct particles made necessary by the reviewed name span, preserving all other wording. No direct manual spelling exists for this group. All affix/base/default matches were checked: 37 default keys only.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21672: Revival Settlement Name
+
+Reviewed 71 distinct resource/ID/variant keys and
+71 entity matches: {"not-an-issue"=>24, "accepted"=>46, "excluded"=>1}.
+Canonical forms: 리바이벌(Revival).
+English default:36456 explicitly explains that the refugee settlement began as one tent, grew into a city, and was named Revival for its residents' hope of a new start. Default:37797 independently says the settlers call the place Revival. Across the 71 exact default keys, English consistently identifies this named community; aligned Japanese リバイバル and Chinese 复兴营地 corroborate it. Normalize the settlement only to 리바이벌(Revival), replacing 부활/부흥/부활촌 or unpaired 리바이벌 where needed. Preserve all sentence wording, line breaks, names, particles and generic camp descriptors. At default:16934 the source explicitly names Camp Revival, so retain that complete source label as 리바이벌 야영지(Camp Revival), an alias of the settlement. Default:27223 is already the complete bilingual Revival Prison label; exclude its nested Revival component and keep it byte-for-byte intact. Standalone place labels and all other source-local references are checked individually. The official Korean manual has no direct Revival entry. Existing terminal decisions for other entities in overlapping rows and historical global totals are preserved, not reopened or recounted. All 71 case-insensitive affix/base/default keys were checked; they are 71 default keys, split sequentially into 50 and 21.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21674: Idylla Concourse Named Hub
+
+Reviewed 27 distinct resource/ID/variant keys and
+27 entity matches: {"accepted"=>25, "excluded"=>1, "not-an-issue"=>1}.
+Canonical forms: 콩코스(Concourse).
+English default:43466 defines the Concourse as the city's main hub, gathering and prayer place. Default:46865 explicitly says the masons call Idylla's heart the Concourse, 31578 names Idylla Concourse, and 22274/30111/45849 link the same place to the Hyperian. Japanese コンコース and Chinese 菱形广场 corroborate the site across these contexts. Reuse the already paired 콩코스(Concourse) at 52406 and normalize 콘코스/컨코스/회랑/대회랑/중앙 홀/중앙 광장 only in the named site spans. Keep complete source-local Idylla Concourse and Main Concourse labels atomic, preserving Idylla's established Korean spelling. Market remains a generic descriptor outside the place annotation. Numbered loading/debug labels retain their numbers and loading role; 17174 restores the explicitly named Concourse rather than generic 구역. The lowercase city concourse in the planning prose at 7190 is excluded as a generic description, without inferring it names the same site. Do not alter the unrelated final city/artifact antecedent in the long journal, any Hyperian judgment, or historical D-18412/D-14642/D-15918 findings. This is a new place-entity scope, not a tally recount or physical-shape claim. No direct manual name entry exists. All 27 exact case-insensitive affix/base/default source keys are covered, all default.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21676: Gamian Name And Monk Title
+
+Reviewed 7 distinct resource/ID/variant keys and
+7 entity matches: {"accepted"=>4, "not-an-issue"=>3}.
+Canonical forms: 가미안(Gamian).
+English default:22114 names Brother Gamian; 61978 explicitly says he keeps the local shards and gems, 44310 identifies him as the person best able to explain gem-working, and 45117 directs other questions to Gamian or Udo. Default:32556 is his signed teaching text from St. Hadwyn's Undying Mission. Standalone default:61726 has aligned Japanese ギャミアン and Chinese 加米安, while default:64721 repeats the already bilingual Gamian label with English retained in all source locales. These linked exact names and contexts support one person, not a generic religious title. Japanese ブラザー・ギャミアン and Chinese 加米安修士/伽米安修士 corroborate the titled form; use the established Korean religious title 수사, not literal 형제. Normalize the given name to 가미안(Gamian), and use 가미안 수사(Brother Gamian) for titled references. Keep the two already bilingual standalone labels and the already paired 61978 reference unchanged. Do not annotate unrelated Udo or infer biography beyond these source statements. The official Korean manual contains no exact Gamian entry. All seven exact English source keys across affix/base/default were checked; they are all default. No historical entity disposition or global tally is reopened or recounted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21677: Adarus Key Named Item
+
+Reviewed 4 distinct resource/ID/variant keys and
+4 entity matches: {"accepted"=>3, "not-an-issue"=>1}.
+Canonical forms: 아다루스의 열쇠(Adarus Key).
+Register Adarus Key as the named item Adarus Key, not the bare Adarus person/name. English base:2066 is the standalone item label; Japanese アダラスの鍵 and Chinese 阿达鲁斯钥匙 corroborate it. Default:26423 and default:30017 refer to the same named item within seed descriptions; their Japanese and Chinese rows support the item reference. Pair only those exact Korean item-name spans as 아다루스의 열쇠(Adarus Key). Default:8189 already contains that complete bilingual form and remains unchanged. Keep Adarus Keybinding Seed, Adarus Keybow Seed, and Adarus Keyblade Seed atomic and separate; do not attach the bare Adarus name to this item entity. D-19307's terminal not-an-issue record for default:26423 remains verbatim and is not reopened or reinterpreted. At default:30017, this item-name annotation does not resolve the outstanding sentence and translation hold: D-9640 remains unchanged and open. All exact Adarus Key source keys across affix/base/default are checked; no other source key is included. No historical global tally is recounted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21678: Aster Strongbox Named Item
+
+Reviewed 6 distinct resource/ID/variant keys and
+6 entity matches: {"accepted"=>5, "not-an-issue"=>1}.
+Canonical forms: 애스터 금고(Aster Strongbox).
+Register item:aster-strongbox as the named strongbox item label 애스터 금고(Aster Strongbox), supported by standalone English base:4419 and default:13184, Japanese アスターの金庫 and Chinese 阿斯特尔保险箱. Reuse the existing 애스터 spelling; no family, group, or personal ownership is established or claimed. Only the exact strongbox name spans at base:4419 and default:19925/29348/46517/50130 are annotated, retaining each English source's singular/plural and capitalization. Default:13184 already has the complete bilingual label and remains unchanged. Aster Key is separate, not an alias; its reference at default:50130 remains unchanged. D-19725, D-9213, D-9225, D-15238, D-20077, and D-20764 remain verbatim and are not reopened, superseded, or recounted. In particular D-9225 and D-15238 remain unresolved; default:50130 receives only a source-bounded name annotation, not a sentence judgment. Its uncover interpretation and all text outside that name remain unchanged except for the single necessary object-particle adjustment 을→를 attached to the replacement item label. D-20764 remains a Tala-Rane-only decision. All six exact English source keys across affix/base/default are checked. No historical global tally is changed; full discovery remains incomplete.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21679: Bag of Winds Named Item
+
+Reviewed 14 distinct resource/ID/variant keys and
+14 entity matches: {"accepted"=>13, "not-an-issue"=>1}.
+Canonical forms: 바람 주머니(Bag of Winds).
+Base:1465 is the standalone Bag of Winds item label; default:52890 is its theft objective, and default:61678 already uses the complete 바람 주머니(Bag of Winds) pair. The remaining exact English references describe the same guard-carried item used to bypass the Watcher or extinguish the torches. Japanese 旋風の袋 consistently corroborates that item; Chinese usually uses 风之袋, with source-local variants 一袋风石 at default:52890 and 袋子里的风 at default:64509. These differences do not outweigh the English/Japanese match and established Korean pair. Register only item:bag-of-winds; infer no rarity, owner, additional mechanics, or relationship to other items. Normalize only the one attested Korean item-name span in each of the 14 exact keys. Preserve possessives, pronouns, particles, punctuation, line breaks, placeholders, all surrounding text, and every other entity's reviewed disposition. D-3048 at default:10607 and D-4595 at default:15100 are terminal not-an-issue sentence findings; D-10506 at default:32385, D-12097 at default:37293, D-13898 at default:45395, and D-16895 at default:55976 are prior uncertain sentence findings. They remain unchanged: this is a new item-name scope, not a reopening or recount. Exact source coverage is one base key and 13 default keys; affix has no Bag of Winds hit. No PAK or reference-data inspection is involved.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21680: Bloodstone Named Quest Item
+
+Reviewed 15 distinct resource/ID/variant keys and
+15 entity matches: {"accepted"=>7, "not-an-issue"=>7, "excluded"=>1}.
+Canonical forms: 블러드스톤(Bloodstone).
+English base:1115 gives the standalone Bloodstone label; default:5438 explicitly calls it a gem known as the Bloodstone. The 14 exact requested source rows refer to that same named quest item. Japanese ブラッドストーン corroborates its established transliteration; Chinese 血石/鸡血石 supports the mineral meaning. Normalize only the seven unpaired Korean item spans to 블러드스톤(Bloodstone), preserving all other wording and paired occurrences. Keep default:29053's accepted D-9093 pairing unchanged. Exclude default:39869 Bloodstone Deep as a separate atomic label and preserve 블러드스톤 심연. At default:58632, change only 혈석; retain D-19740's independent 관→서클릿 circlet correction and the surrounding locations, people, and Rose reference. Search covered affix/base/default; these are the complete 15 exact Bloodstone phrase hits, including the one excluded compound. No historical row judgment or global tally is reopened or recounted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21681: Breath Of Abra And Breath Of Arba Named Items
+
+Reviewed 12 distinct resource/ID/variant keys and
+12 entity matches: {"accepted"=>10, "not-an-issue"=>2}.
+Canonical forms: 아브라의 숨결(Breath of Abra); 아르바의 숨결(Breath of Arba).
+Register Breath of Abra and Breath of Arba as two distinct named items. English supplies the two separate exact titles; Japanese アーバの息吹/ アーバの息 and Chinese 亚尔巴之息/阿尔巴之息 corroborate the aligned item names. Reuse the Korean title roots already present in the source, using atomic pairs 아브라의 숨결(Breath of Abra) and 아르바의 숨결(Breath of Arba). Do not merge the two items, create a person:abra owner, infer a person identity from Arba in either item name, or infer rarity or item mechanics. At default:33403, annotate only the Breath of Arba span; leave the separate Arba's staff wording and the relationship between the title and staff unresolved. Preserve all person:arba exclusions from D-20434 and the historical D-10815 and D-19809 records at default:33403, without reopening or rewriting them. D-6293's broader uncertainty at default:20287 and D-6610's sentence finding at default:21369 also remain unchanged. These are new item-name scopes only: no other wording, particles, pronouns, punctuation, line breaks, placeholders, owner dispositions, or historical findings change. Exact source coverage is two Abra keys and ten Arba keys across base and default; no affix hits exist.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21682: Cowl Of The Maiden Named Item
+
+Reviewed 9 distinct resource/ID/variant keys and
+9 entity matches: {"accepted"=>7, "not-an-issue"=>2}.
+Canonical forms: 처녀의 두건(Cowl of the Maiden).
+English identifies one named item, the Cowl of the Maiden, across base:328 and eight default keys. Default:49616 explicitly glosses it as a cowl worn by Lyria's high priestess and hidden at the Temple of Lyria; this is the item title, not a global identity decision about every use of maiden or the capitalized Maid. Japanese 乙女の頭巾 and Chinese 少女斗篷 corroborate the item and its source-local name. Use the established Korean 처녀의 두건(Cowl of the Maiden), replacing 시녀의 두건 only in the two exact item spans. Do not infer virginity, ownership, a separate person named Maiden, or any relationship beyond the source description. Keep Temple of Lyria and all other names atomic and unchanged. Default:23064 and default:61462 already have the complete bilingual item label and remain unchanged. Preserve D-2459's accepted Traveler/commission relationship at default:8773, D-7262 and D-18542 histories at default:23064, D-7991 and D-18953 at default:24558, D-17754 and its D-19740 snapshot at default:58737, and D-17951 at default:61462 verbatim; this item-name annotation neither reopens nor recounts them. The official Korean manual has no direct item entry. Exact English/Japanese/Chinese source coverage is one base key and eight default keys, with no affix hits.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21683: Meathgra Named Leanashe
+
+Reviewed 19 distinct resource/ID/variant keys and
+19 entity matches: {"not-an-issue"=>12, "accepted"=>7}.
+Canonical forms: 미스그라(Meathgra).
+English default:13321 explicitly identifies Meathgra as a leanashe, and default:28878 and default:45882 independently call her an ancient leanashe; these establish a named creature, not a human person. The exact English name occurs in one base key and 18 default keys. Japanese ミースグラ and Chinese 米斯格拉 consistently corroborate the established Korean 미스그라. Register only monster:meathgra as 미스그라(Meathgra). Add the English pair to every unpaired Korean name occurrence in the 19 exact source keys, preserving already paired occurrences and all particles, possessives, pronouns, punctuation, placeholders, and other text. The possessive Meathgra's Den rows are occurrences of this creature's name, not separate item or place identities. The official Korean manual extraction/reference contains no direct Meathgra entry. Search covered affix/base/default. No unrelated entity, historical disposition, or global tally is reopened or recounted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21684: Abblier Named Person And Epithet
+
+Reviewed 13 distinct resource/ID/variant keys and
+13 entity matches: {"accepted"=>12, "not-an-issue"=>1}.
+Canonical forms: 아블리에(Abblier).
+English default:27210 explicitly identifies Abblier as a man; default:32831 and the aligned petition-board dialogue identify him as the Hospitalis Quarters board custodian, and default:64630 confirms his death. The exact name occurs in 13 default keys. Japanese アブリア and Chinese 阿比利尔 corroborate the localized name; default:22215 retains English in both supporting locales. Standardize the established majority Korean form to 아블리에(Abblier), correcting 애블리어 only in this exact person scope. At default:41901, English Abblier the Addled and aligned Japanese/Chinese identify the same person's epithet; use 얼빠진 아블리에(Abblier the Addled), not a second person. Register only person:abblier with the full epithet as an English alias. Preserve every role, title, particle, surrounding name, line break, placeholder, and unrelated entity disposition. The official Korean manual extraction/reference has no direct Abblier entry. Search covered affix/base/default. No historical finding or global tally is reopened or recounted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21685: Llyfarstair Named Book And Numbered Volumes
+
+Reviewed 5 distinct resource/ID/variant keys and
+5 entity matches: {"accepted"=>5}.
+Canonical forms: 리파르스테어(Llyfarstair).
+English default:33628 explicitly identifies the Llyfarstair as a named book written by Ormend of Rathir. The four exact base labels Llyfarstair I-IV are its numbered volume titles. Japanese ルリファーステアI-IV and Chinese 莉法斯塔尔I-IV corroborate the title stem; the default narrative's aligned Japanese ルリファーステア and Chinese 《利法斯泰尔》 identify the same work. Reuse the established Korean narrative form 리파르스테어 and standardize the four volume labels to atomic full-title pairs such as 리파르스테어 III (Llyfarstair III). Do not infer further authorship, publication history, or relationships beyond the explicit sentence. Preserve all chapter text, roman numerals, quotes, names, placeholders, line breaks, and unrelated dispositions. Exact coverage is four base keys and one default key; affix has no hit. The official Korean manual extraction/reference has no direct Llyfarstair entry.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21686: Nal Gorwin Named Person
+
+Reviewed 2 distinct resource/ID/variant keys and
+2 entity matches: {"not-an-issue"=>2}.
+Canonical forms: 날 고윈(Nal Gorwin).
+English base:173 and default:56341 both identify the named individual whose grave is labeled Grave of Nal Gorwin. Japanese ナル・ゴーウィンの墓 and Chinese 纳尔·戈文之墓/纳尔·葛文之墓 corroborate the name; English remains the identity anchor. Register person:nal-gorwin as 날 고윈(Nal Gorwin), preserving the already consistent Korean name. Infer no title, occupation, species, biography, or relationship beyond the grave labels. The two exact source keys are already fully paired, so no Texto edit is warranted. No affix hit exists. The official Korean manual extraction/reference has no direct Nal Gorwin entry.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21691: Ancient Vault Named Warsworn Site
+
+Reviewed 26 distinct resource/ID/variant keys and
+26 entity matches: {"not-an-issue"=>1, "accepted"=>25}.
+Canonical forms: 고대 금고(Ancient Vault).
+English identifies Ancient Vault as the specific Warsworn location in the Heart of Sibun theft/recovery storyline. Default:59022 locates the Vault in Southern Tala-Rane on a pass leading to the Wolds; default:13031, 13286, 15426, 32212, 32736, and 60675 independently identify the same inspected, visited, or explored site. Aligned Japanese 古代の宝物庫 and Chinese 远古金库 corroborate the location term. Standardize only these 26 exact English source matches to 고대 금고(Ancient Vault), preserving surrounding text and particles. The already paired default:7589 remains unchanged. Do not extend this entity to generic vaults, the plural Ancient Vaults, or the separately reviewed Warsworn Vault wording at default:3481 (D-725). The official Korean manual PDF p.7 names Warsworn as a faction but does not name this site. Prior row-level translation findings, including D-3812 at default:13031, remain independent and are not reopened or recounted. No PAK-derived material was consulted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21694: Dunehead, Lyriat, And Minn The Grinner
+
+Reviewed 17 distinct resource/ID/variant keys and
+17 entity matches: {"not-an-issue"=>8, "accepted"=>9}.
+Canonical forms: 듄헤드(Dunehead); 리리아 신도(Lyriat); 웃음꾼 민(Minn the Grinner).
+Register three source-supported proper-name scopes: place Dunehead, the follower term Lyriat, and person Minn the Grinner. The full English, Japanese, Chinese, and Korean evidence is in the exact manifest. Corthis remains unresolved because its standalone name, Fist of Corthis, Corthis Unbroken, and Butcher of Corthis references do not establish one referent/category or settle its spelling; preserve D-3867, D-4057, D-19529, and D-19539 histories. Llosgiad remains unresolved because the sources use the same term for the Second Burning event and for the post-fire southern dock area; do not merge event/place or impose a global category. Their eight exact source keys are recorded in the D-21694 candidate-disposition manifest without new glossary/index entries. Only explicit, high-confidence label spans were edited; existing terminal judgments and historical counts remain unchanged.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21695: Ascension And Battle For Galafor Plain
+
+Reviewed 8 distinct resource/ID/variant keys and
+8 entity matches: {"accepted"=>3, "excluded"=>3, "not-an-issue"=>2}.
+Canonical forms: 승천(Ascension); 갈라포르 평원 전투(Battle for Galafor Plain).
+Reviewed eight short-label candidate groups from the bounded D-21694 snapshot, preserving all existing indexed decisions. Register the named Ascension period and Battle for Galafor Plain as separate events; do not confuse either with the existing Mitharan or Galafor owners. Adept and Archsage are translated ranks/titles, and Aurochs is not proven to be a named Amalur creature. Antechamber, Awesome House, and Basilica remain explicit identity/alias holds; their cells and prior owner histories are unchanged. Exact aligned rows and prior index states are in the candidate disposition manifest.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21696: Augur, The Revival Prophet
+
+Reviewed 50 distinct resource/ID/variant keys and
+50 entity matches: {"excluded"=>7, "accepted"=>29, "not-an-issue"=>14}.
+Canonical forms: 예언자(Augur).
+Register Augur as the named Revival individual who styles himself as Telogrus’ prophet. Normalize only his person references to 예언자(Augur), preserving role language, sentence meaning, particles, and complete neighboring labels. Exclude the six generic affix variants and Augur’s Gem from the person entity; their possessive phrases do not prove ownership by this individual. Existing faction, deity, settlement, person, and historical row decisions in overlapping cells remain unchanged.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21707: Blink Ability And Bone Town
+
+Reviewed 27 distinct resource/ID/variant keys and
+27 entity matches: {"not-an-issue"=>3, "excluded"=>13, "accepted"=>11}.
+Canonical forms: 점멸(Blink); 본 타운(Bone Town).
+Register Blink as a named combat ability and Bone Town as a named settlement. English mechanics and place context establish both identities; aligned Japanese and Chinese corroborate. Pair only exact standalone or ability references, excluding ordinary "blink" expressions and complete Ice Blink/Poison Blink labels. Preserve the independent Bolgan Bane, Brownie, and other candidate scopes; no prior translation judgment or global tally is reopened or recounted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21709: Brownie Species And Bilingual Consistency
+
+Reviewed 73 distinct resource/ID/variant keys and
+73 entity matches: {"excluded"=>6, "accepted"=>67}.
+Canonical forms: 브라우니(Brownie).
+The exact corpus scan found 73 Brownie/Brownies source keys across base/default. Sixty-seven direct species references are registered and standardized as Korean (English). The 73 source keys are reviewed in bounded batches of 50 and 23 (D-21709 and D-21710). Six compound or unresolved source forms are explicitly excluded from the species span, preserving their independent histories. English controls identity and number; all 73 aligned Japanese and Chinese rows corroborate. No prior terminal key or historical tally was reopened or recounted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21711: Corthis Place-Name Consistency
+
+Reviewed 5 distinct resource/ID/variant keys and
+5 entity matches: {"not-an-issue"=>1, "accepted"=>4}.
+Canonical forms: 코르티스(Corthis).
+Reviewed all five exact English Corthis source keys in default. English contexts identify the Fist of Corthis as an island and use Corthis in related geographic labels. Japanese コーディス/コルシス and Chinese 克塞思/克塞斯 were compared as corroboration, not as competing English authorities. Reuse 코르티스(Corthis), preserving complete bilingual phrases and all unrelated names. No prior terminal key or historical total was reopened or recounted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21712: Chicken Overlord Name Consistency
+
+Reviewed 2 distinct resource/ID/variant keys and
+2 entity matches: {"accepted"=>2}.
+Canonical forms: 치킨 오버로드(Chicken Overlord).
+Reviewed both exact English Chicken Overlord source keys: the standalone enemy label and its attack objective. Japanese チキン・オーバーロード and Chinese 鸡领主 corroborate. Normalize the inconsistent Korean translations to 치킨 오버로드(Chicken Overlord), preserving the attack objective and all surrounding text.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21714: Awesome House Place-Name Consistency
+
+Reviewed 2 distinct resource/ID/variant keys and
+2 entity matches: {"accepted"=>2}.
+Canonical forms: 멋진 집(Awesome House).
+Reviewed both exact English Awesome House keys in base: the residence label and its key. Japanese 素晴らしい家/素晴らしい家への鍵 and Chinese 惊奇房屋/惊奇的家的钥匙 corroborate the meaning. Use the natural Korean name 멋진 집(Awesome House) consistently, preserving the possessive key relationship and source item structure.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21716: Death Cap Resource-Name Consistency
+
+Reviewed 2 distinct resource/ID/variant keys and
+2 entity matches: {"accepted"=>1, "not-an-issue"=>1}.
+Canonical forms: 데스 캡(Death Cap).
+Reviewed both exact English Death Cap labels in base/default. Japanese デスキャップ and Chinese 死亡之帽 align on the named resource. Standardize the base label to the already paired default form 데스 캡(Death Cap); the existing default occurrence remains unchanged. The official Korean manual has alchemy terminology but no direct Death Cap entry.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21717: Dark Sliver Staff-Name Consistency
+
+Reviewed 4 distinct resource/ID/variant keys and
+4 entity matches: {"accepted"=>4}.
+Canonical forms: 어둠의 파편(Dark Sliver).
+Reviewed all four exact English Dark Sliver keys. The aligned context identifies it as a named staff; the other keys are its standalone item label. Korean 어둠의 파편 is the consistent literal form. Japanese ダークシルバー and Chinese 暗银/深银 suggest “Dark Silver,” but English explicitly says Sliver and controls the name. Use 어둠의 파편(Dark Sliver) throughout.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21718: Cathedral of the World and Chalice of Forced Vintage
+
+Reviewed 9 distinct resource/ID/variant keys and
+9 entity matches: {"accepted"=>7, "not-an-issue"=>2}.
+Canonical forms: 세계의 대성당(Cathedral of the World); 강제 숙성의 성배(Chalice of Forced Vintage).
+Register the named Cathedral of the World location and the unique Chalice of Forced Vintage quest item. English establishes identity and meaning; aligned Japanese and Chinese are corroborating evidence. Standardize only the exact source-matched Korean name spans; preserve all other entities, prose, tokens, and line breaks.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21719: Champion of Valor, Chaos Critters, and Chariot
+
+Reviewed 37 distinct resource/ID/variant keys and
+37 entity matches: {"accepted"=>31, "excluded"=>2, "not-an-issue"=>4}.
+Canonical forms: 용맹의 챔피언(Champion of Valor); 혼돈 생물(Chaos Critters); 전차를 모는 자(Chariot).
+Register the Travelers titles Champion of Valor and Chariot and the hostile Chaos Critters monster group. English establishes identity and role; aligned Japanese and Chinese corroborate. Exclude only the Champion of Valor component nested in the distinct Grand Champion of Valor title. Preserve all other names, faction decisions, prose, tokens, and line breaks.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21720: Rathir City Watch Organization
+
+Reviewed 50 distinct resource/ID/variant keys and
+50 entity matches: {"accepted"=>42, "not-an-issue"=>8}.
+Canonical forms: 도시 경비대(City Watch).
+English identifies the City Watch as the organized law-enforcement body serving Rathir: speakers refer to its captain, home, public service, arrests, investigations, and requests for aid. Aligned Japanese 警備隊 consistently corroborates the guard organization; Chinese uses source-local 城市守备处/城市守卫/城市守备队 forms and occasionally the city name where English and Japanese identify the Watch. The official Korean manual describes generic guards and bribery but does not name the City Watch, so it supplies no spelling or identity claim. Register only organization:city-watch with canonical 도시 경비대(City Watch). Review exactly the one base key and 49 default keys in this batch. Keep the full Rathir City Watch label at default:60519 atomic and unchanged; seven already-paired labels also remain unchanged. Normalize only the exact City Watch label spans at the other 42 keys. Preserve every particle, pronoun, generic follow-up reference, sentence, line break, and prior entity disposition. In particular, do not reopen the D-20056 wording amendment at default:49065, the D-15852 uncertainty at default:52214, or other indexed holds/findings. No generic guard/watch references outside these exact English source keys are included.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21721: Clan Totem, Consistorium, and Crown of the Sun
+
+Reviewed 26 distinct resource/ID/variant keys and
+26 entity matches: {"excluded"=>3, "not-an-issue"=>6, "accepted"=>17}.
+Canonical forms: 클랜 토템(Clan Totem); 콘시스토리움(Consistorium); 태양의 왕관(Crown of the Sun).
+English establishes the quest object, Adessa site, and sacred Fae training site; aligned Japanese and Chinese corroborate each exact row. The official Korean manual reference/extraction has no direct Clan Totem, Consistorium, Counsel, or crown-name entry; its general world/quest context does not establish new identities. Preserve all prior entity/key dispositions and historical translation holds without reopening or recounting them. Exclude the complete Kobold Clan Totem and Consistorium Key labels from their shorter components, leaving those Korean cells byte-identical. Do not infer a second Arkes person or a Crown of Clouds place from a tunnel label. Preserve unrelated names, prose, tokens, particles, and line breaks.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21722: Watcher Sentry and Whispering Caves
+
+Reviewed 22 distinct resource/ID/variant keys and
+22 entity matches: {"excluded"=>8, "not-an-issue"=>3, "accepted"=>11}.
+Canonical forms: 감시자(Watcher); 속삭임 동굴(Whispering Caves).
+English-led full-source review distinguishes the named magical sentry from generic watchers, titled people and independent compounds. Normalize the named cave to its existing bilingual form. Japanese and Chinese corroborate each identity. Preserve prior person/place/item dispositions and all unrelated text.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21723: Ring of the Watcher Place Name
+
+Reviewed 4 distinct resource/ID/variant keys and
+4 entity matches: {"not-an-issue"=>2, "accepted"=>2}.
+Canonical forms: 감시자의 고리(Ring of the Watcher).
+Register the complete English-named ruin independently of the Watcher sentry. Preserve all previous component exclusions, existing Scion/Akara/Gallows End/Erathi decisions, source quantities, markup, and unrelated prose. Pair only the two missing complete place-name spans.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21729: Fervor Named Weapon
+
+Reviewed 7 distinct resource/ID/variant keys and
+7 entity matches: {"accepted"=>1, "excluded"=>5, "not-an-issue"=>1}.
+Canonical forms: 열정(Fervor).
+Register the source-confirmed named weapon Fervor, distinguishing its proper item use from the ordinary abstract noun. The base item label and its exact item description are reviewed against English, aligned Japanese, and Chinese. Keep the already paired description, all other entities, and unrelated generic occurrences unchanged; do not infer item rarity.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21731: Late-Alphabet Named Items, Place, Lore Term, and Title
+
+Reviewed 30 distinct resource/ID/variant keys and
+30 entity matches: {"accepted"=>21, "excluded"=>4, "not-an-issue"=>5}.
+Canonical forms: 잎사귀 봉헌물(Votive of Leaf); 가시 장벽(Wall of Thorns); 떠도는 샘(Wandering Well); 빛의 수호자(Warden of Light); 워스원 장부(Warsworn Ledger); 보름 산장(Vorm Lodge).
+Reviewed only the eight requested late-alphabet candidate groups across all exact English source hits. English is primary; aligned Japanese and Chinese corroborate per key. The official Korean manual reference/extraction has no direct entry for these names and does not establish a competing rendering. New entity rows are additive: all existing entity/key dispositions, historical holds, and global counts remain untouched. Do not globalize Well, Vorm, or Warsworn aliases. Keep Warsworn Galley/Keep as translated faction descriptors, not unique vessel/place identities. Exclude the Wall of Thorns quest objective from its lore-term scope; exclude the Draught of the Wandering Well atomic item and retain D-11477 default:35453 as uncertain. Preserve D-11506/D-14973 Warsworn Keep, D-15934 Warsworn Galley, D-16493 Warden of Light, D-17488 Wall of Thorns, and prior person:vorm exclusions.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21732: Detect Hidden Named Skill
+
+Reviewed 22 distinct resource/ID/variant keys and
+22 entity matches: {"accepted"=>21, "not-an-issue"=>1}.
+Canonical forms: 숨겨진 물건 찾기(Detect Hidden).
+Review all 22 exact Detect Hidden source keys across affix/base/default.
+English identifies the named gameplay skill; aligned Japanese and Chinese
+corroborate each source context. The official Korean manual reference
+gives 숨겨진 물건 찾기 (PDF p. 4). Reuse that spelling and pair only this
+named skill, including where it appears as a component of a skill-book
+label. Preserve unrelated entities, prior row decisions and global counts.
+Do not generalize this skill name to ordinary hidden objects or stealth.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21735: Dispelling Named Gameplay Skill
+
+Reviewed 48 distinct resource/ID/variant keys and
+48 entity matches: {"accepted"=>32, "excluded"=>14, "not-an-issue"=>2}.
+Canonical forms: 디스펠(Dispelling).
+Review every exact English Dispelling hit across affix/base/default.
+English establishes the gameplay skill in labels, skill-book/trainer
+names, training, upgrades, and explicit skill descriptions. The official
+Korean manual extraction/reference gives 디스펠(Dispelling), PDF p. 4.
+Aligned Japanese 解呪 and Chinese 驱散 corroborate the mechanic.
+Annotate only direct references to the named gameplay skill. Exclude
+ordinary dispelling actions and the separate Hall of Dispelling place;
+do not generalize to lower-case verbs or standalone Dispel. Preserve all
+prior entity and translation decisions, exact tokens, and line breaks.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21736: Destiny Stone Named Artifact
+
+Reviewed 13 distinct resource/ID/variant keys and
+13 entity matches: {"accepted"=>9, "not-an-issue"=>4}.
+Canonical forms: 운명의 돌(Destiny Stone).
+Review all 13 exact Destiny Stone source keys across base/default. English
+describes one singular artifact created by the first Fateweavers, kept at
+the Theater of Fate, and touched or shattered in the aligned story rows.
+Japanese 宿命の石 and Chinese 命运之石/天命之石 corroborate the same
+artifact. Reuse the established Korean 운명의 돌 and pair the complete
+English name. The official Korean manual extraction/reference has no
+direct Destiny Stone entry; its omission is not contrary evidence.
+Keep the separate Codex of Destiny identity and all prior row decisions.
+Preserve unrelated names, particles, tokens, markup, and line breaks.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21737: Draug Named Creature
+
+Reviewed 32 distinct resource/ID/variant keys and
+32 entity matches: {"excluded"=>21, "not-an-issue"=>3, "accepted"=>8}.
+Canonical forms: 드라우그(Draug).
+Review all 32 exact English Draug source keys across base/default. English
+identifies a singular legendary creature in independent contexts, but the
+sources disagree whether Draug is a troll, a Jottun warmaster, or a beast.
+Register only the broad creature identity; do not resolve species, sex,
+biography, or chronology. Japanese ドラウグ and Chinese 德拉格 corroborate
+the name in aligned lore rows; the standalone label is untranslated across
+those locales. Reuse Korean 드라우그 and pair the name where independently
+referenced. Exclude all 21 atomic Draug's Toothpicks item-title contexts,
+and preserve its separate unique-item registration. Keep Draug-bane as the
+source's epithet while pairing only its referent Draug. The official Korean
+manual has no direct creature-roster entry; omission is not contrary
+evidence. Preserve every prior entity/key disposition and translation
+finding, exact line breaks, and unrelated text.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21739: Eastern Strand and Erathi Nexus Places
+
+Reviewed 6 distinct resource/ID/variant keys and
+6 entity matches: {"accepted"=>3, "not-an-issue"=>3}.
+Canonical forms: 동쪽 해안(Eastern Strand); 에라시 넥서스(Erathi Nexus).
+Review the exact named place terms Eastern Strand and Erathi Nexus across
+base/default. English identifies the Eastern Strand as the region where
+the druid's students live and the source of the named armor pieces;
+Japanese 東ストランド and Chinese 东部海滩 corroborate the coastal
+location. Reuse 동쪽 해안 and pair the complete English name.
+English describes the Erathi Nexus as the destination that guides the
+player through Chaos dungeons to the armor pieces; Japanese エラシ・ネクサス
+and Chinese 埃拉西节点 corroborate the named site. Reuse the established
+Korean 에라시 넥서스(Erathi Nexus), replacing only the inconsistent base
+label. The official Korean manual has no direct entry for either place;
+omission is not contrary evidence. Preserve the separate Erathi people
+entry and all existing row/translation findings, tokens, and line breaks.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21741: Exploit Weakness Named Gameplay Effect
+
+Reviewed 3 distinct resource/ID/variant keys and
+3 entity matches: {"accepted"=>2, "not-an-issue"=>1}.
+Canonical forms: 약점 공략(Exploit Weakness).
+Review all three exact Exploit Weakness effect keys. English explicitly
+names an effect activated by landing attacks and states its stacking caps;
+it is a gameplay effect, not a player skill or a character. Japanese
+弱点利用 and Chinese 压榨弱点 support the effect name, and Korean already
+uses 약점 공략. Register as a bounded lore/gameplay term and add the full
+English pair only where missing. Preserve D-7283's existing not-an-issue
+translation verdict for default:23121 and do not recount or revise it.
+The official Korean manual has no direct effect entry. Keep all numeric
+caps, quotation marks, particles, tokens, and line breaks unchanged.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21743: Fateless One Player Epithet
+
+Reviewed 125 distinct resource/ID/variant keys and
+125 entity matches: {"accepted"=>103, "not-an-issue"=>22}.
+Canonical forms: 운명 없는 자(Fateless One).
+Review every exact English Fateless One occurrence across the active
+affix/base/default inventory. Prior English-led context review D-19397
+establishes 운명 없는 자 as the active-corpus player epithet; aligned
+Japanese 運命なき者 and Chinese 无常之人 corroborate the same referent.
+Normalize the isolated 무명자 and 페이트리스 원 variants, and pair each
+Korean mention with the exact English epithet. This is a bounded title
+and annotation pass, not a reopening or recount of D-19397 or other
+historical sentence findings. Preserve particles, punctuation, markup,
+opaque tokens, and line breaks. The official Korean manual has no direct
+entry for this game-specific epithet.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21746: Fateshift Gameplay Mechanic
+
+Reviewed 16 distinct resource/ID/variant keys and
+16 entity matches: {"accepted"=>14, "not-an-issue"=>2}.
+Canonical forms: 운명 전환(Fateshift).
+Review all exact Fateshift action/mechanic references and the source
+inflections Fateshifts, Fateshifting, and Fateshifted across affix/base/
+default. Reckoning tutorial and combat-stat contexts establish a named
+gameplay action, not an unlockable skill. Japanese フェイトシフト and
+Chinese 改命 corroborate the mechanic; standardize its Korean name as
+운명 전환(Fateshift), preserving each Korean grammatical form. At
+default:35098, translate the awkward verb phrase as 적에게
+운명 전환(Fateshift)을 사용하기 before the enemy defeat instruction,
+matching Japanese フェイトシフトを行う and Chinese 改命一击.
+Fateshifter's at six affix variants is a distinct derivative/agent term
+and is excluded for separate review; no person or faction identity is
+inferred. Preserve D-5455, D-18393, D-11378, and D-11769 as historical
+row findings; this narrow term pass does not resolve or recount them.
+Preserve markup, particles, opaque tokens, numbers, and line breaks.
+The official Korean manual has no direct Fateshift entry.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21747: Fatesworn Faction
+
+Reviewed 37 distinct resource/ID/variant keys and
+37 entity matches: {"excluded"=>26, "not-an-issue"=>4, "accepted"=>7}.
+Canonical forms: 운명에 맹세한 자들(Fatesworn).
+English explicitly says the group called themselves the Fatesworn, later
+became mercenaries, and are now known as the Warsworn; other rows describe
+them receiving an Erathi device, tracking armor pieces, and being the
+subject of stories and prophecy. Japanese フェイトスウォーン and Chinese
+誓命者 corroborate the collective name. Register only faction:the-fatesworn
+and standardize the 11 source rows that refer to this group as
+운명에 맹세한 자들(Fatesworn).
+Exclude 18 Hope of the Fatesworn armor/set component matches because the
+complete atomic item is separately registered; preserve default:8089's
+existing uncertain item identity. Exclude Fatesworn DLC/story-line uses,
+the complete quest title Threat of the Fatesworn, and default:60886 where
+Fatesworn is a player epithet. Exclude default:49657's ambiguous old
+Fatesworn armor reference from the faction scope without inferring that
+it is the Hope set. These exclusions do not alter existing item/title
+decisions or create DLC/quest identities. Preserve prior row findings,
+particles, markup, tokens, punctuation, and line breaks. The official
+Korean manual does not list this DLC-era faction.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21748: Fellfire Pit Place
+
+Reviewed 13 distinct resource/ID/variant keys and
+13 entity matches: {"accepted"=>10, "not-an-issue"=>3}.
+Canonical forms: 펠파이어 구덩이(Fellfire Pit).
+Review every exact Fellfire Pit reference across affix/base/default.
+English default:12808 explicitly calls it another Fae Hollow and says
+Fellfire Bloom grows only in the pit's sulfuric climate; travel and
+quest-label rows independently identify the same place. Japanese
+フェルファイア岩窟 and Chinese 邪火洞/落火坑 corroborate the location.
+Use the established Fellfire root 펠파이어 and canonical place form
+펠파이어 구덩이(Fellfire Pit), correcting the split base label and
+adding missing English pairs. At default:12808, restore the second
+explicit English place mention rather than leaving the generic 그 구덩이.
+Keep the distinct item:fellfire-bloom as 펠파이어 꽃(Fellfire Bloom);
+do not merge the flower with its location. Earlier sentence findings at
+default:12808, 13511, 19699, 25490, 50298, and 50534 remain historical
+decisions and are not resolved or recounted by this place-name pass.
+Preserve particles, markup, tokens, punctuation, and line breaks. The
+official Korean manual has no direct Fellfire entry.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+## D-21749: First Burning Historical Event
+
+| Decision | Scope | Result | Evidence |
+| --- | --- | --- | --- |
+| Register `event:first-burning` | `default` 3833, 6870, 32093 | `accepted` at 6870; canonical bilingual form retained at 3833 and 32093 | English cross-context identifies one named historical fire; Japanese and Chinese corroborate. Supersedes D-1842 only on proper-name classification/display at 6870. D-834 and D-1842 original records remain historical; no global tally is changed. |
+
+See `named-scope-review-D21749-20261018.md` and
+`named-scope-correction-D21749-20261018.md`. Existing translation
+dispositions are not recounted.
+
+
+## D-21785: Pombero, Rotclaw, Prismere Basin, Rose of Kandrian, And Prismere Orb
+
+Reviewed 22 distinct resource/ID/variant keys and
+22 entity matches: {"accepted"=>11, "not-an-issue"=>11}.
+Canonical forms: 폼베로(Pombero); 로트클로(Rotclaw); 프리즘미어 분지(Prismere Basin); 칸드리안의 장미(Rose of Kandrian); 프리즘미어 구슬(Prismere Orb).
+English is the identity and meaning anchor; exact aligned Japanese and Chinese source cells corroborate each entity. Reviewed every exact English source hit across affix/base/default. Normalize only the named spans listed in the per-row manifest; preserve existing entity owners, all other text, tokens, particles and line breaks. No PAK, PAK-derived data or historical global tally was consulted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+## D-21790: Reckoning And Ring Short-Label Review
+
+Reviewed seven short-label memberships in seven distinct source keys:
+`Reckoning` (3) and `Ring` (4). Two `Reckoning` labels remain uncertain;
+the explicit mode use is already correctly paired. Generic equipment
+rings remain `반지`; `default:1029` retains the separate collective
+`고리(Ring)` disposition from D-20388. No indexed status, cumulative
+count, or CSV cell changed. Exact aligned locale text and prior index
+decisions are in `proper-name-short-label-dispositions-D21790.tsv`.
+D-760 at `default:3621` is not superseded. The refreshed candidate
+snapshot is bounded, not exhaustive; full proper-name discovery and
+residual validation remain incomplete.
+
+
+## D-21791: Scarwood Tree And Scholia Arcana Grounds
+
+Reviewed 8 distinct resource/ID/variant keys and
+8 entity matches: {"accepted"=>6, "not-an-issue"=>1, "excluded"=>1}.
+Canonical forms: 스카우드 나무(Scarwood Tree); 스콜리아 아르카나 구역(Scholia Arcana Grounds).
+English is the identity and meaning anchor; exact aligned Japanese and Chinese source cells corroborate the named tree and place. Searched every exact English source hit across affix/base/default; no affix hit occurs in either scope. Updated only reviewed named spans, preserving all prior owners, particles, tokens and line breaks. Existing translation dispositions and historical global totals were not reopened or recounted. No PAK or PAK-derived data was consulted.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21796: Sorcery Ability-Tree Terminology
+
+Reviewed 50 distinct resource/ID/variant keys and
+50 entity matches: {"excluded"=>22, "accepted"=>28}.
+Canonical forms: 마법(Sorcery).
+Official Korean manual extraction PDF page 5 labels the Ability Tree `마법(Sorcery)` and describes `마법 능력`. English identifies formal tree/category uses; aligned Japanese and Chinese corroborate. Generic uses and compound item/weapon labels remain excluded. Existing terminal decisions are preserved.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21797: Soulbind Named Curse
+
+Reviewed 13 distinct resource/ID/variant keys and
+13 entity matches: {"excluded"=>2, "accepted"=>10, "not-an-issue"=>1}.
+Canonical forms: 영혼 결속(Soulbind).
+English dialogue explicitly identifies Soulbind as Ticneri’s named curse, latest creation, and the condition cured by the potion; explicit Soulbind Curse labels identify the same lore term. Japanese 魂縛の呪い and Chinese 魂缚诅咒 corroborate. Use 영혼 결속(Soulbind), and pair complete compound labels as 영혼 결속 저주(Soulbind Curse). Preserve terminal D-19591/D-165 and D-18607 without reopening them.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21798: Southern Lights Aurora Australis
+
+Reviewed 5 distinct resource/ID/variant keys and
+5 entity matches: {"accepted"=>5}.
+Canonical forms: 남극광(Southern Lights).
+English is the meaning anchor. All five exact hits use Southern Lights for the visible phenomenon; default:42656 explicitly says the speaker hopes to spot it. Japanese uses オーロラ throughout and Chinese renders it as southern light(s). Use the established Korean astronomical term 남극광(Southern Lights), not a faction/person classification. Resolve only the term questions at default:12143, default:42656, and default:51561; keep D-16512’s separate dialogue questions open.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21799: Sparrow Short-Label Review
+
+Reviewed all nine source keys in the refreshed `Sparrow` candidate group.
+Four cells reuse the established `참새단(Sparrows)` / `참새단원(Sparrow)`
+terminology; one is already canonical. Four isolated or metaphorical
+readings remain uncertain. Existing `faction:sparrows` ownership is reused;
+no global singular alias or indexed occurrence was added. D-292, D-7026,
+D-9108, and D-16374 are superseded only for the specific Sparrow referent
+and terminology findings described in the manifest. D-6445 and D-17903
+remain uncertain. D-10122 was already handled by D-21671 and is not
+recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21800: Speakstone Communication Item
+
+Reviewed 7 distinct resource/ID/variant keys and
+7 entity matches: {"accepted"=>5, "not-an-issue"=>2}.
+Canonical forms: 발화석(Speakstone).
+English anchors the identity and use of Speakstone as a communication stone; Japanese さえずり石 and Chinese 传音石 corroborate. The active corpus already uses 발화석 at default:7770, default:28801 and default:46018, so standardize the same device to 발화석(Speakstone) in all seven exact source rows, including lowercase references and Fae Speakstone. Preserve generic Fae terminology, all particles, quotes, dialogue and prior unrelated entity dispositions. Resolve only the item-name questions at default:7770 and 58110, base:299:11 and default:31125; D-9005’s other terms and broader sentence/lore findings remain open.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21800: Speakstone Candidate Membership Review
+
+The four short-label memberships comprise two corrected labels and two
+already-canonical labels. The source-wide item review covers seven exact
+keys across base/default, including lower-case dialogue references. The
+chosen item form is `발화석(Speakstone)`, supported by the existing
+aligned corpus usage plus Japanese さえずり石 and Chinese 传音石.
+D-2137, D-10088 and D-17536 are resolved only for the Speakstone item
+name; D-9005's unrelated deferred terms and broader sentence/lore
+findings remain open. Full proper-name discovery remains incomplete.
+
+
+## D-21801: Spidersac Ichor Alchemical Reagent
+
+Reviewed 7 distinct resource/ID/variant keys and
+7 entity matches: {"accepted"=>6, "not-an-issue"=>1}.
+Canonical forms: 거미낭 이코르(Spidersac Ichor).
+English is the meaning anchor for the same named Spidersac Ichor ingredient in inventory labels and lowercase dialogue. Japanese イコル supports the lore-specific “ichor” term where explicit and Japanese 蜘蛛の分泌液 plus Chinese 蜘蛛囊液 corroborate the substance. Reuse existing Korean 거미낭 이코르 at default:8633 and standardize all seven exact references to 거미낭 이코르(Spidersac Ichor). Do not change Fennwrac, grist, Jottun, quantities, or sentence wording. Resolve the name/ingredient term only; preserve D-9980/D-13832 questions about the other ingredients and all other prior decisions.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21801: Spidersac Ichor Candidate Membership Review
+
+The four short-label memberships include three corrected translations
+and one already-canonical entry. The source-wide item review covers all
+seven exact references, including lowercase dialogue. Use
+`거미낭 이코르(Spidersac Ichor)`, retaining the attested lore term
+`이코르` rather than generic “fluid/blood.” D-6169 and D-15696 are
+superseded only for this item-name choice. D-9980, D-13832, D-20499 and
+D-20501 retain their unrelated Fennwrac/grist/Jottun findings. Full
+proper-name discovery remains incomplete.
+
+
+## D-21803: The Stalwart Named Vessel
+
+Reviewed 4 distinct resource/ID/variant keys and
+4 entity matches: {"excluded"=>3, "accepted"=>1}.
+Canonical forms: 스톨워트(The Stalwart).
+English default:64178 explicitly identifies The Stalwart as a named vessel. Japanese スタルワート号 corroborates the phonetic name and ship classification; Chinese 忠诚号 corroborates the steadfast/worthy sense. Pair the already used Korean ship-name transliteration as 스톨워트(The Stalwart), changing only the missing article in the English annotation. The same case-insensitive phrase appears in ordinary lowercase adjectival clauses at default:13575, 23481, and 40922; exclude those three homonyms without editing their sentences. The six affix:360 variants are the common adjective “Stalwart,” translated as 굳건한; exclude them from this ship identity and preserve all six affix cells unchanged.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21804: Still Manor Residence And Entrance Labels
+
+Reviewed 4 distinct resource/ID/variant keys and
+6 entity matches: {"accepted"=>3, "not-an-issue"=>1}.
+Canonical forms: 스틸 저택(Still Manor); 스틸 저택 경비 출입구(Still Manor Guard Entrance); 스틸 저택 하인 출입구(Still Manor Servants Entrance).
+English is the identity anchor. The standalone residence is named Still Manor at base:1631/default:12629; Japanese Still Manor/スティル邸 and Chinese 寂静庄园/平静庄园 support the same place. Use 스틸 저택(Still Manor), correcting the nested/incomplete base label and retaining the already canonical default label. English also names distinct map labels Still Manor Guard Entrance and Still Manor Servants Entrance at base:1292/base:1886; aligned Japanese/Chinese corroborate their different users. Register each complete entrance as its own place label, pair the full English compound, and exclude the overlapping Still Manor component on those two rows. No other properties, ownership or relationships are inferred.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+
+## D-21805: Sylvanite Mineral And Material Name
+
+Reviewed 24 distinct resource/ID/variant keys and
+24 entity matches: {"accepted"=>22, "not-an-issue"=>2}.
+Canonical forms: 실바나이트(Sylvanite).
+English is the meaning and identity anchor for the named mineral/resource Sylvanite across affix/base/default. Japanese シルバナイト corroborates the name; Chinese 针碲金银矿 and 金银矿 corroborate its ore/material reading. Reuse the consistent Korean 실바나이트 and pair the term as 실바나이트(Sylvanite), changing only the term span in six affix variants, fifteen base labels, and default:30434. Default:3476 and 4730 are already paired and remain unchanged. Default:8646 is expressly outside this entity scope because English says lower-case “sylvan spear,” not Sylvanite. Preserve all other item labels, sentences, particles and tokens.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
 <!-- current-proper-name-batch:start -->
 ## Latest Verified Proper-Name Batch
 
-Latest verified proper-name batch: D-21569 (2026-10-17).
-Japanese parenthetical scan: 113 candidates classified; 77 `Texto` cells corrected; existing proper-name decisions were not reopened or recounted.
-Next batch: D-21570; continue source-discovery/residual closure checks; no unreviewed indexed keys.
-Indexed matches: 44016; accepted=29416, excluded=2876, not-an-issue=11628, uncertain=96.
+Latest verified proper-name batch: D-21851 (2026-10-19).
+Reviewed 8 distinct resource/ID/variant keys: {"not-an-issue"=>6, "accepted"=>2}.
+Groups: {"person:hugues"=>8}. Last reviewed key: default:39675: / person:hugues.
+Next batch: D-21852; continue source discovery/residual checks; no unreviewed indexed keys.
+Indexed matches: 48476; accepted=32641, excluded=3217, not-an-issue=12507, uncertain=111.
 Remaining unreviewed indexed matches: 0, in 0 distinct CSV row keys.
-Reviewed unresolved indexed holds: 96, in 93 distinct CSV row keys.
-These are focused entity/row index states, not global translation totals. The documented uncertain matches remain reviewed holds, not unreviewed work.
+Reviewed unresolved indexed holds: 111, in 106 distinct CSV row keys.
+If only reviewed holds remain, continue discovery/residual checks; do not reopen them without new evidence.
+These are focused entity/row index states, not global translation totals.
 Sequential default review through ID 65134 remains completed and is not recounted.
 Machine-generated proper-name candidate list: 305 terms; registered-reviewed=305, heuristic-not-reviewed=0. This list is not exhaustive; it does not establish an overall completion percentage.
 Full proper-name discovery/residual validation remains incomplete; do not claim overall completion.
 Active CSV SHA-256:
-- affix: `c21fa755fe559f5dd980b79900cb920ee3739b25b7138950e8f54123aa308310`.
-- base: `895ff1e3eb03341d7c026ce3bfbd4cea355705956a1e494e04eed5a2014b1567`.
-- default: `7f7c49432b4141e8a0301182fd907d7f536de1694468d25fd231a72d46e927f5`.
-Last batch pre-edit backup and byte validation:
-- default: 77 cells; pre `9c07c64ee4762a840d15e0cbaba0e19ae2dbb6babcd73fe6292de5ade0d57ad4`; post `7f7c49432b4141e8a0301182fd907d7f536de1694468d25fd231a72d46e927f5`; backup `/private/tmp/ko-translate-backups/20261017/before-default-parenthetical-D21569/locatexts_zh_cn.koalocatext_default.csv`.
-default: PASS 77 changed cells; 65135 ordered rows; BOM, mixed line endings, exact row keys/order, opaque tokens, non-target bytes, and inverse backup reconstruction verified. Index: PASS 16 current-text caches updated; all keys, statuses, and evidence unchanged.
+- affix: `9dbee978d73148eeb547c2a01a58e3d8168a519824382d339179c55770492b33`.
+- base: `afb24dd6ca7a252173af67e593761ab622e6d615a129d97318854721b300db0c`.
+- default: `5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f`.
+Last batch pre-edit backups and byte validation:
+- default: 2 cells; pre `b7579da53067c7b14f06759a734a68dbed3ea9004c2e76576ce5893ad1c17e46`; post `5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21851/locatexts_zh_cn.koalocatext_default.csv`.
+default: PASS 2 cells; 65135 ordered rows; masked non-target bytes + inverse equal backup; SHA-256 5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f
 Last actual CSV-edit backups (retained across no-edit batches):
-- affix: 1 cells; pre `9ae001a379b766612293d076eafb5b02a27ac2de70f05f2f98a706f7aef5607c`; post `c21fa755fe559f5dd980b79900cb920ee3739b25b7138950e8f54123aa308310`; backup `/private/tmp/ko-translate-backups/20261017/before-proper-name-D21521/locatexts_zh_cn.koalocatext_affix.csv`.
-- base: 1 cells; pre `ab0619937fbb187b356253b9916f3676d2002f8017b25b71cc53be29307aee10`; post `895ff1e3eb03341d7c026ce3bfbd4cea355705956a1e494e04eed5a2014b1567`; backup `/private/tmp/ko-translate-backups/20261017/before-proper-name-D21557/locatexts_zh_cn.koalocatext_base.csv`.
-- default: 77 cells; pre `9c07c64ee4762a840d15e0cbaba0e19ae2dbb6babcd73fe6292de5ade0d57ad4`; post `7f7c49432b4141e8a0301182fd907d7f536de1694468d25fd231a72d46e927f5`; backup `/private/tmp/ko-translate-backups/20261017/before-default-parenthetical-D21569/locatexts_zh_cn.koalocatext_default.csv`.
-Aligned inventory: 73430 rows; SHA-256 `9c67a88ce998bf8cb60c5df5c103f7fb0c0900cf5514cde8821a680ebf6e8018`.
-Occurrence index: 44016 rows; SHA-256 `8406e714bd989cfb42bcf31afca1156914640b91502dfe766e50a3dcc615b8ef`.
-Proper-name glossary: 1838 entries; SHA-256 `693bc8fd6e3a4fd4da14d4898db4d534c740aba9ddc18d453f8386d75e338bf4`.
-Report: `work/zh_cn/audit/named-scope-review-D21569-20261017.md`.
-Addendum: `work/zh_cn/audit/named-scope-edit-addendum-D21569-20261017.md`.
-Full Japanese-parenthetical candidate manifest: `work/zh_cn/audit/japanese-parenthetical-review-D21569.tsv`.
+- affix: 6 cells; pre `d626613abec04cf818602ed9c627490a9668a65783e9619e50e84fb97bdfc2dd`; post `9dbee978d73148eeb547c2a01a58e3d8168a519824382d339179c55770492b33`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21835/locatexts_zh_cn.koalocatext_affix.csv`.
+- base: 4 cells; pre `50c11da1f94bb6bc91012d7c411267e8b57857f25e1cd6c0c862a305f210ede0`; post `afb24dd6ca7a252173af67e593761ab622e6d615a129d97318854721b300db0c`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21849/locatexts_zh_cn.koalocatext_base.csv`.
+- default: 2 cells; pre `b7579da53067c7b14f06759a734a68dbed3ea9004c2e76576ce5893ad1c17e46`; post `5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21851/locatexts_zh_cn.koalocatext_default.csv`.
+Aligned inventory: 73430 rows; SHA-256 `99b58ffd73eb15324c72cc1edec49c5dc6efb84fb4d251729aea66eeab2eb6f7`.
+Occurrence index: 48476 rows; SHA-256 `0064432a69341df0d07084c8e46bf4e76503fc7b6346e6462caa7ed1a3ddaff5`.
+Proper-name glossary: 2348 entries; SHA-256 `c9a2eb5f07b8ae6128cd174a2707c766c4ff4b2f18afa5cbcd15b6dba8a0e387`.
+Report: `work/zh_cn/audit/named-scope-review-D21851-20261019.md`.
+Addendum: `work/zh_cn/audit/named-scope-edit-addendum-D21851-20261019.md`.
+Exact source comparison manifest: `work/zh_cn/audit/proper-name-edits-D21851.tsv`.
 <!-- current-proper-name-batch:end -->
+
+### D-21832 Scope Clarification
+
+D-21832 confirms `gameplay mechanic:twists-of-fate` as
+`운명의 굴곡(Twists of Fate)` from the standalone menu, View action, and
+cross-locale feature descriptions. This settles only the feature identity
+and display wording noted as open in D-16077/default:52956 and
+D-17983/default:62112. Their historical broader-text dispositions and
+counts remain unchanged; unrelated text and structure concerns were not
+re-reviewed or recounted. See
+`work/zh_cn/audit/named-scope-review-D21832-20261018.md`.
+
+### D-21833 Scope Clarification
+
+D-21833 confirms `Tyrannus Bolganus` as the player-awarded title
+`볼간을 막아 내는 자(Tyrannus Bolganus)`, settling only the title/name
+identity/display aspect of D-6011, D-11136, and D-17354. The malformed
+English announcer wording in D-17354 remains a separate concern.
+default:57657 received a particle-only corrective pass on 2026-10-19;
+both the original batch and correction backups are recorded in
+`work/zh_cn/audit/named-scope-edit-addendum-D21833-20261018.md`.
+
+### D-21834 Scope Clarification
+
+D-21834 registers plural `Undersewers` as the named destination
+`언더시어즈(Undersewers)`, while excluding generic lowercase sewer uses.
+The singular Idylla `Undersewer`, `Idylla Under Sewers`, and historical
+D-3555/D-16798 dispositions remain distinct and unchanged. See
+`work/zh_cn/audit/named-scope-review-D21834-20261019.md`.
+
+### D-21835 Scope Clarification
+
+D-21835 registers the formal Destiny/archetype `Universalist` as
+`보편주의자(Universalist)`, including its six possessive affix variants.
+This supersedes only the Universalist name/display uncertainty in D-17389;
+Lords of Valor, King of Cups, and all unrelated historical concerns remain
+unchanged. See `work/zh_cn/audit/named-scope-review-D21835-20261019.md`.
+
+
+### Historical D-21617-D-21620 Resume (Processed)
+
+Reviewed 61 distinct source keys and edited 57 distinct Texto cells across
+four bounded batches. Existing person/family/place dispositions were retained;
+eight item/site entries and three existing-owner phrase aliases were added.
+The D-21621 source-label queue and subsequent scopes through D-21650 have
+been processed. This is historical context; resume only from the latest
+verified batch above.
+The separate 14-group/24-row unclassified-label review is documented in
+`work/zh_cn/audit/proper-name-unclassified-label-review-20261017.md`;
+it is not added to the 96 indexed holds or treated as confirmed identity.
+Validation: `work/zh_cn/audit/proper-name-validation-D21617-D21620-20261017.md`.
+Full proper-name discovery remains incomplete; the release ZIP is unchanged.
+
+### D-21607-D-21613 Validation And Concrete Resume
+
+Seven batches reviewed 153 distinct source rows (160 row-review events;
+164 new entity/row matches) and changed 123 distinct Texto cells:
+seven base and 116 default. Fifteen new entities and one existing-owner
+source alias were registered; prior terminal dispositions were preserved.
+Byte-preserving per-batch validation and D-21605-D-21613 reverse
+reconstruction passed; the nine new regression tests passed.
+Details: `work/zh_cn/audit/proper-name-validation-D21607-D21613-20261017.md`.
+The former D-21614 family resume is processed through D-21617; do not
+restart it. Follow the current checkpoint and current resume queue above.
+Historical queue: `work/zh_cn/audit/proper-name-residual-queue-D21614-20261017.md`.
+That queue also separates 14 unclassified label families from the 96
+indexed holds and preserves the two Eyrie/Eryie discovery holds. None of
+these counts establishes the overall remaining total or completion.
+The old D-21605 thirty-label queue is processed; do not resume it.
+Full discovery/residual validation remains incomplete. Release ZIP unchanged.
+
+### D-21606: Three Further Full Personal Names
+
+English-led review of three exact personal-name entities and all 21
+distinct default/base source rows. Aligned Japanese and Chinese support
+the identities and pronunciations. Standardize partial or split
+parentheses to one complete Korean (English full-name) annotation:
+Jokull Fangard, Erion Rheidarn, and Hautren Kalt. Reuse the already
+established full-name spellings elsewhere in the same scopes. In the
+long arena ledger and dialogue, preserve later short-name references
+rather than repeating full-name annotations. Hautren's epitaph
+spelling is normalized to 호트렌, matching the complete-name labels
+and Japanese ホートレン. Existing component-entity dispositions remain
+untouched and are not recounted. The official Korean manual
+extraction/reference has no direct entry for these names. No role,
+relationship or biography is inferred beyond explicit English context.
+Full proper-name discovery/residual validation remains incomplete.
+Registered three complete-name entities and reviewed 21 distinct
+source row keys: one base and 20 default. Seven partial/split
+full-name annotations were standardized; 14 already-canonical rows
+remain unchanged. Later short-name references in the ledger/dialogue
+were preserved. Existing component-entity findings and previous
+terminal decisions were not reopened or recounted.
+
+### D-21605: Fifty Full-Name Source Rows
+
+English-led review of 17 exact personal-name entities and all 50
+distinct affix/base/default source rows containing those full names.
+Exact English labels and contextual references were checked against
+aligned Japanese pronunciation/register and Chinese supporting text.
+Reuse established Korean name components, normalize each complete
+name to one non-nested Korean (English full-name) annotation, and
+leave short-name references outside the full-name span unchanged.
+Existing component-entity dispositions are preserved and not
+recounted; the full-name scopes are newly indexed. Source-local
+pronunciation variants are resolved only where the corpus provides
+a consistent form: Erion Raff uses 라프; Cyf Cadyr uses 카디르;
+Vulgar Donnoh uses the complete-label form 벌거 도노. No family
+relationship, biography, or role is inferred from a name label alone.
+The official Korean manual extraction/reference has no direct entry
+for these names. Preserve all unrelated text, tokens and line endings.
+Full discovery/residual validation remains incomplete.
+Registered 17 complete personal-name entities and reviewed 50
+distinct source row keys: one base and 49 default. The full-name
+scopes are new; previously terminal given-name, surname, place and
+other entity decisions were preserved and not recounted. Existing
+complete full-name pairs remain unchanged. Applied only the reviewed
+name-span corrections; no unrelated text or resources were changed.
+
+### D-21599-D-21604 Validation And Concrete Resume
+
+Reviewed 103 new name entities in 214 distinct CSV rows (216 entity/row
+review events); edited 151 distinct default Texto cells (153 edit events).
+All six byte-preserving backup/reverse checks passed. Regression:
+4 tests/561 assertions; residual audit: 1/11; candidate tests: 13/68;
+editor/inventory fixtures and active glossary/index validation passed.
+Details: `proper-name-validation-D21599-D21604-20261017.md`.
+Resume D-21605 at default:1865 using
+`proper-name-residual-queue-D21605-20261017.md`:
+30 partial-pair/spelling candidates, not approved errors. Resolve existing
+owners and prior row dispositions before editing; do not duplicate people
+or recount terminal keys. Eyrie Peak/Eryie Peak remains a two-label
+unclassified discovery hold outside the 96 indexed holds. No overall
+completion claim; source discovery beyond this queue remains open.
+
+### D-21604: Four Remaining Clear Full-Name Labels
+
+English-led review of four exact personal-name labels across
+affix/base/default, five default keys and no affix/base hits.
+Preserve existing Korean spellings and add the English full name
+where absent. Steve Trainer and Sean Andrew Murray are source name
+labels only: no NPC, developer-credit role or biography is inferred
+from their shuffled location. Japanese/Chinese transliterate the
+same complete names. Fargill Enfries reuses the paired 파길 엔프리스
+at default:16430. Do not infer a global Fargill alias from the
+separate healer's short-name dialogue. Frama Foswig is not Frama
+Aedic, as already established in D-21275; the unassigned Frama's
+Husband label at default:48893 is not linked to either person.
+The official Korean manual extraction/reference gives no direct
+entry for these names. Preserve other text, source-local labels,
+tokens, particles and line endings. No prior terminal person key is
+recounted, and the published release ZIP is unchanged.
+The residual Eyrie Peak/Eryie Peak labels are not resolved by this
+batch. Their referent type and equivalence remain unestablished;
+do not merge them or replace 봉우리 with a personal surname by
+Japanese/Chinese phonetic formatting alone. Full discovery remains
+incomplete, including short-name/title/partial-pair and other-category
+residuals; this bounded scan is not an overall completion claim.
+Registered four full-name entities, reviewed five keys, and edited
+four default Texto cells. The established Fargill pair remains
+unchanged. Eyrie Peak/Eryie Peak is a documented discovery hold
+outside the indexed 96 holds; it has no newly accepted translation,
+identity classification or CSV edit.
+
+### D-21603: Twenty-Eight Further Full Personal Names
+
+English-led review of 28 complete personal names across affix/base/default:
+50 source keys, one base row and 49 default rows, no affix hits.
+Exact English, Japanese and Chinese cells are retained in the manifest.
+Preserve established paired spellings: Peta 페타 레스딕 at 51378,
+Raina 라이나 노른 at 17810/25852, Oliver 올리버 다탄 at 12764/53565,
+Dylan 딜런 그레이버너 at 37874, Gawait 게웨이트 핸드 at 11963,
+Alard 알라드 에이딕 at 18198, Gebhardt 게브하르트 함 at 7048.
+Eren uses the existing label 에렌 칼스 at 48898 instead of the isolated
+에런 케일스 in its aligned trading dialogue. Other existing Korean
+spellings remain unchanged; no new pronunciation is invented.
+Vian Cevrus is the named healer/scholar in the storage, delivery and
+dissertation rows. Preserve the full Scholar Vian Cevrus annotation at
+51882 without nested name parentheses. Chinese 维安/薇安 and the
+瑟弗路斯/切维鲁斯 variants are supporting evidence, not new identities.
+Raina's Chinese 雷纳·恩霍恩 title-row variation does not override
+English Raina Njorn and Japanese ライナ・ジョーン.
+Byrn Dodwin is not merged with Byrn Elgar or Captain Dodwyn; Will Barns
+is not Wil Donall/Donnall; Freya/Hakon Apullos and the Aedic names are
+not assigned family relationships merely from shared surnames.
+Alard's arena wager, captive objective and label retain their exact
+full-name form without inventing biography or altering wager values.
+No component aliases are inferred. The official Korean manual
+extraction/reference has no direct entries for these names. Preserve
+all other entity decisions, words, actions, ranks, particles, tokens
+and line endings. This is not a global tally or discovery-completion
+claim. The published release ZIP is unchanged.
+Registered 28 full-name entities, reviewed exactly 50 keys, and
+edited 33 default Texto cells. Seventeen established paired keys,
+including base:1787 and the Scholar Vian Cevrus title, remain unchanged.
+
+### D-21602: Fifty Full-Name Source Keys
+
+Review 23 complete personal names in exactly 50 source row keys across
+affix/base/default. All exact full-name hits are default rows, with
+no affix/base hits. English anchors identity and spelling; exact
+Japanese and Chinese cells are retained as pronunciation/context
+checks. Singleton full-name labels are registered as source labels,
+not assigned invented biography, locations or relationships.
+Reuse existing paired Korean forms where present; Klang uses
+클랭 태리칙 at default:57369 rather than 태리치크. No unsupported
+pronunciation changes to other existing Korean names.
+At default:12865 retain the complete 숙련자 모티크룸 애들러
+(Adept Morticrum Addler) annotation without inserting a nested name pair.
+Chinese Elya varies 艾尔亚·麦德米尔/埃莉娅·玛德迈尔; English and
+Japanese エリヤ・マドミア agree, so retain established 엘리아 매드미어.
+Chinese Gordan at 36861 has 戈丹丹 rather than 戈丹; do not override
+English Gordan Lot or Japanese ゴーダン・ロット with that variation.
+Seila's Chinese 赛拉/塞拉 variation likewise does not define a new
+identity; English Seila Twayn and Japanese セリア・トゥワイン anchor
+the existing 세일라 트웨인. Rota's introductory Jansen and Gordan's
+later short reference remain source-short and unexpanded.
+No person component aliases, shared-surname mergers, changed ranks
+or new title/entity dispositions are inferred. Preserve previously
+reviewed quest, faction, place and other-name decisions in each row.
+The official Korean manual extraction/reference gives no direct
+spellings for these people. Preserve tokens, particles, line endings
+and non-target bytes. This does not recount global translation totals
+or establish discovery completion. The published release ZIP is unchanged.
+Registered 23 full-name entities, reviewed exactly 50 default keys,
+and edited 39 Texto cells. Eleven existing pairs, including the
+complete Adept Morticrum Addler title, remain unchanged.
+
+### D-21601: Twenty Further Full Personal Names
+
+English-led review of 20 complete personal names across all three
+resources: 39 default source keys, no affix/base hits. Exact English,
+Japanese and Chinese evidence is retained per row. Keep complete names
+atomic, without inferring given-name/surname aliases or family links.
+Reen Quiller is not Cadoc/Goyen Reen; shared name components do not
+establish identity. Use established paired Korean full names, retaining
+existing unpaired spellings where no stronger pronunciation evidence
+exists. Mallory and Reed retain their paired forms from 28625/29202;
+Freynold from 53633; Urthan from 64067; Conrad from 52169.
+Luethar De Groot is the murdered Alfar veteran, corroborated by
+Japanese ルーサー・デグルート and Chinese 略萨·德·格鲁特.
+Normalize 루서 데그루트 and 루에타르 드 흐로트 to the already paired
+루에타르 드 그루트 at default:15614, but keep the source-local
+lowercase de in the corpse label's English parentheses at 63922.
+Do not relabel the corpse as a different person or expand the final
+short Luethar reference at 57868. Conrad's 크론베르크 at 57647 becomes
+the already paired 크론버그; preserve his quest actions and Angharad,
+Dead Kel and Mudhold Fasting decisions. No manual spelling is asserted:
+the official Korean manual extraction/reference has no direct entries.
+Change only reviewed full-name spans/annotations, preserving all other
+entities, tokens, punctuation, particles, ranks and line endings.
+Existing entity-specific terminal decisions remain unchanged; this is
+not a global translation tally or completion claim. Release ZIP unchanged.
+Registered 20 full-name entities and reviewed 39 default keys.
+Edited 32 Texto cells; seven established pairs remain unchanged.
+D-21599's separate Enright dispositions at 26896/57868 are preserved
+while adding the previously unregistered Luethar full-name scope.
+
+### D-21600: Twenty-One Full-Name Label Residuals
+
+Review 21 source-attested full personal-name labels and all their exact
+full-name occurrences across affix/base/default: 35 default keys and no
+affix/base hits. English anchors the exact name, Japanese pronunciation
+and Chinese corroborate the name boundary; the manifest preserves all
+three source cells. No alias for a component, family relationship or
+biography is inferred. In particular, Laura Tam is not merged with
+Julia/Bardan Tam, Cali Keen is not Cillian Keen, and Horace Rheese is
+not Horace Despero. Keep existing complete English names and use their
+established paired Korean spelling where available. Sunhilda uses
+existing 산힐다 from default:55565; Freya uses 프레야 from 51389;
+Morganer uses 모가너 from 12686; Cali uses 칼리 from 2193/6935.
+For Betheli use the attested 베셀리 at default:39934, supported by
+Japanese ベセリ and Chinese 贝瑟里, rather than the local 베델리/베텔리
+variants. These are working Korean spellings, not official audio claims.
+Retain the other established Korean names rather than guessing new
+pronunciations. Annotate the first full name per row and retain later
+same-row short or repeated references without duplicate parentheses.
+The official Korean manual extraction/reference has no direct entries
+for these names. Preserve all other names, quest/entity decisions,
+particles, actions, tokens, punctuation and line endings. This is a
+focused name index update, not a global translation tally or completion
+claim. The published release ZIP is unchanged.
+Registered 21 full-name entities, reviewed all 35 exact source keys
+and corrected 29 default Texto cells. Six established paired cells
+remain unchanged. No component aliases or inferred identity merges.
+Betheli's later short reference and Wilma's second same-row full-name
+occurrence remain unannotated under the existing first-mention policy.
+
+### D-21599: Seven Titled-Person Residuals
+
+English-led review of seven personal names across affix/base/default.
+Exact aligned English, Japanese and Chinese cells are retained in the
+manifest. Register no already reviewed person under a second title.
+The official Korean manual extraction/reference has no direct entries
+for these people. Preserve other entities and all existing dispositions.
+Change only the name or its directly attested epithet/annotation, not
+military-rank translations, actions, particles, tokens or line breaks.
+Complete existing English title/name labels cover their name components
+without redundant parentheses. No global translation totals are recounted;
+full proper-name discovery remains incomplete. The release ZIP is unchanged.
+Reviewed Bromm (4 keys), Brasken (8), Dodwyn (4), Dorothy Enright
+with source-supported Enright (7), Farlun (3), Janya (3), and
+Viscount Setter the Allseer with Lord Setter (8).
+The 37 keys include two base rows and 35 default rows, no affix hits.
+Edited 16 default Texto cells; all other cells are unchanged.
+Retained short/full source forms, complete title annotations and
+subsequent same-row short references. The old continuation script
+was not executed: its Airor/Ambyth/Harst candidates overlap existing
+title-qualified entities and must not create duplicate people.
+D-21598 residual-audit failure was a whitespace-only evidence-parser
+defect; normalizing whitespace restored recognition of the existing
+documented no-edit decision without changing any translation status.
+
+### D-21598: Michaela Short-Name Residual
+
+Default:51941 says “Michaela's” poachers and identifies the same
+Chaos Critters, Chaos Rifts, farmland and warehouses as the Michaela
+Vogel quest in default:28098 and 33250. Japanese ミカエラ and Chinese
+米凯拉 corroborate the short-name reference; English earlier identifies
+the farmer as Michaela Vogel. Register Michaela as a source-supported
+short-name alias of the existing person entry. The Korean short form is
+already present, so no English parenthetical is needed. If Korean omits
+the English full-name parenthetical, retain the existing translation.
+This is a later short reference after the full name has already been
+paired at default:20080, 23667 and 28098, consistent with the established
+policy of leaving subsequent given-name mentions unannotated. No CSV
+edit is warranted. This resolves only the personal-name residual and
+does not reopen the prior Chaos Critters or quest-text disposition.
+Added the direct short-name alias Michaela to the existing
+person:michaela-vogel entry and reviewed default:51941. Its English
+source, Japanese and Chinese identify the already established farmer;
+the Korean short form remains unchanged under the subsequent-given-name
+convention. No CSV edit or backup was needed.
+
+### D-21597: Simeon Crowe Full Name And Short Reference
+
+English names Simeon Crowe in default:8970, 9804, 43122 and 57087.
+The first is his fate-reading introduction; 9804 identifies him as the
+speaker's fateweaving teacher. Japanese シメオン・クロウ and Chinese
+西米恩·克罗 corroborate the same full name. Use the established paired
+form 시미언 크로(Simeon Crowe), standardizing the unpaired spellings at
+8970, 9804 and 43122. Default:57087 is already paired and remains
+unchanged. At default:61092, the objective says “Talk to Sverri or
+Simeon”; Japanese スヴェリかシメオン and Chinese 斯维里或者西米恩 align
+the short name, and the paired Korean 시메온(Simeon) is already correct.
+Register Simeon as this person's directly supported short-name alias.
+The surname-only label Crowe at default:33404 has no context linking it
+to Simeon; do not infer that it is the same person. D-13190 at
+default:43122 and D-2793 at default:9804 were grouped historical
+uncertainties; this batch resolves only the Simeon Crowe name-form
+question. Preserve the other findings in those decisions, including
+fateweaving terminology at 9804.
+Registered Simeon Crowe and the directly supported short-name alias
+Simeon. Reviewed all five aligned source keys. Corrected default:8970,
+9804 and 43122; left already-paired 57087 and 61092 unchanged. The
+unrelated surname-only Crowe label at default:33404 was not merged.
+
+### D-21596: Michaela Vogel And Source-Local Michael Variant
+
+English identifies Michaela Vogel in default:20080, 23667, 28098,
+33250 and 49928. Default:10131 alone says Michael Vogel, in the
+completion text for returning to the farmer after closing the Chaos
+Rifts and resolving the Critter problem. The aligned Japanese and
+Chinese use ミカエラ・ヴォーゲル and 米凯拉·沃格尔 at all six keys,
+and the surrounding quest context ties the reward to the same farmer.
+Treat Michael Vogel as a source-local English spelling variant of
+Michaela Vogel, not a separate person. Standardize Korean to
+미카엘라 포겔(Michaela Vogel) where English says Michaela, and use
+미카엘라 포겔(Michael Vogel) at default:10131 to preserve that row's
+exact English spelling. The already paired mentions at 23667 and
+28098 remain unchanged. The name is not present in the official Korean
+manual reference. D-6245's grouped historical uncertainty at 20080 is
+not reopened as a translation defect; D-18272 separately found its
+local content aligned, while this batch records the personal-name
+pairing and transliteration scope. Preserve the established,
+independent Mitharan and Preordained decisions at 28098.
+Registered Michaela Vogel as one person with the directly attested
+source-local alias Michael Vogel. Reviewed all six aligned source keys.
+Corrected default:10131, 20080, 33250 and 49928; left the already-paired
+23667 and 28098 unchanged. The D-6245 grouped historical uncertainty is
+retained as history and is not counted as a new translation finding.
+
+### D-21595: Gertern Asker Full-Name Standardization
+
+English identifies Gertern Asker in six default keys; Japanese
+ゲーテルン・アスカー and Chinese 戈尔滕·阿斯克尔 corroborate. Normalize
+the Korean full name to 게르턴 애스커(Gertern Asker) in all six source
+rows: default:9183, 24693, 32291, 36923, 38512 and 59318. This corrects
+local 애스커/아스커 and 거턴 variants while pairing the complete name.
+In 59318, pair the first full-name mention only and retain the later short
+given-name reference 게르턴. Preserve Bristletongue, Felltown, Asker's
+Alley, The Understyle, Jakasen and all other reviewed identities as
+separate entities. No given-name, surname, family-business or tavern
+aliases are inferred. Chinese default:38512 instead has 格特恩·阿斯特尔;
+English identity and Japanese alignment control this row. The exact full
+name has no affix/base hits. The official Korean manual files have no
+direct entry. The D-21569 release ZIP is unchanged; proper-name discovery
+remains incomplete.
+
+Registered Gertern Asker as one full personal name and reviewed all six
+aligned source keys. Corrected all six. The second, short given-name
+mention in default:59318 remains unannotated.
+
+### D-21594: Calum Toomey Full-Name Pairing
+
+English identifies Calum Toomey in four default keys; Japanese
+カルム・トーミー and Chinese 卡勒姆·图米 corroborate the established Korean
+칼럼 투미. Leave already-paired default:20881 unchanged. Pair the
+unpaired mention at 33910 and standardize the Korean spelling plus pair at
+38218 and 45135. Preserve Elwa Brond, Cape Solace, particles and all other
+source text. Do not register component aliases. The exact full name has no
+affix/base hits, and the official Korean manual files have no direct
+entry. The D-21569 release ZIP is unchanged; proper-name discovery remains
+incomplete.
+Registered Calum Toomey as one full personal name and reviewed all four
+aligned source keys. Corrected default:33910, 38218 and 45135; left
+already-paired default:20881 unchanged.
+
+### D-21593: Idris Theonen And Source-Local Idiris Variant
+
+English identifies Idris Theonen, librarian of the Scholia Arcana, across
+seven exact-name keys. Japanese イドリス・セオネン and Chinese 伊德里斯·西欧恩
+corroborate the identity. A separate source-local spelling, "Idiris
+Theonen" at default:4426 and 60012, is confirmed as the same librarian by
+its role, the Omnibus Arcana objective, and aligned Japanese/Chinese names;
+retain that exact English spelling in each Korean parenthetical, but
+normalize the Korean name to 이드리스 테오넨. Pair the five unpaired
+canonical-name occurrences at default:8984, 29544, 35267, 36609 and 45216,
+normalize the two paired source-local spellings, and pair the final
+reference at 59745. Leave already-paired default:14100 unchanged. At 59745,
+inspect the whole lesson:
+the Korean text includes the concluding instruction and can safely receive
+only the missing name pair. Preserve its prior Scholia Arcana, Tuatha,
+Kandrian and Mel Aglir decisions. Do not create aliases for given names,
+titles or organizations. The exact full-name scope has no affix/base hits.
+The official Korean manual files have no direct entry. The D-21569 release
+ZIP is unchanged; proper-name discovery remains incomplete.
+Registered one person entity with the directly attested source-local
+alias "Idiris Theonen"; reviewed nine aligned keys. Corrected
+default:4426, 8984, 29544, 35267, 36609, 45216, 59745 and 60012; left
+the already-paired default:14100 unchanged. The previously recorded
+non-person entity dispositions at default:59745 remain intact.
+
+### D-21592: Edgard Bastion Full-Name Pairing
+
+English identifies Edgard Bastion in seven default keys. Japanese
+エドガード・バスティオン and Chinese 埃德加德·巴斯蒂恩 corroborate the
+established Korean 에드가드 배스천. Pair the unpaired spans at
+default:21312, 25567 and 42803; correct the inconsistent spelling and add
+the pair at 35232. Leave already-paired 4820, 17222 and 39449 unchanged.
+Preserve the speaker's dialogue, title/action wording and adjacent names;
+do not register aliases or infer a broader identity. The exact full name
+has no affix/base hits, and the official Korean manual files have no
+direct entry. The D-21569 release ZIP is unchanged; proper-name discovery
+remains incomplete.
+Registered Edgard Bastion as one full personal name and reviewed all
+seven aligned source keys. Corrected default:21312, 25567, 35232 and
+42803; left 4820, 17222 and 39449 unchanged.
+
+### D-21591: Efyr Dynnwel Full-Name Pairing
+
+English identifies Efyr Dynnwel in seven default keys; Japanese
+エフィア・ディンウェル and aligned Chinese name spellings corroborate the
+identity. Reuse the established Korean 에피르 딘웰(Efyr Dynnwel). Pair the
+five unpaired occurrences at default:10022, 30720, 34109, 46969 and 59474;
+leave the already-paired 13362 and 38870 unchanged. Keep his source-local
+descriptions as hermit/smith rather than registering them as aliases.
+Preserve Gavroche Valle, Haldebier's Blade, Ironfast Keep and all other
+surrounding text. The exact full name has no affix/base hits; the official
+Korean manual files have no direct entry. The D-21569 release ZIP is
+unchanged; proper-name discovery remains incomplete.
+Registered Efyr Dynnwel as one full personal name and reviewed all
+seven aligned source keys. Corrected default:10022, 30720, 34109,
+46969 and 59474; left 13362 and 38870 unchanged.
+
+### D-21590: Olaf Asvaldsson Full-Name Pairing
+
+English identifies Olaf Asvaldsson in eleven default keys. Japanese
+オーラフ・アスヴァルズソン and Chinese 奥拉夫·阿斯瓦尔德森 corroborate
+the established Korean 올라프 아스발드손. Pair only the five unpaired
+full-name spans at default:17298, 19979, 38671, 43758 and 46839; the other
+six occurrences are already paired. At 46839, annotate the full-name
+introduction only and preserve the later short reference 올라프. Preserve
+other names, dialogue, quest prose, and the boat manifest at 63688.
+The exact full name has no affix/base hits, no component aliases are added,
+and the official Korean manual files have no direct entry. The D-21569
+release ZIP is unchanged; proper-name discovery remains incomplete.
+Registered Olaf Asvaldsson as one full personal name and reviewed all
+eleven aligned source keys. Corrected default:17298, 19979, 38671, 43758
+and 46839; left the other six already-paired keys unchanged.
+
+### D-21589: Julia Tam Full-Name Pairing
+
+English identifies the full personal name Julia Tam in five default
+keys. Japanese ジュリア・タム and Chinese 茱莉亚·塔姆 corroborate the
+established Korean 줄리아 탐. Pair only the unpaired name at default:20257
+and objective at default:34720; the other three keys are already paired.
+Register Julia Tam as a distinct full-name entity, not as an alias or
+component of Bardan Tam. Do not create a global Tam alias or alter
+Bardan's existing decisions. The exact Julia Tam source name has no
+affix/base hits. The official Korean manual files have no direct entry.
+The D-21569 release ZIP is unchanged; proper-name discovery remains
+incomplete.
+Registered Julia Tam independently from Bardan Tam and reviewed all
+five aligned source keys. Corrected default:20257 and 34720; left
+already-paired default:1401, 18279 and 2945 unchanged.
+
+### D-21588: Roth Garver Full-Name Pairing
+
+English identifies Roth Garver in six default keys; Japanese ロス・ガーバー
+and Chinese 罗斯·加弗 corroborate the same full name. The exact full name
+has no affix or base hits. Use 로스 가버(Roth Garver), pairing only the
+three unpaired occurrences at default:20738, 25864 and 29530. The other
+three occurrences are already paired and remain unchanged. At 7491 and
+29530, assess Roth as a person independently of the previously reviewed
+Barghest keys; retain their prior entity decisions and all Night Barghest
+wording. Do not introduce given-name/surname aliases or infer relationships.
+The official Korean manual files contain no direct entry for this name.
+The D-21569 release ZIP is unchanged; proper-name discovery remains
+incomplete.
+Registered one full personal name and reviewed all six aligned source
+keys. Corrected default:20738, 25864 and 29530; left the already-paired
+default:7491, 28336 and 53930 unchanged. Existing Barghest dispositions
+at 7491 and 29530 were preserved as separate entity keys.
+
+### D-21588: Roth Garver Full-Name Pairing
+
+English identifies Roth Garver in six default keys; Japanese ロス・ガーバー
+and Chinese 罗斯·加弗 corroborate the same full name. The exact full name
+has no affix or base hits. Use 로스 가버(Roth Garver), pairing only the
+three unpaired occurrences at default:20738, 25864 and 29530. The other
+three occurrences are already paired and remain unchanged. At 7491 and
+29530, assess Roth as a person independently of the previously reviewed
+Barghest keys; retain their prior entity decisions and all Night Barghest
+wording. Do not introduce given-name/surname aliases or infer relationships.
+The official Korean manual files contain no direct entry for this name.
+The D-21569 release ZIP is unchanged; proper-name discovery remains
+incomplete.
+Registered one full personal name and reviewed all six aligned source
+keys. Corrected default:20738, 25864 and 29530; left the already-paired
+default:7491, 28336 and 53930 unchanged. Existing Barghest dispositions
+at 7491 and 29530 were preserved as separate entity keys.
+
+### D-21587: Experiment/Cloak Attribution And Superseded Rationale
+
+D-21587 corrective attribution review, using the explicit distinction
+in English default:61754: the cloak is named Abyss to contain an
+experiment. Default:58825 instead labels the quoted "Abyss" experiment.
+Japanese 「アビス」実験 and Chinese “深渊”实验 confirm the experiment,
+not physical identity with the cloak. Register the exact source phrase
+"Abyss" experiment independently and pair the complete experiment name.
+The old cloak candidate at default:58825 remains indexed but is now
+excluded from the cloak identity; its previous accepted disposition
+and evidence are preserved in this corrective manifest. Do not merge
+experiment, cloak or equipment identities, or revise the long accounts.
+All other prior dispositions remain unchanged. This corrects one
+source-attribution error found by independent review, not a global
+translation-tally reconciliation or a completion claim.
+Corrected one default Texto cell to a complete experiment-name pair.
+The cloak match is excluded and the separate experiment match is
+accepted. Accepted index count is unchanged; the one new experiment
+occurrence adds one indexed match and one net exclusion. These are
+current entity/row states, not new global translation totals.
+Marked the obsolete Sigbert same-work claim superseded in 26 current
+index rationales, retaining the exact old rationale and every status.
+Also annotated the seven glossary notes sharing the original D-21584
+rationale (cloak, Shoes, Cowl, Handwraps, Robes, Ring and armor):
+their copied experiment-to-cloak assertion is historical/superseded.
+The original note text is retained; no equipment label, canonical,
+status or physical-identity decision is changed by those notices.
+D-21585's accepted/no-edit row is a metadata-only carried disposition,
+not a discovery manifest: the discovery-registration validator is
+intentionally not used for that specialized correction. The generic
+byte-chain verifier ignores unchanged cells; regression tests check
+unchanged CSV hashes and unchanged status counts for that stage.
+Full discovery remains incomplete; the D-21569 ZIP is unchanged.
+
+### D-21578-D-21587: Verified Continuation
+
+Reviewed 147 distinct CSV keys and edited 106 Texto cells (35 base, 71
+default); affix was searched and unchanged. Full edit-chain inverse,
+source/index residual checks and regression tests passed. D-21585 only
+separates unsupported Sigbert work-label metadata and preserves prior counts.
+D-21587 separates the quoted Abyss experiment from the cloak and marks
+the old Sigbert work-equivalence rationale superseded in current evidence.
+Full discovery is incomplete; 96 reviewed holds / 93 keys remain unchanged.
+Next batch: D-21588, starting with Roth Garver / default:25864.
+Read-only queue: `work/zh_cn/audit/proper-name-next-candidates-D21588-20261017.md`.
+Detailed verification, hashes and backups:
+`work/zh_cn/audit/proper-name-validation-D21578-D21587-20261017.md`.
+The published release ZIP remains D-21569, without these working edits.
+
+### D-21586: Ten Unannotated Full Personal Names
+
+Independently discovered full personal-name residuals, checked against
+English/Japanese/Chinese across affix/base/default. All 18 exact source
+keys are default; no affix/base hits for the ten full names. Register
+the full English names only, without global given-name/surname aliases,
+inferred relationships or biographical details absent from the source.
+Reuse established Korean full-name spellings, resolving the directly
+attested Tormin, Turin and Brok variants with source evidence above.
+Add one complete Korean(English) pair to each name span and retain
+particles/actions in the two longer objective/explanatory cells.
+The non-exhaustive official Korean manual has no direct entry for these
+names. None of these full-name entity keys has an existing terminal
+occurrence decision; do not reopen component-name dispositions or
+count historical translation totals again. Preserve every unrelated
+name, word, token, punctuation mark and line break. Full proper-name
+discovery remains incomplete; the D-21569 release ZIP is unchanged.
+Registered ten full-name entries and corrected 18 default Texto
+cells. Unified 토르민 사가드(Tormin Sagard), 투린 아일(Turin Ayle)
+and 브록 알마르(Brok Almar); paired the other seven existing Korean
+names. No source-short component aliases or prior-decision recount.
+
+### D-21585: Metadata-Only Sigbert Work-Label Separation
+
+D-21585 metadata correction after independent review: English base:3322
+says Sigbert's Journal, Japanese シグバートの日誌 and Chinese
+西格伯特的日记; default:8927 says Journal of Sigbert Sawerth, Japanese
+シグバート・サワースの日誌 and Chinese 西格伯特·萨维尔斯的日记.
+The owner-person evidence does not independently establish that these
+are the same physical journal or work. Remove the unsupported title
+alias and retain two independent source-label entries, without asserting
+they are different physical objects either. Preserve the existing
+local short/full Korean title pairs. Rekey the single base occurrence,
+retaining its D-21580 accepted disposition rather than creating a new
+acceptance. Preserve the long-label occurrence and all other entity
+statuses/evidence. No CSV edit, new translation decision, reopened hold
+or change to occurrence-status counts; no new backup is necessary.
+This corrects registry metadata only, not the earlier person identity.
+The checkpoint's one accepted row is a carried-forward D-21580
+disposition, not an additional accepted translation. Index length
+and all status counts remain unchanged; glossary length increases
+by one because the unsupported work-title alias is split.
+Full discovery remains incomplete; D-21569 release ZIP is unchanged.
+
+### D-21584: Abyss Cloak, Equipment Labels And Ordinary Abysses
+
+English default:61754 explicitly says the cloak was named Abyss and
+describes the Abyss cloak and experiment. Default:11476 names the
+cursed cloak/relic Abyss, and 58825 names the quoted Abyss experiment.
+Japanese アビス / 「アビス」 and Chinese 深渊 corroborate the named
+subject. Reuse existing 어비스(Abyss) in those three contexts; add the
+missing pairs on repeated mentions and replace the isolated translated
+experiment name 심연 with 어비스(Abyss), preserving its quotes and prose.
+Scan affix/base/default: Abyss matches 13 row keys, four base and nine
+default, with no affix hits. The four lowercase common-noun contexts
+(unknown abyss, watery abyss, Ciara's abyss and magical abyss) are
+explicitly excluded and unchanged, not proper names by capitalization.
+Register six complete equipment labels independently. Japanese item
+labels use アビスの and Chinese uses 深渊, supporting the existing
+Korean 심연의 wording in the equipment series; pair each complete English
+item/set label, including source-local lowercase armor at default:32217.
+These names alone do not prove the equipment's physical identity with
+the separately named cursed cloak, so exclude all six equipment keys
+from that artifact identity and introduce no such lore assertion.
+Item category does not assert rarity, uniqueness or mechanics. Keep
+the named cloak 어비스 distinct from the literal 심연의 equipment series.
+The non-exhaustive official Korean manual has no direct entry for this
+artifact or equipment. Preserve the Atarum accounts, other names,
+chronology, particles, tokens and exact line-ending sequence.
+No prior entity dispositions or global totals are reopened or recounted.
+Full discovery remains incomplete; release ZIP is unchanged.
+Registered the named cloak and six full equipment labels. Reviewed
+13 keys / 19 entity-row matches; corrected nine Texto cells (four
+base, five default). Four common-noun abyss contexts are unchanged.
+The six equipment references are explicitly excluded from the
+cloak identity; no physical-equivalence assertion was introduced.
+
+### D-21583: Remaining Owner-Named Work Forms In The Bounded Scan
+
+Review six remaining explicitly owner-named work-label forms from the
+bounded journal/notes/diary scan: ten source keys, two base and eight
+default, no affix hits. English anchors meaning; Japanese/Chinese
+corroborate the names, title types and objectives in the exact manifest.
+Use existing Korean names 켈리스, 옥티엔, 반발가, 덜스턴, 스텔란 and
+에테어. Airor at default:998 uses Japanese アイロア; reuse established
+에어로르 from base:2161 and default:63500/64294 as the spelling of this
+English name, without claiming that the named son of Banvalga is
+biographically identical to Sir Airor. Keep the literal English period
+in Journal of Airor. son of Banvalga inside its complete annotation.
+Preserve the question and quoted God Storm wording at default:3411.
+Stellan objectives pair only the source-short work name, not an expanded
+surname or a new action; keep 찾아라/찾기 and the Korean object particle.
+The lowercase descriptive Stellan's journal phrases at default:865 and
+11593 remain unchanged/excluded from the complete-title annotation scope.
+The title of Octienne's crimes does not assert that Octienne authored it.
+The non-exhaustive official Korean manual has no direct title entries.
+Register only these complete source-label forms: no new person aliases
+or inferred owner/work mergers, no reopening of earlier person or event
+decisions, no global tally recount. Generic damaged/anonymous journals,
+bare research notes and unassigned Memoirs Prologue are not promoted to
+proper works merely because of capitalization. Preserve other text,
+tokens and line endings. Full discovery remains incomplete.
+Corrected eight complete work-label pairs and registered six source
+forms across ten keys; two descriptive Stellan mentions are excluded.
+Airor now uses 에어로르 in this title as elsewhere, with no
+biographical identity inference. All earlier owner/event decisions
+remain unchanged. The source-scan description is bounded, not an
+assertion that every proper name or work in the game is reviewed.
+These working edits are not in the D-21569 release ZIP.
+
+### D-21582: Memoir Volumes And Source-Local Diary Labels
+
+Review 15 complete memoir/diary/notes labels across affix/base/default:
+17 keys/matches, seven base and ten default, with no affix hits.
+English defines the exact label; aligned Japanese/Chinese corroborate
+the names, work types and volume numbers. Reuse established 매그너스,
+티르 매그너스, 흐로스 매그너스, 칼라스, 맥클라우드 and 울프 고드프리.
+Standardize the Magnus numbered labels to 의 회고록 and 제1-4부
+without changing any volume's number. Keep source-short Magnus labels
+short, and full Tyr/Hroth labels complete. Record these source labels
+independently: do not infer from ordinal numbers alone which physical
+manuscript or edition they denote, or invent a global Magnus alias.
+Likewise, preserve each source-local Wulf diary label without inferring
+new relationships or reopening the existing Wulf person decision.
+Keep the exact English punctuation, including the source left-curly
+apostrophes in McLeod‘s and Wulf‘s. Kallas' Notes uses 기록 consistently,
+supported by Japanese メモ and Chinese 笔记; do not infer document length.
+Journal on Organs is explicitly quoted as a cover title at default:1717,
+so pair that title inside its description as well as base:1895.
+Base:1661 Memoirs Prologue has no named author; leave it outside this
+named-work scope rather than assigning it to Tyr or another memoirist.
+The non-exhaustive official Korean manual has no direct title entries.
+No owner-person dispositions, unresolved holds or historical totals are
+reopened. Preserve other entities, dates, descriptions, tokens and line
+endings. Full discovery remains incomplete; release ZIP is unchanged.
+Corrected 17 complete-title annotations, seven base and ten default;
+registered 15 source-label entries. Standardized the Magnus volume
+formatting and Kallas' Notes wording. All literal English apostrophes,
+author-name lengths, volume numbers and cover-description text are
+preserved. Generic Memoirs Prologue remains unassigned and unchanged.
+
+### D-21581: Explicit Authors And Distinct Numbered Works
+
+Review six directly attested author names and nine independent complete
+work titles across affix/base/default: 11 distinct keys, 20 entity-row
+matches, seven base keys and four default keys, no affix hits.
+English anchors identity and meaning; Japanese and Chinese corroborate
+each name/title in the exact aligned manifest. No direct entries were
+found in the non-exhaustive official Korean manual. A title establishes
+only its explicitly named owner, not additional lore or family relations.
+Normalize Courden to 쿠어든 using base:562 and Japanese クールデン.
+Render Great/Horrible Treatise as 위대한/끔찍한 논고, keeping the two
+works distinct; preserve Heittson's I/II/III as three separate volumes.
+Complete work annotations contain their authors without nested pairs.
+Personal mentions already paired in Atarum's long accounts stay unchanged.
+No short-name aliases, source edits, prior-disposition reopening or
+historical translation recount. Preserve all unrelated text and tokens.
+Full discovery remains incomplete; the D-21569 release is unchanged.
+Registered six author identities and nine work identities. Reviewed
+11 keys / 20 entity matches and corrected nine titles (seven base,
+two default). Courden now uses 쿠어든 in both distinct treatises;
+the Giri, Heittson, Atarum, Jalnar and Absolon titles have one full
+bilingual title pair. The two long Atarum accounts are unchanged.
+
+### D-21580: Complete Works Of Previously Confirmed Owners
+
+Review 17 complete journal/notes/memoir titles across affix/base/default,
+using established owner-name spellings without reopening owner-person
+dispositions. There are 27 source keys/matches: 13 base and 14 default,
+no affix hits. English defines each work; exact Japanese and Chinese
+evidence is retained per row. Both reference languages corroborate the
+diary/notes/memoir type and names. The non-exhaustive official Korean
+manual has no direct entries for these works. Keep the two lowercase
+descriptive journal mentions (default:26858 Stellan, 33302 Pagus)
+unchanged/excluded, rather than treating all nouns as display titles.
+Default:38228 explicitly uses capitalized Brother Padric's Travel Notes
+inside its description: pair that whole title, use the same 여행 기록
+as its two labels, and retain the Splitrock description and punctuation.
+Sigbert's Journal is the source-short label for the fully named journal
+whose author was established in D-21575; preserve the local short title
+rather than adding the surname to base:3322.
+No generic Journal, Notes or Memoirs alias is added. Complete bilingual
+works do not receive redundant nested owner annotations. Preserve all
+other entities, wording, actions, tokens, line endings and prior decisions.
+This is focused work-title review, not a recount of global translation
+totals or a completion claim. The D-21569 release ZIP is unchanged.
+Registered 17 work identities and reviewed 27 keys. Corrected 24
+complete-title annotations (13 base, 11 default); one Stellan label
+was already correct and two descriptive prose matches were excluded.
+The Rikka/Lerkara journals and Patrick memoirs excluded from the
+preceding person scope now have separate complete-work dispositions.
+Existing owner-person decisions remain unchanged.
+
+### D-21579: Mel Aglir And Ayten Full Personal Names
+
+Review four explicit full personal names across affix/base/default:
+48 distinct source row keys and 53 entity-row matches, including the
+source-local Lerkara Fell spelling. Two base keys; no affix matches.
+English anchors identity, Japanese informs pronunciation and Chinese
+corroborates. The official Korean manual has no direct entry for these
+names. Exclude the three standalone complete journal/memoir titles from
+this person-label correction; review titles separately. Names already
+contained in a complete rank/name annotation are not redundantly paired.
+Preserve short names, ranks, particles, other entities, tokens, line
+endings and all unrelated text. Existing component-name dispositions
+and historical translation totals are not reopened or recounted.
+Full proper-name discovery remains incomplete; these edits are not
+included in the verified D-21569 release ZIP.
+Registered Lerkara Fel (including source-local Lerkara Fell),
+Patrick Morkan, Kellis Cen and Rikka Egest as four full identities.
+Corrected 13 default Texto cells: 11 split Lerkara annotations,
+one incomplete Patrick Morkan pair and one unannotated Kellis Cen
+label. The three complete journal/memoir titles remain unchanged
+and excluded from this personal-name scope, pending title review.
+
+### D-21578: Complete Titles Without Inferred Owner Identities
+
+Review complete work/place labels independently of owner-person identity.
+Scan affix/base/default for all five English labels: eight distinct keys,
+two base and six default, with no affix hits. English defines the complete
+label; Japanese/Chinese corroborate, with the Bede pronunciation conflict
+explicitly recorded. The official Korean manual has no direct entry for
+these titles; its omission is not evidence against them. Register no short
+person alias and infer no family relationship or author identification.
+In particular, Odi and Bede owner-person identities left open at D-21577
+remain unresolved. Complete title annotations replace owner-only pairs
+without nested or redundant personal annotations. Preserve dates, actions,
+tokens, line breaks, all unrelated text and earlier entity dispositions.
+These working edits are not in the verified D-21569 release ZIP.
+Registered Notes of Anker Edmure, Odi's Notes, Odi Speaks,
+Bede's Journal and Odi's Camp as five independent complete labels.
+Corrected eight Texto cells; the Bede journal title now consistently
+uses 비드의 일지(Bede's Journal). Preserved the Odi Speaks (1480) year.
+The unknown full identities of the Odi/Bede owners remain unresolved;
+no prior person-name decision was reopened or counted again.
+Full proper-name discovery/residual validation remains incomplete.
+
+### D-21577: Full Personal-Name Compounds And Ambiguous Owners
+
+Review the four explicitly named compound personal identities across
+affix/base/default. English anchors each identity; aligned Japanese
+informs pronunciation and Chinese corroborates. The 16 distinct source
+row keys are all in default: nine Erion Odi, three Edar Odi, three Bede
+Pengaras and one Bede Edithing. No affix/base full-name hits. Register
+each full identity separately without creating global Odi or Bede aliases.
+Preserve all existing component-name dispositions and unrelated text.
+Do not assign owner-only Odi's Notes (base:3475; historian Odi at
+default:3040), Odi Speaks (default:5215), or Odi's Camp (default:52481)
+to any of the several Odi-named people. Bede's Journal (base:4218;
+default:28722, 33408, 53209) remains unassigned because the source also
+names Bede Pengaras and Bede Edithing without identifying the journal's
+author. These owner/title identities remain unresolved, not silently
+merged. The official Korean manual has no direct entries for these NPCs.
+Registered `에리온 오디(Erion Odi)`, `에다르 오디(Edar Odi)`,
+`비드 펜가라스(Bede Pengaras)` and `비드 에디싱(Bede Edithing)` as
+separate full-name identities. Corrected four cells: the split
+Erion Odi and Edar Odi annotations, the incomplete Bede Pengaras
+parenthetical, and the inconsistent Bede transliteration. Owner-only
+Odi/Bede references listed above remain unresolved and unchanged.
+Existing component-name dispositions and historical tallies were not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+### D-21575-D-21576: Journal Authors And Atomic Jenniker Labels
+
+Review eight explicitly identified journal owners and the three complete
+Jenniker work/object labels across affix/base/default. Source scope:
+60 distinct base/default keys and 68 entity-row matches, applied as
+consecutive 50/10-key batches D-21575-D-21576. There are no affix hits.
+English defines identity and local full/short names; Japanese/Chinese
+corroborate. The official Korean manual has no direct entry for these
+people or titles. Do not infer Odi or Bede identities from an owner-only
+label: multiple distinct full names occur, and those candidates are
+outside this batch. Preserve all unrelated existing entity dispositions,
+chronology, variables, opaque tokens and line endings. Names inside a
+complete bilingual work/object label are already covered and are not
+redundantly annotated. These edits are not in the D-21569 release ZIP.
+Reviewed explicit Singing Nell/Nell, Wildfrold, Jared, Dulstan/Dulsten,
+Aiden O'Conor/Aiden and Sigbert Sawerth/Sigbert forms; confirmed the
+already consistent Weniret Soll/Weniret forms. Jenniker person mentions
+are distinguished from his complete Journal, Treatise and Device labels.
+The final checkpoint gives row-level dispositions and current hashes.
+Full proper-name discovery remains incomplete.
+
+
+
+
+
+## D-21574: Headhunters Guild, Members And Quest Title
+
+Reviewed 17 distinct resource/ID/variant keys and
+18 entity matches: {"accepted"=>17}.
+Canonical forms: 헤드헌터단(Headhunters); 사냥당한 헤드헌터단(Headhunters Hunted).
+Check all affix/base/default sources; this guild/title scope has 17
+distinct default keys and 18 entity matches, with no affix/base hits.
+Distinguish the named historical guild, its individually described
+members, the complete quest title, and the imperative objective.
+English controls identity/meaning; Japanese and Chinese corroborate.
+The official Korean manual supplies no exact guild or quest entry.
+Preserve the newly paired five personal names, the Mitharan and Crownhold
+decisions, token/head wording, rewards, title punctuation and line breaks.
+Correct subject particles only where the explicitly changed group noun
+ends in 단. Do not merge the individual rival gangs or claim the old guild
+remains unified. Existing dispositions and historical totals are untouched.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+## D-21573: Jorum Source Variants And Distinct Full Names
+
+Reviewed 16 distinct resource/ID/variant keys and
+17 entity matches: {"not-an-issue"=>3, "accepted"=>13}.
+Canonical forms: 조럼 퀸티스(Jorum Quintis); 노라 듀어(Nora Duerr); 사이러스 얼린(Cyrus Erlin); 바라 워니르(Bara Warnir); 토스티그 워니르(Tostig Warnir).
+Check full names and explicitly supported short variants across all three
+CSV resources. Use English for identity and the aligned Japanese/Chinese
+cells for corroboration; the official Korean manual supplies no direct
+entry for these people. Keep existing unrelated entity dispositions,
+quest wording, Fae/Scholia annotations, historical dates, opaque tokens
+and line breaks. Shared given names do not establish shared identity.
+The Warnir-only reward, Pepper names and separate Nora/Cyrus characters
+are not assigned to any new full-name identity.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+## D-21572: Numbered Explorer And Initiate Journal Titles
+
+Reviewed 17 distinct resource/ID/variant keys and
+17 entity matches: {"accepted"=>17}.
+Canonical forms: 탐험가의 일지 I(Explorer's Journal, I); 탐험가의 일지 II(Explorer's Journal, II); 탐험가의 일지 III(Explorer's Journal, III); 탐험가의 일지 IV(Explorer's Journal, IV); 탐험가의 일지 V(Explorer's Journal, V); 탐험가의 일지 VI(Explorer's Journal, VI); 탐험가의 일지 VII(Explorer's Journal, VII); 탐험가의 일지 VIII(Explorer's Journal, VIII); 탐험가의 일지 IX(Explorer's Journal, IX); 알로렌의 일지(Aloren's Journal); 버트런의 일지(Bertran's Journal); 카세라의 일지(Cassera's Journal).
+Review complete journal labels across all three resources. The nine
+numbered Explorer's Journal titles have 14 base rows; three named
+initiates' journal labels add three base rows. Japanese 探検家の日誌 and
+Chinese 探险家的日记 retain the corresponding volume numbers, while the
+aligned personal journal labels name Aloren, Bertran and Cassera.
+Reuse the established Korean nouns and name spellings; pair each complete
+title once. Repeated identical labels remain distinct CSV rows and do
+not prove one physical object. Default:3391/23748/25120/28821/30086/49126/
+49549/53696/54363 describe numbered parts of an explorer's journal found
+in Nerotelos, but do not contain the complete numbered titles: retain
+them without inventing a title alias or changing prior location holds.
+The journal-of-person descriptions at default:15996/22447/29200 retain
+the D-21570 person annotations and are not rewritten as full book titles.
+The official Korean manual describes books generically and supplies no
+exact journal title. This is a named-work registration, not a claim of
+author identity for the anonymous explorer or a new person decision.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+## D-21571: Five Named Headhunters
+
+Reviewed 18 distinct resource/ID/variant keys and
+22 entity matches: {"not-an-issue"=>5, "accepted"=>13}.
+Canonical forms: 신더(Sinder); 렌디 월시(Rendi Walsh); 소르카 도너휴(Sorcha Donohue); 사이러스 페퍼(Cyrus Pepper); 노라 페퍼(Nora Pepper).
+English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+### D-21570: Three Missing Scholia Arcana Initiates
+
+Review the three explicitly identified missing Scholia Arcana initiates
+across affix/base/default. The source contains 41 distinct keys and 54
+entity-row matches, including two excluded Bertran Lot keys. All other
+references belong to the same source-described trio, journals, corpses,
+quest objectives, or their dialogue. English anchors identity; Japanese
+and Chinese corroborate names and context. The official Korean manual
+supplies the Scholia Arcana setting but no entry for these three names.
+Preserve every other name, token, line break, sentence and prior
+entity disposition. This does not register the journals as separate
+named works or infer that the three people share a family.
+Registered 알로렌(Aloren), 버트런 네스트(Bertran Nest), and
+카세라 본(Cassera Vonn), using source-local short names where appropriate.
+The two explicit Bertran Lot grave labels remain unchanged and excluded
+from this new person scope. No affix source hits. Full proper-name
+discovery remains incomplete. The 2026-10-17 release ZIP remains the
+earlier D-21569 snapshot; these subsequent edits are not in that ZIP.
 
 ### D-21569: Japanese Parenthetical Fragments in `default`
 
@@ -41263,3 +43124,1358 @@ With no noun or contextual referent, the label cannot safely be assigned
 to the Acatha region, its people, or another entity. It remains unchanged
 and unregistered; evidence is recorded in
 `proper-name-discovery-scout-D21263.tsv`.
+
+## D-21633: Source-Local Name Labels
+
+Reviewed 35 exact source-label keys and one spacing-mismatch hold. These rows are not entity/row registrations and are excluded from indexed totals.
+
+| Key | English label | Previous Korean | Reviewed Korean | Disposition | Evidence |
+| --- | --- | --- | --- | --- | --- |
+| `default` `5944` | `Lanta` | `란타(Lanta)` | `란타(Lanta)` | not-an-issue | Source-local label only; no referent category or identity inferred. |
+| `default` `15237` | `Teria` | `테리아` | `테리아(Teria)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `17118` | `Platon` | `플라톤(Platon)` | `플라톤(Platon)` | not-an-issue | Source-local label only; no referent category or identity inferred. |
+| `default` `19180` | `Lanta` | `란타` | `란타(Lanta)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `19987` | `Julian` | `줄리안` | `줄리안(Julian)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `21570` | `Ticnerani` | `틱네라니(Ticnerani)` | `틱네라니(Ticnerani)` | not-an-issue | Source-local label only; no referent category or identity inferred. |
+| `default` `22713` | `Daeges` | `데이게스(Daeges)` | `데이제스(Daeges)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `24411` | `Oslach` | `오슬라흐` | `오슬라흐(Oslach)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `25443` | `Neassa` | `네아사` | `네아사(Neassa)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `26822` | `Mathlon` | `마슬론` | `마슬론(Mathlon)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `30214` | `Simonides` | `시모니데스` | `시모니데스(Simonides)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `30619` | `Lamarra` | `라마라` | `라마라(Lamarra)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `30986` | `Dybnaeuin` | `디브나에윈` | `디브나에윈(Dybnaeuin)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `31091` | `Gralor` | `그랄로르` | `그랄로르(Gralor)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `31859` | `Banocles` | `바노클레스` | `바노클레스(Banocles)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `32170` | `MendellerBirt` | `멘델러 버트` | `멘델러 버트` | uncertain; unchanged | Source-local label only; no referent category or identity inferred. |
+| `default` `34001` | `Tilancar` | `틸란카르` | `틸란카르(Tilancar)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `34395` | `Harken` | `하르켄` | `하르켄(Harken)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `34550` | `Beahda` | `베아다` | `베아다(Beahda)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `35980` | `Barr` | `바` | `바(Barr)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `36733` | `Platon` | `플라톤` | `플라톤(Platon)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `39753` | `Pele` | `펠레` | `펠레(Pele)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `39955` | `Sheridon` | `셰리던` | `셰리던(Sheridon)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `40719` | `Lamarra` | `라마라` | `라마라(Lamarra)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `40862` | `Daeges` | `데이거스` | `데이제스(Daeges)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `40976` | `Elpis` | `엘피스` | `엘피스(Elpis)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `42476` | `Genlise` | `젠리스` | `젠리스(Genlise)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `43592` | `Scuttlecrab` | `스커틀크랩` | `스커틀크랩(Scuttlecrab)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `43835` | `Lysandros` | `리산드로스` | `리산드로스(Lysandros)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `48749` | `Merchta` | `머크타` | `머크타(Merchta)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `49789` | `Primorida` | `프리모리다` | `프리모리다(Primorida)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `50518` | `Ciaran` | `시아란` | `시아란(Ciaran)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `53123` | `Elpis` | `엘피스(Elpis)` | `엘피스(Elpis)` | not-an-issue | Source-local label only; no referent category or identity inferred. |
+| `default` `56127` | `Genlise` | `젠리스(Genlise)` | `젠리스(Genlise)` | not-an-issue | Source-local label only; no referent category or identity inferred. |
+| `default` `57575` | `Tirbolg` | `티르볼그` | `티르볼그(Tirbolg)` | accepted | Source-local label only; no referent category or identity inferred. |
+| `default` `59082` | `Ticnerani` | `틱네라니` | `틱네라니(Ticnerani)` | accepted | Source-local label only; no referent category or identity inferred. |
+
+## D-21634: Jock Short-Name Alias
+
+Added `Jock` as a short alias to the existing `person:jock-macnelly`
+owner based on newly reviewed apprentice-role evidence. This scoped
+addendum supersedes only D-21259's earlier no-bare-alias caution;
+it creates no duplicate person and does not reopen prior full-name
+or mixed-row decisions.
+
+| Key | English | Previous Korean | Reviewed Korean | Disposition | Evidence |
+| --- | --- | --- | --- | --- | --- |
+| `default` `10371` | `If you don‘t want to do it yourself, just ask Jock. He could use the practice.` | `직접 하기 싫으면 조크에게 부탁해. 연습이 필요할 테니까.` | `직접 하기 싫으면 조크(Jock)에게 부탁해. 연습이 필요할 테니까.` | accepted | Scoped Jock MacNelly alias; unrelated entity decisions preserved. |
+| `default` `17669` | `Let Jock craft a Chaos weapon` | `조크(Jock)에게 혼돈 무기(Chaos Weapon)를 제작하게 하기` | `조크(Jock)에게 혼돈 무기(Chaos Weapon)를 제작하게 하기` | not-an-issue | Scoped Jock MacNelly alias; unrelated entity decisions preserved. |
+| `default` `37175` | `Hey, stranger. Name's Jock. I'm Skald's apprentice. Well... her current apprentice, that is.` | `안녕, 낯선 이. 난 조크야. 스칼드(Skald)의 제자지. 그러니까... 지금 맡은 제자 말이야.` | `안녕, 낯선 이. 난 조크(Jock)야. 스칼드(Skald)의 제자지. 그러니까... 지금 맡은 제자 말이야.` | accepted | Scoped Jock MacNelly alias; unrelated entity decisions preserved. |
+| `default` `38304` | `Jock's a good lad, a bit clumsy, but he tries. If you need help with crafting Chaos weapons, feel free to ask for his help.` | `조크는 좋은 녀석이야. 조금 서툴지만 노력하지. 혼돈 무기(Chaos Weapons) 제작을 도와줄 사람이 필요하면 언제든 부탁해.` | `조크(Jock)는 좋은 녀석이야. 조금 서툴지만 노력하지. 혼돈 무기(Chaos Weapons) 제작을 도와줄 사람이 필요하면 언제든 부탁해.` | accepted | Scoped Jock MacNelly alias; unrelated entity decisions preserved. |
+| `default` `58470` | `With all of this leisure time, Jock and I have put our energy into a new endeavor. We're building a warrior's arena similar to the House of Valor.` | `이렇게 한가한 동안 조크와 나는 새 일에 힘을 쏟고 있어. 용맹의 집(House of Valor)과 비슷한 전사 투기장을 짓는 중이지.` | `이렇게 한가한 동안 조크(Jock)와 나는 새 일에 힘을 쏟고 있어. 용맹의 집(House of Valor)과 비슷한 전사 투기장을 짓는 중이지.` | accepted | Scoped Jock MacNelly alias; unrelated entity decisions preserved. |
+| `default` `63443` | `Skald can forge {*1Chaos weapon cores} for you if you bring her the {*1Chaos Matter} obtained from {*1Chaos Nodes}.
+
+You can either use these cores at Forges to craft new types of Chaos weapons, or let Skald‘s apprentice {*1Jock} handle the job instead.
+
+{LINE_SPACE}Press {1} to continue.` | `스칼드(Skald)는 네게 {*1혼돈 노드}(Chaos Nodes)에서 얻은 {*1혼돈 물질}(Chaos Matter)을 가져다주면 {*1혼돈 무기 핵}(Chaos Weapon Cores)을 만들어 줄 수 있어.
+
+이 핵을 대장간에서 사용해 새로운 혼돈 무기(Chaos Weapons)를 만들거나, 스칼드(Skald)의 제자 {*1조크}에게 맡겨도 돼.
+
+{LINE_SPACE}{1} 키를 눌러 계속합니다.` | `스칼드(Skald)는 네게 {*1혼돈 노드}(Chaos Nodes)에서 얻은 {*1혼돈 물질}(Chaos Matter)을 가져다주면 {*1혼돈 무기 핵}(Chaos Weapon Cores)을 만들어 줄 수 있어.
+
+이 핵을 대장간에서 사용해 새로운 혼돈 무기(Chaos Weapons)를 만들거나, 스칼드(Skald)의 제자 {*1조크}(Jock)에게 맡겨도 돼.
+
+{LINE_SPACE}{1} 키를 눌러 계속합니다.` | accepted | Scoped Jock MacNelly alias; unrelated entity decisions preserved. |
+| `default` `63949` | `Don‘t want to get your hands dirty? Maybe Jock can help you. Just don‘t expect a masterpiece.` | `손을 더럽히고 싶지 않아? 조크(Jock)가 도와줄지도 몰라. 그래도 걸작을 기대하진 마.` | `손을 더럽히고 싶지 않아? 조크(Jock)가 도와줄지도 몰라. 그래도 걸작을 기대하진 마.` | not-an-issue | Scoped Jock MacNelly alias; unrelated entity decisions preserved. |
+| `default` `64870` | `If that‘s too much work, ask my apprentice, Jock. He could certainly use the practice.` | `너무 번거로우면 내 제자 조크에게 부탁해. 연습도 필요하니까.` | `너무 번거로우면 내 제자 조크(Jock)에게 부탁해. 연습도 필요하니까.` | accepted | Scoped Jock MacNelly alias; unrelated entity decisions preserved. |
+
+## D-21635: Titan Lore And Atomic Titles
+
+Registered the Kollossae lore-class term `Titan` and twelve complete
+source-local base titles. The English source defines identity and
+singular/plural form; aligned Japanese and Chinese corroborate the
+labels. The twenty lore rows normalize `티탄` to `타이탄` and pair each
+English `Titan`/`Titans` mention without changing the surrounding
+translation. Three atomic equipment labels and nine numbered
+`Titans I-IX` titles receive their own bilingual title entries, so
+the parent `Titan` component is excluded rather than nested. Preserve
+the established `The Titan Spear` disposition, the generic chicken
+metaphor, and the uncertain `slumbering titan` identity. Exact source
+evidence and old/new cells are in `proper-name-edits-D21635.tsv`.
+
+| Key | Entity disposition(s) |
+| --- | --- |
+| `base` `35` `11` | `lore_term:titan`: excluded |
+| `base` `561` `11` | `lore_term:titan`: excluded; `title:titan-shield`: accepted |
+| `base` `655` `11` | `lore_term:titan`: excluded; `title:titans-ix`: accepted |
+| `base` `2148` `11` | `lore_term:titan`: excluded; `title:titans-vi`: accepted |
+| `base` `2366` `11` | `lore_term:titan`: excluded |
+| `base` `2419` `11` | `lore_term:titan`: excluded; `title:titans-viii`: accepted |
+| `base` `3733` `11` | `lore_term:titan`: excluded; `title:titans-iv`: accepted |
+| `base` `3913` `11` | `lore_term:titan`: excluded; `title:titans-i`: accepted |
+| `base` `4116` `11` | `lore_term:titan`: excluded; `title:titan's-cuff`: accepted |
+| `base` `4229` `11` | `lore_term:titan`: excluded; `title:titans-iii`: accepted |
+| `base` `4378` `11` | `lore_term:titan`: excluded; `title:bound-titan`: accepted |
+| `base` `4427` `11` | `lore_term:titan`: excluded; `title:titans-vii`: accepted |
+| `base` `4680` `11` | `lore_term:titan`: excluded; `title:titans-ii`: accepted |
+| `base` `4784` `11` | `lore_term:titan`: excluded; `title:titans-v`: accepted |
+| `default` `1496` `` | `lore_term:titan`: accepted |
+| `default` `7190` `` | `lore_term:titan`: accepted |
+| `default` `8816` `` | `lore_term:titan`: uncertain |
+| `default` `17188` `` | `lore_term:titan`: accepted |
+| `default` `17745` `` | `lore_term:titan`: accepted |
+| `default` `18166` `` | `lore_term:titan`: accepted |
+| `default` `18694` `` | `lore_term:titan`: accepted |
+| `default` `21535` `` | `lore_term:titan`: accepted |
+| `default` `28172` `` | `lore_term:titan`: accepted |
+| `default` `30676` `` | `lore_term:titan`: accepted |
+| `default` `32494` `` | `lore_term:titan`: accepted |
+| `default` `33479` `` | `lore_term:titan`: excluded |
+| `default` `36276` `` | `lore_term:titan`: accepted |
+| `default` `37998` `` | `lore_term:titan`: accepted |
+| `default` `38409` `` | `lore_term:titan`: accepted |
+| `default` `40472` `` | `lore_term:titan`: accepted |
+| `default` `51241` `` | `lore_term:titan`: accepted |
+| `default` `52494` `` | `lore_term:titan`: accepted |
+| `default` `52937` `` | `lore_term:titan`: accepted |
+| `default` `58934` `` | `lore_term:titan`: accepted |
+| `default` `59979` `` | `lore_term:titan`: accepted |
+| `default` `60395` `` | `lore_term:titan`: accepted |
+
+## D-21636: Source-Local Fatesworn Labels
+
+Reviewed 19 source-local Fatesworn labels across historical-group,
+DLC/story-product, player-epithet, atomic-title, and unresolved contexts.
+Added eight English pairings, retained five existing bilingual labels,
+and kept six unresolved rows unchanged. The exact EN/JA/ZH sources and
+old/new Korean cells are in `proper-name-edits-D21636.tsv`. No global
+Fatesworn faction alias or duplicate entity was added. At `default:49217`,
+the English sentence explicitly equates the historical self-name with
+Warsworn; the existing accepted `faction:warsworn` decision remains
+terminal, with only a row-scoped matched label and evidence addendum.
+The 18 Hope-of-the-Fatesworn keys below remain under D-21461 and are not
+reopened or recounted.
+
+| Key | Scope | Disposition | Decision |
+| --- | --- | --- | --- |
+| `default` `3351` | identity-hold | uncertain | Retained unchanged; aligned context does not resolve the referent. |
+| `default` `4598` | historical-group-label | not-an-issue | Existing bilingual label retained; no new identity or alias inferred. |
+| `default` `9945` | dlc-story-product | accepted | Accepted the scoped English label; only the reviewed Korean span changed. |
+| `default` `13237` | identity-number-hold | uncertain | Retained unchanged; aligned context does not resolve the referent. |
+| `default` `16239` | dlc-story-product | not-an-issue | Existing bilingual label retained; no new identity or alias inferred. |
+| `default` `21502` | identity-number-hold | uncertain | Retained unchanged; aligned context does not resolve the referent. |
+| `default` `29630` | dlc-story-product | not-an-issue | Existing bilingual label retained; no new identity or alias inferred. |
+| `default` `36174` | dlc-story-product | accepted | Accepted the scoped English label; only the reviewed Korean span changed. |
+| `default` `37184` | identity-hold | uncertain | Retained unchanged; aligned context does not resolve the referent. |
+| `default` `39567` | historical-group-label | not-an-issue | Existing bilingual label retained; no new identity or alias inferred. |
+| `default` `39916` | historical-group-label | accepted | Accepted the scoped English label; only the reviewed Korean span changed. |
+| `default` `43993` | historical-group-label | accepted | Accepted the scoped English label; only the reviewed Korean span changed. |
+| `default` `49217` | historical-warsworn-name | accepted | Accepted the scoped English label; only the reviewed Korean span changed. |
+| `default` `49657` | historical-group-modifier | accepted | Accepted the scoped English label; only the reviewed Korean span changed. |
+| `default` `56299` | identity-hold | uncertain | Retained unchanged; aligned context does not resolve the referent. |
+| `default` `60886` | player-epithet | not-an-issue | Existing bilingual label retained; no new identity or alias inferred. |
+| `default` `62264` | identity-hold | uncertain | Retained unchanged; aligned context does not resolve the referent. |
+| `default` `62915` | atomic-title | accepted | Accepted the scoped English label; only the reviewed Korean span changed. |
+| `default` `64450` | dlc-story-product | accepted | Accepted the scoped English label; only the reviewed Korean span changed. |
+
+Preserved D-21461 Hope-owner keys: `default:505:` (accepted), `default:649:` (accepted), `default:1288:` (accepted), `base:1338:11` (accepted), `base:2088:11` (accepted), `base:2741:11` (accepted), `base:3405:11` (accepted), `base:3564:11` (accepted), `default:7559:` (accepted), `default:8089:` (uncertain), `default:9966:` (accepted), `default:15634:` (accepted), `default:18681:` (accepted), `default:35769:` (accepted), `default:40120:` (accepted), `default:41974:` (accepted), `default:59401:` (accepted), `default:59909:` (not-an-issue).
+
+## D-21637: Syl Person And Place Homonyms
+
+English-led source-scope review of all 11 exact `Syl` tokens across
+affix/base/default found 11 default keys. The identity is split by
+explicit context: `default:24765` refers to a person whose corpse was
+found in an alley; `default:9918`, `17547`, `30641`, `55176`, and `59101`
+refer to the Syl Hollow place. The three existing D-21219 place rows
+(`7509`, `14513`, `36738`) remain terminal and were not reopened.
+Standalone `default:43207` and `47222` remain uncertain. No global
+`Syl` alias was added to either entity.
+
+| Key | Person Syl | Syl Hollow place | Texto |
+| --- | --- | --- | --- |
+| `default:9918` | `excluded` / `accepted` | Texto edited |
+| `default:17547` | `excluded` / `not-an-issue` | unchanged |
+| `default:24765` | `accepted` / `excluded` | Texto edited |
+| `default:30641` | `excluded` / `accepted` | Texto edited |
+| `default:43207` | `uncertain` / `uncertain` | unchanged |
+| `default:47222` | `uncertain` / `uncertain` | unchanged |
+| `default:55176` | `excluded` / `not-an-issue` | unchanged |
+| `default:59101` | `excluded` / `accepted` | Texto edited |
+
+Exact EN/JA/ZH evidence and old/new Korean cells are in
+`proper-name-edits-D21637.tsv`. The person identity is scoped only to
+`default:24765`; no further biography or identity was inferred.
+
+## D-21638: Coilsbane Source Spellings And MendellerBirt History Correction
+
+| Key | English source | Disposition | Decision |
+| --- | --- | --- | --- |
+| `default:30165` | `Coilsbane` | accepted | Texto edited |
+| `default:33116` | `Coilsbane` | not-an-issue | already paired; retained |
+| `default:62903` | `Enter Coilsbane Caverns` | accepted | Texto edited |
+
+D-19777's terminal `Coilsbane`/`Coilsbain` source-spelling decision is
+preserved. Korean follows the established `코일스베인` form, while the
+exact English source spelling is paired only on each reviewed row.
+`default:62903` belongs to the existing `place:coilsbain-cavern`
+compound; the distinct `place:coilsbain-ruins` entry is untouched.
+
+**MendellerBirt reconciliation:** D-19797 already closed
+`default:32170` as `not-an-issue`: Korean spacing does not invent a
+source-name boundary. D-21633 later recorded an uncertainty for the
+same key without new evidence; that duplicate uncertainty is withdrawn
+as an invalid reopen. D-19797 remains terminal, the active text
+`멘델러 버트` is unchanged, and no space is inserted in the English
+source or glossary.
+
+## D-21639: Heuristic Candidate Refresh
+
+A fresh all-resource English scan of the 73,430-row aligned inventory
+found 29,628 heuristic phrases versus the saved 29,604-phrase baseline:
+24 added and none removed. Two phrases (`Ever Glen`, `Theater of Fates`)
+were already screened by D-21447 and were not recounted. The remaining
+22 phrases create 34 candidate-context associations across 33 unique
+source contexts. Those associations map to 34 candidate-occurrence links
+and 33 unique terminal occurrence records, all manifest-backed. The
+`Chaos Core` and `Chaos cores` candidates share `default:9945` and its
+single `resource:chaos-core` terminal record; this alias overlap is not
+a second disposition.
+This is candidate-refresh reconciliation, not a fresh translation or
+entity decision. The 305-row variant shortlist is a separate dataset.
+
+| Candidate | Contexts | Terminal links | Existing dispositions |
+| --- | ---: | ---: | --- |
+| `Abyss armor` | 1 | 1 | accepted=1 |
+| `and Darkvari` | 2 | 2 | accepted=2 |
+| `Bede Edithing` | 1 | 1 | accepted=1 |
+| `Chaos Core` | 1 | 1 | accepted=1 |
+| `Chaos cores` | 2 | 2 | accepted=2 |
+| `Chaos Flames` | 1 | 1 | accepted=1 |
+| `Chaos Weapon Core Component` | 1 | 1 | accepted=1 |
+| `Chaos Weapon Core Components` | 2 | 2 | accepted=2 |
+| `Courden` | 2 | 2 | accepted=1, not-an-issue=1 |
+| `Court of Enchantment` | 1 | 1 | not-an-issue=1 |
+| `Cynric boys` | 2 | 2 | accepted=2 |
+| `deed to the Skoria Mine` | 2 | 2 | accepted=2 |
+| `Dorothy Enright` | 1 | 1 | accepted=1 |
+| `Ewa Teofring` | 1 | 1 | accepted=1 |
+| `Giri Urdur` | 1 | 1 | not-an-issue=1 |
+| `Luminitsa's Cards` | 1 | 1 | accepted=1 |
+| `Nena Adolla` | 1 | 1 | accepted=1 |
+| `Praetorian order` | 1 | 1 | accepted=1 |
+| `Prince of Spring` | 2 | 2 | accepted=2 |
+| `Raven Guard` | 1 | 1 | not-an-issue=1 |
+| `Stellan's Journal` | 4 | 4 | accepted=2, excluded=2 |
+| `The Ravens` | 3 | 3 | accepted=1, excluded=2 |
+
+The raw heuristic baseline remains unchanged to preserve dated refresh
+comparisons. Neither list establishes exhaustive proper-name discovery.
+Full discovery/residual validation remains open.
+
+## Proper-Name Scope Clarifications (2026-10-18)
+
+- D-21649 supersedes D-8164's uncertainty and D-19045's earlier conclusion
+  only for the proper-name classification/display of Orison at
+  `default:24958`, based on the named rite established by `default:5527` and
+  `default:41926`. Both original records remain unchanged; D-19045's
+  blessing/hope findings are not reopened or recounted. See
+  `named-scope-correction-D21649-20261018.md`.
+- D-21650 supersedes D-7537's referent uncertainty and adds the bilingual
+  `place:wending` display at `default:23712`; D-18695's separate
+  translation-quality disposition remains preserved and is not recounted.
+
+## D-21652: Aesir Dannin Source-Local Name Annotation
+
+Added the missing English name annotation at `default:15109`, using the
+identical already-paired sentence at `default:28077` as a consistency
+anchor. English Aesir Dannin, Japanese イーシア・ダニン, and Chinese
+埃西尔·丹宁 agree on the source name. No entity category, identity,
+glossary entry, occurrence disposition, alias, or historical tally was
+added. D-4598's sentence-level uncertainty at ID 15109 and D-19424's
+terminal `not an issue` at ID 28077 remain unchanged. Full discovery
+remains incomplete.
+
+## D-21653: Horsa Treodic
+
+Registered Horsa Treodic as a person using the explicit epitaph reference
+to “her and her unborn child,” corroborated by the aligned Japanese and
+Chinese rows. Reviewed the grave label at `base:2056:11` and
+`default:42929`, plus the epitaph at `default:49509`; added the missing
+Korean (English) name annotation to the two default cells. The existing
+Horsa Bynothas person entry remains distinct, and no relationship is
+inferred. Existing `organization:motus-mining` and
+`place:snaketail-river` dispositions at `default:49509` are preserved.
+Full discovery remains incomplete.
+
+## D-21654: Garysh
+
+Registered Garysh as a person after checking the two `Private Garysh` labels
+and the Faelands permit dialogue against English, Japanese, and Chinese.
+Standardized the name as `게리시(Garysh)` at `default:23479` and
+`default:32236`; `default:11517` was already paired. D-3363's uncertainty
+about the Korean equivalent of `Private` remains unchanged, as does
+D-20956's Faelands disposition at `default:11517`.
+
+## D-21655: Savant Reen Source-Local Annotation
+
+Source-local missing bilingual annotation only. English Savant Reen, Japanese 一級魔道師リーン and Chinese 博学者里恩 align. Reuse the identical English-label Korean at default:4313/18023/52051. Preserve all D-19507/D-19510 decisions and rank/name choices; anchors are not re-adjudicated or counted. No entity, alias, occurrence disposition or historical global tally is added.
+
+## D-21657: Holnstead Source-Local Annotation
+
+Source-local name annotation only. English default:39788 is exactly Holnstead; Japanese ホルンステッド and Chinese 霍恩斯泰德 support the same displayed name. The exact base:4299 label already pairs 홀른스테드(Holnstead), and base:1957 pairs The Holnstead. Add only the missing English parenthetical. Do not infer whether this is a place, building, person, or other entity; do not add glossary/index ownership or global totals.
+
+## D-21658: Proper-Name Residual Validation
+
+Latest verified proper-name batch: D-21658 (2026-10-18).
+Performed a read-only all-resource residual gate; no CSV, glossary, occurrence-index, or historical tally changes.
+The English lexical heuristic contains 29628 phrases versus 29604 in its saved baseline: 24 newly surfaced, zero removed. All additions were already reviewed in D-21447/D-21639: `Abyss armor`, `Bede Edithing`, `Chaos Core`, `Chaos Flames`, `Chaos Weapon Core Component`, `Chaos Weapon Core Components`, `Chaos cores`, `Courden`, `Court of Enchantment`, `Cynric boys`, `Dorothy Enright`, `Ever Glen`, `Ewa Teofring`, `Giri Urdur`, `Luminitsa's Cards`, `Nena Adolla`, `Praetorian order`, `Prince of Spring`, `Raven Guard`, `Stellan's Journal`, `The Ravens`, `Theater of Fates`, `and Darkvari`, `deed to the Skoria Mine`.
+All 4 categorized pending discovery snapshots (1629 rows) have every component entity/source key in the active occurrence index; all 4 pending definition snapshots (22 entities) are present in the active glossary. These files are historical snapshots, not remaining queues.
+Indexed matches: 45693; accepted=30560, excluded=2984, not-an-issue=12046, uncertain=103.
+Remaining unreviewed indexed matches: 0.
+Reviewed unresolved indexed holds: 103, in 98 distinct CSV row keys; do not reopen without new evidence.
+Sequential default review through ID 65134 remains completed and is not recounted.
+Candidate and occurrence indexes are bounded discovery aids, not an exhaustive universe. Full proper-name discovery remains incomplete; do not claim overall completion.
+Active CSV SHA-256 (unchanged):
+- affix: `c21fa755fe559f5dd980b79900cb920ee3739b25b7138950e8f54123aa308310`.
+- base: `0b9f479ef25ac8d98898a584e510b9d83ec021922c2796c1df8fc1a91aeb5379`.
+- default: `45577aa6e0715d6fc0e33268f76d3655941d61be8f59ca1eafd09314a502244f`.
+Last actual CSV-edit backups (retained; this validation made no edits):
+- affix: 1 cells; pre `9ae001a379b766612293d076eafb5b02a27ac2de70f05f2f98a706f7aef5607c`; post `c21fa755fe559f5dd980b79900cb920ee3739b25b7138950e8f54123aa308310`; backup `/private/tmp/ko-translate-backups/20261017/before-proper-name-D21521/locatexts_zh_cn.koalocatext_affix.csv`.
+- base: 3 cells; pre `8f1af775c1a844ad3c6b35eb5e4aa75d70d706114db4deb39ef370742d8b32a8`; post `0b9f479ef25ac8d98898a584e510b9d83ec021922c2796c1df8fc1a91aeb5379`; backup `/private/tmp/ko-translate-backups/20261018/before-proper-name-D21647/locatexts_zh_cn.koalocatext_base.csv`.
+- default: 1 cell; pre `e3c66147cfe95018e206d3f9689759d0a6543f5b44a0f586cf97fbebf3b2ec35`; post `45577aa6e0715d6fc0e33268f76d3655941d61be8f59ca1eafd09314a502244f`; backup `/private/tmp/ko-translate-backups/20261018/before-proper-name-D21657/locatexts_zh_cn.koalocatext_default.csv`.
+Aligned inventory: 73430 rows; SHA-256 `cf9fd0a941d0461f3b3b02bcc07bf337f2bb145f1d17047e01572261b5cf996c`.
+Occurrence index: 45693 rows; SHA-256 `25faf1f37bafdc377f967148453f89f03caf4ce898b08d3c6c3318a3a16efdf0`.
+Proper-name glossary: 2174 entries; SHA-256 `ff949add8bd6f10c8180cc0905b7a95de83f0e89d91c215f7269328465d60e04`.
+Heuristic delta: 24 additions, zero removals; all additions have prior dispositions.
+Residual audit, data validation, candidate tests, pending-snapshot reconciliation, and checkpoint integrity: PASS.
+Report: `work/zh_cn/audit/proper-name-residual-validation-D21658-20261018.md`.
+Addendum: `work/zh_cn/audit/named-scope-edit-addendum-D21658-20261018.md`.
+Next: D-21659; continue documented residual holds and source discovery; no overall completion claim.
+
+
+## D-21687: Source-Local Label Cross-Check
+
+English base:377/502/4354 labels `Mala'chim Talisman`, `Aster History`, and `Timios` are aligned with Japanese and Chinese and already carry their source English name forms in the active Korean cells. No `Texto`, glossary, occurrence index, historical disposition, or global tally changed. These source-local checks do not infer referent categories. Keep `Timios` distinct from `Timos`; preserve D-4148 and D-15168 verbatim and unresolved.
+
+## D-21688: Corrective Bloodstone Label Pairing
+
+The D-21680 audit manifest had marked default:20046 `not-an-issue` without pairing its Bloodstone reference. D-21688 corrects only `블러드스톤` to `블러드스톤(Bloodstone)` using the aligned English/Japanese/Chinese evidence. The existing index status and evidence remain unchanged; the byte-preserving edit and final residual bilingual audit passed. No historical tally was recomputed.
+
+## D-21689: Short-Label Proper-Name Scope
+
+Reviewed 32 exact English source keys across affix/base/default for
+Ambassador Keen (13), Ambassador Kulder (3), Ansilla Dolls (5), and
+Blood Rite (11). English anchored each identity, item collection, and
+named rite; aligned Japanese and Chinese were checked as corroborating
+evidence. Registered four scoped glossary entries and added 32
+occurrence records (24 accepted Texto corrections and eight
+not-an-issue rows). Keen remains separate from Cillian Keen and Cali
+Keen; no given name was inferred. Ansilla Dolls remains separate from
+House Ansilla/Lady Ansilla/Castle Ansilla. Blood Rite applies only to
+the named Red Legion rite, not generic blood ceremonies.
+
+The 2026-10-18 short-label snapshot was stale: ten groups had already
+been resolved by D-21672, D-21674, and D-21676-D-21682; Bloodstone's
+default:20046 annotation was corrected in D-21688. The refreshed
+D-21689 candidate snapshot contains 268 bounded groups after this
+batch. Neither that count nor the indexed occurrence count is an
+exhaustive discovery remainder or completion percentage.
+Full proper-name discovery remains incomplete.
+
+## D-21690: Corrective Blood Rite Label Pairing
+
+D-21689 marked default:40632 `not-an-issue`, but independent residual validation found that `피의 의식` lacked the required English annotation for `For the Blood rite!`. D-21690 changes only the cell to `피의 의식(Blood Rite)을 위하여!` using aligned English/Japanese/Chinese evidence. The existing occurrence-index status/evidence and counts remain unchanged. D-21689's summary is clarified: eight rows were edited; default:40632 was the overlooked ninth unpaired state, with two other rows already paired. No historical global tally was recomputed.
+
+
+## D-21692: Title-Inclusive Name Display Follow-Up
+
+D-21692 adds the complete English labels to default:39042 (`Ambassador Mandolph`) and base:1114:11 (`Archsage Caledus`) to match established same-scope forms. The underlying person occurrence statuses and historical evidence are preserved; no occurrence key or cumulative total is added.
+
+
+## D-21693: Short-Label Candidate Dispositions
+
+Reviewed 25 distinct source keys in six short-label groups. Five groups are not new proper-name defects because each row already pairs the actual name or species and translates the generic rank/descriptor. `Amphora` remains uncertain between a generic vessel and a uniquely scoped quest object. Prior occurrence-index decisions and counts were preserved; no CSV or glossary changes were made. Exact aligned cells and prior states are in `proper-name-short-label-dispositions-D21693.tsv`.
+
+## Candidate Holds Reviewed Alongside D-21694
+
+Corthis (five exact rows) and Llosgiad (three exact rows) remain
+unresolved and unchanged. Corthis's referent/category and spelling
+remain unresolved across `Fist of Corthis`, `Corthis Unbroken`, the
+standalone label, and `Butcher of Corthis`; the prior D-3867/D-4057/
+D-19529/D-19539 decisions are preserved. Llosgiad names the Second
+Burning in one source and the resulting southern-dock area in another;
+event/place identity is not merged. D-11637/D-17906/D-19836/D-20284
+histories are preserved. The eight exact bilingual rows and any
+previous row dispositions are in
+`proper-name-short-label-dispositions-D21694.tsv`.
+
+## D-21695: Short-Label Candidate Dispositions
+
+Reviewed 39 distinct source
+keys across eight candidate groups: two named events registered, two
+translated ranks/species-adjacent terms closed as not an issue, and four
+identity/alias questions retained as uncertain. Existing index-owner
+histories are preserved. Exact source rows are in
+`proper-name-short-label-dispositions-D21695.tsv`.
+
+## D-21696: Augur Short-Label Candidate Closure
+
+The 30-key `Augur` short-label group in the prior snapshot is covered by
+this 50-key full-source review. The Revival prophet is registered as
+`person:augur`; generic affix uses and `Augur's Gem` are excluded from
+that person identity. Exact candidate rows and pre-existing owner states
+are in `proper-name-short-label-dispositions-D21696.tsv`.
+
+## D-21697-D-21706: Beckoned Title And Full-Source Occurrences
+
+Reviewed all 463 exact affix/base/default source keys: 448 title
+references and 15 lowercase ordinary-verb uses excluded from the title.
+Japanese 招かれし者 occurs in 257 title rows and Chinese 天选者/召唤者 in
+436; every title row has at least one of these supporting forms.
+Registered `title:beckoned` as `부름받은 자(Beckoned)`, with `The Beckoned`
+retained as a source alias. D-692 and D-3115 establish the Korean title;
+English meaning, Japanese `招かれし者`, and Chinese `天选者` were compared.
+Normalize only the title span, including its English annotation; preserve
+particles and all other row/entity decisions. D-21697's first batch
+prioritizes all 43 short-label candidate keys. Exact locale text and prior
+row owners are in `proper-name-short-label-dispositions-D21697.tsv`;
+all per-key changes and exclusions are in the D-21697-D-21706 manifests.
+D-18212's historical uncertain findings are superseded only on this
+corpus-wide Beckoned title form; unrelated row judgments remain intact.
+Refreshed bounded short-label snapshot:
+`proper-name-short-label-discovery-D21697.tsv` (258 groups;
+not an exhaustive universe or completion estimate). Full proper-name
+discovery remains incomplete.
+
+## D-21708: Borm Full Epithet And Bone Town Etymology
+
+Reviewed four existing source keys. At `default:25932` and `default:29681`,
+preserve the `person:borm` owner and complete the English parenthetical
+from `(Borm)` to `(Borm of Bowstrings)`; `default:53271` already has the
+complete form and its prior D-20140/D-20803 judgments are preserved.
+At `default:58643`, retain the “town of bones” explanation while pairing
+the registered place as `뼈의 마을인 본 타운(Bone Town)`. No entity or
+occurrence key was added, and historical counts were not recounted.
+
+## D-21710: Brownie Species Follow-up And Candidate Refresh
+
+Completed the 23-source-key second half: 22 direct species references
+and one explicit exclusion.
+Refreshed bounded short-label snapshot:
+`proper-name-short-label-discovery-D21710.tsv`
+(254 groups; not exhaustive and not a completion estimate).
+Continue discovery from that snapshot while preserving its explicit
+holds and existing terminal decisions.
+
+## D-21711: Corthis Place-Name Consistency
+
+Reviewed all five exact English source keys and standardized four Korean
+place-name components to `코르티스(Corthis)`. The already complete
+`Fist of Corthis` label was retained. Japanese and Chinese corroboration
+was recorded per row; no prior terminal key or tally was reopened.
+Refreshed short-label snapshot: `proper-name-short-label-discovery-D21711.tsv`
+(253 bounded groups; not exhaustive or a completion estimate).
+Full proper-name discovery remains incomplete.
+
+## D-21712: Chicken Overlord Name Consistency
+
+Reviewed both exact source keys and standardized the standalone enemy
+label and attack objective as `치킨 오버로드(Chicken Overlord)`.
+Japanese and Chinese corroboration is recorded in the source manifest.
+Refreshed short-label snapshot: `proper-name-short-label-discovery-D21712.tsv`
+(252 bounded groups; not exhaustive or a completion estimate).
+Full proper-name discovery remains incomplete.
+
+## D-21715: Nix Named-Monster Review
+
+Reviewed all 34 exact Nix source keys and standardized the name as
+`닉스(Nix)` or, for full-name forms, `트롤 닉스(Nix the Troll)`.
+Japanese and Chinese corroboration is recorded per row. Existing
+`monster:troll` dispositions remain intact and were not reopened.
+Refreshed short-label snapshot: `proper-name-short-label-discovery-D21715.tsv`
+(249 bounded groups; not exhaustive or a completion estimate).
+Full proper-name discovery remains incomplete.
+
+## D-21718: Remaining Short-Label Candidate Review
+
+Reviewed 49 exact source keys across nine candidate groups. Registered
+Cathedral of the World as a named place and Chalice of Forced Vintage as
+a unique quest item. Bolgan Bane and the Rathir place-name use of Burn
+remain explicitly uncertain; generic affix Burn, Captain Brattigan,
+Captain Drefan, Captain Eriad Talibor, Captain at Arms, and Castellan
+were closed as already paired names or translated roles. Existing
+occurrence-index decisions and historical totals were not reopened or
+recounted. Exact aligned source text and prior index states are in
+`proper-name-short-label-dispositions-D21718.tsv`.
+
+## D-21719: Short-Label Candidate Review
+
+Reviewed 43 exact source keys across five candidate groups, including
+full-source checks for every occurrence of Champion of Valor, Chaos
+Critters, and Chariot. Registered the Champion of Valor and Chariot
+Travelers titles and the Chaos Critters monster group. The nested
+Champion of Valor matches in the distinct Grand Champion of Valor rank
+were explicitly excluded. Chausses is generic armor terminology;
+Circle's magical-glyph sense was closed, while Florion's ambiguous
+Circle group remains uncertain. Existing faction and person decisions
+were preserved. Exact locale text and prior row states are in
+`proper-name-short-label-dispositions-D21719.tsv`.
+
+## D-21721: Short-Label Candidate Review
+
+Reviewed 40 exact source keys across five groups from the D-21718
+snapshot. Registered Clan Totem, Consistorium, and Crown of the Sun
+using English identity evidence and aligned Japanese/Chinese.
+Excluded the longer Kobold Clan Totem and Consistorium Key component
+matches without editing their cells. Counsel remains held as an
+unregistered alias/title of existing Arkes, not a second person.
+Crown of Clouds remains held: a short label and a Tunnel label do
+not establish the short label's object/place identity. Cur is outside
+this batch: its complete 19-key scan would exceed the 50-key bound.
+Prior row/entity decisions, translation holds, and historical totals
+are preserved. Exact locale and prior-index evidence is in
+`proper-name-short-label-dispositions-D21721.tsv`.
+
+## D-21724: No-Edit Short-Label Review
+
+- Destiny (7 keys): not-an-issue. All seven exact keys are default:27219,12069,12156,16491,17131,23171,56243. English uses Destiny for the selectable player-build mechanic/category and its explanatory UI labels, not a unique named person, place, item, skill, or other entity. Aligned Japanese ディスティニー and Chinese 天命 corroborate this game-system sense. Preserve existing text and any unrelated indexed entities at default:12069 (skill:punishment) and default:23171 (skill:blink); do not treat capitalization or mechanic ranks as entity evidence.
+- Fast Travel (3 keys): not-an-issue. Exact keys: default:13769 and default:31419 are the Fast Travel UI label; default:55273 says the world map allows the player to Fast Travel. Japanese ファストトラベル and Chinese 快速传送 corroborate the ordinary navigation mechanic. This is a generic gameplay function, not a distinct named entity; preserve all active text.
+- FINESSE (4 keys): not-an-issue. Exact keys: default:45610 is the uppercase Finesse ability-tree label; default:2013,3164,53629 describe Finesse abilities and their effects. Japanese フィネス and Chinese 灵巧/灵巧型能力 identify a gameplay ability category, not a unique skill or entity. The same three explanatory keys also support the separately cased Finesse candidate; count the union of both case groups only once.
+- Finesse (5 keys): not-an-issue. Exact keys: default:13075 and default:56694 are Finesse ability-tree labels; default:2013,3164,53629 describe Finesse abilities and their effects. Japanese フィネス and Chinese 灵巧/灵巧型能力 identify a gameplay ability category, not a unique skill or entity. The three explanatory keys overlap the separately cased FINESSE candidate and must not be counted twice.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21724.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21726: No-Edit Short-Label Review
+
+- Fahrlangi mages (2 keys): not-an-issue. Exact keys: default:10803 and default:12428. English identifies the mages as members of the already registered Fahrlangi faction; Japanese ファーランギの魔道士 and Chinese 法朗教法师 corroborate. Reuse faction:fahrlangi and its canonical 파를랑기(Fahrlangi); the existing index already has faction:fahrlangi accepted at default:10803 and not-an-issue at default:12428. No new mage entity is inferred.
+- Father Dynwel (9 keys): not-an-issue. Exact keys: default:1438,19448,22750,25868,28101,4997,54922,56193,60331. These rows are already covered by person:dynwel, whose D-21204 review established 딘웰 신부(Father Dynwel); aligned Japanese ディンウェル神父/神官ディンウェル and Chinese 丁维尔神父/迪恩维尔神父 corroborate. Preserve the existing person index and source wording; no additional person or title entity is inferred.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21726.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21727: No-Edit Short-Label Review
+
+- Erathi Ruin (3 keys): not-an-issue. Exact keys: base:2278:11, default:53759, default:54162. English uses an Erathi ruin as a descriptive location type; default:54162 separately names Agnur Farhal as the particular ruin. Japanese エラシ遺跡 and Chinese 埃拉西废墟 support the descriptive reading. Preserve the existing people:erathi not-an-issue decisions; do not infer one unique place named Erathi Ruin or merge it with Erathi Nexus.
+- Flame Locus (2 keys): not-an-issue. Exact keys: default:16337 and default:3915. English calls these removable Flame Locus zones; aligned Japanese 炎の地 and Chinese 烈焰轨迹 describe a repeatable environmental hazard/mechanic, not a unique site, item, creature, or skill. Preserve the current translation and do not register the generic zone type as an entity.
+- Echo Stone (3 keys): not-an-issue. Exact keys: default:30695, default:3788, and default:54698. English describes an Echo Stone as a repeatable magical device used with Fae Cairns; Japanese 山彦石/エコーストーン and Chinese 回声石 corroborate the device-class reading. Keep this candidate distinct from Echostone; this disposition does not merge spellings or infer one unique item.
+- Echostone (8 keys): not-an-issue. Exact keys: default:10816,2470,27588,38972,4414,51514,57847,6884. English describes an Echostone as a repeatable magical tool paired with matching Cairns and used to experience narratives; Japanese エコーストーン and Chinese 回音石 corroborate. Treat as a device class, not one unique item. Keep this candidate distinct from Echo Stone; no spelling normalization is proposed.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21727.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21728: No-Edit Short-Label Review
+
+- Destinies (2 keys): not-an-issue. Exact keys: default:13437 and default:51163. English default:13437 uses Destinies as the selectable gameplay-system category; default:51163 uses the plural abstract concept in a Fateweaver's statement, not a separately identified person, faction, place, item, creature, or skill. Japanese ディスティニー and Chinese 命运 corroborate the gameplay/fate senses. This disposition is limited to these two short-label candidate keys; it does not settle other Destinies UI wording or register a global Destiny alias. Preserve the unrelated D-15561/D-20098 hollow correction at default:51163 verbatim.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21728.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21730: No-Edit Short-Label Review
+
+- Wyle (2 keys): uncertain. Exact remaining keys: default:24979 is an English-only Wyle label also untranslated in Japanese and Chinese; base:662 already pairs Wyle in Wyle Home. Existing full-name rows identify Guenfear Wyle, Harit Wyle, and Narit Wyle, but the bare label does not identify which referent or whether it is a person/family/place. Preserve base:662 and all prior person/family decisions, including person:harit at default:16616. Do not invent an identity or a global Wyle alias.
+- Ysa Chapter (3 keys): not-an-issue. Exact remaining rows default:51857, 53366, and 55296 identify the Scholia Arcana branch in Ysa; the standalone chapter label already pairs Ysa as 이사(Ysa), and the remaining two labels pair the complete phrase. Japanese イーサ支部 and Chinese 伊萨分会 corroborate the branch meaning. Preserve existing place:ysa and Scholia Arcana dispositions; no duplicate place or organization is registered.
+- Witch Knight (3 keys): not-an-issue. Exact candidate-queue keys: default:27698, default:45250, default:54621 only; the 61-key global title scan is intentionally out of scope. English uses Witch Knight as a role/title, Japanese 魔騎士 and Chinese 女巫骑士 corroborate, and Korean already renders the title in context. Preserve the overlapping organization:alfar-army, people:alfar, place:mel-senshir, and place:shadow-pass dispositions; do not register a character or title entity from these candidate hits.
+- Witch Knight Khleran (2 keys): not-an-issue. Exact remaining rows default:1631 and 21938 identify the already registered person Khleran; the Korean labels already include 클레란(Khleran), while 마녀 기사 translates the generic rank. Japanese 魔騎士クレラン and Chinese 女巫骑士克勒兰 corroborate. Preserve person:khleran and all prior row dispositions; do not create a second titled-person entity.
+- Well (11 keys): uncertain. Exact candidate-queue keys: default:15905, default:27506, default:28162, default:5017, default:52402, default:52634, default:52715, default:53524, default:57375, default:6055, default:61903. English spans generic wells and Well of Souls lore; Japanese 泉 and Chinese 井/灵魂之井 vary by context, while Korean includes 우물, 샘(Well), and the full 영혼의 샘(Well of Souls) label. Do not add a global Well alias or conflate physical/revival referents. Preserve the documented default:6055 hold and every existing entity disposition, including person:octienne and construct:well-of-souls.
+- The Well (2 keys): uncertain. Exact candidate-queue keys: default:39730,54012. English, Japanese 泉, and Chinese 井 do not establish whether the short label is a specific Well concept or a generic reference in both contexts. Preserve default:54012's documented D-20155 uncertainty and existing text; do not register a separate The Well entity or widen Well of Souls.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21730.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21731: Late-Alphabet Short-Label Review
+
+Reviewed 44 exact source keys across eight requested groups. Registered
+Votive of Leaf, Wall of Thorns as a lore term, Wandering Well, Warden
+of Light, Warsworn Ledger, and Vorm Lodge. Warsworn Galley and Warsworn
+Keep remain generic faction/vessel/building descriptors. The quest
+objective, atomic Draught item, D-11477 Wandering Well hold, and all
+D-11506/D-14973/D-15934/D-16493/D-17488 historical decisions remain
+preserved. Existing Vorm-person exclusions and all other prior
+entity/key states are unchanged. Exact locale and prior-index evidence
+is in `proper-name-short-label-dispositions-D21731.tsv`.
+
+## D-21733: No-Edit Short-Label Review
+
+- Gambling Den (13 keys): not-an-issue. D21721 snapshot: 13 exact keys (12 standalone labels and default:54894 in a location sentence). English uses Gambling Den as an ordinary venue description; default:54894 says Jokull is in the Gambling Den located in the Arena market, not that this short label independently identifies a unique place. Japanese 賭博場 and Chinese 赌场 support the generic venue reading; Korean 도박장 is retained. Do not create a place identity or require a nested pair.
+- Garrison (2 keys): not-an-issue. D21721 snapshot: 2 exact keys. English default:12950 is the generic facility label; default:4814 uses Garrison in context after naming the complete Praetorian Garrison, so the short word is not a separate nested entity. Japanese 詰所 and Chinese 卫戍要塞 support the facility reading; Korean 주둔지/주둔군 wording is retained. Keep the existing Praetorian Garrison distinction and do not infer a separate identity.
+- Gold (8 keys): not-an-issue. D21721 snapshot: 8 exact keys (six affix variants and two default rows). English uses Gold as a generic item-affix/material label, as currency in default:7845, and in the alphabet poem at default:61144 for gold obtained by selling silk. Japanese ゴールド and Chinese 黄金 support the material/currency senses; default:7845 is localized as Korean 금화 and the poem as 금. None identifies a distinct named entity; retain the existing wording.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21733.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21734: No-Edit Short-Label Review
+
+- Curse (2 keys): uncertain. D-20168 later closed D-16551's translation finding for default:54692 as not an issue; do not reopen or recount that verdict. This separate proper-name discovery candidate concerns whether Curse is a distinct named card/entity or a generic force. The standalone default:9440 and the scene at default:54692 do not establish that identity. Japanese 呪い and Chinese 诅咒 support the literal sense but do not resolve the entity status. Do not register a global Curse alias.
+- Daughter of Lyria (2 keys): uncertain. Preserve D-15973's unresolved role/title question for the standalone default:46419 and D-14194's broader uncertain scope; do not reopen either translation decision. English default:11829 says the speaker is one of many Sons and Daughters devoted at the temple, indicating a generic religious role, while the standalone label may be a game-specific role name. Japanese リリアの申し子 and Chinese 莉里亚的女儿 support the literal relation but do not settle the role's canonical status. Preserve the established deity:lyria annotations and do not register a separate person, faction, or deity alias.
+- Dawn March (2 keys): uncertain. Preserve the existing D-17939 uncertainty at default:61217 and related D-3090 historical-text hold. English calls the event a second Dawn March, suggesting a named historical event, but this bounded label/context does not establish its exact identity or canonical Korean event form. Japanese 夜明けの行軍 and Chinese 黎明行军 corroborate the literal wording only. Do not register an event alias or revise earlier translation findings.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21734.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21738: No-Edit Short-Label Review
+
+- Dreadscale (7 keys): uncertain. Live discovery scope: six affix variants at affix:286 and the paired equipment label at base:4368. English uses Dreadscale as an armor/gear descriptor, and default:19669 also refers generically to dreadscale armor; the exact rows do not establish a separately named creature, species, or unique item/set. Japanese ドレッドスケール and Chinese 恐怖之鳞 support the source form/meaning but do not settle entity status. Preserve all current Korean wording, including the bilingual Dreadscale Headdress, and do not create a global Dreadscale alias or infer a monster.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21738.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21740: No-Edit Short-Label Review
+
+- Enemies in High Places (3 keys): uncertain. Preserve D-10282's unresolved meaning at default:31739: English permits both literal elevation and the idiom for powerful/high-ranking enemies, while Japanese 高位の敵 and Chinese 高处的敌人 differ. D-4306's not-an-issue verdict for default:14360 applies only to that key and is not reopened. The three exact candidate keys are default:14360, 15775, and 31739; the objective at 15775 explicitly names the quest. Keep all active Korean cells unchanged, do not impose default:14360's wording on the other rows, and do not revise either prior translation disposition.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21740.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21742: No-Edit Short-Label Review
+
+- Fal (2 keys): uncertain. Fresh English/Japanese/Chinese alignment covers the standalone label default:63080 and the phrase Stone of Fal at default:13773. The standalone label is exactly Fal in all three source languages but Korean gives 팔; the longer source row has the already paired 팔(Fal)의 돌. These rows support a repeated name string but do not establish what Fal denotes or whether it is an independently named entity rather than a component of the Stone label. Preserve both Korean cells and prior row decisions; do not infer identity or category.
+- Fall (2 keys): uncertain. Fresh English/Japanese/Chinese alignment distinguishes the standalone Fall label at default:56467 from 'the Fall' in default:18283. The standalone sources diverge (English Fall, Japanese 秋, Chinese 坠落, Korean 추락); the longer passage calls the Children of Dust harbingers of the Fall and its Japanese/Chinese versions point to autumn/fall, while Korean uses 몰락(Fall). It is not established that the standalone label names this event rather than an unrelated season, action, or concept. Preserve both cells and prior decisions without propagating one sense.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21742.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21750: No-Edit Short-Label Review
+
+- Neophyte (3 keys): not-an-issue. D21726 candidate snapshot. English uses Neophyte as a generic novice/learner address or label, not an individually identified entity. At default:32509 and default:46989, Japanese 修練者 and Chinese 学徒 support the generic sense; Korean uses 신참 and 수련자. At default:27633 it is direct address (Japanese 修練者さん, Chinese 学徒) and Korean already has 신입생(Neophyte). Keep the existing translations; a single complete dialogue annotation does not make every generic role reference a named entity. The official Korean manual extraction has no direct Neophyte entry.
+- Nightblade (2 keys): uncertain. D21726 candidate snapshot. English default:63219 is a standalone Nightblade label and default:7776 describes Nightblade combat arts at a proficiency level. Japanese ナイトブレード and Chinese 夜刃 corroborate the game term; the Korean description at default:7776 already has 나이트블레이드(Nightblade), while the standalone label is 나이트블레이드. This supports a game-specific combat concept but does not establish whether this short-label scope should register a destiny/class, role, or proper name. Preserve both candidate rows without inferring identity from capitalization. The official Korean manual extraction has no direct Nightblade entry.
+- Nil the White (4 keys): uncertain. D21726 candidate snapshot. English default:41733, default:47137, and default:56763 use Nil the White as a standalone label; default:1986 says the Priestess and Nil the White put the speaker there. Japanese 白のニル and Chinese 白尼尔 corroborate the name. The existing person:white-nil-kern glossary entry uses White Nil as a short alias, but the reversed English forms and shared locale labels do not establish whether Nil the White is the same person or a distinct referent. Preserve all four candidate rows; do not add an alias or a second person based on capitalization.
+- Niskaru Horrinox (2 keys): uncertain. D21726 candidate snapshot. English default:20062 is a standalone label and default:4763 calls a Niskaru Horrinox a powerful beast. Japanese ニスカル・ホリノックス and Chinese 尼斯卡鲁恐怖暴君 corroborate the creature term; Korean retains the established ニスカル species pair as 니스카루(Niskaru) and transliterates 호리녹스, with the full phrase already paired in default:4763. The glossary's monster:enfamanir evidence also describes Enfamanir as a Niskaru Horrinox. These sources establish creature context but do not resolve whether Horrinox is a named taxonomic entity or a descriptive subtype. Preserve both candidate rows and do not infer a new monster identity.
+- Niskaru Lord (9 keys): not-an-issue. D21726 candidate snapshot. English default:54543 defines a Niskaru Lord as an immense being of pure chaos; the other candidate rows use the phrase for the same creature rank/type. Japanese ニスカルロード and Chinese 尼斯卡鲁领主 support the compound reading. Korean consistently pairs the registered species as 니스카루(Niskaru) and translates Lord as 군주; the existing monster:niskaru index entries at the five standalone-label keys remain unchanged. Treat Lord as the localized rank/type component, not a separate person or monster entity, and preserve every prior key disposition.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21750.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21751: No-Edit Short-Label Review
+
+- Forstid (2 keys): uncertain. Current D-21750 discovery snapshot: exact source keys default:20377 and default:53034. At 20377, English, Japanese, and Chinese all give only Forstid; Korean is 포스티드. At 53034, English says “one of Forstid's own” about a ship and Japanese explicitly calls it a Forstid-family vessel, but this does not establish whether the standalone label at 20377 is the family, a person, a group, or another referent. Existing person:shalarein-forstid and D-20383's exclusion from the personal-name-only pass do not establish a global alias or entity type. D-16094's uncertainty at 53034 remains historical. Preserve both Korean cells and prior dispositions; do not infer a family identity.
+- Forum (9 keys): uncertain. Current D-21750 discovery snapshot: nine exact source keys across base/default. English contexts use Forum for a gnome civic center/building, a body that decrees punishment, a venue in Adessa, and a standalone label; Japanese varies between 公会堂 and 評議院, Chinese between 广场 and related civic terms, and Korean between 공론장, 공회당, 광장, and already paired 포럼(Forum). The contexts suggest a civic institution but do not establish one entity/category or a single canonical referent across all keys. Preserve all Korean cells and prior row dispositions; do not propagate a building, council, or place-name interpretation from one row to the rest. The official Korean manual has no direct Forum entry.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21751.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21755: No-Edit Short-Label Review
+
+- Gastyr (7 keys): uncertain. English uses Gastyr as a standalone label, a key/place modifier, a bidding-war party, and in references to lords or a speaking subject. Japanese ガスティア家 supports a house/family reading in one context, while other rows suggest a place or person; Chinese does not settle one global referent. Preserve the existing person:hillared-gastyr and place:castle-gastyr decisions, do not infer a shared entity or alias, and make no CSV changes.
+- God Under the Mountain (3 keys): uncertain. English and aligned Japanese 山の下の神 and Chinese 山下之神 preserve the same epithet in two standalone labels and a narrative line. Existing title:the-mountain-fate-card exclusions at these exact keys are retained, not reopened. A separate deity-epithet/alias registration and its relationship to Tirnoch are not established by these candidate rows alone; retain the Korean text and do not create a duplicate deity.
+- Gorhart Village (11 keys): not-an-issue. The English compound denotes the already registered place Gorhart plus the translated generic noun Village. Korean uses 고어하트(Gorhart) 마을, and Japanese ゴーハート村/Chinese 郭哈特镇 corroborate. Existing place:gorhart row decisions remain unchanged; the candidate's compound not being enclosed in one additional English parenthetical is not a defect.
+- Gorhart village (4 keys): not-an-issue. These lower-case source uses denote the same already registered Gorhart place plus generic village, not a new entity. Korean keeps 고어하트(Gorhart) 마을; Japanese ゴーハート村 and Chinese 郭哈特镇 corroborate. Preserve the existing place:gorhart dispositions and do not create a case-variant alias or recount its prior findings.
+- Great House (5 keys): not-an-issue. English uses Great House as a social class/institutional category, including a generic contrast with Sparrow and soldier, not one uniquely identified house. Japanese 有力一族, Chinese 高等家族, and Korean 대가문 support the existing generic translation. Do not create a faction or place entity.
+- Great Library (2 keys): uncertain. English, Japanese 大図書館, Chinese 大图书馆, and Korean 대도서관 preserve the library meaning. The standalone label and a Crownhold reference do not establish that every Great Library mention identifies one unique place; other source contexts mention the Great Library of Adessa. Retain the current text and defer any global place/alias registration.
+- Greathammer (3 keys): not-an-issue. English uses Greathammer as a generic weapon class and in its gameplay description; Japanese グレートハンマー and Chinese 巨锤 corroborate. Korean 대형 망치 translates the class, and the description already pairs 대망치(Greathammer). Do not register a unique weapon or rewrite the generic label.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21755.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+
+## D-21756: Grand Champion Title
+
+Registered `title:grand-champion` as `그랜드 챔피언(Grand Champion)`.
+Reviewed all 15 exact English title occurrences across the aligned
+sources and Korean cells: 12 title-span edits, one already-canonical
+occurrence, and two exclusions for the distinct longer title Grand
+Champion of Valor. Japanese `グランドチャンピオン` corroborates the
+established Korean form; Chinese `总冠军` is supporting evidence only.
+D-591 and D-20096 remain historical translation decisions and were not
+reopened or recounted. D-21719 exclusions at default:5070 and 40966
+remain unchanged. Older uncertainties at D-2425, D-9895, D-12779,
+D-13170, and D-18043 are narrowed only for this exact title-name scope;
+unrelated sentence-level findings remain historical.
+Next: D-21757; review the 138-group bounded snapshot
+`proper-name-short-label-discovery-D21756.tsv`. It is not exhaustive and
+does not represent an overall remaining-item count.
+Full proper-name discovery/residual validation remains incomplete.
+Exact evidence and prior index dispositions are in
+`proper-name-short-label-dispositions-D21756.tsv`.
+
+
+## D-21757: Five Short-Label Candidates
+
+Reviewed all 23 distinct source keys across five candidate groups,
+including full-source checks beyond the bounded discovery snapshot.
+Registered four entities with 19 indexed source matches: Hall of
+Accolades as a place, Hallowed Tree as a named landmark, Heart of the
+Sidhe as a named site, and Heartstone as a named ritual item/class.
+Applied 16 exact Texto edits; three registered-name occurrences
+were already canonical. Hammer is generic weapon/common-object wording,
+not a unique named weapon, and its four rows remain unchanged.
+English anchors identity and meaning; aligned Japanese and Chinese
+corroborate. The manual's `Hammers` entry supports a generic weapon
+reading only. D-9231, D-3288, D-17963, and D-16940 remain historical
+sentence/lore/affinity dispositions and were not reopened or recounted.
+Existing `lore:sidhe` at base:2119:11 is preserved as a separate scope.
+Next: D-21758; review the 133-group bounded snapshot
+`proper-name-short-label-discovery-D21757.tsv`. It is not exhaustive and
+does not represent an overall remaining-item count.
+Full proper-name discovery/residual validation remains incomplete.
+Exact evidence and prior index dispositions are in
+`proper-name-short-label-dispositions-D21757.tsv`; indexed name edits are
+in `proper-name-edits-D21757.tsv`.
+
+## D-21758: Henge And Hexes Short-Label Review
+
+Reviewed 31 candidate source keys across Henge and Hexes. Henge is the
+generic Kollossae transport-artifact/device type in the seven candidate
+rows; a 29-row full-source scan found compound Henge location labels as
+well, which were not reopened. Registered the named in-world card game
+Hexes as `title:hexes-card-game` after reviewing all 24 exact source
+occurrences: 15 name-span edits, two already-paired game references,
+and seven occurrence-level holds. English game/card/dealer/wager
+contexts and aligned Japanese/Chinese support the confirmed references.
+Ambiguous standalone/UI uses remain unchanged. Prior translation
+dispositions were preserved and not recounted. Candidate disposition
+counts: {"not-an-issue"=>9, "uncertain"=>7, "accepted"=>15}. Exact aligned text and prior row decisions
+are in `proper-name-short-label-dispositions-D21758.tsv`; indexed
+name-scope edits are in `proper-name-edits-D21758.tsv`.
+Full proper-name discovery/residual validation remains incomplete.
+
+## D-21759: Hireling Rank, Hoplon, And Ice Wolf
+
+Reviewed 48 exact source keys across Hireling, Hoplon, and Ice Wolf,
+including full-source checks beyond the bounded candidate snapshot.
+Registered Hireling as the formal Warsworn entry rank `title:warsworn-hireling`;
+default:44646 gives the Hireling/Pledgeshield/Oathblade progression, and
+the existing Pledgeshield record confirms this hierarchy. Standardized
+38 rank spans as 고용병(Hireling); five rows were already fully paired
+or preserved as complete rank-plus-person labels. Hoplon is a generic
+shield type, not a unique item. Ice Wolf's summoned-creature versus
+skill/effect identity remains uncertain, so its three rows are unchanged.
+Prior row-level translation findings and other entity decisions were
+preserved and not recounted. Candidate disposition counts:
+{"accepted"=>38, "not-an-issue"=>7, "uncertain"=>3}. Exact aligned evidence is in
+`proper-name-short-label-dispositions-D21759.tsv`; rank edits are in
+`proper-name-edits-D21759.tsv`.
+Full proper-name discovery/residual validation remains incomplete.
+
+## D-21760: Ironhold Passage Location Name
+
+Reviewed all six English-indexed `Ironhold Passage` source keys: one
+base row and five default rows. English contexts establish one named
+location; Japanese consistently supports the passage reading, while
+Chinese is supplementary. Standardized four missing/partial Korean
+labels to 아이언홀드 통로(Ironhold Passage); two rows were already
+canonically paired. The shorter `Ironhold` candidate remains distinct
+and unreviewed. No prior row disposition was reopened or recounted.
+Exact aligned evidence and prior decisions are in
+`proper-name-short-label-dispositions-D21760.tsv`; indexed edits are in
+`proper-name-edits-D21760.tsv`.
+Full proper-name discovery/residual validation remains incomplete.
+
+## D-21761: Short-Label Candidate Review
+
+Reviewed 29 candidate keys across Judgment (2), King Wencen (19),
+Knave of Pride (5), and Kollossae Litany (3). King Wencen is already
+owned by person:wencen and its terminal row dispositions were preserved.
+Judgment, Knave of Pride, and Kollossae Litany retain their prior
+uncertainties; no new entity or alias was inferred. No CSV, glossary,
+or occurrence-index changes were made. Candidate disposition counts:
+{"uncertain"=>10, "not-an-issue"=>19}. Exact aligned English/Japanese/Chinese/Korean and
+prior index evidence are in
+`proper-name-short-label-dispositions-D21761.tsv`.
+Full proper-name discovery/residual validation remains incomplete.
+
+## D-21762: Full-Name Candidate And Title Review
+
+Reviewed 36 bounded short-label candidate keys across Lady Oleyn,
+Lapidus Root, Leanashe Tentacle, Legs, Longbow, Lord Kandrian, and
+Loremaster: {"Lady Oleyn"=>4, "Lapidus Root"=>4, "Leanashe Tentacle"=>3, "Legs"=>2, "Longbow"=>4, "Lord Kandrian"=>17, "Loremaster"=>2}. Registered all seven Lapidus Root
+occurrences as resource:lapidus-root; the exact source calls it a herb,
+and aligned Japanese/Chinese support the named root/reagent. Registered
+all 57 Lord Kandrian occurrences as the transferable title
+title:lord-kandrian, not one person; default:54366 distinguishes the
+deceased holder from Erion as the new holder. Registered four specific
+Loremaster office/title uses as title:loremaster and excluded five
+lowercase generic uses. Standardized
+only the reviewed title/resource spans. Lady Oleyn and Leanashe
+dispositions remain under their existing owners; Legs and Longbow are
+generic labels. Prior terminal findings were preserved and not
+recounted. Candidate dispositions: {"not-an-issue"=>25, "accepted"=>11}. Exact candidate
+evidence is in `proper-name-short-label-dispositions-D21762.tsv`;
+complete entity edit manifests are in `proper-name-edits-D21762.tsv`
+and `proper-name-edits-D21763.tsv`.
+The next bounded candidate queue has 116 groups and
+begins with `Lorestone`; it is not an exhaustive completion estimate.
+Full proper-name discovery/residual validation remains incomplete.
+
+
+## D-21764: Lord Kandrian Particle Correction
+
+Corrected the complement particle at default:54366 from `가` to `이` after `경(Lord Kandrian)`. The existing D-21763 accepted title disposition, evidence, and all counts remain unchanged.
+
+## D-21765: Short-Label Candidate Review
+
+Reviewed two exact candidate keys for `Love Again Another Day`; both
+were accepted into the same title entity. Standardized the default
+label to the English-led Korean base rendering and added the English
+pairing to the base label. The separate lower-case phrase in
+default:1842 is a first-person lyric and was excluded without editing.
+Exact candidate evidence is in
+`proper-name-short-label-dispositions-D21765.tsv`; source-wide title
+matches and edits are in `proper-name-discovery-D21765.tsv` and
+`proper-name-edits-D21765.tsv`. Remaining bounded groups: 115,
+beginning `Lorestone`; this is not an exhaustive completion estimate.
+Full proper-name discovery/residual validation remains incomplete.
+
+
+Validation: PASS 2279 unique entities; 47665 unique active-aligned occurrences
+{"accepted"=>32036, "uncertain"=>111, "excluded"=>3151, "not-an-issue"=>12367}
+base: PASS 1 cells; 4844 ordered rows; masked non-target bytes + inverse equal backup; SHA-256 dcb9f6ad3347d312ec66428e78e6fb2c53a7fbc21bb54acd4d0ace2d8a0fd213
+default: PASS 1 cells; 65135 ordered rows; masked non-target bytes + inverse equal backup; SHA-256 16a235f3d3c46a7ba3eec7ca78a22a144b99cc1cf5b4004428ad85fe03d1dfc8
+Residual bilingual/index audit: PASS; Source/index key differences: missing=0, documented exclusions=0, contextual extras=1064, undocumented extras=0; Source/occurrence comparison: 46601 source matches, 47665 indexed matches, 73430 CSV rows; Terminal matches without a covering bilingual English label: 0
+
+
+
+
+
+
+Short-label review D-21770: accepted `Memory Walk`, `Mountain Barghest`,
+and `Mel Senshir Jail` as source-supported named place/monster entries.
+Their candidate memberships were reviewed against exact aligned English,
+Japanese, Chinese, Korean, and prior-index cells. Candidate disposition:
+`proper-name-short-label-dispositions-D21770.tsv`.
+Bounded groups remaining: 103, beginning
+`Main Hall`; not an exhaustive
+completion estimate. Full proper-name discovery remains incomplete.
+
+
+
+Short-label review D-21771: registered `Master Mystic` as a formal title
+and `Masterful Construction` as a named ability. Their exact short-label
+candidates were checked against the full English-led contexts and aligned
+Japanese/Chinese support. Candidate manifest:
+`proper-name-short-label-dispositions-D21771.tsv`.
+Bounded groups remaining: 101, beginning
+`Main Hall`; not an exhaustive
+completion estimate. Full proper-name discovery remains incomplete.
+
+
+## D-21772: Generic Labels And Unresolved Homonyms
+
+Reviewed 30 candidate memberships across eight bounded labels:
+`not-an-issue` (15) and `uncertain` (15). The generic observing and
+prophetic roles were excluded from new entity registration. Main Hall,
+Morkan House, Motus Mining Headquarters, Oracles, and Order remain
+unresolved at the stated keys; Moondown's standalone 42542 uncertainty
+and all prior place/person/organization findings remain unchanged.
+No CSV, glossary, occurrence-index, or historical tally changed.
+Exact aligned evidence is in
+`proper-name-short-label-dispositions-D21772.tsv`.
+Remaining bounded candidates: 93, beginning
+`Master Makers`; this is not an
+exhaustive completion estimate. Full discovery remains incomplete.
+
+## D-21771: Master Mystic Title And Masterful Construction Ability
+
+Reviewed 9 distinct resource/ID/variant keys and
+9 entity matches: {"excluded"=>3, "accepted"=>4, "not-an-issue"=>2}.
+Canonical forms: 신비술의 대가(Master Mystic); 숙련된 창조(Masterful Construction).
+Register the player-awarded Master Mystic title and the named Masterful Construction minion-upgrade ability; review all exact English source hits and reuse the Korean forms already established in body text.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+## D-21770: Memory Walk, Mountain Barghest, And Mel Senshir Jail
+
+Reviewed 16 distinct resource/ID/variant keys and
+16 entity matches: {"accepted"=>14, "not-an-issue"=>2}.
+Canonical forms: 기억의 길(Memory Walk); 산악 바게스트(Mountain Barghest); 멜 센시르 감옥(Mel Senshir Jail).
+Register and normalize three source-supported named entities. Review all exact English hits across affix/base/default, reusing existing Barghest and Mel Senshir spellings while keeping generic Barghest and the Mel Senshir city distinct.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+## D-21769: Generic Labels And Existing Person Name
+
+Reviewed 25 candidate memberships in 25 distinct source rows:
+`Marauders` (6), `Master` (3), and `Mayor Eswin` (16). These are
+generic raider/rank labels or the already registered person Eswin
+with a civic office, not additional named entities. Existing Korean
+text, person:eswin registration, prior row decisions, CSVs, glossary,
+occurrence index, and cumulative counts are unchanged.
+Exact locale and prior-index evidence is in
+`proper-name-short-label-dispositions-D21769.tsv`.
+Remaining bounded candidates: 106, beginning
+`Main Hall`; this is
+not an exhaustive completion estimate. Full discovery remains incomplete.
+
+## D-21768: Might Ability-Tree Category Exclusions
+
+Reviewed five candidate memberships across four distinct source rows:
+`MIGHT` (2) and `Might` (3); the `default:29062` evidence row overlaps
+both case groups and is counted once as a distinct row. The English,
+Japanese, Chinese, and official Korean manual evidence identifies the
+Might ability-tree category, parallel to the D-21724 Finesse ruling,
+not a separate named skill/entity. All five memberships are
+`not-an-issue` for proper-name classification. No CSV, glossary,
+occurrence-index, or cumulative count changed.
+Preserve D-19596's terminal result at `default:1753` without recounting;
+D-9652's separate translation hold at `default:30042` remains unchanged.
+Exact evidence is in `proper-name-short-label-dispositions-D21768.tsv`.
+Remaining bounded candidates: 109, beginning
+`Main Hall`; this is not
+an exhaustive completion estimate.
+Full proper-name discovery/residual validation remains incomplete.
+
+## D-21767: Mercantile Named Skill
+
+Reviewed 25 distinct resource/ID/variant keys and
+25 entity matches: {"accepted"=>21, "excluded"=>4}.
+Canonical forms: 상술(Mercantile).
+D-21767 merges the case-insensitive `MERCANTILE`/`Mercantile` candidate groups and reviews every exact English source hit. The 21 skill contexts are registered as skill:mercantile; four ordinary commerce/business descriptors are excluded. Existing translation judgments and historical totals are preserved.
+Exact English/Japanese/Chinese and old/new Korean cells are in the
+manifest. Existing reviewed holds and historical global totals are not
+reopened or recounted. Full proper-name discovery remains incomplete.
+
+## D-21766: Generic Lorestone Label Exclusions
+
+Reviewed nine candidate keys across `Lorestone` (5) and `Lorestones`
+(4). Both are common collectible/object-category terms rather than
+named entities; the Fae Cairn artifact remains separately registered.
+No proper-name entity, alias, CSV edit, occurrence-index disposition,
+or cumulative total was added. D-133's established Korean term
+`로어스톤` remains the terminology authority; variant Korean renderings
+found in these candidate cells are deferred to a separate term
+consistency pass. Exact aligned evidence is in
+`proper-name-short-label-dispositions-D21766.tsv`.
+Full proper-name discovery/residual validation remains incomplete.
+
+## D-21766: Generic Lorestone Label Exclusions
+
+Reviewed nine candidate keys across `Lorestone` (5) and `Lorestones`
+(4). Both are common collectible/object-category terms rather than
+named entities; the Fae Cairn artifact remains separately registered.
+No proper-name entity, alias, CSV edit, occurrence-index disposition,
+or cumulative total was added. D-133's established Korean term
+`로어스톤` remains the terminology authority; variant Korean renderings
+found in these candidate cells are deferred to a separate term
+consistency pass. Exact aligned evidence is in
+`proper-name-short-label-dispositions-D21766.tsv`.
+Full proper-name discovery/residual validation remains incomplete.
+
+Short-label audit: merged the case-insensitive `MERCANTILE` and
+`Mercantile` groups. Reviewed all 25 exact English source rows:
+accepted the 21 gameplay-skill references as `상술(Mercantile)` and
+excluded four ordinary commerce/business uses. The standalone and
+paired label candidates are covered by this source-wide scope.
+Candidate disposition manifest:
+`proper-name-short-label-dispositions-D21767.tsv`.
+Remaining bounded candidate groups: 111, beginning
+`MIGHT`; this is not an
+exhaustive completion estimate.
+
+D-21767 final verification: PASS.
+PASS 2280 unique entities; 47690 unique active-aligned occurrences
+{"accepted"=>32057, "uncertain"=>111, "excluded"=>3155, "not-an-issue"=>12367}
+base: PASS 1 cells; 4844 ordered rows; masked non-target bytes + inverse equal backup; SHA-256 cb406cecc563ebcdf5e9df5987de4092bb28d33bfabdce65f4a245fd7445574c
+default: PASS 20 cells; 65135 ordered rows; masked non-target bytes + inverse equal backup; SHA-256 59c6d4cb51b7053a2c85aa7a697b3a609302c0d79422f8a0f0ad06b52aed9424
+Residual bilingual/index audit: PASS; Source/index key differences: missing=0, documented exclusions=0, contextual extras=1064, undocumented extras=0; Source/occurrence comparison: 46626 source matches, 47690 indexed matches, 73430 CSV rows; Terminal matches without a covering bilingual English label: 0
+
+## D-21774: Oathblade Rank And Short-Label Candidates
+
+Registered `title:oathblade` as `맹세의 칼날(Oathblade)` after reviewing
+all 48 exact English source keys across `affix`, `base`, and `default`.
+Explicit rank-plus-person labels retain the complete source compound
+once, without nested title/person parentheses. Corrected source-local
+rank variants and missing bilingual title spans only; prior person,
+faction, and sentence-level findings are not reopened or recounted.
+The short-label candidate review separately covered 20 Oathblade
+memberships and seven Pick memberships. Pick remains a generic action
+or tool label, distinct from the registered unique item Master's Pick.
+Exact source evidence is in
+`proper-name-short-label-dispositions-D21774.tsv`; indexed title edits
+are in `proper-name-edits-D21774.tsv`.
+Next: D-21775; continue source discovery and review the
+87-group bounded short-label snapshot
+`proper-name-short-label-discovery-D21774.tsv`. The snapshot is not
+exhaustive and is not an overall completion estimate. Full
+proper-name discovery/residual validation remains incomplete.
+
+## D-21775-D-21776: Erathell Region, Petrichor, And Pillar Of Valor
+
+Registered `place:plains-of-erathell` across all 62 exact source keys,
+`resource:petrichor` across seven, and `place:pillar-of-valor` across
+three. English anchors identity and meaning; aligned Japanese and
+Chinese corroborate. Normalized 48 exact `Texto` cells: the region's
+`에라셀(Erathell) 평원`/western-region forms, the two Petrichor spelling
+variants and missing pair, and the two missing Pillar of Valor pairs.
+Existing already-canonical occurrences were retained. Pillar of Valor
+remains distinct from Stone of Valor; Petrichor is not merged with a
+unique inventory item. Prior row findings and historical totals were
+not reopened or recounted. Per-range manifests and pre-edit backups are
+recorded in the D-21775 and D-21776 reports/addenda.
+Next batch: D-21777; continue from the 83-group bounded
+short-label snapshot `proper-name-short-label-discovery-D21776.tsv`.
+It is not exhaustive or an overall completion estimate; full
+proper-name discovery/residual validation remains incomplete.
+
+## D-21783: named-business-structures-community-ship-person
+
+Prepared, source-reviewed manifests applied. Active data validation: PASS 2299 unique entities; 47932 unique active-aligned occurrences
+{"accepted"=>32235, "uncertain"=>111, "excluded"=>3159, "not-an-issue"=>12427}
+Residual audit: PASS; Source/index key differences: missing=0, documented exclusions=0, contextual extras=1064, undocumented extras=0; Source/occurrence comparison: 46868 source matches, 47932 indexed matches, 73430 CSV rows; Terminal matches without a covering bilingual English label: 0
+Next batch D-21784; bounded short-label snapshot `proper-name-short-label-discovery-D21783.tsv` contains 75 groups. This is not an exhaustive universe or an overall completion estimate. Published ZIP unchanged.
+
+## D-21784: reverie-state-and-generic-poem-exclusions
+
+Prepared, source-reviewed manifests applied. Active data validation: PASS 2300 unique entities; 47972 unique active-aligned occurrences
+{"accepted"=>32270, "uncertain"=>111, "excluded"=>3161, "not-an-issue"=>12430}
+Residual audit: PASS; Source/index key differences: missing=0, documented exclusions=0, contextual extras=1064, undocumented extras=0; Source/occurrence comparison: 46908 source matches, 47972 indexed matches, 73430 CSV rows; Terminal matches without a covering bilingual English label: 0
+Next batch D-21785; bounded short-label snapshot `proper-name-short-label-discovery-D21784.tsv` contains 74 groups. This is not an exhaustive universe or an overall completion estimate. Published ZIP unchanged.
+
+## D-21786: No-Edit Short-Label Review
+
+- Poison (2 keys): not-an-issue. Exact keys default:38480 and default:61144. English, Japanese 毒, Chinese 毒素, and Korean 독 identify the generic damage/effect type at 38480 and ordinary poison in the alphabet poem at 61144. Neither key establishes a separately named entity; preserve both translations and do not create a Poison entity.
+- Priestess Corelon (7 keys): not-an-issue. All seven exact candidate keys are already covered by person:corelon. The glossary canonical is Corelon / 코렐론(Corelon); Priestess is a translated office, not another personal name. Japanese 神官コレロン and Chinese 女祭司科尔隆 corroborate the name and role. Preserve existing row decisions and Korean text; do not add a duplicate title-person identity.
+- Priestess Jacinda (5 keys): not-an-issue. All five exact candidate keys are already covered by person:jacinda. The glossary canonical is Jacinda / 자신다(Jacinda); Priestess is a translated office. Japanese 神官ジャシンダ and Chinese 女祭司雅辛达 corroborate. Preserve existing row decisions and Korean text; do not add a duplicate title-person identity.
+- Priestess Seranon (4 keys): not-an-issue. All four exact candidate keys are already covered by person:abelyra-seranon, whose English alias includes Seranon. Japanese 神官セラノン and Chinese 女祭司塞拉农 corroborate. Preserve the existing scoped person identity and Korean text; do not add person:seranon or infer that all priestesses named Seranon are the same person.
+- Prismere Crystal (2 keys): not-an-issue. Both exact candidate keys are already covered by resource:prismere. English, Japanese プリスミア・クリスタル, and Chinese 赤晶 identify a crystal/material compound; Korean already pairs the complete name at default:45555 and pairs the Prismere resource at default:48653. Do not create a nested resource annotation or infer a unique item.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21786.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21787: No-Edit Short-Label Review
+
+- SORCERY (2 keys): not-an-issue. Exact keys default:65095 and default:7982 refer to the Sorcery combat ability-tree category, not a separately named skill/entity. The official Korean manual labels this tree 마법(Sorcery) (PDF p. 5); Japanese ソーサリー and Chinese 魔法 support the category. This follows the established Finesse (D-21724) and Might (D-21768) rulings. Preserve the existing Korean cells and all prior translation dispositions.
+- Sagecraft Altar (3 keys): not-an-issue. Exact keys base:3299:11, default:53167, and default:50880 refer to the generic crafting station available at multiple locations, not one named altar or unique item. The official Korean manual uses 마법물품 제작 제단 (PDF p. 8); Japanese セージクラフト台/宝石術台 and Chinese 附魔祭坛 corroborate the function. Preserve current wording. This disposition does not resolve the separate Sagecraft skill-name review.
+
+Exact aligned English/Japanese/Chinese/Korean and prior entity decisions are preserved in `proper-name-short-label-dispositions-D21787.tsv`. Prior terminal keys and historical global totals were not reopened or recounted. No CSV, glossary, or occurrence-index bytes changed; full discovery remains incomplete.
+
+## D-21792: Savant Bilingual Title Labels
+
+D-21792 added the missing English rank label to default:58585 (`사반트(Savant)`) and the complete title/name label at default:47690 (`사반트 에이선 엥가르(Savant Aethan Engar)`). D-19509's semantic/rank closure and D-19512/D-20831's person status remain unchanged; no indexed status or historical count was reopened or recounted.
+
+## D-21802: Squire Brio Full Label Candidate Review
+
+Reviewed all three refreshed `Squire Brio` candidate memberships:
+corrected the standalone label at `default:33546` to
+`종자 브리오(Squire Brio)`; `default:23978` and `default:61437` already
+use the canonical full label. The correction reuses `person:brio` and
+leaves all prior entity/row statuses and evidence unchanged. Broader
+sentence holds D-7680 and D-11766 remain open. Candidate dispositions:
+`work/zh_cn/audit/proper-name-short-label-dispositions-D21802.tsv`.
+
+## D-21803: Stalwart Candidate Membership Review
+
+English default:64178 identifies The Stalwart as a named vessel;
+Japanese スタルワート号 and Chinese 忠诚号 corroborate. Standardize the
+ship label as `스톨워트(The Stalwart)`. The six `affix:360` variants
+are the ordinary adjective `Stalwart` and remain `굳건한`; they are
+excluded from the ship entity. Three lowercase `the stalwart` sentence
+matches at default:13575, 23481 and 40922 are also excluded as ordinary
+adjective homonyms, with no sentence edits. Candidate dispositions:
+`work/zh_cn/audit/proper-name-short-label-dispositions-D21803.tsv`.
+
+## D-21804: Still Manor Candidate Membership Review
+
+Corrected base:1631 to `스틸 저택(Still Manor)`; default:12629 was
+already canonical. Separately reviewed and paired `Still Manor Guard
+Entrance` and `Still Manor Servants Entrance` as complete place labels.
+Their overlapping `Still Manor` component matches are excluded on the
+compound rows to avoid nested labels. Candidate dispositions:
+`work/zh_cn/audit/proper-name-short-label-dispositions-D21804.tsv`.
+
+## D-21805: Sylvanite Candidate Membership Review
+
+The English-led all-resource review covered 24 exact `Sylvanite`
+occurrences: six affix variants, fifteen base labels, and three default
+rows. Standardize the material term as `실바나이트(Sylvanite)`. The two
+already paired default lines remain unchanged. Candidate dispositions:
+`work/zh_cn/audit/proper-name-short-label-dispositions-D21805.tsv`.
+
+D-724 is superseded only for Sylvanite's name spelling at default:3476;
+its necklace-quality and crude-rune questions remain open. D-9867 is
+narrowed only for the exact Sylvanite label at default:30434; other
+named-term questions remain unchanged.
+
+Scope note: Korean default:8646 says `실바나이트 창`, while English
+says lower-case `sylvan spear`; that is not a Sylvanite source match
+and was not altered in this proper-name batch.
+
+## D-21806: Tallyer Role Candidate Review
+
+Reviewed all three exact English source matches, including the sentence
+at default:21437 outside the short-label candidate membership list.
+`Tallyer` is a ranked record-keeping occupation, not a person, group, or
+unique proper name. English ranks, Japanese 一等記録官/二等記録官, and
+Chinese 一等记录官/二等记录官 agree. All three keys are excluded from
+proper-name registration; Korean cells and prior Cennar Bruge/Domus
+Politica dispositions remain unchanged.
+
+## D-21807: Tear of Mitharu Named Relic
+
+Reviewed every exact English source match across affix/base/default:
+11 source keys, including six grammatical affix variants. Registered
+`unique_item:tear-of-mitharu` and standardized nine Korean spans to
+`미사루의 눈물(Tear of Mitharu)`; two existing canonical mentions were
+retained. English identifies the same named relic in the base label,
+dialogue, and payment record. Japanese ミサールの涙 corroborates;
+Chinese `default:43776` mistranslates “Tear” as 撕裂 and was not used as
+semantic authority. Existing deity-index statuses and broader D-3897 /
+D-13450 findings remain held outside this narrow name scope. D-21807
+resolves the named-item identity/display form left open at default:43776
+by D-13450 and the Tear component at default:13271 by D-3897; the broader
+sentence and other-entity questions are not resolved. No rarity or physical
+item-continuity claim is inferred.
+
+## D-21808: Temperance Bestowed Alias
+
+Reviewed all five exact case-insensitive English source keys across the
+aligned corpus. Four are the player's bestowed Travelers pseudonym:
+English explicitly says Temperance is the alias, and Japanese
+節義ある者 / Chinese 节制 support the reading. The qualified “Prudent
+Temperance” row is the same alias and remains fully paired. The fifth,
+lowercase `temperance` in a discussion of drinking moderation, is
+excluded as a generic homonym. Registered `title:temperance`, paired
+the standalone Korean label as `절제(Temperance)`, and preserved the
+three already-canonical name references. This is not a separate person
+identity or a global generic-word alias.
+
+## D-21809 and D-21810: Gnome Templars Faction Name
+
+Reviewed all 51 English plural-token source keys: 50 capitalized uses
+and the lowercase “templars” at default:24378, which refers to the same
+Gnomish group. English
+default:62486 identifies Templars as one of three Gnomish castes, and
+default:58652 explicitly names the Gnome Templar faction; aligned
+Japanese and Chinese corroborate the same group. Registered
+`faction:gnome-templars` with canonical `템플러(Templars)` and standardized
+50 Texto cells. default:11 already had the complete bilingual form and
+remains unchanged. This resolves the faction-name scope left open at
+D-1706/default:6365 and D-12580/default:39513; D-206/default:1553 is
+superseded only for the Templars name, not the separate Praetorians or
+sentence questions. D-19521/default:62486 is preserved as a terminal
+sentence finding, not reopened or recounted. D-17729/default:58652's
+separate “code” wording uncertainty remains open.
+
+## D-21811: Montainel Personal Name
+
+Registered `person:montainel` as `몬테이넬(Montainel)` after reviewing all
+nine aligned English/Japanese/Chinese/Korean source keys. Standardized six
+`Texto` cells; three already-canonical labels were retained. The prior
+uncertainties D-3254/default:11202 and D-4185/default:14087 are superseded
+only for Montainel identity/display spelling; their historical entries are
+preserved. Existing `person:courdan` at default:33182 and all other
+overlapping entity dispositions remain unchanged. See
+`named-scope-review-D21811-20261018.md` and
+`named-scope-edit-addendum-D21811-20261018.md`.
+
+## D-21812: Templar Name Whole-Label Candidate Review
+
+Reviewed all 20 candidate memberships for `Templar Jorielle`,
+`Templar Montainel`, and `Templar Octienne` as `not-an-issue`.
+Templar is a localized rank/title; the personal names already use the
+established Korean (English) display. Existing person-index decisions
+were retained without reopening or recounting. This candidate-only
+batch made no CSV, glossary, or occurrence-index changes. See
+`named-scope-review-D21812-20261018.md` and
+`proper-name-short-label-dispositions-D21812.tsv`.
+
+## D-21813: Chantry Building-Term Candidate Review
+
+Reviewed both `The Chantry` short-label memberships. `default:7675`
+uses the generic building term “chapel,” consistently rendered
+`예배당` across relevant corpus contexts; it is excluded from a proper
+name entity. `base:711:11` already has `예배당 (The Chantry)` and is
+retained. This resolves D-2120/default:7675 only for its Chantry
+meaning/Korean term; the separate `Summer's End - Chantry` place entry
+and broader site/entity questions are unchanged. No CSV, glossary, or
+occurrence-index changes. See `named-scope-review-D21813-20261018.md`.
+
+## D-21814: The Font Short-Label Review
+
+Reviewed all 11 memberships in the bounded `The Font` short-label
+candidate group. English context identifies Ysa's specific magical
+wellspring; Japanese `イーサの泉` and Chinese `圣泉` corroborate the
+spring/source sense. Reuse the established `샘(The Font)` form. Seven
+exact `Texto` cells were standardized; four complete labels were
+retained. This does not generalize to Njordir's Font, Font of the
+Crossing, Prismere Font, or generic/metaphorical `font`, and does not
+reopen D-19591 sentence decisions or recount index totals. Full
+source-wide Font discovery remains incomplete. See
+`named-scope-review-D21814-20261018.md`.
+
+## D-21815: The Gardens of Ysa Short-Label Review
+
+Reviewed both bounded candidate memberships. Their complete Korean
+place names already pair `이사의 정원` with `Gardens of Ysa`; omission
+of the English article `The` is correct. D-21505's 76-key review
+explicitly retained the historical decisions at these exact labels.
+No edit, duplicate entity, index change, or recount. See
+`named-scope-review-D21815-20261018.md`.
+
+## D-21816: The God Fang Label Pairing
+
+Reviewed all four exact `The God Fang` keys across `base` and `default`; standardized their Korean labels as `신의 송곳니(The God Fang)`. This closes only the missing bilingual-label/spacing scope. The inconsistent aligned Japanese/Chinese variants do not establish referent type, so D-4847 remains open and no proper-name entity or occurrence-index entry was created. No prior finding or cumulative count was reopened or recounted.
+
+## D-21817: The Isles Label Pairing
+
+Reviewed the 11 bounded `The Isles` label memberships. Added the missing English pairing to default:24097 as `군도(The Isles)` without changing its Korean rendering. D-18815's not-an-issue translation finding and the D-7741/D-19539 proper-region uncertainty remain intact. Ten existing bilingual labels and every indexed row status were preserved; no entity or cumulative count was added.
+
+## D-21818: Maid of Fortune Label Pairing
+
+Added the missing established English pairing to default:57264 as `행운의 시녀호(Maid of Fortune)`. The already-paired default:61973 label and its prior sentence findings remain unchanged. The bounded review does not register a new entity or resolve D-10967's separate wording uncertainty.
+
+## D-21819: The Mission Label Pairing
+
+Added missing English pairings to the three unpaired labels at default:15366, 5273, and 7421 as `선교회(The Mission)`, retaining the existing Korean wording and the already-paired default:8398 label. Locale disagreement over whether the referent is a monastery, mission site, organization, or building remains unresolved; the four historical uncertainties were preserved without recount.
+
+## D-21820: The Morning Prayer Label Pairing
+
+Standardized the two exact labels at default:40212 and base:3104:11 as `아침 기도(The Morning Prayer)`, preserving the Korean meaning and removing the stray space before the parenthesis. The multilingual evidence does not establish a distinct rite or named institution; no entity or index entry was added.
+
+## D-21821: The Proud Warsworn Short-Label Review
+
+Replaced the incomplete `Warsworn` annotation at default:4852 with the
+complete source label `긍지 높은 워스원(The Proud Warsworn)`, matching the
+existing base:1769:11 label. D-20771's separate faction decision and all
+indexed statuses/counts remain unchanged; only the occurrence index's
+`korean_current` cache was synchronized to the active CSV. Full discovery
+remains incomplete. See `named-scope-review-D21821-20261018.md` and
+`named-scope-edit-addendum-D21821-20261018.md`.
+
+## D-21822: The Travelers Label Pairing
+
+Added the exact English article to default:1206 and default:14458 as `트래블러(The Travelers)` (retaining the Korean plural at 1206), matching the already paired default:3427 label. Prior `faction:travelers` decisions and indexed statuses remain unchanged; only two `korean_current` snapshots were refreshed.
+
+## D-21823: The Two-Faced Troll Label Pairing
+
+Added the complete English label at default:18848 and removed only the stray pre-parenthesis space at base:1221:11. The Korean phrase `두 얼굴의 트롤` is unchanged. D-5952's uncertain face-versus-head/image finding remains open and unmodified.
+
+## D-21824: The White At War Label Pairing
+
+Added the exact English label at default:13500 and normalized only the space before the already complete parenthetical at base:1712:11. Both Korean renderings remain unchanged. D-4003's referent uncertainty remains open; no proper-name entity or index entry was added.
+
+## D-21825: Thirsty Wench Name Pairing
+
+Registered `place:thirsty-wench` and reviewed all five exact English
+source keys across `base` and `default`. Added the English parenthetical
+to four unpaired Korean mentions; retained the already paired
+`default:6916` label. The name identifies Bera's inn/tavern; Japanese
+`酔いどれ娘亭` corroborates the venue and Chinese is supplementary.
+Preserved the existing Korean renderings rather than resolving their
+lexical/register/business-suffix differences. D-4404 at
+`default:14553` and D-6331 at `default:20469` remain uncertain;
+D-1856 and D-17813 remain unchanged and are not recounted.
+
+## D-21826: Transference Ability Name
+
+Registered `skill:transference` from the exact `default:5870` label
+and its upgrade context at `default:16350`. Added the missing English
+pairing at `default:5870`; the complete label at `default:16350`
+remains unchanged. D-5141's broader terminology/mechanics uncertainty
+remains open and is not reclassified or recounted.
+
+## D-21827: Traveler Sloop Vessel-Class Label
+
+Registered `item:traveler-sloop` as the Travelers-associated sloop
+vessel-class label. Standardized the two unpaired cells to the
+already accepted `트래블러 슬루프선(Traveler Sloop)` at
+`default:47168` and `default:48988`. The `default:51424` display and
+D-19679 disposition remain unchanged. D-14415 and D-14991 are
+superseded only for this scope; existing `faction:travelers`
+exclusions remain unchanged.
+
+## D-21828: Treasures of Culn Short-Label Hold
+
+Reviewed all three exact `Treasures of Culn` keys. English supports a
+specific treasure set associated with Culn, but does not settle
+whether it is a formal named item/set, quest objective, or descriptive
+phrase. Japanese and Chinese do not resolve that distinction. Keep all
+three candidate keys uncertain; add no glossary/index entity and make
+no CSV edit. The accepted `place:culn` row at default:37145 remains
+intact. D-16712/default:55278, D-2791, D-6562 and related historical
+findings are not closed or recounted.
+
+## D-21836: Heuristic Candidate Refresh
+
+A fresh scan of all aligned English rows found 29631
+heuristic phrases against the preserved 29604-phrase
+baseline: 27 appeared and none disappeared. Twenty-four additions
+were already reviewed by D-21447/D-21639; this scope reconciles the
+remaining three: `Hospitalis Quarter`, `Quarterling`, and
+`the troll named Nix`. Their nine exact source contexts map to
+manifest-backed terminal records under `place:hospitalis-quarters`,
+`people:quarterlings`, and `monster:nix` (eight accepted, one
+not-an-issue). No entity, alias, CSV text, index status, or count was
+added. This bounded heuristic is not an exhaustive proper-name
+inventory or completion estimate. Evidence:
+`proper-name-candidate-refresh-D21836.tsv`.
+
+## D-21837: Lord Ansilla
+
+Registered `person:lord-ansilla` as `안실라 경(Lord Ansilla)` and reviewed
+all eight exact English source keys. Aligned Japanese `アンシラ卿` and
+Chinese `安西拉领主` corroborate the same person. Seven Korean cells were
+standardized to the complete bilingual name; default:61379 was already
+canonical. House Ansilla, Castle Ansilla, Lady Ansilla, Captain Ansilla,
+and Royal Seal of Ansilla remain separate. See
+`named-scope-review-D21837-20261019.md` and
+`proper-name-edits-D21837.tsv`. Full proper-name discovery remains
+incomplete.
+
+## D-21838: Maid of Fortune Vessel
+
+Registered `item:maid-of-fortune` for the named ship and reviewed all nine
+exact default source keys. English context identifies the chartered vessel
+and its hold/sailing; Japanese `メイド・オブ・フォーチュン号` and
+Chinese `命运少女号` corroborate. All nine Korean cells already include
+the English name and were retained. D-10967 and D-17975 wording questions
+remain unchanged. See `named-scope-review-D21838-20261019.md` and
+`proper-name-edits-D21838.tsv`.
+
+## D-21839: Seal of Ansilla Alias
+
+Added `Seal of Ansilla` as a source alias of the existing
+`title:royal-seal-of-ansilla` and reviewed all four exact default keys:
+37757, 43136, 46678, and 9734. The English quest/lockbox contexts, Japanese,
+and Chinese identify the same artifact as the Royal Seal of Ansilla.
+Added the exact English pairing to four existing `안실라의 인장` spans;
+the canonical full label and Ansilla Key distinction remain unchanged.
+See `named-scope-review-D21839-20261019.md` and
+`proper-name-edits-D21839.tsv`.
+
+## D-21840: Ansilla Dungeon
+
+Registered `place:ansilla-dungeon` as `안실라 지하감옥(Ansilla Dungeon)`
+from the single exact key base:369. Japanese and Chinese corroborate the
+dungeon reading. Updated only the place-name span in the key label; kept
+the generic key descriptor outside it and did not merge the place with
+Castle Ansilla. See `named-scope-review-D21840-20261019.md` and
+`proper-name-edits-D21840.tsv`.
+
+## D-21841: Context-Scoped Ansilla References
+
+Reviewed six bare `Ansilla` contexts without registering a global alias.
+Default:17538, 33958, and 39388 map to the existing Lord Ansilla person
+entity; default:50445, 59408, and 63008 map to the existing Castle Ansilla
+place entity. English context and aligned Japanese/Chinese support these
+row-specific readings. Added the English name to those six Korean spans;
+ambiguous letter, standalone, and doll references remain unclassified.
+See `named-scope-review-D21841-20261019.md` and
+`proper-name-scoped-aliases-D21841.tsv`.
+
+## D-21842: English-Heuristic Candidate Reconciliation
+
+A fresh bounded scan found 29,632 phrases versus the preserved 29,604
+baseline. The 28 newly surfaced phrases are all reconciled to existing
+evidence: 24 under D-21447/D-21639, three under D-21836, and
+`Seal of Ansilla` under D-21395/D-21839. Its two base contexts are the
+already reviewed complete `Royal Seal of Ansilla` label; its four default
+contexts are the already reviewed source-local alias. No CSV, glossary,
+occurrence-index status, or cumulative decision changed. The heuristic is
+not exhaustive and provides no completion estimate. See
+`named-scope-review-D21842-20261019.md` and
+`proper-name-candidate-reconcile-D21842.tsv`.
+Candidate/data/residual validation and regression tests pass; the reverse
+edit chain verified all 1,411 reviewed stages.
+
+## D-21843: `base` Article-Bearing Labels
+
+Reviewed the bounded 12-label `base` scan and the matching articleless
+Dreamworld label at base:3625. Added the exact English source labels to
+base:616, 1780, 3200, and 3625 without registering new entities or changing
+the Korean meanings. Seven already-terminal source keys were retained without
+reopening or recounting; `the Basement` remains a generic label, and the
+existing Dirge component pairing was preserved. The Isles canonical-form and
+proper-region uncertainties remain open. No glossary, occurrence-index
+status, or cumulative tally changed. See
+`named-scope-review-D21843-20261019.md` and
+`proper-name-edits-D21843.tsv`.
+The full reverse edit-chain verification passed across 1,412 reviewed stages,
+including reconstruction of the pre-D-20390 resource hashes.

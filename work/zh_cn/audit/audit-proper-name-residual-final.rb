@@ -221,7 +221,8 @@ contextual_hall_keys = contextual_hall_rows.map do |row|
   [row['entity_key'], *ReviewedNameBatches.key(row)]
 end
 person_discovery_batches = (21100..21109).to_a +
-  [21132, 21133, 21145, 21146, 21158, 21159, 21160]
+  [21132, 21133, 21145, 21146, 21158, 21159, 21160] +
+  (21596..21598).to_a
 person_discovery_rows = person_discovery_batches.flat_map do |number|
   d = number.to_s
   path = File.join(__dir__, "proper-name-edits-D#{d}.tsv")
@@ -274,7 +275,40 @@ manifest_backed_extras = extras.select do |key|
   event && event[0] == batch && event[1] == row['status'] &&
     row['evidence'] == "D-#{event[0]}: #{event[2]}"
 end
-documented_extras = (documented_extras + manifest_backed_extras).uniq
+
+# Syl is a person at one row and a place in explicit Hollow-of-Syl rows.
+# These eight place matches intentionally remain row-scoped and therefore
+# are not produced by the global Syl Hollow canonical/alias matcher.
+syl_manifest = ReviewedNameBatches.table(
+  File.join(__dir__, 'proper-name-edits-D21637.tsv')
+).select do |row|
+  row['entity_key'].to_s.split('|').include?('place:syl-hollow') &&
+    row['scope'] == 'row-scoped-homonym'
+end
+expected_syl_place_ids = %w[9918 17547 24765 30641 43207 47222 55176 59101]
+raise 'row-scoped Syl place review scope differs' unless
+  syl_manifest.map { |row| row['ID_Linha'] }.sort == expected_syl_place_ids.sort &&
+  syl_manifest.map { |row| row['ID_Linha'] }.uniq.length == expected_syl_place_ids.length
+syl_scoped_extras = syl_manifest.map do |row|
+  ['place:syl-hollow', *ReviewedNameBatches.key(row)]
+end & extras
+expected_syl_place_extras = expected_syl_place_ids.map do |id|
+  ['place:syl-hollow', 'default', id, '']
+end
+raise 'row-scoped Syl place index coverage differs' unless
+  syl_scoped_extras.sort == expected_syl_place_extras.sort
+expected_syl_place_ids.each do |id|
+  review = syl_manifest.find { |row| row['ID_Linha'] == id }
+  indexed = indexed_by_key.fetch(['place:syl-hollow', 'default', id, ''])
+  dispositions = JSON.parse(review.fetch('entity_dispositions_json'))
+  raise "Syl place disposition differs at #{id}" unless
+    indexed['status'] == dispositions.fetch('place:syl-hollow') &&
+    indexed['matched_english'] == 'Syl' &&
+    indexed['evidence'].start_with?('D-21637:') &&
+    indexed['korean_current'] == review['new']
+end
+documented_extras = (documented_extras + manifest_backed_extras +
+  syl_scoped_extras).uniq
 unaccounted_extras = extras - documented_extras
 puts "Source/index key differences: missing=#{absent.length}, documented exclusions=#{documented_missing.length}, contextual extras=#{extras.length}, undocumented extras=#{unaccounted_extras.length}"
 undocumented_missing.first(30).each { |key| puts "MISSING #{key.inspect}" }
@@ -316,6 +350,7 @@ ysa_rank_review = ReviewedNameBatches.table(
 end
 raise 'documented King Ysa rank translation differs' unless ysa_rank_review
 documented_ranked_translations = []
+documented_syl_place_labels = []
 mercy_invocation_keys = [
   ['default', '7681', ''], ['default', '22205', ''],
   ['default', '29324', '']
@@ -386,7 +421,9 @@ index.each do |row|
       end
     end
     explicit_omission = person_review['status'] == 'not-an-issue' &&
-      person_review['evidence'].include?('If Korean omits the name, retain the existing translation.')
+      person_review['evidence'].gsub(/\s+/, ' ').match?(
+        /If Korean omits (?:the English full-name parenthetical|the name), retain the existing translation\./
+      )
     covered ||= exact_pair
     covered ||= person_review['new'] == row['korean_current'] &&
       explicit_omission
@@ -405,6 +442,16 @@ index.each do |row|
         labels.any? { |label| label.match?(/(?<![A-Za-z])#{Regexp.escape(term)}(?![A-Za-z])/i) }
     end
   end
+  family_label_tokens = {
+    'family:darkvari' => 'Darkvari',
+    'family:cynric' => 'Cynric',
+    'family:skoria' => 'Skoria',
+    'family:zungar' => 'Zungar'
+  }
+  family_token = family_label_tokens[row['entity_key']]
+  covered ||= family_token &&
+    row['english_source'].match?(/(?<![A-Za-z])#{family_token}(?![A-Za-z])/i) &&
+    labels.any? { |label| label.match?(/(?<![A-Za-z])#{family_token}(?![A-Za-z])/i) }
   documented_ysa_rank_translation =
     row['entity_key'] == 'person:king-ysa' &&
     ReviewedNameBatches.key(row) == ['default', '12727', ''] &&
@@ -415,6 +462,18 @@ index.each do |row|
     row['evidence'] == "D-21426: #{ysa_rank_review['evidence']}"
   if documented_ysa_rank_translation
     documented_ranked_translations << row
+    covered = true
+  end
+  syl_place_context = row['entity_key'] == 'place:syl-hollow' &&
+    %w[9918 17547 30641 55176 59101].include?(row['ID_Linha']) &&
+    row['matched_english'] == 'Syl' &&
+    row['status'] == (row['ID_Linha'] == '17547' || row['ID_Linha'] == '55176' ?
+      'not-an-issue' : 'accepted') &&
+    row['english_source'].match?(/(?:hollow of Syl|Fae Hollow known as Syl)/i) &&
+    labels.include?('Syl') &&
+    row['korean_current'].match?(/실\(Syl\)/)
+  if syl_place_context
+    documented_syl_place_labels << row
     covered = true
   end
   next if covered
@@ -456,7 +515,9 @@ puts "Documented idiomatic non-labels: #{idiomatic_nonlabels.length}"
 puts "Documented invocation-phrase exceptions: #{documented_invocation_phrases.length}"
 puts "Documented lowercase descriptive non-labels: #{descriptive_nonlabels.length}"
 puts "Documented source-local rank translations: #{documented_ranked_translations.length}"
+puts "Documented row-scoped Syl place labels: #{documented_syl_place_labels.length}"
 puts "Documented source-local Walls labels: #{contextual_walls_rows.length}"
+raise 'row-scoped Syl place labels differ' unless documented_syl_place_labels.length == 5
 missing.each do |row|
   puts JSON.generate(row.slice('entity_key', 'resource', 'ID_Linha', 'korean_current', 'evidence'))
 end

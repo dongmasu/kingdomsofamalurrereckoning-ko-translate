@@ -1,0 +1,204 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"
+"default"	"8463"	""	"person:rendi-walsh"	"not-an-issue"	"죽음의 사냥꾼 렌디 월시(Rendi Walsh)의 물건이다. 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 넘기면 보상을 받을 수 있다."	"죽음의 사냥꾼 렌디 월시(Rendi Walsh)의 물건이다. 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 넘기면 보상을 받을 수 있다."	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese レンディ・ウォルシュ and Chinese 伦蒂·沃尔什 corroborate. Reuse the existing paired 렌디 월시(Rendi Walsh) in default:8463/50658."	"This item belongs to the deadly Headhunter Rendi Walsh. I can turn it in to Warden Rask in Crownhold for a reward."	"レンディ・ウォルシュという凶悪なヘッドハンターの持ち物。クラウンホールドの衛士ラスクに渡せば報酬を受け取れる。"	"这个东西属于一个叫伦蒂·沃尔什的致命猎头者。我可以把它交给皇冠堡的拉斯克典狱长以换取报酬。"	"{""person:rendi-walsh"":""not-an-issue""}"
+"default"	"26349"	""	"person:rendi-walsh"	"accepted"	"렌디 월시"	"렌디 월시(Rendi Walsh)"	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese レンディ・ウォルシュ and Chinese 伦蒂·沃尔什 corroborate. Reuse the existing paired 렌디 월시(Rendi Walsh) in default:8463/50658."	"Rendi Walsh"	"レンディ・ウォルシュ"	"伦蒂·沃尔什"	"{""person:rendi-walsh"":""accepted""}"
+"default"	"26436"	""	"person:nora-pepper"	"accepted"	"이 물건은 흉악한 현상금 사냥꾼 노라 페퍼의 소유다. 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 넘기면 보상을 받을 수 있다."	"이 물건은 흉악한 현상금 사냥꾼 노라 페퍼(Nora Pepper)의 소유다. 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 넘기면 보상을 받을 수 있다."	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese ノーラ・ペッパー and Chinese 诺拉·佩珀 corroborate. Reuse the existing complete paired name at default:56469."	"This item belongs to the deadly Headhunter Nora Pepper. I can turn it in to Warden Rask in Crownhold for a reward."	"ノーラ・ペッパーという凶悪なヘッドハンターの持ち物。クラウンホールドの衛士ラスクに渡せば報酬を受け取れる。"	"这个东西属于一个叫诺拉·佩珀的致命猎头者。我可以把它交给皇冠堡的拉斯克典狱长以换取报酬。"	"{""person:nora-pepper"":""accepted""}"
+"default"	"29912"	""	"person:cyrus-pepper|person:nora-pepper|person:rendi-walsh|person:sinder|person:sorcha-donohue"	"accepted"	"헤드헌터단의 다음 조직원들을 사살하라: 신더, 렌디 월시, 소르카 도너휴, 사이러스 페퍼, 노라 페퍼
+사망 증거를 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 제출하면 보상금을 받을 수 있다."	"헤드헌터단의 다음 조직원들을 사살하라: 신더(Sinder), 렌디 월시(Rendi Walsh), 소르카 도너휴(Sorcha Donohue), 사이러스 페퍼(Cyrus Pepper), 노라 페퍼(Nora Pepper)
+사망 증거를 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 제출하면 보상금을 받을 수 있다."	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese シンダー and Chinese 辛德 corroborate the name. Retain the established 신더, not the differently spelled English word Cinder. English-led full-name registration. Japanese レンディ・ウォルシュ and Chinese 伦蒂·沃尔什 corroborate. Reuse the existing paired 렌디 월시(Rendi Walsh) in default:8463/50658. English-led full-name registration. Japanese ソーチャ・ドナヒュー and Chinese 索查·多纳休 corroborate identity, not an authoritative pronunciation change. Preserve the repeated 소르카 도너휴. English default:34508 instead spells the surname Donahue, but Japanese/Chinese retain exactly the same full name and the warning concerns the same pursuer; register Sorcha Donahue as the explicit source spelling variant and retain that local English annotation. At default:54611, the preceding Korean 헤드헌터 already conveys the title; normalize only the annotation from (Headhunter Sorcha Donohue) to (Sorcha Donohue). English-led full-name registration. Japanese サイラス・ペッパー and Chinese 塞鲁斯·佩珀 corroborate. Reuse the existing complete paired name at default:64828. English-led full-name registration. Japanese ノーラ・ペッパー and Chinese 诺拉·佩珀 corroborate. Reuse the existing complete paired name at default:56469."	"The following members of the Headhunters band are wanted dead: Sinder, Rendi Walsh, Sorcha Donohue, Cyrus Pepper, Nora Pepper
+Present proof of death to Warden Rask of Crownhold to collect the reward."	"以下のヘッドハンターの構成員を始末してほしい。シンダー、レンディ・ウォルシュ、ソーチャ・ドナヒュー、サイラス・ペッパー、ノーラ・ペッパー。
+倒した証拠をクラウンホールドの衛士ラスクに提出すれば、報酬を与える。"	"凡遇见下述猎头者组织成员，格杀勿论：辛德、伦蒂·沃尔什、索查·多纳休、塞鲁斯·佩珀、诺拉·佩珀
+向皇冠堡的拉斯克典狱长递交目标死亡的证明以领取报酬。"	"{""person:sinder"":""accepted"",""person:rendi-walsh"":""accepted"",""person:sorcha-donohue"":""accepted"",""person:cyrus-pepper"":""accepted"",""person:nora-pepper"":""accepted""}"
+"default"	"31277"	""	"person:sinder"	"accepted"	"이 물건은 신더라는 악명 높은 현상금 사냥꾼의 것이다. 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 가져가면 보상을 받을 수 있어."	"이 물건은 신더(Sinder)라는 악명 높은 현상금 사냥꾼의 것이다. 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 가져가면 보상을 받을 수 있어."	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese シンダー and Chinese 辛德 corroborate the name. Retain the established 신더, not the differently spelled English word Cinder."	"This item belongs to the deadly Headhunter known as Sinder. I can turn it in to Warden Rask in Crownhold for a reward."	"シンダーという凶悪なヘッドハンターの持ち物。クラウンホールドの衛士ラスクに渡せば報酬を受け取れる。"	"这个东西属于一个叫辛德的致命猎头者。我可以把它交给皇冠堡的拉斯克典狱长以换取报酬。"	"{""person:sinder"":""accepted""}"
+"default"	"32599"	""	"person:sinder"	"accepted"	"신더의 표식"	"신더(Sinder)의 표식"	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese シンダー and Chinese 辛德 corroborate the name. Retain the established 신더, not the differently spelled English word Cinder."	"Sinder’s token"	"シンダーのトークン"	"辛德的标志"	"{""person:sinder"":""accepted""}"
+"default"	"33622"	""	"person:sorcha-donohue"	"accepted"	"소르카 도너휴"	"소르카 도너휴(Sorcha Donohue)"	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese ソーチャ・ドナヒュー and Chinese 索查·多纳休 corroborate identity, not an authoritative pronunciation change. Preserve the repeated 소르카 도너휴. English default:34508 instead spells the surname Donahue, but Japanese/Chinese retain exactly the same full name and the warning concerns the same pursuer; register Sorcha Donahue as the explicit source spelling variant and retain that local English annotation. At default:54611, the preceding Korean 헤드헌터 already conveys the title; normalize only the annotation from (Headhunter Sorcha Donohue) to (Sorcha Donohue)."	"Sorcha Donohue"	"ソーチャ・ドナヒュー"	"索查·多纳休"	"{""person:sorcha-donohue"":""accepted""}"
+"default"	"34508"	""	"person:sorcha-donohue"	"accepted"	"소르카 도너휴가 자네를 찾고 다닌다더군. 정보원들이 그렇게 말했어. 뒤를 조심하게."	"소르카 도너휴(Sorcha Donahue)가 자네를 찾고 다닌다더군. 정보원들이 그렇게 말했어. 뒤를 조심하게."	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese ソーチャ・ドナヒュー and Chinese 索查·多纳休 corroborate identity, not an authoritative pronunciation change. Preserve the repeated 소르카 도너휴. English default:34508 instead spells the surname Donahue, but Japanese/Chinese retain exactly the same full name and the warning concerns the same pursuer; register Sorcha Donahue as the explicit source spelling variant and retain that local English annotation. At default:54611, the preceding Korean 헤드헌터 already conveys the title; normalize only the annotation from (Headhunter Sorcha Donohue) to (Sorcha Donohue)."	"Sorcha Donahue has been asking around about you. That's what my contacts say, anyway. Watch your back."	"ソーチャ・ドナヒューがあなたのことを調べていると情報屋が言っていた。背後に気をつけて"	"索查·多纳休一直在打听你。反正我的线人是这么说的。注意背后。"	"{""person:sorcha-donohue"":""accepted""}"
+"default"	"36148"	""	"person:nora-pepper"	"accepted"	"노라 페퍼의 토큰"	"노라 페퍼(Nora Pepper)의 토큰"	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese ノーラ・ペッパー and Chinese 诺拉·佩珀 corroborate. Reuse the existing complete paired name at default:56469."	"Nora Pepper’s token"	"ノーラ・ペッパーのトークン"	"诺拉·佩珀的标志"	"{""person:nora-pepper"":""accepted""}"
+"default"	"36259"	""	"person:cyrus-pepper"	"accepted"	"사이러스 페퍼의 토큰"	"사이러스 페퍼(Cyrus Pepper)의 토큰"	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese サイラス・ペッパー and Chinese 塞鲁斯·佩珀 corroborate. Reuse the existing complete paired name at default:64828."	"Cyrus Pepper’s token"	"サイラス・ペッパーのトークン"	"塞鲁斯·佩珀的标志"	"{""person:cyrus-pepper"":""accepted""}"
+"default"	"42819"	""	"person:sinder"	"accepted"	"전부 모을 때까지 기다리지 그래? 그때까지 버티지 못할지도 몰라. 특히 신더가 널 쫓고 있다면."	"전부 모을 때까지 기다리지 그래? 그때까지 버티지 못할지도 몰라. 특히 신더(Sinder)가 널 쫓고 있다면."	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese シンダー and Chinese 辛德 corroborate the name. Retain the established 신더, not the differently spelled English word Cinder."	"Why don't you wait until you have all of them. You might not make it that long, especially if Sinder is after you."	"さっさと全て集めたほうがいい。シンダーに狙われているなら、そう長くは生きていられないでしょう"	"你为什么不等到拿齐了再说呢。你可能撑不了那么久，尤其是辛德还在追杀你的时候。"	"{""person:sinder"":""accepted""}"
+"default"	"44959"	""	"person:sorcha-donohue"	"accepted"	"소르카 도너휴의 표식"	"소르카 도너휴(Sorcha Donohue)의 표식"	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese ソーチャ・ドナヒュー and Chinese 索查·多纳休 corroborate identity, not an authoritative pronunciation change. Preserve the repeated 소르카 도너휴. English default:34508 instead spells the surname Donahue, but Japanese/Chinese retain exactly the same full name and the warning concerns the same pursuer; register Sorcha Donahue as the explicit source spelling variant and retain that local English annotation. At default:54611, the preceding Korean 헤드헌터 already conveys the title; normalize only the annotation from (Headhunter Sorcha Donohue) to (Sorcha Donohue)."	"Sorcha Donohue’s token"	"ソーチャ・ドナヒューのトークン"	"索查·多纳休的标志"	"{""person:sorcha-donohue"":""accepted""}"
+"default"	"46633"	""	"person:cyrus-pepper"	"accepted"	"이 물건은 위험한 헤드헌터 사이러스 페퍼의 소유물이야. 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 가져가면 보상을 받을 수 있어."	"이 물건은 위험한 헤드헌터 사이러스 페퍼(Cyrus Pepper)의 소유물이야. 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 가져가면 보상을 받을 수 있어."	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese サイラス・ペッパー and Chinese 塞鲁斯·佩珀 corroborate. Reuse the existing complete paired name at default:64828."	"This item belongs to the deadly Headhunter Cyrus Pepper. I can turn it in to Warden Rask in Crownhold for a reward."	"サイラス・ペッパーという凶悪なヘッドハンターの持ち物。クラウンホールドの衛士ラスクに渡せば報酬を受け取れる。"	"这个东西属于一个叫塞鲁斯·佩珀的致命猎头者。我可以把它交给皇冠堡的拉斯克典狱长以换取报酬。"	"{""person:cyrus-pepper"":""accepted""}"
+"default"	"50658"	""	"person:rendi-walsh"	"not-an-issue"	"렌디 월시(Rendi Walsh)의 토큰"	"렌디 월시(Rendi Walsh)의 토큰"	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese レンディ・ウォルシュ and Chinese 伦蒂·沃尔什 corroborate. Reuse the existing paired 렌디 월시(Rendi Walsh) in default:8463/50658."	"Rendi Walsh’s token"	"レンディ・ウォルシュのトークン"	"伦蒂·沃尔什的标志"	"{""person:rendi-walsh"":""not-an-issue""}"
+"default"	"54571"	""	"person:sinder"	"not-an-issue"	"신더(Sinder)"	"신더(Sinder)"	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese シンダー and Chinese 辛德 corroborate the name. Retain the established 신더, not the differently spelled English word Cinder."	"Sinder"	"シンダー"	"辛德"	"{""person:sinder"":""not-an-issue""}"
+"default"	"54611"	""	"person:sorcha-donohue"	"accepted"	"이 물건은 위험한 헤드헌터 소르카 도너휴(Headhunter Sorcha Donohue)의 것이야. 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 가져가면 보상을 받을 수 있어."	"이 물건은 위험한 헤드헌터 소르카 도너휴(Sorcha Donohue)의 것이야. 크라운홀드(Crownhold)의 라스크 감시관(Warden Rask)에게 가져가면 보상을 받을 수 있어."	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese ソーチャ・ドナヒュー and Chinese 索查·多纳休 corroborate identity, not an authoritative pronunciation change. Preserve the repeated 소르카 도너휴. English default:34508 instead spells the surname Donahue, but Japanese/Chinese retain exactly the same full name and the warning concerns the same pursuer; register Sorcha Donahue as the explicit source spelling variant and retain that local English annotation. At default:54611, the preceding Korean 헤드헌터 already conveys the title; normalize only the annotation from (Headhunter Sorcha Donohue) to (Sorcha Donohue)."	"This item belongs to the deadly Headhunter Sorcha Donohue. I can turn it in to Warden Rask in Crownhold for a reward."	"ソーチャ・ドナヒューという凶悪なヘッドハンターの持ち物。クラウンホールドの衛士ラスクに渡せば報酬を受け取れる。"	"这个东西属于一个叫索查·多纳休的致命猎头者。我可以把它交给皇冠堡的拉斯克典狱长以换取报酬。"	"{""person:sorcha-donohue"":""accepted""}"
+"default"	"56469"	""	"person:nora-pepper"	"not-an-issue"	"노라 페퍼(Nora Pepper)"	"노라 페퍼(Nora Pepper)"	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese ノーラ・ペッパー and Chinese 诺拉·佩珀 corroborate. Reuse the existing complete paired name at default:56469."	"Nora Pepper"	"ノーラ・ペッパー"	"诺拉·佩珀"	"{""person:nora-pepper"":""not-an-issue""}"
+"default"	"64828"	""	"person:cyrus-pepper"	"not-an-issue"	"사이러스 페퍼(Cyrus Pepper)"	"사이러스 페퍼(Cyrus Pepper)"	"D-21571: English default:29912 explicitly enumerates five named Headhunters band
+members; the individual labels, proof-of-death items and matching reward
+descriptions identify the same people. Check all affix/base/default
+sources; the exact five-name scope has only default hits. Retain names,
+gender-neutral Korean dialogue, token labels, reward wording and Warden
+Rask/Crownhold decisions. Do not register unrestricted Pepper, Nora, Cyrus,
+Rendi, Sorcha, or Walsh aliases; do not merge Apothecary Pepper, Dr. Pepper
+or pepper-named quarters with these people. The Pepper twins reference is
+outside the complete-name scope and remains unchanged. The official Korean
+manual supplies no exact entry for these NPCs. This does not normalize
+the generic Headhunter profession or claim a family relationship. English-led full-name registration. Japanese サイラス・ペッパー and Chinese 塞鲁斯·佩珀 corroborate. Reuse the existing complete paired name at default:64828."	"Cyrus Pepper"	"サイラス・ペッパー"	"塞鲁斯·佩珀"	"{""person:cyrus-pepper"":""not-an-issue""}"

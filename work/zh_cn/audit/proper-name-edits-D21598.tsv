@@ -1,0 +1,14 @@
+"resource"	"ID_Linha"	"Tipo_Variante"	"entity_key"	"status"	"old"	"new"	"evidence"	"english"	"japanese"	"chinese"	"entity_dispositions_json"	"previous_status"	"previous_evidence"
+"default"	"51941"	""	"person:michaela-vogel"	"not-an-issue"	"미카엘라가 말한 ‘밀렵꾼’은 사실 혼돈 균열을 넘어 아말러(Amalur)로 건너온 혼돈 생물(Chaos Critters)이야. 그 생물들은 미카엘라의 농지와 창고에 끌리는 듯해. 문제가 걷잡을 수 없이 커지기 전에 생물들을 모조리 처치하고 균열을 닫아야 해."	"미카엘라가 말한 ‘밀렵꾼’은 사실 혼돈 균열을 넘어 아말러(Amalur)로 건너온 혼돈 생물(Chaos Critters)이야. 그 생물들은 미카엘라의 농지와 창고에 끌리는 듯해. 문제가 걷잡을 수 없이 커지기 전에 생물들을 모조리 처치하고 균열을 닫아야 해."	"Default:51941 says “Michaela's” poachers and identifies the same
+Chaos Critters, Chaos Rifts, farmland and warehouses as the Michaela
+Vogel quest in default:28098 and 33250. Japanese ミカエラ and Chinese
+米凯拉 corroborate the short-name reference; English earlier identifies
+the farmer as Michaela Vogel. Register Michaela as a source-supported
+short-name alias of the existing person entry. The Korean short form is
+already present, so no English parenthetical is needed. If Korean omits
+the English full-name parenthetical, retain the existing translation.
+This is a later short reference after the full name has already been
+paired at default:20080, 23667 and 28098, consistent with the established
+policy of leaving subsequent given-name mentions unannotated. No CSV
+edit is warranted. This resolves only the personal-name residual and
+does not reopen the prior Chaos Critters or quest-text disposition."	"Michaela's ""poachers"" are in fact Chaos Critters, the spawn that cross from Chaos Rifts into Amalur. They seem drawn to her farmland and warehouses. I must kill all the Critters and close the Rifts before this problem grows out of control."	"ミカエラの""泥棒""の正体は、混沌の裂け目を通ってアマラーにやってくる混沌の動物だった。どうやら彼女の畑と倉庫に引き寄せられているらしい。問題に手をつけられなくなる前に、混沌の動物を全て殺して裂け目を閉じよう。"	"米凯拉说的“侵入者”实际上是混乱小鬼，即从混乱裂隙来到阿玛拉的生物。它们似乎被她的农田和仓库吸引了。在问题变得无法控制之前，我必须杀死所有的生物并关闭裂隙。"	"{""person:michaela-vogel"":""not-an-issue""}"	"{""person:michaela-vogel"":""needs-context""}"	"{""person:michaela-vogel"":""Candidate hit from the English source; verify this occurrence in context.""}"
