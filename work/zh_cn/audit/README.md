@@ -23,9 +23,23 @@ requested.
 
 ## Release Language Policy
 
-Write every official GitHub Release title and body in Korean or in Korean and
-English, with Korean first. English-only release notes are not allowed. Apply
-the same language policy to the corresponding `release-YYYYMMDD.md` record.
+Write each official GitHub Release title as
+`한글 패치 / Korean Patch - YYYY-MM-DD` and write its body in Korean. Match the
+established format used by the 2026-10-17, 2026-10-19, and 2026-10-20 releases:
+
+1. `## 변경 사항`: concise bullets for the translation scope, superseded
+   release, and notable user-visible changes.
+2. `## 설치`: three numbered steps (extract the ZIP, run
+   `RunKoreanPatch.bat`, then select `Chinese Simplified` and note `zh_cn`).
+3. `## 검증 및 참고`: concise validation results, unperformed checks, and
+   baseline version `cs:15032`.
+4. End with `ZIP SHA-256: \`<digest>\``.
+
+Do not add a separate package inventory, input-hash table, or duplicate
+English translation to the public release body. Keep detailed audit data in
+the corresponding `release-YYYYMMDD.md` record. The record may be bilingual,
+but must preserve the same Korean-first language policy. English-only release
+notes are not allowed.
 
 
 ## D-21656: Enfamanir Creature And Separate Ballad Title
