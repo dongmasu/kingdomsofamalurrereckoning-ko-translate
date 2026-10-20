@@ -99,7 +99,7 @@ CSV의 `Tipo_Variante`는 언패커가 각 문자열 앞의 1바이트를 2자�
 
 `work/zh_cn/`의 `affix`, `base`, `default` CSV에서 텍스트를 수정한 뒤 `tools/build.sh`를 실행하면 `dist/<날짜시간>/KingdomsOfAmalur_Korean_zh_cn_<날짜시간>.zip` 형식의 ZIP이 생성됩니다. AI 등 도구를 활용할 때는 관련 Markdown 문서도 함께 참고하면 작업 맥락을 파악하는 데 도움이 됩니다. ZIP을 압축 해제하고 `RunKoreanPatch.bat`을 더블클릭합니다. `.ps1` 파일을 직접 더블클릭하면 메모장 등 편집기로 열릴 수 있습니다. 기본 경로가 아니라면 실행 후 게임 설치 폴더를 입력합니다. 설치 과정은 기존 `patch_0.pak`을 풀고 필요한 파일을 덮어써 새 PAK으로 다시 패키징하므로 몇 분 걸릴 수 있습니다. 적용 후 Steam에서 게임 언어를 `Chinese Simplified`로 설정합니다. 스크립트는 기준 버전 `cs:15032`를 확인합니다. 배포 패키지에는 Noto 폰트 리소스가 포함됩니다. 폰트 제외 실험 패키지는 한글 대신 하이픈을 출력해 사용할 수 없습니다. 실험 결과와 남은 선택적 검증은 [패키지 검증 기록](work/zh_cn/audit/pending-package-validation-20261014.md)을 참고하세요.
 
-정식 GitHub Release 제목은 `한글 패치 - YYYY-MM-DD` 형식으로, 본문은 한국어로 작성합니다. 본문 섹션 순서와 분량은 `work/zh_cn/audit/README.md`의 릴리즈 노트 형식을 따릅니다. 영어 단독 릴리즈 노트는 사용하지 않습니다.
+정식 GitHub Release 제목은 기존 릴리즈와 동일하게 `Korean Patch - YYYY-MM-DD` 형식으로 작성하고, 본문은 한국어로 작성합니다. 본문 섹션 순서와 분량은 `work/zh_cn/audit/README.md`의 릴리즈 노트 형식을 따릅니다.
 
 #### Nexus 게시글 참고사항
 
