@@ -1,5 +1,13 @@
 # Distribution Readiness Checklist
 
+## GitHub Release Naming
+
+Use `Korean Patch - YYYY-MM-DD` as the public GitHub Release title, with the
+release date in JST. Keep the timestamped `KingdomsOfAmalur_Korean_zh_cn_*`
+tag as the unique machine identifier; do not add the release time or locale
+to the display title. When correcting older titles, preserve their tags,
+assets, and release notes.
+
 Release snapshot as of 2026-10-20: the official ZIP includes accepted
 translation edits through D-21931 under tag
 `KingdomsOfAmalur_Korean_zh_cn_20261020142027`. Build, round-trip, installer
