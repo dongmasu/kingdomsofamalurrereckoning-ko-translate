@@ -1,6 +1,6 @@
 # Audit Materials
 
-## Current Status (2026-10-20)
+## Current Status (2026-10-21)
 
 Translation work is considered complete at the user's direction.
 Heuristic proper-name verification ended at D-22000 on 2026-10-20, at the
@@ -8,10 +8,15 @@ user's direction. Do not resume or queue further checks unless the user
 explicitly asks. Do not claim exhaustive proper-name or in-game validation.
 Historical batch instructions below do not override this policy.
 
-## Release Snapshot (2026-10-20)
+The user's explicit 2026-10-20 request for Dokkalfar, Oleyn, Wencen, and two
+quickslot labels was handled as a bounded consistency correction, not a
+resumption of general candidate discovery. See
+[the scoped review](translation-consistency-20261020.md).
 
-`release-20261020.md` records the verified inputs, ZIP checksum, validation
-scope, and official tag `KingdomsOfAmalur_Korean_zh_cn_20261020142027`.
+## Release Snapshot (2026-10-21)
+
+`release-20261021.md` records the verified inputs, ZIP checksum, validation
+scope, and official tag `KingdomsOfAmalur_Korean_zh_cn_20261021065044`.
 Heuristic proper-name checks ended at D-22000 at the user's direction.
 Exhaustive discovery remains incomplete; do not restart it unless explicitly
 requested.
