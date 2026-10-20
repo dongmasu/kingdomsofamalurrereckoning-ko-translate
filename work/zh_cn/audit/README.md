@@ -21,6 +21,12 @@ Heuristic proper-name checks ended at D-22000 at the user's direction.
 Exhaustive discovery remains incomplete; do not restart it unless explicitly
 requested.
 
+## Release Language Policy
+
+Write every official GitHub Release title and body in Korean or in Korean and
+English, with Korean first. English-only release notes are not allowed. Apply
+the same language policy to the corresponding `release-YYYYMMDD.md` record.
+
 
 ## D-21656: Enfamanir Creature And Separate Ballad Title
 
