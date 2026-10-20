@@ -3,7 +3,7 @@
 ## 한국어
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261019233647/KingdomsOfAmalur_Korean_zh_cn_20261019233647.zip)
+- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261020142027/KingdomsOfAmalur_Korean_zh_cn_20261020142027.zip)
 
 ### 작업 배경과 감사
 
@@ -25,12 +25,9 @@ CSV에서는 메뉴와 대사가 한데 섞여 있고, 이어지는 대사도 �
 
 아이템 이름에 붙는 영어 `of ...` 형태는 이 프로젝트의 조합 표기에서 `반지 *얼음 방패*`처럼 별표로 감싼 수식어로 나타냅니다. 동사와 목적어가 조합되는 경우에는 `폭파하기:`처럼 콜론을 붙여 뒤에 목적어가 이어짐을 표시합니다. 아이템에 발동 조건이 이름 뒤에 붙는 경우에는 영어 `at Night`를 `(야간)`처럼 괄호로 표시해 야간에만 능력이 발휘됨을 나타냅니다. 이는 프로젝트 안에서 조합과 조건을 구분하기 위한 표기 관례입니다.
 
-지금까지 확인한 고유명사의 표기는 [고유명사 사전](work/zh_cn/audit/proper-name-glossary.tsv)과 [출현 후보 및 판정 목록](work/zh_cn/audit/proper-name-occurrences.tsv), [검토 기록](work/zh_cn/audit/README.md)을 참고합니다. 복합 인명은 전체 이름을 `브론웬 센(Bronwen Senn)`처럼 한 번만 병기하고, `브론웬(Bronwen) 센(Senn)`처럼 구성 요소마다 영문을 중복 표기하지 않습니다. 고유명사를 빠짐없이 찾아 검토하는 전수 확인은 잔여 작업에서 제외합니다. 기존 사전과 기록은 현재까지 확인한 내용을 담은 참고 자료이며, 전체 고유명사 확인이 끝났다는 뜻은 아닙니다. 나중에 전수 확인을 다시 진행하기로 하면 이 기록을 바탕으로 재개할 수 있습니다.
+지금까지 확인한 고유명사의 표기는 [고유명사 사전](work/zh_cn/audit/proper-name-glossary.tsv)과 [출현 후보 및 판정 목록](work/zh_cn/audit/proper-name-occurrences.tsv), [검토 기록](work/zh_cn/audit/README.md)을 참고합니다. 복합 인명은 전체 이름을 `브론웬 센(Bronwen Senn)`처럼 한 번만 병기하고, `브론웬(Bronwen) 센(Senn)`처럼 구성 요소마다 영문을 중복 표기하지 않습니다. 전수 확인을 완료했다고 주장하지 않으며, D-22000까지 진행한 제한적 휴리스틱 점검은 2026-10-20에 종료했습니다. 사용자가 명시적으로 재개를 요청하기 전에는 추가 점검을 진행하지 않습니다.
 
-남은 번역 작업은 다음 두 가지입니다.
-
-1. 직접 게임을 플레이하며 발견한 번역 오류를 수정합니다. 플레이 범위에 한계가 있으므로 전체 검증을 의미하지 않습니다.
-2. 휴리스틱 탐색으로 번역 오류 후보를 찾아 검토하고, 명확한 오류를 수정합니다. 이 과정에서 고유명사 표기 오류를 발견하면 기존 사전을 참고해 바로잡고, 필요한 경우에만 관련 기록을 갱신합니다. 전수 조사 배치는 재개하지 않습니다.
+번역 작업은 완료된 것으로 정리합니다. 다만 모든 게임 내 문맥이나 고유명사의 전수 검증을 마쳤다는 뜻은 아닙니다. 휴리스틱 점검은 사용자의 요청에 따라 D-22000에서 종료했으며, 추가 후보 검토는 사용자가 명시적으로 재개를 요청할 때만 진행합니다. 이는 미완료 번역 작업이 아니라 완료된 번역의 선택적 유지보수입니다.
 
 특히 `_base`의 영어 원문이 대문자 `The`로 시작하면 단순한 정관사로만 처리하지 말고, 아이템명·퀘스트명 등 제목이나 고유명사일 가능성을 먼저 살핍니다. 문맥에 맞는 한국어 제목으로 옮기고, 이름을 식별하기 쉽도록 `한글 (The English Name)` 형식의 원문 병기도 검토합니다. 다만 `The`로 시작한다는 이유만으로 무조건 고유명사라고 단정하지 말고 실제 문맥을 확인합니다.
 
@@ -117,7 +114,7 @@ CSV의 `Tipo_Variante`는 언패커가 각 문자열 앞의 1바이트를 2자�
 1. Windows의 게임 설치 폴더에서 원본 `data/patch_0.pak`을 백업한다. 게임 폴더의 `modding/pakfileunpacker.exe`로 별도 작업 폴더에 언팩한다. 추출 대상 폴더는 먼저 만들어 둔다.
 2. 추출본에서 `locatexts_<locale>.koalocatext_{affix,base,default}` 파일을 찾는다.
 3. 새 로케일 추가 방법은 아직 확인되지 않았다. 블로그에서 받은 기존 한글 패치는 `en_us` 파일명을 유지한다. PT-BR 배포 안내는 `patch_0.pak`을 교체하고 게임 언어를 스페인어로 바꾸라고 하므로 `es_es` 슬롯을 사용하는 것으로 보인다. Thai 모드 v1.1은 Steam 언어를 Japanese로 설정하도록 안내하므로 `ja_jp` 슬롯을 대체하는 것으로 보인다. 다만 Thai 패키지 내부 파일명은 아직 직접 확인하지 않았다. 새 로케일을 추가한다고 가정하지 말고 기존 슬롯 하나를 대상으로 정한다.
-4. `src/csv/<locale>/`의 기준 CSV는 수정하지 않는다. 선택한 로케일의 리소스를 `tools/loc_toolset/`의 `unpacker_base.py`, `unpacker_default.py`, `unpacker_affix.py`로 각각 CSV로 추출한다. 현재 한글 작업본은 `work/zh_cn/`이며, `zh_cn` 리소스의 키·variant·순서를 유지하고 기존 일본어 기반 한국어 초안을 ID별로 이식했다. `zh_cn`에만 있는 추가 `affix` variant 140개는 다른 언어의 같은 variant와 대조해 모두 판정했으며, `work/zh_cn/audit/affix-extra-variant-review.tsv`에 기록되어 있다. 사용자는 문자셋 없이 한글 출력이 정상인 것을 확인했다. 이는 초기 확인이며 전체 게임 내 로케일·글꼴·PAK 검증은 계속 진행 중이다. 이전 `work/ja_jp/` 작업본은 사용자의 요청으로 2026-10-14에 삭제했다. 재패킹에 필요한 `estrutura_hashes*.bin` 보조 파일도 같은 작업 폴더에 보존한다.
+4. `src/csv/<locale>/`의 기준 CSV는 수정하지 않는다. 선택한 로케일의 리소스를 `tools/loc_toolset/`의 `unpacker_base.py`, `unpacker_default.py`, `unpacker_affix.py`로 각각 CSV로 추출한다. 현재 한글 작업본은 `work/zh_cn/`이며, `zh_cn` 리소스의 키·variant·순서를 유지하고 기존 일본어 기반 한국어 초안을 ID별로 이식했다. `zh_cn`에만 있는 추가 `affix` variant 140개는 다른 언어의 같은 variant와 대조해 모두 판정했으며, `work/zh_cn/audit/affix-extra-variant-review.tsv`에 기록되어 있다. 사용자는 문자셋 없이 한글 출력이 정상인 것을 확인했다. 이는 초기 확인이며 전체 게임 내 로케일·글꼴·PAK 호환성이 검증된 것은 아니다. 이전 `work/ja_jp/` 작업본은 사용자의 요청으로 2026-10-14에 삭제했다. 재패킹에 필요한 `estrutura_hashes*.bin` 보조 파일도 같은 작업 폴더에 보존한다.
 5. 작업용 CSV의 텍스트 필드만 번역·수정한다. 행 ID, variant type, 순서, 게임 토큰은 보존한다. 대응하는 `repacker_*.py`로 다시 바이너리화하면 `_NOVO.bin` 파일이 생성된다.
 6. `_NOVO.bin` 접미사를 제거해 대상 리소스의 원래 파일명으로 맞춘 뒤, 게임 PAK의 전체 추출 작업본에 덮어쓴다. 전체 추출 파일 경로가 들어 있는 빌드 목록으로 새 아카이브를 만든다. 명령 형식은 `pakfilebuilder.exe -c <build-list.txt> <new-patch_0.pak>`이다. 원본 PAK을 바로 덮어쓰지 말고 별도 출력본을 먼저 검증한 다음 교체한다.
 
@@ -142,7 +139,7 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 ## English
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261019233647/KingdomsOfAmalur_Korean_zh_cn_20261019233647.zip)
+- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261020142027/KingdomsOfAmalur_Korean_zh_cn_20261020142027.zip)
 
 ### Project Background and Acknowledgements
 
@@ -164,12 +161,9 @@ The CSV mixes menu strings and dialogue, and lines from the same conversation ca
 
 For item names containing English `of ...` constructions, this project's composition convention marks the modifier with asterisks, as in `반지 *얼음 방패*`. When a verb is combined with an object, a colon marks the verb portion, as in `폭파하기:`. If an item's activation condition follows its name, a condition such as `at Night` is shown in parentheses as `(야간)`, indicating that the ability works only at night. These are project-specific conventions for distinguishing composed strings and conditions.
 
-Use the existing [proper-name glossary](work/zh_cn/audit/proper-name-glossary.tsv), [candidate occurrence/disposition index](work/zh_cn/audit/proper-name-occurrences.tsv), and [review records](work/zh_cn/audit/README.md) as references for names already examined. Pair full compound names once, for example `브론웬 센(Bronwen Senn)`, not component-by-component as `브론웬(Bronwen) 센(Senn)`. Exhaustive proper-name discovery and consistency review are no longer active work items. These records are partial references, not a claim that all names have been found or verified; the review can be resumed from them if the user later chooses to reopen it.
+Use the existing [proper-name glossary](work/zh_cn/audit/proper-name-glossary.tsv), [candidate occurrence/disposition index](work/zh_cn/audit/proper-name-occurrences.tsv), and [review records](work/zh_cn/audit/README.md) as references for names already examined. Pair full compound names once, for example `브론웬 센(Bronwen Senn)`, not component-by-component as `브론웬(Bronwen) 센(Senn)`. These records are partial references, not a claim that all names have been found or verified. Proper-name review is not a sequential or open-ended task; when explicitly resumed, inspect only newly surfaced, bounded candidates and do not automatically queue another batch.
 
-The remaining translation work is:
-
-1. Fix translation errors found while playing the game. Gameplay coverage is necessarily limited and does not amount to complete validation.
-2. Use heuristic searches to find and review candidate translation errors, and fix clear errors. If a proper-name error is found, use the existing glossary to correct it and update related records only as needed; do not resume exhaustive proper-name batches.
+The translation work is considered complete, but not every in-game context or proper name has been exhaustively verified. Heuristic proper-name checks ended at D-22000 on 2026-10-20. Do not resume them unless the user explicitly asks; this is completed translation work, not an open-ended maintenance queue.
 
 For `_base` entries whose English source begins with capitalized `The`, do not treat it as only a definite article by default. First consider whether the string is an item name, quest name, or other title/proper name. Translate it as a natural Korean title in context, and consider retaining the source as `Korean (The English Name)` to make the name traceable. The initial `The` is a cue to inspect context, not proof that every such string is a proper noun.
 

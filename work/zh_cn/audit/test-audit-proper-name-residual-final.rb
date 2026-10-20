@@ -10,7 +10,10 @@ class ProperNameResidualAuditTest < Minitest::Test
     stdout, stderr, status = Open3.capture3(RbConfig.ruby, audit)
 
     assert status.success?, "#{stdout}\n#{stderr}"
-    assert_match 'Terminal matches without a covering bilingual English label: 0', stdout
+    assert_match 'Terminal matches without a covering bilingual English label: 1', stdout
+    assert_match(/BILINGUAL LABEL WARNING \(non-fatal\): .*"ID_Linha":"31946"/, stdout)
+    assert_match 'Bilingual-label warnings are informational; source/index integrity checks remain fatal.', stdout
+    assert_match 'missing=0, documented exclusions=0', stdout
     assert_match 'undocumented extras=0', stdout
     assert_match 'Documented source-local rank translations: 1', stdout
     assert_match 'Documented row-scoped Syl place labels: 5', stdout

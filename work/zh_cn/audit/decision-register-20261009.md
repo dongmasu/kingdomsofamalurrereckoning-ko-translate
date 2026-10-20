@@ -883,35 +883,35 @@ reopened or recounted. Full proper-name discovery remains incomplete.
 <!-- current-proper-name-batch:start -->
 ## Latest Verified Proper-Name Batch
 
-Latest verified proper-name batch: D-21851 (2026-10-19).
-Reviewed 8 distinct resource/ID/variant keys: {"not-an-issue"=>6, "accepted"=>2}.
-Groups: {"person:hugues"=>8}. Last reviewed key: default:39675: / person:hugues.
-Next batch: D-21852; continue source discovery/residual checks; no unreviewed indexed keys.
-Indexed matches: 48476; accepted=32641, excluded=3217, not-an-issue=12507, uncertain=111.
+Latest verified proper-name batch: D-21881 (2026-10-20).
+Reviewed 1 distinct resource/ID/variant key: {"accepted"=>1}.
+Groups: {"resource:chaos-flame"=>1}. Last reviewed key: default:49092.
+Follow-up: continue bounded proper-name checks until the user explicitly asks to stop.
+Indexed matches: 48484; accepted=32657, excluded=3217, not-an-issue=12499, uncertain=111.
 Remaining unreviewed indexed matches: 0, in 0 distinct CSV row keys.
 Reviewed unresolved indexed holds: 111, in 106 distinct CSV row keys.
-If only reviewed holds remain, continue discovery/residual checks; do not reopen them without new evidence.
+Keep reviewed holds closed unless new, specific evidence appears.
 These are focused entity/row index states, not global translation totals.
 Sequential default review through ID 65134 remains completed and is not recounted.
 Machine-generated proper-name candidate list: 305 terms; registered-reviewed=305, heuristic-not-reviewed=0. This list is not exhaustive; it does not establish an overall completion percentage.
-Full proper-name discovery/residual validation remains incomplete; do not claim overall completion.
+Full proper-name discovery/residual validation remains incomplete; this does not block the user's translation-complete status.
 Active CSV SHA-256:
 - affix: `9dbee978d73148eeb547c2a01a58e3d8168a519824382d339179c55770492b33`.
-- base: `afb24dd6ca7a252173af67e593761ab622e6d615a129d97318854721b300db0c`.
-- default: `5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f`.
-Last batch pre-edit backups and byte validation:
-- default: 2 cells; pre `b7579da53067c7b14f06759a734a68dbed3ea9004c2e76576ce5893ad1c17e46`; post `5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21851/locatexts_zh_cn.koalocatext_default.csv`.
-default: PASS 2 cells; 65135 ordered rows; masked non-target bytes + inverse equal backup; SHA-256 5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f
+- base: `57000ac4220bc261b090585847fdae7c9f80e9e7fd680e6be169f02d18de4ed6`.
+- default: `58ed66094a5f103df175594e49e4089ac60eabc27cab419c6970c5e0aa570bdb`.
+Last edit: 1 default cell; pre `1e670d456f14b5a87a0e6a8e5576fa6dfca325a1c10191324628afaace3f54ea`; post `58ed66094a5f103df175594e49e4089ac60eabc27cab419c6970c5e0aa570bdb`; backup `/private/tmp/ko-translate-backups/20261020/before-proper-name-D21881/locatexts_zh_cn.koalocatext_default.csv`. Byte-preserving editor and independent verifier passed.
+Occurrence index: 48484 rows; SHA-256 `dab14c16869fe2677f9510e60ad9ab435b012332edfcdd1c5811bb9f2c116420`; statuses and evidence unchanged.
+The temporary D-21877 aligned inventory is stale at `default:49092`; refresh before inventory-driven screening. No full residual or format audit was run.
 Last actual CSV-edit backups (retained across no-edit batches):
 - affix: 6 cells; pre `d626613abec04cf818602ed9c627490a9668a65783e9619e50e84fb97bdfc2dd`; post `9dbee978d73148eeb547c2a01a58e3d8168a519824382d339179c55770492b33`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21835/locatexts_zh_cn.koalocatext_affix.csv`.
-- base: 4 cells; pre `50c11da1f94bb6bc91012d7c411267e8b57857f25e1cd6c0c862a305f210ede0`; post `afb24dd6ca7a252173af67e593761ab622e6d615a129d97318854721b300db0c`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21849/locatexts_zh_cn.koalocatext_base.csv`.
-- default: 2 cells; pre `b7579da53067c7b14f06759a734a68dbed3ea9004c2e76576ce5893ad1c17e46`; post `5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21851/locatexts_zh_cn.koalocatext_default.csv`.
-Aligned inventory: 73430 rows; SHA-256 `99b58ffd73eb15324c72cc1edec49c5dc6efb84fb4d251729aea66eeab2eb6f7`.
-Occurrence index: 48476 rows; SHA-256 `0064432a69341df0d07084c8e46bf4e76503fc7b6346e6462caa7ed1a3ddaff5`.
-Proper-name glossary: 2348 entries; SHA-256 `c9a2eb5f07b8ae6128cd174a2707c766c4ff4b2f18afa5cbcd15b6dba8a0e387`.
-Report: `work/zh_cn/audit/named-scope-review-D21851-20261019.md`.
-Addendum: `work/zh_cn/audit/named-scope-edit-addendum-D21851-20261019.md`.
-Exact source comparison manifest: `work/zh_cn/audit/proper-name-edits-D21851.tsv`.
+- base: 1 cells; pre `244dec237c439aae31f75ae76eb3486c2944e49d2fae80c1b5928fd189a2fc94`; post `57000ac4220bc261b090585847fdae7c9f80e9e7fd680e6be169f02d18de4ed6`; backup `/private/tmp/ko-translate-backups/20261020/before-proper-name-D21866/locatexts_zh_cn.koalocatext_base.csv`.
+- default: 1 cell; pre `1e670d456f14b5a87a0e6a8e5576fa6dfca325a1c10191324628afaace3f54ea`; post `58ed66094a5f103df175594e49e4089ac60eabc27cab419c6970c5e0aa570bdb`; backup `/private/tmp/ko-translate-backups/20261020/before-proper-name-D21881/locatexts_zh_cn.koalocatext_default.csv`.
+Aligned inventory: 73430 rows; SHA-256 `48c33087f07b1e9c39e093cac822bfc8def33cf0ea2f37102f58c092a73fff54` (stale at `default:49092`).
+Occurrence index: 48484 rows; SHA-256 `dab14c16869fe2677f9510e60ad9ab435b012332edfcdd1c5811bb9f2c116420`.
+Proper-name glossary: 2350 entries; SHA-256 `f2fa585de680c72d8f9e5478e543977c730adcb5b864fc75c92388e976d701b1`.
+Report: `work/zh_cn/audit/named-scope-review-D21881-20261020.md`.
+Addendum: `work/zh_cn/audit/named-scope-edit-addendum-D21881-20261020.md`.
+Exact source comparison manifest: `work/zh_cn/audit/proper-name-edits-D21881.tsv`.
 <!-- current-proper-name-batch:end -->
 
 ### D-21832 Scope Clarification
@@ -44479,3 +44479,29 @@ status, or cumulative tally changed. See
 `proper-name-edits-D21843.tsv`.
 The full reverse edit-chain verification passed across 1,412 reviewed stages,
 including reconstruction of the pre-D-20390 resource hashes.
+
+## D-21866: Varalin Source Alias And Spelling Review
+
+Registered `Varalin` as a source alias of the existing
+`place:gallows-end` entity after English explicitly identified it as
+the Dverga name for Gallows End. Japanese `バラリン`/`ヴァラリン`
+and Chinese `瓦拉林` corroborate. Reviewed six exact source keys; added four
+previously unindexed matches while preserving the status and evidence
+of the two existing Gallows End rows. Corrected only `바랄린` to
+`바라린` at base:82 and default:43053. See
+`named-scope-review-D21866-20261020.md` and
+`proper-name-alias-expansion-D21866.tsv`. No prior unrelated terminal
+decision or global translation tally was reopened.
+
+## D-21881: Chaos Flame Spelling Correction
+
+Corrected `혼돈 불꽃(Chaos Flame)` to the established
+`혼돈의 불꽃(Chaos Flame)` at `default:49092`, inserting only `의`.
+English, Japanese `混沌の炎`, Chinese `混乱烈焰`, and seven other exact
+paired uses support the canonical spelling. This refines D-20056 and
+D-21521 only for the spelling at this key; the sentence's meaning and the
+separate Chaos Weapons name remain unchanged. The byte-preserving edit and
+independent verifier passed. Three existing occurrence-index context
+snapshots were updated; statuses and evidence remain unchanged. See
+`named-scope-review-D21881-20261020.md` and
+`proper-name-edits-D21881.tsv`. No full residual or format audit was run.

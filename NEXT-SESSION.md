@@ -1,5 +1,809 @@
 # Next Session Handoff
 
+## Current Status (2026-10-20)
+
+D-21913 corrected `default:22870` from `캐신(Cassyne)` to
+`캐사인(Cassyne)`, matching the contextual Korean name at `default:3303`,
+Japanese `キャサイン`, and Chinese `卡辛`. The byte-preserving editor and
+independent verifier passed for one cell across 65,135 rows; non-target bytes
+and inverse reconstruction matched the byte-identical backup. See
+`work/zh_cn/audit/named-scope-review-D21913-20261020.md` and
+`work/zh_cn/audit/translation-correction-D21913.tsv`.
+`The Silent Highwayman` (`default:22792`), `Viper Daggermaster`
+(`default:22817`), and `Wivi Rasmussen` (`default:22851`) were checked
+without changes; do not requeue these exact scopes without new evidence.
+D-21914 corrected `default:22845` from `마트림(Matrim)` to
+`메이트림(Matrim)`, matching the confirmed `Matrim Hawkins` form at
+`default:22813`. The byte-preserving editor and independent verifier passed
+for one cell across 65,135 rows, preserving non-target bytes and inverse
+reconstruction. See `work/zh_cn/audit/named-scope-review-D21914-20261020.md`
+and `work/zh_cn/audit/translation-correction-D21914.tsv`.
+D-21915 reviewed `Lemoure Tulle` (`default:22892`) and `Meyra`
+(`default:22931`). The source-annotated Lemoure label has no decisive
+alternative Korean form; Meyra's name is consistent across the related
+donation/purse references. `Ysa's Breath` (`default:22942`) is already
+resolved as a reagent compound, not a city-name occurrence. No CSV or index
+changes were warranted. See
+`work/zh_cn/audit/named-scope-review-D21915-20261020.md`.
+D-21916 reviewed `Petraun` (`default:23148`) and cross-checked
+`Frea Almar` (`default:23153`) against the existing references and D-9846
+hold. Both remain unchanged; existing name decisions were not reopened. See
+`work/zh_cn/audit/named-scope-review-D21916-20261020.md`.
+D-21917 reviewed `Henry Pordeau` (`default:23208`). The English spelling,
+Japanese `ヘンリー・ボルドー`, and Chinese `亨利·波尔迪奥` provide no
+decisive evidence against the existing Korean `헨리 포르도(Henry Pordeau)`;
+the label remains unchanged. `Beggar's Bluff` (`default:23184`) and `Paling
+Wand` (`default:23199`) were excluded as previously reviewed scopes.
+`Hakon Apullos` (`default:23234`) and `Astrid Frisk` (`default:23294`) have
+existing confirmed forms; Owaiglyn's existing hold was retained. See
+`work/zh_cn/audit/named-scope-review-D21917-20261020.md`.
+D-21918 reviewed `Clovis Fabian` at `default:23344` and its repeated full
+name at `default:28241`. The aligned English, Japanese, Chinese, and Korean
+forms agree; both remain unchanged. `Thais` (`default:23300`) remains under
+the existing D-2859/D-18251 spelling hold and was not reopened. See
+`work/zh_cn/audit/named-scope-review-D21918-20261020.md`.
+D-21919 reviewed `Daltyn Eame` (`default:23405`) and `Hermokrates`
+(`default:23427`). Neither has a clear Korean spelling error; both remain
+unchanged. Existing confirmed names and D-7423's `Crilgarin, Knave of Coins`
+hold were excluded. See
+`work/zh_cn/audit/named-scope-review-D21919-20261020.md`.
+D-21920 corrected `default:23502` from `호레이스(Horace)` to
+`호러스(Horace)`, matching the same missing explorer's confirmed full name
+`호러스 데스페로(Horace Despero)` at `default:51670`. Aligned Japanese and
+Chinese context corroborates the identity. Only this one cell changed; the
+distinct Horace Rheese and other short-name rows remain untouched. The
+byte-preserving editor and independent verifier passed. See
+`work/zh_cn/audit/named-scope-review-D21920-20261020.md` and
+`work/zh_cn/audit/translation-correction-D21920.tsv`.
+D-21921 reviewed fresh name candidates in `default:23600-23699`. `Ulliam
+Toal` (`default:23631`) agrees with Japanese and Chinese; no clear Korean
+error was found. `Mithros` and `Aodh` were excluded as already terminal under
+D-20756 and D-20964. No translation, glossary, or occurrence-index edits
+were needed. See
+`work/zh_cn/audit/named-scope-review-D21921-20261020.md`.
+D-21922 screened fresh name candidates in `default:23700-23799` against the
+aligned Korean, Japanese, and Chinese rows, existing decisions, and glossary.
+No new, clearly evidenced Korean content error was found. `Marga Sammoc`,
+`Oreyn Vilsar`, `Adessa`, `Fahrlang`, and the other encountered names already
+have exact-row or glossary decisions; `The Pryderi` remains covered by
+D-18700. No CSV, glossary, or occurrence-index edits were needed. No
+format/residual audit or verifier was run. See
+`work/zh_cn/audit/named-scope-review-D21922-20261020.md`.
+Next: D-21923, screen fresh candidates from `default:23800` onward; exclude
+exact scopes already reviewed and do not reopen terminal decisions or
+unresolved holds without new evidence.
+D-21923 screened unclosed name candidates in `default:23800-23899` against
+all four locale rows, the occurrence index, and glossary. No new, clearly
+evidenced Korean name error was found. The historical names at `23811`,
+Arkes (`23895`), Quay (`23846`), The Crossing (`23858`), Barghest (`23800`),
+and Relentless Assault (`23843`) remain consistent with existing evidence.
+No CSV, glossary, or occurrence-index edits were needed; no format/residual
+audit or verifier was run. See
+`work/zh_cn/audit/named-scope-review-D21923-20261020.md`.
+Next: D-21924, screen fresh candidates from `default:23900` onward; exclude
+exact scopes already reviewed and do not reopen existing holds without new
+decisive evidence.
+D-21924 screened name-bearing candidates in `default:23900-23999` against
+all four locale rows and existing decisions. No new, clearly evidenced
+Korean name error was found. Frost Trap, Calder Vonn, Thyrdon, Rivener
+Tarsus, Violet Marie, Desiderus Trav, King Wencen, and Oleander Sinclair
+remain supported by source locales or prior exact-row review. No CSV,
+glossary, or occurrence-index edits were needed; no format/residual audit or
+verifier was run. See
+`work/zh_cn/audit/named-scope-review-D21924-20261020.md`.
+Next: D-21925, screen fresh candidates from `default:24000` onward; exclude
+exact scopes already reviewed and retain unresolved holds unless new
+decisive evidence appears.
+D-21925 reviewed fresh candidates in `default:24000-24099` and corrected
+one source-name omission: `default:24089` now pairs the explicitly named
+guild as `나무와 가지(Tree and the Branches)`, matching its established
+display at `default:62702` and the aligned Japanese/Chinese titles. This
+scoped change does not resolve D-7736's broader sentence/lore uncertainty.
+The focused verifier confirmed exact inverse reconstruction and unchanged
+non-target bytes; no full format/residual audit was run. See
+`work/zh_cn/audit/named-scope-review-D21925-20261020.md` and
+`translation-correction-D21925.tsv`.
+Next: D-21926, screen fresh candidates from `default:24100` onward; exclude
+exact scopes already reviewed and retain unresolved holds unless new
+decisive evidence appears.
+D-21926 screened fresh name candidates in `default:24100-24199` against
+aligned English, Korean, Japanese, and Chinese rows, existing occurrence
+dispositions, and the glossary. No new, clearly evidenced Korean name error
+was found. `Bloodgrin` and `the Spine` at `default:24125` already use their
+established bilingual labels; `Adessa Crater` at `default:24183` is also
+already paired. Existing D-7759 and D-7792 broader-content holds remain
+unchanged. No CSV, glossary, or occurrence-index edit was needed, and no
+format/residual audit or verifier was run. See
+`work/zh_cn/audit/named-scope-review-D21926-20261020.md`.
+D-21927 screened fresh name candidates in `default:24200-24299`. No new,
+clearly evidenced Korean name error was found. At `default:24250`, the
+English source uses `Mcleod`, and the Korean parenthetical preserves that
+local source casing. D-21131 explicitly retains local `McLeod`/`Mcleod`
+casing; D-18869 records the row as not an issue, superseding the older
+D-7832 uncertainty. No CSV, glossary, or occurrence-index edit was needed.
+No format/residual audit or verifier was run, and no separate D-21927 report
+was created.
+D-21928 screened fresh name candidates in `default:24300-24399` against
+aligned English, Korean, Japanese, and Chinese rows, existing occurrence
+dispositions, and the glossary. No new, clearly evidenced Korean name error
+was found. `Diette Gilanne` at `default:24317` is already bilingual.
+`Lyana` at `default:24391` remains under D-7912's unresolved name hold.
+`default:24328`'s “great Snaketail” remains distinct from the confirmed
+`Snaketail River` entity absent new identity evidence; D-7877's sequence and
+line-break disposition was not reopened. No CSV, glossary, or
+occurrence-index edit was needed, and no format/residual audit or verifier
+was run. See
+`work/zh_cn/audit/named-scope-review-D21928-20261020.md`.
+D-21929 screened fresh name candidates in `default:24400-24499` against
+aligned English, Korean, Japanese, and Chinese rows, existing occurrence
+dispositions, and the glossary. No new, clearly evidenced Korean name error
+was found. `Meropis` at `default:24410` remains accurately transliterated;
+its canonical form stays under D-6574/D-7921's existing alignment hold.
+`Oslach` at `default:24411` already uses the accepted bilingual form. No
+CSV, glossary, or occurrence-index edit was needed, and no format/residual
+audit or verifier was run. See
+`work/zh_cn/audit/named-scope-review-D21929-20261020.md`.
+D-21930 screened fresh name candidates in `default:24500-24599` against
+aligned English, Korean, Japanese, and Chinese rows, existing occurrence
+dispositions, and the glossary. No new, clearly evidenced Korean name error
+was found. `Afe Bolstid` at `default:24522` and the ship names at
+`default:24594` already have bilingual Korean forms; `Cuba` at `default:24540`
+is accurately localized. Other candidates remain supported by prior
+exact-row decisions or confirmed glossary entries. No CSV, glossary, or
+occurrence-index edit was needed, and no format/residual audit or verifier
+was run. See
+`work/zh_cn/audit/named-scope-review-D21930-20261020.md`.
+D-21931 reviewed fresh name candidates in `default:24600-24699` and corrected
+the missing bilingual guild-name display at `default:24666` to
+`나무와 가지(Tree and the Branches)`, matching `default:24089` and the
+established display at `default:62702`. Aligned Japanese and Chinese support
+the same title. The focused byte check confirmed CRLF preservation, exact
+inverse reconstruction, and byte-identical non-target content. No full
+format/residual audit was run. See
+`work/zh_cn/audit/named-scope-review-D21931-20261020.md` and
+`work/zh_cn/audit/translation-correction-D21931.tsv`.
+D-21932 screened fresh name candidates in `default:24700-24799` against
+aligned English, Korean, Japanese, and Chinese rows, existing occurrence
+dispositions, and the glossary. No new, clearly evidenced Korean name error
+was found. `Raf` at `default:24765` remains under D-8076/D-19004; the
+separately confirmed `Raf Klyr` at `default:40495` is not linked without
+identity evidence. `Adarus` at `default:24788` remains under the D-8087/
+D-19010 fragment hold. No CSV, glossary, or occurrence-index edit was
+needed; no format/residual audit or verifier was run. See
+`work/zh_cn/audit/named-scope-review-D21932-20261020.md`.
+D-21933 screened fresh name candidates in `default:24800-24899` against
+aligned English, Korean, Japanese, and Chinese rows, existing occurrence
+dispositions, and the glossary. No new, clearly evidenced Korean name error
+was found. `Almere`, `Rove Welkirk`, and `Penri Kell` already use bilingual
+Korean labels; `Tine` at `default:24859` is correctly `타인(Tine)` with its
+row-scoped identity hold retained. `A Home for Winter` remains accurately
+translated without assuming it is a named entity. No CSV, glossary, or
+occurrence-index edit was needed; no format/residual audit or verifier was
+run. See `work/zh_cn/audit/named-scope-review-D21933-20261020.md`.
+D-21934 screened fresh name candidates in `default:24900-24999` against
+aligned English, Korean, Japanese, and Chinese rows, existing occurrence
+dispositions, and the glossary. No new, clearly evidenced Korean name error
+was found. `Aluck` at `default:24992` already uses `알럭(Aluck)`; all source
+locales retain `Aluck`, and D-5423 concerns a different row. Other candidates
+remain supported by exact-row decisions or confirmed glossary entries. No
+CSV, glossary, or occurrence-index edit was needed; no format/residual audit
+or verifier was run. See
+`work/zh_cn/audit/named-scope-review-D21934-20261020.md`.
+D-21935 screened fresh name candidates in `default:25000-25099` against
+aligned English, Korean, Japanese, and Chinese rows, existing occurrence
+dispositions, and the glossary. No new, clearly evidenced Korean name error
+was found. The existing `Athad` (`아싸드(Athad)`, default:25040) and
+`Solstice` (`솔스티스`, default:25061) corrections are present. Other
+candidates remain consistent with exact-row dispositions or glossary forms.
+No CSV, glossary, or occurrence-index edit was needed; no format/residual
+audit or verifier was run. See
+`work/zh_cn/audit/named-scope-review-D21935-20261020.md`.
+D-21936 screened indexed name occurrences from `default:25100` through
+`default:65134`, skipping exact keys with prior terminal decisions. Every
+uncertain key encountered had an existing row-specific review and supporting
+source-locale evidence; no new, clearly evidenced Korean name error was
+found. No translation, glossary, or occurrence-index edit was needed. No
+format/residual audit, verifier, inventory rebuild, package build, or in-game
+test was run.
+D-21937 filtered the 2026-10-18 short-label snapshot against exact-key
+dispositions and the occurrence index, leaving only `Scarwood` and
+`Templar`. The standalone `Scarwood` label at `default:8694` remains
+unclassified because the source does not establish its referent; no English
+pairing or entity was added. `Templar` at `default:23891` was already closed
+by D-18738; `default:48712` is a translated generic rank/role, not a proper
+name. No CSV, glossary, or occurrence-index change was needed. No broad
+format/residual audit or verifier was run. See
+`work/zh_cn/audit/named-scope-review-D21937-20261020.md`.
+D-21938 regenerated the English-text heuristic using the existing inventory
+and current glossary only: 29,632 phrases versus the 29,604 baseline, with
+28 additions and no removals. All additions were already reconciled by
+D-21842. The saved place, monster, book/artifact, and camp/institution
+discovery pools are dispositioned except the existing `Motus Mining
+Operations` hold at `default:31817`; rechecking its aligned locales added no
+evidence, so it remains unchanged. No CSV, glossary, or occurrence-index
+change was made. No format/residual audit or verifier was run. See
+`work/zh_cn/audit/named-scope-review-D21938-20261020.md`.
+D-21939 checked the suggested official-manual name heuristic against the
+existing ledger. All four peoples and twelve deities were already covered by
+D-20392 (1,460 review events across 1,419 source keys); their glossary
+entries remain confirmed. No new candidate or text change resulted. See
+`work/zh_cn/audit/named-scope-review-D21939-20261020.md`.
+D-21940 compared multiword glossary names/aliases across entities. Its only
+two overlaps are coordinated references to both Ansilla and Gastyr; their
+separate identities and the three exact source rows were already confirmed
+by D-21118/D-21119. No edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21940-20261020.md`.
+D-21941 compared canonical English/Korean labels across entities. The
+Cryamor person/item duplicate and Yolvan region/source-form duplicate match
+explicit prior identity scopes; no merge or text change was warranted. See
+`work/zh_cn/audit/named-scope-review-D21941-20261020.md`.
+D-21942 screened seven one-character near-duplicate person/place name pairs.
+The rows are already distinguished by exact English source forms and prior
+decisions; `Snakestail Grotto` at default:19487 correctly preserves the
+source-local spelling. No edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21942-20261020.md`.
+D-21943 screened one-character near-duplicate English labels in remaining
+glossary categories. The surviving differences were numbered source titles
+or the already separately reviewed `Vlaskar's Forge`/`Vlasker's Forge`
+labels. No edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21943-20261020.md`.
+D-21944 screened Korean canonical/variant overlaps across glossary entities:
+27 shared forms spanning 44 same-category entity pairs. Exact source labels
+and existing row decisions distinguish the entities; the Yolvan source-form
+hold remains unresolved. No current Moon Camp row uses `문다운`, and Chaos
+Flame Rod/Dowel are distinct in the active Korean cells. No source, glossary,
+or occurrence-index edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21944-20261020.md`.
+D-21945 screened single-word English canonical names and aliases. There were
+no same-category collisions; the sole shared label, `Cryamor`, is the
+person/item overlap already reviewed by D-21941. No edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21945-20261020.md`.
+D-21946 screened cross-category Korean canonical/variant overlaps across 17
+shared forms. Exact English contexts and prior dispositions keep the
+factions, places/items, people/places, titles, and other entities distinct;
+the Codex of Destiny/Fate identity remains unresolved. No edit was warranted.
+See `work/zh_cn/audit/named-scope-review-D21946-20261020.md`.
+D-21947 screened near-duplicate Korean place labels. Their English source
+names distinguish the locations; Sea Foam/Seafoam Tavern keeps its already
+recorded `씨폼`/`시폼` spelling variants, and Lycium Grove stays unresolved
+against Lyceum Grove. No evidenced correction was warranted. See
+`work/zh_cn/audit/named-scope-review-D21947-20261020.md`.
+D-21948 rechecked the closely rendered `Eagonn`/`Eamonn` family names.
+English and aligned Japanese/Chinese distinguish father and son; current
+Korean `이곤`/`이먼` is consistent with D-21090, and D-21871 excludes the
+ordinary `이건` demonstrative. No edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21948-20261020.md`.
+D-21949 screened near-duplicate Korean item/skill labels, excluding numbered
+title series already covered by D-21943. Weapon classes, boots/gloves,
+Naros Tooth/Stone, and Codex/Stone remain distinguished in English and the
+current Korean cells. No edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21949-20261020.md`.
+D-21950 checked the near-duplicate Yolvan titles `Yolvan Stone` and
+`Yolvan's Poison`. English, Japanese, and Chinese preserve the stone/poison
+distinction, and Korean `돌`/`독` is correct. No edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21950-20261020.md`.
+D-21951 compared similar Korean personal names `그렘(Graem)`,
+`그림(Grim)`, and `그림미(Grimmy)`. English keeps three characters
+distinct; Japanese/Chinese convergence for Grim/Grimmy does not override the
+English identities. Current Korean is source-consistent. No edit was
+warranted. See `work/zh_cn/audit/named-scope-review-D21951-20261020.md`.
+D-21952 checked nearby short personal-name forms `Gelt`, `Helt`, `Holt`,
+`Holte`, and `Kalt`. English identifies separate people; Holt is Brother
+Holt, while Holte is Holte Frenn. Existing source-key and locale evidence
+supports keeping the Korean forms scoped. No edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21952-20261020.md`.
+D-21953 compared English title forms after stripping punctuation and spaces.
+`Siege Breaker`/`Siegebreaker` both identify the protagonist's epithet; the
+aligned Japanese/Chinese and current Korean `공성 파괴자` agree, while each
+source-local English form remains paired. No edit or index migration was
+warranted. See
+`work/zh_cn/audit/named-scope-review-D21953-20261020.md`.
+D-21954 screened cross-entity English names differing only by a trailing
+plural `s`. The family/person forms, Obsidian Isle(s), Galette Tunnel(s), and
+The Raven(s) preserve their source-specific scopes; prior English-led row
+decisions support the Korean text. No edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21954-20261020.md`.
+D-21955 screened English canonical/alias forms across entities after
+normalizing possessive apostrophe-s and apostrophe punctuation. No cross-
+entity collision or new source candidate resulted. No edit was warranted.
+See `work/zh_cn/audit/named-scope-review-D21955-20261020.md`.
+D-21956 compared English names with/without leading articles. The only
+cross-entity hit was `Darkvari`/`the Darkvari`: English contexts and prior
+row scopes distinguish an individual from the collective mining family.
+No edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21956-20261020.md`.
+D-21957 compared English canonical/alias names across entities after folding
+diacritical marks. No cross-entity collision or new candidate appeared. No
+edit was warranted. See
+`work/zh_cn/audit/named-scope-review-D21957-20261020.md`.
+D-21958-D-22000 screened 43 confirmed short/full personal-name component
+pairs in one consolidated pass. All Korean component spellings match; no
+translation correction was warranted. See
+`work/zh_cn/audit/named-scope-review-D21958-D22000-20261020.md`.
+The requested hard stop D-22000 has been reached. Do not continue proper-name
+verification unless explicitly requested again.
+
+D-21912 corrected three inconsistent displays of `Phinne`: `default:22594`
+and `default:52313` now use `핀네(Phinne)`, and `default:33549` now uses
+`핀네(Phinne)와 논쟁하기`. English, Japanese `フィンネ`, Chinese `菲尼`, and
+the established Korean references support the same character spelling.
+The byte-preserving editor and independent verifier checked only these
+three cells. No full format/residual audit or inventory rebuild was run.
+No glossary, occurrence index, or release artifact changed. See
+`work/zh_cn/audit/named-scope-review-D21912-20261020.md`.
+Its next point has been completed; continue with D-21917 above.
+
+Supplemental candidate check (2026-10-20): `default:23755` (`Fahrlang`) was
+already normalized to `파를랑(Fahrlang)` under D-20596, matching the confirmed
+person form at `default:49377` and aligned Japanese `ファーラング` / Chinese
+`法朗`. D-18703's earlier “not an issue” disposition and D-7557's uncertainty
+predate that spelling correction; their meaning/context decisions do not need
+to be reopened. No CSV edit or verifier run was needed. This spot-check does
+not extend the contiguous candidate screen; its former D-21917 resume point
+is superseded by the active D-21922 resume point above.
+
+D-21911 reviewed the standalone `Ondea` label at `default:19988`. English,
+Japanese, and Chinese retain `Ondea`; Korean `온데아` has no demonstrated
+alternative. No change or entity registration was warranted. No
+format/residual audit was run. See
+`work/zh_cn/audit/named-scope-review-D21911-20261020.md`.
+Its old continuation point is superseded by the D-21912 status above.
+
+D-21910 reviewed both `Utricul` labels at `default:19592` and
+`default:34310`. English, Japanese, Chinese, and Korean forms align; both
+already use `우트리쿨(Utricul)`. No correction or entity registration was
+warranted. No format/residual audit was run. See
+`work/zh_cn/audit/named-scope-review-D21910-20261020.md`.
+Next: D-21911, screen fresh English-source name candidates after
+`default:19592`; retain earlier terminal rows and unresolved holds.
+
+D-21909's candidate screen surfaced `Lanta` at `default:19180` and
+`default:5944`, but both exact keys were already covered by D-21633.
+This was a duplicate screen, not a new review; do not recount or requeue
+those keys. See `work/zh_cn/audit/named-scope-review-D21909-20261020.md`.
+Next: D-21910, screen fresh English-source name candidates after
+`default:19193`; retain unresolved holds unless new decisive evidence appears.
+
+D-21908 corrected `default:19005` to add the missing complete-name
+annotation for `Kalinotte Etrene`, matching the exact bilingual full name at
+`default:52480` and the paired components at `default:24918` and `62429`.
+The focused byte-preserving editor and independent verifier were run for one
+cell only and passed; no full residual or format audit. See
+`work/zh_cn/audit/named-scope-review-D21908-20261020.md`.
+Next: D-21909, continue screening fresh English-source names after
+`default:19005`; retain D-5960's unresolved `Jersey` hold.
+
+D-21907 corrected `default:18572` from `역사 명판` to
+`역사적인 동전(Historical Plack)`. English uses *plack* for a historical
+Scottish coin, and aligned Chinese `古老硬币` corroborates the object;
+Korean `명판` incorrectly means plaque. This is a scoped meaning correction,
+not a new named-entity registration. The byte-preserving editor and
+independent verifier passed for this one cell; no full residual or format
+audit was run. See
+`work/zh_cn/audit/named-scope-review-D21907-20261020.md`.
+Next: D-21908, continue screening fresh names after `default:18572`;
+exclude already terminal rows and keep reviews content-first.
+
+D-21906 reviewed `General Cro` at `default:18450` against the related
+`Grave of General Cro` label at `default:14237`. English connects the
+references; Japanese `クロ将軍`, Chinese `克罗将军`, and Korean `크로 장군`
+are consistent. No clear error was found and both cells remain unchanged.
+No broader format audit was run. See
+`work/zh_cn/audit/named-scope-review-D21906-20261020.md`.
+Next batch: D-21907, find a fresh English-source name candidate outside
+already reviewed scopes. Continue content-first; run focused byte
+verification only if a correction is accepted.
+
+D-21905 corrected the isolated `Olin` label at `default:11328` from
+`오린(Olin)` to `올린(Olin)`, matching four other Korean references to the
+same character, including `Olin Risberg`. Japanese and Chinese support the
+same name. The byte-preserving editor and independent verifier passed for
+one cell across 65,135 rows. Default SHA-256:
+`353f28f3890edb1feac645e4282af345faf3a7d0e0a90e6632175a8e09b953aa` →
+`7bdeeddf87d8f0f56a9b077f519968b97a4d473f44a137abbab426d4e3ae91d5`.
+See `work/zh_cn/audit/named-scope-review-D21905-20261020.md` and
+`named-scope-edit-addendum-D21905-20261020.md`.
+D-21906 is complete; continue with D-21907 at the current resume point above.
+
+D-21904 reviewed the fresh standalone `Jedda Kerning` label at
+`default:18115`, its exact duplicate at `default:56839`, and related narrative
+references. English, Japanese, Chinese, and Korean support the same name
+form; no clear error was found, so the text remains unchanged. `Savant Reen`
+was excluded as already resolved by D-19510/D-19718. `Bolganbane Armament`
+was excluded because D-5796 remains unresolved and the current locale labels
+add no new evidence. See
+`work/zh_cn/audit/named-scope-review-D21904-20261020.md`.
+D-21906 is complete; continue with D-21907 at the current resume point above.
+Keep reviews content-first; do not run format or residual audits for
+unchanged text.
+
+D-21903 corrected `default:12095` from `엘릭` to `에일릭` in
+`Aelric Aedic`, preserving its Aelric given-name distinction from the
+separate confirmed `Elric Sequaning`. Japanese and Chinese support the
+initial Ael-/Ai-el- sound. The byte-preserving editor and independent
+verifier passed for one cell across 65,135 rows. Default SHA-256:
+`f8b4a7d0a1515a24df58274ec7991cc081f4458f8da9ab564810783d6889570d` →
+`353f28f3890edb1feac645e4282af345faf3a7d0e0a90e6632175a8e09b953aa`.
+See `work/zh_cn/audit/named-scope-review-D21903-20261020.md` and
+`named-scope-edit-addendum-D21903-20261020.md`.
+D-21906 is complete; continue with D-21907 at the current resume point above.
+Recent candidate screening excluded `The Burn` (`default:7284`) because
+D-1976 already accepted its local form and D-21718 preserves the broader
+place-name uncertainty; do not reopen it without new evidence. `Tester
+Barclay` remains under D-18074's unresolved source/name hold; the screened
+rows add no decisive evidence, so retain that hold.
+
+D-21902 reviewed `Acklyn Leodwyn` (`default:9975`) and the two
+`Mari Wydin` labels (`default:5362`, `default:6221`). Locale evidence
+established no clear Korean spelling error; all remain unchanged.
+`Wil Donall` (`default:5990`) was excluded as already corrected under D-519.
+See `work/zh_cn/audit/named-scope-review-D21902-20261020.md`.
+Its original D-21903 resume point has been completed; use the current
+D-21907 resume point above.
+
+D-21901 checked `Arcane Carrack` at `default:8608`, `default:10287`, and
+`default:22801` against the ship-class list at `default:47542`, where
+`Arcane Carrack I` is explicitly a mage-ship wreck among other vessel types.
+The label is a ship class, not an established unique-vessel name. Both
+`비전의 대형 범선` and `비전 카락선` are supported readings; no clear
+content error warrants editing. The new context resolves only the category
+ambiguity in D-2420/D-2944; it does not establish a canonical Korean
+technical spelling. See
+`work/zh_cn/audit/named-scope-review-D21901-20261020.md`.
+D-21906 is complete. Its former resume instruction is superseded; continue
+with D-21907 at the current resume point above. Exclude exact scopes already
+covered by named-scope reports. Continue content-first and run focused byte
+verification only for accepted edits.
+
+D-21900 corrected `default:8289` from `순찰대` to `도로 순찰대` for
+`The Road Patrol`, matching the exact duplicate at `default:33098` and
+retaining the English road modifier supported by Chinese. The
+byte-preserving editor and independent verifier passed for one cell across
+65,135 rows. Default SHA-256:
+`55042218b4282fb372c0f5fd4674934f81028472883cba141a545f7415eaa461` →
+`f8b4a7d0a1515a24df58274ec7991cc081f4458f8da9ab564810783d6889570d`.
+See `work/zh_cn/audit/named-scope-review-D21900-20261020.md` and
+`named-scope-edit-addendum-D21900-20261020.md`.
+
+D-21899 corrected `게르다 타시` to `겔다 타시` at `default:36239`,
+matching the two exact `Gelda Tash` labels and two standalone `Gelda`
+references. This narrowly supersedes D-11667 for the name spelling only;
+its meaning-level decision remains unchanged. The byte-preserving editor and
+independent verifier passed for one cell across 65,135 rows. Default
+SHA-256:
+`ed06bd6d5ee46ac0f0d2e1db3dc8e4fa6e09b812ab3bc340365736a2a0463e4b` →
+`55042218b4282fb372c0f5fd4674934f81028472883cba141a545f7415eaa461`.
+See `work/zh_cn/audit/named-scope-review-D21899-20261020.md` and
+`named-scope-edit-addendum-D21899-20261020.md`.
+
+D-21898 reviewed both `Caradas Hyne` labels (`default:3042`,
+`default:51479`). All four locales repeat the same full name consistently;
+no stronger Korean spelling evidence or clear content error was found.
+Both remain unchanged. See
+`work/zh_cn/audit/named-scope-review-D21898-20261020.md`; do not requeue
+these exact rows without new evidence.
+
+D-21897 reviewed `Squire Coran` (`default:2276`), `Ezekiel Fife`
+(`default:2378`), and both `Maslow Tarric` full-name labels
+(`default:2471`, `default:13044`). No clear Korean name error was
+established; all remain unchanged. Coran's separate `Squire` role-term
+question remains open. See
+`work/zh_cn/audit/named-scope-review-D21897-20261020.md`; do not requeue
+these exact name scopes without new evidence.
+
+D-21896 corrected only the Korean name stem at `default:51200` from
+`태릭(Tarric)` to `타릭(Tarric)`, matching the two `Maslow Tarric` labels
+(`default:2471`, `default:13044`), aligned Japanese `タリック`, Chinese
+`塔里克`, and the separately confirmed `Tarrick Smith` form. This narrowly
+supersedes D-20098/D-15572 for that spelling only; it does not infer that
+Tarric and Tarrick are the same person or add a global alias. The
+byte-preserving editor and independent verifier passed for one cell across
+65,135 rows. Default SHA-256:
+`0a0c1737e59da72651429c4667579292d9e29195c0997be803511ee9644f7ef8` →
+`ed06bd6d5ee46ac0f0d2e1db3dc8e4fa6e09b812ab3bc340365736a2a0463e4b`.
+See `work/zh_cn/audit/named-scope-review-D21896-20261020.md` and
+`named-scope-edit-addendum-D21896-20261020.md`.
+
+D-21895 reviewed four standalone names: Marisal Cadyr (`default:1871`),
+Huell Hofwe (`default:2046`), Deidra Carlson (`default:2076`), and Honnas
+Kulder (`default:2190`). English-led, aligned-locale and related-label
+comparison established no clear Korean error; all remain unchanged.
+Marisal's Japanese surname variant does not override the English identity
+or D-21605's supported Cyf Cadyr spelling. Keozai Blur (`default:1879`)
+was excluded as already closed by D-19598. No CSV/index/glossary changes
+or format checks. See `work/zh_cn/audit/named-scope-review-D21895-20261020.md`.
+Do not requeue these exact scopes without new evidence. Continue with fresh
+English-source candidates, excluding index entries and prior report scopes;
+read only bounded sections of this handoff.
+
+D-21894 reviewed `Grave of Hola Haervar` at `default:415`. English,
+Japanese, Chinese, and Korean agree on the name-plus-grave meaning. No
+stronger Korean spelling evidence or existing entity disposition was found,
+so the text remains unchanged and no entity was registered. See
+`work/zh_cn/audit/named-scope-review-D21894-20261020.md`.
+
+D-21893 corrected the Korean name at `default:346` from
+`에와 트레오포르` to the established `에와 테오프링`, matching the exact
+Japanese `エワ・テオフリン` used for the confirmed `Ewa Teofring` at
+default:2240. The source-local English variant `(Ewa Treofor)` was retained;
+no global alias or occurrence-index entry was added. The one-cell editor and
+independent manifest verifier passed. Default SHA-256:
+`0a0c1737e59da72651429c4667579292d9e29195c0997be803511ee9644f7ef8`.
+See `work/zh_cn/audit/named-scope-review-D21893-20261020.md`.
+
+D-21892 reviewed the fresh standalone `Curse of Withering` label at
+`default:457`. English, Japanese `ウィサリングの呪い`, Chinese `凋零诅咒`,
+and Korean `시들음의 저주` agree semantically; the related `Withering`
+affix is also translated semantically in Korean. No mistranslation or
+separate named entity is established, so the cell remains unchanged and no
+glossary/index entry was added. See
+`work/zh_cn/audit/named-scope-review-D21892-20261020.md`.
+
+D-21891 corrected the inconsistent `워렌` to `워런` at `default:61080`
+(`You left your wife in the Warren?`), following D-19569's established
+Warren place-name reading and the aligned Japanese `ウォーレン`. The
+source-local `(Warren)` was retained; no glossary or occurrence-index entry
+was added. The one-cell editor and independent manifest verifier passed.
+Default SHA-256:
+`3ed13df73e51e18f3b2364a9a7eb8c1673a741588a03c250e351a7263969a17c`.
+See `work/zh_cn/audit/named-scope-review-D21891-20261020.md`.
+
+D-21890 corrected `대저울` to the confirmed `위대한 저울` for the Great
+Scale at `default:55416`; English's short `Scale` is made explicit by the
+aligned Japanese `偉大なる天秤` and the existing Korean parenthetical.
+Only the Korean name changed. A one-cell editor and independent manifest
+verifier passed. The same candidate screen confirmed the existing
+`샌드스톤 저택(Sandstone Villa)` and `병원 구역(Hospitalis Quarters)`
+annotations at default:2842 and default:27802, respectively, so both stay
+unchanged. Default SHA-256:
+`caad8066240e3e088096767c7819ab3460b6be49cf86afa8c81f1e6d823ecc04`.
+See `work/zh_cn/audit/named-scope-review-D21890-20261020.md`.
+
+D-21889 corrected the English parenthetical typo `Sorrogeweth Fungus` to
+`Sorrogweth Fungus` at `default:52861`. The active Korean transliteration
+was already correct. Exact English/Japanese/Chinese and six other English
+spellings support the correction. D-16046's separate uncertainty about
+fungus/material classification remains open; no glossary/index registration
+was added. One-cell editor and independent manifest verification passed.
+Default SHA-256:
+`f193f066e622e9652d61ab6888ce03390ae1ee4dad94104e5f97833d5bab6001`.
+See `work/zh_cn/audit/named-scope-review-D21889-20261020.md`.
+
+D-21888 corrected only `레와니` to `르와니` at `default:8178`
+(`Apothecary Rhewani`). The full `Rhudlyn Rhewani` label and two identical
+Apothecary objective labels support the spelling. Other Rhewani and
+initial-form uncertainties remain untouched; no glossary/index registration
+was added. The one-cell editor and independent manifest verifier passed.
+Default SHA-256: `83c6c8e091a0d2faf3ccad2695ff24e3c8a291923215ad3a23d4468793916db7`.
+See `work/zh_cn/audit/named-scope-review-D21888-20261020.md`.
+
+D-21887 ran a confirmed-multiword-name probe across the 586 English affix
+rows, joining working Korean rows by exact `ID_Linha` and checking all
+target variants without assuming English `FF` variant equivalence. No
+unindexed candidate missing its established Korean name form was found.
+This was not a full affix audit. Do not pair affix arrays by row position
+or rerun this exact glossary-driven screen without new evidence. See
+`work/zh_cn/audit/named-scope-review-D21887-20261020.md`.
+
+D-21886 screened repeated exact base labels with Korean rendering variants.
+For `Dusk Shard` (`base:786`, `base:2212`), English/Japanese/Chinese are
+identical; both `황혼의 파편` and `황혼 파편` are semantically valid Korean.
+No content error is established, so both remain unchanged. No CSV/glossary/
+index edit or full audit. Do not rerun this exact-label variant screen
+without new evidence. See
+`work/zh_cn/audit/named-scope-review-D21886-20261020.md`.
+
+D-21885 changed only `레와니` to `르와니` at `default:19684`,
+`Visit Apothecary Rhewani`. Its identical English/Japanese/Chinese objective
+at `default:51679` already uses `르와니(Rhewani)`, as does the full
+`Rhudlyn Rhewani` form at `default:15723`. This exact-label consistency fix
+does not resolve other Rhewani/initial uncertainties or register an alias.
+One-cell editor and independent manifest verification passed. Default
+SHA-256: `1619c1c0e825e63ec10b6d4ddb8e7fa8f8bf09f88ae5bc24b8212b716a9f5751`.
+No index/glossary change. See
+`work/zh_cn/audit/named-scope-review-D21885-20261020.md`.
+
+D-21884 corrected the Scaith name spelling in `Scaith Curse` at
+`default:7544` and `default:17166` from `스카이스` to confirmed
+`스케이스`. English, family-explicit Japanese `スケイス家の呪い`, Chinese,
+and the confirmed `First Scaith` / `Codex Scaith` Korean forms support it.
+The exact title structure was preserved. The already closed `default:1822`
+D-19597 decision was not reopened. Two-cell focused editor and independent
+manifest verification passed. Default SHA-256:
+`e8e5dfa8a8a2c81d7e2c2777a910b42f41f6055221cccb55c69a56c1582123a8`.
+No glossary or occurrence-index change. See
+`work/zh_cn/audit/named-scope-review-D21884-20261020.md`.
+
+D-21883 corrected only `아일리스` to the existing `에일리스` spelling
+at `default:51758` (`Private Eilis Ilver`), supported by the identical label
+at `55216`, full-name self-introduction at `46586`, and first-name label at
+`29953`. An independent reviewer supported the narrow edit. The editor and
+separate byte-preservation verifier passed. Current default SHA-256:
+`a3283aa1dff13af5c5aa8b8c57e7836f2ab75cc18a7f7d20c3ab6a9e79bd25f0`.
+No glossary/index change; their prior hashes remain applicable.
+Menyr (`12790`, `15291`, `31009`) remains a pronunciation/rank hold;
+Golsey Eidar (`59323`) has no clear name error and stays unchanged.
+Do not requeue these exact scopes without new evidence. See
+`work/zh_cn/audit/named-scope-review-D21883-20261020.md`.
+An independent bounded repeated-standalone-person-label probe in unindexed
+default rows found no additional supported name-stem mismatch. Do not rerun
+that exact screen without new evidence; choose another candidate family.
+
+Efficiency: read only bounded sections of large handoff/register files;
+discover helper paths before opening them; keep CSV probes nil-safe
+(`Texto.to_s`). Limit searches to this workspace, not its parent. No full
+format/residual audit for read-only screens, and no style-only changes.
+
+D-21881 corrected the missing `의` in `혼돈 불꽃(Chaos Flame)` at
+`default:49092`, matching the confirmed `혼돈의 불꽃(Chaos Flame)` form.
+This refines D-20056/D-21521 only for that spelling at this key. The
+byte-preserving CSV check and independent verifier passed; three existing
+index context snapshots were refreshed with statuses/evidence intact. See
+`work/zh_cn/audit/named-scope-review-D21881-20261020.md`.
+
+D-21882's narrow glossary-variant probe surfaced `Baret` at `default:48367`
+and `Chaos Essence` at `default:63503`; both exact keys were already closed
+as `not-an-issue` in D-20394 and D-21196, respectively, with the same
+English/Japanese/Chinese evidence. No new source evidence or edits resulted.
+Exclude exact keys with prior terminal dispositions from candidate queues
+unless genuinely new evidence appears.
+
+Follow-up candidate filters also surfaced `Crossing Keeper` at `base:3043`,
+already corrected in D-21665 with its source-local singular preserved, and
+`Acathan swamps` at `default:52524`, already reviewed in D-21263 as the
+source-local `아카사 늪지` form. Both remain unchanged. Exact canonical/alias
+label probes for confirmed glossary entities found no unindexed base/default
+name mismatches; a current-English default scan of 1,071 confirmed
+multiword labels found no unindexed rows missing a known Korean form. These
+were bounded candidate screens, not completeness audits. Future discovery
+must start from fresh English-source hits absent from the occurrence index,
+not reuse indexed variant rows.
+
+D-21880 checked two additional singleton name-ending candidates at edit
+distance two from repeated forms. `근위대원(Praetorians)` is a contextual
+member term at `default:1553`; `중가르(Zungar)` at `default:38373` is a
+surname/name reference, unlike family mentions carrying `가문`. Both are
+supported by aligned locales and are retained. No source-data change. See
+`work/zh_cn/audit/named-scope-review-D21880-20261020.md`; do not rerun this
+exact threshold without new evidence.
+
+D-21879 checked five all-category singleton spelling outliers against their
+exact aligned source cells and glossary notes. `미타란족`, `드베르가어`,
+`드베르가인`, and `근위대원` are contextual/derivational forms, not clear
+name errors. No source-data change. See
+`work/zh_cn/audit/named-scope-review-D21879-20261020.md`. Do not rerun this
+exact English-label/final-token suffix screen without new evidence.
+
+D-21878 reviewed the exact `Captain Ansilla` title variation across five
+accepted rows. Four use `대위`; `default:8759` uses `대장` in a company-
+membership question. Japanese 隊長 and Chinese 队长 do not establish a
+military-rank reading, so the contextual variation is retained rather than
+normalized without clear evidence. No source-data change. See
+`work/zh_cn/audit/named-scope-review-D21878-20261020.md`.
+The accompanying exact-English/final-Korean-token screen found no other
+repeated one-character spelling pairs under its bounded criteria; do not
+rerun this exact screen without new source evidence.
+
+D-21877 screened the 20 already-generated unregistered-person scout entries.
+Most are generic words or components of existing compound glossary names;
+sampled aligned locales showed no clear content error. No CSV, glossary,
+occurrence-index, or release artifact changed. To reduce wasted review and
+`failed` validation noise, do not rerun this low-precision scout or full
+format/residual checks for read-only candidate screens. See
+`work/zh_cn/audit/named-scope-review-D21877-20261020.md`.
+
+D-21876 checked exact English glossary-key collisions. The only collisions
+are the shared compound aliases `Ansilla and Gastyr` / `Houses of Ansilla
+and Gastyr` (both families are named), and `Cryamor` (the confirmed person
+and his separately registered pet sword). Existing source-row records
+distinguish the item from the person; no bad alias or Korean correction was
+found. No CSV, glossary, or occurrence-index change.
+
+D-21875 applied a fresh paired-full-name completeness heuristic to current
+CSV text. Its only candidate, `default:44697` Fanny Flanagan, is a false
+positive: quoted `패니` splits the Hangul capture, but the complete Korean
+name `패니 플래너건` is present and D-21124 already reviewed it. The other
+three hits were title word-order (`Ambassador Keen/Kulder`) or the separately
+excluded `Teiner Home` household label. No new content error or edit.
+Future scans should account for quoted name components before treating a
+missing canonical substring as a name omission.
+
+D-21874 rechecked a bounded set of uncertain short-name references against
+their exact aligned source cells. Deod, Avery, Kester, Carasta and Ohn gained
+no new identity anchors; their existing holds remain. In particular, do not
+resolve the Deod `데오드`/`디오드` variation without stronger pronunciation
+evidence. See `work/zh_cn/audit/named-scope-review-D21874-20261020.md`.
+No CSV, glossary, index status or release artifact changed.
+
+D-21873 was a no-edit, content-focused spot check of current paired-name
+variants. It confirmed that the old D-21433 scout examples for Ingress,
+Shroud and Elund are stale and their corrected current forms remain closed;
+it also retained the documented Thirsty Wench lexical uncertainty and
+non-error House Gastyr/Minn variants. See
+`work/zh_cn/audit/named-scope-review-D21873-20261020.md`. No CSV or index
+bytes changed. Do not resume the already processed
+`proper-name-person-scout-D21433-offset305.tsv` rows; use fresh heuristics
+and the active CSV/index, not stored example text.
+
+D-21872 corrected the one remaining `에일랠리` spelling in
+`Eilaly Airancourt` at default:32847 to canonical `에일랄리`. The aligned
+Japanese/Chinese name, default:6896 usage and existing glossary corroborate
+the correction. The existing occurrence key/status/evidence remain intact;
+only its Korean context snapshot was refreshed. See
+`work/zh_cn/audit/named-scope-review-D21872-20261020.md` and
+`proper-name-edits-D21872.tsv`. Default SHA-256 is now
+`1e670d456f14b5a87a0e6a8e5576fa6dfca325a1c10191324628afaace3f54ea`;
+index SHA-256 is
+`363d4c0075a2f0582862e4690cff39961801ccfcfa82ba254abe9cdb432f6d57`.
+These supersede the prior working hashes below. The focused editor passed
+byte-preserving verification. No full residual audit or inventory rebuild
+was run.
+
+D-21868-D-21871 screened current-text name variants across affix/base/default
+and corrected nine default cells: Nareen (27804), Janick (29366), Tilera
+(60503), Leanashe (541), Faelands (18225), Teeth of Naros (53267), and two
+Testament faction references (55846, 60084), plus Foreman Vire (60337).
+Only Korean lexical spans and
+one necessary topic particle changed; family/fragment interpretations and
+expanded English pairings remain intact. Ten existing index context
+snapshots were refreshed without changing keys, statuses or evidence.
+See the four `named-scope-review-D21868` through `D21871` reports dated
+20261020 for exact manifests, hashes and backups. Default SHA-256 is now
+`4318b215658f12816c1e764b14f1cd4f4362e5738958640a21ceeee87026de7b`;
+index SHA-256 is
+`0ca768ff6f18cfc99a416613cfbd0042ad296d1b8e069d4365689f200b73714f`.
+These supersede the older default/index hashes below. No full audit or
+inventory rebuild was run; the temporary aligned inventory may be stale
+at the edited cells. Continue content-first bounded review.
+Consolidated verification against the D-21868 pre-edit backup passed:
+nine CSV cells, ten index context snapshots, exact inverse bytes, unchanged
+affix/base hashes. See D-21871 for the combined verification scope.
+
+The paired-person-name spelling screen now finds only documented semantic
+or compound distinctions, not another clear personal spelling error.
+The broader glossary-variant screen includes false positives and separate
+title/site scopes; see D-21871's rejected-hit list before selecting fresh
+candidates. Do not restart the historical Marus/isolated-label scout.
+
+The user considers translation work complete but has explicitly instructed
+that proper-name verification continue in small, bounded batches until the
+user asks to stop. Continue without asking for separate reauthorization at
+each batch, using fresh heuristic candidates and preserving existing records.
+Do not claim exhaustive proper-name or in-game validation.
+
+D-21857-D-21865 continued bounded review; see
+`work/zh_cn/audit/proper-name-validation-D21857-D21862-20261020.md` for the
+running validation addenda. D-21863 removed three duplicate component
+annotations in Ayten Lawstone, Windemere Stone and Private Edstar. D-21864
+verified only the explicit Wyle Family label; the separate bare Wyle hold
+and possible relationships remain unresolved. D-21865 corrected a missing
+Summer Fae qualifier in one exact display. Continue from the latest
+checkpoint below, not earlier release snapshots.
+
+The D-21853 residual check reviewed and closed `default:65039`
+(`event:crystal-war`) and `default:39675` (source-local `Ivan`) in D-21853.
+That batch's residual audit reported no terminal matches missing a bilingual
+English label. D-21866 subsequently verified `Varalin` as a source alias of
+Gallows End and corrected two Korean spelling variants. Its later residual
+audit flagged only the missing `(Varalin)` display pairing in the Korean
+`바라린 섬` at `default:31946`; the Korean place name itself is accurate.
+Treat this as a style-only warning, not a name error, and do not edit it just
+to satisfy the bilingual-label gate. D-21853's Ivan display correction
+preserves the historical `person:hugues` index owner without asserting
+identity or adding an alias.
+
+D-21867 reviewed `Han Ery` at `default:27702` and `default:53619`,
+`Adept Faber` at `default:33273`, and `Adept Ignas` at
+`default:30681`, `default:34679`, `default:36563`, and `default:44006`.
+`Adept Ignas` is a source-local reference to the already indexed Nuala Ignas;
+all Korean name forms align, so no translation or index change was needed. See
+`work/zh_cn/audit/named-scope-review-D21867-20261020.md`.
+
+A heuristic screen of the isolated labels `Acae`, `Barr`, `Cara`, `Deen`,
+`Imar`, `Sola`, `Tava`, and `Tris` found no clear content error in the
+aligned locales. Several have no context beyond a standalone label; do not
+infer identities or repeat this exact shortlist without new evidence.
+
 ## Release Snapshot (2026-10-17)
 
 The user requested a tagged official release before further proper-name work.
@@ -8,13 +812,12 @@ from the verified D-21569 CSVs; tag:
 `KingdomsOfAmalur_Korean_zh_cn_20261017193017`.
 Build/round-trip/ZIP checks passed; no new in-game or Windows execution test.
 Release record: `work/zh_cn/audit/release-20261017.md`.
-Exhaustive proper-name discovery remains incomplete but is closed as an active
-workstream; do not resume at D-21852 unless the user explicitly reopens it.
-The checkpoint below is historical reference, not a queue. Remaining
-translation review is limited to errors found during gameplay (with limited
-coverage) and heuristic searches for candidate translation errors. No
-translation edits were made during packaging; later working edits are not in
-that ZIP.
+Exhaustive proper-name discovery remains incomplete. The user resumed bounded
+candidate review on 2026-10-19 and ended heuristic checks at D-22000 on
+2026-10-20. Do not resume completed sequential/exhaustive scans or heuristic
+checks unless the user explicitly asks.
+Translation work remains considered complete. Later edits are included in
+the release recorded in `work/zh_cn/audit/release-20261020.md`.
 The worktree contains extensive uncommitted review artifacts and CSV edits;
 preserve them and do not reset, clean, or overwrite them.
 
@@ -34,35 +837,36 @@ proper-name discovery or residual validation.
 <!-- current-proper-name-batch:start -->
 ## Latest Verified Proper-Name Batch
 
-Latest verified proper-name batch: D-21851 (2026-10-19).
-Reviewed 8 distinct resource/ID/variant keys: {"not-an-issue"=>6, "accepted"=>2}.
-Groups: {"person:hugues"=>8}. Last reviewed key: default:39675: / person:hugues.
-Next batch: none. Exhaustive proper-name batches and residual checks are closed; do not resume at D-21852.
-Indexed matches: 48476; accepted=32641, excluded=3217, not-an-issue=12507, uncertain=111.
+Latest proper-name check: D-22000 (2026-10-20).
+The consolidated D-21958-D-22000 screen compared 43 short/full-name pairs;
+all component spellings matched, with no translation edits.
+Heuristic proper-name checks are stopped at the user's request. Resume only
+if explicitly asked.
+Indexed matches: 48484; accepted=32657, excluded=3217, not-an-issue=12499, uncertain=111.
 Remaining unreviewed indexed matches: 0, in 0 distinct CSV row keys.
 Reviewed unresolved indexed holds: 111, in 106 distinct CSV row keys.
-Revisit a reviewed hold only if gameplay or heuristic review provides clear new evidence; do not systematically pursue remaining holds.
+Keep reviewed holds closed unless new, specific evidence appears.
 These are focused entity/row index states, not global translation totals.
 Sequential default review through ID 65134 remains completed and is not recounted.
 Machine-generated proper-name candidate list: 305 terms; registered-reviewed=305, heuristic-not-reviewed=0. This list is not exhaustive; it does not establish an overall completion percentage.
-Overall proper-name discovery/residual validation remains incomplete by scope; this is not a task to resume or a claim of completion.
+Full proper-name discovery/residual validation remains incomplete; this does not block the user's translation-complete status.
 Active CSV SHA-256:
 - affix: `9dbee978d73148eeb547c2a01a58e3d8168a519824382d339179c55770492b33`.
-- base: `afb24dd6ca7a252173af67e593761ab622e6d615a129d97318854721b300db0c`.
-- default: `5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f`.
-Last batch pre-edit backups and byte validation:
-- default: 2 cells; pre `b7579da53067c7b14f06759a734a68dbed3ea9004c2e76576ce5893ad1c17e46`; post `5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21851/locatexts_zh_cn.koalocatext_default.csv`.
-default: PASS 2 cells; 65135 ordered rows; masked non-target bytes + inverse equal backup; SHA-256 5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f
+- base: `57000ac4220bc261b090585847fdae7c9f80e9e7fd680e6be169f02d18de4ed6`.
+- default: `0a0c1737e59da72651429c4667579292d9e29195c0997be803511ee9644f7ef8`.
+Last edit: 1 default cell; pre `3ed13df73e51e18f3b2364a9a7eb8c1673a741588a03c250e351a7263969a17c`; post `0a0c1737e59da72651429c4667579292d9e29195c0997be803511ee9644f7ef8`; backup `/private/tmp/ko-translate-backups/20261020/before-proper-name-D21893/locatexts_zh_cn.koalocatext_default.csv`. Byte-preserving editor and independent verifier passed.
+Occurrence index: 48484 rows; SHA-256 `dab14c16869fe2677f9510e60ad9ab435b012332edfcdd1c5811bb9f2c116420`; statuses and evidence unchanged.
+The temporary D-21877 aligned inventory is stale at `default:49092`; refresh before inventory-driven screening. No full residual or format audit was run.
 Last actual CSV-edit backups (retained across no-edit batches):
 - affix: 6 cells; pre `d626613abec04cf818602ed9c627490a9668a65783e9619e50e84fb97bdfc2dd`; post `9dbee978d73148eeb547c2a01a58e3d8168a519824382d339179c55770492b33`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21835/locatexts_zh_cn.koalocatext_affix.csv`.
-- base: 4 cells; pre `50c11da1f94bb6bc91012d7c411267e8b57857f25e1cd6c0c862a305f210ede0`; post `afb24dd6ca7a252173af67e593761ab622e6d615a129d97318854721b300db0c`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21849/locatexts_zh_cn.koalocatext_base.csv`.
-- default: 2 cells; pre `b7579da53067c7b14f06759a734a68dbed3ea9004c2e76576ce5893ad1c17e46`; post `5e63f4db3b3d79b013778336bb07ade68734354c909af2cc7885221c3d625a9f`; backup `/private/tmp/ko-translate-backups/20261019/before-proper-name-D21851/locatexts_zh_cn.koalocatext_default.csv`.
-Aligned inventory: 73430 rows; SHA-256 `99b58ffd73eb15324c72cc1edec49c5dc6efb84fb4d251729aea66eeab2eb6f7`.
-Occurrence index: 48476 rows; SHA-256 `0064432a69341df0d07084c8e46bf4e76503fc7b6346e6462caa7ed1a3ddaff5`.
-Proper-name glossary: 2348 entries; SHA-256 `c9a2eb5f07b8ae6128cd174a2707c766c4ff4b2f18afa5cbcd15b6dba8a0e387`.
-Report: `work/zh_cn/audit/named-scope-review-D21851-20261019.md`.
-Addendum: `work/zh_cn/audit/named-scope-edit-addendum-D21851-20261019.md`.
-Exact source comparison manifest: `work/zh_cn/audit/proper-name-edits-D21851.tsv`.
+- base: 1 cells; pre `244dec237c439aae31f75ae76eb3486c2944e49d2fae80c1b5928fd189a2fc94`; post `57000ac4220bc261b090585847fdae7c9f80e9e7fd680e6be169f02d18de4ed6`; backup `/private/tmp/ko-translate-backups/20261020/before-proper-name-D21866/locatexts_zh_cn.koalocatext_base.csv`.
+- default: 1 cell; pre `3ed13df73e51e18f3b2364a9a7eb8c1673a741588a03c250e351a7263969a17c`; post `0a0c1737e59da72651429c4667579292d9e29195c0997be803511ee9644f7ef8`; backup `/private/tmp/ko-translate-backups/20261020/before-proper-name-D21893/locatexts_zh_cn.koalocatext_default.csv`.
+Aligned inventory: 73430 rows; SHA-256 `48c33087f07b1e9c39e093cac822bfc8def33cf0ea2f37102f58c092a73fff54` (stale at `default:49092`).
+Occurrence index: 48484 rows; SHA-256 `dab14c16869fe2677f9510e60ad9ab435b012332edfcdd1c5811bb9f2c116420`.
+Proper-name glossary: 2350 entries; SHA-256 `f2fa585de680c72d8f9e5478e543977c730adcb5b864fc75c92388e976d701b1`.
+Report: `work/zh_cn/audit/named-scope-review-D21881-20261020.md`.
+Addendum: `work/zh_cn/audit/named-scope-edit-addendum-D21881-20261020.md`.
+Exact source comparison manifest: `work/zh_cn/audit/proper-name-edits-D21881.tsv`.
 <!-- current-proper-name-batch:end -->
 
 D-21811 registered `person:montainel` as `몬테이넬(Montainel)`, reviewed all
@@ -1792,11 +2596,14 @@ translation priorities; do not restart sequential proper-name discovery.
 ## Current Work State
 
 The latest verified block at the top preserves the last proper-name batch,
-hashes, and backups as historical reference. Exhaustive proper-name discovery
-is incomplete but closed as an active workstream. Remaining translation work
-is limited to errors found during gameplay (with limited coverage) and
-heuristic searches for candidate translation errors. The dated entries below
-are historical slices, not alternate resume points.
+hashes, and backups as historical reference. Proper-name discovery remains
+incomplete; the user resumed only bounded candidate review in D-21852. Do not
+start sequential/exhaustive scans or automatically continue to another batch.
+Translation work is considered complete. Future work is limited to occasional,
+small proper-name checks when time permits, using specific candidates found
+during gameplay or heuristic searches. This is optional maintenance, not a
+remaining translation queue.
+The dated entries below are historical slices, not alternate resume points.
 
 - **Historical D-21283 proper-name discovery (2026-10-16):** Reviewed 20 newly
   discovered, previously unindexed `Delfric` surname-only row keys under the

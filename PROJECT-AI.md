@@ -57,15 +57,13 @@ Use the following evidence order:
 
 Reuse terminology from the official Korean manual. Do not silently resolve
 materially ambiguous English, conflicting references, unclear speaker
-context, or uncertain names. Exhaustive proper-name discovery is closed as
-an active workstream; do not resume sequential proper-name batches or
-residual audits unless the user explicitly reopens them. Use the existing
-glossary and audit records as partial references when correcting a
-proper-name error encountered during the remaining work. The remaining
-translation review is limited to errors
-found during gameplay and heuristic searches for candidate translation
-errors; fix clear errors and record unresolved items in
-`work/zh_cn/audit/` without turning them into an exhaustive name queue.
+context, or uncertain names. The user considers translation work complete,
+and ended heuristic proper-name checks at D-22000 on 2026-10-20. Do not
+resume those checks or start another batch unless the user explicitly asks.
+If resumed, use only bounded candidates and existing glossary/audit records.
+Fix clear errors and preserve the evidence in `work/zh_cn/audit/`. Do not
+claim exhaustive discovery or in-game validation, or infer unsupported
+identities or global aliases.
 
 ## Editing Invariants
 

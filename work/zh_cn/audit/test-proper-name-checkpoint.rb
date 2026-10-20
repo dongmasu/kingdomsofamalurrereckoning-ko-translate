@@ -67,7 +67,7 @@ class ProperNameCheckpointTest < Minitest::Test
     assert_includes text, @default
     assert_includes text, 'backup `/tmp/base-new`'
     refute_includes text, '/tmp/base-old'
-    assert_includes text, 'continue source discovery/residual checks; no unreviewed indexed keys'
+    assert_includes text, 'continue bounded proper-name checks until the user explicitly asks to stop'
     refute_includes text, 'first reviewed held'
     assert_includes text, "Occurrence index: 2 rows; SHA-256 `#{Digest::SHA256.file(M::INDEX).hexdigest}`"
     assert_includes text, 'Proper-name glossary: 1 entries; SHA-256'

@@ -1,11 +1,12 @@
 # Distribution Readiness Checklist
 
-Release snapshot as of 2026-10-19: the official ZIP includes accepted
-translation edits through D-21851. Build, round-trip, installer regression,
-audit regression, and ZIP integrity checks passed. The asset link is updated
-in `README.md`; see `work/zh_cn/audit/release-20261019.md` for the exact tag,
-hashes, and validation scope. Exhaustive proper-name discovery remains
-incomplete but is closed as an active workstream at the user's direction.
+Release snapshot as of 2026-10-20: the official ZIP includes accepted
+translation edits through D-21931 under tag
+`KingdomsOfAmalur_Korean_zh_cn_20261020142027`. Build, round-trip, installer
+regression, audit regression, and ZIP integrity checks passed. The asset link
+is updated in `README.md`; see `work/zh_cn/audit/release-20261020.md` for the
+exact checksum and validation scope. Heuristic proper-name checks ended at
+D-22000 at the user's direction; exhaustive discovery remains incomplete.
 The sequential default review is complete through ID 65134; all 140
 zh_cn-specific affix variants also have recorded dispositions. The user
 confirmed Korean rendering in the zh_cn setup without

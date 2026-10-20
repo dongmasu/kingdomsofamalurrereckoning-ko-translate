@@ -145,7 +145,7 @@ module ReviewedNameBatches
       .transform_values(&:length)
     next_row = unreviewed.min_by { |row| [row['entity_key'], RESOURCES.index(row['resource']), row['ID_Linha'].to_i, row['Tipo_Variante'].to_s] }
     next_text = next_row ? "first unreviewed indexed key: #{next_row['entity_key']} / #{key(next_row).join(':')}" :
-      'continue source discovery/residual checks; no unreviewed indexed keys'
+      'continue bounded proper-name checks until the user explicitly asks to stop'
     remaining_rows = unresolved.map { |row| key(row) }.uniq.length
     groups = reviews.flat_map { |r| r['entity_key'].split('|') }
       .group_by { |entity| entity }.transform_values(&:length)
@@ -171,15 +171,15 @@ module ReviewedNameBatches
       Latest verified proper-name batch: D-#{d} (#{RUN_DATE_ISO}).
       Reviewed #{reviews.length} distinct resource/ID/variant keys: #{statuses.inspect}.
       Groups: #{groups.inspect}. Last reviewed key: #{key(last).join(':')} / #{last['entity_key']}.
-      Next batch: D-#{d + 1}; #{next_text}.
+      Follow-up: #{next_text}.
       Indexed matches: #{index.length}; #{counts_text}.
       Remaining unreviewed indexed matches: #{unreviewed.length}, in #{unreviewed.map { |row| key(row) }.uniq.length} distinct CSV row keys.
       Reviewed unresolved indexed holds: #{held.length}, in #{held.map { |row| key(row) }.uniq.length} distinct CSV row keys.
-      If only reviewed holds remain, continue discovery/residual checks; do not reopen them without new evidence.
+      Keep reviewed holds closed unless new, specific evidence appears.
       These are focused entity/row index states, not global translation totals.
       Sequential default review through ID 65134 remains completed and is not recounted.
       Machine-generated proper-name candidate list: #{discovery_candidates.length} terms; registered-reviewed=#{candidate_counts.fetch('registered-reviewed', 0)}, heuristic-not-reviewed=#{candidate_counts.fetch('heuristic-not-reviewed', 0)}. This list is not exhaustive; it does not establish an overall completion percentage.
-      Full proper-name discovery/residual validation remains incomplete; do not claim overall completion.
+      Full proper-name discovery/residual validation remains incomplete; this does not block the user's translation-complete status.
       Active CSV SHA-256:
       #{hash_lines}
       Last batch pre-edit backups and byte validation:
