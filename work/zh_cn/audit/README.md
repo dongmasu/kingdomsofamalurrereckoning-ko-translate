@@ -23,9 +23,11 @@ requested.
 
 ## Release Language Policy
 
-Write each official GitHub Release title as
-`한글 패치 / Korean Patch - YYYY-MM-DD` and write its body in Korean. Match the
-established format used by the 2026-10-17, 2026-10-19, and 2026-10-20 releases:
+Use exactly `한글 패치 - YYYY-MM-DD` for each new official GitHub Release
+title, and write its body in Korean. Do not alternate between Korean-only,
+English-only, or bilingual title forms. Previously published release titles
+remain unchanged. Match the established body format used by the 2026-10-17,
+2026-10-19, and 2026-10-20 releases:
 
 1. `## 변경 사항`: concise bullets for the translation scope, superseded
    release, and notable user-visible changes.
