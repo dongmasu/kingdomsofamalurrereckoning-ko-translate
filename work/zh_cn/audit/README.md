@@ -9,6 +9,10 @@ explicitly asks. Do not claim exhaustive proper-name or in-game validation.
 On 2026-10-24, the user separately requested a bounded manual review of 199
 `_default` voice/naturalness candidates. That review is complete (199/199);
 see `full-voice-20261024/manual-review.json` and `release-20261024.md`.
+The full-corpus scan and its per-batch coverage and independent AI triage are
+recorded in `speaker-voice-consistency-scan-20261024.md`,
+`full-voice-audit-20261024.py`, and `full-voice-20261024/`. The approved
+manual-review log is authoritative for the released edits.
 This does not resume heuristic proper-name discovery or establish exhaustive
 in-game validation. Historical batch instructions below do not override this
 policy.
