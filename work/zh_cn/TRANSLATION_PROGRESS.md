@@ -1,5 +1,16 @@
 # Translation Progress
 
+## Terminology Exception: Alfar Lineages (2026-10-25)
+
+By user approval, retain `Alfar` as `알파르` and render its two derived races
+as `Dokkalfar = 도크알파르` and `Ljosalfar = 료스알파르`. In-game spoken
+pronunciation and the Japanese locale preserve their audible relationship;
+the Chinese `暗精灵` / `光精灵` forms corroborate the dark/light lineage
+distinction (`default:59389`). This deliberately overrides the older Korean
+manual spellings `도크알브` and `료스알브` for these two terms only. Updated
+active `base` and `default` CSVs and the README glossary; historical audit
+records and reference files under `src/` remain unchanged.
+
 ## Current Status (2026-10-20)
 
 Translation work is considered complete at the user's direction.

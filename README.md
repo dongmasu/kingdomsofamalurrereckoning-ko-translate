@@ -3,7 +3,7 @@
 ## 한국어
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261024181419/KingdomsOfAmalur_Korean_zh_cn_20261024181419.zip)
+- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261025200420/KingdomsOfAmalur_Korean_zh_cn_20261025200420.zip)
 
 ### 작업 배경과 감사
 
@@ -83,11 +83,13 @@ CSV의 `Tipo_Variante`는 언패커가 각 문자열 앞의 1바이트를 2자�
 | Lorestone | 로어스톤 |
 | Ward | 워드 |
 | Almain / Varani | 알마인 / 바라니 |
-| Ljosalfar / Dokkalfar | 료스알브 / 도크알브 |
+| Ljosalfar / Dokkalfar | 료스알파르 / 도크알파르 |
 | Might / Finesse / Sorcery | 힘 / 재주 / 마법 |
 | Detect Hidden / Mercantile / Sagecraft | 숨겨진 물건 찾기 / 상술 / 마법물품 제작 |
 
 위 표기는 프로젝트의 기준 용어다. 번역 대상의 문맥에 맞춰 활용하되, 같은 개념에는 매뉴얼의 한국어 표기를 일관되게 사용한다. 매뉴얼에 없는 용어는 이 기준 용어와 세계관 맥락에 맞춰 정한다.
+
+예외: `Alfar`는 `알파르`로 표기한다. 게임 내 발음과 계통 이름의 소리 연결을 살리기 위해 `Dokkalfar`는 `도크알파르`, `Ljosalfar`는 `료스알파르`로 표기한다. 이 두 파생 종족명에 한해서는 오래된 매뉴얼 표기 `도크알브`와 `료스알브`를 대체한다.
 
 나무위키 문서는 인물·세력·사건의 배경 맥락을 파악하는 보조 자료로 활용한다. 커뮤니티 편집 문서이므로 번역의 사실 근거나 공식 용어표로 단정하지 않으며, 번역은 영어 원문을 기준으로 하고 공식 매뉴얼과 게임 내 근거를 우선한다.
 
@@ -141,7 +143,7 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 ## English
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261021065044/KingdomsOfAmalur_Korean_zh_cn_20261021065044.zip)
+- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261025200420/KingdomsOfAmalur_Korean_zh_cn_20261025200420.zip)
 
 ### Project Background and Acknowledgements
 
@@ -223,11 +225,13 @@ Its central premise is that the world's inhabitants are believed to have fixed d
 | Lorestone | 로어스톤 |
 | Ward | 워드 |
 | Almain / Varani | 알마인 / 바라니 |
-| Ljosalfar / Dokkalfar | 료스알브 / 도크알브 |
+| Ljosalfar / Dokkalfar | 료스알파르 / 도크알파르 |
 | Might / Finesse / Sorcery | 힘 / 재주 / 마법 |
 | Detect Hidden / Mercantile / Sagecraft | 숨겨진 물건 찾기 / 상술 / 마법물품 제작 |
 
 These are the project's standard Korean terms. Apply them consistently to the corresponding concepts in Re-Reckoning; for terms not covered by the manual, choose wording consistent with this glossary and the game's world context.
+
+Exception: keep `Alfar` as `알파르`, but use `도크알파르` for `Dokkalfar` and `료스알파르` for `Ljosalfar` to preserve their audible connection to the Alfar name. These two derived race names intentionally override the older manual spellings `도크알브` and `료스알브`.
 
 The Namu Wiki article may help clarify character, faction, and event context. It is community-maintained and is not an authoritative translation source or glossary; use the English source and in-game evidence for translation decisions, with the official Korean manual taking precedence for established Korean terms.
 
