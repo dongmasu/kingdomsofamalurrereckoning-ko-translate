@@ -1,0 +1,60 @@
+{
+  "version": "ja-register-v1",
+  "model_alias": "standard",
+  "snapshots": {
+    "ko": {
+      "path": "work/zh_cn/locatexts_zh_cn.koalocatext_default.csv",
+      "sha256": "c56aa50c90de09753e6f4de33f822487af05b7ed98f138a369fbdcee64d9e229",
+      "rows": 65135
+    },
+    "en": {
+      "path": "src/csv/en_us/locatexts_en_us.koalocatext_default.csv",
+      "sha256": "9984e3e0f25218dda43dbb8b054d43cfac5d0627ab9f8784d0ae0f1d70e2ba7a",
+      "rows": 65135
+    },
+    "ja": {
+      "path": "src/csv/ja_jp/locatexts_ja_jp.koalocatext_default.csv",
+      "sha256": "ab652d5a3d24e3894e06e57dee024f7dd27b56dc176e587d4a50cb260d436714",
+      "rows": 65135
+    },
+    "zh": {
+      "path": "src/csv/zh_cn/locatexts_zh_cn.koalocatext_default.csv",
+      "sha256": "b8381db941f87c909a1159da9976a5c2c7b2df5fbf3c789479f5c836a2fe2f3b",
+      "rows": 65135
+    }
+  },
+  "total_rows": 65135,
+  "reviewed_rows": 65135,
+  "missing_rows": [],
+  "complete": true,
+  "kind_counts": {
+    "N": 23272,
+    "D": 40282,
+    "A": 544,
+    "Q": 1037
+  },
+  "ko_register_counts": {
+    "U": 18022,
+    "L": 5027,
+    "C": 36656,
+    "P": 1205,
+    "F": 2082,
+    "M": 1120,
+    "G": 610,
+    "H": 413
+  },
+  "findings": 1643,
+  "explicit_self_identities": 0,
+  "batches": 362,
+  "usage": {
+    "completion_tokens": 1073558,
+    "prompt_tokens": 7091651,
+    "total_tokens": 8165209
+  },
+  "limits": [
+    "AI per-row language review is not human or in-game validation.",
+    "Local findings are candidates pending history/context adjudication.",
+    "Classification does not prove a cross-ID speaker identity.",
+    "No localization CSV or immutable reference file was modified."
+  ]
+}
