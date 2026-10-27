@@ -24,6 +24,47 @@ function Get-FileCount {
     return @(Get-ChildItem -LiteralPath $Directory -File -Recurse -Force).Count
 }
 
+function Test-GameInstall {
+    param([string]$Directory)
+
+    if (-not (Test-Path -LiteralPath $Directory -PathType Container)) {
+        return $false
+    }
+
+    foreach ($RelativePath in @(
+        "data\patch_0.pak",
+        "modding\pakfileunpacker.exe",
+        "modding\pakfilebuilder.exe"
+    )) {
+        if (-not (Test-Path -LiteralPath (Join-Path $Directory $RelativePath) -PathType Leaf)) {
+            return $false
+        }
+    }
+
+    return $true
+}
+
+function Find-GameInstall {
+    param([string]$SteamDirectory)
+
+    $Candidates = @(
+        $SteamDirectory,
+        "C:\Program Files (x86)\GOG Galaxy\Games\Kingdoms of Amalur Re-Reckoning",
+        "C:\GOG Games\Kingdoms of Amalur Re-Reckoning"
+    )
+    if (-not [string]::IsNullOrWhiteSpace($env:USERPROFILE)) {
+        $Candidates += Join-Path $env:USERPROFILE "GOG Games\Kingdoms of Amalur Re-Reckoning"
+    }
+
+    foreach ($Candidate in $Candidates) {
+        if (Test-GameInstall $Candidate) {
+            return $Candidate
+        }
+    }
+
+    return $null
+}
+
 function Wait-ForCompletion {
     param([string]$Message = "Press any key to close this window...")
 
@@ -33,7 +74,7 @@ function Wait-ForCompletion {
         $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
     }
     catch {
-        $null = [Console]::ReadLine()
+        $null = [Console]::ReadKey($true)
     }
 }
 
@@ -52,9 +93,16 @@ $StageDirectory = $null
 try {
 Write-Host "Korean zh_cn patch."
 Write-Host "Supported game version: Version: $ExpectedVersion."
-$EnteredDirectory = Read-Host "Game folder [$GameDirectory] (press Enter to use default)"
-if (-not [string]::IsNullOrWhiteSpace($EnteredDirectory)) {
-    $GameDirectory = $EnteredDirectory.Trim().Trim('"')
+$DetectedGameDirectory = Find-GameInstall $GameDirectory
+if ($DetectedGameDirectory) {
+    $GameDirectory = $DetectedGameDirectory
+    Write-Host "Game installation found. Continuing with: $GameDirectory"
+}
+else {
+    $EnteredDirectory = Read-Host "Game folder [$GameDirectory] (press Enter to use default)"
+    if (-not [string]::IsNullOrWhiteSpace($EnteredDirectory)) {
+        $GameDirectory = $EnteredDirectory.Trim().Trim('"')
+    }
 }
 
 $GameDirectory = [System.IO.Path]::GetFullPath($GameDirectory)

@@ -24,10 +24,11 @@ Kingdoms of Amalur: Re-Reckoning Korean zh_cn Patch and Installation Guide
 1. ZIP 전체를 Windows PC의 한 폴더에 압축 해제합니다. `README.txt`,
    `RunKoreanPatch.bat`, `KoreanPatch.ps1`, `SHA256SUMS.txt`, `payload` 폴더가 함께 있어야 합니다.
 2. `RunKoreanPatch.bat`을 더블클릭합니다. `.ps1` 파일을 직접 더블클릭하지 마세요.
-   관리자 권한 요청이 표시되면 먼저 승인합니다. 승인 후 게임 폴더를 한 번 묻습니다.
-3. 기본 게임 폴더를 사용하려면 경로 입력을 묻는 화면에서 Enter를 누릅니다.
-   기본 경로는 `C:\Program Files (x86)\Steam\steamapps\common\Kingdoms of Amalur Re-Reckoning`입니다.
-   다른 위치에 설치했다면 게임 폴더 경로를 입력합니다.
+   관리자 권한 요청이 표시되면 먼저 승인합니다.
+3. 스크립트가 Steam 기본 위치를 먼저 확인하고, 없으면 GOG 기본 위치를 확인합니다.
+   유효한 게임 폴더를 찾으면 경로를 묻지 않고 진행합니다. 둘 다 찾지 못한 경우에만
+   게임 폴더 경로를 입력합니다. Steam 기본 경로는
+   `C:\Program Files (x86)\Steam\steamapps\common\Kingdoms of Amalur Re-Reckoning`입니다.
 4. 게임 폴더를 확인하면 나머지 절차는 자동으로 진행됩니다. 원본 PAK을 검증하고
    임시 폴더에서 새 PAK을 만든 뒤 백업 및 교체합니다.
 5. 적용 완료 후 Steam 게임 속성에서 게임 언어를 Chinese Simplified로 설정합니다.
@@ -61,10 +62,11 @@ override `fontlist_common.koafontlist` or include
 Install:
 1. Extract the entire ZIP to a folder.
 2. Double-click `RunKoreanPatch.bat`. Do not double-click the `.ps1` file.
-   Approve the administrator prompt first if shown;
-   the elevated script then asks for the game folder once.
-3. Press Enter to use the default Steam game folder, or enter another folder.
-   Default: `C:\Program Files (x86)\Steam\steamapps\common\Kingdoms of Amalur Re-Reckoning`
+   Approve the administrator prompt first if shown.
+3. The installer checks the default Steam location first, then common GOG
+   locations. It proceeds without asking if it finds a valid game folder.
+   Only if neither is found, enter the game folder.
+   Steam default: `C:\Program Files (x86)\Steam\steamapps\common\Kingdoms of Amalur Re-Reckoning`
 4. Once the game folder is confirmed, the script automatically verifies the
    package and game files, rebuilds and verifies the PAK, backs up the original,
    and installs the replacement.

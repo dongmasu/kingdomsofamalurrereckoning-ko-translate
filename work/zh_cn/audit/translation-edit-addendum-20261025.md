@@ -1399,6 +1399,18 @@ The next twelve candidates were checked across Korean, English, Japanese, and Ch
 
 All twelve edits used exact, ID-scoped replacements through `tools/replace_text_preserve_eol.py`; only the active Korean `default` CSV was changed.
 
+## Approved dialogue edit (2026-10-26)
+
+- Resource: `default`
+- ID: `22651`
+- Before: `부름받은 자(Beckoned)라고?! 우리 볼일이라도 있나?`
+- After: `부름받은 자(Beckoned)라고?! 우리한테 무슨 볼일이지?`
+- English: `Beckoned?! Do we have some business?`
+- Japanese: `招かれし者！？ 何かご用かな？`
+- Chinese: `天选者？！我们有事要谈吗？`
+- Rationale: Clarify that the speaker is asking what business the Beckoned has with them. This keeps the surprised recognition and renders the question naturally in Korean.
+- Scope: Only the active Korean `default` text cell was changed. Reference CSVs under `src/` were not edited.
+
 ## Affix 102 label revision (2026-10-26)
 
 - Resource: `affix`
@@ -1406,6 +1418,25 @@ All twelve edits used exact, ID-scoped replacements through `tools/replace_text_
 - Before: `받은`
 - After: `받기:`
 - Rationale: English `Received` is displayed as a prefix to the received item name. The existing Korean affix convention uses colon labels for action fragments (`줍기:`, `읽기:`, `파괴하기:`); `받기: 반지` avoids the awkward attributive phrase `받은 반지` and matches that pattern.
+- Scope: Updated only the six active Korean variant cells; source CSVs and variant codes were preserved.
+
+## Affix 102 label refinement (2026-10-26)
+
+- Resource: `affix`
+- ID: `102`, variants `11`, `12`, `14`, `21`, `22`, `24`
+- Before: `받기:`
+- After: `받음:`
+- Rationale: The user preferred the completed-state label `받음:` over the action-form `받기:` for the `Received` prefix.
+- Scope: Updated only the six active Korean variant cells; source CSVs and variant codes were preserved.
+
+## Affix 575 label revision (2026-10-26)
+
+- Resource: `affix`
+- ID: `575`, variants `11`, `12`, `14`, `21`, `22`, `24`
+- Before: `제거된`
+- After: `제거됨:`
+- English: `Removed`; Japanese: `除去した`; Chinese: `已移除`.
+- Rationale: All three sources describe a completed removal, so the status label `제거됨:` is clearer than the attributive `제거된` and more precise than the action-like `제거:`. The colon follows the established Korean affix label format.
 - Scope: Updated only the six active Korean variant cells; source CSVs and variant codes were preserved.
 
 ## Literal quote cleanup (2026-10-26)
@@ -1548,3 +1579,125 @@ The next twelve candidates were compared across the four language rows. Japanese
 - ID `61728`: Preserved the speaker's stammer while changing self-reference and both explanations to polite speech (`제가／장소예요／있어요`), matching Japanese's polite register throughout.
 
 All twelve edits used exact, ID-scoped replacements through `tools/replace_text_preserve_eol.py`; only the active Korean `default` CSV was changed.
+
+## Approved dialogue edit (2026-10-26)
+
+- Resource: `default`
+- ID: `22132`
+- Before: `하수도조차도 번쩍이는 겉모습 아래에는 아말러(Amalur)의 다른 어떤 도시도 따라올 수 없는 공학 기술이 숨어 있다.`
+- After: `이 화려한 도시 아래의 하수도조차, 아말러(Amalur)의 다른 어떤 도시도 따라올 수 없는 공학 기술로 만들어졌지.`
+- English: `Even in the sewers, under its gleaming exterior, lies a feat of engineering unrivaled by other cities in Amalur.`
+- Japanese: `下水道でさえ、輝く外装の下にはアマラーの他の都市では見られない、高度な技術が使われているのだ`
+- Chinese: `纵是在下水道里，在它光鲜的外表之下，也是工程学的杰作，阿玛拉全境没有一城可以比肩。`
+- Rationale: This follows ID `24137`, where Pagus praises the city's splendors. Clarify that the gleaming exterior belongs to the city, not the sewers, and render the unrivaled engineering as a natural continuation of that praise.
+- Scope: Only the active Korean `default` text cell was changed. Reference CSVs under `src/` were not edited.
+
+## Sewer terminology and travel-label consistency (2026-10-26)
+
+- Resource: `default`
+- Sewer terminology:
+  - ID `1034`: `우리 하수구에 쥐가 있다는 말을 처음 들었을 때, 성전을 선포하는 것 같더군.` -> `우리 하수도에 쥐가 있다는 말을 처음 들었을 때, 성전을 선포하는 것 같더군.`
+  - ID `63808`: `하수구 부패` -> `하수도 부패`
+  - English uses `sewers` for ID `1034` and `Sewer` for ID `63808`; both refer to the sewer system, so use `하수도`.
+  - IDs `4696`, `50424`, and `52056`: Rendered `gutter trash` as `뒷골목 쓰레기`, matching the same English insult at ID `63537`. These refer to people, not the sewer system.
+- Travel labels:
+  - ID `775` (East): `하수구 동쪽으로 이동` -> `하수도로 이동 - 동쪽`
+  - ID `38531` (West): Already matched the final format, `하수도로 이동 - 서쪽`; retained unchanged.
+  - ID `51747` (North): `북쪽 하수도로 이동` -> `하수도로 이동 - 북쪽`
+  - ID `63433` (South): `남쪽 하수도로 이동` -> `하수도로 이동 - 남쪽`
+  - English uses `Travel to Sewers - <direction>` for all four labels. The Korean now consistently places the destination before the hyphen and direction after it.
+- Scope: Only the active Korean `default` text cells listed above were changed. Reference CSVs under `src/` were not edited.
+
+## Approved dialogue terminology edit (2026-10-26)
+
+- Resource: `default`
+- ID: `802`
+- Before: `이디라(Idylla) 철학 학교의 학장 오네시모스(Onesimos)가 학자들과 토론해 달라고 부탁했다. 다음 상대는 핀네(Phinne)라는 콜로사이족(Kollossae)이다. 그녀를 찾아 도전을 받아들여야 한다.`
+- After: `이디라(Idylla) 철학 학교의 학장 오네시모스(Onesimos)가 학자들과 토론해 달라고 부탁했다. 다음 상대는 핀네(Phinne)라는 콜로사이인(Kollossae)이다. 그녀를 찾아 도전을 받아들여야 한다.`
+- English: `My next opponent is a Kollossae named Phinne.`
+- Japanese: `次の相手はフィンネというカロッサエだ。`
+- Chinese: `我的下一位对手是名叫菲尼的克勒塞人。`
+- Rationale: Phinne is an individual Kollossae; use `콜로사이인`, matching the other named Kollossae opponents at IDs `49157`, `61974`, and `65100`.
+- Scope: Only the active Korean `default` text cell was changed. Reference CSVs under `src/` were not edited.
+
+## Approved dialogue edit (2026-10-26)
+
+- Resource: `default`
+- ID: `7437`
+- Before: `가장 어두운 시절이면 신들이 부름받은 자(Beckoned)를 보내리라는 건 예전부터 알고 있었어. 이제 네가 왔으니... 걱정해야 하는 걸까?`
+- After: `우리가 가장 암울한 시절을 맞으면 신들이 부름받은 자(Beckoned)를 보내리라는 건 늘 알고 있었어. 이제 네가 왔으니... 걱정해야 하는 걸까?`
+- English: `We have always known that in our darkest times, the gods would send the Beckoned. Now that you are here... should I be worried?`
+- Japanese: `暗黒の時代には神々が招かれし者を使わすことは、ずっと知っていた。実際に来たということは... 案じるべきなのかな？`
+- Chinese: `在最黑暗的年月，我们一直都坚信着，诸神会送下这位天选者。如今你来了……我该心怀担忧吗？`
+- Rationale: The English and Japanese both express that the speaker has long known the gods would send the Beckoned in the darkest times. The revision makes that shared, enduring expectation natural in Korean while preserving the informal, uneasy question.
+- Scope: Only the active Korean `default` text cell was changed. Reference CSVs under `src/` were not edited.
+
+## Naros location-name review (2026-10-26)
+
+Reviewed all 11 active `default` rows containing an unpaired or abbreviated `나로스의 이빨` against English, Japanese, and Chinese. English often shortens the region to `the Teeth`; Japanese consistently uses `ナロスの牙`, and Chinese uses `纳罗斯之牙`. The Korean now pairs every full regional name in these rows with the official English name `Teeth of Naros`.
+
+- ID `4525`: Added the full English name to the warning about traveling to the Teeth. The warning's meaning already matched English, Japanese, and Chinese.
+- ID `14611`: Added the full English name to the reference to troubles in the Teeth. The existing contrast between a dead end for the speaker's people and another distraction from those troubles was retained.
+- ID `16764`: Replaced the incomplete `(Teeth)` with `(Teeth of Naros)` and supplied the missing English name at the later patrol reference. Checked all four dated diary entries against the three source languages; their meaning and terse diary style were retained.
+- ID `20231`: Revised the two locations to `나로스의 이빨(Teeth of Naros) 산봉우리` and `그 협곡`, preserving the contrast between the peaks and canyon found in all three source versions.
+- ID `31283`: Added the full name to the opening reference to the Trolls encountered in the Teeth. The researcher's account and later shortened reference to remaining in the Teeth were checked and retained.
+- ID `36766`: Added the full English name to the location of the Troll dens; the search direction was already accurate.
+- ID `37285`: Added the full English name to the comparison of local plants with those of the speaker's homeland; the comparison was already accurate.
+- ID `44105`: Added the full English name to the question about familiarity with the region; the question was already accurate.
+- ID `45273`: Added the full English name to the reference to living high above the Teeth. Japanese confirms the speaker's origin in the region; the complaint about sprites was retained.
+- ID `46857`: Added the full English name to the wilderness location of the pteryx roosts. The objective and meeting location were already accurate.
+- ID `50193`: Added the full English name to the opening reference to the wilds of the Teeth. Reviewed the lore passage against the three source versions; its account of Secandra, the Kollossae, and Idylla was retained.
+
+The active `base` row `249` was reviewed but left unchanged: its English source is the distinct singular name `Tooth of Naros`, not the regional title `Teeth of Naros`, and its existing English parenthetical is correct. Only the active Korean `default` rows listed above were edited; reference CSVs under `src/` were not changed.
+
+## Primal Terminology Revision (2026-10-26)
+
+The user approved `원시` as the Korean term for the game's Primal gameplay terminology, superseding the earlier `원초` choice. Japanese uses `原始魔法` in the explanatory passage; Chinese uses `原初魔法`. English describes Primal Magic as constituting and acting on elemental forces, not as the confirmed origin of all magic.
+
+- Updated 37 `base` rows whose English text contains the standalone word `Primal`, including equipment, `Primal Magic`, `Primal Rush`, and `Primal Evenroot`. `Primality` is a different word and was excluded.
+- Updated 48 matching `default` gameplay term spans: `Primal Magic`, `Primal Damage`, `Primal Sprite`, `Primal Champion`, `Primal Evenroot`, `Primal Duration`, and associated item/energy labels. The Korean label inside the `{*3...}` marker at `default:62612` was updated while the marker wrapper remained intact.
+- Retained contextual prose such as `primal force` and `primal embodiments`, plus the separately translated `Going Primal`. At `default:25241`, only the `Primal Magic` component changed to `원시 마법`; the unresolved `Forward` rendering remains `서문`.
+- Updated the active terminology definitions and progress record. Historical row-edit manifests were left as records of their original decisions; immutable reference data under `src/` was not changed.
+
+The working CSV edits used `tools/replace_text_preserve_eol.py` with exact-match counts checked before replacement. Post-edit checks confirmed matching reference row structure, preserved BOMs, and unchanged line endings: `base` 4,845 CRLF / 0 LF; `default` 71,885 CRLF / 199 LF. Four line-ending helper tests passed.
+
+## Proper-name pairing and translation review (2026-10-26)
+
+Reviewed the active Korean `base` and `default` rows mentioning Saina, Helius/Helios, Kandrian, the Cradle of Winter, and Fyragnos against the aligned English, Japanese, and Chinese rows. Added missing English pairings and corrected clear naming/wording inconsistencies without changing source files or row structure.
+
+- `base` IDs `1427` and `4250`: Added `(Kandrian Stone)` and `(Kandrian Goods)`.
+- Saina references: Added missing `(Saina)` pairings at `default` IDs `9432`, `18438`, `39255`, `40219`, `43042`, and `50448`. At `44092`, paired the title as `사이나의 비상(The Flight of Saina)` and the subtitle references as `사이나(Saina)` and `헬리오스(Helios)`.
+- Helius/Helios spelling: The narrative English rows use `Helius`, matching Japanese `ヘリウス` and the existing Korean `헬리우스(Helius)`; the English title at `44092` spells the name `Helios`, so its existing Korean `헬리오스` was retained and paired with that exact source spelling.
+- Kandrian references: Added missing pairings at `default` IDs `5194`, `5574`, `5743`, `5923`, `9402`, `9785`, `10295`, `10654`, `14867`, `15619`, `16116`, `19122`, `19387`, `22429`, `27779`, `34998`, `37547`, `37669`, `38873`, `39286`, `39312`, `40239`, `43454`, `43855`, `43947`, `44665`, `47847`, `48419`, `49355`, `50350`, `50775`, `50845`, and `59642`. Full personal names now pair as `인드레 칸드리안(Indre Kandrian)` or `인드레 칸드리안 경(Lord Indre Kandrian)`, and `더펠 칸드리안(Derfel Kandrian)`.
+- Kandrian terminology and wording: Standardized the reviewed `Kandrian Guard` references to `칸드리안 경비대(Kandrian Guard)`, including former member wording at `50845`; aligned `default:5923` with `base:4250` as `칸드리안 물품(Kandrian Goods)`; rendered `default:9402` as `칸드리안의 왕들(The Kings of Kandrian) - 칸드리안 왕들의 계보를 다룬 역사(The history of the line of Kandrian kings)`; and clarified the swim access label at `16116` as `칸드리안 만(Kandrian Cove) 수영 진입로`.
+- Cradle of Winter references: Added `(Cradle of Winter)` at `default` IDs `11299`, `25380`, `33802`, and `51345`; `23533` now carries the full English title, `The Cradle of Winter ‒ The arrival of the endless winter and a mad king.`
+- Fyragnos: Checked all active `base` and `default` occurrences. Existing full English pairings (`Fyragnos` and `Tomb of Fyragnos`) were complete, so no text changes were needed.
+
+English was used to verify meaning and exact source spellings; Japanese pronunciation and phrasing and Chinese wording were cross-checks. Translation corrections beyond pairing were limited to the Kandrian Guard terminology, the Kandrian Goods label, the Kandrian kings title, and the swim-access label described above. The edits made 2 replacements in `base` and 47 replacements across 45 `default` records. CSV BOMs, record structure, and existing line-ending distributions were preserved.
+
+## Explorer's Journal Part Labels (2026-10-26)
+
+Standardized the nine Nerotelos explorer's journal descriptions and the titles at the top of each journal entry to `제1부` through `제9부`.
+
+- Description IDs: `49126`, `54363`, `3391`, `30086`, `23748`, `25120`, `49549`, `53696`, and `28821`.
+- Journal heading IDs: `45806`, `3124`, `52042`, `28968`, `52790`, `31230`, `64712`, `35921`, and `57126`. This includes changing `기록 VII` at `64712` and `제IX항` at `57126` to the consistent part-label format.
+- English `Entry I` through `Entry IX` and Japanese `その1` through `その9` confirm the sequence. The Korean `제N부` format aligns the in-journal headings with the descriptions.
+- Scope: Only the listed text rows in the active Korean `default` CSV were changed. Reference CSVs under `src/` were not edited.
+
+## Default Punctuation Spacing (2026-10-26)
+
+Scanned the active Korean `default` CSV for periods or commas immediately followed by non-whitespace. After excluding numeric formats, English initials and variable syntax, quotation closers, and layout tokens, corrected 16 clear spacing omissions.
+
+- Added a space after a sentence-ending period before a cost variable at IDs `8590`, `12945`, `13848`, `16343`, `31551`, `31586`, `43960`, `54988`, `55021`, `56598`, `59074`, `60688`, and `60806`.
+- Added a space after a comma before `할람(Hallam)` at IDs `13731`, `33911`, and `61455`.
+- Scope: Only the listed active Korean `default` text cells were changed. Reference CSVs under `src/` were not edited.
+
+## Destiny Card Stats and Ability Descriptions (2026-10-27)
+
+Reviewed the listed Destiny-card stat labels and ability descriptions against the aligned English source, with Japanese as a terminology cross-check. In 69 stat rows, moved leading numeric bonuses after the stat name and standardized the relevant terms: `속성 피해` to `원소 피해`, total damage resistance to `전체 피해 저항`, `마나 비용` to `마나 소모량`, and `초당 마나 재생` to `초당 마나 회복`. Damage-to-mana effects now consistently say `받은 피해의 N%만큼 마나를 회복합니다.` Duration-based spell bonuses at IDs `31574`, `39251`, and `59108` already used stat-first ordering and were left unchanged.
+
+- Stat rows updated: `1189`, `1795`, `2147`, `3386`, `3805`, `40137`, `4479`, `4960`, `5417`, `6569`, `8002`, `11356`, `12171`, `13613`, `13936`, `14371`, `14546`, `15471`, `15915`, `16178`, `16228`, `17588`, `17769`, `19949`, `20343`, `22546`, `28422`, `28477`, `29280`, `29735`, `30977`, `33181`, `33305`, `33448`, `33808`, `33880`, `34151`, `34648`, `38486`, `38928`, `39905`, `40612`, `40859`, `41637`, `42249`, `42374`, `42766`, `44484`, `44631`, `47246`, `47351`, `49002`, `49114`, `52690`, `53198`, `53616`, `54246`, `54864`, `55926`, `56465`, `58268`, `58593`, `59310`, `59404`, `59856`, `60960`, `60981`, `61138`, and `62297`.
+- Evasion and stun probabilities are absolute chances, not increases: the 6%, 11%, 100%, and 20% values therefore follow their stat names without a `+` sign.
+- Ability rows updated: `1917` (Cut Throat), `3439` (Ice Blink 3), `3765` (Echoes of Fate projectile label), `3856` and `9117` (Harmonic Overload), `8138` (Drain Mana), `10004` (Mastery of Arms), `11290`, `19384`, and `45141` (Poison Blink 1-3), `27278` (Assassination), `28767` (Dread), `41122` and `50802` (Ice Blink 1-2), `51975` (Last Stand), `53019` (Echoes of Fate effect), and `62734` (Blink).
+- Standardized Ice Blink as `빙결 점멸` and Poison Blink as `독성 점멸`, pairing all six level names with their English source labels. Reworded the effect descriptions consistently, corrected the Dread condition to `공황`, and clarified when Echoes of Fate generates an ally.
+- Kept `default:55646`'s singular `Echo of Fate` English label because that row's source is singular. Only the listed active Korean `default` text cells were changed; reference CSVs under `src/` were not edited.

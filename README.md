@@ -3,7 +3,7 @@
 ## 한국어
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261026021937/KingdomsOfAmalur_Korean_zh_cn_20261026021937.zip)
+- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261027232605/KingdomsOfAmalur_Korean_zh_cn_20261027232605.zip)
 
 ### 작업 배경과 감사
 
@@ -135,7 +135,7 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 조사한 원본 PAK의 게임 버전은 메인 메뉴에서 `Version: cs:15032`로 확인했으며, Steam BuildID `10619381`은 출처를 확인하는 보조 정보다. ZIP에는 완성된 PAK이 아니라 Windows 적용 스크립트와 필요한 변경 파일만 들어 있다. 스크립트는 사용자의 기존 PAK을 풀고 패키지 파일을 덮어써 별도 PAK을 만든 뒤, 검증에 성공하면 원본을 백업하고 교체한다. 덮어쓰지 않는 다른 모드 파일은 함께 남을 수 있지만, 같은 파일을 수정하는 모드와의 충돌은 피할 수 없으며 다른 게임 버전과의 호환성도 확인되지 않았다. 확인된 기준 버전은 `cs:15032`다.
 
 1. ZIP 전체를 Windows PC의 한 폴더에 압축 해제한다. `RunKoreanPatch.bat`, `KoreanPatch.ps1`, `README.txt`, `SHA256SUMS.txt`, `payload/`가 함께 있어야 한다.
-2. `RunKoreanPatch.bat`을 더블클릭한다. `.ps1` 파일을 직접 더블클릭하지 않는다. 관리자 권한이 없으면 경로를 묻기 전에 UAC 권한 요청이 표시된다. 승인한 관리자 창에서 기본 경로를 사용하거나 다른 게임 폴더를 한 번 입력한다.
+2. `RunKoreanPatch.bat`을 더블클릭한다. `.ps1` 파일을 직접 더블클릭하지 않는다. 관리자 권한이 없으면 UAC 권한 요청이 표시된다. 스크립트가 Steam 기본 경로를 확인하고, 유효한 게임 폴더가 없으면 GOG 기본 경로들을 확인한다. 둘 다 찾지 못한 경우에만 게임 경로를 입력한다.
 3. 게임 폴더를 확인하면 이후 절차는 자동으로 진행된다. 스크립트는 ZIP 체크섬과 게임 파일을 확인하고, 언팩 대상 파일명·명령·출력 폴더와 빌드 목록을 게임 도구에 전달한다. 원본 PAK을 풀고 ZIP의 `payload/`를 덮어써 별도 PAK을 만든 뒤 재추출하여 검증한다. 완료 또는 오류 메시지를 보여준 후 아무 키나 누를 때까지 창을 유지한다.
 4. 검증이 끝난 경우에만 기존 `data\patch_0.pak`을 시간표시가 붙은 `.backup-` 파일로 보관하고 새 PAK으로 교체한다. 실패 시 원본은 교체하지 않는다. 문제가 있으면 안내된 백업본을 복원한다.
 5. 적용 후 Steam 게임 언어를 `Chinese Simplified`로 설정한다. 기본 대사(`default`)의 순차 검토는 ID 65134까지 완료했고, 추가 `affix` variant 140개도 판정 기록이 있다. 전역 누계의 과거 987개 키 식별 문제는 사용자의 지시에 따라 복원하지 않기로 종결했으며, 미검토 번역 수를 뜻하지 않는다. 사용자는 문자셋과 공용 글꼴 목록 없이 한글 출력이 정상임을 확인했다. 정식 Release 전환도 완료됐다.
@@ -143,7 +143,7 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 ## English
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261026021937/KingdomsOfAmalur_Korean_zh_cn_20261026021937.zip)
+- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261027232605/KingdomsOfAmalur_Korean_zh_cn_20261027232605.zip)
 
 ### Project Background and Acknowledgements
 
@@ -274,6 +274,6 @@ The earlier Korean patches inspected here replace the `en_us` localization resou
 
 The inspected original `patch_0.pak` came from the user's Steam installation; the game's main menu showed `Version: cs:15032`. Steam BuildID `10619381` from `appmanifest_1041720.acf` is secondary provenance information. The installer rebuilds the user's existing PAK, so changes in files outside the payload may remain; mods that alter the same payload files can conflict. Compatibility with later game versions is unverified.
 
-The ZIP includes `RunKoreanPatch.bat`, `KoreanPatch.ps1`, instructions, checksums, and a `payload/` folder. It does not contain a complete PAK. On Windows, extract the entire ZIP and double-click `RunKoreanPatch.bat`; do not double-click the `.ps1` file, which may open in a text editor. If it is not already elevated, the script requests administrator access before asking for the game directory once. The supported baseline is game version `cs:15032`, as noted above. The default game directory is `C:\Program Files (x86)\Steam\steamapps\common\Kingdoms of Amalur Re-Reckoning`; press Enter to use it or enter another path. Once the game folder is confirmed, the script proceeds automatically: it validates the package and game files, unpacks the user's original `data\patch_0.pak`, overlays the payload, builds and re-unpacks a separate candidate PAK, then verifies the backup before replacing the original. Set the Steam game language to `Chinese Simplified` after installation. The PowerShell window stays open at the end until a key is pressed, showing either the completion message or any error.
+The ZIP includes `RunKoreanPatch.bat`, `KoreanPatch.ps1`, instructions, checksums, and a `payload/` folder. It does not contain a complete PAK. On Windows, extract the entire ZIP and double-click `RunKoreanPatch.bat`; do not double-click the `.ps1` file, which may open in a text editor. If it is not already elevated, the script requests administrator access. It checks the default Steam directory first, followed by common GOG installation directories; it asks for a path only if neither contains a valid game installation. The supported baseline is game version `cs:15032`, as noted above. Once the game folder is available, the script proceeds automatically: it validates the package and game files, unpacks the user's original `data\patch_0.pak`, overlays the payload, builds and re-unpacks a separate candidate PAK, then verifies the backup before replacing the original. Set the Steam game language to `Chinese Simplified` after installation. The PowerShell window stays open at the end until a key is pressed, showing either the completion message or any error.
 
 The three binaries passed CSV -> binary -> CSV content comparisons (`affix` 3,451 rows, `base` 4,844, `default` 65,135). The user reports Korean output displaying normally without the characterset or common font list, and the package is published as an official release. The sequential `default` review is complete through ID 65134, and all 140 extra `affix` variants have recorded dispositions. The historical global tally's unidentified 987-key membership was closed as an unrecoverable accounting limitation at the user's direction; it does not represent unreviewed rows. The characterset remains omitted.

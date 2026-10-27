@@ -48,6 +48,25 @@ class ApplyScriptPromptOrderTests(unittest.TestCase):
         self.assertIn('$EnteredDirectory = Read-Host "Game folder', SCRIPT)
         self.assertNotIn("APPLY", SCRIPT)
 
+    def test_installer_checks_steam_then_gog_before_prompting(self):
+        self.assertIn("function Test-GameInstall", SCRIPT)
+        self.assertIn("function Find-GameInstall", SCRIPT)
+
+        candidates = SCRIPT.index("$Candidates = @(")
+        steam = SCRIPT.index("$SteamDirectory,", candidates)
+        gog_galaxy = SCRIPT.index(
+            '"C:\\Program Files (x86)\\GOG Galaxy\\Games\\Kingdoms of Amalur Re-Reckoning"',
+            candidates,
+        )
+        gog_games = SCRIPT.index(
+            '"C:\\GOG Games\\Kingdoms of Amalur Re-Reckoning"', candidates
+        )
+        check = SCRIPT.index("$DetectedGameDirectory = Find-GameInstall $GameDirectory")
+        prompt = SCRIPT.index('$EnteredDirectory = Read-Host "Game folder')
+        self.assertLess(steam, gog_galaxy)
+        self.assertLess(gog_galaxy, gog_games)
+        self.assertLess(check, prompt)
+
     def test_payload_requires_complete_font_set_without_common_override(self):
         self.assertIn("$PayloadFiles.Count -ne 32", SCRIPT)
         self.assertIn("$FontPages.Count -ne 28", SCRIPT)
@@ -64,6 +83,8 @@ class ApplyScriptPromptOrderTests(unittest.TestCase):
 
     def test_completion_wait_runs_after_success_or_failure(self):
         self.assertIn('$Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")', SCRIPT)
+        self.assertIn("[Console]::ReadKey($true)", SCRIPT)
+        self.assertNotIn("[Console]::ReadLine()", SCRIPT)
         self.assertIn(
             'Wait-ForCompletion "Installation complete. Press any key to close this window."',
             SCRIPT,

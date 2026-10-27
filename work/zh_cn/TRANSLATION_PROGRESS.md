@@ -1297,21 +1297,29 @@ Existing row-level dispositions for other entities remain unchanged.
 
 ### D-21509: Primal Magic
 
-Registered `lore_term:primal-magic` as `원초 마법(Primal Magic)`,
-a named magic type/effect, not a learned active skill. Reviewed all
-18 exact source keys (1 base, 17 default). English introduces the
-magic and its weapon/gem infusion effects; Japanese and Chinese
-corroborate. All existing Korean terms in the long default:47196
-book passage are paired without changing the prose or paragraphs.
+Registered `lore_term:primal-magic` as `원시 마법(Primal Magic)`,
+a named magic type/effect, not a learned active skill. This term
+supersedes the earlier `원초 마법` choice. Japanese uses `原始魔法`
+in the explanatory passage and Chinese uses `原初魔法`; English
+describes a force that constitutes and affects elemental powers,
+not the confirmed origin of all magic.
 
-At default:62612, the exact `{*3원초 마법}` display marker is retained
-byte-for-byte and `(Primal Magic)` is placed immediately after it.
-No marker content is rewritten; actual in-game line width/style was
-not tested. The separate full title at default:25241 is excluded
-from this magic-type scope and unchanged. Its `Forward` versus
-existing Korean `서문` interpretation remains deferred in the
-per-row manifest, not silently corrected to `Foreword`.
-No bare `Primal` alias, unrelated decision or historical tally changed.
+Applied the approved `원시` term across 37 `base` rows and the
+corresponding `default` gameplay terms, including Primal Damage,
+Primal Sprites, and Primal Evenroot. In the long default:47196 book
+passage, only term spans changed; prose and paragraph structure remain.
+At default:62612, the `{*3...}` display-marker wrapper is preserved,
+with its Korean label updated to `{*3원시 마법}` and `(Primal Magic)`
+kept immediately after it. The `Primal Magic` component in the
+default:25241 title is now `원시 마법`; the separate `Forward` versus
+existing `서문` interpretation remains deferred and was not decided
+by this terminology update.
+
+Contextual prose such as `primal force` / `primal embodiments`,
+the separately translated `Going Primal`, and `Primality` remain
+outside this term normalization. Reference CSVs under `src/` and
+historical audit decisions were not rewritten; the 2026-10-26
+translation addendum records this superseding decision.
 
 ### D-21507-D-21508: Cradle Of Summer
 
