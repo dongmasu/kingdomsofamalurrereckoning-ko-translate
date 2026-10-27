@@ -1692,6 +1692,22 @@ Scanned the active Korean `default` CSV for periods or commas immediately follow
 - Added a space after a comma before `할람(Hallam)` at IDs `13731`, `33911`, and `61455`.
 - Scope: Only the listed active Korean `default` text cells were changed. Reference CSVs under `src/` were not edited.
 
+## Fateless Epithet Pairing and Translation Review (2026-10-27)
+
+Reviewed all 138 active `default` rows containing `운명 없는 자` (139 occurrences) against the aligned English source, with Japanese and Chinese as cross-checks. The active `affix` and `base` CSVs contain no occurrences. The 125 exact `Fateless One` references already use the established `운명 없는 자(Fateless One)` form; ten other source variants were missing an English annotation and were paired by their actual English wording:
+
+- `default:3870`: Added `(fateless)` for the English adjective `fateless`.
+- `default:8674`: Added `(unfated being)`.
+- `default:13469`, `13721`, `17532`, and `27863`: Added `(unfated one)`.
+- `default:43997` and `50742`: Added `(Fateless)`.
+- `default:60700`: Added the canonical `(Fateless One)`; the English source has the typo `fatelessone`.
+- `default:62736`: Added `(Fateless)`.
+- `default:1018` already pairs the collective `the Fateless`; it was retained. `default:61917` is a book title and already pairs the full title `The Adventures of the One Without a Fate`, so it was not treated as the character epithet.
+
+Translation review also changed `default:50742` to “이게 너처럼 운명 없는 자(Fateless)가 될 기회야. 앞으로 벌어질 일은 내가 바꾸겠어.” for natural Korean while preserving the source meaning; `default:60415` now ends “여전히 운명 없는 자(Fateless)로군.” to avoid the dangling connective `-고`. Removed the redundant second English annotation at `default:60470`, retaining the canonical `운명 없는 자(Fateless One)`.
+
+- Scope: Only the listed active Korean `default` text cells were changed. Reference CSVs under `src/` were not edited.
+
 ## Destiny Card Stats and Ability Descriptions (2026-10-27)
 
 Reviewed the listed Destiny-card stat labels and ability descriptions against the aligned English source, with Japanese as a terminology cross-check. In 69 stat rows, moved leading numeric bonuses after the stat name and standardized the relevant terms: `속성 피해` to `원소 피해`, total damage resistance to `전체 피해 저항`, `마나 비용` to `마나 소모량`, and `초당 마나 재생` to `초당 마나 회복`. Damage-to-mana effects now consistently say `받은 피해의 N%만큼 마나를 회복합니다.` Duration-based spell bonuses at IDs `31574`, `39251`, and `59108` already used stat-first ordering and were left unchanged.
@@ -1719,3 +1735,46 @@ rows against the English source and standardized them as follows:
   replacements using `tools/replace_text_preserve_eol.py`.
 - Only the active Korean `default` CSV was changed; reference CSVs under
   `src/` remain untouched.
+
+## Destiny Names And Descriptions (2026-10-28)
+
+Reviewed the requested Destiny name and description rows against the aligned
+English source, with Japanese and Chinese as cross-checks. Added the English
+name in parentheses to each listed Destiny name, normalizing source variants
+for repeated Guardian and Champion titles, and revised the descriptions for
+consistent terminology, sentence flow, and polite explanatory style. All CSV
+edits were ID-scoped and applied with
+`tools/replace_text_preserve_eol.py`; reference data under `src/` was not
+changed.
+
+- Name IDs reviewed: `33771`, `22370`, `9318`, `28996`, `28659`, `15112`,
+  `4908`, `25657`, `59125`, `12321`, `59484`, `22444`, `46456`, `63219`,
+  `38397`, `48094`, `54558`, `38452`, `340`, `50326`, `30043`, `29302`,
+  `46989`, `57341`, `58019`, `17711`, `25698`, `25645`, `37759`, `55245`,
+  `15958`, `23226`, `62731`, `6230`, `31082`, `52491`, `7847`, `52323`,
+  `56921`, `42488`, `31296`, `56777`, `62245`, `29369`, `16138`, `23006`,
+  and `57747`. `33771` already had the canonical `운명 없는 자(Fateless One)`
+  form and was retained.
+- Canonicalized repeated Guardian and Champion name records respectively as
+  `수호자(Guardian)` and `챔피언(Champion)`, despite source punctuation and
+  article differences. Distinguished `레인저(Ranger)` from `정찰병(Scout)`,
+  `선견자(Seer)` from `예언자(Oracle)`, `마도사(Sorcerer)` from
+  `마법사들(Mages)`, and `산적(Bandit)` from `도적(Rogue)`.
+- Distinguished the related spellcaster names as `제자(Disciple)`,
+  `수행자(Acolyte)`, `초심자(Neophyte)`, and `입문자(Initiate)`. The source
+  description at `17223` explicitly says `Acolyte`; it was translated as
+  `수행자` rather than silently changed to match the separate `Disciple`
+  name at `4908`. Corrected the broken opening at `7358` to identify the
+  Disciple naturally.
+- Description IDs revised: `53044`, `12069`, `16980`, `29928`, `5914`,
+  `56346`, `17223`, `58064`, `58189`, `7148`, `50375`, `10489`, `47341`,
+  `7776`, `30594`, `23171`, `28410`, `45055`, `10351`, `7358`, `41629`,
+  `28120`, `245`, `3859`, `56243`, `15368`, `22635`, `32495`, `31769`,
+  `40148`, `40978`, `52218`, `60696`, `49943`, `41193`, `15407`, `56045`,
+  `32500`, `40383`, and `3426`.
+- Kept the previously established ability terms `빙결 점멸(Ice Blink)`,
+  `독성 점멸(Poison Blink)`, `점멸(Blink)`, `원소 피해`, and `공황 상태`.
+  Rephrased mana conversion, evasion, critical-hit, and damage descriptions
+  against their source meanings without changing their mechanics.
+- The working CSV retains its record order and IDs; no `affix` or `base`
+  resource was changed.
