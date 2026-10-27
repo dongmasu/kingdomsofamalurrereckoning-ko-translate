@@ -1701,3 +1701,21 @@ Reviewed the listed Destiny-card stat labels and ability descriptions against th
 - Ability rows updated: `1917` (Cut Throat), `3439` (Ice Blink 3), `3765` (Echoes of Fate projectile label), `3856` and `9117` (Harmonic Overload), `8138` (Drain Mana), `10004` (Mastery of Arms), `11290`, `19384`, and `45141` (Poison Blink 1-3), `27278` (Assassination), `28767` (Dread), `41122` and `50802` (Ice Blink 1-2), `51975` (Last Stand), `53019` (Echoes of Fate effect), and `62734` (Blink).
 - Standardized Ice Blink as `빙결 점멸` and Poison Blink as `독성 점멸`, pairing all six level names with their English source labels. Reworded the effect descriptions consistently, corrected the Dread condition to `공황`, and clarified when Echoes of Fate generates an ally.
 - Kept `default:55646`'s singular `Echo of Fate` English label because that row's source is singular. Only the listed active Korean `default` text cells were changed; reference CSVs under `src/` were not edited.
+
+## Destiny Card Stat Omission Follow-up (2026-10-27)
+
+A follow-up check found omitted stun-duration and stealth-damage stat rows
+after the initial Destiny-card update. Rechecked all matching active `default`
+rows against the English source and standardized them as follows:
+
+- Stun duration uses `기절 지속 시간`: `16133` is the bare label; `26869`,
+  `28134`, `42766`, `43097`, and `56918` place the percentage after the stat
+  name; unused row `39387` retains its `[사용 금지]` note with the term
+  spacing corrected.
+- Damage While in Stealth uses `은신 중 피해량`, with the percentage after
+  the stat name at IDs `1795` and `21499`.
+- Rows `16133`, `28134`, and `56918` already matched the final form and were
+  left unchanged. The other six rows were updated with exact ID-scoped
+  replacements using `tools/replace_text_preserve_eol.py`.
+- Only the active Korean `default` CSV was changed; reference CSVs under
+  `src/` remain untouched.
