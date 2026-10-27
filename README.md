@@ -3,7 +3,7 @@
 ## 한국어
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261028003519/KingdomsOfAmalur_Korean_zh_cn_20261028003519.zip)
+- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261028012803/KingdomsOfAmalur_Korean_zh_cn_20261028012803.zip)
 
 ### 작업 배경과 감사
 
@@ -143,7 +143,7 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 ## English
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261028003519/KingdomsOfAmalur_Korean_zh_cn_20261028003519.zip)
+- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261028012803/KingdomsOfAmalur_Korean_zh_cn_20261028012803.zip)
 
 ### Project Background and Acknowledgements
 
