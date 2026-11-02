@@ -1,0 +1,936 @@
+{
+  "date": "2026-11-03",
+  "terminology": {
+    "Fire Damage": "화염 피해(Fire Damage)",
+    "Burning Damage": "화상 피해(Burning Damage)",
+    "Lightning Damage": "번개 피해(Lightning Damage)",
+    "Shocking Damage": "감전 피해(Shocking Damage)"
+  },
+  "changed_rows": 81,
+  "line_endings": {
+    "crlf": 71885,
+    "lone_lf": 199
+  },
+  "rows": [
+    {
+      "id": "236",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Tag up to 3 targets. When executed, Mark of Flame deals 100 Fire Damage and 10 Burning Damage.\nCost to Mark: 10 Mana\nCost to Execute: 30 Mana\"",
+      "ja": "\"最大3体の標的をマーキングできる。起爆させると、100の炎ダメージと10の炎上ダメージを与える。\nマーキングのコスト: マナ10\n起爆のコスト: マナ30\"",
+      "zh": "\"标记最多3个目标。 触发时，烈焰印记造成100点火焰伤害和10点燃烧伤害。\n标记消耗：10法力\n触发消耗：30点法力\"",
+      "before": "\"최대 3명의 대상을 지정합니다. 화염의 표식(Mark of Flame)을 발동하면 화염 피해 100과 연소 피해 10을 줍니다.\r\n표식 지정 소모량: 마나 10\r\n발동 소모량: 마나 30\"",
+      "after": "\"최대 3명의 대상을 지정합니다. 화염의 표식(Mark of Flame)을 발동하면 화염 피해(Fire Damage) 100과 화상 피해(Burning Damage) 10을 줍니다.\r\n표식 지정 소모량: 마나 10\r\n발동 소모량: 마나 30\""
+    },
+    {
+      "id": "866",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "Decreases lightning damage received by 75%.",
+      "ja": "受けた雷ダメージを75%カットする。",
+      "zh": "受到的闪电伤害降低75%。",
+      "before": "받는 번개 피해가 75% 감소합니다.",
+      "after": "받는 번개 피해(Lightning Damage)가 75% 감소합니다."
+    },
+    {
+      "id": "1604",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "Lightning Damage Boosted",
+      "ja": "雷ダメージアップ",
+      "zh": "雷电伤害提高",
+      "before": "번개 피해 증가",
+      "after": "번개 피해(Lightning Damage) 증가"
+    },
+    {
+      "id": "1980",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"90 Lightning Damage\n35% Chance to Stun for 4 seconds\nExplosion on impact deals 18 Shocking Damage and can Stun in an area.\nCost: 35 Mana\"",
+      "ja": "\"雷ダメージ90\n35%の確率で敵にマヒ効果(4秒間)\nヒット時の爆発によって周辺の敵にマヒ効果と18の感電ダメージ\nコスト: マナ35\"",
+      "zh": "\"90点雷电伤害\n35%的几率眩晕4秒\n冲击时的爆炸将造成18点震荡伤害，并在一片区域内造成眩晕效果。\n消耗：35点法力\"",
+      "before": "\"번개 피해 90\r\n4초 동안 기절 확률 35%\r\n충돌 시 폭발해 18의 감전 피해를 주며, 범위 안의 적을 기절시킬 수 있습니다.\r\n소모 마나: 35\"",
+      "after": "\"번개 피해(Lightning Damage) 90\r\n4초 동안 기절 확률 35%\r\n충돌 시 폭발해 18의 감전 피해(Shocking Damage)를 주며, 범위 안의 적을 기절시킬 수 있습니다.\r\n소모 마나: 35\""
+    },
+    {
+      "id": "3272",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "Taking periodic fire damage.",
+      "ja": "断続的に炎ダメージを受ける",
+      "zh": "承受周期性火焰伤害。",
+      "before": "주기적으로 화염 피해를 받는 중.",
+      "after": "주기적으로 화염 피해(Fire Damage)를 받는 중."
+    },
+    {
+      "id": "3483",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "Here is a fire damage potion.",
+      "ja": "炎ダメージのポーションを持ってきた",
+      "zh": "这里有火焰伤害药水。",
+      "before": "화염 피해 물약이야.",
+      "after": "화염 피해(Fire Damage) 물약이야."
+    },
+    {
+      "id": "3740",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Deals 800 Fire and 110 Burning damage in an area, at target's location.\nCost: 290 Mana\"",
+      "ja": "\"対象エリア内の敵に800の炎ダメージと110の炎上ダメージを与える。\nコスト: マナ290\"",
+      "zh": "\"在目标所在区域造成800点火焰伤害和110点灼烧伤害。\n消耗：290点法力\"",
+      "before": "\"대상 위치에 범위 화염 피해 800과 연소 피해 110을 줍니다.\r\n소모: 마나 290\"",
+      "after": "\"대상 위치에 범위 화염 피해(Fire Damage) 800과 화상 피해(Burning Damage) 110을 줍니다.\r\n소모: 마나 290\""
+    },
+    {
+      "id": "4672",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"{*1[Active]}\nLaunch a burst of electrical energy which deals Lightning and Shocking Damage. At higher levels, it can Stun enemies.\"",
+      "ja": "\"{*1[アクティブ]}\n雷・感電ダメージを与えるエネルギーを放出する。レベルを上げると、さらに敵をマヒさせる。\"",
+      "zh": "\"{*1[主动]}\n释放一次电能爆裂，造成雷电伤害和震荡伤害。级别足够高时还可以眩晕敌人。\"",
+      "before": "\"{*1[액티브]}\r\n번개와 감전 피해를 주는 전기 에너지를 폭발적으로 방출합니다. 높은 단계에서는 적을 기절시킬 수 있습니다.\"",
+      "after": "\"{*1[액티브]}\r\n번개 피해(Lightning Damage)와 감전 피해(Shocking Damage)를 주는 전기 에너지를 폭발적으로 방출합니다. 높은 단계에서는 적을 기절시킬 수 있습니다.\""
+    },
+    {
+      "id": "5044",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Tag up to 4 targets. When executed, Mark of Flame deals 160 Fire Damage and 20 Burning Damage.\nCost to Mark: 10 Mana\nCost to Execute: 36 Mana\"",
+      "ja": "\"最大4体の標的をマーキングできる。起爆させると、160の炎ダメージと20の炎上ダメージを与える。\nマーキングのコスト: マナ10\n起爆のコスト: マナ36\"",
+      "zh": "\"标记最多4个目标。 触发时，烈焰印记造成160点火焰伤害和20点燃烧伤害。\n标记消耗：10法力\n触发消耗：36法力\"",
+      "before": "\"최대 4개의 대상을 표시합니다. 발동하면 화염의 표식(Mark of Flame)이 화염 피해 160과 연소 피해 20을 줍니다.\r\n표식 비용: 마나 10\r\n발동 비용: 마나 36\"",
+      "after": "\"최대 4개의 대상을 표시합니다. 발동하면 화염의 표식(Mark of Flame)이 화염 피해(Fire Damage) 160과 화상 피해(Burning Damage) 20을 줍니다.\r\n표식 비용: 마나 10\r\n발동 비용: 마나 36\""
+    },
+    {
+      "id": "5486",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"80 Lightning Damage\n30% Chance to Stun for 4 seconds\nExplosion on impact deals 15 Shocking Damage in an area.\nCost: 32 Mana\"",
+      "ja": "\"雷ダメージ80\n30%の確率で敵にマヒ効果(4秒間)\nヒット時の爆発によって周辺の敵に15の感電ダメージ\nコスト: マナ32\"",
+      "zh": "\"80点雷电伤害\n30%的几率眩晕4秒\n冲击时的爆炸将在一片区域内造成15点震荡伤害。\n消耗：32点法力\"",
+      "before": "\"번개 피해 80\r\n4초 동안 30% 확률로 기절\r\n충돌 시 폭발하여 범위 내 적에게 감전 피해 15\r\n비용: 마나 32\"",
+      "after": "\"번개 피해(Lightning Damage) 80\r\n4초 동안 30% 확률로 기절\r\n충돌 시 폭발하여 범위 내 적에게 감전 피해(Shocking Damage) 15\r\n비용: 마나 32\""
+    },
+    {
+      "id": "5859",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "Here is a fire damage potion.",
+      "ja": "炎ダメージのポーションを持ってきた",
+      "zh": "这里有火焰伤害药水。",
+      "before": "화염 피해 물약을 가져왔어.",
+      "after": "화염 피해(Fire Damage) 물약을 가져왔어."
+    },
+    {
+      "id": "6038",
+      "types": [
+        "Shocking Damage",
+        "Shocking attacks"
+      ],
+      "en": "You can zap nearby enemies with Shocking damage. Try using Shocking attacks against large groups.",
+      "ja": "感電ダメージは周囲の敵も巻き込むことができる。大グループ相手には感電攻撃を試みよう。",
+      "zh": "你可以用震荡伤害震晕附近的敌人。尝试在对抗大群敌人时使用震荡攻击。",
+      "before": "감전 피해로 주변의 적까지 공격할 수 있습니다. 적이 많이 모여 있을 때 감전 공격을 사용해 보세요.",
+      "after": "감전 피해(Shocking Damage)로 주변의 적까지 공격할 수 있습니다. 적이 많이 모여 있을 때 감전 공격(Shocking attacks)을 사용해 보세요."
+    },
+    {
+      "id": "7189",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "Decreases lightning damage received by 50%.",
+      "ja": "受けた雷ダメージを50%カットする。",
+      "zh": "受到的闪电伤害降低50%。",
+      "before": "받는 번개 피해가 50% 감소합니다.",
+      "after": "받는 번개 피해(Lightning Damage)가 50% 감소합니다."
+    },
+    {
+      "id": "8445",
+      "types": [
+        "Shocking Damage"
+      ],
+      "en": "+10% chance for Shocking Damage to propagate between enemies and increases Storm Bolt damage by 10%.",
+      "ja": "\"感電ダメージが他の敵に拡散する確率が10%アップし、\"\"ストームボルト\"\"のダメージが10%アップする。\"",
+      "zh": "震荡伤害在敌人之间传播的几率+10%，风暴雷霆的伤害提高10%。",
+      "before": "감전 피해가 적 사이로 전파될 확률이 10% 증가하고, 폭풍의 번개(Storm Bolt)의 피해량이 10% 증가합니다.",
+      "after": "감전 피해(Shocking Damage)가 적 사이로 전파될 확률이 10% 증가하고, 폭풍의 번개(Storm Bolt)의 피해량이 10% 증가합니다."
+    },
+    {
+      "id": "8473",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Deals 500 Fire and 75 Burning damage in an area, at target's location.\nCost: 250 Mana\"",
+      "ja": "\"対象エリア内の敵に500の炎ダメージと75の炎上ダメージを与える。\nコスト: マナ250\"",
+      "zh": "\"在目标所在区域造成500点火焰伤害和75点灼烧伤害。\n消耗：250点法力\"",
+      "before": "\"대상 위치에 광역 화염 피해 500과 연소 피해 75를 줍니다.\r\n소모 마나: 250\"",
+      "after": "\"대상 위치에 광역 화염 피해(Fire Damage) 500과 화상 피해(Burning Damage) 75를 줍니다.\r\n소모 마나: 250\""
+    },
+    {
+      "id": "9603",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"70 Lightning Damage\n25% Chance to Stun for 4 seconds\nExplosion on impact deals 12 Shocking Damage in an area.\nCost: 29 Mana\"",
+      "ja": "\"雷ダメージ70\n25%の確率で敵にマヒ効果(4秒間)\nヒット時の爆発によって周辺の敵に12の感電ダメージ\nコスト: マナ29\"",
+      "zh": "\"70点雷电伤害\n25%的几率眩晕4秒\n冲击时的爆炸将在一片区域内造成12点震荡伤害。\n消耗：29点法力\"",
+      "before": "\"번개 피해 70\r\n4초 동안 25% 확률로 기절\r\n명중 시 폭발하여 범위 내 적에게 감전 피해 12\r\n비용: 마나 29\"",
+      "after": "\"번개 피해(Lightning Damage) 70\r\n4초 동안 25% 확률로 기절\r\n명중 시 폭발하여 범위 내 적에게 감전 피해(Shocking Damage) 12\r\n비용: 마나 29\""
+    },
+    {
+      "id": "9733",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "\"Increases the damage you do with fire-based attacks.\n\n+20 Fire Damage\n+50% Fire Damage\"",
+      "ja": "\"炎系攻撃のダメージをアップさせる。\n\n+20 炎ダメージ\n+50% 炎ダメージ\"",
+      "zh": "\"提高你的基于火焰的攻击的伤害。\n\n+20火焰伤害\n+50%火焰伤害\"",
+      "before": "\"화염 계열 공격의 피해가 증가합니다.\r\n\r\n+20 화염 피해\r\n+50% 화염 피해\"",
+      "after": "\"화염 계열 공격의 피해가 증가합니다.\r\n\r\n+20 화염 피해(Fire Damage)\r\n+50% 화염 피해(Fire Damage)\""
+    },
+    {
+      "id": "10116",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"Deals 440 Lightning Damage and 40 Shocking Damage in an area.\nCost: 155 Mana\"",
+      "ja": "\"周囲に440の雷ダメージと40の感電ダメージを与える。\nコスト: マナ155\"",
+      "zh": "\"在一个区域造成440点雷电伤害和40点震荡伤害。\n消耗：155点法力\"",
+      "before": "\"번개 피해 440과 감전 피해 40을 범위 내에 줍니다.\r\n비용: 마나 155\"",
+      "after": "\"번개 피해(Lightning Damage) 440과 감전 피해(Shocking Damage) 40을 범위 내에 줍니다.\r\n비용: 마나 155\""
+    },
+    {
+      "id": "10124",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "\"40 Lightning Damage\nCost: 20 Mana\"",
+      "ja": "\"雷ダメージ40\nコスト: マナ20\"",
+      "zh": "\"40点雷电伤害\n消耗：20点法力\"",
+      "before": "\"번개 피해 40\r\n비용: 마나 20\"",
+      "after": "\"번개 피해(Lightning Damage) 40\r\n비용: 마나 20\""
+    },
+    {
+      "id": "10436",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "Decreases fire damage received by 25%.",
+      "ja": "受けた炎ダメージを25%カットする。",
+      "zh": "受到的火焰伤害降低25%。",
+      "before": "받는 화염 피해가 25% 감소합니다.",
+      "after": "받는 화염 피해(Fire Damage)가 25% 감소합니다."
+    },
+    {
+      "id": "10513",
+      "types": [
+        "Burning Damage"
+      ],
+      "en": "All Burning Damage increased by 60% and Mark of Flame damage by 30%.",
+      "ja": "\"炎上ダメージが60%アップし、\"\"マークオブフレイム\"\"のダメージが30%アップする。\"",
+      "zh": "所有灼烧伤害提高60%，火焰标记的伤害提高30%。",
+      "before": "모든 화염 연소 피해가 60% 증가하고, 화염의 표식(Mark of Flame) 피해가 30% 증가합니다.",
+      "after": "모든 화상 피해(Burning Damage)가 60% 증가하고, 화염의 표식(Mark of Flame) 피해가 30% 증가합니다."
+    },
+    {
+      "id": "10976",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"Deals 520 Lightning Damage and 50 Shocking Damage in an area.\nCost: 175 Mana\"",
+      "ja": "\"周囲に520の雷ダメージと50の感電ダメージを与える。\nコスト: マナ175\"",
+      "zh": "\"在一个区域造成520点雷电伤害和50点震荡伤害。\n消耗：175点法力\"",
+      "before": "\"번개 피해 520과 감전 피해 50을 범위 내에 줍니다.\r\n비용: 마나 175\"",
+      "after": "\"번개 피해(Lightning Damage) 520과 감전 피해(Shocking Damage) 50을 범위 내에 줍니다.\r\n비용: 마나 175\""
+    },
+    {
+      "id": "11327",
+      "types": [
+        "Shocking Damage"
+      ],
+      "en": "+60% chance for Shocking Damage to propagate between enemies and increases Storm Bolt damage by 55%.",
+      "ja": "\"感電ダメージが他の敵に拡散する確率が60%アップし、\"\"ストームボルト\"\"のダメージが55%アップする。\"",
+      "zh": "震荡伤害在敌人之间传播的几率+60%，风暴雷霆的伤害提高55%。",
+      "before": "감전 피해가 적들 사이로 전이될 확률이 60% 증가하고, 폭풍의 번개(Storm Bolt)의 피해가 55% 증가합니다.",
+      "after": "감전 피해(Shocking Damage)가 적들 사이로 전이될 확률이 60% 증가하고, 폭풍의 번개(Storm Bolt)의 피해가 55% 증가합니다."
+    },
+    {
+      "id": "13021",
+      "types": [
+        "Burning Damage"
+      ],
+      "en": "All Burning Damage increased by 80% and Mark of Flame damage by 40%.",
+      "ja": "\"炎上ダメージが80%アップし、\"\"マークオブフレイム\"\"のダメージが40%アップする。\"",
+      "zh": "所有灼烧伤害提高80%，火焰标记的伤害提高40%。",
+      "before": "모든 화염 피해 80% 증가, 화염의 표식(Mark of Flame) 피해 40% 증가.",
+      "after": "모든 화상 피해(Burning Damage) 80% 증가, 화염의 표식(Mark of Flame) 피해 40% 증가."
+    },
+    {
+      "id": "13778",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "Fire Damage",
+      "ja": "炎ダメージ",
+      "zh": "火焰伤害",
+      "before": "화염 피해",
+      "after": "화염 피해(Fire Damage)"
+    },
+    {
+      "id": "14375",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Deals 600 Fire and 85 Burning damage in an area, at target's location.\nCost: 270 Mana\"",
+      "ja": "\"対象エリア内の敵に600の炎ダメージと85の炎上ダメージを与える。\nコスト: マナ270\"",
+      "zh": "\"在目标所在区域造成600点火焰伤害和85点灼烧伤害。\n消耗：270点法力\"",
+      "before": "\"대상 위치에 범위 피해로 화염 피해 600과 연소 피해 85를 줍니다.\r\n비용: 마나 270\"",
+      "after": "\"대상 위치에 범위 피해로 화염 피해(Fire Damage) 600과 화상 피해(Burning Damage) 85를 줍니다.\r\n비용: 마나 270\""
+    },
+    {
+      "id": "16922",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "\"60 Lightning Damage\n20% Chance to Stun for 3 seconds\nCost: 26 Mana\"",
+      "ja": "\"雷ダメージ60\n20%の確率で敵にマヒ効果(3秒間)\nコスト: マナ26\"",
+      "zh": "\"60点雷电伤害\n20%的几率眩晕3秒\n消耗：26点法力\"",
+      "before": "\"번개 피해 60\r\n기절 확률 20%(3초)\r\n비용: 마나 26\"",
+      "after": "\"번개 피해(Lightning Damage) 60\r\n기절 확률 20%(3초)\r\n비용: 마나 26\""
+    },
+    {
+      "id": "17248",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "\"A potion to increase your Lightning damage output can be mixed at an Alchemy Workbench using the following reagents:\n\nEel Petal (3)\nScarwood Bark (2)\nBloodroot (1)\"",
+      "ja": "\"以下の素材を錬金術台で使えば、敵に与える電撃ダメージを強化するポーションを調合できる\n\nイールの花びら(3)\nスカーウッドの樹皮(2)\nブラッドルート(1)\"",
+      "zh": "\"一种可以提高你的雷电伤害输出的药水，可在炼金工作台使用下列试剂合成：\n\n鳗鱼花（3）\n伤痕之木树皮（2）\n血根草（1）\"",
+      "before": "\"다음 재료를 사용해 연금술 작업대에서 번개 피해량을 높이는 물약을 만들 수 있습니다:\r\n\r\n일 페탈(Eel Petal) (3)\r\n스카우드 나무껍질(Scarwood Bark) (2)\r\n혈근초(Bloodroot) (1)\"",
+      "after": "\"다음 재료를 사용해 연금술 작업대에서 번개 피해(Lightning Damage)를 높이는 물약을 만들 수 있습니다:\r\n\r\n일 페탈(Eel Petal) (3)\r\n스카우드 나무껍질(Scarwood Bark) (2)\r\n혈근초(Bloodroot) (1)\""
+    },
+    {
+      "id": "18575",
+      "types": [
+        "Burning Damage"
+      ],
+      "en": "Burning damage will cause some enemies to panic.",
+      "ja": "一部の敵は、炎上ダメージを与えると混乱する。",
+      "zh": "灼烧伤害会引起一些敌人的恐慌。",
+      "before": "화염 피해는 일부 적들을 당황하게 만든다.",
+      "after": "화상 피해(Burning Damage)는 일부 적들을 당황하게 만든다."
+    },
+    {
+      "id": "18836",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Tag up to 6 targets. When executed, Mark of Flame deals 250 Fire Damage and 35 Burning Damage.\nCost to Mark: 10 mana\nCost to Execute: 42 mana\"",
+      "ja": "\"最大6体の標的をマーキングできる。起爆させると、250の炎ダメージと35の炎上ダメージを与える。\nマーキングのコスト: マナ10\n起爆のコスト: マナ42\"",
+      "zh": "\"标记最多6个目标。 触发时，烈焰印记造成250点火焰伤害和35点燃烧伤害。\n标记消耗：10法力\n触发消耗：42法力\"",
+      "before": "\"최대 6개의 대상을 표식합니다. 발동하면 화염의 표식(Mark of Flame)이 화염 피해 250과 연소 피해 35를 줍니다.\r\n표식 비용: 마나 10\r\n발동 비용: 마나 42\"",
+      "after": "\"최대 6개의 대상을 표식합니다. 발동하면 화염의 표식(Mark of Flame)이 화염 피해(Fire Damage) 250과 화상 피해(Burning Damage) 35를 줍니다.\r\n표식 비용: 마나 10\r\n발동 비용: 마나 42\""
+    },
+    {
+      "id": "19405",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"Deals 360 Lightning Damage and 30 Shocking Damage in an area.\nCost: 135 Mana\"",
+      "ja": "\"周囲に360の雷ダメージと30の感電ダメージを与える。\nコスト: マナ135\"",
+      "zh": "\"在一个区域造成360点雷电伤害和30点震荡伤害。\n消耗：135点法力\"",
+      "before": "\"범위 내에 번개 피해 360과 감전 피해 30을 줍니다.\r\n비용: 마나 135\"",
+      "after": "\"범위 내에 번개 피해(Lightning Damage) 360과 감전 피해(Shocking Damage) 30을 줍니다.\r\n비용: 마나 135\""
+    },
+    {
+      "id": "19617",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Tag up to 4 targets. When executed, Mark of Flame deals 190 Fire Damage and 25 Burning Damage.\nCost to Mark: 10 Mana\nCost to Execute: 39 Mana\"",
+      "ja": "\"最大4体の標的をマーキングできる。起爆させると、190の炎ダメージと25の炎上ダメージを与える。\nマーキングのコスト: マナ10\n起爆のコスト: マナ39\"",
+      "zh": "\"标记最多4个目标。 触发时，烈焰印记造成190点火焰伤害和25点燃烧伤害。\n标记消耗：10法力\n触发消耗：39法力\"",
+      "before": "\"최대 4개의 대상을 표시합니다. 발동하면 화염의 표식(Mark of Flame)이 화염 피해 190과 연소 피해 25를 줍니다.\r\n표식 지정 소모량: 마나 10\r\n발동 소모량: 마나 39\"",
+      "after": "\"최대 4개의 대상을 표시합니다. 발동하면 화염의 표식(Mark of Flame)이 화염 피해(Fire Damage) 190과 화상 피해(Burning Damage) 25를 줍니다.\r\n표식 지정 소모량: 마나 10\r\n발동 소모량: 마나 39\""
+    },
+    {
+      "id": "21326",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Deals 550 Fire and 80 Burning damage in an area, at target's location.\nCost: 260 Mana\"",
+      "ja": "\"対象エリア内の敵に550の炎ダメージと80の炎上ダメージを与える。\nコスト: マナ260\"",
+      "zh": "\"在目标所在区域造成550点火焰伤害和80点灼烧伤害。\n消耗：260点法力\"",
+      "before": "\"대상 위치를 중심으로 범위 내에 화염 피해 550과 연소 피해 80을 줍니다.\r\n소모량: 마나 260\"",
+      "after": "\"대상 위치를 중심으로 범위 내에 화염 피해(Fire Damage) 550과 화상 피해(Burning Damage) 80을 줍니다.\r\n소모량: 마나 260\""
+    },
+    {
+      "id": "22485",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"Deals 560 Lightning Damage and 55 Shocking Damage in an area.\nCost: 175 Mana\"",
+      "ja": "\"周囲に560の雷ダメージと55の感電ダメージを与える。\nコスト: マナ175\"",
+      "zh": "\"在一个区域造成560点雷电伤害和55点震荡伤害。\n消耗：175点法力\"",
+      "before": "\"주변에 번개 피해 560, 감전 피해 55를 줍니다.\r\n소모 마나: 175\"",
+      "after": "\"주변에 번개 피해(Lightning Damage) 560, 감전 피해(Shocking Damage) 55를 줍니다.\r\n소모 마나: 175\""
+    },
+    {
+      "id": "22676",
+      "types": [
+        "Shock effect (not a damage type)"
+      ],
+      "en": "to Shock enemies when Blocking",
+      "ja": "ブロック時に敵を感電させる",
+      "zh": "格挡时震击敌人",
+      "before": "막을 때 적에게 감전 피해를 줍니다.",
+      "after": "막을 때 적을 감전시킵니다."
+    },
+    {
+      "id": "22850",
+      "types": [
+        "Shocking Damage"
+      ],
+      "en": "+50% chance for Shocking Damage to propagate between enemies and increases Storm Bolt damage by 50%.",
+      "ja": "\"感電ダメージが他の敵に拡散する確率が50%アップし、\"\"ストームボルト\"\"のダメージが50%アップする。\"",
+      "zh": "震荡伤害在敌人之间传播的几率+50%，风暴雷霆的伤害提高50%。",
+      "before": "+50% 감전 피해가 적 사이로 전이될 확률, 폭풍의 번개(Storm Bolt) 피해 +50%",
+      "after": "+50% 감전 피해(Shocking Damage)가 적 사이로 전이될 확률, 폭풍의 번개(Storm Bolt) 피해 +50%"
+    },
+    {
+      "id": "23109",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"100 Lightning Damage\n40% Chance to Stun for 4 seconds\nExplosion on impact deals 21 Shocking Damage and can Stun in an area.\nCost: 35 Mana\"",
+      "ja": "\"雷ダメージ100\n40%の確率で敵にマヒ効果(4秒間)\nヒット時の爆発によって周辺の敵にマヒ効果と21の感電ダメージ\nコスト: マナ35\"",
+      "zh": "\"100点雷电伤害\n40%的几率眩晕4秒\n冲击时的爆炸将造成21点震荡伤害，并在一片区域内造成眩晕效果。\n消耗：35点法力\"",
+      "before": "\"번개 피해 100\r\n기절 확률 40%, 지속 시간 4초\r\n명중 시 폭발해 주변에 감전 피해 21을 주고 기절시킬 수 있습니다.\r\n소모 마나: 35\"",
+      "after": "\"번개 피해(Lightning Damage) 100\r\n기절 확률 40%, 지속 시간 4초\r\n명중 시 폭발해 주변에 감전 피해(Shocking Damage) 21을 주고 기절시킬 수 있습니다.\r\n소모 마나: 35\""
+    },
+    {
+      "id": "23578",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Deals 750 Fire and 100 Burning damage in an area, at target's location.\nCost: 290 Mana\"",
+      "ja": "\"対象エリア内の敵に750の炎ダメージと100の炎上ダメージを与える。\nコスト: マナ290\"",
+      "zh": "\"在目标所在区域造成750点火焰伤害和100点灼烧伤害。\n消耗：290点法力\"",
+      "before": "\"대상 위치를 중심으로 범위 내에 화염 피해 750과 연소 피해 100을 입힙니다.\r\n소모 마나: 290\"",
+      "after": "\"대상 위치를 중심으로 범위 내에 화염 피해(Fire Damage) 750과 화상 피해(Burning Damage) 100을 입힙니다.\r\n소모 마나: 290\""
+    },
+    {
+      "id": "25841",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "Fire Damage Boosted",
+      "ja": "炎ダメージアップ",
+      "zh": "火焰伤害增强",
+      "before": "화염 피해 증가",
+      "after": "화염 피해(Fire Damage) 증가"
+    },
+    {
+      "id": "25953",
+      "types": [
+        "Burning Damage"
+      ],
+      "en": "All Burning Damage increased by 100% and Mark of Flame damage by 50%.",
+      "ja": "\"炎上ダメージが100%アップし、\"\"マークオブフレイム\"\"のダメージが50%アップする。\"",
+      "zh": "所有灼烧伤害提高100%，火焰标记的伤害提高50%。",
+      "before": "화상 피해 +100%, 화염의 표식(Mark of Flame) 피해 +50%.",
+      "after": "화상 피해(Burning Damage) +100%, 화염의 표식(Mark of Flame) 피해 +50%."
+    },
+    {
+      "id": "26173",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "\"A potion to increase your Fire damage output can be mixed at an Alchemy Workbench using the following reagents:\n\nTindertwig (3)\nScarwood Bark (2)\nBloodroot (1)\"",
+      "ja": "\"以下の素材を錬金術台で使えば、敵に与える火炎ダメージを強化するポーションを調合できる\n\nティンダートウィッグ(3)\nスカーウッドの樹皮(2)\nブラッドルート(1)\"",
+      "zh": "\"一种可以提高你的火焰伤害输出的药水，可在炼金工作台使用下列试剂合成：\n\n火柴枝（3）\n伤痕之木树皮（2）\n血根草（1）\"",
+      "before": "\"화염 피해량을 높이는 물약은 다음 시약을 사용해 연금술 작업대에서 만들 수 있습니다:\r\n\r\n틴더트윅(Tindertwig) (3)\r\n스카우드 나무껍질(Scarwood Bark) (2)\r\n혈근초(Bloodroot) (1)\"",
+      "after": "\"화염 피해(Fire Damage)를 높이는 물약은 다음 시약을 사용해 연금술 작업대에서 만들 수 있습니다:\r\n\r\n틴더트윅(Tindertwig) (3)\r\n스카우드 나무껍질(Scarwood Bark) (2)\r\n혈근초(Bloodroot) (1)\""
+    },
+    {
+      "id": "26462",
+      "types": [
+        "Shocking Damage"
+      ],
+      "en": "+20% chance for Shocking Damage to propagate between enemies and increases Storm Bolt damage by 20%.",
+      "ja": "\"感電ダメージが他の敵に拡散する確率が20%アップし、\"\"ストームボルト\"\"のダメージが20%アップする。\"",
+      "zh": "震荡伤害在敌人之间传播的几率+20%，风暴雷霆的伤害提高20%。",
+      "before": "감전 피해가 적 사이로 전이될 확률 +20%, 폭풍의 번개(Storm Bolt) 피해 20% 증가.",
+      "after": "감전 피해(Shocking Damage)가 적 사이로 전이될 확률 +20%, 폭풍의 번개(Storm Bolt) 피해 20% 증가."
+    },
+    {
+      "id": "26841",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "\"Increases the damage you do with fire-based attacks.\n\n+30 Fire Damage\n+75% Fire Damage\"",
+      "ja": "\"炎系攻撃のダメージをアップさせる。\n\n+30 炎ダメージ\n+75% 炎ダメージ\"",
+      "zh": "\"提高你的基于火焰的攻击的伤害。\n\n+30火焰伤害\n+75%火焰伤害\"",
+      "before": "\"화염 기반 공격의 피해량이 증가합니다.\r\n\r\n+30 화염 피해\r\n+75% 화염 피해\"",
+      "after": "\"화염 기반 공격의 피해량이 증가합니다.\r\n\r\n+30 화염 피해(Fire Damage)\r\n+75% 화염 피해(Fire Damage)\""
+    },
+    {
+      "id": "27755",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"Deals 400 Lightning Damage and 35 Shocking Damage in an area.\nCost: 145 Mana\"",
+      "ja": "\"周囲に400の雷ダメージと35の感電ダメージを与える。\nコスト: マナ145\"",
+      "zh": "\"在一个区域造成400点雷电伤害和35点震荡伤害。\n消耗：145点法力\"",
+      "before": "\"범위 내에 번개 피해 400과 감전 피해 35를 줍니다.\r\n비용: 마나 145\"",
+      "after": "\"범위 내에 번개 피해(Lightning Damage) 400과 감전 피해(Shocking Damage) 35를 줍니다.\r\n비용: 마나 145\""
+    },
+    {
+      "id": "28723",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "\"Increases the damage you do with lightning-based attacks.\n\n+20 Lightning Damage\n+50% Lightning Damage\"",
+      "ja": "\"雷系攻撃のダメージをアップさせる。\n\n+20 雷ダメージ\n+50% 雷ダメージ\"",
+      "zh": "\"提高你的基于雷电的攻击的伤害。\n\n+20雷电伤害\n+50%雷电伤害\"",
+      "before": "\"번개 속성 공격의 피해가 증가합니다.\r\n\r\n번개 피해 +20\r\n번개 피해 +50%\"",
+      "after": "\"번개 속성 공격의 피해가 증가합니다.\r\n\r\n번개 피해(Lightning Damage) +20\r\n번개 피해(Lightning Damage) +50%\""
+    },
+    {
+      "id": "28989",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Deals 650 Fire and 90 Burning damage in an area, at target's location.\nCost: 280 Mana\"",
+      "ja": "\"対象エリア内の敵に650の炎ダメージと90の炎上ダメージを与える。\nコスト: マナ280\"",
+      "zh": "\"在目标所在区域造成650点火焰伤害和90点灼烧伤害。\n消耗：280点法力\"",
+      "before": "\"대상 위치 주변에 화염 피해 650과 연소 피해 90을 줍니다.\r\n비용: 마나 280\"",
+      "after": "\"대상 위치 주변에 화염 피해(Fire Damage) 650과 화상 피해(Burning Damage) 90을 줍니다.\r\n비용: 마나 280\""
+    },
+    {
+      "id": "30847",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "\"A potion to increase your Lightning damage output can be mixed at an Alchemy Workbench using the following reagents:\n\nEel Petal (3)\nScarwood Bark (2)\nBloodroot (1)\nEssence of Fate (1)\"",
+      "ja": "\"以下の素材を錬金術の作業台で使えば、敵に与える電撃ダメージを強化するポーションを調合できる:\n\nイールの花びら(3)\nスカーウッドの樹皮(2)\nブラッドルート(1)\nフェイトのエッセンス(1)\"",
+      "zh": "\"一种可以提高你的雷电伤害输出的药水，可在炼金工作台使用下列试剂合成：\n\n鳗鱼花（3）\n伤痕之木树皮（2）\n血根草（1）\n命运精华（1）\"",
+      "before": "\"번개 피해량을 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:\r\n\r\n일 페탈(Eel Petal) (3)\r\n스카우드 나무껍질(Scarwood Bark) (2)\r\n혈근초(Bloodroot) (1)\r\n운명의 정수(Essence of Fate) (1)\"",
+      "after": "\"번개 피해(Lightning Damage)를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있다:\r\n\r\n일 페탈(Eel Petal) (3)\r\n스카우드 나무껍질(Scarwood Bark) (2)\r\n혈근초(Bloodroot) (1)\r\n운명의 정수(Essence of Fate) (1)\""
+    },
+    {
+      "id": "30879",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Tag up to 7 targets. When executed, Mark of Flame deals 280 Fire Damage and 40 Burning Damage.\nCost to Mark: 10 mana\nCost to Execute: 42 mana\"",
+      "ja": "\"最大7体の標的をマーキングできる。起爆させると、280の炎ダメージと40の炎上ダメージを与える。\nマーキングのコスト: マナ10\n起爆のコスト: マナ42\"",
+      "zh": "\"标记最多7个目标。 触发时，烈焰印记造成280点火焰伤害和40点燃烧伤害。\n标记消耗：10法力\n触发消耗：42法力\"",
+      "before": "\"최대 7개의 대상을 표시합니다. 화염의 표식(Mark of Flame)을 발동하면 화염 피해 280과 연소 피해 40을 줍니다.\r\n표시 비용: 마나 10\r\n발동 비용: 마나 42\"",
+      "after": "\"최대 7개의 대상을 표시합니다. 화염의 표식(Mark of Flame)을 발동하면 화염 피해(Fire Damage) 280과 화상 피해(Burning Damage) 40을 줍니다.\r\n표시 비용: 마나 10\r\n발동 비용: 마나 42\""
+    },
+    {
+      "id": "31804",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "\"Increases the damage you do with lightning-based attacks.\n\n+30 Lightning Damage\n+75% Lightning Damage\"",
+      "ja": "\"雷系攻撃のダメージをアップさせる。\n\n+30 雷ダメージ\n+75% 雷ダメージ\"",
+      "zh": "\"提高你的基于雷电的攻击的伤害。\n\n+30雷电伤害\n+75%雷电伤害\"",
+      "before": "\"번개 계열 공격의 피해량이 증가합니다.\r\n\r\n번개 피해 +30\r\n번개 피해 +75%\"",
+      "after": "\"번개 계열 공격의 피해량이 증가합니다.\r\n\r\n번개 피해(Lightning Damage) +30\r\n번개 피해(Lightning Damage) +75%\""
+    },
+    {
+      "id": "32945",
+      "types": [
+        "Shocking Damage"
+      ],
+      "en": "+70% chance for Shocking Damage to propagate between enemies and increases Storm Bolt damage by 60%.",
+      "ja": "\"感電ダメージが他の敵に拡散する確率が70%アップし、\"\"ストームボルト\"\"のダメージが60%アップする。\"",
+      "zh": "震荡伤害在敌人之间传播的几率+70%，风暴雷霆的伤害提高60%。",
+      "before": "+70% 확률로 감전 피해가 적들 사이로 전이되며, 폭풍의 번개(Storm Bolt) 피해가 60% 증가합니다.",
+      "after": "+70% 확률로 감전 피해(Shocking Damage)가 적들 사이로 전이되며, 폭풍의 번개(Storm Bolt) 피해가 60% 증가합니다."
+    },
+    {
+      "id": "36724",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "\"50 Lightning Damage\nCost: 23 Mana\"",
+      "ja": "\"雷ダメージ50\nコスト: マナ23\"",
+      "zh": "\"50点雷电伤害\n消耗：23点法力\"",
+      "before": "\"번개 피해 50\r\n마나 소모: 23\"",
+      "after": "\"번개 피해(Lightning Damage) 50\r\n마나 소모: 23\""
+    },
+    {
+      "id": "36932",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"Deals 600 Lightning Damage and 60 Shocking Damage in an area.\nCost: 175 Mana\"",
+      "ja": "\"周囲に600の雷ダメージと60の感電ダメージを与える。\nコスト: マナ175\"",
+      "zh": "\"在一个区域造成600点雷电伤害和60点震荡伤害。\n消耗：175点法力\"",
+      "before": "\"범위 내에 번개 피해 600과 감전 피해 60을 줍니다.\r\n마나 소모: 175\"",
+      "after": "\"범위 내에 번개 피해(Lightning Damage) 600과 감전 피해(Shocking Damage) 60을 줍니다.\r\n마나 소모: 175\""
+    },
+    {
+      "id": "37304",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "\"A potion to increase your Lightning damage output can be mixed at an Alchemy Workbench using the following reagents:\n\nEel Petal (2)\nScarwood Bark (1)\"",
+      "ja": "\"以下の素材を錬金術の作業台で使えば、敵に与える電撃ダメージを強化するポーションを調合できる:\n\nイールの花びら(2)\nスカーウッドの樹皮(1)\"",
+      "zh": "\"一种可以提高你的雷电伤害输出的药水，可在炼金工作台使用下列试剂合成：\n\n鳗鱼花（2）\n伤痕之木树皮（1）\"",
+      "before": "\"연금술 작업대에서 다음 재료를 사용하면 번개 피해를 높이는 물약을 만들 수 있습니다:\r\n\r\n일 페탈(Eel Petal) (2)\r\n스카우드 나무껍질(Scarwood Bark) (1)\"",
+      "after": "\"연금술 작업대에서 다음 재료를 사용하면 번개 피해(Lightning Damage)를 높이는 물약을 만들 수 있습니다:\r\n\r\n일 페탈(Eel Petal) (2)\r\n스카우드 나무껍질(Scarwood Bark) (1)\""
+    },
+    {
+      "id": "38369",
+      "types": [
+        "Burning Damage"
+      ],
+      "en": "All Burning Damage increased by 40% and Mark of Flame damage by 20%.",
+      "ja": "\"炎上ダメージが40%アップし、\"\"マークオブフレイム\"\"のダメージが20%アップする。\"",
+      "zh": "所有灼烧伤害提高40%，火焰标记的伤害提高20%。",
+      "before": "모든 화상 피해가 40% 증가하고, 화염의 표식(Mark of Flame) 피해가 20% 증가합니다.",
+      "after": "모든 화상 피해(Burning Damage)가 40% 증가하고, 화염의 표식(Mark of Flame) 피해가 20% 증가합니다."
+    },
+    {
+      "id": "38788",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"Deals 480 Lightning Damage and 45 Shocking Damage in an area.\nCost: 165 Mana\"",
+      "ja": "\"周囲に480の雷ダメージと45の感電ダメージを与える。\nコスト: マナ165\"",
+      "zh": "\"在一个区域造成480点雷电伤害和45点震荡伤害。\n消耗：165点法力\"",
+      "before": "\"범위 내 적에게 번개 피해 480과 감전 피해 45를 줍니다.\r\n소모 마나: 165\"",
+      "after": "\"범위 내 적에게 번개 피해(Lightning Damage) 480과 감전 피해(Shocking Damage) 45를 줍니다.\r\n소모 마나: 165\""
+    },
+    {
+      "id": "39223",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "Decreases lightning damage received by 25%.",
+      "ja": "受けた雷ダメージを25%カットする。",
+      "zh": "受到的闪电伤害降低25%。",
+      "before": "받는 번개 피해가 25% 감소합니다.",
+      "after": "받는 번개 피해(Lightning Damage)가 25% 감소합니다."
+    },
+    {
+      "id": "39360",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "Launch a burst of electrical energy which deals Lightning and Shocking Damage and can Stun enemies.",
+      "ja": "雷・感電ダメージを与えるエネルギーを放出し、さらに敵をマヒさせる。",
+      "zh": "发射一道电能，造成雷电和震荡伤害，并能眩晕敌人。",
+      "before": "번개 및 감전 피해를 주는 전기 에너지를 방출해 적을 기절시킵니다.",
+      "after": "번개 피해(Lightning Damage) 및 감전 피해(Shocking Damage)를 주는 전기 에너지를 방출해 적을 기절시킵니다."
+    },
+    {
+      "id": "41003",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "\"Increases the damage you do with lightning-based attacks.\n\n+10 Lightning Damage\n+25% Lightning Damage\"",
+      "ja": "\"雷系攻撃のダメージをアップさせる。\n\n+10 雷ダメージ\n+25% 雷ダメージ\"",
+      "zh": "\"提高你的基于雷电的攻击的伤害。\n\n+10雷电伤害\n+25%雷电伤害\"",
+      "before": "\"번개 기반 공격의 피해가 증가합니다.\r\n\r\n번개 피해 +10\r\n번개 피해 +25%\"",
+      "after": "\"번개 기반 공격의 피해가 증가합니다.\r\n\r\n번개 피해(Lightning Damage) +10\r\n번개 피해(Lightning Damage) +25%\""
+    },
+    {
+      "id": "41594",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "\"A potion to increase your Fire damage output can be mixed at an Alchemy Workbench using the following reagents:\n\nTindertwig (3)\nScarwood Bark (2)\nBloodroot (1)\nEssence of Fate (1)\"",
+      "ja": "\"以下の素材を錬金術台で使えば、敵に与える火炎ダメージを強化するポーションを調合できる\n\nティンダートウィッグ(3)\nスカーウッドの樹皮(2)\nブラッドルート(1)\nフェイトエッセンス(1)\"",
+      "zh": "\"一种可以提高你的火焰伤害输出的药水，可在炼金工作台使用下列试剂合成：\n\n火柴枝（3）\n伤痕之木树皮（2）\n血根草（1）\n命运精华（1）\"",
+      "before": "\"화염 피해를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:\r\n\r\n틴더트윅(Tindertwig) (3)\r\n스카우드 나무껍질(Scarwood Bark) (2)\r\n혈근초(Bloodroot) (1)\r\n운명의 정수(Essence of Fate) (1)\"",
+      "after": "\"화염 피해(Fire Damage)를 높이는 물약은 연금술 작업대에서 다음 재료로 만들 수 있습니다:\r\n\r\n틴더트윅(Tindertwig) (3)\r\n스카우드 나무껍질(Scarwood Bark) (2)\r\n혈근초(Bloodroot) (1)\r\n운명의 정수(Essence of Fate) (1)\""
+    },
+    {
+      "id": "42105",
+      "types": [
+        "Burning Damage"
+      ],
+      "en": "All Burning Damage increased by 140% and Mark of Flame damage by 60%.",
+      "ja": "\"炎上ダメージが140%アップし、\"\"マークオブフレイム\"\"のダメージが60%アップする。\"",
+      "zh": "所有灼烧伤害提高140%，火焰标记的伤害提高60%。",
+      "before": "화상 피해가 140% 증가하고, 화염의 표식(Mark of Flame) 피해가 60% 증가합니다.",
+      "after": "화상 피해(Burning Damage)가 140% 증가하고, 화염의 표식(Mark of Flame) 피해가 60% 증가합니다."
+    },
+    {
+      "id": "42761",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "\"A potion to increase your Fire damage output can be mixed at an Alchemy Workbench using the following reagents:\n\nTindertwig (2)\nScarwood Bark (1)\"",
+      "ja": "\"以下の素材を錬金術台で使えば、敵に与える火炎ダメージを強化するポーションを調合できる\n\nティンダートウィッグ(2)\nスカーウッドの樹皮(1)\"",
+      "zh": "\"一种可以提高你的火焰伤害输出的药水，可在炼金工作台使用下列试剂合成：\n\n火柴枝（2）\n伤痕之木树皮（1）\"",
+      "before": "\"화염 피해를 증가시키는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있다:\r\n\r\n틴더트윅(Tindertwig) (2)\r\n스카우드 나무껍질(Scarwood Bark) (1)\"",
+      "after": "\"화염 피해(Fire Damage)를 증가시키는 물약은 연금술 작업대에서 다음 시약으로 만들 수 있다:\r\n\r\n틴더트윅(Tindertwig) (2)\r\n스카우드 나무껍질(Scarwood Bark) (1)\""
+    },
+    {
+      "id": "44112",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "Decreases fire damage received by 50%.",
+      "ja": "受けた炎ダメージを50%カットする。",
+      "zh": "受到的火焰伤害降低50%。",
+      "before": "받는 화염 피해가 50% 감소합니다.",
+      "after": "받는 화염 피해(Fire Damage)가 50% 감소합니다."
+    },
+    {
+      "id": "45455",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "Decreases fire damage received by 75%.",
+      "ja": "受けた炎ダメージを75%カットする。",
+      "zh": "受到的火焰伤害降低75%。",
+      "before": "받는 화염 피해가 75% 감소합니다.",
+      "after": "받는 화염 피해(Fire Damage)가 75% 감소합니다."
+    },
+    {
+      "id": "45834",
+      "types": [
+        "Burning Damage"
+      ],
+      "en": "All Burning Damage increased by 120% and Mark of Flame damage by 55%.",
+      "ja": "\"炎上ダメージが120%アップし、\"\"マークオブフレイム\"\"のダメージが55%アップする。\"",
+      "zh": "所有灼烧伤害提高120%，火焰标记的伤害提高55%。",
+      "before": "화상 피해 +120%, 화염의 표식(Mark of Flame) 피해 +55%",
+      "after": "화상 피해(Burning Damage) +120%, 화염의 표식(Mark of Flame) 피해 +55%"
+    },
+    {
+      "id": "46352",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "Lightning Damage",
+      "ja": "雷ダメージ",
+      "zh": "雷电伤害",
+      "before": "번개 피해",
+      "after": "번개 피해(Lightning Damage)"
+    },
+    {
+      "id": "47214",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "+5% Fire Damage",
+      "ja": "炎ダメージ+5%",
+      "zh": "火焰伤害+5%",
+      "before": "+5% 화염 피해",
+      "after": "+5% 화염 피해(Fire Damage)"
+    },
+    {
+      "id": "47613",
+      "types": [
+        "Burning Damage"
+      ],
+      "en": "Burning Damage",
+      "ja": "炎上ダメージ",
+      "zh": "灼烧伤害",
+      "before": "화상 피해",
+      "after": "화상 피해(Burning Damage)"
+    },
+    {
+      "id": "48071",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "\"Increases the damage you do with fire-based attacks.\n\n+10 Fire Damage\n+25% Fire Damage\"",
+      "ja": "\"炎系攻撃のダメージをアップさせる。\n\n+10 炎ダメージ\n+25% 炎ダメージ\"",
+      "zh": "\"提高你的基于火焰的攻击的伤害。\n\n+10火焰伤害\n+25%火焰伤害\"",
+      "before": "\"화염 속성 공격의 피해 증가.\r\n\r\n화염 피해 +10\r\n화염 피해 +25%\"",
+      "after": "\"화염 속성 공격의 피해 증가.\r\n\r\n화염 피해(Fire Damage) +10\r\n화염 피해(Fire Damage) +25%\""
+    },
+    {
+      "id": "50134",
+      "types": [
+        "Burning Damage"
+      ],
+      "en": "All Burning Damage increased by 20% and Mark of Flame damage by 10%.",
+      "ja": "\"炎上ダメージが20%アップし、\"\"マークオブフレイム\"\"のダメージが10%アップする。\"",
+      "zh": "所有灼烧伤害提高20%，火焰标记的伤害提高10%。",
+      "before": "모든 화염 피해가 20% 증가하고 화염의 표식(Mark of Flame) 피해가 10% 증가합니다.",
+      "after": "모든 화상 피해(Burning Damage)가 20% 증가하고 화염의 표식(Mark of Flame) 피해가 10% 증가합니다."
+    },
+    {
+      "id": "53478",
+      "types": [
+        "Lightning Damage",
+        "Shocking Damage"
+      ],
+      "en": "\"110 Lightning Damage\n40% Chance to Stun for 5 seconds\nExplosion on impact deals 24 Shocking Damage and can Stun in an area.\nCost: 35 Mana\"",
+      "ja": "\"雷ダメージ110\n40%の確率で敵にマヒ効果(5秒間)\nヒット時の爆発によって周辺の敵にマヒ効果と24の感電ダメージ\nコスト: マナ35\"",
+      "zh": "\"110点雷电伤害\n40%的几率眩晕5秒\n冲击时的爆炸将造成24点震荡伤害，并在一片区域内造成眩晕效果。\n消耗：35点法力\"",
+      "before": "\"번개 피해 110\r\n40% 확률로 5초 동안 기절\r\n명중 시 폭발해 범위 내 적에게 충격 피해 24를 주고 기절시킬 수 있습니다.\r\n소모: 마나 35\"",
+      "after": "\"번개 피해(Lightning Damage) 110\r\n40% 확률로 5초 동안 기절\r\n명중 시 폭발해 범위 내 적에게 감전 피해(Shocking Damage) 24를 주고 기절시킬 수 있습니다.\r\n소모: 마나 35\""
+    },
+    {
+      "id": "54243",
+      "types": [
+        "Shocking Damage"
+      ],
+      "en": "+30% chance for Shocking Damage to propagate between enemies and increases Storm Bolt damage by 30%.",
+      "ja": "\"感電ダメージが他の敵に拡散する確率が30%アップし、\"\"ストームボルト\"\"のダメージが30%アップする。\"",
+      "zh": "震荡伤害在敌人之间传播的几率+30%，风暴雷霆的伤害提高30%。",
+      "before": "감전 피해가 적 사이로 전이될 확률 +30%, 폭풍의 번개(Storm Bolt) 피해 +30%",
+      "after": "감전 피해(Shocking Damage)가 적 사이로 전이될 확률 +30%, 폭풍의 번개(Storm Bolt) 피해 +30%"
+    },
+    {
+      "id": "56902",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "+6% Fire Damage",
+      "ja": "炎ダメージ+6%",
+      "zh": "火焰伤害 +6%",
+      "before": "+6% 화염 피해",
+      "after": "+6% 화염 피해(Fire Damage)"
+    },
+    {
+      "id": "58521",
+      "types": [
+        "Shocking Damage"
+      ],
+      "en": "Shocking Damage",
+      "ja": "感電ダメージ",
+      "zh": "震荡伤害",
+      "before": "감전 피해",
+      "after": "감전 피해(Shocking Damage)"
+    },
+    {
+      "id": "58781",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Tag up to 5 targets. When executed, Mark of Flame deals 220 Fire Damage and 30 Burning Damage.\nCost to Mark: 10 Mana\nCost to Execute: 42 Mana\"",
+      "ja": "\"最大5体の標的をマーキングできる。起爆させると、220の炎ダメージと30の炎上ダメージを与える。\nマーキングのコスト: マナ10\n起爆のコスト: マナ42\"",
+      "zh": "\"标记最多5个目标。 触发时，烈焰印记造成220点火焰伤害和30点燃烧伤害。\n标记消耗：10法力\n触发消耗：42法力\"",
+      "before": "\"최대 5명의 대상을 표식합니다. 발동하면 화염의 표식(Mark of Flame)이 화염 피해 220과 연소 피해 30을 줍니다.\r\n표식 비용: 마나 10\r\n발동 비용: 마나 42\"",
+      "after": "\"최대 5명의 대상을 표식합니다. 발동하면 화염의 표식(Mark of Flame)이 화염 피해(Fire Damage) 220과 화상 피해(Burning Damage) 30을 줍니다.\r\n표식 비용: 마나 10\r\n발동 비용: 마나 42\""
+    },
+    {
+      "id": "59875",
+      "types": [
+        "Shocking Damage"
+      ],
+      "en": "+40% chance for Shocking Damage to propagate between enemies and increases Storm Bolt damage by 40%.",
+      "ja": "\"感電ダメージが他の敵に拡散する確率が40%アップし、\"\"ストームボルト\"\"のダメージが40%アップする。\"",
+      "zh": "震荡伤害在敌人之间传播的几率+40%，风暴雷霆的伤害提高40%。",
+      "before": "감전 피해가 적 사이로 전이될 확률이 40% 증가하고, 폭풍의 번개(Storm Bolt)의 피해가 40% 증가합니다.",
+      "after": "감전 피해(Shocking Damage)가 적 사이로 전이될 확률이 40% 증가하고, 폭풍의 번개(Storm Bolt)의 피해가 40% 증가합니다."
+    },
+    {
+      "id": "61745",
+      "types": [
+        "Fire Damage"
+      ],
+      "en": "\"A potion to increase your resistance to Fire damage can be mixed at an Alchemy Workbench using the following reagents:\n\nTindertwig (2)\nYsa's Breath (1)\"",
+      "ja": "\"以下の素材を錬金術の作業台で使えば、炎ダメージに対する耐性を強化するポーションを調合できる:\n\nティンダートウィッグ(2)\nイーサブレス(1)\"",
+      "zh": "\"一种可以提高你对火焰伤害的抗性的药水，可在炼金工作台使用下列试剂合成：\n\n火柴枝（2）\n伊萨之息（1）\"",
+      "before": "\"연금술 작업대에서 다음 재료를 섞으면 화염 피해 저항을 높이는 물약을 만들 수 있습니다:\r\n\r\n틴더트윅(Tindertwig) (2)\r\n이사의 숨결(Ysa's Breath) (1)\"",
+      "after": "\"연금술 작업대에서 다음 재료를 섞으면 화염 피해(Fire Damage) 저항을 높이는 물약을 만들 수 있습니다:\r\n\r\n틴더트윅(Tindertwig) (2)\r\n이사의 숨결(Ysa's Breath) (1)\""
+    },
+    {
+      "id": "61807",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Tag up to 3 targets. When executed, Mark of Flame deals 130 Fire Damage and 15 Burning Damage.\nCost to Mark: 10 Mana\nCost to Execute: 33 Mana\"",
+      "ja": "\"最大3体の標的をマーキングできる。起爆させると、130の炎ダメージと15の炎上ダメージを与える。\nマーキングのコスト: マナ10\n起爆のコスト: マナ33\"",
+      "zh": "\"标记最多3个目标。 触发时，烈焰印记造成130点火焰伤害和15点燃烧伤害。\n标记消耗：10法力\n触发消耗：33法力\"",
+      "before": "\"최대 3개의 표적을 지정합니다. 발동 시 화염의 표식(Mark of Flame)이 화염 피해 130과 연소 피해 15를 줍니다.\r\n표식 지정 비용: 마나 10\r\n발동 비용: 마나 33\"",
+      "after": "\"최대 3개의 표적을 지정합니다. 발동 시 화염의 표식(Mark of Flame)이 화염 피해(Fire Damage) 130과 화상 피해(Burning Damage) 15를 줍니다.\r\n표식 지정 비용: 마나 10\r\n발동 비용: 마나 33\""
+    },
+    {
+      "id": "62397",
+      "types": [
+        "Shocking Damage"
+      ],
+      "en": "\"{*1[Passive]}\nIncreases Storm Bolt damage, and causes Shocking Damage to bounce between your enemies more frequently.\"",
+      "ja": "\"{*1[パッシブ]}\n\"\"ストームボルト\"\"のダメージがアップし、感電ダメージが敵の間をより拡散しやすくなる。\"",
+      "zh": "\"{*1[被动]}\n提高风暴雷霆的伤害，并使在敌人之间反弹的震荡伤害出现得更加频繁。\"",
+      "before": "\"{*1[지속 효과]}\r\n폭풍의 번개(Storm Bolt)의 피해량이 증가하고, 감전 피해가 적들 사이에서 더 자주 튕깁니다.\"",
+      "after": "\"{*1[지속 효과]}\r\n폭풍의 번개(Storm Bolt)의 피해량이 증가하고, 감전 피해(Shocking Damage)가 적들 사이에서 더 자주 튕깁니다.\""
+    },
+    {
+      "id": "62707",
+      "types": [
+        "Fire Damage",
+        "Burning Damage"
+      ],
+      "en": "\"Deals 700 Fire and 95 Burning damage in an area, at target's location.\nCost: 290 Mana\"",
+      "ja": "\"対象エリア内の敵に700の炎ダメージと95の炎上ダメージを与える。\nコスト: マナ290\"",
+      "zh": "\"在目标所在区域造成700点火焰伤害和95点灼烧伤害。\n消耗：290点法力\"",
+      "before": "\"대상 위치 주변에 화염 피해 700 및 연소 피해 95를 줍니다.\r\n소모 마나: 290\"",
+      "after": "\"대상 위치 주변에 화염 피해(Fire Damage) 700 및 화상 피해(Burning Damage) 95를 줍니다.\r\n소모 마나: 290\""
+    },
+    {
+      "id": "63679",
+      "types": [
+        "Lightning Damage"
+      ],
+      "en": "+6% Lightning Damage",
+      "ja": "雷ダメージ+6%",
+      "zh": "雷电伤害 +6%",
+      "before": "번개 피해 +6%",
+      "after": "번개 피해(Lightning Damage) +6%"
+    },
+    {
+      "id": "64998",
+      "types": [
+        "Damage Type glossary"
+      ],
+      "en": "\"{LINE_LEFT}{*3Durability}{LINE_LEFT}As an item is used, its Durability gradually decreases until the weapon breaks and is no longer usable. Your character's weapons can be restored back to their maximum Durability with the use of a Repair Kit or by paying gold to a Blacksmith.{LINE_SPACE}{LINE_LEFT}{*3Damage}{LINE_LEFT}This factor lists the amount of Damage a weapon does to an enemy; the higher a weapon's Damage number, the more destruction it can unleash.{LINE_SPACE}{LINE_LEFT}{*3Weapon Speed}{LINE_LEFT}Weapon Speed displays how quickly a weapon strikes. Faster weapons can attack more rapidly, while slower weapons may not attack as swiftly, but usually cause more damage.{LINE_SPACE}{LINE_LEFT}{*3Damage Type}{LINE_LEFT}There are seven distinct Damage Types: Physical, Piercing, Fire, Ice, Lightning, Poison, and Bleeding. Fire, Ice, and Lighting are all elemental varieties of damage.{LINE_SPACE}{LINE_LEFT}NOTE:There are three damage sub-types (Burning, Freezing, Shocking) that inflict damage over time.\"",
+      "ja": "{LINE_LEFT}{*3耐久性}{LINE_LEFT}アイテムを使うと耐久性が低下していきます。耐久性が低下した武器を使用すると、壊れて使用不能になることがあります。武器の耐久性は修理キットを使うか、鍛冶職人に金を払うことで最大まで回復できます。{LINE_SPACE}{LINE_LEFT}{*3ダメージ}{LINE_LEFT}武器が敵に与えうるダメージが表示されます。この数値が高いほど、強い威力を発揮します。{LINE_SPACE}{LINE_LEFT}{*3攻撃速度}{LINE_LEFT}武器による攻撃の速さの目安です。攻撃速度が速い武器は素早い連続攻撃が可能になり、遅い武器は攻撃の間が開くものの、大抵は一撃のダメージが大きくなります。{LINE_SPACE}{LINE_LEFT}{*3ダメージタイプ}{LINE_LEFT}基本的なダメージタイプは物理、貫通、炎、氷、雷、毒、出血の7種類です。このうち炎、氷、雷は属性ダメージです。{LINE_SPACE}{LINE_LEFT}注: 時間経過性のダメージタイプも3種類あります(炎上、凍結、感電)。",
+      "zh": "{LINE_LEFT}{*3耐久}{LINE_LEFT}随物品逐渐被使用，耐久度就会逐渐降低，直到武器毁坏，不能再被使用。你角色的武器可以被维修工具或收费的铁匠回复到最高耐久。{LINE_SPACE}{LINE_LEFT}{*3伤害}{LINE_LEFT}这项属性标记了武器对敌人能造成的伤害值；伤害值越高，武器的破坏力就越大。{LINE_SPACE}{LINE_LEFT}{*3武器速度}{LINE_LEFT}武器速度展现了使用该武器进行攻击的快慢。更快的武器能更频繁地造成伤害，更慢的武器或许没有那么迅速，但通常每次能造成更多的伤害。{LINE_SPACE}{LINE_LEFT}{*3伤害类型}{LINE_LEFT}一共有七种不同的伤害类型：物理、穿透、火焰、冰霜、雷电、毒素和流血。火焰、冰霜和雷电都是各种元素型伤害。{LINE_SPACE}{LINE_LEFT}注意：另有三种伤害子类型(燃烧、冰冻、震荡)可以持续造成伤害。",
+      "before": "{LINE_LEFT}{*3내구도}{LINE_LEFT}아이템을 사용할수록 내구도가 점차 낮아지며, 무기는 결국 망가져 사용할 수 없게 됩니다. 수리 도구를 쓰거나 대장장이에게 돈을 내면 무기의 내구도를 최대로 회복할 수 있습니다.{LINE_SPACE}{LINE_LEFT}{*3피해}{LINE_LEFT}무기가 적에게 주는 피해량입니다. 피해 수치가 높을수록 더 큰 피해를 줍니다.{LINE_SPACE}{LINE_LEFT}{*3무기 속도}{LINE_LEFT}무기가 공격하는 속도입니다. 빠른 무기는 더 자주 공격할 수 있으며, 느린 무기는 공격 속도가 낮지만 보통 한 번에 더 큰 피해를 줍니다.{LINE_SPACE}{LINE_LEFT}{*3피해 유형}{LINE_LEFT}피해 유형은 물리, 관통, 화염, 냉기, 번개, 독, 출혈의 일곱 가지입니다. 화염, 냉기, 번개는 원소 피해에 해당합니다.{LINE_SPACE}{LINE_LEFT}참고: 추가 피해 유형인 화상, 동결, 감전의 세 가지는 지속해서 피해를 줍니다.",
+      "after": "{LINE_LEFT}{*3내구도}{LINE_LEFT}아이템을 사용할수록 내구도가 점차 낮아지며, 무기는 결국 망가져 사용할 수 없게 됩니다. 수리 도구를 쓰거나 대장장이에게 돈을 내면 무기의 내구도를 최대로 회복할 수 있습니다.{LINE_SPACE}{LINE_LEFT}{*3피해}{LINE_LEFT}무기가 적에게 주는 피해량입니다. 피해 수치가 높을수록 더 큰 피해를 줍니다.{LINE_SPACE}{LINE_LEFT}{*3무기 속도}{LINE_LEFT}무기가 공격하는 속도입니다. 빠른 무기는 더 자주 공격할 수 있으며, 느린 무기는 공격 속도가 낮지만 보통 한 번에 더 큰 피해를 줍니다.{LINE_SPACE}{LINE_LEFT}{*3피해 유형}{LINE_LEFT}피해 유형은 물리(Physical), 관통(Piercing), 화염(Fire), 냉기(Ice), 번개(Lightning), 독(Poison), 출혈(Bleeding)의 일곱 가지입니다. 화염(Fire), 냉기(Ice), 번개(Lightning)는 원소 피해에 해당합니다.{LINE_SPACE}{LINE_LEFT}참고: 추가 피해 유형인 화상(Burning), 동결(Freezing), 감전(Shocking)의 세 가지는 지속해서 피해를 줍니다."
+    }
+  ]
+}
