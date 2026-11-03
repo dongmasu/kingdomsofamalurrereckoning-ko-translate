@@ -1,0 +1,3282 @@
+{
+  "date": "2026-11-03",
+  "standard": "이름 수사(Brother Name) / 이름 신부(Father Name); keep 님 in Korean where present.",
+  "method": "English ID/variant inventory first; Japanese and Chinese are supporting evidence. No reference CSV is edited.",
+  "exceptions": [
+    "Brother Octienne is addressed as a fellow Templar: 형제, not a monk's 수사.",
+    "Father Udo and Father Marsh remain as the English source names/titles; do not infer aliases from Japanese.",
+    "Brother's Til's at default:53444 is an English typo for Brother Til's, corroborated by the matching quest.",
+    "At default:19302 only clergy in the temple change; the later mortal brothers/sisters remain figurative.",
+    "Whistle at default:25468 is Wulf's instrument, also called a flute at default:21596."
+  ],
+  "held": {
+    "24227": "Bare Brother; no speaker or clergy-specific support.",
+    "45674": "Duplicate bare Brother line; no speaker or clergy-specific support.",
+    "33088": "A deceased brother is mentioned without a named monk or religious institution.",
+    "20762": "Bawdy book: prayer alone does not establish whether Aedwald is a monk or a sibling.",
+    "59722": "Religious address to dear brothers may include lay believers, not only monks.",
+    "344": "Band of Brother Monks is an item/title scope, not a personal honorific.",
+    "59863": "Band of Brother Monks is an item/title scope, not a personal honorific."
+  },
+  "changed_rows": [
+    {
+      "id": "1533",
+      "before": "그녀가 떠나자 사제는 수정들을 다시 우물에 던졌어. 하지만 수정들이 노래하며 내게 말했어. 사제를 죽이고 자신들을 구해 달라고. 그 목소리가... 너무나 아름다웠어...",
+      "after": "그녀가 떠나자 신부는 수정들을 다시 우물에 던졌어. 하지만 수정들이 노래하며 내게 말했어. 신부를 죽이고 자신들을 구해 달라고. 그 목소리가... 너무나 아름다웠어...",
+      "en": "When she left, Father dropped the crystals back into the well. But they sang to me, told me to kill him and rescue them. Their voices... so beautiful....",
+      "ja": "彼女が去ると、神官はクリスタルを井戸に落とした。だが、クリスタルの歌が聞こえたんだ。殺して、救い出してくれとな。その声は... とても美しくて...",
+      "zh": "她离开的时候，神父把水晶都丢回了井里。可它们对我歌唱，要我杀了他，把它们救出来。它们的声音……是那么动听……"
+    },
+    {
+      "id": "4990",
+      "before": "내가 바보라고 생각하겠지. 딘웰(Dynwel) 신부님도... 가자. 선교회로 돌아가자. 너무나 많은 이에게 용서를 구해야 해.",
+      "after": "내가 바보라고 생각하겠지. 딘웰 신부님(Father Dynwel)도... 가자. 선교회로 돌아가자. 너무나 많은 이에게 용서를 구해야 해.",
+      "en": "You must think me a fool. And Father Dynwel.... Come. Let's return to the Mission. I must ask forgiveness of so many.",
+      "ja": "愚かだと思っているんだろう。神官ディンウェルも... 行こう。修道院へ戻ろう。たくさんの許しを請わないといけないな",
+      "zh": "你一定以为我是个傻瓜。还有丁维尔神父……来吧。我们回布道所吧。我必须请求这么多人的原谅。"
+    },
+    {
+      "id": "7483",
+      "before": "몇 달 전에 말라 버려서 더 깊은 곳에 물이 남았는지 찾으러 형제 몇 명을 아래로 보냈어.",
+      "after": "몇 달 전에 말라 버려서 더 깊은 곳에 물이 남았는지 찾으러 수사 몇 명을 아래로 보냈어.",
+      "en": "It dried up several months ago, so we sent several brothers down to try and find some deeper reserves.",
+      "ja": "数ヶ月前に干上がったんだ。だからもっと深くにある水を探すために、数人の仲間を下にやった",
+      "zh": "它几个月前就干涸了，所以我们派了几个弟兄下去找更深的水源。"
+    },
+    {
+      "id": "9488",
+      "before": "에테어(Etair) 신부는 가끔 여름 궁정(Summer Court)의 페이(Fae) 방문객을 맞이하곤 했다. 무슨 이야기를 나눴는지는 모르지만, 형제들 가운데 그 일을 못마땅해하는 이가 많았던 건 안다.",
+      "after": "에테어 신부(Father Etair)는 가끔 여름 궁정(Summer Court)의 페이(Fae) 방문객을 맞이하곤 했다. 무슨 이야기를 나눴는지는 모르지만, 수사들 가운데 그 일을 못마땅해하는 이가 많았던 건 안다.",
+      "en": "Occasionally Father Etair would play host to a visiting Summer Court Fae; but I know nothing of the meetings, except that many of the brothers frowned upon them.",
+      "ja": "神官エタイアはときどき、サマー・コートから訪れるフェイを迎え入れている。何のためにかは知らないけど、いい顔をしない者も少なくはない",
+      "zh": "埃泰尔神父偶尔会接待一位夏廷的灵族；我并不了解他们会面的内容，但有许多弟兄对此心怀不满。"
+    },
+    {
+      "id": "9805",
+      "before": "이 편지는 에이버리 이게스트(Avery Egest)의 무덤에 최근 놓인 듯하다. 미사루 교단의 형제들이 모두 배우는 미사루(Mitharu)의 필체로 쓰여 있다.",
+      "after": "이 편지는 에이버리 이게스트(Avery Egest)의 무덤에 최근 놓인 듯하다. 미사루 교단(Order of Mitharu)의 모든 수사가 배우는 미사루(Mitharu) 문자로 쓰여 있다.",
+      "en": "This letter appears to have been recently planted on the grave of Avery Egest. It is written in the hand of Mitharu, in which all brothers of the Order of Mitharu are trained.",
+      "ja": "この手紙は最近エイブリー・イジェストの墓に置かれたようだ。ミサール教団の者たちが習う、ミサール文字で書かれている。",
+      "zh": "这封信似乎是最近才埋进艾弗里·埃格斯特的坟墓里的。它是用米萨鲁手写体写的，米萨鲁教派的所有修士都接受过这种字体的训练。"
+    },
+    {
+      "id": "9828",
+      "before": "에테어(Etair) 신부는 남동쪽의 작은 알마인(Almain) 선교회, 성 이드릭(St. Eadric) 선교회를 돌보고 있어. 언덕 위 폐허를 보면 찾을 수 있을 거야.",
+      "after": "에테어 신부(Father Etair)는 남동쪽의 작은 알마인(Almain) 선교회, 성 이드릭(St. Eadric) 선교회를 돌보고 있어. 언덕 위 폐허를 보면 찾을 수 있을 거야.",
+      "en": "Father Etair watches over a small Almain mission in the southeast. St. Eadric's. You will know it by the ruins on the hill.",
+      "ja": "神官エタイアは南東にあるアルメインの小さな修道院の面倒を見ている。聖イードリック修身修道院だ。丘にある遺跡の近くと言えば分かるだろう",
+      "zh": "埃泰尔神父在照管着东南方向一个小小的阿尔曼布道所。是圣艾德里克布道所。你看山上的废墟就能认出来了。"
+    },
+    {
+      "id": "12769",
+      "before": "딘웰(Dynwel) 신부는 여성이 미사루 교단(Order of Mitharu)의 일원으로 서품받을 수 없다고 주장한다. 이 책의 성구는 정반대로 말하는데도.",
+      "after": "딘웰 신부(Father Dynwel)는 여성이 미사루 교단(Order of Mitharu)의 일원으로 서품받을 수 없다고 주장한다. 이 책의 성구는 정반대로 말하는데도.",
+      "en": "Father Dynwel is denying that women can be ordained as members of the Order of Mitharu, despite scripture in this book to the contrary.",
+      "ja": "ディンウェル神官は、女性がミサールに仕えることを認めない。それはこの経典の内容に反しているわ",
+      "zh": "迪恩维尔神父否认女性可以被任命为米萨鲁教派的成员，尽管经文上的说法正好相反。"
+    },
+    {
+      "id": "13702",
+      "before": "에테어(Etair) 신부님을 묻고 교단의 예법에 맞는 장례 의식을 치를 거야. 평안히 잠드시길. 그분은 그럴 자격이 있었어.",
+      "after": "에테어 신부님(Father Etair)을 묻고 교단의 예법에 맞는 장례 의식을 치를 거야. 평안히 잠드시길. 그분은 그럴 자격이 있었어.",
+      "en": "We will bury Father Etair and give him the appropriate rites of the Order. May he rest in peace. He'd earned as much.",
+      "ja": "神官エタイアを埋葬して、教団にふさわしい儀式を行うつもりだ。安らかに眠ることを願おう。彼はよくやってくれた",
+      "zh": "我们会埋葬埃泰尔神父，举行恰当的仪式为他送行。愿他安息。他值得如此。"
+    },
+    {
+      "id": "14157",
+      "before": "에테어(Etair) 신부님은 미사루(Mitharu)가 베푼 자연의 경이에 큰 관심이 있으셨어. 물론 울프(Wulf)를 곁에 두고 직접 사업을 이끌겠다고 나서셨지.",
+      "after": "에테어 신부님(Father Etair)은 미사루(Mitharu)가 베푼 자연의 경이에 큰 관심이 있으셨어. 물론 울프(Wulf)를 곁에 두고 직접 사업을 이끌겠다고 나서셨지.",
+      "en": "Father Etair had great interest in Mitharu's natural splendors. He volunteered to lead the project, with Wulf by his side, of course.",
+      "ja": "神官エタイアはミサールが恵んだ自然の見事さに強い興味を抱き、自ら事業を率いることを申し出た。当然、その隣にはウルフがいた",
+      "zh": "埃泰尔神父对米萨鲁的自然之美有着浓厚兴趣。他自愿牵头推进，伍尔夫自然也伴他左右。"
+    },
+    {
+      "id": "15157",
+      "before": "에테어(Etair) 신부님께 영원한 안식을.",
+      "after": "에테어 신부님(Father Etair)께 영원한 안식을.",
+      "en": "May Father Etair rest eternally in peace.",
+      "ja": "神官エタイアに永遠の安らぎを",
+      "zh": "愿埃泰尔神父永远平静安息。"
+    },
+    {
+      "id": "15547",
+      "before": "딘웰(Dynwel) 신부는 자기 대의를 변호하려 하겠지만, 그저 위에서 내려온 명령을 따르는 병사일 뿐이야. 그들 중 누구도 스스로 생각하지 않아.",
+      "after": "딘웰 신부(Father Dynwel)는 자기 대의를 변호하려 하겠지만, 그저 위에서 내려온 명령을 따르는 병사일 뿐이야. 그들 중 누구도 스스로 생각하지 않아.",
+      "en": "Father Dynwel will try to defend his cause, but he is simply a soldier, marching to the orders passed down to him. None of them have minds of their own.",
+      "ja": "ディンウェル神父はご自分の主義を通そうとするでしょうけれど、彼は与えられた命令に従うだけの兵士にすぎない。あの人達に自分の意思なんてないのよ",
+      "zh": "迪恩维尔神父会为自己的理由辩护，但他只是个士兵，奉上面的命令行事。他们都没有自己的思想。"
+    },
+    {
+      "id": "16582",
+      "before": "잠깐… 딘웰(Dynwel) 신부님이 보냈나? 어리석은 늙은이 같으니. 권력을 얻는 길이 너무 느리더니, 이제는 나까지 늦추려는군. 난 새로운 친구들이 생겼어. 페이(Fae) 친구들 말이야.",
+      "after": "잠깐… 딘웰 신부님(Father Dynwel)이 보냈나? 어리석은 늙은이 같으니. 권력을 얻는 길이 너무 느리더니, 이제는 나까지 늦추려는군. 난 새로운 친구들이 생겼어. 페이(Fae) 친구들 말이야.",
+      "en": "Wait... Father Dynwel sent you, didn't he? Old fool. His path to power was too plodding, and now he wishes to slow me down, too. I have new friends, Fae friends.",
+      "ja": "待て... 神官ディンウェルの差し金だな？ 愚かな年寄りめ。自分の力が伸びないからって足止めするつもりか。こっちには新しいフェイの友達ができたんだ",
+      "zh": "等等……丁维尔神父派你来的，是吗？老蠢货。他追寻力量的道路太乏味了，现在他想让我也慢下来。我有新朋友，灵族的朋友。"
+    },
+    {
+      "id": "16993",
+      "before": "옥티엔 수사(Brother Octienne)라고? 같은 성전기사니 당연히 환영하지. 그래도 가능하면 문으로 들어와 줄래? 무슨 혐의로 왔어?",
+      "after": "옥티엔 형제(Brother Octienne)라고? 같은 성전기사니 당연히 환영하지. 그래도 가능하면 문으로 들어와 줄래? 고발 내용은 뭐야?",
+      "en": "Brother Octienne?! As a fellow Templar, you are of course welcome, but we do prefer that you use the door. What are your charges?",
+      "ja": "オクティエンヌですって？ 同じ聖堂騎士よ。歓迎するけれど、できれば扉を使ってくれるかしら。あなたの告発は何？",
+      "zh": "奥克蒂安兄弟？！同为圣殿骑士，你当然会受欢迎，但我们更希望你用那扇门。你开价是多少？"
+    },
+    {
+      "id": "17593",
+      "before": "에테어(Etair) 신부님을 위해 기도하겠습니다.",
+      "after": "에테어 신부님(Father Etair)을 위해 기도하겠습니다.",
+      "en": "I will pray for Father Etair.",
+      "ja": "神官エタイアのために祈ろう",
+      "zh": "我会为埃泰尔神父祈祷。"
+    },
+    {
+      "id": "18186",
+      "before": "딘웰(Dynwel) 신부님은 내가 이 선교회에서 장래가 촉망된다고 하셨어. 접시 닦는 솜씨가 아주 뛰어나다면서. 신부님 말씀이야.",
+      "after": "딘웰 신부님(Father Dynwel)은 내가 이 선교회에서 장래가 촉망된다고 하셨어. 접시 닦는 솜씨가 아주 뛰어나다면서. 신부님 말씀이야.",
+      "en": "Father Dynwel says I have a promising future here at the mission. My dish-washing is inspired. His words.",
+      "ja": "ディンウェル神父は\"お前には見込みがある\"って言ってくれたんだ。皿洗いにも力が入るよ。あの言葉のおかげさ",
+      "zh": "迪恩维尔神父说我在这个布道所的前途不可限量。我洗碗更有劲了。他的话。"
+    },
+    {
+      "id": "19302",
+      "before": "새벽녘: 일어나 몸을 씻으라. 첨탑을 향해 서라. 첨탑은 리리아(Lyria)께서 우리에게 주신 크나큰 선물이니.\n\n절벽에 서서 새벽 첫빛에 첨탑을 처음 바라보는 바얄라 티린(Bayala Tirin)의 모습을 떠올리라. 스스로를 돌아보고 지금 어떤 순례길에 올라 있는지 물으라. 새날을 맞아 목적지에 다다랐는지도 자문하라.\n\n\n오전 중반: 이 기도 순서는 신전에서 일하는 리리아(Lyria)의 형제자매에게만 필요하다. 마음을 가다듬고 신조의 열세 계시를 되뇌라. 조용한 곳을 찾아 집중하며 차분하게 숨을 세 번 들이쉬라.\n\n\n태양이 정점에 이르면: 지극히 사랑하는 여신 리리아(Lyria)의 모습을 찾아 진심으로 기도하라. 찬송가나 열세 신조 가운데 하나를 사용하라. 이때 다른 필멸자 형제자매에게 다가가 친절히 인사하라.\n\n평원에서 우리 민족 사이에 서 있는 바얄라 티린(Bayala Tirin)의 모습을 떠올리라. 스스로를 돌아보고 오늘 이웃을 위해 어떤 봉사를 했는지, 남은 하루 동안 무엇을 할 수 있을지 자문하라.\n\n정오: 금이나 귀중품에는 손대지 말라. 끼니로 음식을 먹고 마실 물을 챙기라.\n\n\n해질녘: 두 길의 표식을 만들고 그 사이에 시선을 고정하라. 그러는 동안 아무 말도 하지 말고 대신 귀 기울이라. 이때 들리는 것은 무엇이든 징조나 앞으로 일어날 일의 전조일 수 있다.\n\n\n저녁 기도: 하루의 끝을 준비하라. 첨탑에 등을 돌려라. 리리아(Lyria)의 선물을 당연히 여기지 말고 우리 힘에 의지해야 하므로.\n\n상처 입은 동족을 돌보려고 옷을 찢어 붕대로 만드는 바얄라 티린(Bayala Tirin)의 모습을 떠올리라. 스스로를 돌아보고 온전히 아낌없이 내어 준 것이 무엇인지 자문하라. 자신이 가진 것 가운데 세상에 내놓을 수 있는 것은 무엇인지 생각하라\n\n\n한밤중: 의무가 허락한다면 목욕하고 잠자리에 들라. 잠 또한 리리아(Lyria)의 은총이 준 선물이니라.",
+      "after": "새벽녘: 일어나 몸을 씻으라. 첨탑을 향해 서라. 첨탑은 리리아(Lyria)께서 우리에게 주신 크나큰 선물이니.\n\n절벽에 서서 새벽 첫빛에 첨탑을 처음 바라보는 바얄라 티린(Bayala Tirin)의 모습을 떠올리라. 스스로를 돌아보고 지금 어떤 순례길에 올라 있는지 물으라. 새날을 맞아 목적지에 다다랐는지도 자문하라.\n\n\n오전 중반: 이 기도 순서는 신전에서 일하는 리리아(Lyria)의 수사와 수녀에게만 필요하다. 마음을 가다듬고 신조의 열세 계시를 되뇌라. 조용한 곳을 찾아 집중하며 차분하게 숨을 세 번 들이쉬라.\n\n\n태양이 정점에 이르면: 지극히 사랑하는 여신 리리아(Lyria)의 모습을 찾아 진심으로 기도하라. 찬송가나 열세 신조 가운데 하나를 사용하라. 이때 다른 필멸자 형제자매에게 다가가 친절히 인사하라.\n\n평원에서 우리 민족 사이에 서 있는 바얄라 티린(Bayala Tirin)의 모습을 떠올리라. 스스로를 돌아보고 오늘 이웃을 위해 어떤 봉사를 했는지, 남은 하루 동안 무엇을 할 수 있을지 자문하라.\n\n정오: 금이나 귀중품에는 손대지 말라. 끼니로 음식을 먹고 마실 물을 챙기라.\n\n\n해질녘: 두 길의 표식을 만들고 그 사이에 시선을 고정하라. 그러는 동안 아무 말도 하지 말고 대신 귀 기울이라. 이때 들리는 것은 무엇이든 징조나 앞으로 일어날 일의 전조일 수 있다.\n\n\n저녁 기도: 하루의 끝을 준비하라. 첨탑에 등을 돌려라. 리리아(Lyria)의 선물을 당연히 여기지 말고 우리 힘에 의지해야 하므로.\n\n상처 입은 동족을 돌보려고 옷을 찢어 붕대로 만드는 바얄라 티린(Bayala Tirin)의 모습을 떠올리라. 스스로를 돌아보고 온전히 아낌없이 내어 준 것이 무엇인지 자문하라. 자신이 가진 것 가운데 세상에 내놓을 수 있는 것은 무엇인지 생각하라\n\n\n한밤중: 의무가 허락한다면 목욕하고 잠자리에 들라. 잠 또한 리리아(Lyria)의 은총이 준 선물이니라.",
+      "en": "BREAK OF DAY: Rise and make ablutions. Face spireward, for the spire is our great gift form Lyria.\n\nReflect on the image of Bayala Tirin, standing by the bluff and beholding the spire for the first time by the first light of day. Look into yourself and ask what pilgrimage you are now upon, and ask yourself, with this new day, if you have reached your destination.\n\n\nMID-MORNING: This station is requisite only to Brothers and Sisters of Lyria actively in the temple. Gather yourself and repeat the thirteen revelations of the creed. Find a quiet place and take three calm and focusing breaths.\n\n\nSUN-AT-APEX: Find an image of Our Most Beloved Goddess Lyria and say a heartfelt prayer to her. Use any hymn or one of the thirteen creeds. At this time turn to any of your sister and brother mortals and greet them kindly.\n\nReflect on the image of Bayala Tirin, standing among our people on the Plains. Look into yourself and ask what service you have done for your neighbor today, and what you might do with the remaining day.\n\nMID-DAY: Touch no gold or items of value. Take food for sustenance and water for drink.\n\n\nSETTING SUN: Make the sign of the Two Paths and fix your eyes between them. Speak no words as you do but listen instead. Anything you hear at this time may be an omen or sign of things to come.\n\n\nEVENSONG: Prepare for end of day. Turn your back to the spire, for we must rely on our own powers and not take Lyria's gifts for granted.\n\nReflect on the image of Bayala Tirin tearing her robes to make bandages and tend her wounded kindred. Look into yourself and ask what you have given freely and wholly. Consider what you hold that you might free into the world\n\n\nDARK OF NIGHT: Unless duty prohibits, bathe and lay yourself to bed. Sleep is also a gift of Lyria's grace.",
+      "ja": "夜明け: 起床し、みそぎをすること。リリア様からの大いなる贈り物である螺旋階段に正対して行なうこと。\n\n崖際に立ち、夜明けの最初の光で生まれて初めて螺旋階段を目にするバヤラ・ティリンの姿を思い浮かべよ。自らの内奥を探り、今自分がどのような巡礼の途中であるのかを自問し、今日という新たな日にて、自分がその終着点に到達したかどうかを自らに問いかけよ。\n\n\n午前半ば: 本段階は神殿内で従事中のリリアの修道士および修道女にのみ求められる。身辺を正し、教義の十三の啓示を暗唱せよ。静かな場所をみつけ、三度の静かな深呼吸をもって意識を集中せしめよ。\n\n\n南中時: 愛されし女神リリア様の姿をみつけ、心から祈りを捧げよ。賛美歌のいずれか、もしくは十三の啓示のいずれかをもって行なうこと。その際、いずれかの定命の者に向き直り、温かくあいさつすること。\n\n平原にて、我らが民に囲まれて立つバヤラ・ティリンの姿を思い浮かべよ。自らの内奥を探り、今日という日に隣人にどのような厚意を施すことができたのかを自問し、今日残された時間に何を為すべきかを自らに問いかけよ。\n\n午後半ば: 金や価値あるものに触れるべからず。食べ物は自らの糧となる量、飲み物は水のみとする。\n\n\n日暮れ: 二つの道の印を結び、その中間を凝視せよ。その際は言葉を発することをせず、代わりに耳を澄ますべし。この際聞こえたものは、兆しか、これから起こりうることの前触れとなりうる。\n\n\n早晩: 日の終わりにそなえよ。自らの力のみを頼り、リリア様からの贈り物に甘えるまいと、螺旋階段に背を向けよ。\n\n自らの衣を割いて包帯とし、傷ついた同胞を介抱するバヤラ・ティリンの姿を思い浮かべよ。自らの内奥を探り、対価を求めず、その全てを授けられたものがあったかを自問し、今自分の手にあるもので、世に解き与えられるものはないかと自らに問いかけよ。\n\n\n深夜: 義務による制限がなければ、入浴して就寝すべし。眠りもまたリリア様の恩寵により授かりしものである。",
+      "zh": "破晓：起床沐浴。面朝尖塔，因为尖塔是莉里亚给我们的最好的礼物。\n\n回想巴亚拉·提林的形象，她站在悬崖边，第一次在晨曦中看到尖塔。审视你自己，问问你现在正在进行什么朝圣之旅，问问你自己，在新的一天，你是否到达了目的地。\n\n\n上午：只有神庙里工作的莉里亚的兄弟姐妹必须进行这个阶段。整理好自己，重复教义中的十三条启示。找一个安静的地方，平静专注地深呼吸三次。\n\n\n正午：找一张我们最爱的女神莉里亚的画像，对她衷心地祈祷。吟诵赞美诗或十三信条中的一条。在这个时候，转向任意一位你的凡人兄弟姐妹，并亲切地问候他们。\n\n回想巴亚拉·提林的形象，在平原上和我们的人民站在一起。审视一下自己，问问自己今天为你的邻居做了什么，剩下的时间里你可能做什么。\n\n中午：不要触摸黄金或贵重物品。吃食物，喝水。\n\n\n落日：做出双路手势，眼睛聚焦到手势上。不要像平时那样说话，而是要倾听。你在这个时候听到的任何东西都可能是预兆或未来事情的征兆。\n\n\n晚祷：为一天的结束做准备。背对着尖塔，因为我们必须依靠自己的力量，不能把莉里亚的礼物视为理所当然。\n\n回想巴亚拉·提林的形象，撕裂她的长袍做绷带，照顾她受伤的亲人。审视你自己，问问自己，你免费而完整地赠与过什么。想想什么是你认为可以送给这个世界的\n\n\n夜晚：除非职务禁止，否则你就去洗澡，躺在床上。睡眠也是莉里亚仁慈的礼物。"
+    },
+    {
+      "id": "19448",
+      "before": "딘웰(Dynwel) 신부",
+      "after": "딘웰 신부(Father Dynwel)",
+      "en": "Father Dynwel",
+      "ja": "ディンウェル神父",
+      "zh": "迪恩维尔神父"
+    },
+    {
+      "id": "21289",
+      "before": "에테어(Etair) 신부에게서 뭘 알아냈지? 로어스톤의 내용을 바꾸는 마법을 알고 있던가?",
+      "after": "에테어 신부(Father Etair)에게서 뭘 알아냈지? 로어스톤의 내용을 바꾸는 마법을 알고 있던가?",
+      "en": "What have you learned from Father Etair? Did he know of any magic that can change a Lorestone's contents?",
+      "ja": "神官エタイアから何を聞いた？ 彼はロアストーンの内容を変化させる魔法を知っていたのか？",
+      "zh": "你从埃泰尔神父那里学到了什么？他知不知道什么能改变智慧石内容的魔法？"
+    },
+    {
+      "id": "24681",
+      "before": "난 억울하게 갇혔어. 선교원 형제 중 한 사람이야. 맹세코... 그, 그 신 이름이 뭐였더라?",
+      "after": "난 억울하게 갇혔어. 선교원 수사 중 한 사람이야. 맹세코... 그, 그 신 이름이 뭐였더라?",
+      "en": "I've been wrongfully imprisoned. I'm one of them brothers from the mission. I swear on... on... what's that god's name again?",
+      "ja": "この投獄は何かの手違いだ。俺は修道院の一員だぞ。なんとかの神に誓って… おや、何の神だったかな？",
+      "zh": "我被错误地囚禁了。我是教会的修士之一。我发誓，以……以……那个神叫什么来着？"
+    },
+    {
+      "id": "25468",
+      "before": "목요일\n\n이상한 수정이 내 책상 위에 놓여 있다. 눈을 뗄 수가 없다. 숭배하거나 매료되어서가 아니다. 긴장과 불길한 공포에 사로잡혀서다. 밤에 침상에 누워 있을 때조차 그 공포는 사라지지 않는다. 저주받은 것을 지하에서 끌어올린 탓에 어린 제자들을 파멸로 몰아넣은 건 아닐까 두렵다.\n\n가장 걱정스러운 건 이 수정이 어린 울프(Wulf) 형제에게 미치는 영향이다. 방 건너편에 앉은 이 사람은 더는 총명하고 다정한 내 제자가 아니다. 눈빛이 흐리멍덩한 광신자가 되어 버렸다. 수정의 기묘한 매력이 그의 정신 깊은 곳까지 스며들었다. 며칠째 예배당에도 오지 않았다. 씻지도, 먹지도 않는다. 이름을 불러도 대답하지 않고, 주변 사람들을 알아차리더라도 퉁명스러운 비웃음만 던진다. 나는 죽은 이를 애도하듯 그를 슬퍼한다. 온종일 수정만 바라보거나 휘파람을 불며 그것을 연주하고, 그러면 소용돌이치는 붉은 표면이 번쩍인다. 내 기도는 아무 소용이 없다.\n\n모든 연구와 훈련에도 내가 찾는 답은 나오지 않았다. 이 기묘한 물질은 무엇이며 어디서 마력을 얻는 걸까? 누가 만들었고 어떻게 우리 선교회 지하에 오게 됐을까? 무엇보다 소중한 친구를 해치지 않고 이걸 어떻게 없앨 수 있을까? 질문은 많지만 답은 없다.\n\n내일은 미사루(Mitharu)께서 답을 주실지도 모른다. 그분은 아직 나를 실망시키지 않으셨다.",
+      "after": "목요일\n\n이상한 수정이 내 책상 위에 놓여 있다. 눈을 뗄 수가 없다. 숭배하거나 매료되어서가 아니다. 긴장과 불길한 공포에 사로잡혀서다. 밤에 침상에 누워 있을 때조차 그 공포는 사라지지 않는다. 저주받은 것을 지하에서 끌어올린 탓에 어린 제자들을 파멸로 몰아넣은 건 아닐까 두렵다.\n\n가장 걱정스러운 건 이 수정이 어린 울프 수사(Brother Wulf)에게 미치는 영향이다. 방 건너편에 앉은 이 사람은 더는 총명하고 다정한 내 제자가 아니다. 눈빛이 흐리멍덩한 광신자가 되어 버렸다. 수정의 기묘한 매력이 그의 정신 깊은 곳까지 스며들었다. 며칠째 예배당에도 오지 않았다. 씻지도, 먹지도 않는다. 이름을 불러도 대답하지 않고, 주변 사람들을 알아차리더라도 퉁명스러운 비웃음만 던진다. 나는 죽은 이를 애도하듯 그를 슬퍼한다. 온종일 수정만 바라보거나 수정을 향해 피리를 불어 소용돌이치는 붉은 표면을 번쩍이게 한다. 내 기도는 아무 소용이 없다.\n\n모든 연구와 훈련에도 내가 찾는 답은 나오지 않았다. 이 기묘한 물질은 무엇이며 어디서 마력을 얻는 걸까? 누가 만들었고 어떻게 우리 선교회 지하에 오게 됐을까? 무엇보다 소중한 친구를 해치지 않고 이걸 어떻게 없앨 수 있을까? 질문은 많지만 답은 없다.\n\n내일은 미사루(Mitharu)께서 답을 주실지도 모른다. 그분은 아직 나를 실망시키지 않으셨다.",
+      "en": "Thursday\n\nThe strange crystal sits atop my desk. I cannot take my eyes from it. It is not out of adoration, or even fascination, but out of a tense, foreboding dread that never escapes me, not even as I lay in my bunk at night hoping that I have not doomed my young charges by bringing this cursed thing up from the underground.\n\nPerhaps the most troubling development is how the crystal affects young Brother Wulf. This person sitting across the chamber from me is no longer my bright, friendly apprentice, but a heavy-eyed fanatic. The strange allure of the crystal has touched him on some spiritual level. He has not been to chapel in days. He has not bathed or eaten. He does not respond to his name, and when does take notice of the others around him, he does so with a gruff sneer. I grieve for him as one mourns the deceased. All day long he stares at the crystal, or plays to it with his whistle, making the swirling red surface flash. My prayers do nothing.\n\nAll of my research, all of my training, none of it has provided the answers I seek. What is this strange substance and from where does it derive its magic? What created it and how did it come to be beneath our mission? Better yet, how I can I get dispose of it without hurting my dear friend? So many questions, but no answers come.\n\nPerhaps tomorrow Mitharu will provide. He has yet to disappoint me.",
+      "ja": "木曜日\n\n奇妙なクリスタルは私の机の上にある。それから目が離せない。崇敬の念からではない。魅了されているわけでも。ただただ精神が張りつめていて、いくらやっても振り払えない不吉な恐怖心のせいで目が離せないのだ。夜、寝ている時ですらそうだ。私がこの邪なものを地下から持ち帰ったせいで、私の若き門弟たちが凶事に見舞われなければよいが。\n\n特に気がかりなのは、このクリスタルの、若きブラザー・ウルフへの影響だ。部屋の中で私の真向いに座っているこの人物は、今ではもう将来を嘱望される人懐こい弟子ではなく、目が座った狂信者だった。彼は精神的なレベルでこのクリスタルの奇妙な誘引力に触れていた。ここ数日は礼拝にも来ず、風呂も入らず、食事もとらない。名前を呼んでも知らんぷりで、周りに人がいることに気づくとようやく、嫌らしい笑みを浮かべて返事をするのだ。私は人が死者を嘆き悲しむように、彼のことを深く悲しんでいた。彼は一日中、クリスタルをじっと見つめているか、口笛を吹きながら弄んでいる。渦を巻くクリスタルの表面が赤くきらめく。私の祈りは何の意味もなさない。\n\nどんな調査も、どんな修行も、私が求めている答えを与えてはくれない。この奇妙な物体は一体何なんだ？ どこから魔力を得ている？ 誰が作った？ なぜ私の前に現れた？ 私の大切な友を傷つける事なく、どうやって処分すればいい？ 次々と質問が湧いてきたが、答えは一つも見つからない。\n\n明日になればミサールが答えてくれるかも。ミサールは決して私を失望させない。",
+      "zh": "周四\n\n那块奇怪的水晶就在我的桌子上。我的眼睛无法离开它。这并不是出于崇拜，甚至不是出于迷恋，而是出于一种紧张的、不祥的恐惧，这种恐惧永远不会从我的脑海中消失，即使我晚上躺在床上，希望我没有把这该死的东西从地下带出来，从而使我年轻的孩子们young charges完蛋。\n\n也许最麻烦的事情是水晶如何影响年轻的伍尔夫修士的。坐在我对面的这个人不再是我聪明、友好的学徒，而是一个目光呆滞的狂热分子。水晶的奇异魅力在某种精神层面上触动了他。他已经几天没去做礼拜了。他不洗澡，也不吃东西。他对自己的名字没有反应，当他注意到周围的人时，他会发出粗噶的冷笑。我为他哀悼，就像人们哀悼死者一样。他整天盯着水晶，或者吹着口哨玩弄它，使它旋转的红色表面闪闪发光。我的祈祷没用。\n\n我所有的研究，所有的训练，都没有提供我想要的答案。这种奇怪的物质是什么？它的魔力从何而来？是什么创造了它，它是如何在我们的布道团之下的？更重要的是，我怎样才能在不伤害我亲爱的朋友的情况下把它处理掉呢？这么多问题，却没有答案。\n\n也许明天米萨鲁会给我答案。他还没有让我失望过。"
+    },
+    {
+      "id": "25680",
+      "before": "에테어(Etair) 신부와 제자들은 수많은 실험을 했다. 그는 연금술과 다른 종족의 마법에 큰 관심을 보였다. 그 증거는 곳곳에 남아 있다.",
+      "after": "에테어 신부(Father Etair)와 제자들은 수많은 실험을 했다. 그는 연금술과 다른 종족의 마법에 큰 관심을 보였다. 그 증거는 곳곳에 남아 있다.",
+      "en": "Father Etair and his apprentices conducted many experiments. He had a strong interest in alchemy, and the magic of other races. There is proof of it everywhere.",
+      "ja": "神官エタイアは弟子とともに数多くの実験を行った。錬金術と他の種族の魔法に、強い興味を抱いていたんだ。その証拠はいたるところにある",
+      "zh": "埃泰尔神父和他的学徒二人进行了许多实验。他对炼金术和其他种族的魔法，都有着浓厚兴趣。到处都能找到证据。"
+    },
+    {
+      "id": "25868",
+      "before": "딘웰(Dynwel) 신부",
+      "after": "딘웰 신부(Father Dynwel)",
+      "en": "Father Dynwel",
+      "ja": "神官ディンウェル",
+      "zh": "迪恩维尔神父"
+    },
+    {
+      "id": "28964",
+      "before": "이제 에테어(Etair) 신부께서 평안하시기를.",
+      "after": "이제 에테어 신부(Father Etair)께서 평안하시기를.",
+      "en": "I hope Father Etair is at peace, now.",
+      "ja": "神官エタイアの御霊が安らかなことを願う",
+      "zh": "希望现在埃泰尔神父能够安息。"
+    },
+    {
+      "id": "30034",
+      "before": "확인해 보겠습니다, 형제님.",
+      "after": "확인해 보겠습니다, 수사님.",
+      "en": "I will check, Brother.",
+      "ja": "確かめてこよう、ブラザー",
+      "zh": "我看一下，修士。"
+    },
+    {
+      "id": "30452",
+      "before": "선교원을 둘러보고 형제 수도자들에게 인사해. 우리가 사랑하는 에간(Egan)을 데려온 영웅을 만나면 무척 기뻐할 거야.",
+      "after": "선교원을 둘러보고 수사들에게 인사해. 우리가 사랑하는 에간(Egan)을 데려온 영웅을 만나면 무척 기뻐할 거야.",
+      "en": "Explore the mission and introduce yourself to the brothers. They will be very pleased to meet the hero who brought back our beloved Egan.",
+      "ja": "修道院の中を回って修道士達に会ってやってくれ。我らのイーガンを連れ戻してくれた英雄に会えたならば、皆も喜ぶことだろう",
+      "zh": "参观一下布道所，然后向修士们做个自我介绍。他们会很乐意见到把我们深爱的伊根带回来的英雄。"
+    },
+    {
+      "id": "30884",
+      "before": "위대한 미사루(Mitharu)시여! 서품서(Ordination Tome)까지 찾았군! 딘웰(Dynwel) 신부의 표정을 보려면 금화 한 자루라도 내겠어.",
+      "after": "위대한 미사루(Mitharu)시여! 서품서(Ordination Tome)까지 찾았군! 딘웰 신부(Father Dynwel)의 표정을 보려면 금화 한 자루라도 내겠어.",
+      "en": "Great Mitharu! You've found the ordination tome! I'd give a sack of gold to see the look on Father Dynwel's face.",
+      "ja": "偉大なるミサールよ！ 聖職授任式の書を見つけたのね！ ディンウェル神官がどんな顔するか、大金を払ってでも見たいわね",
+      "zh": "伟大的米萨鲁！你已经找到了圣职书！我真想花一袋金子去看看迪恩维尔神父脸上的表情。"
+    },
+    {
+      "id": "30886",
+      "before": "미사루(Mitharu)시여, 에테어(Etair) 신부의 영혼을 축복하소서.",
+      "after": "미사루(Mitharu)시여, 에테어 신부(Father Etair)의 영혼을 축복하소서.",
+      "en": "Mitharu, bless Father Etair's spirit.",
+      "ja": "神官エタイアの魂にミサールの祝福を",
+      "zh": "米萨鲁，请保佑埃泰尔神父的灵魂。"
+    },
+    {
+      "id": "31210",
+      "before": "에테어(Etair) 신부가 세상을 떠났다는 소식은 그를 알던 우리 모두에게 큰 충격이었습니다.",
+      "after": "에테어 신부(Father Etair)가 세상을 떠났다는 소식은 그를 알던 우리 모두에게 큰 충격이었습니다.",
+      "en": "The news of Father Etair's passing has come as a shock to all of us who knew him.",
+      "ja": "神官エタイアの悲報に、彼を知る者誰もが驚き、胸を痛めているところだ",
+      "zh": "埃泰尔神父过世的消息，对我们所有这些认识他的人来说，都是晴天霹雳。"
+    },
+    {
+      "id": "33567",
+      "before": "성 오드윅 선교원(St. Odwig's Mission)의 눅 수사입니다.",
+      "after": "성 오드윅 선교원(St. Odwig's Mission)의 눅 수사(Brother Nuk)입니다.",
+      "en": "Brother Nuk, of St. Odwig's Mission.",
+      "ja": "聖オドウィグ修道院のブラザー・ナーク",
+      "zh": "圣奥德威格布道所的纳克修士。"
+    },
+    {
+      "id": "34405",
+      "before": "형제들과 나는 권위회의 명령에 따라 에테어(Etair) 신부의 마지막 의식을 준비하고 있어. 그분께서는 미사루(Mitharu) 곁에 계셔.",
+      "after": "수사들과 나는 권능자(Authority)의 뜻에 따라 에테어 신부(Father Etair)의 장례 의식을 준비하고 있어. 그분께서는 미사루(Mitharu) 곁에 계셔.",
+      "en": "The brothers and I are preparing to give Father Etair last rites, in keeping with the Authority's order. His place is by Mitharu's side.",
+      "ja": "\"創造主\"の命に従い、修道士たちと神官エタイアの葬儀の準備をしているんだ。彼はミサールのもとにいる",
+      "zh": "弟兄们和我正在给埃泰尔神父准备最后的仪式，遵循至高之道。他已伴随在米萨鲁身侧。"
+    },
+    {
+      "id": "34907",
+      "before": "에테어(Etair) 신부의 제자가 실종됐다. 이유라도 알 수 있으면 좋으련만.",
+      "after": "에테어 신부(Father Etair)의 제자가 실종됐다. 이유라도 알 수 있으면 좋으련만.",
+      "en": "Father Etair's apprentice has gone missing. I only wish I knew why.",
+      "ja": "神官エタイアの弟子が行方不明だ。その理由が分かればいいんだが",
+      "zh": "埃泰尔神父的学徒失踪了。我只想知道为什么。"
+    },
+    {
+      "id": "37374",
+      "before": "선교회의 형제들이 마을의 다른 사람들에게도 위안을 줄 수 있으면 좋겠어. 우리 고충을 전혀 모르는 것 같아.",
+      "after": "선교회의 수사들이 마을의 다른 사람들에게도 위안을 줄 수 있으면 좋겠어. 우리 고충을 전혀 모르는 것 같아.",
+      "en": "I wish the brothers of the mission could offer the rest of us in town some solace. They seem completely ignorant of our troubles.",
+      "ja": "修道院の人が、街のみんなに安らぎを与えてくれるといいのに。私たちの問題にはまるで興味がないようね",
+      "zh": "我希望布道所的修士们能给我们镇上的其他人一些安慰。他们似乎完全不知道我们的困难。"
+    },
+    {
+      "id": "37543",
+      "before": "글렌다라 숲(Glendara Wood)에서 뒤집힌 수레 옆에 있는 팰런 수사(Brother Fallon)의 시신을 찾았다. 그는 죽었으니 마시 신부가 부탁한 대로 묵주를 돌려줘야겠다.",
+      "after": "글렌다라 숲(Glendara Wood)에서 뒤집힌 수레 옆에 있는 팰런 수사(Brother Fallon)의 시신을 찾았다. 그는 죽었으니 마시 신부(Father Marsh)가 부탁한 대로 묵주를 돌려줘야겠다.",
+      "en": "I found Brother Fallon's body by the overturned cart in Glendara wood. Since he is dead, I should return the prayer beads as Father Marsh asked.",
+      "ja": "グレンダーラの森のひっくり返った荷馬車の側で、ブラザー・ファロンの死体を見つけた。既に亡くなっているので、ブラザー・ウドに言われた通り、祈りのビーズを持ち帰ろう。",
+      "zh": "我在格伦达拉森林翻倒的马车旁发现了法伦修士的尸体。既然他死了，我应该按照马什神父的要求归还念珠。"
+    },
+    {
+      "id": "37887",
+      "before": "미사루(Mitharu)라고? 절대 아니야. 에테어(Etair) 신부도 아니고. 시녀(The Maid)의 말이 맞았어. 이 수정에는 고통을 끝낼 힘이 있어. 이제 네 고통도 끝내기로 했어.",
+      "after": "미사루(Mitharu)라고? 절대 아니야. 에테어 신부(Father Etair)도 아니고. 시녀(The Maid)의 말이 맞았어. 이 수정에는 고통을 끝낼 힘이 있어. 이제 네 고통도 끝내기로 했어.",
+      "en": "Mitharu? Never. Father Etair? No. The Maid was right. The crystal gives the power to end the pain. And now I choose to end yours.",
+      "ja": "ミサールなんてとんでもない。神官エタイアも駄目だ。\"ウィンダメアの烈女\"が正しかった。クリスタルは苦しみを止める力をくれる。お前の息の根を止める番だ",
+      "zh": "米萨鲁？才没有。埃泰尔神父？不。少女是对的。水晶能够赋予力量来结束这些痛苦。而现在我就选择结束你的痛苦。"
+    },
+    {
+      "id": "39687",
+      "before": "우리는 리리아(Lyria)의 형제자매라 불린다.",
+      "after": "우리는 리리아(Lyria)의 수녀와 수사라 불린다.",
+      "en": "Sisters and Brothers of Lyria. That is how we are called.",
+      "ja": "リリアの申し子。我々はそう呼ばれている",
+      "zh": "莉里亚的兄弟姐妹们。这就是我们的名字。"
+    },
+    {
+      "id": "40271",
+      "before": "믿을 수 없어. 에테어(Etair) 신부가 살해당했어. 서재도 난장판이야.",
+      "after": "믿을 수 없어. 에테어 신부(Father Etair)가 살해당했어. 서재도 난장판이야.",
+      "en": "It is incredible. Father Etair has been murdered. His study torn apart.",
+      "ja": "信じられないことに、神官エタイアが殺された。研究が台なしだ",
+      "zh": "真不可思议。埃泰尔神父被谋杀了。他的研究也是一片狼藉。"
+    },
+    {
+      "id": "41033",
+      "before": "에간 수사(Brother Egan)를 그의 자리인 성 오드윅 선교관(St. Odwig's Mission)으로 데려갈 때야. 막내 제자를 찾아냈으니 딘웰(Dynwel) 신부도 기뻐하시겠지. 선교관은 야영지 남쪽 고어하트(Gorhart) 마을에 있어.",
+      "after": "에간 수사(Brother Egan)를 그의 자리인 성 오드윅 선교관(St. Odwig's Mission)으로 데려갈 때야. 막내 제자를 찾아냈으니 딘웰 신부(Father Dynwel)도 기뻐하시겠지. 선교관은 야영지 남쪽 고어하트(Gorhart) 마을에 있어.",
+      "en": "It is time to bring Brother Egan back to St. Odwig's Mission, where he belongs. Father Dynwel should be pleased that I've found his youngest charge. The mission is south of the camp, in the village of Gorhart.",
+      "ja": "ブラザー・イーガンを彼の居場所である聖オドウィグ修道院へ連れ帰ろう。最年少の僧侶が無事に見つかり、ディンウェル神父も喜ぶだろう。修道院はキャンプの南、ゴーハート村にある。",
+      "zh": "是时候将伊根修士带回圣奥德威格布道所了，那里才是他的归宿。我找回了他最年轻的学徒，丁维尔神父应该会感到高兴。布道所在营地南方，郭哈特镇中。"
+    },
+    {
+      "id": "41196",
+      "before": "필멸자인 에테어(Etair) 신부가 설계했고, 마법이 깃든 케언(Cairn)의 껍질은 백색의 할람(Hallam the White)과 내가 함께 만들었지. 정말 대단한 발견이야.",
+      "after": "필멸자인 에테어 신부(Father Etair)가 설계했고, 마법이 깃든 케언(Cairn)의 껍질은 백색의 할람(Hallam the White)과 내가 함께 만들었지. 정말 대단한 발견이야.",
+      "en": "They were designed by Father Etair, a mortal, and I worked with Hallam the White to fashion the enchanted Cairn shell itself. Quite a discovery, they are.",
+      "ja": "設計したのは、定命の者である神官エタイアよ。魔法のケルンを覆う殻は、白のハラムと一緒に作り上げたわ。素晴らしい発見よね",
+      "zh": "它们是由凡人埃泰尔神父设计，此后我又和白发哈拉姆一起改良了这些魔力灵球的外壳。实在是不错的发现。"
+    },
+    {
+      "id": "41367",
+      "before": "화요일\n\n오늘 아침 마침내 돌파구를 찾았다. 대단한 모험이었다. 나는 여러 줄과 목재에 매달려 꼭두각시처럼 흔들리며 앞장섰다. 짜릿했다! 고백하건대, 그렇게 숨 막히는 위험은 선교관 신부의 일상적인 업무가 아니다. 물론 기도 말고 무엇이 있겠는가? 당장이라도 다시 해보고 싶다. 정말 짜릿했다!\n\n옛 우물은 예상보다 상태가 좋았다. 울프(Wulf) 수사와 나는 몇 시간 동안 파내 무너진 돌 틈을 통과했고, 곧 아래쪽 호수에 닿았다. 수위가 낮았다. 이번 봄 하크시(Haxhi)를 덮친 끝없는 더위 때문일 것이다. 하늘꽃(Sky Blossom)과 코호시가 건강하기를 하루도 빠짐없이 기도한다. 권능자여, 이 숨 막히는 불볕에서 그들을 지켜주소서!\n\n도르래 줄을 준비하고 잔해를 치우던 중 가장 기묘한 일이 벌어졌다. 땅속, 우물 깊숙한 곳에서 울프(Wulf)가 흥미로운 것을 발견했다. 수정이었다. 보석과 돌은 숱하게 봤지만, 평생 이런 것은 본 적이 없다.\n\n그 수정에 마력이 깃들어 있음은 분명하다. 표면에서 물 위에 흔들리는 빛처럼 잔물결치는 기운이 움직인다. 하지만 실험을 더 해보지 않고는 그 이상 알아낼 수 없다. 앞으로 며칠은 가까이에서 자세히 관찰해야겠다.",
+      "after": "화요일\n\n오늘 아침 마침내 돌파구를 찾았다. 대단한 모험이었다. 나는 여러 줄과 목재에 매달려 꼭두각시처럼 흔들리며 앞장섰다. 짜릿했다! 고백하건대, 그렇게 숨 막히는 위험은 선교관 신부의 일상적인 업무가 아니다. 물론 기도 말고 무엇이 있겠는가? 당장이라도 다시 해보고 싶다. 정말 짜릿했다!\n\n옛 우물은 예상보다 상태가 좋았다. 울프 수사(Brother Wulf)와 나는 몇 시간 동안 파내 무너진 돌 틈을 통과했고, 곧 아래쪽 호수에 닿았다. 수위가 낮았다. 이번 봄 하크시(Haxhi)를 덮친 끝없는 더위 때문일 것이다. 하늘꽃(Sky Blossom)과 코호시가 건강하기를 하루도 빠짐없이 기도한다. 권능자여, 이 숨 막히는 불볕에서 그들을 지켜주소서!\n\n도르래 줄을 준비하고 잔해를 치우던 중 가장 기묘한 일이 벌어졌다. 땅속, 우물 깊숙한 곳에서 울프(Wulf)가 흥미로운 것을 발견했다. 수정이었다. 보석과 돌은 숱하게 봤지만, 평생 이런 것은 본 적이 없다.\n\n그 수정에 마력이 깃들어 있음은 분명하다. 표면에서 물 위에 흔들리는 빛처럼 잔물결치는 기운이 움직인다. 하지만 실험을 더 해보지 않고는 그 이상 알아낼 수 없다. 앞으로 며칠은 가까이에서 자세히 관찰해야겠다.",
+      "en": "Tuesday\n\nWe broke through this morning. It was a grand adventure. I led the way, dangling from a series of cords and timbers, a puppet on a string. Exciting! I must confess that such breathtaking risks are not the usual labors of a mission father. Of course, what is but prayer? I would do it again in an instant. Exciting!\n\nThe old well was in better condition that we'd anticipated. Brother Wulf and I were able to penetrate the collapsed stone within several hours of digging, and soon reached the lake beneath. Water levels were low, likely because of the endless heat we've been experiencing in Haxhi this spring. Not a day passes that I don't pray for the health of my Sky Blossom and Cohosh. May the Authority protect them from this oppressive blaze!\n\nAs we prepared the pulley lines and removed debris, the oddest thing happened. Beneath the earth, far in the depths of the well, Wulf made an interesting discory. It was a crystal. I've seen a great many gems and stones, but I've never seen anything like this in all of my days.\n\nIt is quite obvious to me that the crystal possesses magical properties, for is surface moves with a rippling aura, like light wavering over the water, but that is all I can gather without performing more experiments. My next few days will be spent in close observation.",
+      "ja": "火曜\n\n今朝、ついにやった。大変な冒険だった。無数の縄や木の枝につかまり、操り人形のようになりながら、私は先に進んだ。ゾクゾクした！ 正直に言うと、伝道師をしていてそこまでハラハラするような危険を冒すことはまずない。当たり前だが、祈ってばかりだ。次があるならすぐにでもやりたい。実に刺激的だった！\n\nその古井戸は思ったよりも状態がよかった。ブラザー・ウルフと私とで何時間か掘り続けて、崩れた石の隙間を通り抜けることができた。そして地底湖に到達した。水位は低い。この春、ハクシを見舞っている酷暑のせいだろう。我がスカイブロッサムとコホシュの健康を祈らない日など一日としてない。\"創造主\"よ、この抑圧的な炎からお守りたまえ！\n\n滑車のケーブルを引き、ガレキを取り除いていると、とても奇妙な事が起きた。この地の底で、井戸のはるか奥深くで、ウルフが興味深い発見をしたのだ。それはクリスタルだった。立派な宝石や石ならいくらでも見た事があるが、これほどの代物は初めてだった。\n\nそのクリスタルが魔力を秘めているのは明白だ。水の上で明かりを振ったときのように、クリスタルの表面でオーラが波打っている。だが、あとは実験を重ねてみないと何とも言えない。数日かけてじっくり観察してみたい。",
+      "zh": "周二\n\n我们在今天早上取得了突破。这是一次伟大的冒险。我走在前面，挂在一串绳子和木头上，像一个被吊在绳子上的木偶。真令人兴奋！我必须承认，这种惊险的冒险并非一个布道神父的日常工作。当然了，除了祈祷还有什么是呢？我向马上再做一次。真令人兴奋！\n\n这口老井的状况比我们预期的要好。我和伍尔夫修士只挖了几个小时，就挖通了坍塌的石头，很快就抵达了下面的湖里。水位很低，可能是因为今年春天的哈克希经历了无尽的高温。没有一天我不在为我的天空之花和升麻的健康祈祷。愿当局保护它们免受这场凶猛的大火的危害！\n\n在我们准备滑轮线和清除碎片时，最奇怪的事情发生了。在地下，在井的深处，伍尔夫有了一个有趣的发现。那是一块水晶。我见过很多宝石和石头，但我从来没见过这样的东西。\n\n我能明显看出，这块水晶具有魔法属性，因为它的表面有着涟漪状波动的光环，就像光在水面上摇摆一样，但这仅仅是我在没有做更多实验的情况下获得的信息。接下来的几天我将仔细观察。"
+    },
+    {
+      "id": "41369",
+      "before": "에테어(Etair) 신부가 이 수정에 무슨 짓을 했어... 마법으로 숨겼다고. 사제가 마법을 쓰다니. 용서할 수 없어!",
+      "after": "에테어 신부(Father Etair)가 이 수정에 무슨 짓을 했어... 마법으로 숨겼다고. 사제가 마법을 쓰다니. 용서할 수 없어!",
+      "en": "Father Etair did something to this crystal... hid it by way of magic. A priest using magic. Unforgivable!",
+      "ja": "神官エタイアがこのクリスタルを魔法で隠したんだ。神官が魔法を使うなんて、許されることじゃない！",
+      "zh": "埃泰尔神父对这没水晶做了什么……用魔法隐藏了它。使用魔法的祭司。不可原谅！"
+    },
+    {
+      "id": "41489",
+      "before": "에테어(Etair) 신부와 그의 제자 울프(Wulf) 수사야. 진짜 부자처럼 늘 붙어 다녔지. 둘은 연금술에 대한 사랑을 나누며 가까워졌어.",
+      "after": "에테어 신부(Father Etair)와 그의 제자 울프 수사(Brother Wulf)야. 진짜 부자처럼 늘 붙어 다녔지. 둘은 연금술에 대한 사랑을 나누며 가까워졌어.",
+      "en": "Father Etair and his apprentice Brother Wulf. They were inseparable, like a true father and son. It was a shared love of alchemy that brought them together.",
+      "ja": "神官エタイアと弟子のブラザー・ウルフだ。彼らは実の親子のように切り離せない仲だった。錬金術により引き合わされ、錬金術への愛を分かち合っていたんだ",
+      "zh": "埃泰尔神父和他的学徒伍尔夫修士。他们两个形影不离，就像真正的父子一样。是对炼金术的共同热爱让他们聚在一起。"
+    },
+    {
+      "id": "42070",
+      "before": "계속 나아가려면 가까이 있어 줘. 솔직히 난 용기라곤 없어. 딘웰(Dynwel) 신부에게 물어봐.",
+      "after": "계속 나아가려면 가까이 있어 줘. 솔직히 난 용기라곤 없어. 딘웰 신부(Father Dynwel)에게 물어봐.",
+      "en": "If we're going to press on, then I'll ask you to stay close. I have no courage to speak of. Honest. Ask Father Dynwel.",
+      "ja": "もし続けるなら、近くにいてほしい。正直、口にする勇気がないんだ。ディンウェル神父に聞いてくれ",
+      "zh": "如果我们要继续前进，那你就跟紧点。我没有勇气可言。真的。问丁维尔神父。"
+    },
+    {
+      "id": "43473",
+      "before": "그것들은 필멸자인 에테어(Etair) 신부가 설계했고, 마법의 케언(Cairn) 껍데기는 내가 백색의 할람(Hallam the White)과 함께 만들었어. 정말 놀라운 발견이지.",
+      "after": "그것들은 필멸자인 에테어 신부(Father Etair)가 설계했고, 마법의 케언(Cairn) 껍데기는 내가 백색의 할람(Hallam the White)과 함께 만들었어. 정말 놀라운 발견이지.",
+      "en": "They were designed by Father Etair, a mortal, and I worked with Hallam the White to fashion the enchanted Cairn shell itself. Quite a discovery, they are.",
+      "ja": "設計したのは、定命の者である神官エタイアよ。魔法のケルンを覆う殻は、白のハラムと一緒に作り上げたわ。素晴らしい発見よね",
+      "zh": "它们是由凡人埃泰尔神父设计，此后我又和白发哈拉姆一起改良了这些魔力灵球的外壳。实在是不错的发现。"
+    },
+    {
+      "id": "44623",
+      "before": "성 오드윅 영구 선교회(St. Odwig's Perpetual Mission)의 딘웰(Dynwel) 신부는 자신이 돌보는 막내 수도사, 에간 수사(Brother Egan)를 걱정하고 있다. 그는 선교회 북쪽 숲으로 사라졌다. 숲을 수색해 그가 어떻게 됐는지 알아봐야 한다.",
+      "after": "성 오드윅 영구 선교회(St. Odwig's Perpetual Mission)의 딘웰 신부(Father Dynwel)는 자신이 돌보는 막내 수도사, 에간 수사(Brother Egan)를 걱정하고 있다. 그는 선교회 북쪽 숲으로 사라졌다. 숲을 수색해 그가 어떻게 됐는지 알아봐야 한다.",
+      "en": "Father Dynwel of St. Odwig's Perpetual Mission is worried about his youngest monk in his care, Brother Egan. The monk disappeared into the woods north of the mission. I should explore the forest for this lost soul and learn what became of him.",
+      "ja": "聖オドウィグ終身修道院のディンウェル神父が、一番若い修道士のブラザー・イーガンを心配している。修道院の北の森で行方不明になったという。森を捜索して、悩める魂の消息を突き止めよう。",
+      "zh": "圣奥德威格永恒布道所的丁维尔神父为他手下最年轻的僧侣，伊根修士，感到担忧。这名僧侣在修道院北边的树林中消失了。我应该搜索那片森林，了解他到底发生了什么。"
+    },
+    {
+      "id": "44854",
+      "before": "딘웰(Dynwel) 신부가 보냈군, 그렇지? 늙은 바보 같으니. 힘을 얻는 길이 너무 더뎠다고 이제는 나까지 늦추려는 거야. 뭐, 난 새 친구들이 있어. 페이(Fae) 친구들 말이야.",
+      "after": "딘웰 신부(Father Dynwel)가 보냈군, 그렇지? 늙은 바보 같으니. 힘을 얻는 길이 너무 더뎠다고 이제는 나까지 늦추려는 거야. 뭐, 난 새 친구들이 있어. 페이(Fae) 친구들 말이야.",
+      "en": "Father Dynwel sent you, didn't he? Old fool. His path to power was too plodding, and now he wishes to slow me down, too. Well, I have new friends, Fae friends.",
+      "ja": "ディンウェル神父の差し金だな？ 愚かな年寄りめ。自分の力が伸びないからって足止めするつもりか。こっちには新しいフェイの友達ができたんだ",
+      "zh": "丁维尔神父派你来的，是吗？老蠢货。他追寻力量的道路太乏味了，现在他想让我也慢下来。嗯，我有了新朋友，灵族的朋友。"
+    },
+    {
+      "id": "45181",
+      "before": "딘웰(Dynwel) 신부가 미사루(Mitharu)는 남신이었다고 해도 믿지 마. 미사루(Mitharu)는 필멸자가 아니라 신이야. 그분은 우리 모두이지, 우리 중 일부만이 아니야!",
+      "after": "딘웰 신부(Father Dynwel)가 미사루(Mitharu)는 남신이었다고 해도 믿지 마. 미사루(Mitharu)는 필멸자가 아니라 신이야. 그분은 우리 모두이지, 우리 중 일부만이 아니야!",
+      "en": "Don't believe Father Dynwel when he tells you that Mitharu was male. Mitharu is a god, not a mortal. She is all of us, not some of us!",
+      "ja": "神官ディンウェルは、ミサールが男だと言っている。信じないで。ミサールは神で、定命の者ではない。私たち全てであり、誰かではない！",
+      "zh": "当迪恩维尔神父告诉你米萨鲁是男性时，不要相信他。米萨鲁是一个神，不是凡人。她是我们所有人，而不是我们中的一部分！"
+    },
+    {
+      "id": "45193",
+      "before": "울프(Wulf) 수사와 에테어(Etair) 신부는 무척 가까운 사이였어. 분노한 채 우정을 끝냈다니 마음이 아프군.",
+      "after": "울프 수사(Brother Wulf)와 에테어 신부(Father Etair)는 무척 가까운 사이였어. 분노한 채 우정을 끝냈다니 마음이 아프군.",
+      "en": "Brother Wulf and Father Etair were very close. It breaks my heart to know they ended their friendship in anger.",
+      "ja": "ブラザー・ウルフと神官エタイアはとても親しくしていた。その友情を怒りで終わらせたなんて、残念で仕方ないよ",
+      "zh": "伍尔夫修士和埃泰尔神父一度很亲密。他们的友谊在怒火中结束，真让我伤心。"
+    },
+    {
+      "id": "45579",
+      "before": "에테어(Etair) 신부는 수정에 깃든 마법이 노래의 음과 장단에 반응한다고 믿었어. 마치 살아 있는 것처럼 말이지.",
+      "after": "에테어 신부(Father Etair)는 수정에 깃든 마법이 노래의 음과 장단에 반응한다고 믿었어. 마치 살아 있는 것처럼 말이지.",
+      "en": "Father Etair believed that the magic within the crystals responded to the tones and rhythms of song, almost as if they were a living thing.",
+      "ja": "神官エタイアはクリスタルに魔法が秘められていると信じていた。まるで生きているかのように、歌の音色やリズムに反応するからな",
+      "zh": "埃泰尔神父认为这些水晶中的魔法会回应歌谣的旋律，就好像是活物一般。"
+    },
+    {
+      "id": "47103",
+      "before": "형제의 죽음은 가혹한 교훈이야. 우도 수사(Brother Udo)처럼 명상하며 슬픔 너머를 바라봐야겠어.",
+      "after": "동료 수사의 죽음은 가혹한 교훈이야. 우도 수사(Brother Udo)처럼 명상하며 슬픔 너머를 바라봐야겠어.",
+      "en": "Our brother's death is a hard lesson. I must meditate to see beyond the sorrow, as does Brother Udo.",
+      "ja": "仲間の死は辛い教訓だ。ブラザー・ウドにならって、悲しみの向こう側にあるものについて瞑想するとしよう",
+      "zh": "我们兄弟的死是一个惨痛的教训。我必须像乌多修士一样，用沉思遗忘悲伤。"
+    },
+    {
+      "id": "47881",
+      "before": "형제여, 무슨 생각을 하고 있나?",
+      "after": "수사님, 무슨 생각을 하고 계신가요?",
+      "en": "What's on your mind, Brother?",
+      "ja": "何が気になるのか？",
+      "zh": "修士，你在想什么？"
+    },
+    {
+      "id": "47890",
+      "before": "그분은 에테어(Etair) 신부야. 수도사이자 연금술사고, 믿을 수 있는 친구지. 에테어라면 우리가 찾는 답을 알고 있을지도 몰라.",
+      "after": "그분은 에테어 신부(Father Etair)야. 수도사이자 연금술사고, 믿을 수 있는 친구지. 에테어(Etair)라면 우리가 찾는 답을 알고 있을지도 몰라.",
+      "en": "His name is Father Etair. He is a monk and an alchemist, and a trusted friend. Etair may have the answers we seek.",
+      "ja": "その名を神官エタイアという。修道士でもあり錬金術師でもある、信頼の置ける友人だ。エタイアなら、求める答えを知っているかも知れない",
+      "zh": "他叫埃泰尔神父。是个僧侣也是炼金师，还是值得信赖的朋友。埃泰尔或许有我们问题的答案。"
+    },
+    {
+      "id": "48417",
+      "before": "에테어(Etair) 신부와 울프(Wulf) 수사는 성 이드릭 선교원(St. Eadric's Mission) 우물을 발굴하다가 기이한 수정 몇 개를 발견했다. 그 수정들이 사라진 모양이다. 우물부터 찾아봐야겠다. 에테어(Etair)는 살해당하기 직전 물을 길으러 가는 모습이 목격됐다.",
+      "after": "에테어 신부(Father Etair)와 울프 수사(Brother Wulf)는 성 이드릭 선교원(St. Eadric's Mission) 우물을 발굴하다가 기이한 수정 몇 개를 발견했다. 그 수정들이 사라진 모양이다. 우물부터 찾아봐야겠다. 에테어(Etair)는 살해당하기 직전 물을 길으러 가는 모습이 목격됐다.",
+      "en": "Father Etair and Brother Wulf discovered some strange crystals during an excavation in the St. Eadric's Mission well. They seem to have disappeared. I should search the well first. Etair was seen fetching water just before his murder.",
+      "ja": "神官エタイアとブラザー・ウルフが聖イードリック修道院の井戸の掘削中に見つけたという、不思議なクリスタルが消えてしまった。まず泉を探そう。神官エタイアは死の直前に水を汲みに行った所を目撃されている。",
+      "zh": "埃泰尔神父和伍尔夫修士在圣艾德里克布道所的水井进行开采时，发现了一些奇怪的水晶。这些水晶似乎不见了。我应该先去调查那口水井。埃泰尔被杀之前，有人看到他在打水。"
+    },
+    {
+      "id": "49313",
+      "before": "그가 나를 형제들 사이로 다시 받아 준 건 참 고마운 일이야. 시간이 걸리겠지만, 다시 그의 마음을 얻어 볼게. 난 믿어.",
+      "after": "그가 나를 수사들 사이로 다시 받아 준 건 참 고마운 일이야. 시간이 걸리겠지만, 다시 그의 마음을 얻어 볼게. 난 믿어.",
+      "en": "He is a kind man for taking me back among the brothers. It will take time, but I will work my way into his heart again. I have faith.",
+      "ja": "彼は心優しい人だ。俺を再び迎え入れてくれた。時間はかかるだろうけど、信仰を説いて神の愛を取り戻してみせるよ",
+      "zh": "他是个好人，把我带回同胞身边。这很花时间，不过我会再次走进他的内心。我有信念。"
+    },
+    {
+      "id": "49413",
+      "before": "서머스 엔드(Summer's End)의 야생 페이(Wild Fae)들은 시녀(The Maid)의 마법으로 온순해져 있다. 그 힘은 성 이드릭(St. Eadric) 선교회의 수도사들을 미치게 한 바로 그 정체불명의 수정에서 나온다. 울프(Wulf) 수사의 피리를 불면 수정을 찾아 파괴할 수 있을지도 모른다.",
+      "after": "서머스 엔드(Summer's End)의 야생 페이(Wild Fae)들은 시녀(The Maid)의 마법으로 온순해져 있다. 그 힘은 성 이드릭(St. Eadric) 선교회의 수도사들을 미치게 한 바로 그 정체불명의 수정에서 나온다. 울프 수사(Brother Wulf)의 피리를 불면 수정을 찾아 파괴할 수 있을지도 모른다.",
+      "en": "The wild Fae in Summer's End are kept pacified by the Maid's enchantments, which are powered by the same mysterious crystal that drove the monks at St. Eadric's to madness. Perhaps if I use Brother Wulf's whistle I can find and destroy them.",
+      "ja": "サマーズ・エンドの野生のフェイは、\"ウィンダメアの烈女\"の魔法により静められている。使われているのは、聖イードリックの修道士の正気を失わせた物と同じ、謎のクリスタルだ。ブラザー・ウルフの笛を使えば、破壊できるかも知れない。",
+      "zh": "这位住在夏之终焉的荒野灵族在少女的魔法下非常平静，并获得了使圣艾德里克的僧侣变得疯狂的神秘水晶的强化。或许，如果我使用伍尔夫修士的长笛，就能找到并摧毁这些水晶。"
+    },
+    {
+      "id": "49524",
+      "before": "제프(Geoff) 수사",
+      "after": "제프 수사(Brother Geoff)",
+      "en": "Brother Geoff",
+      "ja": "ブラザー・ジェフ",
+      "zh": "杰夫修士"
+    },
+    {
+      "id": "53444",
+      "before": "틸(Til)의 분실된 책을 전부 회수했다. 오다라스(Odarath)의 성 오드윅 영구 선교회(St. Odwig's Perpetual Mission)로 가서 경전 도서관에 돌려줘야겠다.",
+      "after": "틸 수사(Brother Til)의 분실된 책을 전부 회수했다. 오다라스(Odarath)의 성 오드윅 영구 선교회(St. Odwig's Perpetual Mission)로 가서 경전 도서관에 돌려줘야겠다.",
+      "en": "I've recovered all of Brother's Til's missing books. I should travel to St. Odwig's Perpetual Mission in Odarath and return them to the scripture library.",
+      "ja": "ブラザー・ティルの行方不明の本を回収した。オダラスの聖オドウィグ終身修道院へ行き、聖書図書館に返却しよう。",
+      "zh": "我已经取回了蒂尔修士丢失的每一本藏书。我应该前往欧达拉斯的圣奥德威格永恒布道所，将它们放回图书馆。"
+    },
+    {
+      "id": "54922",
+      "before": "여기가 내 집이야. 딘웰 신부(Father Dynwel)가 마음을 돌린 뒤로 형제들도 날 가족으로 받아들일 수밖에 없었어. 세상을 바꾸는 데는 시간이 걸려.",
+      "after": "여기가 내 집이야. 딘웰 신부(Father Dynwel)가 마음을 돌린 뒤로 수사들도 날 가족으로 받아들일 수밖에 없었어. 세상을 바꾸는 데는 시간이 걸려.",
+      "en": "It is my home. Once Father Dynwel relented, the brothers had no choice but to accept me into their family. It takes time to change the world.",
+      "ja": "自分の家よ。神官ディンウェルが受け入れを決めたから、修道士達も従わざるを得なかった。世界を変えるには時間が必要なの",
+      "zh": "这是我家。只要迪恩维尔神父答应了，修士们就只能接受我加入他们家族，除此之外别无选择。改变世界是需要时间的。"
+    },
+    {
+      "id": "57043",
+      "before": "나… 나는… 에테어(Etair) 신부님… 내가 무슨 짓을 한 거지? 누구도 해칠 생각은 없었어. 특히 신부님을 해칠 생각은 없었어!",
+      "after": "나… 나는… 에테어 신부님(Father Etair)… 내가 무슨 짓을 한 거지? 누구도 해칠 생각은 없었어. 특히 신부님을 해칠 생각은 없었어!",
+      "en": "I... I... Oh, Father Etair... What have I done? I never meant anyone harm. Especially not the father!",
+      "ja": "ああ... 神官エタイア... 私は何をした？ 誰かを傷つけるつもりなどなかった。まさか神官をなんて！",
+      "zh": "我……我……噢，埃泰尔神父……我都做了什么？我没想让人受伤害。尤其是神父啊！"
+    },
+    {
+      "id": "57122",
+      "before": "네가 에테어(Etair) 신부님을 죽였어.",
+      "after": "네가 에테어 신부님(Father Etair)을 죽였어.",
+      "en": "You killed Father Etair.",
+      "ja": "神官エタイアを殺したな",
+      "zh": "你杀了埃泰尔神父。"
+    },
+    {
+      "id": "59619",
+      "before": "에테어(Etair) 신부님은 하루 종일 방에 틀어박혀 계셔. 뭘 연구하시는지 궁금하네.",
+      "after": "에테어 신부님(Father Etair)은 하루 종일 방에 틀어박혀 계셔. 뭘 연구하시는지 궁금하네.",
+      "en": "Father Etair has been locked in his quarters all day now. I wonder what he's working on.",
+      "ja": "神官エタイアは今、1日中部屋に閉じ籠もっている。何を研究しているのか知りたいよ",
+      "zh": "埃泰尔神父整日把自己锁在房间里。我真想知道他在研究什么。"
+    },
+    {
+      "id": "59782",
+      "before": "딘웰(Dynwel) 신부와 다른 이들은 바보야. 그들의 어리석은 선교소는 쇠락해 무너질 거야. 핀나(Finna)와 아르보스(Arbos)가 모든 것을 꿰뚫어 보는 눈으로 이미 보았지.",
+      "after": "딘웰 신부(Father Dynwel)와 다른 이들은 바보야. 그들의 어리석은 선교소는 쇠락해 무너질 거야. 핀나(Finna)와 아르보스(Arbos)가 모든 것을 꿰뚫어 보는 눈으로 이미 보았지.",
+      "en": "Father Dynwel and the others are fools, and their silly mission will wither and crumble. Finna and Arbos have glimpsed it with their ever-seeing eyes.",
+      "ja": "神官ディンウェルも他の奴らも馬鹿だ、そして下らない修道院はしぼんでバラバラになる。フィンナとアルボスは、永遠を見通す眼でそれを見たんだ",
+      "zh": "丁维尔神父和其他人都是蠢货，他们愚蠢的布道所将分崩离析。芬那和阿波斯已经用他们的永视之眼瞥见了它。"
+    },
+    {
+      "id": "62752",
+      "before": "그녀는 페이(Fae)였어. 아주 아름다웠고, 자신을 윈더미어의 시녀(Maid of Windemere)라고 했지. 에테어(Etair) 신부는 그녀의 친절을 의심해 수정을 우물에 던졌어.",
+      "after": "그녀는 페이(Fae)였어. 아주 아름다웠고, 자신을 윈더미어의 시녀(Maid of Windemere)라고 했지. 에테어 신부(Father Etair)는 그녀의 친절을 의심해 수정을 우물에 던졌어.",
+      "en": "She was a Fae, quite beautiful, called herself the Maid of Windemere. Father Etair was suspicious of her kindness and threw the crystals down the well.",
+      "ja": "フェイだ。とても美しくて、\"ウィンダメアの烈女\"と名乗った。神官エタイアは彼女の親切心を疑って、クリスタルを井戸に投げ落とした",
+      "zh": "她是个灵族，十分美丽，自称温德米尔的少女。埃泰尔神父很怀疑她的善意，把水晶丢入了井里。"
+    },
+    {
+      "id": "63356",
+      "before": "다시 만나 반갑지만, 이제 가 줘. 다른 형제들이 질문하게 둘 순 없어. 다시 한번 고맙다.",
+      "after": "다시 만나 반갑지만, 이제 가 줘. 다른 수사들이 캐묻게 해선 안 되거든. 다시 한번 고마워.",
+      "en": "It's good to see you again, but please, move on. I cannot have the other brothers asking questions. Again, thank you.",
+      "ja": "また会えてうれしいよ、だが去ってくれ。他の修道士に質問される訳には行かない。改めて、ありがとう",
+      "zh": "很高兴再次见到你，请过来。我不能让其他修士问问题。再次感谢你。"
+    }
+  ],
+  "named_title_inventory": [
+    {
+      "resource": "base",
+      "id": "387",
+      "variant": "11",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "To Brother Fallon II",
+      "ja": "ブラザー・ファロンへII",
+      "zh": "致法伦修士II",
+      "ko": "팰런 수사(Brother Fallon)에게 II"
+    },
+    {
+      "resource": "base",
+      "id": "1270",
+      "variant": "11",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "To Brother Fallon I",
+      "ja": "ブラザー・ファロンへI",
+      "zh": "致法伦修士I",
+      "ko": "팰런 수사(Brother Fallon)에게 I"
+    },
+    {
+      "resource": "base",
+      "id": "1954",
+      "variant": "11",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "Brother Delf's key",
+      "ja": "ブラザー・デルフの鍵",
+      "zh": "德尔夫修士的钥匙",
+      "ko": "델프 수사의 열쇠(Brother Delf's key)"
+    },
+    {
+      "resource": "base",
+      "id": "1993",
+      "variant": "11",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair's Desk",
+      "ja": "神官エタイアの机",
+      "zh": "埃泰尔神父的桌子",
+      "ko": "에테어 신부(Father Etair)의 책상"
+    },
+    {
+      "resource": "base",
+      "id": "2032",
+      "variant": "11",
+      "titles": [
+        "Brother Padric"
+      ],
+      "en": "Brother Padric's Travel Notes",
+      "ja": "ブラザー・パドリックの旅の手帳",
+      "zh": "帕德里克修士的旅行笔记",
+      "ko": "패드릭 수사의 여행 기록(Brother Padric's Travel Notes)"
+    },
+    {
+      "resource": "base",
+      "id": "2294",
+      "variant": "11",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "Brother Til's Collection",
+      "ja": "ブラザー・ティルのコレクション",
+      "zh": "蒂尔修士的募捐",
+      "ko": "틸 수사의 수집품(Brother Til's Collection)"
+    },
+    {
+      "resource": "default",
+      "id": "398",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "May Mitharu bless Father Etair.",
+      "ja": "神官エタイアにミサールのご加護を",
+      "zh": "愿米萨鲁保佑埃泰尔神父。",
+      "ko": "미사루(Mitharu)께서 에테어 신부(Father Etair)를 축복하시길."
+    },
+    {
+      "resource": "default",
+      "id": "540",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Where is Father Etair?",
+      "ja": "神官エタイアはどこに？",
+      "zh": "埃泰尔神父在哪儿？",
+      "ko": "에테어 신부(Father Etair)는 어디 있지?"
+    },
+    {
+      "resource": "default",
+      "id": "721",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "I've killed someone who can help me save Brother Delf from the Red Legion bandits. Now I cannot free him from the sins of his past.",
+      "ja": "ブラザー・デルフを盗賊のレッドリージョン団から救うための協力者を殺してしまった。彼を過去の罪から救うことはできない。",
+      "zh": "我杀死了那个能帮助我保护德尔夫修士不被雷德帮的强盗杀死的人。现在，我无法帮助他摆脱过去的罪孽。",
+      "ko": "레드 리전(Red Legion) 산적들로부터 델프 수사(Brother Delf)를 구하는 데 도와줄 사람을 죽였어. 이제 그를 과거의 죄에서 구해낼 수 없어."
+    },
+    {
+      "resource": "default",
+      "id": "906",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair was murdered.",
+      "ja": "神官エタイアは殺された",
+      "zh": "埃泰尔神父被杀了。",
+      "ko": "에테어 신부(Father Etair)가 살해당했어."
+    },
+    {
+      "resource": "default",
+      "id": "1438",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel has taken her in, but I must say that I am skeptical. Change is not the agent of order.",
+      "ja": "神官ディンウェルは彼女を受け入れたが、個人的にはどうかと思う。変化は秩序の代行者ではない",
+      "zh": "丁维尔神父接受了她，但我得说我持怀疑态度。改变并不是秩序的一部分。",
+      "ko": "딘웰 신부(Father Dynwel)이 그녀를 받아들였지만, 난 회의적이야. 변화가 곧 질서를 가져오는 건 아니니까."
+    },
+    {
+      "resource": "default",
+      "id": "1611",
+      "variant": "",
+      "titles": [
+        "Brother Padric"
+      ],
+      "en": "Brother Padric's Corpse",
+      "ja": "ブラザー・パドリックの死体",
+      "zh": "帕迪克修士的尸体",
+      "ko": "패드릭 수사(Brother Padric)의 시신"
+    },
+    {
+      "resource": "default",
+      "id": "2145",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "No sign of Brother Fallon?",
+      "ja": "ブラザー・ファロンの手掛かりは？",
+      "zh": "没有法伦修士的迹象吗？",
+      "ko": "팰런 수사(Brother Fallon)는 찾았어?"
+    },
+    {
+      "resource": "default",
+      "id": "2592",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "No one has seen Brother Wulf for several days. Poor boy. He loved the Father dearly.",
+      "ja": "ここ数日、ブラザー・ウルフを見た者はいない。哀れだな。神官を心から愛していたのに",
+      "zh": "已经有好几天没人看到伍尔夫修士了。可怜的孩子。他一直深神地敬爱着神父。",
+      "ko": "며칠째 울프 수사(Brother Wulf)를 본 사람이 없어. 가엾은 아이. 신부님을 몹시 따랐는데."
+    },
+    {
+      "resource": "default",
+      "id": "3017",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "Brother Wulf was driven mad by the magic of the strange crystals and attacked me, and I was forced to end his life. I should loot his body to see if there is anything that might help me find the last missing crystal.",
+      "ja": "ブラザー・ウルフが不思議なクリスタルの魔力でおかしくなり攻撃して来たので、殺すしかなかった。死体を調べて、最後のクリスタルを見つける手掛かりを探そう。",
+      "zh": "伍尔夫修士因奇怪水晶的魔力发狂并攻击了我，我别无他法，只得结束他的生命。我应该搜刮他的尸体，看看能否帮助我找到最后一块失踪的水晶。",
+      "ko": "이상한 수정의 마법에 미쳐버린 울프 수사(Brother Wulf)가 날 공격했고, 난 그를 죽일 수밖에 없었다. 마지막 남은 수정을 찾는 데 도움이 될 만한 것이 있는지 시체를 뒤져봐야겠다."
+    },
+    {
+      "resource": "default",
+      "id": "3913",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "Brother Delf, of St. Odwig's Mission, has asked me to kill the bandit captain, Red Idward, who, in turn, wants to kill Delf for deserting. Before I can act, I must speak with Delf's fellow deserters about their Red Legion daggers. Ugnar is in Gorhart Village, and Itran is east in Haxhi.",
+      "ja": "聖オドウィグ修道院のブラザー・デルフに、盗賊を抜けたことで命を狙われている盗賊の首領レッド・イドワードを殺すよう頼まれた。その仕事の前に、レッドリージョン団のダガーの件でデルフと一緒に盗賊を抜けた者に会わねばならない。ウグナーはゴーハート村、アイトランは東のハクシにいる。",
+      "zh": "圣奥德威格布道所的德尔夫修士，请求我杀死强盗头目雷德·伊德瓦尔德，他想要为当初的抛弃向德尔夫复仇。在我开始行动之前，我必须与德尔夫的前同伴们聊聊雷德帮匕首的事情。乌格纳在郭哈特镇，伊特兰在哈克希东部。",
+      "ko": "성 오드윅(St. Odwig) 선교원의 델프 수사(Brother Delf)가 도적단장 레드 이드워드(Red Idward)를 죽여 달라고 했다. 탈영한 델프(Delf)에게 복수하려는 자다. 하지만 행동에 나서기 전에 델프(Delf)와 함께 탈영한 이들에게 레드 리전(Red Legion) 단검에 관해 물어봐야 한다. 우그나르(Ugnar)는 고어하트(Gorhart) 마을에, 이트란(Itran)은 동쪽 하크시(Haxhi)에 있다."
+    },
+    {
+      "resource": "default",
+      "id": "4523",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Well, Brother Fallon should have it. But then, he should have been here by now. Go up into Glendara Wood, toward the mission. See what you can find.",
+      "ja": "ブラザー・ファロンが持っているはずよ。でも、もう戻ってきてもいい頃よ。グレンダーラの森を抜けて道を進んで。何かが見つかるわ",
+      "zh": "嗯，法伦修士应该有了。但他现在应该已经到这里了才对。去格伦达拉森林，前往布道所。看看你能找到什么。",
+      "ko": "팰런 수사(Brother Fallon)가 갖고 있을 거야. 그런데 벌써 돌아왔어야 하는데. 글렌다라 숲(Glendara Wood)을 지나 선교원 쪽으로 가 봐. 뭔가 찾을 수 있을 거야."
+    },
+    {
+      "resource": "default",
+      "id": "4867",
+      "variant": "",
+      "titles": [
+        "Brother Fallon",
+        "Brother Udo"
+      ],
+      "en": "I found Brother Fallon's body by the overturned cart in Glendara wood. When Brother Udo heard, he asked me to recover the Fallon's prayer beads for him. Most likely they are still on the body.",
+      "ja": "グレンダーラの森のひっくり返った荷馬車の側で、ブラザー・ファロンの死体を見つけた。話を聞いたブラザー・ウドに、ファロンの祈りのビーズの回収を頼まれた。死体が着けているままのはずだ。",
+      "zh": "我在格伦达拉森林翻倒的马车旁发现了法伦修士的尸体。乌多修士听说后，请求我将法伦的念珠带回来交给他。念珠大概率还在他身上。",
+      "ko": "글렌다라 숲(Glendara Wood)에서 뒤집힌 수레 옆에 팰런 수사(Brother Fallon)의 시신이 있는 걸 발견했어. 우도 수사(Brother Udo)는 그 소식을 듣고 팰런(Fallon)의 기도 구슬을 찾아 달라고 했지. 아마 아직 시신에 있을 거야."
+    },
+    {
+      "resource": "default",
+      "id": "4990",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "You must think me a fool. And Father Dynwel.... Come. Let's return to the Mission. I must ask forgiveness of so many.",
+      "ja": "愚かだと思っているんだろう。神官ディンウェルも... 行こう。修道院へ戻ろう。たくさんの許しを請わないといけないな",
+      "zh": "你一定以为我是个傻瓜。还有丁维尔神父……来吧。我们回布道所吧。我必须请求这么多人的原谅。",
+      "ko": "내가 바보라고 생각하겠지. 딘웰 신부님(Father Dynwel)도... 가자. 선교회로 돌아가자. 너무나 많은 이에게 용서를 구해야 해."
+    },
+    {
+      "resource": "default",
+      "id": "4997",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel",
+      "ja": "神官ディンウェル",
+      "zh": "迪恩维尔神父",
+      "ko": "딘웰 신부(Father Dynwel)"
+    },
+    {
+      "resource": "default",
+      "id": "5506",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Find Brother Fallon's Beads",
+      "ja": "ブラザー・ファロンのビーズを探す",
+      "zh": "找到法隆修士的串珠",
+      "ko": "팰런 수사(Brother Fallon)의 염주 찾기"
+    },
+    {
+      "resource": "default",
+      "id": "5724",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Brother Egan",
+      "ja": "ブラザー・イーガン",
+      "zh": "伊根修士",
+      "ko": "에간 수사(Brother Egan)"
+    },
+    {
+      "resource": "default",
+      "id": "5744",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "Kill Brother Wulf",
+      "ja": "ブラザー・ウルフを殺す",
+      "zh": "杀死伍尔夫修士",
+      "ko": "울프 수사(Brother Wulf) 처치"
+    },
+    {
+      "resource": "default",
+      "id": "5974",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "This mission was established twenty years ago. The gardens and fauna pens were Father Etair's idea. He marveled at Mitharu's gifts, the magic in the world around us.",
+      "ja": "この修道院は20年前に開かれた。庭と家畜小屋は、神官エタイアが考案したものだ。彼はミサールの恵みに驚嘆したんだ。この世界に魔法というものが存在することに",
+      "zh": "这个布道所是在二十年前组建的。花园和动物群相都是埃泰尔神父的想法。他为米萨鲁的赐予而惊奇不已，沉迷我们周围世界的神奇。",
+      "ko": "이 선교원은 20년 전에 세워졌어. 정원과 동물 우리를 만든 건 에테어 신부(Father Etair)의 생각이었지. 그는 미사루(Mitharu)의 선물, 우리 주변 세상에 깃든 마법에 경탄했어."
+    },
+    {
+      "resource": "default",
+      "id": "6182",
+      "variant": "",
+      "titles": [
+        "Brother Garek"
+      ],
+      "en": "Brother Garek",
+      "ja": "ブラザー・ガレク",
+      "zh": "加雷克修士",
+      "ko": "가렉 수사(Brother Garek)"
+    },
+    {
+      "resource": "default",
+      "id": "7130",
+      "variant": "",
+      "titles": [
+        "Father Etair",
+        "Brother Wulf"
+      ],
+      "en": "Now that I've entered the St. Eadric's Mission well I should begin a search for the crystals that Father Etair and Brother Wulf found during their excavation. Whatever the crystals are, they are important to the Maid's plans.",
+      "ja": "聖イードリック修道院の井戸に侵入した。神官エタイアとブラザー・ウルフが掘削の際に見つけたクリスタルを探そう。詳細は分からないが、クリスタルは\"ウィンダメアの烈女\"の計画にとって重要なのは間違いない。",
+      "zh": "我已经进入了圣艾德里克布道所，开始寻找埃泰尔神父和伍尔夫修士在开采中发现的水晶。无论这些水晶究竟是什么，它们对于少女的计划都很重要。",
+      "ko": "성 이드릭 선교원(St. Eadric's Mission) 우물에 들어갔으니, 에테어 신부(Father Etair)와 울프 수사(Brother Wulf)가 발굴 중 발견한 수정들을 찾아야겠다. 그것이 무엇이든 시녀(The Maid)의 계획에 중요한 물건이다."
+    },
+    {
+      "resource": "default",
+      "id": "7242",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "In the margins of this weathered old journal are the daily devotionals and musings of Father Etair, spiritual leader of St. Eadric's Perpetual Mission in Haxhi.",
+      "ja": "この風化した古い日誌の余白には、ハクシの聖イードリック終身修道院の精神的指導者であるエタイア神父への愛や物思いが日常的に記されている。",
+      "zh": "在这本破旧的旧日记的空白处，有着埃泰尔神父的每日灵修和沉思，他是圣埃迪克的永恒布道团在哈克希的精神领袖。",
+      "ko": "낡고 해진 이 일지의 여백에는 하크시(Haxhi)에 있는 성 이드릭 영구 선교원(St. Eadric's Perpetual Mission)의 영적 지도자, 에테어 신부(Father Etair)가 매일 바친 기도와 사색이 적혀 있다."
+    },
+    {
+      "resource": "default",
+      "id": "7961",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Brother Egan",
+      "ja": "ブラザー・イーガン",
+      "zh": "伊根修士",
+      "ko": "에간 수사(Brother Egan)이오."
+    },
+    {
+      "resource": "default",
+      "id": "8083",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Brother Egan was last seen northeast of here, just off the road near the Fae ruins.",
+      "ja": "ブラザー・イーガンはここから北東、フェイの遺跡近くの道外れで最後に目撃された",
+      "zh": "伊根修士最后一次出现在这里东北，就在灵族遗址附近的路旁。",
+      "ko": "에간 수사(Brother Egan)는 이곳에서 북동쪽으로, 페이(Fae)의 유적 근처 길가에서 마지막으로 목격됐어."
+    },
+    {
+      "resource": "default",
+      "id": "8259",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair was a good man, and he shall be missed.",
+      "ja": "神官エタイアは素晴らしい方だったのだが、残念だ",
+      "zh": "埃泰尔神父生前是个好人，我们会想念他的。",
+      "ko": "에테어 신부(Father Etair)는 좋은 분이었어. 그리울 거야."
+    },
+    {
+      "resource": "default",
+      "id": "8337",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair",
+      "ja": "神官エタイア",
+      "zh": "埃泰尔神父",
+      "ko": "에테어 신부(Father Etair)"
+    },
+    {
+      "resource": "default",
+      "id": "8488",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "The call of the Faelands does not fall upon deaf ears, and many of our youngest don't have the will to resist. Take Brother Egan, for example.",
+      "ja": "外の世界からは誘惑され、最も若い者たちには逆らう意志の力がない。ブラザー・イーガンがいい例だ",
+      "zh": "我们没有对灵族大陆的呼声充耳不闻，我们许多最小的人都没有抵抗的意愿。以伊根修士为例。",
+      "ko": "패란즈(Faelands)의 부름을 외면하지 못하는 이들이 있어. 특히 가장 어린 이들은 뿌리칠 의지가 부족하지. 에간 수사(Brother Egan)가 좋은 예야."
+    },
+    {
+      "resource": "default",
+      "id": "8910",
+      "variant": "",
+      "titles": [
+        "Brother Udo"
+      ],
+      "en": "Brother Udo has died. This quest can no longer be completed.",
+      "ja": "ブラザー・ウドは死んだ。このクエストを完了することはできない。",
+      "zh": "乌多修士已经死亡。这个任务无法完成。",
+      "ko": "우도 수사(Brother Udo)가 죽었다. 이 퀘스트는 더는 완료할 수 없다."
+    },
+    {
+      "resource": "default",
+      "id": "8957",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Brother Egan",
+      "ja": "ブラザー・イーガン",
+      "zh": "伊根修士",
+      "ko": "에간 수사(Brother Egan)"
+    },
+    {
+      "resource": "default",
+      "id": "9488",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Occasionally Father Etair would play host to a visiting Summer Court Fae; but I know nothing of the meetings, except that many of the brothers frowned upon them.",
+      "ja": "神官エタイアはときどき、サマー・コートから訪れるフェイを迎え入れている。何のためにかは知らないけど、いい顔をしない者も少なくはない",
+      "zh": "埃泰尔神父偶尔会接待一位夏廷的灵族；我并不了解他们会面的内容，但有许多弟兄对此心怀不满。",
+      "ko": "에테어 신부(Father Etair)는 가끔 여름 궁정(Summer Court)의 페이(Fae) 방문객을 맞이하곤 했다. 무슨 이야기를 나눴는지는 모르지만, 수사들 가운데 그 일을 못마땅해하는 이가 많았던 건 안다."
+    },
+    {
+      "resource": "default",
+      "id": "9828",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair watches over a small Almain mission in the southeast. St. Eadric's. You will know it by the ruins on the hill.",
+      "ja": "神官エタイアは南東にあるアルメインの小さな修道院の面倒を見ている。聖イードリック修身修道院だ。丘にある遺跡の近くと言えば分かるだろう",
+      "zh": "埃泰尔神父在照管着东南方向一个小小的阿尔曼布道所。是圣艾德里克布道所。你看山上的废墟就能认出来了。",
+      "ko": "에테어 신부(Father Etair)는 남동쪽의 작은 알마인(Almain) 선교회, 성 이드릭(St. Eadric) 선교회를 돌보고 있어. 언덕 위 폐허를 보면 찾을 수 있을 거야."
+    },
+    {
+      "resource": "default",
+      "id": "10609",
+      "variant": "",
+      "titles": [
+        "Brother Fallon",
+        "Brother Udo"
+      ],
+      "en": "Brother Fallon left St. Hadwyn's Undying Mission over a day ago to bring medical supplies to Didenhil. Brother Udo has asked me to look for him, and, if the worst has happened, return with Fallon's prayer beads.",
+      "ja": "ダイデンヒルに医療物資を届けるため聖ハドウィン終身修道院を出発したブラザー・ファロンの捜索を、ブラザー・ウドに頼まれた。もう1日以上経っているようだ。最悪の場合は、ファロンの祈りのビーズを持ち帰れとの事だ。",
+      "zh": "为将医疗物资送往迪登希尔，法伦修士一天前离开了圣哈德温永恒布道所。乌多修士希望我能找到他，如果他遭遇不测，请将法伦的念珠带回。",
+      "ko": "팰런 수사(Brother Fallon)는 다이덴힐(Didenhil)에 의료품을 가져다주려고 성 하드윈 불멸 선교회(St. Hadwyn's Undying Mission)를 떠난 지 하루가 넘었다. 우도 수사(Brother Udo)가 그를 찾아보라고 했다. 최악의 일이 벌어졌다면 팰런(Fallon)의 기도 묵주를 가지고 돌아와야 한다."
+    },
+    {
+      "resource": "default",
+      "id": "10761",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "Brother Delf",
+      "ja": "ブラザー・デルフ",
+      "zh": "代夫修士",
+      "ko": "델프 수사(Brother Delf)"
+    },
+    {
+      "resource": "default",
+      "id": "10878",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Brother Egan",
+      "ja": "ブラザー・イーガン",
+      "zh": "伊根修士",
+      "ko": "에간 수사(Brother Egan)"
+    },
+    {
+      "resource": "default",
+      "id": "11145",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "This locked bookshelf houses the collection of Brother Til, the late Scripture Master of St. Odwig's Perpetual Mission. From the looks of the titles on the remaining books, Til's literary interests tended toward the lewd and lascivious. You may retrieve all of the missing volumes and return them to Til's Collection for a reward.",
+      "ja": "施錠されたこの書架には聖オドウィグ終身修道院で経典長を務めていた、今は亡きブラザー・ティルの蔵書が収められている。残っている著作の題名から判断するに、ティルの文学的興味はわいせつでみだらな方面に傾倒していたようだ。なくなっている本を全て集めてティルの蔵書に戻せば報酬が得られるだろう。",
+      "zh": "这个上锁的书架收藏了圣奥德威格的永恒布道所已故经文大师蒂尔修士的作品。从其余书籍的标题来看，蒂尔的文学爱好倾向于淫荡和色情。你可以找回所有丢失的卷册，并将它们归还到蒂尔的收藏中赢得奖励。",
+      "ko": "이 잠긴 책장에는 성 오드윅의 종신 선교원(St. Odwig's Perpetual Mission)에서 경전 책임자를 지냈던 고 틸 수사(Brother Til)의 장서가 보관되어 있다. 남아 있는 책의 제목을 보아하니 틸(Til)은 외설적이고 음탕한 문학에 관심이 많았던 듯하다. 사라진 책을 모두 찾아 틸(Til)의 장서에 돌려주면 보상을 받을 수 있다."
+    },
+    {
+      "resource": "default",
+      "id": "11179",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Welcome back. If you wish to enter the Mission then you will need to serve its needs, and Brother Egan is still missing.",
+      "ja": "また会ったな。修道院へ入りたいなら、要求に応えて欲しい。ブラザー・イーガンは未だに行方不明だ",
+      "zh": "欢迎回来。如果你想进入布道所，就需要为布道所效劳，而伊根修士仍然不知所踪。",
+      "ko": "다시 왔군. 선교원에 들어가려면 선교원의 일을 도와야 해. 에간 수사(Brother Egan)는 아직도 실종 상태야."
+    },
+    {
+      "resource": "default",
+      "id": "11238",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Return Brother Fallon's Beads",
+      "ja": "ブラザー・ファロンのビーズを返す",
+      "zh": "归还法伦修士的串珠",
+      "ko": "팰런 수사(Brother Fallon)의 염주를 돌려줘라"
+    },
+    {
+      "resource": "default",
+      "id": "11672",
+      "variant": "",
+      "titles": [
+        "Brother Ansel"
+      ],
+      "en": "Brother Ansel",
+      "ja": "ブラザー・アンセル",
+      "zh": "安塞尔修士",
+      "ko": "안셀 수사(Brother Ansel)"
+    },
+    {
+      "resource": "default",
+      "id": "11854",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Have you visited all three shrines? In Brother Fallon's memory, I recommend you do so.",
+      "ja": "三つの聖堂すべてを訪れたか？ ブラザー・ファロンの思い出とともに、そうしなさい",
+      "zh": "你去过全部三个神殿了吗？根据法伦修士的记忆，我建议你这样做。",
+      "ko": "성소 세 곳을 모두 방문했나? 팰런 수사(Brother Fallon)의 기억을 떠올리면, 그렇게 하길 권하네."
+    },
+    {
+      "resource": "default",
+      "id": "12267",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Search for Brother Fallon",
+      "ja": "ブラザー・ファロンの遺体を調べる",
+      "zh": "寻找法伦修士",
+      "ko": "팰런 수사(Brother Fallon)를 찾아라"
+    },
+    {
+      "resource": "default",
+      "id": "12465",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Astrid Frisk now has enough Plagueshield to treat those sickened in the current emergency. With Brother Fallon dead, however, she does not know where she will get more when the need arises.",
+      "ja": "アストリッド・フリスクによると、手に入れたプラーグシールドは、現在病気の者を治療するには十分な量だった。しかしブラザー・ファロンが亡くなり、今後入手する方法が分からないという。",
+      "zh": "阿斯特丽德·弗里斯克获得了瘟疫屏障，现已能够治疗那些情况紧急的病人。但法伦修士已经死亡，她不知道再出现瘟疫时自己该从哪里获得药物。",
+      "ko": "아스트리드 프리스크(Astrid Frisk)는 현재 비상사태로 병든 이들을 치료할 만큼 충분한 역병 방호제(Plagueshield)를 확보했다. 하지만 팰런 수사(Brother Fallon)가 죽었으니, 다음에 필요할 때 더 구할 방법을 모른다."
+    },
+    {
+      "resource": "default",
+      "id": "12530",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "By Mitharu, I am growing worried for Brother Fallon. The day is come and gone, and he still has not returned!",
+      "ja": "ああミサールよ、ブラザー・ファロンのことが心配になってきた。時間が経ったのに、未だ帰ってこない！",
+      "zh": "米萨鲁保佑，我现在真担心法伦修士。一天又一天，他还不回来！",
+      "ko": "미사루(Mitharu)여, 팰런 수사(Brother Fallon)가 걱정되는군. 하루가 다 지나갔는데도 아직 돌아오지 않았어!"
+    },
+    {
+      "resource": "default",
+      "id": "12544",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "Brother Til has loaned out his private library of ribald literature to people who haven't returned them. For every book I bring back, I will receive a reward.",
+      "ja": "ブラザー・ティルが貸し出した下品な小説のコレクションが返却されていない。持ち帰った本の数に応じて、報酬を払うという。",
+      "zh": "蒂尔修士将自己的淫秽私人藏书借给了他人，但他们还没有归还。我每带回一本书，都会获得一份奖励。",
+      "ko": "틸 수사(Brother Til)가 외설 문학으로 가득한 개인 서재의 책들을 빌려줬는데, 아무도 돌려주지 않았어. 책을 한 권씩 찾아올 때마다 보상을 받을 거야."
+    },
+    {
+      "resource": "default",
+      "id": "12769",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel is denying that women can be ordained as members of the Order of Mitharu, despite scripture in this book to the contrary.",
+      "ja": "ディンウェル神官は、女性がミサールに仕えることを認めない。それはこの経典の内容に反しているわ",
+      "zh": "迪恩维尔神父否认女性可以被任命为米萨鲁教派的成员，尽管经文上的说法正好相反。",
+      "ko": "딘웰 신부(Father Dynwel)는 여성이 미사루 교단(Order of Mitharu)의 일원으로 서품받을 수 없다고 주장한다. 이 책의 성구는 정반대로 말하는데도."
+    },
+    {
+      "resource": "default",
+      "id": "13151",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair",
+      "ja": "神官エタイア",
+      "zh": "埃泰尔神父",
+      "ko": "에테어 신부(Father Etair)"
+    },
+    {
+      "resource": "default",
+      "id": "13277",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "About Brother Egan...",
+      "ja": "ブラザー・イーガンのことで...",
+      "zh": "关于伊根修士……",
+      "ko": "에간 수사(Brother Egan)에 관해..."
+    },
+    {
+      "resource": "default",
+      "id": "13348",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "It treats the Blood Plague, which almost all of Didenhil's sick with, just now. Brother Fallon should have come with more. Can't think where he is.",
+      "ja": "ブラッドプラーグを治療できるわ。ダイデンヒルの病はほとんどすぐに治せる。ブラザー・ファロンがもっと持ってくるはずだった。彼は今どこかしら",
+      "zh": "它能治疗血疫，几乎所有迪登希尔的人都患有这种病。法伦修士说要带些东西来的。不知道他在哪里。",
+      "ko": "이 약은 혈역병(Blood Plague)을 치료해. 지금 다이덴힐(Didenhil) 주민 대부분이 그 병에 걸렸어. 팰런 수사(Brother Fallon)가 더 가져왔어야 했는데. 어디 있는지 모르겠군."
+    },
+    {
+      "resource": "default",
+      "id": "13702",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "We will bury Father Etair and give him the appropriate rites of the Order. May he rest in peace. He'd earned as much.",
+      "ja": "神官エタイアを埋葬して、教団にふさわしい儀式を行うつもりだ。安らかに眠ることを願おう。彼はよくやってくれた",
+      "zh": "我们会埋葬埃泰尔神父，举行恰当的仪式为他送行。愿他安息。他值得如此。",
+      "ko": "에테어 신부님(Father Etair)을 묻고 교단의 예법에 맞는 장례 의식을 치를 거야. 평안히 잠드시길. 그분은 그럴 자격이 있었어."
+    },
+    {
+      "resource": "default",
+      "id": "13815",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "I expect Brother Wulf is working diligently, and when he returns I will accompany him on another expedition down into the mission well.",
+      "ja": "ブラザー・ウルフは懸命に努力を続けていることでしょう。彼が戻ったらまた共に、研究のために修道院の井戸へと向かうつもりです",
+      "zh": "我想伍尔夫修士是在勤奋工作，等他回来我就会陪他再来一段远行，直到布道所的水井。",
+      "ko": "울프 수사(Brother Wulf)가 부지런히 일하고 있을 거라 믿습니다. 그가 돌아오면 다시 함께 선교소 우물 아래로 탐사하러 갈 생각입니다."
+    },
+    {
+      "resource": "default",
+      "id": "13988",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon... dead, then? A shame. He should never have left the Mission.",
+      "ja": "ブラザー・ファロンは... 死んだのか？ 残念だ。いっそ修道院を出なければよかったものを",
+      "zh": "所以，法伦修士……死了？真遗憾。他不应该离开布道团。",
+      "ko": "팰런 수사(Brother Fallon)가... 죽었다고? 안됐군. 선교소를 떠나지 말았어야 했어."
+    },
+    {
+      "resource": "default",
+      "id": "14086",
+      "variant": "",
+      "titles": [
+        "Brother Mason"
+      ],
+      "en": "Brother Mason",
+      "ja": "ブラザー・メイソン",
+      "zh": "梅森修士",
+      "ko": "메이슨 수사(Brother Mason)"
+    },
+    {
+      "resource": "default",
+      "id": "14157",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair had great interest in Mitharu's natural splendors. He volunteered to lead the project, with Wulf by his side, of course.",
+      "ja": "神官エタイアはミサールが恵んだ自然の見事さに強い興味を抱き、自ら事業を率いることを申し出た。当然、その隣にはウルフがいた",
+      "zh": "埃泰尔神父对米萨鲁的自然之美有着浓厚兴趣。他自愿牵头推进，伍尔夫自然也伴他左右。",
+      "ko": "에테어 신부님(Father Etair)은 미사루(Mitharu)가 베푼 자연의 경이에 큰 관심이 있으셨어. 물론 울프(Wulf)를 곁에 두고 직접 사업을 이끌겠다고 나서셨지."
+    },
+    {
+      "resource": "default",
+      "id": "14802",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Brother Egan",
+      "ja": "ブラザー・イーガン",
+      "zh": "伊根修士",
+      "ko": "에간 수사(Brother Egan)"
+    },
+    {
+      "resource": "default",
+      "id": "14866",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Have you seen Brother Egan around? He was a frequent visitor to the inn, but I haven't seen him in days.",
+      "ja": "ブラザー・イーガンを見かけなかったか？ よく宿屋を訪れていたんだが、ここ数日間、姿を見かけないんだ",
+      "zh": "你有在附近见到伊根修士吗？他是这家旅馆的常客，但我有几天没见到他了。",
+      "ko": "에간 수사(Brother Egan)를 근처에서 봤어? 여관에 자주 들렀는데 며칠째 보이지 않아."
+    },
+    {
+      "resource": "default",
+      "id": "15157",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "May Father Etair rest eternally in peace.",
+      "ja": "神官エタイアに永遠の安らぎを",
+      "zh": "愿埃泰尔神父永远平静安息。",
+      "ko": "에테어 신부님(Father Etair)께 영원한 안식을."
+    },
+    {
+      "resource": "default",
+      "id": "15547",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel will try to defend his cause, but he is simply a soldier, marching to the orders passed down to him. None of them have minds of their own.",
+      "ja": "ディンウェル神父はご自分の主義を通そうとするでしょうけれど、彼は与えられた命令に従うだけの兵士にすぎない。あの人達に自分の意思なんてないのよ",
+      "zh": "迪恩维尔神父会为自己的理由辩护，但他只是个士兵，奉上面的命令行事。他们都没有自己的思想。",
+      "ko": "딘웰 신부(Father Dynwel)는 자기 대의를 변호하려 하겠지만, 그저 위에서 내려온 명령을 따르는 병사일 뿐이야. 그들 중 누구도 스스로 생각하지 않아."
+    },
+    {
+      "resource": "default",
+      "id": "15758",
+      "variant": "",
+      "titles": [
+        "Brother Padric"
+      ],
+      "en": "Brother Padric's Travel Notes",
+      "ja": "ブラザー・パドリックの旅の手帳",
+      "zh": "帕迪克修士的旅行笔记",
+      "ko": "패드릭 수사의 여행 기록(Brother Padric's Travel Notes)"
+    },
+    {
+      "resource": "default",
+      "id": "15933",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "I've located and returned Brother Til's collection of bawdy literature. The books were scattered all across the world.",
+      "ja": "ブラザー・ティルの下品な小説コレクションを回収して返却した。本は世界中に散らばっていた。",
+      "zh": "我找到并归还了蒂尔修士的色情文学收藏。这些书遍布在世界的各个角落。",
+      "ko": "틸 수사(Brother Til)의 외설 문학 수집품을 찾아 돌려줬다. 책들은 온 세상에 흩어져 있었다."
+    },
+    {
+      "resource": "default",
+      "id": "16526",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon",
+      "ja": "ブラザー・ファロン",
+      "zh": "法伦修士",
+      "ko": "팰런 수사(Brother Fallon)"
+    },
+    {
+      "resource": "default",
+      "id": "16582",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Wait... Father Dynwel sent you, didn't he? Old fool. His path to power was too plodding, and now he wishes to slow me down, too. I have new friends, Fae friends.",
+      "ja": "待て... 神官ディンウェルの差し金だな？ 愚かな年寄りめ。自分の力が伸びないからって足止めするつもりか。こっちには新しいフェイの友達ができたんだ",
+      "zh": "等等……丁维尔神父派你来的，是吗？老蠢货。他追寻力量的道路太乏味了，现在他想让我也慢下来。我有新朋友，灵族的朋友。",
+      "ko": "잠깐… 딘웰 신부님(Father Dynwel)이 보냈나? 어리석은 늙은이 같으니. 권력을 얻는 길이 너무 느리더니, 이제는 나까지 늦추려는군. 난 새로운 친구들이 생겼어. 페이(Fae) 친구들 말이야."
+    },
+    {
+      "resource": "default",
+      "id": "16672",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "Kill Brother Delf",
+      "ja": "ブラザー・デルフを殺す",
+      "zh": "杀死代夫修士",
+      "ko": "델프 수사(Brother Delf) 처치"
+    },
+    {
+      "resource": "default",
+      "id": "16993",
+      "variant": "",
+      "titles": [
+        "Brother Octienne"
+      ],
+      "en": "Brother Octienne?! As a fellow Templar, you are of course welcome, but we do prefer that you use the door. What are your charges?",
+      "ja": "オクティエンヌですって？ 同じ聖堂騎士よ。歓迎するけれど、できれば扉を使ってくれるかしら。あなたの告発は何？",
+      "zh": "奥克蒂安兄弟？！同为圣殿骑士，你当然会受欢迎，但我们更希望你用那扇门。你开价是多少？",
+      "ko": "옥티엔 형제(Brother Octienne)라고? 같은 성전기사니 당연히 환영하지. 그래도 가능하면 문으로 들어와 줄래? 고발 내용은 뭐야?"
+    },
+    {
+      "resource": "default",
+      "id": "17593",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "I will pray for Father Etair.",
+      "ja": "神官エタイアのために祈ろう",
+      "zh": "我会为埃泰尔神父祈祷。",
+      "ko": "에테어 신부님(Father Etair)을 위해 기도하겠습니다."
+    },
+    {
+      "resource": "default",
+      "id": "18131",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Though Brother Fallon did not survive his trip through Glendara Wood, I have collected all three parcels of the Plagueshield he was carrying to Didenhil. I should bring them to Astrid Frisk, who can put them to good use in plague-ridden Didenhil.",
+      "ja": "ブラザー・ファロンは生きてグレンダーラの森を出られなかったが、彼がダイデンヒルに届けようとしたプラーグシールドの包みを3個の回収できた。疫病に侵されたダイデンヒルで役立ててもらうため、アストリッド・フリスクに渡そう。",
+      "zh": "尽管法伦修士死在了格伦达拉森林之中，但我找回了他带往迪登希尔的三包瘟疫屏障。我得要把它们交给阿斯特丽德·弗里斯克，他应该能缓和迪登希尔的疫情。",
+      "ko": "팰런 수사(Brother Fallon)는 글렌다라 숲(Glendara Wood)을 지나다 살아남지 못했지만, 그가 다이덴힐(Didenhil)로 가져가던 역병 방호제(Plagueshield) 세 꾸러미는 모두 회수했다. 역병에 시달리는 다이덴힐(Didenhil)에서 유용하게 쓸 수 있도록 아스트리드 프리스크(Astrid Frisk)에게 가져다줘야겠다."
+    },
+    {
+      "resource": "default",
+      "id": "18186",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel says I have a promising future here at the mission. My dish-washing is inspired. His words.",
+      "ja": "ディンウェル神父は\"お前には見込みがある\"って言ってくれたんだ。皿洗いにも力が入るよ。あの言葉のおかげさ",
+      "zh": "迪恩维尔神父说我在这个布道所的前途不可限量。我洗碗更有劲了。他的话。",
+      "ko": "딘웰 신부님(Father Dynwel)은 내가 이 선교회에서 장래가 촉망된다고 하셨어. 접시 닦는 솜씨가 아주 뛰어나다면서. 신부님 말씀이야."
+    },
+    {
+      "resource": "default",
+      "id": "18300",
+      "variant": "",
+      "titles": [
+        "Brother Udo"
+      ],
+      "en": "Having pledged my belief in the creed of Mitharu, Brother Udo gave me Fallon's prayer beads. If I take them to each of the Mitharan shrines in Glendara, the beads will gain in power.",
+      "ja": "ミサールの教義への信仰を誓うと、ブラザー・ウドにファロンの祈りのビーズを与えられた。ミサ―ルを信仰するグレンダーラの聖堂へそれぞれ持ち込めば、ビーズの力は増すだろう。",
+      "zh": "验证了我对米萨鲁教令的信仰后，乌多修士将法伦的念珠交给了我。如果我将念珠带往格伦达拉的每一处米萨鲁神龛，它就会获得力量。",
+      "ko": "미사루(Mitharu)의 교리를 믿겠다고 맹세하자 우도 수사(Brother Udo)가 팰런(Fallon)의 기도 염주를 건네주었다. 글렌다라(Glendara)에 있는 미타란(Mitharan) 성소들을 하나씩 찾아 염주를 가져가면 그 힘이 강해진다고 한다."
+    },
+    {
+      "resource": "default",
+      "id": "18430",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Until Brother Fallon arrives with more Plagueshield, I can't do more than sit on my hands.",
+      "ja": "ブラザー・ファロンがプラーグシールドを持ち帰るまで、どうしようもないわ",
+      "zh": "在法伦修士带着更多的瘟疫屏障到达之前，我只能袖手旁观了。",
+      "ko": "팰런 수사(Brother Fallon)가 역병 방호제(Plagueshield)를 더 가져올 때까진 손 놓고 있을 수밖에 없어."
+    },
+    {
+      "resource": "default",
+      "id": "18793",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Brother Egan",
+      "ja": "ブラザー・イーガン",
+      "zh": "伊根修士",
+      "ko": "에간 수사(Brother Egan)"
+    },
+    {
+      "resource": "default",
+      "id": "18822",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon dead on the road? Oh this is terrible!",
+      "ja": "ブラザー・ファロンが路上で死んでいた？ ひどいわ！",
+      "zh": "法伦修士死在路上了？哦，这太可怕了！",
+      "ko": "팰런 수사(Brother Fallon)가 길에서 죽었다고? 세상에, 이럴 수가!"
+    },
+    {
+      "resource": "default",
+      "id": "18905",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon",
+      "ja": "ブラザー・ファロン",
+      "zh": "法伦修士",
+      "ko": "팰런 수사(Brother Fallon)"
+    },
+    {
+      "resource": "default",
+      "id": "19090",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "Return Brother Til's books",
+      "ja": "ブラザー・ティルの本を返却する",
+      "zh": "归还提尔修士的书",
+      "ko": "틸 수사(Brother Til)의 책을 돌려주기"
+    },
+    {
+      "resource": "default",
+      "id": "19228",
+      "variant": "",
+      "titles": [
+        "Brother Padric"
+      ],
+      "en": "Brother Padric has perished while on his personal exploration quest of Splitrock Depths. On his body is a tattered journal detailing what happened.",
+      "ja": "ブラザー・パドリックは個人的興味でスプリットロック洞窟を探索中に命を落とした。遺体からは状況を物語る、ぼろぼろの日誌が見つかった。",
+      "zh": "帕迪克修士在他个人探索断岩深渊的过程中不幸身亡。他尸体上的一本破烂的日记详细记录了所发生的一切。",
+      "ko": "패드릭 수사(Brother Padric)는 스플릿록 심층부(Splitrock Depths)를 개인적으로 탐험하다 목숨을 잃었다. 그의 시신에는 무슨 일이 있었는지 자세히 적힌 낡은 일지가 있다."
+    },
+    {
+      "resource": "default",
+      "id": "19448",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel",
+      "ja": "ディンウェル神父",
+      "zh": "迪恩维尔神父",
+      "ko": "딘웰 신부(Father Dynwel)"
+    },
+    {
+      "resource": "default",
+      "id": "19480",
+      "variant": "",
+      "titles": [
+        "Brother Padric"
+      ],
+      "en": "Where was Brother Padric headed?",
+      "ja": "ブラザー・パドリックはどこへ向かった？",
+      "zh": "帕德里克修士去哪儿了？",
+      "ko": "패드릭 수사(Brother Padric)는 어디로 갔지?"
+    },
+    {
+      "resource": "default",
+      "id": "21035",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "I've returned Brother Egan to his family at St. Odwig's Perpetual Mission in Gorhart. He should be fine, with time...",
+      "ja": "ブラザー・イーガンを、ゴーハートにある聖オドウィグ終身修道院へ連れ帰った。時間と共に回復するはずだ…",
+      "zh": "我将伊根修士送回了他在郭哈特镇的圣奥德威格的永恒布道所的家人身旁。他应该会没事的，只是时间问题……",
+      "ko": "에간 수사(Brother Egan)를 고어하트(Gorhart)의 성 오드윅 영구 선교원(St. Odwig's Perpetual Mission)에 있는 가족에게 데려다주었다. 시간이 지나면 괜찮아지겠지..."
+    },
+    {
+      "resource": "default",
+      "id": "21092",
+      "variant": "",
+      "titles": [
+        "Brother Padric"
+      ],
+      "en": "Brother Padric",
+      "ja": "ブラザー・パドリック",
+      "zh": "帕德里克修士",
+      "ko": "패드릭 수사(Brother Padric)"
+    },
+    {
+      "resource": "default",
+      "id": "21289",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "What have you learned from Father Etair? Did he know of any magic that can change a Lorestone's contents?",
+      "ja": "神官エタイアから何を聞いた？ 彼はロアストーンの内容を変化させる魔法を知っていたのか？",
+      "zh": "你从埃泰尔神父那里学到了什么？他知不知道什么能改变智慧石内容的魔法？",
+      "ko": "에테어 신부(Father Etair)에게서 뭘 알아냈지? 로어스톤의 내용을 바꾸는 마법을 알고 있던가?"
+    },
+    {
+      "resource": "default",
+      "id": "21362",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon",
+      "ja": "ブラザー・ファロン",
+      "zh": "法伦修士",
+      "ko": "팰런 수사(Brother Fallon)"
+    },
+    {
+      "resource": "default",
+      "id": "21575",
+      "variant": "",
+      "titles": [
+        "Brother Udo"
+      ],
+      "en": "Brother Udo",
+      "ja": "ブラザー・ウド",
+      "zh": "乌多修士",
+      "ko": "우도 수사(Brother Udo)"
+    },
+    {
+      "resource": "default",
+      "id": "21596",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "According to Brother Wulf, the strange crystals he found in the well reacted to musical tones. He fashioned a crude flute with which to test his theories. He hoped to use this flute to find the last crystal. I should try it.",
+      "ja": "ブラザー・ウルフによると、泉で見つけた不思議なクリスタルは音楽に反応したという。そこで持論を試すためにフルートを手作りし、最後のクリスタルを探そうとした。これを試してみよう。",
+      "zh": "伍尔夫修士认为，在水井中找到的奇怪水晶会与音节发生反应。他拿出了一根粗制长笛验证他的理论。他认为通过这根长笛能够找到最后一块水晶。我应该尝试一下。",
+      "ko": "울프 수사(Brother Wulf)에 따르면, 그가 우물에서 발견한 기묘한 수정들은 음정에 반응했다고 한다. 그는 자기 이론을 시험하려고 조잡한 피리를 만들었다. 그 피리로 마지막 수정을 찾으려 했다고 한다. 한번 써 봐야겠다."
+    },
+    {
+      "resource": "default",
+      "id": "21826",
+      "variant": "",
+      "titles": [
+        "Father Udo"
+      ],
+      "en": "Return to Father Udo",
+      "ja": "ファーザー・ウドの元へ戻る",
+      "zh": "回去找乌多修士",
+      "ko": "우도 신부님(Father Udo)께 돌아가기"
+    },
+    {
+      "resource": "default",
+      "id": "22114",
+      "variant": "",
+      "titles": [
+        "Brother Gamian"
+      ],
+      "en": "Brother Gamian",
+      "ja": "ブラザー・ギャミアン",
+      "zh": "加米安修士",
+      "ko": "가미안 수사(Brother Gamian)"
+    },
+    {
+      "resource": "default",
+      "id": "22750",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel",
+      "ja": "ディンウェル神父",
+      "zh": "迪恩维尔神父",
+      "ko": "딘웰 신부(Father Dynwel)"
+    },
+    {
+      "resource": "default",
+      "id": "23242",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon",
+      "ja": "ブラザー・ファロン",
+      "zh": "法伦修士",
+      "ko": "팰런 수사(Brother Fallon)"
+    },
+    {
+      "resource": "default",
+      "id": "23371",
+      "variant": "",
+      "titles": [
+        "Brother Padric",
+        "Brother Holt"
+      ],
+      "en": "I have found the body of Brother Padric out on a cliff's ledge through a hidden exit out of Splitrock Depths. There was a journal on his corpse detailing his travels out here and through the caves. Surely, Brother Holt will want to have this as one last memory of his friend, so I should return this to him right away and give him some closure.",
+      "ja": "スプリットロック洞窟の秘密の出口の外にある岩棚で、ブラザー・パドリックの死体を見つけた。死体を調べると、旅や洞窟の探索の詳細を記した日誌を発見した。ブラザー・ホルトが友人の形見として欲しがるに違いない。日誌を持ち帰り、気持ちの整理をつけてもらおう。",
+      "zh": "我在裂石深坑隐藏出口外的一处悬崖旁发现了帕德里克修士的尸体。尸体上的日记记载了他在沿途和山洞中的经历。霍特修士肯定希望将这本日记作为好友留下的最后回忆保留下来，我应该将日记交给他作为安慰。",
+      "ko": "스플릿록 심층부(Splitrock Depths)의 숨겨진 출구를 지나 절벽 가장자리에서 패드릭 수사(Brother Padric)의 시신을 발견했다. 시신에 남겨진 일지에는 그가 이곳으로 와 동굴을 탐험한 여정이 적혀 있었다. 홀트 수사(Brother Holt)는 친구의 마지막 유품으로 이걸 받고 싶어 할 것이다. 어서 돌려주어 마음을 정리하도록 도와야겠다."
+    },
+    {
+      "resource": "default",
+      "id": "24099",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "Red Idward is dead, and now I should return to Brother Delf and give him the news. He should be at St. Odwig's Mission in western Odarath.",
+      "ja": "レッド・イドワードは死んだ。ブラザー・デルフに知らせよう。西オダラスの聖オドウィグ修道院にいるはずだ。",
+      "zh": "雷德·伊德瓦尔德已经死了，是时候将他的死讯告知德尔夫修士了。他应该在欧达拉斯西部的圣奥德威格布道所。",
+      "ko": "레드 이드워드(Red Idward)가 죽었다. 델프 수사(Brother Delf)에게 돌아가 소식을 전해야 한다. 그는 오다라스(Odarath) 서부의 성 오드윅 선교회(St. Odwig's Mission)에 있을 것이다."
+    },
+    {
+      "resource": "default",
+      "id": "24472",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "I've killed someone who could have helped me bring Brother Egan back to St. Odwig's Perpetual Mission. Now he will never get home.",
+      "ja": "ブラザー・イーガンを聖オドウィグ終身修道院に連れ帰るための協力者を殺してしまった。もう連れ帰ることはできない。",
+      "zh": "我已经杀死了能帮助我将伊根修士带回圣奥德威格的永恒布道所的人。现在，他永远无法回家了。",
+      "ko": "에간 수사(Brother Egan)를 성 오드윅 영구 선교원(St. Odwig's Perpetual Mission)으로 데려가는 걸 도와줄 사람을 내가 죽였다. 이제 그는 영영 집으로 돌아가지 못하겠지."
+    },
+    {
+      "resource": "default",
+      "id": "25468",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "Thursday\n\nThe strange crystal sits atop my desk. I cannot take my eyes from it. It is not out of adoration, or even fascination, but out of a tense, foreboding dread that never escapes me, not even as I lay in my bunk at night hoping that I have not doomed my young charges by bringing this cursed thing up from the underground.\n\nPerhaps the most troubling development is how the crystal affects young Brother Wulf. This person sitting across the chamber from me is no longer my bright, friendly apprentice, but a heavy-eyed fanatic. The strange allure of the crystal has touched him on some spiritual level. He has not been to chapel in days. He has not bathed or eaten. He does not respond to his name, and when does take notice of the others around him, he does so with a gruff sneer. I grieve for him as one mourns the deceased. All day long he stares at the crystal, or plays to it with his whistle, making the swirling red surface flash. My prayers do nothing.\n\nAll of my research, all of my training, none of it has provided the answers I seek. What is this strange substance and from where does it derive its magic? What created it and how did it come to be beneath our mission? Better yet, how I can I get dispose of it without hurting my dear friend? So many questions, but no answers come.\n\nPerhaps tomorrow Mitharu will provide. He has yet to disappoint me.",
+      "ja": "木曜日\n\n奇妙なクリスタルは私の机の上にある。それから目が離せない。崇敬の念からではない。魅了されているわけでも。ただただ精神が張りつめていて、いくらやっても振り払えない不吉な恐怖心のせいで目が離せないのだ。夜、寝ている時ですらそうだ。私がこの邪なものを地下から持ち帰ったせいで、私の若き門弟たちが凶事に見舞われなければよいが。\n\n特に気がかりなのは、このクリスタルの、若きブラザー・ウルフへの影響だ。部屋の中で私の真向いに座っているこの人物は、今ではもう将来を嘱望される人懐こい弟子ではなく、目が座った狂信者だった。彼は精神的なレベルでこのクリスタルの奇妙な誘引力に触れていた。ここ数日は礼拝にも来ず、風呂も入らず、食事もとらない。名前を呼んでも知らんぷりで、周りに人がいることに気づくとようやく、嫌らしい笑みを浮かべて返事をするのだ。私は人が死者を嘆き悲しむように、彼のことを深く悲しんでいた。彼は一日中、クリスタルをじっと見つめているか、口笛を吹きながら弄んでいる。渦を巻くクリスタルの表面が赤くきらめく。私の祈りは何の意味もなさない。\n\nどんな調査も、どんな修行も、私が求めている答えを与えてはくれない。この奇妙な物体は一体何なんだ？ どこから魔力を得ている？ 誰が作った？ なぜ私の前に現れた？ 私の大切な友を傷つける事なく、どうやって処分すればいい？ 次々と質問が湧いてきたが、答えは一つも見つからない。\n\n明日になればミサールが答えてくれるかも。ミサールは決して私を失望させない。",
+      "zh": "周四\n\n那块奇怪的水晶就在我的桌子上。我的眼睛无法离开它。这并不是出于崇拜，甚至不是出于迷恋，而是出于一种紧张的、不祥的恐惧，这种恐惧永远不会从我的脑海中消失，即使我晚上躺在床上，希望我没有把这该死的东西从地下带出来，从而使我年轻的孩子们young charges完蛋。\n\n也许最麻烦的事情是水晶如何影响年轻的伍尔夫修士的。坐在我对面的这个人不再是我聪明、友好的学徒，而是一个目光呆滞的狂热分子。水晶的奇异魅力在某种精神层面上触动了他。他已经几天没去做礼拜了。他不洗澡，也不吃东西。他对自己的名字没有反应，当他注意到周围的人时，他会发出粗噶的冷笑。我为他哀悼，就像人们哀悼死者一样。他整天盯着水晶，或者吹着口哨玩弄它，使它旋转的红色表面闪闪发光。我的祈祷没用。\n\n我所有的研究，所有的训练，都没有提供我想要的答案。这种奇怪的物质是什么？它的魔力从何而来？是什么创造了它，它是如何在我们的布道团之下的？更重要的是，我怎样才能在不伤害我亲爱的朋友的情况下把它处理掉呢？这么多问题，却没有答案。\n\n也许明天米萨鲁会给我答案。他还没有让我失望过。",
+      "ko": "목요일\n\n이상한 수정이 내 책상 위에 놓여 있다. 눈을 뗄 수가 없다. 숭배하거나 매료되어서가 아니다. 긴장과 불길한 공포에 사로잡혀서다. 밤에 침상에 누워 있을 때조차 그 공포는 사라지지 않는다. 저주받은 것을 지하에서 끌어올린 탓에 어린 제자들을 파멸로 몰아넣은 건 아닐까 두렵다.\n\n가장 걱정스러운 건 이 수정이 어린 울프 수사(Brother Wulf)에게 미치는 영향이다. 방 건너편에 앉은 이 사람은 더는 총명하고 다정한 내 제자가 아니다. 눈빛이 흐리멍덩한 광신자가 되어 버렸다. 수정의 기묘한 매력이 그의 정신 깊은 곳까지 스며들었다. 며칠째 예배당에도 오지 않았다. 씻지도, 먹지도 않는다. 이름을 불러도 대답하지 않고, 주변 사람들을 알아차리더라도 퉁명스러운 비웃음만 던진다. 나는 죽은 이를 애도하듯 그를 슬퍼한다. 온종일 수정만 바라보거나 수정을 향해 피리를 불어 소용돌이치는 붉은 표면을 번쩍이게 한다. 내 기도는 아무 소용이 없다.\n\n모든 연구와 훈련에도 내가 찾는 답은 나오지 않았다. 이 기묘한 물질은 무엇이며 어디서 마력을 얻는 걸까? 누가 만들었고 어떻게 우리 선교회 지하에 오게 됐을까? 무엇보다 소중한 친구를 해치지 않고 이걸 어떻게 없앨 수 있을까? 질문은 많지만 답은 없다.\n\n내일은 미사루(Mitharu)께서 답을 주실지도 모른다. 그분은 아직 나를 실망시키지 않으셨다."
+    },
+    {
+      "resource": "default",
+      "id": "25680",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair and his apprentices conducted many experiments. He had a strong interest in alchemy, and the magic of other races. There is proof of it everywhere.",
+      "ja": "神官エタイアは弟子とともに数多くの実験を行った。錬金術と他の種族の魔法に、強い興味を抱いていたんだ。その証拠はいたるところにある",
+      "zh": "埃泰尔神父和他的学徒二人进行了许多实验。他对炼金术和其他种族的魔法，都有着浓厚兴趣。到处都能找到证据。",
+      "ko": "에테어 신부(Father Etair)와 제자들은 수많은 실험을 했다. 그는 연금술과 다른 종족의 마법에 큰 관심을 보였다. 그 증거는 곳곳에 남아 있다."
+    },
+    {
+      "resource": "default",
+      "id": "25868",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel",
+      "ja": "神官ディンウェル",
+      "zh": "迪恩维尔神父",
+      "ko": "딘웰 신부(Father Dynwel)"
+    },
+    {
+      "resource": "default",
+      "id": "27032",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "Recover Brother Til's books",
+      "ja": "ブラザー・ティルの本を手に入れる",
+      "zh": "取回提尔修士的书",
+      "ko": "틸 수사(Brother Til)의 책을 되찾기"
+    },
+    {
+      "resource": "default",
+      "id": "27390",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Why, those are Brother Fallon's prayer beads, aren't they? They'll want those at the mission, I imagine.",
+      "ja": "あら、それはブラザー・ファロンの祈りのビーズじゃない。きっと修道院が引き取りたがるでしょうね",
+      "zh": "啊，那不是法伦修士的念珠吗？我想他们会在布道团用到的。",
+      "ko": "어머, 그건 팰런 수사(Brother Fallon)의 기도 염주 아니니? 선교원에서 필요로 할 거야."
+    },
+    {
+      "resource": "default",
+      "id": "27890",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "I have heard the sad news of Father Etair's passing. We are all working to find solace in the fact that he is with Mitharu now.",
+      "ja": "神官エタイアの悲報を聞いた。皆、あのお方がミサールのお傍に行ったということに、慰めを見出そうとしているようだ",
+      "zh": "我听闻了埃泰尔神父过世的不幸消息。他如今已追随米萨鲁而去，我们都在努力摆脱此中的悲哀。",
+      "ko": "에테어 신부(Father Etair)가 세상을 떠났다는 슬픈 소식을 들었어. 그분이 이제 미사루(Mitharu) 곁에 계시다는 사실에서 우리 모두 위안을 찾으려 하고 있어."
+    },
+    {
+      "resource": "default",
+      "id": "28101",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel",
+      "ja": "ディンウェル神父",
+      "zh": "迪恩维尔神父",
+      "ko": "딘웰 신부(Father Dynwel)"
+    },
+    {
+      "resource": "default",
+      "id": "28168",
+      "variant": "",
+      "titles": [
+        "Brother Mason"
+      ],
+      "en": "Brother Mason",
+      "ja": "ブラザー・メイソン",
+      "zh": "梅森修士",
+      "ko": "메이슨 수사(Brother Mason)"
+    },
+    {
+      "resource": "default",
+      "id": "28603",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon",
+      "ja": "ブラザー・ファロン",
+      "zh": "法伦修士",
+      "ko": "팰런 수사(Brother Fallon)"
+    },
+    {
+      "resource": "default",
+      "id": "28964",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "I hope Father Etair is at peace, now.",
+      "ja": "神官エタイアの御霊が安らかなことを願う",
+      "zh": "希望现在埃泰尔神父能够安息。",
+      "ko": "이제 에테어 신부(Father Etair)께서 평안하시기를."
+    },
+    {
+      "resource": "default",
+      "id": "29734",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "So Brother Fallon is dead upon the road, and with Mitharu now. Thank you for returning his beads. You should know, we have a tradition.",
+      "ja": "ではブラザー・ファロンは道の途中で死に、ミサール神の下へ行ったのか。彼のビーズを戻してくれてありがとう。我々の伝統をご存じかな",
+      "zh": "法伦修士就这样走了，他现在已经见到米萨鲁了。感谢你归还他的串珠。你应该知道，我们有一个传统。",
+      "ko": "그럼 팰런 수사(Brother Fallon)는 길에서 죽어 미사루(Mitharu) 곁으로 갔겠군. 그의 염주를 돌려줘서 고맙네. 우리 전통에 대해 알아둘 게 있네."
+    },
+    {
+      "resource": "default",
+      "id": "30182",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon",
+      "ja": "ブラザー・ファロン",
+      "zh": "法伦修士",
+      "ko": "팰런 수사(Brother Fallon)"
+    },
+    {
+      "resource": "default",
+      "id": "30794",
+      "variant": "",
+      "titles": [
+        "Brother Mason"
+      ],
+      "en": "The Fifteenth Day of Spring\n\nBrother Mason has urged me to keep a journal, so that I may exorcise the ghosts that haunt me. He says that in writing down your thoughts, you thereby rid yourself of them and may find peace. I do not think that this will help at all, if \"help\" is what I need, but I will try my best, if for nothing else but to appease him.\nIt is hard to lose someone and have them in your memories, in the back of your mind. They linger there, and you feel their presence, even though they're gone. It's sad, obviously Rikka! but it's a sadness that encompasses everything. I was watching Gizela today, the way she stands there, waiting for Camden to return, when we all know he won't. I know her thoughts. It's different when you are simply separated from your love. You can go about your day in a normal fashion, and sometimes you are overwhelmed by their absence. Sometimes you just want to feel them, something tangible, and you do what you can to teach patience to yourself. Brother Mason often says that Mitharu grants the greatest rewards to those who are patient, however, it is hard, and may Mitharu guide her when she finally knows the truth. Then, she will know a sadness that does not pay visits as a stranger, but as an unwelcome bedfellow, another shadow, a mold on your will, and a pall on your life.\n\nThe Twenty Third Day of Spring\n\nToday I thought I heard children's voices near the outskirts of town. I know it now for what it was, although I did not recognize it then, nor knew it for aught but children playing. No, it was nothing but the ghosts of my children calling to their mother. There are, of course, no other children in this forgotten place. Gorhart feels as barren as an empty room. It is lifeless here, for all of the magic and wonder of the Fae, even the people. They trudge towards their doom with a resigned melancholy. They are all hiding, or running from something or someone. They are tired, and waiting for Mitharu to end their petty pacing. It is a strange feeling to know grief as intimately as I do, and to see it in the eyes of so many. Even Brother Mason, the most vibrant shadow of our lonely town, hides a pain. Despite his best attempts to keep it hidden, I have often seen it. He is just like all of us, a toy of Fate's cruel play. He will not speak to me about it. I fear it will consume him, and he will no longer be able to bring the joy and happiness to the people here that so desperately need it. He will be just another restless soul.\n\nThe Twenty Fifth Day of Spring\n\nOst Ordura is here again, and again I am reminded of war. Has it not taken enough from me already? Does it need to steal what little solace I can find here in this lost village? I have half a mind to run him out of town. I may do so today if he tests my patience. I would be doing Gizela a favor, no less. How he dares come here, after all of the trouble this war has cost, I cannot understand. I imagine someday the war itself will arrive at my door. Maybe this time it will claim my life instead of the ones I love. Brother Mason would not like to hear it, but sometimes I wish for that, and who doesn't? To see Avery or Gref again? To hold my sons in my arms again? Better to be the one mourned than the one mourning.",
+      "ja": "春、15日目\n\n誰かを失い、その人を記憶の中に、心の奥底に留めておくのは辛いことだ。彼らはそこに居残り、たとえ死んでいても存在を主張してくる。悲しいことだ。当たり前だろう、リッカ！ だが、それはすべてを包み込む悲しみだ。今日、ギゼラを見ていた。彼女がそこに立って、カムデンの帰りを待っているのを。無論、彼はもう戻らない。彼女には同情する。恋人と単に別れた場合とはわけが違う。いつものように一日を過ごしていて、ふとある時、いないという事実に圧倒されるのだ。ただ感じたいと思う。何か形あるものに。だが、最後には自らに我慢を強いるしかない。ミサールは我慢強い者に最高の褒美を与えるとブラザー・メイソンは言うが、それは困難なことだ。真実を知ったときに、ミサールのお導きがあらんことを。その時から、悲しみは彼女の前に他人としてではなく、招かざるベッドの友として現れる。それはもう一つの影であり、心に生えるカビであり、人生に降りるとばりである。\n\n春、23日目\n\n今日、町の外れで子供の声を聞いた気がした。今はあれが何だったのか分かる。あれは母親を呼ぶ我が子の亡霊に他ならない。もちろん、このさびれた場所には、他に子供はいない。ゴーハートは空っぽの部屋のようにがらんどうだ。ここに生命はない。あらゆるフェイの魔法や奇跡をもってしても無駄だ。人々も死んでいるも同じ。彼らは暗い顔で、あきらめたように、破滅へ向かってとぼとぼ歩いていく。彼らは疲れていて、ミサールがその卑しい歩みを終わらせてくれるのを待っているのだ。こんなふうに悲しみを近くに感じられるのは、実に奇妙だ。多くの人の目の中の悲しみが見えてしまうのは。ブラザー・メイソンですらそうだ。この寂れた町でもっとも快活な影である彼ですら、痛みを隠している。もう、この町の人々が求めるような喜びや幸せをもたらすことができない。彼もまた、我々と同じ不安な魂になるのだ。\n\n春、24日目\n\nオースト・オーデュラが戻ってきて、また戦争のことを思い出した。まだ奪い足りないのか？ この寒村で見つけたささやかな安らぎすら奪っていくのか？ 私は彼を町から追い出すことに決めた。愚かな行為に出れば、今日にでもそうするつもりだ。それがギゼラのためだ。よく顔を出せたものだ。この戦争がどれほどの悲劇を呼んだと思ってる？ とても理解できない。いつか戦争そのものが我が家の玄関をノックする。おそらく今回は私が愛する者の代わりに、私の命を奪っていくのだ。ブラザー・メイソンは聞きたくないだろうが、時折そうなってくれと願う。願わない者などいるのか？ エイブリーやグレフにまた会いたい。自分の息子をもう一度この手で抱き締めたい。嘆き悲しむよりも、嘆き悲しまれる方がマシだ。",
+      "zh": "春天的第十五天\n\n梅森修士劝我写日记，这样我就可以驱走缠着我的鬼魂。他说，把你的想法写下来，你就可以摆脱它们，找到平静。我不认为这会有任何帮助，如果我需要的是“帮助”的话，但我会尽力而为，只为了安抚他。\n失去一个人并把他留在你的内心深处的记忆里是很难的。他们会逗留在那里，你能感觉到他们的存在，即使他们已经离开了。这显然很悲哀，丽卡！但这是一种无处不在的悲伤。我今天看着吉塞拉，她就站在那里，等着卡姆登回来，我们都知道他不会回来了。我知道她的想法。当你仅仅是和你的挚爱分开时，情况是不一样的。你可以以正常的方式度过你的每一天，并且有时你会因为对方不在身边而不知所措。有时候，你只是想去感受他们，感受一些有形的东西，你会尽你所能教会自己耐心。梅森修士经常说，米萨鲁会给予那些有耐心的人以最大的奖赏，然而，这很难，只希望当她最终知道真相时，米萨鲁会引导她。然后，她就会知道一种悲伤，它不是以陌生人的身份偶然来访，而是以不受欢迎的同床共枕者的身份来到你身边，它将成为你意志上的另一曾阴影，一个烙印，成为你生命中挥之不去的阴翳。\n\n春天的第二十三天\n\n今天，我想我在城郊附近听到了孩子们的声音。我现在知道那种声音是什么了，虽然我当时没认出它，也不知道那只是孩子们在玩耍的声音。不，那只是我的孩子们的鬼魂在呼唤他们的母亲。当然，在这个被遗忘的地方也没有其他的孩子。感觉郭哈特就像一个空荡荡的房间，毫无生气。这里毫无生机，因为这里有那么多的灵族魔法和奇迹，即便是这里的人也是死气沉沉。他们带着一种无可奈何的忧郁，蹒跚地走向末日。他们都在躲藏，或者在逃离某样东西或某个人。他们很疲惫，等待着米萨鲁结束他们琐碎的步伐。在这么多人的眼中，我能真切地体会到与我如出一辙的悲伤，这真是一种奇怪的感觉。就连梅森修士，我们这个孤独小镇上最活跃的影子，也隐藏着痛苦。尽管他尽了最大的努力去隐藏它，我还是能经常看到它。他和我们所有人一样，是命运的残酷游戏的玩物。他不愿和我谈这种痛苦。我担心这种痛苦会毁了他，他将无法再给这里迫切需要快乐和幸福的人们带来他们想要的东西。他将只是另一个不安的灵魂。\n\n春天的第二十五天\n\n欧斯特·奥杜拉又来了，令我我又一次想起了战争。难道它从我这里夺走的还不够多吗？难道它要偷走我在这个失落的村庄里找到的仅有的一点安慰吗？我真想把他撵出小镇去。如果他挑战我的耐心，我可能今天就这样做。这样也算是帮了吉塞拉一个忙。我真不明白，他怎么敢到这儿来，尤其是在这场战争造成了这么大的麻烦之后。我想总有一天战争会找上我。也许这一次它会夺走我的生命，而不是我所爱之人。梅森修士不会愿意听到这些话的，但有时我希望那种结局，谁不希望呢？再次见到艾弗里或格里夫？再次把我的儿子们抱在怀里？宁可做被哀悼的人，也不要做哀悼别人的人。",
+      "ko": "봄의 열닷새\n\n메이슨 수사(Brother Mason)가 일기를 써 보라고 권했다. 나를 괴롭히는 망령들을 쫓아내는 데 도움이 될 거라고 했다. 생각을 글로 적으면 그것에서 벗어나 평온을 찾을 수 있다는 말이었다. 내가 필요한 게 정말 '도움'인지도 모르겠지만, 그를 달래기 위해서라도 최선을 다해 보려 한다.\n누군가를 잃고도 그 사람을 마음 한구석의 기억 속에 간직하는 건 힘든 일이다. 그 기억은 떠나지 않고, 그들이 사라진 뒤에도 존재를 느끼게 한다. 슬픈 일이지, 리카(Rikka)! 하지만 모든 것을 집어삼키는 슬픔이야. 오늘은 기젤라(Gizela)를 지켜봤다. 캠던이 돌아오지 않을 걸 모두 알면서도 그 자리에 서서 그를 기다리더군. 그 마음을 알아. 사랑하는 이와 잠시 떨어져 있는 것과는 다르지. 평소처럼 하루를 보내다가도, 때로는 그가 없다는 사실에 압도돼. 가끔은 그를 느끼고 싶을 뿐이야. 손에 잡히는 무언가라도. 그러려고 애쓰며 스스로 인내하는 법을 가르치는 거지. 메이슨 수사(Brother Mason)는 미사루(Mitharu)께서 인내하는 이들에게 가장 큰 보상을 내린다고 자주 말해. 하지만 견디기 힘든 일이지. 그녀가 마침내 진실을 알게 될 때 미사루(Mitharu)께서 인도해 주시길. 그때 그녀는 낯선 이처럼 잠시 찾아왔다 사라지는 슬픔이 아니라, 원치 않는 잠자리의 벗처럼 달라붙는 슬픔을 알게 될 거야. 또 하나의 그림자, 의지를 갉아먹는 곰팡이, 삶을 뒤덮는 장막이 되겠지.\n\n봄의 스물셋째 날\n\n오늘 마을 외곽에서 아이들 목소리를 들은 것 같다. 이제야 그게 무엇이었는지 알겠다. 그때는 알아보지 못했고, 그저 아이들이 노는 소리라고만 생각했다. 아니, 내 아이들의 망령이 어머니를 부른 것뿐이었다. 물론 이 버려진 곳에는 다른 아이가 없다. 고어하트(Gorhart)는 텅 빈 방처럼 황량하다. 페이(Fae)의 마법과 경이로움이 가득한데도 이곳엔 생기가 없다. 사람들조차 마찬가지다. 그들은 체념한 우울 속에서 파멸을 향해 터덜터덜 걸어간다. 모두 무언가, 혹은 누군가를 피해 숨거나 달아나고 있다. 지쳤고, 미사루(Mitharu)께서 이들의 하찮은 방황을 끝내 주길 기다린다. 나처럼 슬픔을 속속들이 알면서 수많은 이들의 눈에서 그것을 보는 기분은 묘하다. 외로운 마을에서 가장 생기 넘치는 그림자인 메이슨 수사(Brother Mason)조차 아픔을 숨기고 있다. 감추려고 애쓰지만 나는 그 아픔을 여러 번 보았다. 그 역시 우리처럼 운명의 잔혹한 장난감이다. 그는 내게 그 일을 말하지 않으려 한다. 그 아픔에 잠식되어, 이곳 사람들이 간절히 바라는 기쁨과 행복을 더는 전해 주지 못할까 두렵다. 그러면 그 역시 또 하나의 안식 없는 영혼이 되겠지.\n\n봄의 스물다섯째 날\n\n오스트 오르두라(Ost Ordura)가 다시 왔다. 또 전쟁이 떠오른다. 전쟁은 내게서 이미 충분히 앗아 가지 않았나? 이 잃어버린 마을에서 겨우 찾은 위안마저 빼앗아야 하나? 그를 마을에서 쫓아내고 싶은 마음이 굴뚝같다. 그가 내 인내심을 시험하면 오늘 당장 그렇게 할지도 모른다. 기젤라(Gizela)에게도 잘된 일이겠지. 이 전쟁이 온갖 고통을 안겼는데 그가 어찌 여길 찾아올 수 있는지 이해할 수 없다. 언젠가 전쟁 그 자체가 우리 집 문 앞까지 올 것 같다. 이번에는 내가 사랑하는 이들 대신 내 목숨을 앗아 갈지도 모르지. 메이슨 수사(Brother Mason)는 듣고 싶지 않겠지만, 가끔은 그런 결말을 바란다. 누가 그러지 않겠어? 에이버리(Avery)나 그레프를 다시 보고 싶지 않겠어? 아들들을 다시 품에 안고 싶지 않겠어? 애도하는 사람보다 애도받는 사람이 되는 편이 낫다."
+    },
+    {
+      "resource": "default",
+      "id": "30884",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Great Mitharu! You've found the ordination tome! I'd give a sack of gold to see the look on Father Dynwel's face.",
+      "ja": "偉大なるミサールよ！ 聖職授任式の書を見つけたのね！ ディンウェル神官がどんな顔するか、大金を払ってでも見たいわね",
+      "zh": "伟大的米萨鲁！你已经找到了圣职书！我真想花一袋金子去看看迪恩维尔神父脸上的表情。",
+      "ko": "위대한 미사루(Mitharu)시여! 서품서(Ordination Tome)까지 찾았군! 딘웰 신부(Father Dynwel)의 표정을 보려면 금화 한 자루라도 내겠어."
+    },
+    {
+      "resource": "default",
+      "id": "30886",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Mitharu, bless Father Etair's spirit.",
+      "ja": "神官エタイアの魂にミサールの祝福を",
+      "zh": "米萨鲁，请保佑埃泰尔神父的灵魂。",
+      "ko": "미사루(Mitharu)시여, 에테어 신부(Father Etair)의 영혼을 축복하소서."
+    },
+    {
+      "resource": "default",
+      "id": "31210",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "The news of Father Etair's passing has come as a shock to all of us who knew him.",
+      "ja": "神官エタイアの悲報に、彼を知る者誰もが驚き、胸を痛めているところだ",
+      "zh": "埃泰尔神父过世的消息，对我们所有这些认识他的人来说，都是晴天霹雳。",
+      "ko": "에테어 신부(Father Etair)가 세상을 떠났다는 소식은 그를 알던 우리 모두에게 큰 충격이었습니다."
+    },
+    {
+      "resource": "default",
+      "id": "31368",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Why, aren't those Brother Fallon's prayer beads? You should bring those up to St. Hadwyn's Mission. It's only right.",
+      "ja": "おい、それはブラザー・ファロンの祈りのビーズじゃないか？ 聖ハドウィンの修道院に持っていってやりな。それが一番だ",
+      "zh": "啊，那不是法伦修士的念珠吗？应该把这些带到圣哈德温布道团。这是应该做的。",
+      "ko": "저건 팰런 수사(Brother Fallon)의 염주 아닌가? 성 하드윈 선교원(St. Hadwyn's Mission)에 가져다줘. 그래야 마땅하지."
+    },
+    {
+      "resource": "default",
+      "id": "31848",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon",
+      "ja": "ブラザー・ファロン",
+      "zh": "法伦修士",
+      "ko": "팰런 수사(Brother Fallon)"
+    },
+    {
+      "resource": "default",
+      "id": "32080",
+      "variant": "",
+      "titles": [
+        "Brother Udo"
+      ],
+      "en": "Brother Udo's eyesight is not what it was. That's why I handle the gems.",
+      "ja": "ブラザー・ウドは視力が衰えていてね。それでジェムは私が扱っている",
+      "zh": "乌多修士的视力已经不如从前了。这就是由我处理宝石的原因。",
+      "ko": "우도 수사(Brother Udo)의 시력은 예전 같지 않아. 그래서 보석은 내가 다루고 있지."
+    },
+    {
+      "resource": "default",
+      "id": "32295",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "I aided Brother Delf in satisfying the Blood Rite, severing him from his ties with the dreaded Red Legion bandits.",
+      "ja": "ブラザー・デルフの\"血の儀式\"に協力し、恐ろしいレッドリージョン団との関係を絶たせることができた。",
+      "zh": "我帮助德尔夫修士完成了鲜血仪式，彻底解除了他与雷德帮那伙强盗之间的纠葛。",
+      "ko": "델프 수사(Brother Delf)가 피의 의식(Blood Rite)을 치르도록 도와, 그를 두려운 레드 리전(Red Legion) 도적단과의 관계에서 끊어 놓았다."
+    },
+    {
+      "resource": "default",
+      "id": "32399",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "By professing my support in Mitharu's creed, I was given Brother Fallon's prayer beads, as is the custom. By praying with them at each of the shrines in Glendara, the beads have become a formidable amulet.",
+      "ja": "ミサールの教義への信仰を告白したので、慣習に従い、ブラザー・ファロンの祈りのビーズを授けられた。グレンダーラの各聖堂で祈ると、ビーズは強力なアミュレットに変化した。",
+      "zh": "在宣称了我对米萨鲁教令的支持后，我获得了法伦修士的念珠，和衣服。带着念珠在格伦达拉的每一处米萨鲁神龛进行祈祷后，念珠变成了强大的护身符。",
+      "ko": "미사루(Mitharu) 교리를 믿는다고 고백하자 관습에 따라 팰런 수사(Brother Fallon)의 염주를 받았다. 글렌다라(Glendara)의 성소마다 그 염주를 들고 기도하자, 강력한 부적이 되었다."
+    },
+    {
+      "resource": "default",
+      "id": "32553",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Locate Brother Egan",
+      "ja": "ブラザー・イーガンを見つける",
+      "zh": "寻找伊根修士",
+      "ko": "에간 수사(Brother Egan) 찾기"
+    },
+    {
+      "resource": "default",
+      "id": "32556",
+      "variant": "",
+      "titles": [
+        "Brother Gamian"
+      ],
+      "en": "By Brother Gamian of St. Hadwyn's Undying Mission\n\nI ask you to consider what a gem truly is. Order and clarity, exemplified. A conduit of might and light. What then is a shard? It can become a gem, but as yet, it is neither ordered, nor clear, nor powerful.\n\nThink now how much mortal-kind are like unto gems and shards! Though we enter this world rough-hewn and of little worth, we may work hard, we may refine ourselves until we become shining conduits of Mitharu's Light.\n\nA lazy man or a woman of wayward habits is a thing of little force in the world. At best, they accomplish nothing; at worst, they do great harm. Surely Mitharu loves them not. But those who are dilligent, industrious, and clear of focus. It is they who achieve great things, bring honor and purity to the world. They are truly champions of the god of order.\n\nConsider this, as well: how few of us are are perfect gems ‒ by which I mean, saints ‒ and yet, imperfect as we are, by way of the sage's craft, we make perfect gems from shards. Truly this is Mitharu's gift to we frail shards. And truly the practice of sagecraft is an excellent meditation on all these lessons.",
+      "ja": "聖ハドウィン終身修道院、ブラザー・ギャミアン記\n\nジェムの本質は何であるのか、自問してみていただきたい。秩序と明晰の具現化。力と光を伝えるもの。となればジェムのシャードは何であろうか。ジェムになりうるが、そのままでは秩序立ってもおらず、明晰でもなく、力強くもない。\n\n今度は、定命の者たちがいかにジェムやシャードのようであるかを考えていただきたい。我々は荒削りで価値の低い状態でこの世に生まれ出るものの、多大な努力を通じて精進し、ミサールの光を伝える輝かしい存在になりうるのだ。\n\n怠惰な性質の人物は、この世において微々たる力しか持ちえない。よくても何も達成しないのが関の山で、最悪の場合は多大な危害をもたらす。ミサールがそのような者を愛するだろうか。しかし勤勉で努力家で、明確な目標をもって生きる者たちは、偉大なる業績をおさめ、世界に誇りと純粋さをもたらし、秩序の神の真の使徒というべき存在となる。\n\n同時に考えていただきたいのは、我々の間に非の打ち所のないジェム、すなわち聖人が、いかに少ないかということ。そして、不完全でありながら、我々が宝石術の技をもってジェムのシャードから完ぺきなるジェムを作り出せること。これこそが我々もろいジェムのシャードに対するミサールの贈り物ではないだろうかと。そして宝石術の修練は、これらの教訓を熟考する素晴らしき機会なのではないかと。",
+      "zh": "圣哈德温永恒布道团的加米安修士所著\n\n我请你们想想宝石到底是什么。秩序和清晰的例证。光明与力量的信物。那么碎晶是什么呢？它可以成为一块宝石，但目前，它既不有序，也不清晰，也不强大。\n\n现在想想，多少的凡人就像宝石和碎晶一样！虽然我们进入这个世界时是粗陋的，没有什么价值，但我们可以努力工作，我们可以完善自己，直到我们成为米萨鲁之光的信物。\n\n一个懒惰的男人或有任性习惯的女人在这个世界上是没有力量的。往好了说，他们会一事无成；在最坏的情况下，他们会造成巨大的伤害。米萨鲁肯定不爱他们。而是那些勤奋、勤劳、清晰的人。是他们成就了伟大的事业，给世界带来了荣誉和纯洁。他们是秩序之神的真正拥护者。\n\n再想想这一点：我们中有多少人是完美的宝石——我指的是，圣人——然而，尽管我们不完美，通过圣人之道，我们可以从碎晶变成完美的宝石。这确实是米萨鲁赐给我们脆弱碎晶的礼物。确实，附魔的实践是对所有这些教训的一种极好的沉思。",
+      "ko": "성 하드윈 불멸 선교원(St. Hadwyn's Undying Mission)의 가미안 수사(Brother Gamian)가 기록하기를,\n\n보석이란 진정 무엇인지 생각해 보길 바란다. 질서와 명료함을 구현한 것, 힘과 빛을 전달하는 통로다. 그렇다면 보석 조각은 무엇인가? 보석이 될 수는 있지만, 아직은 질서도 명료함도 힘도 갖추지 못했다.\n\n필멸자들이 보석과 조각을 얼마나 닮았는지 생각해 보라! 우리는 거칠게 다듬어지지 않은 채 하찮은 존재로 이 세상에 태어나지만, 부지런히 노력하고 스스로를 갈고닦아 미사루(Mitharu)의 빛을 전하는 찬란한 통로가 될 수 있다.\n\n게으른 사람이나 방종한 습관에 빠진 사람은 세상에서 힘을 발휘하지 못한다. 잘해 봐야 아무것도 이루지 못하고, 최악의 경우 큰 해를 끼친다. 미사루(Mitharu)께서 그런 이들을 사랑하실 리 있겠는가. 그러나 부지런하고 근면하며 뚜렷한 목표를 지닌 이들은 위대한 일을 이루고 세상에 명예와 순수함을 가져온다. 그들이야말로 질서의 신을 진정으로 받드는 이들이다.\n\n이 점도 생각해 보라. 우리 중 흠 없는 보석, 다시 말해 성인은 얼마나 드문가. 그런데도 불완전한 우리는 마법물품 제작의 기술로 보석 조각을 완벽한 보석으로 만든다. 이것이야말로 연약한 조각인 우리에게 미사루(Mitharu)께서 주신 선물이 아니겠는가. 마법물품 제작(Sagecraft)의 수련은 이 모든 가르침을 깊이 되새기는 훌륭한 수행이기도 하다."
+    },
+    {
+      "resource": "default",
+      "id": "32752",
+      "variant": "",
+      "titles": [
+        "Brother Wulf",
+        "Brother Holt"
+      ],
+      "en": "If you're looking for Brother Wulf or Brother Holt, you will have to wait. Both men are out in the wild.",
+      "ja": "ブラザー・ウルフかブラザー・ホルトを探してるんなら、待つことだ。二人とも荒野に出かけてるからな",
+      "zh": "如果你是想找伍尔夫修士或者霍特修士，你就得等等了。他们两个人现在都在野外。",
+      "ko": "울프 수사(Brother Wulf)나 홀트 수사(Brother Holt)를 찾는 거라면 기다려야 해. 둘 다 지금 야생에 나가 있어."
+    },
+    {
+      "resource": "default",
+      "id": "33076",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "I found Brother Fallon dead on the forest road north of Didenhil. Didenhil still needs the three parcels of Plagueshield he carried. I should look for them in Glendara Wood.",
+      "ja": "ブラザー・ファロンがダイデンヒルの北の森で死んでいるのを見つけた。ダイデンヒルでは、彼が運んでいた3個のプラーグシールドの小包を未だ必要としている。グレンダーラの森を探そう。",
+      "zh": "我在迪登希尔北部的林间小路上找到了法伦修士的尸体。迪登希尔依然需要他携带的三包瘟疫屏障。我得要前往格伦达拉森林寻找它们。",
+      "ko": "다이덴힐(Didenhil) 북쪽 숲길에서 팰런 수사(Brother Fallon)의 시신을 발견했다. 그가 가져가던 역병 방호제(Plagueshield) 세 묶음이 여전히 다이덴힐(Didenhil)에 필요하다. 글렌다라 숲(Glendara Wood)에서 찾아봐야겠다."
+    },
+    {
+      "resource": "default",
+      "id": "33567",
+      "variant": "",
+      "titles": [
+        "Brother Nuk"
+      ],
+      "en": "Brother Nuk, of St. Odwig's Mission.",
+      "ja": "聖オドウィグ修道院のブラザー・ナーク",
+      "zh": "圣奥德威格布道所的纳克修士。",
+      "ko": "성 오드윅 선교원(St. Odwig's Mission)의 눅 수사(Brother Nuk)입니다."
+    },
+    {
+      "resource": "default",
+      "id": "33724",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Be a dear. Find me Brother Fallon and those three parcels of Plagueshield.",
+      "ja": "お願い。ブラザー・ファロンと、プラーグシールドの包みを3個見つけて",
+      "zh": "劳驾。为我找到法伦修士和那三包瘟疫屏障。",
+      "ko": "부탁이야. 팰런 수사(Brother Fallon)와 역병 방호제(Plagueshield) 꾸러미 세 개를 찾아 줘."
+    },
+    {
+      "resource": "default",
+      "id": "34040",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "It isn't like Brother Fallon to tarry so. We expected him this morning.",
+      "ja": "こんなに遅れるとはブラザー・ファロンらしくない。今朝来るはずだった",
+      "zh": "法伦修士不会拖延这么久。我们今天早上以为他会来。",
+      "ko": "팰런 수사(Brother Fallon)가 이렇게 늦는 건 그답지 않아. 오늘 아침에 올 줄 알았는데."
+    },
+    {
+      "resource": "default",
+      "id": "34405",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "The brothers and I are preparing to give Father Etair last rites, in keeping with the Authority's order. His place is by Mitharu's side.",
+      "ja": "\"創造主\"の命に従い、修道士たちと神官エタイアの葬儀の準備をしているんだ。彼はミサールのもとにいる",
+      "zh": "弟兄们和我正在给埃泰尔神父准备最后的仪式，遵循至高之道。他已伴随在米萨鲁身侧。",
+      "ko": "수사들과 나는 권능자(Authority)의 뜻에 따라 에테어 신부(Father Etair)의 장례 의식을 준비하고 있어. 그분께서는 미사루(Mitharu) 곁에 계셔."
+    },
+    {
+      "resource": "default",
+      "id": "34523",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Two Fae have promised Brother Egan magical power if he retrieves a relic from the caverns of Waterhall Down. I will accompany Egan to keep him out of trouble. Waterhall Down is west of Egan's camp.",
+      "ja": "2人のフェイが、滝つぼの洞窟から遺物を回収すれば魔力を授けると、ブラザー・イーガンに約束した。一緒に行ってイーガンを守ろう。滝つぼの洞窟はイーガンのキャンプの西にある。",
+      "zh": "两个灵族承诺赐予伊根修士魔法力量，前提是他能前往水洞取得一个圣物。我会与伊根同行，防止他遭遇不测。水洞就在伊根营地的西边。",
+      "ko": "페이(Fae) 둘이 에간 수사(Brother Egan)에게 워터홀 다운(Waterhall Down) 동굴에서 유물을 가져오면 마력을 주겠다고 약속했다. 에간(Egan)이 위험에 빠지지 않도록 동행하기로 했다. 워터홀 다운(Waterhall Down)은 에간(Egan)의 야영지 서쪽에 있다."
+    },
+    {
+      "resource": "default",
+      "id": "34907",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair's apprentice has gone missing. I only wish I knew why.",
+      "ja": "神官エタイアの弟子が行方不明だ。その理由が分かればいいんだが",
+      "zh": "埃泰尔神父的学徒失踪了。我只想知道为什么。",
+      "ko": "에테어 신부(Father Etair)의 제자가 실종됐다. 이유라도 알 수 있으면 좋으련만."
+    },
+    {
+      "resource": "default",
+      "id": "35562",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Is it true? Brother Fallon died upon the road? Mitharu, by your clouded tears, save us!",
+      "ja": "何？ ブラザー・ファロンが道中で亡くなった？ ミサールよ、我らを救いたまえ！",
+      "zh": "这是真的吗？法伦修士在路上死了？米萨鲁，用你模糊的眼泪，拯救我们！",
+      "ko": "뭐라고? 팰런 수사(Brother Fallon)가 길에서 죽었다고? 미사루(Mitharu)여, 흐린 눈물로 우리를 구원하소서!"
+    },
+    {
+      "resource": "default",
+      "id": "35754",
+      "variant": "",
+      "titles": [
+        "Brother Ode"
+      ],
+      "en": "Brother Ode",
+      "ja": "ブラザー・オーデ",
+      "zh": "欧德修士",
+      "ko": "오드 수사(Brother Ode)"
+    },
+    {
+      "resource": "default",
+      "id": "36512",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon's Beads",
+      "ja": "ブラザー・ファロンのビーズ",
+      "zh": "法隆修士的串珠",
+      "ko": "팰런 수사(Brother Fallon)의 염주"
+    },
+    {
+      "resource": "default",
+      "id": "37479",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Search for Brother Fallon",
+      "ja": "ブラザー・ファロンの遺体を調べる",
+      "zh": "寻找法伦修士",
+      "ko": "팰런 수사(Brother Fallon)를 찾아라"
+    },
+    {
+      "resource": "default",
+      "id": "37543",
+      "variant": "",
+      "titles": [
+        "Brother Fallon",
+        "Father Marsh"
+      ],
+      "en": "I found Brother Fallon's body by the overturned cart in Glendara wood. Since he is dead, I should return the prayer beads as Father Marsh asked.",
+      "ja": "グレンダーラの森のひっくり返った荷馬車の側で、ブラザー・ファロンの死体を見つけた。既に亡くなっているので、ブラザー・ウドに言われた通り、祈りのビーズを持ち帰ろう。",
+      "zh": "我在格伦达拉森林翻倒的马车旁发现了法伦修士的尸体。既然他死了，我应该按照马什神父的要求归还念珠。",
+      "ko": "글렌다라 숲(Glendara Wood)에서 뒤집힌 수레 옆에 있는 팰런 수사(Brother Fallon)의 시신을 찾았다. 그는 죽었으니 마시 신부(Father Marsh)가 부탁한 대로 묵주를 돌려줘야겠다."
+    },
+    {
+      "resource": "default",
+      "id": "37887",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Mitharu? Never. Father Etair? No. The Maid was right. The crystal gives the power to end the pain. And now I choose to end yours.",
+      "ja": "ミサールなんてとんでもない。神官エタイアも駄目だ。\"ウィンダメアの烈女\"が正しかった。クリスタルは苦しみを止める力をくれる。お前の息の根を止める番だ",
+      "zh": "米萨鲁？才没有。埃泰尔神父？不。少女是对的。水晶能够赋予力量来结束这些痛苦。而现在我就选择结束你的痛苦。",
+      "ko": "미사루(Mitharu)라고? 절대 아니야. 에테어 신부(Father Etair)도 아니고. 시녀(The Maid)의 말이 맞았어. 이 수정에는 고통을 끝낼 힘이 있어. 이제 네 고통도 끝내기로 했어."
+    },
+    {
+      "resource": "default",
+      "id": "38228",
+      "variant": "",
+      "titles": [
+        "Brother Padric"
+      ],
+      "en": "Brother Padric's Travel Notes containing an account of his time in Splitrock Depths.",
+      "ja": "スプリットロック洞窟内での体験を含む、ブラザー・パドリックの旅の手帳。",
+      "zh": "帕迪克修士的旅行笔记，记录了他在断岩深渊的经历。",
+      "ko": "스플릿록 심층부(Splitrock Depths)에서 보낸 시간을 기록한 패드릭 수사의 여행 기록(Brother Padric's Travel Notes)."
+    },
+    {
+      "resource": "default",
+      "id": "38760",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "Brother Til's Collection",
+      "ja": "ブラザー・ティルのコレクション",
+      "zh": "提尔修士的收藏",
+      "ko": "틸 수사의 수집품(Brother Til's Collection)"
+    },
+    {
+      "resource": "default",
+      "id": "39195",
+      "variant": "",
+      "titles": [
+        "Brother Holt",
+        "Brother Padric"
+      ],
+      "en": "Brother Holt has asked that I find out what happened to his friend, Brother Padric. Holt explained that Brother Padric left St. Eadric's over a year ago in search of treasure that was fabled to be somewhere just outside of Splitrock Depths. I should visit Splitrock Depths and see if I can find out what has become of Brother Padric.",
+      "ja": "友人のブラザー・パドリックに何が起きたか調べて欲しいと、ブラザー・ホルトに頼まれた。ブラザー・パドリックはスプリットロック洞窟にあるとされる伝説の財宝を探しに、1年以上前に聖イードリックを発ったという。スプリットロック洞窟へ行き、ブラザー・パドリックの行方を探そう。",
+      "zh": "霍特修士希望我能了解到他的朋友帕德里克修士最近的状况。霍特解释说，帕德里克修士一年前离开了圣艾德里克，前去寻找传说中埋藏在裂石深坑外的宝藏。我得前往裂石深坑，看看自己能否了解到帕德里克修士的近况。",
+      "ko": "홀트 수사(Brother Holt)가 친구 패드릭 수사(Brother Padric)에게 무슨 일이 있었는지 알아봐 달라고 했다. 홀트(Holt)의 말로는 패드릭 수사(Brother Padric)가 스플릿록 심층부(Splitrock Depths) 바로 바깥 어딘가에 있다는 전설의 보물을 찾아 일 년도 더 전에 성 이드릭(St. Eadric) 수도원을 떠났다고 한다. 스플릿록 심층부(Splitrock Depths)를 찾아가 패드릭 수사(Brother Padric)의 행방을 알아봐야겠다."
+    },
+    {
+      "resource": "default",
+      "id": "39703",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "I am so glad my advice about the sap was of use. You flatter me, though. The idea for the poultice was yours to begin with. I hope you have not waited to share it with Astrid.\n\nYou may be right, that I bring order, but I hope I do not lie in my reassurance. Death itself is part of Mitharu's order, and Fate is His plan yet unrealized.\n\nBlessings in Mitharu,\nBrother Fallon",
+      "ja": "樹液に関する助言が役立って何よりだが、謙そんはいけない。あのパップ剤はそもそも君が思いついたアイデアだ。レシピはもう、アストリッドに教えてやったのか？\n\n君の言うとおり、私の役目は秩序をもたらすこと。だが、そこで安心して立ち止まってはいけない。死もまたミサールの秩序の一部であり、宿命とは今だ実現されぬ彼の計画なのだから。\n\nミサールの祝福を\nブラザー・ファロン",
+      "zh": "很高兴我对于药液的建议起了作用。不过你确实过奖了。本来就是你最先提议使用药膏的。希望你没有等着和阿斯特丽德共享。\n\n你可能是对的，我带来了秩序，不过我希望我对自己的保证没有撒谎。死亡本来就是米萨鲁秩序的一部分，而命运则是他还未实现的计划。\n\n愿米萨鲁保佑，\n兄弟法伦",
+      "ko": "수액에 관한 내 조언이 도움이 됐다니 기쁘네. 그래도 너무 치켜세우진 말게. 찜질약은 처음부터 자네가 생각해 낸 거잖나. 아스트리드(Astrid)에게도 알려 줬길 바라네.\n\n자네 말이 맞을지도 모르지. 내가 질서를 가져오긴 하네. 하지만 내 위로가 거짓이 아니길 바라네. 죽음 자체도 미사루(Mitharu)의 질서에 속하고, 운명은 아직 실현되지 않은 그분의 계획이니까.\n\n미사루(Mitharu)의 축복을 빌며,\n팰런 수사(Brother Fallon)"
+    },
+    {
+      "resource": "default",
+      "id": "40059",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Brother Egan",
+      "ja": "ブラザー・イーガン",
+      "zh": "伊根修士",
+      "ko": "에간 수사(Brother Egan)"
+    },
+    {
+      "resource": "default",
+      "id": "40271",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "It is incredible. Father Etair has been murdered. His study torn apart.",
+      "ja": "信じられないことに、神官エタイアが殺された。研究が台なしだ",
+      "zh": "真不可思议。埃泰尔神父被谋杀了。他的研究也是一片狼藉。",
+      "ko": "믿을 수 없어. 에테어 신부(Father Etair)가 살해당했어. 서재도 난장판이야."
+    },
+    {
+      "resource": "default",
+      "id": "40531",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Those are Brother Fallon's prayer beads you have there. You should bring them to the mission when you are able.",
+      "ja": "それは、ブラザー・ファロンの祈りのビーズよ。引き受けてくれるなら、それを修道院に持っていって",
+      "zh": "那是法伦修士的串珠。如果可以，你应该把它们带去布道所。",
+      "ko": "그건 팰런 수사(Brother Fallon)의 염주야. 괜찮을 때 선교관으로 가져다주는 게 좋겠어."
+    },
+    {
+      "resource": "default",
+      "id": "40592",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "Brother Delf, of St. Odwig's Mission, has asked me to help him avoid retaliation from the leader of the Red Legion, Red Idward. I've agreed to recover ceremonial Red Legion daggers from former members Ugnar Odgray, of Gorhart Village, and Itran, a wanderer in Haxhi.",
+      "ja": "聖オドウィグ修道院のブラザー・デルフに、レッドリージョン団のリーダーであるレッド・イドワードからの報復を避けるため協力を求められた。レッドリージョン団の儀式用ダガーを、元メンバーであるゴーハート村のウグナー・オドグレイとハクシを彷徨うアイトランから回収すると約束した。",
+      "zh": "圣奥德威格布道所的德尔夫修士，请求我帮助他躲避雷德帮领袖雷德·伊德瓦尔德所发起的报复行为。我已经同意前去寻找雷德帮的前成员并从他们身上拿回仪式用匕首，一个是郭哈特镇的乌格纳·奥德格雷，另一个是伊特兰，哈克希的一名流浪者。",
+      "ko": "성 오드윅 선교관(St. Odwig's Mission)의 델프 수사(Brother Delf)가 레드 리전(Red Legion)의 우두머리 레드 이드워드(Red Idward)의 보복을 피하도록 도와달라고 했다. 나는 레드 리전(Red Legion)의 전직 단원인 고어하트(Gorhart) 마을의 우그나르 오드그레이(Ugnar Odgray)와 하크시(Haxhi)를 떠도는 이트란(Itran)에게서 의식용 단검을 되찾기로 했다."
+    },
+    {
+      "resource": "default",
+      "id": "40711",
+      "variant": "",
+      "titles": [
+        "Brother Holt"
+      ],
+      "en": "Return to Brother Holt",
+      "ja": "ブラザー・ホルトの元へ戻る",
+      "zh": "回去找霍特修士",
+      "ko": "홀트 수사(Brother Holt)에게 돌아가기"
+    },
+    {
+      "resource": "default",
+      "id": "41033",
+      "variant": "",
+      "titles": [
+        "Brother Egan",
+        "Father Dynwel"
+      ],
+      "en": "It is time to bring Brother Egan back to St. Odwig's Mission, where he belongs. Father Dynwel should be pleased that I've found his youngest charge. The mission is south of the camp, in the village of Gorhart.",
+      "ja": "ブラザー・イーガンを彼の居場所である聖オドウィグ修道院へ連れ帰ろう。最年少の僧侶が無事に見つかり、ディンウェル神父も喜ぶだろう。修道院はキャンプの南、ゴーハート村にある。",
+      "zh": "是时候将伊根修士带回圣奥德威格布道所了，那里才是他的归宿。我找回了他最年轻的学徒，丁维尔神父应该会感到高兴。布道所在营地南方，郭哈特镇中。",
+      "ko": "에간 수사(Brother Egan)를 그의 자리인 성 오드윅 선교관(St. Odwig's Mission)으로 데려갈 때야. 막내 제자를 찾아냈으니 딘웰 신부(Father Dynwel)도 기뻐하시겠지. 선교관은 야영지 남쪽 고어하트(Gorhart) 마을에 있어."
+    },
+    {
+      "resource": "default",
+      "id": "41051",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Then Brother Fallon never made it through the woods? This is terrible news. When you have a moment, you should return his prayer beads to the mission.",
+      "ja": "では、ブラザー・ファロンは森を抜けられなかったのですね？ 悲しい知らせです。時間があるときに、彼の祈りのビーズを修道院に届けてやってください",
+      "zh": "那法伦修士没能穿过树林？真是可怕的消息。当你有时间的时候，你应该把他的念珠还给布道团。",
+      "ko": "그럼 팰런 수사(Brother Fallon)는 숲을 빠져나오지 못한 거예요? 정말 끔찍한 소식이네요. 시간 나실 때 선교관에 그의 염주를 돌려주세요."
+    },
+    {
+      "resource": "default",
+      "id": "41196",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "They were designed by Father Etair, a mortal, and I worked with Hallam the White to fashion the enchanted Cairn shell itself. Quite a discovery, they are.",
+      "ja": "設計したのは、定命の者である神官エタイアよ。魔法のケルンを覆う殻は、白のハラムと一緒に作り上げたわ。素晴らしい発見よね",
+      "zh": "它们是由凡人埃泰尔神父设计，此后我又和白发哈拉姆一起改良了这些魔力灵球的外壳。实在是不错的发现。",
+      "ko": "필멸자인 에테어 신부(Father Etair)가 설계했고, 마법이 깃든 케언(Cairn)의 껍질은 백색의 할람(Hallam the White)과 내가 함께 만들었지. 정말 대단한 발견이야."
+    },
+    {
+      "resource": "default",
+      "id": "41263",
+      "variant": "",
+      "titles": [
+        "Brother Mason",
+        "Brother Egan"
+      ],
+      "en": "Welcome. I am Brother Mason, mission Alms Master. If you need anything, please don't hesitate to ask. Are you here about Brother Egan? He is still missing.",
+      "ja": "ようこそ。私はブラザー・メイソン、修道院の救貧長だ。何か必要なことがあれば、遠慮せずに言ってくれ。ブラザー・イーガンの話を聞いてないか？ 彼は行方不明なんだ",
+      "zh": "欢迎。我是布道所布施长的梅森修士。如果你需要任何东西，请尽管开口。你是为伊根修士而来吗？他还是没有下落。",
+      "ko": "어서 오게. 나는 선교관의 구빈 담당관, 메이슨 수사(Brother Mason)일세. 필요한 게 있으면 주저 말고 얘기하게. 에간 수사(Brother Egan) 때문에 왔나? 아직 실종 상태라네."
+    },
+    {
+      "resource": "default",
+      "id": "41367",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "Tuesday\n\nWe broke through this morning. It was a grand adventure. I led the way, dangling from a series of cords and timbers, a puppet on a string. Exciting! I must confess that such breathtaking risks are not the usual labors of a mission father. Of course, what is but prayer? I would do it again in an instant. Exciting!\n\nThe old well was in better condition that we'd anticipated. Brother Wulf and I were able to penetrate the collapsed stone within several hours of digging, and soon reached the lake beneath. Water levels were low, likely because of the endless heat we've been experiencing in Haxhi this spring. Not a day passes that I don't pray for the health of my Sky Blossom and Cohosh. May the Authority protect them from this oppressive blaze!\n\nAs we prepared the pulley lines and removed debris, the oddest thing happened. Beneath the earth, far in the depths of the well, Wulf made an interesting discory. It was a crystal. I've seen a great many gems and stones, but I've never seen anything like this in all of my days.\n\nIt is quite obvious to me that the crystal possesses magical properties, for is surface moves with a rippling aura, like light wavering over the water, but that is all I can gather without performing more experiments. My next few days will be spent in close observation.",
+      "ja": "火曜\n\n今朝、ついにやった。大変な冒険だった。無数の縄や木の枝につかまり、操り人形のようになりながら、私は先に進んだ。ゾクゾクした！ 正直に言うと、伝道師をしていてそこまでハラハラするような危険を冒すことはまずない。当たり前だが、祈ってばかりだ。次があるならすぐにでもやりたい。実に刺激的だった！\n\nその古井戸は思ったよりも状態がよかった。ブラザー・ウルフと私とで何時間か掘り続けて、崩れた石の隙間を通り抜けることができた。そして地底湖に到達した。水位は低い。この春、ハクシを見舞っている酷暑のせいだろう。我がスカイブロッサムとコホシュの健康を祈らない日など一日としてない。\"創造主\"よ、この抑圧的な炎からお守りたまえ！\n\n滑車のケーブルを引き、ガレキを取り除いていると、とても奇妙な事が起きた。この地の底で、井戸のはるか奥深くで、ウルフが興味深い発見をしたのだ。それはクリスタルだった。立派な宝石や石ならいくらでも見た事があるが、これほどの代物は初めてだった。\n\nそのクリスタルが魔力を秘めているのは明白だ。水の上で明かりを振ったときのように、クリスタルの表面でオーラが波打っている。だが、あとは実験を重ねてみないと何とも言えない。数日かけてじっくり観察してみたい。",
+      "zh": "周二\n\n我们在今天早上取得了突破。这是一次伟大的冒险。我走在前面，挂在一串绳子和木头上，像一个被吊在绳子上的木偶。真令人兴奋！我必须承认，这种惊险的冒险并非一个布道神父的日常工作。当然了，除了祈祷还有什么是呢？我向马上再做一次。真令人兴奋！\n\n这口老井的状况比我们预期的要好。我和伍尔夫修士只挖了几个小时，就挖通了坍塌的石头，很快就抵达了下面的湖里。水位很低，可能是因为今年春天的哈克希经历了无尽的高温。没有一天我不在为我的天空之花和升麻的健康祈祷。愿当局保护它们免受这场凶猛的大火的危害！\n\n在我们准备滑轮线和清除碎片时，最奇怪的事情发生了。在地下，在井的深处，伍尔夫有了一个有趣的发现。那是一块水晶。我见过很多宝石和石头，但我从来没见过这样的东西。\n\n我能明显看出，这块水晶具有魔法属性，因为它的表面有着涟漪状波动的光环，就像光在水面上摇摆一样，但这仅仅是我在没有做更多实验的情况下获得的信息。接下来的几天我将仔细观察。",
+      "ko": "화요일\n\n오늘 아침 마침내 돌파구를 찾았다. 대단한 모험이었다. 나는 여러 줄과 목재에 매달려 꼭두각시처럼 흔들리며 앞장섰다. 짜릿했다! 고백하건대, 그렇게 숨 막히는 위험은 선교관 신부의 일상적인 업무가 아니다. 물론 기도 말고 무엇이 있겠는가? 당장이라도 다시 해보고 싶다. 정말 짜릿했다!\n\n옛 우물은 예상보다 상태가 좋았다. 울프 수사(Brother Wulf)와 나는 몇 시간 동안 파내 무너진 돌 틈을 통과했고, 곧 아래쪽 호수에 닿았다. 수위가 낮았다. 이번 봄 하크시(Haxhi)를 덮친 끝없는 더위 때문일 것이다. 하늘꽃(Sky Blossom)과 코호시가 건강하기를 하루도 빠짐없이 기도한다. 권능자여, 이 숨 막히는 불볕에서 그들을 지켜주소서!\n\n도르래 줄을 준비하고 잔해를 치우던 중 가장 기묘한 일이 벌어졌다. 땅속, 우물 깊숙한 곳에서 울프(Wulf)가 흥미로운 것을 발견했다. 수정이었다. 보석과 돌은 숱하게 봤지만, 평생 이런 것은 본 적이 없다.\n\n그 수정에 마력이 깃들어 있음은 분명하다. 표면에서 물 위에 흔들리는 빛처럼 잔물결치는 기운이 움직인다. 하지만 실험을 더 해보지 않고는 그 이상 알아낼 수 없다. 앞으로 며칠은 가까이에서 자세히 관찰해야겠다."
+    },
+    {
+      "resource": "default",
+      "id": "41369",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair did something to this crystal... hid it by way of magic. A priest using magic. Unforgivable!",
+      "ja": "神官エタイアがこのクリスタルを魔法で隠したんだ。神官が魔法を使うなんて、許されることじゃない！",
+      "zh": "埃泰尔神父对这没水晶做了什么……用魔法隐藏了它。使用魔法的祭司。不可原谅！",
+      "ko": "에테어 신부(Father Etair)가 이 수정에 무슨 짓을 했어... 마법으로 숨겼다고. 사제가 마법을 쓰다니. 용서할 수 없어!"
+    },
+    {
+      "resource": "default",
+      "id": "41489",
+      "variant": "",
+      "titles": [
+        "Father Etair",
+        "Brother Wulf"
+      ],
+      "en": "Father Etair and his apprentice Brother Wulf. They were inseparable, like a true father and son. It was a shared love of alchemy that brought them together.",
+      "ja": "神官エタイアと弟子のブラザー・ウルフだ。彼らは実の親子のように切り離せない仲だった。錬金術により引き合わされ、錬金術への愛を分かち合っていたんだ",
+      "zh": "埃泰尔神父和他的学徒伍尔夫修士。他们两个形影不离，就像真正的父子一样。是对炼金术的共同热爱让他们聚在一起。",
+      "ko": "에테어 신부(Father Etair)와 그의 제자 울프 수사(Brother Wulf)야. 진짜 부자처럼 늘 붙어 다녔지. 둘은 연금술에 대한 사랑을 나누며 가까워졌어."
+    },
+    {
+      "resource": "default",
+      "id": "41687",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon was supposed to be bringing much-needed parcels of Plagueshield medicine from St. Hadwyn's Mission. Astrid Frisk has asked me to look for him in the woods north of Didenhil, on the road to the Mission.",
+      "ja": "聖ハドウィンの修道院の使いとして、ブラザー・ファロンが大切なプラーグシールドの薬を届けることになっていた。ダイデンヒルの北の森を抜ける教会への道を探すよう、アストリッド・フリスクに頼まれた。",
+      "zh": "法伦修士本应从圣哈德温修道院带来几包瘟疫屏障药物。阿斯特丽德·弗里斯克希望我前往迪登希尔北部的森林里寻找他，就在前往修道院的路上。",
+      "ko": "팰런 수사(Brother Fallon)는 성 하드윈 선교관(St. Hadwyn's Mission)에서 꼭 필요한 역병 방호제(Plagueshield) 약품을 가져오기로 했다. 아스트리드 프리스크(Astrid Frisk)가 선교관으로 가는 길에 있는 다이덴힐(Didenhil) 북쪽 숲에서 그를 찾아 달라고 부탁했다."
+    },
+    {
+      "resource": "default",
+      "id": "41738",
+      "variant": "",
+      "titles": [
+        "Brother Padric"
+      ],
+      "en": "Locate Brother Padric",
+      "ja": "ブラザー・パドリックを見つける",
+      "zh": "找到帕德里克修士",
+      "ko": "패드릭 수사(Brother Padric) 찾기"
+    },
+    {
+      "resource": "default",
+      "id": "41794",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Journal of Father Etair",
+      "ja": "神官エタイアの日誌",
+      "zh": "埃泰尔神父的日记",
+      "ko": "에테어 신부의 일지(Journal of Father Etair)"
+    },
+    {
+      "resource": "default",
+      "id": "42070",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "If we're going to press on, then I'll ask you to stay close. I have no courage to speak of. Honest. Ask Father Dynwel.",
+      "ja": "もし続けるなら、近くにいてほしい。正直、口にする勇気がないんだ。ディンウェル神父に聞いてくれ",
+      "zh": "如果我们要继续前进，那你就跟紧点。我没有勇气可言。真的。问丁维尔神父。",
+      "ko": "계속 나아가려면 가까이 있어 줘. 솔직히 난 용기라곤 없어. 딘웰 신부(Father Dynwel)에게 물어봐."
+    },
+    {
+      "resource": "default",
+      "id": "42404",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "I've killed Brother Til of St. Odwig's Mission, making it impossible to help him recover his collection of lost books.",
+      "ja": "聖オドウィグ修道院のブラザー・ティルを殺した。行方不明の本のコレクションの捜索に協力できなくなった。",
+      "zh": "我杀死了圣奥德威格布道所的蒂尔修士，无法再帮助他找回丢失的藏书了。",
+      "ko": "성 오드윅 선교원(St. Odwig's Mission)의 틸 수사(Brother Til)를 죽였다. 그가 잃어버린 장서들을 되찾도록 도울 수 없게 되었다."
+    },
+    {
+      "resource": "default",
+      "id": "42875",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon should've come. Astrid needs that medicine.",
+      "ja": "ブラザー・ファロンはまだ？ アストリッドが薬を必要としている",
+      "zh": "法伦修士应该来的。阿斯特丽德需要那种药。",
+      "ko": "팰런 수사(Brother Fallon)님은 오셨어야 했는데. 아스트리드(Astrid)에게 약이 필요해."
+    },
+    {
+      "resource": "default",
+      "id": "43287",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "I betrayed Brother Delf and turned against him, killing him for a reward from the Red Legion bandits.",
+      "ja": "ブラザー・デルフを裏切り、盗賊のレッドリージョン団から報酬を得るために殺した。",
+      "zh": "我背叛了德尔夫修士，并为了拿到雷德帮的报酬而杀了他。",
+      "ko": "나는 델프 수사(Brother Delf)를 배신하고, 레드 리전(Red Legion) 도적들에게 보상을 받으려고 그를 죽였다."
+    },
+    {
+      "resource": "default",
+      "id": "43473",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "They were designed by Father Etair, a mortal, and I worked with Hallam the White to fashion the enchanted Cairn shell itself. Quite a discovery, they are.",
+      "ja": "設計したのは、定命の者である神官エタイアよ。魔法のケルンを覆う殻は、白のハラムと一緒に作り上げたわ。素晴らしい発見よね",
+      "zh": "它们是由凡人埃泰尔神父设计，此后我又和白发哈拉姆一起改良了这些魔力灵球的外壳。实在是不错的发现。",
+      "ko": "그것들은 필멸자인 에테어 신부(Father Etair)가 설계했고, 마법의 케언(Cairn) 껍데기는 내가 백색의 할람(Hallam the White)과 함께 만들었어. 정말 놀라운 발견이지."
+    },
+    {
+      "resource": "default",
+      "id": "43895",
+      "variant": "",
+      "titles": [
+        "Brother Holt",
+        "Brother Padric"
+      ],
+      "en": "I am unable to help assist Brother Holt with his request to find his missing friend, Brother Padric, as Brother Holt has now met with a fatal end.",
+      "ja": "ブラザー・ホルトが死んだので、行方不明の友人ブラザー・パドリックの捜索を手伝うことはできない。",
+      "zh": "我为无法帮助霍特修士找到他失踪的朋友帕德里克修士了，因为霍特修士已经死亡。",
+      "ko": "홀트 수사(Brother Holt)가 죽었으므로, 실종된 친구 패드릭 수사(Brother Padric)를 찾아 달라는 그의 부탁을 도울 수 없다."
+    },
+    {
+      "resource": "default",
+      "id": "44310",
+      "variant": "",
+      "titles": [
+        "Brother Gamian"
+      ],
+      "en": "Brother Gamian says it best, but in the art of working gems is all the glory of Mitharu.",
+      "ja": "説明ならブラザー・ギャミアンが一番うまいが、ジェム加工はミサールの栄光を象徴するものだ",
+      "zh": "伽米安修士说得很好，但是在宝石制造的艺术中，所有的荣耀都是属于米萨鲁的。",
+      "ko": "가미안 수사(Brother Gamian)가 가장 잘 설명해 주겠지만, 보석 세공술은 미사루(Mitharu)의 영광을 담고 있지."
+    },
+    {
+      "resource": "default",
+      "id": "44623",
+      "variant": "",
+      "titles": [
+        "Father Dynwel",
+        "Brother Egan"
+      ],
+      "en": "Father Dynwel of St. Odwig's Perpetual Mission is worried about his youngest monk in his care, Brother Egan. The monk disappeared into the woods north of the mission. I should explore the forest for this lost soul and learn what became of him.",
+      "ja": "聖オドウィグ終身修道院のディンウェル神父が、一番若い修道士のブラザー・イーガンを心配している。修道院の北の森で行方不明になったという。森を捜索して、悩める魂の消息を突き止めよう。",
+      "zh": "圣奥德威格永恒布道所的丁维尔神父为他手下最年轻的僧侣，伊根修士，感到担忧。这名僧侣在修道院北边的树林中消失了。我应该搜索那片森林，了解他到底发生了什么。",
+      "ko": "성 오드윅 영구 선교회(St. Odwig's Perpetual Mission)의 딘웰 신부(Father Dynwel)는 자신이 돌보는 막내 수도사, 에간 수사(Brother Egan)를 걱정하고 있다. 그는 선교회 북쪽 숲으로 사라졌다. 숲을 수색해 그가 어떻게 됐는지 알아봐야 한다."
+    },
+    {
+      "resource": "default",
+      "id": "44854",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel sent you, didn't he? Old fool. His path to power was too plodding, and now he wishes to slow me down, too. Well, I have new friends, Fae friends.",
+      "ja": "ディンウェル神父の差し金だな？ 愚かな年寄りめ。自分の力が伸びないからって足止めするつもりか。こっちには新しいフェイの友達ができたんだ",
+      "zh": "丁维尔神父派你来的，是吗？老蠢货。他追寻力量的道路太乏味了，现在他想让我也慢下来。嗯，我有了新朋友，灵族的朋友。",
+      "ko": "딘웰 신부(Father Dynwel)가 보냈군, 그렇지? 늙은 바보 같으니. 힘을 얻는 길이 너무 더뎠다고 이제는 나까지 늦추려는 거야. 뭐, 난 새 친구들이 있어. 페이(Fae) 친구들 말이야."
+    },
+    {
+      "resource": "default",
+      "id": "45056",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "You have everything you need. Once he's dead, your pact with the Red Legion will be complete. Payment will be Brother Delf's own treasure hoard.",
+      "ja": "必要なものは全て揃っている。彼が死ねば、レッドリージョン団との契約は完了だ。支払いはブラザー・デルフ自身の宝物庫から出す",
+      "zh": "你有你需要的一切。他死了之后，你和雷德帮的契约就完成了。报酬就是德尔夫修士的财宝。",
+      "ko": "필요한 건 다 갖췄어. 그가 죽으면 레드 리전(Red Legion)과의 계약도 끝나지. 대가는 델프 수사(Brother Delf)의 보물창고에 있는 보물로 치를 거야."
+    },
+    {
+      "resource": "default",
+      "id": "45181",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Don't believe Father Dynwel when he tells you that Mitharu was male. Mitharu is a god, not a mortal. She is all of us, not some of us!",
+      "ja": "神官ディンウェルは、ミサールが男だと言っている。信じないで。ミサールは神で、定命の者ではない。私たち全てであり、誰かではない！",
+      "zh": "当迪恩维尔神父告诉你米萨鲁是男性时，不要相信他。米萨鲁是一个神，不是凡人。她是我们所有人，而不是我们中的一部分！",
+      "ko": "딘웰 신부(Father Dynwel)가 미사루(Mitharu)는 남신이었다고 해도 믿지 마. 미사루(Mitharu)는 필멸자가 아니라 신이야. 그분은 우리 모두이지, 우리 중 일부만이 아니야!"
+    },
+    {
+      "resource": "default",
+      "id": "45193",
+      "variant": "",
+      "titles": [
+        "Brother Wulf",
+        "Father Etair"
+      ],
+      "en": "Brother Wulf and Father Etair were very close. It breaks my heart to know they ended their friendship in anger.",
+      "ja": "ブラザー・ウルフと神官エタイアはとても親しくしていた。その友情を怒りで終わらせたなんて、残念で仕方ないよ",
+      "zh": "伍尔夫修士和埃泰尔神父一度很亲密。他们的友谊在怒火中结束，真让我伤心。",
+      "ko": "울프 수사(Brother Wulf)와 에테어 신부(Father Etair)는 무척 가까운 사이였어. 분노한 채 우정을 끝냈다니 마음이 아프군."
+    },
+    {
+      "resource": "default",
+      "id": "45307",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "I have been training an apprentice, Brother Wulf, in these things as well. One who studies under me can learn a great deal.",
+      "ja": "それについても、弟子のブラザー・ウルフに教えているところです。私の元で学ぼうという者は、多くを得ることでしょう",
+      "zh": "在这些方面，我也一直在训练一位学徒，伍尔夫修士。跟随我研习之人定能学到不少。",
+      "ko": "제자 울프 수사(Brother Wulf)에게도 이런 것들을 가르치고 있습니다. 제 밑에서 공부하는 사람은 많은 것을 배울 수 있지요."
+    },
+    {
+      "resource": "default",
+      "id": "45579",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair believed that the magic within the crystals responded to the tones and rhythms of song, almost as if they were a living thing.",
+      "ja": "神官エタイアはクリスタルに魔法が秘められていると信じていた。まるで生きているかのように、歌の音色やリズムに反応するからな",
+      "zh": "埃泰尔神父认为这些水晶中的魔法会回应歌谣的旋律，就好像是活物一般。",
+      "ko": "에테어 신부(Father Etair)는 수정에 깃든 마법이 노래의 음과 장단에 반응한다고 믿었어. 마치 살아 있는 것처럼 말이지."
+    },
+    {
+      "resource": "default",
+      "id": "45639",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "I don't know. In the forest. Perhaps up the road, or in the hands of the villains who killed poor, sweet Brother Fallon.",
+      "ja": "分からない。森の中よ。たぶん道の先か、哀れな、優しいブラザー・ファロンを殺した悪人の手の中よ",
+      "zh": "我不知道。在森林里。也许在路上，也可能在那些杀害法伦修士的恶棍手中。",
+      "ko": "몰라. 숲속 어딘가야. 길을 따라 더 가면 있을지도, 아니면 가엾고 다정한 팰런 수사(Brother Fallon)를 죽인 악당들 손에 있을지도 모르지."
+    },
+    {
+      "resource": "default",
+      "id": "45841",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "You‘ve found all of Brother Til‘s books, but in order to complete this quest, they must be in your inventory. Please retrieve all missing books from your stash.",
+      "ja": "ブラザーティルの本をすべて見つけましたが、このクエストを完了するには、インベントリに収納する必要があります。スタッシュにから足りない本をすべて回収しましょう。",
+      "zh": "你已经找到了所有提尔兄弟的书籍，不过为了完成这个任务，它们必须在你的库存中。请从存储库中检索所有缺失的书。",
+      "ko": "틸 수사(Brother Til)의 책을 모두 찾았지만, 퀘스트를 완료하려면 책들이 소지품에 있어야 합니다. 보관함에 있는 책이 있다면 모두 꺼내세요."
+    },
+    {
+      "resource": "default",
+      "id": "47100",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "Brother Wulf has clearly been driven mad by the mysterious crystal's influence over him. He will stop at nothing to kill me, so I should put him out of his misery before he hurts me or someone else.",
+      "ja": "ブラザー・ウルフは不思議なクリスタルの影響で、明らかにおかしくなっている。このままでは殺される。他の命が失われないうちに殺そう。",
+      "zh": "伍尔夫修士已经因神秘水晶造成的影响而发狂。他不顾一切地想要杀死我，在他伤害我或其他人之前，我结束了他的生命。",
+      "ko": "울프 수사(Brother Wulf)는 신비한 수정의 영향으로 미쳐 버린 게 분명하다. 그는 날 죽이려 들 테니, 나나 다른 사람을 해치기 전에 고통에서 해방시켜야 한다."
+    },
+    {
+      "resource": "default",
+      "id": "47103",
+      "variant": "",
+      "titles": [
+        "Brother Udo"
+      ],
+      "en": "Our brother's death is a hard lesson. I must meditate to see beyond the sorrow, as does Brother Udo.",
+      "ja": "仲間の死は辛い教訓だ。ブラザー・ウドにならって、悲しみの向こう側にあるものについて瞑想するとしよう",
+      "zh": "我们兄弟的死是一个惨痛的教训。我必须像乌多修士一样，用沉思遗忘悲伤。",
+      "ko": "동료 수사의 죽음은 가혹한 교훈이야. 우도 수사(Brother Udo)처럼 명상하며 슬픔 너머를 바라봐야겠어."
+    },
+    {
+      "resource": "default",
+      "id": "47255",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "Now that I've collected the daggers, I should travel to the hideout of the Red Legion and kill the bandit leader Red Idward. It's the only way to save Brother Delf from dying at the bandit's hand.",
+      "ja": "ダガーを回収したので、レッドリージョン団の隠れ家へ行き、盗賊のリーダーのレッド・イドワードを殺そう。ブラザー・デルフの命を盗賊から守るにはそれしかない。",
+      "zh": "我已经收集到了匕首，是时候前往雷德帮的藏身处并杀死强盗头目雷德·伊德瓦尔德了。这是保护德尔夫修士不死于强盗之手的唯一办法。",
+      "ko": "단검을 모두 회수했으니 레드 리전(Red Legion)의 은신처로 가서 산적 두목 레드 이드워드(Red Idward)를 죽여야겠다. 산적의 손에 델프 수사(Brother Delf)가 죽는 걸 막을 유일한 방법이다."
+    },
+    {
+      "resource": "default",
+      "id": "47365",
+      "variant": "",
+      "titles": [
+        "Brother Padric",
+        "Brother Holt"
+      ],
+      "en": "I have delivered the journal of Brother Padric to Brother Holt and Brother Holt is grateful to have it. Unfortunately, things did not end well for Brother Padric, but at least now his friend will have closure knowing Brother Padric spent his last days following his dreams of searching for hidden treasure and exploring the Haxhi area.",
+      "ja": "ブラザー・パドリックの日誌を、ブラザー・ホルトは喜んで受け取った。残念ながらブラザー・パドリックは悲しい結末を迎えたが、隠された財宝を探し、ハクシを探検して、自分の夢を追って最後の日々を過ごしたことが分かり、気持ちの整理がつくはずだ。",
+      "zh": "我将帕德里克修士的日记交给了霍特修士，他对此表示非常感激。很不幸，帕德里克修士遭遇了不测，但至少他朋友能够知道的是，帕德里克修士在生命的最后时光，依然在寻找着隐秘的宝藏，探索着哈克希。",
+      "ko": "패드릭 수사(Brother Padric)의 일지를 홀트 수사(Brother Holt)에게 전했다. 홀트(Holt)는 일지를 받게 되어 고마워했다. 안타깝게도 패드릭(Padric)의 마지막은 좋지 않았지만, 친구는 그가 생애 마지막 날까지 숨겨진 보물을 찾고 하크시(Haxhi) 일대를 탐험하며 꿈을 좇았다는 사실을 알고 마음의 위안을 얻을 것이다."
+    },
+    {
+      "resource": "default",
+      "id": "47890",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "His name is Father Etair. He is a monk and an alchemist, and a trusted friend. Etair may have the answers we seek.",
+      "ja": "その名を神官エタイアという。修道士でもあり錬金術師でもある、信頼の置ける友人だ。エタイアなら、求める答えを知っているかも知れない",
+      "zh": "他叫埃泰尔神父。是个僧侣也是炼金师，还是值得信赖的朋友。埃泰尔或许有我们问题的答案。",
+      "ko": "그분은 에테어 신부(Father Etair)야. 수도사이자 연금술사고, 믿을 수 있는 친구지. 에테어(Etair)라면 우리가 찾는 답을 알고 있을지도 몰라."
+    },
+    {
+      "resource": "default",
+      "id": "48357",
+      "variant": "",
+      "titles": [
+        "Brother Padric"
+      ],
+      "en": "Well, it's Brother Padric, he is a friend of mine. He left about a years time ago in search of adventure, said the Monk's life was too bland for his tastes.",
+      "ja": "友人のブラザー・パドリックのことだ。冒険を求めて一年ほど前に出発した。修道士の生活は退屈すぎて好みに合わないと言ってな",
+      "zh": "是帕德里克修士，他是我的朋友。大约一年前他离开去寻求冒险，他说修道士的生活对他来说太平淡了。",
+      "ko": "내 친구 패드릭 수사(Brother Padric) 말이야. 모험을 찾아 약 1년 전에 떠났어. 수도사 생활은 너무 단조로워서 취향에 안 맞는다고 했지."
+    },
+    {
+      "resource": "default",
+      "id": "48417",
+      "variant": "",
+      "titles": [
+        "Father Etair",
+        "Brother Wulf"
+      ],
+      "en": "Father Etair and Brother Wulf discovered some strange crystals during an excavation in the St. Eadric's Mission well. They seem to have disappeared. I should search the well first. Etair was seen fetching water just before his murder.",
+      "ja": "神官エタイアとブラザー・ウルフが聖イードリック修道院の井戸の掘削中に見つけたという、不思議なクリスタルが消えてしまった。まず泉を探そう。神官エタイアは死の直前に水を汲みに行った所を目撃されている。",
+      "zh": "埃泰尔神父和伍尔夫修士在圣艾德里克布道所的水井进行开采时，发现了一些奇怪的水晶。这些水晶似乎不见了。我应该先去调查那口水井。埃泰尔被杀之前，有人看到他在打水。",
+      "ko": "에테어 신부(Father Etair)와 울프 수사(Brother Wulf)는 성 이드릭 선교원(St. Eadric's Mission) 우물을 발굴하다가 기이한 수정 몇 개를 발견했다. 그 수정들이 사라진 모양이다. 우물부터 찾아봐야겠다. 에테어(Etair)는 살해당하기 직전 물을 길으러 가는 모습이 목격됐다."
+    },
+    {
+      "resource": "default",
+      "id": "48782",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon, dead on the road? This is terrible . . . and those three parcels of Plagueshield!",
+      "ja": "ブラザー・ファロンが路上で死んでいた？ ひどいわ… プラーグシールドの包み3個も見つからないのね！",
+      "zh": "法伦修士死在路上了吗？真糟糕。.。还有那三包瘟疫屏障！",
+      "ko": "팰런 수사(Brother Fallon)가 길에서 죽었다고? 끔찍하군... 역병 방호제(Plagueshield) 꾸러미 세 개는 어떻게 된 거지?"
+    },
+    {
+      "resource": "default",
+      "id": "48852",
+      "variant": "",
+      "titles": [
+        "Brother Aedwin"
+      ],
+      "en": "Brother Aedwin",
+      "ja": "ブラザー・イードウィン",
+      "zh": "埃德文修士",
+      "ko": "에드윈 수사(Brother Aedwin)"
+    },
+    {
+      "resource": "default",
+      "id": "49258",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon's Beads",
+      "ja": "ブラザー・ファロンのビーズ",
+      "zh": "法隆修士的串珠",
+      "ko": "팰런 수사(Brother Fallon)의 염주"
+    },
+    {
+      "resource": "default",
+      "id": "49413",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "The wild Fae in Summer's End are kept pacified by the Maid's enchantments, which are powered by the same mysterious crystal that drove the monks at St. Eadric's to madness. Perhaps if I use Brother Wulf's whistle I can find and destroy them.",
+      "ja": "サマーズ・エンドの野生のフェイは、\"ウィンダメアの烈女\"の魔法により静められている。使われているのは、聖イードリックの修道士の正気を失わせた物と同じ、謎のクリスタルだ。ブラザー・ウルフの笛を使えば、破壊できるかも知れない。",
+      "zh": "这位住在夏之终焉的荒野灵族在少女的魔法下非常平静，并获得了使圣艾德里克的僧侣变得疯狂的神秘水晶的强化。或许，如果我使用伍尔夫修士的长笛，就能找到并摧毁这些水晶。",
+      "ko": "서머스 엔드(Summer's End)의 야생 페이(Wild Fae)들은 시녀(The Maid)의 마법으로 온순해져 있다. 그 힘은 성 이드릭(St. Eadric) 선교회의 수도사들을 미치게 한 바로 그 정체불명의 수정에서 나온다. 울프 수사(Brother Wulf)의 피리를 불면 수정을 찾아 파괴할 수 있을지도 모른다."
+    },
+    {
+      "resource": "default",
+      "id": "49462",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "Brother Delf",
+      "ja": "ブラザー・デルフ",
+      "zh": "代夫修士",
+      "ko": "델프 수사(Brother Delf)"
+    },
+    {
+      "resource": "default",
+      "id": "49524",
+      "variant": "",
+      "titles": [
+        "Brother Geoff"
+      ],
+      "en": "Brother Geoff",
+      "ja": "ブラザー・ジェフ",
+      "zh": "杰夫修士",
+      "ko": "제프 수사(Brother Geoff)"
+    },
+    {
+      "resource": "default",
+      "id": "50513",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Look for Brother Fallon",
+      "ja": "ブラザー・ファロンを探す",
+      "zh": "寻找法伦修士",
+      "ko": "팰런 수사(Brother Fallon) 찾기"
+    },
+    {
+      "resource": "default",
+      "id": "50600",
+      "variant": "",
+      "titles": [
+        "Brother Holt"
+      ],
+      "en": "Brother Holt",
+      "ja": "ブラザー・ホルト",
+      "zh": "霍尔特修士",
+      "ko": "홀트 수사(Brother Holt)"
+    },
+    {
+      "resource": "default",
+      "id": "51259",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "This key belongs to Brother Delf of St. Odwig's Mission, and it likely opens a chest containing the valuables he stole during his time with the Red Legion.",
+      "ja": "この鍵は聖オドウィグ修道院のブラザー・デルフのもの。レッドリージョン団時代に彼が盗んだものを入れた箱を開くものと思われる。",
+      "zh": "这把钥匙属于圣奥德威格布道所的德尔夫修士，它可能会打开一个箱子，里面装着他在雷德帮时偷来的贵重物品。",
+      "ko": "이 열쇠는 성 오드윅 선교원(St. Odwig's Mission)의 델프 수사(Brother Delf) 소유다. 그가 레드 리전(Red Legion)에서 지내며 훔친 귀중품이 든 상자를 여는 열쇠일 것이다."
+    },
+    {
+      "resource": "default",
+      "id": "51282",
+      "variant": "",
+      "titles": [
+        "Brother Aedwin"
+      ],
+      "en": "Brother Aedwin",
+      "ja": "ブラザー・イードウィン",
+      "zh": "埃德文修士",
+      "ko": "에드윈 수사(Brother Aedwin)"
+    },
+    {
+      "resource": "default",
+      "id": "51594",
+      "variant": "",
+      "titles": [
+        "Brother Ansel"
+      ],
+      "en": "Brother Ansel and I devote our hours to shards and gems, while the others tend garden and shrine. All of us pray upon our beads.",
+      "ja": "ブラザー・アンセルと私はシャードとジェムの加工が担当で、他にも庭と寺院の担当がいる。ビーズに祈るのは皆同じだ",
+      "zh": "安塞尔修士和我把时间都花在了碎晶和宝石上，而其他人则在照料花园和神殿。我们都用自己的念珠祈祷。",
+      "ko": "안셀 수사(Brother Ansel)와 나는 샤드와 보석을 다듬으며 시간을 보내고, 다른 이들은 정원과 성소를 돌본다. 우리 모두 염주를 굴리며 기도한다."
+    },
+    {
+      "resource": "default",
+      "id": "52510",
+      "variant": "",
+      "titles": [
+        "Brother Aedwin",
+        "Father Etair"
+      ],
+      "en": "Brother Aedwin suggested that I search Father Etair's study for clues to his murder. There are plenty of places to look, but not all of them are accessible.",
+      "ja": "ブラザー・イードウィンに、神官エタイアの書斎で殺人の手掛かりを探すよう勧められた。探す場所は多いが、全てが開けられるわけではない。",
+      "zh": "埃德文修士建议我在埃泰尔神父的研究中寻找他被谋杀的线索。可调查的地方有很多，但不是所有地方都能进入。",
+      "ko": "에드윈 수사(Brother Aedwin)는 에테어 신부(Father Etair)의 서재에서 살인 단서를 찾아보라고 했어. 살펴볼 곳은 많지만 모두 들어갈 수 있는 건 아니야."
+    },
+    {
+      "resource": "default",
+      "id": "52541",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon, dead on the road? Oh, what is this town coming to? At least ‒ at least you have the Plagueshield.",
+      "ja": "ブラザー・ファロンが路上で死んでいた？ ああ、この街はどうなってしまうの？ 少なくとも… プラーグシールドはあったのね",
+      "zh": "法伦修士死在路上了吗？啊，这个小镇会变成什么样子？至少——至少你拥有瘟疫屏障。",
+      "ko": "팰런 수사(Brother Fallon)가 길에서 죽었다고? 아, 이 마을이 대체 어떻게 되려는 거야? 그래도... 그래도 자네에겐 역병 방호제(Plagueshield)가 있구나."
+    },
+    {
+      "resource": "default",
+      "id": "53060",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "Brother Wulf",
+      "ja": "ブラザー・ウルフ",
+      "zh": "伍尔夫修士",
+      "ko": "울프 수사(Brother Wulf)"
+    },
+    {
+      "resource": "default",
+      "id": "53133",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Return Brother Fallon's Beads",
+      "ja": "ブラザー・ファロンのビーズを返す",
+      "zh": "归还法伦修士的串珠",
+      "ko": "팰런 수사(Brother Fallon)의 염주 돌려주기"
+    },
+    {
+      "resource": "default",
+      "id": "53444",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "I've recovered all of Brother's Til's missing books. I should travel to St. Odwig's Perpetual Mission in Odarath and return them to the scripture library.",
+      "ja": "ブラザー・ティルの行方不明の本を回収した。オダラスの聖オドウィグ終身修道院へ行き、聖書図書館に返却しよう。",
+      "zh": "我已经取回了蒂尔修士丢失的每一本藏书。我应该前往欧达拉斯的圣奥德威格永恒布道所，将它们放回图书馆。",
+      "ko": "틸 수사(Brother Til)의 분실된 책을 전부 회수했다. 오다라스(Odarath)의 성 오드윅 영구 선교회(St. Odwig's Perpetual Mission)로 가서 경전 도서관에 돌려줘야겠다."
+    },
+    {
+      "resource": "default",
+      "id": "53538",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "You have made our mission whole again, stranger. We cannot ever truly repay you for bringing back Brother Egan.",
+      "ja": "我らの修道院を再び完全にしてくれたな、旅人よ。ブラザー・イーガンを帰してくれたことは、返し切れない借りとなった",
+      "zh": "陌生人，你又使我们的布道所完整了。你把伊根修士带回来了，这份大恩大德我们无以为报。",
+      "ko": "나그네여, 네 덕분에 우리 선교회가 다시 온전해졌다. 에간 수사(Brother Egan)를 데려와 준 은혜는 결코 다 갚을 수 없을 것이다."
+    },
+    {
+      "resource": "default",
+      "id": "54100",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "My Dear Brother Fallon,",
+      "ja": "愛しのブラザー・ファロンへ",
+      "zh": "我亲爱的法隆修士，",
+      "ko": "사랑하는 팰런 수사(Brother Fallon)님께,"
+    },
+    {
+      "resource": "default",
+      "id": "54102",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair",
+      "ja": "神官エタイア",
+      "zh": "埃泰尔神父",
+      "ko": "에테어 신부(Father Etair)"
+    },
+    {
+      "resource": "default",
+      "id": "54166",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "During your travels you have come upon a book belonging to Brother Til, the late Scripture Master of St. Odwig's Perpetual Mission. From the looks of the titles, Til's literary interests tended toward the lewd and lascivious. Retrieve all of the missing volumes and you return them to Til's Collection for a reward.",
+      "ja": "旅の途中で、聖オドウィグ終身修道院で経典長を務めていた、今は亡きブラザー・ティルのものであった書物を発見した。見出しから判断するに、ティルの文学的興味はわいせつでみだらな方面に傾倒していたようだ。なくなっている本を全て集めてティルの蔵書に戻せば報酬が得られるだろう。",
+      "zh": "在你的旅行中，你发现了一本属于提尔修士的书，他是圣奥德威格的永恒布道所的已故经文大师。从标题上看，提尔的文学兴趣似乎倾向于淫荡和好色。找回所有丢失的卷，并将它们送还到提尔的收藏中以获得奖励。",
+      "ko": "여행 중에 성 오드윅의 영구 선교회(St. Odwig's Perpetual Mission)에서 경전 책임자를 맡았던 고 틸 수사(Brother Til)의 책을 발견했다. 제목만 봐도 틸(Til)의 문학적 취향이 외설적이고 음탕한 쪽이었던 듯하다. 사라진 책을 모두 찾아 틸(Til)의 장서에 돌려주면 보상을 받을 수 있다."
+    },
+    {
+      "resource": "default",
+      "id": "54302",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "Return to Brother Delf",
+      "ja": "ブラザー・デルフの元へ戻る",
+      "zh": "回去见代夫修士",
+      "ko": "델프 수사(Brother Delf)에게 돌아가기"
+    },
+    {
+      "resource": "default",
+      "id": "54354",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "I fear for Brother Egan's soul. He knows nothing of the world, of Fae and Alfar, trust and temptation. He is like a baby, eyes wide at the world around him.",
+      "ja": "ブラザー・イーガンの魂が心配だ。フェイとアルファー、信頼と誘惑の世界について彼は何も知らない。周囲の世界に目を見張る赤子と同じだ",
+      "zh": "我担心伊根修士的灵魂。他对世界一无所知，无论是灵族和精灵、还是信任和诱惑。他就像婴儿，睁大眼睛看着周围的世界。",
+      "ko": "에간 수사(Brother Egan)의 영혼이 걱정돼. 그는 세상사도, 페이(Fae)와 알파르(Alfar), 신뢰와 유혹에 대해서도 아무것도 몰라. 주변 세상을 눈을 크게 뜨고 바라보는 아기와 같아."
+    },
+    {
+      "resource": "default",
+      "id": "54588",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "I... I... Oh, Father Etair... What have I done? I never meant anyone harm. Especially not the father!",
+      "ja": "ああ... 神官エタイア... 私は何をした？ 誰かを傷つけるつもりなどなかった。まさか神官をなんて！",
+      "zh": "我……我……噢，埃泰尔神父……我都做了什么？我没想让人受伤害。尤其是神父啊！",
+      "ko": "나... 나는... 아, 에테어 신부(Father Etair)... 내가 무슨 짓을 한 거지? 누구도 해칠 생각은 없었어. 하물며 신부님을!"
+    },
+    {
+      "resource": "default",
+      "id": "54922",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "It is my home. Once Father Dynwel relented, the brothers had no choice but to accept me into their family. It takes time to change the world.",
+      "ja": "自分の家よ。神官ディンウェルが受け入れを決めたから、修道士達も従わざるを得なかった。世界を変えるには時間が必要なの",
+      "zh": "这是我家。只要迪恩维尔神父答应了，修士们就只能接受我加入他们家族，除此之外别无选择。改变世界是需要时间的。",
+      "ko": "여기가 내 집이야. 딘웰 신부(Father Dynwel)가 마음을 돌린 뒤로 수사들도 날 가족으로 받아들일 수밖에 없었어. 세상을 바꾸는 데는 시간이 걸려."
+    },
+    {
+      "resource": "default",
+      "id": "54959",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair is dead, murdered. I should speak to one of the monks at the mission to find out what happened to their leader, and if there is any way I can learn what he'd been doing when he died.",
+      "ja": "エタイア神父は殺されていた。修道院の修道士と話し、指導者に何が起きたのか、死ぬ時に何をしていたのか分かる手段があるか尋ねよう。",
+      "zh": "埃泰尔神父已经死了，被人谋杀。我应该与布道所中的僧侣谈谈，获得相关的情报，看看是否能够知晓他死前都在做些什么。",
+      "ko": "에테어 신부(Father Etair)는 살해당했다. 선교원에 있는 수사 한 명과 이야기해 지도자에게 무슨 일이 있었는지, 그가 죽기 전에 하던 일을 알아낼 방법이 있는지 확인해야겠다."
+    },
+    {
+      "resource": "default",
+      "id": "55054",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "So Brother Fallon is dead? And I thought things were bad as they could get. This means Astrid will run out of Plagueshield, sooner or later...",
+      "ja": "ブラザー・ファロンが亡くなった？ まさか、これほど深刻な事態になるなんて。アストリッドがプラーグシールドを切らすのは時間の問題ね...",
+      "zh": "所以法伦修士死了？我以为事情已经够糟了。意味着阿斯特丽德的瘟疫屏障迟早将耗尽……",
+      "ko": "팰런 수사(Brother Fallon)가 죽었다고? 더 나빠질 수 없다고 생각했는데. 이러면 아스트리드(Astrid)의 역병 방호제(Plagueshield)가 조만간 바닥나겠어..."
+    },
+    {
+      "resource": "default",
+      "id": "55110",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "In another life, Wulf was a butcher in Galafor. He's a naive sort, and his gifts do not lie in prayer. But Father Etair believed that Wulf had been called.",
+      "ja": "出家する前、ウルフはガラフォーで食肉店を営んでいた。彼は純真で、その才能は祈りにはない。だが、神官エタイアはウルフが呼ばれたのだと信じた",
+      "zh": "在俗世之中，伍尔夫曾是加拉弗的一个屠夫。他这人挺幼稚的，也并没有祈祷的天赋。但埃泰尔神父却相信伍尔夫受到了召唤。",
+      "ko": "성직자가 되기 전 울프(Wulf)는 갈라포르(Galafor)에서 푸줏간을 운영했어. 순진한 사람이었고 기도에는 재능이 없었지. 하지만 에테어 신부(Father Etair)는 울프(Wulf)가 부름을 받았다고 믿었어."
+    },
+    {
+      "resource": "default",
+      "id": "55595",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Welcome to St. Eadric's. You're here to meet with Father Etair, yes? The father is always playing host to interesting individuals such as yourself.",
+      "ja": "聖イードリック終身修道院にようこそ。神官エタイアに会いにきたんだろう？ 神官はいつもお前のような興味深い相手をもてなしているからな",
+      "zh": "欢迎来到圣艾德里克布道所。你是来见埃泰尔神父的，对吧？神父总是愿意接待像你这样有意思的人。",
+      "ko": "성 이드릭(St. Eadric)의 선교원에 잘 왔어. 에테어 신부(Father Etair)를 만나러 온 거지? 신부는 너처럼 흥미로운 사람들을 늘 맞이하거든."
+    },
+    {
+      "resource": "default",
+      "id": "55781",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "Now that I've collected the daggers, I should travel to the hideout of the Red Legion and speak with the bandit leader Red Idward. I have done Brother Delf's work for him and must now absolve him of his debt.",
+      "ja": "ダガーを回収した。レッドリージョン団の隠れ家へ行き、盗賊のリーダーのレッド・イドワードと話そう。ブラザー・デルフの負債を返すのだ。",
+      "zh": "我已经收集到了匕首，是时候前往雷德帮的藏身处，与强盗头目雷德·伊德瓦尔德谈谈了。我完成了德尔夫修士交给我的工作，是时候去索要报酬了。",
+      "ko": "단검을 모두 모았다. 이제 레드 리전(Red Legion)의 은신처로 가서 산적 두목 레드 이드워드(Red Idward)와 이야기해야 한다. 델프 수사(Brother Delf)가 맡긴 일을 대신 해줬으니, 이제 델프(Delf)의 빚을 탕감해 줘야 한다."
+    },
+    {
+      "resource": "default",
+      "id": "56193",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel is denying that women can be ordained as members of the Order of Mitharu, despite scripture to the contrary.",
+      "ja": "ディンウェル神官は、女性がミサールの司祭に任命されることを認めない。それは経典の内容に反しているわ",
+      "zh": "迪恩维尔神父否认女性可以被任命为米萨鲁教派的成员，尽管经文上的说法正好相反。",
+      "ko": "딘웰 신부(Father Dynwel)는 경전의 내용과 달리 여성이 미사루 수도회(Order of Mitharu)의 일원으로 서품될 수 없다고 주장한다."
+    },
+    {
+      "resource": "default",
+      "id": "57043",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "I... I... Oh, Father Etair... What have I done? I never meant anyone harm. Especially not the father!",
+      "ja": "ああ... 神官エタイア... 私は何をした？ 誰かを傷つけるつもりなどなかった。まさか神官をなんて！",
+      "zh": "我……我……噢，埃泰尔神父……我都做了什么？我没想让人受伤害。尤其是神父啊！",
+      "ko": "나… 나는… 에테어 신부님(Father Etair)… 내가 무슨 짓을 한 거지? 누구도 해칠 생각은 없었어. 특히 신부님을 해칠 생각은 없었어!"
+    },
+    {
+      "resource": "default",
+      "id": "57122",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "You killed Father Etair.",
+      "ja": "神官エタイアを殺したな",
+      "zh": "你杀了埃泰尔神父。",
+      "ko": "네가 에테어 신부님(Father Etair)을 죽였어."
+    },
+    {
+      "resource": "default",
+      "id": "57331",
+      "variant": "",
+      "titles": [
+        "Brother Holt"
+      ],
+      "en": "Day 8... Splitrock Depths feels like a winding maze as I travel deeper into the cave. I have been attacked a few times already, but was able to narrowly escape.\nDay 16... I feel that I am closer to finding the hidden exit. I terribly miss my companions from St. Eadric's and wonder if I made the right choice doing this.\nDay 81... I am cold, and beginning to run low on supplies. I will not return until I have found the treasure I seek... I will show Brother Holt he can be proud of me... that my search was not in vain. I will make all the Monks so proud....",
+      "ja": "8日目… 洞窟の奥へと進むにつれ、スプリットロック洞窟はまるで蛇行する迷宮と化してゆく。何度か敵に襲われたが、きわどく逃げ延びる事ができた。\n16日目… 秘密の出口に近づいている気がする。聖イードリックの仲間たちに会いたい。ここへ来たのは間違いだったのかもしれない。\n81日目… 寒い。物資も残りわずかだ。例のお宝を見つけるまでは戻れない… ブラザー・ホルトを誇らしい気持ちにさせてやろう… あのお宝を見つけて、修道士たちを誇らしい気持ちに…",
+      "zh": "第八天……当我深入洞穴时，裂石深坑感觉就像一个蜿蜒的迷宫。我已经被袭击过几次了，但还是死里逃生。\n第十六天……我觉得我离找到隐藏的出口更近了。我非常想念我圣艾德里克的同伴们，怀疑我这样做是否正确。\n第八十一天……我很冷，而且补给就快要用完了。不找到我要找的财宝我是不会回去的……我要让霍特修士知道，他会为我感到骄傲的……我的寻找没有白费。我会让所有修士骄傲的……",
+      "ko": "제8일… 스플릿록 심층부(Splitrock Depths)로 더 깊이 들어가자 동굴은 구불구불한 미로처럼 느껴진다. 벌써 몇 번이나 공격받았지만 간신히 빠져나왔다.\n제16일… 숨겨진 출구에 가까워진 것 같다. 성 이드릭(St. Eadric)의 동료들이 몹시 그립다. 이런 선택을 한 게 옳았는지 모르겠다.\n제81일… 춥고 보급품도 거의 떨어져 간다. 찾는 보물을 발견하기 전에는 돌아가지 않겠다… 홀트 수사(Brother Holt)가 나를 자랑스러워하게 만들겠다… 내 수색이 헛되지 않았다고… 모든 수도사가 나를 자랑스러워하도록…"
+    },
+    {
+      "resource": "default",
+      "id": "57346",
+      "variant": "",
+      "titles": [
+        "Brother Padric"
+      ],
+      "en": "Locate Brother Padric",
+      "ja": "ブラザー・パドリックを見つける",
+      "zh": "找到帕德里克修士",
+      "ko": "패드릭 수사(Brother Padric) 찾기"
+    },
+    {
+      "resource": "default",
+      "id": "57474",
+      "variant": "",
+      "titles": [
+        "Brother Borter"
+      ],
+      "en": "Brother Borter",
+      "ja": "ブラザー・ボーター",
+      "zh": "波特尔修士",
+      "ko": "보터 수사(Brother Borter)"
+    },
+    {
+      "resource": "default",
+      "id": "57606",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "Brother Wulf",
+      "ja": "ブラザー・ウルフ",
+      "zh": "伍尔夫修士",
+      "ko": "울프 수사(Brother Wulf)"
+    },
+    {
+      "resource": "default",
+      "id": "57741",
+      "variant": "",
+      "titles": [
+        "Brother Holt"
+      ],
+      "en": "Brother Holt",
+      "ja": "ブラザー・ホルト",
+      "zh": "霍尔特修士",
+      "ko": "홀트 수사(Brother Holt)"
+    },
+    {
+      "resource": "default",
+      "id": "59008",
+      "variant": "",
+      "titles": [
+        "Brother Delf"
+      ],
+      "en": "I've agreed to work for Red Idward, and to kill Brother Delf for his crime against his bandit kin. When I kill Delf, I am welcome to his treasures, most of which were gathered during his time as a criminal. Delf is located at St. Odwig's Mission in western Odarath.",
+      "ja": "レッド・イドワードに協力し、仲間の盗賊を裏切ったブラザー・デルフを殺すことにした。デルフを殺せば、犯罪者時代に集めた財宝が手に入る。デルフは西オダラスの聖オドウィグ修道院にいる。",
+      "zh": "我同意帮助雷德·伊德瓦尔德，令德尔夫修士为对他的强盗伙伴所做出的行径付出血的代价。杀死德尔夫后，他的财宝也会归我所有，其中大部分财富都是当初非法所得。德尔夫就在欧达拉斯西部的圣奥德威格布道所。",
+      "ko": "레드 이드워드(Red Idward)와 함께하기로 하고, 산적 동료들을 배신한 죄로 델프 수사(Brother Delf)를 죽이기로 했다. 델프(Delf)를 죽이면 그의 재물을 차지할 수 있다. 그 재물 대부분은 델프(Delf)가 범죄자로 지내며 모은 것이다. 델프(Delf)는 오다라스(Odarath) 서부의 성 오드윅 선교소(St. Odwig's Mission)에 있다."
+    },
+    {
+      "resource": "default",
+      "id": "59251",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Then Brother Fallon never made it through the woods? This is terrible news. When you can, you should return his prayer beads to the Mission.",
+      "ja": "ではブラザー・ファロンは森の中で力尽きたと？ これはとんでもない悲報ですよ。時間がある時に彼のビーズを修道院に返してやっていただけませんか？",
+      "zh": "那法伦修士没能穿过树林？真是可怕的消息。等你准备好了，就把他的念珠送回布道所去吧。",
+      "ko": "팰런 수사(Brother Fallon)가 숲을 통과하지 못했다는 건가요? 정말 안타까운 소식이군요. 시간 될 때 그의 기도 염주를 선교소에 돌려주세요."
+    },
+    {
+      "resource": "default",
+      "id": "59619",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair has been locked in his quarters all day now. I wonder what he's working on.",
+      "ja": "神官エタイアは今、1日中部屋に閉じ籠もっている。何を研究しているのか知りたいよ",
+      "zh": "埃泰尔神父整日把自己锁在房间里。我真想知道他在研究什么。",
+      "ko": "에테어 신부님(Father Etair)은 하루 종일 방에 틀어박혀 계셔. 뭘 연구하시는지 궁금하네."
+    },
+    {
+      "resource": "default",
+      "id": "59678",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "I found Brother Fallon's body by the overturned cart in Glendara wood. People in Didenhil advised me to return the beads to St. Hadwyn's Mission which is north of town, deep within the forest.",
+      "ja": "グレンダーラの森のひっくり返った荷馬車の側で、ブラザー・ファロンの死体を見つけた。町の北の森深くにある聖ハドウィン修道院にビーズを返すよう、ダイデンヒルの人々に勧められた。",
+      "zh": "我在格伦达拉森林翻倒的马车旁发现了法伦修士的尸体。迪登希尔的人民建议我将念珠送至城镇北部森林深处的圣哈德温布道所。",
+      "ko": "글렌다라 숲(Glendara Wood)의 뒤집힌 수레 옆에서 팰런 수사(Brother Fallon)의 시신을 발견했다. 다이덴힐(Didenhil) 주민들은 마을 북쪽 숲속 깊은 곳에 있는 성 하드윈 선교소(St. Hadwyn's Mission)에 염주를 돌려주라고 했다."
+    },
+    {
+      "resource": "default",
+      "id": "59782",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Father Dynwel and the others are fools, and their silly mission will wither and crumble. Finna and Arbos have glimpsed it with their ever-seeing eyes.",
+      "ja": "神官ディンウェルも他の奴らも馬鹿だ、そして下らない修道院はしぼんでバラバラになる。フィンナとアルボスは、永遠を見通す眼でそれを見たんだ",
+      "zh": "丁维尔神父和其他人都是蠢货，他们愚蠢的布道所将分崩离析。芬那和阿波斯已经用他们的永视之眼瞥见了它。",
+      "ko": "딘웰 신부(Father Dynwel)와 다른 이들은 바보야. 그들의 어리석은 선교소는 쇠락해 무너질 거야. 핀나(Finna)와 아르보스(Arbos)가 모든 것을 꿰뚫어 보는 눈으로 이미 보았지."
+    },
+    {
+      "resource": "default",
+      "id": "60028",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "You've successfully found and returned all the volumes comprising Brother Til's bawdy book collection. The vulgar old monk would be proud.",
+      "ja": "ブラザー・ティルの下劣な蔵書がこれで全部そろったことになる。生臭僧侶もきっとどこかで悦んでいることだろう。",
+      "zh": "你成功找到并归还了蒂尔修士收藏的全套淫秽书籍。这个粗俗的老僧侣这下得意了。",
+      "ko": "틸 수사(Brother Til)의 외설스러운 장서 전부를 찾아 돌려주었다. 그 음탕한 늙은 수도사도 기뻐하겠군."
+    },
+    {
+      "resource": "default",
+      "id": "60091",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "Brother Wulf",
+      "ja": "ブラザー・ウルフ",
+      "zh": "伍尔夫修士",
+      "ko": "울프 수사(Brother Wulf)"
+    },
+    {
+      "resource": "default",
+      "id": "60122",
+      "variant": "",
+      "titles": [
+        "Brother Til"
+      ],
+      "en": "Brother Til",
+      "ja": "ブラザー・ティル",
+      "zh": "提尔修士",
+      "ko": "틸 수사(Brother Til)"
+    },
+    {
+      "resource": "default",
+      "id": "60123",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "Father Etair hasn't come out of his room in days. He does this often, vanishing completely into his work.",
+      "ja": "神官エタイアはしばらく自室から出てきていない。仕事の中に消え失せてしまうのは、毎度のことさ",
+      "zh": "埃泰尔神父已经几天没有出过房间了。他经常这样，一头扎进他的工作里。",
+      "ko": "에테어 신부(Father Etair)는 며칠째 방에서 나오지 않았어. 자주 그러셔. 일에 파묻혀 완전히 자취를 감추곤 하지."
+    },
+    {
+      "resource": "default",
+      "id": "60331",
+      "variant": "",
+      "titles": [
+        "Father Dynwel"
+      ],
+      "en": "Speak to Father Dynwel",
+      "ja": "神官ディンウェルと話す",
+      "zh": "与丁维尔神父对话",
+      "ko": "딘웰 신부(Father Dynwel)와 대화하기"
+    },
+    {
+      "resource": "default",
+      "id": "60756",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Brother Fallon, dead on the road? What is this town coming to? At least ‒ at least you have the Plagueshield.",
+      "ja": "ブラザー・ファロンが路上で死んでいた？ ああ、この街はどうなってしまうの？ 少なくとも… プラーグシールドはあったのね",
+      "zh": "法伦修士死在路上了吗？这个小镇会变成什么样子？至少——至少你拥有瘟疫屏障。",
+      "ko": "팰런 수사(Brother Fallon)가 길에서 죽었다고? 이 마을이 어쩌다 이 꼴이 됐담? 그래도... 적어도 역병 방호제(Plagueshield)는 네가 갖고 있구나."
+    },
+    {
+      "resource": "default",
+      "id": "61559",
+      "variant": "",
+      "titles": [
+        "Brother Fallon",
+        "Brother Udo"
+      ],
+      "en": "I returned the prayer beads I found on Brother Fallon's body. Brother Udo would have given them to me if I had professed a belief in Mitharu and St. Hadwyn's creed, but I could not.",
+      "ja": "ブラザー・ファロンの死体から祈りのビーズを持ち帰った。ミサールと聖ハドウィンの教義への信仰を誓えばブラザー・ウドからビーズを貰えたが、誓うことはできなかった。",
+      "zh": "我将在法伦修士身上找到的念珠交了回去。如果我能信仰米萨鲁和圣哈德温的教令，乌多修士就愿意把念珠赠与我，但我做不到。",
+      "ko": "팰런 수사(Brother Fallon)의 시신에서 찾은 염주를 돌려줬다. 미사루(Mitharu)와 성 하드윈(St. Hadwyn)의 교리를 믿는다고 맹세했다면 우도 수사(Brother Udo)가 염주를 줬겠지만, 그럴 순 없었다."
+    },
+    {
+      "resource": "default",
+      "id": "61599",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "No doubt, Brother Fallon is just outside our door at this very moment.",
+      "ja": "間違いない、ブラザー・ファロンはまさに今も我らの扉のすぐ外にいる",
+      "zh": "毫无疑问，此刻法伦修士就在我们门外。",
+      "ko": "틀림없어. 팰런 수사(Brother Fallon)는 지금 이 순간에도 우리 문밖에 있어."
+    },
+    {
+      "resource": "default",
+      "id": "61656",
+      "variant": "",
+      "titles": [
+        "Brother Holt"
+      ],
+      "en": "Return to Brother Holt",
+      "ja": "ブラザー・ホルトの元へ戻る",
+      "zh": "回去找霍特修士",
+      "ko": "홀트 수사(Brother Holt)에게 돌아가기"
+    },
+    {
+      "resource": "default",
+      "id": "61978",
+      "variant": "",
+      "titles": [
+        "Brother Gamian"
+      ],
+      "en": "Have you seen our shards and gems? Brother Gamian keeps them.",
+      "ja": "ここのシャードやジェムを見たことは？ ブラザー・ギャミアンが管理しているよ",
+      "zh": "你看到我们的碎晶和宝石了吗？伽米安修士保管着它们。",
+      "ko": "우리 샤드와 보석을 봤어? 가미안 수사(Brother Gamian)가 보관하고 있어."
+    },
+    {
+      "resource": "default",
+      "id": "62001",
+      "variant": "",
+      "titles": [
+        "Brother Egan"
+      ],
+      "en": "Are you Brother Egan?",
+      "ja": "ブラザー・イーガンか？",
+      "zh": "你是伊根修士吗？",
+      "ko": "에간 수사(Brother Egan)님이신가요?"
+    },
+    {
+      "resource": "default",
+      "id": "62752",
+      "variant": "",
+      "titles": [
+        "Father Etair"
+      ],
+      "en": "She was a Fae, quite beautiful, called herself the Maid of Windemere. Father Etair was suspicious of her kindness and threw the crystals down the well.",
+      "ja": "フェイだ。とても美しくて、\"ウィンダメアの烈女\"と名乗った。神官エタイアは彼女の親切心を疑って、クリスタルを井戸に投げ落とした",
+      "zh": "她是个灵族，十分美丽，自称温德米尔的少女。埃泰尔神父很怀疑她的善意，把水晶丢入了井里。",
+      "ko": "그녀는 페이(Fae)였어. 아주 아름다웠고, 자신을 윈더미어의 시녀(Maid of Windemere)라고 했지. 에테어 신부(Father Etair)는 그녀의 친절을 의심해 수정을 우물에 던졌어."
+    },
+    {
+      "resource": "default",
+      "id": "63810",
+      "variant": "",
+      "titles": [
+        "Brother Wulf"
+      ],
+      "en": "Brother Wulf",
+      "ja": "ブラザー・ウルフ",
+      "zh": "伍尔夫修士",
+      "ko": "울프 수사(Brother Wulf)"
+    },
+    {
+      "resource": "default",
+      "id": "64037",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "Look for Brother Fallon",
+      "ja": "ブラザー・ファロンを探す",
+      "zh": "寻找法伦修士",
+      "ko": "팰런 수사(Brother Fallon) 찾기"
+    },
+    {
+      "resource": "default",
+      "id": "64716",
+      "variant": "",
+      "titles": [
+        "Brother Fallon"
+      ],
+      "en": "You've got that right! Brother Fallon promised to bring some yesterday. Can't think who'll brave the woods to find what's keeping him.",
+      "ja": "その通りよ！ ブラザー・ファロンは昨日手に入れると約束した。何が起きたか、森を抜けて見つけ出す勇気のある者は誰もいないわ",
+      "zh": "你说对了！法伦修士昨天答应说要带些东西来的。要是有谁敢去森林中找他，他可真是个勇士。",
+      "ko": "맞아! 팰런 수사(Brother Fallon)가 어제 좀 가져오겠다고 약속했는데. 무슨 일이 생겼는지 보러 숲에 들어갈 만큼 용감한 사람이 있을까?"
+    }
+  ]
+}
