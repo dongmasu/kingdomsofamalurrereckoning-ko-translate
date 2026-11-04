@@ -46,3 +46,14 @@
 
 - Changed `네 피를... 흘리겠다` to `피를... 보게 될 것이다`. English says “before... I spill... your blood,” while Japanese uses the idiomatic threat “you'll see blood”; Chinese likewise threatens bloodshed. In Korean, `네 피를 흘리다` awkwardly makes the addressee's blood the direct object of `흘리다`. The revised wording expresses the same threat naturally while preserving the pauses and unfinished dash.
 - Validation: Compared ID `41254` across English, Japanese, and Chinese; verified the edited Korean row and preserved the CSV's UTF-8 BOM and line endings.
+
+## Ecstasy, rapture, bliss, and related wording
+
+- Built English-keyed candidates from `ecstasy`, `rapture`, `bliss`, `euphoria`, and inflections, then reverse-searched Korean for `황홀`, `환희`, and `도취`. The union contains 23 `default` IDs: `138`, `8954`, `15325`, `22903`, `23800`, `25447`, `26787`, `31001`, `33022`, `34993`, `39270`, `40628`, `41256`, `42600`, `44218`, `48583`, `49084`, `51241`, `51692`, `52096`, `56581`, `57512`, and `64231`. Each candidate was compared across English, active Korean, Japanese, and Chinese. Japanese and Chinese searches also surfaced broader joy, pleasure, and delight vocabulary; those were checked against the English/Korean context and excluded when they did not express this target concept.
+- At `15325` and `33022`, aligned duplicate translations of `a blissful void` as `더없이 행복한 공허`; the Japanese and Chinese also describe a happy/blissful void. This replaces the divergent `황홀한` and `평온한`.
+- At `42600`, aligned `저열한 황홀경` with `천박한 황홀경` at `39270`; both are the same source poem and translate `ecstasy so base`.
+- At `51241`, changed the awkward `황홀경을 터뜨리며 나누는 동안` to `함께 황홀경에 빠져드는 사이` for `shared an eruption of ecstasy`. Kept the later `욕정의 황홀감` for the distinct `rapture of her wantonness`.
+- At `52096`, changed `황홀` to `황홀경` to align the repeated `wicked rapture` passage with `51692`, while retaining each passage's different register.
+- At `57512`, changed `정말 황홀하군` to `정말 매혹적이군` for `ravishing`, which describes the woman's beauty; Japanese `魅惑的` and Chinese `令人神魂颠倒` support this reading.
+- Retained context-appropriate distinctions: `환희` for `rapture` at `8954`; `황홀감` for the intoxicating effect of Prismere at `22903`; `황홀경` for grief, sensual ecstasy, and the poem's heightened rapture; `더없이 행복하게` for `blissfully` at `23800`; `행복감` for `euphoria` at `25447`; `모르는 게 약` for `ignorance is bliss` at `26787`; `순전한 희열` for `sheer bliss` at `34993`; and `열렬히 빠져 있었다` for `rapturously in love` at `49084`. Korean reverse-search candidates such as `황홀한 음악` (`glorious music`, `31001`), `황홀한 밤` (`one glorious night`, `64231`), `환희` for ordinary joy (`44218`), and `자아도취` for self-satisfaction (`48583`) were reviewed and kept as distinct senses.
+- Validation: Checked the six edited IDs against all four language rows; verified the CSV row count/order, UTF-8 BOM, and line-ending sequence, then ran the line-ending-preservation tests and a CRLF-aware diff check.
