@@ -1,5 +1,10 @@
 # Audit Materials
 
+## Latest Release Snapshot (2026-11-05)
+
+`release-20261105.md` records the verified package, checksum, changes, and
+validation for tag `KingdomsOfAmalur_Korean_zh_cn_20261105232936`.
+
 ## Current Status (2026-10-24)
 
 Translation work is considered complete at the user's direction.
