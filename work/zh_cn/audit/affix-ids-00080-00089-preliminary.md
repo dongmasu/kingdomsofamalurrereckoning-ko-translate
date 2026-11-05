@@ -25,3 +25,8 @@
 
 All 55 target variant rows across IDs 80-89 received one preliminary reading.
 Findings remain candidates/questions only and do not authorize edits.
+
+## Subsequent Approved Correction
+
+- 2026-11-05: Updated all six variants of ID 89 from `수확된` to `수확:`. English is `Harvested`; Japanese `収穫した` and Chinese `已收割` support the harvest meaning. In the game's affix-plus-item composition, the Korean adjective reads as `수확된 [item]`, while the approved label form `수확:` fits the displayed prefix structure.
+- Verified that only variants 11, 12, 14, 21, 22, and 24 were changed; IDs, variant codes, row order, BOM, and CRLF line endings are preserved.
