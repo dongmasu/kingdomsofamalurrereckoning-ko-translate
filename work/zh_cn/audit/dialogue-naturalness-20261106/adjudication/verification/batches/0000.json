@@ -1,0 +1,451 @@
+{
+  "fingerprint": "fcfdf43d957ba1d5810a0458622a71edbaa0bde0434996e55dde128d2401c263",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 11,
+  "last_id": 1036,
+  "row_count": 60,
+  "seconds": 32.7,
+  "usage": {
+    "completion_tokens": 2721,
+    "prompt_tokens": 10517,
+    "total_tokens": 13238,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10514,
+      "cache_creation_tokens": 10514
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 11,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Whoever he is",
+        "reason": "누구든지 눈을 피한다는 뜻으로 읽힐 수 있는 부분을 바로잡습니다."
+      },
+      {
+        "id": 16,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your armor",
+        "reason": "갑옷의 소유자를 명시합니다."
+      },
+      {
+        "id": 36,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 의미와 문맥에 맞아 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 66,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I do not",
+        "reason": "모른다는 답변을 더 분명하게 전달합니다."
+      },
+      {
+        "id": 77,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as all Warsworn should",
+        "reason": "모든 워스원이 실제로 그렇다는 뜻을 당위에 맞게 바로잡습니다."
+      },
+      {
+        "id": 109,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "계셔. 우리 모두와 함께하셔!",
+        "reason": "같은 대상에 대한 높임을 일관되게 합니다."
+      },
+      {
+        "id": 138,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "수정해도 문장 연결이 어색하고 시의 의미가 불명확합니다."
+      },
+      {
+        "id": 154,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "They might barter, trade, and whisper secrets up in Rathir-town.",
+        "reason": "기존 문장의 어색한 주어와 이동 표현을 바로잡습니다."
+      },
+      {
+        "id": 161,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "She said they came through Didenhil",
+        "reason": "말한 사람과 다이덴힐을 거쳐 온 사람들을 구분합니다."
+      },
+      {
+        "id": 175,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "My name is gold",
+        "reason": "이름이 알려졌다는 뜻보다 좋은 대우를 받는다는 원문에 가깝습니다."
+      },
+      {
+        "id": 202,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 탐험을 갈망하는 천성을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 214,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "reason with Kiftal to gain her trust",
+        "reason": "설득하여 신뢰를 얻는다는 관계를 명확히 합니다."
+      },
+      {
+        "id": 215,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the war being over",
+        "reason": "전쟁이 이미 끝났다는 원문에 맞춥니다."
+      },
+      {
+        "id": 243,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "that's a ruse devised by the Red Legion",
+        "reason": "화자 자신이 계략 같다는 어색한 구문을 바로잡습니다."
+      },
+      {
+        "id": 301,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We cannot be made to stay here any longer",
+        "reason": "더는 붙잡아 둘 수 없다는 원문의 뜻을 살립니다."
+      },
+      {
+        "id": 306,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 나이가 들어 간다는 관용적 의미를 전달합니다."
+      },
+      {
+        "id": 328,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I did not think fate would let us survive",
+        "reason": "살아남으리라 생각하지 못했다는 원문의 뜻을 복원합니다."
+      },
+      {
+        "id": 342,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what this Gadflow was, or that he must be torn from his throne",
+        "reason": "두 가지 의심의 대상을 분명하게 나눕니다."
+      },
+      {
+        "id": 347,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "blue then red",
+        "reason": "색깔 이름의 형태를 맞춰 어색함을 줄입니다."
+      },
+      {
+        "id": 374,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my broken body",
+        "reason": "몸이 부서졌다는 부자연스러운 표현을 고칩니다."
+      },
+      {
+        "id": 386,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 전달 내용이 명확하며 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 389,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the search for the litanies",
+        "reason": "연도문을 찾아가는 것이 아니라 찾는 일임을 명확히 합니다."
+      },
+      {
+        "id": 390,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "some pressing matter of fate",
+        "reason": "운명 자체가 다급하다는 어색한 표현을 고칩니다."
+      },
+      {
+        "id": 405,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your corpse",
+        "reason": "시체의 소유자를 바로잡습니다."
+      },
+      {
+        "id": 416,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어와 일본어의 반응이 달라 제안의 부정적 어조가 확실하지 않습니다."
+      },
+      {
+        "id": 417,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 가르침에 맡긴다는 뜻을 전달합니다."
+      },
+      {
+        "id": 495,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Brothers in all but blood",
+        "reason": "혈연이 아니지만 형제 같다는 원문의 관계를 완성합니다."
+      },
+      {
+        "id": 497,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "all that remains of my men",
+        "reason": "재가 부하들의 흔적이 아니라 남은 유해임을 분명히 합니다."
+      },
+      {
+        "id": 506,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彼らは敵に対して非情よ",
+        "reason": "포로를 잡지 않는다는 직역의 함의를 자연스럽게 전달합니다."
+      },
+      {
+        "id": 507,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Another day, another lot of good-for-nothing recruits.",
+        "reason": "반복되는 상황을 한국어답게 표현합니다."
+      },
+      {
+        "id": 512,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "by embracing their war-like methods",
+        "reason": "무엇을 했는지 모호한 반복 표현을 명확히 합니다."
+      },
+      {
+        "id": 545,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 비유도 영어 원문에 부합하며 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 575,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I attend these final debates",
+        "reason": "완료된 과거가 아닌 현재의 참석으로 바로잡습니다."
+      },
+      {
+        "id": 605,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彼女は皆を捕らえて",
+        "reason": "사람들을 휩쓴다는 어색한 표현을 붙잡아 데려온 뜻으로 고칩니다."
+      },
+      {
+        "id": 667,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you convinced Ms. Gwint",
+        "reason": "상대가 그윈트를 설득했다는 원문의 정보를 복원합니다."
+      },
+      {
+        "id": 672,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We vowed to never let that memory fade",
+        "reason": "기억이 사라지지 않도록 맹세했다는 어색한 구문을 고칩니다."
+      },
+      {
+        "id": 687,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "all that stands between the Tuatha and us",
+        "reason": "양쪽 사이를 막아선다는 어색함을 방어의 의미로 풀어냅니다."
+      },
+      {
+        "id": 699,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "少なくとも俺たちは、お前の地位を脅かす気はない",
+        "reason": "칭호가 안전하다는 표현의 뜻을 자연스럽게 명확히 합니다."
+      },
+      {
+        "id": 711,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "deliver these daggers for me",
+        "reason": "화자에게 가져오는 것이 아니라 대신 배달하라는 지시로 고칩니다."
+      },
+      {
+        "id": 718,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 아버지처럼 대해 준 관계를 전달하며 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 743,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "우린 페이(Fae)들을 미사루(Mitharu) 신앙으로 개종시켜 그를 기려.",
+        "reason": "같은 발화 안의 종결 어조를 일관되게 합니다."
+      },
+      {
+        "id": 753,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "인생을 어떻게 살지 정했다는 해석은 원문보다 좁습니다."
+      },
+      {
+        "id": 761,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What are the games?",
+        "reason": "게임 방식이 아니라 종류를 묻는 원문에 맞춥니다."
+      },
+      {
+        "id": 784,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 주문으로 된 감옥이라는 구체성을 잃습니다."
+      },
+      {
+        "id": 811,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 그가 부당한 대우를 받을 사람이 아니라는 뜻을 전달합니다."
+      },
+      {
+        "id": 814,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어와 달리 일본어는 이미 들어왔다고 하므로 변경이 확실하지 않습니다."
+      },
+      {
+        "id": 830,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "They'll be in the upstairs alcove, waiting for you.",
+        "reason": "준비된 물건이 기다린다는 뜻을 상대에게 기다리라는 지시로 오역한 부분을 고칩니다."
+      },
+      {
+        "id": 844,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 문맥상 충분히 많다는 불만을 전달합니다."
+      },
+      {
+        "id": 856,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ヴラニの女、アリンは",
+        "reason": "앨린이 남편이 아니라 바라니 여인의 이름임을 바로잡습니다."
+      },
+      {
+        "id": 869,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 기대하는 대상을 명확하게 전달합니다."
+      },
+      {
+        "id": 874,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I fear it will be years past this war's end",
+        "reason": "가능할지 두렵다는 어색한 구문을 고칩니다."
+      },
+      {
+        "id": 924,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Progress is being made all over the castle.",
+        "reason": "진척이 나타난다는 어색한 표현을 작업의 진행으로 고칩니다."
+      },
+      {
+        "id": 931,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Have you ever heard of the Rialte Brocaire?",
+        "reason": "술을 들어 봤는지 묻는 어색함을 이름을 들어 봤는지로 명확히 합니다."
+      },
+      {
+        "id": 952,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "they stroke these stones like statues",
+        "reason": "원문에 없는 돌을 새긴다는 행위를 제거합니다."
+      },
+      {
+        "id": 992,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "ante up",
+        "reason": "판돈을 올리는 것이 아니라 내라는 원문 지시에 맞춥니다."
+      },
+      {
+        "id": 1009,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "맥락이 없어 기존 반응의 어조가 잘못됐는지 확실하지 않습니다."
+      },
+      {
+        "id": 1016,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "주사위가 그런 눈으로 나올 줄은",
+        "reason": "주사위가 눈으로 나온다는 어색한 표현을 고칩니다."
+      },
+      {
+        "id": 1031,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 적은 돈을 벌어 보라는 뜻으로 자연스럽습니다."
+      },
+      {
+        "id": 1034,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "When he first heard",
+        "reason": "처음 말을 들은 주체를 복원합니다."
+      },
+      {
+        "id": 1036,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "A fine day to be alive",
+        "reason": "살아 있기에 좋다는 어색한 표현을 자연스럽게 고칩니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

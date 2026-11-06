@@ -1,0 +1,451 @@
+{
+  "fingerprint": "8434a04b0bfc632fc3fac3ec99050a09a438763e0b5a5fa692eea892554b0c5d",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 40456,
+  "last_id": 41163,
+  "row_count": 60,
+  "seconds": 31.24,
+  "usage": {
+    "completion_tokens": 2708,
+    "prompt_tokens": 10346,
+    "total_tokens": 13054,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10343,
+      "cache_creation_tokens": 10343
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 40456,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "タイウィリに眠る",
+        "reason": "장소를 나타내는 조사 오류를 바로잡습니다."
+      },
+      {
+        "id": 40460,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "approach them",
+        "reason": "다가갈 대상을 명확히 바로잡습니다."
+      },
+      {
+        "id": 40478,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "東棟",
+        "reason": "건물의 동을 가리키는 자연스러운 표현입니다."
+      },
+      {
+        "id": 40479,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "let it be seen",
+        "reason": "이미 드러났다는 진술을 원문의 권유로 바로잡습니다."
+      },
+      {
+        "id": 40498,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "암시장에서 한몫 단단히 했다는 의미는 원문에서 확실하지 않습니다."
+      },
+      {
+        "id": 40508,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 완곡한 표현도 영문 의미에 부합합니다."
+      },
+      {
+        "id": 40540,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현은 영문의 과장된 말투를 반영합니다."
+      },
+      {
+        "id": 40554,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "just as like to rob me as serve me",
+        "reason": "섬기지 않는다는 뜻을 섬기면서도 훔칠 수 있다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 40567,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Treasures four",
+        "reason": "‘네 보물’의 모호함을 없애고 손놀림도 자연스럽게 표현합니다."
+      },
+      {
+        "id": 40583,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘계약을 맡는’도 자연스럽고 의미가 명확합니다."
+      },
+      {
+        "id": 40588,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a run-down village south of here",
+        "reason": "마을의 위치를 나타내는 표현을 명확히 합니다."
+      },
+      {
+        "id": 40602,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "no bloody spells or mysteries",
+        "reason": "욕설 의미의 ‘bloody’를 자연스럽게 바로잡습니다."
+      },
+      {
+        "id": 40610,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "나도 그대를 믿고 존중하겠소",
+        "reason": "같은 상대를 부르는 호칭과 말투를 일치시킵니다."
+      },
+      {
+        "id": 40615,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "介添人になろう",
+        "reason": "어색한 서술어를 자연스럽게 바로잡습니다."
+      },
+      {
+        "id": 40620,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 ‘home’을 전달하므로 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 40626,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He needs only to drink this",
+        "reason": "마시고 떠나는 주체가 제삼자임을 명확히 합니다."
+      },
+      {
+        "id": 40635,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 마법사들의 뛰어난 조응을 전달하며 명백한 오류는 아닙니다."
+      },
+      {
+        "id": 40702,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘통하다’가 원문의 작동·효과를 더 직접적으로 반영합니다."
+      },
+      {
+        "id": 40729,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 끈의 고리에 꿰인 구슬이라는 원문을 전달합니다."
+      },
+      {
+        "id": 40741,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "our little arrangement",
+        "reason": "약속 자체가 진행된다는 어색함을 바로잡습니다."
+      },
+      {
+        "id": 40743,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 호격도 이해 가능하며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 40760,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Not half as much as where I'm putting it",
+        "reason": "금이 쓰일 곳에서 더 절실히 필요하다는 비교를 자연스럽게 합니다."
+      },
+      {
+        "id": 40775,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I did not choose to leave her",
+        "reason": "떠나지 않았다는 뜻을 원치 않았다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 40778,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장은 일본어와 일치하며 제안은 실제로 갈았는지에 대한 의미를 바꿉니다."
+      },
+      {
+        "id": 40782,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 콜름을 칭찬하는 뜻으로 해석할 수 있습니다."
+      },
+      {
+        "id": 40784,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 신들에게 감사를 전하며 제안은 오히려 장황합니다."
+      },
+      {
+        "id": 40789,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘불가사의한 언급’도 원문에 부합합니다."
+      },
+      {
+        "id": 40796,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I told you so",
+        "reason": "첫 문장의 ‘그럴 줄 알았다’를 사전에 말했다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 40801,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘my lady’의 호칭은 관계 맥락 없이 여주인으로 단정하기 어렵습니다."
+      },
+      {
+        "id": 40803,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "more powerful than I ever was",
+        "reason": "화자의 어느 때보다 강하다는 비교를 명확히 합니다."
+      },
+      {
+        "id": 40822,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ヘルムガード砦が力になる",
+        "reason": "요새가 기다린다는 표현을 도움을 제공한다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 40839,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the forests of Summer",
+        "reason": "빠진 ‘숲’을 복원합니다."
+      },
+      {
+        "id": 40851,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "setting you and me up to die",
+        "reason": "폭정으로 죽음에 내몰리는 상황을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 40870,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Don't let him hit you!",
+        "reason": "어색한 명령을 자연스럽게 바로잡습니다."
+      },
+      {
+        "id": 40872,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "some extra punch",
+        "reason": "추가 공격 횟수가 아니라 위력이 필요하다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 40874,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what I've left of her",
+        "reason": "화자에게 남은 그녀의 흔적이라는 의미를 명확히 합니다."
+      },
+      {
+        "id": 40881,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 의미가 분명하며 제안은 ‘알려줄 소식’이 중복됩니다."
+      },
+      {
+        "id": 40917,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "It's tough to tell",
+        "reason": "찾기 어렵다는 뜻을 판단하기 어렵다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 40919,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "highest ranking blade master",
+        "reason": "최고위가 계급을 가리킴을 분명히 하고 목적어 조사도 바로잡습니다."
+      },
+      {
+        "id": 40920,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a burdened spirit",
+        "reason": "어색한 ‘짓눌린 마음을 외면하다’를 자연스럽게 바로잡습니다."
+      },
+      {
+        "id": 40921,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 강연을 들을 수 있다는 상황에 대한 기쁨을 자연스럽게 나타냅니다."
+      },
+      {
+        "id": 40934,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'd trust him with my life",
+        "reason": "현재도 신뢰한다는 뜻을 과거형에서 바로잡습니다."
+      },
+      {
+        "id": 40953,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 명칭도 담당 관계를 나타내며 명백한 오류는 아닙니다."
+      },
+      {
+        "id": 40957,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "내놓을게요",
+        "reason": "한 발화 안의 높임말을 일관되게 합니다."
+      },
+      {
+        "id": 40966,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 ‘Grand Champion’의 최고위 의미를 빠뜨립니다."
+      },
+      {
+        "id": 40972,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "rarely has a problem making a profit",
+        "reason": "어색한 이중 부정을 자연스럽게 풀어 씁니다."
+      },
+      {
+        "id": 40997,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘형편’은 이동 속도보다 넓은 뜻으로 기존 표현도 원문에 부합합니다."
+      },
+      {
+        "id": 41005,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 뜻이 통하며 제안은 문장 구조가 더 어색합니다."
+      },
+      {
+        "id": 41034,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sneak past a Grilricas",
+        "reason": "도망친다는 불필요한 의미를 빼고 몰래 지나간다는 뜻에 맞춥니다."
+      },
+      {
+        "id": 41038,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I have yet to prepare my next lecture. I'll get right on it.",
+        "reason": "바로 시작할 대상이 강의가 아니라 준비임을 명확히 합니다."
+      },
+      {
+        "id": 41087,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "When we have reached them",
+        "reason": "사람들에게 도착한다는 어색한 표현을 장소 중심으로 바로잡습니다."
+      },
+      {
+        "id": 41091,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "無名の傭兵",
+        "reason": "‘얼굴 없는’을 무명이라는 의미로 자연스럽게 바꿉니다."
+      },
+      {
+        "id": 41113,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "everywhere, even all the way out here in Mithros",
+        "reason": "어색한 수식 관계를 바로잡아 모든 곳에 영향을 미쳤다는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 41118,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "grown strong from the remains of your dead",
+        "reason": "시신으로부터 힘을 얻었다는 관계를 명확히 합니다."
+      },
+      {
+        "id": 41123,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what remains of Jory's sword",
+        "reason": "‘검에서 남은 부분’의 어색한 조사를 바로잡습니다."
+      },
+      {
+        "id": 41136,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "an admission of guilt on Octienne's part",
+        "reason": "누가 죄를 인정한 것인지 문장 구조를 명확히 합니다."
+      },
+      {
+        "id": 41145,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I would expect nothing less",
+        "reason": "어색한 직역을 상대에 대한 기대를 나타내는 말로 바로잡습니다."
+      },
+      {
+        "id": 41149,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 ‘기록 보관소’도 자료 전체를 뜻할 수 있어 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 41159,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 의미가 분명하며 제안은 더 장황합니다."
+      },
+      {
+        "id": 41163,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Which bodies belong to your crew?",
+        "reason": "어색한 주어와 서술어의 호응을 바로잡습니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

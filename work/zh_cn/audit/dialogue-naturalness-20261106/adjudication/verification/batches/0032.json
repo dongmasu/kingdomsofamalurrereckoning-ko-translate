@@ -1,0 +1,456 @@
+{
+  "fingerprint": "a099e2f91424a09139c67dc0d4da3e5ca8dd1a1814ff38ba1c2cff290be1b760",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 31167,
+  "last_id": 32097,
+  "row_count": 60,
+  "seconds": 35.42,
+  "usage": {
+    "completion_tokens": 2804,
+    "prompt_tokens": 10851,
+    "total_tokens": 13655,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 61,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10848,
+      "cache_creation_tokens": 10848
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 31167,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "勘も鋭い",
+        "reason": "예민한 감각을 가리키는 원문에 더 자연스럽다."
+      },
+      {
+        "id": 31169,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "敬称で呼ぶべきだ",
+        "reason": "칭호를 호칭으로 부르는 표현이 자연스럽다."
+      },
+      {
+        "id": 31176,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "守るべきものがあまり残ってなかった",
+        "reason": "구할 대상이 집 자체가 아닌 집에 남은 것임을 분명히 한다."
+      },
+      {
+        "id": 31202,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Best keep on your toes.",
+        "reason": "원문의 경계하라는 뜻을 반대로 옮긴 오류를 고친다."
+      },
+      {
+        "id": 31207,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 미완성 장소 표현을 문장으로 재구성해 어조가 달라진다."
+      },
+      {
+        "id": 31208,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 교체가 필수적이지 않다."
+      },
+      {
+        "id": 31238,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 31242,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the truth of Jera's death to die with me",
+        "reason": "진실이 화자와 함께 묻히기를 바란다는 뜻이 자연스럽다."
+      },
+      {
+        "id": 31266,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the answer to that as well",
+        "reason": "어색한 조사 결합을 바로잡는다."
+      },
+      {
+        "id": 31286,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "その銀は質が良さそうだ",
+        "reason": "은화를 은으로 특정한 오류를 바로잡는다."
+      },
+      {
+        "id": 31301,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "동족이라는 해석도 영문의 표현에 부합하므로 교체가 필수적이지 않다."
+      },
+      {
+        "id": 31308,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 이끈 교단이 처음인지 묻는 뜻을 전달한다."
+      },
+      {
+        "id": 31311,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 자선도 원문의 charity에 부합한다."
+      },
+      {
+        "id": 31323,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "神々の許しが得られた",
+        "reason": "예상이나 추측이 아닌 이미 얻은 용서를 반영한다."
+      },
+      {
+        "id": 31347,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 모든 필멸 존재를 가리키며 의미가 통한다."
+      },
+      {
+        "id": 31362,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "인사말의 높임을 바꿀 명확한 근거가 없다."
+      },
+      {
+        "id": 31375,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안문의 장악력과 술수의 결합도 어색해 명확한 개선이 아니다."
+      },
+      {
+        "id": 31382,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I hope it will distract my camp",
+        "reason": "소문이 잠잠해질 것이라는 단정 대신 사람들의 관심을 돌리길 바라는 뜻을 살린다."
+      },
+      {
+        "id": 31386,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "maid는 시녀와 아가씨 모두 가능해 맥락 없이 단정하기 어렵다."
+      },
+      {
+        "id": 31400,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 거대한 인물들도 원문에 부합하며 교체가 필수적이지 않다."
+      },
+      {
+        "id": 31403,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sent Oathblade Kent out to do trapper's work",
+        "reason": "어색한 목적 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 31404,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "It could mean nothing.",
+        "reason": "어색한 ‘아무 의미도 아닐 수’라는 표현을 바로잡는다."
+      },
+      {
+        "id": 31447,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "waiting here to be put to use",
+        "reason": "폐품이 쓰이기를 기다린다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 31448,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "whose father squandered and lost his kingdom",
+        "reason": "왕국을 잃은 원인을 자연스럽게 표현한다."
+      },
+      {
+        "id": 31491,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 독특한 방식으로 닮았다는 뜻에 부합한다."
+      },
+      {
+        "id": 31492,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 선언을 파멸로 삼자는 비유를 전달한다."
+      },
+      {
+        "id": 31501,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 지금 그 일에 몰두할 수 없다는 뜻으로 가능하다."
+      },
+      {
+        "id": 31527,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "壁の外での生活には向かない",
+        "reason": "관심 부족이 아니라 성벽 밖 생활에 맞지 않는다는 뜻을 반영한다."
+      },
+      {
+        "id": 31547,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The Varani wish to turn Ysa into a military camp.",
+        "reason": "원문에 없는 인과관계를 제거한다."
+      },
+      {
+        "id": 31555,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 통하며 제안은 전선이라는 원문의 대비를 생략한다."
+      },
+      {
+        "id": 31565,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Okay, but don't be surprised",
+        "reason": "원문에 없는 조건절을 없애고 대화의 응답을 복원한다."
+      },
+      {
+        "id": 31584,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "has her look after",
+        "reason": "돌보는 사람을 나타내는 조사를 보완한다."
+      },
+      {
+        "id": 31591,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "倉庫に口座を作る",
+        "reason": "거래 계정을 만든다는 어색한 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 31608,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 상대가 화자를 걱정시켰다는 뜻을 전달한다."
+      },
+      {
+        "id": 31610,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "at the old ‒ well",
+        "reason": "말을 고쳐 이어가는 미완성 표현에 맞게 관형형으로 고친다."
+      },
+      {
+        "id": 31613,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "誰がフェイを必要としている？",
+        "reason": "페이에게 무엇이 필요한지가 아니라 누가 페이를 필요로 하는지 묻는다."
+      },
+      {
+        "id": 31623,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "받을 수 있어. 그에게 접근하기는 쉽지 않을 거야.",
+        "reason": "주변 문장의 반말체에 맞춰 어미를 통일한다."
+      },
+      {
+        "id": 31690,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Even they wouldn't do this.",
+        "reason": "이들이 아니라는 어색한 표현을 그들의 소행이 아니라는 문맥에 맞게 고친다."
+      },
+      {
+        "id": 31705,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "서로를 받든다는 구체적 관계는 원문에서 확정되지 않는다."
+      },
+      {
+        "id": 31740,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "金を工面できるまでは来ても無駄だよ",
+        "reason": "돈을 마련할 때까지 돌아오지 말라는 지시를 명확히 한다."
+      },
+      {
+        "id": 31765,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Would that he lived to make more of them.",
+        "reason": "더 많은 작품을 만들 만큼 오래 살지 못한 데 대한 아쉬움을 자연스럽게 표현한다."
+      },
+      {
+        "id": 31786,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "asks to be in charge",
+        "reason": "어색한 ‘책임자를 맡다’를 자연스럽게 고친다."
+      },
+      {
+        "id": 31791,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 뜻이 통하며 교체가 필수적이지 않다."
+      },
+      {
+        "id": 31793,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "nearby in the forest",
+        "reason": "숲 근처가 아니라 근처 숲속이라는 위치를 바로잡는다."
+      },
+      {
+        "id": 31827,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 끊어 말하는 표현을 반복으로 보충할 필요가 뚜렷하지 않다."
+      },
+      {
+        "id": 31840,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 문체 전환만으로 명확한 오류라고 보기 어렵다."
+      },
+      {
+        "id": 31853,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "before he hurts himself",
+        "reason": "자해로 오해될 수 있는 표현을 문맥에 맞게 고친다."
+      },
+      {
+        "id": 31866,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "支部にいつ会いに行けばいいか",
+        "reason": "화자가 지부로 만나러 가는 방향을 바로잡는다."
+      },
+      {
+        "id": 31900,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "truly serve my people ‒ by dying for them",
+        "reason": "죽는 방법이 아니라 죽음으로써 봉사한다는 관계를 복원한다."
+      },
+      {
+        "id": 31903,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "Apply evidence does not exactly match its source row. 적용을 보류한다. 받침 유무에 맞춰 조사 ‘이라는’을 바로잡는다."
+      },
+      {
+        "id": 31916,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 정체가 누구로 밝혀지든이라는 원문의 뜻에 부합한다."
+      },
+      {
+        "id": 31918,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Nice doing business with you.",
+        "reason": "빠진 조사를 보완해 인사말을 자연스럽게 한다."
+      },
+      {
+        "id": 31950,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "too clever to kill",
+        "reason": "대상이 너무 영리해 죽일 수 없었다는 뜻을 분명히 한다."
+      },
+      {
+        "id": 31963,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 신뢰도 원문의 credibility를 전달하며 교체가 필수적이지 않다."
+      },
+      {
+        "id": 32001,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 요청도 자연스럽고 제안은 더 직접적인 명령으로 바뀐다."
+      },
+      {
+        "id": 32003,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 법의 눈은 감시를 나타내는 가능한 비유다."
+      },
+      {
+        "id": 32018,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Know their place! Ha! Do you hear this",
+        "reason": "뒤에서 되묻는 말과 맞게 앞의 표현을 인용하는 어조로 고친다."
+      },
+      {
+        "id": 32058,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "船賃はいらん",
+        "reason": "배가 자유롭다는 뜻이 아니라 뱃삯을 받지 않는다는 뜻을 반영한다."
+      },
+      {
+        "id": 32064,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘두말로 배신한’ 역시 부자연스럽고 명확한 개선이 아니다."
+      },
+      {
+        "id": 32097,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the steady rain, the hail of bodies",
+        "reason": "기존 번역에서 빠진 끊임없이 내리는 비를 복원한다."
+      }
+    ],
+    "validation_issues": [
+      {
+        "id": 31903,
+        "issue": "Apply evidence does not exactly match its source row."
+      }
+    ]
+  }
+}

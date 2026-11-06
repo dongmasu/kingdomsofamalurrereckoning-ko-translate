@@ -1,0 +1,451 @@
+{
+  "fingerprint": "db888aa70a76800075af89e1cdcee2ce3b64ce1c94b467d699fe2ad5026bc229",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 45231,
+  "last_id": 46173,
+  "row_count": 60,
+  "seconds": 36.16,
+  "usage": {
+    "completion_tokens": 2716,
+    "prompt_tokens": 9206,
+    "total_tokens": 11922,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 11,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 9203,
+      "cache_creation_tokens": 9203
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 45231,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the opportunity to research a solution",
+        "reason": "기회를 얻는다는 목적을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 45233,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "酷い火傷を負ったりする",
+        "reason": "불타 죽는다는 의미를 원문의 심한 화상으로 바로잡습니다."
+      },
+      {
+        "id": 45234,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "こんにちは",
+        "reason": "어색한 인사말을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 45236,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the high security area",
+        "reason": "어색한 구역 표현을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 45242,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘꾸며진’이라는 의도적 조작은 원문에서 확정되지 않습니다."
+      },
+      {
+        "id": 45256,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "대신 관계를 해결해 달라는 부탁이 화해를 도와달라는 뜻으로 바뀝니다."
+      },
+      {
+        "id": 45268,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "말과 행동의 주체를 사람들로 특정하는 것은 확실하지 않습니다."
+      },
+      {
+        "id": 45270,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "何家族分もの食料",
+        "reason": "여러 가정의 식량이라는 뜻을 명확히 합니다."
+      },
+      {
+        "id": 45289,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "片手でひねり潰してやったぞ",
+        "reason": "뒤의 ‘한 손’과 연결되는 원문의 말장난을 살립니다."
+      },
+      {
+        "id": 45317,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "serve the Court",
+        "reason": "궁정을 위해 봉사한다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 45331,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "募金を盗んでいる",
+        "reason": "소장품이 아니라 모금액을 훔친다는 뜻입니다."
+      },
+      {
+        "id": 45357,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 상황을 담을 수 있어 교체가 필수적이지 않습니다."
+      },
+      {
+        "id": 45381,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "무엇이 지속되는지 불분명해 화자가 버틴다고 특정하기 어렵습니다."
+      },
+      {
+        "id": 45406,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 원문에 부합하며 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 45408,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Labored grunts trumpeted the call of brutish Jottun,",
+        "reason": "어색한 신음과 함성의 관계를 자연스럽게 고치며 줄바꿈도 유지합니다."
+      },
+      {
+        "id": 45410,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 영어 원문의 뜻에 부합합니다."
+      },
+      {
+        "id": 45424,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Ynadon is just.",
+        "reason": "원문에 없는 인과관계를 없앱니다."
+      },
+      {
+        "id": 45444,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I am a mason, friend",
+        "reason": "어색한 호칭 위치를 자연스럽게 고칩니다."
+      },
+      {
+        "id": 45446,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We all do our part. You have done yours.",
+        "reason": "모두의 일반적인 역할과 상대가 이미 한 일을 구분합니다."
+      },
+      {
+        "id": 45463,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "don't let anybody tell you different",
+        "reason": "어색한 직역을 확신을 나타내는 자연스러운 표현으로 고칩니다."
+      },
+      {
+        "id": 45475,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What should we do about him?",
+        "reason": "조사가 어색한 문장을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 45505,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "In a last breath",
+        "reason": "중복된 표현을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 45510,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "There will be time enough for clamor when the battle starts.",
+        "reason": "싸움이 시작되면 충분히 소란스러울 것이라는 뜻을 살립니다."
+      },
+      {
+        "id": 45553,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a small army of gnomes",
+        "reason": "실제 병력이 아니라 많은 노움을 고용했다는 관용적 의미를 살립니다."
+      },
+      {
+        "id": 45589,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my cool head ‒ and, admittedly, some help",
+        "reason": "끼워 넣은 말 때문에 흐려진 문장 관계를 명확히 합니다."
+      },
+      {
+        "id": 45615,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "its youngest envoy ever by decades",
+        "reason": "수십 년 만의 최연소가 아니라 기존 최연소보다 수십 년 어렸다는 뜻을 반영합니다."
+      },
+      {
+        "id": 45632,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Suppose Sun Camp came to gloat.",
+        "reason": "태양 야영지에서 우쭐대러 왔다는 추측을 반영합니다."
+      },
+      {
+        "id": 45640,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "임종이 이미 일어났는지 확정하기 어려워 시제 변경이 불확실합니다."
+      },
+      {
+        "id": 45657,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "ready to have these special daggers forged",
+        "reason": "상대가 직접 벼리는 것이 아니라 제작을 맡긴다는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 45671,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "자초한 곤경만 안다는 표현이 곤경을 자초했다는 사실만 안다는 뜻으로 바뀝니다."
+      },
+      {
+        "id": 45736,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 완료된 변화를, 일본어는 예견을 나타내므로 시제 변경이 불확실합니다."
+      },
+      {
+        "id": 45746,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I have not had cause to use my blades in some time.",
+        "reason": "띄어쓰기가 어색한 표현을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 45750,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you're settling in",
+        "reason": "정착할 곳을 찾는 것이 아니라 적응해 가는 뜻입니다."
+      },
+      {
+        "id": 45752,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "アジーンの持ち物に書を仕込む",
+        "reason": "서신을 소지품에 몰래 넣는다는 뜻을 명확히 합니다."
+      },
+      {
+        "id": 45759,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "용액과 조제법의 관계가 확실하지 않아 제안의 구체화가 불확실합니다."
+      },
+      {
+        "id": 45763,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "渓谷の地下全体",
+        "reason": "협곡 아래 지하에 걸쳐 있다는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 45778,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 거의 도착했다는 원문의 뜻을 전달합니다."
+      },
+      {
+        "id": 45780,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a great privilege for mortals",
+        "reason": "영광을 누리는 대상이 필멸자임을 명확히 합니다."
+      },
+      {
+        "id": 45782,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "that's what happened to Oreyn",
+        "reason": "앞서 언급된 일이 오레인에게 일어났다고 확신하는 뜻을 살립니다."
+      },
+      {
+        "id": 45795,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "必要があれば言ってください",
+        "reason": "필요하면 말해 달라는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 45817,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "begging to drink himself into oblivion",
+        "reason": "술을 구걸한다는 관계를 명확히 합니다."
+      },
+      {
+        "id": 45820,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "She made me wait",
+        "reason": "기다리게 된 사람이 화자임을 명확히 합니다."
+      },
+      {
+        "id": 45823,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 뜻을 전달하며 교체가 필수적이지 않습니다."
+      },
+      {
+        "id": 45832,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sealed by the Great Scale",
+        "reason": "저울이 봉인의 수단임을 명확히 합니다."
+      },
+      {
+        "id": 45879,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 상처에 흔적을 더한다는 표현이 새 흉터를 남긴다는 뜻으로 바뀝니다."
+      },
+      {
+        "id": 45917,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 자연스럽고 원문에 부합합니다."
+      },
+      {
+        "id": 45927,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "That is what this is all about.",
+        "reason": "모든 일의 원인이라는 해석 대신 원문의 요점을 전달합니다."
+      },
+      {
+        "id": 45959,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You cannot save us.",
+        "reason": "구할 수 없는 주체를 우리에서 너로 바로잡습니다."
+      },
+      {
+        "id": 45966,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The only record of a successful journey there was by an Almain missionary named Denric.",
+        "reason": "기록과 기록자를 혼동한 표현을 바로잡습니다."
+      },
+      {
+        "id": 45967,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 뜻을 전달하며 교체가 필수적이지 않습니다."
+      },
+      {
+        "id": 45968,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "修道院？",
+        "reason": "문맥상 임무가 아닌 수도원을 가리킵니다."
+      },
+      {
+        "id": 46006,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "몸을 돌본다는 뜻을 위협으로부터 지킨다는 쪽으로 좁힐 우려가 있습니다."
+      },
+      {
+        "id": 46020,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "all your progress in this match",
+        "reason": "어색한 ‘진행 상황을 쌓다’를 자연스럽게 고칩니다."
+      },
+      {
+        "id": 46052,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "How do you really feel?",
+        "reason": "실제 속마음을 묻는 뜻을 자연스럽게 살립니다."
+      },
+      {
+        "id": 46080,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what I can do",
+        "reason": "무엇을 할 수 있는지 알아본다는 뜻을 바로잡습니다."
+      },
+      {
+        "id": 46081,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 장대한 이야기를 전달합니다."
+      },
+      {
+        "id": 46085,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 지고왕으로 봉직했다는 원문의 뜻에 부합합니다."
+      },
+      {
+        "id": 46160,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어가 ‘벨렌’을 명시하므로 삭제할 근거가 부족합니다."
+      },
+      {
+        "id": 46170,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "정치에 참여하는 인물을 유력 인물로 격상하는 해석은 영어만으로 확정하기 어렵습니다."
+      },
+      {
+        "id": 46173,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "相当な量がいる",
+        "reason": "상당한 양이 필요하다는 뜻을 명확히 합니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

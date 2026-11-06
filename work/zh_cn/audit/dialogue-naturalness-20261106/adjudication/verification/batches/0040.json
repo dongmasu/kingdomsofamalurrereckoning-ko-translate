@@ -1,0 +1,451 @@
+{
+  "fingerprint": "e5519187dbbe6994bd7db35833871797b6538653e1f5d19b627c43aac1b56017",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 38326,
+  "last_id": 39466,
+  "row_count": 60,
+  "seconds": 38.3,
+  "usage": {
+    "completion_tokens": 3042,
+    "prompt_tokens": 13986,
+    "total_tokens": 17028,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 56,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 13983,
+      "cache_creation_tokens": 13983
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 38326,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 시험을 실시한 것으로 볼 수 있지만, 일본어는 필기시험을 검토했다는 뜻이라 제안이 확실하지 않습니다."
+      },
+      {
+        "id": 38337,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "我が祖先の名を\"スケイスの書\"にまとめた",
+        "reason": "이름을 책에 모아 기록했다는 뜻을 더 자연스럽게 전달합니다."
+      },
+      {
+        "id": 38358,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "make your trip to the Embassy worthwhile",
+        "reason": "방문한 보람이 있도록 한다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 38382,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Only two Crows are allowed to fight at a time",
+        "reason": "두 명만 동시에 싸울 수 있다는 제한을 분명히 합니다."
+      },
+      {
+        "id": 38403,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "if there were people here to make merriment",
+        "reason": "즐겁게 놀 사람이 있어야 한다는 조건을 바로잡습니다."
+      },
+      {
+        "id": 38406,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "犯罪の濡れ衣を着せることができる",
+        "reason": "증거가 된다는 표현을 범죄 누명을 씌운다는 원문의 뜻으로 고칩니다."
+      },
+      {
+        "id": 38451,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 그가 모르는 채로 살아간다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 38460,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a resourceful lot",
+        "reason": "재치보다 문제 해결에 능한 수완을 가리키는 표현이 적절합니다."
+      },
+      {
+        "id": 38472,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we worked together under Templar Octienne",
+        "reason": "옥티엔과 함께가 아니라 그의 밑에서 일했다는 관계를 바로잡습니다."
+      },
+      {
+        "id": 38493,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 힘의 본질과 덕성의 관계를 충분히 전달합니다."
+      },
+      {
+        "id": 38501,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "while mortals have no cares, they also have no time",
+        "reason": "걱정이 없는 대신 시간이 없다는 교환 관계를 없애 원문에 맞춥니다."
+      },
+      {
+        "id": 38504,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 이곳에서 환영받는다는 지속적 의미를 도착 인사로 좁힐 수 있습니다."
+      },
+      {
+        "id": 38526,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We need more of them around here",
+        "reason": "알파르가 더 필요하다는 뜻을 자연스럽고 명확하게 표현합니다."
+      },
+      {
+        "id": 38533,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you're the fighter to beat",
+        "reason": "상대가 챔피언을 이길 것이라는 오해를 바로잡습니다."
+      },
+      {
+        "id": 38542,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "계약에 관대해진다는 원문이 반드시 조건을 새로 제시한다는 뜻은 아닙니다."
+      },
+      {
+        "id": 38557,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "私は力を抑えよう",
+        "reason": "힘을 완전히 내려놓는 대신 억제한다는 뜻을 반영합니다."
+      },
+      {
+        "id": 38576,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "who Ethene would have play my characters",
+        "reason": "누가 화자의 등장인물들을 연기할지 묻는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 38580,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 감사와 생존자 발견을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 38611,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "will forever be in your debt",
+        "reason": "앞으로도 계속 은혜를 입고 있을 것이라는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 38630,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 신체적 비유는 영어 원문에도 있으며, 제안은 그 이미지를 없앱니다."
+      },
+      {
+        "id": 38634,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he's dead now, and the better for it",
+        "reason": "죽은 뒤 나아졌다는 어색한 표현을 죽어서 잘됐다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 38640,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "農家の若い娘",
+        "reason": "농부가 아니라 딸들이 젊다는 관계를 분명히 합니다."
+      },
+      {
+        "id": 38690,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Your hands are small.",
+        "reason": "원문에 없는 인과관계를 없애고 손이 작다는 관찰로 고칩니다."
+      },
+      {
+        "id": 38696,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I mean, its been a pleasure doing business with you",
+        "reason": "놀란 말을 급히 정정하는 말투를 더 자연스럽게 살립니다."
+      },
+      {
+        "id": 38703,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Well look at what we have here",
+        "reason": "직역투인 도입부를 놀라움을 드러내는 자연스러운 말로 고칩니다."
+      },
+      {
+        "id": 38721,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Hail, Champion!",
+        "reason": "환호인 만세 대신 챔피언에게 건네는 인사로 바로잡습니다."
+      },
+      {
+        "id": 38737,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "何をするのか、もう一度教えてくれ",
+        "reason": "도와줄 방법을 다시 묻는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 38740,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "前任者も後任者もいなくなった",
+        "reason": "사물을 가리키는 듯한 표현을 전임자와 후임자로 명확히 합니다."
+      },
+      {
+        "id": 38747,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Any idiot weakling could exterminate them",
+        "reason": "멍청하고 약한 사람이 박멸의 대상처럼 보이는 모호함을 고칩니다."
+      },
+      {
+        "id": 38750,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "how loud you ask",
+        "reason": "부탁의 크기가 아니라 목소리의 크기임을 분명히 합니다."
+      },
+      {
+        "id": 38772,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "why were you brought to me?",
+        "reason": "상대가 스스로 찾아온 것이 아니라 보내졌다는 뜻을 반영합니다."
+      },
+      {
+        "id": 38777,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "over the pikes",
+        "reason": "말뚝이 아닌 창을 가리키는 영어 표현에 맞춥니다."
+      },
+      {
+        "id": 38799,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Man and ship sunk to the bottom",
+        "reason": "그의 교수형을 가정으로 처리하고 바다에 가라앉은 사람이 데드 켈임을 바로잡습니다."
+      },
+      {
+        "id": 38803,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Things we couldn't sell above",
+        "reason": "팔 수 없는 장소가 위쪽이라는 정보를 복원합니다."
+      },
+      {
+        "id": 38809,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "違う話を信じるな",
+        "reason": "다른 말을 믿지 말라는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 38818,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "three equal pieces",
+        "reason": "세 조각으로 똑같이 찢긴다는 어색한 표현을 바로잡습니다."
+      },
+      {
+        "id": 38821,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "reveal the truth of your state",
+        "reason": "정체가 진실인지 묻는 어색한 표현을 실제 정체를 밝히라는 뜻으로 고칩니다."
+      },
+      {
+        "id": 38832,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "coming here was a terrible idea",
+        "reason": "여기에 온 선택이 나빴다는 뜻을 더 자연스럽게 전달합니다."
+      },
+      {
+        "id": 38840,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "after you've killed each",
+        "reason": "단검을 꽂는 시점이 죽인 뒤임을 명확히 합니다."
+      },
+      {
+        "id": 38862,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "罵りや言い争いとは無縁",
+        "reason": "맹세가 아니라 욕설이 없다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 38865,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "連中はそいつに賭けるだろうね",
+        "reason": "검투사 자신이 아니라 다른 사람들이 그에게 건다는 뜻으로 고칩니다."
+      },
+      {
+        "id": 38905,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "とても小柄なのにとても勇敢",
+        "reason": "몸집만큼 용기가 작다는 오해를 없애고 매우 용감하다는 뜻을 살립니다."
+      },
+      {
+        "id": 39030,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 내부자의 도움으로 들어왔다는 뜻을 충분히 전달합니다."
+      },
+      {
+        "id": 39043,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I can't risk walking out of here without my tools",
+        "reason": "도구 없이 나가는 위험을 감수할 수 없다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 39061,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Can't say I miss it",
+        "reason": "그리움의 대상을 사람들로 잘못 특정한 부분을 없앱니다."
+      },
+      {
+        "id": 39066,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Argine started it before Adessa was built",
+        "reason": "야영지를 시작했다는 어색한 표현을 세웠다는 말로 고칩니다."
+      },
+      {
+        "id": 39068,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "all those many nights ago",
+        "reason": "현재의 시간 표현을 오래전에 보았다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 39080,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "かみ傷か、引っかき傷",
+        "reason": "발톱에 물린 흔적이라는 오류를 할퀸 흔적으로 바로잡습니다."
+      },
+      {
+        "id": 39128,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "そのうちの2つを解決したら",
+        "reason": "청원 두 건에 답하는 것이 아니라 해결해야 한다는 뜻을 반영합니다."
+      },
+      {
+        "id": 39212,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "This is the end of the line for you, gladiator.",
+        "reason": "앞길이 여기까지라는 어색한 표현을 자연스러운 위협으로 고칩니다."
+      },
+      {
+        "id": 39263,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 거금이라는 뜻은 살리지만 팔다리를 이용한 원문의 말장난을 없앱니다."
+      },
+      {
+        "id": 39270,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Her touch from ecstasy so base, she laughs.",
+        "reason": "웃는 주체가 시녀임을 분명히 합니다."
+      },
+      {
+        "id": 39271,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a Beast Pen",
+        "reason": "어색한 중복 표현인 우리장을 우리로 고칩니다."
+      },
+      {
+        "id": 39331,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "とても有力だった一族",
+        "reason": "가문이 중요한 위치였다는 어색한 표현을 유력했다는 말로 고칩니다."
+      },
+      {
+        "id": 39350,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what misery you've brought on our heads",
+        "reason": "불행을 초래한 대상으로 청자를 지목한 원문을 반영합니다."
+      },
+      {
+        "id": 39371,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "붙잡아 둔다는 표현은 지연시키는 것보다 강해 원문보다 저지 성공을 단정할 수 있습니다."
+      },
+      {
+        "id": 39384,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "皆の健康は日に日に回復しています",
+        "reason": "마을이 건강해진다는 표현을 주민들의 건강이 좋아진다는 뜻으로 명확히 합니다."
+      },
+      {
+        "id": 39388,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Gastyr scaled the heights",
+        "reason": "높은 곳을 올라라는 부자연스러운 조사를 고칩니다."
+      },
+      {
+        "id": 39426,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 돈을 가지고 찾아오라는 원문의 뜻을 전달하며 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 39466,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The man lacked vision",
+        "reason": "통찰력 부족보다 뒤의 편협한 목표에 연결되는 시야의 협소함을 반영합니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

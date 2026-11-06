@@ -1,0 +1,451 @@
+{
+  "fingerprint": "61d39bde2f7ac803304e9069f2d6dc2079a8c752b53b8c6ad3929679da28375b",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 12711,
+  "last_id": 13833,
+  "row_count": 60,
+  "seconds": 33.69,
+  "usage": {
+    "completion_tokens": 2804,
+    "prompt_tokens": 11271,
+    "total_tokens": 14075,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 11,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11268,
+      "cache_creation_tokens": 11268
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 12711,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The crystal is how she's crept into the heads of the others",
+        "reason": "어색한 사동 표현을 자연스럽게 고쳤다."
+      },
+      {
+        "id": 12718,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "But can we afford to take the chance.",
+        "reason": "위험을 감수할 수 있는지 묻는 뜻을 바로잡았다."
+      },
+      {
+        "id": 12738,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I will have Priestess Aurela destroy it.",
+        "reason": "화자가 여사제에게 파괴를 맡기는 뜻을 드러냈다."
+      },
+      {
+        "id": 12751,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "서로 죽지 않는다는 진술을 죽일 수 없다는 능력의 문제로 바꾼다."
+      },
+      {
+        "id": 12752,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "残念だったね",
+        "reason": "원문의 짧은 조롱조를 더 자연스럽게 살렸다."
+      },
+      {
+        "id": 12770,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Looks like you've figured it out",
+        "reason": "알아낸 주체가 상대방임을 바로잡았다."
+      },
+      {
+        "id": 12773,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 섬세하다는 표현도 원문에 부합한다."
+      },
+      {
+        "id": 12774,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "俺をトロールに変えることだってできるかもな",
+        "reason": "트롤로 변신시킬 수 있다는 뜻을 복원했다."
+      },
+      {
+        "id": 12783,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 기량을 겨루는 뜻으로 가능하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 12804,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "she coddles it like a newborn child",
+        "reason": "마을을 감싸는 주체가 그녀임을 분명히 했다."
+      },
+      {
+        "id": 12833,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what I've engineered",
+        "reason": "일을 계획하고 벌였다는 뜻을 자연스럽게 살렸다."
+      },
+      {
+        "id": 12864,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "there is enough chaos in the world today",
+        "reason": "어색한 조사 결합을 바로잡았다."
+      },
+      {
+        "id": 12897,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 질문도 자연스러우며 교체가 필수적이지 않다."
+      },
+      {
+        "id": 12899,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "engage in diplomacy",
+        "reason": "어색한 결합인 외교를 맺다를 바로잡았다."
+      },
+      {
+        "id": 12915,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ぼろを着た集団",
+        "reason": "누더기를 입은 무리라는 뜻을 명확히 했다."
+      },
+      {
+        "id": 12927,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "give them something in return",
+        "reason": "받은 것을 돌려준다는 오해 없이 대가를 주는 뜻을 살렸다."
+      },
+      {
+        "id": 12972,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You are the first contact with the outside world we've had in a week.",
+        "reason": "누가 외부와 접촉했는지 명확히 했다."
+      },
+      {
+        "id": 12977,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 원문의 보장한다는 뜻을 전달한다."
+      },
+      {
+        "id": 12989,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "その自信がうらやましいわ",
+        "reason": "상대의 자신감에 견줄 만큼 믿고 싶다는 뜻을 자연스럽게 나타냈다."
+      },
+      {
+        "id": 13011,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "誰もこの罰則を受けずに済んでいる",
+        "reason": "형벌을 시험한다는 어색한 표현을 받지 않았다는 뜻으로 고쳤다."
+      },
+      {
+        "id": 13043,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "not a pleasant prospect",
+        "reason": "전망을 경치로 오해할 수 있는 표현을 바로잡았다."
+      },
+      {
+        "id": 13060,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you're giving everyone what they want",
+        "reason": "어색한 목적어 결합을 자연스럽게 고쳤다."
+      },
+      {
+        "id": 13096,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "우리의 공동의 적인",
+        "reason": "관형 표현의 어색한 중복을 고쳤다."
+      },
+      {
+        "id": 13114,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 맥락에 맞으며 제안은 해석을 구체화한다."
+      },
+      {
+        "id": 13140,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "姉のリラ",
+        "reason": "화자와 리라의 관계를 일본어에 맞게 구체화했다."
+      },
+      {
+        "id": 13142,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "双子の妹",
+        "reason": "쌍둥이 자매의 관계를 일본어에 맞게 구체화했다."
+      },
+      {
+        "id": 13150,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Warrior to warrior",
+        "reason": "전사 대 전사라는 어색한 표현을 자연스럽게 고쳤다."
+      },
+      {
+        "id": 13195,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "How do I get you out, again?",
+        "reason": "전에 약속한 방법이 아니라 꺼내는 방법을 다시 묻는다."
+      },
+      {
+        "id": 13196,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the clan of Crudok elders",
+        "reason": "부족을 이루는 이들이 장로들임을 명확히 했다."
+      },
+      {
+        "id": 13228,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sent and lost",
+        "reason": "피동 표현을 더 자연스럽게 고쳤다."
+      },
+      {
+        "id": 13253,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "fan the fires that burn deep in their hearts",
+        "reason": "이미 타는 불길에 불을 지핀다는 어색한 표현을 바로잡았다."
+      },
+      {
+        "id": 13282,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "이의를 제기할 수 없다는 표현은 원문의 권위에 대한 이견이 없다는 뜻보다 강하다."
+      },
+      {
+        "id": 13283,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "where he'd go to find safe haven",
+        "reason": "은신처를 찾아갈 만한 곳이라는 어색한 표현을 고쳤다."
+      },
+      {
+        "id": 13312,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ベッドや各種サービス",
+        "reason": "잠자리와 여러 편의를 제공한다는 뜻을 명확히 했다."
+      },
+      {
+        "id": 13344,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Good tidings, Beckoned!",
+        "reason": "인사말을 소식에 관한 진술로 옮긴 부분을 바로잡았다."
+      },
+      {
+        "id": 13363,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm not sure they know what to do with them",
+        "reason": "해적들이 사용법을 아는지 의문이라는 뜻을 복원했다."
+      },
+      {
+        "id": 13385,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 힘이 증대했다는 원문에 부합한다."
+      },
+      {
+        "id": 13481,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "this cavern will take us under them",
+        "reason": "산 아래로 내려가는 것이 아니라 산 밑을 통과하는 뜻을 살렸다."
+      },
+      {
+        "id": 13488,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I have not glimpsed Bareth since the attack",
+        "reason": "공격 이후 지금까지 보지 못했다는 시제를 자연스럽게 고쳤다."
+      },
+      {
+        "id": 13493,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "Second의 구체적 역할이 불명확해 보조인으로 단정하기 어렵다."
+      },
+      {
+        "id": 13505,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "by the gods, be careful",
+        "reason": "맹세라는 직역 대신 간절한 강조를 자연스럽게 살렸다."
+      },
+      {
+        "id": 13512,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "our birthplace of Esharra",
+        "reason": "어색한 중복 표현을 줄이면서 고향이라는 뜻을 유지했다."
+      },
+      {
+        "id": 13524,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "お前の主張は... 攻撃的だな！",
+        "reason": "점수가 아니라 주장을 가리킨다."
+      },
+      {
+        "id": 13532,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 인사도 원문에 부합하며 교체가 필수적이지 않다."
+      },
+      {
+        "id": 13535,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "부적절하거나 외설적인 내용을 짓궂은 일로 옮기는 것은 뉘앙스가 불확실하다."
+      },
+      {
+        "id": 13537,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your wanderings are going to change the fate of everyone you meet",
+        "reason": "떠돌아다니는 것이 만나는 이들의 운명을 바꾼다는 관계를 자연스럽게 밝혔다."
+      },
+      {
+        "id": 13538,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "she'll eventually wind up in one of those other two",
+        "reason": "죽음을 맞는다는 근거 없는 의미를 제거했다."
+      },
+      {
+        "id": 13562,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 수도원 은둔처도 원문의 monastic retreat에 부합한다."
+      },
+      {
+        "id": 13606,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 의미가 명확하다."
+      },
+      {
+        "id": 13636,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "make tinder of you",
+        "reason": "장작처럼 만든다는 어색한 표현을 땔감으로 고쳤다."
+      },
+      {
+        "id": 13638,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "They barely let me build the place.",
+        "reason": "건축 참여가 아니라 건축 자체를 간신히 허락받았다는 뜻을 살렸다."
+      },
+      {
+        "id": 13678,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 고대의 경이로움을 전달하며 물건이라는 명시는 필수가 아니다."
+      },
+      {
+        "id": 13694,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "that failure was a finality",
+        "reason": "중복되는 최종 결말을 자연스럽게 풀었다."
+      },
+      {
+        "id": 13712,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "his consumptive snoring",
+        "reason": "쇠약한 환자 같다는 수식이 화자가 아닌 코 고는 사람을 가리키도록 고쳤다."
+      },
+      {
+        "id": 13724,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "avenge his death, as well as the others'",
+        "reason": "죽음과 다른 이들에 대한 복수라는 어색한 연결을 바로잡았다."
+      },
+      {
+        "id": 13742,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 넘치는 에너지를 불꽃에 비유한 원문의 뜻을 전달한다."
+      },
+      {
+        "id": 13748,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I must exile myself from my family.",
+        "reason": "스스로 추방되어야 한다는 피동 표현을 바로잡았다."
+      },
+      {
+        "id": 13803,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Fitted most of the Alfar Army!",
+        "reason": "군대에 장비를 마련했다는 뜻을 복원했다."
+      },
+      {
+        "id": 13821,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 비유적 의미를 전달하며 길을 닦는다는 표현은 물리적으로 읽힐 수 있다."
+      },
+      {
+        "id": 13833,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "our future involves sharing drinks and war stories",
+        "reason": "어색한 서술을 자연스럽게 고쳤다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "fingerprint": "2045d8c2acc0b49ae0365f17f2d7fd4f72e38a3f9a1c330301159290f922d32c",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 27442,
+  "last_id": 28269,
+  "row_count": 60,
+  "seconds": 31.45,
+  "usage": {
+    "completion_tokens": 2702,
+    "prompt_tokens": 11005,
+    "total_tokens": 13707,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 28,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11002,
+      "cache_creation_tokens": 11002
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 27442,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 상태가 아니라 외모를 묻습니다."
+      },
+      {
+        "id": 27456,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "挫折に負けない頑固さ",
+        "reason": "좌절에 굴하지 않는다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 27462,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Be a friend and free me",
+        "reason": "관용적인 부탁을 자연스럽게 옮깁니다."
+      },
+      {
+        "id": 27464,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "during that long first night",
+        "reason": "길었던 첫날 밤에 세웠다는 시간 관계가 명확해집니다."
+      },
+      {
+        "id": 27466,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 자연스럽고 의미가 명확합니다."
+      },
+      {
+        "id": 27472,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "finding a life, and for finding love",
+        "reason": "삶을 꾸리고 사랑을 찾는다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 27487,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "old when the mighty trees were saplings",
+        "reason": "나무들이 묘목이던 때에도 이미 오래됐다는 뜻을 복원합니다."
+      },
+      {
+        "id": 27502,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Don't tell me.",
+        "reason": "상대에게 말하지 말라고 하는 대사를 반영합니다."
+      },
+      {
+        "id": 27517,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "명소라는 제한은 원문에 없고 현재 표현도 이해 가능합니다."
+      },
+      {
+        "id": 27523,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 이중적인 배신도 원문에 부합하며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 27529,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 썩은 가족도 원문의 부정적인 표현에 부합합니다."
+      },
+      {
+        "id": 27545,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 의미가 통하며 제안이 뚜렷한 개선은 아닙니다."
+      },
+      {
+        "id": 27550,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 본 것을 없던 일로 하고 싶다는 뜻을 전달합니다."
+      },
+      {
+        "id": 27562,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "이미 속 빈 껍데기가 되었다는 원문의 의미가 약해집니다."
+      },
+      {
+        "id": 27573,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 자연스럽고 종결 어미 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 27577,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "상처 입은 마음이라는 해석은 원문의 표현보다 구체적입니다."
+      },
+      {
+        "id": 27578,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "How's for a quick fate-read?",
+        "reason": "운세를 봐 주겠다는 제안을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 27597,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "なんと圧倒的な力だ",
+        "reason": "어색한 순수한 힘을 원문에 맞게 다듬습니다."
+      },
+      {
+        "id": 27616,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ハイペリアンとサイファーを使うんだ",
+        "reason": "도구를 이용한다는 답변과 별도의 설명을 구분합니다."
+      },
+      {
+        "id": 27644,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "砂ぼこりだらけ",
+        "reason": "공중의 모래를 자연스러운 모래 먼지로 표현합니다."
+      },
+      {
+        "id": 27683,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재도 원문의 두려움과 겁의 관계를 전달합니다."
+      },
+      {
+        "id": 27708,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "호칭 위치의 차이일 뿐 현재도 이해 가능합니다."
+      },
+      {
+        "id": 27728,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Pity, I was roiling over what the outcome might be.",
+        "reason": "원문에 없는 걱정할 필요가 없다는 문장을 제거합니다."
+      },
+      {
+        "id": 27740,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "악당을 맞섰네",
+        "reason": "맞서다의 어색한 목적어 조사를 바로잡습니다."
+      },
+      {
+        "id": 27758,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "軽率な発言だった",
+        "reason": "성급한 발언이었다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 27782,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you weren't the same woman you were when you died",
+        "reason": "어색한 직역을 자연스럽게 바꾸면서 뜻을 유지합니다."
+      },
+      {
+        "id": 27801,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 의미가 통하며 명확한 오류는 아닙니다."
+      },
+      {
+        "id": 27811,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I am no freer than I was",
+        "reason": "전보다 자유롭지 않다는 비교를 더 자유로워지지 않았다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 27815,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재도 시녀가 배신자라는 뜻으로 읽히며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 27838,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "インドレの妹",
+        "reason": "일본어에 명시된 여동생 관계를 반영합니다."
+      },
+      {
+        "id": 27909,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안도 발걸음의 무게라는 중복을 유지해 뚜렷한 개선이 아닙니다."
+      },
+      {
+        "id": 27913,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it will be the last thing your mortal flesh shall ever feel",
+        "reason": "육신이 마지막으로 느낄 대상이 그 힘임을 분명히 합니다."
+      },
+      {
+        "id": 27918,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "린(Reen)이 책임이 있어",
+        "reason": "책임이 있는 사람을 나타내는 조사를 자연스럽게 고칩니다."
+      },
+      {
+        "id": 27967,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 질문도 자연스럽고 뜻이 같습니다."
+      },
+      {
+        "id": 27969,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "burn the Library candles to nubs",
+        "reason": "닳는 대상인 양초를 명시해 어색한 표현을 고칩니다."
+      },
+      {
+        "id": 27975,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 약속도 원문에 부합하며 교체가 필수적이지 않습니다."
+      },
+      {
+        "id": 27993,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it is valued for its deeds and not its boasts",
+        "reason": "가치 자체가 평가받는다는 어색한 문장을 바로잡습니다."
+      },
+      {
+        "id": 28005,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일부 상대와 거래했다는 원문의 한정이 제안에서 사라집니다."
+      },
+      {
+        "id": 28020,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 의미가 명확하며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 28025,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "can't resist the smell of fish",
+        "reason": "냄새를 싫어한다는 뜻이 아니라 유혹을 못 이긴다는 뜻을 반영합니다."
+      },
+      {
+        "id": 28026,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재도 실제 감정을 묻는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 28027,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "前へ進むべきだ",
+        "reason": "나아가는 것을 그만두라는 오해를 없앱니다."
+      },
+      {
+        "id": 28076,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재도 허크에 대한 설명으로 읽히며 제안이 필수적이지 않습니다."
+      },
+      {
+        "id": 28088,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 여러 계절에 걸친 일도 원문과 양립합니다."
+      },
+      {
+        "id": 28089,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "With all your comings and goings",
+        "reason": "잦은 왕래 때문에 잊었을까 생각했다는 관계를 자연스럽게 전달합니다."
+      },
+      {
+        "id": 28110,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the wife of a miller-turned-soldier",
+        "reason": "남편의 아내라는 어색한 중복을 없앱니다."
+      },
+      {
+        "id": 28111,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Does that ever end poorly?",
+        "reason": "잘되는 경우를 묻는 반대 의미를 바로잡습니다."
+      },
+      {
+        "id": 28117,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 가까이 간직하라는 표현도 원문에 부합합니다."
+      },
+      {
+        "id": 28118,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as we investigate recent events",
+        "reason": "사건을 조사하는 주체가 우리임을 명확히 합니다."
+      },
+      {
+        "id": 28130,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재도 진행이 느려진다는 뜻을 전달하며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 28136,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "she must be such a strong source of magic",
+        "reason": "강력한 마력의 원천이 힘이 아니라 그녀임을 바로잡습니다."
+      },
+      {
+        "id": 28148,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "so many others be saved",
+        "reason": "그만큼이라는 불명확한 비교를 없애고 다른 많은 사람을 명시합니다."
+      },
+      {
+        "id": 28166,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "for reassurances that there would be few questions",
+        "reason": "캐묻는 사람이 적을 것이라는 보장을 받는 데 돈이 들었다는 뜻을 반영합니다."
+      },
+      {
+        "id": 28171,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "うちの人",
+        "reason": "애칭을 동물인 오리로 직역한 문제를 고칩니다."
+      },
+      {
+        "id": 28178,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "From what I've seen of the Testament",
+        "reason": "전해 들은 것이 아니라 직접 본 바를 근거로 삼습니다."
+      },
+      {
+        "id": 28182,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 깨어난 악에서 살아남았다는 뜻을 전달합니다."
+      },
+      {
+        "id": 28215,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'll just take one of the potions",
+        "reason": "물약을 가져가는 주체가 화자임을 명확히 합니다."
+      },
+      {
+        "id": 28241,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "at your service",
+        "reason": "손님을 모시겠다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 28262,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "戦火から離れて再建できる",
+        "reason": "전쟁이 끝났다는 뜻을 전쟁에서 멀리 떨어졌다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 28269,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Did you come to fight in the ranks, Warsworn?",
+        "reason": "워스원이 대열의 명칭이 아니라 상대를 부르는 호칭임을 반영합니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

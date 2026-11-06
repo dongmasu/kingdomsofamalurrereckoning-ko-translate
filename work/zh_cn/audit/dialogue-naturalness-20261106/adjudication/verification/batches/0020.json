@@ -1,0 +1,451 @@
+{
+  "fingerprint": "171ff611493eb4fe575679ec6bac99fb5e56614d6561378768feba5c7b674ee8",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 19848,
+  "last_id": 20942,
+  "row_count": 60,
+  "seconds": 35.66,
+  "usage": {
+    "completion_tokens": 2874,
+    "prompt_tokens": 12802,
+    "total_tokens": 15676,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 15,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 12799,
+      "cache_creation_tokens": 12799
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 19848,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 뜻이 모호하고 일본어는 시간 부족을 말하므로 제안의 의미가 확실하지 않습니다."
+      },
+      {
+        "id": 19875,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "raised to live the way my people have for centuries‒by wit and wiles",
+        "reason": "어색한 표현을 자연스럽게 고치면서 원문의 뜻을 유지합니다."
+      },
+      {
+        "id": 19891,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 뜻을 전달하며 제안이 필요한 수정인지는 불확실합니다."
+      },
+      {
+        "id": 19902,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 열린 상태로 해석되지만 일본어는 조건문이므로 시점 변경이 불확실합니다."
+      },
+      {
+        "id": 19904,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 종결 표현도 자연스러워 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 19909,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Do not count yourself among them",
+        "reason": "적들과 한패가 되지 말라는 경고를 더 자연스럽게 전달합니다."
+      },
+      {
+        "id": 19915,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I live my life as an example of Mitharu's wishes for our kind",
+        "reason": "뜻을 본보기로 삼는다는 어색한 표현을 바로잡습니다."
+      },
+      {
+        "id": 19918,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 원문의 비난을 전달합니다."
+      },
+      {
+        "id": 19919,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Driven mad by her love for King Wencen",
+        "reason": "사랑 때문에 제정신을 잃었다는 원문의 내용을 복원합니다."
+      },
+      {
+        "id": 19924,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장에서도 지불자가 챔피언임을 문맥으로 알 수 있습니다."
+      },
+      {
+        "id": 19963,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Horror awaits the fools who fell,\nAnd languish behind Arcane Veil",
+        "reason": "몰락한 자들이 장막 너머에서 쇠약해진다는 관계를 더 분명히 합니다."
+      },
+      {
+        "id": 19966,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Anything you can do for me?",
+        "reason": "도움을 주는 사람과 받는 사람이 뒤바뀐 오류를 고칩니다."
+      },
+      {
+        "id": 20006,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 20007,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ツアサの魔術のせいに違いない！",
+        "reason": "어색한 '마술 짓'을 자연스러운 원인 표현으로 고칩니다."
+      },
+      {
+        "id": 20028,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "개미의 왕에 어울린다는 비유를 개미의 왕과 같다는 단정으로 바꿉니다."
+      },
+      {
+        "id": 20053,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 생략 표현도 문맥상 자연스럽고 의미가 분명합니다."
+      },
+      {
+        "id": 20102,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 둘째 문장은 주어 연결이 어색해 명확한 개선이라고 보기 어렵습니다."
+      },
+      {
+        "id": 20107,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I should have known",
+        "reason": "이미 알았어야 했다는 후회를 반영합니다."
+      },
+      {
+        "id": 20113,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Grian Shane won't like this, but he'll have to hear of it all the same.",
+        "reason": "반복되는 인물 이름을 생략해 자연스럽게 다듬습니다."
+      },
+      {
+        "id": 20130,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스러우며 '다루지 않아'를 '의존하지 않아'로 바꿀 필요가 불확실합니다."
+      },
+      {
+        "id": 20132,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What must I do again?",
+        "reason": "재차 확인하는 질문을 더 자연스럽게 표현합니다."
+      },
+      {
+        "id": 20136,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "they... we...",
+        "reason": "화자가 삼인칭에서 우리로 말을 고치는 부분을 복원합니다."
+      },
+      {
+        "id": 20205,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as a reward, and to help me forget",
+        "reason": "망각이 선물을 주는 목적이라는 원문의 관계를 바로잡습니다."
+      },
+      {
+        "id": 20206,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'나와 야영지를 떠났다'를 '나를 버렸다'로 단정하면 원문보다 강해질 수 있습니다."
+      },
+      {
+        "id": 20255,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "train it for you",
+        "reason": "길들이는 대상과 그 혜택을 받는 사람을 명확히 구분합니다."
+      },
+      {
+        "id": 20283,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "As it happens",
+        "reason": "문맥상 어색한 '우연이지만'을 자연스러운 연결 표현으로 고칩니다."
+      },
+      {
+        "id": 20299,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 의미가 분명해 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 20306,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "금화를 맡겼다는 기존 표현도 문맥상 가능하며 제안이 명백한 수정은 아닙니다."
+      },
+      {
+        "id": 20307,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "적대감이 어느 쪽에서 시작됐는지 원문의 표현만으로 확정하기 어렵습니다."
+      },
+      {
+        "id": 20350,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 죽음을 자연스럽게 완곡하게 전달합니다."
+      },
+      {
+        "id": 20384,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'세 분량'도 부자연스러워 명확한 개선이 아닙니다."
+      },
+      {
+        "id": 20388,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I never would have laid hands on it ‒ if not for you",
+        "reason": "손에 넣지 못했을 것이라는 내용을 생각조차 못 했다는 뜻으로 바꾼 오류를 고칩니다."
+      },
+      {
+        "id": 20400,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 굶주림으로 절박한 사람이라는 뜻을 전달합니다."
+      },
+      {
+        "id": 20404,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Partners. Fifty. Fifty.",
+        "reason": "어색한 호칭처럼 보이는 부분을 동업 제안으로 자연스럽게 고칩니다."
+      },
+      {
+        "id": 20408,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Tell you what...",
+        "reason": "놀람이나 곤란함을 나타내는 '이런'을 제안에 맞는 표현으로 고칩니다."
+      },
+      {
+        "id": 20421,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 모든 것에 자격이 없다는 원문의 범위를 말하는 행위로 축소합니다."
+      },
+      {
+        "id": 20424,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 특정 점프들을 가리키는 원문에 부합합니다."
+      },
+      {
+        "id": 20429,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You're the only proof of what we've achieved here.",
+        "reason": "네가 유일한 증거라는 뜻을 증명할 수 있는 사람이라는 뜻과 구분합니다."
+      },
+      {
+        "id": 20439,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Understand.",
+        "reason": "상대에게 이해를 당부하는 말을 동의 표현으로 옮긴 오류를 고칩니다."
+      },
+      {
+        "id": 20494,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 거래 인사로 자연스럽고 의미가 맞습니다."
+      },
+      {
+        "id": 20527,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "With friendly neighbors",
+        "reason": "공물을 바치는 상대를 표시하면서 나머지 행위도 자연스럽게 연결합니다."
+      },
+      {
+        "id": 20562,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Cydan's band of merciless Fae with lifetimes of training",
+        "reason": "훈련받고 싸우는 주체가 사이단이 아니라 페이 무리임을 분명히 합니다."
+      },
+      {
+        "id": 20586,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Few of us had even spoken to each other",
+        "reason": "서로 말해 본 사람이 거의 없었다는 원문의 수량을 복원합니다."
+      },
+      {
+        "id": 20629,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the countryside of marbled ruin",
+        "reason": "대리석 폐허와 전원의 관계를 자연스럽게 표현합니다."
+      },
+      {
+        "id": 20687,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彼女がドレンの力に免疫を持っていたことは？",
+        "reason": "면역 여부를 묻는 대신 그 사실도 알고 있었는지 묻는 원문을 반영합니다."
+      },
+      {
+        "id": 20739,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "given you what you need in exchange for your... fetching abilities",
+        "reason": "재주의 대가로 필요한 물건을 건넨다는 관계를 분명히 합니다."
+      },
+      {
+        "id": 20781,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 '성과'도 원문의 결과를 나타낼 수 있어 필수 수정은 아닙니다."
+      },
+      {
+        "id": 20783,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장에서도 포모러스가 밝힌 내용임을 이해할 수 있습니다."
+      },
+      {
+        "id": 20792,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 전선 군함도 군용 선박을 나타내므로 명확한 오류라고 보기 어렵습니다."
+      },
+      {
+        "id": 20821,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "連祷書の祭壇の件で手を貸してくれるかね？",
+        "reason": "제단 자체를 돕는다는 어색한 표현을 관련 업무를 돕는 뜻으로 고칩니다."
+      },
+      {
+        "id": 20869,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "농장의 남은 부분이라는 원문이 반드시 잔해를 뜻하는 것은 아닙니다."
+      },
+      {
+        "id": 20876,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 염주와 조각을 다듬는 수행을 신앙의 중심으로 제시합니다."
+      },
+      {
+        "id": 20888,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I feel like a child next to them.",
+        "reason": "사람에게 주로 쓰는 '그들'을 구조물에 맞는 지시 표현으로 고칩니다."
+      },
+      {
+        "id": 20900,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it's a home well enough",
+        "reason": "어색한 '살기엔 충분히 고향 같아'를 자연스럽게 다듬습니다."
+      },
+      {
+        "id": 20906,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "目覚めぬ熊に口はなし",
+        "reason": "잠든 곰이 알려 줄 수 없었다는 의미와 사라진 바지의 표현을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 20913,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 개선은 반드시 개축만을 뜻하지 않아 제안이 의미를 좁힐 수 있습니다."
+      },
+      {
+        "id": 20920,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 '같은 신앙으로 이끌린'도 원문의 뜻을 전달합니다."
+      },
+      {
+        "id": 20930,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 검투사들이 결국 쓰러진다는 원문의 불가피성을 생략합니다."
+      },
+      {
+        "id": 20941,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 수수께끼를 끝낸다는 뜻을 전달하며 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 20942,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 '최신 발견을 읽고 나면'도 자연스럽게 이해됩니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "fingerprint": "e53d6825549baffd279247b5c73e6531ca977502ba5303dd05a703e1a9387ab9",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 48485,
+  "last_id": 49566,
+  "row_count": 60,
+  "seconds": 35.67,
+  "usage": {
+    "completion_tokens": 2934,
+    "prompt_tokens": 15019,
+    "total_tokens": 17953,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 15016,
+      "cache_creation_tokens": 15016
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 48485,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "愚かな噂",
+        "reason": "소문을 ‘경솔한’ 것보다 ‘어리석은’ 것으로 묘사한 원문에 맞다."
+      },
+      {
+        "id": 48503,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "正当な手段で手に入れた武器",
+        "reason": "무기 자체가 아니라 정당하게 얻은 무기라는 뜻을 명확히 한다."
+      },
+      {
+        "id": 48564,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "She doesn't think we're aware of her presence",
+        "reason": "원문의 인지 대상이 그녀의 존재임을 바로잡는다."
+      },
+      {
+        "id": 48565,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "この茶番",
+        "reason": "‘참극’을 원문의 촌극에 맞게 고치고 뒷문장도 자연스럽게 한다."
+      },
+      {
+        "id": 48577,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You have only delayed our doom.",
+        "reason": "파멸을 늦춘 주체를 원문대로 바로잡는다."
+      },
+      {
+        "id": 48583,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "His rampant self-satisfaction?",
+        "reason": "자아도취보다 원문의 지나친 자기만족에 가깝다."
+      },
+      {
+        "id": 48589,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 고문받아 죽었다고 명시하지만 영어는 모두가 그렇게 죽었다고 단정하기 어려워 변경이 불확실하다."
+      },
+      {
+        "id": 48605,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "永遠の愛を込めて願った",
+        "reason": "부자연스러운 ‘끝없는 마음’을 원문에 맞는 사랑의 표현으로 고친다."
+      },
+      {
+        "id": 48612,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We are three who Gadflow gathered here.",
+        "reason": "세 사람을 가리키는 문장을 자연스럽게 고친다."
+      },
+      {
+        "id": 48659,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ビーチストーンを2塊",
+        "reason": "돌의 단위로 어색한 ‘다발’을 ‘묶음’으로 고친다."
+      },
+      {
+        "id": 48682,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안문은 호격과 감탄사를 중복해 오히려 어색하다."
+      },
+      {
+        "id": 48700,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "finding her alive",
+        "reason": "살아서 찾을 대상이 그녀임을 명확히 한다."
+      },
+      {
+        "id": 48757,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안문의 ‘난 여기 있군’은 원문을 직역했으나 한국어 대사로 부자연스럽다."
+      },
+      {
+        "id": 48794,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 영어의 자기 임무를 수행하러 떠났다는 뜻을 충분히 전달한다."
+      },
+      {
+        "id": 48796,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 자연스럽고 원문의 불안감을 전달한다."
+      },
+      {
+        "id": 48810,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "with Maire back at the helm",
+        "reason": "메어가 이미 돌아와 지휘하고 있다는 원문의 상황에 맞춘다."
+      },
+      {
+        "id": 48811,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Stay dead, Kel.",
+        "reason": "죽은 상태로 남으라는 대사를 한국어에서 자연스럽게 표현한다."
+      },
+      {
+        "id": 48832,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ヘッズマンを見つけた",
+        "reason": "사람에게 ‘도착했다’는 어색한 표현을 고친다."
+      },
+      {
+        "id": 48838,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘질서’가 조직의 고유 명칭일 수 있어 일반적인 ‘그 조직’으로 바꿀 근거가 부족하다."
+      },
+      {
+        "id": 48873,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "but I'll act like it's a collection of my best inventory",
+        "reason": "대체를 뜻하는 ‘대신’보다 대조를 나타내는 접속이 원문에 맞다."
+      },
+      {
+        "id": 48901,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Then I don't know you.",
+        "reason": "같은 뜻을 더 자연스러운 대사로 전달한다."
+      },
+      {
+        "id": 48958,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "keep this mine producing",
+        "reason": "광산이 계속 생산하도록 관리한다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 48974,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 이해 가능하며 영어의 ‘days’가 반드시 날씨만을 뜻하는 것은 아니다."
+      },
+      {
+        "id": 49004,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "How long have we left Anokatos to his task?",
+        "reason": "앞으로 얼마나 기다릴지가 아니라 맡겨 둔 지 얼마나 지났는지 묻는 원문에 맞춘다."
+      },
+      {
+        "id": 49028,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "私のところで働く前のことは何も知らない",
+        "reason": "상대가 일하기 전의 사정을 몰랐다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 49031,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "それで十分理解できるでしょうよ",
+        "reason": "직역투인 ‘그게 네 공부가 될 거야’를 자연스럽게 고친다."
+      },
+      {
+        "id": 49041,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "面倒を起こさないように",
+        "reason": "상대에게 소란을 일으키지 말라는 맥락을 자연스럽게 전달한다."
+      },
+      {
+        "id": 49058,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "세 자루의 검(Three Swords)가",
+        "reason": "받침에 맞지 않는 조사를 바로잡는다."
+      },
+      {
+        "id": 49067,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 인사말도 원문에 부합해 교체가 필수적이지 않다."
+      },
+      {
+        "id": 49084,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "깊은 바닷속에 숨을 거두었다",
+        "reason": "장소를 나타내는 조사를 자연스럽게 고친다."
+      },
+      {
+        "id": 49085,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 케이프 솔라스에 있는 우리라는 뜻을 전달하며 거주 여부를 추가할 필요는 없다."
+      },
+      {
+        "id": 49112,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "My father was proprietor before me, and his father before him.",
+        "reason": "현재 소유자가 화자라는 원문 정보를 복원한다."
+      },
+      {
+        "id": 49168,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 제어되지 않는 생각이라는 뜻을 전달하므로 변경이 필수적이지 않다."
+      },
+      {
+        "id": 49173,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "under the kind eyes of our Lyria",
+        "reason": "‘따스한 눈 아래’라는 어색한 직역을 자연스럽게 고친다."
+      },
+      {
+        "id": 49176,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Give yourself a fighting chance.",
+        "reason": "싸울 승산을 확보하라는 관용적 의미를 자연스럽게 전달한다."
+      },
+      {
+        "id": 49179,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Could I perhaps convince you to debate one of my prodigies?",
+        "reason": "직역투의 제안을 자연스러운 권유로 고친다."
+      },
+      {
+        "id": 49188,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "masked her against the moonlit plains",
+        "reason": "평원을 배경으로 그녀의 모습을 가렸다는 의미를 복원한다."
+      },
+      {
+        "id": 49190,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "often a bitter drink even in the smallest doses",
+        "reason": "소량도 쓰다는 비유의 어색한 문장을 자연스럽게 고친다."
+      },
+      {
+        "id": 49203,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "私の炉を好きに使いなよ",
+        "reason": "대장간을 자유롭게 사용하라는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 49212,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘fortitude’는 정신적 끈기와 견디는 힘 모두 가능해 제안이 명백히 우월하지 않다."
+      },
+      {
+        "id": 49225,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "‘스케이스의 서(Codex Scaith)’이라는",
+        "reason": "받침 없는 책 제목 뒤의 조사를 바로잡는다."
+      },
+      {
+        "id": 49266,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Funny you should ask.",
+        "reason": "질문 자체가 재미있다는 오해를 줄이고 맥락에 맞는 반응으로 고친다."
+      },
+      {
+        "id": 49313,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "taking me back among the brothers",
+        "reason": "수사들 사이로 받아 준다는 어색한 표현을 공동체 복귀의 뜻으로 명확히 한다."
+      },
+      {
+        "id": 49325,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 야생성과 강인함을 전달한다."
+      },
+      {
+        "id": 49349,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "珍しき者よ",
+        "reason": "호기심을 가진 자가 아니라 신기한 존재를 부르는 원문의 뜻에 맞춘다."
+      },
+      {
+        "id": 49351,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문은 모임에 쓸 꽃이라고만 하므로 장식 용도를 추가할 근거가 부족하다."
+      },
+      {
+        "id": 49354,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "요새로 최대한 서두르는 중이오",
+        "reason": "‘요새로 서두르다’라는 어색한 결합을 자연스럽게 고친다."
+      },
+      {
+        "id": 49362,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "シーの北側へ",
+        "reason": "북쪽 시드가 아닌 시드의 북쪽이라는 위치를 명확히 한다."
+      },
+      {
+        "id": 49375,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 뜻이 통하며 제안은 ‘이제’를 반복해 뚜렷한 개선이 아니다."
+      },
+      {
+        "id": 49385,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "This circle of Windstones hums with energy.",
+        "reason": "기운 때문에 고리가 윙윙거린다는 원문의 구문을 자연스럽게 전달한다."
+      },
+      {
+        "id": 49411,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "To... fight you.",
+        "reason": "상대를 싸우게 하는 것이 아니라 상대와 싸우려는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 49417,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You may be a hero, but this is a private keep",
+        "reason": "영웅인 대상이 청자임을 명확히 해 어색한 문장을 고친다."
+      },
+      {
+        "id": 49419,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 원문의 과분할 만큼 참을성 있게 대해 줬다는 뜻을 정확히 전달한다."
+      },
+      {
+        "id": 49434,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "would she wish the healers to let him die",
+        "reason": "바라는 주체가 그녀이고 행동 주체가 치료사들임을 명확히 한다."
+      },
+      {
+        "id": 49448,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Professor Hugues",
+        "reason": "원문에 없는 이름 ‘푸모러스’를 삭제한다."
+      },
+      {
+        "id": 49470,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "being locked inside this city like a penned animal",
+        "reason": "‘우리를 우리에’라는 어색한 반복을 없애고 갇힌 상황을 자연스럽게 표현한다."
+      },
+      {
+        "id": 49523,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 화자와 야수들이 있는 곳에 합류하라는 뜻을 전달한다."
+      },
+      {
+        "id": 49528,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Simple enchantments on gloves like these",
+        "reason": "현재 문장에 빠진 장갑 정보를 복원한다."
+      },
+      {
+        "id": 49558,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "join you there shortly",
+        "reason": "합류 장소에 어울리는 조사로 고쳐 자연스럽게 한다."
+      },
+      {
+        "id": 49566,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "돈 벌 방법이 더 나은 것도 많을 텐데",
+        "reason": "어색한 어순을 자연스럽게 고친다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

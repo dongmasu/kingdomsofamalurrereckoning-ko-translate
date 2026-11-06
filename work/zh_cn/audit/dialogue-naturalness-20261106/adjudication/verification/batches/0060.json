@@ -1,0 +1,451 @@
+{
+  "fingerprint": "b6acfb9e7274596c5ff6104c16ba4ecd7537827f645579765ca4b323660e040c",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 58249,
+  "last_id": 59164,
+  "row_count": 60,
+  "seconds": 33.27,
+  "usage": {
+    "completion_tokens": 2771,
+    "prompt_tokens": 12786,
+    "total_tokens": 15557,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 12783,
+      "cache_creation_tokens": 12783
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 58249,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 자연스럽고 원문에 충실합니다."
+      },
+      {
+        "id": 58252,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "最も強く利口な種",
+        "reason": "빛깔이 아닌 지능을 뜻하는 일본어를 반영합니다."
+      },
+      {
+        "id": 58255,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "will need some funding from you",
+        "reason": "자금 제공자와 고용 주체를 명확히 합니다."
+      },
+      {
+        "id": 58259,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "こんにちは",
+        "reason": "어색한 인사말을 자연스럽게 바로잡습니다."
+      },
+      {
+        "id": 58289,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it won't be cheap",
+        "reason": "공짜가 아니라는 뜻보다 비싸다는 원문을 정확히 반영합니다."
+      },
+      {
+        "id": 58298,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sheep-stabbing",
+        "reason": "어색한 명사 연결을 양을 찌르는 행위로 바로잡습니다."
+      },
+      {
+        "id": 58313,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We're performers at heart in Moon Camp",
+        "reason": "중복된 주제 표현을 자연스럽게 정리합니다."
+      },
+      {
+        "id": 58316,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You had to try",
+        "reason": "시도할 수밖에 없었다는 의미를 복원합니다."
+      },
+      {
+        "id": 58319,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "昔に比べ、私たちは遙かに弱くなった",
+        "reason": "힘이 약해졌다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 58325,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "fallen under Gadflow's sway",
+        "reason": "부자연스러운 지배 아래 떨어졌다는 표현을 바로잡습니다."
+      },
+      {
+        "id": 58341,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 떨어져 지내기 힘들다는 원문을 전달합니다."
+      },
+      {
+        "id": 58344,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it will sing my dying song",
+        "reason": "노래를 부르는 주체가 골짜기임을 복원합니다."
+      },
+      {
+        "id": 58345,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it comes at the cost of sympathy",
+        "reason": "연민을 잃는 대가가 장소가 아닌 깨달음에 연결됩니다."
+      },
+      {
+        "id": 58348,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 도움을 약속하는 원문에 부합합니다."
+      },
+      {
+        "id": 58356,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현의 소유 관계가 원문과 맞으며 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 58375,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Don't let his nature repel you",
+        "reason": "휘둘리지 말라는 뜻을 반감을 갖지 말라는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 58412,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "now that they've fallen silent",
+        "reason": "어색한 시간 연결을 자연스럽게 바로잡습니다."
+      },
+      {
+        "id": 58419,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "どちらかの悪を",
+        "reason": "선택 대상이 두 악 중 하나임을 명확히 합니다."
+      },
+      {
+        "id": 58422,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "상류 도시도 원문의 upper city를 전달하므로 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 58423,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 죽음을 명시하지만 영어의 gone은 더 모호합니다."
+      },
+      {
+        "id": 58429,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'll meet you there once I've gathered my supplies",
+        "reason": "보급품을 모으고 만나는 주체가 화자임을 복원합니다."
+      },
+      {
+        "id": 58464,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I was made to work",
+        "reason": "강제로 일하게 되었다는 의미를 명시합니다."
+      },
+      {
+        "id": 58473,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "one of the most terrifying experiences I've ever had",
+        "reason": "중복된 경험 표현을 자연스럽게 정리합니다."
+      },
+      {
+        "id": 58491,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 상대가 사는지 묻는 뜻으로 문맥상 가능합니다."
+      },
+      {
+        "id": 58494,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어와 달리 영어는 술을 준비하라는 말로도 읽혀 확정하기 어렵습니다."
+      },
+      {
+        "id": 58495,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "With every action, he reveals that he is merely toying with us",
+        "reason": "어색한 서술을 원문의 뜻에 맞게 자연스럽게 고칩니다."
+      },
+      {
+        "id": 58515,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘붉음’이 고유한 명칭인지 불확실하여 해당 변경을 확정하기 어렵습니다."
+      },
+      {
+        "id": 58558,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "much better off in Shieldring than I'm treated here",
+        "reason": "실드링의 상대와 여기 있는 화자의 대우를 명확히 비교합니다."
+      },
+      {
+        "id": 58563,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "If you can best a dancer",
+        "reason": "겨루는 것만이 아니라 이겨야 한다는 조건을 복원합니다."
+      },
+      {
+        "id": 58582,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 직업과 여행자라는 신분을 전달합니다."
+      },
+      {
+        "id": 58586,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "get around the debris in the courtyard by fighting through the dungeons",
+        "reason": "안뜰의 잔해를 우회한다는 관계를 바로잡습니다."
+      },
+      {
+        "id": 58614,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 단수지만 일본어는 집단을 가리켜 수를 확정하기 어렵습니다."
+      },
+      {
+        "id": 58615,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "whose eyes guide us ‒ a gift upon which we've come to rely",
+        "reason": "의지하는 선물이 손재주가 아니라 대사제의 눈임을 분명히 합니다."
+      },
+      {
+        "id": 58617,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "관용적 의미의 해석은 가능하지만 원문의 비유를 제거합니다."
+      },
+      {
+        "id": 58623,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "武器もいらない",
+        "reason": "무기를 쓰지 않는다는 뜻을 필요 없다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 58684,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ライバルの様子を見に来た",
+        "reason": "경기 관람이 아니라 경쟁 상대를 살피는 의미를 복원합니다."
+      },
+      {
+        "id": 58722,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ツアサ・デオーンの名",
+        "reason": "이름이 유래했다는 관계를 명확하게 표현합니다."
+      },
+      {
+        "id": 58737,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as my blessing",
+        "reason": "혼재된 말투를 통일하고 축복의 의미를 자연스럽게 표현합니다."
+      },
+      {
+        "id": 58771,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 다른 곳으로 간다는 서술을 명령으로 바꿀 수 있습니다."
+      },
+      {
+        "id": 58789,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the wood of the Sorrows Tree",
+        "reason": "나무에서 자란 목재라는 어색한 표현을 바로잡습니다."
+      },
+      {
+        "id": 58798,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "they will be killed",
+        "reason": "단순히 죽는 것이 아니라 살해당한다는 뜻을 복원합니다."
+      },
+      {
+        "id": 58836,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "トラベラーズの言葉が信じられればだけど",
+        "reason": "트래블러의 약속을 믿을 수 있는지에 대한 뉘앙스를 살립니다."
+      },
+      {
+        "id": 58842,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Mel Aglir survives too in our shade",
+        "reason": "현재 살아남아 있다는 상태와 자연스러운 사동 표현을 반영합니다."
+      },
+      {
+        "id": 58864,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 시험의 난관에 대비한다는 원문에 부합합니다."
+      },
+      {
+        "id": 58868,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "화자의 직업 소개인지 주변 땜장이를 가리키는지 불확실합니다."
+      },
+      {
+        "id": 58874,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Do what you must so we can leave this place",
+        "reason": "어색한 문장 구조를 자연스럽게 바로잡습니다."
+      },
+      {
+        "id": 58919,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "살과 피를 가진 사람들이라는 현재 표현도 원문에 충실합니다."
+      },
+      {
+        "id": 58929,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the false corpse\nOf sordid history exhumed to please",
+        "reason": "가짜 시체가 치욕스러운 역사에 연결되는 구조를 복원합니다."
+      },
+      {
+        "id": 58935,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as world trees have ever been since the dawn of time",
+        "reason": "세계수와 같은 존재라는 뜻보다 세계수들의 존재 방식을 따릅니다."
+      },
+      {
+        "id": 58971,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "owner, innkeep, and namesake",
+        "reason": "이름을 빌려줬다는 어색한 표현을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 58973,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 ‘단순히’는 교육을 낮춰 보는 뉘앙스를 덧붙일 수 있습니다."
+      },
+      {
+        "id": 58998,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Ask what you have come to ask",
+        "reason": "핀잔처럼 들리는 표현을 질문하러 온 내용을 묻는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 59036,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘한 푼 한 푼’도 모든 돈을 받을 자격이 있다는 뜻입니다."
+      },
+      {
+        "id": 59038,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "語るに値しない",
+        "reason": "그들과 대화할 가치가 아니라 그들에 관해 말할 가치가 없다는 뜻입니다."
+      },
+      {
+        "id": 59051,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I should not have expected anything less",
+        "reason": "더 바랄 것이 없다는 뜻을 당연히 기대했어야 한다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 59063,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ワインを飲んで女の夢を見ていた",
+        "reason": "포도주에 취하고 여인의 꿈을 꾸었다는 구분을 복원합니다."
+      },
+      {
+        "id": 59088,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the gnomes have that book so well hidden",
+        "reason": "책을 숨긴 주체가 노움임을 명시합니다."
+      },
+      {
+        "id": 59140,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "力をむさぼる木",
+        "reason": "숲이 아닌 나무를 가리킨다는 점을 바로잡습니다."
+      },
+      {
+        "id": 59143,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "첫 구절의 방향 해석이 문맥 없이 확정되지 않습니다."
+      },
+      {
+        "id": 59164,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "敵対的な勢力には、宣戦布告",
+        "reason": "선전포고의 대상을 나타내는 조사를 바로잡습니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "fingerprint": "d29ea1ab3e7f3bb5ca72a5b0a11e514c4023fa62c8c8376daac41274ba70aa7b",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 53184,
+  "last_id": 54081,
+  "row_count": 60,
+  "seconds": 34.36,
+  "usage": {
+    "completion_tokens": 2838,
+    "prompt_tokens": 11552,
+    "total_tokens": 14390,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11549,
+      "cache_creation_tokens": 11549
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 53184,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "an ale or three",
+        "reason": "직역투를 자연스러운 농담조로 고친다."
+      },
+      {
+        "id": 53197,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Then you will fit in well, for",
+        "reason": "어색한 연결을 풀어 원문의 인과관계를 살린다."
+      },
+      {
+        "id": 53203,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 의미가 분명하다."
+      },
+      {
+        "id": 53210,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "carved of stone",
+        "reason": "돌에 글을 새긴 것이 아니라 돌을 깎아 만든 뜻을 살린다."
+      },
+      {
+        "id": 53236,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I find survivors too.",
+        "reason": "일회성 발견을 반복적인 발견으로 바로잡는다."
+      },
+      {
+        "id": 53242,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what happens here",
+        "reason": "과거 사건으로 한정하지 않고 현재 벌어지는 일을 가리킨다."
+      },
+      {
+        "id": 53258,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You won't hurt anyone.",
+        "reason": "상대가 해치는 것을 막겠다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 53267,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "나로스의 이빨(Teeth of Naros)를",
+        "reason": "조사를 앞선 한글 명칭에 맞게 고친다."
+      },
+      {
+        "id": 53295,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "When you really need help they scram.",
+        "reason": "도움이 필요한 때 달아난다는 원문의 뜻을 명확히 한다."
+      },
+      {
+        "id": 53360,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Better you than me",
+        "reason": "화자가 못 했을 것이라는 근거 없는 뜻을 없앤다."
+      },
+      {
+        "id": 53382,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘기승을 부렸고’가 원문의 격렬함을 더 잘 살린다."
+      },
+      {
+        "id": 53420,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Did not see you there, stranger.",
+        "reason": "낯선 이가 온 사실이 아니라 그곳에 있는 것을 못 봤다는 뜻을 살린다."
+      },
+      {
+        "id": 53425,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "うぬぼれ",
+        "reason": "비판적 맥락의 자만을 더 정확히 드러낸다."
+      },
+      {
+        "id": 53431,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 의미가 명확하며 수정은 필수적이지 않다."
+      },
+      {
+        "id": 53477,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the gnome who wanted them will pay you, not me",
+        "reason": "돈을 주는 대상이 아니라 받는 대상이라는 뜻을 바로잡는다."
+      },
+      {
+        "id": 53508,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I know better than to go out there alone",
+        "reason": "이제야 알았다는 뜻 대신 혼자 나가지 않을 판단을 살린다."
+      },
+      {
+        "id": 53514,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Though few of your kind do",
+        "reason": "무엇을 하는 이가 드문지 명확히 한다."
+      },
+      {
+        "id": 53528,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I told Octienne he couldn't be trusted",
+        "reason": "옥티엔에게 다른 사람을 믿을 수 없다고 말한 뜻을 복원한다."
+      },
+      {
+        "id": 53532,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장에서도 생존 주체가 문맥상 생략되어 있어 수정이 필수적이지 않다."
+      },
+      {
+        "id": 53553,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "年老い",
+        "reason": "인물에 어색하게 쓰인 ‘오래되고’를 나이에 관한 표현으로 고친다."
+      },
+      {
+        "id": 53555,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "without his knowledge",
+        "reason": "그의 뜻을 몰랐다는 해석을 그가 모르게 했다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 53563,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "hearts born black with fury",
+        "reason": "어색한 신체 묘사를 자연스럽게 연결한다."
+      },
+      {
+        "id": 53580,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Purest form of the Scholia Arcana",
+        "reason": "제작이 학파의 가장 순수한 형태라는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 53584,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彫像の視界",
+        "reason": "시선 대신 시야를 써 횃불의 위치를 자연스럽게 나타낸다."
+      },
+      {
+        "id": 53590,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "죄를 추궁하는 것보다 실제로 벌을 치르게 하는 의미가 더 강하다."
+      },
+      {
+        "id": 53601,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "items for you to sell",
+        "reason": "상대에게 판매를 부탁할 물건이라는 뜻을 명확히 한다."
+      },
+      {
+        "id": 53603,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Perhaps I will find another place to meditate soon.",
+        "reason": "단정적인 인과관계를 가능성을 나타내는 표현으로 고친다."
+      },
+      {
+        "id": 53605,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I have a job to do, and I will do it",
+        "reason": "어색한 ‘내 일이 있으니’를 자연스럽게 다듬는다."
+      },
+      {
+        "id": 53607,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 돈이 필요하다는 뜻이나 일본어는 돈을 내고 연습하겠다는 뜻이어서 확정하기 어렵다."
+      },
+      {
+        "id": 53609,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a token of her gratitude",
+        "reason": "감사의 주체가 리리아임을 명시한다."
+      },
+      {
+        "id": 53612,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "help the town come back from all it's seen",
+        "reason": "어색한 문장 구조를 고쳐 마을의 회복을 자연스럽게 표현한다."
+      },
+      {
+        "id": 53635,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彼女の墓を荒らす",
+        "reason": "무덤을 훼손한다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 53682,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "swarthy cloak",
+        "reason": "그을렸다는 뜻을 어두운 색을 가리키는 표현으로 고친다."
+      },
+      {
+        "id": 53729,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "harvest all these fields",
+        "reason": "밭을 일구는 것보다 수확을 맡았다는 원문의 뜻을 정확히 살린다."
+      },
+      {
+        "id": 53733,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Thy work for me",
+        "reason": "어색한 소유 관계를 풀어 화자를 위한 일임을 명확히 한다."
+      },
+      {
+        "id": 53736,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "save it for your own",
+        "reason": "‘걱정을 쓰다’라는 어색한 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 53740,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘만물상’도 일반 잡화 상인을 뜻하므로 수정이 필수적이지 않다."
+      },
+      {
+        "id": 53749,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "누가 지참금을 가져가지 않았는지 불분명하며 기존 표현도 가능하다."
+      },
+      {
+        "id": 53760,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "stop our beloved seer before we're dragged down with the rest",
+        "reason": "어색한 조사와 빠진 몰락의 뜻을 바로잡는다."
+      },
+      {
+        "id": 53774,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it has been so long",
+        "reason": "오랜 시간이 흘렀다는 뜻을 과거의 특정 일과 혼동하지 않게 한다."
+      },
+      {
+        "id": 53783,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Old Nareen Farm",
+        "reason": "사람에게 쓰는 ‘늙은’을 농장에 맞는 표현으로 고친다."
+      },
+      {
+        "id": 53785,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘classic’만으로 전통주라고 특정할 근거는 부족하다."
+      },
+      {
+        "id": 53802,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 성과를 묻지만 구체적으로 정보를 알아냈는지는 확실하지 않다."
+      },
+      {
+        "id": 53818,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 부하로 구성된 군대라는 뜻을 전달한다."
+      },
+      {
+        "id": 53830,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "glad to see the others again",
+        "reason": "아직 만나지 않았다는 뜻을 다시 만나 기쁘다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 53836,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "こんにちは",
+        "reason": "직역투의 인사를 자연스러운 인사말로 고친다."
+      },
+      {
+        "id": 53845,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "不可解な行動をする",
+        "reason": "이해하기 어려운 순간을 겪는다는 어색한 표현을 행동에 대한 묘사로 고친다."
+      },
+      {
+        "id": 53847,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you don't need to be so gruff",
+        "reason": "불필요한 ‘왜’를 빼서 자연스러운 반문으로 고친다."
+      },
+      {
+        "id": 53852,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘거대한 비밀’도 원문의 표현을 전달한다."
+      },
+      {
+        "id": 53854,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He thought it was more important than his life",
+        "reason": "추측형을 단정형으로 바꾸어 원문의 진술을 살린다."
+      },
+      {
+        "id": 53902,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Not worth the trouble.",
+        "reason": "어색한 ‘번거롭게 할 가치’를 자연스럽게 고친다."
+      },
+      {
+        "id": 53944,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What will happen to the vigil I keep?",
+        "reason": "지키는 동안의 사건이 아니라 경계 자체의 향방을 묻는다."
+      },
+      {
+        "id": 53990,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘생물’도 원문의 creature에 부합하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 53991,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "plot a shared path",
+        "reason": "‘길을 도모하다’라는 어색한 결합을 고친다."
+      },
+      {
+        "id": 54004,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "waiting for you with some friends in the Hospitalis Quarters",
+        "reason": "기다리는 장소에 맞는 조사로 바로잡는다."
+      },
+      {
+        "id": 54054,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안도 공적이 대가였다는 어색한 관계를 유지하며 원문의 뜻이 불확실하다."
+      },
+      {
+        "id": 54059,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "三年も会っていない",
+        "reason": "떠난 후 3년간 돌아오지 않았다는 뜻을 자연스럽게 명확히 한다."
+      },
+      {
+        "id": 54069,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we here on Gallows End",
+        "reason": "어색한 ‘갤로우스 엔드의 우리’를 자연스럽게 풀어 쓴다."
+      },
+      {
+        "id": 54077,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the Hero of Mel Senshir, or the Fateless One... as some people prefer",
+        "reason": "두 호칭이 같은 인물을 가리킨다는 점을 명확히 한다."
+      },
+      {
+        "id": 54081,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Excitement and feats of valor ‒ what's not to love about the Arena?",
+        "reason": "나열된 요소와 결투장의 관계를 자연스럽게 연결한다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

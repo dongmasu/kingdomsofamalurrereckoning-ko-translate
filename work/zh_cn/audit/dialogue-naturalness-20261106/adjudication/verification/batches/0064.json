@@ -1,0 +1,451 @@
+{
+  "fingerprint": "4c3d8d429d257af6a90940bb4a51476ed4deccae8d7a88316a690abf45b4b4b8",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 61624,
+  "last_id": 62463,
+  "row_count": 60,
+  "seconds": 34.62,
+  "usage": {
+    "completion_tokens": 2908,
+    "prompt_tokens": 11257,
+    "total_tokens": 14165,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11254,
+      "cache_creation_tokens": 11254
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 61624,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "どこからツアサで、どこから冬の落とし子なのか",
+        "reason": "시간이 아닌 구분 조건을 묻는 뜻이 명확해집니다."
+      },
+      {
+        "id": 61628,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "will not wish well for you and I",
+        "reason": "호의적으로 보지 않는다는 뜻보다 잘되기를 바라지 않는다는 원문에 가깝습니다."
+      },
+      {
+        "id": 61631,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "By the Sorrows' weary hall",
+        "reason": "지친 상태가 전당을 수식하도록 바로잡습니다."
+      },
+      {
+        "id": 61644,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "몇 개 거둔 뒤에는 계속 채집하려면",
+        "reason": "조건절의 어색한 연결을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 61659,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "little use for an apprentice",
+        "reason": "견습생이 전혀 필요 없다는 단정을 완화합니다."
+      },
+      {
+        "id": 61662,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You did a good thing, dreg",
+        "reason": "호칭을 자연스러운 부름말로 고칩니다."
+      },
+      {
+        "id": 61667,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I need to close up the windows",
+        "reason": "해야 할 일이라는 원문의 뜻과 문장 연결이 분명해집니다."
+      },
+      {
+        "id": 61700,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 겸손한 태도와 직책을 전달하므로 교체가 필수적이지 않습니다."
+      },
+      {
+        "id": 61735,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he would have been unstoppable",
+        "reason": "누가 누구를 막을 수 없는지 뒤바뀐 뜻을 바로잡습니다."
+      },
+      {
+        "id": 61740,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we've got our new orders",
+        "reason": "새 명령을 받은 주체를 우리로 명확히 합니다."
+      },
+      {
+        "id": 61752,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "我ら招かれし者",
+        "reason": "원문에 없는 ‘도’를 빼 중복의 뜻을 없앱니다."
+      },
+      {
+        "id": 61762,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "どこで知り合った",
+        "reason": "정보를 어떻게 알았는지가 아니라 사람과 어떻게 알게 됐는지 분명히 합니다."
+      },
+      {
+        "id": 61768,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I had a good feeling about you!",
+        "reason": "상대에 대한 좋은 예감이라는 원문의 뜻을 살립니다."
+      },
+      {
+        "id": 61780,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "slumbers in the Great Cycle",
+        "reason": "잠이 위대한 순환 속에서 이루어진다는 관계가 분명해집니다."
+      },
+      {
+        "id": 61790,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "行きましょう",
+        "reason": "함께 가자는 뜻을 오라는 말로 옮긴 문제를 고칩니다."
+      },
+      {
+        "id": 61796,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Your help is immeasurable",
+        "reason": "도움의 크기를 헤아릴 수 없다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 61835,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문은 상대를 질책하지만 직접적인 위협까지 단정하기는 어렵습니다."
+      },
+      {
+        "id": 61847,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 자금력으로 경쟁할 수 없었다는 원문의 뜻을 전달합니다."
+      },
+      {
+        "id": 61851,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "almost too good to come true",
+        "reason": "실현되기 불가능했다고 단정하는 뜻을 바로잡습니다."
+      },
+      {
+        "id": 61852,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "極西部一帯",
+        "reason": "어색한 장소 표현을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 61853,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I feel myself again",
+        "reason": "정신 이상에서 회복했다는 불필요한 뉘앙스를 줄입니다."
+      },
+      {
+        "id": 61901,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my wedding",
+        "reason": "화자 자신의 결혼식이라는 정보를 명시합니다."
+      },
+      {
+        "id": 61908,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "この魔法陣",
+        "reason": "단순한 원이 아닌 마법진이라는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 61924,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "決して的を外さない",
+        "reason": "빠진 목적어를 보완해 표적을 빗맞히지 않는다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 61931,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 원문의 한때 새로웠다는 표현을 생략해 의미가 달라질 수 있습니다."
+      },
+      {
+        "id": 61932,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You're no more Pledgeshield than I am",
+        "reason": "실력 비교가 아니라 둘 다 서약방패병이 아니라는 뜻을 살립니다."
+      },
+      {
+        "id": 61943,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ありがとう、我が主... と呼ぶべきかしら？",
+        "reason": "감사와 호칭을 확인하는 질문을 구분해 자연스럽게 만듭니다."
+      },
+      {
+        "id": 61975,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the key to his cage, which was last on the belt of the boatswain",
+        "reason": "마지막 문장의 생략된 주어를 밝혀 열쇠의 위치를 분명히 합니다."
+      },
+      {
+        "id": 61977,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your willingness to feel",
+        "reason": "단순히 마음으로 느끼는 것이 아닌 기꺼이 느끼려는 의지를 살립니다."
+      },
+      {
+        "id": 62013,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "not the mortal pretender",
+        "reason": "필멸자가 챔피언을 사칭한다는 관계가 명확해집니다."
+      },
+      {
+        "id": 62018,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문은 대상의 종류를 명시하지 않아 반드시 사람으로 바꿀 근거가 부족합니다."
+      },
+      {
+        "id": 62019,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 땅과 재물에 도달한다는 뜻을 전달하며 교체가 필수적이지 않습니다."
+      },
+      {
+        "id": 62027,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I know what life is like in the gutters",
+        "reason": "장소에 가 봤다는 말로 오해할 수 있는 표현을 생활 경험으로 분명히 합니다."
+      },
+      {
+        "id": 62039,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ニスカルがローカ＝レインへ来た道をたどる",
+        "reason": "니스카루가 로르카레인으로 온 경로를 따라간다는 뜻이 명확해집니다."
+      },
+      {
+        "id": 62049,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 도착했다는 뜻으로 읽히며 명백한 오류는 아닙니다."
+      },
+      {
+        "id": 62061,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "leave me to my task",
+        "reason": "일에 참견하지 말라는 뜻을 일을 방해하지 말라는 원문에 가깝게 고칩니다."
+      },
+      {
+        "id": 62062,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 사건으로부터 회복한다는 뜻을 전달합니다."
+      },
+      {
+        "id": 62063,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "more tender individuals will insist otherwise",
+        "reason": "다른 이들이 반대한다는 뜻을 구체화하고 어색한 표현을 고칩니다."
+      },
+      {
+        "id": 62069,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as Boderill always did",
+        "reason": "보더릴이 늘 그랬다는 원문의 반복 의미를 복원합니다."
+      },
+      {
+        "id": 62070,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 비유적 표현도 세월이 흘렀다는 뜻을 전달하며 교체가 필수적이지 않습니다."
+      },
+      {
+        "id": 62076,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I have been dead a short time",
+        "reason": "죽은 지 얼마 안 됐다는 뜻이 아니라 죽어 있던 기간이 짧았다는 뜻을 살립니다."
+      },
+      {
+        "id": 62089,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "learn how to build their own fire",
+        "reason": "어색한 ‘자기 불’을 스스로 불을 피우는 뜻으로 고칩니다."
+      },
+      {
+        "id": 62115,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "何が欲しいって？",
+        "reason": "단순히 무슨 말을 했는지가 아니라 무엇을 원하는지 되묻는 원문을 반영합니다."
+      },
+      {
+        "id": 62116,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "they haven't killed you yet",
+        "reason": "죽이지 않은 주체가 저들이라는 점을 분명히 합니다."
+      },
+      {
+        "id": 62120,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "needed from Castle Yolvan",
+        "reason": "성 안에서 필요한 것보다 성에서 구해 와야 할 것이라는 뜻이 명확해집니다."
+      },
+      {
+        "id": 62152,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 한 일에 대한 은혜를 갚을 수 없다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 62177,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a man with half his years",
+        "reason": "절반으로 줄일 나이가 오머의 나이임을 분명히 합니다."
+      },
+      {
+        "id": 62196,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Nyralim will want to thank you in person",
+        "reason": "이어지는 구어체 문장과 어미를 통일합니다."
+      },
+      {
+        "id": 62223,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Better than I've seen",
+        "reason": "무엇보다 상태가 좋은지 비교 대상을 명확히 합니다."
+      },
+      {
+        "id": 62235,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I need to prepare for the duel, and I can't be seen near the docks",
+        "reason": "두 사실을 원인과 결과로 연결한 관계를 바로잡습니다."
+      },
+      {
+        "id": 62259,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 백성의 필요보다 신앙에 따라 행동한다는 원문을 전달합니다."
+      },
+      {
+        "id": 62269,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You heard it right",
+        "reason": "자기 말이 맞는지 묻는 뜻을 제대로 들었다는 확인으로 바로잡습니다."
+      },
+      {
+        "id": 62283,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "脱出したことを伝えてくれ",
+        "reason": "막연히 나갔다는 표현을 탈출했다는 원문의 뜻으로 구체화합니다."
+      },
+      {
+        "id": 62319,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 애도 표현도 영어 원문의 mourn에 부합합니다."
+      },
+      {
+        "id": 62391,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "for those that aren't rich, it was",
+        "reason": "가난한 이들에게는 실현될 수 없었다는 뜻을 살립니다."
+      },
+      {
+        "id": 62402,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I await your findings",
+        "reason": "어색한 표현을 조사 결과를 기다린다는 뜻으로 자연스럽게 고칩니다."
+      },
+      {
+        "id": 62406,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Honor his memory",
+        "reason": "어색한 ‘그의 기억을 기려’ 대신 고인을 추모하는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 62412,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "네가 가져다주길 믿고 있겠네",
+        "reason": "어색한 문장 연결을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 62453,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Leave me alone with my grief",
+        "reason": "혼자 슬퍼할 수 있게 내버려 달라는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 62463,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "too의 초점은 문맥 없이 크라스와 상대 중 어느 쪽인지 단정하기 어렵습니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

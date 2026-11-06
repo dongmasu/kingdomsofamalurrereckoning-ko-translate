@@ -1,0 +1,451 @@
+{
+  "fingerprint": "1420276a9ca53f727d500e7cc37a8cd378d9ca69f6ba5d7f22704bf8cbb21ea6",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 37545,
+  "last_id": 38320,
+  "row_count": 60,
+  "seconds": 32.39,
+  "usage": {
+    "completion_tokens": 2790,
+    "prompt_tokens": 9497,
+    "total_tokens": 12287,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 17,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 9494,
+      "cache_creation_tokens": 9494
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 37545,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "in the long telling",
+        "reason": "어색한 수식을 자연스럽게 바로잡는다."
+      },
+      {
+        "id": 37555,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 의미와 자연스러움에 문제가 없다."
+      },
+      {
+        "id": 37562,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Step up.",
+        "reason": "어색하고 모호한 명령을 분명하게 고친다."
+      },
+      {
+        "id": 37573,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 영혼의 본성을 보여 줬다는 뜻을 전달한다."
+      },
+      {
+        "id": 37615,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장이 자연스럽고 제안의 수정이 필수적이지 않다."
+      },
+      {
+        "id": 37633,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I've been off in the dark for a while, dove",
+        "reason": "숨은 사람이 화자임을 명확히 한다."
+      },
+      {
+        "id": 37642,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm not your mother.",
+        "reason": "근거 없는 보조사 ‘도’를 바로잡는다."
+      },
+      {
+        "id": 37655,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'd trade here for Mel Senshir",
+        "reason": "장소를 바꾼다는 어색한 표현을 선택의 뜻으로 명확히 한다."
+      },
+      {
+        "id": 37660,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "use it to sic my Fae friends on you",
+        "reason": "돌을 이용해 공격하게 한다는 내용이 복원된다."
+      },
+      {
+        "id": 37664,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 fever-dreams를 전달하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 37682,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "when I was a younger woman",
+        "reason": "과거에 지금보다 젊었다는 비교를 복원한다."
+      },
+      {
+        "id": 37686,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Would that I could see it now",
+        "reason": "그곳을 보고 싶다는 소망의 대상을 바로잡는다."
+      },
+      {
+        "id": 37690,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Can I buy a title?",
+        "reason": "구매 가능 여부를 묻는 원문에 맞춘다."
+      },
+      {
+        "id": 37703,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "when you'd like me to reach out to them",
+        "reason": "연락할 사람이 화자임을 명확히 한다."
+      },
+      {
+        "id": 37710,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘다른 보상’도 원문의 또 다른 보상을 전달한다."
+      },
+      {
+        "id": 37718,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Old Oleander had a fine potion for that",
+        "reason": "물약을 만들었다는 근거 없는 내용을 소유했다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 37734,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm just making conversation.",
+        "reason": "말동무가 필요했다는 뜻을 대화를 건넨 것이라는 원문에 맞춘다."
+      },
+      {
+        "id": 37748,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "見えないものを見通し、生まれたものを消し去る力",
+        "reason": "지워 버리는 것이 통찰력 자체가 아니라 별도의 능력임을 분명히 한다."
+      },
+      {
+        "id": 37758,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the pay for my last report",
+        "reason": "지난 보고로 받은 보수라는 관계를 명확히 한다."
+      },
+      {
+        "id": 37763,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "far too powerful ‒ too ambitious ‒ to possess",
+        "reason": "유물을 소유하게 두기에는 위험하다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 37787,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 은퇴 후 안락한 삶을 살겠다는 뜻으로 이해된다."
+      },
+      {
+        "id": 37801,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘애지중지해’는 보호한다는 원문의 의미를 충분히 전달하지 못한다."
+      },
+      {
+        "id": 37809,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 인도를 삶에 받아들인다는 원문에 부합한다."
+      },
+      {
+        "id": 37820,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Let the mage run to his mother.",
+        "reason": "마법사를 보내 버리라는 뜻을 스스로 가게 두라는 원문에 맞춘다."
+      },
+      {
+        "id": 37821,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "every half-drowned sailor who stumbled in here hasn't made that joke",
+        "reason": "누구나 그 농담을 했다는 뜻으로 부정을 바로잡는다."
+      },
+      {
+        "id": 37826,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "not even the few from Mithros",
+        "reason": "미스로스 출신조차 환영받지 못한다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 37876,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The Cycle awaits.",
+        "reason": "원문에 없는 ‘때’를 제거한다."
+      },
+      {
+        "id": 37881,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 원문의 감사 대상을 전달한다."
+      },
+      {
+        "id": 37903,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ニスカルを呼び出す一番の早道",
+        "reason": "니스카루를 불러내는 방법이라는 뜻을 명확히 한다."
+      },
+      {
+        "id": 37930,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "一人で飲ませて",
+        "reason": "화자 자신을 ‘여자’라고 부르는 어색한 표현을 고친다."
+      },
+      {
+        "id": 37936,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "Headsman은 고유한 호칭일 가능성이 있어 직역만으로 교체하기 어렵다."
+      },
+      {
+        "id": 37943,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "those that keep the city aloft",
+        "reason": "도시 자체를 공중에 띄우는 에너지임을 명확히 한다."
+      },
+      {
+        "id": 37970,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I do what I must.",
+        "reason": "완료된 과거로 단정한 표현을 현재의 진술로 바로잡는다."
+      },
+      {
+        "id": 37981,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 페이의 칼에서 살아남았다는 의미를 전달한다."
+      },
+      {
+        "id": 38028,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 사용법을 완성했다는 표현도 숙달했다는 원문에 부합한다."
+      },
+      {
+        "id": 38070,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 라시르만 지켜야 한다는 뜻을 전달한다."
+      },
+      {
+        "id": 38084,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 거친 비유도 원문의 경멸을 전달하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 38089,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You coming?",
+        "reason": "가느냐는 질문을 화자와 함께 오느냐는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 38098,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "tell Herc Adwold. He's the Warden.",
+        "reason": "이름 앞의 중복된 직함을 제거해 원문의 소개 순서를 살린다."
+      },
+      {
+        "id": 38105,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "nature would forever know that we have honored her call for decay",
+        "reason": "영원히 이어지는 것이 자연의 앎임을 바로잡는다."
+      },
+      {
+        "id": 38107,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 그 운명을 당할 만한 짓을 하지 않았다는 뜻으로 자연스럽다."
+      },
+      {
+        "id": 38124,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 원문의 의미와 말투를 자연스럽게 전달한다."
+      },
+      {
+        "id": 38125,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I can overlook some bogeyman's tales",
+        "reason": "이야기를 ‘못 본 척’한다는 어색한 표현을 고친다."
+      },
+      {
+        "id": 38127,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "somehow she had changed it",
+        "reason": "막연한 이유가 아니라 방법을 모른다는 뜻을 분명히 한다."
+      },
+      {
+        "id": 38136,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The gold old Ebsol Gifre's spent banqueting would sink a warship",
+        "reason": "쓴 돈의 양이 군함을 가라앉힐 만큼 많다는 비유를 명확히 한다."
+      },
+      {
+        "id": 38137,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 정체를 알 수 없는 것들이 있다는 뜻을 전달한다."
+      },
+      {
+        "id": 38144,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 투린을 젊은이로 지칭하며 의미가 통한다."
+      },
+      {
+        "id": 38150,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Not particularly stiff competition",
+        "reason": "‘경쟁이 만만하다’는 어색한 표현을 경쟁 상대에 대한 평가로 고친다."
+      },
+      {
+        "id": 38169,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "It is clear that we Templars must",
+        "reason": "행동의 책임을 물어야 한다는 점이 분명하다는 원문을 복원한다."
+      },
+      {
+        "id": 38171,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "not a soul's been thrown in the ‒ ah",
+        "reason": "중간에 말을 끊는 부분을 완성된 ‘감옥’으로 단정하지 않는다."
+      },
+      {
+        "id": 38178,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 다시는 시도하지 않겠다는 뜻을 전달한다."
+      },
+      {
+        "id": 38206,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "fell victim to the madness on Rond Farm",
+        "reason": "남편이 광기에 사로잡혔다고 단정하지 않고 희생자가 되었다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 38234,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘주장하지’는 상대를 믿게 만들려 한다는 원문의 뉘앙스를 약화한다."
+      },
+      {
+        "id": 38241,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 원문의 뜻을 전달한다."
+      },
+      {
+        "id": 38244,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "至高王に会う許可は得てるのか？",
+        "reason": "알현 허가를 받았는지 묻는 뜻을 명확히 한다."
+      },
+      {
+        "id": 38283,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "戦場で倒れても直ぐに立ち上がってきた",
+        "reason": "추측처럼 읽히는 표현을 과거의 반복된 일로 바로잡는다."
+      },
+      {
+        "id": 38284,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘선혈 한 방울’도 원문의 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 38304,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "feel free to ask for his help",
+        "reason": "도움을 청할 대상이 조크임을 명확히 한다."
+      },
+      {
+        "id": 38306,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘도끼질하다’도 원문에 부합하는 자연스러운 표현이다."
+      },
+      {
+        "id": 38320,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "half as much as yours",
+        "reason": "상대가 찾아낸 양의 절반이라는 비교 대상을 명확히 한다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

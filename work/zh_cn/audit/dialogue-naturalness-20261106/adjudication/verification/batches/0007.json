@@ -1,0 +1,451 @@
+{
+  "fingerprint": "bb4f043d533ef922513092171113510ade6d93a96082cf6cb4509dc95a03380b",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 7269,
+  "last_id": 8054,
+  "row_count": 60,
+  "seconds": 34.22,
+  "usage": {
+    "completion_tokens": 2797,
+    "prompt_tokens": 8758,
+    "total_tokens": 11555,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 17,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 8755,
+      "cache_creation_tokens": 8755
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 7269,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "크로싱(The Crossing)가",
+        "reason": "받침에 맞는 주격 조사를 사용한다."
+      },
+      {
+        "id": 7291,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "イディラを気に入ってくれるといいけど",
+        "reason": "이디라가 마음에 들기를 바라는 뜻을 반영한다."
+      },
+      {
+        "id": 7299,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 원문의 보상 비유를 전달한다."
+      },
+      {
+        "id": 7337,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "A sickness grows",
+        "reason": "병폐보다 병이 신체적 비유에 자연스럽다."
+      },
+      {
+        "id": 7364,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "私はここで待ちます",
+        "reason": "한 문장 안에서 섞인 말높임을 바로잡는다."
+      },
+      {
+        "id": 7373,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "성소들(Chantries)가",
+        "reason": "받침에 맞는 주격 조사를 사용한다."
+      },
+      {
+        "id": 7382,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "크로싱(The Crossing)를",
+        "reason": "받침에 맞는 목적격 조사를 사용한다."
+      },
+      {
+        "id": 7398,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 자연스럽고 의미가 같다."
+      },
+      {
+        "id": 7402,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "after I was forced to maroon my last first mate on a desert island",
+        "reason": "사건의 선후 관계와 무인도라는 뜻을 바로잡는다."
+      },
+      {
+        "id": 7403,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "want to be here, stuck in this giant vegetable",
+        "reason": "어색한 중복 표현을 없애고 원뜻을 유지한다."
+      },
+      {
+        "id": 7410,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "washed up excuse for a fighter",
+        "reason": "전사 흉내가 아니라 변변찮은 전사라는 뜻을 살린다."
+      },
+      {
+        "id": 7442,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What do I do, again?",
+        "reason": "자신이 무엇을 해야 하는지 묻는 원뜻을 반영한다."
+      },
+      {
+        "id": 7462,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "cast the play",
+        "reason": "원고를 가지고 찾아가 배역을 정한다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 7464,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He is not a natural thing.",
+        "reason": "자연의 이치에 맞지 않는 존재라는 뜻을 명확히 한다."
+      },
+      {
+        "id": 7465,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "stationed here for several years, working on my Necro Crystals",
+        "reason": "배치된 상태에서 몇 년간 연구했다는 문장을 자연스럽게 다듬는다."
+      },
+      {
+        "id": 7483,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "남은 물을 찾는다는 뜻은 현재 문장에도 담겨 있다."
+      },
+      {
+        "id": 7487,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a deep dementia",
+        "reason": "치매에 어울리는 자연스러운 정도 표현이다."
+      },
+      {
+        "id": 7522,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm the last one. The others... They may still be alive.",
+        "reason": "생존자라고 단정하지 않아 뒤 문장과의 불필요한 충돌을 줄인다."
+      },
+      {
+        "id": 7536,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Amalur and its people",
+        "reason": "사람들이 아말러의 주민임을 분명히 한다."
+      },
+      {
+        "id": 7545,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "동전은 원문의 coin에 부합하며 교체가 필수적이지 않다."
+      },
+      {
+        "id": 7561,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "throw something Niskaric at me to show me something new",
+        "reason": "화자에게 새로운 경험을 주기 위해 맞붙게 한다는 뜻을 분명히 한다."
+      },
+      {
+        "id": 7568,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I had hoped you would see what was right.",
+        "reason": "올바른 판단을 바랐다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 7622,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you want that contract, do you?",
+        "reason": "계약을 맡겠다는 상대의 의사를 확인하는 뜻을 복원한다."
+      },
+      {
+        "id": 7646,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "あなたが決めたものを届けに出発します",
+        "reason": "어색한 대명사를 생략하면서 존대와 원뜻을 유지한다."
+      },
+      {
+        "id": 7681,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "by the Widow's mercy",
+        "reason": "자비를 기원하는 말이 아니라 자비 덕분이라는 감탄을 반영한다."
+      },
+      {
+        "id": 7696,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "鍛冶のご用命も承るよ",
+        "reason": "상점과 대장간을 소개하는 대사로 자연스럽게 만든다."
+      },
+      {
+        "id": 7697,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You guess lower.",
+        "reason": "카드의 높낮이를 고른다는 뜻을 분명히 한다."
+      },
+      {
+        "id": 7730,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Runs a good game of cards.",
+        "reason": "카드를 잘한다는 뜻이 아니라 게임을 잘 진행한다는 뜻을 반영한다."
+      },
+      {
+        "id": 7733,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "our own Hallam the White",
+        "reason": "할람이 화자들에 속한다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 7736,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "our own recorded history",
+        "reason": "어색한 ‘우리 기록 역사’를 자연스럽게 고친다."
+      },
+      {
+        "id": 7775,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "社会の底から出られない",
+        "reason": "밑바닥에서 벗어나지 못한다는 뜻을 분명히 한다."
+      },
+      {
+        "id": 7786,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "clean up the mess left behind by those beasts",
+        "reason": "어색한 ‘엉망진창을 치우고’를 자연스럽게 고친다."
+      },
+      {
+        "id": 7792,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "more than once",
+        "reason": "한 번 초과, 즉 두 번 이상이라는 횟수를 바로잡는다."
+      },
+      {
+        "id": 7804,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 보지 못한 정도를 자연스럽게 전달한다."
+      },
+      {
+        "id": 7814,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "see what you can learn first by looking around",
+        "reason": "먼저 주변을 살펴 알아보라는 지시를 자연스럽게 정리한다."
+      },
+      {
+        "id": 7822,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "That one better watch her words",
+        "reason": "말을 조심해야 할 대상이 청자가 아니라 그녀임을 바로잡는다."
+      },
+      {
+        "id": 7835,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장에도 가져갈 만큼 필요하다는 뜻이 드러난다."
+      },
+      {
+        "id": 7841,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you meddling ingrate",
+        "reason": "어색한 명사 연결을 자연스러운 수식으로 고친다."
+      },
+      {
+        "id": 7843,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "magnified aspects of myself",
+        "reason": "외모가 과장되어 나타난다는 오해를 바로잡는다."
+      },
+      {
+        "id": 7854,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "And upset a lot of gamblers in the meanwhile!",
+        "reason": "시간을 나타내는 ‘그동안’보다 덩달아 일어날 결과에 자연스럽다."
+      },
+      {
+        "id": 7860,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I know what you did for me",
+        "reason": "누가 누구를 위해 한 일인지 바로잡는다."
+      },
+      {
+        "id": 7861,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장의 반복은 원문의 old와 ancient를 살리는 표현이다."
+      },
+      {
+        "id": 7870,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "高慢なバカどもは人を見る目がないのさ",
+        "reason": "시험에 떨어뜨린 쪽의 실수라는 뜻을 명확히 한다."
+      },
+      {
+        "id": 7872,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Adessa carved into the side of that crater",
+        "reason": "분화구 벽을 깎아 도시를 조성했다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 7879,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What brings you here?",
+        "reason": "이곳에 온 용건을 묻는 뜻을 명확히 한다."
+      },
+      {
+        "id": 7901,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "유리한 대상이 상대방이라는 해석은 원문만으로 확정하기 어렵다."
+      },
+      {
+        "id": 7907,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘a live one’의 구체적 뉘앙스가 불확실해 기운이 넘친다고 단정하기 어렵다."
+      },
+      {
+        "id": 7910,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 돌보고 상태를 확인해 달라는 뜻을 전달한다."
+      },
+      {
+        "id": 7913,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a crop that was untimely reaped",
+        "reason": "수확하지 못할 작물이 아니라 때에 맞지 않게 거둔 작물이라는 뜻을 반영한다."
+      },
+      {
+        "id": 7932,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 이야기 속 바로 그 고대 서적이라는 현재 해석도 뒷받침한다."
+      },
+      {
+        "id": 7935,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "upstart는 출세주의자라는 뜻도 있어 신참으로 한정하기 어렵다."
+      },
+      {
+        "id": 7941,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "실수할 수 없다는 원문의 불가역적 표현을 규범적 의무로 바꾸는 해석이 확실하지 않다."
+      },
+      {
+        "id": 7942,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "an enemy that was as close a friend",
+        "reason": "가까운 친구이기도 했던 적이라는 핵심을 복원한다."
+      },
+      {
+        "id": 7947,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ここへ来るのは久しぶりだ",
+        "reason": "여기에 온 지 오래 머물렀다는 뜻이 아니라 오랜만에 왔다는 뜻이다."
+      },
+      {
+        "id": 7957,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "전생이라는 비유는 원문의 another life에 부합한다."
+      },
+      {
+        "id": 7986,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'll pay you for your time.",
+        "reason": "어색한 ‘시간 내 준 보수’를 자연스러운 표현으로 고친다."
+      },
+      {
+        "id": 8023,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "こんにちは",
+        "reason": "날씨나 하루에 대한 평이 아닌 인사말로 자연스럽게 옮긴다."
+      },
+      {
+        "id": 8037,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "if they're still walking",
+        "reason": "아직 살아 있는 대상이 청자가 아니라 놈들이라는 영어 원문을 반영한다."
+      },
+      {
+        "id": 8045,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 상대의 시도가 소용없다는 뜻을 전달한다."
+      },
+      {
+        "id": 8054,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 여정을 걷는다는 표현도 자연스러운 비유다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

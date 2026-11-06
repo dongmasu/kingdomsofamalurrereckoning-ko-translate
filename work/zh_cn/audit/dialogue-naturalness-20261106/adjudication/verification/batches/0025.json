@@ -1,0 +1,451 @@
+{
+  "fingerprint": "ef8fa960984b1f3671a59f3d6f5f5f29d050c59f1d556e4c3933a50e9cb50dd7",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 24238,
+  "last_id": 25240,
+  "row_count": 60,
+  "seconds": 34.57,
+  "usage": {
+    "completion_tokens": 2844,
+    "prompt_tokens": 13327,
+    "total_tokens": 16171,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 12,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 13324,
+      "cache_creation_tokens": 13324
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 24238,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 거칠고 어리석은 자들이라는 뜻을 전달한다."
+      },
+      {
+        "id": 24279,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "carrion bird",
+        "reason": "부자연스러운 합성 표현을 뜻이 분명한 표현으로 고쳤다."
+      },
+      {
+        "id": 24302,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "to protect all from his madness",
+        "reason": "광기가 퍼지는 것을 막는다는 뜻을 모두를 보호한다는 원문 의미로 바로잡았다."
+      },
+      {
+        "id": 24305,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彼女の持ち物に仕込んでくれ",
+        "reason": "서신을 심는 대상을 소지품으로 명확히 했다."
+      },
+      {
+        "id": 24310,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "心に喜びが湧きあがる",
+        "reason": "어색한 ‘가슴이 기뻐’를 자연스럽게 고쳤다."
+      },
+      {
+        "id": 24366,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 의인화를 살려 의미를 전달한다."
+      },
+      {
+        "id": 24367,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "荷物を積んでるところだ",
+        "reason": "승선 준비를 짐을 싣는 중이라는 원문 내용으로 바로잡았다."
+      },
+      {
+        "id": 24372,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ティレイラ将軍が死んだ",
+        "reason": "사람에게 어색한 ‘함락’을 죽음을 뜻하는 표현으로 고쳤다."
+      },
+      {
+        "id": 24380,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "where I often find what I need",
+        "reason": "‘필요한 걸 자주 찾아’의 어색함을 자연스럽게 고쳤다."
+      },
+      {
+        "id": 24408,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 박힌 날처럼 빛난다는 원문 의미를 전달한다."
+      },
+      {
+        "id": 24413,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "discussing curs and imbeciles",
+        "reason": "그들과 대화한다는 뜻을 그들에 관해 이야기한다는 뜻으로 바로잡았다."
+      },
+      {
+        "id": 24425,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 수리 대신 화자의 장비를 사라는 뜻을 전달한다."
+      },
+      {
+        "id": 24439,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘잃은 이들’도 일본어 원문에 부합하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 24467,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 일본어에 부합하지만 현재 표현도 영어의 의미에 충실하다."
+      },
+      {
+        "id": 24494,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문만으로 존댓말이 필요한 상대나 상황을 확인할 수 없다."
+      },
+      {
+        "id": 24590,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문처럼 물 때문에 질식한다는 뜻을 전달한다."
+      },
+      {
+        "id": 24592,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현은 그들에게 진 빚이라는 영어의 뉘앙스를 유지한다."
+      },
+      {
+        "id": 24594,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "たどり着ける最も深い水域に運んで水葬した",
+        "reason": "시신을 옮긴 뒤 수장하는 순서를 원문에 맞게 바로잡았다."
+      },
+      {
+        "id": 24601,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "洞穴のつる",
+        "reason": "근거 없는 속 빈 나무를 굴의 덩굴로 바로잡았다."
+      },
+      {
+        "id": 24636,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 옛 방식에 마땅한 존중을 표했다는 뜻으로 이해된다."
+      },
+      {
+        "id": 24637,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "もう行きなさい",
+        "reason": "중복되고 어색한 ‘가서 떠나’를 간결하게 고쳤다."
+      },
+      {
+        "id": 24641,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What's this rumor going around",
+        "reason": "소문의 이유를 묻는 표현을 소문 자체에 대한 질문으로 바로잡았다."
+      },
+      {
+        "id": 24642,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 힘을 지닌 상태가 오래가지 않는다는 뜻으로 읽힌다."
+      },
+      {
+        "id": 24665,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I keep it on me wherever I go",
+        "reason": "상대에게 하는 지시를 화자의 습관에 대한 진술로 바로잡았다."
+      },
+      {
+        "id": 24667,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it's one you've earned time and again",
+        "reason": "어색한 직역을 그날을 맞을 자격을 입증했다는 뜻으로 풀었다."
+      },
+      {
+        "id": 24671,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "All that work, and for what?",
+        "reason": "도둑의 동기를 묻는 듯한 표현을 노력의 허무함을 나타내도록 고쳤다."
+      },
+      {
+        "id": 24736,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 생략된 서술어도 자연스럽게 이해된다."
+      },
+      {
+        "id": 24740,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "불을 붙이는 대상은 문맥에 따라 이해할 수 있어 수정이 필수적이지 않다."
+      },
+      {
+        "id": 24757,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Two pairs of eyes are better than one",
+        "reason": "두 쌍과 한 쌍을 비교한다는 뜻을 명확히 했다."
+      },
+      {
+        "id": 24769,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘해안’도 호수의 기슭을 가리킬 수 있어 명백한 오류는 아니다."
+      },
+      {
+        "id": 24788,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "アダラスに、\"耕しの杖\"を探しに行く",
+        "reason": "어색한 단편 문장을 지팡이를 구하러 간다는 뜻으로 명확히 했다."
+      },
+      {
+        "id": 24799,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "正気を失っていたのだろうか",
+        "reason": "‘내몰려’로 빠진 광기의 의미를 복원했다."
+      },
+      {
+        "id": 24809,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "active vein",
+        "reason": "광맥에 어색한 ‘가동 중’을 채굴 상황에 맞게 고쳤다."
+      },
+      {
+        "id": 24818,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Does anyone deserve an end like that?",
+        "reason": "단순히 최후를 맞아야 하느냐는 질문을 그럴 만한 자격이 있느냐는 뜻으로 바로잡았다."
+      },
+      {
+        "id": 24831,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "find themselves at its mercy",
+        "reason": "자비를 구한다는 뜻을 처지에 좌우되어 속수무책이 된다는 뜻으로 바로잡았다."
+      },
+      {
+        "id": 24862,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "짧은 발화만으로 상황과 ‘Well’의 정확한 어감을 판단하기 어렵다."
+      },
+      {
+        "id": 24872,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "withers to dust",
+        "reason": "먼지가 된 뒤 시든다는 역순을 바로잡았다."
+      },
+      {
+        "id": 24877,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your description matches that of the legendary Hero",
+        "reason": "인상착의와 영웅에 대한 묘사의 비교를 명확히 했다."
+      },
+      {
+        "id": 24888,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘a telling’을 보여 주는 예언으로 단정할 근거가 충분하지 않다."
+      },
+      {
+        "id": 24938,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 신앙을 소홀히 하지 말라는 원문 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 24944,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 업무가 뒤처진다는 원문 의미를 전달한다."
+      },
+      {
+        "id": 24945,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 코라의 말과는 달리 화자가 믿지 않는다는 뜻을 전달한다."
+      },
+      {
+        "id": 24966,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ついにメル・センシアへと到達した",
+        "reason": "발로르가 아직 오고 있다는 표현을 이미 도착한 것으로 바로잡았다."
+      },
+      {
+        "id": 24991,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Interested in an Almain title?",
+        "reason": "원문에 없는 구매 의사를 묻는 표현을 관심 여부로 바로잡았다."
+      },
+      {
+        "id": 25002,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 ‘ascribe’는 지고왕이 직접 썼다고 단정하는 것보다 넓은 의미다."
+      },
+      {
+        "id": 25034,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 의무 수행을 막을 수 없다는 뜻이 분명하다."
+      },
+      {
+        "id": 25046,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "レドルには会えない",
+        "reason": "인물에게 간다는 어색한 표현을 만난다는 뜻으로 고쳤다."
+      },
+      {
+        "id": 25083,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the reason for some things were beyond our understanding",
+        "reason": "‘걸’이 반복되는 어색한 문장을 원문 의미를 유지하며 정리했다."
+      },
+      {
+        "id": 25085,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I think I know my curses",
+        "reason": "화자 자신의 저주라는 오해를 부르는 표현을 바로잡았다."
+      },
+      {
+        "id": 25119,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘estate’는 저택뿐 아니라 영지를 뜻할 수도 있다."
+      },
+      {
+        "id": 25153,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 군대가 함께 움직인다는 원문 뜻을 전달한다."
+      },
+      {
+        "id": 25169,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what could have been",
+        "reason": "일어난 일의 원인을 묻는 표현을 이루어지지 못한 가능성에 대한 탄식으로 고쳤다."
+      },
+      {
+        "id": 25175,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 물건을 둘러싼 불확실성을 전달한다."
+      },
+      {
+        "id": 25196,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I can hope, can't I?",
+        "reason": "‘바라봐도’를 희망한다는 뜻의 ‘바라도’로 바로잡았다."
+      },
+      {
+        "id": 25199,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "His titles are too many to mention, and his feats too astounding",
+        "reason": "칭호의 수와 업적의 놀라움을 각각 분리해 원문에 맞췄다."
+      },
+      {
+        "id": 25201,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "商人のギフ家",
+        "reason": "개인 상인처럼 읽히는 표현을 상인 가문으로 바로잡았다."
+      },
+      {
+        "id": 25202,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the gods can bear witness to us atoning",
+        "reason": "신들이 속죄하는 것처럼 읽히는 주체 관계를 바로잡았다."
+      },
+      {
+        "id": 25204,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 오랜 시간을 쏟았다는 강조로 읽히며 명백한 오류는 아니다."
+      },
+      {
+        "id": 25227,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘adopted home’은 새로 정착한 곳이라는 현재 표현으로도 전달된다."
+      },
+      {
+        "id": 25240,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "名を汚され、略奪された",
+        "reason": "피동 표현을 바로잡아 겨울 페이가 명예를 더럽힌 주체로 읽히지 않게 했다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

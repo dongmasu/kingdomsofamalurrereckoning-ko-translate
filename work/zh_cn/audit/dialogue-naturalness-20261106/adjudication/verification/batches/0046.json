@@ -1,0 +1,451 @@
+{
+  "fingerprint": "a6ebe94be49bff84830d9bec1c15a8eccb1fcfc3b23e60ed0a50918e74a2783f",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 44250,
+  "last_id": 45205,
+  "row_count": 60,
+  "seconds": 31.96,
+  "usage": {
+    "completion_tokens": 2755,
+    "prompt_tokens": 11071,
+    "total_tokens": 13826,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11068,
+      "cache_creation_tokens": 11068
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 44250,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 영어 원문에 충실하고 자연스럽다."
+      },
+      {
+        "id": 44296,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "stay our hands",
+        "reason": "어색한 직역을 행동을 멈춘다는 뜻으로 자연스럽게 고친다."
+      },
+      {
+        "id": 44302,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "If they nest there, we'll be eating oysters and eel",
+        "reason": "둥지를 트는 주체와 음식을 먹게 될 주체를 명확히 한다."
+      },
+      {
+        "id": 44306,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the best dames and drinks",
+        "reason": "술을 만난다는 어색한 표현을 바로잡는다."
+      },
+      {
+        "id": 44319,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What others?",
+        "reason": "다른 사람들이 누구인지 되묻는 뜻을 명확히 한다."
+      },
+      {
+        "id": 44332,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 장소감을 담고 있어 삭제가 필수적이지 않다."
+      },
+      {
+        "id": 44349,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "도움을 주는 쪽을 뜻하는 영어의 표현도 가능하므로 변경이 확정적이지 않다."
+      },
+      {
+        "id": 44366,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "any undue approach",
+        "reason": "불필요한 접근이 아니라 부적절한 접근이라는 뜻을 반영한다."
+      },
+      {
+        "id": 44375,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "feeding it to the flame",
+        "reason": "어색한 직역을 왕국을 불태운다는 뜻으로 자연스럽게 고친다."
+      },
+      {
+        "id": 44385,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "予知できなかったの",
+        "reason": "사건과 죽음을 미리 보지 못했다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 44412,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "undetectable",
+        "reason": "추적뿐 아니라 감지 자체가 불가능하다는 원문을 반영한다."
+      },
+      {
+        "id": 44444,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "when I've slept a little",
+        "reason": "잠을 자는 사람이 화자임을 명확히 한다."
+      },
+      {
+        "id": 44454,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 울부짖음을 전달하며 제안이 필수적이지 않다."
+      },
+      {
+        "id": 44475,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "인용 범위의 차이는 명백한 오류라고 보기 어렵다."
+      },
+      {
+        "id": 44476,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 야영지로 끌고 간다는 뜻으로 성립한다."
+      },
+      {
+        "id": 44482,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "新しいお酒をちょうだい",
+        "reason": "다음 판이 아니라 술을 더 달라는 뜻을 반영한다."
+      },
+      {
+        "id": 44518,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 정의에 어긋나는 행위를 금한다는 원문에 부합한다."
+      },
+      {
+        "id": 44522,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 자연스럽고 원문의 관대한 면이 없다는 말장난을 살린다."
+      },
+      {
+        "id": 44589,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "정찰선을 첩보선으로 고치는 것은 타당하지만 장비가 도적용이라는 해석은 불확실하다."
+      },
+      {
+        "id": 44590,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "When you are ready",
+        "reason": "준비가 되는 주체가 배가 아니라 청자임을 명확히 한다."
+      },
+      {
+        "id": 44603,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 문장 생략도 앞 문장과 연결되어 의미가 전달된다."
+      },
+      {
+        "id": 44618,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "to reach the body we seek",
+        "reason": "시신에 닿는다는 어색한 표현을 시신이 있는 곳에 간다는 뜻으로 고친다."
+      },
+      {
+        "id": 44630,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어 원문 자체의 수혜 관계가 불명확하고 제안의 가치 비교도 확실히 뒷받침되지 않는다."
+      },
+      {
+        "id": 44638,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 술병에 빗댄 원문의 비유를 전달한다."
+      },
+      {
+        "id": 44654,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 높임말은 화자의 말투와 어울리지 않아 개선이 확실하지 않다."
+      },
+      {
+        "id": 44656,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "겨울 궁정(Winter Court)는",
+        "reason": "잘못된 조사를 바로잡으며 줄바꿈을 유지한다."
+      },
+      {
+        "id": 44667,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 원문의 매혹을 경이로운 것에 매혹되는 능력으로 구체화한다."
+      },
+      {
+        "id": 44687,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 형제 관계를 전달하며 제안은 더 장황하다."
+      },
+      {
+        "id": 44706,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You became my road to a perfect victory",
+        "reason": "길이 되었다는 직역을 승리로 가는 길을 열었다는 자연스러운 표현으로 고친다."
+      },
+      {
+        "id": 44712,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "back out of your offer",
+        "reason": "청자 자신의 제안을 철회하는 것임을 명확하게 한다."
+      },
+      {
+        "id": 44727,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "consider our choices",
+        "reason": "이미 한 선택을 되돌아본다는 뜻을 선택을 신중히 고려한다는 뜻으로 고친다."
+      },
+      {
+        "id": 44744,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "toward a more... religious bent",
+        "reason": "성향을 기울게 했다는 어색한 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 44757,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 기간 표현도 자연스럽고 원문에 부합한다."
+      },
+      {
+        "id": 44765,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Nearly took my life to get here",
+        "reason": "오는 도중 실제로 죽을 뻔했다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 44791,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "許可が出るまで出航できない",
+        "reason": "어색한 달리 허락한다는 표현을 출항 허가로 명확히 한다."
+      },
+      {
+        "id": 44820,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "酒に溺れ",
+        "reason": "술병에 틀어박혔다는 직역을 자연스러운 관용 표현으로 고친다."
+      },
+      {
+        "id": 44824,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "other work for Gwyn",
+        "reason": "그윈이 수행할 일이라는 뜻을 명확히 한다."
+      },
+      {
+        "id": 44845,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 제작을 맡겼다고 볼 수 있지만 일본어는 직접 만들었다고 하므로 확정하기 어렵다."
+      },
+      {
+        "id": 44854,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 뜻을 전달하며 앞길을 막는다는 제안은 다소 강하다."
+      },
+      {
+        "id": 44855,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "김새게 하는",
+        "reason": "관용구의 어색한 활용을 자연스럽게 고친다."
+      },
+      {
+        "id": 44870,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "bound to my service by oath",
+        "reason": "맹세로 복무를 다한다는 어색한 표현을 바로잡는다."
+      },
+      {
+        "id": 44878,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 그의 지휘에 대한 신뢰를 전달하며 제안이 반드시 필요한 것은 아니다."
+      },
+      {
+        "id": 44880,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "maggots, craven all",
+        "reason": "겁쟁이가 구더기들이라는 수식을 명확히 하며 줄바꿈을 유지한다."
+      },
+      {
+        "id": 44884,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "round out the next match",
+        "reason": "경기 자체가 아니라 출전 인원을 채운다는 뜻으로 자연스럽게 고친다."
+      },
+      {
+        "id": 44890,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You must think me petty, to make such an offer",
+        "reason": "그런 제안을 한 사람이 화자가 아니라 청자임을 바로잡는다."
+      },
+      {
+        "id": 44891,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Crand is dead",
+        "reason": "잡아갔다는 표현을 이미 죽었다는 문맥에 맞게 바로잡는다."
+      },
+      {
+        "id": 44929,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "They call themselves a mining operation",
+        "reason": "광산 작업장이 아니라 스스로를 채굴 업체라고 부른다는 뜻을 반영한다."
+      },
+      {
+        "id": 44949,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 시어도 분노가 심장에 곪는다는 뜻을 전달한다."
+      },
+      {
+        "id": 44961,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "five litanies should hold enough magic",
+        "reason": "기도문 자체가 마법이 된다는 표현을 마력이 담겨 있다는 뜻으로 고친다."
+      },
+      {
+        "id": 45027,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 자기 다리가 부러졌다는 뜻이며 제안이 명확히 개선되지는 않는다."
+      },
+      {
+        "id": 45032,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 끔찍한 진실을 의심한다는 원문의 뜻을 전달한다."
+      },
+      {
+        "id": 45047,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 조사도 관계 기관과의 볼일을 묻는 표현으로 자연스럽다."
+      },
+      {
+        "id": 45057,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 감탄을 전달하며 제안이 필수적이지 않다."
+      },
+      {
+        "id": 45076,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "burns like a hot poker",
+        "reason": "물질 자체의 온도가 아니라 닿았을 때 화끈거리는 효과를 반영한다."
+      },
+      {
+        "id": 45117,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제작을 배우러 온 것인지 수행하러 온 것인지 원문만으로 확정하기 어렵다."
+      },
+      {
+        "id": 45136,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 발견한 적을 처치해 달라는 부탁을 자연스럽게 전달한다."
+      },
+      {
+        "id": 45143,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 불필요한 곳에 관심을 쏟는다는 원문의 뜻에 부합한다."
+      },
+      {
+        "id": 45168,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "grist from a Jottun's pot",
+        "reason": "솥에 넣을 가루가 아니라 솥에 든 가루라는 뜻을 반영한다."
+      },
+      {
+        "id": 45198,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "あなたの名前を伺ってもよろしいかしら？",
+        "reason": "한 발화 안에서 반말과 존댓말이 섞인 문제를 고친다."
+      },
+      {
+        "id": 45205,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 호칭도 원문의 낯선 사람이라는 뜻에 부합하며 제안은 말투가 달라진다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

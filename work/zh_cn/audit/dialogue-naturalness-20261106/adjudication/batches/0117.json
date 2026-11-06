@@ -1,0 +1,527 @@
+{
+  "fingerprint": "6b53072b5179b0362f392159c62c76ce0d9a61fc898c0495bd39060499270222",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "reasoning",
+  "first_id": 59457,
+  "last_id": 59809,
+  "row_count": 62,
+  "seconds": 73.28,
+  "usage": {
+    "completion_tokens": 6703,
+    "prompt_tokens": 21720,
+    "total_tokens": 28423,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 89,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 21717,
+      "cache_creation_tokens": 21717
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 59457,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "bear the name Darkvari, a crime in Apotyre in these trying times",
+        "reason": "성이 아니라 그 성을 지닌 것이 죄 취급을 받는다는 뜻을 자연스럽게 풀었다.",
+        "revised_ko": "내가 뭘 했냐고? 아무것도 안 했어. 다크바리(Darkvari)라는 성을 가졌을 뿐이야. 요즘처럼 힘든 시기에 아포타이어(Apotyre)에서는 그것도 죄가 되지. 시장의 칼잡이들이 아데사(Adessa) 성문에서 날 붙잡았어."
+      },
+      {
+        "id": 59459,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "명사구와 도치가 이어지는 시적 문체이며 영어도 첫 행을 생략적으로 구성한다. 의미상 뚜렷한 오류는 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59463,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "awaits your consultation",
+        "reason": "‘상의하기를 기다리다’보다 상의할 상대를 기다린다는 구성이 자연스럽다.",
+        "revised_ko": "웬센 왕(King Wencen)께서 당신과 상의하려고 기다리고 계십니다."
+      },
+      {
+        "id": 59473,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "책의 정체와 가져가는 조건을 정확하고 자연스럽게 전달한다. 해체를 오류로 볼 근거는 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59477,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "pick a range of numbers to roll between",
+        "reason": "‘숫자를 굴리다’라는 직역을 피하고 나올 숫자의 범위를 정한다는 뜻을 살렸다.",
+        "revised_ko": "레인지 롤은 나올 숫자의 범위를 정하는 거야. 간단하지."
+      },
+      {
+        "id": 59481,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "유해를 뒤진 데 대한 응보와 금화에 대한 도발, 생존을 조건으로 한 빚 청산이 모두 전달된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59499,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "그들을 이상적인 삶의 모습에 비유하는 표현으로 이해되며 뒤 문장이 그 의미를 구체화한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59501,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "it must be returned to the Hollow",
+        "reason": "앞서 나온 동굴로 지팡이를 돌려놓는다는 뜻인데 ‘골짜기’로 장소가 바뀌었다. 어색한 허리 통증 비유와 봄철 비교도 함께 바로잡았다.",
+        "revised_ko": "겨울의 끝 - 첫비 - 봄꽃\r\n\r\n아말러(Amalur)의 흙이 깨어날 때 너도 깨어나야 한다. 뒹굴거나 빈둥대고, 술을 마시거나 파이프를 피울 때가 아니다. 바닷아마(Seaflax)는 첫 해빙일에 심고, 늑대별이 스카이크라운(Skycrown) 정상 위에 고리를 이룰 때 사티바 씨앗을 차가운 땅에 바로 뿌려야 한다. 스패로우그래스는 참새와 아무 상관이 없지만, 지빠귀가 푸른 계곡을 향해 노래하는 첫날이 바로 심을 때다. 이 계절에 스프라이트포일을 보거든 지체 없이 뽑아라. 그대로 두면 네 작물을 모두 뒤덮을 것이다.\r\n\r\n마지막 서리가 사라지면 아다루스 동굴로 들어가 페일링 완드(Paling Wand)를 가져와라. 경고하건대 무장하고 가라. 안전을 위해 필요한 만큼 남녀를 데려가라.\r\n\r\n\r\n긴 낮 - 첫 더위, 그리고 그 이후\r\n\r\n그동안 일 좀 했다고 생각하겠지만, 제대로 된 무더위가 시작되면 그저 게으른 얼간이에 지나지 않았음을 깨닫게 될 것이다. 비가 드문 때는 작물이 마르지 않게 살펴야 하고, 늘 부지런해야 한다. 동트기 전에 일어나 삽과 괭이, 갈퀴를 들고 이 땅을 일구면 땅이 보답할 것이다. 햇볕에 살갗이 타고 허리가 매 맞은 듯 쑤셔도 일을 멈출 수 없다. 하지만 노동만으로는 부족하다.\r\n\r\n길을 잃은 스프라이트의 시선을 허수아비로 돌리면 작물 대신 허수아비를 찢어 놓는다. 날이 짧아지기 전 별엉겅퀴(Star Thistle)가 꽃을 피우니, 그때 바닷아마(Seaflax)에 화덕 재를 뿌려 윤기와 생기를 더해도 좋다.\r\n\r\n하지만 페일링 완드(Paling Wand)가 없으면 이 모든 게 헛수고다. 이맘때 땅은 사납게 날뛰며 춤춘다고, 나는 그렇게 말하곤 한다. 지팡이가 없으면 땅은 제멋대로 춤추고 작물은 엉뚱한 것으로 변해 버린다. 나도 밭고랑을 오가며 모든 작물 위로 지팡이를 하나하나 지나가게 하지만, 너무 지나치다고 하는 사람도 있다.\r\n\r\n\r\n첫 서리와 수확\r\n\r\n일 페탈(Eel Petal)은 따뜻한 계절 내내 채집할 수 있지만, 대부분의 작물은 땅에 첫 서리가 내릴 때 수확하게 된다. 매일 아침 사티바 줄기(Sativa Stalks)에게 노래를 불러 줘야 한다. 나도 그렇게 하는데, 정말 큰 차이가 난다.\r\n\r\n물론 페일링 완드(Paling Wand)가 없으면 꼼짝없이 낭패를 보지. 우리가 일하는 동안 막내딸에게 지팡이를 머리 위로 높이 들게 한다. 그러면 우선 수확하는 동안 작물이 움직이지 않는다. 작물이 뿌리를 내리거나 서로 뒤엉켜 싸우는 것도 막아 주니 큰 도움이 된다.\r\n\r\n그다음엔 풀을 말아 두고 잎을 말리고, 과일을 끓여 단지에 담아야 해. 곡식 일부를 발효시키는 것도 잊지 말아야 한다.\r\n\r\n\r\n서리와 눈의 달들\r\n\r\n겨울은 시작될 때 가장 힘들고 위험하다. 페일링 완드(Paling Wand)의 힘을 전부 썼으니 동굴로 돌려놓아야 한다. 야생 페이(Wild Fae)들은 봄철과는 비교도 안 될 만큼 지금 배가 고프다. 팔 하나를 잃지 않으려면 각별히 조심해야 한다.\r\n\r\n그 뒤에는 집의 온기로 돌아가, 아껴 둔 술을 마시고 담배를 피우며 잠을 청해도 좋다. 땅이 그러듯 뼈를 쉬게 해야 한다. 눈이 그치고 땅이 깨어나면 너도 반드시 깨어나야 한다!"
+      },
+      {
+        "id": 59513,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "수호자의 격식 있는 자기소개로 자연스럽다. ‘-다’와 ‘-지’의 병용만으로 말투 오류가 되지는 않는다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59517,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "You won't stay. No one does.",
+        "reason": "‘그러지 않지’가 앞의 부정문을 받아 의미가 모호해지므로 머무르지 않는다는 뜻을 명시했다.",
+        "revised_ko": "넌 여기에 남지 않을 거야. 누구도 남지 않지."
+      },
+      {
+        "id": 59523,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "Still sorting through the crime scene",
+        "reason": "현장을 치우는 것이 아니라 살피며 조사하는 중이라는 뜻이다.",
+        "revised_ko": "아직이야. 범죄 현장을 살펴보고 피해자의 친구들과 이야기하는 중이야."
+      },
+      {
+        "id": 59536,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 출발·접근을 알리는 감탄을 자연스럽게 옮겼다. 일본어의 시점 차이만으로 고칠 필요는 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59537,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "두 원문의 단독 명사와 정확히 대응하며 호칭이나 표제로도 자연스럽다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59539,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "전쟁 전에 경건하게 살았어야 한다는 비판과 뒤늦은 재기 시도에 대한 냉소가 영어에 부합한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59542,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "장수하지만 필멸이라는 대조를 두 원문과 같이 전달한다. 격식 있는 설명체도 허용된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59554,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "수식이 길지만 동굴의 마력과 추위를 막는 부적이라는 관계가 분명하며 대사로도 성립한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59563,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "식물의 소식과 채집 욕구, 실종자 때문에 느끼는 위험을 영어에 충실하게 전달한다. 독백과 기록 어느 쪽에도 무리가 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59566,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "사건의 순서와 주체가 명확하고 일본어의 격식 있는 설명 어조에도 맞는다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59572,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 짧은 감탄과 직접 대응한다. 일본어와의 용법 차이만으로 오류를 확정할 수 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59582,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "성과를 비교하는 표현은 한국어에서도 통용되며 보상을 주는 말과 자연스럽게 이어진다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59592,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "in the middle of nowhere",
+        "reason": "‘아무것도 없는 한복판’은 장소 표현이 부자연스러워 외딴곳이라는 뜻으로 다듬었다.",
+        "revised_ko": "어쩔 수 없었어. 여긴 아무것도 없는 외딴곳이잖아."
+      },
+      {
+        "id": 59594,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘우리 것’이 바로 앞의 목표와 방식을 명확히 받는다. 의미와 대화체 모두 허용되는 수준이다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59599,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "지배력을 약화하는 유일한 무기와 제작 조건을 정확하게 설명한다. 서술체 자체는 결함이 아니다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59603,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "성채 점령과 가문 축출 때문에 처치를 맹세했다는 의미가 정확하다. 단정적인 서술체도 결의 표명에 적절하다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59604,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘마음을 굳힌 김에’는 결의를 다진 상태에서 잠시 칭찬한다는 흐름으로 이해된다. 나머지 내용도 원문과 부합한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59607,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "가문과의 유대 정도를 하트스톤이 보여 준다는 뜻이 자연스럽게 전달된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59609,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "금화 비용이 병기되어 있어 ‘소액’은 적은 금액을 나타내는 선택지로 적절하다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59610,
+        "decision": "corrected",
+        "evidence_language": "ko",
+        "evidence_quote": "걸어서 둘러보기 참 멋지지 않나요?",
+        "reason": "‘둘러보기 멋지다’의 어색한 결합을 최소한으로 다듬었다.",
+        "revised_ko": "이 도시는 걸어서 둘러보면 참 멋지지 않나요? 장벽(Walls)에서 분화구를 내려다보거나, 군도에서 우리 건물을 올려다보면 정말 숨이 멎을 듯하죠."
+      },
+      {
+        "id": 59611,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "While alive. We wail vapid moans.",
+        "reason": "신음을 내는 주체는 우리다. 현재 번역은 앞의 ‘우리를 위해’와 이어져 해골이 신음하는 듯 읽힌다.",
+        "revised_ko": "하이 풀겐(High Fulgen) 정상의 해골들이 빛나고,\r\n차갑고도 선명한 줄을 이루네.\r\n살아 있는 채로 속이 빈 뼈를 씹는 우리를 위해,\r\n우리는 공허한 신음을 내지.\r\n먹고 포식하는 것이 우리의 기쁨,\r\n우리는 동쪽의 겨울,\r\n썩어 가는 꽃 속의 시체,\r\n부패와 황혼의 어둠이지.\r\n굶주린 채 기다리는 일을 멈추지 않으리,\r\n쏟아진 피가 접시에 담길 때까지.\r\n그러니 밤에 우리 땅으로 오라,\r\n끝없이 이어지는 겨울을 보리라."
+      },
+      {
+        "id": 59627,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "완료한 행동을 알리는 문장으로 두 원문에 충실하다. ‘-했다’는 대사나 선택지에서도 가능하다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59641,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "감시 사실을 알게 할 의도가 없었다는 뜻과 사냥감이 의심할 가능성을 자연스럽게 전달한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59653,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "카드의 해석을 설명하는 원문의 문체와 의미에 잘 맞는 한국어다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59657,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "세 언어 모두 같은 마침표뿐이므로 한국어만의 결함이나 수정 근거가 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59660,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘재미를 더하다’는 일반적인 표현이며 경주와 몰이의 대비도 정확하다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59662,
+        "decision": "corrected",
+        "evidence_language": "ko",
+        "evidence_quote": "내 깨어 있는 시간을 낭비하러",
+        "reason": "‘깨어 있는 시간’은 이 핀잔에서 부자연스러운 직역이다. 시간 낭비라는 핵심을 유지했다.",
+        "revised_ko": "칭호를 사러 왔나, 아니면 내 시간을 낭비하러 왔나?"
+      },
+      {
+        "id": 59669,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "한국어의 ‘못 봤어?’는 목격 여부를 묻는 자연스러운 질문이며 부정 사실을 단정하지 않는다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59679,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘말해 둬야겠군’은 거만하게 덧붙이는 말로 성립한다. 결투와 상대에 대한 비아냥도 보존된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59693,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "Wasting my time wastes lives.",
+        "reason": "인명 손실을 경고하는 말이므로 ‘목숨을 낭비하다’보다 목숨을 잃게 한다는 표현이 명확하다.",
+        "revised_ko": "내 시간을 낭비하면 다른 사람들이 목숨을 잃게 되는 거야. 라시르(Rathir)로 가서 입대하는 편이 더 쓸모 있겠어."
+      },
+      {
+        "id": 59700,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "비장한 결의를 나타내는 단정적 종결로 자연스럽고 원문의 최소한의 목표도 보존한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59701,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "I've seen more of the soldiers that defend Mel Senshir than all of the officers ten times over.",
+        "reason": "장교의 인원수와 병사 수를 비교하는 것이 아니라 화자가 장교들보다 병사들을 훨씬 많이 접했다는 뜻이다.",
+        "revised_ko": "멜 센시르(Mel Senshir)를 지키는 병사들을 만나 본 횟수라면 장교들을 전부 합친 것보다 내가 열 배는 더 많아."
+      },
+      {
+        "id": 59703,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "마지막 문장은 화자 자신의 깨달음에 대한 독백으로 자연스럽게 읽힌다. 한국어의 주어 생략만으로 의미 오류는 아니다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59708,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "소개를 통해 상대의 혼란을 풀어 주겠다는 의미가 통하며 왕의 단정적인 말투도 일관된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59713,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "선택받아 명상하고 영혼과 교감하는 영광이라는 의미를 보존하며 경건하고 격식 있는 어조에 맞는다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59719,
+        "decision": "uncertain",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘무게를 들다’는 어색하지만 영어의 ‘mine’이 가리키는 대상이 없고 일본어도 이를 확정해 주지 않아 안전한 대체어를 정하기 어렵다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59720,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "무거운 요구라는 판단 뒤에 이유를 덧붙이는 문장으로 자연스럽다. 종결형의 차이는 오류가 아니다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59721,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문 역시 앞선 행위를 생략한 응답이다. 한국어도 같은 방식으로 지시하므로 추가 주어가 필요하지 않다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59722,
+        "decision": "corrected",
+        "evidence_language": "ko",
+        "evidence_quote": "그들의 삶은 방향 감각을 잃고, 방탕하고, 벌거벗고, 토하고, 게으르고, 주술에 빠지고, 또 술을 마시는 것뿐이다.",
+        "reason": "‘삶’이 벌거벗거나 토하는 구조가 되어 주술 호응이 어색하다. 사람을 주어로 고쳤다.",
+        "revised_ko": "제6부\r\n의로운 성 하드윈(St. Hadwyn)은 포도주를 ‘신앙의 작은 벗’이라 불렀다. 용기를 북돋우고 속을 편안하게 해 주기 때문이다. 미사루(Mitharu)의 질서가 필멸자의 혼란스러운 삶을 바로잡듯 포도주는 기분을 안정시키고, 병든 몸을 강하게 하며, 상처 입은 영혼을 달랜다.\r\n\r\n하지만 절제를 쫓아내고 과음이 가장 행복한 삶이라고 여기는 가련한 이들 앞에는 수많은 비극이 기다린다. 그들은 방향 감각을 잃고, 방탕하게 굴고, 벌거벗고, 토하고, 게으름을 피우고, 주술에 빠지고, 또 술을 마실 뿐이다. 반쯤 벗은 채 비틀거리며 목에 말 굴레를 걸고 왕의 치장이라도 한 듯 뽐내고, 우애를 핑계 삼아 서로에게 토하는 게으름뱅이들을 볼 수 있다. 술에 취해 장밋빛으로 달아오른 얼굴, 더럽고 창백하며 불룩한 물고기 같은 얼굴로 낯빛이 시퍼런 채 동이 틀 때까지 또 맥주잔을 찾는 이들도 있다. 사랑하는 형제들이여, 사람이 가장 무력해진 모습을 알고 그와 최대한 멀리 떨어지는 것은 좋은 일이다. 그리고 이 얼간이들이 비틀거리며 다가가야 할 횃불이 되도록 스스로를 가다듬어야 한다.\r\n\r\n미사루(Mitharu)께서는 이런 모든 무력함에 맞설 한마디를 우리에게 주셨다. 물.\r\n\r\n물은 자연이 준 필수 음료이자 권위의 선물이다. 그러므로 물은 사회와 절제를 위한 올바른 음료다. 권위의 질서에 따르는 모든 축복과 마찬가지로, 음료도 건강과 명예, 무엇보다 신앙을 지키도록 최대한 절제하며 마셔야 한다. 그러므로 금욕 생활을 택하고 절제의 달콤한 즙인 물을 좋아하는 이들에게 권한다. 취하려고 술을 마시는 일을 멀리하고 병의 유혹에 등을 돌려, 지혜라는 신성한 음료로 갈증을 달래라.\r\n\r\n그러므로 젊은이들은 혼돈을 부르는 술의 유혹을 피해야 한다. 인간성이라는 불타는 솥에 가장 독한 액체인 포도주를 붓는 것은 옳지 않다. 불에 불을 더하는 셈이니, 타닥거리는 불길이 인간의 가장 나쁜 욕망을 부추길 것이다. 육체의 욕망과 음란한 열기를 조심하라. 잔혹한 폭력과 짐승 같은 약탈의 욕망을 조심하라. 주사위와 헥스(Hexes) 장수의 갈라진 혀를 조심하라. 불같은 악습은 술잔에서 시작되기 때문이다. 속에서부터 타오르는 젊은이는 잔악한 성향에 빠지기 쉽다."
+      },
+      {
+        "id": 59734,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "the jealousy of power",
+        "reason": "권력 자체를 질투한다기보다 권력을 둘러싼 질투라는 뜻으로 표현하는 것이 자연스럽다.",
+        "revised_ko": "피마와 우리 엄마는 자매처럼 가까웠어. 마을에서 다음 사이온(Scion)을 뽑았을 때 모든 게 달라졌지. 권력을 둘러싼 질투 앞에서는 우정도 버틸 수 없어."
+      },
+      {
+        "id": 59741,
+        "decision": "corrected",
+        "evidence_language": "ko",
+        "evidence_quote": "다량",
+        "reason": "금화 비용으로 제시된 금액의 크기이므로 물량을 뜻하는 ‘다량’보다 ‘큰 금액’이 적절하다.",
+        "revised_ko": "큰 금액 ($DLC1_Diplomacy.trade_cost_large$ #NAMED_ICON_GOLD#)"
+      },
+      {
+        "id": 59745,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "관찰 원칙을 가르치는 격식 있는 강의로서 추상적인 용어가 적절하다. 지적된 결과 문장도 전투가 판단 실패의 결과라는 의미로 이해된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59748,
+        "decision": "uncertain",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 ‘I would see to them’은 직접 살피겠다는 말과 상대에게 주는 권고로 읽힐 여지가 있다. 일본어도 주체를 확정하지 않아 수정하기 어렵다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59750,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "looking for dirt on the prison",
+        "reason": "‘감옥에 관한 약점을 캐다’는 어색하고, ‘dirt’는 불리한 정보나 비리를 뜻한다. 뒤 질문도 장래 희망이 아니라 상대의 정체를 떠보는 말이다.",
+        "revised_ko": "흥미롭군... 감옥의 뒷이야기를 캐려는 건가? 그럼 탈옥 전문가라도 되는 거야?"
+      },
+      {
+        "id": 59752,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "sate your bloodthirst",
+        "reason": "‘네 피에 대한 갈증’은 자신의 피를 갈망한다는 뜻으로 읽힌다. 갈증의 소유 관계를 바로잡았다.",
+        "revised_ko": "싸우고 싶다면 이보다 나은 곳은 없어. 사람이고 짐승이고 온갖 상대가 네 피에 굶주린 욕망을 채워 줄 테니까."
+      },
+      {
+        "id": 59757,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "대상의 정체와 두 가지 조작 가능성을 정확히 전달한다. 해체를 배제할 근거는 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59760,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "They call the Demon back to wreak the havoc of ancient doom.",
+        "reason": "악마를 부르는 이들은 별도의 주체다. 현재 문장은 화자가 부르겠다는 선언처럼 읽히며 ‘스스로 묻어라’도 목적어가 불분명하다.",
+        "revised_ko": "보이지 않느냐, 보이지 않느냐?\r\n지옥이 너와 나를 찾아왔다.\r\n잠들지 마라, 달아나지 마라. 네 몸을 묻어라,\r\n땅을 파고, 흙으로 덮고, 몸을 감싸라, 계속 파라!\r\n벌레 밑에, 모래 밑에 숨어라. 아니면 불길이 널 삼키리라.\r\n그들이 악마를 다시 불러 고대의 파멸을 일으키려 한다. 악마가 온다, 파라!"
+      },
+      {
+        "id": 59776,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "목적어를 주제화한 ‘그대는’은 문법적으로 가능하며 정중한 초대와 공연에 대한 약속도 자연스럽다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59783,
+        "decision": "corrected",
+        "evidence_language": "ko",
+        "evidence_quote": "이 해협 이쪽에서",
+        "reason": "지시 표현이 겹쳐 어색하다. 해협을 기준으로 한 지역 범위는 유지했다.",
+        "revised_ko": "타릭 스미스(Tarrick Smith)야. 해협 이쪽에서는 내가 최고의 갑옷장이일걸. 장비를 수리하고 싶으면 말만 해."
+      },
+      {
+        "id": 59785,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "단정적인 회고와 대화체 종결은 함께 쓸 수 있다. 멜 센시르에서 벗어났다는 번역도 영어에 근거한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59799,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "You must be as perplexed as I am about our situation.",
+        "reason": "상황과 상대를 비교하는 문장이 아니라 상대도 화자만큼 당혹스러울 것이라는 뜻이다.",
+        "revised_ko": "너도 나만큼이나 우리 처지가 혼란스럽겠지. 시녀(The Maid) 없이 어떻게 시녀(The Maid)의 노래를 흉내 내지? 수수께끼야."
+      },
+      {
+        "id": 59806,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "격식 있는 인물 소개로 자연스럽고 지혜, 강인한 성품, 정책상 불화라는 의미가 모두 정확하다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59807,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "앞서 언급한 무리 중에서라는 뜻으로 ‘중에서도’를 생략적으로 쓸 수 있다. 가문 간 비교도 정확하다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 59809,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "no Wand to mend it",
+        "reason": "고쳐야 할 대상은 지팡이가 아니라 농장이다. 도구 관계를 분명히 했다.",
+        "revised_ko": "농장은 망가졌고 지팡이도 없어 고칠 수가 없어. 떠나야 해. 다른 방법은 없어."
+      }
+    ],
+    "validation_issues": []
+  }
+}

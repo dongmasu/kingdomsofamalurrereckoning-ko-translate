@@ -1,0 +1,451 @@
+{
+  "fingerprint": "58a70b7fcd363311f6505cd059270e57523895474a17966c27b9153563158eae",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 10095,
+  "last_id": 10882,
+  "row_count": 60,
+  "seconds": 36.45,
+  "usage": {
+    "completion_tokens": 2805,
+    "prompt_tokens": 12702,
+    "total_tokens": 15507,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 12699,
+      "cache_creation_tokens": 12699
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 10095,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "時に",
+        "reason": "바람이 때때로 거세진다는 원문의 뜻을 보완한다."
+      },
+      {
+        "id": 10101,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I find you worthy",
+        "reason": "자격 판단의 대상이 상대방임을 바로잡는다."
+      },
+      {
+        "id": 10112,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You outsmarted us once",
+        "reason": "꾀어낸 것이 아니라 지략으로 이겼다는 뜻을 반영한다."
+      },
+      {
+        "id": 10138,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "忌々しい",
+        "reason": "질병이 아닌 욕설로 쓰인 표현을 자연스럽게 옮긴다."
+      },
+      {
+        "id": 10143,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 캐로윈이 강제로 돌려보내려 하지 않았다는 뜻으로도 읽혀 수정이 확실하지 않다."
+      },
+      {
+        "id": 10170,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "in your own time",
+        "reason": "돌아오는 시점이 자신의 뜻에 달렸다는 의미를 분명히 한다."
+      },
+      {
+        "id": 10171,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "without any hands",
+        "reason": "손을 대지 않는 것이 아니라 손이 없는 상황을 반영한다."
+      },
+      {
+        "id": 10173,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Both sons, my brother, and my beloved Avery",
+        "reason": "아들뿐 아니라 오빠와 에이버리도 포함된다는 뜻을 바로잡는다."
+      },
+      {
+        "id": 10191,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 거래를 마치는 인사로 이해되며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 10195,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "was almost returned to her",
+        "reason": "돌아갈 뻔한 것이 아니라 거의 돌아왔다는 뜻을 바로잡는다."
+      },
+      {
+        "id": 10197,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "時に",
+        "reason": "바람이 때때로 거세진다는 원문의 뜻을 보완한다."
+      },
+      {
+        "id": 10215,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "everyone should share in our exploration",
+        "reason": "모두가 결정한 것이 아니라 탐구를 모두와 나누기로 했다는 뜻을 반영한다."
+      },
+      {
+        "id": 10238,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I don't know why they are here",
+        "reason": "여기 있는 주체가 놈들이라는 점을 명확히 한다."
+      },
+      {
+        "id": 10289,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘그들과’도 외교 임무의 상대를 자연스럽게 나타낸다."
+      },
+      {
+        "id": 10290,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 형기를 마칠 때까지 살아야 한다는 뜻을 전달한다."
+      },
+      {
+        "id": 10297,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "to accompany them",
+        "reason": "전사단이 에라시인들과 동행한다는 뜻을 반영한다."
+      },
+      {
+        "id": 10300,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "selling your sword",
+        "reason": "검 자체를 빌려주는 것으로 오해될 표현을 용병으로 고용되는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 10302,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 거래를 마치는 말로 이해되며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 10307,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "소규모 무리와 함께 들어왔다는 기존 해석도 영어 원문에서 가능하다."
+      },
+      {
+        "id": 10313,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "It can wait.",
+        "reason": "상대방이 기다려도 된다는 뜻이 아니라 일이 미뤄져도 된다는 뜻을 반영한다."
+      },
+      {
+        "id": 10340,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 경고는 기존 번역으로도 전달되며 제안이 뉘앙스를 바꿀 수 있다."
+      },
+      {
+        "id": 10394,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What refugees?",
+        "reason": "특정 난민의 신원을 묻기보다 무슨 난민인지 되묻는 표현이다."
+      },
+      {
+        "id": 10396,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘생물’이 다소 독특해도 원문의 경멸 섞인 표현을 반영한다."
+      },
+      {
+        "id": 10446,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 뜻이 통하며 제안이 명백한 오류를 고치지는 않는다."
+      },
+      {
+        "id": 10448,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "up here",
+        "reason": "어색한 ‘여기 위’ 대신 높은 곳에 있다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 10460,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Who do these invaders think they are",
+        "reason": "침략자의 신원을 묻는 듯한 어색함을 질책하는 표현으로 고친다."
+      },
+      {
+        "id": 10462,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "신체 일부를 떼어 간다는 구체적 행위는 원문에서 확실하지 않다."
+      },
+      {
+        "id": 10467,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "don't allow us into some of them",
+        "reason": "들어갈 수 없는 장소를 나타내는 조사를 자연스럽게 고친다."
+      },
+      {
+        "id": 10489,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a dark and deadly reputation",
+        "reason": "어색한 ‘악명으로 알려져’의 중복을 바로잡는다."
+      },
+      {
+        "id": 10514,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "카드패를 뜻할 수 있는 원문을 바둑의 수로 단정하며, 기존 표현도 비유로 가능하다."
+      },
+      {
+        "id": 10523,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "ever thick-witted",
+        "reason": "느리다는 뜻이 아닌 아둔하다는 성격 묘사를 반영한다."
+      },
+      {
+        "id": 10528,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "dreg",
+        "reason": "원문의 멸칭을 종교적 낙인이 아닌 욕설로 바로잡는다."
+      },
+      {
+        "id": 10531,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 rank는 계급을 뜻할 수 있어 기존 표현을 바꿀 필요가 확실하지 않다."
+      },
+      {
+        "id": 10590,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "take hold of the Archsage's ambitions",
+        "reason": "야심을 ‘장악하다’보다 통제하려 한다는 표현이 자연스럽다."
+      },
+      {
+        "id": 10593,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "no reference to such a place",
+        "reason": "장소 자체가 아니라 장소에 관한 기록을 찾지 못했다는 뜻을 바로잡는다."
+      },
+      {
+        "id": 10600,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 필멸자와 그 존재를 용납하지 않는다는 원문의 구조를 반영한다."
+      },
+      {
+        "id": 10602,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Normally, I'd say",
+        "reason": "평소라면 그렇게 말했을 것이라는 가정을 분명히 한다."
+      },
+      {
+        "id": 10612,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 누구 때문에도 멈추지 않겠다는 뜻을 전달한다."
+      },
+      {
+        "id": 10634,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 가능성과 결과를 문맥상 전달하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 10642,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the whispers on the lips",
+        "reason": "어색한 ‘속삭임을 알아차렸다’를 사람들 사이에 도는 말로 자연스럽게 고친다."
+      },
+      {
+        "id": 10666,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘우리 보고’도 문맥상 우리 측의 보고로 이해된다."
+      },
+      {
+        "id": 10670,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 harmonies는 마법적 화음을 뜻할 수도 있어 기존 표현이 부정확하다고 단정하기 어렵다."
+      },
+      {
+        "id": 10674,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스러우며 관형격 조사가 반드시 필요하지 않다."
+      },
+      {
+        "id": 10684,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 상대의 사정과 정체를 묻는 원문의 뜻을 전달한다."
+      },
+      {
+        "id": 10690,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the faraway look",
+        "reason": "먼 곳을 실제로 바라본다는 해석 대신 멍하거나 생각에 잠긴 표정을 반영한다."
+      },
+      {
+        "id": 10707,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 이론의 우아함에 헌신한다는 원문을 충실하게 전달한다."
+      },
+      {
+        "id": 10717,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "his heart and head back in the business",
+        "reason": "마음과 정신을 되찾았다는 별도 의미 대신 다시 일에 집중한다는 뜻을 반영한다."
+      },
+      {
+        "id": 10726,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "mortal beasts",
+        "reason": "필멸자들의 야수가 아니라 필멸하는 야수라는 뜻을 반영한다."
+      },
+      {
+        "id": 10727,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현은 주변을 포함한 더 넓은 칸드리안이라는 원문의 뉘앙스를 전달한다."
+      },
+      {
+        "id": 10743,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 데드 켈을 위해 비난을 아껴 두라는 원문의 비유를 전달한다."
+      },
+      {
+        "id": 10762,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "解呪した箱に対して報酬を支払おう",
+        "reason": "용기 자체의 값이 아니라 마법 해제에 대한 보수임을 분명히 한다."
+      },
+      {
+        "id": 10764,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ひどい味ね",
+        "reason": "음료가 문자 그대로 오줌이라는 뜻이 아니라 맛을 비난하는 표현으로 고친다."
+      },
+      {
+        "id": 10772,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 칼날 위 비유도 원문에 충실하며 의미가 통한다."
+      },
+      {
+        "id": 10779,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "욕설과 목적격 조사는 개선되지만 원문에 있는 노처녀의 실이라는 표현을 삭제한다."
+      },
+      {
+        "id": 10784,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ねじ曲げ",
+        "reason": "추상적인 순환을 ‘휘다’보다 ‘뒤틀다’로 자연스럽게 표현한다."
+      },
+      {
+        "id": 10824,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Not on your life.",
+        "reason": "목숨을 걸어도 안 된다는 오역을 단호한 거절 표현으로 고친다."
+      },
+      {
+        "id": 10842,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 we가 화자와 상대 중 누구를 포함하는지 확정하기 어려우며 기존 번역도 가능하다."
+      },
+      {
+        "id": 10848,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "생존자들을 조직한다는 뜻이 단순히 모은다는 뜻으로 축소된다."
+      },
+      {
+        "id": 10869,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "실제로 뼈만 남은 화자일 가능성을 배제할 맥락이 없다."
+      },
+      {
+        "id": 10882,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘살인적인’도 선원들의 살인성을 나타내는 원문에 부합한다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "fingerprint": "9c6265ad69c6ba4cc86cd9f3ce4f1bf3bfb41c609e90a23ac73dcce225cb6301",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 16907,
+  "last_id": 17930,
+  "row_count": 60,
+  "seconds": 36.81,
+  "usage": {
+    "completion_tokens": 2921,
+    "prompt_tokens": 10565,
+    "total_tokens": 13486,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 9,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10562,
+      "cache_creation_tokens": 10562
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 16907,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my destiny will be to serve you",
+        "reason": "직역투를 자연스럽게 다듬으면서 운명의 의미를 유지한다."
+      },
+      {
+        "id": 16923,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "偽物の命を守る",
+        "reason": "어색한 ‘생명 수호구’를 문맥에 맞게 풀었다."
+      },
+      {
+        "id": 16939,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "...分かった",
+        "reason": "뜬금없는 ‘나’를 빼고 망설임을 유지한다."
+      },
+      {
+        "id": 16943,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "骨壷",
+        "reason": "일반 항아리보다 유골함이 원문에 정확하다."
+      },
+      {
+        "id": 16960,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "by the Hierophant's gaze",
+        "reason": "맹세의 관용 표현을 장소 묘사로 오해한 부분을 고친다."
+      },
+      {
+        "id": 16995,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ヨルヴァンの南部にある。ここから東側だ",
+        "reason": "요르반 남부와 현재 위치에서의 동쪽을 구분한다."
+      },
+      {
+        "id": 17017,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "fate has woven no thread to open these doors",
+        "reason": "문을 열 운명의 실이 없다는 원문의 비유를 살린다."
+      },
+      {
+        "id": 17029,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 뜻을 전달하며 제안이 필수적이지 않다."
+      },
+      {
+        "id": 17050,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "in their essence",
+        "reason": "어색한 ‘본질에’를 자연스러운 부사 표현으로 고친다."
+      },
+      {
+        "id": 17062,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "各要塞に物資を供給していた",
+        "reason": "보급품을 받는 성채에 맞는 조사를 쓴다."
+      },
+      {
+        "id": 17086,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 영어의 고향이라는 의미를 명시하지 않으며 기존 표현도 가능하다."
+      },
+      {
+        "id": 17101,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "refusing to check in when he was supposed to",
+        "reason": "정해진 때에 연락하지 않은 것으로 시점과 행위를 바로잡는다."
+      },
+      {
+        "id": 17109,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "If I sound proud of us, it's because I am",
+        "reason": "누가 누구를 자랑스러워하는지 명확히 한다."
+      },
+      {
+        "id": 17129,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "A village like Didenhil needs a man like Kester to watch over it",
+        "reason": "목적어에 맞는 조사를 사용해 문장을 자연스럽게 한다."
+      },
+      {
+        "id": 17137,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "impossible things - changes to Fate, death of the immortals, and other heresies",
+        "reason": "이단적인 주장을 별도로 표현해 어색한 수식을 고친다."
+      },
+      {
+        "id": 17147,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "City, slumber, dark and still Until awakened to my will",
+        "reason": "인용 범위와 구절을 문장부호로 명확히 한다."
+      },
+      {
+        "id": 17159,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 비유를 전달하며 변경이 필수적이지 않다."
+      },
+      {
+        "id": 17184,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "That task was Boderill's",
+        "reason": "부정적 뉘앙스의 ‘소행’을 담당 업무라는 원뜻으로 고친다."
+      },
+      {
+        "id": 17212,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the few untainted Pride remaining",
+        "reason": "어색한 구성원 수식 순서를 바로잡는다."
+      },
+      {
+        "id": 17229,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "It will serve as a reminder",
+        "reason": "화자가 본보기로 삼겠다는 의지보다 남겨진 교훈이라는 원뜻에 가깝다."
+      },
+      {
+        "id": 17235,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I have Talismans to sell",
+        "reason": "이미 판매 중이라는 뜻이 아니라 팔 물건이 있다는 뜻을 살린다."
+      },
+      {
+        "id": 17239,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 거친 강조도 영어의 ‘damn’에 부합한다."
+      },
+      {
+        "id": 17255,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "あの暗い時代",
+        "reason": "‘어두운 시각’의 시간대 의미를 피하고 시대적 의미를 살린다."
+      },
+      {
+        "id": 17270,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Got a severed leg",
+        "reason": "화자의 다리가 잘린 것이 아니라 잘린 다리를 얻은 뜻이다."
+      },
+      {
+        "id": 17289,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ガラスが視力を増してくれる",
+        "reason": "시야를 넓힌다는 추가 해석 없이 더 잘 볼 수 있다는 뜻을 살린다."
+      },
+      {
+        "id": 17291,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "without debasing Fae sorcery",
+        "reason": "마법을 격 낮은 용도로 쓴다는 비난을 자연스럽게 전달한다."
+      },
+      {
+        "id": 17300,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "今は逃げなきゃ",
+        "reason": "단순히 서두르는 것이 아니라 도망쳐야 한다는 뜻이다."
+      },
+      {
+        "id": 17320,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ためらうな",
+        "reason": "이 맥락에서 행동을 망설이지 말라는 뜻이 자연스럽다."
+      },
+      {
+        "id": 17330,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "주머니를 장사로 채운다는 해석은 원문에서 확정하기 어렵다."
+      },
+      {
+        "id": 17389,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 최소한의 도리라는 영어의 의미를 능력의 한계로 바꾼다."
+      },
+      {
+        "id": 17402,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my best portrayal of him",
+        "reason": "화자 자신의 최선의 묘사였다는 뜻을 복원한다."
+      },
+      {
+        "id": 17403,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "And people say I'm strange",
+        "reason": "화자가 자신과 다른 대상을 대조하는 뉘앙스를 살린다."
+      },
+      {
+        "id": 17427,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the earth was left below me",
+        "reason": "땅이 사라진 것이 아니라 아래로 멀어진 상황을 나타낸다."
+      },
+      {
+        "id": 17434,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "舞台にかじりつくようなタイプ",
+        "reason": "‘stageling’을 사슴으로 오역한 부분을 무대 관련 표현으로 고친다."
+      },
+      {
+        "id": 17456,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "This new breed of mad Fae",
+        "reason": "어색한 ‘광기의 페이’를 광기 어린 페이로 자연스럽게 고친다."
+      },
+      {
+        "id": 17495,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "My twin brother and I",
+        "reason": "쌍둥이 형제와 함께 입대하려 했다는 관계를 명확히 한다."
+      },
+      {
+        "id": 17501,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "自分以上のセージクラフターはいない",
+        "reason": "비교 대상이 화자 자신임을 명시한다."
+      },
+      {
+        "id": 17599,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I imagine it's all a bit muddled",
+        "reason": "근거 없는 기억 언급을 빼고 마지막 부정도 반영한다."
+      },
+      {
+        "id": 17629,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "スプライトを生み出す儀式",
+        "reason": "이미 태어난 스프라이트를 위한 의식이 아니라 탄생시키는 의식이다."
+      },
+      {
+        "id": 17630,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 인맥과 일본어의 상호 연결 중 어느 의미인지 불확실하다."
+      },
+      {
+        "id": 17646,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He's alive in Didenhil",
+        "reason": "살아 있는 장소에 자연스러운 조사를 쓴다."
+      },
+      {
+        "id": 17664,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "She's pitted me against a bunch of Chaos creatures",
+        "reason": "괴물들과 맞붙은 대상이 화자임을 명확히 한다."
+      },
+      {
+        "id": 17677,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "一体何なの？",
+        "reason": "상대가 여기서 하는 일을 묻는 뜻으로 좁힌 부분을 바로잡는다."
+      },
+      {
+        "id": 17680,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "if luck's your lady",
+        "reason": "행운의 여신이 누구인지가 아니라 운이 따르는지 묻는 표현이다."
+      },
+      {
+        "id": 17684,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "They've never let me inside",
+        "reason": "들어가 본 적이 없다는 뜻에 더해 출입을 허락받지 못했음을 반영한다."
+      },
+      {
+        "id": 17693,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'd nearly determined its resting place when you blundered in here",
+        "reason": "장소를 거의 알아냈을 때 상대가 들어왔다는 시간 관계를 고친다."
+      },
+      {
+        "id": 17697,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I will lend my magic to your skill",
+        "reason": "실력에 마법을 보탠다는 원문의 관계를 자연스럽게 살린다."
+      },
+      {
+        "id": 17739,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "맥락 없이 효과가 떨어지는 대상이 약물이나 효능인지 확정하기 어렵다."
+      },
+      {
+        "id": 17778,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "皆、家族だった",
+        "reason": "어색한 ‘그 남녀들’을 자연스러운 집단 지칭으로 바꾼다."
+      },
+      {
+        "id": 17792,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "wanted me to relieve him",
+        "reason": "화자가 상사의 근무를 교대하는 관계로 바로잡는다."
+      },
+      {
+        "id": 17806,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 높임 표현도 가능하며 제안의 격식 변경이 필수적이지 않다."
+      },
+      {
+        "id": 17831,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "환영하네",
+        "reason": "자기소개 종결을 주변의 ‘-네’ 말투와 일치시킨다."
+      },
+      {
+        "id": 17843,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "クラウンホールドを超え、混乱したフェイランドまで手を伸ばしたい",
+        "reason": "어색한 ‘야심을 뻗치다’를 세력 확장의 자연스러운 표현으로 고친다."
+      },
+      {
+        "id": 17846,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 거친 강조를 자연스럽게 전달한다."
+      },
+      {
+        "id": 17900,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Do not think that the city being raised will end my visits",
+        "reason": "찾아오는 일이 끝나지 않는다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 17902,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I keep waiting for Templar Tancese to tell us we're leaving Gallows End",
+        "reason": "끊어진 문장을 자연스럽게 연결하고 전달 대상을 명시한다."
+      },
+      {
+        "id": 17916,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 호칭의 위치도 자연스러워 변경이 필수적이지 않다."
+      },
+      {
+        "id": 17922,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 앞선 말이 정확하지 않다는 뜻을 전달한다."
+      },
+      {
+        "id": 17928,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it was certainly worth the search",
+        "reason": "찾은 보람이 있었다는 결과가 아니라 찾아볼 가치가 있었다는 뜻이다."
+      },
+      {
+        "id": 17930,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘강력한 요새’도 영어의 ‘mighty fortress’에 부합한다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

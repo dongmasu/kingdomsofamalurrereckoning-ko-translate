@@ -1,0 +1,451 @@
+{
+  "fingerprint": "99c7e8786f3408e573f2c3d148852d1f052e70c5b3242a52aa4735e2e814e762",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 43285,
+  "last_id": 44233,
+  "row_count": 60,
+  "seconds": 31.04,
+  "usage": {
+    "completion_tokens": 2684,
+    "prompt_tokens": 9786,
+    "total_tokens": 12470,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 9,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 9783,
+      "cache_creation_tokens": 9783
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 43285,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "let me keep the books",
+        "reason": "장부를 보는 것보다 관리하는 것이 원문에 맞습니다."
+      },
+      {
+        "id": 43288,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your ability to reshape the Weave",
+        "reason": "능력을 수식하는 어순이 자연스러워집니다."
+      },
+      {
+        "id": 43304,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "君を見れば分かる",
+        "reason": "어색한 표현을 원문에 맞게 고칩니다."
+      },
+      {
+        "id": 43319,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안도 감탄사의 뜻이 불분명해 문제를 뚜렷이 해결하지 못합니다."
+      },
+      {
+        "id": 43335,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 번역도 원문의 뜻을 전달하며 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 43343,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 열쇠를 건네는 말로 자연스럽습니다."
+      },
+      {
+        "id": 43368,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "理由も言わず、指示も残さないで",
+        "reason": "두 가지 모두 없었다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 43370,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문을 충실하게 전달합니다."
+      },
+      {
+        "id": 43376,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "곡식 안에서 자란다는 해석은 물속의 무언가가 곡식으로 들어간다는 원문과 차이가 있습니다."
+      },
+      {
+        "id": 43387,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "소속될 곳을 묻는 뜻이 어디로 가야 하는지 묻는 뜻으로 바뀝니다."
+      },
+      {
+        "id": 43388,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "皮が貼ってある",
+        "reason": "책을 재질로 묶었다는 어색한 표현을 표지에 관한 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 43416,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 서약에 관해 묻는 뜻을 전달합니다."
+      },
+      {
+        "id": 43430,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "効かなくなってしまう",
+        "reason": "앞으로 힘이 통하지 않게 된다는 원문의 뜻을 살립니다."
+      },
+      {
+        "id": 43439,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 원문에 부합합니다."
+      },
+      {
+        "id": 43458,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Oh, to live in a civilized place again",
+        "reason": "미완성된 소망 표현을 자연스럽게 완성합니다."
+      },
+      {
+        "id": 43487,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 비유적 표현도 자연스럽고 원문에 부합합니다."
+      },
+      {
+        "id": 43492,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Don't press your luck.",
+        "reason": "운이 좋다는 이유로 까불지 말라는 뜻보다 원문의 경고에 가깝습니다."
+      },
+      {
+        "id": 43499,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "アジーンの持ち物に仕込む",
+        "reason": "몸에 숨긴다는 표현을 소지품에 몰래 넣는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 43517,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "us three Master Makers",
+        "reason": "명장 세 명을 가리키는 어순을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 43571,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "경계를 선다는 기존 표현도 자연스럽고 뜻이 맞습니다."
+      },
+      {
+        "id": 43572,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "공정한 심판을 받도록 돕는다는 제안은 영어의 정의를 찾는다는 뜻보다 구체적입니다."
+      },
+      {
+        "id": 43582,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 뜻이 통하며 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 43651,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 간절한 말투를 전달합니다."
+      },
+      {
+        "id": 43662,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "one raw image of this perfection",
+        "reason": "완벽함을 비춘다는 뜻을 다듬어지지 않은 형상이라는 원문에 맞춥니다."
+      },
+      {
+        "id": 43667,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 원문의 조건을 전달합니다."
+      },
+      {
+        "id": 43671,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 all이 사람과 사물 중 무엇을 가리키는지 확정하기 어렵습니다."
+      },
+      {
+        "id": 43682,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "고유 호칭의 번역을 일관성 없이 바꿔야 할 근거가 충분하지 않습니다."
+      },
+      {
+        "id": 43692,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "사기를 약화시킨다는 기존 표현도 뜻이 명확합니다."
+      },
+      {
+        "id": 43713,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "She has my blessing.",
+        "reason": "직역투인 축복을 받았다는 표현을 맥락에 맞게 고칩니다."
+      },
+      {
+        "id": 43719,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 검투사 경력이 시작됐다는 맥락이 분명합니다."
+      },
+      {
+        "id": 43746,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Leave me to my torment.",
+        "reason": "어색한 조사를 고쳐 괴로움 속에 내버려 두라는 뜻을 살립니다."
+      },
+      {
+        "id": 43751,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 뜻이 같습니다."
+      },
+      {
+        "id": 43762,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "手が空いているなら",
+        "reason": "손이 비었다는 직역을 한가하다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 43791,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "어서 오게",
+        "reason": "같은 상대에게 혼용된 높임말을 일관되게 고칩니다."
+      },
+      {
+        "id": 43796,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "tarry in finding",
+        "reason": "문제를 알아내는 일이 지체된다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 43807,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he wished to use Niskaru in the War and was expelled",
+        "reason": "원문에 명시되지 않은 추방의 원인 관계를 제거합니다."
+      },
+      {
+        "id": 43808,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 대비가 되지 않았다는 원문의 뜻을 전달합니다."
+      },
+      {
+        "id": 43809,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "눈을 잃었다는 제안은 실명으로도 읽혀 원문의 비유를 확정적으로 바꿀 수 있습니다."
+      },
+      {
+        "id": 43820,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "announce your presence upon entering a room",
+        "reason": "방에 들어서는 주체가 상대방임을 분명히 합니다."
+      },
+      {
+        "id": 43843,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "통째로라는 강조가 다소 어색해도 반드시 삭제해야 할 의미 오류는 아닙니다."
+      },
+      {
+        "id": 43885,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "酒代にするんじゃない",
+        "reason": "술을 마시러 왔다는 뜻을 술값으로 쓰려는 게 아니라는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 43918,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 맹세를 전달합니다."
+      },
+      {
+        "id": 43958,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "our Library of lore",
+        "reason": "어색한 소유 표현을 지식을 담은 도서관이라는 뜻으로 고칩니다."
+      },
+      {
+        "id": 43974,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 논리를 제시하라는 말로 이해됩니다."
+      },
+      {
+        "id": 43977,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자신의 소박한 역할을 한다는 뜻을 전달합니다."
+      },
+      {
+        "id": 43991,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "予見者は去ったのだ",
+        "reason": "마지막을 보았다는 모호한 표현을 예언자의 최후라는 뜻으로 분명히 합니다."
+      },
+      {
+        "id": 44001,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "앞의 복수 대상을 그들로 받는 표현도 가능합니다."
+      },
+      {
+        "id": 44023,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What must I do, again?",
+        "reason": "다시 말해라는 표현을 이전 지시를 재차 묻는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 44024,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "骸布",
+        "reason": "관 덮개를 시신이나 관을 덮는 천이라는 뜻으로 구체화합니다."
+      },
+      {
+        "id": 44031,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Doubt it.",
+        "reason": "단순한 불확실성보다 생존 가능성을 의심하는 원문에 맞습니다."
+      },
+      {
+        "id": 44033,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sworn enemies",
+        "reason": "어색한 맹세한 적을 자연스러운 적대 표현으로 고칩니다."
+      },
+      {
+        "id": 44052,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 판단력과 무기를 갖춘 사람을 뜻합니다."
+      },
+      {
+        "id": 44056,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 한 번 먹을 약을 뜻하며 제안은 말투가 부자연스럽습니다."
+      },
+      {
+        "id": 44075,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "need to rely on a bit more than your odd luck",
+        "reason": "기대기엔 부족하다는 어색한 구문을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 44179,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "따를 수 없어요",
+        "reason": "한 발화 안에서 혼용된 반말과 존댓말을 통일합니다."
+      },
+      {
+        "id": 44200,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the crimes that you've levied against Templar Octienne",
+        "reason": "범죄를 말한 사람이 옥티엔이 아니라 상대방임을 바로잡습니다."
+      },
+      {
+        "id": 44214,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "弟のカーロマン",
+        "reason": "일본어에 명시된 남동생 관계를 살립니다."
+      },
+      {
+        "id": 44222,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he left some things untold",
+        "reason": "말하지 않고 남겼다는 어색한 표현을 밝히지 않았다는 뜻으로 고칩니다."
+      },
+      {
+        "id": 44224,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 빠른 죽음을 바라는 영어 원문에 부합합니다."
+      },
+      {
+        "id": 44233,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I baptized myself in the clear waters",
+        "reason": "세례를 올린다는 어색한 표현을 스스로에게 베푼다는 뜻으로 고칩니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

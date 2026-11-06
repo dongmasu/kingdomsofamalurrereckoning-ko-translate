@@ -1,0 +1,451 @@
+{
+  "fingerprint": "587e4d763fb6c4826953e06251791c92cce4579f1605317b2868a462f490beb0",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 42199,
+  "last_id": 43267,
+  "row_count": 60,
+  "seconds": 34.94,
+  "usage": {
+    "completion_tokens": 2882,
+    "prompt_tokens": 12497,
+    "total_tokens": 15379,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 42,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 12494,
+      "cache_creation_tokens": 12494
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 42199,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "나머지는 저도 잘 몰라요.",
+        "reason": "같은 발화 안의 높임말을 일관되게 맞춥니다."
+      },
+      {
+        "id": 42260,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "this caravan",
+        "reason": "단순한 행렬이 아니라 대상 행렬임을 명확히 합니다."
+      },
+      {
+        "id": 42283,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Been some time since we've had a new arrival.",
+        "reason": "새로 온 사람을 본 지 오래됐다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 42308,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "could be more wondrous",
+        "reason": "막연한 지시를 원문에서 언급한 경이로움으로 명확히 합니다."
+      },
+      {
+        "id": 42325,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 다음 발견을 기다린다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 42328,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "never releases any of us from its cruel grip",
+        "reason": "누구도 놓아주지 않는다는 관계를 자연스럽게 정리합니다."
+      },
+      {
+        "id": 42344,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 해석이 불확실하고 일본어는 성채 전투에서 패했다고 하므로 제안을 확정하기 어렵습니다."
+      },
+      {
+        "id": 42366,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 용건의 진정성을 전달하며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 42401,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Such newness must be nurtured",
+        "reason": "목적어와 서술어의 어색한 연결을 바로잡습니다."
+      },
+      {
+        "id": 42457,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영웅과 업적을 직접 비교하는 제안도 어색하며 현재 문장의 뜻은 영어에 부합합니다."
+      },
+      {
+        "id": 42461,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you read the document, did you? Bad idea.",
+        "reason": "문서를 읽은 행위에 대한 경고를 자연스럽게 표현합니다."
+      },
+      {
+        "id": 42482,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "수의로 몸을 덮는다는 현재 표현도 원문의 shrouded에 부합합니다."
+      },
+      {
+        "id": 42496,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 화자가 직접 막겠다는 의도를 추가하며 영어는 단정적인 미래 표현입니다."
+      },
+      {
+        "id": 42509,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You can't make me!",
+        "reason": "목적어가 빠져 어색한 강제 표현을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 42516,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Four members of our party.",
+        "reason": "일행 전체가 아닌 일행 중 네 명이라는 뜻을 명확히 합니다."
+      },
+      {
+        "id": 42573,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 데시데루스 트라브와 일자리를 구한다는 뜻으로 읽힙니다."
+      },
+      {
+        "id": 42600,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彼女は笑う。",
+        "reason": "웃는 주체를 그녀로 바로잡고 기존 줄바꿈을 유지합니다."
+      },
+      {
+        "id": 42604,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어의 발화는 더듬는 표현이 아니며 현재 문장도 의미를 전달합니다."
+      },
+      {
+        "id": 42629,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 안부를 바라는 영어 표현에 부합합니다."
+      },
+      {
+        "id": 42654,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "when you want me to go salvaging again",
+        "reason": "인양하러 가는 주체가 화자임을 명확히 합니다."
+      },
+      {
+        "id": 42674,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 집안 소년도 원문에 부합하며 변경이 필요하지 않습니다."
+      },
+      {
+        "id": 42714,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 주된 이유가 정찰을 좋아하기 때문임을 전달합니다."
+      },
+      {
+        "id": 42721,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm a complete disappointment.",
+        "reason": "앞선 자기평가에 아버지도 동의한다는 문맥을 자연스럽게 만듭니다."
+      },
+      {
+        "id": 42748,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Fenvar took me on a picnic today.",
+        "reason": "소풍에 데려간 대상을 보충해 어색한 문장을 고칩니다."
+      },
+      {
+        "id": 42750,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "all tasted my imprisonment",
+        "reason": "모두가 화자처럼 갇힌 처지를 겪었다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 42767,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문에 이름이 빠져 있다는 것만으로 기존의 흐로스를 삭제해야 한다고 확정할 수 없습니다."
+      },
+      {
+        "id": 42787,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The main Tuatha encampment",
+        "reason": "주력 주둔지라는 정보를 보완하고 함께 논의하자는 어조로 맞춥니다."
+      },
+      {
+        "id": 42796,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "in exchange for my service",
+        "reason": "봉사하는 대가로 머물게 되었다는 관계를 바로잡습니다."
+      },
+      {
+        "id": 42829,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 입소문의 가치를 전달하며 제안이 명백히 더 낫지는 않습니다."
+      },
+      {
+        "id": 42848,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what lies beyond this door",
+        "reason": "들쑤시고 다닐 대상을 문 너머의 장소로 자연스럽게 표현합니다."
+      },
+      {
+        "id": 42849,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my spear will taste the blood",
+        "reason": "창이 피를 맛본다는 비유의 주체를 바로잡습니다."
+      },
+      {
+        "id": 42873,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 원문의 조건을 전달하며 제안은 조건 표현이 중복됩니다."
+      },
+      {
+        "id": 42874,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "our ranks stretch thin",
+        "reason": "병력이 부족해 무리하고 있다는 뜻을 더 잘 전달합니다."
+      },
+      {
+        "id": 42902,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "placed here to distract us from our goal",
+        "reason": "중복된 이유 표현을 정리하면서 원문의 뜻을 유지합니다."
+      },
+      {
+        "id": 42910,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "もろく、インクに汚れた奇妙な産物",
+        "reason": "잉크 얼룩이 남는다는 표현을 얼룩진 산물이라는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 42913,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재도 교역로에 교역을 되살린다는 뜻이 전달되며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 42921,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어가 책을 두고 한 감탄인지 맹세인지 확정하기 어렵습니다."
+      },
+      {
+        "id": 42930,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Hell of a time, we had, though, he was one of the good ones.",
+        "reason": "많은 일을 겪은 것과 좋은 사람이었다는 평가 사이의 부자연스러운 역접을 없앱니다."
+      },
+      {
+        "id": 42935,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you could save me from hours of torment",
+        "reason": "상대가 화자를 고통에서 구할 수 있다는 주체와 대상을 명확히 합니다."
+      },
+      {
+        "id": 42948,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "문맥 없이 독립된 단편의 종결 형태를 바꿀 근거가 충분하지 않습니다."
+      },
+      {
+        "id": 42977,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we're all devoured by her brood",
+        "reason": "그녀의 무리가 사람들을 잡아먹는다는 주체 관계를 바로잡습니다."
+      },
+      {
+        "id": 42978,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "strike this chime near it",
+        "reason": "그것의 근처에서 이 종을 치라는 위치 관계를 명확히 합니다."
+      },
+      {
+        "id": 42993,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "なんと...",
+        "reason": "놀람의 감탄을 이유를 묻는 말로 오해할 수 있는 표현에서 바로잡습니다."
+      },
+      {
+        "id": 42999,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 내장이 거미 먹이가 될 뻔했다는 뜻을 전달합니다."
+      },
+      {
+        "id": 43010,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You are a force to be reckoned with.",
+        "reason": "상대의 실력을 평가하는 말을 더 자연스럽게 고칩니다."
+      },
+      {
+        "id": 43028,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 자연스럽고 의미에 문제가 없습니다."
+      },
+      {
+        "id": 43042,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a caw that still echoes on the wind",
+        "reason": "울음소리의 의성어를 자연스럽게 연결하며 줄바꿈을 유지합니다."
+      },
+      {
+        "id": 43043,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I have had chances to speak of Arkes before",
+        "reason": "아르케스에 대해 말할 기회가 있었던 주체를 바로잡습니다."
+      },
+      {
+        "id": 43080,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "심판이에요.",
+        "reason": "같은 발화의 높임말 어조를 일관되게 맞춥니다."
+      },
+      {
+        "id": 43118,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어와 일본어가 바다를 건넌 주체에 관해 상충하므로 변경을 확정하기 어렵습니다."
+      },
+      {
+        "id": 43120,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 destroy를 전달하며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 43126,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 자기 변명도 문법과 의미에 큰 문제가 없습니다."
+      },
+      {
+        "id": 43129,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "find yourself one of the chosen few",
+        "reason": "선택받은 소수 중 하나가 되었다는 원문의 표현을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 43136,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the Seal of Ansilla and the Verdant Blades, my father's medallion and war chakrams",
+        "reason": "인장과 칼날이 각각 메달과 차크람이라는 동격 관계를 명확히 합니다."
+      },
+      {
+        "id": 43162,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "then he was gone",
+        "reason": "사라진 대상이 투아사가 아니라 그 사람임을 명확히 합니다."
+      },
+      {
+        "id": 43206,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 군중 속에 섞여 눈에 띄지 않는다는 비유를 전달합니다."
+      },
+      {
+        "id": 43212,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "That's good gold you're walking away from.",
+        "reason": "부자연스러운 좋은 돈이라는 표현을 문맥에 맞게 고칩니다."
+      },
+      {
+        "id": 43233,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 무딘 머리라는 표현도 원문의 비유에 부합하며 제안은 조사가 어색합니다."
+      },
+      {
+        "id": 43236,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You can help me put an end to that.",
+        "reason": "상대가 화자를 도와 끝장낸다는 주체 관계를 바로잡습니다."
+      },
+      {
+        "id": 43267,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "A synergistic construct of alchemical elements",
+        "reason": "상승 작용 자체가 아니라 그로 이루어진 구조물이라는 뜻을 복원합니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "fingerprint": "c0b87b3f29b9e5928a853674714e6f476363598db0703a569db177f963ee1d8f",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 34608,
+  "last_id": 35490,
+  "row_count": 60,
+  "seconds": 32.24,
+  "usage": {
+    "completion_tokens": 2771,
+    "prompt_tokens": 10285,
+    "total_tokens": 13056,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10282,
+      "cache_creation_tokens": 10282
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 34608,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "assume the identity",
+        "reason": "‘신분을 맡다’보다 인물 행세라는 뜻이 자연스럽다."
+      },
+      {
+        "id": 34632,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기대할 수 있는 일을 묻는 원문을 겪을 일로 한정할 필요가 없다."
+      },
+      {
+        "id": 34639,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Are you enjoying your stay",
+        "reason": "숙박이 마음에 드는지 묻는 원문의 뜻이 분명해진다."
+      },
+      {
+        "id": 34681,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 단조로움을 깨는 대화라는 뜻을 전달한다."
+      },
+      {
+        "id": 34684,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "페이(Fae)은",
+        "reason": "받침 없는 ‘페이’에 맞는 조사를 쓴다."
+      },
+      {
+        "id": 34686,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘도난 통행증’도 뜻이 통하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 34700,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 독대를 요청했다는 뜻을 전달한다."
+      },
+      {
+        "id": 34706,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘위대한’도 영어의 great에 부합한다."
+      },
+      {
+        "id": 34741,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "호칭을 바꾸면 stranger라는 의미가 사라진다."
+      },
+      {
+        "id": 34743,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm just the woman to do it",
+        "reason": "단순히 일을 맡겠다는 뜻보다 적임자라는 원문의 자신감을 살린다."
+      },
+      {
+        "id": 34745,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "his answer has finally arrived",
+        "reason": "그가 답을 찾았다는 해석 대신 답이 찾아왔다는 원문을 따른다."
+      },
+      {
+        "id": 34758,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He hides within",
+        "reason": "숨어 있는 주체가 상대가 아니라 그라는 점을 명확히 한다."
+      },
+      {
+        "id": 34779,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘1인 전쟁’도 원문의 의미를 전달한다."
+      },
+      {
+        "id": 34787,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘헌신을 바치는’이 기존 표현보다 명확하게 자연스럽다고 보기 어렵다."
+      },
+      {
+        "id": 34794,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "細かい技や歴史",
+        "reason": "태피스트리와 회화의 기법과 역사를 가르친다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 34803,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "For this special task",
+        "reason": "‘임무로’의 어색한 연결을 바로잡는다."
+      },
+      {
+        "id": 34833,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "軍隊に加わった",
+        "reason": "‘병력에 합류’보다 부대에 합류한다는 표현이 자연스럽다."
+      },
+      {
+        "id": 34835,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "all the help we can get",
+        "reason": "도움을 ‘모으다’보다 ‘받다’가 자연스럽다."
+      },
+      {
+        "id": 34857,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "fuels Gadflow's madness",
+        "reason": "이미 존재하는 광기를 부추긴다는 원문을 더 정확히 반영한다."
+      },
+      {
+        "id": 34859,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "quite so... progressive... as welcoming a mortal",
+        "reason": "필멸자를 받아들인 일과 다른 진보적 일을 비교하는 관계가 명확해진다."
+      },
+      {
+        "id": 34866,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "戦いを誓いし者",
+        "reason": "어색한 ‘전쟁에 서약’ 대신 싸움을 맹세한다는 뜻을 살린다."
+      },
+      {
+        "id": 34902,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "이번 일은 페어 고르타",
+        "reason": "문장 첫머리의 어색한 연결을 바로잡는다."
+      },
+      {
+        "id": 34919,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 두 사람 사이의 비밀 이야기라는 뜻으로 자연스럽다."
+      },
+      {
+        "id": 34990,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You have done well in contacting",
+        "reason": "상대가 직접 연락했다는 원문과 달리 사역으로 읽히는 부분을 고친다."
+      },
+      {
+        "id": 34991,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "定命の者の死体が流入",
+        "reason": "유입된 것이 필멸자의 시신임을 명확히 한다."
+      },
+      {
+        "id": 35005,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Success should have been mine",
+        "reason": "성공을 실제로 얻었다는 뜻이 아니라 얻었어야 했다는 원문을 따른다."
+      },
+      {
+        "id": 35023,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "남자를 알려 주지",
+        "reason": "남자에 관한 정보를 알려 준다는 표현으로 자연스럽게 고친다."
+      },
+      {
+        "id": 35036,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "정신을 뒤쫓았다는 원문의 stalked가 노렸다는 뜻으로 약화될 수 있다."
+      },
+      {
+        "id": 35038,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "운명을 직물에 비유하는 기존 표현도 원문에 부합한다."
+      },
+      {
+        "id": 35040,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 저자라고만 하므로 반드시 편지를 보낸 사람이라고 특정하기 어렵다."
+      },
+      {
+        "id": 35048,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "해내길 작은 희망이나마 품고 있었어",
+        "reason": "희망의 내용을 관형절로 연결해 어색한 문장을 고친다."
+      },
+      {
+        "id": 35054,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I've not trained anyone",
+        "reason": "타인을 훈련시켰다는 뜻이 자연스럽게 드러난다."
+      },
+      {
+        "id": 35067,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 원문의 여운을 풀어 설명하지만 기존 의미도 전달된다."
+      },
+      {
+        "id": 35085,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 요툰과 관련된 일에 행운을 빈다는 뜻을 전달한다."
+      },
+      {
+        "id": 35139,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "victim of their crimes",
+        "reason": "범죄에 당했다는 어색한 표현을 피해를 입었다고 고친다."
+      },
+      {
+        "id": 35145,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "taking my rightful place",
+        "reason": "자리와 역할이 뒤섞인 표현을 마땅한 자리에 선다는 뜻으로 고친다."
+      },
+      {
+        "id": 35168,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "cast Zotikus as the Villain",
+        "reason": "배역을 맡긴다는 자연스러운 표현으로 고친다."
+      },
+      {
+        "id": 35171,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "how you died the first time",
+        "reason": "‘처음 죽었을 때 어떻게 죽었는지’의 중복을 없앤다."
+      },
+      {
+        "id": 35178,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I’m a work in progress",
+        "reason": "이미 나아지고 있다는 단정보다 아직 개선을 위해 노력 중이라는 뜻에 가깝다."
+      },
+      {
+        "id": 35182,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Feel free to check out the body",
+        "reason": "‘자유롭게’라는 어색한 부사 대신 살펴봐도 된다는 허용의 뜻을 살린다."
+      },
+      {
+        "id": 35206,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the last village for two hundred miles",
+        "reason": "이곳 이후 200마일 동안 마을이 없다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 35220,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘설파했다’에 담긴 공개적인 설교의 뜻이 약해진다."
+      },
+      {
+        "id": 35231,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 무기지만 영어의 steel은 강철 자체일 가능성도 있어 확정하기 어렵다."
+      },
+      {
+        "id": 35239,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "they're not worth my breath",
+        "reason": "직역투를 없애고 그들에 대해 말할 가치가 없다는 뜻을 살린다."
+      },
+      {
+        "id": 35247,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "老人の漂流者",
+        "reason": "오래된 표류자라는 어색한 표현을 나이 든 표류자로 고친다."
+      },
+      {
+        "id": 35269,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a place of myth and legend",
+        "reason": "‘신화와 전설에 자리를 차지하다’의 어색한 조사를 바로잡는다."
+      },
+      {
+        "id": 35270,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자발적으로 추방 생활을 했다는 뜻을 전달한다."
+      },
+      {
+        "id": 35273,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "if those pieces mean anything when put together",
+        "reason": "중복된 ‘알 수 있는지 확인해 봐’를 자연스럽게 정리한다."
+      },
+      {
+        "id": 35287,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문은 화자가 죽음의 손을 만졌다는 표현이어서 제안도 방향을 분명히 살리지 못한다."
+      },
+      {
+        "id": 35295,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "campaign을 여정으로 표현한 것이 명백한 오류는 아니다."
+      },
+      {
+        "id": 35333,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘더’는 추가 피해를 그만두었는지 묻는 자연스러운 표현이다."
+      },
+      {
+        "id": 35356,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 검 제작을 시작할 준비를 묻는 뜻으로 읽힌다."
+      },
+      {
+        "id": 35372,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 소지금을 주의하라는 뜻으로 자연스럽다."
+      },
+      {
+        "id": 35432,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "이 일을 제대로 보답할 방법은 없지만",
+        "reason": "‘보답하다’에 어울리는 조사로 고친다."
+      },
+      {
+        "id": 35433,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘경기가 시작해’도 자연스러운 표현이다."
+      },
+      {
+        "id": 35452,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 ‘맞았어’는 아직 일어나지 않았을 수 있는 죽음을 이미 겪은 것으로 단정한다."
+      },
+      {
+        "id": 35465,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a book we've barely begun to crack",
+        "reason": "책을 연구한다는 어색한 표현을 읽기 시작했다는 비유로 고친다."
+      },
+      {
+        "id": 35473,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the only help is that which we make ourselves",
+        "reason": "스스로 도움을 마련해야 한다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 35486,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Through this floor grate",
+        "reason": "쇠창살 자체가 아니라 그곳을 통해 들어간다는 뜻이 자연스럽다."
+      },
+      {
+        "id": 35490,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as impressive a figure as you're likely to meet",
+        "reason": "만나기 어렵다는 뜻이 아니라 만날 만한 사람 중 인상적인 인물이라는 뜻을 살린다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

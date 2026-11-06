@@ -1,0 +1,451 @@
+{
+  "fingerprint": "9e2d34ec41e776cabe47d2414c18366326d9846b5f2afd237c407955641e02ff",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 56306,
+  "last_id": 57287,
+  "row_count": 60,
+  "seconds": 32.99,
+  "usage": {
+    "completion_tokens": 2663,
+    "prompt_tokens": 10418,
+    "total_tokens": 13081,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10415,
+      "cache_creation_tokens": 10415
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 56306,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The cards were hers last",
+        "reason": "마지막 소유 관계를 자연스럽게 표현합니다."
+      },
+      {
+        "id": 56317,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ヒック",
+        "reason": "딸꾹질 소리를 나타내는 표현이 적절합니다."
+      },
+      {
+        "id": 56352,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Archsages are chosen",
+        "reason": "목적격 조사를 바로잡습니다."
+      },
+      {
+        "id": 56400,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "비탄의 힘(the Sorrows)를",
+        "reason": "목적격 조사를 바로잡습니다."
+      },
+      {
+        "id": 56421,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彼が背負う使命を手伝う",
+        "reason": "임무 수행을 돕는다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 56426,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the great chisel and hammer of progress, keen on dragging my people",
+        "reason": "끌과 망치가 이끄는 주체임을 분명히 합니다."
+      },
+      {
+        "id": 56428,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as grand as the quality of its best fighters",
+        "reason": "전사 자체가 아닌 기량과의 비교를 살립니다."
+      },
+      {
+        "id": 56454,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "古く、傷んでいる",
+        "reason": "편지에 쓰인 부자연스러운 '풍화된'을 바로잡습니다."
+      },
+      {
+        "id": 56464,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the mortal world above",
+        "reason": "지상의 세계라는 뜻을 자연스럽게 합니다."
+      },
+      {
+        "id": 56548,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 이름에 침을 뱉는 표현을 일반적인 욕으로 바꿉니다."
+      },
+      {
+        "id": 56573,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Grian Shane, the Castellan",
+        "reason": "원문에 없는 영주 호칭을 제거합니다."
+      },
+      {
+        "id": 56579,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "their capital cities",
+        "reason": "수도와 지명들의 관계를 명확히 합니다."
+      },
+      {
+        "id": 56581,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "시구의 해석과 시제 변경이 명확히 뒷받침되지 않습니다."
+      },
+      {
+        "id": 56592,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "邪魔してくるのは一体なぜなの？",
+        "reason": "방해하는 이유를 묻는 자연스러운 표현입니다."
+      },
+      {
+        "id": 56642,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "解除できる言葉",
+        "reason": "말로 결계를 해제한다는 뜻을 자연스럽게 합니다."
+      },
+      {
+        "id": 56654,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "この地下通路から出て",
+        "reason": "일본어의 지하 통로에 맞게 장소를 바로잡습니다."
+      },
+      {
+        "id": 56665,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "noticed some odd lights and sounds",
+        "reason": "소리까지 보았다는 어색한 표현을 바로잡습니다."
+      },
+      {
+        "id": 56721,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "everything I can to support Secandra",
+        "reason": "할 수 있는 모든 방법으로 돕겠다는 뜻을 자연스럽게 합니다."
+      },
+      {
+        "id": 56724,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "단수 변경은 가능하지만 지시 대상과 앞뒤 문맥이 불확실합니다."
+      },
+      {
+        "id": 56736,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "신화라는 판단이 존재 자체에 대한 것인지 조상 관계에 대한 것인지 불확실합니다."
+      },
+      {
+        "id": 56743,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "past the breakers",
+        "reason": "여울을 부서지는 파도로 바로잡습니다."
+      },
+      {
+        "id": 56753,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "보상을 얻었다는 원문의 의미가 제안에서도 명시되지 않습니다."
+      },
+      {
+        "id": 56792,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Jokull left you these",
+        "reason": "상대에게 전달하라고 맡겼다는 뜻을 명확히 합니다."
+      },
+      {
+        "id": 56836,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "직역도 책임을 묻는 관용 표현으로 성립하며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 56841,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "어둠 속에 있었다는 원문의 표현을 자취를 감춘 것으로 한정합니다."
+      },
+      {
+        "id": 56871,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "정의를 구한다는 뜻을 일을 바로잡겠다는 뜻으로 바꿉니다."
+      },
+      {
+        "id": 56875,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "やってきては、ひざまずいて",
+        "reason": "찾아온 뒤 무릎 꿇는 순서를 자연스럽게 합니다."
+      },
+      {
+        "id": 56877,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "この戦いから離れていた",
+        "reason": "게임 비유를 일본어의 싸움에 맞춰 자연스럽게 합니다."
+      },
+      {
+        "id": 56914,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I wanted to change the ballads, and I have done it",
+        "reason": "발라드를 실제로 바꾸었다는 결과를 분명히 합니다."
+      },
+      {
+        "id": 56919,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 curtain-calls가 가리키는 대상이 불확실합니다."
+      },
+      {
+        "id": 56926,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 would가 나타내는 시간 관계를 단순 과거로 확정합니다."
+      },
+      {
+        "id": 56938,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "so rich in its magical history",
+        "reason": "마법의 역사를 자연스럽게 풀어 씁니다."
+      },
+      {
+        "id": 56945,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "test his intellect against yours",
+        "reason": "두 사람의 지력을 겨룬다는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 56959,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "bring me a handful",
+        "reason": "한 움큼을 가져오면 보상한다는 조건을 바로잡고 완장도 명확히 합니다."
+      },
+      {
+        "id": 56970,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "test you against those records",
+        "reason": "기존 기록과 비교해 시험한다는 뜻을 살립니다."
+      },
+      {
+        "id": 57011,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "食料や薬じゃなくて武器",
+        "reason": "상자가 아닌 내용물이 무기임을 자연스럽게 명시합니다."
+      },
+      {
+        "id": 57013,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Hear us, firstborn. Hear us, fleshones.",
+        "reason": "호칭의 어색한 소유 표현을 덜고 우리 말을 들으라는 뜻을 살립니다."
+      },
+      {
+        "id": 57023,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 감방의 사람보다 나은 처우를 받을지 묻는 뜻일 가능성도 있습니다."
+      },
+      {
+        "id": 57025,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "justly and with blood",
+        "reason": "통치 방식인 공정함을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 57028,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "trumped up을 별 볼 일 없다는 뜻으로 단정하기 어렵습니다."
+      },
+      {
+        "id": 57038,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the perfect plan to desensitize myself",
+        "reason": "공포에 둔감해진다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 57054,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "modify Lord Kandrian's signet ring with a bit of magic",
+        "reason": "반지를 마법으로 변형해야 한다는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 57060,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "this season",
+        "reason": "올해가 아닌 이번 계절로 바로잡습니다."
+      },
+      {
+        "id": 57063,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "것 같은데… .",
+        "reason": "불필요하게 떨어진 마침표를 제거합니다."
+      },
+      {
+        "id": 57065,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "もっと羽振りがよくなったらまた来て",
+        "reason": "돈을 마련한 뒤 다시 오라는 뜻을 자연스럽게 합니다."
+      },
+      {
+        "id": 57099,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "references가 사람의 신뢰도를 확인하는 자료라고 단정할 수 없습니다."
+      },
+      {
+        "id": 57109,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "人々の期待を裏切った責任",
+        "reason": "백성의 기대를 저버린 책임이라는 뜻을 명확히 합니다."
+      },
+      {
+        "id": 57112,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "여생 내내 여행하며 보낸다는 뜻은 원문보다 단정적입니다."
+      },
+      {
+        "id": 57123,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "自然に対する恩を象徴するもの",
+        "reason": "자연에 진 빚과 기념물의 관계를 자연스럽게 표현합니다."
+      },
+      {
+        "id": 57175,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The miners have all ‒ one time or another ‒ seen",
+        "reason": "광부들이 각자 목격했다는 뜻을 자연스럽게 합니다."
+      },
+      {
+        "id": 57177,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the twin Fae blades",
+        "reason": "두 자루의 무기라는 정보를 복원합니다."
+      },
+      {
+        "id": 57213,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you're welcome here",
+        "reason": "환영한다는 표현을 자연스럽게 합니다."
+      },
+      {
+        "id": 57216,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the compassion and the influence the gods have had in my people's lives",
+        "reason": "자비를 베풀고 삶에 영향을 미쳤다는 구조를 자연스럽게 합니다."
+      },
+      {
+        "id": 57223,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "전리품이 처치의 증거라는 해석은 가능하지만 명시적이지 않습니다."
+      },
+      {
+        "id": 57228,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the mage turns coward",
+        "reason": "원문에 없는 도망쳤다는 단정을 제거합니다."
+      },
+      {
+        "id": 57229,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "So fleshy.",
+        "reason": "신선하다는 오역을 살이 많다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 57241,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'자기'는 관계를 더 친밀하게 특정하므로 문맥 없이 판단하기 어렵습니다."
+      },
+      {
+        "id": 57266,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "東棟",
+        "reason": "건물의 동쪽 구역을 날개가 아닌 동으로 표현합니다."
+      },
+      {
+        "id": 57281,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you suspect a plot",
+        "reason": "음모를 의심하는 주체가 상대임을 복원합니다."
+      },
+      {
+        "id": 57287,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 뜻과 어조가 자연스러워 변경이 필수적이지 않습니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

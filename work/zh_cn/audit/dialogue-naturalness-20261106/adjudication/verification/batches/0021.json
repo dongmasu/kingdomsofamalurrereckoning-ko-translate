@@ -1,0 +1,451 @@
+{
+  "fingerprint": "5175e7bf202effaf778aae671c56f0440295c3df1705f965391b74bc60ff4ad9",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 20966,
+  "last_id": 21907,
+  "row_count": 60,
+  "seconds": 37.12,
+  "usage": {
+    "completion_tokens": 2967,
+    "prompt_tokens": 9266,
+    "total_tokens": 12233,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 66,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 9263,
+      "cache_creation_tokens": 9263
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 20966,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Paddy’s been so kind to take me in",
+        "reason": "받아 준 행동이 친절했다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 20983,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "only delayed",
+        "reason": "어색한 ‘지연시키다’를 자연스럽게 풀었습니다."
+      },
+      {
+        "id": 20989,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "should never lose his way",
+        "reason": "불가능이 아니라 그래서는 안 된다는 뜻을 살립니다."
+      },
+      {
+        "id": 21011,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "magic's deepest weave",
+        "reason": "직물 자체가 아닌 짜임이라는 비유를 살립니다."
+      },
+      {
+        "id": 21029,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "all kind of pretty things",
+        "reason": "어색한 어순을 다듬고 상품의 종류를 자연스럽게 표현합니다."
+      },
+      {
+        "id": 21041,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "시제만 바꾼 제안이 현재 문장보다 명확히 자연스럽지는 않습니다."
+      },
+      {
+        "id": 21055,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "王と同じ役目を担う",
+        "reason": "왕을 섬긴다는 오해를 없애고 왕과 같은 역할을 한다는 뜻을 살립니다."
+      },
+      {
+        "id": 21062,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Our whole lives have been abandoned.",
+        "reason": "삶을 버리고 떠나온 상황을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 21075,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "船荷の運賃はいくらだ？",
+        "reason": "어색한 ‘한몫’ 대신 운송할 화물이라는 뜻을 전달합니다."
+      },
+      {
+        "id": 21086,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a sweet and dutiful end",
+        "reason": "죽음을 맞게 한 행위의 다정함과 의무감을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 21087,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "picking a fight with the wrong people",
+        "reason": "잘못 건드린 상대와 싸우게 된다는 위협을 살립니다."
+      },
+      {
+        "id": 21091,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "そんな月並みな説得が効くなんて思わないで",
+        "reason": "어색한 ‘매력도 없는 부탁’을 통하지 않을 설득으로 자연스럽게 표현합니다."
+      },
+      {
+        "id": 21098,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 비교의 의미가 자연스럽게 전달되어 추가가 필수적이지 않습니다."
+      },
+      {
+        "id": 21123,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "宿命を実現できた",
+        "reason": "운명을 깨달은 것이 아니라 실현했다는 뜻을 바로잡습니다."
+      },
+      {
+        "id": 21124,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "portents of his Herald, Aergase",
+        "reason": "원문에 없는 불길함을 덜고 전령에 관한 징조라는 뜻을 살립니다."
+      },
+      {
+        "id": 21128,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 권능으로 이끌었다는 원문의 뜻을 전달하며 제안은 문장이 매끄럽지 않습니다."
+      },
+      {
+        "id": 21149,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "don't I suffer enough?",
+        "reason": "이미 충분히 고통받고 있다는 수사적 불평을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 21172,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 ‘아양을 팔아’도 어색하여 명확한 개선이라고 보기 어렵습니다."
+      },
+      {
+        "id": 21201,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "staff and talisman",
+        "reason": "지팡이까지 포함하는 대상을 ‘착용’ 대신 사용할 수 있다고 표현합니다."
+      },
+      {
+        "id": 21225,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we all might need our last coin",
+        "reason": "어색한 조건절을 다듬고 돈이 절실해질 수 있다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 21247,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "at his mercy",
+        "reason": "상대의 처분에 맡긴다는 위협을 분명히 합니다."
+      },
+      {
+        "id": 21262,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "at our highest",
+        "reason": "전성기를 보았다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 21268,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "あら、チャンピオン！",
+        "reason": "환호로 오해되는 ‘만세’ 대신 인사로 전달합니다."
+      },
+      {
+        "id": 21275,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "its own unique challenges",
+        "reason": "협곡만의 시련이라는 뜻을 명확하게 합니다."
+      },
+      {
+        "id": 21290,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You owe us.",
+        "reason": "어색한 ‘빚을 받아야겠다’ 대신 상대에게 빚이 있다는 뜻을 전달합니다."
+      },
+      {
+        "id": 21292,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘개선’도 업그레이드를 전달하며 ‘개량’이 더 적절하다고 단정하기 어렵습니다."
+      },
+      {
+        "id": 21334,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "little you can do to prepare",
+        "reason": "준비할 수 있는 것이 아니라 준비를 위해 할 수 있는 일이 적다는 뜻을 살립니다."
+      },
+      {
+        "id": 21351,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "またお目にかかれることを祈ってるよ",
+        "reason": "은총을 입는다는 오해 대신 다시 만나기를 바라는 뜻을 전달합니다."
+      },
+      {
+        "id": 21364,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "this House is among the last",
+        "reason": "조사 대상 장소를 ‘가문’으로 오해할 여지를 줄입니다."
+      },
+      {
+        "id": 21380,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "quite a tumble",
+        "reason": "낙상의 정도를 ‘크게’보다 자연스럽게 표현합니다."
+      },
+      {
+        "id": 21388,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "if it covers my tab",
+        "reason": "외상값이 화자의 것임을 밝히고 확인을 부탁하는 문장으로 다듬습니다."
+      },
+      {
+        "id": 21404,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Stay away from my laboratory.",
+        "reason": "실험실에서 나가라는 말이 아니라 가까이 오지 말라는 뜻을 살립니다."
+      },
+      {
+        "id": 21415,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 낯선 상대의 얼굴이 마음에 들지 않는다는 뜻을 전달합니다."
+      },
+      {
+        "id": 21422,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "残念？ ああ、そのとおりだ。",
+        "reason": "문맥상 수치심이 아닌 유감이라는 뜻을 살립니다."
+      },
+      {
+        "id": 21444,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "This will hurt.",
+        "reason": "이유를 나타내는 어미를 없애고 아플 것이라는 경고를 전달합니다."
+      },
+      {
+        "id": 21463,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Belen will let us rouse his slumbering servant",
+        "reason": "벨렌이 직접 깨우는 것이 아니라 깨우도록 허락한다는 뜻을 바로잡습니다."
+      },
+      {
+        "id": 21495,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "more efficiently than Edgar Aron ever managed",
+        "reason": "에드거가 운영했을 때와 효율을 비교하는 문장으로 다듬습니다."
+      },
+      {
+        "id": 21517,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Welcome to Cape Solace, newcomer.",
+        "reason": "어색한 호칭과 섞인 높임을 자연스럽게 정리합니다."
+      },
+      {
+        "id": 21520,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "crawling with disease",
+        "reason": "질병을 자연스럽게 만연한 것으로 표현합니다."
+      },
+      {
+        "id": 21525,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "For each seed, there is a mound along the edge.",
+        "reason": "씨앗마다 흙무더기가 있다는 관계를 자연스러운 어순으로 명확히 합니다."
+      },
+      {
+        "id": 21526,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "and all that",
+        "reason": "막연한 ‘그 모든 것’이 아닌 무심한 덧붙임을 살립니다."
+      },
+      {
+        "id": 21534,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We don't like strangers in Skoria.",
+        "reason": "장소를 나타내는 조사를 자연스럽게 바로잡습니다."
+      },
+      {
+        "id": 21538,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I triumph over Death itself!",
+        "reason": "죽음을 이겨 낸 주체가 화자임을 살립니다."
+      },
+      {
+        "id": 21574,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm walking around Klurikon with a target on my chest.",
+        "reason": "깨달은 현재 상황을 과거가 아닌 현재로 표현합니다."
+      },
+      {
+        "id": 21578,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "finding the work suited to you",
+        "reason": "적합한 일을 찾는 것이 아니라 맡은 일이 적성에 맞기를 바라는 뜻을 전달합니다."
+      },
+      {
+        "id": 21589,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "모두를 탈출시키려 한 화자의 시도가 함께 탈출하려는 시도로 바뀔 수 있습니다."
+      },
+      {
+        "id": 21616,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "説得も交渉も通じない",
+        "reason": "대화와 거래보다 설득과 협상이 통하지 않는다는 뜻을 정확히 전달합니다."
+      },
+      {
+        "id": 21617,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ボガートにもできる仕事",
+        "reason": "보가트조차 할 수 있다는 낮잡는 뜻을 살립니다."
+      },
+      {
+        "id": 21619,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 원문의 ‘가장 최근 사례’라는 뜻을 충분히 살리지 못합니다."
+      },
+      {
+        "id": 21643,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "安全境界線の中",
+        "reason": "어색한 ‘안전선 뒤편’을 안전 경계선 안쪽으로 명확히 합니다."
+      },
+      {
+        "id": 21647,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "smuggling them out to merchant ships",
+        "reason": "죄수들이 직접 밀항한 것처럼 읽히는 표현을 바로잡습니다."
+      },
+      {
+        "id": 21692,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "募金を盗んでいる",
+        "reason": "수집품이 아니라 모금액을 훔친다는 뜻을 명확히 합니다."
+      },
+      {
+        "id": 21739,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "brings him back to the lights of this summer life",
+        "reason": "빛으로 되돌려 데려온다는 표현을 자연스럽게 다듬습니다."
+      },
+      {
+        "id": 21741,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘고대 장소’도 자연스럽고 의미가 같아 교체가 필요하지 않습니다."
+      },
+      {
+        "id": 21744,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a board of petitions",
+        "reason": "사람들이 게시판 자체를 올렸다는 듯한 어색함을 해소합니다."
+      },
+      {
+        "id": 21795,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "어순을 바꾸는 정도로 현재 문장의 명확한 문제를 해결한다고 보기 어렵습니다."
+      },
+      {
+        "id": 21829,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "and there is a right thing",
+        "reason": "옳은 일이 있는지 의심하는 뜻을 확언으로 바로잡습니다."
+      },
+      {
+        "id": 21854,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "she plots a fool's errand",
+        "reason": "어색한 ‘헛수고를 꾸미다’를 무익한 일을 계획한다는 뜻으로 풉니다."
+      },
+      {
+        "id": 21855,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "卑劣で狡猾で",
+        "reason": "교활함이 부족하다는 오역을 비열하고 교활하다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 21907,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "마음속에 무언가 있는지 묻는 원문을 걱정으로 한정합니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

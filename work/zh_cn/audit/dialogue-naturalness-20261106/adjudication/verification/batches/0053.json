@@ -1,0 +1,451 @@
+{
+  "fingerprint": "6fd311ece21bacd669df078485243bc12ebb3975e335c1dfaf03098f3ff03cc2",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 51358,
+  "last_id": 52148,
+  "row_count": 60,
+  "seconds": 33.12,
+  "usage": {
+    "completion_tokens": 2674,
+    "prompt_tokens": 13330,
+    "total_tokens": 16004,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 13327,
+      "cache_creation_tokens": 13327
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 51358,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Curse your mortal influence.",
+        "reason": "어색한 피동형을 화자의 저주로 바로잡는다."
+      },
+      {
+        "id": 51365,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Sorrow precedes you",
+        "reason": "슬픔이 상대보다 먼저 온다는 뜻을 바로잡는다."
+      },
+      {
+        "id": 51372,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 생기를 느낀다는 뜻을 전달한다."
+      },
+      {
+        "id": 51412,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'll be lucky if I can ever swing a blade again",
+        "reason": "칼을 다시 휘두를 수 있을지 불확실하다는 뜻이 자연스러워진다."
+      },
+      {
+        "id": 51418,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 만남을 위한 인사라는 뜻이 제안에서 흐려진다."
+      },
+      {
+        "id": 51426,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "somewhere, someone wants something",
+        "reason": "누군가가 무엇인가를 원한다는 뜻을 명확하게 한다."
+      },
+      {
+        "id": 51438,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "deprive the Crows of a leader",
+        "reason": "지도자 자리를 빼앗는다는 오역을 바로잡는다."
+      },
+      {
+        "id": 51450,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "our Tuatha enemies",
+        "reason": "투아사가 우리의 적이라는 관계를 명확히 한다."
+      },
+      {
+        "id": 51453,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Supposed to be impenetrable",
+        "reason": "당위가 아니라 전해 들은 내용을 나타낸다."
+      },
+      {
+        "id": 51469,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as wild and ungoverned then as we are orderly and precise today",
+        "reason": "현재 한국어의 어색한 비교 구문을 원문에 맞게 고친다."
+      },
+      {
+        "id": 51483,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장에서도 자비를 베푸는 주체가 문맥상 분명하다."
+      },
+      {
+        "id": 51496,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "누가 대가를 치렀는지 원문이 명확하지 않아 제안의 주체 추가가 불확실하다."
+      },
+      {
+        "id": 51509,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 유혈을 일으키는 기술로 이해할 수 있어 변경이 필수적이지 않다."
+      },
+      {
+        "id": 51525,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 실제 이유를 묻는 뜻이 자연스럽게 전달된다."
+      },
+      {
+        "id": 51530,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "두 표현의 뜻과 자연스러움에 뚜렷한 차이가 없다."
+      },
+      {
+        "id": 51567,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "最新のものを揃えているわよ",
+        "reason": "상품 목록이 아니라 최신 상품을 갖추고 있다는 뜻이다."
+      },
+      {
+        "id": 51571,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 쓸 수 있는 돈을 묻는 뜻으로 자연스럽다."
+      },
+      {
+        "id": 51572,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 어순도 자연스럽고 원문의 뜻에 부합한다."
+      },
+      {
+        "id": 51595,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "검이 반드시 죽을 필요는 없다는 뜻을 죽을 운명이 아니라는 단정으로 바꾼다."
+      },
+      {
+        "id": 51599,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 자연적인 것이라는 뜻을 전달한다."
+      },
+      {
+        "id": 51615,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "As am I. As am I...",
+        "reason": "원문의 완결된 반복을 살려 어색한 말끝을 고친다."
+      },
+      {
+        "id": 51624,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "そう言うと思ったよ",
+        "reason": "예상했다는 수사적 질문의 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 51665,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 돌봐야 한다는 표현도 원문에 부합한다."
+      },
+      {
+        "id": 51668,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as well as anyone",
+        "reason": "누구보다 잘 안다는 과장을 다른 사람 못지않다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 51690,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "담론의 기술을 정말 통달했어",
+        "reason": "통달하다에 어울리는 조사를 바로잡는다."
+      },
+      {
+        "id": 51692,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 표현도 싸움 끝에 맞붙었다는 뜻으로 이해할 수 있다."
+      },
+      {
+        "id": 51725,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "마지막 숨결(Last Breath)는",
+        "reason": "받침에 맞지 않는 조사를 바로잡는다."
+      },
+      {
+        "id": 51735,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 표현은 인사말로 부자연스럽고 기존 문장도 문맥상 가능하다."
+      },
+      {
+        "id": 51738,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Adessa was not a flicker of a thought",
+        "reason": "아데사에 대한 생각조차 없었다는 뜻을 자연스럽게 고친다."
+      },
+      {
+        "id": 51746,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 말장난을 반영하며 제안이 명백히 우월하지 않다."
+      },
+      {
+        "id": 51759,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Welcome back.",
+        "reason": "돌아온 상대를 맞이하는 인사로 바로잡는다."
+      },
+      {
+        "id": 51770,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "prove the contrary",
+        "reason": "무엇의 반대인지 자연스럽고 분명하게 밝힌다."
+      },
+      {
+        "id": 51778,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "just south of the river and along the coast",
+        "reason": "보호받는 곳의 위치가 강 남쪽 해안임을 명확히 한다."
+      },
+      {
+        "id": 51795,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "마을이 제공하는 것을 환대로 한정하면 원문의 범위가 좁아질 수 있다."
+      },
+      {
+        "id": 51796,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Buy or sell?",
+        "reason": "사거나 팔 것인지 묻는 선택지를 명확히 한다."
+      },
+      {
+        "id": 51799,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your name on a hit list",
+        "reason": "암살자 명단이 아니라 암살 대상 명단임을 바로잡는다."
+      },
+      {
+        "id": 51805,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You cannot begin to fathom our gratitude",
+        "reason": "감사의 크기를 상대가 헤아릴 수 없다는 뜻을 바로잡는다."
+      },
+      {
+        "id": 51821,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "助けてくれたのに",
+        "reason": "앞서 도와줬다는 내용을 명확히 하고 행운을 비는 표현도 개선한다."
+      },
+      {
+        "id": 51826,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he is the reason I am here",
+        "reason": "여기 온 이유가 그자라는 어색한 구문을 자연스럽게 고친다."
+      },
+      {
+        "id": 51883,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 말투 변화도 구어체에서 가능하며 의미에 문제가 없다."
+      },
+      {
+        "id": 51893,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 부수적 피해라는 원문의 뜻을 전달한다."
+      },
+      {
+        "id": 51902,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 처리한다는 표현도 원문의 비유를 반영한다."
+      },
+      {
+        "id": 51944,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "stand on the precipice of taming this land… or succumbing to it",
+        "reason": "두 가능성의 갈림길이라는 구조를 분명히 한다."
+      },
+      {
+        "id": 51945,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 확장의 한계에 도달했다는 뜻이 전달된다."
+      },
+      {
+        "id": 51964,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 대출에 관해 상의했는지 묻는 데 무리가 없다."
+      },
+      {
+        "id": 51971,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현의 ‘더’가 부적절하다고 판단할 맥락이 없다."
+      },
+      {
+        "id": 51979,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "짧은 응답의 상황이 없어 기존 표현이 잘못됐다고 단정하기 어렵다."
+      },
+      {
+        "id": 52015,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "협상으로 한정하면 영어의 형제를 상대하는 방법보다 범위가 좁아진다."
+      },
+      {
+        "id": 52032,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 다른 선택보다 나쁘지 않다는 원문의 평가를 전달한다."
+      },
+      {
+        "id": 52058,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "우리를 오만하고 독선적이라고, 그 밖에도",
+        "reason": "끊긴 인용 구문을 자연스럽게 연결한다."
+      },
+      {
+        "id": 52065,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 숲을 그대로 보전하고 건드리지 않는다는 뜻이 명확하다."
+      },
+      {
+        "id": 52066,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the one I have been hearing so much talk about",
+        "reason": "소문을 들은 사람이 화자임을 바로잡는다."
+      },
+      {
+        "id": 52071,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I wish to celebrate with others",
+        "reason": "다른 이들을 축하한다는 오역을 함께 즐긴다는 뜻으로 고친다."
+      },
+      {
+        "id": 52080,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 배 속의 두근거림을 반영하며 제안은 신체감을 줄인다."
+      },
+      {
+        "id": 52082,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "they won't be cheap",
+        "reason": "공짜가 아니라는 뜻을 비용이 만만치 않다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 52086,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘일을 보답하다’도 자연스럽게 쓰인다."
+      },
+      {
+        "id": 52096,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "地下通路の奥深くで",
+        "reason": "불확실한 단식처를 일본어의 지하 통로에 맞게 고친다."
+      },
+      {
+        "id": 52106,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 빚졌다는 표현도 원문에 맞고 자연스럽다."
+      },
+      {
+        "id": 52141,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "upset a lot of gamblers in the meanwhile",
+        "reason": "시간을 뜻하는 듯한 ‘그동안’을 결과의 동반을 나타내는 표현으로 고친다."
+      },
+      {
+        "id": 52148,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "are there too, in among the rest of the force",
+        "reason": "현재 문장에 빠진 장소 정보를 복원하고 표현을 자연스럽게 한다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

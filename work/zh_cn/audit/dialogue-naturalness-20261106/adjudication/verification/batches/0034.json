@@ -1,0 +1,456 @@
+{
+  "fingerprint": "b4ce4e9977f2d500031a02ab381a77f26a6c4006cc2db2f456952cdef9afb9e7",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 33072,
+  "last_id": 33826,
+  "row_count": 60,
+  "seconds": 34.13,
+  "usage": {
+    "completion_tokens": 2864,
+    "prompt_tokens": 10396,
+    "total_tokens": 13260,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 9,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10393,
+      "cache_creation_tokens": 10393
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 33072,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "If it's not boggarts springing out of the bushes, it's brownies",
+        "reason": "잘못된 조건 관계를 반복되는 두 상황으로 바로잡았다."
+      },
+      {
+        "id": 33074,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The landing party is too large",
+        "reason": "부대의 수가 아닌 인원이 많다는 뜻을 명확히 했다."
+      },
+      {
+        "id": 33093,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it may be safe to return",
+        "reason": "단정을 가능성으로 바로잡았다."
+      },
+      {
+        "id": 33102,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "Apply evidence does not exactly match its source row. 적용을 보류한다. 열 수 없는 문맥과 열쇠의 소유 관계를 분명하게 했다."
+      },
+      {
+        "id": 33131,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Dead Kel for an offspring",
+        "reason": "어색한 표현을 자식으로 얻었다는 뜻으로 바로잡았다."
+      },
+      {
+        "id": 33134,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "raise hammer to anvil",
+        "reason": "망치를 모루에 대는 어색한 표현을 작업 동작으로 고쳤다."
+      },
+      {
+        "id": 33154,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You can't miss it.",
+        "reason": "찾기 쉬울 것이라는 관용적 의미를 자연스럽게 옮겼다."
+      },
+      {
+        "id": 33165,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "failed at their orders",
+        "reason": "명령 자체가 아닌 명령 수행에 실패했다는 뜻을 명확히 했다."
+      },
+      {
+        "id": 33193,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 관용 표현도 자연스럽고 원문에 부합한다."
+      },
+      {
+        "id": 33197,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "불필요한 수정이며 저쪽에서라는 방향 정보도 빠진다."
+      },
+      {
+        "id": 33219,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The canopy stretched far",
+        "reason": "어색한 나뭇가지 덮개를 자연스럽게 풀었다."
+      },
+      {
+        "id": 33256,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "卵を壊してから戻ってくる",
+        "reason": "부순 알을 돌려준다는 어색한 표현을 귀환으로 바로잡았다."
+      },
+      {
+        "id": 33259,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 두려움과 매혹을 품고 지켜본다는 뜻을 전달한다."
+      },
+      {
+        "id": 33260,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 믿음의 대상을 특정하지 않은 원문에 부합한다."
+      },
+      {
+        "id": 33303,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 함께 맞서 선다는 표현도 자연스럽다."
+      },
+      {
+        "id": 33304,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I did not treat her with a heavy hand, as I did with Nil the White",
+        "reason": "닐은 가혹하게 다뤘다는 영어의 대조를 명확히 했다."
+      },
+      {
+        "id": 33307,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "자랑스럽고라는 기존 표현도 긍지 높은 독수리를 묘사하는 데 무리가 없다."
+      },
+      {
+        "id": 33311,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "몰락을 확인한 원문과 달리 직접 몰락시켰다는 뜻이 추가된다."
+      },
+      {
+        "id": 33318,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he could be declared the rightful owner",
+        "reason": "소유권을 주장하는 것이 아니라 인정받을 가능성을 반영했다."
+      },
+      {
+        "id": 33325,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 명예롭다는 수식을 제거할 필요가 명확하지 않다."
+      },
+      {
+        "id": 33329,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "うちの女房の笑顔、お日様みたいだろ",
+        "reason": "어색한 햇살 한 방울 비유를 자연스럽게 고쳤다."
+      },
+      {
+        "id": 33348,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존에는 저주와 실제 숲을 구별하는 농담이 드러나며 제안은 실제 숲을 빠져나온 뜻을 흐린다."
+      },
+      {
+        "id": 33351,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 원문에 충실하다."
+      },
+      {
+        "id": 33366,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I can share with you, Beckoned",
+        "reason": "부름받은 자가 상대방을 부르는 말임을 분명히 했다."
+      },
+      {
+        "id": 33432,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 활동에 지장을 받는다는 뜻으로, 실제 누워 있는지는 확인되지 않는다."
+      },
+      {
+        "id": 33438,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Perhaps not my first choice",
+        "reason": "이미 고른 선택이라는 어색한 해석을 바로잡았다."
+      },
+      {
+        "id": 33440,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "there are more like them on the island, waiting to be found",
+        "reason": "책이 더 존재하며 발견을 기다린다는 관계를 자연스럽게 정리했다."
+      },
+      {
+        "id": 33441,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a leather or some hide that even our learned men do not recognize",
+        "reason": "가죽인지 다른 짐승의 가죽인지라는 부자연스러운 구분을 고쳤다."
+      },
+      {
+        "id": 33444,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Don't make me waste my breath.",
+        "reason": "누구의 입이 아픈지 명확히 하여 자연스럽게 옮겼다."
+      },
+      {
+        "id": 33453,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "deeply unsettling",
+        "reason": "불길하다는 예감보다 몹시 마음이 불편하다는 반응이 원문에 가깝다."
+      },
+      {
+        "id": 33464,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The city is still locked to us",
+        "reason": "도시에 들어갈 수 없다는 뜻을 자연스럽게 풀었다."
+      },
+      {
+        "id": 33468,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 비유도 원문에 근거하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 33470,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "whoever sent them here",
+        "reason": "놈들을 보낸 자라는 목적어 관계를 명확히 했다."
+      },
+      {
+        "id": 33474,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "speak loyal or hold your tongue, lest you soon be hung",
+        "reason": "어색한 문장 순서를 정리하고 교수형의 뜻을 명확히 했다."
+      },
+      {
+        "id": 33482,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I can bring us to the Sorrows",
+        "reason": "화자 혼자가 아니라 일행을 데려간다는 뜻을 복원했다."
+      },
+      {
+        "id": 33492,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "大根役者",
+        "reason": "얼빠진 배우보다 서투른 배우가 원문의 뜻에 가깝다."
+      },
+      {
+        "id": 33493,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "旅の途中でしょ？",
+        "reason": "길에서 벗어났다는 어색한 표현을 여행 도중이라는 뜻으로 고쳤다."
+      },
+      {
+        "id": 33505,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the wrathful antithesis of everything we Mitharans hold dear",
+        "reason": "분노에 찬 정반대의 존재라는 관계를 명확히 했다."
+      },
+      {
+        "id": 33514,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 말실수를 살리고 있으며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 33533,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 지루한 하루를 버틴다는 뜻을 전달하며 할 일이 없다는 해석은 확정적이지 않다."
+      },
+      {
+        "id": 33542,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "특별한 혈통이라는 기존 표현도 원문의 breed에 부합한다."
+      },
+      {
+        "id": 33562,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "一時でも誰かがいるのはうれしいわ",
+        "reason": "중복된 곁 표현을 정리하고 잠시 함께 있는 기쁨을 자연스럽게 옮겼다."
+      },
+      {
+        "id": 33568,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "she had been attacked by a thresh",
+        "reason": "공격당한 사람이 아르하우스가 아니라 그녀임을 분명히 했다."
+      },
+      {
+        "id": 33581,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "신성한 것에 마음이 닿았다는 원문의 비유를 반드시 마음이 움직였다고 해석할 필요는 없다."
+      },
+      {
+        "id": 33602,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my most memorable song",
+        "reason": "어색한 관형 표현을 화자의 노래 중 가장 기억에 남는 노래로 분명히 했다."
+      },
+      {
+        "id": 33604,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "変化とは、フェイが唯一経験したことのないものだ",
+        "reason": "특정한 변화가 아닌 변화 자체를 경험하지 못했다는 뜻을 반영했다."
+      },
+      {
+        "id": 33612,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 편지에 관한 용건을 자연스럽게 전달한다."
+      },
+      {
+        "id": 33631,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "A right group of snakes",
+        "reason": "어색한 뱀 무리 묘사를 영락없는 뱀들이라는 뜻으로 고쳤다."
+      },
+      {
+        "id": 33645,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "It ‒ it is always an honor",
+        "reason": "원문의 말을 더듬는 목소리를 반영했다."
+      },
+      {
+        "id": 33673,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 다음에 만날 때까지 생각한다는 해석을 뒷받침하므로 수정이 확정적이지 않다."
+      },
+      {
+        "id": 33679,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안이 기존 문장과 동일하다."
+      },
+      {
+        "id": 33691,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "どんな敵でも相手になるぞ",
+        "reason": "무슨 일을 상대한다는 어색한 표현을 적을 상대한다는 뜻으로 고쳤다."
+      },
+      {
+        "id": 33716,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 필멸자들을 벌레에 비유한 뜻을 전달한다."
+      },
+      {
+        "id": 33719,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "足が短くて歩みが遅い",
+        "reason": "이동에 관한 어색한 진도를 걸음으로 고쳤다."
+      },
+      {
+        "id": 33741,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 광기가 시작된 상황을 전달하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 33762,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Even better, its the ruler of the House of Ballads",
+        "reason": "더 좋다는 반응이 발라드의 집 지배자라는 사실에 연결되도록 고쳤다."
+      },
+      {
+        "id": 33782,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "And give her illusion, as she to I",
+        "reason": "그녀가 화자에게 그랬듯 환상을 준다는 상호 관계를 복원했다."
+      },
+      {
+        "id": 33785,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "小さな魔道士の軍隊を立ち上げた",
+        "reason": "군대를 일으켰다는 표현을 조직했다는 자연스러운 뜻으로 고쳤다."
+      },
+      {
+        "id": 33804,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 존재해서는 안 된다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 33826,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 무작위 범죄도 원문에 근거하며 제안은 무작위성을 흐린다."
+      }
+    ],
+    "validation_issues": [
+      {
+        "id": 33102,
+        "issue": "Apply evidence does not exactly match its source row."
+      }
+    ]
+  }
+}

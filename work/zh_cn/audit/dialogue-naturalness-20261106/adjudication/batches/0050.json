@@ -1,0 +1,670 @@
+{
+  "fingerprint": "4299a5011b543ae32b50fb33307e6f4dab14ad2edf7cc12383f61217127cb5d4",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "reasoning",
+  "first_id": 25599,
+  "last_id": 26116,
+  "row_count": 80,
+  "seconds": 61.97,
+  "usage": {
+    "completion_tokens": 5865,
+    "prompt_tokens": 18362,
+    "total_tokens": 24227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 17,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 18359,
+      "cache_creation_tokens": 18359
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 25599,
+        "decision": "uncertain",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "Ancient와 대장군의 칭호 관계가 불명확해 '고대의'를 임의로 삭제하기 어렵다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25602,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "익명의 비밀 평의회라 부패와 우상숭배를 피한다는 의미가 전달되며 설명체도 허용된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25614,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "즉시 보고하라는 명령을 자연스럽고 정확하게 옮겼다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25617,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "두 원문과 일치하는 단독 호칭으로 문제가 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25625,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "a deal he is or isn't striking",
+        "reason": "거래 성사 여부의 불확실성을 거래 의향으로 바꿨다.",
+        "revised_ko": "그가 카라스타(Carasta) 상인과 거래를 성사시키느냐 마느냐 하는 일이랑 관련이 있어."
+      },
+      {
+        "id": 25627,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 수동형 자기소개와 대응하며 단정적인 말투도 가능하다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25637,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "사회 구조와 그 안에서의 역할을 정확히 설명하며 '-다'와 '-지'의 병용도 자연스럽다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25652,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "동상의 모습이 어딘가 이상하다는 관찰을 자연스럽게 전달한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25656,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "I feel the magic weakening",
+        "reason": "마법의 약화를 화자가 느낀다는 의미를 복원한다.",
+        "revised_ko": "샘의 관리자 노메론(Nomeron)은 모든 게 정상적으로 흐르고 있다고 우기지만, 그의 불안한 기색을 봤어. 마법이 약해지는 게 느껴져. 수상한 힘이 작용하고 있어."
+      },
+      {
+        "id": 25660,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "You were with him",
+        "reason": "함께 있었던 주체가 상대방임을 명확히 해야 한다.",
+        "revised_ko": "넌 죽었을 때 알라바스트라(Alabastra)에서 그와 함께 있었어... 하지만 기록에는 무슨 일이 있었는지 분명히 나와 있지 않아."
+      },
+      {
+        "id": 25664,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 발견에 대한 반응을 자연스럽게 옮긴 표현이다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25679,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "초대받았다는 의미가 정확하며 단정적인 서술 어미 자체는 결함이 아니다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25680,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "실험과 관심사를 설명하는 일관된 서술체로 의미상 문제도 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25687,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "keep track of who holds the hall",
+        "reason": "'따라가다'보다 점유자를 '파악하다'가 자연스럽다.",
+        "revised_ko": "해안에서 떨어진 탑 말인가? 그곳은 혼란투성이야... 전당을 누가 차지했는지 파악하기도 힘들지. 마지막으로 들었을 땐 반란군 병사들이 점령하고 있었어."
+      },
+      {
+        "id": 25693,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "전승을 설명하는 단정적 말투로 허용되며 원문의 정보도 보존한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25699,
+        "decision": "corrected",
+        "evidence_language": "ko",
+        "evidence_quote": "우리가 되찾을 때까지 잃어버린 채로.",
+        "reason": "물건 자체가 '잃어버린 채' 있다는 결합이 부자연스럽다.",
+        "revised_ko": "그것은 아직도 언더시 패스팅(Undersea Fasting)의 깊은 곳에 잠들어 있다. 우리가 되찾을 때까지 잃어버린 상태로 남아 있을 것이다."
+      },
+      {
+        "id": 25700,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "you're just in there to smash them",
+        "reason": "이동 표현이 중복된 문장을 정리하고 부술 대상을 복원한다.",
+        "revised_ko": "빛나는 부분이나 회전에 정신 팔리지 마. 그냥 놈들을 부수러 들어온 거야."
+      },
+      {
+        "id": 25704,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "Those kidnappers were far too organized.",
+        "reason": "'조직력이 치밀하다'는 결합을 자연스럽게 고친다.",
+        "revised_ko": "플래너건 시장(Mayor Flanagan)이었군. 진작 알았어야 했는데. 눈치챘어야 했어. 납치범들이 너무 조직적으로 움직였어."
+      },
+      {
+        "id": 25709,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문과 동일한 침묵 표시로 용도를 몰라도 수정할 근거가 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25713,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "로포쿠에게 감사한 뒤 상대에게 신세졌다고 말하는 해석이 가능하다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25717,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "Raised by humans.",
+        "reason": "'인간 손에 자라다'의 조사를 자연스럽게 고친다.",
+        "revised_ko": "인간 손에서 자랐고 스승에게 훈련받았지. 케이프 솔라스(Cape Solace) 사람들 말로는 심술궂은 불평꾼일 뿐이라더군."
+      },
+      {
+        "id": 25718,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어에 명시된 호칭을 정확히 옮겼으며 일본어 차이만으로 고칠 필요는 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25721,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "Go on and dance, cousin.",
+        "reason": "함께 가자는 제안보다 상대에게 춤추라고 권하는 의미를 살린다.",
+        "revised_ko": "자, 춤춰 봐, 사촌."
+      },
+      {
+        "id": 25725,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어에 명시된 제삼자를 가리키는 자연스러운 질문이다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25727,
+        "decision": "uncertain",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "Hexes가 일반 주술인지 고유 명칭인지 확인할 수 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25735,
+        "decision": "corrected",
+        "evidence_language": "ja",
+        "evidence_quote": "武器が裏切ることはまずない",
+        "reason": "'무기가 실패하다'보다 원문의 신뢰성 비유를 살리는 편이 자연스럽다.",
+        "revised_ko": "부름받은 자(Beckoned), 콜로사이(Kollossae)의 무기는 전투에서 좀처럼 널 배신하지 않아."
+      },
+      {
+        "id": 25740,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 대처 방법을 묻는 질문과 화재 상황을 정확히 전달한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25742,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "탈영병과 장비는 필요 없고 술만 회수하라는 의미가 자연스럽게 전달된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25744,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "She never found Turin? She won't be happy.",
+        "reason": "찾지 못한 사람과 실망할 사람이 제삼자인 여성임을 명확히 한다.",
+        "revised_ko": "그녀가 투린(Turin)을 찾지 못했어? 그녀는 좋아하지 않겠군. 그가 두루마리를 갖고 있었고... 아니, 내가 말할 일은 아니야."
+      },
+      {
+        "id": 25748,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "at a triumphant end of hostilities against your foes",
+        "reason": "'적대 행위에서 승리를 거둬 마무리'라는 부자연스러운 연결을 고친다.",
+        "revised_ko": "... 우리 정책이 다른 이들이 인정하려는 것보다 훨씬 현실적이라는 점이야.\r\n\r\n적과의 싸움을 승리로 마무리하게 된다면, 우리가 그런 기회를 예상하고 있었음을 알아두게. 우리는 휴전을 바라고 있네. 양측 모두에게 번영을 가져올 평화 말일세.\r\n\r\n우리는 모든 협상에 열려 있고, 응할 의향도 있네..."
+      },
+      {
+        "id": 25752,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "생략된 대상을 평가하는 표현으로 자연스럽고 enthralling의 의미에도 맞는다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25757,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "Wystran knows ways around it",
+        "reason": "'그 틈을 알다'보다 칙령을 우회할 방법을 안다는 표현이 명확하다.",
+        "revised_ko": "조언 하나 하지. 무기를 찾는다면 위스트란 놀(Wystran Nol)을 찾아가 봐. 평화 칙령(Peace Edict)이 제대로 시행되진 않고, 그는 그걸 피해 갈 방법을 아는 사람이야."
+      },
+      {
+        "id": 25766,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "양측의 주사위 결과를 자연스럽게 전달하며 자리표시자도 보존되어 있다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25772,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "치료제가 된다는 비유와 위엄 있는 선언체가 모두 원문에 부합한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25775,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "시골에는 발견할 것이 거의 없다는 영어의 뜻을 무리 없이 전달한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25779,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "Panicking, mostly.",
+        "reason": "당황하는 것이 준비라는 자조를 겁먹지 않는 연습으로 반대로 옮겼다.",
+        "revised_ko": "가 봐. 나도 준비할 게 있어. 대부분은 허둥대는 일이겠지만."
+      },
+      {
+        "id": 25780,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "I mean, I do now.",
+        "reason": "이제 자신은 안다는 정정이므로 추측처럼 들리는 어미를 고친다.",
+        "revised_ko": "땅과 하늘이 이렇게 가까운 줄 몰랐어. 아, 지금은 알아. 다시는 그런 실수 안 할 거야."
+      },
+      {
+        "id": 25790,
+        "decision": "corrected",
+        "evidence_language": "ja",
+        "evidence_quote": "ささやきに耳を傾けてる",
+        "reason": "'속삭임을 돌보다'라는 부자연스러운 결합을 고친다.",
+        "revised_ko": "이제 그는 깨어나는 낮을 지켜보고, 나는 꿈꾸는 돌의 속삭임에 귀를 기울이고 있어."
+      },
+      {
+        "id": 25796,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "더 이상의 진입을 막는 자연스러운 경고이며 원문 의미와 맞는다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25801,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "you know",
+        "reason": "상대에게 덧붙이는 표현을 과거의 앎에 대한 진술로 잘못 옮겼다.",
+        "revised_ko": "널 기다렸어, 알잖아. 오랫동안. 더 기다렸을 거야. 더 많은 선행을 했겠지. 더 많은 죽음도 불러왔겠지만."
+      },
+      {
+        "id": 25806,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "가문의 과거 위상과 멸망을 정확하게 설명하는 문장이다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25827,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "a burden greater than any one mortal might ever hope to bear",
+        "reason": "감당 가능한 한계를 넘는 무게라는 뜻을 자연스럽게 정리한다.",
+        "revised_ko": "흥미롭네요. 당신은 필멸자지만, 발걸음에는 필멸자 한 명이 도저히 감당할 수 없을 만큼의 무게가 실려 있네요."
+      },
+      {
+        "id": 25830,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "sculpted it into a mortal-made wonder of Detyre",
+        "reason": "'경이로 빚다'라는 부자연스러운 명사 결합을 고친다.",
+        "revised_ko": "수년째 챔피언 자리를 지키고 있지. 이 땅엔 내 자리를 빼앗을 만큼 실력이나 꾀를 갖춘 자가 없어. 전쟁이 한창이지만, 내 이야기는 앞으로 큰 의미를 지닐 거야. 폐허가 된 페이(Fae) 가문의 잔해를 주워 필멸자의 손으로 데티어(Detyre)의 경이로운 건축물을 빚어냈어. 그것으로 아버지가 기뻐하며 파 놓은 가난의 구덩이에서 기어올랐지."
+      },
+      {
+        "id": 25832,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "Stern in the brow.",
+        "reason": "'엄한 눈썹'은 부자연스러우므로 인상을 나타내는 표현으로 고친다.",
+        "revised_ko": "네가 해낼 것 같군. 근엄한 눈매에 당당한 태도. 이 통지서를 배달할 사람으로 딱이야."
+      },
+      {
+        "id": 25836,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "쇠퇴하는 종족을 보호하겠다는 엄숙한 당위 표현으로 자연스럽다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25851,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 대사제 관련 사안과 그림의 쿠데타를 병렬로 제시하며 현 번역도 그렇게 읽힌다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25859,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "토르민을 믿을 수 없다는 유감과 군주에게는 거짓말하지 않는다는 대비가 전달된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25884,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "단정형과 해체의 혼용은 반말 발화에서 가능하며 위협적 의미도 유지된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25887,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "solemn place, but beautiful",
+        "reason": "solemn을 장엄함으로 옮겨 차분하고 엄숙한 장소의 성격이 달라졌다. 장소 관리 표현도 다듬는다.",
+        "revised_ko": "내가 마지막으로 이곳을 걸었을 때는 엄숙하면서도 아름다웠다. 다정한 페이(Fae)들이 복도며 구석구석을 가꿨지. 이제는 침묵과 타락, 오염만 남았다."
+      },
+      {
+        "id": 25892,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "Don't be too long.",
+        "reason": "상대에게 시간이 걸리지 말라고 명령하는 결합이 어색하다.",
+        "revised_ko": "너무 늦지 마."
+      },
+      {
+        "id": 25899,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "무엇이 나올지 모른다는 수사적 질문은 한국어에서도 자연스럽다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25910,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "you can do better than that",
+        "reason": "비교 기준을 나타내는 조사를 고친다.",
+        "revised_ko": "마법의 영역에서 온 신 텔로그루스(Telogrus)도 쓰러뜨렸다며? 그보다는 더 잘할 수 있잖아!"
+      },
+      {
+        "id": 25925,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "if they arrive here, gods forbid",
+        "reason": "기도 삽입으로 끊긴 흐름을 정리하고 도착 주체를 명확히 한다.",
+        "revised_ko": "가엾은 행렬이군. 난 그들의 이야기를 믿어. 바다 건너 투아사(Tuatha)가 저들에게 무슨 짓을 했는지 보라고. 놈들이 이곳에 오면 어떤 일이 벌어질지 뻔하잖아. 제발 그런 일은 없기를."
+      },
+      {
+        "id": 25926,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "Good eve.",
+        "reason": "인사로 쓰인 명사구를 자연스러운 한국어 인사로 고친다.",
+        "revised_ko": "좋은 저녁이야."
+      },
+      {
+        "id": 25939,
+        "decision": "uncertain",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문은 빚진 상대를 명시하지 않아 '그에게'가 적절한지 확정할 수 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25946,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "better use for a sword and shield",
+        "reason": "더 좋은 것은 무기가 아니라 활용 방법임을 명확히 한다.",
+        "revised_ko": "난 군인이야. 우리 모두 그렇지. 아니, 검과 방패를 더 잘 활용할 방법을 찾기 전까진 군인이었어."
+      },
+      {
+        "id": 25955,
+        "decision": "corrected",
+        "evidence_language": "ja",
+        "evidence_quote": "仕事はまだ残ってる",
+        "reason": "처리할 업무를 물건으로 한정해 의미가 달라졌다.",
+        "revised_ko": "네? 처리할 일이 몇 가지 있지만, 도와드릴 일이 있다면..."
+      },
+      {
+        "id": 25957,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'꼴'은 현장의 상태에도 쓸 수 있어 뒤의 참상 묘사와 자연스럽게 연결된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25967,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'어두운 전쟁'은 원문의 부정적이고 불길한 수식을 보존하는 비유로 허용된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25972,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 모호한 다른 부류를 일본어가 다른 직업으로 풀고 있어 현 해석을 지지한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25982,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "천막이 숲처럼 빽빽하게 늘어나는 원문의 비유를 이해할 수 있다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 25995,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "찬가의 운문 표현으로 봉헌과 도시의 위상을 전달하며 수정할 명확한 오류는 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 26000,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "주체 높임의 일부 생략은 구어에서 가능하며 동일 인물의 행동임도 명확하다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 26005,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "sobered up long enough",
+        "reason": "술이 깼다는 구체적인 의미가 빠졌다.",
+        "revised_ko": "긴 이야기야. 알레스타 탑(Allestar Tower)에 친구를 묻으러 갈 만큼 술이 깼을 때 시작됐지."
+      },
+      {
+        "id": 26007,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "we stumbled into one not at all on purpose",
+        "reason": "고의를 해명하는 어색한 절을 우연히 들어갔다는 표현으로 정리한다. 지형 용어는 단정하지 않는다.",
+        "revised_ko": "골짜기는 필멸자에게 안전한 곳이 아니야. 몇 년 전 우리도 어쩌다 그곳에 들어갔지."
+      },
+      {
+        "id": 26008,
+        "decision": "uncertain",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "본성과 부름의 인과·방향 관계가 영어와 일본어에서 달라 확정하기 어렵다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 26009,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "감시 아래 자신의 역할을 해야 한다는 영어 의미에 충실하고 자연스럽다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 26025,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "it is time for the fate of Whitestone to be determined",
+        "reason": "'운명은 결정될 때'라는 어색한 주술 관계를 고친다.",
+        "revised_ko": "친구와 광부 동료들에게 책임이 있지만, 이제는 화이트스톤(Whitestone)의 운명이 그곳 사람 한 명의 열정과 땀으로 결정되어야 할 때야."
+      },
+      {
+        "id": 26041,
+        "decision": "corrected",
+        "evidence_language": "ja",
+        "evidence_quote": "人生を楽しみたいなら",
+        "reason": "삶을 즐기고 싶다는 뜻을 생명 위협으로 옮겼다.",
+        "revised_ko": "그 남자? 인생을 즐기고 싶으면 말도 걸지 마. 농담도 못 받아들이고 술도 즐길 줄 모르거든."
+      },
+      {
+        "id": 26042,
+        "decision": "corrected",
+        "evidence_language": "ja",
+        "evidence_quote": "当主のエブソル",
+        "reason": "가문의 우두머리를 소개하는 호칭은 '가주'가 자연스럽다.",
+        "revised_ko": "가주 에브솔은 사람들과 어울리길 좋아해. 남의 눈을 피해 그에게서 반지를 가져와야 해."
+      },
+      {
+        "id": 26046,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어 감탄사를 자연스럽게 옮겼으며 일본어 차이만으로 수정할 근거는 없다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 26050,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "여러 전투 분야의 전사들이 모였다는 의미가 명확하고 한국어로도 허용된다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 26059,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "majesty our mantle and courage our sign",
+        "reason": "우리의 위엄과 용기라는 구절을 메로피스의 속성으로 잘못 연결했다.",
+        "revised_ko": "만세! 이제 사라진 물 위의 섬들 중 마지막, 메로피스(Meropis)를 노래하세. 만세! 위엄을 우리의 망토 삼고 용기를 우리의 표식 삼아 메로피스(Meropis)를 노래하세. 만세! 메로피스(Meropis)여!"
+      },
+      {
+        "id": 26070,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어에 명시된 다섯 선원 무리와 다섯 병을 정확히 반영한다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 26072,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "succumbing to poison",
+        "reason": "'독에 굴복하다'는 직역투를 중독으로 쓰러져 가는 상태로 고친다.",
+        "revised_ko": "이 앞에 독에 중독되어 쓰러져 가는 비탄의 페이(Fae of Sorrows)가 있다. 네가 그를 어떻게 할지 궁금하군."
+      },
+      {
+        "id": 26076,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "어린 딸과 나이 든 딸을 모두 길렀다는 영어의 표현을 반영하며 서사문으로 이해 가능하다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 26077,
+        "decision": "corrected",
+        "evidence_language": "ja",
+        "evidence_quote": "うまく見つかるといいわね",
+        "reason": "'찾는 게 잘되다'라는 어색한 결합을 자연스럽게 고친다.",
+        "revised_ko": "잘 찾길 바라."
+      },
+      {
+        "id": 26095,
+        "decision": "corrected",
+        "evidence_language": "en",
+        "evidence_quote": "where I will meet Grim",
+        "reason": "그림을 만나는 주체가 화자임을 명확히 한다.",
+        "revised_ko": "내 제안을 생각해 봐. 이걸 가져. 대사제(Hierophant) 궁정의 별채, 내 성소로 통하는 열쇠야. 내가 그곳에서 그림(Grim)을 만날 거야."
+      },
+      {
+        "id": 26105,
+        "decision": "retained",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "시도가 끝을 맞았다는 표현은 좌절을 함축할 수 있어 영어 의미를 벗어나지 않는다.",
+        "revised_ko": ""
+      },
+      {
+        "id": 26116,
+        "decision": "corrected",
+        "evidence_language": "ko",
+        "evidence_quote": "정말 후한 호의였어",
+        "reason": "'후한 호의'라는 부자연스러운 결합을 감사의 뜻에 맞게 고친다.",
+        "revised_ko": "에메어(Emaire)에 다시 온 걸 환영하네, 친구. 자네가 나를 위해 해 준 일은 정말 과분한 호의였어. 야만적인 시대에 보기 드문 선행이었지. 다시 한번 고맙네."
+      }
+    ]
+  }
+}

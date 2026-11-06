@@ -18,7 +18,9 @@ import urllib.request
 
 
 ROOT = Path(__file__).resolve().parents[3]
-OUT = ROOT / "work/zh_cn/audit/full-voice-20261024"
+OUT = Path(os.environ.get(
+    "KO_AUDIT_OUT", str(ROOT / "work/zh_cn/audit/full-voice-20261024")
+))
 PATHS = {
     "ko": ROOT / "work/zh_cn/locatexts_zh_cn.koalocatext_default.csv",
     **{
@@ -175,10 +177,14 @@ def call_model(system, content, model=MODEL, max_tokens=18000):
         "reasoning_effort": "low",
         "response_format": {"type": "json_object"},
     }
+    headers = {"Content-Type": "application/json"}
+    api_key = os.environ.get("LITELLM_API_KEY")
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
     request = urllib.request.Request(
         url + "/chat/completions",
         data=json.dumps(payload, ensure_ascii=False).encode(),
-        headers={"Content-Type": "application/json"},
+        headers=headers,
     )
     with urllib.request.urlopen(request, timeout=600) as response:
         result = json.load(response)

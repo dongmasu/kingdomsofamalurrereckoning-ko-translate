@@ -1,0 +1,451 @@
+{
+  "fingerprint": "a024c06d97fdb3d19b9011831d6cf35d20a3cb03024fcd4dc9067a03c1818734",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 59180,
+  "last_id": 60123,
+  "row_count": 60,
+  "seconds": 35.01,
+  "usage": {
+    "completion_tokens": 2837,
+    "prompt_tokens": 17371,
+    "total_tokens": 20208,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 51,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 17368,
+      "cache_creation_tokens": 17368
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 59180,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Nature might cast us as opposites",
+        "reason": "‘자연’의 모호함을 천성이라는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 59209,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We were the first of our kind.",
+        "reason": "각자 해당 역할의 최초였다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 59215,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We could always use the help, if you're game.",
+        "reason": "어색한 요청을 자연스러운 환영 표현으로 고친다."
+      },
+      {
+        "id": 59238,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘사나운 함정’도 원문의 강한 표현에 부합한다."
+      },
+      {
+        "id": 59252,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "進展はあったか？",
+        "reason": "막연한 안부가 아니라 진전 여부를 묻는 뜻을 살린다."
+      },
+      {
+        "id": 59302,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "until an obvious choice presents itself",
+        "reason": "어색한 ‘뻔한 선택’을 선택이 분명해지는 뜻으로 고친다."
+      },
+      {
+        "id": 59346,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm so glad",
+        "reason": "화자 자신의 비꼼으로 바로잡는다."
+      },
+      {
+        "id": 59352,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "people like you and I",
+        "reason": "너와 나 같은 사람들이라는 원문의 범위를 복원한다."
+      },
+      {
+        "id": 59457,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a crime in Apotyre in these trying times",
+        "reason": "성이 죄로 취급되는 상황을 자연스럽게 풀어낸다."
+      },
+      {
+        "id": 59463,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "King Wencen awaits your consultation.",
+        "reason": "상의하기를 기다린다는 어색한 표현을 고친다."
+      },
+      {
+        "id": 59477,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a range of numbers to roll between",
+        "reason": "굴릴 숫자가 아니라 나올 숫자의 범위임을 분명히 한다."
+      },
+      {
+        "id": 59501,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it must be returned to the Hollow",
+        "reason": "동굴 반환과 봄철 대비를 바로잡고 허리 통증도 자연스럽게 표현한다."
+      },
+      {
+        "id": 59517,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 누구도 남지 않는다는 뜻이 분명하다."
+      },
+      {
+        "id": 59523,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sorting through the crime scene",
+        "reason": "현장을 치우는 것이 아니라 조사하는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 59592,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "in the middle of nowhere",
+        "reason": "어색한 표현을 자연스러운 외딴곳이라는 뜻으로 고친다."
+      },
+      {
+        "id": 59610,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a marvelous city to walk",
+        "reason": "도시를 걸어 둘러보는 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 59611,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "chew on hollowed bones,\nWhile alive. We wail vapid moans.",
+        "reason": "살아 있는 채 뼈를 씹는 주체와 신음하는 주체를 명확히 한다."
+      },
+      {
+        "id": 59662,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현은 원문의 독특한 어조를 살리고 있어 삭제가 필요하지 않다."
+      },
+      {
+        "id": 59693,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Wasting my time wastes lives.",
+        "reason": "시간 낭비가 인명 손실로 이어진다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 59701,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "장교보다 화자가 열 배 더 많이 만났다는 비교는 원문에서 확실하지 않다."
+      },
+      {
+        "id": 59722,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "their life is nothing but disorientation, debauchery, nakedness",
+        "reason": "삶을 서술하는 어색한 동사 나열을 자연스럽게 고친다."
+      },
+      {
+        "id": 59734,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the jealousy of power",
+        "reason": "권력을 둘러싼 질투라는 관계를 자연스럽게 표현한다."
+      },
+      {
+        "id": 59741,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "금액 선택지라는 맥락은 가능하지만 ‘큰 금액’으로 한정할 근거가 부족하다."
+      },
+      {
+        "id": 59750,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "looking for dirt on the prison",
+        "reason": "감옥의 약점으로 한정한 뜻을 뒷이야기로 바로잡는다."
+      },
+      {
+        "id": 59752,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안문의 ‘피에 굶주린 욕망’도 어색해 명확한 개선이 아니다."
+      },
+      {
+        "id": 59760,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "They call the Demon back",
+        "reason": "악마를 부르는 주체를 복원한다."
+      },
+      {
+        "id": 59783,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "this side of the straight",
+        "reason": "어색한 지시 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 59799,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You must be as perplexed as I am",
+        "reason": "혼란스러운 주체와 비교 대상을 바로잡는다."
+      },
+      {
+        "id": 59809,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we've got no Wand to mend it",
+        "reason": "농장을 고칠 지팡이가 없다는 관계를 명확히 한다."
+      },
+      {
+        "id": 59815,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 소지품이나 실력 모두 가능해 맥락 없이 한정하기 어렵다."
+      },
+      {
+        "id": 59816,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 뒷받침되며 제안은 문체를 불필요하게 바꾼다."
+      },
+      {
+        "id": 59817,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "lie undisturbed",
+        "reason": "폐허가 훼손되지 않고 남았다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 59843,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "そのうちの2つを解決したら",
+        "reason": "청원 두 건을 해결한다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 59845,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彼が犠牲にしてきた分身たち",
+        "reason": "어색한 ‘자기 자신의 일부들’을 원문이 뒷받침하는 분신으로 고친다."
+      },
+      {
+        "id": 59849,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he's mostly a cad",
+        "reason": "‘대체로 비열한 인간’의 어색함을 고친다."
+      },
+      {
+        "id": 59855,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Anyone who's able serves in the militia",
+        "reason": "일반적인 노동이 아닌 민병대 복무 능력으로 바로잡는다."
+      },
+      {
+        "id": 59870,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "사랑을 바쳐야겠다는 표현은 원문의 빚진 마음보다 단정적이다."
+      },
+      {
+        "id": 59934,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "殆どいなくなった",
+        "reason": "전쟁으로 다른 페이들이 사라졌다는 문맥을 반영한다."
+      },
+      {
+        "id": 59939,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "하지만 이제는 오물과 부패한 필멸자의 시체가 가득한 진창이 됐어.",
+        "reason": "앞 문장의 종결을 주변 대화체와 일치시킨다."
+      },
+      {
+        "id": 59944,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 부적절한 참견이라는 뜻을 전달한다."
+      },
+      {
+        "id": 59948,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "difficult to work for",
+        "reason": "함께 일하기보다 그의 밑에서 일하기 어렵다는 뜻을 살린다."
+      },
+      {
+        "id": 59959,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘상처 입히다’는 자연스럽고 뜻도 정확하다."
+      },
+      {
+        "id": 59971,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we beat you here",
+        "reason": "‘여기서 먼저 왔다’의 조사 오류를 고친다."
+      },
+      {
+        "id": 59981,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What about her?",
+        "reason": "상대가 그녀를 언급한 이유를 묻는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 59987,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "To our farm ‒ to our lives...",
+        "reason": "중단된 문장의 조사 연결을 자연스럽게 고친다."
+      },
+      {
+        "id": 59988,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 대항할 가능성이라는 뜻을 전달하며 제안은 필수적이지 않다."
+      },
+      {
+        "id": 60000,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘후한 금화’도 충분한 보수라는 원문의 뜻에 부합한다."
+      },
+      {
+        "id": 60005,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "From that position we get our orders",
+        "reason": "명령을 받는 대상을 명확히 하고 현재 시제를 반영한다."
+      },
+      {
+        "id": 60007,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "동굴 슬라임이 맞지 않는 이유를 먹는 것으로 단정할 근거가 부족하다."
+      },
+      {
+        "id": 60025,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Please, accept a discount.",
+        "reason": "할인을 제공하겠다는 뜻을 자연스럽게 고친다."
+      },
+      {
+        "id": 60039,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "see if she'll talk",
+        "reason": "그녀가 말할 의향이 있는지 확인하라는 뜻을 복원한다."
+      },
+      {
+        "id": 60044,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the oldest and wisest of the camp leaders",
+        "reason": "지도자의 나이를 가리킨다는 점을 분명히 하고 어투를 맞춘다."
+      },
+      {
+        "id": 60056,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you pick some numbers to roll within",
+        "reason": "주사위 자체가 아니라 나올 눈의 범위임을 명확히 한다."
+      },
+      {
+        "id": 60060,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "君だったらどうしてた？",
+        "reason": "상대가 그 상황이었다면 어떻게 했을지 묻는 뜻을 살린다."
+      },
+      {
+        "id": 60068,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘세력권’은 영어의 sphere에 부합하며 삭제가 필수적이지 않다."
+      },
+      {
+        "id": 60076,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm going to enjoy this.",
+        "reason": "어색한 직역을 자연스러운 대사로 고친다."
+      },
+      {
+        "id": 60082,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a large cluster of Telogrus followers",
+        "reason": "무리가 ‘크게 모여 있다’는 어색한 표현을 고친다."
+      },
+      {
+        "id": 60089,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "결투의 second는 단순 입회인보다 넓은 역할일 수 있다."
+      },
+      {
+        "id": 60105,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We were raised Travelers",
+        "reason": "복수 조사 때문에 어색해진 표현을 고친다."
+      },
+      {
+        "id": 60123,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 높임 표현도 자연스러워 제거할 근거가 부족하다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

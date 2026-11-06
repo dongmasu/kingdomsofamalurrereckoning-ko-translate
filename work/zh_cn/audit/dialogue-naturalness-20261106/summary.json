@@ -1,0 +1,81 @@
+{
+  "version": "dialogue-naturalness-v1",
+  "model_aliases": {
+    "native_naturalness": "standard",
+    "independent_naturalness": "reasoning"
+  },
+  "snapshots": {
+    "ko": {
+      "path": "/Users/donghyki/kingdomsofamalurrereckoning-ko-translate/work/zh_cn/locatexts_zh_cn.koalocatext_default.csv",
+      "sha256": "cb50319fe0e650619defdc86272eee887408e6e923e1f43787045bfc17b0e945",
+      "rows": 65135
+    },
+    "en": {
+      "path": "/Users/donghyki/kingdomsofamalurrereckoning-ko-translate/src/csv/en_us/locatexts_en_us.koalocatext_default.csv",
+      "sha256": "9984e3e0f25218dda43dbb8b054d43cfac5d0627ab9f8784d0ae0f1d70e2ba7a",
+      "rows": 65135
+    },
+    "ja": {
+      "path": "/Users/donghyki/kingdomsofamalurrereckoning-ko-translate/src/csv/ja_jp/locatexts_ja_jp.koalocatext_default.csv",
+      "sha256": "ab652d5a3d24e3894e06e57dee024f7dd27b56dc176e587d4a50cb260d436714",
+      "rows": 65135
+    },
+    "zh": {
+      "path": "/Users/donghyki/kingdomsofamalurrereckoning-ko-translate/src/csv/zh_cn/locatexts_zh_cn.koalocatext_default.csv",
+      "sha256": "b8381db941f87c909a1159da9976a5c2c7b2df5fbf3c789479f5c836a2fe2f3b",
+      "rows": 65135
+    }
+  },
+  "total_rows": 65135,
+  "reviewed_rows": {
+    "native_naturalness": 65135,
+    "independent_naturalness": 65135
+  },
+  "rows_reviewed_by_both": 65135,
+  "complete": true,
+  "reviewer_verdict_counts": {
+    "native_naturalness": {
+      "not-applicable": 23252,
+      "natural": 33988,
+      "awkward": 4577,
+      "uncertain": 3318
+    },
+    "independent_naturalness": {
+      "not-applicable": 23563,
+      "natural": 34996,
+      "awkward": 5320,
+      "uncertain": 1256
+    }
+  },
+  "candidate_union": 10292,
+  "reviewer_disagreements": 6919,
+  "usage": {
+    "native_naturalness": {
+      "completion_tokens": 983807,
+      "prompt_tokens": 7014860,
+      "total_tokens": 7998667
+    },
+    "independent_naturalness": {
+      "completion_tokens": 1083540,
+      "prompt_tokens": 7010878,
+      "total_tokens": 8094418
+    }
+  },
+  "limits": [
+    "Automated review is not human or in-game validation.",
+    "Candidate union is not a set of confirmed errors; every item requires source-based adjudication.",
+    "No model candidate is discarded by a second-pass triage filter.",
+    "Speaker continuity is not inferred from IDs, names, or row order."
+  ],
+  "post_review": {
+    "source_snapshot_sha256": "cb50319fe0e650619defdc86272eee887408e6e923e1f43787045bfc17b0e945",
+    "active_csv_sha256": "c1ccb405469a8c6c7123914f2abddc3d8c762c2c812c6a4fbc802faf2eb63db7",
+    "applied_corrections": 2785,
+    "final_dispositions": {
+      "corrected": 2785,
+      "retained": 5441,
+      "unresolved": 2066
+    },
+    "final_dispositions_tsv": "work/zh_cn/audit/dialogue-naturalness-20261106/adjudication/final-dispositions.tsv"
+  }
+}

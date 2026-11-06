@@ -1,0 +1,61 @@
+{
+  "fingerprint": "c85631bcc955284db71e9c378792eb9f2708ffcb67f36c8eba01db7fdc1d09d5",
+  "snapshot_hash": "5fa3830ba6865b8ebdae3c6c0d2a6804946736b08159dfe296a35219389dbd4c",
+  "first_id": 64283,
+  "last_id": 65134,
+  "row_count": 7,
+  "usage": {
+    "completion_tokens": 280,
+    "prompt_tokens": 1932,
+    "total_tokens": 2212,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 1929,
+      "cache_creation_tokens": 1929
+    }
+  },
+  "decisions": [
+    [
+      64283,
+      "drop",
+      "‘내게가 아니라 네 앞에’라는 대조는 다소 특이하지만 발화 자체가 부자연스럽다고 보기는 어렵다."
+    ],
+    [
+      64321,
+      "keep",
+      "열쇠에 이르는 방법을 묻는 말에서 ‘열쇠에는 어떻게 닿지’는 구어로 부자연스럽다."
+    ],
+    [
+      64390,
+      "keep",
+      "자신의 부재를 슬퍼한다는 뜻의 ‘내 상실을 가슴 아프게 받아들였다’가 대화에서 추상적이고 어색하다."
+    ],
+    [
+      64438,
+      "drop",
+      "‘죽었다’는 비극을 전하는 단정적인 발화로 자연스럽고, 주변의 반말과도 충돌하지 않는다."
+    ],
+    [
+      64522,
+      "keep",
+      "‘서로의 차이로 거의 무력 충돌 직전’이라는 연결이 딱딱하고 대화체에서 부자연스럽다."
+    ],
+    [
+      64585,
+      "keep",
+      "‘신성한 존재와 힘에 발을 들여놓다’라는 결합이 발화에서 부자연스럽다."
+    ],
+    [
+      65134,
+      "drop",
+      "발화가 아닌 일지 서술이므로 구어체 종결의 혼용은 이 과제의 음성 결함 대상이 아니다."
+    ]
+  ]
+}

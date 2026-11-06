@@ -1,0 +1,451 @@
+{
+  "fingerprint": "bebda0d8e58f0f3921b269d53624c21ebffbba395d863b50349f690d12e4a782",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 39484,
+  "last_id": 40451,
+  "row_count": 60,
+  "seconds": 34.8,
+  "usage": {
+    "completion_tokens": 2911,
+    "prompt_tokens": 9689,
+    "total_tokens": 12600,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 4,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 9686,
+      "cache_creation_tokens": 9686
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 39484,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "배의 일부라는 원문을 그녀가 탔던 특정 부분으로 한정한다."
+      },
+      {
+        "id": 39485,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "물약을 먹인 주체가 제안문에서 불분명해진다."
+      },
+      {
+        "id": 39489,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 투아사와의 불화, 영어는 투아사의 분열로 해석되어 단정하기 어렵다."
+      },
+      {
+        "id": 39492,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "반복이 다소 있으나 기존 문장도 자연스럽고 의미가 통한다."
+      },
+      {
+        "id": 39496,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "If only more of my people were as convinced.",
+        "reason": "백성이 화자를 믿는다는 뜻이 아니라 같은 확신을 갖기를 바라는 뜻을 살린다."
+      },
+      {
+        "id": 39497,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "enlighten the minds of those who enter my academy",
+        "reason": "지식을 깨우친다는 어색한 표현을 사람들을 깨우친다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 39520,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 의도된 의미를 전달하며 제안은 오히려 부자연스럽다."
+      },
+      {
+        "id": 39532,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "눈과 귀를 지휘에 맡긴다는 뜻이 상대의 눈과 귀가 되어 준다는 뜻으로 달라진다."
+      },
+      {
+        "id": 39543,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "gloriously bloody",
+        "reason": "기존에 빠진 유혈에 대한 화자의 긍정적 평가를 반영한다."
+      },
+      {
+        "id": 39549,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 낯설다는 표현도 낯선 방문객에 대한 놀라움을 전달한다."
+      },
+      {
+        "id": 39600,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a momentous battle",
+        "reason": "전투의 격렬함보다 중대함을 나타내는 원문에 가깝다."
+      },
+      {
+        "id": 39610,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "How do you really feel?",
+        "reason": "어색한 '정말로는'을 자연스러운 질문으로 고친다."
+      },
+      {
+        "id": 39630,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 bodies가 반드시 시신을 뜻하는지는 확실하지 않아 훼손된 시신으로 구체화하기 어렵다."
+      },
+      {
+        "id": 39649,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "例の泥棒が現れないか注意しておいて",
+        "reason": "이미 도둑이 있는 듯한 표현을 나타나는지 살피라는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 39658,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We can continue our journey, if you wish.",
+        "reason": "상대 혼자가 아니라 함께 여정을 계속한다는 뜻을 살린다."
+      },
+      {
+        "id": 39662,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Killed by the cold-blooded Cynric boys",
+        "reason": "묘비문의 서술을 구어체에서 일관된 문어체로 고친다."
+      },
+      {
+        "id": 39677,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 특정 폐허와 일본어의 이런 폐허 사이에 차이가 있어 단정하기 어렵다."
+      },
+      {
+        "id": 39682,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "찬송가로 선포한다는 기존 표현도 원문에 부합해 수정 필요성이 분명하지 않다."
+      },
+      {
+        "id": 39684,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "次の仕事に関するお告げ",
+        "reason": "임무의 전조를 보여 준다는 어색한 표현을 임무에 관한 신탁으로 바로잡는다."
+      },
+      {
+        "id": 39694,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "앞 문장의 필멸자를 이어받는 표현이므로 기존 뜻도 명확하다."
+      },
+      {
+        "id": 39712,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he thinks he has the best of me",
+        "reason": "어색한 '한 수 이겼다'를 자연스러운 관용 표현으로 고친다."
+      },
+      {
+        "id": 39716,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 호수 이쪽, 일본어는 건너편이라고 하여 위치가 상충한다."
+      },
+      {
+        "id": 39725,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "there is no precedent for a foe like this",
+        "reason": "반복되는 지시어로 생기는 모호함을 줄이고 이런 적을 겪은 적이 없다는 뜻을 살린다."
+      },
+      {
+        "id": 39761,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "あなたの運命が... 信じられないけど、見えないの",
+        "reason": "상대가 시야를 가린다는 오해를 없애고 상대의 운명이 보이지 않는다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 39790,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "優れたフェイトウィーバーだから、敵が多いんだ",
+        "reason": "일반적인 서술의 you를 청자에 대한 말로 오해한 부분을 바로잡는다."
+      },
+      {
+        "id": 39791,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I recognize these notes",
+        "reason": "필체가 아니라 기록을 알아본다는 원문에 맞춘다."
+      },
+      {
+        "id": 39792,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "flanking the paths from above with sorcerers",
+        "reason": "마법사를 이용해 위쪽에서 길의 측면을 공격한다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 39816,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the lake's edge",
+        "reason": "바다가 연상되는 해안 대신 호숫가로 장소를 일치시킨다."
+      },
+      {
+        "id": 39831,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "his will be a fitting death",
+        "reason": "죽음이 앞으로 맞을 결말이라는 원문의 시제를 살린다."
+      },
+      {
+        "id": 39858,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The location of the Sorrows",
+        "reason": "위치를 알아내는 지식이 아니라 위치에 관한 지식이라는 뜻으로 고친다."
+      },
+      {
+        "id": 39860,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Not anymore.",
+        "reason": "이제는 더더욱 그렇다는 뜻이 아니라 이제는 더 이상 거래하지 않는다는 뜻을 살린다."
+      },
+      {
+        "id": 39929,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 낯선 사람도 원문의 stranger를 자연스럽게 전달한다."
+      },
+      {
+        "id": 39931,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "So few of the Winter Court left to stand against the Tuatha",
+        "reason": "겨울 궁정에 맞설 사람이 거의 남지 않았다는 원문의 남은 수를 반영한다."
+      },
+      {
+        "id": 39947,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "원하시면 제가 페이트위버 역할을 해 드릴까요?",
+        "reason": "뒤 문장의 존댓말에 맞춰 같은 발화 안의 어조를 일관되게 한다."
+      },
+      {
+        "id": 39962,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "two of the people",
+        "reason": "임무를 맡은 사람들이 둘뿐이었다는 인상을 바로잡는다."
+      },
+      {
+        "id": 39979,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 막연한 곤경을 직접적인 위협으로 구체화하는 것은 불확실하다."
+      },
+      {
+        "id": 39996,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 조사도 허용 가능하며 명백한 오류는 아니다."
+      },
+      {
+        "id": 40002,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 마지막 문장도 어색해 명확한 자연스러움 개선이 아니다."
+      },
+      {
+        "id": 40013,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "fortune을 재산을 모은 것으로 바꾸면 원문에 없는 축적 행위가 추가된다."
+      },
+      {
+        "id": 40038,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "to assemble it",
+        "reason": "화관을 모으는 것이 아니라 조립하거나 만드는 과정이라는 뜻을 바로잡는다."
+      },
+      {
+        "id": 40043,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 마을이 기억될 유산이라는 뜻을 전달한다."
+      },
+      {
+        "id": 40051,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 이 땅에 초래한 재앙이라고 하므로 행위 장소를 한정하기 어렵다."
+      },
+      {
+        "id": 40065,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Be back in a day.",
+        "reason": "명령형으로 읽히는 표현을 화자의 귀환 약속으로 바로잡는다."
+      },
+      {
+        "id": 40078,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 지체할 곳이 아니라는 표현도 원문의 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 40104,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "not as much as my wife does",
+        "reason": "아내가 화자보다 마을 사람들을 더 싫어한다는 비교를 분명히 한다."
+      },
+      {
+        "id": 40112,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 한평생도 기간을 나타내므로 조사가 반드시 필요하지 않다."
+      },
+      {
+        "id": 40127,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "창고가 건물의 동 자체에 있는지 그 동에서 벗어난 곳에 있는지 달라질 수 있다."
+      },
+      {
+        "id": 40149,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "무너지다는 비유적 붕괴도 가능하지만 깔리다로 단정할 물리적 상황은 확실하지 않다."
+      },
+      {
+        "id": 40153,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "말이 빠르다는 원문의 특성이 말솜씨가 좋다는 뜻으로 바뀐다."
+      },
+      {
+        "id": 40189,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sensitive discoveries",
+        "reason": "민감한 발견의 의미를 신중한 취급이 필요한 발견으로 자연스럽게 풀었다."
+      },
+      {
+        "id": 40236,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 필요 이상으로 보았다는 원문을 전달한다."
+      },
+      {
+        "id": 40315,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "その状況を変えようとする私",
+        "reason": "무엇을 치료하는지 불명확한 표현을 전쟁의 상황을 바로잡는다는 뜻으로 고친다."
+      },
+      {
+        "id": 40331,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "unlike certain families I might mention",
+        "reason": "특정 가문들을 빗대는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 40334,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "do not acknowledge war as an acceptable circumstance",
+        "reason": "전쟁을 정당한 상황으로 인정하지 않는다는 어색한 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 40375,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 비교 대상과 일본어의 도시 관리 의미가 달라 제안 해석을 단정하기 어렵다."
+      },
+      {
+        "id": 40386,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "지위 자체에 부여된 지혜를 높은 지위의 개인이 내린 지혜로운 판단으로 구체화한다."
+      },
+      {
+        "id": 40398,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안도 장소와 할 일을 직접 비교해 어색하다."
+      },
+      {
+        "id": 40426,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "one to be feared, clever and charismatic",
+        "reason": "두려움을 불러일으킬 만큼 영리하다는 잘못된 수식 관계를 바로잡는다."
+      },
+      {
+        "id": 40443,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "泉のエネルギーを弱め",
+        "reason": "에너지를 늦춘다는 어색한 표현을 에너지를 약화한다는 뜻으로 고친다."
+      },
+      {
+        "id": 40451,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "배를 갈아탔다는 관용 표현도 이직을 자연스럽게 전달한다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

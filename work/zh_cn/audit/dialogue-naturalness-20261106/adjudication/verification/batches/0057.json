@@ -1,0 +1,451 @@
+{
+  "fingerprint": "ce0a6a8537460fc01c0a983682f06f2acc0b15def8f9ad390c83c3df7a3bb3a4",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 55072,
+  "last_id": 56284,
+  "row_count": 60,
+  "seconds": 36.23,
+  "usage": {
+    "completion_tokens": 2888,
+    "prompt_tokens": 10156,
+    "total_tokens": 13044,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10153,
+      "cache_creation_tokens": 10153
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 55072,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ああもう、言っちゃった",
+        "reason": "말해 버린 데 대한 반응을 자연스럽게 살린다."
+      },
+      {
+        "id": 55073,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Lyria forbid the Lady finds you at her wine.",
+        "reason": "들키지 않기를 바라는 표현의 뜻을 바로잡는다."
+      },
+      {
+        "id": 55089,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "how lives begin and end",
+        "reason": "시작되다와 끝나다를 병렬로 자연스럽게 맞춘다."
+      },
+      {
+        "id": 55096,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "何でもない",
+        "reason": "화제를 그만두자는 뜻보다 원문의 직접적인 부정에 가깝다."
+      },
+      {
+        "id": 55101,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "네 같은 사람이",
+        "reason": "잘못 쓰인 관형 표현을 바로잡는다."
+      },
+      {
+        "id": 55149,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "If you don't mind my saying",
+        "reason": "양해를 구하는 말을 더 자연스럽게 옮긴다."
+      },
+      {
+        "id": 55154,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 관객의 기쁨을 느꼈다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 55170,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Why does no one in camp see the opportunity here?",
+        "reason": "이중 주어로 어색한 문장을 바로잡는다."
+      },
+      {
+        "id": 55181,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "lead the rest of us",
+        "reason": "어색한 ‘우리 나머지’를 자연스럽게 고친다."
+      },
+      {
+        "id": 55202,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "언어학에 관여했다는 원문을 반드시 직접 연구한 것으로 좁힐 근거가 없다."
+      },
+      {
+        "id": 55233,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "사냥감 앞을 가로막는다는 구체적 의미가 제안에서는 흐려진다."
+      },
+      {
+        "id": 55260,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "pure tactical brilliance",
+        "reason": "방금의 행동을 천재성 자체로 단정하는 어색한 표현을 고친다."
+      },
+      {
+        "id": 55264,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'd have much to say, coming back from what he did",
+        "reason": "그가 겪은 일을 겪고 돌아온 화자의 가정을 살린다."
+      },
+      {
+        "id": 55269,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I could go investigate and bring back any loot",
+        "reason": "조사하고 전리품을 가져올 주체를 바로잡는다."
+      },
+      {
+        "id": 55285,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘배짱을 낸’도 문맥에 맞는 자연스러운 표현이다."
+      },
+      {
+        "id": 55291,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "get these blasted containers dispelled",
+        "reason": "용기에 걸린 마법을 푼다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 55301,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "どれだけ強力なものか",
+        "reason": "마법이 얼마나 강력한지 생각하라는 의미에 맞춘다."
+      },
+      {
+        "id": 55306,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "盗賊どもは油断ならない",
+        "reason": "산적의 위험성을 어색한 ‘진심’ 대신 자연스럽게 전달한다."
+      },
+      {
+        "id": 55329,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "비교 대상을 추가하지 않아도 현재 문장의 의미가 분명하다."
+      },
+      {
+        "id": 55384,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 장소를 최대 용량으로 가동하겠다는 뜻을 전달한다."
+      },
+      {
+        "id": 55401,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The contracts are listed on the board",
+        "reason": "게시판에 계약서 자체가 적혀 있다는 어색함을 고친다."
+      },
+      {
+        "id": 55407,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘주둔하며’도 원문의 stationed에 부합한다."
+      },
+      {
+        "id": 55412,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 ‘상대가 목덜미에 숨결이 느껴질’이라는 문장 구조가 어색하다."
+      },
+      {
+        "id": 55451,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the only fun I've had in months",
+        "reason": "‘동안 한 유일한 즐거움’이라는 어색한 연결을 고친다."
+      },
+      {
+        "id": 55529,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Let us see how you deal with necromancy!",
+        "reason": "상대가 강령술에 대처하는 모습을 보겠다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 55546,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Our weapons will accept Chaos Magic now",
+        "reason": "마법을 받아들이는 주체가 무기임을 분명히 한다."
+      },
+      {
+        "id": 55555,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "For all I know, she can hear us right now!",
+        "reason": "불확실성을 나타내는 관용구를 자연스럽게 옮긴다."
+      },
+      {
+        "id": 55566,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "In the youth of Amalur lived the Ouranos",
+        "reason": "인과관계가 없는 두 구절을 자연스럽게 연결한다."
+      },
+      {
+        "id": 55589,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "新入りと話せるのはうれしい",
+        "reason": "‘새 사람’의 어색함을 고치고 새로 온 사람이라는 뜻을 살린다."
+      },
+      {
+        "id": 55598,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘다시 살아 내면서’도 이야기를 재현해 산다는 원문에 부합한다."
+      },
+      {
+        "id": 55624,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "their unwitting prey",
+        "reason": "누가 모르는 사이에 먹잇감이 되는지 분명히 한다."
+      },
+      {
+        "id": 55636,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "따옴표 추가만으로 현재 문장의 명확한 문제를 해결한다고 보기 어렵다."
+      },
+      {
+        "id": 55651,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "さっさといこう",
+        "reason": "부츠를 챙기라는 문자적 해석 대신 서둘러 움직이라는 뜻을 살린다."
+      },
+      {
+        "id": 55663,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "驚いたわ",
+        "reason": "감탄사를 어색한 직역 대신 자연스럽게 처리한다."
+      },
+      {
+        "id": 55681,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Poor mortal fool",
+        "reason": "‘필멸자 바보’라는 어색한 명사 연결을 고친다."
+      },
+      {
+        "id": 55705,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sold some Varani fool his own silk",
+        "reason": "비단의 소유자가 바라니임을 명확히 한다."
+      },
+      {
+        "id": 55717,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 이 관점에서 아는 범위라는 원문을 전달한다."
+      },
+      {
+        "id": 55775,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "중단된 원문의 뜻이 불확실하고 제안 역시 명확한 개선으로 보기 어렵다."
+      },
+      {
+        "id": 55811,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What armory?",
+        "reason": "위치를 묻는 말이 아니라 어떤 무기고인지 되묻는다."
+      },
+      {
+        "id": 55821,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "拝謁の許可を永遠に待つ",
+        "reason": "알현 자체가 아니라 알현 허가를 기다린다는 뜻을 분명히 한다."
+      },
+      {
+        "id": 55855,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "全ては祝福された者達に定められた道筋",
+        "reason": "열거된 모든 것이 정해진 길이라는 관계를 명확히 한다."
+      },
+      {
+        "id": 55864,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your guess is as good as mine",
+        "reason": "양쪽 모두 알지 못한다는 관용 표현을 자연스럽게 옮긴다."
+      },
+      {
+        "id": 55886,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘감당할 몫보다도 많은’도 원문의 과도한 난관을 전달한다."
+      },
+      {
+        "id": 55911,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "恋人がいなければ何の意味もない",
+        "reason": "사랑이라는 감정이 아니라 연인을 가리키는 뜻을 분명히 한다."
+      },
+      {
+        "id": 55948,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "この戦いに再び参加できるのを長い間待っている",
+        "reason": "전투를 비유한 게임과 플레이어 표현을 문맥에 맞게 풀어낸다."
+      },
+      {
+        "id": 55995,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the first working Cairn",
+        "reason": "처음 작동한다는 어색한 수식을 최초의 작동 가능한 케언으로 바로잡는다."
+      },
+      {
+        "id": 56005,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘도시의 진짜 경이’도 원문의 표현을 무리 없이 전달한다."
+      },
+      {
+        "id": 56051,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "surviving on rats and supplies we looted from all the bodies",
+        "reason": "쥐와 보급품을 모두 시체에서 노획한 것처럼 읽히는 구조를 고친다."
+      },
+      {
+        "id": 56055,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 죽은 줄 알고 버렸다는 원문의 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 56087,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 ‘열의 있고 귀 기울이는’도 자연스럽고 의미가 분명하다."
+      },
+      {
+        "id": 56118,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장에도 뚜렷한 자연스러움이나 의미 문제가 없다."
+      },
+      {
+        "id": 56132,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he unleashed their bottled hatred, and turned it against the mortals",
+        "reason": "증오를 풀어 필멸자에게 돌린 주체를 바로잡는다."
+      },
+      {
+        "id": 56163,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "임무를 수행하게, 신참",
+        "reason": "같은 발화 안의 하게체 어조를 일관되게 맞춘다."
+      },
+      {
+        "id": 56171,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "呪いには苦しむ価値がある",
+        "reason": "감수할 가치가 있는 고통과 저주의 관계를 자연스럽게 표현한다."
+      },
+      {
+        "id": 56173,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "도시와 격리했다는 원문을 도시로 가는 길의 차단으로 한정할 근거가 부족하다."
+      },
+      {
+        "id": 56195,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "飲むと頭が... さえる",
+        "reason": "술이 정신을 맑게 한다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 56227,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "If you're looking for anything unique",
+        "reason": "물건을 발견한 경우가 아니라 찾고 있는 경우임을 분명히 한다."
+      },
+      {
+        "id": 56261,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we pack a jug with every crew we send over there",
+        "reason": "명령으로 읽히던 문장을 화자 측의 관행을 설명하는 문장으로 고친다."
+      },
+      {
+        "id": 56269,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘흔하디흔한’은 원문의 전통적이라는 뉘앙스를 빈도에 대한 단정으로 바꾼다."
+      },
+      {
+        "id": 56284,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "brush up on your bad luck",
+        "reason": "패를 다시 잡는다는 근거 없는 의미 대신 불운에 관한 말로 바로잡는다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "fingerprint": "076e44f451dc1d872c01fea2adb149edc042b715cc1f08d401d4222517b60682",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 6148,
+  "last_id": 7234,
+  "row_count": 60,
+  "seconds": 36.01,
+  "usage": {
+    "completion_tokens": 2909,
+    "prompt_tokens": 14845,
+    "total_tokens": 17754,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 14842,
+      "cache_creation_tokens": 14842
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 6148,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 속마저 평범한 범죄자라는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 6151,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 함께한 투자를 관리한다는 원문과 부합합니다."
+      },
+      {
+        "id": 6190,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "match the description",
+        "reason": "사람의 묘사를 인상착의로 표현해 더 자연스럽습니다."
+      },
+      {
+        "id": 6198,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 질문을 추가하고 높임말과 반말을 섞습니다."
+      },
+      {
+        "id": 6207,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the fighter to beat",
+        "reason": "상대를 꺾어야 한다는 원문의 뜻을 복원합니다."
+      },
+      {
+        "id": 6222,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "決断は素早くしろ",
+        "reason": "정신을 차리라는 뜻 대신 빠른 판단을 요구하는 원문을 반영합니다."
+      },
+      {
+        "id": 6263,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 평안 기원은 일본어의 기쁨이나 영어의 좋은 소식과 다릅니다."
+      },
+      {
+        "id": 6291,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what's left of his sword",
+        "reason": "검 전체가 아니라 검의 남은 부분이라는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 6325,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "飽食で太ったカラス",
+        "reason": "배불리 먹어 살찐 까마귀라는 원문의 묘사를 반영합니다."
+      },
+      {
+        "id": 6326,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "この機会を待ち望んでいる",
+        "reason": "어색한 직역을 간절히 기다린다는 자연스러운 표현으로 고칩니다."
+      },
+      {
+        "id": 6345,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "부름받은 자(Beckoned)",
+        "reason": "말더듬을 뒤따르는 명칭의 첫 음절에 맞춥니다."
+      },
+      {
+        "id": 6367,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it helps that I forget everything half the time",
+        "reason": "잊어버리는 것이 도움이 된다는 원문의 농담을 복원합니다."
+      },
+      {
+        "id": 6407,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "that's what I've been trying to say",
+        "reason": "말하려던 참이라는 뜻을 계속 말하려 했다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 6416,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 말더듬과 체격에 대한 놀람도 원문에 부합합니다."
+      },
+      {
+        "id": 6418,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The tavern",
+        "reason": "여관을 원문의 술집으로 바로잡습니다."
+      },
+      {
+        "id": 6419,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "enough left of you to fit in a tinder box",
+        "reason": "조각조차 남지 않는다는 뜻을 부싯깃통에 담을 만큼도 남지 않는다는 뜻으로 고칩니다."
+      },
+      {
+        "id": 6431,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Nice try.",
+        "reason": "결과가 소용없다는 단정 대신 시도를 비꼬는 원문의 어조를 살립니다."
+      },
+      {
+        "id": 6435,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "草を炎で焼かねばならない",
+        "reason": "식물을 불에 태워야 한다는 뜻을 자연스럽고 명확하게 전달합니다."
+      },
+      {
+        "id": 6470,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "finished more than most have started",
+        "reason": "대부분이 시작한 것보다 더 많은 일을 끝냈다는 비교를 복원합니다."
+      },
+      {
+        "id": 6483,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 도시를 대피시키는 뜻이므로 제안으로 단정하기 어렵습니다."
+      },
+      {
+        "id": 6492,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 필요를 채운다는 표현도 원문을 전달하며 교체가 필수적이지 않습니다."
+      },
+      {
+        "id": 6495,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "As if I didn't have enough reasons to stay awake at night.",
+        "reason": "이미 잠 못 들 이유가 충분하다는 원문의 반어를 복원합니다."
+      },
+      {
+        "id": 6519,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "반복은 원문에 있으나 나무가 매달렸다는 제안의 표현도 어색해 명확한 개선이 아닙니다."
+      },
+      {
+        "id": 6554,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "thou art blessed with my wisdom, and I have watched thee grow",
+        "reason": "각 절의 주어를 분명히 해 어색한 연결을 고칩니다."
+      },
+      {
+        "id": 6563,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what you want to wake up to",
+        "reason": "깨어나서 이런 광경을 보는 상황을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 6600,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We couldn't have overcome that handicap, otherwise.",
+        "reason": "핸디캡이 없었다면 해냈을 것이라는 반대 뜻을 바로잡습니다."
+      },
+      {
+        "id": 6602,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 우리 나머지도 상대를 제외한 이들이라는 뜻을 전달합니다."
+      },
+      {
+        "id": 6657,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "대낮부터라는 제안은 정오까지 취한다는 시간관계를 바꿉니다."
+      },
+      {
+        "id": 6658,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ノームの称号を売ってるわよ",
+        "reason": "판매 문구를 자연스러운 구어체로 바꿉니다."
+      },
+      {
+        "id": 6689,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "앞서 있다는 현재 표현도 선행 시간을 전달하며 먼저 출발했다고 단정할 필요는 없습니다."
+      },
+      {
+        "id": 6746,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 옛 정원에 남은 흔적이라는 뜻을 전달합니다."
+      },
+      {
+        "id": 6750,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 행운을 빈다는 표현은 영어 인사에 부합합니다."
+      },
+      {
+        "id": 6773,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "生活スタイルの中に身を置いて",
+        "reason": "생활 방식에 둘러싸인다는 어색한 표현을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 6774,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "진지한 학생도 학업에 성실한 학생이라는 원문의 뜻에 부합합니다."
+      },
+      {
+        "id": 6776,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "剣豪が死んだ",
+        "reason": "모호한 몰락 대신 일본어에 명시된 죽음을 반영합니다."
+      },
+      {
+        "id": 6805,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 appointment는 약속을 뜻할 수 있어 현재 표현도 근거가 있습니다."
+      },
+      {
+        "id": 6815,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 your가 단수인지 복수인지 확정할 수 없습니다."
+      },
+      {
+        "id": 6872,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 운명에 대한 감탄을 전달하며 제안의 개선이 명확하지 않습니다."
+      },
+      {
+        "id": 6879,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "scare the daylights out of me",
+        "reason": "간 떨어지게 놀라게 하다의 중복되고 어색한 표현을 고칩니다."
+      },
+      {
+        "id": 6881,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 자신이 주머니를 뒤지는 일을 피하고 싶다는 뜻을 전달합니다."
+      },
+      {
+        "id": 6888,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "no matter what they say they are",
+        "reason": "페이가 스스로 어떤 존재라고 주장하든 믿을 수 없다는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 6893,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 기분 전환에 가깝지만 영어의 혀를 달랜다는 이미지를 삭제합니다."
+      },
+      {
+        "id": 6907,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sworn enemy",
+        "reason": "어색한 맹렬한 적을 관계에 맞는 숙적으로 고칩니다."
+      },
+      {
+        "id": 6966,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What do you need again?",
+        "reason": "원문에 없는 추가 요구의 뜻을 없앱니다."
+      },
+      {
+        "id": 6988,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "As long as our people are safe, that's what matters.",
+        "reason": "중요한 것이 민족의 안전이라는 뜻을 자연스럽게 연결합니다."
+      },
+      {
+        "id": 6989,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "scrabbling in my fields",
+        "reason": "밭에서 긁고 돌아다닌다는 어색한 표현을 헤집고 돌아다니는 뜻으로 고칩니다."
+      },
+      {
+        "id": 6994,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He's as vile as his sister's... delectable.",
+        "reason": "사악한 사람이 그자라는 비교 관계를 분명히 합니다."
+      },
+      {
+        "id": 7030,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sent you to access the Crossing",
+        "reason": "크로싱에 접근하도록 보냈다는 목적 관계를 명확히 합니다."
+      },
+      {
+        "id": 7042,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "It'll show me",
+        "reason": "화자가 보여 주는 것이 아니라 돌이 화자에게 보여 준다는 뜻을 복원합니다."
+      },
+      {
+        "id": 7057,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재도 원문의 명예와 결의를 전달하며 제안은 오히려 치열한 명예의 뉘앙스를 약화합니다."
+      },
+      {
+        "id": 7114,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the murderer behind those devices",
+        "reason": "장치 뒤에서 살인했다는 오독을 장치의 배후에 있는 살인자로 고칩니다."
+      },
+      {
+        "id": 7121,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "フェイがいるせいでキャニオンヒル採掘所へ行けない",
+        "reason": "길이 막혔다는 중복 표현을 없애고 원문의 뜻을 유지합니다."
+      },
+      {
+        "id": 7126,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as grand as the quality of its best fighters",
+        "reason": "건물과 투사를 직접 비교하는 어색함을 실력에 걸맞다는 뜻으로 고칩니다."
+      },
+      {
+        "id": 7129,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "word of the princess' loss of beauty",
+        "reason": "공주의 미모를 잃었다는 어색한 표현을 공주가 미모를 잃었다는 뜻으로 고칩니다."
+      },
+      {
+        "id": 7150,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 희생된 면들이 합당한 희생인지 묻는 것으로도 읽혀 제안의 대상 전환이 불확실합니다."
+      },
+      {
+        "id": 7163,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "So you know that louse do you?",
+        "reason": "그가 못된 자임을 아느냐가 아니라 그자를 아느냐는 질문으로 고칩니다."
+      },
+      {
+        "id": 7200,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the greatest power this world has ever known",
+        "reason": "현재 시점에 세계가 아는 힘이 아니라 역사상 가장 위대한 힘임을 명확히 합니다."
+      },
+      {
+        "id": 7227,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I hope you say yes",
+        "reason": "막연한 그러길 바라지만을 긍정적인 답을 바란다는 뜻으로 분명히 합니다."
+      },
+      {
+        "id": 7229,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "one with Akara, and his will",
+        "reason": "아카라와 그의 뜻 양쪽과 하나가 된다는 병렬 관계를 고칩니다."
+      },
+      {
+        "id": 7234,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "fight with me",
+        "reason": "화자에게 맞서 싸우라는 뜻을 화자와 함께 싸우라는 뜻으로 바로잡습니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

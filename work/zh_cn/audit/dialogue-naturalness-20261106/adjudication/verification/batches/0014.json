@@ -1,0 +1,451 @@
+{
+  "fingerprint": "bdfbdd9b271f7929e8d829d99cdbd937f380258cfe30c695cfa947b76dc19807",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 13842,
+  "last_id": 14987,
+  "row_count": 60,
+  "seconds": 32.46,
+  "usage": {
+    "completion_tokens": 2723,
+    "prompt_tokens": 9490,
+    "total_tokens": 12213,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 9487,
+      "cache_creation_tokens": 9487
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 13842,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ニスカルで手いっぱいになっている",
+        "reason": "어색한 관용구를 자연스럽게 풀었다."
+      },
+      {
+        "id": 13884,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The army keeps law in the Burn.",
+        "reason": "군대가 법을 준수한다는 오해를 바로잡았다."
+      },
+      {
+        "id": 13895,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 미완성 발화를 완결형으로 바꿔 확실한 개선이라 보기 어렵다."
+      },
+      {
+        "id": 13907,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your past life was left behind",
+        "reason": "부정확한 ‘전생’을 이전 삶으로 바로잡았다."
+      },
+      {
+        "id": 13911,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "体調が優れない",
+        "reason": "일본어의 건강 상태를 반영한다."
+      },
+      {
+        "id": 13918,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You have saved me months of work.",
+        "reason": "상대 덕분에 수고를 덜었다는 뜻을 분명히 했다."
+      },
+      {
+        "id": 13922,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Listen to that.",
+        "reason": "명령처럼 들리는 표현을 반응하는 말투로 고쳤다."
+      },
+      {
+        "id": 13960,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "신들이 드러낸 것을 사랑으로 특정하는 해석이 추가된다."
+      },
+      {
+        "id": 13999,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "twisted, biting, howling things",
+        "reason": "‘비틀리고’를 뒤틀린 모습으로 바로잡았다."
+      },
+      {
+        "id": 14007,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Maybe I'll help.",
+        "reason": "어색한 단정을 가능성을 나타내는 자연스러운 표현으로 고쳤다."
+      },
+      {
+        "id": 14017,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a monument to her abuses, her power",
+        "reason": "횡포와 권력을 각각 기념비의 대상으로 반영했다."
+      },
+      {
+        "id": 14024,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "유리 진열장 아래라는 원문의 공간 표현을 바꿀 근거가 충분하지 않다."
+      },
+      {
+        "id": 14026,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I could be persuaded",
+        "reason": "화자를 설득해야 한다는 뜻을 명확히 했다."
+      },
+      {
+        "id": 14036,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he began the Tuatha",
+        "reason": "조직을 세우는 맥락에 더 자연스러운 동사를 썼다."
+      },
+      {
+        "id": 14051,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "가문에서 물려받은 모든 것 중 유일하다는 뜻으로 범위가 넓어진다."
+      },
+      {
+        "id": 14057,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Stay, it's your funeral.",
+        "reason": "잔류를 허용하면서 책임을 경고하는 말투로 고쳤다."
+      },
+      {
+        "id": 14062,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "How about that.",
+        "reason": "어색한 ‘어때’를 상황에 맞는 감탄으로 고쳤다."
+      },
+      {
+        "id": 14069,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "saved my livelihood",
+        "reason": "생계를 지켰다는 자연스러운 표현으로 고쳤다."
+      },
+      {
+        "id": 14075,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안도 표현이 어색해 명확한 개선이라고 보기 어렵다."
+      },
+      {
+        "id": 14082,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Let that rotted scar never be re-settled.",
+        "reason": "장소에 다시 정착하지 못하게 하라는 뜻을 분명히 했다."
+      },
+      {
+        "id": 14101,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "his purpose",
+        "reason": "목적이 신의 것임을 명확히 했다."
+      },
+      {
+        "id": 14122,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "손가락의 힘찬 악력",
+        "reason": "중복된 표현을 자연스럽게 다듬었다."
+      },
+      {
+        "id": 14125,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You wouldn't know with these little mortals here",
+        "reason": "필멸자들이 이곳에 있어 알아보기 어렵다는 맥락을 반영했다."
+      },
+      {
+        "id": 14137,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "they were a pair of twins",
+        "reason": "쌍둥이 두 사람을 가리킨다는 점을 분명히 했다."
+      },
+      {
+        "id": 14138,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 번역도 해야 할 일을 했다는 원문 뜻을 전달한다."
+      },
+      {
+        "id": 14155,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "연륜과 실력이 뛰어난 선배라고 알게 될 거야",
+        "reason": "어색한 서술과 조사를 자연스럽게 고쳤다."
+      },
+      {
+        "id": 14204,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "And you've got the coin.",
+        "reason": "돈이 있다는 원문의 단정을 복원했다."
+      },
+      {
+        "id": 14251,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "if you let me tend to your equipment",
+        "reason": "장비를 맡겨 준다면 영광이라는 조건을 반영했다."
+      },
+      {
+        "id": 14437,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 뜻이 통하며 제안이 더 명확하다고 보기 어렵다."
+      },
+      {
+        "id": 14439,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "心温かく友好的なフェイか",
+        "reason": "부르는 말처럼 들리는 부분을 회상하는 말투로 고쳤다."
+      },
+      {
+        "id": 14442,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 수명이 며칠 단위라는 뜻을 전달한다."
+      },
+      {
+        "id": 14446,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ハウス・オブ・バラッドと肩を並べる偉業",
+        "reason": "업적과 집 자체를 비교하는 어색함을 해소했다."
+      },
+      {
+        "id": 14447,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "more than just a man",
+        "reason": "평범한 사람이 아니라는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 14457,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "orchestrated your observation, and your acquisition of the Villa",
+        "reason": "화자 상대의 별장 획득을 조리엘이 꾸몄다는 뜻을 분명히 했다."
+      },
+      {
+        "id": 14477,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "御心に頑なすぎます",
+        "reason": "신앙에 관한 고집이라는 문맥을 자연스럽게 살렸다."
+      },
+      {
+        "id": 14479,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 지식의 총체를 발전시킨다는 원문 뜻을 충실히 전달한다."
+      },
+      {
+        "id": 14494,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 유상으로 서비스를 제공한다는 뜻이며 제안이 반드시 더 정확하지 않다."
+      },
+      {
+        "id": 14503,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what I can in compensation",
+        "reason": "줄 수 있는 보상이라는 자연스러운 표현으로 고쳤다."
+      },
+      {
+        "id": 14524,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "wipe Cape Solace off the beach",
+        "reason": "해변에서 장소를 없애 버린다는 표현을 자연스럽게 옮겼다."
+      },
+      {
+        "id": 14531,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I can't be killed!",
+        "reason": "화자가 죽일 수 없다는 오해를 바로잡았다."
+      },
+      {
+        "id": 14573,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the corporeal world",
+        "reason": "어색한 ‘육신 세계’를 물질세계로 고쳤다."
+      },
+      {
+        "id": 14590,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "his defeat of the Grave Thresh",
+        "reason": "사그렐도 물리쳤다는 오해를 바로잡았다."
+      },
+      {
+        "id": 14617,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I might have dropped them here",
+        "reason": "여기서 떨어뜨렸을 가능성을 반영했다."
+      },
+      {
+        "id": 14669,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彼女を捕らえる",
+        "reason": "일본어의 붙잡는다는 뜻을 반영해 살해로 단정하지 않았다."
+      },
+      {
+        "id": 14712,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "직업인을 가게로 바꿀 필요가 분명하지 않다."
+      },
+      {
+        "id": 14728,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 긴 세월이라는 표현을 반드시 전생으로 특정할 수 없다."
+      },
+      {
+        "id": 14742,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "우리가 외교를 위해 맺어진 정략혼이었을지라도",
+        "reason": "사람이 정략혼이었다는 비문을 고쳤다."
+      },
+      {
+        "id": 14767,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the Office of the Grand Bursar",
+        "reason": "누락된 사무소를 복원하고 띄어쓰기를 고쳤다."
+      },
+      {
+        "id": 14781,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "いい条件の仕事にくら替えしたんだ",
+        "reason": "더 나은 일로 갈아탔다는 뜻을 반영했다."
+      },
+      {
+        "id": 14817,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "doing a bit of research for an old acquaintance",
+        "reason": "지인에 관한 조사가 아니라 지인을 위한 조사라는 영어를 반영했다."
+      },
+      {
+        "id": 14823,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I much prefer the pay.",
+        "reason": "보수가 더 마음에 든다는 선호를 반영했다."
+      },
+      {
+        "id": 14845,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "깜짝 선물이라는 현재 표현을 뜻밖의 일로 바꿀 확실한 근거가 없다."
+      },
+      {
+        "id": 14853,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "존대 수준의 변경이 필요하다고 확정하기 어렵다."
+      },
+      {
+        "id": 14874,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "miners don't rule with a rusty mattock's blade",
+        "reason": "광부들이 지배하는 주체임을 분명히 했다."
+      },
+      {
+        "id": 14879,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 조건부로 아는 내용을 전달하며 제안의 개선이 불분명하다."
+      },
+      {
+        "id": 14897,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Curse her. Curse her whole kind.",
+        "reason": "청자에게 저주를 명령하는 것처럼 들리는 표현을 고쳤다."
+      },
+      {
+        "id": 14915,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "brought us down here to Apotyre to build Adessa",
+        "reason": "아데사 건설이 이주 목적임을 명확히 했다."
+      },
+      {
+        "id": 14925,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "forced your team into the Arena",
+        "reason": "팀의 소속을 우리에서 너희로 바로잡았다."
+      },
+      {
+        "id": 14973,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 단수 상대를 ‘여러분’으로 넓힐 근거가 없다."
+      },
+      {
+        "id": 14987,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "집을 달아났다",
+        "reason": "‘집에서 달아났다’로 조사를 바로잡았다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

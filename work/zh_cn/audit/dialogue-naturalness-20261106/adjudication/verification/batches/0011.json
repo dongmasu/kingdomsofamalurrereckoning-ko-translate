@@ -1,0 +1,451 @@
+{
+  "fingerprint": "ec1233455d2bacf775b7453da67093466784e8ed3371e6c94ce1bdf846adb58f",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 10885,
+  "last_id": 11767,
+  "row_count": 60,
+  "seconds": 33.33,
+  "usage": {
+    "completion_tokens": 2772,
+    "prompt_tokens": 10861,
+    "total_tokens": 13633,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10858,
+      "cache_creation_tokens": 10858
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 10885,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "持ち出された",
+        "reason": "유적에서 밖으로 가져갔다는 방향을 명확히 한다."
+      },
+      {
+        "id": 10905,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "本を結末から読むようなもの",
+        "reason": "어색한 시간 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 10910,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "暴力を振るわせないでくれ",
+        "reason": "화자가 폭력을 쓰게 된다는 뜻을 분명히 한다."
+      },
+      {
+        "id": 10958,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "stripping your shirt from your back",
+        "reason": "관용적 표현을 자연스러운 한국어로 옮긴다."
+      },
+      {
+        "id": 10970,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "おかしいところない？",
+        "reason": "직역투를 자연스러운 안부 표현으로 고친다."
+      },
+      {
+        "id": 10974,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a mockingbird with the Font's only yield",
+        "reason": "흉내지빠귀가 산물 자체가 아니라 그것을 지녔음을 바로잡는다."
+      },
+      {
+        "id": 10987,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어 해석에는 부합하지만 영어의 때라는 비유를 없앤다."
+      },
+      {
+        "id": 11034,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "House가 저택인지 가문인지 문맥상 확정하기 어렵다."
+      },
+      {
+        "id": 11048,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 대리인은 영어의 agent에 부합하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 11049,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "어린 나이였을 때였지",
+        "reason": "중복된 서술을 자연스럽게 다듬는다."
+      },
+      {
+        "id": 11062,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "レッド・イドワードに匹敵する",
+        "reason": "뒤진다는 뜻을 맞먹는다는 원문 의미로 바로잡는다."
+      },
+      {
+        "id": 11107,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He deserved every last agony.",
+        "reason": "겪었어야 했다는 추정보다 고통을 받을 만했다는 원뜻에 가깝다."
+      },
+      {
+        "id": 11133,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "when Apule sent him off",
+        "reason": "인명 뒤 주격 조사를 바로잡는다."
+      },
+      {
+        "id": 11138,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the magics began ensnaring my mind",
+        "reason": "어색한 피동 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 11177,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my new brood",
+        "reason": "빠진 소유 관계를 복원한다."
+      },
+      {
+        "id": 11194,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "盟友",
+        "reason": "사람을 가리키는 동맹자라는 표현이 자연스럽다."
+      },
+      {
+        "id": 11196,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "for meager coins",
+        "reason": "가능한 한 적은 돈을 받는다는 잘못된 뜻을 제거한다."
+      },
+      {
+        "id": 11205,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "place you in the Sandstone Villa",
+        "reason": "저택을 관리하도록 맡겼다는 근거 없는 의미를 제거한다."
+      },
+      {
+        "id": 11209,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어의 전속 학자라는 뜻을 고려하면 열성적이라는 해석은 불확실하다."
+      },
+      {
+        "id": 11246,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "긍지의 집(House of Pride)가",
+        "reason": "받침에 맞게 조사를 바로잡는다."
+      },
+      {
+        "id": 11270,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "回り込んで",
+        "reason": "되돌아가라는 뜻보다 돌아서 반대편으로 가라는 뜻에 가깝다."
+      },
+      {
+        "id": 11300,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Something in Cranalt is still poisoning the river!",
+        "reason": "오염시키는 주체가 크래널트의 무언가임을 복원한다."
+      },
+      {
+        "id": 11308,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I didn't survive these spiders to get cut down by a fool!",
+        "reason": "어색한 문장 구조를 고치면서 원뜻을 유지한다."
+      },
+      {
+        "id": 11311,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 의미가 통하며 제안은 필수적인 수정이 아니다."
+      },
+      {
+        "id": 11338,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "お前には誰も強要できない",
+        "reason": "강요받는 대상인 너를 명시해 문장을 자연스럽게 한다."
+      },
+      {
+        "id": 11348,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "raised to expect the finer things in life",
+        "reason": "좋은 것을 누릴 것이라 기대하며 자랐다는 뜻을 살린다."
+      },
+      {
+        "id": 11359,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "페이(Fae)가 페이(Fae)란 페이(Fae)는",
+        "reason": "불필요하게 중복된 말을 제거한다."
+      },
+      {
+        "id": 11361,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 겨울 궁정이 적임을 전달하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 11374,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you will hear petitions",
+        "reason": "청원을 받아들인다고 보장하는 뜻을 듣겠다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 11387,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "運命で決められていないだけだ",
+        "reason": "운명이 운명을 강요한다는 중복을 자연스럽게 풀었다."
+      },
+      {
+        "id": 11404,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 범위를 전달하며 제안이 명확한 오류를 고치지는 않는다."
+      },
+      {
+        "id": 11422,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "희극도 원문의 farce에 대응하므로 변경이 필수적이지 않다."
+      },
+      {
+        "id": 11427,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the first of the great Houses of the Court of Summer",
+        "reason": "첫 번째인 대상이 가문임을 분명히 하고 연호라는 부정확한 표현을 고친다."
+      },
+      {
+        "id": 11433,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "찾아보겠어요",
+        "reason": "첫 문장의 말투를 뒤의 해요체에 맞춘다."
+      },
+      {
+        "id": 11478,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 정의를 가져왔다는 표현도 원문에 부합하며 변경이 필수적이지 않다."
+      },
+      {
+        "id": 11498,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 챔피언으로 있는 기간이 영원하지 않다는 뜻을 전달한다."
+      },
+      {
+        "id": 11519,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 이건도 앞 상황을 가리키므로 수정이 필수적이지 않다."
+      },
+      {
+        "id": 11522,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "귀한 손님입니다",
+        "reason": "손님에 대한 높임을 앞의 인사와 일치시킨다."
+      },
+      {
+        "id": 11537,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "How are you at the Blacksmith's craft",
+        "reason": "일을 얼마나 잘하는지 묻는 원뜻을 분명히 한다."
+      },
+      {
+        "id": 11572,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현에서도 목숨을 빚진 대상이 문맥상 명확하다."
+      },
+      {
+        "id": 11577,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "journeymen",
+        "reason": "도제와 구별되는 숙련 직공의 뜻을 반영한다."
+      },
+      {
+        "id": 11580,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the Eldest look upon each other once more",
+        "reason": "과거형을 현재 다시 마주하는 상황에 맞게 고친다."
+      },
+      {
+        "id": 11589,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 소장 문헌을 관리했다는 뜻을 전달한다."
+      },
+      {
+        "id": 11601,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "prayers, and piety, and sacrifice",
+        "reason": "어색한 신심을 바치다는 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 11611,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현의 우리 나머지도 뜻이 통하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 11632,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 찌푸린 얼굴 뒤의 좋은 마음씨를 자연스럽게 전달한다."
+      },
+      {
+        "id": 11655,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 흥미로운 상황에서만 내기를 즐긴다는 뜻을 전달한다."
+      },
+      {
+        "id": 11695,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "not against me, but against some of the nightmares",
+        "reason": "어색한 내 상대가 아니라는 표현을 바로잡는다."
+      },
+      {
+        "id": 11699,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "휩쓸린다는 표현은 전쟁에 굴복하거나 빠져드는 원뜻과 차이가 있다."
+      },
+      {
+        "id": 11710,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You've probably seen it done a thousand times.",
+        "reason": "직접 해 봤다는 뜻을 하는 것을 봤다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 11712,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "bear witness to our atonement",
+        "reason": "어색한 증언하게 하다는 표현을 증인이 된다는 뜻으로 고친다."
+      },
+      {
+        "id": 11717,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "to sail a prison galley",
+        "reason": "감옥선을 항해하다는 어색한 목적어 구성을 고친다."
+      },
+      {
+        "id": 11729,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ちょっとピリッとするお酒よ",
+        "reason": "술을 찾는다는 뜻을 원문의 독한 술이라는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 11735,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "수 세기가 흐른 끝에 마침내 그날이 왔도다",
+        "reason": "인용문 안의 말투를 앞의 고풍스러운 어조에 맞춘다."
+      },
+      {
+        "id": 11736,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Klurikon has been kind to you",
+        "reason": "지명이 친절했다는 직역을 자연스럽게 옮긴다."
+      },
+      {
+        "id": 11741,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "would have led us out of this alive",
+        "reason": "현재의 미래형을 원문의 과거 가정에 맞춘다."
+      },
+      {
+        "id": 11753,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "カードはお好き？",
+        "reason": "함께 한 판 하자는 제안이 아니라 카드놀이를 좋아하는지 묻는다."
+      },
+      {
+        "id": 11756,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "then you thanked them for your pains",
+        "reason": "감사하라는 요구가 아니라 네가 감사했다는 뜻을 복원한다."
+      },
+      {
+        "id": 11763,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Thank you for all you have done",
+        "reason": "도와준 모든 일에 고맙다는 어색한 연결을 자연스럽게 고친다."
+      },
+      {
+        "id": 11767,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 원문의 되살아나 지상으로 돌아왔다는 비유를 전달한다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

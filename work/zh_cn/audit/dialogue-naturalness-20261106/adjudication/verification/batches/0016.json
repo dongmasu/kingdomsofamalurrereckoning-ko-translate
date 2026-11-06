@@ -1,0 +1,451 @@
+{
+  "fingerprint": "154006b5bc04949b348b1828b29193b045f240753e165fae7200cb19ed1fafe9",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 15811,
+  "last_id": 16884,
+  "row_count": 60,
+  "seconds": 33.58,
+  "usage": {
+    "completion_tokens": 2798,
+    "prompt_tokens": 11024,
+    "total_tokens": 13822,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11021,
+      "cache_creation_tokens": 11021
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 15811,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it says the Missives are",
+        "reason": "쪽지를 정보의 출처가 아니라 내용의 대상으로 바로잡는다."
+      },
+      {
+        "id": 15827,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "あれだけの功労者が",
+        "reason": "악행을 저질렀다는 오역을 공로에 관한 의미로 고친다."
+      },
+      {
+        "id": 15846,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "deep in the hollow",
+        "reason": "지명과 연결되는 장소를 자연스럽게 옮긴다."
+      },
+      {
+        "id": 15862,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "and there isn't",
+        "reason": "화자에게 문제가 없다는 단정을 명확히 살린다."
+      },
+      {
+        "id": 15866,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "心から感謝するわ",
+        "reason": "어색한 보답 표현을 감사의 뜻으로 바로잡는다."
+      },
+      {
+        "id": 15892,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ほとぼりが冷めるのを待つ",
+        "reason": "소란이 가라앉기를 기다린다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 15924,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "for all I know",
+        "reason": "어색한 삽입 표현을 불확실성을 나타내는 말로 고친다."
+      },
+      {
+        "id": 15926,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "gold coins for why one should",
+        "reason": "금화가 싸울 이유라는 관계를 자연스럽게 표현한다."
+      },
+      {
+        "id": 15937,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "死ぬよりはいいよ",
+        "reason": "모호한 대안을 일본어에 명시된 죽음으로 바로잡는다."
+      },
+      {
+        "id": 15951,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "本当は色々だけど",
+        "reason": "직역투인 모습을 다양한 면모로 자연스럽게 고친다."
+      },
+      {
+        "id": 15964,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "will see a challenge",
+        "reason": "실제로 싸움에 나선다는 근거 없는 내용을 바로잡는다."
+      },
+      {
+        "id": 15970,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "残念だったな",
+        "reason": "어색한 현재 문구를 상황에 맞는 말로 고친다."
+      },
+      {
+        "id": 15988,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "運命の糸に再び操られる",
+        "reason": "운명의 실에 다시 지배된다는 뜻을 더 분명하게 살린다."
+      },
+      {
+        "id": 15991,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "말의 신뢰를 떨어뜨리라는 지시를 거짓임을 밝히라는 지시로 한정한다."
+      },
+      {
+        "id": 16011,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your mortal war",
+        "reason": "필멸자들의 전쟁이라는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 16015,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "생계를 유지할 수 없었다는 뜻을 만족 여부로 바꾸는 것은 확실하지 않다."
+      },
+      {
+        "id": 16023,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a bounty out on a damned set of deserters",
+        "reason": "현상금이 탈영병에게 걸려 있다는 관계를 자연스럽게 고친다."
+      },
+      {
+        "id": 16043,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "指がまるで棒になったみたい",
+        "reason": "비계라는 모호한 표현을 막대기 비유로 명확히 한다."
+      },
+      {
+        "id": 16113,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the definitive work on the Godstorm",
+        "reason": "어색한 결정적인 저술을 해당 주제를 집대성한 저술로 고친다."
+      },
+      {
+        "id": 16143,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "元気なまま",
+        "reason": "어색한 충분히 살아 있다는 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 16180,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "in ways that no mortal race could ever be",
+        "reason": "필멸자 종족은 이를 수 없는 일체감이라는 비교를 분명히 한다."
+      },
+      {
+        "id": 16181,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "まだ募金はやっているか？",
+        "reason": "수집의 대상을 모금으로 명확히 한다."
+      },
+      {
+        "id": 16227,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "charming her way in for the kill",
+        "reason": "환심을 사서 접근한 뒤 죽인다는 관계를 분명히 한다."
+      },
+      {
+        "id": 16232,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 자연스럽고 의미가 통한다."
+      },
+      {
+        "id": 16235,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Don't be a stranger.",
+        "reason": "직역투를 다시 찾아오라는 자연스러운 인사로 고친다."
+      },
+      {
+        "id": 16264,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "取引ならプライデリ商会へ",
+        "reason": "거래가 끝났다는 오역을 거래 장소 안내로 바로잡는다."
+      },
+      {
+        "id": 16295,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a dustling, a child of death",
+        "reason": "어색한 먼지 자식과 더러움을 자연스럽게 표현한다."
+      },
+      {
+        "id": 16325,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "these brethren",
+        "reason": "복수의 동족을 가리키는 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 16336,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "work to do with the army",
+        "reason": "군대와 함께 일한다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 16381,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you have the chance to succeed",
+        "reason": "기회를 잡을 수도 있다는 중복을 자연스럽게 고친다."
+      },
+      {
+        "id": 16384,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 선집에 수록되었다는 뜻을 전달한다."
+      },
+      {
+        "id": 16392,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "being a refugee a crime",
+        "reason": "난민인 상태가 범죄라는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 16404,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현이 영어의 불로 불을 다스린다는 비유에 충실하다."
+      },
+      {
+        "id": 16414,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Derfel has told me",
+        "reason": "정보를 알려 준 사람을 나타내는 조사를 바로잡는다."
+      },
+      {
+        "id": 16437,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Must be all the travel",
+        "reason": "여행 덕분에 안색이 좋다는 추정을 살린다."
+      },
+      {
+        "id": 16438,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Their supposed immortality",
+        "reason": "불멸이 사실로 확정되지 않았다는 뉘앙스를 살린다."
+      },
+      {
+        "id": 16447,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "어둠의 파편(Dark Sliver)가",
+        "reason": "받침에 맞지 않는 주격 조사를 바로잡는다."
+      },
+      {
+        "id": 16453,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what takes the Cycle centuries to shape",
+        "reason": "순환이 형상을 빚는 데 수 세기가 걸린다는 뜻을 자연스럽게 고친다."
+      },
+      {
+        "id": 16499,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "グリムに取って代わられ",
+        "reason": "왕이 그림으로 변신한 것이 아니라 대체되었다는 뜻을 살린다."
+      },
+      {
+        "id": 16535,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "with cracks, so many cracks",
+        "reason": "많은 것이 바위가 아니라 갈라진 틈임을 바로잡는다."
+      },
+      {
+        "id": 16570,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What? It needed to be said.",
+        "reason": "빠진 반문과 말을 해야 했다는 뉘앙스를 살린다."
+      },
+      {
+        "id": 16578,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "they're in on the corruption",
+        "reason": "부패에 가담하는 주체를 명확히 한다."
+      },
+      {
+        "id": 16582,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "His path to power was too plodding",
+        "reason": "힘을 얻는 과정이 더디다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 16606,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "彼らが父にどんな愛を示していたにせよ",
+        "reason": "신들의 사랑을 위해 죽었다는 뜻을 양보 표현으로 바로잡는다."
+      },
+      {
+        "id": 16649,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 상대의 방식에 맞선다는 원문의 비유를 전달한다."
+      },
+      {
+        "id": 16663,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "help you with those weapons",
+        "reason": "어색한 목적어 구성을 무기에 관한 도움으로 고친다."
+      },
+      {
+        "id": 16677,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "통과할 수단을 주었다는 뜻이 허락이나 조치로 모호해진다."
+      },
+      {
+        "id": 16700,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "when the road is your marketplace",
+        "reason": "부자연스러운 조건절을 자연스러운 이유 표현으로 고친다."
+      },
+      {
+        "id": 16738,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Good luck out there, Champion!",
+        "reason": "어색한 행운을 비는 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 16741,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "sinking three vessels with one wreck",
+        "reason": "사고 한 번으로 배 세 척을 침몰시켰다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 16761,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "assisting your army in their march",
+        "reason": "군대의 진군을 돕는다는 관계를 자연스럽게 표현한다."
+      },
+      {
+        "id": 16765,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "도착했다",
+        "reason": "뒤의 문장들도 첫 문장의 서술체에 맞춰 통일한다."
+      },
+      {
+        "id": 16788,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 경기장에서 멀리 진출한다는 뜻을 전달한다."
+      },
+      {
+        "id": 16789,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "들 거야. 반드시 찾아야 해!",
+        "reason": "첫 문장의 종결을 뒤의 대사체와 일치시킨다."
+      },
+      {
+        "id": 16826,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the reward I promised for taking care of them",
+        "reason": "처리에 대한 대가로 약속한 보상이라는 관계를 명확히 한다."
+      },
+      {
+        "id": 16848,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "모든 것을 시들게 한다는 범위가 원문에 명시되지 않았다."
+      },
+      {
+        "id": 16860,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "as if he's the only one who lost someone",
+        "reason": "잃은 대상이 반드시 아내인 것처럼 한정된 오류를 고친다."
+      },
+      {
+        "id": 16864,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "canon을 특정 전승집으로 한정하는 해석은 맥락상 불확실하다."
+      },
+      {
+        "id": 16877,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The embodied truth of the lost souls",
+        "reason": "육신을 얻은 진실이라는 어색한 표현을 바로잡는다."
+      },
+      {
+        "id": 16884,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "scavs feast on the dying",
+        "reason": "시체가 아니라 죽어 가는 이를 노린다는 비유를 살린다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

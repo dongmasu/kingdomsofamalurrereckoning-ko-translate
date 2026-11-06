@@ -1,0 +1,451 @@
+{
+  "fingerprint": "ea055da8025c91861538c956e67e6dc11772dad0e6b0dbefe45440b1e82ab0e2",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 8060,
+  "last_id": 9072,
+  "row_count": 60,
+  "seconds": 37.39,
+  "usage": {
+    "completion_tokens": 2947,
+    "prompt_tokens": 11278,
+    "total_tokens": 14225,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11275,
+      "cache_creation_tokens": 11275
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 8060,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "tear through the threads of Fate",
+        "reason": "실을 찢는다는 어색한 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 8086,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "気をつけて行けよ",
+        "reason": "떠나는 상대에게 주의를 당부하는 뜻이 분명해진다."
+      },
+      {
+        "id": 8091,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "마음에 들길 바라네",
+        "reason": "앞선 말투에 맞게 종결 표현을 통일한다."
+      },
+      {
+        "id": 8106,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "謝礼をさせてくれ",
+        "reason": "화자가 보답하게 해 달라는 원문의 뜻을 살린다."
+      },
+      {
+        "id": 8122,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어의 훈련을 전투 기법으로 특정할 근거가 충분하지 않다."
+      },
+      {
+        "id": 8158,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "If only I had your muscle... or the Hero of Mel Senshir.",
+        "reason": "영웅이라도 곁에 있기를 바라는 생략된 뜻을 자연스럽게 보완한다."
+      },
+      {
+        "id": 8162,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Right, your grace? Right?",
+        "reason": "각하를 향한 존대에 맞춰 앞 문장의 높임을 일치시킨다."
+      },
+      {
+        "id": 8180,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a captain under what is left of General Tilera's army",
+        "reason": "잔존 병력 전체를 지휘한다는 근거 없는 뜻을 바로잡는다."
+      },
+      {
+        "id": 8183,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 원문의 뜻을 전달하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 8185,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "When you harnessed the Earth Shrine",
+        "reason": "성소를 다룬 주체가 상대방임을 명확히 한다."
+      },
+      {
+        "id": 8202,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "mortal beasts",
+        "reason": "필멸자에게 속한 야수가 아니라 필멸의 야수라는 뜻을 살린다."
+      },
+      {
+        "id": 8214,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I've avenged her death",
+        "reason": "어색한 목적어 결합을 자연스럽게 고친다."
+      },
+      {
+        "id": 8216,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "before I cast you off the cliffs",
+        "reason": "절벽 아래로 던질 주체가 화자임을 분명히 한다."
+      },
+      {
+        "id": 8228,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현의 어색함은 있으나 제안은 팀이 전혀 남지 않을 수 있다는 강조를 약화한다."
+      },
+      {
+        "id": 8254,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the doubt in the back of my mind",
+        "reason": "의심이 기어 나온다는 어색한 표현을 자연스럽게 다듬는다."
+      },
+      {
+        "id": 8266,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "it will sing my dying song",
+        "reason": "계곡이 노래를 부른다는 원문의 주체를 복원한다."
+      },
+      {
+        "id": 8271,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "nothing you couldn't handle",
+        "reason": "상대를 해낸다는 어색한 결합을 감당한다는 표현으로 고친다."
+      },
+      {
+        "id": 8323,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "due south, on the slope down from the bluff",
+        "reason": "비탈길의 남쪽이 아니라 남쪽에 있는 비탈길이라는 위치를 바로잡는다."
+      },
+      {
+        "id": 8329,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we had stopped speaking",
+        "reason": "대화를 중단했다는 뜻을 자연스럽고 분명하게 나타낸다."
+      },
+      {
+        "id": 8332,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the loss of my very sanity, must be their goal",
+        "reason": "놈들의 목적을 조건이 아닌 화자의 확신으로 바로잡는다."
+      },
+      {
+        "id": 8344,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "真相を突き止めたか",
+        "reason": "관용구의 비유적 뜻을 명확하게 전달한다."
+      },
+      {
+        "id": 8371,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my wife, that harpy across the way",
+        "reason": "맞은편에 산다는 근거 없는 정보를 제거한다."
+      },
+      {
+        "id": 8373,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I owe Gwyn this, at the very least",
+        "reason": "빚을 갚는다는 어색한 결합을 자연스럽게 고친다."
+      },
+      {
+        "id": 8379,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we did a lot of drinking after that",
+        "reason": "술을 마신 주체가 화자를 포함한 우리임을 명확히 한다."
+      },
+      {
+        "id": 8396,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Whoever this is, they wield the power of Fate",
+        "reason": "누구든 운명의 힘을 휘두른다는 오해를 바로잡는다."
+      },
+      {
+        "id": 8399,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "vials of paint",
+        "reason": "색이 변하는 대상이 물감임을 분명히 한다."
+      },
+      {
+        "id": 8418,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "no match for our savagery",
+        "reason": "야수들의 잔혹성을 비교하는 오역을 바로잡는다."
+      },
+      {
+        "id": 8433,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "someone breathing down your neck",
+        "reason": "관용구를 문자 그대로 옮긴 어색함을 줄인다."
+      },
+      {
+        "id": 8459,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the divine fang, the Piercing Light",
+        "reason": "신성한 송곳니와 관통의 빛이 같은 대상임을 명확히 한다."
+      },
+      {
+        "id": 8467,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 인사도 자연스럽고 원문의 뜻에 부합한다."
+      },
+      {
+        "id": 8498,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Is that all there is to you",
+        "reason": "원하는 것이 전부인지가 아니라 상대가 그런 사람인지를 묻는 뜻을 살린다."
+      },
+      {
+        "id": 8507,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "trust him out of your sight",
+        "reason": "눈앞에서 안 보이게 둔다는 어색한 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 8537,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Leave it to Hallam the White and his pet to expose my plans",
+        "reason": "계획을 폭로한 상대를 비꼬는 뜻을 살린다."
+      },
+      {
+        "id": 8566,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "clean breeches",
+        "reason": "바지의 상태를 멀쩡함이 아닌 깨끗함으로 바로잡는다."
+      },
+      {
+        "id": 8581,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 old maid가 지닌 노처녀의 의미를 제안이 삭제한다."
+      },
+      {
+        "id": 8598,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "single-handedly left the House of Ballads",
+        "reason": "홀로가 방치된 집이 아니라 상대의 단독 행위를 가리킨다는 점을 바로잡는다."
+      },
+      {
+        "id": 8606,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "連中が魔法を使いこなす可能性",
+        "reason": "마력을 다룰 가능성이 커지는 주체를 명확히 한다."
+      },
+      {
+        "id": 8637,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Secandra has informed us of what happened",
+        "reason": "세칸드라에게 일어난 일이 아니라 세칸드라에게서 들은 일임을 바로잡는다."
+      },
+      {
+        "id": 8653,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the only link between Alfaria and the Almere Valley within a thousand miles",
+        "reason": "천 마일 이내의 유일한 연결로라는 뜻을 명확히 한다."
+      },
+      {
+        "id": 8654,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you can just order me to give it to you",
+        "reason": "명령의 대상이 화자임을 자연스럽게 드러낸다."
+      },
+      {
+        "id": 8681,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "부하들이 돌아올 예정이었다는 구체적 정보는 원문에 없다."
+      },
+      {
+        "id": 8721,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Not worth a bloody coin",
+        "reason": "한 푼도 아깝지 않다는 반대 의미를 바로잡고 옛 상관도 명확히 한다."
+      },
+      {
+        "id": 8737,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 영어의 almost에 담긴 유보를 제거한다."
+      },
+      {
+        "id": 8790,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a stranger's face",
+        "reason": "중복된 느낌의 얼굴 표현을 자연스럽게 줄인다."
+      },
+      {
+        "id": 8803,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "can't get away from the Travelers",
+        "reason": "트래블러를 벗어날 수 없다는 뜻을 문법적으로 명확히 한다."
+      },
+      {
+        "id": 8811,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "its envoy to the world",
+        "reason": "어색한 세계 특사를 요새를 대표하는 사절로 풀어 쓴다."
+      },
+      {
+        "id": 8814,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "not Lord Ysa's idea but the inspiration of Hallam the White",
+        "reason": "도서관의 구상자가 누구인지 자연스럽고 명확하게 표현한다."
+      },
+      {
+        "id": 8850,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 본질도 원문의 nature를 반영하며 성향으로 바꿔야 할 명확한 근거가 없다."
+      },
+      {
+        "id": 8858,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "貴族たちとともに",
+        "reason": "귀족들과 맞서 싸웠다는 해석을 함께 싸운 뜻으로 바로잡는다."
+      },
+      {
+        "id": 8880,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 의미가 명확해 수정이 필수적이지 않다."
+      },
+      {
+        "id": 8899,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "この区域から出るな",
+        "reason": "막연한 같은 구역을 현재 구역으로 명확히 한다."
+      },
+      {
+        "id": 8921,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "feel like I understood the world",
+        "reason": "이해한 기분을 느낀다는 중복되고 어색한 표현을 다듬는다."
+      },
+      {
+        "id": 8939,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ペピンを送るべきじゃなかった",
+        "reason": "보내지 말았어야 했다는 원문의 후회를 자연스럽게 살린다."
+      },
+      {
+        "id": 8944,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "騒がれるのが大嫌い",
+        "reason": "조용함을 따진다는 어색한 표현을 자연스럽게 고친다."
+      },
+      {
+        "id": 8958,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 종도 원문의 variety에 부합하며 품종으로 특정할 필요는 불확실하다."
+      },
+      {
+        "id": 8992,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 단순한 면은 영리함의 방식보다 영역을 가리켜 원문과 차이가 생긴다."
+      },
+      {
+        "id": 9054,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "glorified는 과대평가된다는 뜻이며 겉모습이 번듯하다는 뜻으로 단정하기 어렵다."
+      },
+      {
+        "id": 9055,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "until you tell me what you want",
+        "reason": "상대가 원하는 것을 화자가 말한다는 주체 혼동을 바로잡는다."
+      },
+      {
+        "id": 9056,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 하찮은 보상을 뜻하며 쇳조각 하나로 바꿔야 할 필요는 불확실하다."
+      },
+      {
+        "id": 9072,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the King of Sorrows from whom I hoped to draw summons",
+        "reason": "화자가 소환되기를 바란 대상이라는 뜻을 자연스럽게 명확히 한다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

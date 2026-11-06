@@ -1,0 +1,451 @@
+{
+  "fingerprint": "67af0a087fafe65abb96fdd1f8e060c624fcde5fef4a93f9c313766de29c140a",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 50472,
+  "last_id": 51357,
+  "row_count": 60,
+  "seconds": 36.46,
+  "usage": {
+    "completion_tokens": 2919,
+    "prompt_tokens": 9395,
+    "total_tokens": 12314,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 43,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 9392,
+      "cache_creation_tokens": 9392
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 50472,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "それでお金をもらっていたのよ",
+        "reason": "발굴과 보수에 대한 확신을 원문에 맞게 바로잡았습니다."
+      },
+      {
+        "id": 50479,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "주어를 추가하지 않아도 원문의 양보 관계가 전달됩니다."
+      },
+      {
+        "id": 50506,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "dependent on a seer's words to steal and earn our livelihood",
+        "reason": "훔쳐서 생계를 꾸리는 관계를 자연스럽게 바로잡았습니다."
+      },
+      {
+        "id": 50516,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "思いやりを注いで、影響を与えている",
+        "reason": "자비와 영향에 각각 알맞은 서술어를 썼습니다."
+      },
+      {
+        "id": 50531,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "to prepare you for what lies in store for us",
+        "reason": "대비시키는 대상이 상대방임을 명시했습니다."
+      },
+      {
+        "id": 50541,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 수량 표현도 자연스럽고 의미가 명확합니다."
+      },
+      {
+        "id": 50577,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 원문의 의미를 전달하며 제안이 더 자연스럽다고 보기 어렵습니다."
+      },
+      {
+        "id": 50582,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'alarmed'는 놀라거나 불안해하는 뜻으로도 읽혀 경계로 단정하기 어렵습니다."
+      },
+      {
+        "id": 50587,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 각하를 지지하지만 영어 호칭은 상황에 따라 폐하로도 번역할 수 있습니다."
+      },
+      {
+        "id": 50612,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장에서도 네 배인 대상이 힘임이 분명합니다."
+      },
+      {
+        "id": 50640,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 부정 의문문도 이미 살인을 저질렀다는 반문이므로 현재 번역이 가능합니다."
+      },
+      {
+        "id": 50645,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현은 영어의 안부 인사에 부합합니다."
+      },
+      {
+        "id": 50648,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you were beckoned to save my people",
+        "reason": "어색한 피동 표현을 부름을 받았다는 뜻으로 자연스럽게 고쳤습니다."
+      },
+      {
+        "id": 50651,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "keep a roof over our head",
+        "reason": "관용구의 주거 제공 의미를 자연스럽게 전달합니다."
+      },
+      {
+        "id": 50653,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The rat's den of Adessa, if ever there were one.",
+        "reason": "관용적인 강조를 존재 여부에 대한 조건으로 옮긴 문제를 고쳤습니다."
+      },
+      {
+        "id": 50676,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "searching the horizon for ships",
+        "reason": "수평선 너머가 아니라 수평선을 살피는 뜻으로 바로잡았습니다."
+      },
+      {
+        "id": 50703,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "死んでしまったなんて",
+        "reason": "완곡한 영어 표현의 의미를 일본어에 따라 죽음으로 명확히 했습니다."
+      },
+      {
+        "id": 50726,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 푼돈을 상대가 가지라는 원문의 뜻에 부합합니다."
+      },
+      {
+        "id": 50729,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "As if things weren't bad enough!",
+        "reason": "상황이 이미 나쁘다는 탄식을 자연스럽게 옮겼습니다."
+      },
+      {
+        "id": 50753,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장의 '왜'도 원문의 의문에 부합합니다."
+      },
+      {
+        "id": 50755,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Such crimes as Abergast's",
+        "reason": "범죄자가 아니라 그가 저지른 범죄를 비교 대상으로 명확히 했습니다."
+      },
+      {
+        "id": 50757,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ラシーアの上層地区で育った",
+        "reason": "어색한 '평생 자랐으니'를 자연스럽게 고쳤습니다."
+      },
+      {
+        "id": 50763,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 낯선 사람이라는 호칭은 영어 원문에 명시되어 있습니다."
+      },
+      {
+        "id": 50774,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "An outrage! An outrage, I tell you!",
+        "reason": "참변이라는 부정확한 표현을 분노의 반복으로 바로잡았습니다."
+      },
+      {
+        "id": 50800,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "自らの死を意味するのだぞ",
+        "reason": "직역투를 원문의 뜻에 맞는 자연스러운 표현으로 고쳤습니다."
+      },
+      {
+        "id": 50813,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "pray to sweet Lyria",
+        "reason": "신에 대한 친애의 수식을 한국어에서 자연스럽게 옮겼습니다."
+      },
+      {
+        "id": 50816,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "마법이에요",
+        "reason": "뒤의 해요체와 첫 대답의 높임을 일치시켰습니다."
+      },
+      {
+        "id": 50825,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현은 3년 전부가 너무 길었다는 원문의 강조를 살립니다."
+      },
+      {
+        "id": 50826,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "but only because I wish to return to my children",
+        "reason": "믿기로 한 이유가 바람이라는 원문의 관계를 바로잡았습니다."
+      },
+      {
+        "id": 50870,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your young estate",
+        "reason": "영지가 새로 생겼다는 뜻을 자연스럽게 표현했습니다."
+      },
+      {
+        "id": 50879,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "こんな楽しい思いは数十年ぶりだ",
+        "reason": "수십 년 만에 느낀 즐거움을 자연스럽게 표현했습니다."
+      },
+      {
+        "id": 50886,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "They are magic, but magic that will not fade.",
+        "reason": "마법으로 만들어졌다는 추가 의미를 없애고 원문에 맞췄습니다."
+      },
+      {
+        "id": 50907,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I found myself uniquely blocked",
+        "reason": "어색한 '유독 나만의 한계'를 자연스럽게 고쳤습니다."
+      },
+      {
+        "id": 50943,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 '아래'도 화자가 있는 아래쪽을 가리킬 수 있습니다."
+      },
+      {
+        "id": 50960,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Curse my rotten luck.",
+        "reason": "재수 없다는 탄식을 자연스러운 구어체로 고쳤습니다."
+      },
+      {
+        "id": 50967,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "retained the Championship for nine tournaments straight",
+        "reason": "연속해서 챔피언 자리를 유지한 뜻을 자연스럽게 옮겼습니다."
+      },
+      {
+        "id": 50981,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 원문의 인사로 사용할 수 있습니다."
+      },
+      {
+        "id": 50986,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "better than anyone could have expected",
+        "reason": "누구의 예상보다도 잘했다는 비교를 명확히 했습니다."
+      },
+      {
+        "id": 51011,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "For common goods, come to me.",
+        "reason": "물품을 찾는 사람이 화자에게 오라는 뜻을 분명히 했습니다."
+      },
+      {
+        "id": 51043,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "調合法とは？",
+        "reason": "일본어가 가리키는 조합법으로 뜻을 구체화했습니다."
+      },
+      {
+        "id": 51047,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm a bit of a follower.",
+        "reason": "무엇이든 잘 따라간다는 뜻에서 남을 따르는 성향으로 바로잡았습니다."
+      },
+      {
+        "id": 51055,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we Travelers are shunned",
+        "reason": "트래블러라서 따돌림당한다는 원인 관계를 없앴습니다."
+      },
+      {
+        "id": 51077,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 여기 오지 말았어야 했다는 원문의 함의를 단순한 예상으로 약화합니다."
+      },
+      {
+        "id": 51114,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Well, most turns, if I hear things right.",
+        "reason": "매번이라는 말을 정정하는 농담을 명확하고 자연스럽게 살렸습니다."
+      },
+      {
+        "id": 51147,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "本当にしっかり用意してくれる",
+        "reason": "비꼼으로 읽힐 수 있는 표현을 원문의 긍정적 평가에 맞췄습니다."
+      },
+      {
+        "id": 51149,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 지금 모습일 때 발산하는 힘이라는 뜻을 전달합니다."
+      },
+      {
+        "id": 51153,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "この前の任務では素晴らしい働きぶりだった",
+        "reason": "어색한 '유능하게 해냈으니'를 자연스럽게 고쳤습니다."
+      },
+      {
+        "id": 51169,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "妨害を試みて失敗した",
+        "reason": "'거의'와 '~할 뻔했다'의 중복을 제거했습니다."
+      },
+      {
+        "id": 51172,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a little too attached for my taste",
+        "reason": "취향에 맞지 않을 만큼 들러붙었다는 뜻을 자연스럽게 풀었습니다."
+      },
+      {
+        "id": 51175,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "先を見る判断力を鈍らせかねない",
+        "reason": "'판단을 흐리다'의 어색한 결합을 판단력으로 바로잡았습니다."
+      },
+      {
+        "id": 51185,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Hiding where they damn well can.",
+        "reason": "아무 데나 숨는다는 뜻을 숨을 수 있는 곳이라는 원문에 맞췄습니다."
+      },
+      {
+        "id": 51186,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Damn these slow bones",
+        "reason": "자기 몸이 굼뜬 것을 탓하는 표현을 자연스럽게 옮겼습니다."
+      },
+      {
+        "id": 51193,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "깨워 주세요",
+        "reason": "같은 발화 안의 높임말을 일관되게 맞췄습니다."
+      },
+      {
+        "id": 51199,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "His wine was one of a kind",
+        "reason": "유일하게 하나만 있었다는 오해 없이 독보적인 포도주라는 뜻을 살렸습니다."
+      },
+      {
+        "id": 51240,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "If we need the Air Shrine to unlock the Hyperian",
+        "reason": "어색한 연결을 하이페리언을 여는 데 성소가 필요하다는 뜻으로 고쳤습니다."
+      },
+      {
+        "id": 51290,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "from what I hear... but I've slept worse places",
+        "reason": "들었다는 말과 더 나쁜 곳에서 잤다는 경험을 각각 명확히 했습니다."
+      },
+      {
+        "id": 51308,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the only way they can stay safe",
+        "reason": "어색한 '안전할 유일한 방법'을 자연스럽게 고쳤습니다."
+      },
+      {
+        "id": 51317,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "living between bounties",
+        "reason": "어색한 '현상금 사이'를 현상금 사냥을 전전하는 삶으로 풀었습니다."
+      },
+      {
+        "id": 51342,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 마땅히 해야 할 최소한이라는 영어의 뜻을 할 수 있는 일이 이것뿐이라는 뜻으로 바꿉니다."
+      },
+      {
+        "id": 51357,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 그들을 포함한 다른 모두가 실패했다는 뜻을 전달합니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

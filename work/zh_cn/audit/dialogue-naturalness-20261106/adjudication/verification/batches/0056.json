@@ -1,0 +1,451 @@
+{
+  "fingerprint": "88af76866258fa1c1a382feebb56bbfe58bfd361afa19b6d245b67c91a89f086",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 54105,
+  "last_id": 55066,
+  "row_count": 60,
+  "seconds": 36.62,
+  "usage": {
+    "completion_tokens": 2907,
+    "prompt_tokens": 14649,
+    "total_tokens": 17556,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 8,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 14646,
+      "cache_creation_tokens": 14646
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 54105,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Our partnership has turned out to be quite lucrative.",
+        "reason": "협력 자체가 아니라 협력으로 얻은 수익이 짭짤하다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 54132,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어와 일본어에서 도움을 주는 주체가 달라 제안의 해석을 확정하기 어렵다."
+      },
+      {
+        "id": 54139,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "both of our enemies",
+        "reason": "적이 둘이라는 오해를 바로잡는다."
+      },
+      {
+        "id": 54143,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Our minds are cleared",
+        "reason": "정신이 맑아진 것을 목격 대상이 아닌 현재 상태로 분리한다."
+      },
+      {
+        "id": 54150,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 각자가 살아 있는 것이 보증 덕분이라는 원문의 뜻을 전달한다."
+      },
+      {
+        "id": 54161,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 의미가 통하며 제안이 명확한 문제를 해결한다고 보기 어렵다."
+      },
+      {
+        "id": 54173,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Another!",
+        "reason": "다시 왔다는 뜻보다 또 다른 대상이 왔다는 뜻에 가깝다."
+      },
+      {
+        "id": 54177,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I heard Connovar tell his men",
+        "reason": "전해 들은 말이 아니라 직접 들은 명령이라는 점과 포로들을 파는 뜻을 살린다."
+      },
+      {
+        "id": 54178,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "젊은 시절의 장신구라는 뜻은 뒷받침되지만 그때부터 계속 가지고 있었다는 뜻은 확실하지 않다."
+      },
+      {
+        "id": 54250,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 연출가 비유를 전달하며 제안이 꼭 필요한 수정은 아니다."
+      },
+      {
+        "id": 54291,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What do you think, fool?",
+        "reason": "근거 없이 이유를 묻는 현재 문장을 원문의 질문으로 바로잡는다."
+      },
+      {
+        "id": 54325,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "enough sense left to tell you",
+        "reason": "말해 줄 지혜가 아니라 말할 만한 판단력이 남았다는 뜻을 살린다."
+      },
+      {
+        "id": 54331,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "식탁 부스러기도 원문의 남은 음식을 표현하므로 수정이 필수적이지 않다."
+      },
+      {
+        "id": 54391,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the Hierophant's words speak for all the Travelers",
+        "reason": "말이 트래블러들을 대신한다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 54419,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "妻を殺した者の死を知ることぐらいだ",
+        "reason": "살인범을 아직 찾아 죽여야 하는 상황과 이미 죽었다는 현재 문장의 모순을 해소한다."
+      },
+      {
+        "id": 54433,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "キャネロックの者たちの命と引き換えに",
+        "reason": "주민들의 목숨을 살려 주는 조건이 아니라 그 목숨을 대가로 한다는 뜻이다."
+      },
+      {
+        "id": 54457,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 가스크를 가리키지만 일본어는 사제들을 주체로 읽혀 주체가 불확실하다."
+      },
+      {
+        "id": 54462,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "there's one clear cause of this plague",
+        "reason": "어색한 원인 표현을 자연스럽게 바로잡는다."
+      },
+      {
+        "id": 54480,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 시련을 남에게 말하지 않는다는 뜻으로 읽혀 수정이 필수적이지 않다."
+      },
+      {
+        "id": 54490,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "in parallel with your former colleague",
+        "reason": "이전 동료와 함께가 아니라 별도로 병행하는 연구라는 뜻을 살린다."
+      },
+      {
+        "id": 54495,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "She allows me to revise the introduction",
+        "reason": "서론 수정을 허락한 주체와 허락받은 대상을 바로잡는다."
+      },
+      {
+        "id": 54508,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 두 믿음의 근거를 비교하는 뜻을 전달한다."
+      },
+      {
+        "id": 54541,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "두 표현 모두 원문의 비명 곁에서 포효하는 모습을 전달하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 54562,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "These walls are grown, are built, of stone.",
+        "reason": "벽이 자라났다는 내용과 돌로 세워졌다는 내용을 분명히 나눈다."
+      },
+      {
+        "id": 54574,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어의 흠뻑 젖었다는 뜻이 빠지고 영어와도 정도가 불확실하다."
+      },
+      {
+        "id": 54583,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 책을 얻으려는 강한 집착을 자연스럽게 전달한다."
+      },
+      {
+        "id": 54598,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어와 달리 일본어는 실패할 줄 알았다는 현재 문장을 뒷받침한다."
+      },
+      {
+        "id": 54601,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "힘을 거둔다는 현재 표현도 힘의 결실을 얻는다는 원문에 부합한다."
+      },
+      {
+        "id": 54607,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 길이 교차한다는 표현도 원문의 비유를 자연스럽게 살린다."
+      },
+      {
+        "id": 54623,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm still not ready to cast",
+        "reason": "배역을 정하지 못한 상태가 아니라 배역을 정할 준비가 안 된 상태를 나타낸다."
+      },
+      {
+        "id": 54635,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 복구에 참여한다는 뜻이 통하므로 수정이 필수적이지 않다."
+      },
+      {
+        "id": 54677,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Her power is vast, and she is tireless.",
+        "reason": "지치지 않는 주체가 힘이 아니라 그녀임을 명확히 한다."
+      },
+      {
+        "id": 54678,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Travelers to the east",
+        "reason": "동쪽으로 이동한다는 뜻이 아니라 동쪽에 있다는 위치를 나타낸다."
+      },
+      {
+        "id": 54682,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "if you can find out what happened at Togh farm",
+        "reason": "어색한 부탁 표현을 자연스럽게 바로잡는다."
+      },
+      {
+        "id": 54685,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "As far as I'm concerned",
+        "reason": "시각에 대한 표현보다 화자의 입장을 나타내는 말이 원문에 가깝다."
+      },
+      {
+        "id": 54732,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a crate among a host of other odd, arcane cargo",
+        "reason": "상자 안의 내용물이 아니라 상자가 다른 화물 사이에 있었다는 뜻을 바로잡는다."
+      },
+      {
+        "id": 54739,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We will be there.",
+        "reason": "혼자 가겠다는 현재 문장을 복수 주체에 맞게 고친다."
+      },
+      {
+        "id": 54768,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he'll be dead by now",
+        "reason": "막연한 과거·미래 시점이 아닌 지금쯤이라는 뜻을 살린다."
+      },
+      {
+        "id": 54785,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 감탄 표현이 반드시 부자연스럽지는 않으며 제안의 호명은 어색하다."
+      },
+      {
+        "id": 54789,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 시간에 대한 조급함을 나타내며 영어의 비유를 살린다."
+      },
+      {
+        "id": 54797,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Won't you do us the honor?",
+        "reason": "도와주는 쪽이 영광을 누린다는 뜻이 아니라 도움받는 쪽의 영광이라는 뜻이다."
+      },
+      {
+        "id": 54810,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 전투의 시절을 뒤로하고 싶다는 원문의 뜻을 전달한다."
+      },
+      {
+        "id": 54833,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "convince the Fae to let me go",
+        "reason": "청자가 직접 놓아주는 것이 아니라 페이들이 놓아주도록 설득하는 뜻을 명확히 한다."
+      },
+      {
+        "id": 54839,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 자연스럽고 의미가 정확해 수정이 불필요하다."
+      },
+      {
+        "id": 54847,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "just a few steps",
+        "reason": "불필요한 ‘더’를 없애고 어색한 대상을 자연스럽게 표현한다."
+      },
+      {
+        "id": 54851,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Mattix Dace had hired him to kill me",
+        "reason": "살해 의뢰를 받은 사람과 아내를 죽인 사람이 같다는 관계를 분명히 한다."
+      },
+      {
+        "id": 54860,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 이성적인 말을 들을 준비가 되었는지 묻는 뜻으로 자연스럽다."
+      },
+      {
+        "id": 54874,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ラスタは人がいい",
+        "reason": "죄가 없다는 뜻보다 선량하거나 순진한 성품을 가리킨다."
+      },
+      {
+        "id": 54907,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'll get to my observation area",
+        "reason": "관찰 구역으로 가는 주체가 화자임을 명확히 한다."
+      },
+      {
+        "id": 54941,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문은 큰 방을 뜻하지만 제안의 대강당이라는 구체적 용도까지 뒷받침하지 않는다."
+      },
+      {
+        "id": 54945,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Maybe you should set a trap",
+        "reason": "화자의 결심처럼 들리는 현재 문장을 상대에게 하는 제안으로 바로잡는다."
+      },
+      {
+        "id": 54946,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 상대가 뒤처지는 데 신경 쓰지 않는다는 뜻을 전달한다."
+      },
+      {
+        "id": 54966,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Are you telling me",
+        "reason": "어색한 질문 어순을 자연스럽게 바로잡는다."
+      },
+      {
+        "id": 54980,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a good selection, all things considered",
+        "reason": "여러 사정을 감안하면 구색이 괜찮다는 뜻을 살린다."
+      },
+      {
+        "id": 55001,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the keep as it once was",
+        "reason": "긴 수식 관계를 자연스럽게 정리하면서 옛 요새의 모습을 유지한다."
+      },
+      {
+        "id": 55005,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "take this",
+        "reason": "가져가도 된다는 허락이 아니라 이것을 받으라는 말로 바로잡는다."
+      },
+      {
+        "id": 55024,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "お前の命もここまで",
+        "reason": "추상적인 운명보다 목숨이 끝난다는 뜻을 분명히 한다."
+      },
+      {
+        "id": 55029,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "칼로 죽인 주체를 화자 측으로 명시할 근거가 확실하지 않다."
+      },
+      {
+        "id": 55049,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "こんなに嬉しいことはありません",
+        "reason": "큰 도움이 된다는 실용적 의미보다 기쁨을 나타내는 원문에 가깝다."
+      },
+      {
+        "id": 55066,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "함께 이동했다는 정보가 제거되지만 영어의 복수 주체가 이를 뒷받침할 수 있다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

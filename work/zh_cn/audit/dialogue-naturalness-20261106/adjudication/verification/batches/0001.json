@@ -1,0 +1,451 @@
+{
+  "fingerprint": "5ef3b1529d04a70b3a4930b17a6abf7b2350538facfa402c2ac1541dc2b683a5",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 1050,
+  "last_id": 2044,
+  "row_count": 60,
+  "seconds": 37.84,
+  "usage": {
+    "completion_tokens": 2966,
+    "prompt_tokens": 11023,
+    "total_tokens": 13989,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11020,
+      "cache_creation_tokens": 11020
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 1050,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 운명적 의미를 전달합니다."
+      },
+      {
+        "id": 1102,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "酔いつぶれながら朽ち果てる",
+        "reason": "맥주잔 뒤에 처박힌다는 어색한 표현을 술에 취한 상태로 자연스럽게 바꿉니다."
+      },
+      {
+        "id": 1110,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Who else had that ambition?",
+        "reason": "근거 없이 화자의 야심과 비교한 부분을 바로잡습니다."
+      },
+      {
+        "id": 1113,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 위업을 자연스럽게 이룬다는 뜻을 전달합니다."
+      },
+      {
+        "id": 1151,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "That's where I escape",
+        "reason": "배를 이용해 탈출한다는 뜻을 배로 피신한다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 1166,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'한자리하던'은 지위나 직책을 암시해 원문보다 구체적입니다."
+      },
+      {
+        "id": 1173,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 원문의 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 1190,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "that's just how Tirin's Rest wants it",
+        "reason": "원하는 대상이 장소가 아니라 현재 상태임을 분명히 합니다."
+      },
+      {
+        "id": 1208,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어에는 손위 자매가 명시되지만 기존 표현도 틀리지 않으며 수정이 필수적이지 않습니다."
+      },
+      {
+        "id": 1226,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Now, be reasonable.",
+        "reason": "'진정해'보다 이성적으로 생각하라는 원문의 요구에 가깝습니다."
+      },
+      {
+        "id": 1237,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'잘못된 자들'도 부적절한 사람의 손에 들어간다는 원문의 뜻에 부합합니다."
+      },
+      {
+        "id": 1253,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we know how you can get there",
+        "reason": "방법을 아는 주체가 우리이고 이동할 대상이 상대임을 명확히 합니다."
+      },
+      {
+        "id": 1258,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "탐광은 원문의 말장난을 반영하지만 사람의 잠재력을 찾는 맥락에서는 의미 연결이 불확실합니다."
+      },
+      {
+        "id": 1271,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "その忌まわしいアミュレット",
+        "reason": "'버려진'이라는 상태보다 부적에 대한 부정적 감정을 살립니다."
+      },
+      {
+        "id": 1275,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the amulet you and Phasmer stole",
+        "reason": "파스머와 부적을 함께 훔쳤다는 관계를 분명히 합니다."
+      },
+      {
+        "id": 1282,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 'what was wrong'은 반드시 특정 악행을 뜻한다고 단정하기 어렵습니다."
+      },
+      {
+        "id": 1297,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "they will batter down obstacles",
+        "reason": "행동의 주체가 그들임을 명시해 화자의 행동으로 읽힐 가능성을 줄입니다."
+      },
+      {
+        "id": 1312,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Apprentice to the Fontmaster",
+        "reason": "샘 자체의 수습 관리인이 아니라 샘 관리인의 제자임을 바로잡습니다."
+      },
+      {
+        "id": 1326,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "管財女主人の弟子",
+        "reason": "어색한 '영수 담당 부인'을 자산 관리 직책으로 바로잡습니다."
+      },
+      {
+        "id": 1365,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 질문도 사냥이 수월한지 묻는 뜻을 전달합니다."
+      },
+      {
+        "id": 1377,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 '내 필요'도 원문의 needs에 부합합니다."
+      },
+      {
+        "id": 1379,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a mood of meditation and tranquility",
+        "reason": "명상과 평온의 분위기를 유지한다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 1394,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "魚類のみを与えてください",
+        "reason": "물고기에게만 먹이를 주라는 뜻이 아니라 물고기만 먹이로 주라는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 1407,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I am yours, Sagrell.",
+        "reason": "사그렐을 제삼자가 아니라 직접 부르는 대상으로 바로잡습니다."
+      },
+      {
+        "id": 1410,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "必要な組み合わせは全て揃った",
+        "reason": "추상적인 조합의 '조각'을 필요한 정보로 자연스럽게 표현합니다."
+      },
+      {
+        "id": 1464,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "完全に制圧されなかった",
+        "reason": "'포위'보다 적에게 완전히 제압당하는 원문의 상황에 가깝습니다."
+      },
+      {
+        "id": 1489,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 활발한 거래와 여유의 관계를 전달하며 수정의 필요성이 뚜렷하지 않습니다."
+      },
+      {
+        "id": 1525,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 집에 언제든 환영한다는 뜻으로 자연스럽습니다."
+      },
+      {
+        "id": 1530,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "to be left alone",
+        "reason": "누군가를 내버려 두는 행동이 아니라 혼자 있게 되는 보상임을 분명히 합니다."
+      },
+      {
+        "id": 1555,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 질문받는 데 익숙하지 않다는 뜻을 전달합니다."
+      },
+      {
+        "id": 1566,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 사교 목적의 방문이 아니라는 원문에 충실합니다."
+      },
+      {
+        "id": 1570,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "children of his that won't be born",
+        "reason": "태어나지 못할 아이들이 그의 자녀임을 명확히 합니다."
+      },
+      {
+        "id": 1575,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "They don't specialize in a particular style",
+        "reason": "특정 방식을 고집하지 않는다는 뜻을 전문으로 하지 않는다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 1608,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 야생에 무방비로 놓인다는 원문의 비유를 전달합니다."
+      },
+      {
+        "id": 1610,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "他にも生存者はいるだろうか？",
+        "reason": "어색한 추측형 의문문을 자연스러운 질문으로 바꿉니다."
+      },
+      {
+        "id": 1620,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 '지금 와 생각해 보면'도 자연스럽고 의미가 같습니다."
+      },
+      {
+        "id": 1649,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ぼんやりと星と樹冠の下をさまよい歩いていました",
+        "reason": "분주함을 뜻하는 '정신없이'를 멍하게 헤매는 원문의 상태로 바로잡습니다."
+      },
+      {
+        "id": 1672,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what a fierce riposte you had lying in wait for him",
+        "reason": "'반박을 벼르다'라는 어색한 결합을 준비해 둔 반박으로 고칩니다."
+      },
+      {
+        "id": 1751,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "such a damned good Blacksmith, and merely an excellent fighter",
+        "reason": "대장장이로서의 뛰어남과 전사로서는 그저 훌륭하다는 대비를 복원합니다."
+      },
+      {
+        "id": 1756,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you are eager to act",
+        "reason": "성급하게 행동한다는 뉘앙스를 행동하고 싶어 한다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 1759,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 거의 익사한 상태로 발견됐다는 뜻을 전달합니다."
+      },
+      {
+        "id": 1773,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 전장에서 태어난 화자의 이력을 전달합니다."
+      },
+      {
+        "id": 1776,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "個性がないのは別に構わない",
+        "reason": "'수수한'보다 개성이 부족하다는 원문의 평가에 가깝습니다."
+      },
+      {
+        "id": 1817,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Does no one else see?",
+        "reason": "아무도 보이지 않느냐는 뜻이 아니라 다른 이들은 보지 못하느냐는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 1828,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 '외곽 실험'도 외부 지역에서 하는 실험이라는 맥락을 전달합니다."
+      },
+      {
+        "id": 1833,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 '동틀 무렵'도 원문의 새벽을 정확히 나타냅니다."
+      },
+      {
+        "id": 1852,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the truth of what happens here",
+        "reason": "'벌어진 진실'이라는 어색한 표현을 사건의 진실로 바로잡습니다."
+      },
+      {
+        "id": 1864,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안문의 '끝까지 해낼 때까지가 아니라'는 원문에 없는 대조를 추가합니다."
+      },
+      {
+        "id": 1877,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 판단하지 않겠다는 원문의 태도를 전달합니다."
+      },
+      {
+        "id": 1882,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "to see to our higher purpose",
+        "reason": "사명을 '돌보다'라는 어색한 결합을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 1891,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "coming in for supplies and the contract board",
+        "reason": "보급품을 보러 온다는 어색함을 보급품을 구하러 온다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 1901,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "crossed paths here in the wood not half a day past",
+        "reason": "숲에서 만난 때로부터 반나절이 지나지 않았다는 시간 관계를 바로잡습니다."
+      },
+      {
+        "id": 1915,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 다시 알려 달라는 원문의 뉘앙스를 약화합니다."
+      },
+      {
+        "id": 1939,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "兵士たちを鼓舞することもできない",
+        "reason": "병사들에게 영감을 준다는 어색한 표현을 사기를 북돋운다는 뜻으로 자연스럽게 고칩니다."
+      },
+      {
+        "id": 1998,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my boots froze to the very rock",
+        "reason": "화자가 바위처럼 얼어붙을 지경이었다는 뜻을 장화가 바위에 얼어붙었다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 2007,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I have been thinking",
+        "reason": "구체적으로 생각해 둔 것이 있다는 단정보다 계속 생각해 왔다는 원문에 가깝습니다."
+      },
+      {
+        "id": 2014,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "your arse'll be skinned alive",
+        "reason": "화자가 직접 가죽을 벗기겠다는 뜻이 아니라 상대가 가죽을 벗겨질 것이라는 경고로 바로잡습니다."
+      },
+      {
+        "id": 2030,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Artal is older, and strange",
+        "reason": "돌 자체가 귀하다는 해석과 아탈이 더 나이 들었다는 변화를 바로잡습니다."
+      },
+      {
+        "id": 2043,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "How may I help the House of Ballads?",
+        "reason": "발라드의 집에 온 용건이 아니라 발라드의 집을 위해 무엇을 도울지 묻는 뜻을 복원합니다."
+      },
+      {
+        "id": 2044,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 '단검으로 안내할 지도'도 단검의 위치로 이끄는 지도를 뜻합니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

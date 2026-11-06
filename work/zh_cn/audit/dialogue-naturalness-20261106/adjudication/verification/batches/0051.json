@@ -1,0 +1,451 @@
+{
+  "fingerprint": "c3449aa794e351c5623e23b8330f26b09d3342c8d9d0f895dcf71d63b1f910e7",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 49612,
+  "last_id": 50446,
+  "row_count": 60,
+  "seconds": 34.77,
+  "usage": {
+    "completion_tokens": 2975,
+    "prompt_tokens": 16813,
+    "total_tokens": 19788,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 16810,
+      "cache_creation_tokens": 16810
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 49612,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He will answer to me.",
+        "reason": "직접 대답하게 한다는 뜻보다 책임을 묻는다는 뜻이 문맥에 맞습니다."
+      },
+      {
+        "id": 49652,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "raise your blade against them",
+        "reason": "죄수들을 지키는 것이 아니라 그들에게 검을 겨누는 뜻입니다."
+      },
+      {
+        "id": 49657,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "확실한 근거가 있다는 뜻은 원문보다 구체적입니다."
+      },
+      {
+        "id": 49673,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he'd better get inside",
+        "reason": "노인을 만나러 들어갈 사람이 화자가 아닌 제삼자임을 바로잡습니다."
+      },
+      {
+        "id": 49682,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 조건과 가능성을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 49691,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I could almost make out words, too, but",
+        "reason": "중복 접속으로 어색한 문장을 자연스럽게 정리합니다."
+      },
+      {
+        "id": 49717,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "they've welded my door shut until I reach the gallows",
+        "reason": "문이 막혀 처형 때까지 나갈 수 없는 상황을 분명히 합니다."
+      },
+      {
+        "id": 49743,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 영어의 도입부를 자연스럽게 전달합니다."
+      },
+      {
+        "id": 49752,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "死の世界からは戻ってこれない",
+        "reason": "어색한 ‘죽은 자로부터’를 죽음에서 돌아온다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 49765,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현에 명백한 문제가 없으며 제안은 원문의 little을 생략합니다."
+      },
+      {
+        "id": 49769,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Getting left behind is the price of not being one of Trav's elite",
+        "reason": "뒤처지는 것이 아니라 남겨지는 상황을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 49776,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we have been rousted with cause",
+        "reason": "누군가 이유를 가지고 이들을 깨웠다는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 49786,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a kind of bloodlust we've never seen before",
+        "reason": "어색한 ‘전례 없는 피의 욕구’를 자연스럽게 풀었습니다."
+      },
+      {
+        "id": 49792,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "work off my punishment",
+        "reason": "‘벌을 갚다’보다 일해서 벌을 치른다는 표현이 자연스럽습니다."
+      },
+      {
+        "id": 49824,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "There is no weakness in relying on potions",
+        "reason": "물약에 의지하는 것이 나약함이 아니라는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 49829,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he's the law in Gale Crossing",
+        "reason": "감시관이 치안을 맡고 있다는 뜻과 화자가 이야기를 엿듣는다는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 49848,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "If Augusta sees me talking and not working",
+        "reason": "화자가 일하지 않고 말하는 모습을 어거스타가 본다는 관계를 분명히 합니다."
+      },
+      {
+        "id": 49870,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "to lend what aid to Grim's fight that I can",
+        "reason": "반복적으로 어색한 도움 표현을 자연스럽게 다듬습니다."
+      },
+      {
+        "id": 49912,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "until he sobers; then he'll be hungover",
+        "reason": "취한 사람과 숙취에 시달릴 사람이 제삼자임을 명확히 합니다."
+      },
+      {
+        "id": 49917,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We've been here for an eternity.",
+        "reason": "여기 온 지 오랜 시간이 지났다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 49934,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what is that in your eyes?",
+        "reason": "눈에 있는 것을 묻는 문장을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 49951,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I had intended for you to die in there.",
+        "reason": "단순히 죽기를 바란 것이 아니라 죽게 할 작정이었다는 뜻입니다."
+      },
+      {
+        "id": 49953,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We often find ourselves at opposite sides of a discussion.",
+        "reason": "항상 의견이 맞선다는 어색한 표현을 자주 맞선다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 49955,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "pass through to the Red Marches",
+        "reason": "레드 마치스를 통과하는 것이 아니라 그곳으로 가는 길이라는 뜻입니다."
+      },
+      {
+        "id": 49966,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Only make promises of wealth when your pockets jingle.",
+        "reason": "어색한 ‘부를 약속해’를 돈을 주겠다는 약속으로 자연스럽게 풉니다."
+      },
+      {
+        "id": 49977,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "妻を殺したカーンが死ぬことだけだ",
+        "reason": "뒤이어 복수를 부탁하는 맥락에 맞게 컨의 죽음이 아직 이뤄지지 않았음을 나타냅니다."
+      },
+      {
+        "id": 49984,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You'll never beat the Lords of Valor.",
+        "reason": "군주들이 패배할 수 없다는 뜻이 아니라 상대가 그들을 이길 수 없다는 뜻입니다."
+      },
+      {
+        "id": 49996,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the guards were summoned to the gates",
+        "reason": "모두가 경비병을 불렀다는 어색한 관계를 경비병이 소집된 것으로 바로잡습니다."
+      },
+      {
+        "id": 50003,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 길목에 놓이게 될 위험을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 50016,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 돈을 잃으면서 즐긴다는 뜻을 다소 어색하게 바꿉니다."
+      },
+      {
+        "id": 50042,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "時と場所を考えろ！",
+        "reason": "어색한 직역을 상황에 맞는 자연스러운 명령으로 고칩니다."
+      },
+      {
+        "id": 50050,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Don't suppose I'm speaking to the new guest",
+        "reason": "상대가 새 손님인지 묻는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 50068,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "two ingredients that go to the potion",
+        "reason": "재료가 물약을 만드는 데 필요하다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 50071,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "운명 없는 자의 종족이 확인되지 않아 ‘그 사람’은 단정적입니다."
+      },
+      {
+        "id": 50073,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "relaying them to special litanies",
+        "reason": "기도문을 통해 전한다는 뜻이 아니라 기도문에 축복을 전한다는 뜻입니다."
+      },
+      {
+        "id": 50098,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "네 같은 사람이",
+        "reason": "문맥에 맞는 자연스러운 형태인 ‘너 같은 사람’으로 고칩니다."
+      },
+      {
+        "id": 50136,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 준비 여부를 확실히 하라는 뜻으로 자연스럽습니다."
+      },
+      {
+        "id": 50171,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "can't dance like this",
+        "reason": "기존 문장에서 빠진 ‘이렇게’ 춤춘다는 뜻을 보완합니다."
+      },
+      {
+        "id": 50203,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "自然の秩序が乱れると",
+        "reason": "무엇이 질서를 벗어나는지 모호한 표현을 자연의 질서가 어긋나는 뜻으로 명확히 합니다."
+      },
+      {
+        "id": 50214,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I was without potential servants within this House",
+        "reason": "‘내가 생각했나’로 읽히는 주어 관계를 바로잡습니다."
+      },
+      {
+        "id": 50231,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "들었어",
+        "reason": "앞뒤의 ‘-네’ 말투에 맞춰 종결을 통일합니다."
+      },
+      {
+        "id": 50262,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "입문서야",
+        "reason": "한 문장 안에서 섞인 종결 말투를 통일하고 건립 이야기임을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 50263,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the crystals wanted us to possess them",
+        "reason": "바라는 주체가 수정들이라는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 50277,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 ‘죽을 위험’은 원문의 죽게 된다는 결과보다 약합니다."
+      },
+      {
+        "id": 50283,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘운명을 받다’도 이해 가능하며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 50284,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "가까이 오게",
+        "reason": "앞의 ‘-게’ 말투에 맞춰 종결을 통일합니다."
+      },
+      {
+        "id": 50293,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "And upset a lot of gamblers in the meanwhile!",
+        "reason": "‘그동안’보다 승리의 부수적 결과라는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 50305,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "気が変わったら、ここに来い",
+        "reason": "기존 문장의 어색한 조건 관계를 자연스럽게 바로잡습니다."
+      },
+      {
+        "id": 50306,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "계속 무너지고 있어",
+        "reason": "뒤의 해체 말투에 맞춰 문장 종결을 통일합니다."
+      },
+      {
+        "id": 50313,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "let me reinforce it",
+        "reason": "상대가 직접 보강하는 것이 아니라 화자에게 맡기는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 50321,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "가야 한다",
+        "reason": "앞뒤의 단호한 ‘-한다’ 말투에 맞춰 종결을 통일합니다."
+      },
+      {
+        "id": 50362,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I only hope it pays off.",
+        "reason": "보답을 받기보다 자신의 노력이 결실을 맺기를 바라는 뜻을 전달합니다."
+      },
+      {
+        "id": 50388,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 무거운 시선도 원문의 비유를 표현하며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 50394,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "learn the error of your ways",
+        "reason": "‘잘못된 방식을 깨닫다’보다 자기 방식의 잘못을 깨닫는다는 뜻이 자연스럽습니다."
+      },
+      {
+        "id": 50398,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "meet you there",
+        "reason": "파스머가 상대를 만날 장소를 명시해 원문의 정보를 보완합니다."
+      },
+      {
+        "id": 50401,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what fate had in store for me",
+        "reason": "어색한 ‘운명에 무엇이 기다리는지’를 자연스럽게 고칩니다."
+      },
+      {
+        "id": 50406,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "시구의 원문 자체가 모호해 첨탑이 물방울을 흘린다는 해석을 단정하기 어렵습니다."
+      },
+      {
+        "id": 50409,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "앞선 발화가 없어 영어의 반복 응답에 어느 쪽이 더 적합한지 불확실합니다."
+      },
+      {
+        "id": 50415,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "人里離れて暮らす理由",
+        "reason": "누구와 따로 사는지 모호한 표현을 사람들과 떨어져 산다는 뜻으로 명확히 합니다."
+      },
+      {
+        "id": 50446,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Love, it does strange things.",
+        "reason": "사랑 때문에 평소와 다른 행동을 하게 된다는 맥락을 자연스럽게 전달합니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

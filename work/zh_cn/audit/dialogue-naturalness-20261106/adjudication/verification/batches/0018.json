@@ -1,0 +1,451 @@
+{
+  "fingerprint": "9abdff90246263e324dd7b6256489e915280839c2ce096e0eaca3000146ae4f3",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 17934,
+  "last_id": 18834,
+  "row_count": 60,
+  "seconds": 36.42,
+  "usage": {
+    "completion_tokens": 3001,
+    "prompt_tokens": 10794,
+    "total_tokens": 13795,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10791,
+      "cache_creation_tokens": 10791
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 17934,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I almost didn't notice you",
+        "reason": "사람을 거의 못 봤다는 어색한 표현을 인기척을 알아차리지 못할 뻔했다는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 17974,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "クルリコンに来る者の一部",
+        "reason": "무엇의 일부인지 명확히 해 문장을 자연스럽게 한다."
+      },
+      {
+        "id": 17981,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 원문의 가정과 전달 화법을 자연스럽게 표현한다."
+      },
+      {
+        "id": 17991,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 인사말도 주군을 대하는 존대 표현으로 적절하다."
+      },
+      {
+        "id": 18002,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "반복은 있지만 현재 표현도 원문의 뜻에 부합한다."
+      },
+      {
+        "id": 18032,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a few days later after declaring victory",
+        "reason": "불필요하게 삽입된 '시일 뒤'를 삭제해 시간 관계를 명확히 한다."
+      },
+      {
+        "id": 18039,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Together, Pepin and I will try to recover",
+        "reason": "페핀이 원정대와 함께 왔다는 오독을 막고 화자와 함께 회수한다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 18076,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I've come back about your offer.",
+        "reason": "원문에 없는 제안 수락의 뜻을 제거한다."
+      },
+      {
+        "id": 18079,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm done hearing requests.",
+        "reason": "부탁을 들어주는 행위가 아니라 듣는 행위를 그만둔다는 뜻을 살린다."
+      },
+      {
+        "id": 18083,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안도 '얼마나 큰지 마주했다'가 어색하며 명확한 개선이라고 보기 어렵다."
+      },
+      {
+        "id": 18100,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm always willing to impart my knowledge.",
+        "reason": "'나눠 주는 건 환영'이라는 어색한 표현을 기꺼이 가르친다는 뜻으로 고친다."
+      },
+      {
+        "id": 18104,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm not still resisting my appointment",
+        "reason": "현재의 '아직도 거부하지 않는'보다 더는 거부하지 않는다는 원문의 뜻에 맞다."
+      },
+      {
+        "id": 18108,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "정강이 보호구은",
+        "reason": "받침이 없는 명사 뒤의 조사 오류를 고친다."
+      },
+      {
+        "id": 18123,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I insist.",
+        "reason": "주고 싶은 마음보다 상대에게 꼭 받아 달라고 고집하는 뜻을 살린다."
+      },
+      {
+        "id": 18130,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "햇볕을 벗어나",
+        "reason": "벗어나는 대상에 자연스러운 조사를 사용한다."
+      },
+      {
+        "id": 18176,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 비유적 표현도 능력의 자연스러운 확장이라는 뜻을 전달한다."
+      },
+      {
+        "id": 18177,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we must send someone to Castle Yolvan",
+        "reason": "목적격 조사를 보충하고 첫 문장도 자연스럽게 다듬는다."
+      },
+      {
+        "id": 18188,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 '굽히지 않는 길'은 영어의 비유를 살리며 명백한 오류가 아니다."
+      },
+      {
+        "id": 18189,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He is just, and that is more than we deserve.",
+        "reason": "베푸는 것이 많다는 내용 대신 공정한 분이라는 사실이 과분하다는 뜻을 살린다."
+      },
+      {
+        "id": 18212,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 '벌어지는 고통'도 원문의 발생하는 고통을 전달하며 제안이 필수적이지 않다."
+      },
+      {
+        "id": 18224,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You have made your choice.",
+        "reason": "어색한 '선택은 끝났어'를 이미 선택했다는 원문의 뜻으로 고친다."
+      },
+      {
+        "id": 18253,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "our sworn enemy",
+        "reason": "서로에게 맹세했다는 듯한 표현을 숙적이라는 뜻으로 바로잡는다."
+      },
+      {
+        "id": 18255,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 내놓거나 협박해도 소용없다는 해석을 추가하며 원문의 모호한 표현과 차이가 있다."
+      },
+      {
+        "id": 18338,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "May the Tuatha fear your coming!",
+        "reason": "상대에게 그렇게 하라고 명령하는 듯한 표현을 기원문으로 고친다."
+      },
+      {
+        "id": 18355,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Make sure he's got the handle toward him",
+        "reason": "화자가 직접 잡으라는 뜻이 아니라 그가 그렇게 잡는지 확인하라는 뜻을 살린다."
+      },
+      {
+        "id": 18389,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 수식 관계도 원문과 양립하며 제안이 필수적이지 않다."
+      },
+      {
+        "id": 18400,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I will not fight you.",
+        "reason": "'공격'보다 상호적인 싸움을 뜻하는 원문에 충실하다."
+      },
+      {
+        "id": 18401,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Be sure to welcome him to the keep.",
+        "reason": "어색한 '맞아들이도록'을 자연스러운 환영 표현으로 고친다."
+      },
+      {
+        "id": 18408,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "私の予知",
+        "reason": "미래를 보는 능력이라는 문맥에 맞춰 모호한 '환영'을 '예지'로 고친다."
+      },
+      {
+        "id": 18415,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Here's what I have.",
+        "reason": "어색한 '여기가'를 제시 표현 '이게'로 고친다."
+      },
+      {
+        "id": 18421,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He'll be missed sorely",
+        "reason": "피동형의 어색한 '그리워질 거야'를 자연스러운 표현으로 고친다."
+      },
+      {
+        "id": 18422,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my newfound status",
+        "reason": "원문에 없는 '어렵게 얻은'을 '새로 얻은'으로 바로잡고 앞 문장도 자연스럽게 한다."
+      },
+      {
+        "id": 18496,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "whose lust beheld our glory",
+        "reason": "중복된 '탐낸 욕망을 품은'을 간결하게 고쳐 뜻을 유지한다."
+      },
+      {
+        "id": 18504,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "自由がどういうものか教えてやろう",
+        "reason": "자유를 얻는 방법이 아니라 자유가 무엇인지 알려 준다는 뜻을 살린다."
+      },
+      {
+        "id": 18550,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'상처'가 신체적 또는 감정적 피해로 좁혀질 수 있어 원문의 피해를 확정하기 어렵다."
+      },
+      {
+        "id": 18553,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "물리치는 데 도와줘서",
+        "reason": "어색한 문장 구조를 '도움을 줘서'로 고친다."
+      },
+      {
+        "id": 18556,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "in the end, he strayed",
+        "reason": "'결국'을 신념에서 벗어난 시점에 연결해 원문에 맞춘다."
+      },
+      {
+        "id": 18558,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "check on my wife",
+        "reason": "사람을 '확인'한다는 어색한 표현을 안부를 확인한다는 뜻으로 고친다."
+      },
+      {
+        "id": 18566,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "She has claim over many stories",
+        "reason": "단순한 관여가 아니라 이야기들에 대한 권리를 주장할 수 있다는 뜻에 가깝다."
+      },
+      {
+        "id": 18596,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 반복도 원문의 반복을 반영하며 명백한 오류는 아니다."
+      },
+      {
+        "id": 18635,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "on their coin, in their buildings",
+        "reason": "복수 주체와 자기들 소유 건물이라는 관계를 명확히 한다."
+      },
+      {
+        "id": 18644,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 '혼돈의 힘을 여는'도 원문의 unlocking에 부합한다."
+      },
+      {
+        "id": 18648,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you know where to find me",
+        "reason": "무엇을 어디서 찾는지 빠진 현재 문장의 대상을 명확히 한다."
+      },
+      {
+        "id": 18655,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 인사말도 무리 없이 이해되며 교체가 필요할 정도의 문제는 아니다."
+      },
+      {
+        "id": 18664,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 '길을 잃은 표정'도 원문의 비유를 자연스럽게 전달한다."
+      },
+      {
+        "id": 18668,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "안 해 보고 안 되어 본 게",
+        "reason": "어색한 직역을 자연스럽게 다듬으며 뒤의 경력 설명은 유지한다."
+      },
+      {
+        "id": 18678,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "金を工面できるまでは来ても無駄だよ",
+        "reason": "돈을 받아 가라는 잘못된 지시를 돈을 마련하라는 뜻으로 고친다."
+      },
+      {
+        "id": 18679,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안도 영어의 직접적 경고를 바람으로 완화하며 완전히 해결하지 못한다."
+      },
+      {
+        "id": 18684,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "than you or any",
+        "reason": "어색한 '너나 누구보다'를 비교 대상이 분명한 표현으로 고친다."
+      },
+      {
+        "id": 18688,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "For salvage?",
+        "reason": "쓸 만한 것을 찾기 위해 뒤졌다는 뜻을 자연스럽게 명시한다."
+      },
+      {
+        "id": 18694,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Spare us your condemnation",
+        "reason": "우리의 비난이 아니라 상대의 비난을 면하게 해 달라는 뜻으로 고친다."
+      },
+      {
+        "id": 18695,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "right in Bloody Bones' warpath",
+        "reason": "어색한 '전쟁 경로'를 휩쓸고 지나가는 길목이라는 뜻으로 고친다."
+      },
+      {
+        "id": 18718,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "もし寄付をしたくなったら",
+        "reason": "막연한 '무언가를 내놓다'를 문맥에 맞는 기부로 명확히 한다."
+      },
+      {
+        "id": 18751,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'불온한 보고'도 불안한 소식이라는 문맥에서 이해 가능하며 교체가 필수적이지 않다."
+      },
+      {
+        "id": 18764,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "prepare for my life in the Basilica",
+        "reason": "생활 자체를 준비한다는 어색한 구성을 생활을 위해 준비한다는 표현으로 고친다."
+      },
+      {
+        "id": 18789,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "joined the only ones",
+        "reason": "사람들에 '들어갔다'는 어색한 결합을 합류했다는 표현으로 고친다."
+      },
+      {
+        "id": 18795,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 '결과와 함께 받게'도 무엇을 받는지 불분명해 명확한 개선이 아니다."
+      },
+      {
+        "id": 18798,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 전문 업무 개업이라는 뜻을 단순히 '하던 일'로 일반화한다."
+      },
+      {
+        "id": 18815,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "'뿌리와 다시 이어지다'를 '유산을 되찾다'로 바꾸면 원문보다 구체적인 회복을 암시한다."
+      },
+      {
+        "id": 18834,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 '전사 얼간이'도 경멸적인 warrior-oaf를 전달하며 교체가 필수적이지 않다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

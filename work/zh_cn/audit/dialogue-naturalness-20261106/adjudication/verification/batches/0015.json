@@ -1,0 +1,451 @@
+{
+  "fingerprint": "98c3eccc4bdbb22e0c83b780227defa90df12556c6dea427324b8d6f492e76b9",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 15024,
+  "last_id": 15803,
+  "row_count": 60,
+  "seconds": 31.19,
+  "usage": {
+    "completion_tokens": 2688,
+    "prompt_tokens": 9942,
+    "total_tokens": 12630,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 9939,
+      "cache_creation_tokens": 9939
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 15024,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "She banished me from her presence",
+        "reason": "어색한 추방 표현을 자연스럽게 풀었다."
+      },
+      {
+        "id": 15027,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I don't want anyone getting ideas about my ship.",
+        "reason": "어색한 직역을 자연스럽게 고쳤다."
+      },
+      {
+        "id": 15046,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "drink himself into oblivion",
+        "reason": "술로 정신을 잃을 지경이라는 뜻을 구체적으로 살렸다."
+      },
+      {
+        "id": 15078,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "pyre",
+        "reason": "장작더미의 용도를 자연스럽게 표현했다."
+      },
+      {
+        "id": 15081,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 원문의 뜻을 전달하며 제안은 필수적인 수정이 아니다."
+      },
+      {
+        "id": 15106,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "speak to the miners",
+        "reason": "광부들에게 말을 걸라는 지시를 복원했다."
+      },
+      {
+        "id": 15113,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "what help I can get",
+        "reason": "어떤 도움이든 받겠다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 15135,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Atheof and I are more than happy to have your business",
+        "reason": "높임 표현과 거래 맥락을 자연스럽게 정리했다."
+      },
+      {
+        "id": 15137,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "since I was born into its precepts",
+        "reason": "태어날 때부터 교리 속에 있었다는 뜻에 더 가깝다."
+      },
+      {
+        "id": 15138,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "we have produced in generations",
+        "reason": "한 세대가 아닌 여러 세대에 걸친 비교를 반영했다."
+      },
+      {
+        "id": 15155,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "少しでも頭と剣の使える者なら",
+        "reason": "과거의 아쉬움이 아닌 가능한 조건으로 바로잡았다."
+      },
+      {
+        "id": 15161,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "多くの者より強い",
+        "reason": "비교 대상을 명시해 한국어를 자연스럽게 했다."
+      },
+      {
+        "id": 15180,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I don't want to sound ungrateful",
+        "reason": "감사할 줄 모르는 것처럼 들린다는 뜻을 명확히 했다."
+      },
+      {
+        "id": 15181,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 규칙에 대한 예외를 자연스럽게 전달한다."
+      },
+      {
+        "id": 15209,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "liquid courage",
+        "reason": "술로 얻는 용기라는 관용적 의미를 풀어냈다."
+      },
+      {
+        "id": 15221,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 말썽에 끼어드는 뜻을 전달하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 15228,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "弟",
+        "reason": "일본어에 명시된 남동생 관계를 반영했다."
+      },
+      {
+        "id": 15266,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'm needed here.",
+        "reason": "화자가 여기 필요하다는 뜻으로 바로잡았다."
+      },
+      {
+        "id": 15275,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 원문의 안부 표현에 부합한다."
+      },
+      {
+        "id": 15289,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "힘을 누릴 수 있다는 해석은 원문의 모호한 표현보다 구체적이다."
+      },
+      {
+        "id": 15309,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 조사 사용이 부자연스럽고 기존 문장이 맞다."
+      },
+      {
+        "id": 15310,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "It's better than the cellar crawlspace",
+        "reason": "현재 장소가 예전 거처보다 낫다는 비교를 복원했다."
+      },
+      {
+        "id": 15321,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "A person is defined by his actions",
+        "reason": "행동이 사람을 규정한다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 15322,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ローだって？",
+        "reason": "내기에 건 대상을 나타내는 조사를 바로잡았다."
+      },
+      {
+        "id": 15326,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You have slain Smiler and Kolmir",
+        "reason": "상대가 둘을 죽였다는 핵심 정보를 복원했다."
+      },
+      {
+        "id": 15344,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 그들의 이익을 고려한다는 뜻을 전달하며 최우선이라는 강조는 불확실하다."
+      },
+      {
+        "id": 15371,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Borrow me, and I will borrow you.",
+        "reason": "빌리는 대상을 원문에 맞게 바로잡았다."
+      },
+      {
+        "id": 15387,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "私が任命された",
+        "reason": "이름이 정해진 것이 아니라 임명된 것으로 바로잡았다."
+      },
+      {
+        "id": 15400,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I have had enough of mortals for multiple lifetimes.",
+        "reason": "필멸자들에게 질렸다는 뜻을 명시했다."
+      },
+      {
+        "id": 15432,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "by gutting us",
+        "reason": "잘못된 조사 결합을 바로잡았다."
+      },
+      {
+        "id": 15450,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "크로싱(The Crossing)를",
+        "reason": "목적격 조사를 바로잡았다."
+      },
+      {
+        "id": 15461,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The pitiful creature wanted, and that is not our nature.",
+        "reason": "바라는 행위 자체가 본성에 맞지 않는다는 뜻을 살렸다."
+      },
+      {
+        "id": 15473,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "その力になってくれた者",
+        "reason": "도움을 받은 대상이 신들이라는 오해를 없앴다."
+      },
+      {
+        "id": 15477,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "merchants here to take your coin",
+        "reason": "상인에게 돈을 내고 거래한다는 뜻을 자연스럽게 풀었다."
+      },
+      {
+        "id": 15485,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Cursed rings turned her comrades against her.",
+        "reason": "어색한 사동 구문을 자연스럽게 고쳤다."
+      },
+      {
+        "id": 15489,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "one small sliver in the Ring of Keozai",
+        "reason": "고리의 일부라는 관계를 올바른 조사로 나타냈다."
+      },
+      {
+        "id": 15499,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 '평생의 나'도 비교 표현이 부자연스럽다."
+      },
+      {
+        "id": 15505,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 전쟁 결과를 전달하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 15528,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ただし例外もある",
+        "reason": "접근 권한에 예외가 있다는 뜻을 분명히 했다."
+      },
+      {
+        "id": 15556,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the day I joined the Arena",
+        "reason": "경기장에 입장한 것이 아니라 합류한 날임을 밝혔다."
+      },
+      {
+        "id": 15572,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 세상과 단절된 상태를 비유적으로 전달한다."
+      },
+      {
+        "id": 15588,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "which end to hold",
+        "reason": "검의 잡을 쪽을 안다는 의미를 자연스럽게 표현했다."
+      },
+      {
+        "id": 15589,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 말없이 지켜 온 시간도 침묵 속의 기다림을 전달한다."
+      },
+      {
+        "id": 15624,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 식량을 기른다는 원문에 부합한다."
+      },
+      {
+        "id": 15633,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a salvaged peace treaty",
+        "reason": "평화 조약이 파기 위기를 넘겼다는 뜻으로 바로잡았다."
+      },
+      {
+        "id": 15642,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "at least with Augur and his deputies",
+        "reason": "예언자와 부관들의 경우를 가리키도록 연결을 명확히 했다."
+      },
+      {
+        "id": 15666,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What does Mayor Eswin's whipped dog want now?",
+        "reason": "원문의 용건을 묻는 말로 자연스럽게 바로잡았다."
+      },
+      {
+        "id": 15672,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "You were magnificent.",
+        "reason": "훌륭했던 대상이 상대방임을 명시했다."
+      },
+      {
+        "id": 15695,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "finding more books than I expected to fill the shelves",
+        "reason": "서가를 채우고도 남는다는 근거 없는 추가 의미를 제거했다."
+      },
+      {
+        "id": 15703,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어는 상대방을 가리키지만 일본어는 주어가 없어 제안이 단정적이다."
+      },
+      {
+        "id": 15708,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 사다리 비유도 영어 원문에 부합한다."
+      },
+      {
+        "id": 15717,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "My plan involves the Treasures of Culn.",
+        "reason": "보물이 걸려 있다는 함의 대신 계획과 관련이 있음을 표현했다."
+      },
+      {
+        "id": 15741,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "he won't say much about his past",
+        "reason": "미래 예측이 아닌 말하기를 꺼리는 현재 상황으로 자연스럽게 옮겼다."
+      },
+      {
+        "id": 15744,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I should have known.",
+        "reason": "진작 알아차렸어야 했다는 후회를 반영했다."
+      },
+      {
+        "id": 15757,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Bertrand",
+        "reason": "같은 인물의 이름 표기를 문장 안에서 통일했다."
+      },
+      {
+        "id": 15765,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "When the order heard of what was happening, we had to investigate.",
+        "reason": "조사에 나선 주체와 일의 관계를 분명히 했다."
+      },
+      {
+        "id": 15771,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 위도우일 가능성을 나타내며 필수 수정은 아니다."
+      },
+      {
+        "id": 15774,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "It's not like here",
+        "reason": "여기와 다르다는 비교를 바로잡았다."
+      },
+      {
+        "id": 15784,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a certain form of intelligence",
+        "reason": "'어떤 형태의 지성'이 모든 형태의 지성으로 오해되는 것을 막았다."
+      },
+      {
+        "id": 15803,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the Bandit Prince of Mel Aglir,\nHe forged",
+        "reason": "호칭으로 읽히던 구절을 뒤 문장의 주어로 바로잡았다."
+      }
+    ],
+    "validation_issues": []
+  }
+}

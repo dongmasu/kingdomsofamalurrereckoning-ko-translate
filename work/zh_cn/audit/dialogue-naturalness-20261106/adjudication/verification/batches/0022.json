@@ -1,0 +1,456 @@
+{
+  "fingerprint": "f8e6e4a1683f3471a6c84781e83104591ea33c10c35cdf942d6c41b18c2743bd",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 21912,
+  "last_id": 22649,
+  "row_count": 60,
+  "seconds": 30.73,
+  "usage": {
+    "completion_tokens": 2645,
+    "prompt_tokens": 12018,
+    "total_tokens": 14663,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 5,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 12015,
+      "cache_creation_tokens": 12015
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 21912,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "believe me",
+        "reason": "어색한 명령형을 자연스럽게 고친다."
+      },
+      {
+        "id": 21921,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자연스럽고 수정이 필수적이지 않다."
+      },
+      {
+        "id": 21924,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I manage to do what I can in the way of study.",
+        "reason": "공부를 이어 간다는 뜻을 자연스럽게 전달한다."
+      },
+      {
+        "id": 21936,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I don't know about you",
+        "reason": "상대의 생각을 모른다는 관용적 뜻을 살린다."
+      },
+      {
+        "id": 21944,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "serve his charges",
+        "reason": "돌보는 이들을 섬긴다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 21971,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문의 completely에 해당하는 표현이 빠진다."
+      },
+      {
+        "id": 21973,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 허용되며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 21986,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "Apply evidence does not exactly match its source row. 적용을 보류한다. 작다는 뜻의 불필요한 중복을 없앤다."
+      },
+      {
+        "id": 22012,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Killed? As in murdered?",
+        "reason": "죽음과 살해를 구분해 되묻는 뜻을 복원한다."
+      },
+      {
+        "id": 22024,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a radical splinter of the Fae",
+        "reason": "급진적인 세력이라는 수식 관계를 바로잡는다."
+      },
+      {
+        "id": 22037,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "should return to the Circle of Engard to report your deeds",
+        "reason": "보고할 주체가 상대방임을 분명히 한다."
+      },
+      {
+        "id": 22087,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문에 부합하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 22098,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "this decaying pattern",
+        "reason": "문맥상 쇠락하는 양상보다 틀이 자연스럽다."
+      },
+      {
+        "id": 22119,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "倒さなくては",
+        "reason": "대상을 물리친다는 표현이 자연스럽다."
+      },
+      {
+        "id": 22135,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 마법을 배웠다고 하므로 변경이 불확실하다."
+      },
+      {
+        "id": 22139,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 노력을 이끈다는 뜻을 전달한다."
+      },
+      {
+        "id": 22160,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I'll meet with them",
+        "reason": "만날 상대가 동료들임을 명확히 한다."
+      },
+      {
+        "id": 22172,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a snare in which I have struggled for centuries",
+        "reason": "화자가 덫에 갇혀 몸부림쳤다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 22176,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The Fight Board's there for any gladiator",
+        "reason": "게시판에 도전한다는 어색한 표현을 바로잡는다."
+      },
+      {
+        "id": 22179,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I did what I know",
+        "reason": "할 줄 아는 일을 했다는 뜻을 자연스럽게 살린다."
+      },
+      {
+        "id": 22197,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "소유 관계는 기존 문장에서도 충분히 드러난다."
+      },
+      {
+        "id": 22202,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "知っていることを話そう",
+        "reason": "아는 것이 전부라는 잘못된 한정을 없앤다."
+      },
+      {
+        "id": 22205,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 감탄과 의미를 전달한다."
+      },
+      {
+        "id": 22210,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "過去や思い描いた未来",
+        "reason": "과거와 가능했던 미래를 자연스럽게 구분한다."
+      },
+      {
+        "id": 22261,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "drive an old man mad",
+        "reason": "늙은이를 미치게 한다는 뜻을 자연스럽게 고친다."
+      },
+      {
+        "id": 22279,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "전쟁이 끝날 날이 얼마 남지 않았다는 해석은 확실하지 않다."
+      },
+      {
+        "id": 22302,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 눈빛을 전달하며 수정이 필수적이지 않다."
+      },
+      {
+        "id": 22316,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "조사만 바꾸어 어색한 문장 구조가 해결되지 않는다."
+      },
+      {
+        "id": 22317,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ウェイン・エムンダスの名にかけて！",
+        "reason": "이름을 건 맹세를 한국어에 자연스럽게 옮긴다."
+      },
+      {
+        "id": 22325,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "開かないドアも開けることができる",
+        "reason": "문이 원하지 않는다는 어색한 표현을 고친다."
+      },
+      {
+        "id": 22337,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ニスカルの力に… 心を奪われるまでは",
+        "reason": "힘에 마음을 빼앗겼다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 22361,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the visage of your killer",
+        "reason": "이미 살해한 자로 오해될 표현을 바로잡는다."
+      },
+      {
+        "id": 22389,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 자신의 이야기를 자연스럽게 전달한다."
+      },
+      {
+        "id": 22400,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "\" What would the strong do?",
+        "reason": "인용과 뒤이은 질문의 경계를 복원한다."
+      },
+      {
+        "id": 22404,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어의 용건을 묻는 부분을 삭제하므로 확실한 개선으로 보기 어렵다."
+      },
+      {
+        "id": 22419,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "一族の呪いを偽られながら",
+        "reason": "저주에 관한 거짓말에 속았다는 뜻을 명확히 한다."
+      },
+      {
+        "id": 22420,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I thank Lyria morn and eve",
+        "reason": "감사하는 대상을 자연스럽게 표시한다."
+      },
+      {
+        "id": 22436,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 환영 인사를 전달한다."
+      },
+      {
+        "id": 22440,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "in the last few mortal years",
+        "reason": "필멸자의 시간 기준을 자연스럽게 표현한다."
+      },
+      {
+        "id": 22469,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Lord Airmer's hand and shadow, the Brave",
+        "reason": "용맹한 자가 크레스임을 명확히 한다."
+      },
+      {
+        "id": 22484,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the trip isn't long",
+        "reason": "거기까지 가는 데 오래 걸리지 않는다는 뜻을 자연스럽게 고친다."
+      },
+      {
+        "id": 22501,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "分かってほしい",
+        "reason": "간절히 이해를 구하는 말투를 살린다."
+      },
+      {
+        "id": 22504,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I’m not sure if I will ever get back",
+        "reason": "돌아갈 수 있을지에 대한 불확실성을 바로잡으며 줄바꿈을 유지한다."
+      },
+      {
+        "id": 22506,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "보안 책임자라는 직책의 의미가 제안에서 약해진다."
+      },
+      {
+        "id": 22519,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "keeps them smiling half of the time",
+        "reason": "절반의 사람들이 아니라 시간의 절반이라는 뜻을 분명히 한다."
+      },
+      {
+        "id": 22520,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "demonstrated substantial worth",
+        "reason": "자격보다 가치를 증명했다는 뜻이 자연스럽다."
+      },
+      {
+        "id": 22523,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "沼地へ行く、そうよね？",
+        "reason": "이미 떠난 것이 아니라 가려는 상황을 반영한다."
+      },
+      {
+        "id": 22529,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "비에 젖었다는 기존 해석도 가능하며 삭제가 필수적이지 않다."
+      },
+      {
+        "id": 22530,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Jammed? Jammed?!",
+        "reason": "막혔다는 말을 되풀이하며 우물이 막혔다는 오해를 없앤다."
+      },
+      {
+        "id": 22579,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "held some special meaning for her",
+        "reason": "특별한 의미를 지녔다는 표현이 자연스럽다."
+      },
+      {
+        "id": 22606,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "dealing with the inquiries",
+        "reason": "질문에 답할 여유가 없다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 22607,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "ready to march into Klurikon and beyond",
+        "reason": "아직 클루리콘에 진입하지 않았다는 뜻을 복원한다."
+      },
+      {
+        "id": 22608,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 비유적 표현도 관계를 끊으라는 뜻을 전달한다."
+      },
+      {
+        "id": 22616,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "腐敗と堕落の本質を乗り越えられる",
+        "reason": "파멸을 낳는 본성을 넘어선다는 뜻으로 수식 관계를 바로잡는다."
+      },
+      {
+        "id": 22620,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a wonder beheld by few mortals",
+        "reason": "극소수의 필멸자만 보았다는 뜻을 복원한다."
+      },
+      {
+        "id": 22622,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "新作の制作では",
+        "reason": "작품 제작에 할 일이 많다는 뜻을 자연스럽게 표현한다."
+      },
+      {
+        "id": 22624,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문장도 환상을 보았다는 뜻을 전달한다."
+      },
+      {
+        "id": 22626,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "by saving me",
+        "reason": "화자가 구출된 일을 공로로 가리킨다는 뜻을 바로잡는다."
+      },
+      {
+        "id": 22644,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Aid your crafting?",
+        "reason": "화자가 상대의 제작을 도와줄지 묻는 뜻을 살린다."
+      },
+      {
+        "id": 22649,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 관찰 기록도 원문의 notes를 충분히 전달한다."
+      }
+    ],
+    "validation_issues": [
+      {
+        "id": 21986,
+        "issue": "Apply evidence does not exactly match its source row."
+      }
+    ]
+  }
+}

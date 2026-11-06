@@ -1,0 +1,456 @@
+{
+  "fingerprint": "417a37105c123e97653c8a5c479bdf1fd014be110983eb96f36a0b7a4902a859",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 4132,
+  "last_id": 5130,
+  "row_count": 60,
+  "seconds": 34.51,
+  "usage": {
+    "completion_tokens": 2873,
+    "prompt_tokens": 10894,
+    "total_tokens": 13767,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 7,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10891,
+      "cache_creation_tokens": 10891
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 4132,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 장군을 기억한다는 원문의 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 4145,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the weave of fate",
+        "reason": "실이 엮이는 대상을 베틀이 아닌 직물로 바로잡습니다."
+      },
+      {
+        "id": 4146,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "自己犠牲の過ぎる",
+        "reason": "지나친 자기희생이라는 원문의 평가를 복원합니다."
+      },
+      {
+        "id": 4150,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "무엇이 끝나는 시점인지는 불확실하며 제안도 어색합니다."
+      },
+      {
+        "id": 4177,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "This thread in time",
+        "reason": "원문에 없는 베틀을 빼고 시간 속의 실로 바로잡습니다."
+      },
+      {
+        "id": 4178,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 ‘최고의 솜씨’도 이전보다 뛰어나다는 비교를 명확히 전달하지 않습니다."
+      },
+      {
+        "id": 4180,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "妹",
+        "reason": "여동생이라는 관계를 명확히 하고 문장도 자연스럽게 정리합니다."
+      },
+      {
+        "id": 4190,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "여기가 바로 리케이오스(Lykeios)에서 모든 토론이 진행되는 방식이지",
+        "reason": "장소를 방식이라고 지칭하는 어색한 표현을 바로잡습니다."
+      },
+      {
+        "id": 4202,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 원문의 뜻에 부합하며 제안은 중복 표현이 있습니다."
+      },
+      {
+        "id": 4224,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I make a good living",
+        "reason": "현재 돈을 잘 벌고 있다는 원문의 진술을 복원합니다."
+      },
+      {
+        "id": 4236,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 계속 잘하라는 격려로 이해할 수 있습니다."
+      },
+      {
+        "id": 4252,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "殺されかける",
+        "reason": "죽임을 당한 것이 아니라 죽을 뻔했다는 뜻을 바로잡습니다."
+      },
+      {
+        "id": 4276,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I found a bit, dove.",
+        "reason": "호칭을 문장 뒤로 옮겨 발화의 연결을 자연스럽게 합니다."
+      },
+      {
+        "id": 4309,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "外の空気",
+        "reason": "공기에 쓰인 어색한 ‘탁 트인’을 원문에 맞게 고칩니다."
+      },
+      {
+        "id": 4311,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 간절한 당부를 전달하며 변경이 필수적이지 않습니다."
+      },
+      {
+        "id": 4337,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Locked away",
+        "reason": "책이 잠겼다는 모호한 표현을 잠금 보관으로 명확히 합니다."
+      },
+      {
+        "id": 4346,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "잠행꾼의 정확한 함의가 불확실하며 제안은 몸을 사린다는 해석을 추가합니다."
+      },
+      {
+        "id": 4371,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Do you know how to get there?",
+        "reason": "상대에게 직접 묻는 질문을 자연스럽게 복원합니다."
+      },
+      {
+        "id": 4396,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "when you want me to go searching again",
+        "reason": "화자가 다시 찾으러 가는 상황을 명확히 합니다."
+      },
+      {
+        "id": 4419,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "我々が去りたいと思うように",
+        "reason": "형편없는 처지에 놓이는 대상이 우리임을 명확히 합니다."
+      },
+      {
+        "id": 4420,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "野蛮人たちには誘惑が強すぎた",
+        "reason": "어색한 조사 사용을 고쳐 야만인들이 유혹을 뿌리치지 못한 뜻을 전달합니다."
+      },
+      {
+        "id": 4424,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문구도 인사말로 사용 가능해 교체가 필수적이지 않습니다."
+      },
+      {
+        "id": 4438,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어의 공손한 표현만으로 한국어의 반말을 존댓말로 바꿀 근거는 부족합니다."
+      },
+      {
+        "id": 4449,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you can curse it",
+        "reason": "원문에 없는 처치 가능성을 빼고 저주를 걸 수 있다는 내용으로 바로잡습니다."
+      },
+      {
+        "id": 4461,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "‘짐덩이’도 쓰이는 표현이므로 변경이 필요하지 않습니다."
+      },
+      {
+        "id": 4484,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "outside the city",
+        "reason": "성 밖을 도시 밖으로 고쳐 원문 지칭을 명확히 합니다."
+      },
+      {
+        "id": 4539,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "같은 곳에 자리 잡았다는 말이 반드시 기존의 옆이라는 해석을 배제하지 않습니다."
+      },
+      {
+        "id": 4543,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "on a path to face the Lords of Valor",
+        "reason": "즉시 맞붙는다는 의미를 대결로 향하는 단계라는 원문에 맞춥니다."
+      },
+      {
+        "id": 4564,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "영어의 승마와 일본어의 기습이 서로 달라 기존 표현을 대체할 근거가 불확실합니다."
+      },
+      {
+        "id": 4567,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "far more eager for the adventure",
+        "reason": "더 커지는 것이 모험의 정도가 아니라 모험에 나설 마음임을 명확히 합니다."
+      },
+      {
+        "id": 4578,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 문구도 생각을 괴롭힌다는 원문의 비유를 전달합니다."
+      },
+      {
+        "id": 4637,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a new arrival in Cape Solace who might be interested",
+        "reason": "관심을 가질 대상이 케이프 솔라스라는 오해를 바로잡습니다."
+      },
+      {
+        "id": 4658,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the best job I've ever had",
+        "reason": "하는 일이 직업이라는 어색한 서술을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 4661,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "見てもらうのが楽しみだ",
+        "reason": "‘네가 보게 될 생각’이라는 어색한 표현을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 4671,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "Apply evidence does not exactly match its source row. 적용을 보류한다. 예언자가 도적 무리를 이끌 의향이 있는지를 묻는 원문을 복원합니다."
+      },
+      {
+        "id": 4682,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어는 지원자만 안다고 하지만 영어는 지원자에게만 해당한다고도 읽혀 변경이 불확실합니다."
+      },
+      {
+        "id": 4691,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What can we do for each other today?",
+        "reason": "‘서로 무엇을 도울 수’라는 어색한 표현을 바로잡습니다."
+      },
+      {
+        "id": 4723,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존의 ‘지팡이 불’도 이해 가능하며 교체가 필수적이지 않습니다."
+      },
+      {
+        "id": 4751,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "One can only grow out of conflict",
+        "reason": "갈등을 통해서만 성장한다는 원문의 한정을 복원합니다."
+      },
+      {
+        "id": 4755,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "you tried and never found that thief",
+        "reason": "무엇을 해봤는지 도둑을 찾아본 것으로 명확히 합니다."
+      },
+      {
+        "id": 4768,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the earth's embalming hand",
+        "reason": "어색한 ‘방부하는 손길’을 같은 의미의 자연스러운 표현으로 고칩니다."
+      },
+      {
+        "id": 4777,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "his business",
+        "reason": "참견하지 말라는 대상이 우리 일이 아니라 돈의 일임을 바로잡습니다."
+      },
+      {
+        "id": 4788,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "외부의 문제를 끌어들인다는 해석은 가능하지만 기존 표현도 원문에 부합합니다."
+      },
+      {
+        "id": 4791,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a part of woe",
+        "reason": "원문에 없는 ‘힘’을 빼고 비탄의 일부라는 뜻으로 고칩니다."
+      },
+      {
+        "id": 4803,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안의 ‘잘 모르는 사람’은 화자 자신의 가정을 일반적인 타인으로 바꿉니다."
+      },
+      {
+        "id": 4806,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "We felt ourselves their custodians",
+        "reason": "우리가 우리 자신을 보살피는 사람으로 여겼다는 뜻을 명확히 합니다."
+      },
+      {
+        "id": 4817,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "俺たちの苦労",
+        "reason": "시장을 겪었다는 어색한 표현을 고생했다는 뜻으로 자연스럽게 고칩니다."
+      },
+      {
+        "id": 4866,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "제안은 꼭두각시가 살아 있는 존재라는 뜻으로도 읽혀 비교가 모호합니다."
+      },
+      {
+        "id": 4893,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the soil and it will leech your strength",
+        "reason": "힘을 빨아들이는 주체가 땅임을 명확히 합니다."
+      },
+      {
+        "id": 4966,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "waste my words",
+        "reason": "어색한 ‘말 낭비하고’를 자연스러운 조사 구성으로 고칩니다."
+      },
+      {
+        "id": 4996,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I've convinced the reagents",
+        "reason": "시약을 설득했다는 원문의 의인화 표현을 복원합니다."
+      },
+      {
+        "id": 5000,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I wish to see the boots taken from my master as well",
+        "reason": "빼앗긴 장화를 보고 싶다는 뜻이 아니라 빼앗기를 바란다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 5024,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "물을 헤치는 위치가 아카사 안인지 들어가기 전인지 제안처럼 단정하기 어렵습니다."
+      },
+      {
+        "id": 5046,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 전쟁을 위해 맹세한 뜻을 전달하며 ‘헌신’의 추가는 필수적이지 않습니다."
+      },
+      {
+        "id": 5052,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "痛みが消える",
+        "reason": "‘아무것도 아프지 않아’라는 어색한 표현을 고칩니다."
+      },
+      {
+        "id": 5072,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the first lord of Gastyr",
+        "reason": "같은 지명의 한글 표기를 가스티르로 통일합니다."
+      },
+      {
+        "id": 5076,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "more than he could ever answer for",
+        "reason": "책임져야 한다는 뜻을 책임질 수 없을 만큼이라는 원문의 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 5110,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "He usually is.",
+        "reason": "‘대개 늘’이라는 어색한 중복을 제거합니다."
+      },
+      {
+        "id": 5127,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "his body obliterated",
+        "reason": "몸이 산산이 무너진다는 어색한 표현을 고칩니다."
+      },
+      {
+        "id": 5130,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "기존 표현도 육신의 보호와 건강·장수라는 목적을 충분히 전달합니다."
+      }
+    ],
+    "validation_issues": [
+      {
+        "id": 4671,
+        "issue": "Apply evidence does not exactly match its source row."
+      }
+    ]
+  }
+}

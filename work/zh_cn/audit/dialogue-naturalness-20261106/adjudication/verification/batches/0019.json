@@ -1,0 +1,451 @@
+{
+  "fingerprint": "cb294b56f0de95ade21401311fd532059367d788dabe61aa759ef2e6aafa7606",
+  "snapshot_hash": "fcb2e9b61746e3faec4534d7190fa9624d5f0fb6f3c085b4d3a2264914392ec7",
+  "model_alias": "standard",
+  "first_id": 18840,
+  "last_id": 19821,
+  "row_count": 60,
+  "seconds": 33.66,
+  "usage": {
+    "completion_tokens": 2841,
+    "prompt_tokens": 10790,
+    "total_tokens": 13631,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10787,
+      "cache_creation_tokens": 10787
+    }
+  },
+  "result": {
+    "decisions": [
+      {
+        "id": 18840,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "砂漠では用心しろよ！",
+        "reason": "모래밭보다 사막이 원문의 장소를 정확히 나타냅니다."
+      },
+      {
+        "id": 18855,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "ほこりと古いものが嫌いなの",
+        "reason": "먼지와 오래된 물건을 각각 싫어한다는 관계가 분명해집니다."
+      },
+      {
+        "id": 18873,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "고맙네. 곧 다시 보세.",
+        "reason": "앞부분의 말투를 뒤의 하게체와 일관되게 맞춥니다."
+      },
+      {
+        "id": 18903,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "何ができるか考えてみよう",
+        "reason": "할 수 있는 일이 무엇인지 알아보겠다는 뜻을 살립니다."
+      },
+      {
+        "id": 18917,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I must keep the secret of her existence",
+        "reason": "비밀을 지켜야 하는 주체가 화자임을 명시합니다."
+      },
+      {
+        "id": 18953,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "It is the least I can do",
+        "reason": "관용적인 겸양 표현을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 18956,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I will hold them off, Beckoned. Find the Counsel if you can.",
+        "reason": "호칭과 이어지는 명령의 관계를 자연스럽게 정리합니다."
+      },
+      {
+        "id": 18998,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "用件を言え",
+        "reason": "아직 받은 명령이 있다는 뉘앙스 없이 용건을 묻습니다."
+      },
+      {
+        "id": 19010,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "일본어에는 통이 없지만 영어에는 있어 삭제를 확정하기 어렵습니다."
+      },
+      {
+        "id": 19017,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "This is the least I could do.",
+        "reason": "어색한 직역을 자연스러운 겸양 표현으로 고칩니다."
+      },
+      {
+        "id": 19027,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "My mentorship of Wulf",
+        "reason": "가르친 일과 가장 가까운 관계의 연결을 자연스럽게 나타냅니다."
+      },
+      {
+        "id": 19028,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I lacked the fine eye needed to prove my assumption",
+        "reason": "관찰력이 부족했던 사람이 화자임을 명확히 합니다."
+      },
+      {
+        "id": 19056,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Ain't ashamed to say I figured",
+        "reason": "그렇게 생각했다는 사실을 인정하는 데 부끄러움이 없다는 뜻을 분명히 합니다."
+      },
+      {
+        "id": 19079,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "クラウドクレストの手前で合流を？",
+        "reason": "장소에 이르기 전에 만난다는 뜻을 명확히 합니다."
+      },
+      {
+        "id": 19089,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "when you ran like the scum that you are",
+        "reason": "쓰레기 같다는 수식이 도망치는 모습이 아닌 상대를 가리킴을 살립니다."
+      },
+      {
+        "id": 19098,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "The chest it's in",
+        "reason": "그 안에 상자가 있다는 역전된 관계를 바로잡습니다."
+      },
+      {
+        "id": 19122,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "皆こう言った",
+        "reason": "어색한 표현을 모두가 늘 말했다는 뜻으로 바로잡습니다."
+      },
+      {
+        "id": 19123,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Our city is already taxed to breaking",
+        "reason": "도시의 부담이 한계에 이르렀다는 뜻을 자연스럽게 표현합니다."
+      },
+      {
+        "id": 19148,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 첫 출혈에 결투가 끝난다는 뜻을 충분히 전달합니다."
+      },
+      {
+        "id": 19149,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "하지만 우리 도시는",
+        "reason": "같은 절의 중복된 접속 표현을 제거해 문장을 자연스럽게 합니다."
+      },
+      {
+        "id": 19160,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재의 비유도 영어 원문의 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 19163,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "중단된 발화의 대상이 특정 사람들인지 원문만으로 확정하기 어렵습니다."
+      },
+      {
+        "id": 19199,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 하수도에서의 행운을 비는 원문에 부합합니다."
+      },
+      {
+        "id": 19232,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a new arrival named Ollie Madsen in Cape Solace",
+        "reason": "케이프 솔라스에 새로 온 사람이라는 관계를 명확히 합니다."
+      },
+      {
+        "id": 19253,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현에도 명확한 의미나 자연스러움의 문제는 없습니다."
+      },
+      {
+        "id": 19261,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "대상의 정체가 불명확해 생명체를 사람을 가리키는 표현으로 바꾸기 어렵습니다."
+      },
+      {
+        "id": 19297,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "써서라도 더럽힐 수밖에 없다는 해석은 원문만으로 확정하기 어렵습니다."
+      },
+      {
+        "id": 19303,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I will prepare for my part",
+        "reason": "준비할 대상이 화자가 맡은 일임을 자연스럽게 명시합니다."
+      },
+      {
+        "id": 19306,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "the rest of us",
+        "reason": "어색한 어순을 자연스럽게 바로잡습니다."
+      },
+      {
+        "id": 19314,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "会えてうれしいよ",
+        "reason": "안부 질문을 만나서 반갑다는 원문의 인사로 바로잡습니다."
+      },
+      {
+        "id": 19333,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "journal and lecture society",
+        "reason": "학술지 자체가 아니라 학술지와 강연을 다루는 단체라는 관계를 분명히 합니다."
+      },
+      {
+        "id": 19335,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "a fresh face such as yours",
+        "reason": "새 얼굴이라는 비유가 상대를 가리키도록 자연스럽게 고칩니다."
+      },
+      {
+        "id": 19336,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "my true plan",
+        "reason": "진짜 계획이 화자의 계획임을 명시합니다."
+      },
+      {
+        "id": 19358,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "but it will not be me",
+        "reason": "처형자에 관한 결심이 화자 자신은 맡지 않겠다는 뜻임을 분명히 합니다."
+      },
+      {
+        "id": 19401,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Quite the palace for an outsider",
+        "reason": "외지인의 거처치고 궁전 같다는 뜻을 자연스럽게 전달합니다."
+      },
+      {
+        "id": 19403,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "I fear I'm starting to agree",
+        "reason": "동의할까 두렵다는 뜻이 아니라 유감스럽게도 동의하게 된다는 뜻을 살립니다."
+      },
+      {
+        "id": 19432,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "honor가 화자의 명예심을 뜻한다고 단정하기 어렵습니다."
+      },
+      {
+        "id": 19444,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "much more potent than I've ever seen it",
+        "reason": "다른 힘들과의 비교가 아니라 이전에 본 그 힘과의 비교를 살립니다."
+      },
+      {
+        "id": 19446,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "エマイア村にいても、安全じゃない",
+        "reason": "마을 자체가 아니라 마을에 있어도 안전하지 않다는 뜻을 바로잡습니다."
+      },
+      {
+        "id": 19471,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 문장도 이곳에 온 목적을 묻는 자연스러운 표현입니다."
+      },
+      {
+        "id": 19501,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "set you up here",
+        "reason": "함정에 빠뜨리는 장소를 자연스럽게 표시합니다."
+      },
+      {
+        "id": 19514,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "What does she mean by that?",
+        "reason": "그 말을 한 사람이 그녀임을 명시합니다."
+      },
+      {
+        "id": 19527,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Was any of that real?",
+        "reason": "전부 진짜였는지가 아니라 진짜인 것이 하나라도 있었는지 묻습니다."
+      },
+      {
+        "id": 19532,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "because of the... um, issues",
+        "reason": "원문에 없는 말로 설명하기 어렵다는 내용을 제거합니다."
+      },
+      {
+        "id": 19548,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "동맹도 ally에 부합하며 동료로 바꿔야 할 명확한 근거는 없습니다."
+      },
+      {
+        "id": 19574,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "fair와 dusky가 피부색을 뜻하는지 문맥 없이 확정하기 어렵습니다."
+      },
+      {
+        "id": 19616,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "海賊船の船員だったんだ",
+        "reason": "단순히 승선한 적이 아니라 선원이었다는 뜻을 살립니다."
+      },
+      {
+        "id": 19623,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "声を届けるんだ",
+        "reason": "그에게 말하고 목소리를 전하겠다는 뜻을 명확히 합니다."
+      },
+      {
+        "id": 19632,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "アデッサとは違うが、同じくらい見事だ",
+        "reason": "아데사에 비할 바가 아니라는 표현과 그만큼 멋지다는 표현의 충돌을 해소합니다."
+      },
+      {
+        "id": 19649,
+        "decision": "apply",
+        "evidence_language": "ko",
+        "evidence_quote": "전설의 운명의 서(Codex of Destiny)지.",
+        "reason": "앞 문장의 대화체와 어미를 일치시킵니다."
+      },
+      {
+        "id": 19674,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "Get lucky?",
+        "reason": "어색한 표현을 자연스러운 질문으로 고칩니다."
+      },
+      {
+        "id": 19700,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "guide your efforts",
+        "reason": "노력을 이끈다는 어색한 표현을 방향을 잡아 준다는 뜻으로 고칩니다."
+      },
+      {
+        "id": 19705,
+        "decision": "apply",
+        "evidence_language": "ja",
+        "evidence_quote": "こんにちは",
+        "reason": "직역투를 자연스러운 인사로 고칩니다."
+      },
+      {
+        "id": 19710,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "원문은 같은 외지인인 상대를 챙기는 뜻으로도 읽혀 제안의 관계를 확정하기 어렵습니다."
+      },
+      {
+        "id": 19721,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "completing some course of action",
+        "reason": "어색한 행동을 완수한다는 표현을 자연스럽게 고칩니다."
+      },
+      {
+        "id": 19732,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "For that tragic truth, We forgive you.",
+        "reason": "용서의 대상이 진실 자체가 아니라 상대임을 명확히 합니다."
+      },
+      {
+        "id": 19745,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "unending layers of guile",
+        "reason": "계략보다 교활함이 성품을 묘사하는 원문에 가깝습니다."
+      },
+      {
+        "id": 19779,
+        "decision": "hold",
+        "evidence_language": "",
+        "evidence_quote": "",
+        "reason": "현재 표현도 시체를 다루며 하루를 보냈다는 원문의 비유에 부합합니다."
+      },
+      {
+        "id": 19809,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "wishing her sour face a blessed day",
+        "reason": "축복을 비는 인사의 내용을 구체적으로 살립니다."
+      },
+      {
+        "id": 19821,
+        "decision": "apply",
+        "evidence_language": "en",
+        "evidence_quote": "stories of what we have seen",
+        "reason": "우리가 본 이야기가 아니라 본 일에 관한 이야기임을 명확히 합니다."
+      }
+    ],
+    "validation_issues": []
+  }
+}
