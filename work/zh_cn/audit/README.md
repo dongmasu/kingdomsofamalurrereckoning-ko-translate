@@ -41,12 +41,22 @@ title, matching the established release titles. Write the release body in
 Korean and match the established body format used by the 2026-10-17,
 2026-10-19, and 2026-10-20 releases:
 
-1. `## 변경 사항`: concise bullets for the translation scope, superseded
-   release, and notable user-visible changes.
+Before drafting `## 변경 사항`, review every commit since the preceding
+official release (or the explicitly selected release base). Select a few
+important user-visible changes, typically 3-6 bullets, and group related
+commits where useful. Prioritize material translation corrections or additions,
+installer or package behavior changes, and other changes that meaningfully
+affect players. Cover the release's major themes without turning the notes into
+a complete commit list or focusing only on the latest task. Keep commit-level
+details in the corresponding audit record.
+
+1. `## 변경 사항`: concise bullets summarizing the selected changes and naming
+   the superseded release.
 2. `## 설치`: three numbered steps (extract the ZIP, run
    `RunKoreanPatch.bat`, then select `Chinese Simplified` and note `zh_cn`).
-3. `## 검증 및 참고`: concise validation results, unperformed checks, and
-   baseline version `cs:15032`.
+3. `## 검증 및 참고`: concise validation results and baseline version
+   `cs:15032`. Do not add boilerplate saying Windows installation or
+   in-game validation was not performed.
 4. End with `ZIP SHA-256: \`<digest>\``.
 
 Do not add a separate package inventory, input-hash table, or duplicate
