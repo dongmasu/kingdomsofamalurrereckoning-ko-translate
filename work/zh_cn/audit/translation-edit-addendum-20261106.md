@@ -186,3 +186,9 @@
 - The adjudication and verification evidence is stored under `work/zh_cn/audit/dialogue-naturalness-20261106/adjudication/`, including per-batch caches, `review-decisions.tsv`, `final-dispositions.tsv`, and `verification/verification-decisions.tsv`. The exact applied rows and source/result hashes are listed in `verification/applied-edits.tsv` and `verification/application-summary.json`.
 - Reparsed the edited CSV and confirmed all 65,135 IDs remain unique and in order, the UTF-8 BOM is present, and the line-ending distribution is unchanged at 71,858 CRLF and 226 LF-only. The line-ending helper tests and audit/adjudication/application tests passed (23 tests total); Python compilation and the CRLF-aware diff check passed.
 - The user continues in-game verification and may report further dialogue corrections.
+
+## Meropis title at 53338
+
+- Compared `default:53338` with the English source `The Treasures of Meropis` and the matching Japanese row.
+- Removed the redundant full-title parenthetical `(The Treasures of Meropis)`. The title already identifies the place as `메로피스(Meropis)`, so the shorter `메로피스(Meropis)의 보물` preserves the requested English name without repeating the entire title.
+- The user reported that the title appears clipped in the quest list. This text edit addresses the suspected overlong duplicate gloss; in-game display after the edit remains to be checked.
