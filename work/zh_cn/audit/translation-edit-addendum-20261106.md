@@ -192,3 +192,23 @@
 - Compared `default:53338` with the English source `The Treasures of Meropis` and the matching Japanese row.
 - Removed the redundant full-title parenthetical `(The Treasures of Meropis)`. The title already identifies the place as `메로피스(Meropis)`, so the shorter `메로피스(Meropis)의 보물` preserves the requested English name without repeating the entire title.
 - The user reported that the title appears clipped in the quest list. This text edit addresses the suspected overlong duplicate gloss; in-game display after the edit remains to be checked.
+
+## Book and escape comparison at 31227
+
+- Rechecked `default:31227` against English, Japanese, and Chinese after the full dialogue review had marked it uncertain. The references support reading the book as very important, with its importance compared to the speaker's escape.
+- Applied the user-approved clarification: `분명 이 책과 관련이 있을 거야. 아주 중요한 책인가 봐... 내가 여기서 나가는 것만큼이나 말이야.`
+- Updated only the target text, preserving the CSV's BOM and mixed line endings. The prior audit disposition remains as a historical record; this follow-up resolves the item.
+
+## Missives of Sable sentence review
+
+- Rechecked all 54 active `default` rows containing `세이블의 서신` or `세이블 서신` against the same-ID English and Japanese text. Revised only the ten rows below; other rows were retained because their complete sentence meaning and Korean phrasing were supported.
+- `default:1037` and `default:59088`: removed Korean plural particles from the title of the single book.
+- `default:8866`: clarified that the pursuers have the book, rather than saying they took it.
+- `default:12766`: corrected the framing plan so the Hierophant, not Grim, is accused of stealing the book.
+- `default:21927`: clarified that the Hierophant tried to pin the book-theft charge on the speaker and that the speaker now intends to return the accusation.
+- `default:28739`: corrected the book title and particle, and made planting it on Argine a direct, natural instruction.
+- `default:45395`: smoothed the route through the sentry to the meeting sanctum and removed the awkward plural `성소들`.
+- `default:45752`: made planting the book an instruction, matching the English and Japanese imperatives.
+- `default:52493`: clarified that handing over the book to the gnomes secured Grim's freedom.
+- `default:54737`: untangled the long quest-log sentence so the ruin, mirror, book-location function, and planned revenge are clear.
+- Applied the ten ID-scoped text changes without modifying `src/` or other rows. Preserved the pre-existing `default:31227` edit. The CSV still has 65,135 records in the same order, its UTF-8 BOM, and the original mixed line endings (71,858 CRLF; 226 LF-only; 0 CR-only). All four `tools/replace_text_preserve_eol.py` tests passed, and the CRLF-aware diff check passed.
