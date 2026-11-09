@@ -67,3 +67,29 @@
 - `default:64468`: compared the full Mitharu passage with all three references. Replaced the isolated formal address with consistent plain speech: `위대한 미사루(Mitharu)는 이 세계의 운명을 손에 쥐고 있어. 그의 신성한 질서가 없다면 모든 것이 혼돈에 빠질 거야. 우리는 그의 가르침을 현실로 만들어야 해.`
 - `default:12347` (Hallam the White): English `your eminence` and Chinese `阁下` support retaining `각하` as the form of address, while the Japanese dialogue is plain speech. Kept the title but used conversational Korean for the full line: `각하, 뭘 도와드릴까? 난 백색의 할람(Hallam the White)을 늘 존경해 왔어.`
 - Checked all three resulting rows against their same-ID English, Japanese, and Chinese references. `python3 -m unittest tools/test_replace_text_preserve_eol.py` passed all four tests; CRLF-aware `git diff --check` passed before release preparation.
+
+## Ambassador title pairing - November 10, 2026
+
+- Searched the active `base`, `default`, and `affix` Korean resources for `대사` used as a diplomatic title and cross-checked matching English `ambassador`, `ambassadorship`, `diplomat`, `envoy`, and `diplomatic` source text. `affix` had no matches. Excluded `대사관`, `대사제`, dialogue-line uses of `대사`, non-title Korean renderings such as `사절`, and rows already pairing the title with its English form.
+- Added the missing English title pairing at `base:4395` and `default:436`, `2758`, `5748`, `6235`, `7792`, `7864`, `9314`, `10036`, `11091`, `12835`, `13523`, `13718`, `14095`, `14168`, `15224`, `24065`, `30624`, `31583`, `33487`, `37301`, `41437`, `41667`, `42641`, `45891`, `46469`, `47115`, `48016`, `50054`, `52809`, `55577`, `58790`, `58919`, `62459`, and `63616`.
+- Used context-appropriate English forms for `Ambassador`, `Lead Ambassador`, `Ambassador of Lies`, `ambassadorship`, `former ambassador`, and `unofficial ambassador`. At `default:62459`, also made the Korean plural explicit, matching English `ambassadors` and Japanese `大使たち`.
+- Compared each edited row with its same-ID English, Japanese, and Chinese references. Japanese register and sentence voice remain unchanged; no dialogue-wide or global terminology replacement was applied.
+- Verified the targeted IDs, original record counts and order, UTF-8 BOMs, and exact existing line-ending counts. The changes are limited to one `base` row and 34 `default` rows.
+
+## Holte Frenn smithing line - November 10, 2026
+
+- Compared `default:17695` with English `forged ... many other legendary pieces`, Japanese `作った ... 伝説的逸品`, and the Chinese reference. Replaced the harsher-sounding `벼렸지` with `을 비롯해 전설적인 물건을 여럿 만들었지`, retaining the plain conversational register and the source meaning.
+
+## Ambassador title and affiliation consistency - November 10, 2026
+
+- Applied the approved form `Korean name + 대사(English name Ambassador)` to named ambassadors throughout `default`, including title cards, quest text, dialogue, and journal entries. Kept the established Korean spelling `오드바르` for `Odvar`.
+- Where the English identifies a race or faction as the ambassador's affiliation, separated it as `종족/세력(English)의` and retained the person's name with the title: `바라니(Varani)의 브레너 대사(Brenner Ambassador)`. Applied the same construction to unnamed Varani and Unseelie ambassadors.
+- Kept representation distinct from affiliation: `default:6235` and `9314` still say Jeanne Jorielle represents Adessa's gnomes; her title and full name are grouped without recasting her as a gnome ambassador.
+- Rephrased `default:2758` to distinguish Mythany Keen's Dokkalfar affiliation from her posting to the Summer Court Fae. Japanese supports the same distinction; the casual register and apology remain intact.
+- Left generic ambassadors, plurals, `Lead Ambassador`, `Ambassador of Lies`, former/unofficial ambassadors, and `ambassadorship` outside the personal-name grouping. Preserved institutional affiliation wording at `default:14095` and occupational uses at `45891` and `50054`.
+- Compared changed wording by ID with the English, Japanese, and Chinese resources. The scoped grouping changes affect `base:4395` and `default:17`, `436`, `2758`, `5447`, `5891`, `6235`, `7864`, `8316`, `9314`, `9756`, `12216`, `12545`, `13177`, `13523`, `13810`, `14168`, `14496`, `14922`, `15098`, `15577`, `16250`, `19109`, `21702`, `23232`, `24065`, `28758`, `33632`, `36580`, `36622`, `37301`, `39042`, `39465`, `43236`, `46469`, `48033`, `48741`, `50048`, `51041`, `55896`, `58310`, `58790`, `60437`, and `64812`. No IDs, variants, or row order were changed.
+
+## Mythany Keen dialogue register - November 10, 2026
+
+- Changed `default:14768` to `여긴 안 돼. 내가 정한 시간과 장소에서 만나자.`
+- English says Mythany will meet the player at the time and place she specifies; Japanese uses `ここではだめよ` and `会いましょう`, and Chinese confirms the same arrangement. The revised Korean keeps her direct but conversational tone, consistent with her informal speech at `default:2758`.

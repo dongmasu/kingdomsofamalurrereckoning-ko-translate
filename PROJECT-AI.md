@@ -1,5 +1,14 @@
 # AI Project Instructions
 
+## Work Order
+
+- Complete multiple user requests one at a time in the order received unless
+  the user specifies another priority.
+- Do not start later work in parallel before the preceding task is complete.
+- Add new requests, reports, and status questions to the queue; do not let
+  them interrupt or replace the task in progress.
+- Follow explicit instructions such as "stop" or "handle this first."
+
 ## Project
 
 This project creates a Korean localization for *Kingdoms of Amalur:
@@ -71,6 +80,19 @@ identities or global aliases.
 - Preserve `ID_Linha`, `Tipo_Variante`, row order, row count, and duplicate
   variant rows. Never merge or discard variants because their text looks
   identical.
+- Edit translation CSVs only with
+  `python3 tools/replace_text_preserve_eol.py <csv> --id <ID> [--variant <Tipo_Variante>] --old '<current text>' --new '<new text>'`.
+  Do not use `apply_patch`, rewrite a CSV, or perform a global replacement on
+  files under `work/zh_cn/`.
+- Supply `--variant` whenever the CSV has a `Tipo_Variante` column. The tool
+  aborts without writing if the ID/variant is missing or ambiguous, or if the
+  expected current text does not match.
+- The tool edits only the target field's byte span instead of serializing the
+  full CSV. It verifies the BOM, record structure/order, non-target values,
+  and all bytes outside that field. Existing line endings remain byte-exact;
+  newlines in replacement text use the file's predominant line ending.
+- Run its regression tests with
+  `python3 -m unittest tools/test_replace_text_preserve_eol.py`.
 - Preserve the CSV delimiter, encoding, quoting, and multiline record
   structure.
 - Current working CSVs use semicolons, a UTF-8 BOM, and CRLF record endings.
