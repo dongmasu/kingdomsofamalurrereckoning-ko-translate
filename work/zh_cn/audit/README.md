@@ -1,26 +1,29 @@
 # Audit Materials
 
-## Latest Release Snapshot (2026-11-05)
+## Latest Release Snapshot (2026-11-10)
 
-`release-20261105.md` records the verified package, checksum, changes, and
-validation for tag `KingdomsOfAmalur_Korean_zh_cn_20261105232936`.
+`release-20261110.md` records the verified package, checksum, selected
+changes, and validation for tag
+`KingdomsOfAmalur_Korean_zh_cn_20261110001647`.
 
-## Current Status (2026-10-24)
+## Current Status (2026-11-10)
 
-Translation work is considered complete at the user's direction.
-Heuristic proper-name verification ended at D-22000 on 2026-10-20, at the
-user's direction. Do not resume or queue further checks unless the user
-explicitly asks. Do not claim exhaustive proper-name or in-game validation.
-On 2026-10-24, the user separately requested a bounded manual review of 199
-`_default` voice/naturalness candidates. That review is complete (199/199);
-see `full-voice-20261024/manual-review.json` and `release-20261024.md`.
-The full-corpus scan and its per-batch coverage and independent AI triage are
-recorded in `speaker-voice-consistency-scan-20261024.md`,
-`full-voice-audit-20261024.py`, and `full-voice-20261024/`. The approved
-manual-review log is authoritative for the released edits.
-This does not resume heuristic proper-name discovery or establish exhaustive
-in-game validation. Historical batch instructions below do not override this
-policy.
+The November 7 dialogue naturalness re-review covered all 65,135 `default`
+rows. On November 10, all 2,197 exact-English duplicate groups with divergent
+Korean text were source-checked; 3,567 row instances were changed based on
+English meaning, Japanese register, Chinese supporting evidence, and Korean
+naturalness. The three follow-up dialogue voice checks (`28819`, `64468`, and
+`12347`) are recorded in `translation-edit-addendum-20261109.md`.
+
+These scoped reviews do not establish exhaustive proper-name verification or
+comprehensive in-game validation. Heuristic proper-name verification ended at
+D-22000 on 2026-10-20 at the user's direction; do not resume it unless the
+user explicitly asks. The earlier 199-candidate review is documented in
+`full-voice-20261024/manual-review.json` and
+`release-20261024.md`; it is historical and does not replace later reviews.
+The full-corpus scan and its independent AI triage are recorded in
+`speaker-voice-consistency-scan-20261024.md`,
+`full-voice-audit-20261024.py`, and `full-voice-20261024/`.
 
 The user's explicit 2026-10-20 request for Dokkalfar, Oleyn, Wencen, and two
 quickslot labels was handled as a bounded consistency correction, not a

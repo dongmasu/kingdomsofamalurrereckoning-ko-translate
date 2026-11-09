@@ -3,7 +3,7 @@
 ## 한국어
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261107065130/KingdomsOfAmalur_Korean_zh_cn_20261107065130.zip)
+- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261110001647/KingdomsOfAmalur_Korean_zh_cn_20261110001647.zip)
 
 ### 작업 배경과 감사
 
@@ -31,7 +31,7 @@ CSV에서는 메뉴와 대사가 한데 섞여 있고, 이어지는 대사도 �
 
 지금까지 확인한 고유명사의 표기는 [고유명사 사전](work/zh_cn/audit/proper-name-glossary.tsv)과 [출현 후보 및 판정 목록](work/zh_cn/audit/proper-name-occurrences.tsv), [검토 기록](work/zh_cn/audit/README.md)을 참고합니다. 복합 인명은 전체 이름을 `브론웬 센(Bronwen Senn)`처럼 한 번만 병기하고, `브론웬(Bronwen) 센(Senn)`처럼 구성 요소마다 영문을 중복 표기하지 않습니다. 전수 확인을 완료했다고 주장하지 않으며, D-22000까지 진행한 제한적 휴리스틱 점검은 2026-10-20에 종료했습니다. 사용자가 명시적으로 재개를 요청하기 전에는 추가 점검을 진행하지 않습니다.
 
-번역 작업은 완료된 것으로 정리합니다. 다만 모든 게임 내 문맥이나 고유명사의 전수 검증을 마쳤다는 뜻은 아닙니다. 고유명사 휴리스틱 점검은 사용자의 요청에 따라 D-22000에서 종료했습니다. 이후 사용자의 별도 요청으로 2026-10-24에 `_default` 대사 말투·자연스러움 후보 199건을 하나씩 검토하고 승인된 수정을 반영했습니다. 이 범위 한정 검토는 완료했으며, 고유명사 전수 탐색이나 전체 게임 내 검증을 재개한 것은 아닙니다. 추가 점검은 사용자가 명시적으로 요청할 때만 진행합니다.
+번역 검수와 게임 플레이 검증은 계속 진행 중이며, 플레이 중 발견되는 문제와 별도 요청에 따라 수정 사항을 반영합니다. 2026-11-07에는 `default` 65,135개 항목의 말투와 자연스러움을 다시 검토했고, 2026-11-10에는 영문 원문이 같은 번역 그룹 2,197개를 교차 검수했습니다. 이는 모든 게임 내 문맥이나 고유명사의 전수 검증을 마쳤다는 뜻은 아닙니다. 고유명사 휴리스틱 점검은 사용자의 요청에 따라 D-22000에서 종료했으며, 별도 재개 요청 전에는 진행하지 않습니다. 2026-10-24에 요청받은 `_default` 대사 말투·자연스러움 후보 199건 검토는 해당 범위에서 완료했습니다.
 
 특히 `_base`의 영어 원문이 대문자 `The`로 시작하면 단순한 정관사로만 처리하지 말고, 아이템명·퀘스트명 등 제목이나 고유명사일 가능성을 먼저 살핍니다. 문맥에 맞는 한국어 제목으로 옮기고, 이름을 식별하기 쉽도록 `한글 (The English Name)` 형식의 원문 병기도 검토합니다. 다만 `The`로 시작한다는 이유만으로 무조건 고유명사라고 단정하지 말고 실제 문맥을 확인합니다.
 
@@ -147,7 +147,7 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 ## English
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261107065130/KingdomsOfAmalur_Korean_zh_cn_20261107065130.zip)
+- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261110001647/KingdomsOfAmalur_Korean_zh_cn_20261110001647.zip)
 
 ### Project Background and Acknowledgements
 
@@ -175,7 +175,7 @@ For item names containing English `of ...` constructions, this project's composi
 
 Use the existing [proper-name glossary](work/zh_cn/audit/proper-name-glossary.tsv), [candidate occurrence/disposition index](work/zh_cn/audit/proper-name-occurrences.tsv), and [review records](work/zh_cn/audit/README.md) as references for names already examined. Pair full compound names once, for example `브론웬 센(Bronwen Senn)`, not component-by-component as `브론웬(Bronwen) 센(Senn)`. These records are partial references, not a claim that all names have been found or verified. Proper-name review is not a sequential or open-ended task; when explicitly resumed, inspect only newly surfaced, bounded candidates and do not automatically queue another batch.
 
-The translation work is considered complete, but not every in-game context or proper name has been exhaustively verified. Heuristic proper-name checks ended at D-22000 on 2026-10-20. Do not resume them unless the user explicitly asks; this is completed translation work, not an open-ended maintenance queue.
+Translation review and gameplay validation are ongoing; corrections are made as issues are found during play or raised in a specific review request. On November 7, 2026, all 65,135 `default` entries received another voice and naturalness review; on November 10, 2,197 groups with identical English source text were cross-checked. This does not mean every in-game context or proper name has been exhaustively verified. Heuristic proper-name checks ended at D-22000 at the user's request and will not resume without a separate request. The bounded October 24, 2026 review of 199 `_default` voice/naturalness candidates was completed within that scope.
 
 For `_base` entries whose English source begins with capitalized `The`, do not treat it as only a definite article by default. First consider whether the string is an item name, quest name, or other title/proper name. Translate it as a natural Korean title in context, and consider retaining the source as `Korean (The English Name)` to make the name traceable. The initial `The` is a cue to inspect context, not proof that every such string is a proper noun.
 
