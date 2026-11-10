@@ -351,9 +351,11 @@ Testament. The group includes dialogue, choices, objectives, journals, and
 UI/debug text; the NPC symbol does not map each key to a speaker or callback.
 
 All 76 rows were revalidated in English, Japanese, Chinese, and active Korean.
-Twenty-seven IDs have correction candidates and two have unresolved
-source/context findings. Four exact-English duplicate groups already match
-in Korean. No translation CSV or extracted asset was changed. See
+Twenty-seven correction-candidate IDs have been applied and rechecked. The
+uncertain readings at `48067` and `62309` remain unchanged; the oath nuance at
+`50834` remains unresolved after applying its separate faction-name pairing.
+Four exact-English duplicate groups already match in Korean. No extracted
+asset was changed. See
 [`dialogue-context-sq140-revalidation-20261110.md`](dialogue-context-sq140-revalidation-20261110.md).
 
 ## Twenty-Third Expanded Group: Galette Treasure / `SQ143`
@@ -379,9 +381,10 @@ The group covers Alfar arena challenges, the First Sword title, and Bronwen's
 sister Ragna. Individual speakers and callback links remain unmapped.
 
 All 80 rows were revalidated in four languages. Twenty-six IDs have
-correction candidates, including objective wording for nonlethal training
-fights and row-local Korean register outliers. Four exact-English duplicate
-pairs already match in Korean. No Korean CSV or extracted asset was changed.
+correction-candidate IDs, including objective wording for nonlethal training
+fights and row-local Korean register outliers; all 26 corrections were
+applied and rechecked. Four exact-English duplicate pairs already match in
+Korean. No extracted asset was changed.
 See [`dialogue-context-sq131-revalidation-20261110.md`](dialogue-context-sq131-revalidation-20261110.md).
 
 ## Twenty-Fifth Expanded Group: Lila Janick / `SQ145`
@@ -842,7 +845,9 @@ All 332 rows were revalidated against English, Japanese, Chinese, and active
 Korean. Seven correction findings affecting twelve IDs and two unresolved
 register questions were recorded. All 41 exact-English duplicate groups (106
 rows) already have matching Korean translations. No embedded line breaks,
-runtime markers, or markup were found, and no Korean CSV was changed. See
+runtime markers, or markup were found. All 12 correction-candidate IDs were
+approved, applied, and rechecked; register holds at `60868` and `61926`
+remain. No extracted game asset was changed. See
 [`dialogue-context-mq05-revalidation-20261110.md`](dialogue-context-mq05-revalidation-20261110.md)
 for the evidence and proposed corrections.
 
@@ -860,7 +865,9 @@ Korean. Ten correction findings affecting 23 IDs and one unresolved meaning
 question were recorded. All six exact-English duplicate groups (12 rows)
 already have matching Korean translations. The `$SQ54.bribe_value$` token is
 preserved in both gold-offer rows; no embedded line breaks or other markup
-were found. No Korean CSV was changed. See
+were found. The 22 in-asset candidate IDs and supplemental cross-asset ID
+`26210` were approved, applied, and rechecked; the meaning question at
+`14051` remains on hold. See
 [`dialogue-context-sq54-revalidation-20261110.md`](dialogue-context-sq54-revalidation-20261110.md)
 for the evidence and proposed corrections.
 
@@ -880,7 +887,9 @@ address/register questions were recorded. Three exact-English duplicate
 groups already have matching Korean; two similar gate questions were kept
 distinct because their English differs (`this gate` / `the gate`). No
 embedded line breaks, runtime markers, or markup were found, and no Korean
-CSV was changed. See
+game asset was changed. The 15 correction-candidate IDs were approved,
+applied, and rechecked; address/register holds at `32239` and `32716` remain.
+See
 [`dialogue-context-mq09-revalidation-20261110.md`](dialogue-context-mq09-revalidation-20261110.md)
 for the evidence and full ID list.
 
@@ -899,7 +908,9 @@ Korean. Eleven correction findings affecting 17 IDs and three unresolved
 register/address rows were recorded. The exact-English repeated Ventrinio
 question and `Shadow Walk` title groups already match; punctuation-only rows
 also match. No embedded line breaks, runtime markers, or markup were found,
-and no Korean CSV was changed. See
+and no extracted game asset was changed. All 17 correction-candidate IDs
+were approved, applied, and rechecked; holds at `29557`, `30364`, and `32421`
+remain unresolved. See
 [`dialogue-context-mq14-revalidation-20261110.md`](dialogue-context-mq14-revalidation-20261110.md)
 for the evidence and full ID list.
 
@@ -917,7 +928,9 @@ All 191 rows were revalidated against English, Japanese, Chinese, and active
 Korean. Eight correction findings affecting 11 unique IDs and five unresolved
 readings were recorded. Ten exact-English duplicate groups already have
 matching Korean, and all four locales are free of embedded line breaks,
-runtime markers, and markup in these rows. No Korean CSV was changed. See
+runtime markers, and markup in these rows. All 11 correction-candidate IDs
+were approved, applied, and rechecked; the five unresolved readings remain on
+hold. No extracted game asset was changed. See
 [`dialogue-context-sq59-revalidation-20261110.md`](dialogue-context-sq59-revalidation-20261110.md)
 for the evidence and full ID list.
 
@@ -935,8 +948,9 @@ All 131 rows were revalidated against English, Japanese, Chinese, and active
 Korean. Six correction candidates and two unresolved readings were recorded.
 All 11 exact-English duplicate groups already have identical Korean, and the
 `$SQ53.bribe_value$` token is preserved in both offer rows. No embedded line
-breaks, other runtime markers, or markup were found. No Korean CSV was
-changed. See
+breaks, other runtime markers, or markup were found. All six correction
+candidates were approved, applied, and rechecked; holds at `6405` and `27562`
+remain unresolved. No extracted game asset was changed. See
 [`dialogue-context-sq53-revalidation-20261110.md`](dialogue-context-sq53-revalidation-20261110.md)
 for the findings and full ID list.
 
@@ -954,7 +968,8 @@ Korean. Seven correction findings were recorded, including inconsistent
 `Isles` wording, incomplete English pairings, and two naturalness refinements.
 The two exact-English duplicate groups already have matching Korean, and the
 `$SQ58.parwen_bribe$` marker is preserved at both occurrences. No embedded
-line breaks were found, and no Korean CSV was changed. See
+line breaks were found. All seven correction-candidate IDs were approved,
+applied, and rechecked; no extracted game asset was changed. See
 [`dialogue-context-sq58-revalidation-20261110.md`](dialogue-context-sq58-revalidation-20261110.md)
 for the evidence and full ID list.
 
@@ -1026,5 +1041,22 @@ for the evidence and full ID list.
   14 correction candidates and five unresolved findings.
 - The review ledger's 17 changed four-language fingerprints were refreshed
   only after rechecking those rows. All 56 priority assets now have review
-  reports and ledger coverage; the MQ01 candidate edits remain pending the
-  separate editor approval step.
+  reports and ledger coverage. After user approval, all 26 SQ131, 27 SQ140,
+  33 MQ01, and 34 SQ143 correction candidates were applied and rechecked;
+  unresolved findings at SQ140 `48067`/`62309` and MQ01 `15621`, and the
+  SQ143 source conflict at `1410`/`52945`, remain.
+- The 22 SQ54 correction-candidate IDs and supplemental name-pairing ID
+  `26210` were also applied and rechecked; SQ54 `14051` remains unresolved.
+- All 15 MQ09 correction-candidate IDs were applied and rechecked; the
+  address/register holds at `32239` and `32716` remain unresolved.
+- CSV preservation and source-fingerprint validation passed after the SQ54
+  and MQ09 batches; the original mixed line-ending counts remain unchanged.
+- All 17 MQ14 correction-candidate IDs were applied and rechecked; its three
+  address/register holds remain unchanged.
+- All 11 SQ59 correction-candidate IDs were applied and rechecked; its five
+  unresolved readings remain on hold.
+- All six SQ53 correction-candidate IDs were applied and rechecked; its two
+  unresolved readings remain on hold.
+- All seven SQ58 correction-candidate IDs were applied and rechecked.
+- All 12 MQ05 correction-candidate IDs were applied and rechecked; its two
+  register holds remain unresolved.

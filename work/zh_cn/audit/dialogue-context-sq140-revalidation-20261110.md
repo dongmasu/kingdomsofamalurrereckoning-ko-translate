@@ -2,7 +2,11 @@
 
 - Date: 2026-11-10.
 - Scope: all 76 `default` keys in `1576008.quest_bxml` (`SQ140`).
-- Read-only review: no translation CSV or extracted resource was modified.
+- After the user's approval, all 27 candidate IDs below were corrected and
+  rechecked against the four locale rows. Uncertain readings at `48067` and
+  `62309` remain unchanged; at `50834`, only the faction-name pairing was
+  corrected while the oath nuance remains unresolved. No extracted resource
+  was modified.
 - English anchors meaning; Japanese guides voice/register; Chinese supports
   the comparison. Glossary decisions remain authoritative for established names.
 
@@ -18,8 +22,8 @@ Four-language comparison was performed for every ID listed below.
 
 ## Correction Candidates
 
-Proposals require a separate accepted editor pass. Dimensions in this table
-also supply the per-ID ledger statuses; IDs not flagged remain `not_flagged`.
+These source-checked corrections were approved and applied. The table retains
+the evidence and proposed wording that guided the ID-specific edits.
 
 | IDs | Dimensions | Evidence, current text, and proposed correction | Confidence |
 | --- | --- | --- | --- |
@@ -38,7 +42,7 @@ also supply the per-ID ledger statuses; IDs not flagged remain `not_flagged`.
 | --- | --- | --- | --- |
 | `48067` | naturalness | The existing Giran name review explicitly retained an ambiguity in the opening `Have I...?` / `私が...？` / `我…?`. Current `내가...? 물론 그렇지.` is not changed on the strength of the asset alone. The local player choice at `3452` suggests an elliptical response about trying to speak to Giran, but there is no proven reply edge. Hold a rewrite such as `얘기해 봤냐고...?` until the link is established. | Uncertain |
 | `62309` | meaning | English `You're better than this.` supports current `이런 식으로 굴 사람은 아니잖아.`; Japanese `他の連中より優秀そうだな` instead compares Giran to other cultists, matching the subject of response-like `21894`. Chinese `你能做得更好` follows English more closely. Retain current English-led wording and flag the reference conflict; do not invent a branch connection or flatten it to the Japanese reading. | Uncertain |
-| `50834` | meaning | English `In Giran's name` is rendered `기란(Giran)의 이름을 걸고`; Japanese `ガイランのためにも` suggests acting for his sake. Chinese follows the name construction. `기란(Giran)을 위해서라도` is a plausible improvement, but the literal oath versus memorial nuance is not settled by the asset. The separate faction-name correction remains a candidate. | Uncertain |
+| `50834` | meaning | English `In Giran's name` is rendered `기란(Giran)의 이름을 걸고`; Japanese `ガイランのためにも` suggests acting for his sake. Chinese follows the name construction. `기란(Giran)을 위해서라도` is a plausible improvement, but the literal oath versus memorial nuance is not settled by the asset. The separate faction-name pairing was applied; the oath nuance remains unresolved. | Uncertain |
 
 ## Other Checks
 

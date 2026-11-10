@@ -2,9 +2,12 @@
 
 - Date: 2026-11-10.
 - Scope: all 191 `default` keys associated with `591256.quest_bxml` (`SQ59`).
+- After the user's approval, all 11 correction-candidate IDs below were
+  corrected and rechecked against the four locale rows. Five unresolved
+  readings remain unchanged.
+- No extracted game asset was modified.
 - English anchors meaning; Japanese is the primary style/register reference;
   Chinese supports the comparison. All four locales were checked at every ID.
-- No translation CSV or extracted game asset was modified.
 
 ## Grouping Evidence
 
@@ -21,8 +24,8 @@ playback order therefore remain unknown at the key level.
 
 ## Correction Candidates
 
-These are source-checked proposals, not permission to edit the active Korean
-translation CSV.
+These source-checked corrections were approved and applied. The table retains
+the evidence and proposed wording that guided the ID-specific edits.
 
 | ID(s) | Dimensions | Evidence and proposed Korean | Confidence |
 | --- | --- | --- | --- |
@@ -64,7 +67,9 @@ All 191 IDs were checked for meaning, Korean naturalness, register,
 address/honorifics, terminology and names, repeated English, runtime markers,
 markup, and line breaks. No embedded line breaks, runtime markers, or markup
 were found in any of the four locales. Eight correction findings affecting
-11 unique IDs and five unresolved readings were recorded.
+11 unique IDs and five unresolved readings were recorded. All 11
+correction-candidate IDs were applied and rechecked; the unresolved readings
+remain on hold.
 
 The complete sorted ID set is:
 
@@ -94,4 +99,4 @@ The complete sorted ID set is:
 `64851`, `64927`, `65107`.
 
 The linked review ledger records all 191 IDs and their four-language source
-fingerprints. No Korean CSV edit was applied.
+fingerprints. The held rows were not changed.

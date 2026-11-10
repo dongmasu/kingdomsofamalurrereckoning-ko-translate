@@ -3,7 +3,11 @@
 - Date: 2026-11-10.
 - Scope: all 114 `default` keys associated with `588388.quest_bxml`
   (`SQ54`).
-- No translation CSV or extracted game asset was modified.
+- After the user's approval, all 22 correction-candidate IDs below were
+  corrected and rechecked against the four locale rows. Supplemental
+  cross-asset ID `26210` received the name pairings and was rechecked.
+- The uncertain reading at `14051` remains unchanged. No extracted game asset
+  was modified.
 - English anchors meaning; Japanese is the primary style/register reference;
   Chinese supports the comparison. All four locales were checked at every ID.
 
@@ -25,8 +29,8 @@ speaker.
 
 ## Correction Candidates
 
-These are read-only findings and proposed text, not permission to edit the
-active translation CSV.
+These source-checked corrections were approved and applied. The table retains
+the evidence and proposed wording that guided the ID-specific edits.
 
 | ID(s) | Dimensions | Evidence and proposed Korean | Confidence |
 | --- | --- | --- | --- |
@@ -65,4 +69,5 @@ embedded line breaks or other markup were found.
 Ten correction findings affecting 22 of the 114 asset keys, one supplemental
 cross-asset name finding, and one unresolved meaning question were recorded.
 No key was mapped to a specific speaker, callback, branch, or playback
-position, and no Korean CSV edit was applied.
+position. All 22 correction-candidate IDs and supplemental ID `26210` were
+applied and rechecked. The meaning question at `14051` remains on hold.

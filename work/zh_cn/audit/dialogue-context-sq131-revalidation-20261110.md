@@ -2,7 +2,8 @@
 
 - Date: 2026-11-10.
 - Scope: all 80 `default` keys in `1583001.quest_bxml` (`SQ131`).
-- Read-only review; no translation CSV or extracted asset was modified.
+- After the user's approval, all 26 candidate IDs below were corrected and
+  rechecked against the four locale rows. No extracted asset was modified.
 - Every row was compared in English, Japanese, Chinese, and current Korean.
   English anchors meaning; Japanese guides register; Chinese is supporting.
 
@@ -17,8 +18,8 @@ replies are not assigned Bronwen's voice.
 
 ## Correction Candidates
 
-Proposals are not accepted edits. Dimensions below supply the ledger
-statuses; unflagged dimensions remain `not_flagged`.
+These source-checked corrections were approved and applied. The table retains
+the evidence and proposed wording that guided the ID-specific edits.
 
 | IDs | Dimensions | Evidence, current text, and proposed correction | Confidence |
 | --- | --- | --- | --- |

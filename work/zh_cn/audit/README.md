@@ -10,11 +10,35 @@ changes, and validation for tag
 
 The latest dialogue-context checkpoint is 56 / 56 priority assets reviewed
 (100%), covering 5,208 unique IDs. The final `MQ01` / Encel main-quest review
-adds 267 IDs; its correction candidates and one unresolved reading are
-documented but were not applied to the Korean CSV. See
+adds 267 IDs; all 33 source-checked correction candidates have now been
+applied and rechecked, while one unresolved reading remains on hold. See
 [`dialogue-context-mq01-revalidation-20261110.md`](dialogue-context-mq01-revalidation-20261110.md)
 and the cumulative
 [`dialogue-context-group-index-and-revalidation-20261110.md`](dialogue-context-group-index-and-revalidation-20261110.md).
+The previously reviewed `SQ143` / Galette Treasure group also has all 34
+correction-candidate IDs applied and rechecked; its source conflict over
+east/west remains on hold.
+The `SQ140` / Colm and Giran group has all 27 correction-candidate IDs
+applied and rechecked; the uncertain Giran-reference readings remain on hold.
+The `SQ131` / Bronwen Senn arena group has all 26 correction-candidate IDs
+applied and rechecked, including nonlethal objective wording and voice fixes.
+The `SQ54` / Family Rivalry group now has all 22 correction-candidate IDs
+applied and rechecked; supplemental cross-asset name-pairing ID `26210` was
+also corrected. The uncertain reading at `14051` remains on hold.
+The `MQ09` / General Tilera group now has all 15 correction-candidate IDs
+applied and rechecked; address/register questions at `32239` and `32716`
+remain on hold.
+The `MQ14` / Dannestar Island group now has all 17 correction-candidate IDs
+applied and rechecked; the three speaker/address-dependent findings remain
+on hold.
+The `SQ59` / Feride Ouet group now has all 11 correction-candidate IDs
+applied and rechecked; its five unresolved readings remain on hold.
+The `SQ53` / Aetill Algar group now has all six correction-candidate IDs
+applied and rechecked; its two unresolved readings remain on hold.
+The `SQ58` / Parwen Well group now has all seven correction-candidate IDs
+applied and rechecked.
+The `MQ05` / Glianal group now has all 12 correction-candidate IDs applied
+and rechecked; its two speaker/register questions remain on hold.
 The preceding `SQ55` / Aergase pass added 154 IDs and recorded 15 applied
 corrections with three unresolved findings; see
 [`dialogue-context-sq55-revalidation-20261110.md`](dialogue-context-sq55-revalidation-20261110.md).

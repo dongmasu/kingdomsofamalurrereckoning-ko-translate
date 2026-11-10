@@ -3,9 +3,12 @@
 - Date: 2026-11-10.
 - Scope: all 131 `default` keys associated with `592526.quest_bxml`
   (`SQ53`).
+- After the user's approval, all six correction-candidate IDs below were
+  corrected and rechecked against the four locale rows. The two unresolved
+  readings remain unchanged.
+- No extracted game asset was modified.
 - English anchors meaning; Japanese is the primary style/register reference;
   Chinese supports the comparison. All four locales were checked at every ID.
-- No translation CSV or extracted game asset was modified.
 
 ## Grouping Evidence
 
@@ -21,8 +24,8 @@ index.
 
 ## Correction Candidates
 
-These are source-checked proposals, not permission to edit the active Korean
-translation CSV.
+These source-checked corrections were approved and applied. The table retains
+the evidence and proposed wording that guided the ID-specific edits.
 
 | ID | Dimensions | Evidence and proposed Korean | Confidence |
 | --- | --- | --- | --- |
@@ -88,4 +91,5 @@ markers, markup, and line breaks. Six correction findings and two
 unresolved readings are recorded with four-language fingerprints in
 [`dialogue-context-review-ledger.tsv`](dialogue-context-review-ledger.tsv).
 No key was mapped to a specific speaker, callback, branch, or playback
-position, and no Korean CSV edit was applied.
+position. All six correction-candidate IDs were applied and rechecked; the
+holds at `6405` and `27562` remain unresolved.

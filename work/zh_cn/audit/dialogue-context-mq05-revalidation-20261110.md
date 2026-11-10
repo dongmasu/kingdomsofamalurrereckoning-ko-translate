@@ -3,7 +3,10 @@
 - Date: 2026-11-10.
 - Scope: all 332 `default` keys associated with `563881.quest_bxml`
   (`MQ05`).
-- No translation CSV or extracted game asset was modified.
+- After the user's approval, all 12 correction-candidate IDs below were
+  corrected and rechecked against the four locale rows. The two unresolved
+  register questions remain unchanged.
+- No extracted game asset was modified.
 - English anchors meaning; Japanese is the primary style/register reference;
   Chinese supports the comparison. All four locales were checked at every ID.
 
@@ -19,8 +22,8 @@ and dialogue order therefore remain unknown at the key level.
 
 ## Correction Candidates
 
-These are read-only findings and proposed text, not permission to edit the
-active translation CSV.
+These source-checked corrections were approved and applied. The table retains
+the evidence and proposed wording that guided the ID-specific edits.
 
 | ID(s) | Dimensions | Evidence and proposed Korean | Confidence |
 | --- | --- | --- | --- |
@@ -45,9 +48,9 @@ All 332 IDs were checked for meaning, Korean naturalness, register,
 address/honorifics, terminology, repeated English text, runtime markers,
 markup, and line breaks. The 41 exact-English duplicate groups (106 rows)
 already have matching Korean translations. No embedded line breaks or
-runtime/markup markers were found. Twelve IDs received correction candidates;
-two register questions remain unresolved.
+runtime/markup markers were found. All 12 correction-candidate IDs were
+applied and rechecked; register holds at `60868` and `61926` remain.
 
 The linked ledger records all 332 IDs and their four-language fingerprints.
 No speaker, callback, branch, or playback order was inferred from asset-level
-metadata. No Korean CSV edit was applied.
+metadata. The held rows were not changed.

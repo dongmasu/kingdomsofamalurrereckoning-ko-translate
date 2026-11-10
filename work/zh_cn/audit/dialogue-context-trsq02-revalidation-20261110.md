@@ -2,7 +2,10 @@
 
 - Date: 2026-11-10.
 - Scope: all 110 `default` keys in `1633037.quest_bxml` (`TRSQ02`).
-- No translation CSV or extracted asset was modified.
+- After the user's approval, the duplicated English gloss at ID `50710` was
+  removed from the active Korean CSV and rechecked against all four locales.
+- The other recorded candidates remain pending; the hold at `5269` is
+  unchanged. No extracted asset was modified.
 - English anchors meaning; Japanese guides style/register; Chinese supports
   the comparison. All four locales were checked at every ID.
 
@@ -30,7 +33,7 @@ also define the per-ID ledger statuses; unflagged dimensions remain
 | `29808` | format | English names `Wyvyrn-Gifres`, one of Rathir's Great Houses; Japanese `ワイヴァーン＝ギフ家` and Chinese `维弗恩-吉弗瑞高等家族` identify the same family. Current `와이번-기프레 가문` lacks English and differs from the established `와이번-기프르` spelling in `2204`, `26494`, and `49468`. Prefer `라시르(Rathir)의 대가문 중 하나인 와이번-기프르(Wyvyrn-Gifres) 가문의 인장 반지다.` Preserve the English inflected form and descriptive sentence ending. | High |
 | `35164` | speech_level | Player choice `I'll buy it`, Japanese `買い取ろう`; the current `구매하겠습니다` introduces an unsupported customer-service honorific register. Other aligned player options in this group are plain. Prefer `이걸 사겠어. ($TRSQ02.cowl_price$ 골드)` and preserve the variable. | High |
 | `35784` | naturalness | English idiom `Give me no cause to anger` and Japanese `私を怒らせない方がいいわ` mean not to provoke the Hierophant. Current `날 화나게 할 이유를 만들지 마` is an awkward calque. Prefer the sentence ending `날 화나게 하지 마.` | High |
-| `50710` | format | The complete English item `Cowl of the Maiden` appears once. Korean duplicates the parenthetical title as `처녀의 두건(Cowl of the Maiden)(Cowl of the Maiden)`, unlike the standalone correct label at `34233`/`61462`. Remove the duplicated gloss: `... 처녀의 두건(Cowl of the Maiden)이다. 가는 길에 ...` | High |
+| `50710` | format | The complete English item `Cowl of the Maiden` appears once. Korean duplicated the parenthetical title as `처녀의 두건(Cowl of the Maiden)(Cowl of the Maiden)`, unlike the standalone correct label at `34233`/`61462`. Applied: `... 처녀의 두건(Cowl of the Maiden)이다. 가는 길에 ...` | High |
 | `61750` | naturalness | English `Moon Camp's Hierophant Shrine` names the place; the existing glossary form is `대사제의 성소(Hierophant Shrine)`. Current `달 야영지(Moon Camp)의 대사제의 성소` stacks possessives awkwardly. Prefer `그는 대사제(Hierophant)의 인도를 구하라며 나를 달 야영지(Moon Camp)에 있는 대사제의 성소(Hierophant Shrine)로 보냈다.` | High |
 
 ## Holds and Preserved Differences

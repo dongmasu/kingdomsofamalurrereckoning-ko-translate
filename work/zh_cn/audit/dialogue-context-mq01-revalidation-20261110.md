@@ -4,8 +4,10 @@
 - Scope: all 267 `default` IDs linked to `613083.quest_bxml` (`MQ01`).
 - English anchors meaning; Japanese is the primary style/register reference;
   Chinese supports the comparison. Every row was checked in all four locales.
-- This is a read-only review. The active Korean CSV and extracted game assets
-  were not modified for this pass.
+- After the user's approval, all 33 candidate IDs below were corrected in the
+  active Korean CSV and rechecked against the English, Japanese, and Chinese
+  rows. The unresolved reading at `15621` remains unchanged. Extracted game
+  assets were not modified.
 
 ## Grouping Evidence
 
@@ -23,8 +25,8 @@ All other speaker assignments and dialogue order remain unknown.
 
 ## Correction Candidates
 
-These are source-checked proposals, not approval to edit the active Korean
-translation CSV.
+These source-checked corrections were approved and applied. The table retains
+the evidence and proposed wording that guided the ID-specific edits.
 
 | ID(s) | Dimension | Evidence and proposed correction | Confidence |
 | --- | --- | --- | --- |

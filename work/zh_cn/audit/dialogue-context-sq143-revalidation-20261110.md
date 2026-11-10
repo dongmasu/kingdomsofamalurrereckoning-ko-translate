@@ -2,7 +2,10 @@
 
 - Date: 2026-11-10.
 - Scope: all 90 `default` keys in `1577269.quest_bxml` (`SQ143`).
-- No translation CSV or extracted resource was modified.
+- After the user's approval, all 34 correction-candidate IDs below were
+  corrected and rechecked against the four locale rows. The east/west source
+  conflict at `1410` and `52945` remains unchanged. No extracted resource was
+  modified.
 - English controls meaning; Japanese guides style/register; Chinese supports
   the comparison. All four tables were checked at every listed ID.
 
@@ -22,8 +25,8 @@ earlier decision not to merge the two name forms.
 
 ## Correction Candidates
 
-These proposals are not approval to edit. Table dimensions supply ledger
-statuses; unflagged dimensions retain `not_flagged`.
+These source-checked corrections were approved and applied. The table retains
+the evidence and proposed wording that guided the ID-specific edits.
 
 | IDs | Dimensions | Evidence, current text, and proposed correction | Confidence |
 | --- | --- | --- | --- |

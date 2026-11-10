@@ -2,9 +2,11 @@
 
 - Date: 2026-11-10.
 - Scope: all 92 `default` keys associated with `593901.quest_bxml` (`SQ58`).
+- After the user's approval, all seven correction-candidate IDs below were
+  corrected and rechecked against the four locale rows.
+- No extracted game asset was modified.
 - English anchors meaning; Japanese is the primary style/register reference;
   Chinese supports the comparison. All four locales were checked at every ID.
-- No translation CSV or extracted game asset was modified.
 
 ## Grouping Evidence
 
@@ -20,8 +22,8 @@ dialogue order therefore remain unknown at the key level.
 
 ## Correction Candidates
 
-These are source-checked proposals, not permission to edit the active Korean
-translation CSV.
+These source-checked corrections were approved and applied. The table retains
+the evidence and proposed wording that guided the ID-specific edits.
 
 | ID | Dimensions | Evidence and proposed Korean | Confidence |
 | --- | --- | --- | --- |
@@ -66,5 +68,6 @@ The complete sorted ID set is:
 
 The linked review ledger records all 92 IDs and their four-language source
 fingerprints. Seven correction findings are recorded. No key was mapped to a
-specific speaker, callback, branch, or playback position, and no Korean CSV
-edit was applied.
+specific speaker, callback, branch, or playback position. All seven
+correction-candidate IDs were applied and rechecked; no extracted game asset
+was modified.

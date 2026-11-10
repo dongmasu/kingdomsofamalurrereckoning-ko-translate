@@ -2,9 +2,12 @@
 
 - Date: 2026-11-10.
 - Scope: all 192 `default` keys associated with `589924.quest_bxml` (`MQ14`).
+- After the user's approval, all 17 correction-candidate IDs below were
+  corrected and rechecked against the four locale rows. The three
+  address/register holds remain unchanged.
+- No extracted game asset was modified.
 - English anchors meaning; Japanese is the primary style/register reference;
   Chinese supports the comparison. All four locales were checked at every ID.
-- No translation CSV or extracted game asset was modified.
 
 ## Grouping Evidence
 
@@ -22,8 +25,8 @@ unknown at the key level.
 
 ## Correction Candidates
 
-These are source-checked proposals, not permission to edit the active Korean
-translation CSV.
+These source-checked corrections were approved and applied. The table retains
+the evidence and proposed wording that guided the ID-specific edits.
 
 | ID(s) | Dimensions | Evidence and proposed Korean | Confidence |
 | --- | --- | --- | --- |
@@ -59,7 +62,9 @@ All 192 IDs were checked for meaning, Korean naturalness, register,
 address/honorifics, terminology and names, repeated English, runtime markers,
 markup, and line breaks. No embedded line breaks, runtime markers, or markup
 were found. Eleven correction findings affecting 17 IDs and three unresolved
-register/address rows were recorded.
+register/address rows were recorded. All 17 correction-candidate IDs were
+applied and rechecked; the holds at `29557`, `30364`, and `32421` remain
+unresolved.
 
 The complete sorted ID set is:
 
@@ -89,4 +94,4 @@ The complete sorted ID set is:
 `64423`, `64523`, `64612`, `64864`, `65099`.
 
 The linked review ledger records all 192 IDs and their four-language source
-fingerprints. No Korean CSV edit was applied.
+fingerprints. The held rows were not changed.
