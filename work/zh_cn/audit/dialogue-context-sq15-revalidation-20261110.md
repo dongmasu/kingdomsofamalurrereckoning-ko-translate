@@ -3,7 +3,9 @@
 - Date: 2026-11-10.
 - Scope: all 47 `default` keys associated with `695918.quest_bxml`
   (`SQ15`).
-- No translation CSV or extracted game asset was modified.
+- Both correction-candidate IDs below were corrected and rechecked against
+  the four locale rows. The uncertain kinship readings remain unchanged.
+- No extracted game asset was modified.
 - English anchors meaning; Japanese guides style/register; Chinese supports
   the comparison. All four locales were checked at every ID.
 
@@ -18,8 +20,8 @@ localization keys to speakers, callbacks, branches, or playback order. All
 
 ## Correction Candidates
 
-These are read-only reviewer findings and proposed text, not permission to
-edit the active translation CSV.
+These source-checked corrections were applied. The table records the
+ID-specific wording and evidence used for revalidation.
 
 | ID(s) | Dimensions | Evidence and proposed Korean | Confidence |
 | --- | --- | --- | --- |
@@ -36,12 +38,12 @@ edit the active translation CSV.
 
 All 47 rows were checked for meaning, Korean naturalness, speech level,
 address, honorifics, terminology, repeated English text, runtime markers,
-markup, and line breaks. Two correction findings affect two IDs, and one
-kinship reading remains unresolved. Both exact-English duplicate groups
+markup, and line breaks. Both correction-candidate IDs were applied and
+rechecked; the uncertain kinship readings at `9001` and `18532` remain on
+hold. Both exact-English duplicate groups
 already match across all four locales: `Imelda Holn` (`30433` / `32609`) and
 `Ettin` (`46339` / `47916`). No embedded line breaks or markup were found.
 The `$SQ15_FIN.m_inn_cost$` token at `26535` appears once in each locale.
-No Korean CSV edit was applied.
 
 Speaker attribution and dialogue order remain unknown at the localization-key
 level. Four-language fingerprints and per-ID dispositions are in

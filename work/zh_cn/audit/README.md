@@ -39,6 +39,16 @@ The `SQ58` / Parwen Well group now has all seven correction-candidate IDs
 applied and rechecked.
 The `MQ05` / Glianal group now has all 12 correction-candidate IDs applied
 and rechecked; its two speaker/register questions remain on hold.
+The `HP02` / Erion Raff group now has all 14 correction-candidate IDs applied
+and rechecked; its unresolved meaning reading at `33002` remains on hold.
+The `FFQ26` / Ruin Imas group has four correction IDs applied and rechecked;
+the proposal at `7835` was already satisfied and remains unchanged.
+The `FFQ03` / Murdoc Hain group has all 10 correction-candidate IDs applied
+and rechecked; its two source/context readings remain on hold.
+The `SQ15` / Enconeg Holn group has both correction-candidate IDs applied
+and rechecked; the uncertain aunt relationship remains on hold.
+The `SQ69` / Captain Keloran group has all nine correction-candidate IDs
+applied and rechecked.
 The preceding `SQ55` / Aergase pass added 154 IDs and recorded 15 applied
 corrections with three unresolved findings; see
 [`dialogue-context-sq55-revalidation-20261110.md`](dialogue-context-sq55-revalidation-20261110.md).

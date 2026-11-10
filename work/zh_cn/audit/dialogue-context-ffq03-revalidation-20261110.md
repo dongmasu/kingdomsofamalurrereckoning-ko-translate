@@ -3,7 +3,9 @@
 - Date: 2026-11-10.
 - Scope: all 41 `default` keys associated with `495487.quest_bxml`
   (`FFQ03`).
-- No translation CSV or extracted game asset was modified.
+- All 10 correction-candidate IDs below were corrected and rechecked against
+  the four locale rows. The two source/context readings remain on hold.
+- No extracted game asset was modified.
 - English anchors meaning; Japanese guides style/register; Chinese supports
   the comparison. All four locales were checked at every ID.
 
@@ -19,8 +21,8 @@ absent from the review ledger before this pass.
 
 ## Correction Candidates
 
-These are read-only reviewer findings and proposed text, not permission to
-edit the active translation CSV.
+These source-checked corrections were applied. The table records the
+ID-specific wording and evidence used for revalidation.
 
 | ID(s) | Dimensions | Evidence and proposed Korean | Confidence |
 | --- | --- | --- | --- |
@@ -44,7 +46,8 @@ two source/context readings remain unresolved. Three exact-English duplicate
 groups already match across all four locales: `Here is a fire damage
 potion.` (`3483` / `5859`), `Here are some reagents.` (`18883` / `21385`),
 and the Tindertwig / Scarwood Bark location sentence (`50439` / `54169`).
-No Korean CSV edit was applied.
+All 10 correction-candidate IDs were applied and rechecked. The findings at
+`2160` and `3918` remain on hold.
 
 Speaker attribution and dialogue order remain unknown at the localization-key
 level. Four-language fingerprints and per-ID dispositions are in

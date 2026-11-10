@@ -713,8 +713,10 @@ localization keys to speakers, callbacks, branches, or playback order.
 
 All 84 rows were revalidated against English, Japanese, Chinese, and active
 Korean. Twelve correction findings affecting 14 IDs and one unresolved
-meaning case were recorded. Four exact-English duplicate groups already
-match across all four locales. No Korean CSV was changed. See
+meaning case were recorded. All 14 correction-candidate IDs were applied and
+rechecked; the reading at `33002` remains on hold. Four exact-English
+duplicate groups already match across all four locales. No extracted game
+asset was changed. See
 [`dialogue-context-hp02-revalidation-20261110.md`](dialogue-context-hp02-revalidation-20261110.md)
 for the findings and complete evidence.
 
@@ -728,9 +730,10 @@ count do not map localization keys to speakers, callbacks, branches, or
 playback order.
 
 All 39 rows were revalidated against English, Japanese, Chinese, and active
-Korean. Four correction findings affecting five IDs were recorded. Three
-exact-English duplicate groups already match across all four locales. No
-Korean CSV was changed. See
+Korean. Three correction findings affecting four IDs were applied and
+rechecked. The format candidate at `7835` was retained as already compliant.
+Three exact-English duplicate groups already match across all four locales.
+No extracted game asset was changed. See
 [`dialogue-context-ffq26-revalidation-20261110.md`](dialogue-context-ffq26-revalidation-20261110.md)
 for the evidence and proposed corrections.
 
@@ -744,9 +747,10 @@ militia's boggart problem. The NPC symbol and handler count do not map
 localization keys to speakers, callbacks, branches, or playback order.
 
 All 41 rows were revalidated against English, Japanese, Chinese, and active
-Korean. Three correction findings affecting 10 IDs and two unresolved
-readings were recorded. Three exact-English duplicate groups already match
-across all four locales. No Korean CSV was changed. See
+Korean. Three correction findings affecting 10 IDs were applied and
+rechecked; two source/context readings remain on hold. Three exact-English
+duplicate groups already match across all four locales. No extracted game
+asset was changed. See
 [`dialogue-context-ffq03-revalidation-20261110.md`](dialogue-context-ffq03-revalidation-20261110.md)
 for the evidence and proposed corrections.
 
@@ -760,9 +764,10 @@ do not map localization keys to speakers, callbacks, branches, or playback
 order.
 
 All 47 rows were revalidated against English, Japanese, Chinese, and active
-Korean. Two correction findings affecting two IDs and one unresolved
-kinship reading affecting two IDs were recorded. Both exact-English duplicate
-groups already match across all four locales. No Korean CSV was changed. See
+Korean. Both correction-candidate IDs were applied and rechecked. Uncertain
+kinship readings at `9001` and `18532` remain on hold. Both exact-English
+duplicate groups already match across all four locales. No extracted game
+asset was changed. See
 [`dialogue-context-sq15-revalidation-20261110.md`](dialogue-context-sq15-revalidation-20261110.md)
 for the evidence and proposed corrections.
 
@@ -776,9 +781,9 @@ campaign against the Tuatha. The NPC symbol and handler count do not map
 localization keys to speakers, callbacks, branches, or playback order.
 
 All 82 rows were revalidated against English, Japanese, Chinese, and active
-Korean. Five correction findings affecting nine IDs were recorded. All nine
-exact-English duplicate groups already match across all four locales. No
-Korean CSV was changed. See
+Korean. All five correction findings affecting nine IDs were applied and
+rechecked. All nine exact-English duplicate groups already match across all
+four locales. No extracted game asset was changed. See
 [`dialogue-context-sq69-revalidation-20261110.md`](dialogue-context-sq69-revalidation-20261110.md)
 for the evidence and proposed corrections.
 
@@ -1060,3 +1065,5 @@ for the evidence and full ID list.
 - All seven SQ58 correction-candidate IDs were applied and rechecked.
 - All 12 MQ05 correction-candidate IDs were applied and rechecked; its two
   register holds remain unresolved.
+- All 14 HP02 correction-candidate IDs were applied and rechecked; its
+  unresolved meaning reading at `33002` remains on hold.
