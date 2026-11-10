@@ -27,9 +27,14 @@ coverage.
 
 - `src/` contains immutable source CSVs and assets. Never edit, rename, move,
   or regenerate anything under `src/`.
-- `references/` is immutable research material. Only
-  `references/manual/` is intended for Git; the rest is Git-ignored. Do not
-  edit, rename, move, or add generated files anywhere under `references/`.
+- `references/` is read-only research material. Only
+  `references/README.md` and `references/manual/` are intended for Git; the
+  rest is Git-ignored. Do not edit, rename, move, or add generated files under
+  `references/`. The README may be updated to document the corpus.
+- `references/data/unpacked/` contains extracted game assets, including quest,
+  interaction, localization, and FaceFX resources. Inspect this corpus before
+  concluding that game assets are unavailable or asking the user to provide
+  them; use it for analysis without modifying anything under `references/`.
 - `work/zh_cn/` contains the active Korean working CSVs and audit materials.
   Edit these files, preserving the `zh_cn` keys, variants, order, and sidecars.
 - `work/ja_jp/` was deleted at the user's direction on 2026-10-14. Historical

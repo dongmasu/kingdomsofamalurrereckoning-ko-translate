@@ -8,12 +8,146 @@ changes, and validation for tag
 
 ## Current Status (2026-11-10)
 
+The latest dialogue-context checkpoint is 56 / 56 priority assets reviewed
+(100%), covering 5,208 unique IDs. The final `MQ01` / Encel main-quest review
+adds 267 IDs; its correction candidates and one unresolved reading are
+documented but were not applied to the Korean CSV. See
+[`dialogue-context-mq01-revalidation-20261110.md`](dialogue-context-mq01-revalidation-20261110.md)
+and the cumulative
+[`dialogue-context-group-index-and-revalidation-20261110.md`](dialogue-context-group-index-and-revalidation-20261110.md).
+The preceding `SQ55` / Aergase pass added 154 IDs and recorded 15 applied
+corrections with three unresolved findings; see
+[`dialogue-context-sq55-revalidation-20261110.md`](dialogue-context-sq55-revalidation-20261110.md).
+The latest follow-up rechecked 17 changed four-language fingerprints and
+recorded four Brio corrections and three SQ93 Font pairings as applied.
+The `SQ53` pass adds 131 IDs, six correction findings, and two unresolved
+readings; see
+[`dialogue-context-sq53-revalidation-20261110.md`](dialogue-context-sq53-revalidation-20261110.md).
+The preceding `SQ59` / Feride Ouet pass adds 191 IDs, eight correction
+findings affecting 11 unique IDs, and five unresolved readings; see
+[`dialogue-context-sq59-revalidation-20261110.md`](dialogue-context-sq59-revalidation-20261110.md).
+The earlier `MQ14` / Dannestar Island pass added 192 IDs, 11 correction
+findings affecting 17 IDs, and three unresolved register/address rows. See
+[`dialogue-context-mq14-revalidation-20261110.md`](dialogue-context-mq14-revalidation-20261110.md)
+for its record. Earlier counts below are historical checkpoints.
+
 The November 7 dialogue naturalness re-review covered all 65,135 `default`
 rows. On November 10, all 2,197 exact-English duplicate groups with divergent
 Korean text were source-checked; 3,567 row instances were changed based on
 English meaning, Japanese register, Chinese supporting evidence, and Korean
 naturalness. The three follow-up dialogue voice checks (`28819`, `64468`, and
 `12347`) are recorded in `translation-edit-addendum-20261109.md`.
+
+Dialogue-context metadata now includes a regenerable `default` ID-to-quest
+asset index and a per-ID revalidation ledger. The first seed covers 237
+reviewed IDs across Squire Brio, `TR06`, and `TR01`. The `FFQ80`, `SQ87`,
+`FFQ64`, `FFQ67`, `FFQ116`, `SQ126`, `FFQ35`, and `SQ79` passes add 17, 22,
+23, 27, 28, 111, 56, and 44 IDs respectively, bringing the ledger to 565
+unique IDs. The `SQ102` / Aluck pass adds 58 asset-linked keys; the `SQ93` /
+Nomeron pass adds 55. The `SQ100` / Esha, `SQ108` / Decanus Paige,
+`SQ116` / Drewn Ansilla, and `SQ117` / Malthon passes add 97, 128, 60, and
+42 keys. The `SQ118` / Zanvil Whit pass adds 51. The `FFQ60` / Brit Codgan
+pass adds 40 keys and two correction candidates. Coverage is now 18 / 56
+priority assets (32.1%), with 1,075 asset-linked keys and 1,096 unique
+ledger IDs. The `FFQ66` / Harriset Donnel pass adds 33 keys and four
+correction candidates, bringing coverage to 19 / 56 assets (33.9%), 1,108
+asset-linked keys, and 1,129 unique ledger IDs. The `SQ80` / Gorem Kane pass
+adds 36 keys and one terminology candidate, bringing coverage to 20 / 56
+assets (35.7%), 1,144 asset-linked keys, and 1,165 unique ledger IDs. SQ93 has 17 correction
+candidates and five unresolved findings, documented in
+[`dialogue-context-sq93-revalidation-20261110.md`](dialogue-context-sq93-revalidation-20261110.md).
+SQ102's ten correction candidates and one sentence-level hold are documented in
+[`dialogue-context-sq102-revalidation-20261110.md`](dialogue-context-sq102-revalidation-20261110.md).
+SQ100's five correction candidates and one unresolved finding are documented
+in [`dialogue-context-sq100-revalidation-20261110.md`](dialogue-context-sq100-revalidation-20261110.md);
+SQ108's eleven candidates are documented in
+[`dialogue-context-sq108-revalidation-20261110.md`](dialogue-context-sq108-revalidation-20261110.md).
+SQ116's eleven candidates are documented in
+[`dialogue-context-sq116-revalidation-20261110.md`](dialogue-context-sq116-revalidation-20261110.md).
+SQ117's six candidates and one unresolved reference are documented in
+[`dialogue-context-sq117-revalidation-20261110.md`](dialogue-context-sq117-revalidation-20261110.md).
+SQ118's ten candidates are documented in
+[`dialogue-context-sq118-revalidation-20261110.md`](dialogue-context-sq118-revalidation-20261110.md).
+FFQ60's two candidates are documented in
+[`dialogue-context-ffq60-revalidation-20261110.md`](dialogue-context-ffq60-revalidation-20261110.md).
+FFQ66's four candidates and one unresolved reading are documented in
+[`dialogue-context-ffq66-revalidation-20261110.md`](dialogue-context-ffq66-revalidation-20261110.md).
+SQ80's terminology candidate and asset-ID discrepancy are documented in
+[`dialogue-context-sq80-revalidation-20261110.md`](dialogue-context-sq80-revalidation-20261110.md).
+The `FFQ71` / Knave of Pride pass adds 34 keys and four findings, bringing
+coverage to 21 / 56 assets (37.5%), 1,178 asset-linked keys, and 1,199 unique
+ledger IDs. Its findings are documented in
+[`dialogue-context-ffq71-revalidation-20261110.md`](dialogue-context-ffq71-revalidation-20261110.md).
+The subsequent `SQ140`, `SQ143`, `SQ131`, `SQ145`, and `SQ68` passes add
+76, 90, 80, 38, and 40 keys respectively. Coverage is now 26 / 56 assets
+(46.4%), with 1,502 asset-linked keys and 1,523 unique ledger IDs. Their
+cross-language findings are recorded in
+[`dialogue-context-sq140-revalidation-20261110.md`](dialogue-context-sq140-revalidation-20261110.md),
+[`dialogue-context-sq143-revalidation-20261110.md`](dialogue-context-sq143-revalidation-20261110.md),
+[`dialogue-context-sq131-revalidation-20261110.md`](dialogue-context-sq131-revalidation-20261110.md),
+[`dialogue-context-sq145-revalidation-20261110.md`](dialogue-context-sq145-revalidation-20261110.md),
+and [`dialogue-context-sq68-revalidation-20261110.md`](dialogue-context-sq68-revalidation-20261110.md).
+The `TRSQ01` / Star Camp initiation pass adds 172 keys and ten correction
+candidates, with two unresolved source/title readings. Coverage is now
+27 / 56 assets (48.2%), 1,674 asset-linked keys, and 1,695 unique ledger IDs.
+See [`dialogue-context-trsq01-revalidation-20261110.md`](dialogue-context-trsq01-revalidation-20261110.md).
+The `TRSQ02` / Moon Camp pass adds 110 keys and nine correction candidates,
+with one unresolved address. Coverage is now 28 / 56 assets (50.0%),
+1,784 asset-linked keys, and 1,805 unique ledger IDs. Findings are recorded in
+[`dialogue-context-trsq02-revalidation-20261110.md`](dialogue-context-trsq02-revalidation-20261110.md).
+The `SQ150` / Lina Ardeen pass adds 61 keys, four correction candidates, and
+one unresolved English/Japanese meaning conflict. Coverage is now 29 / 56
+assets (51.8%), with 1,845 asset-linked keys and 1,866 unique ledger IDs.
+Findings are recorded in
+[`dialogue-context-sq150-revalidation-20261110.md`](dialogue-context-sq150-revalidation-20261110.md).
+The `SASQ01` / Idris Theonen pass adds 68 keys, eight correction candidates,
+and one unresolved English/Japanese reading. Coverage is now 30 / 56 assets
+(53.6%), with 1,913 asset-linked keys and 1,934 unique ledger IDs. Findings
+are recorded in
+[`dialogue-context-sasq01-revalidation-20261110.md`](dialogue-context-sasq01-revalidation-20261110.md).
+The `SASQ02` / Telemachus Rasp pass adds 31 keys and six correction
+candidates, including one direct speech-level mismatch. Coverage is now
+31 / 56 assets (55.4%), with 1,944 asset-linked keys and 1,965 unique ledger
+IDs. Findings are recorded in
+[`dialogue-context-sasq02-revalidation-20261110.md`](dialogue-context-sasq02-revalidation-20261110.md).
+The `SASQ03` / Jorum Quintus pass adds 68 keys, three correction findings,
+and two unresolved readings. Coverage is now 32 / 56 assets (57.1%), with
+2,012 asset-linked keys and 2,033 unique ledger IDs. Findings are recorded in
+[`dialogue-context-sasq03-revalidation-20261110.md`](dialogue-context-sasq03-revalidation-20261110.md).
+The `M0_SQ06` / Ratofer sale-quest pass adds 193 keys, seven correction
+findings, and three unresolved readings. Coverage is now 33 / 56 assets
+(58.9%), with 2,205 asset-linked keys and 2,226 unique ledger IDs. Findings
+are recorded in
+[`dialogue-context-m0-sq06-revalidation-20261110.md`](dialogue-context-m0-sq06-revalidation-20261110.md).
+The `SQ01` / Ainmhi pass adds 71 keys and ten correction findings affecting
+17 IDs. Coverage is now 34 / 56 assets (60.7%), with 2,276 asset-linked keys
+and 2,297 unique ledger IDs. Findings are recorded in
+[`dialogue-context-sq01-revalidation-20261110.md`](dialogue-context-sq01-revalidation-20261110.md).
+The `SQ02` / Kells Cafferty pass adds 213 keys and six correction findings
+affecting ten IDs. Coverage is now 35 / 56 assets (62.5%), with 2,489
+asset-linked keys and 2,510 unique ledger IDs. Findings are recorded in
+[`dialogue-context-sq02-revalidation-20261110.md`](dialogue-context-sq02-revalidation-20261110.md).
+The `HM01` / House of Ballads contest pass adds 216 keys, 15 correction
+findings affecting 18 IDs, and three unresolved source/context holds. Coverage
+is now 36 / 56 assets (64.3%), with 2,705 asset-linked keys and 2,726 unique
+ledger IDs. Findings are recorded in
+[`dialogue-context-hm01-revalidation-20261110.md`](dialogue-context-hm01-revalidation-20261110.md).
+The `KV03` / Ost Ordura pass adds 96 keys and six correction candidates.
+Coverage is now 37 / 56 assets (66.1%), with 2,801 asset-linked keys and
+2,822 unique ledger IDs. Findings are recorded in
+[`dialogue-context-kv03-revalidation-20261110.md`](dialogue-context-kv03-revalidation-20261110.md).
+The `KV07` / Gwyn Anwy pass adds 129 keys and eight correction findings
+affecting 11 IDs. Coverage is now 38 / 56 assets (67.9%), with 2,930
+asset-linked keys and 2,951 unique ledger IDs. Findings are recorded in
+[`dialogue-context-kv07-revalidation-20261110.md`](dialogue-context-kv07-revalidation-20261110.md).
+The `KVSQ02` / Khamazandu's Gift pass adds 59 keys and eight correction
+findings affecting 15 unique IDs, including a repeated sentence translated
+inconsistently across seven journal entries. Coverage is now 39 / 56 assets
+(69.6%), with 2,989 asset-linked keys and 3,010 unique ledger IDs. Findings
+are recorded in
+[`dialogue-context-kvsq02-revalidation-20261110.md`](dialogue-context-kvsq02-revalidation-20261110.md).
+Speaker and order links remain uncertain unless directly evidenced. See
+`dialogue-context-metadata.md` for the schema and validation commands.
 
 These scoped reviews do not establish exhaustive proper-name verification or
 comprehensive in-game validation. Heuristic proper-name verification ended at
