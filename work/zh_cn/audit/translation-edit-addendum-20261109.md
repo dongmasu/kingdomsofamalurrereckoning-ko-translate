@@ -93,3 +93,52 @@
 
 - Changed `default:14768` to `여긴 안 돼. 내가 정한 시간과 장소에서 만나자.`
 - English says Mythany will meet the player at the time and place she specifies; Japanese uses `ここではだめよ` and `会いましょう`, and Chinese confirms the same arrangement. The revised Korean keeps her direct but conversational tone, consistent with her informal speech at `default:2758`.
+
+## Victor's Brew name review - November 10, 2026
+
+- Searched all active Korean `default` rows and matching English/Japanese/Chinese sources for `Victor`, `Viktor`, and `빅터`. `Victor's Brew` occurs at IDs `8135`, `21338`, `32511`, `46789`, and `57870`; the distinct `Viktor Rowan` name occurs at `52663`. No identity between the drink's Victor and Viktor Rowan was inferred.
+- Added the missing full-name pairing `빅터의 맥주(Victor's Brew)` at `default:21338` and `빅터의 양조주(Victor's Brew)` at `default:57870`.
+- Retained `술` at `8135` and `32511`, and the existing `양조주` at `46789`. Earlier reviews left the Korean drink category unresolved: Japanese describes it as local brew, Chinese alternates between beer and liquor, and the English title alone does not settle the beverage type. No blanket terminology replacement was made.
+- Compared the full changed rows with same-ID English, Japanese, and Chinese. The casual shop-dialogue wording at `21338` remains conversational; `57870` is a standalone item label. IDs, row order, and line breaks were preserved.
+
+## Almere name review - November 10, 2026
+
+- Searched all 16 English `default` rows containing `Almere` and classified personal-name references separately from `Almere Valley` and other regional uses. Valley/region mentions and standalone `Almere` labels already have English pairings; the history entry at `62500` already pairs `Balforth Almere`, `Almere the Bold`, and `King Almere`.
+- Added the missing name pairings at `default:11614`, `19046`, `26184`, `31969`, and `39876`. At `11614`, paired both `King Almere` and `Almere the Bold`.
+- Corrected `default:31969`, where English `Almere` had been mistranslated as `Almain`; the sentence now identifies Almere as the person who unified the Almain tribes. At `19046`, rendered `Almere the Bold` as `대담한 알메르` rather than `용맹왕 알메르`, avoiding a redundant king label before the sentence's explicit `초대 왕`.
+- Checked the affected dialogue and letter against same-ID English, Japanese, and Chinese. Conversational register was retained at `11614` and `19046`, and the formal letter register at `31969` was unchanged.
+- The Korean corpus has pre-existing renderings `알메르`, `알메레`, and `알메어` for `Almere`. This pass added missing English spellings and corrected the clear `Almain`/`Almere` mix-up, but did not globally standardize Korean transliteration without an approved form.
+
+## Hexes card-rank consistency - November 10, 2026
+
+- Compared all 32 card-rank list/draw rows containing `Three`, `Four`, or `Five` against the same-ID English, Japanese, and Chinese sources. Standardized the Korean card names as `쓰리`, `포`, and `파이브`; this includes the full hand lists at `default:1866`, `15632`, `40020`, and `62621`, plus every individual draw, including `18669`, `18949`, and duplicate `62659`.
+- Corrected four `Deuce` draw lines that had used the numeral `2` (`default:15220`, `21156`, `28404`, and `60074`) to `듀스`; adjusted “낮은 수/숫자” to “낮은 패” where the line describes card rank. Kept dialogue register and surrounding phrasing ID-specific.
+- Retained the established card-game form `헥스(Hex)`. A final ID-scoped check found no numeric `2`, `3`, `4`, or `5` remaining in the reviewed card-rank rows. CSV data-row count, BOM, and mixed line endings were preserved; the line-ending helper tests and CRLF-aware diff check passed.
+
+## Asker name pairing review - November 10, 2026
+
+- Searched all active `base`, `default`, and `affix` Korean resources against matching English IDs for `Asker`. Excluded false matches such as `Tasker's` and `Vlasker's`; existing paired personal, place, and drink names were retained.
+- Added the missing place-name pairing at `base:4720` and `default:24693`, `32511`, `37091`, and `59561` as `애스커 골목(Asker's Alley)`. At `37091`, aligned the Korean place name with the established `애스커 골목` form while preserving the speaker's casual register.
+- Added the missing ale pairing at `default:19992` and `57530` as `아스커 에일(Asker's Ale)` and `애스커 에일(Asker's Ale)`, respectively, retaining the existing Korean forms.
+- Added the family/kinship pairings at `default:19677` (`애스커 형제(Asker brothers)`), `32354` (`아스커 형제(Asker brothers)`), and `37697` (`애스커 가문(The Askers)`). At `32354`, rechecked and refined the full sentence against English, Japanese, and Chinese: it now clearly says the narrator killed the person who could have helped the brothers remake their family's famous ale, and retains the regretful `죽이고 말았다` tone.
+- Confirmed the remaining active occurrences are already paired, including `Asker's Alley`, `Asker's Ale`, `Asker's Draught`, and named characters. No global transliteration replacement was made.
+- Rechecked card-game rows `default:15540`, `39735`, `45812`, and `55229` against English and Japanese: the matching card names remain `포`, `포`, `쓰리`, and `쓰리`, with duplicate English lines receiving identical Korean wording.
+
+## Merchant organizations and titles - November 10, 2026
+
+- Searched active `base`, `default`, and `affix` resources by English source ID for merchant organization names and representative-related wording. No matching `affix` entries were found.
+- Retained the established `상인 연합 대표단(United Merchants Delegation)` across its eight explicit occurrences (`base:280`; `default:3601`, `5583`, `24231`, `24419`, `36322`, `50048`, and `61625`).
+- Aligned the two standalone `Merchants Delegation` labels (`default:44939` and `47169`) to `상인 연합 대표단(Merchants Delegation)`. The exact English omits `United`, so the English parenthetical preserves that difference; Japanese renders both labels as `商人連合会`, and Chinese distinguishes the short and full English forms. The Korean alignment treats them as shortened labels of the same organization, not as evidence of a separate delegation.
+- Paired the member-group name `United Merchants` at `default:20910` and `30584` as `상인 연합(United Merchants)`, adjusting the surrounding Korean phrasing to identify the group's members naturally.
+- Paired the separate role title `default:5279` as `상인 대표(Chair Merchant)`. Japanese `商人長` and Chinese `商会主席` support the existing Korean title; it is not the same term as `representative`.
+- Paired distinct merchant organizations without conflating them with the delegation: `Merchant Circle` at `default:32207`, `Merchant's Guild` at `34647`, and `Alfar Merchant Navy` at `10882`, `11833`, `33861`, `41921`, `48723`, and `50340`.
+- At `default:10882`, kept lowercase generic `representative` as `대리인`; the English, Japanese, and Chinese describe a person hired for a task, not an organization name or formal title.
+- Compared changed rows against same-ID English, Japanese, and Chinese. Generic merchant/trader references and unrelated emissary uses were excluded.
+
+## Dustling terminology consistency - November 10, 2026
+
+- Reviewed all 90 `default` IDs whose English source contains `Dustling`/`dustling`, comparing the full Korean line with the same-ID English, Japanese, and Chinese. The references use the term for mortals, sometimes with a belittling tone; Japanese commonly uses `塵より生まれし者`, while Chinese sometimes uses `凡人` or `尘埃之子`.
+- Standardized the Korean headword to `더스트링(Dustling)` in all 90 rows. Eighty-five rows were edited; five already used that exact form (`50952`, `51221`, `51237`, `51658`, `56047`). Preserved each line's meaning and register, adjusted Korean particles to fit the consonant-final headword, and retained plural and attributive grammar.
+- Edited IDs: `628`, `824`, `2149`, `2519`, `5058`, `6420`, `6541`, `7796`, `8552`, `9063`, `9466`, `10852`, `11617`, `11649`, `11759`, `12880`, `14430`, `16176`, `16193`, `16295`, `16611`, `17156`, `18278`, `19758`, `21707`, `22592`, `22596`, `22704`, `22855`, `23394`, `23987`, `24098`, `24107`, `25164`, `25569`, `25785`, `25795`, `26113`, `26342`, `26958`, `27226`, `27339`, `28487`, `28698`, `29987`, `30422`, `32828`, `32944`, `33452`, `33888`, `34056`, `36482`, `36879`, `37991`, `40378`, `42538`, `43682`, `44300`, `44387`, `44793`, `45195`, `45451`, `45780`, `46922`, `47256`, `47387`, `48413`, `48887`, `49292`, `50768`, `51933`, `52385`, `52962`, `53286`, `54556`, `55362`, `57938`, `58513`, `59000`, `59419`, `59724`, `59972`, `64438`, `64730`, and `64876`.
+- Did not change English `Child of Dust`/`Children of Dust` rows in this Dustling-specific pass; they remain the separately phrased source term, generally rendered as `먼지의 자식/자손`.
+- Rechecked all 90 target rows after applying each edit by exact ID and expected prior text. No target row lacks `더스트링(Dustling)` or retains an earlier Dustling rendering. The default CSV retains all 65,135 records, BOM, ID order, non-text fields, and its existing 71,846 CRLF / 244 LF-only line-ending distribution; the 11 preservation-helper tests and CRLF-aware diff check passed.
