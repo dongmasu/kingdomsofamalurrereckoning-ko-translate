@@ -4,8 +4,11 @@ require 'csv'
 require_relative 'build-proper-name-inventory'
 
 root = File.expand_path('../../..', __dir__)
-glossary = CSV.read(File.join(__dir__, 'proper-name-glossary.tsv'), headers: true, col_sep: "\t")
-occurrences = CSV.read(File.join(__dir__, 'proper-name-occurrences.tsv'), headers: true, col_sep: "\t")
+# These generated tables use CRLF record separators; quoted evidence may contain LF.
+glossary = CSV.read(File.join(__dir__, 'proper-name-glossary.tsv'),
+                    headers: true, col_sep: "\t", row_sep: "\r\n")
+occurrences = CSV.read(File.join(__dir__, 'proper-name-occurrences.tsv'),
+                       headers: true, col_sep: "\t", row_sep: "\r\n")
 keys = {}
 categories = ['person', 'place', 'faction', 'organization', 'people', 'item', 'deity', 'monster', 'skill', 'quest', 'unique item', 'named work', 'title', 'lore term', 'named event', 'creature', 'resource', 'gameplay mechanic']
 glossary.each do |entry|

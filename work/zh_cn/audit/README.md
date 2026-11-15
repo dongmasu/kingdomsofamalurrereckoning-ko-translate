@@ -9,6 +9,17 @@ groups, and current exceptions. Legacy paths in this directory are
 compatibility links; dated findings, review ledgers, edit manifests, and
 scripts remain audit materials.
 
+## Locksmith Terminology Review (2026-11-16)
+
+Person/occupation uses of `locksmith` are standardized as `자물쇠공`, with
+`자물쇠 장인` reserved for explicit master-craftsman wording. Establishment
+lists and premises labels remain separate. The standalone occupational label
+at `default:24621` is supported by the Chinese and Japanese sources. Three
+`Locksmithing` labels retain `자물쇠 따기`, supported by Japanese and the
+game-context distinction from `Lockpicking`; Chinese `制锁` conflicts and is
+recorded. See the
+[`locksmith term review`](locksmith-term-review-20261116.md).
+
 ## Latest Release Snapshot (2026-11-15)
 
 `release-20261115.md` records the verified package, checksum, selected
@@ -4466,9 +4477,12 @@ details in the corresponding audit record.
    the superseded release.
 2. `## 설치`: three numbered steps (extract the ZIP, run
    `RunKoreanPatch.bat`, then select `Chinese Simplified` and note `zh_cn`).
-3. `## 검증 및 참고`: concise validation results and baseline version
-   `cs:15032`. Do not add boilerplate saying Windows installation or
-   in-game validation was not performed.
+3. `## 검증 및 참고`: concise positive validation results and baseline
+   version `cs:15032`. Never state that Windows installation or in-game
+   validation was not performed, that no new check was run for this build,
+   or use equivalent negative-test boilerplate. Do not infer that gameplay
+   validation is absent just because a separate release-build test was not
+   recorded. Keep detailed test scope in the internal audit record.
 4. End with `ZIP SHA-256: \`<digest>\``.
 
 Do not add a separate package inventory, input-hash table, or duplicate
@@ -4476,6 +4490,8 @@ English translation to the public release body. Keep detailed audit data in
 the corresponding `release-YYYYMMDD.md` record. The record may be bilingual,
 but must preserve the same Korean-first language policy. English-only release
 notes are not allowed.
+Do not revise existing release notes retroactively unless explicitly
+requested.
 
 
 ## D-21656: Enfamanir Creature And Separate Ballad Title

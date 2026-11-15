@@ -14,8 +14,52 @@ OUTPUT_HEADERS = %w[
   resource ID_Linha Tipo_Variante en_texts_json ja_texts_json zh_text work_text
 ].freeze
 
+def normalize_record_separators(text)
+  output = String.new(capacity: text.bytesize, encoding: Encoding::BINARY)
+  quoted = false
+  field_start = true
+  index = 0
+
+  while index < text.bytesize
+    byte = text.getbyte(index)
+    if quoted
+      if byte == 34
+        if text.getbyte(index + 1) == 34
+          output << text.byteslice(index, 2)
+          index += 2
+          next
+        end
+        quoted = false
+      end
+      output << byte
+    elsif byte == 34 && field_start
+      quoted = true
+      field_start = false
+      output << byte
+    elsif byte == 59
+      field_start = true
+      output << byte
+    elsif byte == 10
+      field_start = true
+      output << 10
+    elsif byte == 13 && text.getbyte(index + 1) == 10
+      field_start = true
+      output << 10
+      index += 1
+    else
+      field_start = false
+      output << byte
+    end
+    index += 1
+  end
+
+  output.force_encoding(text.encoding)
+end
+
 def read_rows(path)
-  rows = CSV.read(path, headers: true, col_sep: ';', encoding: 'bom|utf-8')
+  text = File.read(path, encoding: 'bom|utf-8')
+  rows = CSV.parse(normalize_record_separators(text),
+                   headers: true, col_sep: ';', row_sep: "\n")
   headers = rows.headers
   required = %w[ID_Linha Texto]
   missing = required - headers

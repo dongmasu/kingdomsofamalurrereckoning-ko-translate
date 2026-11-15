@@ -8,6 +8,22 @@ tag as the unique machine identifier; do not add the release time or locale
 to the display title. When correcting older titles, preserve their tags,
 assets, and release notes.
 
+## Public Release Note Gate
+
+- Follow the release-body format and content policy in
+  `work/zh_cn/audit/README.md`.
+- Describe user-relevant changes and validations that were performed. Do not
+  say that Windows installation or in-game validation was not performed, that
+  no new test was run for the release, or use equivalent negative-test
+  disclaimers. Do not infer that gameplay validation is absent merely because
+  a separate release-build test was not recorded.
+- Keep detailed test scope and limitations in the internal release audit, not
+  as a public disclaimer.
+- Before publishing, search the complete release body for `검증하지`,
+  `수행하지`, `새로 수행`, `not tested`, `not performed`, and equivalent
+  wording. Review every match and confirm the public note contains no
+  unperformed-test disclaimer.
+
 ## Latest Release: 2026-11-15
 
 - Official tag: `KingdomsOfAmalur_Korean_zh_cn_20261115225143`.

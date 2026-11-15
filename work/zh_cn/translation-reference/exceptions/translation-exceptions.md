@@ -6,6 +6,82 @@ accepted sentence edit. Full evidence and routine edit history remain in
 `work/zh_cn/audit/`. Entries below state whether a decision is confirmed,
 working, or unresolved; do not promote a scoped example into a global rule.
 
+## Key-Scoped Dialogue Wording
+
+**`Locksmithing` labels (`default:59325`, `62108`, `63755`):** Keep
+`자물쇠 따기` for these three game-context labels. Japanese `開錠術` and the
+game's separate `Lockpicking` labels (`開錠` / `开锁`) support the
+lock-opening reading. Chinese `制锁` suggests lockmaking and conflicts; retain
+that discrepancy as source evidence, not as a reason to change the Korean.
+This scoped choice does not apply to the craft/product wording at
+`default:47902`, which remains `자물쇠 제작품`. See the
+[full locksmith terminology review](../../audit/locksmith-term-review-20261116.md).
+
+**Establishment-list sense of `locksmith` (current scope: `default:11842`,
+`14712`, `15506`, `37598`, `39425`; originating decision D-4462):** Use
+`자물쇠공방` when `locksmith`
+is one of the welcoming services/places listed with an inn, trader, and
+sanctuary. The wording at `default:14712` was explicitly approved by the
+user; the four same-sense occurrences were aligned by changing only this
+term and preserving their distinct sentence voice. At `default:14712`, also
+use `여관이든 상점이든 자물쇠공방이든 성소든, 지친 여행자라면 누구나
+기꺼이 환영합니다.` with the preceding sentence `그래도 치료가 필요하다면
+제가 도와드리죠.` This is a scoped venue sense, not a global translation
+for `locksmith`; person/occupation, premises, craft, and skill uses remain
+separate. See the [full sense classification and occurrence review](../../audit/locksmith-term-review-20261116.md)
+and the [14712 edit record](../../audit/translation-edit-default-14712-20261116.md).
+
+**Person and occupation sense of `locksmith` (approved 2026-11-16):** Use
+`자물쇠공` for a locksmith as a worker or occupation. Use `자물쇠 장인` when
+the source explicitly says `master locksmith`; do not add the artisan/master
+nuance to ordinary `locksmith` references. Possessive premises remain
+`자물쇠공의 집` or `자물쇠공의 연구실`. The related titles `Lockmaster
+Tarion` (`default:33969`) and `Lockmaster Jorielle` (`default:41572`) remain
+`자물쇠 장인`, supported by their own Japanese and Chinese evidence. At
+standalone `default:24621`, Chinese `锁匠` and Japanese `鍵鍛冶屋` support the
+person/trade reading; the existing `자물쇠공` is retained. Do not apply
+these forms to the service-list venue, craft/product, or the scoped
+`Locksmithing` lock-opening labels. See the
+[full locksmith terminology review](../../audit/locksmith-term-review-20261116.md).
+
+## Plain Wording for Forging
+
+For the 80 keys reviewed at the user's request, replace difficult `벼리다`
+forms with familiar wording appropriate to the sentence, such as `만들다`,
+`제작하다`, or `다듬다`. This is not a blanket translation of English
+`forge`: distinguish crafting, honing, and figurative uses by context.
+The affected keys and duplicate groups are recorded in the
+[review](../../audit/forge-plain-language-review-20261115.md).
+
+## Fate and Destiny
+
+**Approved under D-21882 (2026-11-16):** Translate the standalone English
+term `Fate` as `운명` and `Destiny` as `숙명`. Apply the distinction to the
+source term in context; do not replace every Korean `운명` in a row merely
+because that row also contains `Destiny`. When both occur, preserve both
+meanings separately. Japanese `運命`/`宿命` supports the distinction; Chinese
+is supplementary evidence.
+
+Use `운명의 서(Codex of Fate)`, `숙명의 서(Codex of Destiny)`, and
+`숙명의 돌(Destiny Stone)`. This wording distinction does not establish
+whether the two Codex names refer to the same physical object. The gameplay
+term `Destiny`, including its type and tier labels, uses `숙명`. For
+`affix:304` (`of Destiny`), use `*숙명*` in all six active variants and
+preserve the asterisk delimiters.
+
+Use `운명` for the gameplay concept `Fate`, but do not force it onto every
+ordinary English use of `fate`: translate by sense, such as `운세` for
+`fate-reading` or `행방` for learning what happened to someone. Keep
+established compounds distinct rather than normalizing them to `숙명`:
+`Fateweaver` is `페이트위버`, `Fateless One` is `운명 없는 자`, and the
+named practice `Fateweaving` is `운명 엮기(Fateweaving)`. Other established
+names such as `Twists of Fate`, `Essence of Fate`, and `Tapestry of Fate`
+retain their own glossary forms. This decision supersedes only the Korean
+terminology in D-21512 (`Codex of Destiny`) and D-21736 (`Destiny Stone`);
+their historical records remain unchanged. The scoped cross-resource
+application and mixed-source exceptions are documented in the
+[Fate/Destiny terminology review](../../audit/fate-destiny-terminology-review-20261116.md).
+
 ## Alfar Lineages
 
 **Approved:** `Alfar` is `알파르`; the derived races are `Dokkalfar =
@@ -347,7 +423,7 @@ and [2026-10-26 bonus-fragment review](../../audit/translation-edit-addendum-202
 | `Health` / `vitality` | Render the numeric `Health` attribute as `체력`; lowercase `vitality` may mean general life/healthiness and is `활력`. `default:20690` uses `체력`, while `default:39166` was explicitly retained as `활력`; do not collapse the terms. | [Health terminology](../../audit/translation-edit-addendum-20261106.md#health-terminology-and-cora-banick-dialogue). |
 | `base:891:11` (`Lorestone`) | Use `로어스톤` for this generic collectible/category label, following D-133. D-21766's `not-an-issue` disposition covered entity registration and deferred lexical consistency; this entry does not register an entity or settle every `Lorestone` occurrence. | [Decision register](../../audit/decision-register-20261009.md); [D-21766 dispositions](../../audit/proper-name-short-label-dispositions-D21766.tsv); [application review](../../audit/lua-corpus-translation-application-20261115.md). |
 | Health/Mana absorption | Use `생명력 흡수 공격`, `마나 흡수 공격`, and flat `적중당 생명력/마나 흡수량 +N` for the reviewed effects. Do not add `%` based only on Japanese when English and Chinese give flat values. | [Effect terminology](../../audit/translation-edit-addendum-20261103.md#health-and-mana-absorption-effects). |
-| `Fateweaving` | Use `운명 엮기(Fateweaving)` for the named practice/service, but retain a descriptive translation for `default:40909`, where fate threads are literally weaving around a target. Do not conflate it with the practitioner `Fateweaver`, the `Order of Fateweavers`, generic `운명의 속박`, or the named action `Unbind Destiny`. | [Occurrence review](../../audit/translation-edit-addendum-20261103.md#fateweaving-occurrence-review); [term distinctions](../../audit/fateweaver-fateweaving-binding-terms-20261110.md). |
+| `Fateweaving` | Use `운명 엮기(Fateweaving)` for the named practice/service, but retain a descriptive translation for `default:40909`, where fate threads are literally weaving around a target. Do not conflate it with the practitioner `Fateweaver`, the `Order of Fateweavers`, generic `운명의 속박`, or the named action `Unbind Destiny` (`숙명의 속박 풀기`). | [Occurrence review](../../audit/translation-edit-addendum-20261103.md#fateweaving-occurrence-review); [term distinctions](../../audit/fateweaver-fateweaving-binding-terms-20261110.md); [Fate/Destiny terminology review](../../audit/fate-destiny-terminology-review-20261116.md). |
 | Named `Brother` / `Father` titles | The reviewed forms are `이름 수사(Brother Name)` and `이름 신부(Father Name)`. `default:16993` is the explicit exception `옥티엔 형제(Brother Octienne)`: he is a fellow Templar, not identified as a monk. Bare `Brother`, actual siblings, and unsupported fellowship uses are excluded. | [Title review](../../audit/translation-edit-addendum-20261103.md#brother-and-father-titles). |
 | `Developer Relations` at `default:10426` | Use the industry role label `DevRel`, not the literal `개발자 관계`. This exact-key decision supersedes the earlier unresolved “retain or translate” disposition; it does not establish a translation for other uses of `developer relations`. | [Lua-assisted localization review, November 15](../../audit/lua-script-extraction-and-reencoding-20261115.md#translation-evidence-and-scoped-updates); [Toss Tech usage](https://toss.im/career/article/53401). |
 | `Security Analyst` at `default:18413` | Use `보안 분석가`, following the English meaning and the Japanese row, which retains `Security Analyst`. The Chinese `证券分析师` means a securities analyst and is a conflicting supporting translation; do not generalize this key-specific discrepancy to other uses of `security`. | [Four-language credit-label revalidation, November 15](../../audit/lua-script-extraction-and-reencoding-20261115.md#four-language-revalidation-of-the-16-credit-labels). |
@@ -405,6 +481,7 @@ component name are not interchangeable annotation units.
 | --- | --- | --- |
 | `4710`, `40132` | Both English labels are `Mine`, but Japanese distinguishes `鉱山` / `地雷`; retain the current `광산` / `지뢰` difference rather than blindly unifying the group. `40132`'s intended meaning is still explicitly held despite Japanese support; `지뢰` is provisional, not a newly approved disambiguation. | [Reconciliation, November 14](../../audit/dialogue-context-40000-40249-candidate-reconciliation-20261114.md). |
 | `1029` | Retain collective `고리(Ring)` under D-20388, reconfirmed without a CSV edit by D-21790. Generic equipment rings remain `반지`; the group name does not redefine the item type. | [Ring short-label review, October 18](../../audit/named-scope-edit-addendum-D21790-20261018.md). |
+| `Lorestone` / `Lorestones` | Use the generic game-term translation `로어스톤` in `base` and `default`, including plural occurrences. Do not register the collectible as a proper-name entity or force an English parenthetical into every sentence. Keep named Fae Cairns distinct. | [Terminology reconciliation, November 15](../../audit/terminology-consistency-20261115.md); [D-21766 scope](../../audit/named-scope-edit-addendum-D21766-20261018.md). |
 | `40927`; `37577` | At `40927`, the named magical spring is `샘(The Font)` while generic `fountainhead` in the same sentence remains `원천`. Do not extend the proper name to `37577`: lowercase English `font`, Japanese spring, and Chinese holy-water vessel leave that referent unresolved. | [Named-spring correction, November 15](../../audit/dialogue-context-40750-40999-candidate-reconciliation-20261115.md); [generic-font hold, November 12](../../audit/dialogue-context-default-37500-37749-revalidation-20261112.md). |
 | `27487`, `27492` | These source-confirmed creature references use `스프라이트(Sprite)`, not generic `요정`. This does not identify every fairy-like being as the same creature type. Preserve the row-specific pool/capture history and the Flowering rite's birth/return details. | [Creature-term confirmation, November 14](../../audit/dialogue-context-27250-27499-candidate-reconciliation-20261114.md). |
 
@@ -418,7 +495,7 @@ decision for this key only; do not extend `밴드` to every `Band`.
 
 | Reviewed scope | Decision and limits | Audit record |
 | --- | --- | --- |
-| Damage-type terminology | Distinguish `화염 피해(Fire Damage)` / `화상 피해(Burning Damage)` and `번개 피해(Lightning Damage)` / `감전 피해(Shocking Damage)`. The `Shock enemies when Blocking` effect at `default:22676` is a separate action/effect, not another damage-type label. | [81-row damage review, November 3](../../audit/damage-type-consistency-20261103.json). |
+| Damage-type terminology | Use `물리 피해` (Physical), `관통 피해` (Piercing), `화염 피해` (Fire), `냉기 피해` (Ice), `번개 피해` (Lightning), `독 피해` (Poison), and `출혈 피해` (Bleeding). Additional types are `화상 피해` (Burning), `빙결 피해` (Freezing), and `감전 피해` (Shocking). Preserve distinctions between base damage types and their additional effects. Ordinary fire damage to property, such as `default:4787`, is not the combat type Fire Damage. `Shock enemies when Blocking` at `default:22676` is a separate action/effect, not another damage-type label. | [All ten types, November 15](../../audit/terminology-consistency-20261115.md); [81-row parenthetical review, November 3](../../audit/damage-type-consistency-20261103.json). |
 | `default:29062`, `23521` | The +1 bonus increases the level of each already acquired ability in ability-tree tiers 1-2; it does not increase the tree tier or only an ability's first two levels. Keep `힘(Might)` / `마법(Sorcery)` categories distinct. | [Effect review, November 3](../../audit/item-effect-consistency-20261103.json). |
 | `default:27214`, `39322`, `43871`, `47260` | Temporary when-attacked freeze/shock/burn effects grant a fixed probability; do not recast them as an increase to an existing probability. Retain each key's own value and trigger. | [27214](../../audit/edit-batch-20261011-addendum.md), [other three dispositions](../../audit/edit-batch-20261010-addendum.md). |
 | Reviewed Destiny-card stats | Use stat-first ordering. Absolute evasion/stun probabilities retain their percentages without an invented `+`. `Stun Duration` is `기절 지속 시간`, distinct from stun probability; `Damage While in Stealth` is `은신 중 피해량`, not stealth duration. The unused `39387` retains `[사용 금지]`. Exact stat and follow-up ID lists remain in the linked decision. | [Stats and omission follow-up, October 27](../../audit/translation-edit-addendum-20261025.md#destiny-card-stat-omission-follow-up-2026-10-27). |
