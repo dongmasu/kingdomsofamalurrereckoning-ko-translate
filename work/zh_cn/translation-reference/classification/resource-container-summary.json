@@ -1,0 +1,288 @@
+{
+  "batch_files": 11,
+  "batch_records": 53384,
+  "batch_sha256": {
+    "134225858_ksmt.batch": "09dff529684d2deef530a418c11b0729fedb6b89f85e61cdd84f04f18942268c",
+    "134227287_fact.batch": "32c2bb90241d38ec5a039a1babde9f11941eab3729a92988a393a96819ad9d7b",
+    "134230570_klua.batch": "cbdc0df0ca67b53e281a18322f49c4e914e19fe368f1cf2deda1eab27ac9b16c",
+    "134319395_ktal.batch": "4f14973a828647b44b4e5803df2519ad5cba5b9a9f106a6199e11ed1fa0413c9",
+    "134372811_kgor.batch": "a588556bc2c70d1a62bbf0f1bd3bf13280e64ea26b884338bbf55fdca375ab30",
+    "134377515_colp.batch": "7b3b072b5e311145232a923e78d017175913c4bcca9017484529fcd91985bd07",
+    "134415964_inac.batch": "acf0f1d0c3d362319b74d5c1bffe2553eea8ead7fabf094c609d9657d6313d2e",
+    "134431475_kbuf.batch": "8e3b4e09a713cb0375364db8a1177e2b8214a9700a3be029b713937e5e2b54e8",
+    "134571130_loot.batch": "310fd275cd882b93e1a774f7b3fa80973781bab84622f654a46138c937c27f51",
+    "134619123_kmog.batch": "58d07ac2651af42b243518a9b627561ee5d9198ad74f7c8da7ed357cccc69263",
+    "134836660_kvtp.batch": "9a9312a0f057dd61da87cf227c19bc3698ecf4db6590ef87d820011010b5889d"
+  },
+  "bxml_exact_batch_links": 827,
+  "bxml_families": {
+    ".anm_bxml": {
+      "files": 5,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".behavior_tree_bxml": {
+      "files": 33,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".cinematic_bxml": {
+      "files": 1,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".cinematicscene_bxml": {
+      "files": 2,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".collision_profile_bxml": {
+      "files": 6,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".encounter_bxml": {
+      "files": 3,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".fab_bxml": {
+      "files": 490,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".facefx_quest_bxml": {
+      "files": 53,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".faction_bxml": {
+      "files": 6,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".ftl_bxml": {
+      "files": 19,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".interaction_bxml": {
+      "files": 517,
+      "files_with_lua": 226,
+      "payloads": 228
+    },
+    ".itemset_bxml": {
+      "files": 6,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".loottable_bxml": {
+      "files": 263,
+      "files_with_lua": 105,
+      "payloads": 1727
+    },
+    ".lore_bxml": {
+      "files": 195,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".mat_bxml": {
+      "files": 33,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".mtns_bxml": {
+      "files": 14,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".partset_bxml": {
+      "files": 2,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".path_set_bxml": {
+      "files": 228,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".quest_bxml": {
+      "files": 530,
+      "files_with_lua": 269,
+      "payloads": 3407
+    },
+    ".region_bxml": {
+      "files": 464,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".space_bxml": {
+      "files": 393,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".talent_bxml": {
+      "files": 27,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".ui_bxml": {
+      "files": 39,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".vignette_bxml": {
+      "files": 23,
+      "files_with_lua": 0,
+      "payloads": 0
+    },
+    ".voice_type_bxml": {
+      "files": 8,
+      "files_with_lua": 0,
+      "payloads": 0
+    }
+  },
+  "bxml_files": 3360,
+  "bxml_files_with_lua": 600,
+  "bxml_lua_payload_bytes": 3162150,
+  "bxml_lua_payloads": 5362,
+  "bxml_payload_family_combinations": {
+    ".interaction_bxml": 188,
+    ".interaction_bxml;.quest_bxml": 2,
+    ".loottable_bxml": 457,
+    ".quest_bxml": 1410
+  },
+  "bxml_payloads_with_default_key_matches": 0,
+  "bxml_repeated_payload_hash_groups": 500,
+  "bxml_unique_payload_hashes": 2057,
+  "init_sha256": {
+    "ability_init.bin": "2faa3abd35ee5b983058dc249aa6eb617c36995b89a0cb86c572cf51f6e4e888",
+    "animation_init.bin": "9778a2f1b95bddf0ced95ee011d33e374301e8ca3a83f0ea5613f045721f8959",
+    "behavior_init.bin": "0740e043f8cf75df1bcf40ba83316a98c580dd7feb233df6f2da25d6d1cac226",
+    "behaviortree_init.bin": "93fe9cbfe861bafe721bbc3aecfe6014bca18bdaa744168c4b2fb80c7df66809",
+    "buff_init.bin": "895b7dd05862794908c1b1874a5c71d47bdef2d70dbcf2c149186e8e8bad05f2",
+    "cinematic_init.bin": "65cc0213f7c3ede056ae09a1c8d6e7f9f3596c4c84cbbbbf40a8b71b14423e8c",
+    "cinematic_scene_init.bin": "96a6fb4a0707c06940d821ff0aa66bc91c56b40d29ca1243f8b1f36e9d14677b",
+    "cluster_init.bin": "e81fd6c18e0cbcb84fb3cbecf0d4bb2bd12f25bd23e32bd94c393348b564d4e4",
+    "collision_profile_init.bin": "6b6c1205c3f3564047e6d432c2a8887eda27e46a060360612086d4b71ea73852",
+    "collisionset_init.bin": "84572d44af7c9fe77bb4a5f3866842b49c081ee142627bc5a6f82e83a7d0a374",
+    "dialog_topic_init.bin": "6ff802d2aea9408aeea643f5b8b8c3b82e83852aa4510dde4ade8e8a6415f458",
+    "encounter_init.bin": "4a85d97784e84ad8958e4e267bce3bfb1b68a76ef433eaa78256617e78ac7eb8",
+    "fab_init.bin": "08c6413483f59312e144802909f80f991f6305b49f14e089d0138db6a8ea8ee9",
+    "faction_init.bin": "c95611d8d066f68af9bf8323f2a5b60b04838b1fc19fd3021d36b4c62c49083c",
+    "globalobjectref_init.bin": "7921952140b7754a815cd63f7949cf3bd16e8720dcac6a8217572a2a572909fa",
+    "interaction_init.bin": "ec5451fbec60f754d0705ccf7f549c85479d40adfc9ce13b3633802e4c37931c",
+    "itemset_init.bin": "d3f69f884f59d0a7783e2e3650b4cd064271d2a4986b1261e4878bcaa14641b4",
+    "loottable_init.bin": "88995433c43a1c85d141f9aed0ca8922076e3f10954829f9aef948e25c58b2d5",
+    "lore_init.bin": "fc7f67a28c9838304626e926658e2ef37b6c1864beecd49118f3e3547e17dbb4",
+    "luascript_init.bin": "03bf4bb7a1a062dcf06b63623293936f1229103cfbcd3bafa4b5ee6ba5762dc6",
+    "material_init.bin": "28acbbfbee9eda5bb87d61f5813028146489b011d446057980be9889205a8e84",
+    "monstergroup_init.bin": "f5ed934810f464c0274e737b007e8560e89341b1412b5f9dd3994bea61c5e330",
+    "motionset_init.bin": "62557ded22d074aff7b4462593cfc09dec103dc2821432640e58abf8f7d93a42",
+    "pathset_init.bin": "07b6f7f7c203de785ca732d8a8553c58ac0e7b7da892cc2d6bc4c229868edfd9",
+    "quest_init.bin": "f505901da097bf08feeed27a58a15932f9f1d2b994cfe28dc44ef0189a114c55",
+    "region_init.bin": "3c48ead4dd92ec27f84076a66e4b46cfe439cc62775bcc97c99ebb3499d37434",
+    "simspace_init.bin": "27c51301058054e123240f1c1226d69dff2b99aaf841f6140bf363dede5d9a30",
+    "simtype_init.bin": "f2ffea0d64039f5e05f53d103ca60d2f077404cad8398bfc3dfe13258c954edf",
+    "talent_init.bin": "eaa410ba5eb0ccc3b33dd9f9d37a75e96d28ddf3421702e865ddd2b97cedd0fa",
+    "terrain_init.bin": "b30dc760b5a1027a5774f674538fce24c6b5d7e93e34a39316695d0377a15201",
+    "texture_init.bin": "357ac5212af2b418940db3f7eafec55e08d1efdf2f62d1fd257a3ebee1c8d0c4",
+    "uixml_init.bin": "cb0e85390251c0fb03282b7899952401d5c85cbe1211675b9be27f6473e686bb",
+    "vignette_init.bin": "a4134c36b35f85b2dc48c7b4146e8240b651e8f2c080b27282a7f2a16df6b846",
+    "voicetype_init.bin": "19394f8ca4985d9cd32dacaba99ae6ec299e9af4e836ec0bc7184cdbb191a6db"
+  },
+  "key_sidecar_sha256": "c79edacba7fe2a6d155156d484716e372f91cddfcc7db2e8eabd3731d7ad11cf",
+  "limits": [
+    "Lua-family envelope and type-table parser only; no opcode decoding",
+    "Printable runs are not parsed constants or confirmed API calls",
+    "Serialized script string references have no established runtime semantics",
+    "Asset and script associations do not establish speaker or playback order"
+  ],
+  "lua_header_hex": "1b4c756151080004040404010100",
+  "lua_record_name_casefold_disagreements": [
+    {
+      "id": 2150032,
+      "record_name": "AO_EncTest_01",
+      "registry_name": "ao_test_enc_01"
+    },
+    {
+      "id": 2150034,
+      "record_name": "AO_PlateTest_01",
+      "registry_name": "ao_test_plate_01"
+    },
+    {
+      "id": 2601428,
+      "record_name": "chaos_rift_enemy",
+      "registry_name": "chaos_rift_enemy_horrinox"
+    }
+  ],
+  "lua_record_names_casefold_only_matches": 2832,
+  "lua_record_names_casefold_registry_matches": 3663,
+  "lua_record_names_exact_registry_matches": 831,
+  "lua_script_records": 3666,
+  "lua_serialized_string_references": 1987,
+  "lua_type_names": [
+    "TNIL",
+    "TBOOLEAN",
+    "TLIGHTUSERDATA",
+    "TNUMBER",
+    "TSTRING",
+    "TTABLE",
+    "TFUNCTION",
+    "TUSERDATA",
+    "TTHREAD",
+    "TIFUNCTION",
+    "TCFUNCTION",
+    "TUI64",
+    "TSTRUCT"
+  ],
+  "quest_script_links": 529,
+  "quest_script_name_disagreements": [
+    {
+      "asset": "4000137.quest_bxml",
+      "quest_name": "sq_ao_12_test",
+      "script_id": 2600200,
+      "script_name": "main_ao12_wip"
+    }
+  ],
+  "quest_script_zero_values": 1,
+  "registry_sha256": {
+    "symbol_table_ability.bin": "ad5c07cde7768b4e1ec30e94ca397e7864d86951c8a80bfbc9c318fef1283ae3",
+    "symbol_table_animation.bin": "dc0c7f70138ff07952ca0bcac548533327144513fe5cd40cc23255794456117c",
+    "symbol_table_behavior.bin": "872b58f3b621225de593f482e5c82950a7b52593a743089d936d066c84253cfa",
+    "symbol_table_behaviortree.bin": "4f18209e82ce01dd443b155ed275c0561b76866ed7e10ed865791529a9b41992",
+    "symbol_table_buff.bin": "0f352bdf3aa513cd881251571ca3eb0509005b095abe49deaae9d87af54d99a9",
+    "symbol_table_cinematic.bin": "3cdc752b87c3834bc6bb5e4074812a4187d9613943a31995bbfd3a3305bab14f",
+    "symbol_table_cinematic_scene.bin": "ffc586815a8754b625347a5010d38c0a7b7590b27d792463d88b38391efe22a9",
+    "symbol_table_cluster.bin": "c49c64b6b24880ef0cb61363920d0e75cfdb8c192fab2bca9baed81760244aea",
+    "symbol_table_collision_profile.bin": "cfb1acfaa4760072fa061fe36ffb03a81d9701d8b1aaee9583504f479149cd1a",
+    "symbol_table_collisionset.bin": "f9c638beddec7ae28a8897135f45a109cc702be41314804a73e40d1c5c1b5f72",
+    "symbol_table_dialog_topic.bin": "d88ff4e084ec356ff1e149eed17191117e74d13b4ce2de74a7fcd1f71787435d",
+    "symbol_table_encounter.bin": "393a760001264aaf6156e7d031c3c1b625963f542abfa062b6472ae060c0703b",
+    "symbol_table_fab.bin": "5d6fc52fce794c0d609754afab4dda3a3dcd56e3f150ec190d57d0463d72368d",
+    "symbol_table_faction.bin": "4f9e1654002f233d997044e1a5a12330b4e70e33fc59ce6057cc64f80252f63e",
+    "symbol_table_globalobjectref.bin": "e8586a7db4b15a8d14f8bb2760117cf9173566ed7bbdbfd2188fb3bf390b1280",
+    "symbol_table_interaction.bin": "bf9eb64f959111b46b0ce6fc1bacb2b80147685e25b9cf46292b7e2a7a5dc313",
+    "symbol_table_itemset.bin": "d710b8262105d3a60ed275ba2918aa08dd93ea2e2376719b663be33e4fa1a3a6",
+    "symbol_table_loottable.bin": "3fcad7a838c8b5e02421b29426ed4bc533219a2336baefdcc39081f491945103",
+    "symbol_table_lore.bin": "01cd5f63e13d09ac8e670de97ee6819edc5a73c70a1a1aa1157241e1940e3c38",
+    "symbol_table_lua_script_path.bin": "b76cdfb0d8d6726fa7136fb3e5cd48ceccc9bb07b703968221f9b1f4051eba26",
+    "symbol_table_luascript.bin": "66ce816999ce8d3608d30b7e850386f3f34f667064e69e813497e58d5504523c",
+    "symbol_table_material.bin": "88cf349c9054f06936abfe669f9d6ba861b21c0500594f4a846ff2f919aeaa55",
+    "symbol_table_monstergroup.bin": "1e3a979ef5170f714a7b2a19be930c0486c5fa84dbd9cacdcd43a8eb2d425ad5",
+    "symbol_table_motionset.bin": "9331bc43e3d5fa7590aa7ee4e3037557f524b081450d207d444d0dfbf71b573c",
+    "symbol_table_pathset.bin": "89f6a350c9f95a883a0e2ce1ea185c7729646ba38b2d44ef242328dfde70cfae",
+    "symbol_table_quest.bin": "deca4a32a1b263c4c50b6f6c9813126c3bf76554315a96346d10aa324c448fb4",
+    "symbol_table_region.bin": "839c5700883115b8c05b06b3953d8b3dd9bd8db524eded6363fd48695d40a9c9",
+    "symbol_table_simspace.bin": "2bd6d3fea07d26ee088c2ae1a87b4983ed28b1c3cfedff482d0dea44cd4e0b1a",
+    "symbol_table_simtype.bin": "60bd9f38a1b2147eba5b756503b195cb39cfb600de4443b28368bec0df026177",
+    "symbol_table_talent.bin": "96a95e2aabac927c6ba54d63194cb0da5ea23e14e311749ebde88cf4f6889d19",
+    "symbol_table_terrain.bin": "426255be2ddd8cc4150ba3d3e89e33e1b31a7480ac56562019268f8f4d4b8f07",
+    "symbol_table_texture.bin": "3feaefb60a458042da2e35ec57cd08a58140ec2f8cb0c5562bc03192c7633c49",
+    "symbol_table_uixml.bin": "2bef3f357e57d91e5e9f414e462645f418145cc8f80759cfaacd4f9da0783687",
+    "symbol_table_vignette.bin": "68349788fad834ac36e31436bca0fe40099c57b471d2a9bd72572a7655598d18",
+    "symbol_table_voicetype.bin": "78edccd1a481222b270450b859a3c57aa1af1dbc0cd5bb9270de98189f81e6f7"
+  },
+  "schema_version": 1,
+  "scope": "top-level *_bxml, *.batch, ordinary symbol tables, *_init.bin"
+}

@@ -29,9 +29,22 @@ The bridge between localization rows and quest assets is an 8-byte key per
 `default` row in `src/csv/en_us/estrutura_hashes_flat.bin`. Its 65,135 keys are
 unique in the current corpus, and the same byte sequences occur in quest BXML
 resources. A read-only scan found 51,080 row keys in 426 of the 530 quest
-resources; the scan also covered interaction and FaceFX quest resources. This
-maps many rows to quest assets, but a quest asset can contain text for several
-NPCs and non-dialogue objectives or journal entries.
+resources. It found no exact key matches in the 517 interaction or 53 FaceFX
+quest resources scanned. This maps many rows to quest assets, but a quest
+asset can contain text for several NPCs and non-dialogue objectives or
+journal entries. The maintained
+[resource corpus map](../work/zh_cn/translation-reference/classification/resource-corpus-map.md)
+summarizes the confirmed file patterns, resource families, and limits of
+these relationships; the dated reconnaissance report contains the full
+inventory. A focused read-only analysis also validated the `.bin` symbol,
+initialization, and localization-key tables; see the linked
+[binary analysis report](../work/zh_cn/audit/unpacked-bin-resource-analysis-20261115.md)
+for its findings and unresolved formats.
+The maintained classification map also records the quest-registry names,
+validated `.batch` layouts, embedded Lua-family payload envelopes, and the
+quest-to-script crosswalk. Reproducible indexes and parser limitations are
+documented in the
+[resource-container analysis](../work/zh_cn/audit/unpacked-resource-container-analysis-20261115.md).
 
 For example, IDs `5748`, `27137`, and `9219` map to
 `data/unpacked/1339422.quest_bxml`. Their 8-byte keys occur in the same

@@ -7,12 +7,15 @@ import hashlib
 import io
 from pathlib import Path
 import re
+import struct
 
 
 ROOT = Path(__file__).resolve().parents[3]
 KEYS_PATH = ROOT / "src/csv/en_us/estrutura_hashes_flat.bin"
 DEFAULT_PATH = ROOT / "work/zh_cn/locatexts_zh_cn.koalocatext_default.csv"
 ASSET_DIR = ROOT / "references/data/unpacked"
+QUEST_REGISTRY_PATH = ASSET_DIR / "symbol_table_quest.bin"
+QUEST_ASSET_COUNT = 530
 REFERENCE_CLASSIFICATION = ROOT / "work/zh_cn/translation-reference/classification"
 OUTPUT_PATH = REFERENCE_CLASSIFICATION / "default-quest-asset-index.tsv"
 CATALOG_PATH = REFERENCE_CLASSIFICATION / "dialogue-context-asset-catalog.tsv"
@@ -44,6 +47,8 @@ HEADER = (
     "key_evidence",
     "speaker_mapping",
     "playback_order",
+    "registry_quest_name",
+    "registry_name_evidence",
 )
 CATALOG_HEADER = (
     "asset",
@@ -55,6 +60,8 @@ CATALOG_HEADER = (
     "dialog_handlers",
     "grouping_tier",
     "ledger_coverage",
+    "registry_quest_name",
+    "registry_name_evidence",
 )
 ID_CATALOG_HEADER = (
     "resource",
@@ -70,6 +77,8 @@ ID_CATALOG_HEADER = (
     "speaker_confidence",
     "dialogue_order",
     "finding_ref",
+    "asset_registry_quest_names",
+    "asset_registry_name_evidence",
 )
 REVIEW_HEADER = (
     "resource",
@@ -93,6 +102,109 @@ PRINTABLE = re.compile(rb"[\x20-\x7e]{4,}")
 NPC_SYMBOL = re.compile(rb"\b(?:DLC[0-9]+_)?NPC_[A-Za-z0-9_]+\b")
 DIALOG_HANDLER = re.compile(rb"dialog_line_[A-Za-z0-9_]+")
 QUEST_VALUE = re.compile(r"^[A-Z][A-Z0-9_]{1,31}$")
+QUEST_ASSET_NAME = re.compile(r"^([0-9]+)\.quest_bxml$")
+
+
+def read_symbol_table(path, expected_count=None, require_unique_names=False):
+    """Read an ordinary ID/name table, optionally requiring unique names."""
+    raw = path.read_bytes()
+    if len(raw) < 4:
+        raise ValueError("Symbol table is truncated before its entry count")
+    count = struct.unpack_from("<I", raw)[0]
+    if expected_count is not None and count != expected_count:
+        raise ValueError(
+            f"Symbol table has {count} entries; expected {expected_count}"
+        )
+
+    records_end = 4 + count * 12
+    if len(raw) < records_end + 4:
+        raise ValueError("Symbol table is truncated before its string area")
+    string_size = struct.unpack_from("<I", raw, records_end)[0]
+    strings_start = records_end + 4
+    expected_size = strings_start + string_size
+    if len(raw) < expected_size:
+        raise ValueError("Symbol table string area is truncated")
+    if len(raw) > expected_size:
+        raise ValueError("Symbol table has trailing bytes after its string area")
+
+    string_area = raw[strings_start:]
+    names_by_id = {}
+    seen_names = set()
+    next_offset = 0
+    for index in range(count):
+        symbol_id, start, end = struct.unpack_from("<III", raw, 4 + index * 12)
+        if symbol_id in names_by_id:
+            raise ValueError(f"Symbol table contains duplicate ID: {symbol_id}")
+        if start != next_offset or start >= end or end > len(string_area):
+            raise ValueError(
+                f"Symbol table has an invalid string range for ID {symbol_id}"
+            )
+        encoded_name = string_area[start:end]
+        if encoded_name[-1:] != b"\x00" or b"\x00" in encoded_name[:-1]:
+            raise ValueError(
+                f"Symbol table name for ID {symbol_id} is not null-terminated"
+            )
+        try:
+            name = encoded_name[:-1].decode("utf-8")
+        except UnicodeDecodeError as exc:
+            raise ValueError(
+                f"Symbol table name for ID {symbol_id} is not valid UTF-8"
+            ) from exc
+        if not name:
+            raise ValueError(f"Symbol table name for ID {symbol_id} is empty")
+        if require_unique_names and name in seen_names:
+            raise ValueError(f"Symbol table contains duplicate name: {name}")
+        names_by_id[symbol_id] = name
+        seen_names.add(name)
+        next_offset = end
+    if next_offset != len(string_area):
+        raise ValueError("Symbol table string ranges do not cover the string area")
+    return names_by_id
+
+
+def read_quest_registry(path=QUEST_REGISTRY_PATH, expected_count=None):
+    return read_symbol_table(
+        path, expected_count, require_unique_names=True
+    )
+
+
+def registry_name_metadata(asset_name, quest_names=None):
+    if quest_names is None:
+        return "", "registry_not_supplied"
+    match = QUEST_ASSET_NAME.fullmatch(asset_name)
+    if not match:
+        return "", "non_numeric_quest_asset_stem"
+    quest_id = int(match.group(1))
+    name = quest_names.get(quest_id)
+    if name is None:
+        return "", "symbol_table_quest.bin:no_exact_numeric_id_match"
+    return name, "symbol_table_quest.bin:exact_numeric_filename_stem"
+
+
+def validate_quest_asset_registry(
+    assets, quest_names, expected_count=QUEST_ASSET_COUNT
+):
+    if len(assets) != expected_count:
+        raise ValueError(
+            f"Found {len(assets)} quest assets; expected {expected_count}"
+        )
+    asset_ids = []
+    for asset_name, _ in assets:
+        match = QUEST_ASSET_NAME.fullmatch(asset_name)
+        if not match:
+            raise ValueError(
+                f"Quest asset has a non-numeric filename stem: {asset_name}"
+            )
+        asset_ids.append(int(match.group(1)))
+    if len(set(asset_ids)) != len(asset_ids):
+        raise ValueError("Quest assets contain duplicate numeric filename stems")
+    missing_ids = sorted(set(asset_ids) - quest_names.keys())
+    if missing_ids:
+        preview = ", ".join(str(quest_id) for quest_id in missing_ids[:10])
+        raise ValueError(
+            f"{len(missing_ids)} quest assets are missing from the quest registry: "
+            f"{preview}"
+        )
 
 
 def read_default_keys(path=KEYS_PATH):
@@ -202,7 +314,7 @@ def split_asset_links(value):
     return [name.strip() for name in re.split(r"[;|]", value) if name.strip()]
 
 
-def build_rows(keys, assets):
+def build_rows(keys, assets, quest_names=None):
     key_to_id = {key: row_id for row_id, key in enumerate(keys)}
     rows = []
     for asset_name, data in sorted(assets):
@@ -210,6 +322,9 @@ def build_rows(keys, assets):
         if not ids:
             continue
         quest_ids, npc_symbols, handler_count = asset_metadata(data)
+        registry_name, registry_evidence = registry_name_metadata(
+            asset_name, quest_names
+        )
         for row_id in sorted(ids):
             rows.append(
                 (
@@ -222,6 +337,8 @@ def build_rows(keys, assets):
                     "exact_8_byte_key_match",
                     "not_mapped_to_key",
                     "unknown",
+                    registry_name,
+                    registry_evidence,
                 )
             )
     return rows
@@ -253,7 +370,9 @@ def classify_asset_grouping(quest_ids, npc_symbols, handler_count, matched_id_co
     return "asset_only_no_quest_id"
 
 
-def build_id_catalog(keys, index_rows, asset_catalog_rows, review_rows):
+def build_id_catalog(
+    keys, index_rows, asset_catalog_rows, review_rows, quest_names=None
+):
     index_rows_by_id = {}
     for row in index_rows:
         index_rows_by_id.setdefault(str(row[1]), []).append(row)
@@ -281,6 +400,18 @@ def build_id_catalog(keys, index_rows, asset_catalog_rows, review_rows):
                 if value
             }
         )
+        registry_names = {}
+        registry_evidence = {}
+        for row in linked_rows:
+            asset_name = row[2]
+            if len(row) > 10:
+                name, evidence = row[9], row[10]
+            else:
+                name, evidence = registry_name_metadata(asset_name, quest_names)
+            if name:
+                registry_names[asset_name] = name
+            if evidence:
+                registry_evidence[asset_name] = evidence
         grouping_tiers = sorted(
             {
                 catalog_by_asset[asset][7]
@@ -304,12 +435,20 @@ def build_id_catalog(keys, index_rows, asset_catalog_rows, review_rows):
                 review["speaker_confidence"] if review else "unknown",
                 review["dialogue_order"] if review else "unknown",
                 review["finding_ref"] if review else "",
+                ";".join(
+                    f"{asset}={registry_names[asset]}"
+                    for asset in sorted(registry_names)
+                ),
+                ";".join(
+                    f"{asset}={registry_evidence[asset]}"
+                    for asset in sorted(registry_evidence)
+                ),
             )
         )
     return rows
 
 
-def build_asset_catalog(keys, assets, review_rows):
+def build_asset_catalog(keys, assets, review_rows, quest_names=None):
     key_to_id = {key: row_id for row_id, key in enumerate(keys)}
     ledger_ids_by_asset = {}
     for row in review_rows:
@@ -319,6 +458,9 @@ def build_asset_catalog(keys, assets, review_rows):
     rows = []
     for asset_name, data in sorted(assets):
         quest_ids, npc_symbols, handlers = asset_details(data)
+        registry_name, registry_evidence = registry_name_metadata(
+            asset_name, quest_names
+        )
         matched_ids = find_key_ids(data, key_to_id)
         ledger_ids = ledger_ids_by_asset.get(asset_name, set()) & {
             str(row_id) for row_id in matched_ids
@@ -345,6 +487,8 @@ def build_asset_catalog(keys, assets, review_rows):
                 ",".join(handlers),
                 tier,
                 ledger_coverage,
+                registry_name,
+                registry_evidence,
             )
         )
     return rows
@@ -419,6 +563,8 @@ def main():
         (path.name, path.read_bytes())
         for path in ASSET_DIR.glob("*.quest_bxml")
     ]
+    quest_names = read_quest_registry(expected_count=QUEST_ASSET_COUNT)
+    validate_quest_asset_registry(assets, quest_names)
     review_rows = []
     if REVIEW_PATH.exists():
         with REVIEW_PATH.open(encoding="utf-8", newline="") as stream:
@@ -428,12 +574,16 @@ def main():
                     f"Unexpected review ledger columns: {reader.fieldnames}"
                 )
             review_rows = list(reader)
-    index_rows = build_rows(keys, assets)
-    asset_catalog_rows = build_asset_catalog(keys, assets, review_rows)
+    index_rows = build_rows(keys, assets, quest_names)
+    asset_catalog_rows = build_asset_catalog(
+        keys, assets, review_rows, quest_names
+    )
     rendered = render_tsv(index_rows)
     catalog = render_tsv(asset_catalog_rows, CATALOG_HEADER)
     id_catalog = render_tsv(
-        build_id_catalog(keys, index_rows, asset_catalog_rows, review_rows),
+        build_id_catalog(
+            keys, index_rows, asset_catalog_rows, review_rows, quest_names
+        ),
         ID_CATALOG_HEADER,
     )
 

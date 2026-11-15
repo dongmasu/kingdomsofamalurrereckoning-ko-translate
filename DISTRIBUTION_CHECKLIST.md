@@ -10,21 +10,23 @@ assets, and release notes.
 
 ## Latest Release: 2026-11-15
 
-- Official tag: `KingdomsOfAmalur_Korean_zh_cn_20261115134051`.
+- Official tag: `KingdomsOfAmalur_Korean_zh_cn_20261115225143`.
 - GitHub Release title: `Korean Patch - 2026-11-15`.
-- ZIP: `dist/20261115134051/KingdomsOfAmalur_Korean_zh_cn_20261115134051.zip`.
-- ZIP size: 5,545,543 bytes.
-- ZIP SHA-256: `a43ae64e2b555f4634b12f8d5afad8d6593fb85776c6d2266c635fed08404ac7`.
-- This package supersedes the 2026-11-10 release. The ZIP is a GitHub
+- ZIP: `dist/20261115225143/KingdomsOfAmalur_Korean_zh_cn_20261115225143.zip`.
+- ZIP size: 5,545,519 bytes.
+- ZIP SHA-256: `836e0ef4168216637f3bd0099d8a73c69cc44d7d3b3515b35013333ee0dff14f`.
+- This package supersedes the earlier 2026-11-15 package tagged
+  `KingdomsOfAmalur_Korean_zh_cn_20261115134051`. The ZIP is a GitHub
   Release asset, not a Git-tracked file.
-- Since the previous release, selected dialogue, quest, UI, and item text was
-  revalidated by context and source; supported corrections were applied while
-  evidence-limited cases remained held. Reusable translation guidance,
-  glossary, duplicate-source, classification, and exception references were
-  also organized separately from dated audit evidence.
+- Since the earlier package, selected dialogue, quest, UI, item, and credits
+  text was revalidated against context and source; supported corrections were
+  applied while evidence-limited cases remained held. Reusable translation
+  guidance and reference materials were updated, and Lua extraction was
+  documented as optional rather than a translation requirement.
 - `bash tools/build.sh` passed installer tests, structure and immutable-sidecar
   checks, binary round trips for `affix` (3,451 rows), `base` (4,844 rows),
   and `default` (65,135 rows), and ZIP integrity validation.
+- The 153 tool tests and 50 audit tests also passed.
 - This was a package/build validation, not a new Windows installation or
   in-game test. The supported source-game baseline remains `cs:15032`.
 
@@ -72,7 +74,7 @@ The official ZIP omits the characterset and common font list and contains:
   `SHA256SUMS.txt`.
 
 The latest released ZIP is
-`dist/20261115134051/KingdomsOfAmalur_Korean_zh_cn_20261115134051.zip`. It
+`dist/20261115225143/KingdomsOfAmalur_Korean_zh_cn_20261115225143.zip`. It
 contains 32 payload files (three localization binaries and 29 Noto font
 resources), with no common font list or characterset. Generated `dist/`
 packages are ignored by Git and are attached to GitHub Releases instead of
@@ -128,7 +130,8 @@ matched against a depot manifest; the in-game test was a brief smoke test.
   English resources. The release binaries are generated from `work/zh_cn/`;
   `src/` remains immutable.
 
-- The 2026-11-15 snapshot supersedes the 2026-11-10 package. Subsequent
+- The 2026-11-15 22:51 JST snapshot supersedes the earlier 13:40 JST package
+  from the same date. Subsequent
   accepted translation edits require a new build and validation before another
   release; do not silently reuse this ZIP.
 

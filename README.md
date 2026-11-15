@@ -3,7 +3,7 @@
 ## 한국어
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261115134051/KingdomsOfAmalur_Korean_zh_cn_20261115134051.zip)
+- 정식 한글 패치 ZIP: [다운로드](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261115225143/KingdomsOfAmalur_Korean_zh_cn_20261115225143.zip)
 
 ### 작업 배경과 감사
 
@@ -21,7 +21,7 @@
 
 CSV에서는 메뉴와 대사가 한데 섞여 있고, 이어지는 대사도 여러 행에 흩어져 있어 행만으로 화자나 앞뒤 문맥을 알아보기 어려운 경우가 많습니다. 항목을 유형과 게임 리소스에 따라 분류하고, 영어를 의미의 기준으로 삼아 일본어·중국어와 대조합니다. 문맥이나 근거가 불충분한 부분은 임의로 고치지 않고 보류합니다.
 
-Lua 스크립트 추출·검토는 번역에 추가 맥락을 얻기 위한 보조 조사였지만, 전체 검토에서 현지화 ID나 대사와 직접 연결되는 근거는 찾지 못했습니다. 크레딧 제작진 직함 16개를 확인하는 데 제한적인 단서가 되었으나, 실제 게임 내 표시 여부까지 입증하지는 못했습니다. 따라서 Lua 추출물은 번역의 필수 자료가 아닙니다. 자세한 결과와 한계는 [Lua 번역 검토 보고서](work/zh_cn/audit/lua-corpus-translation-review-20261115.md)와 [추출·재인코딩 기록](work/zh_cn/audit/lua-script-extraction-and-reencoding-20261115.md)을 참고하세요.
+Lua 스크립트는 보조 자료로 조사했지만, 번역에 필수적이지 않으며 현지화 ID나 대사와의 직접 연결도 확인되지 않았습니다. 필요한 경우 [도구 안내](tools/README.md)에서 추출 방법을 확인할 수 있습니다.
 
 `Tipo_Variante`는 `base`와 `affix` 바이너리의 variant 데이터에서 읽은 1바이트 값이며 CSV에는 2자리 16진수로 기록됩니다. 원본 바이너리와 CSV의 항목·값·텍스트는 8개 로케일 모두에서 일치합니다. 일부 언어의 예시는 코드와 성·수 형태의 상관관계를 뒷받침하지만, 전체 코드표나 게임 내 variant 선택 규칙은 확인되지 않았습니다. 현재 한국어 `affix` 작업본에서는 variant가 여러 개인 573개 ID 모두 같은 한국어 문구를 사용합니다. 이는 번역 자료에서 확인되는 선택일 뿐, 게임이 variant를 무시한다는 뜻은 아닙니다. 자세한 근거와 한계는 [variant 및 표기 분석](work/zh_cn/audit/default-markup-and-variant-evidence-20261115.md)을 참고합니다.
 
@@ -147,7 +147,7 @@ Nexus 원본 언패커는 UTF-8 디코딩 대신 각 입력 바이트에 `chr()`
 ## English
 
 - Steam: [Kingdoms of Amalur: Re-Reckoning](https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/)
-- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261115134051/KingdomsOfAmalur_Korean_zh_cn_20261115134051.zip)
+- Official Korean patch ZIP: [Download](https://github.com/dongmasu/kingdomsofamalurrereckoning-ko-translate/releases/download/KingdomsOfAmalur_Korean_zh_cn_20261115225143/KingdomsOfAmalur_Korean_zh_cn_20261115225143.zip)
 
 ### Project Background and Acknowledgements
 

@@ -62,6 +62,22 @@ reference when they justify a current decision.
 
 ## 2. Inventory and Group the Content
 
+Before substantial translation, inspect the available game-resource corpus,
+not only the localization table. Inventory useful filename patterns,
+extensions, stable asset IDs, and locale variants. Identify resource families
+that may contain text or provide context, then validate candidate links using
+stable keys, parsed fields, or other independently checked evidence where
+possible. Treat matching stems, nearby files, and raw string hits as
+candidates rather than semantic proof; record searched-but-not-found results
+and unresolved format limits as well.
+
+Put confirmed, reusable resource structure and context mappings in the
+project's canonical `translation-reference`. Keep dated reconnaissance,
+temporary candidates, and detailed investigation history in the audit
+location. Do not modify extracted source assets to store analysis output. The
+depth and methods should fit the game; if no useful resource corpus is
+available, record that limitation instead of inferring missing relationships.
+
 Build a complete inventory of source and target units using stable IDs or
 equivalent keys. Validate missing, duplicate, and unmatched units before
 translation begins.
@@ -251,7 +267,8 @@ without evidence for that claim.
 ## Workflow Summary
 
 1. Establish the project profile, evidence hierarchy, scope, and invariants.
-2. Inventory and classify units; add only useful, evidence-backed groupings.
+2. Inspect available game resources; inventory and classify localization
+   units, adding only useful, evidence-backed groupings.
 3. Locate the canonical translation references; map repeated source strings,
    initialize the glossary and decision register, and maintain the relevant
    references as work proceeds.

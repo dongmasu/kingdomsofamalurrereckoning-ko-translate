@@ -13,7 +13,8 @@ or decisions arise or supersede earlier ones; do not wait until a full pass is
 finished. Preserve each decision's scope, status, and evidence links. Not
 every project needs every category.
 
-- `classification/` maps localization IDs to evidence-backed game assets.
+- `classification/` maps localization IDs to evidence-backed game assets and
+  maintains the reusable [resource corpus map](classification/resource-corpus-map.md).
 - `duplicates/` maps exact repeated English `default` text to every current
   multilingual occurrence; identical source text does not require identical
   Korean wording.
@@ -22,6 +23,16 @@ every project needs every category.
 - `exceptions/` indexes approved terminology, formatting, and exact-key
   decisions and links to the durable decision register; dated review evidence
   remains under `work/zh_cn/audit/`.
+
+The classification map also records confirmed localization-binary fields and
+the evidence limits for `Tipo_Variante` and `default` brace markup. Their
+observed structure is distinct from unverified runtime meaning; see the
+[binary and markup audit](../audit/default-markup-and-variant-evidence-20261115.md).
+
+The completed [Lua corpus review](../audit/lua-corpus-translation-review-20261115.md)
+found no direct localization-key or supported static display links. A matching
+Lua literal remains a candidate, not proof that a localization row is used or
+that its Korean translation is wrong.
 
 Generated indexes must be reproducible from their documented inputs. Review
 ledgers, dated reports, candidate decisions, and edit manifests remain in

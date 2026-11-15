@@ -1,5 +1,6 @@
 import importlib.util
 from pathlib import Path
+import struct
 import unittest
 
 
@@ -10,6 +11,22 @@ SPEC.loader.exec_module(INDEX)
 
 
 class DialogueContextIndexTests(unittest.TestCase):
+    @staticmethod
+    def quest_registry_bytes(entries):
+        records = []
+        string_area = bytearray()
+        for quest_id, name in entries:
+            encoded_name = name.encode("utf-8") + b"\x00"
+            start = len(string_area)
+            string_area.extend(encoded_name)
+            records.append(struct.pack("<III", quest_id, start, len(string_area)))
+        return (
+            struct.pack("<I", len(entries))
+            + b"".join(records)
+            + struct.pack("<I", len(string_area))
+            + string_area
+        )
+
     def test_matches_exact_keys_once_per_asset_and_leaves_voice_unmapped(self):
         first = b"12345678"
         second = b"abcdefgh"
@@ -33,6 +50,7 @@ class DialogueContextIndexTests(unittest.TestCase):
         self.assertEqual(rows[0][6], "exact_8_byte_key_match")
         self.assertEqual(rows[0][7], "not_mapped_to_key")
         self.assertEqual(rows[0][8], "unknown")
+        self.assertEqual(rows[0][9:], ("", "registry_not_supplied"))
 
     def test_rejects_duplicate_hash_keys(self):
         class FakePath:
@@ -45,7 +63,8 @@ class DialogueContextIndexTests(unittest.TestCase):
     def test_tsv_is_stable_and_escapes_tabs(self):
         rows = [
             ("default", 1, "100.quest_bxml", "SQ01", "", 0,
-             "exact_8_byte_key_match", "not_mapped_to_key", "unknown")
+             "exact_8_byte_key_match", "not_mapped_to_key", "unknown",
+             "", "registry_not_supplied")
         ]
         rendered = INDEX.render_tsv(rows)
         self.assertTrue(rendered.endswith(b"\n"))
@@ -76,7 +95,7 @@ class DialogueContextIndexTests(unittest.TestCase):
 
         self.assertEqual(len(rows), 3)
         self.assertEqual(
-            rows[0],
+            rows[0][:9],
             (
                 "100.quest_bxml",
                 "SQ01",
@@ -89,6 +108,7 @@ class DialogueContextIndexTests(unittest.TestCase):
                 "partially_recorded",
             ),
         )
+        self.assertEqual(rows[0][9:], ("", "registry_not_supplied"))
         self.assertEqual(rows[1][7], "single_npc_no_quest_asset_no_dialog_handler")
         self.assertEqual(rows[1][8], "all_ids_recorded")
         self.assertEqual(rows[2][7], "no_default_key_link")
@@ -124,7 +144,7 @@ class DialogueContextIndexTests(unittest.TestCase):
 
         self.assertEqual(len(rows), 2)
         self.assertEqual(
-            rows[0],
+            rows[0][:13],
             (
                 "default",
                 "0",
@@ -141,6 +161,13 @@ class DialogueContextIndexTests(unittest.TestCase):
                 "sq01-review.md",
             ),
         )
+        self.assertEqual(
+            rows[0][13:],
+            (
+                "",
+                "100.quest_bxml=registry_not_supplied",
+            ),
+        )
         self.assertEqual(rows[1][1:4], ("1", "no_quest_asset_match", ""))
         self.assertEqual(rows[1][7:13], ("", "not_reviewed", "unassigned",
                                          "unknown", "unknown", ""))
@@ -149,12 +176,161 @@ class DialogueContextIndexTests(unittest.TestCase):
         rows = [
             ("100.quest_bxml", "SQ01", "NPC_TEST_One", 1, 1, 1,
              "dialog_line_SQ01_TOPIC_0", "single_quest_single_npc_candidate",
-             "all_ids_recorded")
+             "all_ids_recorded", "", "registry_not_supplied")
         ]
         rendered = INDEX.render_tsv(rows, INDEX.CATALOG_HEADER)
         self.assertIn(b"asset\tquest_ids\tnpc_symbols\tmatched_id_count", rendered)
         self.assertTrue(rendered.endswith(b"\n"))
         self.assertEqual(rendered.count(b"\n"), 2)
+
+    def test_reads_validated_quest_registry_layout(self):
+        data = self.quest_registry_bytes([(12, "sq12"), (34, "Épreuve")])
+
+        class FakePath:
+            def read_bytes(self):
+                return data
+
+        self.assertEqual(
+            INDEX.read_quest_registry(FakePath(), expected_count=2),
+            {12: "sq12", 34: "Épreuve"},
+        )
+        self.assertEqual(
+            INDEX.read_symbol_table(FakePath(), expected_count=2),
+            {12: "sq12", 34: "Épreuve"},
+        )
+
+    def test_rejects_malformed_quest_registry_tables(self):
+        valid = self.quest_registry_bytes([(12, "sq12"), (34, "sq34")])
+        invalid_range = bytearray(valid)
+        struct.pack_into("<I", invalid_range, 8, 1)
+        noncontiguous_range = bytearray(valid)
+        struct.pack_into("<I", noncontiguous_range, 20, 1)
+        missing_terminator = bytearray(valid)
+        missing_terminator[-1] = ord("x")
+        invalid_utf8 = bytearray(valid)
+        invalid_utf8[4 + 12 * 2 + 4] = 0xFF
+
+        malformed = (
+            ("truncated count", b"\x01"),
+            ("truncated records", valid[:8]),
+            ("truncated strings", valid[:-1]),
+            ("trailing bytes", valid + b"\x00"),
+            ("invalid range", bytes(invalid_range)),
+            ("non-contiguous ranges", bytes(noncontiguous_range)),
+            ("missing terminator", bytes(missing_terminator)),
+            ("invalid UTF-8", bytes(invalid_utf8)),
+        )
+        for label, data in malformed:
+            with self.subTest(label=label):
+                class FakePath:
+                    def read_bytes(self):
+                        return data
+
+                with self.assertRaises(ValueError):
+                    INDEX.read_symbol_table(FakePath())
+
+        class WrongCountPath:
+            def read_bytes(self):
+                return valid
+
+        with self.assertRaisesRegex(ValueError, "expected 3"):
+            INDEX.read_symbol_table(WrongCountPath(), expected_count=3)
+
+    def test_registry_name_lookup_is_exact_and_reports_missing_or_ambiguous(self):
+        self.assertEqual(
+            INDEX.registry_name_metadata("12.quest_bxml", {12: "sq12"}),
+            ("sq12", "symbol_table_quest.bin:exact_numeric_filename_stem"),
+        )
+        self.assertEqual(
+            INDEX.registry_name_metadata("13.quest_bxml", {12: "sq12"}),
+            ("", "symbol_table_quest.bin:no_exact_numeric_id_match"),
+        )
+        self.assertEqual(
+            INDEX.registry_name_metadata("not-numeric.quest_bxml", {12: "sq12"}),
+            ("", "non_numeric_quest_asset_stem"),
+        )
+
+        class DuplicateIdPath:
+            def read_bytes(self):
+                return DialogueContextIndexTests.quest_registry_bytes(
+                    [(12, "sq12"), (12, "other")]
+                )
+
+        class DuplicateNamePath:
+            def read_bytes(self):
+                return DialogueContextIndexTests.quest_registry_bytes(
+                    [(12, "same"), (13, "same")]
+                )
+
+        self.assertEqual(
+            INDEX.read_symbol_table(DuplicateNamePath()),
+            {12: "same", 13: "same"},
+        )
+        with self.assertRaisesRegex(ValueError, "duplicate ID"):
+            INDEX.read_symbol_table(DuplicateIdPath())
+        with self.assertRaisesRegex(ValueError, "duplicate name"):
+            INDEX.read_quest_registry(DuplicateNamePath())
+
+    def test_asset_registry_coverage_gate_rejects_missing_assets(self):
+        assets = [("12.quest_bxml", b""), ("13.quest_bxml", b"")]
+        with self.assertRaisesRegex(ValueError, "missing from the quest registry"):
+            INDEX.validate_quest_asset_registry(assets, {12: "sq12"}, 2)
+        with self.assertRaisesRegex(ValueError, "expected 2"):
+            INDEX.validate_quest_asset_registry(assets[:1], {12: "sq12"}, 2)
+
+    def test_registry_names_propagate_without_changing_legacy_prefixes(self):
+        key = b"12345678"
+        assets = [
+            ("200.quest_bxml", key),
+            ("100.quest_bxml", key),
+        ]
+        quest_names = {100: "sq100", 200: "nqd_village"}
+        index_rows = INDEX.build_rows([key], assets, quest_names)
+        catalog_rows = INDEX.build_asset_catalog(
+            [key], assets, [], quest_names
+        )
+        id_rows = INDEX.build_id_catalog([key], index_rows, catalog_rows, [])
+
+        self.assertEqual(index_rows[0][:9], (
+            "default",
+            0,
+            "100.quest_bxml",
+            "",
+            "",
+            0,
+            "exact_8_byte_key_match",
+            "not_mapped_to_key",
+            "unknown",
+        ))
+        self.assertEqual(index_rows[0][9:], (
+            "sq100",
+            "symbol_table_quest.bin:exact_numeric_filename_stem",
+        ))
+        self.assertEqual(catalog_rows[0][:9], (
+            "100.quest_bxml",
+            "",
+            "",
+            1,
+            0,
+            0,
+            "",
+            "asset_only_no_quest_id",
+            "not_recorded",
+        ))
+        self.assertEqual(catalog_rows[0][9:], (
+            "sq100",
+            "symbol_table_quest.bin:exact_numeric_filename_stem",
+        ))
+        self.assertEqual(id_rows[0][3], "100.quest_bxml;200.quest_bxml")
+        self.assertEqual(
+            id_rows[0][13],
+            "100.quest_bxml=sq100;200.quest_bxml=nqd_village",
+        )
+        self.assertEqual(
+            id_rows[0][14],
+            "100.quest_bxml=symbol_table_quest.bin:exact_numeric_filename_stem;"
+            "200.quest_bxml=symbol_table_quest.bin:exact_numeric_filename_stem",
+        )
 
     def test_classifies_grouping_evidence_without_inventing_key_speakers(self):
         classify = INDEX.classify_asset_grouping

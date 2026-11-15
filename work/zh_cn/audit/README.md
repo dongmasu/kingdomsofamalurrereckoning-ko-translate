@@ -9,11 +9,11 @@ groups, and current exceptions. Legacy paths in this directory are
 compatibility links; dated findings, review ledgers, edit manifests, and
 scripts remain audit materials.
 
-## Latest Release Snapshot (2026-11-10)
+## Latest Release Snapshot (2026-11-15)
 
-`release-20261110.md` records the verified package, checksum, selected
+`release-20261115.md` records the verified package, checksum, selected
 changes, and validation for tag
-`KingdomsOfAmalur_Korean_zh_cn_20261110001647`.
+`KingdomsOfAmalur_Korean_zh_cn_20261115225143`.
 
 ## Current Status (2026-11-13)
 

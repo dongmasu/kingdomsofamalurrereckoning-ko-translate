@@ -1,0 +1,1241 @@
+FFQ35 single-quest static disassembly experiment (2026-11-15)
+NOT original Lua source; NOT runtime-tested; NOT a general decoder.
+All offsets are payload-relative unless marked container_offset.
+PC is zero-based; DATA is an auxiliary cache word.
+A/B/C are raw fields; ABx and AsBx annotations use combined Bx.
+Metadata prefix/suffix and final 8 bytes have no asserted semantics.
+
+SAMPLE FFQ35 script 1164041
+container_offset=7544685 bytes=7662
+sha256=2b0ba91abe92a761ae7f28330f5765f74a1f45101cf879745a740b43697578b5
+trailer_at=7654 opaque_hex=0000000100000000
+
+FUNCTION <main> range=[238,7654)
+prefix_words=[0, 0, 0, 0] nups=0 params=0 vararg=2 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='module'
+  K[1]=None
+  K[2]=None
+  K[3]='FFQ35'
+  K[4]='package'
+  K[5]=None
+  K[6]=None
+  K[7]='seeall'
+  K[8]='require'
+  K[9]=None
+  K[10]=None
+  K[11]='standardLibrary'
+  K[12]='quest_update_summary'
+  K[13]='quests_win'
+  K[14]='module_state'
+  K[15]='killed_cartery'
+  K[16]=False
+  K[17]='spared_cartery'
+  K[18]='m_CHEAT_START_SPACE'
+  K[19]='SPACE_ID'
+  K[20]=None
+  K[21]=None
+  K[22]='INT_DAL_Canneroc_Inn'
+  K[23]='m_DEV_STATUS'
+  K[24]='2nd Draft'
+  K[25]='got_dagger'
+  K[26]='cheat_start_quest'
+  K[27]='menri_jump'
+  K[28]='investigate_farm'
+  K[29]='confront_cartery'
+  K[30]='complete_quest_good'
+  K[31]='complete_quest_bad'
+  K[32]='on_quest_start'
+  K[33]='on_process'
+  K[34]='on_quest_end'
+  K[35]='on_dialog_line_1164038_204596_0'
+  K[36]='on_dialog_line_1164038_204596_1'
+  K[37]='on_dialog_line_1164038_204597_1'
+  K[38]='on_dialog_line_1164038_21374_5'
+  K[39]='on_dialog_line_1164038_21374_6'
+  K[40]='on_start_stage_30'
+  K[41]='on_start_stage_10'
+  K[42]='on_start_stage_20'
+  K[43]='on_start_stage_40'
+  K[44]='on_start_stage_100'
+  K[45]='on_dialog_line_1164038_622331_1'
+  K[46]='on_start_stage_110'
+CODE: PC offset raw_word opcode A B C annotation
+000 010f aa000000 GETGLOBAL_MEM        0   0   0 K[0]='module'
+001 0113 8c000114 DATA                20   0   1
+002 0117 32000301 LOADK                1   0   3 K[3]='FFQ35'
+003 011b aa000402 GETGLOBAL_MEM        2   0   4 K[4]='package'
+004 011f 8c000514 DATA                20   0   5
+005 0123 86040702 GETFIELD_R1          2   2   7 field K[7]='seeall'
+006 0127 8c000000 DATA                 0   0   0
+007 012b 8c000000 DATA                 0   0   0
+008 012f 04060100 CALL_I               0   3   1
+009 0133 aa000800 GETGLOBAL_MEM        0   0   8 K[8]='require'
+010 0137 8c000914 DATA                20   0   9
+011 013b 32000b01 LOADK                1   0  11 K[11]='standardLibrary'
+012 013f 04040100 CALL_I               0   2   1
+013 0143 aa000800 GETGLOBAL_MEM        0   0   8 K[8]='require'
+014 0147 8c000914 DATA                20   0   9
+015 014b 32000c01 LOADK                1   0  12 K[12]='quest_update_summary'
+016 014f 04040100 CALL_I               0   2   1
+017 0153 aa000800 GETGLOBAL_MEM        0   0   8 K[8]='require'
+018 0157 8c000914 DATA                20   0   9
+019 015b 32000d01 LOADK                1   0  13 K[13]='quests_win'
+020 015f 04040100 CALL_I               0   2   1
+021 0163 5c000200 NEWTABLE             0   0   2
+022 0167 881f1000 SETFIELD_R1          0  15 272 field K[15]='killed_cartery'
+023 016b 1e231000 SETFIELD             0  17 272 field K[17]='spared_cartery'
+024 016f 36000e00 SETGLOBAL            0   0  14 K[14]='module_state'
+025 0173 aa001300 GETGLOBAL_MEM        0   0  19 K[19]='SPACE_ID'
+026 0177 8c001414 DATA                20   0  20
+027 017b 32001601 LOADK                1   0  22 K[22]='INT_DAL_Canneroc_Inn'
+028 017f 04040200 CALL_I               0   2   2
+029 0183 36001200 SETGLOBAL            0   0  18 K[18]='m_CHEAT_START_SPACE'
+030 0187 32001800 LOADK                0   0  24 K[24]='2nd Draft'
+031 018b 36001700 SETGLOBAL            0   0  23 K[23]='m_DEV_STATUS'
+032 018f 78000000 CLOSURE              0   0   0 child=0 name=got_dagger
+033 0193 36001900 SETGLOBAL            0   0  25 K[25]='got_dagger'
+034 0197 78000100 CLOSURE              0   0   1 child=1 name=cheat_start_quest
+035 019b 36001a00 SETGLOBAL            0   0  26 K[26]='cheat_start_quest'
+036 019f 78000200 CLOSURE              0   0   2 child=2 name=menri_jump
+037 01a3 36001b00 SETGLOBAL            0   0  27 K[27]='menri_jump'
+038 01a7 78000300 CLOSURE              0   0   3 child=3 name=investigate_farm
+039 01ab 36001c00 SETGLOBAL            0   0  28 K[28]='investigate_farm'
+040 01af 78000400 CLOSURE              0   0   4 child=4 name=confront_cartery
+041 01b3 36001d00 SETGLOBAL            0   0  29 K[29]='confront_cartery'
+042 01b7 78000500 CLOSURE              0   0   5 child=5 name=complete_quest_good
+043 01bb 36001e00 SETGLOBAL            0   0  30 K[30]='complete_quest_good'
+044 01bf 78000600 CLOSURE              0   0   6 child=6 name=complete_quest_bad
+045 01c3 36001f00 SETGLOBAL            0   0  31 K[31]='complete_quest_bad'
+046 01c7 78000700 CLOSURE              0   0   7 child=7 name=on_quest_start
+047 01cb 36002000 SETGLOBAL            0   0  32 K[32]='on_quest_start'
+048 01cf 78000800 CLOSURE              0   0   8 child=8 name=on_process
+049 01d3 36002100 SETGLOBAL            0   0  33 K[33]='on_process'
+050 01d7 78000900 CLOSURE              0   0   9 child=9 name=on_quest_end
+051 01db 36002200 SETGLOBAL            0   0  34 K[34]='on_quest_end'
+052 01df 78000a00 CLOSURE              0   0  10 child=10 name=on_dialog_line_1164038_204596_0
+053 01e3 36002300 SETGLOBAL            0   0  35 K[35]='on_dialog_line_1164038_204596_0'
+054 01e7 78000b00 CLOSURE              0   0  11 child=11 name=on_dialog_line_1164038_204596_1
+055 01eb 36002400 SETGLOBAL            0   0  36 K[36]='on_dialog_line_1164038_204596_1'
+056 01ef 78000c00 CLOSURE              0   0  12 child=12 name=on_dialog_line_1164038_204597_1
+057 01f3 36002500 SETGLOBAL            0   0  37 K[37]='on_dialog_line_1164038_204597_1'
+058 01f7 78000d00 CLOSURE              0   0  13 child=13 name=on_dialog_line_1164038_21374_5
+059 01fb 36002600 SETGLOBAL            0   0  38 K[38]='on_dialog_line_1164038_21374_5'
+060 01ff 78000e00 CLOSURE              0   0  14 child=14 name=on_dialog_line_1164038_21374_6
+061 0203 36002700 SETGLOBAL            0   0  39 K[39]='on_dialog_line_1164038_21374_6'
+062 0207 78000f00 CLOSURE              0   0  15 child=15 name=on_start_stage_30
+063 020b 36002800 SETGLOBAL            0   0  40 K[40]='on_start_stage_30'
+064 020f 78001000 CLOSURE              0   0  16 child=16 name=on_start_stage_10
+065 0213 36002900 SETGLOBAL            0   0  41 K[41]='on_start_stage_10'
+066 0217 78001100 CLOSURE              0   0  17 child=17 name=on_start_stage_20
+067 021b 36002a00 SETGLOBAL            0   0  42 K[42]='on_start_stage_20'
+068 021f 78001200 CLOSURE              0   0  18 child=18 name=on_start_stage_40
+069 0223 36002b00 SETGLOBAL            0   0  43 K[43]='on_start_stage_40'
+070 0227 78001300 CLOSURE              0   0  19 child=19 name=on_start_stage_100
+071 022b 36002c00 SETGLOBAL            0   0  44 K[44]='on_start_stage_100'
+072 022f 78001400 CLOSURE              0   0  20 child=20 name=on_dialog_line_1164038_622331_1
+073 0233 36002d00 SETGLOBAL            0   0  45 K[45]='on_dialog_line_1164038_622331_1'
+074 0237 78001500 CLOSURE              0   0  21 child=21 name=on_start_stage_110
+075 023b 36002e00 SETGLOBAL            0   0  46 K[46]='on_start_stage_110'
+076 023f 12020000 RETURN               0   1   0
+
+FUNCTION got_dagger range=[1439,2103)
+prefix_words=[0, 0, 16, 24] nups=0 params=2 vararg=0 stack=5 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='ACTOR'
+  K[1]=None
+  K[2]=None
+  K[3]='get_player_object'
+  K[4]=0
+  K[5]='QUEST'
+  K[6]=None
+  K[7]=None
+  K[8]='get_stage'
+  K[9]='QUEST_ID'
+  K[10]=None
+  K[11]=None
+  K[12]='FFQ35'
+  K[13]=10
+  K[14]='was_object_killed'
+  K[15]='GOR_ID'
+  K[16]=None
+  K[17]=None
+  K[18]='NPC_DAL_DOK_CarteryJayck'
+  K[19]=False
+  K[20]='set_stage'
+  K[21]=20
+  K[22]=True
+  K[23]=None
+  K[24]=None
+  K[25]='set_killed_cartery'
+  K[26]=40
+CODE: PC offset raw_word opcode A B C annotation
+000 05c0 aa000002 GETGLOBAL_MEM        2   0   0 K[0]='ACTOR'
+001 05c4 8c000114 DATA                20   0   1
+002 05c8 86040302 GETFIELD_R1          2   2   3 field K[3]='get_player_object'
+003 05cc 8c000000 DATA                 0   0   0
+004 05d0 8c000000 DATA                 0   0   0
+005 05d4 32000403 LOADK                3   0   4 K[4]=0
+006 05d8 04040202 CALL_I               2   2   2
+007 05dc 08020200 EQ                   0   1   2
+008 05e0 39002300 JMP                  0 128  35 target_PC=45
+009 05e4 aa000502 GETGLOBAL_MEM        2   0   5 K[5]='QUEST'
+010 05e8 8c000614 DATA                20   0   6
+011 05ec 86040802 GETFIELD_R1          2   2   8 field K[8]='get_stage'
+012 05f0 8c000000 DATA                 0   0   0
+013 05f4 8c000000 DATA                 0   0   0
+014 05f8 aa000903 GETGLOBAL_MEM        3   0   9 K[9]='QUEST_ID'
+015 05fc 8c000a14 DATA                20   0  10
+016 0600 32000c04 LOADK                4   0  12 K[12]='FFQ35'
+017 0604 04040003 CALL_I               3   2   0
+018 0608 04000202 CALL_I               2   0   2
+019 060c 08050d00 EQ                   0   2 269
+020 0610 39001700 JMP                  0 128  23 target_PC=45
+021 0614 aa000002 GETGLOBAL_MEM        2   0   0 K[0]='ACTOR'
+022 0618 8c000114 DATA                20   0   1
+023 061c 86040e02 GETFIELD_R1          2   2  14 field K[14]='was_object_killed'
+024 0620 8c000000 DATA                 0   0   0
+025 0624 8c000000 DATA                 0   0   0
+026 0628 aa000f03 GETGLOBAL_MEM        3   0  15 K[15]='GOR_ID'
+027 062c 8c001014 DATA                20   0  16
+028 0630 32001204 LOADK                4   0  18 K[18]='NPC_DAL_DOK_CarteryJayck'
+029 0634 04040003 CALL_I               3   2   0
+030 0638 04000202 CALL_I               2   0   2
+031 063c 08051300 EQ                   0   2 275
+032 0640 39000b00 JMP                  0 128  11 target_PC=45
+033 0644 aa000502 GETGLOBAL_MEM        2   0   5 K[5]='QUEST'
+034 0648 8c000614 DATA                20   0   6
+035 064c 86041402 GETFIELD_R1          2   2  20 field K[20]='set_stage'
+036 0650 8c000000 DATA                 0   0   0
+037 0654 8c000000 DATA                 0   0   0
+038 0658 aa000903 GETGLOBAL_MEM        3   0   9 K[9]='QUEST_ID'
+039 065c 8c000a14 DATA                20   0  10
+040 0660 32000c04 LOADK                4   0  12 K[12]='FFQ35'
+041 0664 04040203 CALL_I               3   2   2
+042 0668 32001504 LOADK                4   0  21 K[21]=20
+043 066c 04060102 CALL_I               2   3   1
+044 0670 39003200 JMP                  0 128  50 target_PC=96
+045 0674 aa000002 GETGLOBAL_MEM        2   0   0 K[0]='ACTOR'
+046 0678 8c000114 DATA                20   0   1
+047 067c 86040302 GETFIELD_R1          2   2   3 field K[3]='get_player_object'
+048 0680 8c000000 DATA                 0   0   0
+049 0684 8c000000 DATA                 0   0   0
+050 0688 32000403 LOADK                3   0   4 K[4]=0
+051 068c 04040202 CALL_I               2   2   2
+052 0690 08020200 EQ                   0   1   2
+053 0694 39002900 JMP                  0 128  41 target_PC=96
+054 0698 aa000502 GETGLOBAL_MEM        2   0   5 K[5]='QUEST'
+055 069c 8c000614 DATA                20   0   6
+056 06a0 86040802 GETFIELD_R1          2   2   8 field K[8]='get_stage'
+057 06a4 8c000000 DATA                 0   0   0
+058 06a8 8c000000 DATA                 0   0   0
+059 06ac aa000903 GETGLOBAL_MEM        3   0   9 K[9]='QUEST_ID'
+060 06b0 8c000a14 DATA                20   0  10
+061 06b4 32000c04 LOADK                4   0  12 K[12]='FFQ35'
+062 06b8 04040003 CALL_I               3   2   0
+063 06bc 04000202 CALL_I               2   0   2
+064 06c0 08050d00 EQ                   0   2 269
+065 06c4 39001d00 JMP                  0 128  29 target_PC=96
+066 06c8 aa000002 GETGLOBAL_MEM        2   0   0 K[0]='ACTOR'
+067 06cc 8c000114 DATA                20   0   1
+068 06d0 86040e02 GETFIELD_R1          2   2  14 field K[14]='was_object_killed'
+069 06d4 8c000000 DATA                 0   0   0
+070 06d8 8c000000 DATA                 0   0   0
+071 06dc aa000f03 GETGLOBAL_MEM        3   0  15 K[15]='GOR_ID'
+072 06e0 8c001014 DATA                20   0  16
+073 06e4 32001204 LOADK                4   0  18 K[18]='NPC_DAL_DOK_CarteryJayck'
+074 06e8 04040003 CALL_I               3   2   0
+075 06ec 04000202 CALL_I               2   0   2
+076 06f0 08051600 EQ                   0   2 278
+077 06f4 39001100 JMP                  0 128  17 target_PC=96
+078 06f8 aa000c02 GETGLOBAL_MEM        2   0  12 K[12]='FFQ35'
+079 06fc 8c001714 DATA                20   0  23
+080 0700 86041902 GETFIELD_R1          2   2  25 field K[25]='set_killed_cartery'
+081 0704 8c000000 DATA                 0   0   0
+082 0708 8c000000 DATA                 0   0   0
+083 070c 1a020003 LOADBOOL             3   1   0
+084 0710 04040102 CALL_I               2   2   1
+085 0714 aa000502 GETGLOBAL_MEM        2   0   5 K[5]='QUEST'
+086 0718 8c000614 DATA                20   0   6
+087 071c 86041402 GETFIELD_R1          2   2  20 field K[20]='set_stage'
+088 0720 8c000000 DATA                 0   0   0
+089 0724 8c000000 DATA                 0   0   0
+090 0728 aa000903 GETGLOBAL_MEM        3   0   9 K[9]='QUEST_ID'
+091 072c 8c000a14 DATA                20   0  10
+092 0730 32000c04 LOADK                4   0  12 K[12]='FFQ35'
+093 0734 04040203 CALL_I               3   2   2
+094 0738 32001a04 LOADK                4   0  26 K[26]=40
+095 073c 04060102 CALL_I               2   3   1
+096 0740 12020000 RETURN               0   1   0
+
+FUNCTION cheat_start_quest range=[2103,2469)
+prefix_words=[0, 0, 26, 31] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='SQ16'
+  K[1]=None
+  K[2]=None
+  K[3]='set_started_encounter'
+  K[4]='set_spiders_dead'
+  K[5]='Canneroc_NQD'
+  K[6]=None
+  K[7]=None
+  K[8]='set_sq16_encounter_cleared'
+  K[9]='PORTAL'
+  K[10]=None
+  K[11]=None
+  K[12]='fast_travel'
+  K[13]='GOR_ID'
+  K[14]=None
+  K[15]=None
+  K[16]='NPC_DAL_LJO_MenriTogh'
+CODE: PC offset raw_word opcode A B C annotation
+000 0858 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='SQ16'
+001 085c 8c000114 DATA                20   0   1
+002 0860 86000300 GETFIELD_R1          0   0   3 field K[3]='set_started_encounter'
+003 0864 8c000000 DATA                 0   0   0
+004 0868 8c000000 DATA                 0   0   0
+005 086c 1a020001 LOADBOOL             1   1   0
+006 0870 04040100 CALL_I               0   2   1
+007 0874 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='SQ16'
+008 0878 8c000114 DATA                20   0   1
+009 087c 86000400 GETFIELD_R1          0   0   4 field K[4]='set_spiders_dead'
+010 0880 8c000000 DATA                 0   0   0
+011 0884 8c000000 DATA                 0   0   0
+012 0888 1a020001 LOADBOOL             1   1   0
+013 088c 04040100 CALL_I               0   2   1
+014 0890 aa000500 GETGLOBAL_MEM        0   0   5 K[5]='Canneroc_NQD'
+015 0894 8c000614 DATA                20   0   6
+016 0898 86000800 GETFIELD_R1          0   0   8 field K[8]='set_sq16_encounter_cleared'
+017 089c 8c000000 DATA                 0   0   0
+018 08a0 8c000000 DATA                 0   0   0
+019 08a4 1a020001 LOADBOOL             1   1   0
+020 08a8 04040100 CALL_I               0   2   1
+021 08ac aa000900 GETGLOBAL_MEM        0   0   9 K[9]='PORTAL'
+022 08b0 8c000a14 DATA                20   0  10
+023 08b4 86000c00 GETFIELD_R1          0   0  12 field K[12]='fast_travel'
+024 08b8 8c000000 DATA                 0   0   0
+025 08bc 8c000000 DATA                 0   0   0
+026 08c0 aa000d01 GETGLOBAL_MEM        1   0  13 K[13]='GOR_ID'
+027 08c4 8c000e14 DATA                20   0  14
+028 08c8 32001002 LOADK                2   0  16 K[16]='NPC_DAL_LJO_MenriTogh'
+029 08cc 04040001 CALL_I               1   2   0
+030 08d0 04000100 CALL_I               0   0   1
+031 08d4 12020000 RETURN               0   1   0
+
+FUNCTION menri_jump range=[2469,2638)
+prefix_words=[0, 0, 33, 35] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='PORTAL'
+  K[1]=None
+  K[2]=None
+  K[3]='fast_travel'
+  K[4]='GOR_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='NPC_DAL_LJO_MenriTogh'
+CODE: PC offset raw_word opcode A B C annotation
+000 09c6 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='PORTAL'
+001 09ca 8c000114 DATA                20   0   1
+002 09ce 86000300 GETFIELD_R1          0   0   3 field K[3]='fast_travel'
+003 09d2 8c000000 DATA                 0   0   0
+004 09d6 8c000000 DATA                 0   0   0
+005 09da aa000401 GETGLOBAL_MEM        1   0   4 K[4]='GOR_ID'
+006 09de 8c000514 DATA                20   0   5
+007 09e2 32000702 LOADK                2   0   7 K[7]='NPC_DAL_LJO_MenriTogh'
+008 09e6 04040001 CALL_I               1   2   0
+009 09ea 04000100 CALL_I               0   0   1
+010 09ee 12020000 RETURN               0   1   0
+
+FUNCTION investigate_farm range=[2638,2904)
+prefix_words=[0, 0, 37, 40] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='QUEST'
+  K[1]=None
+  K[2]=None
+  K[3]='set_stage'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]=10
+  K[9]='PORTAL'
+  K[10]=None
+  K[11]=None
+  K[12]='fast_travel'
+  K[13]='GOR_ID'
+  K[14]=None
+  K[15]=None
+  K[16]='FFQ35_ToghBody'
+CODE: PC offset raw_word opcode A B C annotation
+000 0a6f aa000000 GETGLOBAL_MEM        0   0   0 K[0]='QUEST'
+001 0a73 8c000114 DATA                20   0   1
+002 0a77 86000300 GETFIELD_R1          0   0   3 field K[3]='set_stage'
+003 0a7b 8c000000 DATA                 0   0   0
+004 0a7f 8c000000 DATA                 0   0   0
+005 0a83 aa000401 GETGLOBAL_MEM        1   0   4 K[4]='QUEST_ID'
+006 0a87 8c000514 DATA                20   0   5
+007 0a8b 32000702 LOADK                2   0   7 K[7]='FFQ35'
+008 0a8f 04040201 CALL_I               1   2   2
+009 0a93 32000802 LOADK                2   0   8 K[8]=10
+010 0a97 04060100 CALL_I               0   3   1
+011 0a9b aa000900 GETGLOBAL_MEM        0   0   9 K[9]='PORTAL'
+012 0a9f 8c000a14 DATA                20   0  10
+013 0aa3 86000c00 GETFIELD_R1          0   0  12 field K[12]='fast_travel'
+014 0aa7 8c000000 DATA                 0   0   0
+015 0aab 8c000000 DATA                 0   0   0
+016 0aaf aa000d01 GETGLOBAL_MEM        1   0  13 K[13]='GOR_ID'
+017 0ab3 8c000e14 DATA                20   0  14
+018 0ab7 32001002 LOADK                2   0  16 K[16]='FFQ35_ToghBody'
+019 0abb 04040001 CALL_I               1   2   0
+020 0abf 04000100 CALL_I               0   0   1
+021 0ac3 12020000 RETURN               0   1   0
+
+FUNCTION confront_cartery range=[2904,3180)
+prefix_words=[0, 0, 42, 45] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='QUEST'
+  K[1]=None
+  K[2]=None
+  K[3]='set_stage'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]=20
+  K[9]='PORTAL'
+  K[10]=None
+  K[11]=None
+  K[12]='fast_travel'
+  K[13]='GOR_ID'
+  K[14]=None
+  K[15]=None
+  K[16]='NPC_DAL_DOK_CarteryJayck'
+CODE: PC offset raw_word opcode A B C annotation
+000 0b79 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='QUEST'
+001 0b7d 8c000114 DATA                20   0   1
+002 0b81 86000300 GETFIELD_R1          0   0   3 field K[3]='set_stage'
+003 0b85 8c000000 DATA                 0   0   0
+004 0b89 8c000000 DATA                 0   0   0
+005 0b8d aa000401 GETGLOBAL_MEM        1   0   4 K[4]='QUEST_ID'
+006 0b91 8c000514 DATA                20   0   5
+007 0b95 32000702 LOADK                2   0   7 K[7]='FFQ35'
+008 0b99 04040201 CALL_I               1   2   2
+009 0b9d 32000802 LOADK                2   0   8 K[8]=20
+010 0ba1 04060100 CALL_I               0   3   1
+011 0ba5 aa000900 GETGLOBAL_MEM        0   0   9 K[9]='PORTAL'
+012 0ba9 8c000a14 DATA                20   0  10
+013 0bad 86000c00 GETFIELD_R1          0   0  12 field K[12]='fast_travel'
+014 0bb1 8c000000 DATA                 0   0   0
+015 0bb5 8c000000 DATA                 0   0   0
+016 0bb9 aa000d01 GETGLOBAL_MEM        1   0  13 K[13]='GOR_ID'
+017 0bbd 8c000e14 DATA                20   0  14
+018 0bc1 32001002 LOADK                2   0  16 K[16]='NPC_DAL_DOK_CarteryJayck'
+019 0bc5 04040001 CALL_I               1   2   0
+020 0bc9 04000100 CALL_I               0   0   1
+021 0bcd 12020000 RETURN               0   1   0
+
+FUNCTION complete_quest_good range=[3180,3616)
+prefix_words=[0, 0, 47, 52] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='ACTOR'
+  K[1]=None
+  K[2]=None
+  K[3]='uninstantiate_object'
+  K[4]='GOR_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='NPC_DAL_DOK_CarteryJayck'
+  K[8]='QUEST'
+  K[9]=None
+  K[10]=None
+  K[11]='set_stage'
+  K[12]='QUEST_ID'
+  K[13]=None
+  K[14]=None
+  K[15]='FFQ35'
+  K[16]=20
+  K[17]=None
+  K[18]=None
+  K[19]='set_killed_cartery'
+  K[20]='PORTAL'
+  K[21]=None
+  K[22]=None
+  K[23]='fast_travel'
+  K[24]='NPC_DAL_LJO_MenriTogh'
+CODE: PC offset raw_word opcode A B C annotation
+000 0c8d aa000000 GETGLOBAL_MEM        0   0   0 K[0]='ACTOR'
+001 0c91 8c000114 DATA                20   0   1
+002 0c95 86000300 GETFIELD_R1          0   0   3 field K[3]='uninstantiate_object'
+003 0c99 8c000000 DATA                 0   0   0
+004 0c9d 8c000000 DATA                 0   0   0
+005 0ca1 aa000401 GETGLOBAL_MEM        1   0   4 K[4]='GOR_ID'
+006 0ca5 8c000514 DATA                20   0   5
+007 0ca9 32000702 LOADK                2   0   7 K[7]='NPC_DAL_DOK_CarteryJayck'
+008 0cad 04040001 CALL_I               1   2   0
+009 0cb1 04000100 CALL_I               0   0   1
+010 0cb5 aa000800 GETGLOBAL_MEM        0   0   8 K[8]='QUEST'
+011 0cb9 8c000914 DATA                20   0   9
+012 0cbd 86000b00 GETFIELD_R1          0   0  11 field K[11]='set_stage'
+013 0cc1 8c000000 DATA                 0   0   0
+014 0cc5 8c000000 DATA                 0   0   0
+015 0cc9 aa000c01 GETGLOBAL_MEM        1   0  12 K[12]='QUEST_ID'
+016 0ccd 8c000d14 DATA                20   0  13
+017 0cd1 32000f02 LOADK                2   0  15 K[15]='FFQ35'
+018 0cd5 04040201 CALL_I               1   2   2
+019 0cd9 32001002 LOADK                2   0  16 K[16]=20
+020 0cdd 04060100 CALL_I               0   3   1
+021 0ce1 aa000f00 GETGLOBAL_MEM        0   0  15 K[15]='FFQ35'
+022 0ce5 8c001114 DATA                20   0  17
+023 0ce9 86001300 GETFIELD_R1          0   0  19 field K[19]='set_killed_cartery'
+024 0ced 8c000000 DATA                 0   0   0
+025 0cf1 8c000000 DATA                 0   0   0
+026 0cf5 1a020001 LOADBOOL             1   1   0
+027 0cf9 04040100 CALL_I               0   2   1
+028 0cfd aa001400 GETGLOBAL_MEM        0   0  20 K[20]='PORTAL'
+029 0d01 8c001514 DATA                20   0  21
+030 0d05 86001700 GETFIELD_R1          0   0  23 field K[23]='fast_travel'
+031 0d09 8c000000 DATA                 0   0   0
+032 0d0d 8c000000 DATA                 0   0   0
+033 0d11 aa000401 GETGLOBAL_MEM        1   0   4 K[4]='GOR_ID'
+034 0d15 8c000514 DATA                20   0   5
+035 0d19 32001802 LOADK                2   0  24 K[24]='NPC_DAL_LJO_MenriTogh'
+036 0d1d 04040001 CALL_I               1   2   0
+037 0d21 04000100 CALL_I               0   0   1
+038 0d25 12020000 RETURN               0   1   0
+
+FUNCTION complete_quest_bad range=[3616,3943)
+prefix_words=[0, 0, 54, 58] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='QUEST'
+  K[1]=None
+  K[2]=None
+  K[3]='set_stage'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]=40
+  K[9]=None
+  K[10]=None
+  K[11]='set_spared_cartery'
+  K[12]='PORTAL'
+  K[13]=None
+  K[14]=None
+  K[15]='fast_travel'
+  K[16]='GOR_ID'
+  K[17]=None
+  K[18]=None
+  K[19]='NPC_DAL_LJO_MenriTogh'
+CODE: PC offset raw_word opcode A B C annotation
+000 0e41 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='QUEST'
+001 0e45 8c000114 DATA                20   0   1
+002 0e49 86000300 GETFIELD_R1          0   0   3 field K[3]='set_stage'
+003 0e4d 8c000000 DATA                 0   0   0
+004 0e51 8c000000 DATA                 0   0   0
+005 0e55 aa000401 GETGLOBAL_MEM        1   0   4 K[4]='QUEST_ID'
+006 0e59 8c000514 DATA                20   0   5
+007 0e5d 32000702 LOADK                2   0   7 K[7]='FFQ35'
+008 0e61 04040201 CALL_I               1   2   2
+009 0e65 32000802 LOADK                2   0   8 K[8]=40
+010 0e69 04060100 CALL_I               0   3   1
+011 0e6d aa000700 GETGLOBAL_MEM        0   0   7 K[7]='FFQ35'
+012 0e71 8c000914 DATA                20   0   9
+013 0e75 86000b00 GETFIELD_R1          0   0  11 field K[11]='set_spared_cartery'
+014 0e79 8c000000 DATA                 0   0   0
+015 0e7d 8c000000 DATA                 0   0   0
+016 0e81 1a020001 LOADBOOL             1   1   0
+017 0e85 04040100 CALL_I               0   2   1
+018 0e89 aa000c00 GETGLOBAL_MEM        0   0  12 K[12]='PORTAL'
+019 0e8d 8c000d14 DATA                20   0  13
+020 0e91 86000f00 GETFIELD_R1          0   0  15 field K[15]='fast_travel'
+021 0e95 8c000000 DATA                 0   0   0
+022 0e99 8c000000 DATA                 0   0   0
+023 0e9d aa001001 GETGLOBAL_MEM        1   0  16 K[16]='GOR_ID'
+024 0ea1 8c001114 DATA                20   0  17
+025 0ea5 32001302 LOADK                2   0  19 K[19]='NPC_DAL_LJO_MenriTogh'
+026 0ea9 04040001 CALL_I               1   2   0
+027 0ead 04000100 CALL_I               0   0   1
+028 0eb1 12020000 RETURN               0   1   0
+
+FUNCTION on_quest_start range=[3943,4606)
+prefix_words=[0, 0, 61, 68] nups=0 params=0 vararg=0 stack=5 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='cheats'
+  K[1]=None
+  K[2]=None
+  K[3]='add_quest_cheat'
+  K[4]='FFQ35'
+  K[5]='Start FFQ35'
+  K[6]='cheat_start_quest'
+  K[7]=None
+  K[8]=None
+  K[9]='FFQ_31_40'
+  K[10]='Jump to Menri'
+  K[11]='menri_jump'
+  K[12]=None
+  K[13]=None
+  K[14]='Investigate the Farm'
+  K[15]='investigate_farm'
+  K[16]=None
+  K[17]=None
+  K[18]='Confront Cartery'
+  K[19]='confront_cartery'
+  K[20]=None
+  K[21]=None
+  K[22]='Complete Quest - Good'
+  K[23]='complete_quest_good'
+  K[24]=None
+  K[25]=None
+  K[26]='Complete Quest - Bad'
+  K[27]='complete_quest_bad'
+  K[28]=None
+  K[29]=None
+CODE: PC offset raw_word opcode A B C annotation
+000 0f88 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='cheats'
+001 0f8c 8c000114 DATA                20   0   1
+002 0f90 86000300 GETFIELD_R1          0   0   3 field K[3]='add_quest_cheat'
+003 0f94 8c000000 DATA                 0   0   0
+004 0f98 8c000000 DATA                 0   0   0
+005 0f9c 32000401 LOADK                1   0   4 K[4]='FFQ35'
+006 0fa0 32000502 LOADK                2   0   5 K[5]='Start FFQ35'
+007 0fa4 aa000603 GETGLOBAL_MEM        3   0   6 K[6]='cheat_start_quest'
+008 0fa8 8c000714 DATA                20   0   7
+009 0fac 32000904 LOADK                4   0   9 K[9]='FFQ_31_40'
+010 0fb0 040a0100 CALL_I               0   5   1
+011 0fb4 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='cheats'
+012 0fb8 8c000114 DATA                20   0   1
+013 0fbc 86000300 GETFIELD_R1          0   0   3 field K[3]='add_quest_cheat'
+014 0fc0 8c000000 DATA                 0   0   0
+015 0fc4 8c000000 DATA                 0   0   0
+016 0fc8 32000401 LOADK                1   0   4 K[4]='FFQ35'
+017 0fcc 32000a02 LOADK                2   0  10 K[10]='Jump to Menri'
+018 0fd0 aa000b03 GETGLOBAL_MEM        3   0  11 K[11]='menri_jump'
+019 0fd4 8c000c14 DATA                20   0  12
+020 0fd8 32000904 LOADK                4   0   9 K[9]='FFQ_31_40'
+021 0fdc 040a0100 CALL_I               0   5   1
+022 0fe0 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='cheats'
+023 0fe4 8c000114 DATA                20   0   1
+024 0fe8 86000300 GETFIELD_R1          0   0   3 field K[3]='add_quest_cheat'
+025 0fec 8c000000 DATA                 0   0   0
+026 0ff0 8c000000 DATA                 0   0   0
+027 0ff4 32000401 LOADK                1   0   4 K[4]='FFQ35'
+028 0ff8 32000e02 LOADK                2   0  14 K[14]='Investigate the Farm'
+029 0ffc aa000f03 GETGLOBAL_MEM        3   0  15 K[15]='investigate_farm'
+030 1000 8c001014 DATA                20   0  16
+031 1004 32000904 LOADK                4   0   9 K[9]='FFQ_31_40'
+032 1008 040a0100 CALL_I               0   5   1
+033 100c aa000000 GETGLOBAL_MEM        0   0   0 K[0]='cheats'
+034 1010 8c000114 DATA                20   0   1
+035 1014 86000300 GETFIELD_R1          0   0   3 field K[3]='add_quest_cheat'
+036 1018 8c000000 DATA                 0   0   0
+037 101c 8c000000 DATA                 0   0   0
+038 1020 32000401 LOADK                1   0   4 K[4]='FFQ35'
+039 1024 32001202 LOADK                2   0  18 K[18]='Confront Cartery'
+040 1028 aa001303 GETGLOBAL_MEM        3   0  19 K[19]='confront_cartery'
+041 102c 8c001414 DATA                20   0  20
+042 1030 32000904 LOADK                4   0   9 K[9]='FFQ_31_40'
+043 1034 040a0100 CALL_I               0   5   1
+044 1038 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='cheats'
+045 103c 8c000114 DATA                20   0   1
+046 1040 86000300 GETFIELD_R1          0   0   3 field K[3]='add_quest_cheat'
+047 1044 8c000000 DATA                 0   0   0
+048 1048 8c000000 DATA                 0   0   0
+049 104c 32000401 LOADK                1   0   4 K[4]='FFQ35'
+050 1050 32001602 LOADK                2   0  22 K[22]='Complete Quest - Good'
+051 1054 aa001703 GETGLOBAL_MEM        3   0  23 K[23]='complete_quest_good'
+052 1058 8c001814 DATA                20   0  24
+053 105c 32000904 LOADK                4   0   9 K[9]='FFQ_31_40'
+054 1060 040a0100 CALL_I               0   5   1
+055 1064 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='cheats'
+056 1068 8c000114 DATA                20   0   1
+057 106c 86000300 GETFIELD_R1          0   0   3 field K[3]='add_quest_cheat'
+058 1070 8c000000 DATA                 0   0   0
+059 1074 8c000000 DATA                 0   0   0
+060 1078 32000401 LOADK                1   0   4 K[4]='FFQ35'
+061 107c 32001a02 LOADK                2   0  26 K[26]='Complete Quest - Bad'
+062 1080 aa001b03 GETGLOBAL_MEM        3   0  27 K[27]='complete_quest_bad'
+063 1084 8c001c14 DATA                20   0  28
+064 1088 32000904 LOADK                4   0   9 K[9]='FFQ_31_40'
+065 108c 040a0100 CALL_I               0   5   1
+066 1090 12020000 RETURN               0   1   0
+
+FUNCTION on_process range=[4606,4663)
+prefix_words=[0, 0, 71, 73] nups=0 params=2 vararg=0 stack=2 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+CODE: PC offset raw_word opcode A B C annotation
+000 121f 12020000 RETURN               0   1   0
+
+FUNCTION on_quest_end range=[4663,4720)
+prefix_words=[0, 0, 76, 78] nups=0 params=0 vararg=0 stack=2 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+CODE: PC offset raw_word opcode A B C annotation
+000 1258 12020000 RETURN               0   1   0
+
+FUNCTION on_dialog_line_1164038_204596_0 range=[4720,4881)
+prefix_words=[0, 0, 83, 85] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='QUEST'
+  K[1]=None
+  K[2]=None
+  K[3]='set_stage'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]=10
+CODE: PC offset raw_word opcode A B C annotation
+000 1291 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='QUEST'
+001 1295 8c000114 DATA                20   0   1
+002 1299 86000300 GETFIELD_R1          0   0   3 field K[3]='set_stage'
+003 129d 8c000000 DATA                 0   0   0
+004 12a1 8c000000 DATA                 0   0   0
+005 12a5 aa000401 GETGLOBAL_MEM        1   0   4 K[4]='QUEST_ID'
+006 12a9 8c000514 DATA                20   0   5
+007 12ad 32000702 LOADK                2   0   7 K[7]='FFQ35'
+008 12b1 04040201 CALL_I               1   2   2
+009 12b5 32000802 LOADK                2   0   8 K[8]=10
+010 12b9 04060100 CALL_I               0   3   1
+011 12bd 12020000 RETURN               0   1   0
+
+FUNCTION on_dialog_line_1164038_204596_1 range=[4881,5042)
+prefix_words=[0, 0, 90, 92] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='QUEST'
+  K[1]=None
+  K[2]=None
+  K[3]='set_stage'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]=30
+CODE: PC offset raw_word opcode A B C annotation
+000 1332 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='QUEST'
+001 1336 8c000114 DATA                20   0   1
+002 133a 86000300 GETFIELD_R1          0   0   3 field K[3]='set_stage'
+003 133e 8c000000 DATA                 0   0   0
+004 1342 8c000000 DATA                 0   0   0
+005 1346 aa000401 GETGLOBAL_MEM        1   0   4 K[4]='QUEST_ID'
+006 134a 8c000514 DATA                20   0   5
+007 134e 32000702 LOADK                2   0   7 K[7]='FFQ35'
+008 1352 04040201 CALL_I               1   2   2
+009 1356 32000802 LOADK                2   0   8 K[8]=30
+010 135a 04060100 CALL_I               0   3   1
+011 135e 12020000 RETURN               0   1   0
+
+FUNCTION on_dialog_line_1164038_204597_1 range=[5042,5469)
+prefix_words=[0, 0, 97, 103] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='FFQ35'
+  K[1]=None
+  K[2]=None
+  K[3]='set_spared_cartery'
+  K[4]='QUEST'
+  K[5]=None
+  K[6]=None
+  K[7]='set_stage'
+  K[8]='QUEST_ID'
+  K[9]=None
+  K[10]=None
+  K[11]=40
+  K[12]='Player'
+  K[13]=None
+  K[14]=None
+  K[15]='give_quest_gold'
+  K[16]='Freeform Quest'
+  K[17]='remove_item_from_player'
+  K[18]='SIMTYPE_ID'
+  K[19]=None
+  K[20]=None
+  K[21]='QuestItem_FFQ35_JayckDagger'
+  K[22]=1
+CODE: PC offset raw_word opcode A B C annotation
+000 13d3 aa000000 GETGLOBAL_MEM        0   0   0 K[0]='FFQ35'
+001 13d7 8c000114 DATA                20   0   1
+002 13db 86000300 GETFIELD_R1          0   0   3 field K[3]='set_spared_cartery'
+003 13df 8c000000 DATA                 0   0   0
+004 13e3 8c000000 DATA                 0   0   0
+005 13e7 1a020001 LOADBOOL             1   1   0
+006 13eb 04040100 CALL_I               0   2   1
+007 13ef aa000400 GETGLOBAL_MEM        0   0   4 K[4]='QUEST'
+008 13f3 8c000514 DATA                20   0   5
+009 13f7 86000700 GETFIELD_R1          0   0   7 field K[7]='set_stage'
+010 13fb 8c000000 DATA                 0   0   0
+011 13ff 8c000000 DATA                 0   0   0
+012 1403 aa000801 GETGLOBAL_MEM        1   0   8 K[8]='QUEST_ID'
+013 1407 8c000914 DATA                20   0   9
+014 140b 32000002 LOADK                2   0   0 K[0]='FFQ35'
+015 140f 04040201 CALL_I               1   2   2
+016 1413 32000b02 LOADK                2   0  11 K[11]=40
+017 1417 04060100 CALL_I               0   3   1
+018 141b aa000c00 GETGLOBAL_MEM        0   0  12 K[12]='Player'
+019 141f 8c000d14 DATA                20   0  13
+020 1423 86000f00 GETFIELD_R1          0   0  15 field K[15]='give_quest_gold'
+021 1427 8c000000 DATA                 0   0   0
+022 142b 8c000000 DATA                 0   0   0
+023 142f 32001001 LOADK                1   0  16 K[16]='Freeform Quest'
+024 1433 04040100 CALL_I               0   2   1
+025 1437 aa000c00 GETGLOBAL_MEM        0   0  12 K[12]='Player'
+026 143b 8c000d14 DATA                20   0  13
+027 143f 86001100 GETFIELD_R1          0   0  17 field K[17]='remove_item_from_player'
+028 1443 8c000000 DATA                 0   0   0
+029 1447 8c000000 DATA                 0   0   0
+030 144b aa001201 GETGLOBAL_MEM        1   0  18 K[18]='SIMTYPE_ID'
+031 144f 8c001314 DATA                20   0  19
+032 1453 32001502 LOADK                2   0  21 K[21]='QuestItem_FFQ35_JayckDagger'
+033 1457 04040201 CALL_I               1   2   2
+034 145b 32001602 LOADK                2   0  22 K[22]=1
+035 145f 04060100 CALL_I               0   3   1
+036 1463 12020000 RETURN               0   1   0
+
+FUNCTION on_dialog_line_1164038_21374_5 range=[5469,5630)
+prefix_words=[0, 0, 109, 113] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='QUEST'
+  K[1]=None
+  K[2]=None
+  K[3]='set_stage'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]=100
+CODE: PC offset raw_word opcode A B C annotation
+000 157e aa000000 GETGLOBAL_MEM        0   0   0 K[0]='QUEST'
+001 1582 8c000114 DATA                20   0   1
+002 1586 86000300 GETFIELD_R1          0   0   3 field K[3]='set_stage'
+003 158a 8c000000 DATA                 0   0   0
+004 158e 8c000000 DATA                 0   0   0
+005 1592 aa000401 GETGLOBAL_MEM        1   0   4 K[4]='QUEST_ID'
+006 1596 8c000514 DATA                20   0   5
+007 159a 32000702 LOADK                2   0   7 K[7]='FFQ35'
+008 159e 04040201 CALL_I               1   2   2
+009 15a2 32000802 LOADK                2   0   8 K[8]=100
+010 15a6 04060100 CALL_I               0   3   1
+011 15aa 12020000 RETURN               0   1   0
+
+FUNCTION on_dialog_line_1164038_21374_6 range=[5630,5791)
+prefix_words=[0, 0, 119, 121] nups=0 params=0 vararg=0 stack=3 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='QUEST'
+  K[1]=None
+  K[2]=None
+  K[3]='set_stage'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]=100
+CODE: PC offset raw_word opcode A B C annotation
+000 161f aa000000 GETGLOBAL_MEM        0   0   0 K[0]='QUEST'
+001 1623 8c000114 DATA                20   0   1
+002 1627 86000300 GETFIELD_R1          0   0   3 field K[3]='set_stage'
+003 162b 8c000000 DATA                 0   0   0
+004 162f 8c000000 DATA                 0   0   0
+005 1633 aa000401 GETGLOBAL_MEM        1   0   4 K[4]='QUEST_ID'
+006 1637 8c000514 DATA                20   0   5
+007 163b 32000702 LOADK                2   0   7 K[7]='FFQ35'
+008 163f 04040201 CALL_I               1   2   2
+009 1643 32000802 LOADK                2   0   8 K[8]=100
+010 1647 04060100 CALL_I               0   3   1
+011 164b 12020000 RETURN               0   1   0
+
+FUNCTION on_start_stage_30 range=[5791,6129)
+prefix_words=[0, 0, 126, 129] nups=0 params=4 vararg=0 stack=8 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='game_quest_alert'
+  K[1]=None
+  K[2]=None
+  K[3]='add_alert'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]='update'
+  K[9]='factionsLibrary'
+  K[10]=None
+  K[11]=None
+  K[12]='set_faction_hostile'
+  K[13]='FACTION_ID'
+  K[14]=None
+  K[15]=None
+  K[16]='Player'
+  K[17]='Quest_FFQ35_Cartery'
+CODE: PC offset raw_word opcode A B C annotation
+000 16c0 aa000004 GETGLOBAL_MEM        4   0   0 K[0]='game_quest_alert'
+001 16c4 8c000114 DATA                20   0   1
+002 16c8 86080304 GETFIELD_R1          4   4   3 field K[3]='add_alert'
+003 16cc 8c000000 DATA                 0   0   0
+004 16d0 8c000000 DATA                 0   0   0
+005 16d4 aa000405 GETGLOBAL_MEM        5   0   4 K[4]='QUEST_ID'
+006 16d8 8c000514 DATA                20   0   5
+007 16dc 32000706 LOADK                6   0   7 K[7]='FFQ35'
+008 16e0 04040205 CALL_I               5   2   2
+009 16e4 32000806 LOADK                6   0   8 K[8]='update'
+010 16e8 04060104 CALL_I               4   3   1
+011 16ec aa000904 GETGLOBAL_MEM        4   0   9 K[9]='factionsLibrary'
+012 16f0 8c000a14 DATA                20   0  10
+013 16f4 86080c04 GETFIELD_R1          4   4  12 field K[12]='set_faction_hostile'
+014 16f8 8c000000 DATA                 0   0   0
+015 16fc 8c000000 DATA                 0   0   0
+016 1700 aa000d05 GETGLOBAL_MEM        5   0  13 K[13]='FACTION_ID'
+017 1704 8c000e14 DATA                20   0  14
+018 1708 32001006 LOADK                6   0  16 K[16]='Player'
+019 170c 04040205 CALL_I               5   2   2
+020 1710 aa000d06 GETGLOBAL_MEM        6   0  13 K[13]='FACTION_ID'
+021 1714 8c000e14 DATA                20   0  14
+022 1718 32001107 LOADK                7   0  17 K[17]='Quest_FFQ35_Cartery'
+023 171c 04040006 CALL_I               6   2   0
+024 1720 04000104 CALL_I               4   0   1
+025 1724 12020000 RETURN               0   1   0
+
+FUNCTION on_start_stage_10 range=[6129,6479)
+prefix_words=[0, 0, 135, 139] nups=0 params=4 vararg=0 stack=7 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='game_quest_alert'
+  K[1]=None
+  K[2]=None
+  K[3]='add_alert'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]='new'
+  K[9]='Player'
+  K[10]=None
+  K[11]=None
+  K[12]='add_to_map'
+  K[13]=9951847
+  K[14]='ACTOR'
+  K[15]=None
+  K[16]=None
+  K[17]='instantiate_object'
+  K[18]='GOR_ID'
+  K[19]=None
+  K[20]=None
+  K[21]='FFQ35_ToghBody'
+CODE: PC offset raw_word opcode A B C annotation
+000 1812 aa000004 GETGLOBAL_MEM        4   0   0 K[0]='game_quest_alert'
+001 1816 8c000114 DATA                20   0   1
+002 181a 86080304 GETFIELD_R1          4   4   3 field K[3]='add_alert'
+003 181e 8c000000 DATA                 0   0   0
+004 1822 8c000000 DATA                 0   0   0
+005 1826 aa000405 GETGLOBAL_MEM        5   0   4 K[4]='QUEST_ID'
+006 182a 8c000514 DATA                20   0   5
+007 182e 32000706 LOADK                6   0   7 K[7]='FFQ35'
+008 1832 04040205 CALL_I               5   2   2
+009 1836 32000806 LOADK                6   0   8 K[8]='new'
+010 183a 04060104 CALL_I               4   3   1
+011 183e aa000904 GETGLOBAL_MEM        4   0   9 K[9]='Player'
+012 1842 8c000a14 DATA                20   0  10
+013 1846 86080c04 GETFIELD_R1          4   4  12 field K[12]='add_to_map'
+014 184a 8c000000 DATA                 0   0   0
+015 184e 8c000000 DATA                 0   0   0
+016 1852 32000d05 LOADK                5   0  13 K[13]=9951847
+017 1856 04040104 CALL_I               4   2   1
+018 185a aa000e04 GETGLOBAL_MEM        4   0  14 K[14]='ACTOR'
+019 185e 8c000f14 DATA                20   0  15
+020 1862 86081104 GETFIELD_R1          4   4  17 field K[17]='instantiate_object'
+021 1866 8c000000 DATA                 0   0   0
+022 186a 8c000000 DATA                 0   0   0
+023 186e aa001205 GETGLOBAL_MEM        5   0  18 K[18]='GOR_ID'
+024 1872 8c001314 DATA                20   0  19
+025 1876 32001506 LOADK                6   0  21 K[21]='FFQ35_ToghBody'
+026 187a 04040005 CALL_I               5   2   0
+027 187e 04000104 CALL_I               4   0   1
+028 1882 12020000 RETURN               0   1   0
+
+FUNCTION on_start_stage_20 range=[6479,6658)
+prefix_words=[0, 0, 144, 146] nups=0 params=4 vararg=0 stack=7 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='game_quest_alert'
+  K[1]=None
+  K[2]=None
+  K[3]='add_alert'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]='update'
+CODE: PC offset raw_word opcode A B C annotation
+000 1970 aa000004 GETGLOBAL_MEM        4   0   0 K[0]='game_quest_alert'
+001 1974 8c000114 DATA                20   0   1
+002 1978 86080304 GETFIELD_R1          4   4   3 field K[3]='add_alert'
+003 197c 8c000000 DATA                 0   0   0
+004 1980 8c000000 DATA                 0   0   0
+005 1984 aa000405 GETGLOBAL_MEM        5   0   4 K[4]='QUEST_ID'
+006 1988 8c000514 DATA                20   0   5
+007 198c 32000706 LOADK                6   0   7 K[7]='FFQ35'
+008 1990 04040205 CALL_I               5   2   2
+009 1994 32000806 LOADK                6   0   8 K[8]='update'
+010 1998 04060104 CALL_I               4   3   1
+011 199c 12020000 RETURN               0   1   0
+
+FUNCTION on_start_stage_40 range=[6658,6837)
+prefix_words=[0, 0, 152, 154] nups=0 params=4 vararg=0 stack=7 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='game_quest_alert'
+  K[1]=None
+  K[2]=None
+  K[3]='add_alert'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]='update'
+CODE: PC offset raw_word opcode A B C annotation
+000 1a23 aa000004 GETGLOBAL_MEM        4   0   0 K[0]='game_quest_alert'
+001 1a27 8c000114 DATA                20   0   1
+002 1a2b 86080304 GETFIELD_R1          4   4   3 field K[3]='add_alert'
+003 1a2f 8c000000 DATA                 0   0   0
+004 1a33 8c000000 DATA                 0   0   0
+005 1a37 aa000405 GETGLOBAL_MEM        5   0   4 K[4]='QUEST_ID'
+006 1a3b 8c000514 DATA                20   0   5
+007 1a3f 32000706 LOADK                6   0   7 K[7]='FFQ35'
+008 1a43 04040205 CALL_I               5   2   2
+009 1a47 32000806 LOADK                6   0   8 K[8]='update'
+010 1a4b 04060104 CALL_I               4   3   1
+011 1a4f 12020000 RETURN               0   1   0
+
+FUNCTION on_start_stage_100 range=[6837,7406)
+prefix_words=[0, 0, 159, 169] nups=0 params=4 vararg=0 stack=8 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='game_quest_alert'
+  K[1]=None
+  K[2]=None
+  K[3]='add_alert'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]='complete'
+  K[9]='Player'
+  K[10]=None
+  K[11]=None
+  K[12]='give_quest_xp'
+  K[13]='Small Side Quest'
+  K[14]='give_quest_gold'
+  K[15]='remove_item_from_player'
+  K[16]='SIMTYPE_ID'
+  K[17]=None
+  K[18]=None
+  K[19]='QuestItem_FFQ35_JayckDagger'
+  K[20]=1
+  K[21]='give_quest_reward'
+  K[22]='LOOT_TABLE_ID'
+  K[23]=None
+  K[24]=None
+  K[25]='loot_rogue_unique06_hands'
+CODE: PC offset raw_word opcode A B C annotation
+000 1ad6 aa000004 GETGLOBAL_MEM        4   0   0 K[0]='game_quest_alert'
+001 1ada 8c000114 DATA                20   0   1
+002 1ade 86080304 GETFIELD_R1          4   4   3 field K[3]='add_alert'
+003 1ae2 8c000000 DATA                 0   0   0
+004 1ae6 8c000000 DATA                 0   0   0
+005 1aea aa000405 GETGLOBAL_MEM        5   0   4 K[4]='QUEST_ID'
+006 1aee 8c000514 DATA                20   0   5
+007 1af2 32000706 LOADK                6   0   7 K[7]='FFQ35'
+008 1af6 04040205 CALL_I               5   2   2
+009 1afa 32000806 LOADK                6   0   8 K[8]='complete'
+010 1afe 04060104 CALL_I               4   3   1
+011 1b02 aa000904 GETGLOBAL_MEM        4   0   9 K[9]='Player'
+012 1b06 8c000a14 DATA                20   0  10
+013 1b0a 86080c04 GETFIELD_R1          4   4  12 field K[12]='give_quest_xp'
+014 1b0e 8c000000 DATA                 0   0   0
+015 1b12 8c000000 DATA                 0   0   0
+016 1b16 32000d05 LOADK                5   0  13 K[13]='Small Side Quest'
+017 1b1a 04040104 CALL_I               4   2   1
+018 1b1e aa000904 GETGLOBAL_MEM        4   0   9 K[9]='Player'
+019 1b22 8c000a14 DATA                20   0  10
+020 1b26 86080e04 GETFIELD_R1          4   4  14 field K[14]='give_quest_gold'
+021 1b2a 8c000000 DATA                 0   0   0
+022 1b2e 8c000000 DATA                 0   0   0
+023 1b32 32000d05 LOADK                5   0  13 K[13]='Small Side Quest'
+024 1b36 04040104 CALL_I               4   2   1
+025 1b3a aa000904 GETGLOBAL_MEM        4   0   9 K[9]='Player'
+026 1b3e 8c000a14 DATA                20   0  10
+027 1b42 86080f04 GETFIELD_R1          4   4  15 field K[15]='remove_item_from_player'
+028 1b46 8c000000 DATA                 0   0   0
+029 1b4a 8c000000 DATA                 0   0   0
+030 1b4e aa001005 GETGLOBAL_MEM        5   0  16 K[16]='SIMTYPE_ID'
+031 1b52 8c001114 DATA                20   0  17
+032 1b56 32001306 LOADK                6   0  19 K[19]='QuestItem_FFQ35_JayckDagger'
+033 1b5a 04040205 CALL_I               5   2   2
+034 1b5e 32001406 LOADK                6   0  20 K[20]=1
+035 1b62 1a020007 LOADBOOL             7   1   0
+036 1b66 04080104 CALL_I               4   4   1
+037 1b6a aa000904 GETGLOBAL_MEM        4   0   9 K[9]='Player'
+038 1b6e 8c000a14 DATA                20   0  10
+039 1b72 86081504 GETFIELD_R1          4   4  21 field K[21]='give_quest_reward'
+040 1b76 8c000000 DATA                 0   0   0
+041 1b7a 8c000000 DATA                 0   0   0
+042 1b7e aa001605 GETGLOBAL_MEM        5   0  22 K[22]='LOOT_TABLE_ID'
+043 1b82 8c001714 DATA                20   0  23
+044 1b86 32001906 LOADK                6   0  25 K[25]='loot_rogue_unique06_hands'
+045 1b8a 04040205 CALL_I               5   2   2
+046 1b8e 32001406 LOADK                6   0  20 K[20]=1
+047 1b92 1a020007 LOADBOOL             7   1   0
+048 1b96 04080104 CALL_I               4   4   1
+049 1b9a 12020000 RETURN               0   1   0
+
+FUNCTION on_dialog_line_1164038_622331_1 range=[7406,7463)
+prefix_words=[0, 0, 175, 177] nups=0 params=0 vararg=0 stack=2 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+CODE: PC offset raw_word opcode A B C annotation
+000 1d0f 12020000 RETURN               0   1   0
+
+FUNCTION on_start_stage_110 range=[7463,7642)
+prefix_words=[0, 0, 182, 184] nups=0 params=4 vararg=0 stack=7 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='game_quest_alert'
+  K[1]=None
+  K[2]=None
+  K[3]='add_alert'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]='failed'
+CODE: PC offset raw_word opcode A B C annotation
+000 1d48 aa000004 GETGLOBAL_MEM        4   0   0 K[0]='game_quest_alert'
+001 1d4c 8c000114 DATA                20   0   1
+002 1d50 86080304 GETFIELD_R1          4   4   3 field K[3]='add_alert'
+003 1d54 8c000000 DATA                 0   0   0
+004 1d58 8c000000 DATA                 0   0   0
+005 1d5c aa000405 GETGLOBAL_MEM        5   0   4 K[4]='QUEST_ID'
+006 1d60 8c000514 DATA                20   0   5
+007 1d64 32000706 LOADK                6   0   7 K[7]='FFQ35'
+008 1d68 04040205 CALL_I               5   2   2
+009 1d6c 32000806 LOADK                6   0   8 K[8]='failed'
+010 1d70 04060104 CALL_I               4   3   1
+011 1d74 12020000 RETURN               0   1   0
+
+SAMPLE 1164038.quest_bxml payload 0
+container_offset=699 bytes=615
+sha256=604abfc9f55fdccb5b276b23de8027683f993f898e5907234a65bbfb5bbc69b4
+trailer_at=607 opaque_hex=0000000100000000
+
+FUNCTION <main> range=[238,607)
+prefix_words=[0, 0, 0, 0] nups=0 params=0 vararg=2 stack=2 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+CODE: PC offset raw_word opcode A B C annotation
+000 010f 78000000 CLOSURE              0   0   0 child=0 name=<unnamed>
+001 0113 12040000 RETURN               0   2   0
+002 0117 12020000 RETURN               0   1   0
+
+FUNCTION <child 0> range=[291,595)
+prefix_words=[0, 0, 1, 3] nups=0 params=2 vararg=0 stack=5 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='QUEST'
+  K[1]=None
+  K[2]=None
+  K[3]='get_stage'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]=0
+  K[9]='ACTOR'
+  K[10]=None
+  K[11]=None
+  K[12]='was_object_killed'
+  K[13]='GOR_ID'
+  K[14]=None
+  K[15]=None
+  K[16]='NPC_DAL_LJO_MenriTogh'
+  K[17]=False
+CODE: PC offset raw_word opcode A B C annotation
+000 0144 aa000002 GETGLOBAL_MEM        2   0   0 K[0]='QUEST'
+001 0148 8c000114 DATA                20   0   1
+002 014c 86040302 GETFIELD_R1          2   2   3 field K[3]='get_stage'
+003 0150 8c000000 DATA                 0   0   0
+004 0154 8c000000 DATA                 0   0   0
+005 0158 aa000403 GETGLOBAL_MEM        3   0   4 K[4]='QUEST_ID'
+006 015c 8c000514 DATA                20   0   5
+007 0160 32000704 LOADK                4   0   7 K[7]='FFQ35'
+008 0164 04040003 CALL_I               3   2   0
+009 0168 04000202 CALL_I               2   0   2
+010 016c 08050800 EQ                   0   2 264
+011 0170 39000b00 JMP                  0 128  11 target_PC=24
+012 0174 aa000902 GETGLOBAL_MEM        2   0   9 K[9]='ACTOR'
+013 0178 8c000a14 DATA                20   0  10
+014 017c 86040c02 GETFIELD_R1          2   2  12 field K[12]='was_object_killed'
+015 0180 8c000000 DATA                 0   0   0
+016 0184 8c000000 DATA                 0   0   0
+017 0188 aa000d03 GETGLOBAL_MEM        3   0  13 K[13]='GOR_ID'
+018 018c 8c000e14 DATA                20   0  14
+019 0190 32001004 LOADK                4   0  16 K[16]='NPC_DAL_LJO_MenriTogh'
+020 0194 04040003 CALL_I               3   2   0
+021 0198 04000202 CALL_I               2   0   2
+022 019c 08051101 EQ                   1   2 273
+023 01a0 39000000 JMP                  0 128   0 target_PC=25
+024 01a4 1a000102 LOADBOOL             2   0   1
+025 01a8 1a020002 LOADBOOL             2   1   0
+026 01ac 12040002 RETURN               2   2   0
+027 01b0 12020000 RETURN               0   1   0
+
+SAMPLE 1164038.quest_bxml payload 1
+container_offset=1323 bytes=615
+sha256=f3ac587da8ba1cbd92c34d054ff14c8a9776b10b042ecebc9d4bc2b4f9eaec12
+trailer_at=607 opaque_hex=0000000100000000
+
+FUNCTION <main> range=[238,607)
+prefix_words=[0, 0, 0, 0] nups=0 params=0 vararg=2 stack=2 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+CODE: PC offset raw_word opcode A B C annotation
+000 010f 78000000 CLOSURE              0   0   0 child=0 name=<unnamed>
+001 0113 12040000 RETURN               0   2   0
+002 0117 12020000 RETURN               0   1   0
+
+FUNCTION <child 0> range=[291,595)
+prefix_words=[0, 0, 1, 3] nups=0 params=2 vararg=0 stack=5 suffix_words=[0, 0, 0]
+CONSTANTS (indexes are zero-based)
+  K[0]='QUEST'
+  K[1]=None
+  K[2]=None
+  K[3]='get_stage'
+  K[4]='QUEST_ID'
+  K[5]=None
+  K[6]=None
+  K[7]='FFQ35'
+  K[8]=10
+  K[9]='ACTOR'
+  K[10]=None
+  K[11]=None
+  K[12]='was_object_killed'
+  K[13]='GOR_ID'
+  K[14]=None
+  K[15]=None
+  K[16]='NPC_DAL_LJO_MenriTogh'
+  K[17]=False
+CODE: PC offset raw_word opcode A B C annotation
+000 0144 aa000002 GETGLOBAL_MEM        2   0   0 K[0]='QUEST'
+001 0148 8c000114 DATA                20   0   1
+002 014c 86040302 GETFIELD_R1          2   2   3 field K[3]='get_stage'
+003 0150 8c000000 DATA                 0   0   0
+004 0154 8c000000 DATA                 0   0   0
+005 0158 aa000403 GETGLOBAL_MEM        3   0   4 K[4]='QUEST_ID'
+006 015c 8c000514 DATA                20   0   5
+007 0160 32000704 LOADK                4   0   7 K[7]='FFQ35'
+008 0164 04040003 CALL_I               3   2   0
+009 0168 04000202 CALL_I               2   0   2
+010 016c 08050800 EQ                   0   2 264
+011 0170 39000b00 JMP                  0 128  11 target_PC=24
+012 0174 aa000902 GETGLOBAL_MEM        2   0   9 K[9]='ACTOR'
+013 0178 8c000a14 DATA                20   0  10
+014 017c 86040c02 GETFIELD_R1          2   2  12 field K[12]='was_object_killed'
+015 0180 8c000000 DATA                 0   0   0
+016 0184 8c000000 DATA                 0   0   0
+017 0188 aa000d03 GETGLOBAL_MEM        3   0  13 K[13]='GOR_ID'
+018 018c 8c000e14 DATA                20   0  14
+019 0190 32001004 LOADK                4   0  16 K[16]='NPC_DAL_LJO_MenriTogh'
+020 0194 04040003 CALL_I               3   2   0
+021 0198 04000202 CALL_I               2   0   2
+022 019c 08051101 EQ                   1   2 273
+023 01a0 39000000 JMP                  0 128   0 target_PC=25
+024 01a4 1a000102 LOADBOOL             2   0   1
+025 01a8 1a020002 LOADBOOL             2   1   0
+026 01ac 12040002 RETURN               2   2   0
+027 01b0 12020000 RETURN               0   1   0
+
+TOTAL data_words=220 functions=27 instruction_words=687 operations=467
