@@ -1,0 +1,58 @@
+{
+  "range": [16250, 16499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 11,
+  "range_candidate_id_list": [
+    16250,
+    16283,
+    16301,
+    16368,
+    16389,
+    16391,
+    16404,
+    16443,
+    16452,
+    16461,
+    16478
+  ],
+  "reconciled_candidate_ids": 11,
+  "decisions": {
+    "previously_applied_confirmed": [
+      16250,
+      16283,
+      16301,
+      16368,
+      16391,
+      16404,
+      16443,
+      16452,
+      16461,
+      16478
+    ],
+    "refined": [16389],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "City Watch location": [16301, 4365, 6260],
+    "Notices of Duty": [2885, 16452, 36854, 52920],
+    "Fastings network": [5728, 6372, 6650, 13930, 16478, 54487]
+  },
+  "fingerprints_refreshed": {
+    "e2a82017fced2a32153467979ab5b6ca08c437a07e02ceb25690ac17df457012": [
+      16389
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 914,
+    "total": 4015,
+    "percent": 22.77,
+    "remaining": 3101
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [16389],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

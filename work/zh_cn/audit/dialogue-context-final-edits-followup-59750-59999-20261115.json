@@ -1,0 +1,61 @@
+{
+  "range": [59750, 59999],
+  "source": {
+    "sequential_review": "dialogue-context-default-59750-59999-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_candidate_ids": [
+    59753, 59765, 59790, 59806, 59812,
+    59903, 59911, 59926, 59965, 59975
+  ],
+  "newly_reconciled_ids": [
+    59753, 59765, 59790, 59806, 59812,
+    59903, 59911, 59926, 59965, 59975
+  ],
+  "already_resolved_ids": [59790, 59975],
+  "previous_candidate_ids_rechecked": [
+    59795, 59823, 59843, 59868, 59891, 59925, 59928, 59947, 59953
+  ],
+  "previous_candidate_corrected_ids": [59795, 59823, 59868, 59928, 59947],
+  "report_only_corrected_ids": [59863, 59904],
+  "held_for_insufficient_evidence": [59763, 59785, 59789, 59959],
+  "changed_default_ids": [
+    59753, 59765, 59795, 59806, 59812,
+    59823, 59863, 59868, 59903, 59904,
+    59911, 59926, 59928, 59947, 59965
+  ],
+  "ledger_fingerprint_changed_ids": [
+    59753, 59765, 59795, 59806, 59812,
+    59823, 59863, 59868, 59903, 59904,
+    59911, 59926, 59928, 59947, 59965
+  ],
+  "ledger_dispositions_changed": false,
+  "translation_csv_changed_during_reconciliation": false,
+  "cumulative_candidate_reconciliation": {
+    "previous": 3352,
+    "previous_total": 4026,
+    "newly_reconciled": 10,
+    "reconciled": 3362,
+    "total": 4026,
+    "percent": 83.51,
+    "remaining": 664
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "index_and_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_and_context_index_tests": "20 passed",
+    "csv_rows_order_bom_and_line_endings": "65,135 ordered IDs; UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

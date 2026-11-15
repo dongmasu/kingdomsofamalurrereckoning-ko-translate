@@ -1,0 +1,100 @@
+{
+  "range": [59000, 59249],
+  "source": {
+    "sequential_revalidation": "dialogue-context-default-59000-59249-revalidation-20261113.md",
+    "prior_application": "dialogue-context-final-edits-followup-52000-57999-20261115.json",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    59020, 59021, 59032, 59051, 59059, 59067, 59076, 59108,
+    59118, 59180, 59221, 59222, 59223, 59238, 59239
+  ],
+  "newly_reconciled_ids": [
+    59020, 59021, 59032, 59051, 59059, 59067, 59076, 59108,
+    59118, 59180, 59221, 59222, 59223, 59238, 59239
+  ],
+  "already_resolved_ids": [
+    59020, 59021, 59032, 59051, 59059, 59108, 59221, 59222,
+    59223, 59238, 59239
+  ],
+  "previously_reconciled_ids_rechecked": [
+    59011, 59052, 59057, 59142, 59152, 59191, 59197, 59200,
+    59217, 59242
+  ],
+  "report_only_ids_rechecked": [59093, 59140, 59235],
+  "held_for_insufficient_context": [59057],
+  "edits": [
+    {
+      "id": 59011,
+      "old": "바로 그렇지... 아오드(Aodh)가 불, 세데아스가 얼음과 관계있듯 이곳은 번개와 관계있어.",
+      "new": "바로 그렇지... 아오드(Aodh)가 불과 관계있고 세데아스(Sedeas)가 얼음과 관계있듯, 이곳은 번개와 관계있어.",
+      "reason": "Pair Sedeas and make the parallel comparison read naturally without adding a symbolic relationship."
+    },
+    {
+      "id": 59067,
+      "old": "자유가 부른다",
+      "new": "자유가 부른다(Freedom Beckons)",
+      "reason": "Pair the standalone title with its complete English source."
+    },
+    {
+      "id": 59076,
+      "old": "그림자 걷기",
+      "new": "그림자 걷기(Shadow Walk)",
+      "reason": "Pair the standalone ability/title with its English source."
+    },
+    {
+      "id": 59093,
+      "old": "혼돈의 심장",
+      "new": "혼돈의 심장(Hearts of Chaos)",
+      "reason": "Pair the standalone title while retaining its established Korean wording."
+    },
+    {
+      "id": 59118,
+      "old": "난폭한 자",
+      "new": "난폭한 덜렁이(Bull in a China Shop)",
+      "reason": "Retain the careless, destructive idiom and add the English title."
+    },
+    {
+      "id": 59152,
+      "old": "벤윅 애설름(Benwick Athelm)은 야생 짐승의 생명력을 불어넣을 수 있는 마법 물감, 자신이 '투모스'라고 부르는 물감으로 그림을 복원해 주겠다고 했다. 이 물질은 복원된 그림에 신비한 힘을 부여한다. 그는 네 번째 그림에 쓸 흰 물감 두 병을 주었다. 보가트(Boggart)를 충분히 처치하면 한 병의 색이 변하고, 뿌리 골렘(Root Golems)을 충분히 처치하면 두 번째 병의 색이 변할 것이다.",
+      "new": "벤윅 애설름(Benwick Athelm)은 야생 짐승의 생명력을 불어넣을 수 있는 마법 물감, 자신이 '투모스(thumos)'라고 부르는 물감으로 그림을 복원해 주겠다고 했다. 이 물질은 복원된 그림에 신비한 힘을 부여한다. 그는 네 번째 그림에 쓸 흰 물감 두 병을 주었다. 보가트(Boggart)를 충분히 처치하면 한 병의 색이 변하고, 뿌리 골렘(Root Golems)을 충분히 처치하면 두 번째 병의 색이 변할 것이다.",
+      "reason": "Pair the named paint term consistently with related references."
+    },
+    {
+      "id": 59180,
+      "old": "천성상 우리는 서로 대립하는 적일지도 몰라. 그래도 힘을 합치면 트래블러(Travelers)들을 황금기로 이끌 수 있다고 믿어.",
+      "new": "우린 타고난 성향부터 정반대라 적이 될지도 몰라. 그래도 힘을 합치면 트래블러(Travelers)들을 황금기로 이끌 수 있다고 믿어.",
+      "reason": "Replace stiff wording with a conversational plain-style line while retaining the source's contrast and outcome."
+    },
+    {
+      "id": 59235,
+      "old": "엘로렌 크리엣(Eloren Criet)의 주머니를 털었지만, 보석함이 압수됐다는 압류 통지서만 찾았다. 아데사(Adessa) 무기고의 금제품 보관함에 있을 것이다.",
+      "new": "엘로렌 크리엣(Eloren Criet)의 주머니를 털었지만, 보석함을 압수했다는 통지서만 찾았다. 아데사 무기고(Adessa Armory)의 밀수품 보관함에 있을 것이다.",
+      "reason": "Clarify the seizure notice and use the locker type established by English and Japanese."
+    }
+  ],
+  "ledger_fingerprint_changed_ids": [
+    59011, 59067, 59076, 59093, 59118, 59152, 59180, 59235
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3312,
+    "previous_total": 4026,
+    "newly_reconciled": 15,
+    "reconciled": 3327,
+    "total": 4026,
+    "percent": 82.64,
+    "remaining": 699
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "preservation_and_context_index_tests": "20 passed",
+    "index_and_catalog_reproducibility": "passed",
+    "csv_rows_and_order": "65,135 ordered unique IDs",
+    "utf8_bom_and_line_endings": "UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

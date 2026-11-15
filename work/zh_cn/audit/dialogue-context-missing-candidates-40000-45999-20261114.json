@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-14",
+  "range": [40000, 45999],
+  "source_order": ["en", "ja", "zh", "ko"],
+  "dispositions": [
+    {
+      "id": 41926,
+      "decision": "edit",
+      "dimension": "format",
+      "old": "그녀에게 부탁하면 네 운명의 실을 짜 주거나, 우리가 오리슨(Orison)이라 부르는 신성한 의식을 이끌어 줄 거야. 더 알고 싶다면 그녀와 이야기해.",
+      "new": "그녀에게 부탁하면 네 운명의 실을 짜 주거나, 우리가 오리슨(The Orison)이라 부르는 신성한 의식을 이끌어 줄 거야. 더 알고 싶다면 그녀와 이야기해.",
+      "reason": "The source names the rite The Orison; the active corpus uses 오리슨(The Orison)."
+    },
+    {
+      "id": 42063,
+      "decision": "edit",
+      "dimension": "meaning",
+      "old": "그들이 왜 글렌다라(Glendara)에 왔는지는 아무도 몰라요. 어느 날 갑자기 나타났어요. 우린 막지 않았어요.",
+      "new": "그들이 왜 글렌다라(Glendara)에 왔는지는 아무도 몰라요. 어느 날 갑자기 나타났어요. 우린 막을 생각이 없었어요.",
+      "reason": "English, Japanese, and Chinese express lack of intent or attempt to stop the visitors, not merely that they were not stopped."
+    },
+    {
+      "id": 42176,
+      "decision": "hold",
+      "dimension": ["meaning", "naturalness"],
+      "reason": "The insult dreg is clear, but its force and the intended Korean address are not; avoid overstatement or speaker inference."
+    },
+    {
+      "id": 42559,
+      "decision": "retain",
+      "dimension": "naturalness",
+      "reason": "Its Korean already matches exact-English duplicate 44457 and the parallel Japanese and Chinese."
+    },
+    {
+      "id": 42683,
+      "decision": "retain",
+      "dimension": ["naturalness", "address"],
+      "reason": "The active Korean 작은 자여 preserves Little one without asserting the addressee is a child; the speaker is not established."
+    },
+    {
+      "id": 43026,
+      "decision": "edit",
+      "dimension": "meaning",
+      "old": "조리엘(Jorielle)만 치우면 고용주들이 우물을 차지할 거야. 우물의 힘도 전부 함께 말이지.",
+      "new": "조리엘(Jorielle)만 치우면 고용주들이 영혼의 샘(Well of Souls)을 차지하고, 그에 따르는 힘도 전부 손에 넣을 거야.",
+      "reason": "The capitalized Well is the Well of Souls in this SQ152 context, confirmed by IDs 20054 and 53057."
+    },
+    {
+      "id": 43167,
+      "decision": "retain",
+      "dimension": ["naturalness", "format"],
+      "reason": "광산 업그레이드 완료 parallels Office Upgraded at 22980, 사무실 업그레이드 완료."
+    },
+    {
+      "id": 43289,
+      "decision": "retain",
+      "dimension": "meaning",
+      "reason": "재료 fits the alchemical ingredients in context and is supported by Japanese 素材; the related reagent wording is aligned."
+    },
+    {
+      "id": 43548,
+      "decision": "retain",
+      "dimension": "meaning",
+      "reason": "The current Korean already pairs the named term as 깊은 잠(Deep Slumber)."
+    },
+    {
+      "id": 43632,
+      "decision": "retain",
+      "dimension": ["meaning", "format"],
+      "reason": "The current Korean already uses 칼로르 경(Lord Callor) and 여름의 요람(Cradle of Summer)."
+    },
+    {
+      "id": 43918,
+      "decision": "retain",
+      "dimension": "naturalness",
+      "reason": "The defiant wording is acceptable against English and Japanese; unresolved Templar terminology is a separate issue."
+    },
+    {
+      "id": 44457,
+      "decision": "retain",
+      "dimension": "naturalness",
+      "reason": "Its Korean already matches exact-English duplicate 42559."
+    },
+    {
+      "id": 44458,
+      "decision": "hold",
+      "dimension": "speech_level",
+      "reason": "Japanese is conversational while English is neutral and Chinese is courteous; no per-key speaker or scene-stage evidence resolves the difference."
+    },
+    {
+      "id": 44961,
+      "decision": "retain",
+      "dimension": "meaning",
+      "reason": "연도문 is the selected term for the collectible litany books and agrees with Japanese 連祷書."
+    },
+    {
+      "id": 45085,
+      "decision": "retain",
+      "dimension": "meaning",
+      "reason": "연도문 already follows the selected litany-book term."
+    },
+    {
+      "id": 45361,
+      "decision": "retain",
+      "dimension": ["meaning", "naturalness"],
+      "reason": "The current wording naturally preserves English fell and already pairs Tilera, Lyria, and Balor."
+    }
+  ],
+  "summary": {
+    "candidate_ids": 16,
+    "edits": 3,
+    "retained": 11,
+    "held": 2
+  }
+}

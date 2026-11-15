@@ -1,0 +1,140 @@
+{
+  "range": [
+    19500,
+    19749
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 25,
+  "range_candidate_id_list": [
+    19510,
+    19532,
+    19536,
+    19539,
+    19540,
+    19561,
+    19580,
+    19596,
+    19597,
+    19600,
+    19603,
+    19605,
+    19613,
+    19621,
+    19635,
+    19661,
+    19667,
+    19677,
+    19682,
+    19697,
+    19715,
+    19733,
+    19738,
+    19745,
+    19746
+  ],
+  "reconciled_candidate_ids": 25,
+  "decisions": {
+    "confirmed_current": [
+      19510,
+      19532,
+      19536,
+      19539,
+      19540,
+      19580,
+      19596,
+      19597,
+      19600,
+      19603,
+      19605,
+      19613,
+      19661,
+      19667,
+      19677,
+      19682,
+      19697,
+      19715,
+      19733,
+      19738,
+      19745,
+      19746
+    ],
+    "corrected": [
+      19621
+    ],
+    "partial_with_separate_hold": [
+      19561,
+      19635
+    ],
+    "linked_candidates_rechecked_previously_reconciled": [
+      21922,
+      54076,
+      64167,
+      64664
+    ]
+  },
+  "additional_linked_candidate_ids_reconciled": [],
+  "related_consistency_groups": {
+    "Khamazandu instrument-and-gift opening": [
+      7589,
+      15148,
+      19510,
+      21922,
+      54076,
+      64167,
+      64664
+    ],
+    "Unseelie faction spelling": [
+      19536,
+      25979,
+      51481
+    ],
+    "Warden Bridge versus Warden's Bridge": [
+      19738,
+      2303,
+      9230,
+      11951,
+      35729,
+      36663,
+      40536,
+      51266,
+      52913,
+      61566,
+      64889
+    ]
+  },
+  "previously_reconciled_linked_ids_not_counted_twice": [
+    7589,
+    15148,
+    21922,
+    54076,
+    64167,
+    64664
+  ],
+  "held_dimensions": {
+    "19561": "The meaning of 'telling' remains uncertain.",
+    "19635": "The meaning of 'barghest-tipping' remains uncertain."
+  },
+  "other_existing_context_holds_not_in_candidate_total": [
+    19512,
+    19590,
+    19648,
+    19658
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1070,
+    "total": 4015,
+    "percent": 26.65,
+    "remaining": 2945
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      19621
+    ],
+    "fingerprint_refreshed_ids": [
+      19621
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

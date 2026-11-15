@@ -1,0 +1,250 @@
+{
+  "range": [37250, 37499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-37250-37499-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-34250-34499-candidate-reconciliation-20261114.md",
+      "dialogue-context-sq131-revalidation-20261110.md",
+      "dialogue-context-1458189-sq122-tidings-war-revalidation-20261111.md",
+      "dialogue-context-default-41250-41499-revalidation-20261112.md",
+      "dialogue-context-default-63750-63999-revalidation-20261113.md",
+      "dialogue-context-nil-kern-consistency-20261114.md"
+    ]
+  },
+  "range_candidate_ids": 23,
+  "range_candidate_id_list": [
+    37261, 37268, 37274, 37275, 37286, 37303, 37310, 37312, 37333, 37334,
+    37343, 37360, 37367, 37387, 37400, 37404, 37417, 37421, 37436, 37473,
+    37486, 37487, 37488
+  ],
+  "previously_reconciled_candidate_ids": [],
+  "newly_counted_candidate_ids": [
+    37261, 37268, 37274, 37275, 37286, 37303, 37310, 37312, 37333, 37334,
+    37343, 37360, 37367, 37387, 37400, 37404, 37417, 37421, 37436, 37473,
+    37486, 37487, 37488, 41418
+  ],
+  "linked_candidate_ids_checked": [41418],
+  "additional_linked_candidate_ids_reconciled": [41418],
+  "linked_consistency_ids_checked": [
+    4994, 13731, 33190, 34744, 39980, 43875, 44470, 47862, 48434, 53070,
+    57771, 63777, 64768
+  ],
+  "decisions": {
+    "newly_applied": [
+      37261, 37303, 37310, 37312, 37333, 37334, 37360, 37367, 37387, 37400,
+      37404, 37417, 37488, 4994, 41418, 63777, 13731, 39980, 53070, 57771,
+      33190, 34744, 44470, 48434, 47862
+    ],
+    "previously_applied_or_currently_supported": [
+      37268, 37274, 37286, 37343, 37421, 37436, 37473, 37486, 37487, 43875,
+      64768
+    ],
+    "evidence_limited_holds": [37275, 37274, 37404]
+  },
+  "edits": [
+    {
+      "id": 37261,
+      "old": "계약 당사자 중 한 명이 사망했습니다. 더는 이 계약을 이행할 수 없습니다.",
+      "new": "계약 당사자 중 한 명이 사망했다. 더는 이 계약을 이행할 수 없다.",
+      "reason": "Match the plain journal narration supported by Japanese and the neighboring journal-entry style, without assigning a speaker."
+    },
+    {
+      "id": 37303,
+      "old": "텔로그루스(Telogrus)를 추적하라",
+      "new": "텔로그루스(Telogrus) 따라가기",
+      "reason": "Render the short Follow objective in the established concise -하기 action form."
+    },
+    {
+      "id": 37310,
+      "old": "가스티르의",
+      "new": "가스티르(Gastyr)의",
+      "reason": "Pair the identified proper name while preserving the source's incomplete possessive fragment."
+    },
+    {
+      "id": 37312,
+      "old": "검게 그을린 전당(Blackened Hall)의 군주 리르를 섬기는 서기관 피어스(Pearse)의 일지에서 발췌.",
+      "new": "검게 그을린 전당(Blackened Hall)의 군주 리르(Lir)를 섬기는 서기관 피어스(Pearse)의 일지에서 발췌.",
+      "reason": "English, Japanese, and Chinese identify Lir as the Lord of the already-paired Blackened Hall."
+    },
+    {
+      "id": 37333,
+      "old": "이야기에 따르면 가스티르 가문(House Gastyr)이 몰락한 뒤 브락시스가 왕실의 재산에 마법을 걸어 숨겼다고 한다. 끈기 있는 모험가만 찾아낼 수 있도록 말이지.",
+      "new": "이야기에 따르면 가스티르 가문(House Gastyr)이 몰락한 뒤 브락시스(Braxis)가 왕실의 재산에 마법을 걸어 숨겼다고 한다. 끈기 있는 모험가만 찾아낼 수 있도록 말이지.",
+      "reason": "Pair the named Braxis, supported by the English and matching Japanese/Chinese name references."
+    },
+    {
+      "id": 37334,
+      "old": "꽃망울 반지 획득",
+      "new": "꽃망울 반지(Bloom Ring) 획득하기",
+      "reason": "Complete the named item pairing and use the established objective action form."
+    },
+    {
+      "id": 37360,
+      "old": "교수대에 올랐지, 그랬어. 머리가 돌았지, 그랬어. 해적왕 탓이야.",
+      "new": "교수대에 올랐지. 제정신이 아니었어. 해적왕 탓이야.",
+      "reason": "Remove the stiff repeated calque while retaining the rough speech, gallows, madness, and blame."
+    },
+    {
+      "id": 37367,
+      "old": "첫 검 브론웬 센(Bronwen Senn)은 칼을 든 시인이야. 왠지 너도 싸움에 익숙한 것 같아.",
+      "new": "제일검(First Sword) 브론웬 센(Bronwen Senn)은 칼을 든 시인이야. 왠지 너도 싸움에 익숙한 것 같아.",
+      "reason": "Use the corpus-supported formal Alfar title and pair it separately from Bronwen Senn."
+    },
+    {
+      "id": 37387,
+      "old": "하지만 미래의 복잡한 짜임을 잘못 읽은 사람이 내가 처음은 아니지.",
+      "new": "하지만 미래의 운명이 복잡하게 얽힌 모습을 잘못 읽은 사람이 나뿐은 아니지.",
+      "reason": "Retain the intricate-weave image in natural Korean and preserve the speaker's meaning."
+    },
+    {
+      "id": 37400,
+      "old": "굿차일드 저택",
+      "new": "굿차일드 저택(Goodchild Estate)",
+      "reason": "Pair the complete named residence; Japanese 屋敷 and Chinese 宅邸 support the Korean 저택."
+    },
+    {
+      "id": 37404,
+      "old": "위도우(The Widow)의 행차",
+      "new": "위도우의 행차(The Widow Walks)",
+      "reason": "Keep the complete source title together in the parenthetical without deciding whether the key is a title, quest, or ordinary phrase."
+    },
+    {
+      "id": 37417,
+      "old": "발라드의 집(House of Ballads) 사람들은 나를 이야기꾼이라 부르곤 하지. 여름 궁정(Summer Court)의 경험담 선집을 지키고 있으니까.",
+      "new": "발라드의 집(House of Ballads) 사람들은 나를 이야기꾼(Storyteller)이라 부르곤 하지. 여름 궁정(Summer Court)의 경험담 선집을 지키고 있으니까.",
+      "reason": "Pair the capitalized formal role while preserving the sentence and its existing register."
+    },
+    {
+      "id": 37488,
+      "old": "복무 소집 통지서",
+      "new": "복무 소집 통지서(Notice of Duty)",
+      "reason": "Use the established military-document term and pair the exact singular source label."
+    },
+    {
+      "id": 4994,
+      "old": "알파르 군(Alfar Army)의 병사 여럿이 나와 실력을 겨루고 싶어 한다. 싸울 준비가 되면 멜 센시르(Mel Senshir) 훈련장에서 제일검 브론웬 센(First Sword Bronwen Senn)과 이야기해야 한다.",
+      "new": "알파르 군(Alfar Army)의 병사 여럿이 나와 실력을 겨루고 싶어 한다. 싸울 준비가 되면 멜 센시르(Mel Senshir) 훈련장에서 제일검(First Sword) 브론웬 센(Bronwen Senn)과 이야기해야 한다.",
+      "reason": "Align the title/name boundary with the established First Sword and Bronwen Senn forms."
+    },
+    {
+      "id": 41418,
+      "old": "그녀의 쌍둥이 자매 브론웬(Bronwen)은 제1검(First Sword)이야. 그게 무슨 뜻인지도 모르지?",
+      "new": "그녀의 쌍둥이 자매 브론웬(Bronwen)은 제일검(First Sword)이야. 그게 무슨 뜻인지도 모르지?",
+      "reason": "Use the canonical title form confirmed by the other First Sword rows; this linked ledger candidate is counted once."
+    },
+    {
+      "id": 63777,
+      "old": "전통적으로 퍼스트 소드(First Sword)는 알파르 군(Alfar Army)에서 가장 뛰어난 검술가에게 주어지는 칭호야. 제라스테스(Xerastes)라는 투아사(Tuatha) 챔피언을 죽이고 그 칭호를 얻었지.",
+      "new": "전통적으로 제일검(First Sword)은 알파르 군(Alfar Army)에서 가장 뛰어난 검술가에게 주어지는 칭호야. 제라스테스(Xerastes)라는 투아사(Tuatha) 챔피언을 죽이고 그 칭호를 얻었지.",
+      "reason": "This sentence explicitly defines the Alfar rank, supporting the established Korean title; other ledger dimensions remain unchanged."
+    },
+    {
+      "id": 13731,
+      "old": "이야기꾼에 대해 알고 싶다고? 하. 나조차 백색의 할람(Hallam the White)이 부르는 발라드가 뭔지 몰라. 그의 전승(The Telling)은 가장 깊숙이 감춰져 있고, 할람(Hallam)은 그 비밀을 지키려고 애써 왔지.",
+      "new": "이야기꾼(Storyteller)에 대해 알고 싶다고? 하. 나조차 백색의 할람(Hallam the White)이 부르는 발라드가 뭔지 몰라. 그의 전승(The Telling)은 가장 깊숙이 감춰져 있고, 할람(Hallam)은 그 비밀을 지키려고 애써 왔지.",
+      "reason": "Pair the capitalized role while keeping the existing Hallam/Telling distinction and casual style."
+    },
+    {
+      "id": 39980,
+      "old": "모든 페이(Fae)가 이야기꾼을 알아. 그는 첫 봄이 시작된 이래 줄곧 전승(The Telling)을 보살펴 온 수호자야.",
+      "new": "모든 페이(Fae)가 이야기꾼(Storyteller)을 알아. 그는 첫 봄이 시작된 이래 줄곧 전승(The Telling)을 보살펴 온 수호자야.",
+      "reason": "Pair the same capitalized Storyteller role used across the corpus."
+    },
+    {
+      "id": 53070,
+      "old": "이야기꾼은 우리 모두를 이끌며 여름 궁정(Summer Court)의 위대한 노래를 전한다. 우리 가문을 다스리고, 마법의 궁정(Court of Enchantments)에서 위대한 기사들을 섬기지.",
+      "new": "이야기꾼(Storyteller)은 우리 모두를 이끌며 여름 궁정(Summer Court)의 위대한 노래를 전한다. 우리 가문을 다스리고, 마법의 궁정(Court of Enchantments)에서 위대한 기사들을 섬기지.",
+      "reason": "Pair the formal role while retaining the existing narrative and register."
+    },
+    {
+      "id": 57771,
+      "old": "여름 궁정(Court of Summer) 페이(Fae)에게 이야기꾼은 가장 중요한 역할을 맡는다. 전승(The Telling)의 전개를 지켜보지.",
+      "new": "여름 궁정(Court of Summer) 페이(Fae)에게 이야기꾼(Storyteller)은 가장 중요한 역할을 맡는다. 전승(The Telling)의 전개를 지켜보지.",
+      "reason": "Pair the formal role and preserve the distinction from Telling as a tradition."
+    },
+    {
+      "id": 33190,
+      "old": "복무 소집 통지서",
+      "new": "복무 소집 통지서(Notice of Duty)",
+      "reason": "Pair the repeated singular document label with its exact English name."
+    },
+    {
+      "id": 34744,
+      "old": "복무 소집 통지서",
+      "new": "복무 소집 통지서(Notice of Duty)",
+      "reason": "Match the same singular document label used at the other item rows."
+    },
+    {
+      "id": 44470,
+      "old": "복무 소집 통지서",
+      "new": "복무 소집 통지서(Notice of Duty)",
+      "reason": "Match the same singular document label used at the other item rows."
+    },
+    {
+      "id": 48434,
+      "old": "복무 소집 통지서",
+      "new": "복무 소집 통지서(Notice of Duty)",
+      "reason": "Match the same singular document label used at the other item rows."
+    },
+    {
+      "id": 47862,
+      "old": "복무 통지서라면 환영이지. 전쟁도 끝났으니 신나는 여행이 될 거야! 상상해 봐. 바다, 클루리콘(Klurikon), 군대와 함께 황야를 탐험하는 거야.",
+      "new": "복무 소집 통지서(Notice of Duty)라면 환영이지. 전쟁도 끝났으니 신나는 여행이 될 거야! 상상해 봐. 바다, 클루리콘(Klurikon), 군대와 함께 황야를 탐험하는 거야.",
+      "reason": "Use the same established Korean term and complete source name as the singular labels."
+    }
+  ],
+  "held": [
+    {
+      "id": 37274,
+      "reason": "English contains malformed clauses and the sources do not resolve the Orieator's Lance and pain description; the full title formatting is already corrected and all eight line breaks remain."
+    },
+    {
+      "id": 37275,
+      "reason": "The spelling/capitalization relationship between lowercase gorta and Faer Gorta remains provisional."
+    },
+    {
+      "id": 37404,
+      "reason": "The complete source label is paired, but the isolated key does not establish whether The Widow Walks is a quest/title or an ordinary phrase."
+    }
+  ],
+  "related_consistency_groups": {
+    "First Sword": [4994, 37367, 41418, 43216, 47151, 49038, 49150, 63777, 64900],
+    "Storyteller": [13731, 37417, 39980, 43875, 53070, 57771, 64768],
+    "Notice of Duty singular labels": [33190, 34744, 37488, 44470, 48434],
+    "Notice of Duty dialogue": [47862],
+    "Notices of Duty plural wording retained": [2885, 16452, 36854, 52920]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2352,
+    "total": 4015,
+    "percent": 58.58,
+    "remaining": 1663
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      37261, 37303, 37310, 37312, 37333, 37334, 37360, 37367, 37387, 37400,
+      37404, 37417, 37488, 4994, 41418, 63777, 13731, 39980, 53070, 57771,
+      33190, 34744, 44470, 48434, 47862
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "ledger_fingerprint_ids_refreshed": [
+      37261, 37303, 37310, 37312, 37333, 37334, 37360, 37367, 37387, 37400,
+      37404, 37417, 37488, 4994, 41418, 63777, 13731, 39980, 53070, 57771,
+      33190, 34744, 44470, 48434, 47862
+    ],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": 20,
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71838,
+    "csv_lf_only": 244,
+    "csv_bare_cr": 0,
+    "crlf_aware_diff_check": "passed",
+    "commit_made": false
+  }
+}

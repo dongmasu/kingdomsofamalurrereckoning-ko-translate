@@ -1,0 +1,43 @@
+{
+  "range": [32750, 32999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 14,
+  "range_candidate_id_list": [
+    32759, 32802, 32825, 32860, 32881, 32886, 32891,
+    32898, 32944, 32947, 32951, 32955, 32976, 32980
+  ],
+  "linked_candidate_ids_outside_range": [38609],
+  "previously_reconciled_linked_candidate_ids": [26414],
+  "linked_non_candidate_ids_reviewed": [22955, 42785],
+  "newly_counted_candidate_ids": [
+    32759, 32802, 32825, 32860, 32881, 32886, 32891,
+    32898, 32944, 32947, 32951, 32955, 32976, 32980, 38609
+  ],
+  "decisions": {
+    "confirmed_current": [
+      32825, 32860, 32881, 32886, 32898, 32944, 32947, 32951, 32980, 38609
+    ],
+    "retained": [32759, 32802, 32955, 32976],
+    "partial_with_evidence_limited_issue": [32891],
+    "linked_candidate_previously_counted": [26414]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1948,
+    "total": 4015,
+    "percent": 48.52,
+    "remaining": 2067
+  },
+  "evidence_reports": [
+    "dialogue-context-default-32750-32999-revalidation-20261112.md",
+    "dialogue-context-edit-batch-20261114-32750-32999.md",
+    "dialogue-context-three-handler-assets-kvsq01-sq27-dlc1sq03-revalidation-20261111.md",
+    "dialogue-context-26250-26499-candidate-reconciliation-20261114.md"
+  ],
+  "verification": {
+    "translation_csv_changed_during_reconciliation": false,
+    "existing_edit_batch_used": true,
+    "no_duplicate_source_group_among_corrected_rows": true,
+    "speaker_or_playback_order_inferred": false,
+    "full_ledger_and_csv_checks": "recorded in linked edit batch"
+  }
+}

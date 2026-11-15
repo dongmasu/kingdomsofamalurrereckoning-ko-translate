@@ -1,0 +1,50 @@
+{
+  "range": [35250, 35499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-35250-35499-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-33500-35999-20261114.json",
+    "prior_followup": "dialogue-context-final-edits-followup-33500-35999-20261114.json",
+    "linked_candidate_review": "dialogue-context-24500-24749-candidate-reconciliation-20261114.md"
+  },
+  "range_candidate_ids": 35,
+  "range_candidate_id_list": [
+    35256, 35269, 35270, 35276, 35287, 35290, 35307, 35308, 35317, 35326,
+    35331, 35337, 35338, 35340, 35345, 35369, 35373, 35376, 35377, 35392,
+    35397, 35413, 35423, 35431, 35435, 35436, 35439, 35449, 35453, 35465,
+    35478, 35483, 35488, 35489, 35493
+  ],
+  "previously_reconciled_candidate_ids": [35478],
+  "newly_counted_candidate_ids": [
+    35256, 35269, 35270, 35276, 35287, 35290, 35307, 35308, 35317, 35326,
+    35331, 35337, 35338, 35340, 35345, 35369, 35373, 35376, 35377, 35392,
+    35397, 35413, 35423, 35431, 35435, 35436, 35439, 35449, 35453, 35465,
+    35483, 35488, 35489, 35493
+  ],
+  "decisions": {
+    "confirmed_current_or_previously_applied": [
+      35256, 35269, 35270, 35276, 35287, 35290, 35307, 35308, 35317, 35326,
+      35331, 35337, 35338, 35340, 35345, 35369, 35373, 35376, 35377, 35392,
+      35397, 35413, 35423, 35431, 35435, 35436, 35439, 35449, 35453, 35483,
+      35488, 35489, 35493
+    ],
+    "retained_after_prior_followup": [35465],
+    "previously_reconciled": [35478],
+    "held_evidence_limited": [35298, 35368, 35462, 35470, 38102, 39308]
+  },
+  "edits": [],
+  "fingerprints_refreshed": [],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2208,
+    "total": 4015,
+    "percent": 54.99,
+    "remaining": 1807
+  },
+  "verification": {
+    "four_language_candidate_ids_checked": 35,
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "speaker_or_playback_order_inferred": false
+  }
+}

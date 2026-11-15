@@ -1,0 +1,52 @@
+{
+  "range": [16500, 16749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 9,
+  "range_candidate_id_list": [
+    16518,
+    16561,
+    16582,
+    16584,
+    16617,
+    16665,
+    16681,
+    16687,
+    16719
+  ],
+  "reconciled_candidate_ids": 10,
+  "decisions": {
+    "previously_applied_confirmed": [
+      16518,
+      16561,
+      16582,
+      16584,
+      16617,
+      16665,
+      16681,
+      16687,
+      16719,
+      33194
+    ],
+    "refined": [],
+    "retained": [],
+    "held": []
+  },
+  "additional_linked_candidate_ids_reconciled": [33194],
+  "related_consistency_groups": {
+    "Exact monster-training duplicate": [16617, 33194],
+    "Cliffbreak Fasting": [16665, 32938, 41076, 53501, 59068, 61813]
+  },
+  "fingerprints_refreshed": {},
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 924,
+    "total": 4015,
+    "percent": 23.01,
+    "remaining": 3091
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

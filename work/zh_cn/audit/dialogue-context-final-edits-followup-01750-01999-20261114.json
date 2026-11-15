@@ -1,0 +1,105 @@
+{
+  "range": [1750, 1999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "reconciled_candidate_ids": 18,
+  "edits": [
+    {
+      "id": 1835,
+      "old": "난민 리라 보가드(Lyra Vogard)와 동료들이 오리에이터의 무덤(Orieator's Tomb) 깊은 곳에서 탈출해 버림받은 평원(Forsaken Plain)의 야영지로 돌아가도록 도왔다.",
+      "new": "난민 라이라 보가드(Lyra Vogard)와 동료들이 오리에이터의 무덤(Orieator's Tomb) 깊은 곳에서 탈출해 버림받은 평원(Forsaken Plain)의 야영지로 돌아가도록 도왔다.",
+      "reason": "Japanese consistently renders Lyra Vogard as ライラ; align the established Korean spelling to 라이라 while preserving the full name pairing and sentence meaning."
+    },
+    {
+      "id": 1869,
+      "old": "단순히 폭력을 휘두르는 것만으로는 문제를 해결할 수 없어. 미스그라(Meathgra)는 오래 살아서 뻔한 공격쯤은 대비하고 있거든.",
+      "new": "단순히 폭력을 휘두르는 것만으로는 문제를 해결할 수 없어. 미스그라(Meathgra)는 오래 살아서 뻔한 공격쯤은 금방 알아채.",
+      "reason": "English says Meathgra is wise to obvious attacks; Japanese and Chinese clarify that she notices/detects them, not that she prepares for them."
+    },
+    {
+      "id": 1882,
+      "old": "그를 쫓아갈 수는 없어. 여기 남아 더 큰 사명을 수행하는 게 내 의무지만, 그래도 뭔가 해야 해. 페핀(Pepin)이 늦는 게 걱정되는군.",
+      "new": "그를 쫓아갈 수는 없어. 여기 남아 더 큰 사명을 수행하는 게 내 의무지만, 그래도 뭔가 해야 해. 페핀(Pepin)이 늦는 게 걱정이야.",
+      "reason": "The Japanese uses conversational plain speech, and the preceding Korean is informal; replace the stilted 군 ending without inferring a speaker."
+    },
+    {
+      "id": 1901,
+      "old": "이 숲에서 그와 마주친 지 반나절도 지나지 않았어. 괴물을 섀터티어 광산(Shattertier Mines)까지 쫓아갔지.",
+      "new": "우리 둘이 이 숲에서 마주친 지 반나절도 지나지 않았어. 괴물을 섀터티어 광산(Shattertier Mines)까지 쫓아갔지.",
+      "reason": "English, Japanese, and Chinese describe the speaker and addressee crossing paths; the existing 그와 introduces an unsupported third person."
+    },
+    {
+      "id": 1905,
+      "old": "그래, 맞아! 까마귀들을 쫓아내. 날 탑 아래로 데려가지만 마!",
+      "new": "그래, 맞아! 까마귀들을 쫓아내. 날 탑 아래로만은 데려가지 마!",
+      "reason": "The source says to drive away the crows but not to take the speaker beneath the tower; repair the malformed Korean prohibition."
+    },
+    {
+      "id": 1961,
+      "old": "나머지 유해 찾기",
+      "new": "다른 유해 찾기",
+      "reason": "The matching objective at 18005 has the same English and Chinese source; Japanese uses two equivalent corpse terms. Use the natural concise objective form at both IDs."
+    },
+    {
+      "id": 1993,
+      "replace": [
+        {
+          "old": "타인(Tine)는",
+          "new": "타인(Tine)은",
+          "count": 2
+        }
+      ],
+      "reason": "The full lore passage was reread against the English and Japanese; fix the two particle mismatches after the paired Korean name while preserving all paragraphs and claims."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 5388,
+      "old": "리라(Lyra)는 이 황량한 절벽보다 나은 피난처를 찾아 오리에이터의 무덤(Orieator's Tomb)으로 갔어. 나라면 언덕 위 공동묘지를 찾아보겠어. 옛 전쟁의 영웅들이 모두 묻힌 곳이지.",
+      "new": "라이라(Lyra)는 이 황량한 절벽보다 나은 피난처를 찾아 오리에이터의 무덤(Orieator's Tomb)으로 갔어. 나라면 언덕 위 공동묘지를 찾아보겠어. 옛 전쟁의 영웅들이 모두 묻힌 곳이지.",
+      "reason": "Align this same SQ144 Lyra Vogard reference with the Japanese spelling ライラ."
+    },
+    {
+      "id": 9190,
+      "old": "내 리라를 보면 돌아와서 알려 줘. 그녀는 내 전부야.",
+      "new": "내 라이라(Lyra)를 보면 돌아와서 알려 줘. 그녀는 내 전부야.",
+      "reason": "Standardize this same SQ144 Lyra Vogard reference and add its missing English pairing."
+    },
+    {
+      "id": 10033,
+      "old": "리라와 동료들을 구출했으니 야영지로 돌아가 남편 오머(Ommer)에게 보상을 받아야겠다.",
+      "new": "라이라(Lyra)와 동료들을 구출했으니 야영지로 돌아가 남편 오머(Ommer)에게 보상을 받아야겠다.",
+      "reason": "Standardize this same SQ144 Lyra Vogard reference and add its missing English pairing."
+    },
+    {
+      "id": 18005,
+      "old": "나머지 유해 찾기",
+      "new": "다른 유해 찾기",
+      "reason": "Align the exact-English duplicate objective with ID 1961."
+    },
+    {
+      "id": 33255,
+      "old": "해안 난민 야영지에 사는 오머 보가드(Ommer Vogard)가 아내 리라(Lyra)를 찾아 달라고 부탁했다. 그녀는 바다가 내려다보이는 언덕의 옛 군인 묘지에서 마지막으로 목격됐다.",
+      "new": "해안 난민 야영지에 사는 오머 보가드(Ommer Vogard)가 아내 라이라(Lyra)를 찾아 달라고 부탁했다. 그녀는 바다가 내려다보이는 언덕의 옛 군인 묘지에서 마지막으로 목격됐다.",
+      "reason": "Standardize the name of Ommer Vogard's wife within the SQ144 character group."
+    },
+    {
+      "id": 62233,
+      "old": "네가 누군지, 어디서 왔는지는 모르지만 넌 날 죽음에서 되살려 줬어. 내가 사랑했던 다른 이들처럼 리라(Lyra)도 사라진 줄 알았지.",
+      "new": "네가 누군지, 어디서 왔는지는 모르지만 넌 날 죽음에서 되살려 줬어. 내가 사랑했던 다른 이들처럼 라이라(Lyra)도 사라진 줄 알았지.",
+      "reason": "Standardize this same SQ144 Lyra Vogard reference with the established Korean spelling."
+    }
+  ],
+  "retained": [
+    {"id": 1784, "reason": "The current translation already expresses the lethal threat as 처치해야."},
+    {"id": 1791, "reason": "All 19 exact-English Maire, Queen of Cups rows share the complete paired Korean title."},
+    {"id": 1806, "reason": "The stealth condition and +65% critical-damage stat relationship are already clear and natural."},
+    {"id": 1860, "reason": "The full source title Again the Maid of Windemere is already paired."},
+    {"id": 1865, "reason": "Astor Colliani is already paired with the correct English spelling."},
+    {"id": 1866, "reason": "The card names and English pairings already follow the reviewed Ace/Deuce/Three/Four/Five/Hex convention."},
+    {"id": 1893, "reason": "Health and Power already use the established 체력 and 마나 terms."},
+    {"id": 1909, "reason": "위대한 여성 조상 preserves the female foremother meaning in natural Korean."},
+    {"id": 1936, "reason": "The numeric Max Health effect already uses 최대 체력 and preserves the source line break."},
+    {"id": 1969, "reason": "The journal already uses the supported plain narrative forms 말했다 and 돌아갔다."},
+    {"id": 1988, "reason": "Witchknight is already paired in English."}
+  ]
+}

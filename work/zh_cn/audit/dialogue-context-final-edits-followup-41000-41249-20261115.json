@@ -1,0 +1,102 @@
+{
+  "range": [41000, 41249],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-41000-41249-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "linked_reviews": [
+      "dialogue-context-default-04000-04249-revalidation-20261111.md",
+      "dialogue-context-1948054-dlc2-mq03-anokatos-revalidation-20261111.md"
+    ]
+  },
+  "reported_candidate_ids": [
+    41016, 41021, 41040, 41051, 41059, 41063, 41073, 41122, 41132, 41134,
+    41137, 41147, 41150, 41153, 41169, 41178, 41180, 41184, 41188, 41193,
+    41195, 41199, 41217, 41219, 41220, 41221, 41226, 41235
+  ],
+  "range_candidate_ids": [
+    41016, 41021, 41040, 41059, 41063, 41073, 41122, 41132, 41134, 41137,
+    41147, 41150, 41153, 41169, 41178, 41180, 41184, 41188, 41193, 41195,
+    41199, 41217, 41219, 41220, 41221, 41226, 41235
+  ],
+  "newly_reconciled_ids": [
+    4025, 41016, 41021, 41040, 41059, 41063, 41073, 41122, 41132, 41134,
+    41137, 41147, 41150, 41153, 41169, 41178, 41180, 41184, 41188, 41193,
+    41195, 41199, 41217, 41219, 41220, 41221, 41226, 41235
+  ],
+  "newly_reconciled_total": 28,
+  "newly_identified_candidates": [
+    {
+      "id": 4025,
+      "previous_ledger_status": "not-issue",
+      "linked_exact_source_id": 41180,
+      "reason": "The identical standalone source title Priestess Jacinda had a complete English title pairing at 41180 but only the personal name paired at 4025."
+    }
+  ],
+  "cleared_false_positive_candidates": [
+    {
+      "id": 41051,
+      "previous_ledger_status": "candidate",
+      "new_ledger_status": "not-issue",
+      "reason": "The source is about Brother Fallon, not Sister Ceanna. The live Korean already pairs Brother Fallon; the Sister Ceanna finding belongs to a different row."
+    }
+  ],
+  "decisions": {
+    "confirmed_current_candidate_ids": [
+      41016, 41021, 41040, 41059, 41063, 41073, 41122, 41132, 41134, 41137,
+      41147, 41150, 41153, 41169, 41178, 41180, 41184, 41188, 41193, 41195,
+      41199, 41217, 41219, 41220, 41221, 41226, 41235
+    ],
+    "corrected_now": [4025],
+    "evidence_limited_holds": [41010, 41012, 41076, 41095, 41151, 41178]
+  },
+  "linked_exact_source_groups": {
+    "Priestess Jacinda standalone label": {
+      "ids": [4025, 41180],
+      "result": "English, Japanese, and Chinese source strings are identical; both Korean labels now use 여사제 자신다(Priestess Jacinda)."
+    }
+  },
+  "edits": [
+    {
+      "id": 4025,
+      "old": "여사제 자신다(Jacinda)",
+      "new": "여사제 자신다(Priestess Jacinda)",
+      "reason": "Match exact-source duplicate 41180 and pair the full title and personal name."
+    }
+  ],
+  "retained": [
+    {
+      "id": 41134,
+      "reason": "The active Korean already uses the natural informal send-off 자, 이제 가 봐."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2651,
+    "previous_total": 4020,
+    "newly_identified_candidates_added_to_total": 1,
+    "false_positive_candidates_removed_from_total": 1,
+    "reconciled": 2679,
+    "total": 4020,
+    "percent": 66.64,
+    "remaining": 1341
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [4025],
+    "ledger_fingerprint_ids_refreshed": [4025],
+    "newly_reclassified_ledger_ids": [4025, 41051],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for 4025/41180; all in-range manifest corrections were confirmed",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

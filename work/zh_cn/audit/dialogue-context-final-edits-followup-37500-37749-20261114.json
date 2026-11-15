@@ -1,0 +1,192 @@
+{
+  "range": [37500, 37749],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-37500-37749-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-38250-38499-revalidation-20261112.md",
+      "dialogue-context-50500-50749-revalidation-20261113.md",
+      "dialogue-context-52750-52999-revalidation-20261113.md",
+      "dialogue-context-next-five-assets-iddyla-turin-apotyre-ariad-eathe-revalidation-20261111.md",
+      "dialogue-context-40000-45999-missing-candidate-followup-20261114.md"
+    ]
+  },
+  "range_candidate_ids": 20,
+  "range_candidate_id_list": [
+    37508, 37514, 37540, 37551, 37554, 37560, 37566, 37613, 37619, 37631,
+    37643, 37644, 37674, 37685, 37693, 37706, 37726, 37728, 37731, 37733
+  ],
+  "previously_reconciled_candidate_ids": [44458],
+  "newly_counted_candidate_ids": [
+    37508, 37514, 37540, 37551, 37554, 37560, 37566, 37613, 37619, 37631,
+    37643, 37644, 37674, 37685, 37693, 37706, 37726, 37728, 37731, 37733,
+    38319, 50723, 52797
+  ],
+  "linked_candidate_ids_checked": [38319, 44458, 50723, 52797],
+  "additional_linked_candidate_ids_reconciled": [38319, 50723, 52797],
+  "decisions": {
+    "newly_applied": [
+      37508, 37540, 37551, 37554, 37560, 37566, 37613, 37619, 37631, 37643,
+      37674, 37693, 37706, 37726, 37731, 37733, 38319, 50723, 52797
+    ],
+    "previously_applied_or_currently_supported": [
+      37514, 37644, 37685, 37728
+    ],
+    "linked_row_already_supported": [44458]
+  },
+  "related_consistency_groups": {
+    "Idylla sewer-inspection surveyor": [37540, 38319, 44458, 50723, 52797],
+    "Lost Surveyor exact-English duplicate": [50723, 52797],
+    "Attwater twins": [37643],
+    "Dunnmen": [37674],
+    "Hellbane": [37706],
+    "Mistress Fel": [37726],
+    "The Leaf": [37731]
+  },
+  "edits": [
+    {
+      "id": 37508,
+      "old": "용맹의 의식(Rite of Valor)을 훌륭히 치렀소.",
+      "new": "용맹의 의식(Rite of Valor)을 훌륭히 치렀군.",
+      "reason": "Japanese uses plain masculine speech; replace the marked deferential 하오체 while preserving the congratulation."
+    },
+    {
+      "id": 37540,
+      "old": "불길한 예감이 들어. 도시는 정기적으로 하수도에 조사원을 보내지만... 보통은 호위병도 함께 보내거든. 그런데 최근엔 경비병이 턱없이 부족해.",
+      "new": "불길한 예감이 들어. 도시에서는 정기적으로 하수도 조사관을 보내지만... 보통은 호위병도 함께 보내거든. 그런데 최근엔 경비병이 턱없이 부족해.",
+      "reason": "Align the sewer-inspection role with the same report and job-board references, supported by Japanese 検査官."
+    },
+    {
+      "id": 37551,
+      "old": "좋소, 부름받은 자(Beckoned)여.",
+      "new": "좋아, 부름받은 자(Beckoned).",
+      "reason": "The English, Japanese, and Chinese are conversational; replace the isolated 하오체 greeting."
+    },
+    {
+      "id": 37554,
+      "old": "전쟁 얘기는 꺼내지 마시오. 나는 라시르(Rathir)의 대변자요. 장군도, 페이트위버(Fateweaver)도 아니고, 전쟁의 결과를 홀로 좌우하는 리리아(Lyria) 여신도 아니오.",
+      "new": "전쟁 얘기는 꺼내지 마. 나는 라시르(Rathir)의 대변자야. 장군도, 페이트위버(Fateweaver)도 아니고, 전쟁의 결과를 홀로 좌우하는 리리아(Lyria) 여신도 아니야.",
+      "reason": "Japanese and Chinese use direct conversational forms; preserve the speaker's contrast without unsupported archaic register."
+    },
+    {
+      "id": 37560,
+      "old": "살육의 현장을 습격하라",
+      "new": "살육의 현장 습격하기",
+      "reason": "Use the established concise -하기 form for this quest objective."
+    },
+    {
+      "id": 37566,
+      "old": "DC라는 이니셜이 띠에 긁어 새겨진 소박한 황동 반지다. 에메어(Emaire)의 앵커 에드뮤어(Anker Edmure)가 반길 것 같다.",
+      "new": "반지 테에 'DC'라는 이니셜을 긁어 새긴 소박한 황동 반지다. 에메어(Emaire)의 앵커 에드뮤어(Anker Edmure)가 반길 것 같다.",
+      "reason": "Replace the unclear ring-band term and awkward passive construction while preserving the scratched initials and item-description form."
+    },
+    {
+      "id": 37613,
+      "old": "모투스 광업 의뢰 게시판",
+      "new": "모투스 광업(Motus Mining) 의뢰 게시판",
+      "reason": "Pair the named company in this standalone job-board label, consistent with its other active references."
+    },
+    {
+      "id": 37619,
+      "old": "크릴가린(Crilgarin)이 또 새를 관찰하고 있어. 그림(Grim)이 또 크릴가린(Crilgarin)을 지켜보고 있으니 알 수 있지. 내가 그림(Grim)을 지켜보고 있으니 그걸 아는 거고. 달렌타스(Dalentarth) 숲의 오래된 나무와 그늘 사이를 거니는 그녀를 그림(Grim)이 며칠이나 바라봤는지 본인도 알까? 난 알아. 숲에 갈 때마다 새소리를 세는 여자를 쪼그려 앉아 바라보는 그림(Grim)을 늘 봤으니까.\r\n\r\n이런 순간만큼 가슴을 졸인 적은 없어. 숨이 멎고 시간이 멈춘 듯했지. 그림(Grim)은 내가 여기서 자신을 지켜봤다는 것도, 그 모습에 내가 행복해했다는 것도 영영 모를 거야. 그 생각을 하면 부끄러워져. 크릴가린(Crilgarin)이 숲을 뒤져 찾아내는 새들을 그림(Grim)은 질투할까? 새들과 그녀와 그에게서, 나는 아무도 눈치채지 못하게 걷는 법을 배웠어. 우리에겐 누구보다 나를 봐 주길 바라는 사람이 하나씩 있어. 하지만 그들은 우리 쪽을 돌아보지 않아. 그들에게 우리는 보이지 않으니까.",
+      "new": "크릴가린(Crilgarin)이 또 새를 관찰하고 있어. 그림(Grim)이 또 크릴가린(Crilgarin)을 지켜보고 있으니 알 수 있지. 내가 그림(Grim)을 지켜보고 있으니 그걸 아는 거고. 달렌타스(Dalentarth) 숲의 오래된 나무와 그늘 사이를 거니는 그녀를 그림(Grim)이 며칠이나 바라봤는지 본인도 알까? 난 알아. 숲에 갈 때마다 새소리를 세는 여자를 쪼그려 앉아 바라보는 그림(Grim)을 늘 봤으니까.\r\n\r\n이런 순간만큼 가슴을 졸인 적은 없어. 숨이 멎고 시간이 멈춘 듯했지. 그림(Grim)은 내가 여기서 자신을 지켜봤다는 것도, 그 모습에 내가 행복해했다는 것도 영영 모를 거야. 그 생각을 하면 부끄러워져. 크릴가린(Crilgarin)이 숲을 뒤져 찾아내는 새들을 그림(Grim)은 질투할까? 새들과 그녀와 그에게서, 나는 아무도 눈치채지 못하게 걷는 법을 배웠어. 우리 각자에게는 무엇보다 자신을 알아봐 주길 바라는 사람이 한 명씩 있어. 하지만 그들은 우리 쪽을 돌아보지 않아. 그들에게 우리는 보이지 않으니까.",
+      "reason": "Correct the plural-to-singular pronoun shift in the final paragraph, supported by English and Japanese; preserve both paragraph breaks and the narrator's uncertainty."
+    },
+    {
+      "id": 37631,
+      "old": "기다릴게, 그대. 받아들이기 힘든 이야기란 거 알아. 나도 그런 기분을 잘 아니까.",
+      "new": "기다릴 수 있어, 친구. 받아들이기 힘든 이야기인 거 알아. 나도 그런 기분 잘 알아.",
+      "reason": "Use natural familiar reassurance instead of the elevated 그대 address and stiff clause endings."
+    },
+    {
+      "id": 37643,
+      "old": "애트워터 쌍둥이가 경주를 다시 열려면 영양을 몇 마리 더 잡을 시간이 필요해.",
+      "new": "애트워터 쌍둥이(Attwater twins)가 경주를 다시 열려면 영양을 몇 마리 더 잡을 시간이 필요해.",
+      "reason": "Add the source form for the named Attwater twins without inferring either twin's gender."
+    },
+    {
+      "id": 37674,
+      "old": "던멘",
+      "new": "던멘(Dunnmen)",
+      "reason": "Pair the capitalized standalone group label with its source spelling."
+    },
+    {
+      "id": 37693,
+      "old": "이 오래된 나무 조각은 모루스 황제를 죽인 빗나간 화살의 유일한 흔적이다. 여동생 소피아와 싸우던 피를 부르는 자는 유탄에 눈을 맞고 쓰러졌다.\r\n역사가들은 그 한 발의 화살이 이후 오백 년 동안 이어진 내전의 원인이었다고 본다. 모루스의 자녀들을 시작으로, 여러 세대가 조상들의 죽음에 복수하려 들면서 노바레의 암흑기가 열렸다.",
+      "new": "이 오래된 나무 조각은 모루스 황제(Emperor Morus)를 죽인 빗나간 화살의 유일한 흔적이다. 자매인 소피아(Sophia)와 싸우던 피를 부르는 자(Bloodbringer)는 빗나간 화살에 눈을 맞아 쓰러졌다.\r\n역사가들은 그 한 발의 화살이 이후 오백 년 동안 이어진 내전의 원인이 되어 노바레의 암흑기(Dark Ages of Novarre)를 열었다고 본다. 모루스의 자녀들을 시작으로 여러 세대가 조상들의 죽음에 복수하려 했기 때문이다.",
+      "reason": "Correct stray arrow mistranslated as a stray bullet, remove unsupported younger-sister age, pair the named historical references, and preserve the paragraph break and chronology."
+    },
+    {
+      "id": 37706,
+      "old": "장검 헬베인을 가져오면, 나머지 무기와 시신에서 찾은 물건은 네가 가져도 돼.",
+      "new": "장검 헬베인(Hellbane)을 가져오면, 나머지 무기와 시신에서 찾은 물건은 네가 가져도 돼.",
+      "reason": "Pair the named longsword while preserving the established base weapon term 장검."
+    },
+    {
+      "id": 37726,
+      "old": "네, 펠(Fel) 부인을 기억합니다. 얼마 전 묵으셨는데, 실종 사건에 관해 이것저것 물어보셨어요.",
+      "new": "네, 펠 부인(Mistress Fel)을 기억합니다. 얼마 전 묵으셨는데, 실종 사건에 관해 이것저것 물어보셨어요.",
+      "reason": "Pair the translated name and title as one source unit, matching the English Mistress Fel."
+    },
+    {
+      "id": 37731,
+      "old": "분명 네가 찾는 게 있을 거야. 아데사(Adessa)의 대도서관에 견줄 만한 곳은 리프뿐이니까.",
+      "new": "분명 네가 찾는 게 있을 거야. 아데사(Adessa)의 대도서관에 견줄 만한 곳은 리프(The Leaf)뿐이니까.",
+      "reason": "The capitalized Leaf is the named bookstore; add its source form without changing the casual voice."
+    },
+    {
+      "id": 37733,
+      "old": "반갑소, 부름받은 자(Beckoned)여.",
+      "new": "안녕, 부름받은 자(Beckoned).",
+      "reason": "English, Japanese, and Chinese give a simple conversational greeting, not 하오체."
+    },
+    {
+      "id": 38319,
+      "old": "잘했어, 부름받은 자(Beckoned)여. 측량사가 죽은 건... 안타깝지만 보고서를 가져와 줘서 고맙다. 이걸 받아.",
+      "new": "잘했어, 부름받은 자(Beckoned). 조사관이 죽은 건... 안타깝지만 보고서를 가져와 줘서 고맙다. 이걸 받아.",
+      "reason": "Align the same missing sewer-inspection surveyor role with the cross-referenced Idylla lines; retain the line's existing register."
+    },
+    {
+      "id": 50723,
+      "old": "실종된 측량사",
+      "new": "실종된 조사관",
+      "reason": "Use the context-appropriate inspector term supported by Japanese 行方不明の検査官 and the shared Idylla surveyor group."
+    },
+    {
+      "id": 52797,
+      "old": "실종된 측량사",
+      "new": "실종된 조사관",
+      "reason": "Match the exact-English duplicate at 50723 and preserve the same Idylla role terminology."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2375,
+    "total": 4015,
+    "percent": 59.15,
+    "remaining": 1640
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      37508, 37540, 37551, 37554, 37560, 37566, 37613, 37619, 37631, 37643,
+      37674, 37693, 37706, 37726, 37731, 37733, 38319, 50723, 52797
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "ledger_fingerprint_ids_refreshed": [
+      37508, 37540, 37551, 37554, 37560, 37566, 37613, 37619, 37631, 37643,
+      37674, 37693, 37706, 37726, 37731, 37733, 38319, 50723, 52797
+    ],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71838,
+    "csv_lf_only": 244,
+    "csv_bare_cr": 0,
+    "crlf_aware_diff_check": "passed",
+    "commit_made": false
+  }
+}

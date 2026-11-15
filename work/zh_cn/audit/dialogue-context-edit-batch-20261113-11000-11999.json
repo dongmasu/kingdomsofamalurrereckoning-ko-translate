@@ -1,0 +1,142 @@
+{
+  "input_sha256": "d443457688afd35b7473def0af5e97ba37eea35f4cb53ab342d218d650ec55f4",
+  "ledger_input_sha256": "8f08f24dcebc159c9deb33cd3cdc238a6fafb7125dc2298e6e010410c1f3eba5",
+  "output_sha256": "fcca58a1f6271b1851b351067723e1ee1d4659a5659e0e7fdba3d0064911c194",
+  "ledger_output_sha256": "c83b79b26b689dd0cafa42adf4907827f37c16d7e6f8f4d049bba6450f0c9bcb",
+  "application": {
+    "status": "applied",
+    "operations": 21,
+    "target_applications": 21,
+    "unique_ids": 19
+  },
+  "scope": "Apply source-verified corrections for 17 new default candidates in IDs 11000-11999, align directly related Epic Gem terms, and review mining terms against their existing source-keyed occurrences.",
+  "matching": "Each operation replaces exactly one expected fragment in each listed ID. The executor expands it to the full exact current Texto value and invokes tools/replace_text_preserve_eol.py for each ID.",
+  "edits": [
+    {
+      "ids": [11069],
+      "find": "다음 재료를 사용해",
+      "replace": "다음 시약을 사용해",
+      "reason": "Use the official Korean manual's term for alchemical reagents."
+    },
+    {
+      "ids": [11102],
+      "find": "그래서 이제 그를 '첫째'라고 불러.",
+      "replace": "그래서 이제 그를 '첫째(First)'라고 불러.",
+      "reason": "Pair the explicit nickname without resolving the separate compressed final phrase."
+    },
+    {
+      "ids": [11125],
+      "find": "최상급 보석과 영웅급 보석",
+      "replace": "최상급 보석과 에픽 보석",
+      "reason": "Use the official Korean manual's established Epic Gem term; retain the unresolved pristine-quality tier wording."
+    },
+    {
+      "ids": [167],
+      "find": "영웅급 보석을 제작할 수 있습니다.",
+      "replace": "에픽 보석을 제작할 수 있습니다.",
+      "reason": "Align this Epic Gem label with the official Korean manual and related rows."
+    },
+    {
+      "ids": [38457],
+      "find": "영웅급 보석 제작.",
+      "replace": "에픽 보석 제작.",
+      "reason": "Align this Epic Gem label with the official Korean manual and related rows."
+    },
+    {
+      "ids": [11136],
+      "find": "제발. 예언자(Augur)와 그 일당이 책임을 지게 해야 해.",
+      "replace": "제발. 예언자(Augur)와 그 일행에게 책임을 물어야 해.",
+      "reason": "Remove the unsupported disparaging gang connotation while preserving the demand for accountability."
+    },
+    {
+      "ids": [11194],
+      "find": "드디어 내 목소리로 그림(Grim)의 운명 없는 동맹자와 말할 수 있겠군. 네 시시한 계획도 들통났어.",
+      "replace": "드디어 그림(Grim)의 운명 없는 동맹자와 내 본래 목소리로 이야기할 수 있겠어. 그리고 네 시시한 계획도 들통났어.",
+      "reason": "Restore the contrast of the speaker's true voice and keep both sentences in a natural, consistent register."
+    },
+    {
+      "ids": [11315],
+      "find": "여름 궁정(Court of Summer)과 고귀하신 지고왕(High King) 폐하께",
+      "replace": "여름 궁정(Court of Summer)과 지고왕(High King) 폐하께",
+      "reason": "Remove the stacked honorific while retaining the established royal title and casual register."
+    },
+    {
+      "ids": [11360],
+      "find": "그가 워낙 큰 도움이 되어서, 최악의 일이 생기더라도 앞으로 다시 연구에 쓸 수 있도록 내 독단으로 그를 샘의 핵과 조율해 두었네.",
+      "replace": "그가 워낙 큰 도움이 되어서, 최악의 일이 생기더라도 그를 되살려 앞으로도 함께 연구할 수 있도록 내 독단으로 샘의 핵과 조율해 두었네.",
+      "reason": "Make the explicitly supported resurrection possible in English, Japanese, and Chinese clear without changing the letter's voice or paragraph structure."
+    },
+    {
+      "ids": [11382],
+      "find": "코볼트(Kobold) 소굴을 소탕해 산길을 오가는 상인 무리를 위협하던 위험을 제거했다. 마차 행렬의 우두머리 도노번 번스(Donovan Byrnes)에게 돌아가 진행 상황을 보고해야겠다.",
+      "replace": "코볼트(Kobold) 소굴을 소탕해 앞으로 산길을 내려올 마차 행렬을 위협할 위험을 제거했다. 마차 행렬의 우두머리 도노번 번스(Donovan Byrnes)에게 돌아가 진행 상황을 보고해야겠다.",
+      "reason": "Restore the source's future caravans descending the mountain path and preserve the journal voice."
+    },
+    {
+      "ids": [11476],
+      "find": "흩어 숨기고 잊히게 해야 한다.",
+      "replace": "그 조각들을 흩어 놓고 숨겨 잊히게 해야 한다.",
+      "reason": "Make the relic pieces the explicit object while preserving the warning's imperative tone and paragraph layout."
+    },
+    {
+      "ids": [11572],
+      "find": "고마워. 내 목숨을 빚졌어.",
+      "replace": "고마워. 네 덕분에 목숨을 건졌어.",
+      "reason": "Render the gratitude naturally while preserving the informal voice and the source's life-debt meaning."
+    },
+    {
+      "ids": [11599],
+      "find": "큰 거미 둥지에 그루버 네 명을 잃었다. 장벽 작업장에 그루버를 더 보내 달라고 요청했다.",
+      "replace": "큰 거미 둥지에 홈 파는 광부 네 명을 잃었다. 장벽 작업장에 홈 파는 광부를 더 보내 달라고 요청했다.",
+      "reason": "Align both Groover references with the same mining role in the hiring letter at 19029."
+    },
+    {
+      "ids": [11599],
+      "find": "내일 분석사가 장벽 채굴장의 새 구역을 조사하러 온다.",
+      "replace": "내일 감정사가 장벽 채굴장의 새 구역을 조사하러 온다.",
+      "reason": "Align Assayer with the established occupation wording at 14767."
+    },
+    {
+      "ids": [11599],
+      "find": "분석사가 확장 가능한 풍부한 광맥을 찾아냈다.",
+      "replace": "감정사가 확장 가능한 풍부한 광맥을 찾아냈다.",
+      "reason": "Keep the repeated Assayer reference consistent within the journal."
+    },
+    {
+      "ids": [11678],
+      "find": "아포타이어(Apotyre)의 스코리아 가문(Skoria family)의 광산에 대한 공식 소유권 증서다. 아다스 스코리아(Adath Skoria) 명의로 되어 있다. 이 증서를 가진 사람은 광산과 그 안에서 발견하거나 채굴한 모든 광석에 대한 권리를 얻는다.",
+      "replace": "이 문서는 아포타이어(Apotyre)에 있는 스코리아 가문(Skoria family) 소유 광산의 공식 소유권 증서다. 아다스 스코리아(Adath Skoria) 명의로 되어 있으며, 소지자는 광산과 그 안에서 발견하거나 채굴한 모든 광석에 대한 권리를 얻는다.",
+      "reason": "Recast the full deed description to remove stacked possessives while preserving the ownership and mineral rights."
+    },
+    {
+      "ids": [11778],
+      "find": "자, 여기에 서명하면 이 서류들이...",
+      "replace": "자, 여기 신청서류야...",
+      "reason": "Identify the papers as application documents without adding an unsupported instruction to sign."
+    },
+    {
+      "ids": [11864],
+      "find": "전투에 임하듯 이 일에도 임하면 아주 잘 해낼 거다, 부름받은 자(Beckoned)여!",
+      "replace": "전투에 나서듯 이 공연에 임하면 잘해낼 거다, 부름받은 자(Beckoned)여!",
+      "reason": "Resolve the supported performance context and remove the awkward generic reference and repeated verb."
+    },
+    {
+      "ids": [11907],
+      "find": "저주를 찾는 자(Curseeker)",
+      "replace": "치유를 구하는 자(Cureseeker)",
+      "reason": "Correct the source-local English spelling against Japanese, Chinese, and the established ballad and base labels."
+    },
+    {
+      "ids": [11934],
+      "find": "퀘이크(Quake)의 마나 소모량 증가: 마나 16",
+      "replace": "퀘이크(Quake) 마나 소모량 +16",
+      "reason": "Remove the redundant Mana wording and use the concise cost label supported by all source rows."
+    },
+    {
+      "ids": [11948],
+      "find": "그들은 여름의 요람(Cradle of Summer)에서 찾을 수 있다고 했다.",
+      "replace": "앵커는 여름의 요람(Cradle of Summer)에서 파라곤 바게스트를 찾을 수 있다고 했다.",
+      "reason": "Make Anker the explicit source of the information and restore the Barghest referent."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "range": [27750, 27999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 17,
+  "range_candidate_id_list": [
+    27767,
+    27798,
+    27803,
+    27833,
+    27859,
+    27874,
+    27886,
+    27888,
+    27908,
+    27915,
+    27929,
+    27930,
+    27957,
+    27968,
+    27983,
+    27984,
+    27995
+  ],
+  "reconciled_candidate_ids": 17,
+  "newly_counted_candidate_ids": 17,
+  "previously_counted_ids": [],
+  "decisions": {
+    "confirmed_prior_corrections": [
+      27803,
+      27833,
+      27859,
+      27874,
+      27886,
+      27888,
+      27908,
+      27915,
+      27929,
+      27930,
+      27957,
+      27968,
+      27983,
+      27984,
+      27995
+    ],
+    "correction_applied_now": [27798],
+    "evidence_limited_holds": [27767]
+  },
+  "edits": [
+    {
+      "id": 27798,
+      "old": "줄리아(Julia)가 돌아왔어! 네가 해냈구나! 정말 고마워, 낯선 사람!",
+      "new": "줄리아(Julia)가 돌아왔어! 네가 해냈구나! 정말 고마워, 이방인!",
+      "reason": "Replaced a literal-sounding vocative with a natural direct address for the casual, grateful line while preserving its meaning and register."
+    }
+  ],
+  "fingerprints_refreshed": [27798],
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [27798],
+    "four_language_rows_checked": 17,
+    "line_break_counts_match": true,
+    "markup_signatures_match_except_documented_japanese_order": true,
+    "27803_markup": {
+      "en": [
+        "{LINE_CENTER}",
+        "{*1Pull and hold}",
+        "{1}",
+        "{2}",
+        "{*1reckoning mode}"
+      ],
+      "ja": [
+        "{LINE_CENTER}",
+        "{1}",
+        "{2}",
+        "{*1引いたままにする}",
+        "{*1レコニングモード}"
+      ],
+      "zh": [
+        "{LINE_CENTER}",
+        "{*1拉动并按住}",
+        "{1}",
+        "{2}",
+        "{*1惩罚模式}"
+      ],
+      "ko": [
+        "{LINE_CENTER}",
+        "{*1당긴 채로 유지하기}",
+        "{1}",
+        "{2}",
+        "{*1레코닝 모드}"
+      ]
+    },
+    "ledger_fingerprint_check": "passed",
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1618,
+    "total": 4015,
+    "percent": 40.3,
+    "remaining": 2397
+  }
+}

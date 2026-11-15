@@ -1,0 +1,80 @@
+{
+  "range": [
+    2250,
+    2499
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "reconciled_candidate_ids": 12,
+  "edits": [
+    {
+      "id": 2270,
+      "old": "도브(Dove), 초조해 죽겠어. 대사제(Hierophant)를 없애려면 네가 그 거울을 가져와야 해. 알겠어?",
+      "new": "친구, 초조해 죽겠어. 대사제(Hierophant)를 권좌에서 끌어내리려면 네가 그 거울을 가져와야 해. 알겠어?",
+      "reason": "The established familiar address is 친구. Quest context shows that getting rid of the Hierophant means removing them from power, not necessarily killing them."
+    },
+    {
+      "id": 2291,
+      "old": "회원 전용",
+      "new": "교단원 전용",
+      "reason": "Japanese 教団員のみ identifies members of the religious order rather than a club or subscription."
+    },
+    {
+      "id": 2295,
+      "old": "스칼드(Skald)에게서 혼돈 무기 핵(Chaos Weapon Core)을 얻어라",
+      "new": "스칼드(Skald)에게서 혼돈 무기 핵(Chaos Weapon Core) 얻기",
+      "reason": "Use the established concise -기 form for this quest objective."
+    },
+    {
+      "id": 2370,
+      "old": "제발 감옥 문을 열어 줘!",
+      "new": "제발 우리 문을 열어 줘!",
+      "reason": "English cage, Japanese 檻, and Chinese 笼子 describe an enclosure rather than a prison building; align with the supported wording at 51184."
+    },
+    {
+      "id": 2463,
+      "old": "그것을 쓰러뜨리면 몸체에서 꽃잎을 딸 수 있다.",
+      "new": "그것을 쓰러뜨리면 몸체에서 코라 꽃잎(Kora Petal)을 딸 수 있다.",
+      "reason": "Japanese names the quest item as Kora Petal; align with the explicitly named item at 30588."
+    },
+    {
+      "id": 2493,
+      "old": "사반트 엥가르(Savant Engar)는 소중한 친구였고, 스콜리아 아르카나(Scholia Arcana)의 가장 중요한 인재 중 하나였어.",
+      "new": "사반트 엥가르(Savant Engar)는 소중한 친구였고, 스콜리아 아르카나(Scholia Arcana)에서도 손꼽히는 실력자였어.",
+      "reason": "Render one of the Scholia Arcana's most powerful assets naturally while retaining the Japanese sense of a valued, capable member."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 7588,
+      "old": "전설적인 드루이드 에이든 오코너(Aiden O'Conor)가 잃어버린 갑옷 세트를 모두 찾아라.",
+      "new": "전설적인 드루이드 에이든 오코너(Aiden O'Conor)가 잃어버린 갑옷 세트의 모든 조각 찾기",
+      "reason": "Align the parallel armor-set objective with the established concise -기 form."
+    }
+  ],
+  "retained": [
+    {
+      "id": 2272,
+      "reason": "The complete English title The Words of Solen Reimgar as Chronicled by Parthalan is already paired."
+    },
+    {
+      "id": 2303,
+      "reason": "Warden's Bridge already has the established 워든스 브리지(Warden's Bridge) form. Warden Bridge at 19738 is a different English source form."
+    },
+    {
+      "id": 2345,
+      "reason": "All 20 exact-English occurrences already have identical Korean text and the complete 컵의 왕(King of Cups) 이리온(Irion) pairing."
+    },
+    {
+      "id": 2365,
+      "reason": "The complete 풍차섬(Windmill Island) pairing is already present."
+    },
+    {
+      "id": 2372,
+      "reason": "Korean already has five stanza lines, matching the five-line layout in English, Japanese, and Chinese."
+    },
+    {
+      "id": 2429,
+      "reason": "The current 산속의 프레야처럼(As Freya in the Mountains) preserves the source comparison and complete English pairing."
+    }
+  ]
+}

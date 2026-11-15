@@ -1,0 +1,86 @@
+{
+  "range": [
+    5000,
+    5249
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 14,
+  "reconciled_candidate_ids": 14,
+  "changed_rows": [
+    5046,
+    5189,
+    5225
+  ],
+  "edits": [
+    {
+      "id": 5046,
+      "old": "그는 왕자로 이곳에 왔다가 전쟁을 위해 맹세한 자가 되어 떠났다고들 해.",
+      "new": "그는 왕자로 이곳에 왔다가 전쟁에 맹세한 자가 되어 떠났다고들 해.",
+      "reason": "The established Korean title is Sworn to War; the Japanese and Chinese sources support a person sworn to battle, not someone who swore for the purpose of war."
+    },
+    {
+      "id": 5189,
+      "old": "누알라 이그나스(Nuala Ignus)를 죽였어. 그녀를 조종하던 무언가도 멈춘 것 같아. 시신을 조사해 아오드(Aodh)의 마법의 힘으로 무엇을 만들고 있었는지 알아봐야겠어.",
+      "new": "누알라 이그나스(Nuala Ignas)를 죽였어. 그녀를 조종하던 무언가도 멈춘 것 같아. 시신을 조사해 아오드(Aodh)의 마법의 힘으로 무엇을 만들고 있었는지 알아봐야겠어.",
+      "reason": "The English cell has a one-row Ignus spelling variant, but the other English references for the same person and Japanese name consistently establish Nuala Ignas."
+    },
+    {
+      "id": 5225,
+      "old": "정말 영광스러운 날 아닙니까? 헬리우스(Helius)께서 미소로 우리를 따뜻하게 해 주시는 듯하군요. 어쩐 일로 이런 예우를 받는지요?",
+      "new": "정말 영광스러운 날 아닙니까? 헬리우스(Helius)께서 미소로 우리를 따뜻하게 해 주시는 듯하군요. 이렇게 찾아와 주시다니, 무슨 일로 오셨나요?",
+      "reason": "The English asks what occasion brings the visitor, and the Japanese asks the visitor's business; the previous Korean incorrectly implies the speaker is receiving deference."
+    }
+  ],
+  "retained": [
+    {
+      "id": 5017,
+      "reason": "The previously approved familiar salutation is already present."
+    },
+    {
+      "id": 5027,
+      "reason": "The awkward alliance construction was already corrected in the earlier edit batch."
+    },
+    {
+      "id": 5036,
+      "reason": "The direct conversational vow is already present."
+    },
+    {
+      "id": 5043,
+      "reason": "The stray punctuation and extra intensifier were already removed."
+    },
+    {
+      "id": 5070,
+      "reason": "The full Grand Champion of Valor Arena rank is already paired without conflating it with the standalone title."
+    },
+    {
+      "id": 5095,
+      "reason": "The unsupported underwear specification was already broadened to 아름다운 옷, with paragraph breaks preserved."
+    },
+    {
+      "id": 5156,
+      "reason": "The written-sounding passive was already changed to a direct conversational statement."
+    },
+    {
+      "id": 5172,
+      "reason": "조제법 is supported by the alchemical-formula context and the scoped Nanne terminology review."
+    },
+    {
+      "id": 5195,
+      "reason": "A later linked-asset review already revised the sentence to natural wording while keeping the exact capitalized House referent broad."
+    },
+    {
+      "id": 5237,
+      "reason": "The book already uses the full established 세이블의 서신(Missives of Sable) pairing."
+    },
+    {
+      "id": 5245,
+      "reason": "Crownhold Guardhouse is already translated as the building 크라운홀드 경비 초소(Crownhold Guardhouse)."
+    }
+  ],
+  "related_checks": [
+    {
+      "id": 61266,
+      "reason": "The related Nuala Ignas occurrence already uses the canonical English spelling and does not require an edit."
+    }
+  ]
+}

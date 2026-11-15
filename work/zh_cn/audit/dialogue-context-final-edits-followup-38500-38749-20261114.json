@@ -1,0 +1,188 @@
+{
+  "range": [38500, 38749],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-38500-38749-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-1262645-sq77-building-bridges-revalidation-20261111.md",
+      "dialogue-context-three-handler-assets-kvsq01-sq27-dlc1sq03-revalidation-20261111.md",
+      "dialogue-context-sq93-revalidation-20261110.md",
+      "dialogue-context-two-npc-assets-revalidation-20261111.md",
+      "dialogue-context-21250-21499-candidate-reconciliation-20261114.md",
+      "dialogue-context-32750-32999-candidate-reconciliation-20261114.md"
+    ]
+  },
+  "range_candidate_ids": [
+    38501, 38508, 38513, 38523, 38524, 38535, 38596,
+    38597, 38609, 38629, 38630, 38640, 38643, 38664,
+    38683, 38687, 38694, 38705, 38711, 38715, 38728
+  ],
+  "previously_reconciled_candidate_ids": [38609, 38694],
+  "newly_counted_candidate_ids": [
+    38501, 38508, 38513, 38523, 38524, 38535, 38596,
+    38597, 38629, 38630, 38640, 38643, 38664, 38683,
+    38687, 38705, 38711, 38715, 38728
+  ],
+  "linked_exact_source_ids_changed": [12219, 9368],
+  "decisions": {
+    "corrected": [
+      38501, 38508, 38513, 38523, 38524, 38535, 38596, 38629,
+      38630, 38640, 38643, 38664, 38683, 38687, 38705, 38711
+    ],
+    "retained_or_confirmed": [38597, 38715, 38728],
+    "previously_reconciled": [38609, 38694],
+    "evidence_limited_holds": [38500, 38601]
+  },
+  "related_consistency_groups": {
+    "Ysa and Ohn poem": [12219, 38513],
+    "Well-if-you-change-your-mind duplicate": [9368, 38705],
+    "Argine, Queen of Staves": [
+      1043, 1174, 3307, 3501, 6044, 7667, 8663, 11172, 12593,
+      14564, 16655, 21485, 30045, 30190, 31796, 33892, 38694,
+      40340, 41255, 43684, 47099, 52596, 53842, 55720, 56433,
+      62000
+    ]
+  },
+  "edits": [
+    {
+      "id": 38501,
+      "old": "그들은 안전하다. 하지만 필멸자에게는 걱정거리가 없어도 시간 역시 없지. 내가 원한다면 우두아스에 그들을 얼마든지 붙잡아 둘 수 있어. 먼지가 될 때까지.",
+      "new": "그들은 안전하다. 하지만 필멸자에게는 걱정거리가 없어도 시간 역시 없지. 내가 원한다면 우두아스(Uduath)에 그들을 얼마든지 붙잡아 둘 수 있어. 먼지가 될 때까지.",
+      "reason": "Pair the named location without changing the threat or the dust image."
+    },
+    {
+      "id": 38508,
+      "old": "고어하트(Gorhart)는 자비로운 새 공동체가 될 거야. 그건 네 덕분이지. 내 검과 버클러를 받아 줘. 오랫동안 나를 도왔듯 너도 잘 도울 거야.",
+      "new": "고어하트(Gorhart)는 자비로운 새 공동체가 될 거야. 그건 네 덕분이지. 내 검과 버클러를 받아 줘. 내게 그랬듯 너에게도 큰 도움이 될 거야.",
+      "reason": "Render the gift's usefulness to the recipient naturally, preserving the casual voice."
+    },
+    {
+      "id": 38513,
+      "old": "이사는 오운(Ohn)을 만났다. 둘은 서로를 끌어안고 고요 속에서 어두워진 땅을 감쌌다.\n한쪽이 노래하면 다른 쪽이 춤췄다. 둘은 이렇게 노래했다.\n\n'우리는 이사다!' 오운(Ohn)이 춤을 췄다.\n'우리는 오운(Ohn)이다!' 이사가 춤을 췄다.\n'나는 여름의 새벽이다.' 오운(Ohn)이 고개를 숙였다.\n'나는 슬퍼하는 겨울이다.' 이사가 고개를 숙였다.\n'이것은 무언가다.' 오운(Ohn)이 울었다.\n'무의 무.' 이사가 울었다.",
+      "new": "이사(Ysa)는 오운(Ohn)을 만났다. 둘은 서로를 끌어안고 고요 속에서 어두워진 땅을 감쌌다.\n한쪽이 노래하면 다른 쪽이 춤췄다. 둘은 이렇게 노래했다.\n\n'우리는 이사(Ysa)다!' 오운(Ohn)이 춤을 췄다.\n'우리는 오운(Ohn)이다!' 이사(Ysa)가 춤을 췄다.\n'나는 여름의 새벽이다.' 오운(Ohn)이 고개를 숙였다.\n'나는 슬퍼하는 겨울이다.' 이사(Ysa)가 고개를 숙였다.\n'이것은 무언가다.' 오운(Ohn)이 울었다.\n'무의 무.' 이사(Ysa)가 울었다.",
+      "reason": "Pair every named Ysa occurrence and preserve the poem's full line and paragraph structure."
+    },
+    {
+      "id": 12219,
+      "old": "이사는 오운(Ohn)을 만났다. 둘은 서로를 끌어안고 고요 속에서 어두워진 땅을 감쌌다.\n한쪽이 노래하면 다른 쪽이 춤췄다. 둘은 이렇게 노래했다.\n\n'우리는 이사다!' 오운(Ohn)이 춤을 췄다.\n'우리는 오운(Ohn)이다!' 이사가 춤을 췄다.\n'나는 여름의 새벽이다.' 오운(Ohn)이 고개를 숙였다.\n'나는 슬퍼하는 겨울이다.' 이사가 고개를 숙였다.\n'이것은 무언가다.' 오운(Ohn)이 울었다.\n'무의 무.' 이사가 울었다.",
+      "new": "이사(Ysa)는 오운(Ohn)을 만났다. 둘은 서로를 끌어안고 고요 속에서 어두워진 땅을 감쌌다.\n한쪽이 노래하면 다른 쪽이 춤췄다. 둘은 이렇게 노래했다.\n\n'우리는 이사(Ysa)다!' 오운(Ohn)이 춤을 췄다.\n'우리는 오운(Ohn)이다!' 이사(Ysa)가 춤을 췄다.\n'나는 여름의 새벽이다.' 오운(Ohn)이 고개를 숙였다.\n'나는 슬퍼하는 겨울이다.' 이사(Ysa)가 고개를 숙였다.\n'이것은 무언가다.' 오운(Ohn)이 울었다.\n'무의 무.' 이사(Ysa)가 울었다.",
+      "reason": "Match the exact-English duplicate at 38513 and preserve its line breaks."
+    },
+    {
+      "id": 38523,
+      "old": "이 요새는 위대한 바라니(Varani) 전쟁 사원인 해머 록의 남은 돌 몇 개로 지은 포지파이어 요새의 폐허 위에 세워졌다.",
+      "new": "이 요새는 위대한 바라니(Varani) 전쟁 사원 해머 록(Hammer Rock)의 남은 돌 몇 개로 지은 포지파이어 요새(Forgefire Keep)의 폐허 위에 세워졌다.",
+      "reason": "Pair both named locations and preserve the source's sequence of construction."
+    },
+    {
+      "id": 38524,
+      "old": "라피두스가 어디라고 했지?",
+      "new": "라피두스(Lapidus)가 어디라고 했지?",
+      "reason": "Pair the named plant with the established corpus spelling."
+    },
+    {
+      "id": 38535,
+      "old": "좋아. 발라드에서 반지를 훔친 트롤(Troll)은 뚱보 레카야. 식욕이 엄청났던 모양이지.",
+      "new": "좋아. 발라드에서 반지를 훔친 트롤(Troll)은 뚱보 레카(Lekka the Corpulent)야. 식욕이 엄청났던 모양이지.",
+      "reason": "Pair the character's full name and epithet while retaining the joke."
+    },
+    {
+      "id": 38596,
+      "old": "흐리르다 여왕의 화려한 마법 투구는 전투에서 한 번도 착용한 적이 없다.",
+      "new": "흐리르다 여왕(Queen Hrirda)의 화려한 마법 투구는 전투에서 한 번도 착용한 적이 없다.",
+      "reason": "Pair the complete named title without changing the equipment description."
+    },
+    {
+      "id": 38629,
+      "old": "미스로스(Mithros) 사냥대 모집 전단을 찾았다. 합류하고 싶다면 서쪽 언덕의 크로우 피크(Crow Peak)로 가서 대장 브로건 맥퀸과 이야기해야겠다.",
+      "new": "미스로스(Mithros) 사냥대 모집 전단을 찾았다. 합류하고 싶다면 서쪽 언덕의 크로우 피크(Crow Peak)로 가서 대장 브로건 맥퀸(Brogan MacQueen)과 이야기해야겠다.",
+      "reason": "Pair the named party leader while preserving the optional invitation."
+    },
+    {
+      "id": 38630,
+      "old": "여기서 죽을 것 같아. 아넬라(Anela)와 다른 채집꾼들은 자기들이 없는 동안 습격한 투아사(Tuatha)를 사냥하러 비르키(Virki)로 갔어.\n아넬라(Anela)는 투아사(Tuatha)가 비르키(Virki)에서 왔고, 어떻게든 타이윌리(Tywili)에 들어왔다고 해. 난 못 가. 싸울 수 없다고!\n그래서 여기 숨어 있어. 죽은 이웃과 친구들을 보지 않으려는 마음도 있고, 다른 이유도 있고.\n하지만 투아사(Tuatha)가 아넬라(Anela) 일행을 죽이면 여기로 돌아올 거야. 날 찾아올 거라고. 뼛속까지 알아.",
+      "new": "여기서 죽을 것 같아. 아넬라(Anela)와 다른 채집꾼들은 자기들이 없는 동안 습격한 투아사(Tuatha)를 쫓아 비르키(Virki)로 갔어.\n아넬라는 투아사(Tuatha)가 비르키(Virki)에서 왔고, 어떻게든 타이윌리(Tywili)에 들어왔다고 해. 난 안 갈래. 싸울 수 없어!\n그래서 여기 숨어 있어. 죽은 이웃과 친구들 모습을 더는 보고 싶지 않은 것도 이유야.\n하지만 투아사(Tuatha)가 아넬라(Anela) 일행을 죽이면 놈들은 여기로 돌아올 거야. 날 찾아오겠지. 그럴 거라는 건 본능적으로 알아.",
+      "reason": "Distinguish refusal from inability to travel, naturalize the certainty idiom and prose, and preserve all four paragraphs."
+    },
+    {
+      "id": 38640,
+      "old": "로이드 이등병에게 방법을 알려 줬는데, 그 바보는 자기 일보다 농부의 젊은 딸들에게 잘 보이는 데 더 관심이 많아.",
+      "new": "로이드 이등병(Private Lloyd)에게 방법을 알려 줬는데, 그 바보는 자기 일보다 농부의 젊은 딸들에게 잘 보이는 데 더 관심이 많아.",
+      "reason": "Pair the named military rank and person."
+    },
+    {
+      "id": 38643,
+      "old": "불꽃이 약해져 곧 꺼질 횃불이다. 고렘 케인과 라시르(Rathir) 골드블레이드의 모닥불에서 가져왔다.",
+      "new": "불꽃이 약해져 곧 꺼질 횃불이다. 고렘 케인(Gorem Kane)과 라시르 골드블레이드(Rathir GoldBlades)의 모닥불에서 가져왔다.",
+      "reason": "Pair the named person and group without asserting a new faction relationship."
+    },
+    {
+      "id": 38664,
+      "old": "메어(Maire)와 이리온(Irion)은 대사제(Hierophant)를 숭배했잖아. 우리 예언자가 몰락하자 둘도 함께 무너졌지.",
+      "new": "하지만 달리 어떻게 됐겠어? 메어(Maire)와 이리온(Irion)은 대사제(Hierophant)를 숭배했잖아. 우리 예언자가 몰락하자 둘도 함께 무너졌지.",
+      "reason": "Restore the omitted rhetorical question supported by English and Japanese."
+    },
+    {
+      "id": 38683,
+      "old": "저주받은 포모리안족(Fomorians)의 공작, 폼베로(Pombero)의 처단자, 마비노기의 수호자.",
+      "new": "저주받은 포모리안족(Fomorians)의 공작, 폼베로(Pombero)의 처단자, 마비노기(Mabinogi)의 수호자.",
+      "reason": "Pair the third named entity while retaining all three distinct titles."
+    },
+    {
+      "id": 38687,
+      "old": "미치광이 그레이스톤",
+      "new": "미치광이 그레이스톤(Graystone the Mad)",
+      "reason": "Pair the complete named epithet."
+    },
+    {
+      "id": 38705,
+      "old": "마음이 바뀌면 여기 있을게.",
+      "new": "마음이 바뀌면 여기로 와. 난 여기 있을게.",
+      "reason": "Clarify that the listener should come back after changing their mind."
+    },
+    {
+      "id": 9368,
+      "old": "마음이 바뀌면 여기 있을게.",
+      "new": "마음이 바뀌면 여기로 와. 난 여기 있을게.",
+      "reason": "Match the exact-English duplicate at 38705."
+    },
+    {
+      "id": 38711,
+      "old": "솔직히 말하지. 여기 에틴(Ettin)들은 쉽게 처리하는 것 같은데, 자네처럼 잔혹한 솜씨를 지닌 사람이 필요해.",
+      "new": "솔직히 말하지. 여기 에틴(Ettin)들을 쉽게 상대하는 것 같군. 자네처럼 거칠게 싸울 줄 아는 사람이 필요해.",
+      "reason": "Replace a stiff calque with natural wording for formidable fighting skill while retaining the direct conversational request."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2437,
+    "total": 4015,
+    "percent": 60.7,
+    "remaining": 1578
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      9368, 12219, 38501, 38508, 38513, 38523, 38524, 38535, 38596,
+      38629, 38630, 38640, 38643, 38664, 38683, 38687, 38705, 38711
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "ledger_fingerprint_ids_refreshed": [
+      9368, 12219, 38501, 38508, 38513, 38523, 38524, 38535, 38596,
+      38629, 38630, 38640, 38643, 38664, 38683, 38687, 38705, 38711
+    ],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71838,
+    "csv_lf_only": 244,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for 12219/38513 and 9368/38705",
+    "normalized_manifest_to_csv_comparison": "passed (18 edits)",
+    "crlf_aware_diff_check": "passed",
+    "commit_made": false
+  }
+}

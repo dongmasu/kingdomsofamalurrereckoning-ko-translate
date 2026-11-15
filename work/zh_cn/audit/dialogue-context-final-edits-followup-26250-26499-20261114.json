@@ -1,0 +1,43 @@
+{
+  "range": [26250, 26499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 25,
+  "range_candidate_id_list": [
+    26251, 26255, 26256, 26259, 26260, 26261, 26277, 26313, 26315,
+    26316, 26329, 26343, 26350, 26357, 26361, 26369, 26391, 26395,
+    26400, 26414, 26424, 26431, 26475, 26477, 26491
+  ],
+  "reconciled_candidate_ids": 25,
+  "newly_counted_candidate_ids": 25,
+  "previously_counted_ids": [],
+  "decisions": {
+    "correction_applied_now": [26251],
+    "confirmed_prior_corrections": [
+      26255, 26256, 26259, 26260, 26261, 26277, 26313, 26315, 26316,
+      26329, 26343, 26350, 26357, 26361, 26369, 26391, 26395, 26400,
+      26414, 26424, 26431, 26475, 26477, 26491
+    ],
+    "evidence_limited_subissue": {
+      "id": 26251,
+      "issue": "The precise geographic meaning of Hollow remains unresolved."
+    }
+  },
+  "related_linked_ids_not_counted": [30331, 34259],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1522,
+    "total": 4015,
+    "percent": 37.91,
+    "remaining": 2493
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [26251],
+    "fingerprint_refreshed_ids": [26251],
+    "line_break_counts_checked_for_candidate_ids": true,
+    "26277_wrapper_counts_match": true,
+    "ledger_fingerprint_check": "passed",
+    "regression_tests": 20,
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

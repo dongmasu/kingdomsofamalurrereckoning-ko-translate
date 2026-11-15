@@ -1,0 +1,52 @@
+{
+  "range": [33000, 33249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 20,
+  "range_candidate_id_list": [
+    33004, 33018, 33076, 33089, 33098, 33102, 33109, 33113, 33120, 33128,
+    33130, 33141, 33150, 33166, 33176, 33194, 33195, 33203, 33247, 33248
+  ],
+  "previously_reconciled_in_range_ids": [33194],
+  "linked_candidate_ids_outside_range": [34152, 45816],
+  "previously_reconciled_linked_candidate_ids": [16617, 26551],
+  "linked_non_candidate_ids_reviewed": [26805],
+  "candidate_ids_reserved_for_next_numeric_range": [33266],
+  "newly_counted_candidate_ids": [
+    33004, 33018, 33076, 33089, 33098, 33102, 33109, 33113, 33120, 33128,
+    33130, 33141, 33150, 33166, 33176, 33195, 33203, 33247, 33248,
+    34152, 45816
+  ],
+  "decisions": {
+    "confirmed_current": [
+      33018, 33089, 33098, 33102, 33109, 33113, 33120, 33128, 33141,
+      33150, 33166, 33195, 33203, 33247, 33248, 34152, 45816
+    ],
+    "retained": [33004, 33076, 33130, 33176],
+    "previously_reconciled": [33194, 16617, 26551]
+  },
+  "exact_source_groups": {
+    "Irion, King of Cups": [
+      147, 2345, 4961, 6644, 9748, 12159, 13670, 15598, 20444, 30849,
+      33018, 35070, 49949, 52369, 54932, 56837, 57745, 59823, 61570, 63233
+    ],
+    "exact_dialogue_duplicate": [16617, 33194]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1969,
+    "total": 4015,
+    "percent": 49.04,
+    "remaining": 2046
+  },
+  "evidence_reports": [
+    "dialogue-context-default-33000-33249-revalidation-20261112.md",
+    "dialogue-context-edit-batch-20261114-33000-33249.md",
+    "dialogue-context-16500-16749-candidate-reconciliation-20261114.md",
+    "dialogue-context-26500-26749-candidate-reconciliation-20261114.md"
+  ],
+  "verification": {
+    "translation_csv_changed_during_reconciliation": false,
+    "existing_edit_batch_used": true,
+    "speaker_or_playback_order_inferred": false,
+    "full_ledger_and_csv_checks": "recorded in linked edit batch"
+  }
+}

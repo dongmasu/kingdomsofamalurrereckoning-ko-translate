@@ -1,0 +1,454 @@
+{
+  "input_sha256": "b5d36d211ba22d30918aee19644cc6a328e2ae2f18d6976cc88a10f48bf5e9a9",
+  "ledger_input_sha256": "4d67aba28a67ae0905c53168aa1bbc36d93abb5afe7107941c2db8deb4904a80",
+  "output_sha256": "950101024fa845f34fb677bcb0245bbc7e9d2c48b4cbf428b24d5cca130bab82",
+  "ledger_output_sha256": "fe28e890a1b4a41b3c30d31adde626d097323f34c9ba0e91d6a3442b4b1ae474",
+  "application": {
+    "status": "applied",
+    "operations": 73,
+    "target_applications": 96,
+    "unique_ids": 80
+  },
+  "scope": "Apply source-verified corrections for default IDs 9000-9999 and exact-English copies.",
+  "matching": "Each operation replaces exactly one expected fragment in each listed ID. The executor expands it to the full exact current Texto value and invokes tools/replace_text_preserve_eol.py for each ID.",
+  "edits": [
+    {
+      "ids": [9035],
+      "find": "{*1[패시브]}",
+      "replace": "{*1[지속 효과]}",
+      "reason": "Use the established Korean label for the passive-effect wrapper."
+    },
+    {
+      "ids": [9035],
+      "find": "둔기 충격 전투에 숙달되면",
+      "replace": "타격 기술에 숙달되면",
+      "reason": "Render mastery over blunt trauma idiomatically without adding a weapon restriction."
+    },
+    {
+      "ids": [9056],
+      "find": "쇳조각 몇 푼에 옛 친구가 배를 가를 정도니까",
+      "replace": "푼돈 때문에 옛 친구조차 네 배를 가를 정도니까",
+      "reason": "Clarify the source's threat and remove the unnatural metal-object/money construction."
+    },
+    {
+      "ids": [9072],
+      "find": "마침내 무덤에서 파헤쳐져 나왔구나",
+      "replace": "마침내 무덤에서 꺼내졌구나",
+      "reason": "Keep the English exhumation meaning while smoothing the passive phrasing; retain the current speech level."
+    },
+    {
+      "ids": [9091],
+      "find": "에피 크룩생크",
+      "replace": "에피 크루익섕크(Effie Cruikshank)",
+      "reason": "Match the established spelling and complete name pairing used for this character."
+    },
+    {
+      "ids": [9124],
+      "find": "고드릭 페인(Godric Payne) 경",
+      "replace": "고드릭 페인 경(Lord Godric Payne)",
+      "reason": "Pair the complete source name and title."
+    },
+    {
+      "ids": [9132],
+      "find": "갈라포 평원 전투",
+      "replace": "갈라포 평원 전투(Battle of Galafor Plain)",
+      "reason": "Pair the named historical event."
+    },
+    {
+      "ids": [9175],
+      "find": "눈썹 농도",
+      "replace": "눈썹 진하기",
+      "reason": "Use a natural appearance-slider label."
+    },
+    {
+      "ids": [9193],
+      "find": "그래서 알라레인(Alarane)과 나는 떠나 이곳으로 왔다. 우리는 통곡하는 왕(Weeping King)이 바랐을 대로 죽음에 대한 명상에 몸을 바쳤다.",
+      "replace": "그래서 알라레인(Alarane)과 나는 떠나 이곳으로 왔어. 통곡하는 왕(Weeping King)이 바라셨을 대로 죽음을 묵상하는 데 몸을 바쳤지.",
+      "reason": "Make the spoken recollection conversational while preserving its solemnity and meaning."
+    },
+    {
+      "ids": [9211],
+      "find": "병사, 델프릭(Delfric) 성주와 대화하게.",
+      "replace": "병사, 델프릭 성주(Castellan Delfric)와 이야기해 봐.",
+      "reason": "Use a natural instruction and pair the complete title."
+    },
+    {
+      "ids": [9227],
+      "find": "리어나시 촉수(Leanashe Tentacle)",
+      "replace": "리아네시 촉수(Leanashe Tentacle)",
+      "reason": "Match the confirmed Leanashe spelling while retaining the complete item name."
+    },
+    {
+      "ids": [9249],
+      "find": "솔직히 내 도움 요청에 누가 답해 줄 줄은 몰랐어.",
+      "replace": "솔직히, 도움을 청했을 때 누가 응해 줄 줄은 몰랐어.",
+      "reason": "Remove the awkward repeated request/answer construction."
+    },
+    {
+      "ids": [9264],
+      "find": "가시곰",
+      "replace": "가시곰(Prickly Bear)",
+      "reason": "Pair the letter's established nickname."
+    },
+    {
+      "ids": [9264],
+      "find": "클레나",
+      "replace": "클레나(Clena)",
+      "reason": "Pair the letter signature without inferring the recipient's identity."
+    },
+    {
+      "ids": [9279],
+      "find": "오를라 데블린",
+      "replace": "올라 데블린(Orla Devlin)",
+      "reason": "Match the established spelling and pair the complete source name."
+    },
+    {
+      "ids": [9299],
+      "find": "로어스톤을 돌려놓기",
+      "replace": "로어스톤(Lorestone)을 돌려놓기",
+      "reason": "Add the established English pairing to the objective."
+    },
+    {
+      "ids": [9302],
+      "find": "노래의 근원을 조사하라",
+      "replace": "노랫소리가 나는 곳을 조사하기",
+      "reason": "Make the objective natural and preserve its source meaning."
+    },
+    {
+      "ids": [9322],
+      "find": "에란 브랜트",
+      "replace": "에란 브랜트(Erran Brant)",
+      "reason": "Pair the named person in the document heading."
+    },
+    {
+      "ids": [9323],
+      "find": "적의 감지에 들키지 않습니다",
+      "replace": "적에게 감지되지 않습니다",
+      "reason": "Correct the awkward detection-effect phrasing."
+    },
+    {
+      "ids": [9342],
+      "find": "충실한 테오다르가",
+      "replace": "충실한 테오다르(Teodar)가",
+      "reason": "Pair the named figure at first mention."
+    },
+    {
+      "ids": [9405],
+      "find": "전설의 성소의 역사",
+      "replace": "전설로 전해지는 성소의 역사",
+      "reason": "Clarify the relation expressed by the source's legendary sanctum."
+    },
+    {
+      "ids": [9405],
+      "find": "마법으로 일어난 야생의 불길",
+      "replace": "거칠게 타오르는 마법의 불길",
+      "reason": "Render the magical wild inferno naturally."
+    },
+    {
+      "ids": [9342],
+      "find": "헤리오스와 브래코르(Vraekor)가",
+      "replace": "헬리오스(Helios)와 브래코르(Vraekor)가",
+      "reason": "Pair Helios without conflating it with the distinct Helius spelling."
+    },
+    {
+      "ids": [9405],
+      "find": "가장 오래된 기록은 두레크-알파르(Alfar) 전쟁의 역사서에 나온다.",
+      "replace": "가장 오래된 기록은 두레크-알파르 전쟁(Durek-Alfar War)의 역사서에 나온다.",
+      "reason": "Pair the complete named war rather than only Alfar."
+    },
+    {
+      "ids": [9405],
+      "find": "두레크가 알파르(Alfar)의 땅",
+      "replace": "두레크(Durek)가 알파르(Alfar)의 땅",
+      "reason": "Pair Durek at first mention."
+    },
+    {
+      "ids": [9405],
+      "find": "오르멘드에 따르면",
+      "replace": "오르멘드(Ormend)에 따르면",
+      "reason": "Pair the named historian at first mention."
+    },
+    {
+      "ids": [9405],
+      "find": "‘…폭풍이 지나간 뒤 이사는 정원을",
+      "replace": "‘…폭풍이 지나간 뒤 이사(Ysa)는 정원을",
+      "reason": "Pair Ysa at its first mention in the quoted verse."
+    },
+    {
+      "ids": [9405],
+      "find": "건축가가 오기 전",
+      "replace": "건축가(The Architect)가 오기 전",
+      "reason": "Pair the named Architect at first mention."
+    },
+    {
+      "ids": [9342],
+      "find": "가장 거대한 석탄으로도 부족하다.",
+      "replace": "아무리 좋은 석탄이라도 부족하다.",
+      "reason": "Follow the cross-language sense of the finest coal being insufficient."
+    },
+    {
+      "ids": [9342],
+      "find": "은빛 푸른빛으로",
+      "replace": "은청색으로",
+      "reason": "Render silvery-blue as a natural color description."
+    },
+    {
+      "ids": [9342],
+      "find": "위대한 세계 질서의 복잡함",
+      "replace": "위대한 세계 질서(Great Order of the World)의 복잡함",
+      "reason": "Pair the named Great Order of the World."
+    },
+    {
+      "ids": [9342],
+      "find": "아빈 안두린이 만들어야 한다",
+      "replace": "아빈 안두린(Avin Andurin)이 만들어야 한다",
+      "reason": "Pair the named artisan at first mention."
+    },
+    {
+      "ids": [9342],
+      "find": "안두린만이 지닌 숙련",
+      "replace": "안두린(Andurin)만이 지닌 숙련",
+      "reason": "Pair the later surname-only reference without expanding it."
+    },
+    {
+      "ids": [9360],
+      "find": "아글리르",
+      "replace": "아글리르(Aglir)",
+      "reason": "Pair the standalone name."
+    },
+    {
+      "ids": [9364, 11418],
+      "find": "사랑하는 네트.",
+      "replace": "사랑하는 네트(Nette).",
+      "reason": "Pair the name in the final direct address and keep exact-English copies aligned."
+    },
+    {
+      "ids": [9375],
+      "find": "여사제 코렐론(Corelon)",
+      "replace": "여사제 코렐론(Priestess Corelon)",
+      "reason": "Pair the full source title and name without expanding the name."
+    },
+    {
+      "ids": [9382],
+      "find": "할로우랜드(Hollowlands)만 해도 충분히 죽음의 덫인데!",
+      "replace": "할로우랜드(Hollowlands)만 해도 목숨을 잃기 십상인 곳인데!",
+      "reason": "Render deathtrap naturally while preserving the speaker's alarm."
+    },
+    {
+      "ids": [9384],
+      "find": "처형자의 전설",
+      "replace": "처형인(The Executioner)의 전설",
+      "reason": "Use the established named-figure title and pair it."
+    },
+    {
+      "ids": [9393],
+      "find": "콜름도 야영지",
+      "replace": "콜름(Colm)도 야영지",
+      "reason": "Pair the named person without expanding the short name."
+    },
+    {
+      "ids": [9402],
+      "find": "칸드리안 왕들의 계보를 다룬 역사(The history of the line of Kandrian kings.)",
+      "replace": "칸드리안 왕들의 계보를 다룬 역사.",
+      "reason": "Remove the redundant English copy of the explanatory sentence while retaining its Korean meaning."
+    },
+    {
+      "ids": [9405],
+      "find": "건축가는 처음 시드(Sidhe)에",
+      "replace": "건축가(The Architect)는 처음 시드(Sidhe)에",
+      "reason": "Pair the Architect in the book's first account of his arrival."
+    },
+    {
+      "ids": [9405],
+      "find": "시기는 두레크-알파르(Alfar) 전쟁과 그로부터",
+      "replace": "시기는 두레크-알파르 전쟁(Durek-Alfar War)과 그로부터",
+      "reason": "Pair the complete named war rather than only Alfar."
+    },
+    {
+      "ids": [9407],
+      "find": "아가스(Agarth)를 가로막으러 가야겠다.",
+      "replace": "아가스(Agarth)와 합류해야겠다.",
+      "reason": "Use the meeting/joining sense supported by Japanese and the quest-log context."
+    },
+    {
+      "ids": [9413, 62768],
+      "find": "에밀의 마법",
+      "replace": "에밀의 마법(Emile's Magic)",
+      "reason": "Pair the complete named label and keep exact-English copies aligned."
+    },
+    {
+      "ids": [9429],
+      "find": "아스켈과 해",
+      "replace": "아스켈(Askel)과 해",
+      "reason": "Pair the named person without changing the sentence's register."
+    },
+    {
+      "ids": [9447],
+      "find": "여름 궁정(Court of Summer)은 장로들의 모임이야. 달리 부를 말이 없어서 그러는데, 우리 종족을 다스리지.",
+      "replace": "여름 궁정(Court of Summer)은 장로들의 모임이야. 달리 표현할 말은 없지만, 우리 종족을 다스리지.",
+      "reason": "Naturalize the parenthetical qualification while preserving its hedging function."
+    },
+    {
+      "ids": [9473],
+      "find": "필요 이상으로 내 이야기를 하고 싶지 않다. 저주가 머리 위에 드리운 동안은.",
+      "replace": "필요 이상으로 내 얘기를 하고 싶진 않아. 저주가 머리 위에 드리운 지금은 더더욱.",
+      "reason": "Make the refusal natural Korean without inventing a speaker or changing its meaning."
+    },
+    {
+      "ids": [9483],
+      "find": "아우렌다(Aurenda)처럼 모래 아래 누워 쉴 날을 기다린다. 필멸자들의 영향력이 이 세계에서 커지는 걸 보니 지쳤다.",
+      "replace": "아우렌다(Aurenda)처럼 모래 아래 누워 잠들 날을 기다리고 있어. 필멸자들의 영향력이 이 세계에서 커지는 걸 보니 지쳤어.",
+      "reason": "Naturalize the spoken line while retaining its weariness and image of resting beneath the sands."
+    },
+    {
+      "ids": [9485],
+      "find": "원하는 만큼 우리와 함께 지내도 좋다. 다만 스스로 쓸모 있는 일을 찾아보는 게 어떻겠나.",
+      "replace": "원하는 만큼 우리와 함께 지내도 좋아. 다만 스스로 쓸모 있는 일을 찾아보는 건 어떨까?",
+      "reason": "Match the conversational suggestion in the Japanese source without adding a task."
+    },
+    {
+      "ids": [9487],
+      "find": "레벨이 오를 때까지 기다리지 않고 지금 바로 기술을 올리고 싶어? 훈련 교관을 찾아가. 돈은 꽤 들겠지만 지식은 넓혀 줄 거야.",
+      "replace": "레벨이 오르기를 기다리지 않고 기술을 바로 올리고 싶나요? 훈련 교관을 찾아가세요. 돈은 들지만 지식은 넓어집니다.",
+      "reason": "Use consistent reader-facing guidance for the instructional UI text."
+    },
+    {
+      "ids": [9488],
+      "find": "가끔 여름 궁정(Summer Court)의 페이(Fae) 방문객을 맞이하곤 했다. 무슨 이야기를 나눴는지는 모르지만, 수사들 가운데 그 일을 못마땅해하는 이가 많았던 건 안다.",
+      "replace": "가끔 여름 궁정(Summer Court)의 페이(Fae) 방문객을 맞이하곤 했어. 무슨 이야기를 나눴는지는 모르지만, 수사들 가운데 그 일을 못마땅해하는 이가 많았다는 건 알아.",
+      "reason": "Restore the user's identified Brother Edwin's conversational register and clarify the stated knowledge."
+    },
+    {
+      "ids": [9568],
+      "find": "고드릭 페인(Godric Payne) 경",
+      "replace": "고드릭 페인 경(Lord Godric Payne)",
+      "reason": "Pair the complete source name and title."
+    },
+    {
+      "ids": [9577],
+      "find": "누알라, 캐독(Cadoc), 이선의",
+      "replace": "누알라(Nuala), 캐독(Cadoc), 이선(Aethan)의",
+      "reason": "Pair the two unpaired short names without expanding them to surnames."
+    },
+    {
+      "ids": [9597],
+      "find": "안실라를 무너뜨리는 것",
+      "replace": "안실라(Ansilla)를 무너뜨리는 것",
+      "reason": "Pair the named target."
+    },
+    {
+      "ids": [9646],
+      "find": "처형인을 모른다고?",
+      "replace": "처형인(The Executioner)을 모른다고?",
+      "reason": "Pair the named legendary figure."
+    },
+    {
+      "ids": [9647],
+      "find": "안시르, 메로그, 술이라는",
+      "replace": "안시르(Ansir), 메로그(Merog), 술(Sul)이라는",
+      "reason": "Pair the three unpaired shaman names; Duxtir is already paired."
+    },
+    {
+      "ids": [9673],
+      "find": "우리 비탄의 집 페이(Fae)들이 겪는 문제",
+      "replace": "우리 비탄의 집(House of Sorrows)에 속한 페이(Fae)들이 겪는 문제",
+      "reason": "Clarify and pair the House affiliation."
+    },
+    {
+      "ids": [9684],
+      "find": "모투스 광산 마을",
+      "replace": "모투스 광산 마을(Motus Mining Village)",
+      "reason": "Pair the full location label, distinct from the mining company."
+    },
+    {
+      "ids": [9744],
+      "find": "포즈 하스에서",
+      "replace": "포즈 하스(Foe's Hearth)에서",
+      "reason": "Pair the named meeting place."
+    },
+    {
+      "ids": [9746, 9886],
+      "find": "누어(Nuer)의 신성모독을 처리하라",
+      "replace": "누어(Nuer)의 신성모독을 막기",
+      "reason": "Use the source-supported stop/ prevent meaning and the project's quest-objective form; align exact-English copies."
+    },
+    {
+      "ids": [147, 2345, 4961, 6644, 9748, 12159, 13670, 15598, 20444, 30849, 33018, 35070, 49949, 52369, 54932, 56837, 57745, 59823, 61570, 63233],
+      "find": "컵의 왕(King of Cups) 이리온(Irion)",
+      "replace": "컵의 왕 이리온(Irion, King of Cups)",
+      "reason": "Pair the complete source name-and-title label consistently across all 20 exact-English copies."
+    },
+    {
+      "ids": [9763, 59459],
+      "find": "이 잊히지 않을 아름다움, 에샤라(Esharra)의 다른 자식들이 저물어 감을 위한 신비로운 진혼곡.",
+      "replace": "잊히지 않을 이 아름다움은 에샤라(Esharra)의 다른 자식들이 스러져 가는 모습을 애도하는 신비로운 진혼곡이다.",
+      "reason": "Correct the ungrammatical fading clause and keep both exact-English poem copies aligned."
+    },
+    {
+      "ids": [9774],
+      "find": "설리의 반란",
+      "replace": "설리의 반란(Sully's Rebellion)",
+      "reason": "Pair the named event."
+    },
+    {
+      "ids": [9828],
+      "find": "성 이드릭(St. Eadric) 선교원",
+      "replace": "성 이드릭 선교원(St. Eadric's Mission)",
+      "reason": "Use the confirmed complete site name and keep it distinct from the saint's personal name."
+    },
+    {
+      "ids": [9839],
+      "find": "하늘꽃(Sky Blossom)(1)",
+      "replace": "하늘꽃(Sky Blossom) (1)",
+      "reason": "Make the reagent quantity spacing consistent."
+    },
+    {
+      "ids": [9844],
+      "find": "에런 브랜트",
+      "replace": "에런 브랜트(Erran Brant)",
+      "reason": "Pair the named fallen soldier."
+    },
+    {
+      "ids": [9867],
+      "find": "범위 굴림에서는",
+      "replace": "레인지 롤(Range Roll)에서는",
+      "reason": "Use the established name of the dice game."
+    },
+    {
+      "ids": [9880],
+      "find": "콜로사이 야영지",
+      "replace": "콜로사이 야영지(Kollosae Camp)",
+      "reason": "Pair the named location."
+    },
+    {
+      "ids": [9905],
+      "find": "아이사와의 만남",
+      "replace": "에이사(Aesa)와의 만남",
+      "reason": "Match the confirmed Aesa spelling and pair the short name only."
+    },
+    {
+      "ids": [9936],
+      "find": "드로서에 왔나?",
+      "replace": "드로서(Droser)에 왔나?",
+      "reason": "Pair the named place."
+    },
+    {
+      "ids": [9982],
+      "find": "타이스에게",
+      "replace": "타이스(Thais)에게",
+      "reason": "Pair the named debate interlocutor."
+    },
+    {
+      "ids": [9988],
+      "find": "내 여름 형제들은 자연의 성장과 진보를 체현한다. 그래서 여름 왕국을 세우는 일은 그들에게 쉬웠지.",
+      "replace": "우리 여름 페이(Summer Fae) 동족은 자연의 성장과 발전을 몸소 보여 줘. 그래서 여름 왕국을 세우는 일도 그들에게는 쉬웠지.",
+      "reason": "Render Summer brethren as the speaker's Fae kin rather than literal human brothers."
+    },
+    {
+      "ids": [9989],
+      "find": "금서고에 들어가려면",
+      "replace": "금서고(Forbidden Stacks)에 들어가려면",
+      "reason": "Pair the named library location."
+    }
+  ]
+}

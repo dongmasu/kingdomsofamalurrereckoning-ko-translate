@@ -1,0 +1,51 @@
+{
+  "range": [33750, 33999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 29,
+  "range_candidate_id_list": [
+    33752, 33759, 33772, 33781, 33787, 33789, 33795, 33813, 33820, 33825,
+    33833, 33836, 33839, 33840, 33844, 33861, 33867, 33883, 33884, 33892,
+    33899, 33901, 33902, 33919, 33927, 33930, 33937, 33939, 33999
+  ],
+  "previously_reconciled_candidate_ids": [33861, 33892],
+  "newly_counted_candidate_ids": [
+    33752, 33759, 33772, 33781, 33787, 33789, 33795, 33813, 33820, 33825,
+    33833, 33836, 33839, 33840, 33844, 33867, 33883, 33884, 33899, 33901,
+    33902, 33919, 33927, 33930, 33937, 33939, 33999, 36075
+  ],
+  "linked_candidate_ids": [36075],
+  "decisions": {
+    "confirmed_current_or_previously_applied": [
+      33752, 33759, 33772, 33781, 33787, 33789, 33795, 33813, 33820, 33825,
+      33833, 33836, 33839, 33840, 33844, 33861, 33867, 33883, 33884, 33892,
+      33899, 33901, 33902, 33919, 33930, 33937, 33939, 33999
+    ],
+    "refined": [33927],
+    "newly_applied_linked_duplicate": [36075],
+    "evidence_limited_holds_not_candidate_ids": [33780, 33827, 33851]
+  },
+  "related_consistency_groups": {
+    "Before The Talk": [33820, 36075],
+    "Argine, Queen of Staves": [33892],
+    "Lupoku source spelling": [33899]
+  },
+  "fingerprints_refreshed": [33927, 36075],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2067,
+    "total": 4015,
+    "percent": 51.48,
+    "remaining": 1948
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [33927, 36075],
+    "source_csv_or_extracted_asset_changed": false,
+    "review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "context_index_tests": "passed (9)",
+    "csv_structure": "passed (UTF-8 BOM, 65135 ordered rows)",
+    "newline_inventory": "passed (71838 CRLF, 244 LF-only, no bare CR)",
+    "crlf_aware_diff_check": "passed"
+  }
+}

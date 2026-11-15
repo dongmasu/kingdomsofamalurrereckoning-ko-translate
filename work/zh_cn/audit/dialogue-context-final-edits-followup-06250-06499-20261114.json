@@ -1,0 +1,72 @@
+{
+  "range": [
+    6250,
+    6499
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 8,
+  "reconciled_candidate_ids": 8,
+  "changed_rows": [
+    6316,
+    6327
+  ],
+  "edits": [
+    {
+      "id": 6316,
+      "old": "여기 꽤 괜찮은 곳에 자리를 잡았어. 아직 배가 갈리진 않았으니, 그렇게 되기 전에 날 여기서 꺼내 주면 고맙겠어.",
+      "new": "뭐, 여기선 그럭저럭 버티고 있어. 아직 배를 갈리진 않았거든. 그러기 전에 날 꺼내 주면 고맙겠어.",
+      "reason": "The prisoner is being sardonic, not sincerely praising the cell; Japanese and the imminent threat of gutting support the revised tone."
+    },
+    {
+      "id": 6327,
+      "old": "어떻게 감사해야 할지 모르겠어. 잘 지내. 네가 우리를 위해 해 준 것처럼, 언제나 네 꿈을 이루려고 노력해.",
+      "new": "어떻게 감사해야 할지 모르겠어. 잘 지내. 우리 꿈을 이뤄 준 것처럼, 네 꿈도 이루려고 늘 노력해.",
+      "reason": "Clarifies that the player's help fulfilled the group's dream and connects that comparison to the encouragement to pursue their own dream."
+    }
+  ],
+  "retained": [
+    {
+      "id": 6286,
+      "reason": "도박장(The Den) already renders the gambling venue naturally and consistently."
+    },
+    {
+      "id": 6312,
+      "reason": "창백한 백조의 날(Day of the Pale Swans) already pairs the complete event name."
+    },
+    {
+      "id": 6372,
+      "reason": "패스팅(Fastings) is already the established name for the tunnel/bunker network."
+    },
+    {
+      "id": 6398,
+      "reason": "물약이 필요하면 엘와가 갖고 있어 already reflects the supported natural correction."
+    },
+    {
+      "id": 6411,
+      "reason": "The objective already uses 메이지의 행운(Maisie's Luck) and the established -기 form."
+    },
+    {
+      "id": 6433,
+      "reason": "The collectible Litany already uses the approved 연도문 terminology."
+    }
+  ],
+  "verification": {
+    "ledger_reviewed_ids": 65135,
+    "ledger_fingerprint_check": "passed",
+    "index_and_catalog_reproduction": "passed",
+    "preservation_tests": 11,
+    "context_index_tests": 9,
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "crlf": 71838,
+    "lf_only": 244,
+    "bare_cr": 0
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 318,
+    "total": 4015,
+    "percent": 7.92,
+    "remaining": 3697
+  }
+}

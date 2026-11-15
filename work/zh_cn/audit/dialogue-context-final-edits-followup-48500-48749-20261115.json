@@ -1,0 +1,69 @@
+{
+  "range": [48500, 48749],
+  "source_order": [
+    "current Korean CSV",
+    "English for meaning",
+    "Japanese for tone and phrasing",
+    "Chinese as supporting evidence",
+    "prior candidate manifests and cited context reports"
+  ],
+  "ledger_candidate_ids": [
+    48535,
+    48564,
+    48621,
+    48638,
+    48659,
+    48675,
+    48700,
+    48709
+  ],
+  "newly_reconciled_ids": [],
+  "previously_reconciled_ids": [
+    48535,
+    48564,
+    48621,
+    48638,
+    48659,
+    48675,
+    48709
+  ],
+  "corrected_now": [],
+  "already_correct_or_supported": [
+    48535,
+    48564,
+    48621,
+    48638,
+    48659,
+    48675,
+    48709
+  ],
+  "cleared_false_positive_ids": [48700],
+  "false_positive_reasons": {
+    "48700": "The stale proposal adds Gryamar, which is absent from the exact English row. The current English, Japanese, and Chinese identify Anela and Virki, and both are already paired in Korean."
+  },
+  "held_for_independent_evidence": [],
+  "separate_existing_holds": [
+    48512,
+    48542,
+    48545,
+    48572,
+    48630,
+    48642,
+    48720
+  ],
+  "candidate_pool": {
+    "previous_total": 4027,
+    "cleared_false_positives": 1,
+    "total": 4026
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 3216,
+    "total": 4026,
+    "percent": 79.88,
+    "remaining": 810
+  },
+  "translation_csv_changed": false,
+  "ledger_dispositions_changed": true,
+  "ledger_disposition_changed_ids": [48700],
+  "ledger_fingerprint_changed": false
+}

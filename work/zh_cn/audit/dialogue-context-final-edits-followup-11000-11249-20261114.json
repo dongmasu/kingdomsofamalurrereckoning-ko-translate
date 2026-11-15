@@ -1,0 +1,59 @@
+{
+  "range": [11000, 11249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 10,
+  "range_candidate_id_list": [
+    11022, 11038, 11069, 11101, 11102, 11125, 11136, 11172, 11194, 11210
+  ],
+  "reconciled_candidate_ids": 10,
+  "related_candidate_ids": [11619],
+  "decisions": {
+    "corrected": [
+      11022, 11038, 11069, 11101, 11102, 11125, 11136, 11194, 11210
+    ],
+    "previously_applied_confirmed": [11069, 11102, 11125, 11136, 11194],
+    "newly_applied": [11022, 11038, 11101, 11210],
+    "retained": [11172],
+    "held": [],
+    "related_candidate_corrected": [11619]
+  },
+  "related_consistency_checks": [
+    {
+      "ids": [11022, 11619, 500, 52736],
+      "term": "Onarach",
+      "result": "Korean form is 오나락(Onarach)"
+    },
+    {
+      "ids": [
+        1043, 1174, 3307, 3501, 6044, 7667, 8663, 11172, 12593, 14564,
+        16655, 21485, 30045, 30190, 31796, 33892, 38694, 40340, 41255,
+        43684, 47099, 52596, 53842, 55720, 56433, 62000
+      ],
+      "source_text": "Argine, Queen of Staves",
+      "result": "all 26 rows have identical Korean, with name and title paired"
+    }
+  ],
+  "fingerprints_refreshed": [11022, 11038, 11101, 11210, 11619],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 686,
+    "total": 4015,
+    "percent": 17.09,
+    "remaining": 3329
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "manifest_json": "valid"
+  }
+}

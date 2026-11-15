@@ -1,0 +1,56 @@
+{
+  "range": [61250, 61499],
+  "source": {
+    "sequential_review": "dialogue-context-default-61250-61499-revalidation-20261113.md",
+    "prior_application": "dialogue-context-final-application-20261114.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_candidate_ids": [
+    61287, 61394, 61424, 61447, 61463, 61478, 61489
+  ],
+  "newly_reconciled_ids": [
+    61287, 61394, 61424, 61447, 61463, 61478, 61489
+  ],
+  "corrected_now": [61463, 61489],
+  "already_supported_ids": [61287, 61394, 61424, 61447, 61478],
+  "previous_candidate_ids_rechecked": [
+    61254, 61266, 61325, 61419, 61429, 61479
+  ],
+  "previous_candidate_corrected_ids": [61479],
+  "previous_candidates_already_supported": [
+    61254, 61266, 61325, 61419, 61429
+  ],
+  "existing_holds_rechecked": [61393],
+  "new_range_holds": [61467],
+  "report_only_corrected_ids": [],
+  "changed_default_ids": [61463, 61479, 61489],
+  "ledger_fingerprint_changed_ids": [61463, 61479, 61489],
+  "ledger_dispositions_changed": false,
+  "cumulative_candidate_reconciliation": {
+    "previous": 3410,
+    "previous_total": 4026,
+    "newly_reconciled": 7,
+    "reconciled": 3417,
+    "total": 4026,
+    "percent": 84.87,
+    "remaining": 609
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "index_and_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_and_context_index_tests": "20 passed",
+    "csv_rows_order_bom_and_line_endings": "65,135 ordered IDs; UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "range": [9500, 9749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 26,
+  "range_candidate_id_list": [
+    9545, 9568, 9577, 9587, 9588, 9597, 9604, 9606, 9622, 9626, 9627,
+    9646, 9647, 9673, 9681, 9682, 9684, 9691, 9701, 9719, 9721, 9734,
+    9737, 9744, 9746, 9748
+  ],
+  "reconciled_candidate_ids": 26,
+  "decisions": {
+    "corrected": [9587, 9588, 9604, 9606, 9622, 9626, 9681, 9682, 9701, 9719, 9748],
+    "retained": [9545, 9568, 9577, 9597, 9627, 9646, 9647, 9673, 9684, 9691, 9721, 9734, 9737, 9744, 9746],
+    "held": []
+  },
+  "related_exact_english_group": {
+    "source_text": "Irion, King of Cups",
+    "ids": [
+      147, 2345, 4961, 6644, 9748, 12159, 13670, 15598, 20444, 30849,
+      33018, 35070, 49949, 52369, 54932, 56837, 57745, 59823, 61570,
+      63233
+    ],
+    "korean": "컵의 왕 이리온(Irion, King of Cups)"
+  },
+  "linked_context_edits": [
+    {
+      "id": 47815,
+      "korean": "잠깐만 기다려. 암린시안 왕관(Amrynthian Band)을 복원해 볼게.",
+      "reason": "SQ02 context identifies Band as the Amrynthian crown."
+    }
+  ],
+  "fingerprints_refreshed": [
+    147, 2345, 4961, 6644, 9587, 9588, 9604, 9606, 9622, 9626, 9681,
+    9682, 9701, 9719, 9748, 12159, 13670, 15598, 20444, 30849, 33018,
+    35070, 47815, 49949, 52369, 54932, 56837, 57745, 59823, 61570, 63233
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 574,
+    "total": 4015,
+    "percent": 14.3,
+    "remaining": 3441
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

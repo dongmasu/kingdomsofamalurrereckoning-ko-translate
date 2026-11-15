@@ -1,0 +1,56 @@
+{
+  "range": [9750, 9999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 20,
+  "range_candidate_id_list": [
+    9757, 9763, 9770, 9774, 9798, 9817, 9828, 9839, 9844, 9863, 9867,
+    9880, 9886, 9895, 9905, 9936, 9937, 9982, 9988, 9989
+  ],
+  "reconciled_candidate_ids": 20,
+  "decisions": {
+    "corrected": [
+      9763, 9770, 9774, 9798, 9817, 9828, 9839, 9844, 9863, 9867,
+      9880, 9886, 9895, 9905, 9936, 9937, 9982, 9988, 9989
+    ],
+    "previously_applied_confirmed": [
+      9763, 9774, 9828, 9839, 9844, 9867, 9880, 9886, 9905, 9936,
+      9982, 9988, 9989
+    ],
+    "newly_applied": [9770, 9798, 9817, 9863, 9895, 9937],
+    "held": [9757]
+  },
+  "exact_english_duplicate_checks": [
+    {
+      "ids": [9763, 59459],
+      "result": "same corrected Korean poem and line layout"
+    },
+    {
+      "ids": [9746, 9886],
+      "source_text": "Deal with Nuer's Blasphemy",
+      "result": "same Korean objective wording"
+    }
+  ],
+  "fingerprints_refreshed": [9770, 9798, 9817, 9863, 9895, 9937],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 594,
+    "total": 4015,
+    "percent": 14.79,
+    "remaining": 3421
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

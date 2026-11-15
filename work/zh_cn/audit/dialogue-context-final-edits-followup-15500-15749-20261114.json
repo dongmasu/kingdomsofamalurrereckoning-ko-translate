@@ -1,0 +1,94 @@
+{
+  "range": [15500, 15749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 16,
+  "range_candidate_id_list": [
+    15525,
+    15532,
+    15577,
+    15580,
+    15581,
+    15582,
+    15598,
+    15627,
+    15632,
+    15633,
+    15659,
+    15688,
+    15708,
+    15712,
+    15717,
+    15745
+  ],
+  "reconciled_candidate_ids": 16,
+  "decisions": {
+    "previously_applied_confirmed": [
+      15525,
+      15577,
+      15580,
+      15582,
+      15598,
+      15627,
+      15632,
+      15633,
+      15659,
+      15688,
+      15708,
+      15712,
+      15717,
+      15745
+    ],
+    "refined": [15532],
+    "retained": [15581],
+    "held": []
+  },
+  "additional_linked_candidate_ids_reconciled": [63566],
+  "related_consistency_groups": {
+    "Lila Janick and Sativa harvest": [15532, 40176, 63566],
+    "Sativa Fiber standalone source label": [28236],
+    "six card names": [1866, 15632, 40020, 62621],
+    "Irion, King of Cups": [
+      147,
+      2345,
+      4961,
+      6644,
+      9748,
+      12159,
+      13670,
+      15598,
+      20444,
+      30849,
+      33018,
+      35070,
+      49949,
+      52369,
+      54932,
+      56837,
+      57745,
+      59823,
+      61570,
+      63233
+    ],
+    "Eventide clan": [1200, 3814, 5258, 11027, 15745, 23049, 25806, 50242],
+    "Beasts killed reports": [15581, 30936, 42559, 44457],
+    "Scholia Arcana Initiates": [8735, 15627, 35317, 58090]
+  },
+  "fingerprints_refreshed": {
+    "1ab10b13a47804cacb0825f86a5e7d884453b6863fd720f59b8efa77e1674927": [15532],
+    "ecddb6722c876c50830b8a4af6723690146c851c28edab6d51a2ba69b9c04358": [63566]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 887,
+    "total": 4015,
+    "percent": 22.09,
+    "remaining": 3128
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [15532, 63566],
+    "range_changed_default_ids": [15532],
+    "linked_out_of_range_changed_default_ids": [63566],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

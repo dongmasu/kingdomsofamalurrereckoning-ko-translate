@@ -1,0 +1,112 @@
+{
+  "range": [
+    19750,
+    19999
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 19,
+  "range_candidate_id_list": [
+    19755,
+    19766,
+    19779,
+    19781,
+    19797,
+    19806,
+    19811,
+    19817,
+    19845,
+    19879,
+    19887,
+    19888,
+    19889,
+    19905,
+    19918,
+    19947,
+    19981,
+    19988,
+    19999
+  ],
+  "reconciled_candidate_ids": 23,
+  "decisions": {
+    "confirmed_current": [
+      19755,
+      19781,
+      19797,
+      19806,
+      19817,
+      19845,
+      19879,
+      19887,
+      19888,
+      19889,
+      19905,
+      19918,
+      19947,
+      19981,
+      19988,
+      19999
+    ],
+    "corrected": [
+      19779,
+      19811
+    ],
+    "partial_with_separate_hold": [
+      19766
+    ],
+    "linked_candidate_confirmed": [
+      36231,
+      48443,
+      57408,
+      60282
+    ]
+  },
+  "additional_linked_candidate_ids_reconciled": [
+    36231,
+    48443,
+    57408,
+    60282
+  ],
+  "related_consistency_groups": {
+    "Vagrants in Galafor and Beggar's Bluff": [
+      19905,
+      36231,
+      48443,
+      57408,
+      60282
+    ],
+    "Beckry name forms": [
+      660,
+      19811,
+      2645,
+      63651
+    ]
+  },
+  "held_non_candidate_ids": [
+    19839,
+    19897,
+    19900,
+    19996
+  ],
+  "held_dimensions": {
+    "19766": "The source meaning of 'magical ordinance' remains uncertain."
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1093,
+    "total": 4015,
+    "percent": 27.23,
+    "remaining": 2922
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      19779,
+      19811
+    ],
+    "fingerprint_refreshed_ids": [
+      19779,
+      19811
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

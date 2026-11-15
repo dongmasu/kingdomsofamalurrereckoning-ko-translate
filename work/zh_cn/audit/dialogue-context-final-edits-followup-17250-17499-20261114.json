@@ -1,0 +1,77 @@
+{
+  "range": [17250, 17499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 12,
+  "range_candidate_id_list": [
+    17264,
+    17289,
+    17291,
+    17303,
+    17318,
+    17335,
+    17361,
+    17377,
+    17403,
+    17451,
+    17457,
+    17474
+  ],
+  "reconciled_candidate_ids": 12,
+  "decisions": {
+    "previously_applied_confirmed": [
+      17264,
+      17289,
+      17291,
+      17303,
+      17318,
+      17335,
+      17361,
+      17377,
+      17403,
+      17451,
+      17457
+    ],
+    "refined": [],
+    "retained": [
+      17474
+    ],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Glass of Ambient short references": [
+      2270,
+      17289,
+      28445,
+      56303,
+      59057
+    ],
+    "Fae farming passage": [
+      17291,
+      19214
+    ],
+    "Castle Ansilla refuse pipe": [
+      17451,
+      21589,
+      32057,
+      50445
+    ],
+    "Draug's Toothpicks short references": [
+      12234,
+      17474,
+      19922,
+      47813
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 948,
+    "total": 4015,
+    "percent": 23.61,
+    "remaining": 3067
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

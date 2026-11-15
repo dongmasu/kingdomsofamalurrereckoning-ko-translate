@@ -1,0 +1,135 @@
+{
+  "range": [37750, 37999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-37750-37999-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-37500-37749-candidate-reconciliation-20261114.md",
+      "dialogue-context-kv03-revalidation-20261110.md",
+      "dialogue-context-529073-sq11-culn-revalidation-20261111.md"
+    ]
+  },
+  "range_candidate_ids": 19,
+  "range_candidate_id_list": [
+    37751, 37757, 37772, 37786, 37810, 37829, 37830, 37835, 37862, 37865,
+    37889, 37901, 37909, 37926, 37936, 37938, 37978, 37980, 37986
+  ],
+  "previously_reconciled_candidate_ids": [],
+  "newly_counted_candidate_ids": [
+    37751, 37757, 37772, 37786, 37810, 37829, 37830, 37835, 37862, 37865,
+    37889, 37901, 37909, 37926, 37936, 37938, 37978, 37980, 37986
+  ],
+  "linked_candidate_ids_checked": [],
+  "linked_consistency_ids_checked": [6347],
+  "decisions": {
+    "newly_applied": [
+      37786, 37810, 37830, 37865, 37901, 37909, 37926, 37938, 37980, 37986
+    ],
+    "previously_applied_or_currently_supported": [
+      37751, 37757, 37772, 37829, 37835, 37862, 37889, 37936, 37978
+    ],
+    "evidence_limited_holds": [37858, 37882, 37892, 37943]
+  },
+  "related_consistency_groups": {
+    "Nyralim tale exact-source duplicate": [6347, 37830]
+  },
+  "edits": [
+    {
+      "id": 37786,
+      "old": "나는 아므비스요. 동료 페이트위버(Fateweaver)이자 아말러(Amalur)의 시민이오. 덧붙이자면, 그대에게 빚을 졌소.",
+      "new": "나는 앰비스(Ambyth)야. 동료 페이트위버(Fateweaver)이자 아말러(Amalur)의 시민이지. 덧붙이자면, 네게 빚을 졌어.",
+      "reason": "Pair the self-identified name using the established spelling and replace marked 하오체 with conversational speech supported by Japanese and Chinese."
+    },
+    {
+      "id": 37810,
+      "old": "가스티르 가문(House Gastyr)의 후계자 힐러레드 가스티르(Hillared Gastyr)를 도와 투아사(Tuatha) 사제 라시논(Racinon)을 법의 심판대에 세웠다. 이제 그녀는 가문의 성에 살며 케일드 해안(Caeled Coast)에서 삶을 다시 일으켜 세울 것이다.",
+      "new": "가스티르 가문(House of Gastyr)의 후계자 힐러레드 가스티르(Hillared Gastyr)를 도와 투아사(Tuatha) 사제 라시논(Racinon)을 법의 심판대에 세웠다. 이제 그녀는 가문의 성에 살며 케일드 해안(Caeled Coast)에서 삶을 다시 일으켜 세울 것이다.",
+      "reason": "Pair the exact source name House of Gastyr while preserving surrounding sentence meaning and the distinct House Gastyr form."
+    },
+    {
+      "id": 37830,
+      "old": "니랄림(Nyralim)의 품에 안긴 나라에서 여름은 불멸의 페이(Fae)로 모습을 드러낸다.\n너희는 그녀, 그, 혹은 그것을 찬란한 전사이자 열정적인 정복자로 알고 있지.\n너희 필멸자들은 그를 이사 왕(King Ysa)이라 불렀다. 너희 민족의 태동기에 이사(Ysa)의 위업을 목격했지.\n그는 힘과 위엄을 상징하는 너희의 전설이다.\n이사(Ysa)와 오운(Ohn), 신의 폭풍(Godstorm), 쇠락 전쟁(Withering War)의 이야기를 들으러 오라.",
+      "new": "니랄림(Nyralim)의 품에 안긴 나라에서 여름은 불멸의 페이(Fae)로 모습을 드러낸다.\n너희는 그녀, 그, 혹은 그것을 찬란한 전사이자 열정적인 정복자로 알고 있지.\n너희 필멸자들은 그를 이사 왕(King Ysa)이라 불렀다. 너희 민족의 기억이 시작되던 무렵, 이사(Ysa)의 위업을 목격했지.\n그는 힘과 위엄을 상징하는 너희의 전설이다.\n이사(Ysa)와 오운(Ohn), 신의 폭풍(Godstorm), 쇠락 전쟁(Withering War)의 이야기를 들으러 오라.",
+      "reason": "Clarify the metaphor youth of your people's memory without implying that the people themselves were just beginning; preserve all five lines."
+    },
+    {
+      "id": 6347,
+      "old": "니랄림(Nyralim)의 품에 안긴 나라에서 여름은 불멸의 페이(Fae)로 모습을 드러낸다.\n너희는 그녀, 그, 혹은 그것을 찬란한 전사이자 열정적인 정복자로 알고 있지.\n너희 필멸자들은 그를 이사 왕(King Ysa)이라 불렀다. 너희 민족의 태동기에 이사(Ysa)의 위업을 목격했지.\n그는 힘과 위엄을 상징하는 너희의 전설이다.\n이사(Ysa)와 오운(Ohn), 신의 폭풍(Godstorm), 쇠락 전쟁(Withering War)의 이야기를 들으러 오라.",
+      "new": "니랄림(Nyralim)의 품에 안긴 나라에서 여름은 불멸의 페이(Fae)로 모습을 드러낸다.\n너희는 그녀, 그, 혹은 그것을 찬란한 전사이자 열정적인 정복자로 알고 있지.\n너희 필멸자들은 그를 이사 왕(King Ysa)이라 불렀다. 너희 민족의 기억이 시작되던 무렵, 이사(Ysa)의 위업을 목격했지.\n그는 힘과 위엄을 상징하는 너희의 전설이다.\n이사(Ysa)와 오운(Ohn), 신의 폭풍(Godstorm), 쇠락 전쟁(Withering War)의 이야기를 들으러 오라.",
+      "reason": "Keep the exact four-language source duplicate identical to ID 37830."
+    },
+    {
+      "id": 37865,
+      "old": "불꽃 회랑을 지나가라",
+      "new": "불꽃 회랑(Aisle of Flame) 지나가기",
+      "reason": "Pair the exact named location and use the established quest-objective form."
+    },
+    {
+      "id": 37901,
+      "old": "프레스터의 길에서 올린 청원이 받아들여졌다. 신들께서 우리를 굽어보고 계신다.",
+      "new": "프레스터의 길(Prester's Path)에서 올린 청원이 받아들여졌다. 신들께서 우리를 굽어보고 계신다.",
+      "reason": "Pair the complete source name without settling the exact nature of Prester's Path."
+    },
+    {
+      "id": 37909,
+      "old": "검자루 끝에서 보석을 비틀어 빼내자, 검에서 크게 금이 가는 소리가 났다. 검은 얼음 파편 열두 조각으로 산산이 부서졌다.",
+      "new": "검자루 끝에서 보석을 비틀어 빼내자, 검이 쩍 갈라지는 소리를 내며 얼음 파편 열두 조각으로 산산이 부서졌다.",
+      "reason": "Retain the clear pommel-location description and smooth the cracking and shattering sequence."
+    },
+    {
+      "id": 37926,
+      "old": "진실 카드에는 고대 드베르가어(Dverga)로 이런 문구가 새겨져 있다. “진실을 말하는 자는 죽고, 진실을 말하는 자는 영원히 살리라.” 이 구절의 뜻은 알려지지 않았으며 페이트위버(Fateweaver)들 사이에서 격렬한 논쟁의 대상이다.",
+      "new": "진실(The Truth) 카드에는 고대 드베르가어(Dverga)로 이런 문구가 새겨져 있다. “진실을 말하는 자는 죽고, 진실을 말하는 자는 영원히 살리라.” 이 구절의 뜻은 알려지지 않았으며 페이트위버(Fateweaver)들 사이에서 격렬한 논쟁의 대상이다.",
+      "reason": "Pair the named card title once, as supported by Japanese and Chinese."
+    },
+    {
+      "id": 37938,
+      "old": "울릭(Urlik)을 처치하라",
+      "new": "울릭(Urlik) 처치하기",
+      "reason": "Use the established concise quest-objective form rather than an isolated imperative."
+    },
+    {
+      "id": 37980,
+      "old": "우리는 이제 {1} 상태로 {2}와 함께합니다.",
+      "new": "이제 {2}와의 관계가 {1}로 바뀌었습니다.",
+      "reason": "Use the natural relationship-status construction supported by Japanese while preserving both placeholders."
+    },
+    {
+      "id": 37986,
+      "old": "투아사(Tuatha) 암살자 데드아이(Deadeye)를 처치했다. 일라이어스 허크(Elias Hurk)에게 밤샘 경계가 성과를 거둬 데드아이(Deadeye)가 더는 알파르 군(Alfar Army)에 위협이 되지 않는다고 알려야겠다.",
+      "new": "투아사(Tuatha) 암살자 데드아이(Deadeye)를 처치했다. 일라이어스 허크(Elias Hurk)에게 밤샘 경계가 성과를 거둬 데드아이가 더는 알파르 군(Alfar Army)에 위협이 되지 않는다고 알려야겠다.",
+      "reason": "Remove the redundant second English parenthetical while preserving the paired first mention."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2394,
+    "total": 4015,
+    "percent": 59.63,
+    "remaining": 1621
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      37786, 37810, 37830, 37865, 37901, 37909, 37926, 37938, 37980, 37986,
+      6347
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "ledger_fingerprint_ids_refreshed": [
+      37786, 37810, 37830, 37865, 37901, 37909, 37926, 37938, 37980, 37986,
+      6347
+    ],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71838,
+    "csv_lf_only": 244,
+    "csv_bare_cr": 0,
+    "identical_source_rows_6347_37830": true,
+    "crlf_aware_diff_check": "passed",
+    "commit_made": false
+  }
+}

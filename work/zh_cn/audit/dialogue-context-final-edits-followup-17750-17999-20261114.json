@@ -1,0 +1,48 @@
+{
+  "range": [17750, 17999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 3,
+  "range_candidate_id_list": [
+    17901,
+    17936,
+    17937
+  ],
+  "reconciled_candidate_ids": 3,
+  "decisions": {
+    "previously_applied_confirmed": [
+      17901,
+      17936,
+      17937
+    ],
+    "refined": [],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Master Kiftal": [
+      7014,
+      17937,
+      26577,
+      29585,
+      32759,
+      33411,
+      47846,
+      47943,
+      54943,
+      62794,
+      63613
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 960,
+    "total": 4015,
+    "percent": 23.91,
+    "remaining": 3055
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

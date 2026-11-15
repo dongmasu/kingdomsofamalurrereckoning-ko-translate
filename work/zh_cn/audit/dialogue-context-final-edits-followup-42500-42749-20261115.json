@@ -1,0 +1,108 @@
+{
+  "range": [42500, 42749],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-42500-42749-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    42503, 42510, 42511, 42520, 42528, 42545, 42554, 42557, 42569, 42570,
+    42574, 42577, 42579, 42583, 42611, 42622, 42638, 42639, 42641, 42642,
+    42655, 42666, 42673, 42675, 42694, 42713, 42720, 42722, 42730, 42738,
+    42741, 42743, 42744, 42745, 42748
+  ],
+  "newly_reconciled_ids": [
+    25302, 42503, 42510, 42511, 42520, 42528, 42545, 42554, 42557, 42569,
+    42570, 42574, 42577, 42579, 42583, 42611, 42622, 42638, 42639, 42641,
+    42642, 42655, 42666, 42673, 42675, 42694, 42713, 42720, 42722, 42730,
+    42738, 42741, 42743, 42744, 42745, 42748, 49115
+  ],
+  "newly_reconciled_total": 37,
+  "newly_identified_candidates": [
+    {
+      "id": 25302,
+      "previous_ledger_status": "not-issue",
+      "linked_exact_source_id": 42694,
+      "reason": "The English, Japanese, and Chinese objective rows are identical. The Korean row lacked the name pairing and established -하기 objective ending used by its exact-source duplicate."
+    },
+    {
+      "id": 49115,
+      "previous_ledger_status": "not-issue",
+      "linked_exact_source_id": 42639,
+      "reason": "The English, Japanese, and Chinese objective rows are identical. The Korean row lacked the particle and established -하기 objective ending used by its exact-source duplicate."
+    }
+  ],
+  "cleared_false_positive_candidates": [],
+  "decisions": {
+    "confirmed_current_candidate_ids": [
+      42503, 42510, 42511, 42520, 42528, 42545, 42554, 42557, 42569, 42570,
+      42574, 42577, 42579, 42583, 42611, 42622, 42638, 42639, 42641, 42642,
+      42655, 42666, 42673, 42694, 42713, 42720, 42722, 42730, 42738, 42741,
+      42743, 42744, 42745, 42748
+    ],
+    "corrected_now": [25302, 42675, 49115],
+    "evidence_limited_holds": [
+      42542, 42582, 42591, 42599, 42660, 42733, 42738
+    ]
+  },
+  "linked_exact_source_groups": {
+    "Talk to Audra objective": {
+      "ids": [25302, 42694],
+      "result": "English, Japanese, and Chinese rows are identical; both Korean objectives now read 오드라(Audra)와 대화하기."
+    },
+    "Stop Tirnoch's Release objective": {
+      "ids": [42639, 49115],
+      "result": "English, Japanese, and Chinese rows are identical; both Korean objectives now read 티르노크(Tirnoch)의 해방을 저지하기."
+    }
+  },
+  "edits": [
+    {
+      "id": 25302,
+      "old": "오드라와 대화",
+      "new": "오드라(Audra)와 대화하기",
+      "reason": "Match exact-source duplicate 42694 with the full name pairing and established objective form."
+    },
+    {
+      "id": 42675,
+      "old": "오, 새 챔피언이 아니신가!",
+      "new": "이게 누구야, 새 챔피언이잖아!",
+      "reason": "English, Japanese, and Chinese use a familiar exclamation; remove the unsupported honorific register."
+    },
+    {
+      "id": 49115,
+      "old": "티르노크(Tirnoch)의 해방 저지",
+      "new": "티르노크(Tirnoch)의 해방을 저지하기",
+      "reason": "Match exact-source duplicate 42639 and restore the object particle and established objective ending."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2787,
+    "previous_total": 4022,
+    "newly_identified_candidates_added_to_total": 2,
+    "false_positive_candidates_removed_from_total": 0,
+    "reconciled": 2824,
+    "total": 4024,
+    "percent": 70.18,
+    "remaining": 1200
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [25302, 42675, 49115],
+    "ledger_fingerprint_ids_refreshed": [25302, 42675, 49115],
+    "newly_reclassified_ledger_ids": [25302, 49115],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71839,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for 25302/42694 and 42639/49115; all four language rows now match",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

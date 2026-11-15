@@ -1,0 +1,83 @@
+{
+  "range": [18750, 18999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 15,
+  "range_candidate_id_list": [
+    18760,
+    18796,
+    18807,
+    18839,
+    18864,
+    18873,
+    18874,
+    18876,
+    18902,
+    18908,
+    18919,
+    18934,
+    18938,
+    18945,
+    18951
+  ],
+  "reconciled_candidate_ids": 17,
+  "decisions": {
+    "previously_applied_confirmed": [
+      18760,
+      18807,
+      18839,
+      18864,
+      18874,
+      18876,
+      18902,
+      18908,
+      18934,
+      18938,
+      18945,
+      18951,
+      28142,
+      47293
+    ],
+    "refined": [
+      18873
+    ],
+    "retained": [],
+    "held": [
+      18796,
+      18919
+    ]
+  },
+  "additional_linked_candidate_ids_reconciled": [
+    28142,
+    47293
+  ],
+  "related_consistency_groups": {
+    "SQ108 / Praetorian Paige wording": [
+      18902,
+      28142
+    ],
+    "God Under the Mountain": [
+      12378,
+      18934,
+      38748,
+      47293
+    ],
+    "Altar of Doubt": [
+      18951,
+      63601
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1008,
+    "total": 4015,
+    "percent": 25.11,
+    "remaining": 3007
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      18873
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "range": [44250, 44499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-44250-44499-revalidation-20261112.md",
+    "prior_candidate_decisions": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "candidate_reconciliation": "dialogue-context-44250-44499-candidate-reconciliation-20261115.md",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    44258, 44263, 44294, 44311, 44334, 44347, 44354, 44360, 44368, 44377,
+    44398, 44413, 44423, 44431, 44434, 44443, 44468, 44469, 44477, 44482,
+    44491, 44495, 44497
+  ],
+  "newly_reconciled_ids": [
+    44263, 44294, 44311, 44334, 44347, 44354, 44360, 44368, 44377, 44398,
+    44413, 44423, 44431, 44434, 44443, 44468, 44469, 44477, 44482, 44491,
+    44495, 44497
+  ],
+  "newly_reconciled_total": 22,
+  "previously_reconciled_linked_ids": [44258],
+  "cleared_prior_candidate_ids": [44457],
+  "decisions": {
+    "corrected_now": [44347, 44360, 44495],
+    "already_correct_or_supported": [
+      44263, 44294, 44311, 44334, 44354, 44368, 44377, 44398, 44413, 44423,
+      44431, 44434, 44443, 44468, 44469, 44477, 44482, 44491, 44497
+    ],
+    "held_for_independent_evidence": []
+  },
+  "edits": [
+    {
+      "id": 44347,
+      "old": "정말 아름다우시군요, 그대.",
+      "new": "정말 아름다워, 내 사랑.",
+      "reason": "English and Chinese retain the endearment, while Japanese directly addresses the listener informally; use a natural intimate plain rendering without assigning an individual speaker."
+    },
+    {
+      "id": 44360,
+      "old": "적어도 할 수 있는 일은 다 했군요. 감사의 뜻으로 이 금화를 받으세요. 필요하시면 제 서비스도 할인해 드리겠습니다.",
+      "new": "뭐, 적어도 네가 할 수 있는 건 다 했어. 고맙다는 뜻으로 이 금화를 받아. 필요하면 내 서비스도 할인해 줄게.",
+      "reason": "Match the conversational Japanese and parallel reward line at 37913; preserve the offer and thanks."
+    },
+    {
+      "id": 44495,
+      "old": "우리는 외부인의 간섭을 꺼리는 민족이고, 죽은 이들은 그들이 누운 바로 그곳에 고이 묻어 두길 바라오. 더는 말하지 않겠소.",
+      "new": "우린 외부인의 간섭을 꺼려. 죽은 이들은 누운 자리에 고이 묻어 두는 게 우리 방식이야. 더는 말하지 않을게.",
+      "reason": "Japanese uses plain speech throughout; remove the unsupported 하오체 while retaining the community's custom and refusal to continue."
+    }
+  ],
+  "linked_source_groups": {
+    "fennwrac": {
+      "ids": [12843, 30807, 44368],
+      "result": "The established ingredient form is 펜라크(Fennwrac); 44368 already uses it."
+    },
+    "parallel_service_reward": {
+      "ids": [37913, 44360],
+      "result": "Japanese source dialogue uses conversational speech in both offers; the 44360 Korean register now matches."
+    }
+  },
+  "evidence_limited_items": {
+    "44380": "Font plural wording remains unresolved.",
+    "44458": "Register remains unresolved because the asset does not map the key to an individual speaker.",
+    "44462": "Address/register remains unresolved because the asset does not map the key to a speaker or scene stage.",
+    "44477": "The Tinehil name pairing is resolved; the meaning of hollow remains unresolved."
+  },
+  "ledger_fingerprints_refreshed": [44347, 44360, 44495],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2981,
+    "previous_total": 4028,
+    "newly_reconciled": 22,
+    "reconciled": 3003,
+    "total": 4028,
+    "percent": 74.55,
+    "remaining": 1025
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [44347, 44360, 44495],
+    "all_four_language_fingerprints": "passed for all 65,135 reviewed IDs",
+    "catalog_reproducibility": "index and both catalogs passed",
+    "regression_tests": "20 combined CSV-preservation and dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

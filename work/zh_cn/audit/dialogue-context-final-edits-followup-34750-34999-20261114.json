@@ -1,0 +1,89 @@
+{
+  "range": [34750, 34999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-34750-34999-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-33500-35999-20261114.json",
+    "linked_reviews": [
+      "dialogue-context-11750-11999-candidate-reconciliation-20261114.md",
+      "dialogue-context-14250-14499-candidate-reconciliation-20261114.md"
+    ]
+  },
+  "range_candidate_ids": 21,
+  "range_candidate_id_list": [
+    34765, 34817, 34821, 34831, 34835, 34841, 34844, 34860, 34864, 34870,
+    34872, 34878, 34885, 34895, 34904, 34912, 34916, 34925, 34936, 34968,
+    34977
+  ],
+  "previously_reconciled_candidate_ids": [34765, 34912],
+  "newly_counted_candidate_ids": [
+    34817, 34821, 34831, 34835, 34841, 34844, 34860, 34864, 34870, 34872,
+    34878, 34885, 34895, 34904, 34916, 34925, 34936, 34968, 34977
+  ],
+  "decisions": {
+    "confirmed_current_or_previously_applied": [
+      34817, 34821, 34831, 34835, 34841, 34844, 34860, 34864, 34870, 34872,
+      34878, 34885, 34895, 34904, 34916, 34925, 34936, 34968, 34977
+    ],
+    "held_meaning_or_identity_not_counted": [
+      34866, 34884, 34892, 34896, 34952
+    ]
+  },
+  "edits": [
+    {
+      "id": 34866,
+      "old": "너는 싸울 것을 맹세하고 그 조직의 일원이 될 거야! 그 영예를 누리는 자는 거의 없어.",
+      "new": "너는 싸우겠다고 맹세하고 그 조직의 일원이 되는 거야! 그런 영예를 누리는 사람은 거의 없지.",
+      "reason": "Naturalize the vow and membership sentence while retaining the informal voice; leave the Order's identity unresolved."
+    },
+    {
+      "id": 34884,
+      "old": "이런, 내 소개를 잊었군. 콜름 알바(Colm Alba)야. 개인적인 용무로…… 마치스에 왔지. 너처럼 나도 테스타먼트의 괴롭힘을 받았어.",
+      "new": "이런, 내 소개를 잊었군. 콜름 알바(Colm Alba)야. 개인적인 용무로…… 마치스에 왔지. 너처럼 나도 테스타먼트(the Testament)의 괴롭힘을 받았어.",
+      "reason": "Pair the capitalized English term without resolving the conflicting locale renderings of the group."
+    },
+    {
+      "id": 34892,
+      "old": "살인자의 요새",
+      "new": "살인자의 요새(Murderer's Hold)",
+      "reason": "Pair the English location label while leaving its prison/fortification category unresolved."
+    },
+    {
+      "id": 34896,
+      "old": "이드 처치!",
+      "new": "이드(The Id) 처치!",
+      "reason": "Pair the named entity while leaving its category unspecified."
+    },
+    {
+      "id": 34936,
+      "old": "네가 조직을 바꿔 놓았어…… 더 나은 방향으로 말이야.",
+      "new": "네가 조직(the Order)을 바꿔 놓았어…… 더 나은 방향으로 말이야.",
+      "reason": "Pair the capitalized source term without assigning a specific institutional identity."
+    }
+  ],
+  "fingerprints_refreshed": [34866, 34884, 34892, 34896, 34936],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2155,
+    "total": 4015,
+    "percent": 53.67,
+    "remaining": 1860
+  },
+  "verification": {
+    "four_language_candidate_ids_checked": 21,
+    "translation_csv_changed": true,
+    "changed_default_ids": [34866, 34884, 34892, 34896, 34936],
+    "source_csv_or_extracted_asset_changed": false,
+    "full_review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "dialogue_context_index_tests": "passed (9)",
+    "csv_structure": "passed (65135 ordered records; UTF-8 BOM preserved)",
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "speaker_or_playback_order_inferred": false
+  }
+}

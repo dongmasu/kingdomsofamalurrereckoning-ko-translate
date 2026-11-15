@@ -1,0 +1,84 @@
+{
+  "range": [
+    3250,
+    3499
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 12,
+  "reconciled_candidate_ids": 12,
+  "changed_rows": [
+    3301,
+    3303,
+    3373,
+    3489,
+    52239
+  ],
+  "edits": [
+    {
+      "id": 3301,
+      "old": "투린(Turin)에서 두루마리 찾기",
+      "new": "투린(Turin)을 수색해 두루마리 찾기",
+      "reason": "Make Turin the object of the search, as in the English objective and Japanese source."
+    },
+    {
+      "id": 3303,
+      "old": "캐사인(Cassyne)과 윌라(Wylla)는 나보다 훨씬 나이가 많았어. 키가 크고 위압감 있으면서도 아름다운 모습으로 기억해. 내가 살아온 세월 중 두 사람이 살아 있던 때보다 세상을 떠난 뒤의 시간이 더 길어.",
+      "new": "캐사인(Cassyne)과 윌라(Wylla)는 나보다 훨씬 나이가 많았어. 둘 다 키가 크고 위엄도 있었고, 아름다웠던 걸로 기억해. 내가 살아온 세월 중 두 사람이 살아 있던 때보다 세상을 떠난 뒤의 시간이 더 길어.",
+      "reason": "Remove an unsupported concessive contrast and coordinate the remembered traits in conversational Korean."
+    },
+    {
+      "id": 3373,
+      "old": "놈들이 늪을 가득 메우고 내 부하들을 갈기갈기 찢고 있어. 밴션(banshaen)이 몇 마리나 있는지는 모르겠지만, 하나만 있는 건 아닐 거야.",
+      "new": "놈들이 늪을 가득 메우고 내 부하들을 갈기갈기 찢고 있어. 밴션(Banshaen)이 몇 마리나 있는지는 모르겠지만, 하나만 있는 건 아닐 거야.",
+      "reason": "Match the established English capitalization for this creature name."
+    },
+    {
+      "id": 3489,
+      "old": "대사관이라니 정말 멋지네요. 내 거처로 써도 좋을 것 같아요. 저처럼 뛰어나고 권세 있는 사람이라면 그런 탑에서 살아야겠죠.",
+      "new": "대사관이라니 정말 멋지네요. 제 거처로 써도 좋을 것 같아요. 저처럼 뛰어나고 권세 있는 사람이라면 그런 탑에서 살아야겠죠.",
+      "reason": "Align the first-person pronoun with the line's polite endings and 저처럼."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 52239,
+      "old": "이 겨울 페이(Winter Fae) 방패는 투아사 데온(Tuatha Deohn)과 동맹한 종속 머건(Murghan) 부족의 강력한 여사제들, 클루리콘(Klurikon)의 밴션(banshaen)에서 이름을 따왔다.",
+      "new": "이 겨울 페이(Winter Fae) 방패는 투아사 데온(Tuatha Deohn)과 동맹한 종속 머건(Murghan) 부족의 강력한 여사제들, 클루리콘(Klurikon)의 밴션(Banshaen)에서 이름을 따왔다.",
+      "reason": "Align the same creature-name pairing with established capitalization; the separate lore-relationship hold remains."
+    }
+  ],
+  "retained": [
+    {
+      "id": 3253,
+      "reason": "The active wording already uses 조제법, applied in the separate SQ12 terminology pass."
+    },
+    {
+      "id": 3269,
+      "reason": "Both display labels already localize destiny as 운명 while preserving the format tokens."
+    },
+    {
+      "id": 3307,
+      "reason": "The full English title is already paired, and all 26 exact-English occurrences share the same complete Korean label."
+    },
+    {
+      "id": 3312,
+      "reason": "검투사 대기장 correctly reflects the waiting-area sense supported by Japanese."
+    },
+    {
+      "id": 3330,
+      "reason": "The Korean text already preserves the four embedded line breaks found in each source language."
+    },
+    {
+      "id": 3351,
+      "reason": "The question correctly asks about the quoted Fatesworn term itself."
+    },
+    {
+      "id": 3414,
+      "reason": "이로운 효과 범주 is already a natural rendering of the positive-effects category."
+    },
+    {
+      "id": 3447,
+      "reason": "The current plain-style wording preserves the source meaning and reads naturally in context."
+    }
+  ]
+}

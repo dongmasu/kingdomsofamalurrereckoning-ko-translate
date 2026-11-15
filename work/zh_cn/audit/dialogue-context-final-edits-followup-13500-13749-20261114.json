@@ -1,0 +1,120 @@
+{
+  "range": [13500, 13749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 10,
+  "range_candidate_id_list": [
+    13502,
+    13539,
+    13544,
+    13579,
+    13591,
+    13592,
+    13670,
+    13724,
+    13739,
+    13748
+  ],
+  "reconciled_candidate_ids": 10,
+  "decisions": {
+    "previously_applied_confirmed": [
+      13502,
+      13539,
+      13544,
+      13579,
+      13592,
+      13670,
+      13724,
+      13739,
+      13748
+    ],
+    "newly_applied": [
+      13591
+    ],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Lupoku English spelling in default": [
+      3560,
+      4060,
+      8146,
+      10523,
+      10619,
+      13592,
+      13951,
+      16767,
+      22700,
+      25713,
+      26252,
+      29213,
+      29534,
+      29852,
+      33899,
+      36620,
+      44730,
+      51280,
+      54589,
+      57248,
+      62917
+    ],
+    "Irion, King of Cups": [
+      147,
+      2345,
+      4961,
+      6644,
+      9748,
+      12159,
+      13670,
+      15598,
+      20444,
+      30849,
+      33018,
+      35070,
+      49949,
+      52369,
+      54932,
+      56837,
+      57745,
+      59823,
+      61570,
+      63233
+    ]
+  },
+  "related_out_of_range_edits": {
+    "25713": {
+      "reason": "The English source says Lupoku; the prior Korean parenthetical incorrectly said Lopoku.",
+      "replacement": "로포쿠(Lupoku)께 감사해야겠군! 신세 졌어!"
+    }
+  },
+  "fingerprints_refreshed": {
+    "70d15796fac7867da75705d64c00cf5236409d248622b6a0b5db451da4ac054b": [
+      13591
+    ],
+    "e37b6c80d7e41e083d20f8ab78d6edac4057dc879807d8f1e02d4537fd080870": [
+      25713
+    ]
+  },
+  "out_of_scope_findings": [
+    {
+      "id": "base:1940",
+      "current": "로포쿠(Lopoku)의 눈",
+      "english": "Eye of Lupoku",
+      "disposition": "Not edited; this batch is limited to default."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 782,
+    "total": 4015,
+    "percent": 19.48,
+    "remaining": 3233
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      13591,
+      25713
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

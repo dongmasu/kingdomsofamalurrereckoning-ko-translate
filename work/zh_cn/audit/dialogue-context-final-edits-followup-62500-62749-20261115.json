@@ -1,0 +1,63 @@
+{
+  "range": [62500, 62749],
+  "source": {
+    "sequential_review": "dialogue-context-default-62500-62749-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_candidate_ids": [
+    62523, 62550, 62563, 62613, 62633, 62637, 62658, 62682, 62730
+  ],
+  "newly_reconciled_ids": [
+    62523, 62550, 62563, 62613, 62633, 62637, 62658, 62682, 62730
+  ],
+  "corrected_ids": [62658, 62730],
+  "already_supported_ids": [
+    62523, 62550, 62563, 62613, 62633, 62637, 62682
+  ],
+  "previous_candidate_ids_rechecked": [62502, 62505, 62582, 62676],
+  "previous_candidates_corrected": [62502, 62582],
+  "previous_candidates_already_supported": [62505, 62676],
+  "existing_holds_rechecked": [62650],
+  "range_evidence_limited_holds_preserved": [
+    62500, 62520, 62610, 62652, 62707
+  ],
+  "exact_english_duplicate_group": {
+    "source_ids": [16898, 18884, 60779, 62563],
+    "same_english_text": "All right then.",
+    "japanese_distinguishes": {
+      "acknowledgment": [16898, 18884],
+      "farewell": [60779, 62563]
+    },
+    "korean_disposition": "Retain context-supported distinction: 좋아, 그럼. / 그럼 또 보자."
+  },
+  "changed_default_ids": [62502, 62582, 62658, 62730],
+  "ledger_fingerprint_changed_ids": [62502, 62582, 62658, 62730],
+  "ledger_dispositions_changed": false,
+  "cumulative_candidate_reconciliation": {
+    "previous": 3446,
+    "previous_total": 4026,
+    "newly_reconciled": 9,
+    "reconciled": 3455,
+    "total": 4026,
+    "percent": 85.82,
+    "remaining": 571
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "index_and_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_and_context_index_tests": "20 passed",
+    "csv_rows_order_bom_and_line_endings": "65,135 ordered IDs; UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

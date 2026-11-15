@@ -1,0 +1,83 @@
+{
+  "range": [40250, 40499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-40250-40499-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-final-edits-followup-37000-37249-20261114.json",
+      "dialogue-context-default-61750-61999-revalidation-20261113.md"
+    ]
+  },
+  "range_candidate_ids": [
+    40264, 40278, 40282, 40291, 40293, 40318, 40332, 40340, 40349, 40355,
+    40356, 40357, 40370, 40382, 40384, 40387, 40395, 40396, 40405, 40418,
+    40447, 40473, 40478, 40490, 40498
+  ],
+  "newly_counted_candidate_ids": [
+    40264, 40278, 40282, 40291, 40293, 40318, 40332, 40340, 40349, 40355,
+    40356, 40357, 40370, 40382, 40384, 40395, 40396, 40405, 40418, 40447,
+    40473, 40478, 40490, 40498
+  ],
+  "newly_reconciled_total": 24,
+  "previously_counted_ids": {
+    "40387": {
+      "linked_exact_source_id": 37115,
+      "previous_range": "37000-37249"
+    }
+  },
+  "already_resolved_candidate_ids": [40293, 40355, 40382],
+  "evidence_limited_holds": [40255, 40352, 40395, 40473],
+  "linked_exact_source_groups": {
+    "Children of Dust utterance": [37115, 40387],
+    "Argine, Queen of Staves exact label": [
+      1043, 1174, 3307, 3501, 6044, 7667, 8663, 11172, 12593, 14564,
+      16655, 21485, 30045, 30190, 31796, 33892, 38694, 40340, 41255,
+      43684, 47099, 52596, 53842, 55720, 56433, 62000
+    ]
+  },
+  "decisions": {
+    "current_supported_candidate_ids": [
+      40264, 40278, 40282, 40291, 40318, 40332, 40340, 40349, 40356, 40357,
+      40370, 40384, 40387, 40395, 40396, 40405, 40418, 40447, 40473, 40478,
+      40490, 40498
+    ],
+    "already_resolved_candidate_ids": [40293, 40355, 40382],
+    "evidence_limited_holds": [40255, 40352, 40395, 40473]
+  },
+  "edits": [
+    {
+      "id": 40384,
+      "old": "신비한 망치(Mystic Hammer)는 첫서약자 전당(Hall of the Firstsworn)의 대장간에서 만들어졌다. 그윈 안웨이(Gwyn Anwy)는 그곳에서 망치를 다시 벼려야 한다고 믿는다. 전설에 따르면 대장간으로 가는 길은 성스러운 통로(Sacred Passage)를 지난다.",
+      "new": "신비한 망치(Mystic Hammer)는 첫서약자 전당(Hall of the Firstsworn)의 대장간에서 만들어졌다. 그윈 안웨이(Gwyn Anwy)는 그곳에서 다시 벼려야 한다고 믿는다. 전설에 따르면 대장간으로 가는 길은 성스러운 통로(Sacred Passage)를 지난다.",
+      "reason": "The English sentence is identical to the shared sentence at 61804, where Chinese also confirms the same referent. Remove the redundant explicit object so the sentence matches without changing the row's remaining location details."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2579,
+    "previous_total": 4018,
+    "newly_identified_candidates_added_to_total": 0,
+    "reconciled": 2603,
+    "total": 4018,
+    "percent": 64.78,
+    "remaining": 1415
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [40384],
+    "ledger_fingerprint_ids_refreshed": [40384],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for Children of Dust and the shared Mystic Hammer sentence; Argine label was consistent across 26 IDs",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

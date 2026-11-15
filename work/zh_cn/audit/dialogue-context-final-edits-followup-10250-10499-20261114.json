@@ -1,0 +1,56 @@
+{
+  "range": [10250, 10499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 24,
+  "range_candidate_id_list": [
+    10255, 10258, 10267, 10287, 10290, 10293, 10309, 10316, 10325, 10331,
+    10336, 10352, 10365, 10370, 10389, 10392, 10396, 10419, 10434, 10451,
+    10452, 10462, 10495, 10496
+  ],
+  "reconciled_candidate_ids": 24,
+  "decisions": {
+    "corrected": [
+      10255, 10258, 10267, 10287, 10290, 10293, 10309, 10316, 10325,
+      10331, 10336, 10352, 10365, 10370, 10389, 10392, 10396, 10419,
+      10434, 10451, 10462, 10495, 10496
+    ],
+    "previously_applied_confirmed": [
+      10258, 10267, 10287, 10293, 10309, 10325, 10331, 10352, 10370,
+      10389, 10392, 10396, 10419, 10451, 10462, 10495, 10496
+    ],
+    "newly_applied": [10255, 10290, 10316, 10336, 10365, 10434],
+    "held": [10452]
+  },
+  "exact_english_duplicate_checks": [
+    {
+      "ids": [10287, 8608, 22801],
+      "source_text": "Arcane Carrack",
+      "result": "same complete Korean label"
+    }
+  ],
+  "fingerprints_refreshed": [
+    10255, 10290, 10316, 10336, 10365, 10434
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 637,
+    "total": 4015,
+    "percent": 15.87,
+    "remaining": 3378
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

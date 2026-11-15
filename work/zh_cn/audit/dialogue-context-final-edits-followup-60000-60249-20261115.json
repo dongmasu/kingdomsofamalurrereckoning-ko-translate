@@ -1,0 +1,56 @@
+{
+  "range": [60000, 60249],
+  "source": {
+    "sequential_review": "dialogue-context-default-60000-60249-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_candidate_ids": [
+    60013, 60016, 60018, 60025, 60061, 60089,
+    60101, 60112, 60138, 60152, 60232, 60237
+  ],
+  "newly_reconciled_ids": [
+    60013, 60016, 60018, 60025, 60061, 60089,
+    60101, 60112, 60138, 60152, 60232, 60237
+  ],
+  "already_resolved_ids": [60018, 60025, 60101, 60152],
+  "previous_candidate_ids_rechecked": [60012, 60037, 60188],
+  "previous_candidates_already_supported": [60012, 60037, 60188],
+  "report_only_findings_rechecked": [60104, 60105, 60108, 60134, 60185],
+  "report_only_corrections_already_present": [60108, 60134],
+  "held_for_insufficient_evidence": [
+    60056, 60058, 60075, 60084, 60104, 60105, 60106,
+    60132, 60136, 60158, 60169, 60174, 60177, 60182,
+    60184, 60185, 60189, 60198
+  ],
+  "no_new_finding_ids": [60229],
+  "changed_default_ids": [60013, 60016, 60061, 60089, 60112, 60138, 60232, 60237],
+  "ledger_fingerprint_changed_ids": [60013, 60016, 60061, 60089, 60112, 60138, 60232, 60237],
+  "ledger_dispositions_changed": false,
+  "cumulative_candidate_reconciliation": {
+    "previous": 3362,
+    "previous_total": 4026,
+    "newly_reconciled": 12,
+    "reconciled": 3374,
+    "total": 4026,
+    "percent": 83.81,
+    "remaining": 652
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "index_and_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_and_context_index_tests": "20 passed",
+    "csv_rows_order_bom_and_line_endings": "65,135 ordered IDs; UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

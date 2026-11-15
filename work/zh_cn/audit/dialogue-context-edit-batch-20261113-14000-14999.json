@@ -1,0 +1,556 @@
+{
+  "input_sha256": "91b6be27fd62a0e329141ae365f02d8f5fbbc3d9088d22bfad5ee94134cf4f3c",
+  "ledger_input_sha256": "ce029dad0a64224f187691da9406e47b4bbecb3ebcd85691e181f951476dde74",
+  "output_sha256": "5aedbf20b1a742d7b19ee67b8fc5f0bb460cabd0f98b89242c0c327107198702",
+  "ledger_output_sha256": "3fdc9f813818210733d96546395d54a7d3daf28659e0c3f801ae316c1738c7ec",
+  "scope": "Adjudicate all 59 correction candidates in default IDs 14000-14999 against current English, Japanese, Chinese, and Korean rows; include directly related named-item, title, and terminology occurrences, plus documented neighboring candidates.",
+  "matching": "Each operation is limited to explicit ID_Linha values and an exact current text fragment. Ordered fragment rules are combined per ID; the application derives the complete old/new Texto value and invokes tools/replace_text_preserve_eol.py once per target ID.",
+  "application": {
+    "status": "applied",
+    "operations": 98,
+    "target_applications": 98,
+    "unique_ids": 90,
+    "candidate_results": {
+      "corrected": 50,
+      "already_resolved": 7,
+      "retained": 1,
+      "held": 1
+    },
+    "reverse_patch_restores_input": true
+  },
+  "candidate_ids": [
+    14002, 14079, 14092, 14146, 14150, 14179, 14180, 14183, 14190, 14204,
+    14231, 14241, 14243, 14255, 14278, 14316, 14319, 14325, 14335, 14337,
+    14353, 14355, 14375, 14388, 14401, 14442, 14495, 14496, 14524, 14541,
+    14570, 14576, 14577, 14591, 14594, 14621, 14634, 14652, 14666, 14709,
+    14727, 14728, 14729, 14746, 14818, 14831, 14840, 14841, 14850, 14861,
+    14883, 14894, 14903, 14922, 14925, 14961, 14967, 14977, 14991
+  ],
+  "already_resolved": [
+    {"id": 14002, "reason": "The active text already uses the source-supported 정찰 보고서."},
+    {"id": 14146, "reason": "The active text already uses 광상 for ore deposits."},
+    {"id": 14231, "reason": "The active text already uses the selected 무기 교관 term."},
+    {"id": 14353, "reason": "The urn objective already uses the accepted 유골함 term and action form."},
+    {"id": 14746, "reason": "The active text already pairs 사반트 엥가르 with Savant Engar."},
+    {"id": 14861, "reason": "The Hermit Smith label already has the complete accepted English pairing."},
+    {"id": 14961, "reason": "The active text already uses 유골함 for the quest-specific ash urns."}
+  ],
+  "retained": [
+    {"id": 14591, "reason": "This row already uses the established 티레니움(Tyrenium); its exact-source counterpart 47146 is corrected in the related terminology group."}
+  ],
+  "held": [
+    {"id": 14729, "reason": "Templar remains unresolved across the active terminology records; do not select a global Korean title from this isolated objective."}
+  ],
+  "edits": [
+    {
+      "ids": [14079],
+      "find": "네가 온 건 마땅한 일이야.",
+      "replace": "네가 온 건 잘된 일이야.",
+      "reason": "Avoid implying the player's arrival was deserved or obligatory; retain the hope that they will repair the Weave."
+    },
+    {
+      "ids": [14092],
+      "find": "무엇을 도와드릴까?",
+      "replace": "무엇을 도와드리면 되겠소?",
+      "reason": "Keep the line's elevated -오 register consistent within the utterance."
+    },
+    {
+      "ids": [14150],
+      "find": "가진 건 별로 없지만 없는 것보단 조금 나아.",
+      "replace": "가진 건 많지 않지만, 없는 것보단 나을 거야.",
+      "reason": "Make the comparison refer naturally to the speaker's wares while preserving the plain register."
+    },
+    {
+      "ids": [14179],
+      "find": "공식적인 평화를 확립하려는 내용이야.",
+      "replace": "공식적인 평화가 성립되도록 하는 내용이야.",
+      "reason": "Replace the awkward collocation while preserving the letter's purpose and conversational register."
+    },
+    {
+      "ids": [14180],
+      "find": "여기, 싸우다 찾았어.",
+      "replace": "자, 여기. 싸우는 중에 찾았어.",
+      "reason": "Make the handoff and discovery during the fight natural without changing the information."
+    },
+    {
+      "ids": [14183],
+      "find": "마르가르(Malgar)",
+      "replace": "말가르(Malgar)",
+      "reason": "Align this spelling with the established Malgar rendering elsewhere in the active translation."
+    },
+    {
+      "ids": [14190],
+      "find": "우리와 함께하든가, 지금 떠나라, 필멸자여.",
+      "replace": "필멸자여, 우리와 함께하든가 지금 떠나라.",
+      "reason": "Move the vocative to a natural position without weakening the ultimatum."
+    },
+    {
+      "ids": [14204],
+      "find": "주사위가 좀 있어. 한 판 하고 싶다면 말이야.",
+      "replace": "한 판 하고 싶으면 주사위도 있어.",
+      "reason": "Recast the stilted invitation as natural dialogue; retain the following coin condition."
+    },
+    {
+      "ids": [14241],
+      "find": "흔적의 배열을 보면 이 사람은 최근 이곳을 지나 남쪽으로 향한 것 같다.",
+      "replace": "혈흔이 흩어진 모양으로 보아, 이 사람은 최근 이곳을 지나 남쪽으로 향한 듯하다.",
+      "reason": "Translate judging by the blood's layout naturally and preserve the journal's inference."
+    },
+    {
+      "ids": [14243],
+      "find": "솜씨가 그리워지는 건 부정 못 하겠어.",
+      "replace": "그 솜씨가 그리울 수밖에 없지.",
+      "reason": "Replace the awkward negative construction while retaining the speaker's fond regret."
+    },
+    {
+      "ids": [14255],
+      "find": "그를 제거해야 한다.",
+      "replace": "그를 처치해야 한다.",
+      "reason": "Use natural quest-journal wording for the source-supported intent to kill Red Idward."
+    },
+    {
+      "ids": [14278],
+      "find": "고대 유물 회수",
+      "replace": "고대 유물 회수하기",
+      "reason": "Align the quest objective with the established Korean action form."
+    },
+    {
+      "ids": [14316],
+      "find": "마을의 수석 방어관 바튼(Barten)",
+      "replace": "마을의 수비대장 바튼(Barten)",
+      "reason": "Replace the awkward calque with a natural role description without asserting a more specific formal rank."
+    },
+    {
+      "ids": [14319],
+      "find": "순수한 마법으로 된 생명체",
+      "replace": "순수한 마법으로 이루어진 존재",
+      "reason": "Naturalize the contrast between flesh-and-blood beings and beings made of pure magic."
+    },
+    {
+      "ids": [14325],
+      "find": "리지(Ridge)에 따르면 투아사(Tuatha)는 케일드 해안(Caeled Coast)을 지키기 위한 보루로 안실라 성(Castle Ansilla)을 이용하려 해. 그들의 지도자를 죽여야 해. 지도자는 왕좌의 방에 있는데, 레버를 당기면 들어갈 수 있어.",
+      "replace": "리지(Ridge)에 따르면, 투아사(Tuatha)는 케일드 해안(Caeled Coast)을 지키기 위한 전투에서 안실라 성(Castle Ansilla)을 보루로 삼을 계획이다. 그들의 지도자를 처치해야 한다. 지도자는 왕좌의 방에 있으며, 레버를 당기면 들어갈 수 있다.",
+      "reason": "Recast the full quest-journal entry in consistent written style while retaining the lever access detail."
+    },
+    {
+      "ids": [14335],
+      "find": "오늘날 우리가 살아 번성하는 것도 그분께 감사드린다.",
+      "replace": "오늘날 우리가 살아 번성하는 것도 그분 덕분이다.",
+      "reason": "Make the villagers' gratitude and prosperity statement direct while preserving the proclamation's solemn tone."
+    },
+    {
+      "ids": [14335],
+      "find": "나의 여신 리리아(Lyria) 부인의 부름을 들었으므로 이곳을 촌장이자 길잡이로 섬기겠다.",
+      "replace": "나의 여신 리리아(Lyria)께서 나를 섬김의 길로 부르시는 목소리를 들었으므로, 이 마을의 촌장이자 길잡이로서 주민들을 섬기겠다.",
+      "reason": "Smooth the full service statement and remove the unnatural deity-title and location constructions."
+    },
+    {
+      "ids": [14335],
+      "find": "나의 여신 리리아(Lyria)께서 나를 섬김의 길로 부르시는 목소리를 들었으므로",
+      "replace": "나의 여신 리리아(Lady Lyria)께서 나를 섬김의 길로 부르시는 목소리를 들었으므로",
+      "reason": "Pair the source's full honorific and name rather than only the deity's personal name."
+    },
+    {
+      "ids": [14335],
+      "find": "이는 모두의 뜻이자 내 미천한 의무다.",
+      "replace": "이는 모두의 바람이자 내게 주어진 작은 의무다.",
+      "reason": "Keep the humble sense without the awkward literal phrasing."
+    },
+    {
+      "ids": [14337],
+      "find": "탈영병 사냥",
+      "replace": "탈영병 사냥하기",
+      "reason": "Align the objective with the established Korean action form."
+    },
+    {
+      "ids": [14355],
+      "find": "내가 없는 동안 시녀(The Maid)가 그들을 데려갔어. 전부.",
+      "replace": "내가 없는 동안 시녀(The Maid)가 왕과 마법의 궁정(Court of Enchantments)을 모두 빼앗아 갔어. 전부.",
+      "reason": "Make clear that the Maid seized both the king and the Court, as supported by Japanese."
+    },
+    {
+      "ids": [14375],
+      "find": "대상 위치에 범위 피해로 화염 피해(Fire Damage) 600과 화상 피해(Burning Damage) 85를 줍니다.",
+      "replace": "대상 위치에 범위 공격을 가해 화염 피해(Fire Damage) 600과 화상 피해(Burning Damage) 85를 줍니다.",
+      "reason": "Remove the redundant stacking of area and damage wording; preserve the cost line and embedded break."
+    },
+    {
+      "ids": [8862, 14388, 23306, 31370, 31705, 34912, 55112],
+      "find": "레이디 올레인(Lady Oleyn)",
+      "replace": "올레인 여사(Lady Oleyn)",
+      "reason": "Use the established Korean honorific rendering for Lady while retaining the complete English title and name."
+    },
+    {
+      "ids": [34912],
+      "find": "올레인 여사(Lady Oleyn), 황금 매듭의 기사, 스렝의 파괴자, 페니안 전설군(Fenian Cycle)의 수호자",
+      "replace": "올레인 여사(Lady Oleyn), 황금 매듭의 기사(Knight of the Golden Knot), 스렝의 파괴자(Destroyer of Sreng), 페니안 전설군(Fenian Cycle)의 수호자(Keeper of the Fenian Cycle)",
+      "reason": "Pair all three source-named designations in the same sentence."
+    },
+    {
+      "ids": [14401],
+      "find": "근처 레버를 당겨 문을 열었다.",
+      "replace": "근처 레버를 당기면 문이 열린다.",
+      "reason": "Describe the lever as the door's opening mechanism without adding an unexpressed actor or past action."
+    },
+    {
+      "ids": [14442],
+      "find": "신병의 예상 수명은 며칠로 잴 수 있어.",
+      "replace": "신병의 예상 수명은 며칠에 불과해.",
+      "reason": "Render the source's grim exaggeration naturally."
+    },
+    {
+      "ids": [14495],
+      "find": "스레시(Thresh) - 타인트 보가트(Boggart)",
+      "replace": "스레시(Thresh) - 타인트 보가트(Taint Boggart)",
+      "reason": "Pair the full source subtype, not only its head noun."
+    },
+    {
+      "ids": [14496],
+      "find": "브레너 대사(Brenner Ambassador)",
+      "replace": "브레너 대사(Ambassador Brenner)",
+      "reason": "Apply the established person-and-title English order."
+    },
+    {
+      "ids": [14524],
+      "find": "놈들이 해변의 케이프 솔라스(Cape Solace)를 쓸어 버리고 그곳에 있는 사람은 모두 죽일 거야.",
+      "replace": "놈들이 케이프 솔라스(Cape Solace)를 통째로 쓸어 버리고 그곳에 있는 사람은 모두 죽일 거야.",
+      "reason": "Remove the literal spatial calque while preserving the threat to destroy the settlement and kill everyone there."
+    },
+    {
+      "ids": [14541, 37696, 48306],
+      "find": "여사제 세라논(Seranon)",
+      "replace": "여사제 세라논(Priestess Seranon)",
+      "reason": "Pair the complete source title and name in all identified explicit references."
+    },
+    {
+      "ids": [11969],
+      "find": "안내서를 회수할 사람이 필요해.",
+      "replace": "지점 업무 안내서를 회수할 사람이 필요해.",
+      "reason": "Identify the specific Motus Mining branch handbook."
+    },
+    {
+      "ids": [14570],
+      "find": "지점 안내서를 찾아올",
+      "replace": "지점 업무 안내서를 찾아올",
+      "reason": "Align the handbook term with the same Motus Mining item elsewhere."
+    },
+    {
+      "ids": [23156],
+      "find": "모투스 광업(Motus Mining) 지부 안내서를 찾아냈구나.",
+      "replace": "모투스 광업(Motus Mining) 지점 업무 안내서를 찾아냈구나.",
+      "reason": "Use the consistent name for the branch handbook."
+    },
+    {
+      "ids": [34167],
+      "find": "지침서를 회수해 와야 하네.",
+      "replace": "지점 업무 안내서를 회수해 와야 하네.",
+      "reason": "Use the consistent name for the handbook whose copy was misplaced."
+    },
+    {
+      "ids": [34414],
+      "find": "지점 운영 지침서를 성공적으로 전달했다.",
+      "replace": "지점 업무 안내서를 성공적으로 전달했다.",
+      "reason": "Align the delivered handbook with the same Motus Mining item."
+    },
+    {
+      "ids": [53784],
+      "find": "잃어버린 안내서를 되찾아라",
+      "replace": "잃어버린 지점 업무 안내서 되찾기",
+      "reason": "Identify the quest item and use the established objective form."
+    },
+    {
+      "ids": [59925],
+      "find": "지사 업무 편람을 회수했다.",
+      "replace": "지점 업무 안내서를 회수했다.",
+      "reason": "Align the journal's item name with the other references to the handbook."
+    },
+    {
+      "ids": [14576],
+      "find": "비탄의 집에 투아사(Tuatha)보다 먼저 도착하려면 서둘러야 해.",
+      "replace": "투아사(Tuatha)보다 먼저 비탄의 힘(Sorrows)을 찾으려면 서둘러야 해.",
+      "reason": "Distinguish the magical power Sorrows from the House of Sorrows and preserve the objective."
+    },
+    {
+      "ids": [14577],
+      "find": "타이윌리 해안(Tywili Coast)의 사람들도 고마워할 거야.",
+      "replace": "타이윌리 해안(Tywili Coast)의 사람들도 자네에게 고마워하고 있네.",
+      "reason": "Use the present-tense thanks expressed by English, Japanese, and Chinese."
+    },
+    {
+      "ids": [47146],
+      "find": "타이레니움(tyrenium)",
+      "replace": "티레니움(Tyrenium)",
+      "reason": "Align the exact English/Japanese duplicate to the established mineral spelling at 14591."
+    },
+    {
+      "ids": [14594],
+      "find": "스틸 부인",
+      "replace": "스틸 여사(Lady Still)",
+      "reason": "Use the Korean honorific and include the complete source title in the pairing."
+    },
+    {
+      "ids": [14621],
+      "find": "이 비문을 분석할 시간을 좀 가진 뒤에 다시 이야기하세.",
+      "replace": "비문을 조금 분석해 본 다음에 다시 이야기하자.",
+      "reason": "Replace the stiff marked ending with the familiar conversational invitation supported by Japanese."
+    },
+    {
+      "ids": [14634],
+      "find": "가빈 뒤라크의 소유였다.",
+      "replace": "가빈 둘락(Garvin Dulac)의 소유였다.",
+      "reason": "Pair Garvin Dulac's full name and align Dulac with the established surname spelling."
+    },
+    {
+      "ids": [6612],
+      "find": "교차점의 수호자들(Crossing Keepers)",
+      "replace": "크로싱의 수호자들(Crossing Keepers)",
+      "reason": "Use the established name of The Crossing in the related faction name."
+    },
+    {
+      "ids": [2455, 7379, 30852, 47572, 63854],
+      "find": "교차점의 수호자들(Keepers of the Crossing)",
+      "replace": "크로싱의 수호자들(Keepers of the Crossing)",
+      "reason": "Apply the reviewed faction form to all exact-source occurrences, preserving the source's title wording."
+    },
+    {
+      "ids": [14652],
+      "find": "우리 교차점의 수호자들(Crossing Keepers)은 예상보다 훨씬 오래 이곳을 지키고 있어.",
+      "replace": "우리는 예상보다 훨씬 오래 크로싱의 수호자들(Crossing Keepers)로 지내 왔어.",
+      "reason": "Use the consistent faction name and make the sentence natural."
+    },
+    {
+      "ids": [27923],
+      "find": "교차점의 수호자들(Crossing Keepers)을 만나려면",
+      "replace": "크로싱의 수호자들(Crossing Keepers)을 만나려면",
+      "reason": "Align the faction name with the established The Crossing rendering."
+    },
+    {
+      "ids": [48605],
+      "find": "교차점의 수호자들(Crossing Keepers)은",
+      "replace": "크로싱의 수호자들(Crossing Keepers)은",
+      "reason": "Align the faction name with the established The Crossing rendering."
+    },
+    {
+      "ids": [52232],
+      "find": "교차점의 수호자들(Crossing Keepers)인",
+      "replace": "크로싱의 수호자들(Crossing Keepers)인",
+      "reason": "Align the faction name with the established The Crossing rendering."
+    },
+    {
+      "ids": [54080],
+      "find": "교차점의 수호자들(Crossing Keepers)을 위해",
+      "replace": "크로싱의 수호자들(Crossing Keepers)을 위해",
+      "reason": "Align the faction name with the established The Crossing rendering."
+    },
+    {
+      "ids": [61109],
+      "find": "교차점의 수호자들(Crossing Keepers)과 대화",
+      "replace": "크로싱의 수호자들(Crossing Keepers)과 대화",
+      "reason": "Align the faction name with the established The Crossing rendering."
+    },
+    {
+      "ids": [14666],
+      "find": "메이지의 행운을 찾아 주면",
+      "replace": "메이지의 행운(Maisie's Luck)을 찾아 주면",
+      "reason": "Pair the named ring when it is explicitly referenced."
+    },
+    {
+      "ids": [6411],
+      "find": "“메이지의 행운”의 주인을 찾아라.",
+      "replace": "“메이지의 행운(Maisie's Luck)”의 주인 찾기",
+      "reason": "Pair the named ring and align this objective with the related concise -기 form."
+    },
+    {
+      "ids": [25298],
+      "find": "메이지의 행운이 뭐지?",
+      "replace": "메이지의 행운(Maisie's Luck)이 뭐지?",
+      "reason": "Pair the named ring in the direct question."
+    },
+    {
+      "ids": [31374],
+      "find": "거기에 메이지의 행운이라고 새겨져 있었어?",
+      "replace": "거기에 메이지의 행운(Maisie's Luck)이라고 새겨져 있었어?",
+      "reason": "Pair the named ring in the engraving question."
+    },
+    {
+      "ids": [33004],
+      "find": "『메이지의 행운, 사랑하는 손녀에게.』",
+      "replace": "『메이지의 행운(Maisie's Luck), 사랑하는 손녀에게.』",
+      "reason": "Pair the ring's explicitly quoted engraving."
+    },
+    {
+      "ids": [35631],
+      "find": "그녀가 메이지의 행운이라고 부르는 행운의 반지도 있다.",
+      "replace": "그녀가 메이지의 행운(Maisie's Luck)이라고 부르는 행운의 반지도 있다.",
+      "reason": "Pair the named ring in the quest journal."
+    },
+    {
+      "ids": [40034],
+      "find": "메이시의 행운이라는 반지",
+      "replace": "메이지의 행운(Maisie's Luck)이라는 반지",
+      "reason": "Correct the row's inconsistent Korean spelling and pair the named ring."
+    },
+    {
+      "ids": [49170],
+      "find": "‘메이지의 행운’이라고 테에 새긴",
+      "replace": "‘메이지의 행운(Maisie's Luck)’이라고 테에 새긴",
+      "reason": "Pair the named ring in the discovery journal."
+    },
+    {
+      "ids": [14709, 53519],
+      "find": "이제 여기에 우리를 위한 것은 아무것도 남아 있지 않아요. 이곳은 추억으로 남겨 두고 떠나요. 이제는 추억 속에만 있어야 할 곳이니까요.",
+      "replace": "우리에게 이곳에 남은 건 아무것도 없어요. 이곳은 추억 속에 남겨 두는 게 맞아요.",
+      "reason": "Remove the repeated idea in the identical English-source rows while preserving their existing polite register."
+    },
+    {
+      "ids": [14727],
+      "find": "나르카(Narca) 페이블레이드 전사",
+      "replace": "나르카 페이블레이드 전사(Narca Faebladesman)",
+      "reason": "Pair the complete source label, including its role."
+    },
+    {
+      "ids": [14728],
+      "find": "하지만 그건 네게는 한평생 전의 일이잖아. 그렇지?",
+      "replace": "하지만 네겐 전생의 이야기잖아. 그렇지?",
+      "reason": "Use the idiomatic previous-life sense supported by Japanese and Chinese."
+    },
+    {
+      "ids": [14818],
+      "find": "겸손은 노력으로 이루거나 얻는 것이 아니라, 남이 베푸는 것이다.",
+      "replace": "겸손은 노력으로 이루거나 얻는 것이 아니라, 주어지는 것이다.",
+      "reason": "Avoid adding an explicit giver absent from English and Japanese."
+    },
+    {
+      "ids": [14831],
+      "find": "토론해 보세.",
+      "replace": "토론해 보자.",
+      "reason": "Keep the invitation in the same conversational register as the preceding clauses and Japanese."
+    },
+    {
+      "ids": [14840],
+      "find": "릴리르그리프의 온갖 경이로움",
+      "replace": "릴리르그리프(Llyrgryf)의 온갖 경이로움",
+      "reason": "Add the source name without choosing among the project's differing Korean transliterations."
+    },
+    {
+      "ids": [14841],
+      "find": "너희 필멸자들의 그 고집도 또 하나의 짜증거리야.",
+      "replace": "너희 필멸자들의 고집도 참 성가시기 짝이 없구나.",
+      "reason": "Use natural wording and keep the line's plain, disdainful voice consistent."
+    },
+    {
+      "ids": [14850],
+      "find": "더 정확하겠군.",
+      "replace": "더 정확하겠지.",
+      "reason": "Remove the abrupt shift to marked 하게체 in otherwise conversational plain speech."
+    },
+    {
+      "ids": [14883],
+      "find": "브래티건(Brattigan) 선장",
+      "replace": "브래티건 선장(Captain Brattigan)",
+      "reason": "Use the established name-title order and complete English pairing."
+    },
+    {
+      "ids": [14894],
+      "find": "아르케스(Arkes)… 이건 더 큰 일이군.",
+      "replace": "아르케스(Arkes)… 이 일은 규모가 더 커졌어.",
+      "reason": "Keep the row's conversational register consistent."
+    },
+    {
+      "ids": [14894],
+      "find": "여러 해에 걸쳐 사건이 점점 확대됐어.",
+      "replace": "여러 해에 걸쳐 사건이 점점 커졌어.",
+      "reason": "Use natural conversational wording for the event growing over time."
+    },
+    {
+      "ids": [14894],
+      "find": "하지만 이 일을 끝낼 지식은 아르케스(Arkes)가 남겨 줬지.",
+      "replace": "하지만 아르케스(Arkes)가 이 일을 끝낼 지식을 남겨 줬어.",
+      "reason": "Keep the final clause natural and in the same conversational register."
+    },
+    {
+      "ids": [14903],
+      "find": "미안하네, 이방인.",
+      "replace": "미안해, 이방인.",
+      "reason": "Align the apology with the surrounding conversational plain style."
+    },
+    {
+      "ids": [14903],
+      "find": "이제 난 다시 일해야겠군.",
+      "replace": "이제 다시 일해야겠어.",
+      "reason": "Remove the abrupt marked ending while retaining the need to return to work."
+    },
+    {
+      "ids": [14922],
+      "find": "킨 대사(Keen Ambassador)",
+      "replace": "킨 대사(Ambassador Keen)",
+      "reason": "Use the established person-and-title English order."
+    },
+    {
+      "ids": [6013],
+      "find": "경기장에 들여보냈어.",
+      "replace": "투기장에 들여보냈어.",
+      "reason": "Standardize Arena to 투기장 while preserving the distinct pit reference earlier in the sentence."
+    },
+    {
+      "ids": [14925],
+      "find": "경기장에 밀어 넣는",
+      "replace": "투기장에 밀어 넣는",
+      "reason": "Use the established name for the House of Valor arena."
+    },
+    {
+      "ids": [16106],
+      "find": "경기장에 들어가야 해!",
+      "replace": "투기장에 들어가야 해!",
+      "reason": "Use the established name for the House of Valor arena."
+    },
+    {
+      "ids": [16106],
+      "find": "챔피언이 사나운 트롤(Troll)들과 겨루게 했어!",
+      "replace": "챔피언이 사나운 트롤(Troll)들과 강제로 맞붙게 했어!",
+      "reason": "Restore the source's coercion and retain the conversational register."
+    },
+    {
+      "ids": [32146],
+      "find": "경기장에 몰아넣고 있겠지.",
+      "replace": "투기장에 몰아넣고 있겠지.",
+      "reason": "Use the established name for the House of Valor arena."
+    },
+    {
+      "ids": [32976],
+      "find": "경기장에 돌아오지 말았어야지.",
+      "replace": "투기장에 돌아오지 말았어야지.",
+      "reason": "Use the established name for the House of Valor arena."
+    },
+    {
+      "ids": [54385],
+      "find": "아레나에서 우리 팀을",
+      "replace": "투기장에서 우리 팀을",
+      "reason": "Use the established Korean arena term consistently."
+    },
+    {
+      "ids": [14967],
+      "find": "일반 및 {*4비일반} 아이템을 분해할 수 있습니다.",
+      "replace": "일반 아이템과 {*4흔하지 않은} 아이템을 분해할 수 있습니다.",
+      "reason": "Use the established Infrequent rarity wording naturally while preserving the {*4} wrapper."
+    },
+    {
+      "ids": [43919],
+      "find": "현재 기술 수준에서는 일반, {*4비흔한}, {*3희귀} 아이템을 분해할 수 있습니다.",
+      "replace": "현재 기술 수준에서는 일반 아이템과 {*4흔하지 않은} 아이템, {*3희귀} 아이템을 분해할 수 있습니다.",
+      "reason": "Align Infrequent with the established rarity wording, naturalize the list, and preserve wrapper order."
+    },
+    {
+      "ids": [14977],
+      "find": "'면죄의 화관(Wreath of Absolution)'이라는 예배용 물건",
+      "replace": "'면죄의 화관(Wreath of Absolution)'이라는 의식용 물건",
+      "reason": "Replace the awkward calque with a natural description of an article of worship."
+    },
+    {
+      "ids": [14991],
+      "find": "발라드의 집에 돌아온 걸 환영하네",
+      "replace": "발라드의 집(House of Ballads)에 돌아온 걸 환영하네",
+      "reason": "Pair the faction name supported by the Japanese source and story context."
+    }
+  ]
+}

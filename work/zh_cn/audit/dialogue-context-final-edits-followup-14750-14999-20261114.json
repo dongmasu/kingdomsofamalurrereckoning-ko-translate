@@ -1,0 +1,104 @@
+{
+  "range": [14750, 14999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 16,
+  "range_candidate_id_list": [
+    14818,
+    14824,
+    14831,
+    14840,
+    14841,
+    14850,
+    14861,
+    14883,
+    14894,
+    14903,
+    14922,
+    14925,
+    14961,
+    14967,
+    14977,
+    14991
+  ],
+  "reconciled_candidate_ids": 16,
+  "decisions": {
+    "previously_applied_confirmed": [
+      14831,
+      14840,
+      14841,
+      14850,
+      14861,
+      14883,
+      14903,
+      14922,
+      14925,
+      14961,
+      14967,
+      14977
+    ],
+    "refined": [14818, 14824, 14894, 14991],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Hermit Smith": [
+      8360,
+      14861,
+      10939,
+      11581,
+      12164,
+      19097,
+      28676,
+      28839,
+      59710
+    ],
+    "Captain Brattigan": [14883, 5581, 6215, 46503],
+    "House of Valor arena": [6013, 14925, 16106, 32146, 32976, 54385],
+    "Teeth of Naros urns": [
+      3641,
+      6103,
+      8606,
+      13943,
+      14353,
+      14961,
+      16943,
+      18560,
+      21321,
+      31024,
+      33357,
+      36916,
+      46083,
+      51124,
+      52135,
+      53859,
+      54630,
+      59576
+    ]
+  },
+  "fingerprints_refreshed": {
+    "7f67dcc464f68bfe10c0d7235cc23a7d6695d788f939ed18bcb3bd401722cfc3": [
+      14818
+    ],
+    "97a6044745b8e97d74b8dc986be8daac34dda28ec4cfe6f12667451d3ad4bc77": [
+      14824
+    ],
+    "b81098cbff2aee6235069f9c28dda780f3099970024606827bb9c2a324867ce4": [
+      14894
+    ],
+    "12c4b5d94a37d841e8f1ba0eed77dd2af0d6e2cfd274757778b855663231a9d5": [
+      14991
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 850,
+    "total": 4015,
+    "percent": 21.17,
+    "remaining": 3165
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [14818, 14824, 14894, 14991],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

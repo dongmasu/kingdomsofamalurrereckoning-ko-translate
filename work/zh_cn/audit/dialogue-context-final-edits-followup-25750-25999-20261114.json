@@ -1,0 +1,41 @@
+{
+  "range": [25750, 25999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 26,
+  "range_candidate_id_list": [
+    25752, 25758, 25777, 25778, 25806, 25814, 25822, 25823, 25826,
+    25832, 25840, 25852, 25856, 25885, 25896, 25898, 25912, 25913,
+    25915, 25925, 25926, 25939, 25963, 25976, 25984, 25996
+  ],
+  "linked_candidate_ids": [],
+  "reconciled_candidate_ids": 26,
+  "newly_counted_candidate_ids": 26,
+  "previously_counted_ids": [],
+  "decisions": {
+    "confirmed_prior_corrections": [
+      25752, 25758, 25777, 25778, 25806, 25814, 25822, 25823, 25826,
+      25832, 25840, 25852, 25856, 25885, 25896, 25898, 25912, 25913,
+      25915, 25925, 25926, 25939, 25963, 25976, 25984, 25996
+    ],
+    "correction_applied_now": [],
+    "evidence_limited_holds": [25766, 25871]
+  },
+  "related_consistency_update_ids": [25884],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1473,
+    "total": 4015,
+    "percent": 36.69,
+    "remaining": 2542
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "fingerprint_refreshed_ids": [],
+    "line_break_counts_checked_for_candidate_ids": true,
+    "ledger_fingerprint_check": "passed",
+    "context_index_tests": 9,
+    "csv_preservation_tests": 11,
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "range": [15250, 15499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 10,
+  "range_candidate_id_list": [
+    15290,
+    15295,
+    15316,
+    15326,
+    15351,
+    15400,
+    15419,
+    15473,
+    15474,
+    15499
+  ],
+  "reconciled_candidate_ids": 10,
+  "decisions": {
+    "previously_applied_confirmed": [
+      15290,
+      15295,
+      15316,
+      15326,
+      15351,
+      15400,
+      15419,
+      15474
+    ],
+    "refined": [15473, 15499],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Gravehal Gallery": [859, 13015, 15295, 27146, 28305, 43735, 53065, 60844],
+    "Tinehil": [15419, 24624, 37286, 44477, 45706, 49861],
+    "Chrysalae": [15342, 25277, 25777, 34731, 44672, 48053],
+    "Missives of Sable": [15351, 7080, 12173, 25474, 27671, 41545, 42297, 42554, 59282]
+  },
+  "fingerprints_refreshed": {
+    "96d8aca116c4bc5f581c0ebe3c486434dd7fd0abd37ce5e5408b197b6d86295e": [15419],
+    "3f62c2f20eb67f0200bd0c7d00578e63421eb7c8376a0caffa9426286f0818ff": [15473],
+    "f9b014c92f461f5f8e8a531107abfa2c90c4bb68a2ad6c573d2d91e7f4abe15f": [15499]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 870,
+    "total": 4015,
+    "percent": 21.67,
+    "remaining": 3145
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [15473, 15499],
+    "fingerprint_only_refresh_ids": [15419],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

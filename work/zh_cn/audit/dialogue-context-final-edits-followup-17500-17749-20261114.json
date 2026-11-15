@@ -1,0 +1,70 @@
+{
+  "range": [17500, 17749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 9,
+  "range_candidate_id_list": [
+    17522,
+    17597,
+    17598,
+    17650,
+    17657,
+    17683,
+    17685,
+    17745,
+    17749
+  ],
+  "reconciled_candidate_ids": 9,
+  "decisions": {
+    "previously_applied_confirmed": [
+      17522,
+      17597,
+      17598,
+      17650,
+      17657,
+      17683,
+      17685,
+      17745,
+      17749
+    ],
+    "refined": [],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Leechwood": [
+      17598,
+      22432,
+      63146
+    ],
+    "Shared Ysa defense passage": [
+      17650,
+      3178
+    ],
+    "Skyblossom": [
+      17683,
+      24136
+    ],
+    "The Testament": [
+      17685,
+      3782
+    ],
+    "Horace": [
+      17749,
+      22719,
+      32802,
+      43609
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 957,
+    "total": 4015,
+    "percent": 23.84,
+    "remaining": 3058
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

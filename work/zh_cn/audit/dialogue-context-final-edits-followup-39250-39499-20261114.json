@@ -1,0 +1,106 @@
+{
+  "range": [39250, 39499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-39250-39499-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-1382473-sq114-brun-revalidation-20261111.md",
+      "dialogue-context-default-40000-40249-revalidation-20261112.md",
+      "dialogue-context-default-53000-53249-revalidation-20261113.md",
+      "dialogue-context-default-53500-53749-revalidation-20261113.md"
+    ]
+  },
+  "range_candidate_ids": [
+    39275, 39276, 39277, 39388, 39396, 39398, 39421, 39442, 39444,
+    39455, 39460, 39461, 39465, 39466, 39481, 39482, 39497
+  ],
+  "newly_counted_candidate_ids": [
+    39275, 39276, 39277, 39388, 39396, 39398, 39421, 39442, 39444,
+    39455, 39460, 39461, 39465, 39466, 39481, 39482, 39497
+  ],
+  "newly_reconciled_total": 17,
+  "decisions": {
+    "corrected_in_range": [39277, 39442, 39455, 39481, 39497],
+    "confirmed_already_supported": [
+      39275, 39276, 39388, 39396, 39398, 39421, 39444, 39460, 39461,
+      39465, 39466, 39482
+    ],
+    "evidence_limited_hold_retained": [39465]
+  },
+  "linked_consistency_groups": {
+    "Mel Aglir exact-source occurrences": [
+      4654, 12447, 14707, 16915, 18594, 21199, 23396, 26571, 28423,
+      29792, 39275, 42338, 44760, 46195, 48049, 49396, 51102, 55879
+    ],
+    "Gnarus": [39276, 53046],
+    "Jollienne": [39277, 53656],
+    "Ysa poem exact-source duplicates": [39481, 40183]
+  },
+  "edits": [
+    {
+      "id": 39277,
+      "old": "오늘 새벽, 해가 뜬 직후 모투스(Motus) 소유의 스네이크테일 동굴(Snaketail Grotto) 깊은 곳에서 일하는 노동자들이 이상한 소리를 들었다고 보고했다. 커다란 신음 같은 소리가 난 뒤 진동이 일어나 아래쪽 갱도의 지지대가 적어도 네 개나 쓰러졌다고 한다. 노동자 네 명이 사망했다. 조사를 위해 조리엔느 학자와 이마스(Imas) 학자를 보냈다.",
+      "new": "오늘 새벽, 해가 뜬 직후 모투스(Motus) 소유의 스네이크테일 동굴(Snaketail Grotto) 깊은 곳에서 일하는 노동자들이 이상한 소리를 들었다고 보고했다. 커다란 신음 같은 소리가 난 뒤 진동이 일어나 아래쪽 갱도의 지지대가 적어도 네 개나 쓰러졌다고 한다. 노동자 네 명이 사망했다. 조사를 위해 졸리엔(Jollienne) 학자와 이마스(Imas) 학자를 보냈다.",
+      "reason": "Match the established Jollienne spelling and pairing at ID 53656 while preserving the report's meaning and register."
+    },
+    {
+      "id": 39442,
+      "old": "비사라네(Bisarane)의 방벽",
+      "new": "비사라네의 방벽(Bisarane's Barrier)",
+      "reason": "Pair the complete named item/title rather than only its proper name."
+    },
+    {
+      "id": 39455,
+      "old": "이디라(Idylla)의 부상에 관한 기록",
+      "new": "이디라의 부상에 관한 기록(An Account of Idylla Rising)",
+      "reason": "Pair the complete book title without duplicating a partial title gloss."
+    },
+    {
+      "id": 39481,
+      "old": "그때 이사가 운명의 부적(Talisman of Fate)을 들고 늪으로 들어갔다.\n겁쟁이들의 전장, 삶과 죽음이 맞서는 곳. 바람은 죽어 가는 자들의 노래를 실어 날랐다.\n수렁은 군대의 뼈를 바닷속 진흙 밑으로 빨아들였다.\n두 군대가 맞붙자 안개가 참혹한 광경에서 선조들의 눈을 가려 주었다.",
+      "new": "그때 이사(Ysa)가 운명의 부적(Talisman of Fate)을 들고 늪으로 들어갔다.\n겁쟁이들의 전장, 삶과 죽음이 맞서는 곳. 바람은 죽어 가는 자들의 노래를 실어 날랐다.\n수렁은 군대의 뼈를 바닷속 진흙 밑으로 빨아들였다.\n두 군대가 맞붙자 안개가 참혹한 광경에서 선조들의 눈을 가려 주었다.",
+      "reason": "Pair Ysa's name and preserve the four-line poem and its line breaks."
+    },
+    {
+      "id": 40183,
+      "old": "그때 이사가 운명의 부적(Talisman of Fate)을 들고 늪으로 들어갔다.\n겁쟁이들의 전장, 삶과 죽음이 맞서는 곳. 바람은 죽어 가는 자들의 노래를 실어 날랐다.\n수렁은 군대의 뼈를 바닷속 진흙 밑으로 빨아들였다.\n두 군대가 맞붙자 안개가 참혹한 광경에서 선조들의 눈을 가려 주었다.",
+      "new": "그때 이사(Ysa)가 운명의 부적(Talisman of Fate)을 들고 늪으로 들어갔다.\n겁쟁이들의 전장, 삶과 죽음이 맞서는 곳. 바람은 죽어 가는 자들의 노래를 실어 날랐다.\n수렁은 군대의 뼈를 바닷속 진흙 밑으로 빨아들였다.\n두 군대가 맞붙자 안개가 참혹한 광경에서 선조들의 눈을 가려 주었다.",
+      "reason": "Match exact-source duplicate ID 39481, including its poem layout."
+    },
+    {
+      "id": 39497,
+      "old": "나는 리케이오스(Lykeios)의 학장이다. 내 학원에 들어오는 이들을 깨우치려고 최선을 다하고 있지.",
+      "new": "나는 리케이오스의 학장(Master of the Lykeios)이다. 내 학원에 들어오는 이들을 깨우치려고 최선을 다하고 있지.",
+      "reason": "Pair the complete role/title while retaining the plain declarative voice."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2486,
+    "reconciled": 2503,
+    "total": 4015,
+    "percent": 62.34,
+    "remaining": 1512
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [39277, 39442, 39455, 39481, 39497, 40183],
+    "ledger_fingerprint_ids_refreshed": [
+      39277, 39442, 39455, 39481, 39497, 40183
+    ],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for Mel Aglir, Gnarus, and the Ysa poem",
+    "normalized_manifest_to_csv_comparison": "passed (6 edits)",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

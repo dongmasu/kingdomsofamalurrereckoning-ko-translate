@@ -1,0 +1,72 @@
+{
+  "range": [
+    4750,
+    4999
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 12,
+  "reconciled_candidate_ids": 12,
+  "changed_rows": [
+    4778,
+    4867,
+    4943
+  ],
+  "edits": [
+    {
+      "id": 4778,
+      "old": "그의 카드시미르(Cadsymyr) 야영지는 북쪽에 있어. 하지만 페이(Fae)와 그의 마녀기사들까지 물리쳐야 해. 널 믿는다.",
+      "new": "그의 카드시미르(Cadsymyr) 야영지는 북쪽에 있어. 하지만 페이(Fae)와 그의 마녀 기사들까지 물리쳐야 해. 널 믿는다.",
+      "reason": "Align the separated Korean term with the established spelling 마녀 기사 in the linked quest context."
+    },
+    {
+      "id": 4867,
+      "old": "글렌다라 숲(Glendara Wood)에서 뒤집힌 수레 옆에 팰런 수사(Brother Fallon)의 시신이 있는 걸 발견했어. 우도 수사(Brother Udo)는 그 소식을 듣고 팰런 수사의 염주을 찾아 달라고 했지. 아마 아직 시신에 있을 거야.",
+      "new": "글렌다라 숲(Glendara Wood)에서 뒤집힌 수레 옆에 팰런 수사(Brother Fallon)의 시신이 있는 걸 발견했어. 우도 수사(Brother Udo)는 그 소식을 듣고 팰런 수사의 염주를 찾아 달라고 했지. 아마 아직 시신에 있을 거야.",
+      "reason": "Prayer beads is consistently rendered 염주; correct the particle from 을 to 를."
+    },
+    {
+      "id": 4943,
+      "old": "나로스의 이빨(Teeth of Naros) 전역에는 야생 이븐루트(Evenroot) 변종이 자라.",
+      "new": "나로스의 이빨(Teeth of Naros) 전역에는 야생 이븐루트(Wild Evenroot) 변종이 자라.",
+      "reason": "English names the wild variant, and related plant labels confirm the full pairing Wild Evenroot."
+    }
+  ],
+  "retained": [
+    {
+      "id": 4768,
+      "reason": "The poem already matches exact-English duplicate 50357 and preserves its reviewed four-line layout."
+    },
+    {
+      "id": 4793,
+      "reason": "The current Korean naturally describes a dependable person, avoiding a literal physical reading of solid."
+    },
+    {
+      "id": 4803,
+      "reason": "The current Korean idiom 사정을 모르면 preserves the source's sardonic contrast and threat."
+    },
+    {
+      "id": 4814,
+      "reason": "The current wording conveys comfort in silence and preserves the formal letter structure."
+    },
+    {
+      "id": 4910,
+      "reason": "The contemporary register and full Lord Godric Payne pairing are already present."
+    },
+    {
+      "id": 4911,
+      "reason": "The contemporary plain register is already consistent with English and Japanese."
+    },
+    {
+      "id": 4925,
+      "reason": "The current entry uses the established 아니라(Anira) pairing and already says Anira holds the 명장들(Master Makers) captive."
+    },
+    {
+      "id": 4961,
+      "reason": "The full King of Cups title and Irion name pairings are already present."
+    },
+    {
+      "id": 4991,
+      "reason": "The current label expresses the source-supported divine-right meaning and preserves all display wrappers."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "range": [11500, 11749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 11,
+  "range_candidate_id_list": [
+    11536,
+    11572,
+    11581,
+    11599,
+    11617,
+    11660,
+    11678,
+    11684,
+    11704,
+    11728,
+    11740
+  ],
+  "previously_reconciled_candidate_ids_excluded": [
+    11619
+  ],
+  "reconciled_candidate_ids": 11,
+  "decisions": {
+    "corrected": [
+      11536,
+      11572,
+      11599,
+      11617,
+      11660,
+      11678,
+      11704,
+      11728,
+      11740
+    ],
+    "previously_applied_confirmed": [
+      11572,
+      11599,
+      11678
+    ],
+    "newly_applied": [
+      11536,
+      11617,
+      11660,
+      11704,
+      11728,
+      11740
+    ],
+    "retained": [
+      11581,
+      11684
+    ],
+    "held": [],
+    "separate_evidence_limited_hold": [
+      11599
+    ]
+  },
+  "related_consistency_ids": [
+    7332,
+    20620,
+    37057,
+    60389
+  ],
+  "related_consistency_checks": [
+    {
+      "ids": [
+        10464,
+        10866,
+        11536,
+        44143,
+        49479,
+        60389
+      ],
+      "term": "Sandstone Villa upgrades",
+      "result": "the linked house-upgrade rows use 개량; objective forms use -하기"
+    },
+    {
+      "ids": [
+        7332,
+        11660,
+        20620
+      ],
+      "term": "Winter cousin / Winter cousins",
+      "result": "the exact-English duplicate pair is identical in Korean, and the related Winter Fae reference is paired"
+    },
+    {
+      "ids": [
+        8360,
+        10939,
+        11581,
+        12164,
+        14861,
+        19097,
+        28676,
+        28839,
+        59710
+      ],
+      "term": "Hermit Smith",
+      "result": "all explicit references use 은둔 대장장이(Hermit Smith)"
+    },
+    {
+      "ids": [
+        11617,
+        16609,
+        27811,
+        28093,
+        46686,
+        51698,
+        52150,
+        56642,
+        61908
+      ],
+      "term": "Adar's binding magic circle",
+      "result": "all reviewed references use 마법진"
+    },
+    {
+      "ids": [
+        11728,
+        32880,
+        37057,
+        51780,
+        53459
+      ],
+      "term": "animal meat",
+      "result": "Bera's journal lines and quest objective/UI use 동물 고기; both inn references are paired"
+    }
+  ],
+  "fingerprints_refreshed": [
+    7332,
+    11536,
+    11617,
+    11660,
+    11704,
+    11728,
+    11740,
+    20620,
+    37057,
+    60389
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 705,
+    "total": 4015,
+    "percent": 17.56,
+    "remaining": 3310
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "exact_english_duplicate_7332_11660": "identical Korean",
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "manifest_json": "valid"
+  }
+}

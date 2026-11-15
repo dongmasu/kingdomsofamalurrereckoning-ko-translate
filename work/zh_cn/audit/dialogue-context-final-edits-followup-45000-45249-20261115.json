@@ -1,0 +1,131 @@
+{
+  "range": [45000, 45249],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-45000-45249-revalidation-20261112.md",
+    "candidate_reconciliation": "dialogue-context-45000-45249-candidate-reconciliation-20261115.md",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    45004, 45016, 45019, 45027, 45030, 45032, 45049, 45054, 45057, 45070,
+    45101, 45102, 45143, 45148, 45160, 45166, 45168, 45169, 45175, 45182,
+    45195, 45205, 45207, 45230, 45239, 45244
+  ],
+  "newly_reconciled_ids": [
+    45004, 45016, 45019, 45027, 45030, 45032, 45049, 45054, 45057, 45070,
+    45101, 45102, 45143, 45148, 45160, 45166, 45168, 45169, 45175, 45182,
+    45195, 45205, 45207, 45230, 45239, 45244
+  ],
+  "newly_reconciled_total": 26,
+  "decisions": {
+    "corrected_now": [
+      45019, 45030, 45032, 45054, 45148, 45160, 45168, 45175
+    ],
+    "already_correct_or_supported": [
+      45004, 45016, 45027, 45049, 45057, 45070, 45101, 45102, 45143,
+      45166, 45169, 45182, 45195, 45205, 45207, 45230, 45239, 45244
+    ],
+    "held_for_independent_evidence": []
+  },
+  "edits": [
+    {
+      "id": 45019,
+      "old": "복수의 재현",
+      "new": "보복의 재연(Reprisal, Reprised)",
+      "reason": "Restore the retaliation meaning and repeated-action wordplay in the title."
+    },
+    {
+      "id": 45030,
+      "old": "고기 좀 빨리 가져다줘. 안 그러면 저들이 내 뼈를 뜯어 먹을 거야!",
+      "new": "고기 좀 빨리 가져다줘. 안 그러면 저들이 내 뼈를 뜯어 먹게 생겼어!",
+      "reason": "Keep the urgent request and threat while using a natural Korean expression for the feared consequence."
+    },
+    {
+      "id": 45032,
+      "old": "사반트 엥가르(Savant Engar)님, 멜 아글리르(Mel Aglir) 마을의 최근 사망 사건에 대한 우려는 타당했습니다. 끔찍한 일이 사실일지도 모른다고 의심하게 되었지만, 글로 남기기 전에 확인해야 합니다. 서쪽 유적을 조사하러 마을을 떠납니다. 더 알아내는 대로 보고하겠습니다.",
+      "new": "사반트 엥가르(Savant Engar)님, 멜 아글리르(Mel Aglir) 마을의 최근 사망 사건을 우려하신 건 타당했습니다. 끔찍한 진실이 아닐까 의심되지만, 글로 남기기 전에 제 의심이 맞는지 확인해야 합니다. 서쪽 유적을 조사하러 마을을 떠납니다. 더 알아내는 대로 보고하겠습니다.",
+      "reason": "Clarify the writer's suspicion and the need to verify it before committing it to paper."
+    },
+    {
+      "id": 45054,
+      "old": "크톤게니: 아베루스(Cthongeny: Aberrus)",
+      "new": "크톤게니(Cthongeny): 아베루스(Aberrus)",
+      "reason": "Pair both source names individually without deciding what the compact label denotes or imposing a global spelling."
+    },
+    {
+      "id": 45148,
+      "old": "이 반지에 박힌 석영은 번개와 관련된 효과를 착용자에게 부여한다.",
+      "new": "이 반지에 박힌 석영은 번개 효과가 작용할 때 착용자에게 이점을 준다.",
+      "reason": "Improve the item-description naturalness without implying that the wearer actively uses an ability."
+    },
+    {
+      "id": 45160,
+      "old": "이 방패의 장식은 오리에이터(Orieator)의 도크알파르(Dokkalfar) 군대와 동맹을 맺은 종족들을 기린다. 알마인 황금 기사단(Almain Gold Order), 료스알파르의 리리안 은총(Ljosalfar Lyrian Grace), 바라니의 비뚤어진 저울(Crooked Balance)이 새겨져 있다.",
+      "new": "이 방패의 장식은 오리에이터(Orieator)가 이끄는 도크알파르(Dokkalfar) 군대의 동맹 종족들을 기린다. 알마인(Almain) 황금 기사단(Almain Gold Order), 료스알파르(Ljosalfar)의 리리안 은총(Lyrian Grace), 바라니(Varani)의 비뚤어진 저울(Crooked Balance)이 새겨져 있다.",
+      "reason": "Pair each complete allied-group name and retain its source-supported affiliation."
+    },
+    {
+      "id": 45168,
+      "old": "아, 거미낭 이코르(Spidersac Ichor), 아래 협곡에서 자라는 펜라크(Fennwrac) 잎, 요툰(Jottun)의 솥에 든 거친 곡물 가루 말이야. 대체 몇 번이나 말해야 하지?",
+      "new": "아, 거미낭 이코르(Spidersac Ichor), 아래 협곡에서 자라는 펜라크 잎(Fennwrac Leaf), 요툰(Jottun)의 솥에 든 거친 곡물 가루 말이야. 대체 몇 번이나 말해야 하지?",
+      "reason": "Pair the complete ingredient name consistently with the established Fennwrac Leaf rows."
+    },
+    {
+      "id": 45175,
+      "old": "예전에 라시르의 상층 도시(Rathir's Upper City)에 살았어. 그러다 노래를 팔아 생계를 꾸리는 남자, 이리온(Irion)과 사랑에 빠졌지.",
+      "new": "예전에 라시르(Rathir)의 상층 도시(Upper City)에 살았어. 그러다 노래를 팔아 생계를 꾸리는 남자, 이리온(Irion)과 사랑에 빠졌지.",
+      "reason": "Align the location and district pairings with the established Upper City term."
+    }
+  ],
+  "linked_source_groups": {
+    "fennwrac_leaf": {
+      "ids": [31978, 45168, 46537],
+      "result": "The ingredient name is consistently paired as 펜라크 잎(Fennwrac Leaf). Only candidate 45168 needed a change."
+    },
+    "silkfarmer_default_term": {
+      "ids_reviewed": 18,
+      "result": "All active default profession references use 비단 채집꾼 with grammatical number inflection; 45239 was already correct."
+    }
+  },
+  "evidence_limited_items": {
+    "45010": "Games Label may be a credit or a generic label; row context is insufficient.",
+    "45012": "Trigger Kobolds 2 may be an internal trigger/debug string; player-facing status is unknown.",
+    "45055": "With this Destiny may or may not refer to the Sorcerer Fate; UI context is insufficient.",
+    "45102": "The meaning of inducing the subject remains unresolved by the available experiment context.",
+    "45120": "Sword, hammer, dagger may be generic choices or equipment categories; menu context is unavailable.",
+    "45131": "Address/register cannot be resolved without per-key speaker or relationship evidence.",
+    "45171": "A Time of Youth may be a title or generic heading; row context is insufficient.",
+    "45243": "Border Permit is capitalized in English, but the available references do not establish whether it is a named item."
+  },
+  "ledger_fingerprints_refreshed": [
+    45019, 45030, 45032, 45054, 45148, 45160, 45168, 45175
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3064,
+    "previous_total": 4029,
+    "newly_reconciled": 26,
+    "reconciled": 3090,
+    "total": 4029,
+    "percent": 76.69,
+    "remaining": 939
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      45019, 45030, 45032, 45054, 45148, 45160, 45168, 45175
+    ],
+    "all_four_language_fingerprints": "passed for all 65,135 reviewed IDs",
+    "catalog_reproducibility": "index and both catalogs passed after regenerating the stale ID catalog",
+    "regression_tests": "20 combined CSV-preservation and dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

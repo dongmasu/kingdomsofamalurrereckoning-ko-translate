@@ -1,0 +1,105 @@
+{
+  "range": [16750, 16999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 11,
+  "range_candidate_id_list": [
+    16758,
+    16767,
+    16858,
+    16864,
+    16870,
+    16921,
+    16927,
+    16943,
+    16988,
+    16989,
+    16999
+  ],
+  "reconciled_candidate_ids": 12,
+  "decisions": {
+    "previously_applied_confirmed": [
+      16758,
+      16767,
+      16858,
+      16864,
+      16870,
+      16927,
+      16943,
+      16988,
+      16989,
+      16999,
+      63399
+    ],
+    "refined": [
+      16921
+    ],
+    "retained": [],
+    "held": []
+  },
+  "additional_linked_candidate_ids_reconciled": [
+    63399
+  ],
+  "related_consistency_groups": {
+    "Lupoku English spelling": [
+      3560,
+      4060,
+      8146,
+      10523,
+      10619,
+      13592,
+      13951,
+      16767,
+      22700,
+      25713,
+      26252,
+      29213,
+      29534,
+      29852,
+      33899,
+      36620,
+      44730,
+      51280,
+      54589,
+      57248,
+      62917
+    ],
+    "Red the Dead Idward": [
+      16927,
+      34250
+    ],
+    "Standalone Chosen title": [
+      16171,
+      16988,
+      61364,
+      63399
+    ],
+    "Tala-Rane personnel transfer wording": [
+      16921,
+      52118
+    ]
+  },
+  "supersedes_prior_disposition": {
+    "id": 16921,
+    "prior_disposition": "retained in dialogue-context-edit-batch-20261113-16000-16999.json",
+    "current_disposition": "refined to use the source-supported and established 전근 wording"
+  },
+  "fingerprints_refreshed": {
+    "30d3b7853c19dee8c4291dbf69b62a7053d632d0a40bacc9f9af568082c90778": [
+      16921
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 936,
+    "total": 4015,
+    "percent": 23.31,
+    "remaining": 3079
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      16921
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

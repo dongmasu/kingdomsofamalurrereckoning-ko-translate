@@ -1,0 +1,225 @@
+{
+  "range": [
+    36000,
+    36249
+  ],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-36000-36249-revalidation-20261112.md",
+    "related_reviews": [
+      "dialogue-context-1962959-dlc2-mq06-secandra-revalidation-20261111.md",
+      "dialogue-context-1443829-revalidation-20261111.md",
+      "dialogue-context-default-33750-33999-candidate-reconciliation-20261114.md",
+      "dialogue-context-default-19750-19999-candidate-reconciliation-20261114.md"
+    ]
+  },
+  "range_candidate_ids": 21,
+  "range_candidate_id_list": [
+    36017,
+    36028,
+    36032,
+    36054,
+    36075,
+    36093,
+    36097,
+    36121,
+    36137,
+    36151,
+    36159,
+    36168,
+    36172,
+    36179,
+    36191,
+    36193,
+    36200,
+    36206,
+    36218,
+    36231,
+    36232
+  ],
+  "previously_reconciled_candidate_ids": [
+    36075,
+    36231
+  ],
+  "newly_counted_candidate_ids": [
+    36017,
+    36028,
+    36032,
+    36054,
+    36093,
+    36097,
+    36121,
+    36137,
+    36151,
+    36159,
+    36168,
+    36172,
+    36179,
+    36191,
+    36193,
+    36200,
+    36206,
+    36218,
+    36232
+  ],
+  "decisions": {
+    "preexisting_edit_confirmed": [
+      36017
+    ],
+    "confirmed_current_or_previously_applied": [
+      36032,
+      36093,
+      36200,
+      36206
+    ],
+    "held_meanings_or_context": [
+      36226,
+      36235
+    ]
+  },
+  "edits": [
+    {
+      "id": 36028,
+      "old": "겨울 패란즈(Faelands)에서 손꼽히는 무기·갑옷 장인인 애시무어 부족(Ashmoor Clan)의 벨른(Belne) 장인이 만들었다고 전해지는 단검.",
+      "new": "겨울 패란즈(Faelands)에서 손꼽히는 무기·갑옷 장인인 애시무어 부족(Ashmoor Clan)의 마스터 벨른(Master Belne)이 만들었다고 전해지는 단검.",
+      "reason": "Use the established complete title/name form from related Belne entries."
+    },
+    {
+      "id": 36054,
+      "old": "마녀 마가스(Magas)",
+      "new": "마녀 마가스(Magas the Witch)",
+      "reason": "Pair the complete standalone label."
+    },
+    {
+      "id": 36097,
+      "old": "이곳에서 제2차 대화재, 로스기아드가 일어났다. 가장 어두운 밤, 적은 우리의 방어선을 뚫고 불길과 혼란을 앞세워 이 부두를 습격했다. 하지만 경비대와 마법사들의 용맹한 활약으로 적을 격퇴해 해협의 거센 물살 속으로 몰아넣었다.",
+      "new": "이곳에서 제2차 대화재인 로스기아드(Llosgiad)가 일어났다. 가장 어두운 밤, 적은 우리의 방어선을 뚫고 불길과 혼란을 앞세워 이 부두를 습격했다. 하지만 경비대와 마법사들의 용맹한 활약으로 적을 격퇴해 해협의 거센 물살 속으로 몰아넣었다.",
+      "reason": "Clarify the event's relationship to its named form and add the English label."
+    },
+    {
+      "id": 36121,
+      "old": "군단병들이 찾던 문서, 『세이블의 서신(Missives of Sable)』을 되찾았다. 노움의 지도자이자 백인대장인 가스텟과 이야기하면 그걸 그림(Grim)의 석방과 바꿀 수 있을지도 모른다.",
+      "new": "군단병들이 찾던 문서, 『세이블의 서신(Missives of Sable)』을 되찾았다. 노움의 지도자이자 백인대장인 가스텟(Centurion Gastet)과 이야기하면 그걸 그림(Grim)의 석방과 바꿀 수 있을지도 모른다.",
+      "reason": "Pair the complete military title and name."
+    },
+    {
+      "id": 36137,
+      "old": "에이버리(Avery),\n\n미사루(Mitharu)께서 내게 계시하셨네. 나는 성 오드윅 선교원(St. Odwig's Mission)과 오다라스(Odarath)를 떠나야 하네. 사랑에 빠졌는데, 금지된 사랑이기 때문이지. 우리 교단은 그런 세속적인 일에 눈살을 찌푸릴 뿐 아니라, 그 행동은 자네에게도 수치가 될 걸세. ‘왜냐고?’ 묻겠지. 이 여인을 사랑할 수 없는 건 그 여인이 리카(Rikka), 바로 자네의 아내이기 때문이네.\n\n그래서 선교원을 떠나 자선 담당관 자리도 내려놓으려 하네. 언젠가 돌아올지도 모르지만, 수치스러운 모습으로는 아닐 걸세. 자네와 리카(Rikka), 그리고 스승이신 미사루(Mitharu)께 그럴 수는 없네.\n\n잘 있게, 친구이자 형제여. 편히 쉬게. 고통 없는 안식을 누리길.\n\n영원한 전우,\n메이슨",
+      "new": "에이버리(Avery),\n\n미사루(Mitharu)께서 내게 계시하셨네. 나는 성 오드윅 선교원(St. Odwig's Mission)과 오다라스(Odarath)를 떠나야 하네. 사랑에 빠졌는데, 금지된 사랑이기 때문이지. 우리 교단은 그런 세속적인 일에 눈살을 찌푸릴 뿐 아니라, 그 행동은 자네에게도 수치가 될 걸세. ‘왜냐고?’ 묻겠지. 이 여인을 사랑할 수 없는 건 그 여인이 리카(Rikka), 바로 자네의 아내이기 때문이네.\n\n그래서 선교원을 떠나 자선 담당관 자리도 내려놓으려 하네. 언젠가 돌아올지도 모르지만, 수치스러운 모습으로는 아닐 걸세. 자네와 리카(Rikka), 그리고 스승이신 미사루(Mitharu)께 그럴 수는 없네.\n\n잘 있게, 친구이자 형제여. 편히 쉬게. 고통 없는 안식을 누리길.\n\n영원한 전우,\n메이슨(Mason)",
+      "reason": "Pair the signature while preserving all paragraphs and line breaks."
+    },
+    {
+      "id": 36151,
+      "old": "또 만났군, 낯선 이여. 우리 볼일은 끝난 것 같은데.",
+      "new": "또 만났네, 낯선 이. 우리 볼일은 끝난 것 같은데.",
+      "reason": "Use a conversational plain greeting consistent with the Japanese and English."
+    },
+    {
+      "id": 36159,
+      "old": "마음을 정했구나. 소로그웨스를 가져와. 근처의 습한 곳에서 자랄 거야.",
+      "new": "마음을 정했구나. 소로그웨스(Sorrogweth)를 가져와. 근처의 습한 곳에서 자랄 거야.",
+      "reason": "Add the English form of the named plant."
+    },
+    {
+      "id": 36168,
+      "old": "우두아스는 에틴미어(Ettinmere) 호숫가의 북서쪽에 있어. 강력한 주문으로 봉인되어 있지만, 블러디의 마법은 약해졌으니 네가 들어갈 수 있을 거야.",
+      "new": "우두아스는 에틴미어(Ettinmere) 호숫가의 북서쪽에 있어. 강력한 주문으로 봉인되어 있지만, 블러디(Bloody)의 마법은 약해졌으니 네가 들어갈 수 있을 거야.",
+      "reason": "Pair the named character without inferring a longer name."
+    },
+    {
+      "id": 36172,
+      "old": "이런 곳까지 찾아오는 이는 드물지. 특히 필멸자라면 더더욱.",
+      "new": "이런 곳까지 찾아오는 사람은 드물어. 특히 필멸자라면 더더욱.",
+      "reason": "Replace stiff written phrasing with natural plain dialogue."
+    },
+    {
+      "id": 36179,
+      "old": "처형자라 불리는 전설적인 암살자가 입었던 마지막 숨결의 레깅스(Leggings of Last Breath)가 어디 있는지 정보를 샀다. 처형자의 아들인 페린 쇼(Ferrin Shaw)는 처형자의 자리를 이어받아 크라운홀드(Crownhold)에 정의를 세우고 싶어 한다. 이 희귀한 장비는 고등 학자의 저택에 보관되어 있다.",
+      "new": "처형자(The Executioner)라 불리는 전설적인 암살자가 입었던 마지막 숨결의 레깅스(Leggings of Last Breath)가 어디 있는지 정보를 샀다. 처형자의 아들인 페린 쇼(Ferrin Shaw)는 처형자의 자리를 이어받아 크라운홀드(Crownhold)에 정의를 세우고 싶어 한다. 이 희귀한 장비는 고등 학자의 저택(High Scholar Estate)에 보관되어 있다.",
+      "reason": "Pair the full named title and estate while preserving established neutral role wording."
+    },
+    {
+      "id": 36191,
+      "old": "섬 곳곳에 드베르가족(Dverga)의 지하 통로가 많지만, 거기서 멈추진 않을 거야. 어디에나 어두운 구석이 있거든.",
+      "new": "섬 곳곳에 드베르가족(Dverga)의 패스팅(Fastings)이 많지만, 그게 다는 아니야. 어디에나 어두운 구석이 있거든.",
+      "reason": "Use the established Dverga structure term, supported by its definition at ID 54487."
+    },
+    {
+      "id": 36193,
+      "old": "우리의 가장 기묘한 칭호 중 하나지. 이 이름을 달고 다니면 사람들이 유심히 지켜볼 거야. 그대에게 ‘죽음의 수수께끼 같은 손’이라는 칭호를 내리노라.",
+      "new": "우리의 가장 기묘한 칭호 중 하나지. 이 이름을 달고 다니면 사람들이 유심히 지켜볼 거야. 그대에게 ‘죽음의 수수께끼 같은 손(Death's Cryptic Hand)’이라는 칭호를 내리노라.",
+      "reason": "Pair the complete bestowed title."
+    },
+    {
+      "id": 36218,
+      "old": "훌륭한 선택이야, 먼지의 자식아.",
+      "new": "훌륭한 선택이야, 먼지의 자식(Child of Dust).",
+      "reason": "Pair the complete form of address while retaining casual speech."
+    },
+    {
+      "id": 36232,
+      "old": "이곳은 대지와 대기의 성소들(Shrines of Earth and Air)이라고 불렸지. 난 별 의미가 없다고 생각했지만... 아르케스(Arkes)는 알고 있었어. 이런 날이, 우리가 이곳을 필요로 할 날이 오리란 걸 알고 있었겠지.",
+      "new": "이 두 곳은 대지와 대기의 성소(Shrines of Earth and Air)라고 불렸지. 난 별 의미가 없다고 생각했지만... 아르케스(Arkes)는 우리가 이 성소들을 필요로 할 날이 오리란 걸 알고 있었겠지.",
+      "reason": "Resolve the singular/plural mismatch, identify the two sites, and naturalize the full thought."
+    }
+  ],
+  "fingerprints_refreshed": [
+    36017,
+    36028,
+    36054,
+    36097,
+    36121,
+    36137,
+    36151,
+    36159,
+    36168,
+    36172,
+    36179,
+    36191,
+    36193,
+    36218,
+    36232
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2275,
+    "total": 4015,
+    "percent": 56.66,
+    "remaining": 1740
+  },
+  "verification": {
+    "four_language_candidate_ids_checked": 19,
+    "translation_csv_changed": true,
+    "newly_changed_default_ids": [
+      36028,
+      36054,
+      36097,
+      36121,
+      36137,
+      36151,
+      36159,
+      36168,
+      36172,
+      36179,
+      36191,
+      36193,
+      36218,
+      36232
+    ],
+    "preexisting_changed_default_ids_confirmed": [
+      36017
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "full_review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "dialogue_context_index_tests": "passed (9)",
+    "csv_structure": "passed (65135 ordered records; UTF-8 BOM preserved)",
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "speaker_or_playback_order_inferred": false
+  }
+}

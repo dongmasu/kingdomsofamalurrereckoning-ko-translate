@@ -1,0 +1,104 @@
+{
+  "range": [14000, 14249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 12,
+  "range_candidate_id_list": [
+    14002,
+    14079,
+    14092,
+    14150,
+    14179,
+    14180,
+    14183,
+    14190,
+    14204,
+    14231,
+    14241,
+    14243
+  ],
+  "reconciled_candidate_ids": 12,
+  "decisions": {
+    "previously_applied_confirmed": [
+      14002,
+      14092,
+      14150,
+      14179,
+      14180,
+      14183,
+      14190,
+      14204,
+      14231,
+      14241,
+      14243
+    ],
+    "newly_applied": [
+      14079
+    ],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Venris reconnaissance report": [
+      439,
+      1237,
+      7417,
+      14002,
+      20647,
+      26167,
+      34594,
+      41701,
+      43389,
+      53293,
+      57144,
+      58177
+    ],
+    "Malgar": [
+      890,
+      2328,
+      8470,
+      11952,
+      14183,
+      46161
+    ],
+    "master-at-arms": [
+      13502,
+      14231,
+      20428,
+      24993,
+      34890,
+      35410,
+      41271,
+      64234,
+      65048
+    ]
+  },
+  "related_out_of_range_edits": {
+    "65048": {
+      "reason": "The source says master-at-arms; the current Korean role was inconsistent with the reviewed translation group.",
+      "replacement": "올리 매드슨(Ollie Madsen)이 무기 교관으로 그레이브홀 요새(Gravehal Keep)에 합류하기로 했다. 요새의 패디(Paddy)에게 알려야겠다."
+    }
+  },
+  "fingerprints_refreshed": {
+    "e57c691bc3bf70f2eeec61332e18f03a33611f1bb50c1bc6985c455073683893": [
+      14079
+    ],
+    "1be7ecf858a8f68ee610a7d8cbbb06ee3757b4a7b80170f440e1410918fd2aae": [
+      65048
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 804,
+    "total": 4015,
+    "percent": 20.02,
+    "remaining": 3211
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      14079,
+      65048
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "range": [64250, 64499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "prior_range_report": "dialogue-context-default-64250-64499-revalidation-20261113.md",
+    "related_reports": [
+      "dialogue-context-candidate-reconciliation-followup-64250-65134-20261115.md",
+      "dialogue-context-evidence-hold-followup-64250-64499-20261115.md"
+    ]
+  },
+  "edits": [
+    {
+      "id": 64276,
+      "old": "투사여, 투기장 아래로 가. 네가 기다리던 경기가 시작될 거야.",
+      "new": "투사여, 투기장(The Pit)으로 내려가. 네가 기다리던 경기가 시작될 거야.",
+      "reason": "The gladiator and awaited match context, Chinese pit wording, and exact related arena lines 57501 and 59142 support the established paired location name."
+    },
+    {
+      "id": 64353,
+      "old": "그림자, 추적자, 계략가. 오점이자 우리 지도자, 오점을 지우는 자. 그는 사악한 속내를 품고 소문 속에 살아가지.",
+      "new": "그림자, 추적자, 계략가. 오점이자 우리 지도자, 오점을 지우는 자. 그는 악랄한 유머를 즐기며 소문 속에 살아가지.",
+      "reason": "Japanese describes a taste for poisonous laughter and Chinese confirms evil humor, supporting a biting/dark-humor reading of English evil humors. Only this phrase changed."
+    },
+    {
+      "id": 64490,
+      "old": "다이덴힐(Didenhil)의 관리인이야. 마을 일을 돌보고 우리를 지켜 준다는 뜻이지.",
+      "new": "다이덴힐(Didenhil)의 감시관(Warden)이야. 마을 일을 돌보고 우리를 지켜 준다는 뜻이지.",
+      "reason": "Japanese describes a guard's patrol and protection duties, Chinese uses a warden term, and related Didenhil Warden ID 26374 uses the established Korean 감시관."
+    },
+    {
+      "id": 64492,
+      "old": "페이지 카롤릭(Page Carolic)",
+      "new": "시종 카롤릭(Page Carolic)",
+      "reason": "The same person-plus-title construction Page Lilligild at ID 3059 is rendered 시종 리릴길드(Page Lilligild); Japanese there identifies the role as a servant."
+    }
+  ],
+  "retained_holds": [64252, 64258, 64341, 64458],
+  "partially_resolved_ids": [64353],
+  "translation_csv_changed": true,
+  "changed_default_ids": [64276, 64353, 64490, 64492],
+  "ledger_fingerprint_changed_ids": [64276, 64353, 64490, 64492],
+  "ledger_dispositions_changed": false,
+  "source_csv_or_extracted_asset_changed": false,
+  "commit_made": false
+}

@@ -1,0 +1,89 @@
+{
+  "range": [43000, 43249],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-43000-43249-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    43021, 43028, 43038, 43042, 43124, 43136, 43140, 43145, 43146, 43157,
+    43163, 43168, 43169, 43170, 43171, 43194, 43197, 43198, 43207, 43210,
+    43214, 43216, 43219, 43227, 43228, 43236, 43238, 43239
+  ],
+  "newly_reconciled_ids": [
+    43021, 43028, 43038, 43042, 43124, 43136, 43140, 43145, 43146, 43157,
+    43163, 43168, 43169, 43170, 43171, 43194, 43197, 43198, 43207, 43210,
+    43214, 43216, 43219, 43227, 43228, 43236, 43238, 43239, 47222
+  ],
+  "newly_reconciled_total": 29,
+  "newly_identified_candidates": [
+    {
+      "id": 47222,
+      "previous_ledger_status": "uncertain",
+      "linked_exact_source_id": 43207,
+      "reason": "The English source is the same standalone `Syl`. The active Korean at 47222 lacked the English pairing already present at 43207. Pairing the source string does not require deciding whether it denotes a person, place, or other named entry."
+    }
+  ],
+  "cleared_false_positive_candidates": [],
+  "decisions": {
+    "confirmed_current_candidate_ids": [
+      43021, 43028, 43038, 43042, 43124, 43136, 43140, 43145, 43146, 43157,
+      43163, 43168, 43169, 43170, 43171, 43194, 43197, 43198, 43207, 43210,
+      43214, 43216, 43219, 43227, 43228, 43236, 43238, 43239
+    ],
+    "corrected_now": [47222],
+    "evidence_limited_holds_preserved": [
+      43004, 43010, 43012, 43106, 43162, 43183, 43201, 43215, 43233, 43236
+    ]
+  },
+  "linked_exact_source_groups": {
+    "Saina passage": {
+      "ids": [43042, 50448],
+      "result": "All four language rows are identical, including the Korean five-line verse."
+    },
+    "Syl standalone label": {
+      "ids": [43207, 47222],
+      "result": "English is identical. Korean now reads 실(Syl) in both rows; no identity is inferred."
+    }
+  },
+  "edits": [
+    {
+      "id": 47222,
+      "old": "실",
+      "new": "실(Syl)",
+      "reason": "Match exact-English duplicate 43207 while retaining the English source and avoiding an unsupported identity assignment."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2853,
+    "previous_total": 4027,
+    "newly_identified_candidates_added_to_total": 1,
+    "false_positive_candidates_removed_from_total": 0,
+    "reconciled": 2882,
+    "total": 4028,
+    "percent": 71.55,
+    "remaining": 1146
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [47222],
+    "ledger_fingerprint_ids_refreshed": [47222],
+    "newly_reclassified_ledger_ids": [47222],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation tests and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "exact_source_duplicate_checks": "passed for 43042/50448 and 43207/47222",
+    "crlf_aware_diff_check": "passed with core.whitespace=cr-at-eol",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "range": [14500, 14749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 16,
+  "range_candidate_id_list": [
+    14524,
+    14541,
+    14564,
+    14570,
+    14576,
+    14577,
+    14594,
+    14621,
+    14634,
+    14652,
+    14666,
+    14709,
+    14727,
+    14728,
+    14729,
+    14746
+  ],
+  "reconciled_candidate_ids": 16,
+  "decisions": {
+    "previously_applied_confirmed": [
+      14524,
+      14541,
+      14564,
+      14570,
+      14576,
+      14594,
+      14621,
+      14634,
+      14652,
+      14666,
+      14709,
+      14727,
+      14728,
+      14746
+    ],
+    "refined": [14577],
+    "retained": [],
+    "held": [
+      {
+        "id": 14729,
+        "reason": "Templar has no settled Korean form; keep the current wording without choosing a corpus-wide title."
+      }
+    ]
+  },
+  "related_consistency_groups": {
+    "Argine, Queen of Staves": [
+      1043, 1174, 3307, 3501, 6044, 7667, 8663, 11172, 12593, 14564,
+      16655, 21485, 30045, 30190, 31796, 33892, 38694, 40340, 41255,
+      43684, 47099, 52596, 53842, 55720, 56433, 62000
+    ],
+    "Priestess Seranon": [14533, 14541, 37696, 48306],
+    "Maisie's Luck": [14666, 25298, 31374, 35631, 49170],
+    "identical sentence": [14709, 53519]
+  },
+  "fingerprints_refreshed": {
+    "0cee8389a8e1899b1039289eec78387276fc92e20aa0c634f14f5b3942cd009d": [
+      14577
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 834,
+    "total": 4015,
+    "percent": 20.77,
+    "remaining": 3181
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [14577],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

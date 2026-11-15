@@ -1,0 +1,72 @@
+{
+  "range": [13750, 13999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 10,
+  "range_candidate_id_list": [
+    13836,
+    13837,
+    13857,
+    13858,
+    13882,
+    13884,
+    13920,
+    13943,
+    13951,
+    13952
+  ],
+  "reconciled_candidate_ids": 10,
+  "decisions": {
+    "previously_applied_confirmed": [
+      13836,
+      13837,
+      13857,
+      13858,
+      13882,
+      13884,
+      13920,
+      13943,
+      13951,
+      13952
+    ],
+    "newly_applied": [],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "the_Burn": [
+      7284,
+      13836,
+      13884,
+      20858,
+      26473,
+      26933,
+      28483,
+      47651,
+      57933,
+      58373,
+      58858,
+      59197,
+      60471,
+      64687
+    ],
+    "dreg_core_rendering": [
+      13952,
+      40782,
+      42176,
+      60477,
+      62054
+    ]
+  },
+  "fingerprints_refreshed": [],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 792,
+    "total": 4015,
+    "percent": 19.73,
+    "remaining": 3223
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

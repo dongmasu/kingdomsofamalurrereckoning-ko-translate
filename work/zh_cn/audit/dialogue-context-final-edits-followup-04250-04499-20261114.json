@@ -1,0 +1,92 @@
+{
+  "range": [
+    4250,
+    4499
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 10,
+  "reconciled_candidate_ids": 10,
+  "changed_rows": [
+    4293,
+    4315,
+    4383,
+    4390,
+    4426,
+    4480,
+    60012
+  ],
+  "edits": [
+    {
+      "id": 4293,
+      "old": "뒤늦은 도착",
+      "new": "한참 연체된 책들(Long Overdue)",
+      "reason": "The linked asset is the Brother Til book-recovery quest, and Japanese 期限超過 supports the overdue/return-deadline reading rather than a generic late arrival."
+    },
+    {
+      "id": 4315,
+      "old": "네가 도착한 것도, 우리가 만난 것도 우연이 아니야. 아노카토스(Anokatos)의 배신과 아르케스(Arkes)를 찾은 일도 마찬가지지. 이 일들은 누군가 의도적으로 꾸민 거였어. 이제야 알겠군.",
+      "new": "네가 도착한 것도, 우리가 만난 것도 우연이 아니야. 아노카토스(Anokatos)의 배신과 아르케스(Arkes)를 찾은 일도 마찬가지지. 이 일들은 누군가 의도적으로 꾸민 거였어. 이제야 알겠어.",
+      "reason": "Keep the full utterance in its conversational register; English and Japanese do not support the abrupt stiff ending."
+    },
+    {
+      "id": 4383,
+      "old": "하지만... 나는 돌보는 이의 후계자가 아니야.",
+      "new": "하지만... 나는 관리인의 후계자가 아니야.",
+      "reason": "Lowercase tender is the generic Evenroot caretaker, rendered 관리인 elsewhere in the same asset; it is distinct from the capitalized Tender rank."
+    },
+    {
+      "id": 4390,
+      "old": "끝없는 황폐",
+      "new": "끝없는 황폐(The Perpetual Desolations)",
+      "reason": "Add the complete English pairing for the titled entry and match its exact-source duplicate at 61986."
+    },
+    {
+      "id": 4426,
+      "old": "스콜리아 아르카나(Scholia Arcana) 라시르(Rathir) 지부의 사서 이드리스 테오넨(Idiris Theonen)이 아르카나 총람(Omnibus Arcana)의 지침을 따르라고 했다. 그 과정에서 연구에 지나치게 몰두하지 말고 주변을 살피는 법도 가르쳐 주었다.",
+      "new": "스콜리아 아르카나(Scholia Arcana) 라시르(Rathir) 지부의 사서 이드리스 테오넨(Idris Theonen)이 아르카나 총람(Omnibus Arcana)의 지침을 따르라고 했다. 그 과정에서 연구에 지나치게 몰두하지 말고 주변을 살피는 법도 가르쳐 주었다.",
+      "reason": "Use the established Idris Theonen name supported by the NPC symbol and the Japanese, Chinese, and other English rows, while leaving the source typo unchanged."
+    },
+    {
+      "id": 4480,
+      "old": "진입의 수호자(Guardian of Ingress)에게서 코라 꽃잎(Kora Petal)을 얻었다. 엔가드 교단(Circle of Engard)에 돌려주면 알마인 알라드(Almain Alard)의 나르카(Narca) 저주를 풀 수 있을지도 모른다.",
+      "new": "진입의 수호자(Guardian of Ingress)에게서 코라 꽃잎(Kora Petal)을 얻었다. 엔가드 교단(Circle of Engard)에 돌려주면 알마인(Almain) 알라드(Alard)의 나르카(Narca) 저주를 풀 수 있을지도 모른다.",
+      "reason": "Separate the Almain people name and the Alard personal name, matching the established pairing at 53189."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 60012,
+      "old": "스콜리아 아르카나(Scholia Arcana) 라시르(Rathir) 지부 회관의 사서 이드리스 테오넨(Idiris Theonen)이 아르카나 총람(Omnibus Arcana)의 지침을 따르라고 했다. 지침대로 했지만 마지막 질문에 답하지 못해 시험에 떨어졌다.",
+      "new": "스콜리아 아르카나(Scholia Arcana) 라시르(Rathir) 지부 회관의 사서 이드리스 테오넨(Idris Theonen)이 아르카나 총람(Omnibus Arcana)의 지침을 따르라고 했다. 지침대로 했지만 마지막 질문에 답하지 못해 시험에 떨어졌다.",
+      "reason": "Apply the same established proper-name annotation to the parallel row in the Idris Theonen context."
+    }
+  ],
+  "retained": [
+    {
+      "id": 4311,
+      "reason": "The awkward literal plea was already corrected to a natural Mitharu invocation in the earlier 4000-4999 edit batch."
+    },
+    {
+      "id": 4337,
+      "reason": "The non-idiomatic 잠금 보관되어 was already corrected to 보관되어 in the earlier 4000-4999 edit batch."
+    },
+    {
+      "id": 4422,
+      "reason": "The related Belne title was already aligned to 마스터 벨른(Master Belne) in the earlier 2500-2749 follow-up."
+    },
+    {
+      "id": 4446,
+      "reason": "하트바인 is already present and consistent with the related corrected entries 24448 and 25441."
+    }
+  ],
+  "related_retained": [
+    {
+      "id": 61986,
+      "reason": "The exact duplicate title already uses 끝없는 황폐(The Perpetual Desolations), matching corrected row 4390."
+    },
+    {
+      "id": 53189,
+      "reason": "The Almain and Alard names are already separately paired in this related sentence."
+    }
+  ]
+}

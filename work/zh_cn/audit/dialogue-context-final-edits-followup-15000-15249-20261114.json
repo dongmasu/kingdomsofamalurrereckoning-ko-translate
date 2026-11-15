@@ -1,0 +1,84 @@
+{
+  "range": [15000, 15249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 18,
+  "range_candidate_id_list": [
+    15022,
+    15041,
+    15073,
+    15075,
+    15078,
+    15082,
+    15090,
+    15091,
+    15098,
+    15148,
+    15164,
+    15183,
+    15190,
+    15198,
+    15221,
+    15222,
+    15226,
+    15243
+  ],
+  "reconciled_candidate_ids": 18,
+  "decisions": {
+    "previously_applied_confirmed": [
+      15022,
+      15041,
+      15075,
+      15078,
+      15082,
+      15091,
+      15098,
+      15148,
+      15164,
+      15183,
+      15190,
+      15198,
+      15221,
+      15222,
+      15226,
+      15243
+    ],
+    "refined": [15073, 15090],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Khamazandu offer sentence": [
+      7589,
+      15148,
+      19510,
+      21922,
+      54076,
+      64167,
+      64664
+    ],
+    "Brad and Cergren Traders": [11917, 15183, 36628, 58806],
+    "Ambassador Keen": [14922, 15098],
+    "little one": [15222, 42683, 50460],
+    "Fallon's prayer beads": [6166, 20909, 15198]
+  },
+  "fingerprints_refreshed": {
+    "63007a60a0883b393b45291f80b7a74e1d7e573b356d206f2f216333bcac0ea2": [
+      15073
+    ],
+    "822f51772ffa04e62bc570203a2a67d2ad65395d6e661b47b3f9bdc7dd12ad57": [
+      15090
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 868,
+    "total": 4015,
+    "percent": 21.62,
+    "remaining": 3147
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [15073, 15090],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "range": [28250, 28499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 14,
+  "range_candidate_id_list": [
+    28276,
+    28301,
+    28305,
+    28307,
+    28310,
+    28356,
+    28389,
+    28399,
+    28406,
+    28409,
+    28427,
+    28445,
+    28464,
+    28491
+  ],
+  "reconciled_candidate_ids": 14,
+  "newly_counted_candidate_ids": 14,
+  "previously_counted_ids": [],
+  "decisions": {
+    "confirmed_prior_corrections": [
+      28276,
+      28301,
+      28307,
+      28310,
+      28389,
+      28406,
+      28427,
+      28491
+    ],
+    "retained": [
+      28305,
+      28356,
+      28399,
+      28409,
+      28445,
+      28464
+    ],
+    "correction_applied_now": []
+  },
+  "related_consistency_checks": {
+    "Gravehal Gallery": [
+      859,
+      13015,
+      15295,
+      27146,
+      28305,
+      43735,
+      53065,
+      60844
+    ],
+    "Glass of Ambient short references": [
+      2270,
+      17289,
+      28445,
+      56303,
+      59057
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1649,
+    "total": 4015,
+    "percent": 41.07,
+    "remaining": 2366
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "four_language_rows_checked": 14,
+    "line_break_counts_match": true,
+    "runtime_and_markup_signatures_match": true,
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

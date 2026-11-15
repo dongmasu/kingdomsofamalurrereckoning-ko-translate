@@ -1,0 +1,91 @@
+{
+  "range": [8000, 8249],
+  "range_candidate_ids": 16,
+  "related_candidate_ids": [50475, 64633],
+  "reconciled_candidate_ids": 18,
+  "decisions": [
+    {"id": 8022, "decision": "retained", "reason": "The current 어서 가! already conveys the impatient hurry command supported by English, Japanese, and Chinese."},
+    {"id": 8046, "decision": "retained", "reason": "The current conversational endings match the plain Japanese dialogue; the already-present correction's stale fingerprint was refreshed."},
+    {"id": 8049, "decision": "retained", "reason": "칙허장 is the established term for the Ratofer family document, and the current sentence is natural."},
+    {"id": 8105, "decision": "retained", "reason": "The current reflective wording naturally conveys that those seasons are long past."},
+    {"id": 8128, "decision": "corrected", "reason": "Replaced the awkward literal 고기새 with 닭고기; English and Chinese say the speaker ate it, while Japanese identifies chicken."},
+    {"id": 8135, "decision": "retained", "reason": "빅터의 양조주(Victor's Brew) matches the established item label across the other reviewed occurrences."},
+    {"id": 8146, "decision": "retained", "reason": "로포쿠(Lupoku) uses the established Korean deity name and exact English source spelling; its fingerprint was already current."},
+    {"id": 8156, "decision": "retained", "reason": "The Ratofer family document is already rendered with the established term 칙허장."},
+    {"id": 8159, "decision": "retained", "reason": "화염 물약 is the established fire-potion term and remains distinct from 화염 피해."},
+    {"id": 8177, "decision": "retained", "reason": "사냥의 군주(Lord of the Chase) matches the related references at 15999 and 46307; the hesitant correction is preserved."},
+    {"id": 8190, "decision": "retained", "reason": "The heading already pairs 컵의 여왕(Queen of Cups) and 메어(Maire), consistent with the exact-source title group."},
+    {"id": 8191, "decision": "retained", "reason": "운명의 실(Weave) clearly identifies the fate-weaving concept and avoids the ordinary-net reading."},
+    {"id": 8214, "decision": "retained", "reason": "그녀의 원수를 갚았지만 is natural Korean for avenging her death and preserves the grief in the following clause."},
+    {"id": 8217, "decision": "retained", "reason": "The specific Ordination Tome is already 서품서(Ordination Tome), with the institution name and journal register intact."},
+    {"id": 8228, "decision": "corrected", "reason": "Recast the awkward team wording as a natural warning not to lose the team, supported by all three source locales."},
+    {"id": 8235, "decision": "retained", "reason": "The standalone name already reads 앤드루(Andrew)."},
+    {"id": 50475, "decision": "retained", "reason": "닭고기처럼 is natural for the meat-bird food simile; Japanese explicitly uses chicken meat."},
+    {"id": 64633, "decision": "corrected", "reason": "Changed 먹잇감 새 to 닭 because this line describes catching an animal; Japanese explicitly identifies a chicken."}
+  ],
+  "edits": [
+    {
+      "id": 8128,
+      "old": "맛있는 고기새를 먹었을 뿐인데, 놈들은 날 때리고 쫓아냈어... 내가 뭘 잘못했지?",
+      "new": "맛있는 닭고기를 먹었을 뿐인데, 놈들은 날 때리고 쫓아냈어... 내가 뭘 잘못했지?",
+      "reason": "Replace an unnatural literal compound with natural Korean for the food described in English and Chinese; Japanese confirms the chicken reference."
+    },
+    {
+      "id": 8228,
+      "old": "팀을 하나라도 남기고 싶으면 지금 당장 아래로 서두르는 게 좋을 거야.",
+      "new": "팀을 잃고 싶지 않으면 지금 당장 아래로 내려가는 게 좋을 거야.",
+      "reason": "Naturalize the warning while preserving the urgency and the consequence of losing the team in all source locales."
+    },
+    {
+      "id": 64633,
+      "old": "아직도 머릿속엔 늑대의 생각이 가득해. 두 발 달린 몸은 너무 굼떠서 멍청한 먹잇감 새조차 못 잡겠어! 원래대로 돌아가야 해!",
+      "new": "아직도 머릿속엔 늑대의 생각이 가득해. 두 발 달린 몸은 너무 굼떠서 멍청한 닭조차 못 잡겠어! 원래대로 돌아가야 해!",
+      "reason": "Use 닭 for the animal the speaker cannot catch; preserve the previously verified wolf-thoughts clause and journal tone."
+    }
+  ],
+  "related_edits_outside_range": [
+    {
+      "id": 64633,
+      "old": "아직도 머릿속엔 늑대의 생각이 가득해. 두 발 달린 몸은 너무 굼떠서 멍청한 먹잇감 새조차 못 잡겠어! 원래대로 돌아가야 해!",
+      "new": "아직도 머릿속엔 늑대의 생각이 가득해. 두 발 달린 몸은 너무 굼떠서 멍청한 닭조차 못 잡겠어! 원래대로 돌아가야 해!",
+      "reason": "Resolved the linked SQ01 meat-birds candidate using the animal-catching context."
+    }
+  ],
+  "fingerprints_refreshed": [8046, 8128, 8228, 64633],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 436,
+    "total": 4015,
+    "percent": 10.86,
+    "remaining": 3579
+  },
+  "source": {
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "review_reports": [
+      "dialogue-context-default-08000-08249-revalidation-20261111.md",
+      "dialogue-context-507502-sa08-revalidation-20261111.md",
+      "dialogue-context-m0-sq06-revalidation-20261110.md",
+      "dialogue-context-ffq03-revalidation-20261110.md",
+      "dialogue-context-sq01-revalidation-20261110.md",
+      "dialogue-context-next-five-expanded-assets-followup-revalidation-20261111.md",
+      "dialogue-context-583289-hv07-arena-revalidation-20261111.md"
+    ],
+    "ledger": "dialogue-context-review-ledger.tsv"
+  },
+  "verification": {
+    "ledger_reviewed_ids": 65135,
+    "ledger_fingerprint_check": "passed",
+    "index_and_catalog_reproduction": "passed",
+    "preservation_tests": 11,
+    "context_index_tests": 9,
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "line_endings": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

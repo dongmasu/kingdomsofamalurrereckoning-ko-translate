@@ -1,0 +1,51 @@
+{
+  "range": [10000, 10249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 19,
+  "range_candidate_id_list": [
+    10010, 10020, 10033, 10042, 10079, 10090, 10131, 10154, 10155, 10173,
+    10174, 10177, 10178, 10179, 10186, 10187, 10196, 10219, 10248
+  ],
+  "reconciled_candidate_ids": 19,
+  "decisions": {
+    "corrected": [
+      10010, 10020, 10042, 10079, 10090, 10154, 10155, 10173, 10174,
+      10177, 10178, 10179, 10186, 10187, 10196, 10219, 10248
+    ],
+    "previously_applied_confirmed": [
+      10079, 10090, 10154, 10155, 10173, 10174, 10177, 10178, 10179,
+      10186, 10187, 10196, 10219
+    ],
+    "newly_applied": [10010, 10020, 10042, 10248],
+    "retained": [10033, 10131]
+  },
+  "linked_context_edits": [
+    {
+      "id": 11794,
+      "reason": "Applied the same supported plural-marking correction as ID 10010."
+    }
+  ],
+  "fingerprints_refreshed": [10010, 10020, 10042, 10248, 11794],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 613,
+    "total": 4015,
+    "percent": 15.28,
+    "remaining": 3402
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

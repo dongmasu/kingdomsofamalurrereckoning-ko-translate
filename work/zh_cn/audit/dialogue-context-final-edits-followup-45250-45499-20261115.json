@@ -1,0 +1,82 @@
+{
+  "range": [45250, 45499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-45250-45499-revalidation-20261112.md",
+    "candidate_reconciliation": "dialogue-context-45250-45499-candidate-reconciliation-20261115.md",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    45252, 45287, 45314, 45339, 45341, 45351,
+    45360, 45386, 45433, 45447, 45465, 45468
+  ],
+  "newly_reconciled_ids": [
+    45252, 45287, 45314, 45339, 45341, 45351,
+    45360, 45386, 45433, 45447, 45465, 45468
+  ],
+  "newly_reconciled_total": 12,
+  "decisions": {
+    "corrected_now": [45314, 45341],
+    "already_correct_or_supported": [
+      45252, 45287, 45339, 45351, 45360, 45386,
+      45433, 45447, 45465, 45468
+    ],
+    "held_for_independent_evidence": []
+  },
+  "edits": [
+    {
+      "id": 45314,
+      "old": "정말 좋은 삶이었어! 정말 좋은 삶이었지! 마지막 순간에 네가 곁에 있어 내 손을 잡고 두려움을 지나 저편의 평온으로 이끌어 줬으면 좋았을 텐데. 투아사(Tuatha)가 오고 있어. 이제 정말 마지막 작별이구나. 잘 살아, 소중한 사람. 루비가.",
+      "new": "정말 좋은 삶이었어! 정말 좋은 삶이었지! 마지막 순간에 네가 곁에 있어 내 손을 잡고 두려움을 지나 저편의 평온으로 이끌어 줬으면 좋았을 텐데. 투아사(Tuatha)가 오고 있어. 이제 정말 마지막 작별이구나. 잘 살아, 소중한 사람. 너의 루비(Ruby).",
+      "reason": "Replace the awkward Korean fragment with a direct intimate sign-off supported by English Yours, Ruby, Japanese 君のルビー, and Chinese 你的，露比; do not infer a more specific relationship."
+    },
+    {
+      "id": 45341,
+      "old": "너는 백색의 닐도 여사제도 아니군. 날 비웃으러 왔나, 아니면 신탁을 구걸하러 왔나?",
+      "new": "너는 백색의 닐(Nil the White)도 여사제도 아니군. 날 비웃으러 왔나, 아니면 신탁을 구걸하러 왔나?",
+      "reason": "Add the missing English pairing for the complete title, following established active references while leaving the separate Nil the White / White Nil identity question unresolved."
+    }
+  ],
+  "evidence_limited_items": {
+    "45277": "Vagabonds may be a named faction; the row does not settle how to render it.",
+    "45342": "The addressee's rank and intended Korean honorific are not established.",
+    "45356": "English conflicts with Japanese and Chinese on the meaning.",
+    "45358": "The First may identify the first Scaith, but English does not establish that relation.",
+    "45370": "Circle of Strife could be a faction, ability, or magical circle.",
+    "45375": "Bloody may be a name or descriptive warning.",
+    "45391": "Tilera Redeemed may be a title or description; the sense of redeemed is unresolved.",
+    "45396": "The Korean display label sprint remains subject to the UI naming decision.",
+    "45397": "Register is unresolved without a mapped speaker or scene stage.",
+    "45414": "Will and Waters has conflicting possible senses of will.",
+    "45429": "The row does not establish whether Russian Federation is player-facing text, test data, or metadata.",
+    "45443": "The source references disagree on what makes Octienne unavailable.",
+    "45445": "Bayala's Spring could refer to a season, water source, or location."
+  },
+  "ledger_fingerprints_refreshed": [45314, 45341],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3090,
+    "previous_total": 4029,
+    "newly_reconciled": 12,
+    "reconciled": 3102,
+    "total": 4029,
+    "percent": 76.99,
+    "remaining": 927
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [45314, 45341],
+    "all_four_language_fingerprints": "passed for all 65,135 reviewed IDs",
+    "catalog_reproducibility": "index and both catalogs passed",
+    "regression_tests": "20 combined CSV-preservation and dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

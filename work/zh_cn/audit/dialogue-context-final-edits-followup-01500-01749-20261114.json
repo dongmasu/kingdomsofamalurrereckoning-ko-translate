@@ -1,0 +1,36 @@
+{
+  "range": [1500, 1749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "reconciled_candidate_ids": 17,
+  "edits": [
+    {
+      "id": 1560,
+      "old": "가드플로(Gadflow)가 겨울 궁정(Winter Court)의 지고왕(High King)을 비극적으로 살해한 뒤로, 티타리온(Titarion)은 우리 종족에 남은 가장 위대하고도 마지막인 진정한 지도자다.",
+      "new": "가드플로(Gadflow)가 겨울 궁정(Winter Court)의 지고왕(High King)을 살해한 비극 이후로, 티타리온(Titarion)은 우리 종족에 남은 마지막이자 가장 위대한 진정한 지도자다.",
+      "reason": "The English and Chinese describe the murder as a tragedy; Japanese confirms the resulting period. Recast the unnatural adverb phrase and order the remaining leader's paired qualities naturally."
+    },
+    {
+      "id": 1683,
+      "old": "계약 완료 보고",
+      "new": "계약서 제출하기",
+      "reason": "English says to turn in the contract and Chinese says to submit it. The identical objective at eight other IDs already uses 계약서 제출하기; the broader Japanese phrasing does not contradict submitting the contract."
+    }
+  ],
+  "retained": [
+    {"id": 1519, "reason": "The complete title The Fisherman's Bride is already paired."},
+    {"id": 1534, "reason": "Templar Jorielle is already paired with the complete English title."},
+    {"id": 1553, "reason": "All three named pillars already have English pairings; the source also supports describing Praetorians as members of a pillar rather than forcing a single institutional noun."},
+    {"id": 1572, "reason": "Foiled Again! is already fully paired."},
+    {"id": 1580, "reason": "Both Lord Airmer and Lord Creth already use parallel Korean-title and complete English-title pairings."},
+    {"id": 1590, "reason": "Maire's complete Queen of Cups title is already paired."},
+    {"id": 1671, "reason": "The numeric Health Regen effect already uses the established 체력 재생 term."},
+    {"id": 1686, "reason": "The current line preserves both the derogatory address and the claim of ignorance."},
+    {"id": 1691, "reason": "The current description consistently refers to the garment as robes and includes the Chaos Scholar pairing; the English source contains an apparent armor typo."},
+    {"id": 1695, "reason": "Iceland is already fully paired."},
+    {"id": 1697, "reason": "St. Helena is already fully paired."},
+    {"id": 1711, "reason": "Gathering Flames is already fully paired."},
+    {"id": 1721, "reason": "Bolivia is already fully paired."},
+    {"id": 1723, "reason": "Circle of Therosin is already fully paired in the sentence."},
+    {"id": 1739, "reason": "The complete Svalbard & Jan Mayen Islands name is already paired."}
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "range": [10750, 10999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 18,
+  "range_candidate_id_list": [
+    10765, 10778, 10786, 10809, 10814, 10848, 10874, 10897, 10918,
+    10925, 10927, 10939, 10945, 10946, 10974, 10978, 10985, 10994
+  ],
+  "reconciled_candidate_ids": 18,
+  "decisions": {
+    "corrected": [
+      10765, 10778, 10786, 10809, 10814, 10848, 10874, 10897, 10918,
+      10925, 10927, 10939, 10945, 10946, 10974, 10978, 10985, 10994
+    ],
+    "previously_applied_confirmed": [
+      10765, 10809, 10814, 10848, 10874, 10897, 10925, 10939, 10945,
+      10946, 10994
+    ],
+    "newly_applied": [
+      10778, 10786, 10918, 10927, 10974, 10978, 10985
+    ],
+    "held": [],
+    "separate_evidence_limited_hold": [10974]
+  },
+  "related_consistency_checks": [
+    {
+      "ids": [10786, 32414, 34277, 42096],
+      "term": "Captain Drefan",
+      "result": "complete title/name pairing is consistent"
+    },
+    {
+      "ids": [10974, 1312, 19677, 24349, 24693, 25058, 45462, 47256, 53176],
+      "term": "The Font / Font",
+      "result": "10974 now uses 샘(The Font); the connected context uses the established paired form"
+    }
+  ],
+  "fingerprints_refreshed": [
+    10778, 10786, 10918, 10927, 10974, 10978, 10985
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 675,
+    "total": 4015,
+    "percent": 16.81,
+    "remaining": 3340
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "manifest_json": "valid"
+  }
+}

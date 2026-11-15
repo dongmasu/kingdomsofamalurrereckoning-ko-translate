@@ -1,0 +1,107 @@
+{
+  "range": [1250, 1499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "reconciled_candidate_ids": 24,
+  "edits": [
+    {
+      "id": 1255,
+      "old": "길에서 일어난 먼지가 나그네를 맞이하는구나. 별 야영지(Star Camp)에 온 걸 환영해.",
+      "new": "길 위의 먼지가 피어올라 나그네를 맞이하는구나. 별 야영지(Star Camp)에 온 걸 환영해.",
+      "reason": "English and Japanese personify road dust rising to greet the wanderer; express the rising dust naturally in Korean."
+    },
+    {
+      "id": 1278,
+      "old": "상급 니스카루(Niskaru) 중 하나로, 필멸자가 감당할 수 없는 힘을 휘둘렀다.",
+      "new": "상급 니스카루(Greater Niskaru) 중 하나로, 필멸자가 감당할 수 없는 힘을 휘둘렀다.",
+      "reason": "The English identifies the creature type as Greater Niskaru; include the full type name and align it with the related Balor label."
+    },
+    {
+      "id": 1312,
+      "old": "샘의 위엄을 찬양하고 그 힘을 관리하는 리세움 숲(Lyceum Grove)에 온 걸 환영합니다. 저는 샘 관리인의 제자이자 팅크제와 영약 관리인(Steward of Tinctures and Elixirs)인 자카센(Jakasen)입니다.",
+      "new": "샘(The Font)의 위엄을 기리고 그 힘을 관리하는 리세움 숲(Lyceum Grove)에 오신 걸 환영합니다. 저는 샘의 관리자(Fontmaster)의 제자이자 팅크제와 영약 관리인(Steward of Tinctures and Elixirs)인 자카센(Jakasen)입니다.",
+      "reason": "The sources name the magical Font and identify Jakasen as the Fontmaster's apprentice and steward. Restore both English pairings and phrase the polite welcome naturally."
+    },
+    {
+      "id": 22907,
+      "old": "샘 관리자(Fontmaster) 말로는 그렇다네.",
+      "new": "샘의 관리자(Fontmaster) 말로는 그렇다네.",
+      "reason": "Align the Korean role name with the established 샘의 관리자 rendering while retaining its English pairing."
+    },
+    {
+      "id": 24822,
+      "old": "샘의 관리자",
+      "new": "샘의 관리자(Fontmaster)",
+      "reason": "Add the source title pairing to the standalone Fontmaster label."
+    },
+    {
+      "id": 25656,
+      "old": "샘의 관리자 노메론(Nomeron)은 모든 게 정상적으로 흐르고 있다고 우기지만, 그의 불안한 기색을 봤어. 마법이 약해지는 게 느껴져. 수상한 힘이 작용하고 있어.",
+      "new": "샘의 관리자 노메론(Fontmaster Nomeron)은 모든 게 정상적으로 흐르고 있다고 우기지만, 그의 불안한 기색을 봤어. 마법이 약해지는 게 느껴져. 수상한 힘이 작용하고 있어.",
+      "reason": "Complete the English pairing for the full role-and-name reference, consistent with the same title at IDs 44398 and 51753."
+    },
+    {
+      "id": 1354,
+      "old": "그자는 아버지의 방을 자기 은신처로 쓰고 있어. 케일드 해안(Caeled Coast) 전체가 내려다보이는 탑 꼭대기에 있지.",
+      "new": "그자는 아버지의 방을 자기 내실로 쓰고 있어. 케일드 해안(Caeled Coast) 전체가 내려다보이는 탑 꼭대기에 있지.",
+      "reason": "English inner sanctum and the Japanese/Chinese private-room readings describe private quarters, not a hideout; use 내실."
+    },
+    {
+      "id": 1360,
+      "old": "저는 재니스(Janis), 복스 빅토리움(Vox Victorium)입니다. 정식으로 임명된 진행자이자 의전 책임자죠. 무엇이든 맡겨 주십시오...",
+      "new": "저는 정식으로 임명된 진행자이자 의전 책임자인 복스 빅토리움(Vox Victorium) 재니스(Janis)입니다. 무엇이든 맡겨 주십시오...",
+      "reason": "The line explicitly identifies Janis and her appointed host/master-of-ceremonies role. Recast the title/name order as a natural self-introduction while retaining the full pairings and polite register."
+    },
+    {
+      "id": 1377,
+      "old": "나와 진지하게, 열정적으로 연애하고 싶다면 내 필요도 좀 더 배려해야 해. 내게 필요한 게 한두 가지가 아니거든.",
+      "new": "나와 진지하게 만나고 싶다면, 열정적으로 구애할 생각이라면 내 바람도 좀 더 헤아려 줘야 해. 내가 바라는 게 한두 가지가 아니거든.",
+      "reason": "English and Japanese describe courtship; replace the awkward literal 필요 phrasing and retain the speaker's conversational, teasing tone."
+    },
+    {
+      "id": 1389,
+      "old": "렌즈는 실험체에 빠르게 동조했고 되살리는 과정도 놀라울 만큼 간단했지만, 실험체들은 정신 상태를 조금도 유지하지 못했다. 의식조차 없었다. 문제는 비전 마력의 흐름에 있는 것 같다. 육체와 함께 정신까지 옮기기엔 힘이 부족한 게 틀림없다!\r\n\r\n포모러스(Fomorous)는 연구에 대해 지나치게 많은 우려를 표해 더는 도움이 되지 않는다. 템플러에게 이미 알렸다. 잘만 되면 포모러스(Fomorous)는 어딘가로 쫓겨날 테고, 나는 방해받지 않고 연구를 더 진행할 수 있을 것이다.",
+      "new": "렌즈는 실험체에 금세 동조했고, 되살리는 과정도 놀라울 만큼 간단했지만 실험체들은 정신 상태를 조금도 유지하지 못했다. 의식조차 없었다. 문제는 비전 마력의 흐름에 있는 것 같다. 육체와 함께 정신까지 옮기기엔 힘이 부족한 게 틀림없다!\r\n\r\n포모러스(Fomorous)는 연구에 대해 지나치게 많은 우려를 표해 더는 도움이 되지 않는다. 템플러에게 이미 알렸다. 잘만 되면 포모러스(Fomorous)는 어딘가로 쫓겨날 테고, 나는 방해받지 않고 연구를 더 진행할 수 있을 것이다.",
+      "reason": "The English and Japanese say the lenses attune to the subjects. Replace the vague 'matched' phrasing with 동조, smooth the clause, and preserve the reanimation meaning and paragraph break."
+    },
+    {
+      "id": 1430,
+      "old": "최초의 사이온(Scion)은 이 따뜻하고 안전한 성벽 안에 살았어. 이제 모든 사이온(Scion)은 우리의 감시 아래 이곳에서 안전하게 준비를 마치지.",
+      "new": "최초의 사이온(Scion)은 이 따뜻하고 안전한 성벽 안에 살았어. 이제 모든 사이온(Scion)은 이곳에서 안전하게 지내며, 우리의 감시 아래 준비를 한다.",
+      "reason": "English says the Scions undergo preparations here, not that they have completed them; remove the unsupported completion."
+    },
+    {
+      "id": 38015,
+      "old": "인상적이지 않나? 상위 니스카루(Niskaru) 발로르(Balor)가 꽤 화려하게 등장했군.",
+      "new": "인상적이지 않나? 상급 니스카루 발로르(Greater Niskaru, Balor)가 꽤 화려하게 등장했군.",
+      "reason": "Align the related Greater Niskaru, Balor compound with the full source type and the translation at 1278."
+    },
+    {
+      "id": 1490,
+      "old": "이 장갑은 해적을 추적하고 처리하는 무자비한 해상 용병들이 입는 사략선 선원 제복의 일부다. 이 해상 전사들은 파괴 공작과 암살, 해상 및 육상 생존술에 능하다.",
+      "new": "이 장갑은 해적 위협을 추적해 제거하는 위험한 해상 용병들이 입는 사략선 선원 제복의 일부다. 이 해상 전사들은 파괴 공작과 암살, 바다와 육지에서의 생존술에 능하다.",
+      "reason": "Clarify that the mercenaries hunt down and eliminate pirate threats, and render sea/land survival skills naturally as an item description."
+    },
+    {
+      "id": 1492,
+      "old": "무대용 무기처럼 지나치게 화려하고 요란한 이 활은 부드럽게 더 당겨지는 느낌과 우아한 장력으로 궁수를 놀라게 한다.",
+      "new": "무대용 무기처럼 화려하고 요란한 이 활은 활시위를 더 당겨도 부드럽게 휘어지며, 당기는 감각도 우아해 궁수를 놀라게 한다.",
+      "reason": "Express the bow's flexible overdraw and graceful pull naturally without treating overdraw as an unspecified sensation."
+    }
+  ],
+  "retained": [
+    {"id": 1282, "reason": "Already includes the complete established title The Maid of Windemere."},
+    {"id": 1293, "reason": "Christmas Island is already fully paired."},
+    {"id": 1316, "reason": "Wallis and Futuna Islands is already fully paired."},
+    {"id": 1325, "reason": "Into Temptation is already fully paired."},
+    {"id": 1334, "reason": "The source says only 'the House'; an earlier review held the identity ambiguous, so no House of Ballads expansion is inferred."},
+    {"id": 1349, "reason": "Casmaran's full epithet is already included in the English pairing."},
+    {"id": 1370, "reason": "Brigand's Hideaway is already fully paired."},
+    {"id": 1376, "reason": "Olbi's full epithet, the Cursed, is already paired."},
+    {"id": 1379, "reason": "White Dove is already fully paired."},
+    {"id": 1444, "reason": "Shapen in Iniquity is already fully paired."},
+    {"id": 1467, "reason": "The academic title is already 학장 and Hyperian is paired; no further correction is needed."},
+    {"id": 1488, "reason": "Chaos Scholar is already fully paired and 유해 preserves the source's remains meaning."},
+    {"id": 1496, "reason": "본보기 conveys the subject's role as a warning/example of Vraekor's wrath; no semantic correction is needed."},
+    {"id": 1498, "reason": "Champion's Manor is already fully paired."}
+  ]
+}

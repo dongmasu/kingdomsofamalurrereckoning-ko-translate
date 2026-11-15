@@ -1,0 +1,26 @@
+{
+  "range": [64117, 64117],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "related_ids": [54460],
+    "related_reports": [
+      "dialogue-context-default-64000-64249-revalidation-20261113.md",
+      "dialogue-context-translation-followup-64117-20261115.md"
+    ]
+  },
+  "edits": [
+    {
+      "id": 64117,
+      "old": "라시르(Rathir)에 온 걸 환영해.",
+      "new": "사촌, 라시르(Rathir)에 온 걸 환영해.",
+      "reason": "English and Chinese preserve the vocative, and the same English phrase at ID 54460 is translated with the established Korean 사촌. The correction preserves the address without deciding whether it is literal kinship or familiar address."
+    }
+  ],
+  "translation_csv_changed": true,
+  "changed_default_ids": [64117],
+  "ledger_fingerprint_changed_ids": [64117],
+  "ledger_dispositions_changed": false,
+  "source_csv_or_extracted_asset_changed": false,
+  "commit_made": false
+}

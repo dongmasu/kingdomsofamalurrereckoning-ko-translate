@@ -1,0 +1,92 @@
+{
+  "range": [44000, 44249],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-44000-44249-revalidation-20261112.md",
+    "prior_candidate_decisions": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "candidate_reconciliation": "dialogue-context-44000-44249-candidate-reconciliation-20261115.md",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    44002, 44005, 44006, 44008, 44009, 44014, 44024, 44033, 44036, 44063,
+    44073, 44083, 44085, 44097, 44118, 44143, 44147, 44149, 44155, 44164,
+    44167, 44168, 44189, 44203, 44214, 44215, 44217, 44247
+  ],
+  "newly_reconciled_ids": [
+    44002, 44005, 44008, 44009, 44014, 44024, 44033, 44036, 44063, 44073,
+    44083, 44085, 44097, 44118, 44143, 44147, 44149, 44155, 44164, 44167,
+    44168, 44189, 44203, 44214, 44215, 44217, 44247
+  ],
+  "newly_reconciled_total": 27,
+  "previously_reconciled_linked_ids": [44006],
+  "decisions": {
+    "corrected_now": [44073, 44118, 44215],
+    "already_correct_or_previously_applied": [
+      44002, 44005, 44008, 44009, 44014, 44024, 44033, 44036, 44063, 44083,
+      44085, 44097, 44143, 44147, 44149, 44155, 44164, 44167, 44168, 44189,
+      44203, 44214, 44217, 44247
+    ],
+    "held_for_independent_evidence": []
+  },
+  "edits": [
+    {
+      "id": 44073,
+      "old": "기록은 내가 가져가 서고의 보물들과 함께 보관하겠소. 그곳이라면 안전할 거요.",
+      "new": "기록은 내가 받아 서고의 보물들과 함께 보관할게. 여기라면 안전할 거야.",
+      "reason": "Japanese uses plain conversational speech throughout; replace the unsupported 하오체 and make the archive reference natural."
+    },
+    {
+      "id": 44118,
+      "old": "무기를 가까이 두게.",
+      "new": "무기를 가까이 둬.",
+      "reason": "Match the English instruction and Japanese plain imperative without inferring a speaker."
+    },
+    {
+      "id": 44215,
+      "old": "이걸 받으시오. 많지는 않지만, 감사의 마음과 함께 우리가 드릴 수 있는 것이오.",
+      "new": "이걸 받아. 별것 아니지만, 고맙다는 뜻을 담아 우리가 줄 수 있는 거야.",
+      "reason": "English and Japanese present a direct offer and thanks; remove the unsupported marked 하오체."
+    }
+  ],
+  "linked_source_groups": {
+    "great_general_title": {
+      "ids": [27284, 44014],
+      "result": "The English, Japanese, and Chinese title strings match exactly; both Korean rows use 위대한 장군(The Great General)."
+    },
+    "sandstone_villa_upgrade": {
+      "ids": [10464, 10866, 11536, 44143, 49479, 60389],
+      "result": "The established action term is 개량, with -하기 for objective labels."
+    }
+  },
+  "evidence_limited_items": {
+    "44223": "Retained as held: the sources do not resolve whether 'You made it' means arriving or succeeding.",
+    "44238": "The previous duplicate hold is cleared because Japanese source wording differs from 27910 and Korean preserves the distinction."
+  },
+  "ledger_fingerprints_refreshed": [44073, 44118, 44215],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2954,
+    "previous_total": 4028,
+    "newly_reconciled": 27,
+    "reconciled": 2981,
+    "total": 4028,
+    "percent": 74.01,
+    "remaining": 1047
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [44073, 44118, 44215],
+    "all_four_language_fingerprints": "passed",
+    "catalog_reproducibility": "passed",
+    "regression_tests": "20 combined CSV-preservation and dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

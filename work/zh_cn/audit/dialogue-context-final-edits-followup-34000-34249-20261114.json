@@ -1,0 +1,73 @@
+{
+  "range": [34000, 34249],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-34000-34249-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-33500-35999-20261114.json",
+    "asset_reviews": [
+      "dialogue-context-600351-revalidation-20261111.md",
+      "dialogue-context-four-sparse-assets-revalidation-20261111.md",
+      "dialogue-context-next-five-assets-iddyla-turin-apotyre-ariad-eathe-revalidation-20261111.md",
+      "dialogue-context-next-five-small-assets-revalidation-20261111.md",
+      "dialogue-context-2606201-533430-1700657-1704224-2604701-revalidation-20261111.md",
+      "dialogue-context-1981711-dlc2-sq10-altar-oracle-revalidation-20261111.md"
+    ]
+  },
+  "range_candidate_ids": 28,
+  "range_candidate_id_list": [
+    34000, 34015, 34023, 34029, 34037, 34041, 34058, 34062, 34073, 34081,
+    34093, 34097, 34113, 34124, 34129, 34131, 34134, 34144, 34152, 34167,
+    34175, 34181, 34204, 34211, 34220, 34223, 34240, 34244
+  ],
+  "previously_reconciled_in_range_ids": [34152],
+  "linked_candidate_ids_outside_range": [45625, 45816, 53754, 55233],
+  "previously_reconciled_linked_candidate_ids": [45816],
+  "previously_reconciled_related_candidate_ids": [26551, 33141, 33266],
+  "linked_non_candidate_ids_reviewed": [26805],
+  "newly_counted_candidate_ids": [
+    34000, 34015, 34023, 34029, 34037, 34041, 34058, 34062, 34073, 34081,
+    34093, 34097, 34113, 34124, 34129, 34131, 34134, 34144, 34167, 34175,
+    34181, 34204, 34211, 34220, 34223, 34240, 34244, 45625, 53754, 55233
+  ],
+  "decisions": {
+    "confirmed_current_or_previously_applied": [
+      34000, 34015, 34023, 34029, 34037, 34041, 34058, 34062, 34073, 34081,
+      34093, 34097, 34113, 34124, 34129, 34131, 34134, 34144, 34152, 34167,
+      34175, 34181, 34204, 34211, 34220, 34223, 34240, 34244, 45625, 45816,
+      53754, 55233
+    ],
+    "newly_applied": [],
+    "partial_correction_outside_candidate_pool": [34047],
+    "historical_candidates_now_not_issue": [34027, 34155, 34156, 34192, 34245],
+    "uncertain_not_counted": [34047, 34952]
+  },
+  "edit_operations": [
+    {
+      "id": 34047,
+      "old": "페이티르(Faitir)가 의식을 마치도록 돕기로 했다. 최초자를 죽이면 페이티르(Faitir)가 스카이스 군대를 장악해 탈라레인(Tala-Rane)을 지킬 수 있다. 페이티르(Faitir)가 최초자를 처치하도록 도와야 한다.",
+      "new": "페이티르(Faitir)가 의식을 마치도록 돕기로 했다. 최초자를 죽이면 페이티르(Faitir)가 스케이스(Scaith) 군대를 장악해 탈라레인(Tala-Rane)을 지킬 수 있다. 페이티르(Faitir)가 최초자를 처치하도록 도와야 한다.",
+      "reason": "Pair the established Scaith family name; retain the unresolved meaning of the First."
+    }
+  ],
+  "fingerprints_refreshed": [34047],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2097,
+    "total": 4015,
+    "percent": 52.23,
+    "remaining": 1918
+  },
+  "verification": {
+    "translation_csv_changed_during_reconciliation": true,
+    "full_review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "dialogue_context_index_tests": "passed (9)",
+    "csv_structure": "passed (65135 ordered IDs; UTF-8 BOM preserved)",
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "speaker_or_playback_order_inferred": false
+  }
+}

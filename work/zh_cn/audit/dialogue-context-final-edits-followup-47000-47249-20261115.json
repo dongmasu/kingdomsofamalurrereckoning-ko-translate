@@ -1,0 +1,29 @@
+{
+  "range": [47000, 47249],
+  "source_order": ["en", "ja", "zh", "ko"],
+  "ledger_candidate_ids": [
+    47004, 47026, 47041, 47052, 47099, 47111, 47146, 47154, 47165, 47169,
+    47192, 47200, 47202, 47211, 47222, 47224, 47243
+  ],
+  "newly_reconciled_ids": [
+    47004, 47026, 47052, 47111, 47146, 47154, 47169, 47192, 47202, 47211,
+    47224, 47243
+  ],
+  "previously_reconciled_ids": [47041, 47099, 47165, 47200, 47222],
+  "corrected_now": [47052],
+  "already_correct_or_supported": [
+    47004, 47026, 47111, 47146, 47154, 47169, 47192, 47202, 47211, 47224,
+    47243
+  ],
+  "separate_not_issue_ids": [47143],
+  "separate_open_questions": [47068, 47148, 47249],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 3183,
+    "total": 4027,
+    "percent": 79.04,
+    "remaining": 844
+  },
+  "translation_csv_changed": true,
+  "changed_default_ids": [47052],
+  "ledger_fingerprint_refreshed_ids": [47052]
+}

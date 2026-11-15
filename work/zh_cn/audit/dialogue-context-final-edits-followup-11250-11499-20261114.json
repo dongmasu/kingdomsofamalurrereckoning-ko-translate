@@ -1,0 +1,111 @@
+{
+  "range": [11250, 11499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 8,
+  "range_candidate_id_list": [
+    11315,
+    11326,
+    11359,
+    11360,
+    11365,
+    11382,
+    11438,
+    11476
+  ],
+  "reconciled_candidate_ids": 8,
+  "decisions": {
+    "corrected": [
+      11315,
+      11359,
+      11360,
+      11365,
+      11382,
+      11438,
+      11476
+    ],
+    "previously_applied_confirmed": [
+      11315,
+      11360,
+      11382,
+      11476
+    ],
+    "newly_applied": [
+      11359,
+      11365,
+      11438
+    ],
+    "retained": [
+      11326
+    ],
+    "held": []
+  },
+  "related_consistency_ids": [
+    43201,
+    55398,
+    57045
+  ],
+  "related_consistency_checks": [
+    {
+      "ids": [
+        1136,
+        4007,
+        11326,
+        11684,
+        15965,
+        18118,
+        21512,
+        23251,
+        24624,
+        32518,
+        32955,
+        33252,
+        37286,
+        37436,
+        37936,
+        39934,
+        40758,
+        43201,
+        44377,
+        45706,
+        48290,
+        48832,
+        52054,
+        55398,
+        57045,
+        63612
+      ],
+      "term": "The Headsman",
+      "result": "all 26 exact English source occurrences use 처형인(Headsman); three missing or inconsistent Korean forms were corrected"
+    }
+  ],
+  "fingerprints_refreshed": [
+    11359,
+    11365,
+    11438,
+    43201,
+    55398,
+    57045
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 694,
+    "total": 4015,
+    "percent": 17.29,
+    "remaining": 3321
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "manifest_json": "valid"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "range": [
+    7250,
+    7499
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 10,
+  "reconciled_candidate_ids": 10,
+  "changed_rows": [
+    7472
+  ],
+  "edits": [
+    {
+      "id": 7472,
+      "old": "에이선 엥가르(Aethan Engar)의 시신에서 번개의 힘이 깃든 마법 유물, 폭풍석(Storm Stone)을 발견했다. 태양석(Sun), 폭풍석(Storm Stone), 서리석(Frost stones)을 모두 손에 넣었으니 즉시 라시르(Rathir)의 사반트 에란 메스닌(Savant Eran Methneen)에게 돌아가야겠다.",
+      "new": "에이선 엥가르(Aethan Engar)의 시신에서 번개의 힘이 깃든 마법 유물, 폭풍석(Storm Stone)을 발견했다. 태양석(Sun Stone), 폭풍석(Storm Stone), 서리석(Frost Stone)을 모두 손에 넣었으니 즉시 라시르(Rathir)의 사반트 에란 메스닌(Savant Eran Methneen)에게 돌아가야겠다.",
+      "reason": "Completed the source artifact names and their English pairings using the established Sun/Storm/Frost Stone terminology."
+    }
+  ],
+  "retained": [
+    {
+      "id": 7299,
+      "reason": "The line is natural and the Motus Mining Interests and Ruin Imas references are paired."
+    },
+    {
+      "id": 7346,
+      "reason": "The active Korean already expresses the threat naturally."
+    },
+    {
+      "id": 7398,
+      "reason": "The active Korean comparison is natural and preserves the ominous register."
+    },
+    {
+      "id": 7402,
+      "reason": "The active Korean already preserves finding him and the last first mate."
+    },
+    {
+      "id": 7406,
+      "reason": "Health is already rendered as the established 체력 attribute."
+    },
+    {
+      "id": 7417,
+      "reason": "The recovered reconnaissance report and return instruction are accurately rendered."
+    },
+    {
+      "id": 7479,
+      "reason": "The active Korean preserves the explicit belief and the danger clause."
+    },
+    {
+      "id": 7484,
+      "reason": "Savant Engar is already paired; related ID 14746 is also complete."
+    }
+  ],
+  "held": [
+    {
+      "id": 7339,
+      "reason": "English it lacks an antecedent, and Japanese and Chinese suggest conflicting referents."
+    }
+  ],
+  "ledger": {
+    "fingerprints_refreshed": [
+      7472
+    ],
+    "fingerprint_check": "passed"
+  },
+  "verification": {
+    "ledger_reviewed_ids": 65135,
+    "ledger_fingerprint_check": "passed",
+    "index_and_catalog_reproduction": "passed",
+    "preservation_tests": 11,
+    "context_index_tests": 9,
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "line_endings": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    }
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 393,
+    "total": 4015,
+    "percent": 9.79,
+    "remaining": 3622
+  }
+}

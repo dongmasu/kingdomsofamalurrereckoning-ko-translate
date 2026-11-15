@@ -1,0 +1,28 @@
+{
+  "range": [21250, 21499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 22,
+  "range_candidate_id_list": [21252, 21279, 21283, 21299, 21321, 21338, 21348, 21353, 21356, 21359, 21360, 21367, 21388, 21389, 21396, 21406, 21438, 21439, 21458, 21465, 21485, 21492],
+  "reconciled_candidate_ids": 22,
+  "newly_counted_candidate_ids": 21,
+  "previously_counted_ids": [21389],
+  "decisions": {
+    "confirmed_current": [21252, 21279, 21283, 21299, 21321, 21338, 21348, 21353, 21356, 21359, 21360, 21367, 21388, 21389, 21396, 21438, 21439, 21458, 21465, 21492],
+    "correction_applied_now": [21406, 21485],
+    "held_pending_context": []
+  },
+  "evidence_limited_holds": [21366, 21384, 21409, 21417, 21425, 21436],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1209,
+    "total": 4015,
+    "percent": 30.11,
+    "remaining": 2806
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [1043, 1174, 3307, 3501, 6044, 7667, 8663, 11172, 12593, 14564, 16655, 21406, 21485, 30045, 30190, 31796, 33892, 38694, 40340, 41255, 42577, 43684, 47099, 52596, 53842, 55720, 56433, 62000],
+    "fingerprint_refreshed_ids": [1043, 1174, 3307, 3501, 6044, 7667, 8663, 11172, 12593, 14564, 16655, 21406, 21485, 30045, 30190, 31796, 33892, 38694, 40340, 41255, 42577, 43684, 47099, 52596, 53842, 55720, 56433, 62000],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

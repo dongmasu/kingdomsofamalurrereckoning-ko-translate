@@ -1,0 +1,81 @@
+{
+  "range": [
+    2750,
+    2999
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 12,
+  "reconciled_candidate_ids": 12,
+  "changed_rows": [
+    2792,
+    2945,
+    2958,
+    34720
+  ],
+  "edits": [
+    {
+      "id": 2792,
+      "old": "금 조금만 주면 이 허름한 곳을 에드거 아론(Edgar Aron)보다 훨씬 효율적으로 굴러가게 해줄게.",
+      "new": "금 조금만 주면, 에드거 아론(Edgar Aron)이 해낸 것보다 훨씬 효율적으로 이 허름한 광산을 운영할 수 있게 도와줄게.",
+      "reason": "Motus Mining context identifies the dump as the mine; the new wording naturally preserves the offer to help improve its operation."
+    },
+    {
+      "id": 2945,
+      "old": "줄리아 탐(Julia Tam) 구출",
+      "new": "줄리아 탐(Julia Tam) 구출하기",
+      "reason": "Use the established action form for this quest objective."
+    },
+    {
+      "id": 2958,
+      "old": "우물에서 이것의 냄새가 강하게 풍겼어. 우물이 찾는 게 바로 이것일 거야!",
+      "new": "샘에서 리치우드(Leechwood) 냄새가 짙게 풍겼어. 샘이 찾는 게 바로 이거야!",
+      "reason": "Japanese identifies the scent as Leechwood; the magical Wandering Well is consistently rendered 샘 in this quest."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 34720,
+      "old": "줄리아 탐(Julia Tam) 구출",
+      "new": "줄리아 탐(Julia Tam) 구출하기",
+      "reason": "The English, Japanese, and Chinese objective sources exactly match ID 2945, so the Korean objective is aligned."
+    }
+  ],
+  "retained": [
+    {
+      "id": 2799,
+      "reason": "Already uses 표식 없는 무덤, matching base:587."
+    },
+    {
+      "id": 2820,
+      "reason": "Already pairs the complete title The Bursar's Collectors Have Come."
+    },
+    {
+      "id": 2846,
+      "reason": "Already preserves the imbued quality and pairs Archsage Caledus completely."
+    },
+    {
+      "id": 2853,
+      "reason": "Already uses the concise UI label 수염자국 농도."
+    },
+    {
+      "id": 2871,
+      "reason": "Both Smecky Music Studios and Prague are already paired."
+    },
+    {
+      "id": 2885,
+      "reason": "Already uses the established military notice term and complete relevant names."
+    },
+    {
+      "id": 2915,
+      "reason": "Already uses 조제법; all 16 linked SQ12 formula references were checked and are consistent."
+    },
+    {
+      "id": 2959,
+      "reason": "Already offers the service discount naturally in plain speech."
+    },
+    {
+      "id": 2999,
+      "reason": "Already uses natural conversational wording."
+    }
+  ]
+}

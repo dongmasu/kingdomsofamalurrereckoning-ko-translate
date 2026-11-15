@@ -1,0 +1,102 @@
+{
+  "range": [
+    3750,
+    3999
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 11,
+  "reconciled_candidate_ids": 11,
+  "changed_rows": [
+    28829,
+    3886,
+    3926,
+    3971,
+    37189
+  ],
+  "edits": [
+    {
+      "id": 3886,
+      "old": "그위네드 부부(Gwynedds) 중 한 사람가 죽었다. 이제 나는 갤로우스 엔드(Gallows End) 섬에 표류한 채 살아남으려는 그들을 도울 수 없게 됐다.",
+      "new": "그위네드 부부(Gwynedds) 중 한 사람이 죽었다. 이제 나는 갤로우스 엔드(Gallows End) 섬에 표류한 채 살아남으려는 그들을 도울 수 없게 됐다.",
+      "reason": "Correct the particle error in the statement that one member of the Gwynedd couple died."
+    },
+    {
+      "id": 3926,
+      "old": "안녕하세요. 저는 걷는 걸 좋아해요. 당신도 좋아하세요? 바깥 공기가 참 상쾌하네요. 하루 종일 들이마셔도 좋겠어요.",
+      "new": "아, 안녕. 난 걷는 걸 좋아해. 너도 걷는 거 좋아해? 여기 공기가 참 상쾌하네. 하루 종일 들이마셔도 좋겠어.",
+      "reason": "Match the casual register in the English, Japanese, and Chinese rows without inferring a speaker."
+    },
+    {
+      "id": 3971,
+      "old": "밀항자",
+      "new": "밀항자(Stowaway)",
+      "reason": "Add the English pairing to the named quest title."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 28829,
+      "old": "밀항자",
+      "new": "밀항자(Stowaway)",
+      "reason": "Make the exact duplicate title match default:3971."
+    },
+    {
+      "id": 37189,
+      "old": "밀항자를 찾아 처치하라",
+      "new": "밀항자(Stowaway)를 찾아 처치하기",
+      "reason": "Pair the named creature and use the established quest-objective action form; this candidate is outside the current numeric interval."
+    }
+  ],
+  "retained": [
+    {
+      "id": 3768,
+      "reason": "The existing translation naturally preserves the report that Crilgarin and Grim tried to depose the Hierophant and paid the price."
+    },
+    {
+      "id": 3770,
+      "reason": "The display text is localized and the markup wrapper and line break are preserved."
+    },
+    {
+      "id": 3782,
+      "reason": "성약단(The Testament) is the established short form for this faction reference."
+    },
+    {
+      "id": 3842,
+      "reason": "The current text correctly treats Mitharans as people and preserves the rarity meaning."
+    },
+    {
+      "id": 3867,
+      "reason": "The current text conveys emerging together and retains the poem structure."
+    },
+    {
+      "id": 3902,
+      "reason": "좋은 하루 보내세요 already conveys the source day-wish."
+    },
+    {
+      "id": 3938,
+      "reason": "The equipment component already uses the established term 지렛목."
+    },
+    {
+      "id": 3996,
+      "reason": "The skill name is already 대장기술 and the reagent list is preserved."
+    }
+  ],
+  "related_retained": [
+    {
+      "id": 25333,
+      "reason": "The narrative already pairs Silverback Troll and Stowaway."
+    },
+    {
+      "id": 6716,
+      "reason": "The Stowaway Troll name is already fully paired."
+    },
+    {
+      "id": 37845,
+      "reason": "The Stowaway Troll label is already fully paired."
+    },
+    {
+      "id": 40185,
+      "reason": "The Stowaway Troll label is already fully paired."
+    }
+  ]
+}

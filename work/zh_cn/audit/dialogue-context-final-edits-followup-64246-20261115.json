@@ -1,0 +1,23 @@
+{
+  "range": [64246, 64246],
+  "source_order": ["en", "ja", "zh", "ko"],
+  "reopened_finding": {
+    "id": 64246,
+    "prior_status": "uncertain",
+    "reason": "The isolated label had not established the preferred Korean noun for the salvage UI."
+  },
+  "edits": [
+    {
+      "id": 64246,
+      "old": "분해 가능한 물품",
+      "new": "분해 가능한 아이템",
+      "reason": "EN Salvageable Items, JA サルベージ可能アイテム, and ZH 回收物品 identify the UI label. Related EN salvage-screen descriptions at 11144, 14967, and 43919 contain the same phrase, and the active Korean already uses 분해 가능한 아이템 for that screen state."
+    }
+  ],
+  "translation_csv_changed": true,
+  "changed_default_ids": [64246],
+  "ledger_fingerprint_changed_ids": [64246],
+  "ledger_dispositions_changed": false,
+  "source_csv_or_extracted_asset_changed": false,
+  "commit_made": false
+}

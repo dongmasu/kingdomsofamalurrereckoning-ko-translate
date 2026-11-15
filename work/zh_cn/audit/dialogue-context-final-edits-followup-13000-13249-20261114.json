@@ -1,0 +1,94 @@
+{
+  "range": [13000, 13249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 9,
+  "range_candidate_id_list": [
+    13000,
+    13015,
+    13031,
+    13041,
+    13072,
+    13120,
+    13140,
+    13148,
+    13208
+  ],
+  "reconciled_candidate_ids": 9,
+  "decisions": {
+    "previously_applied_confirmed": [
+      13000,
+      13015,
+      13031,
+      13041,
+      13072,
+      13120,
+      13148,
+      13208
+    ],
+    "newly_applied": [
+      13140
+    ],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Gravehal Gallery": [
+      859,
+      13015,
+      15295,
+      27146,
+      28305,
+      43735,
+      53065,
+      60844
+    ],
+    "Maire, Queen of Cups": [
+      1590,
+      1791,
+      3885,
+      4027,
+      5429,
+      7079,
+      8190,
+      10729,
+      13041,
+      15037,
+      21023,
+      22673,
+      24172,
+      25684,
+      25823,
+      27984,
+      28151,
+      30613,
+      32542
+    ]
+  },
+  "fingerprints_refreshed": {
+    "a0f49232ead76fba0e4d2ebbee0ac5cc5a86d66058828636a0096cd55e2ce8df": [
+      13140
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 764,
+    "total": 4015,
+    "percent": 19.03,
+    "remaining": 3251
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "manifest_json": "valid"
+  }
+}

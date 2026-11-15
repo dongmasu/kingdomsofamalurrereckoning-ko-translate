@@ -1,0 +1,49 @@
+{
+  "range": [18000, 18249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 4,
+  "range_candidate_id_list": [
+    18005,
+    18118,
+    18134,
+    18242
+  ],
+  "reconciled_candidate_ids": 5,
+  "decisions": {
+    "previously_applied_confirmed": [
+      18005,
+      18118,
+      18134,
+      18242,
+      48994
+    ],
+    "refined": [],
+    "retained": [],
+    "held": []
+  },
+  "additional_linked_candidate_ids_reconciled": [
+    48994
+  ],
+  "related_consistency_groups": {
+    "Find the other remains objective": [
+      1961,
+      18005
+    ],
+    "SQ126 shared Dokkalfar payment sentence": [
+      18242,
+      48994
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 975,
+    "total": 4015,
+    "percent": 24.28,
+    "remaining": 3040
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

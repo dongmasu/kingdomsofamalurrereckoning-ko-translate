@@ -1,0 +1,40 @@
+{
+  "range": [
+    4500,
+    4749
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 4,
+  "reconciled_candidate_ids": 4,
+  "changed_rows": [
+    4539,
+    4564,
+    4671
+  ],
+  "edits": [
+    {
+      "id": 4539,
+      "old": "여기가 모투스 광업(Motus Mining)의 본사야. 거래량이 많아서 대회계원(Bursar's)옆에 자리를 잡는 편이 낫겠다고 생각했지.",
+      "new": "여기가 모투스 광업(Motus Mining)의 본사야. 거래량이 많아서 대회계원(Bursar's) 옆에 자리를 잡는 편이 낫겠다고 생각했지.",
+      "reason": "The source-supported wording is otherwise correct; insert the missing word space after the parenthetical."
+    },
+    {
+      "id": 4564,
+      "old": "볼간(Bolgan)이 이곳에서 먼저 공격을 시작했어. 새벽 기습 때 에란 가스티르(Erran Gastyr) 경과 그의 아들, 종자들을 죽였지.",
+      "new": "볼간(Bolgan)이 이곳에서 먼저 공격을 시작했어. 아침에 말을 타고 나갔던 에란 가스티르(Erran Gastyr) 경과 그의 아들, 종자들을 죽였지.",
+      "reason": "English says they were killed during their morning ride; Japanese and Chinese support the morning attack context. Restore the omitted ride without adding surprise."
+    },
+    {
+      "id": 4671,
+      "old": "그러니까 아르진(Argine)이 처음부터 대사제(Hierophant)였군... 도적 무리를 이끌 전지전능한 예언자를 찾고 있는데, 혹시 아는 사람 없나?",
+      "new": "그러니까 아르진(Argine)이 처음부터 대사제(Hierophant)였군... 도적 무리를 이끌고 싶어 하는 전지전능한 예언자를 아는 건 아니겠지?",
+      "reason": "English and Japanese describe a seer who wants to lead the thieves, not a seer sought by the speaker. Preserve the rhetorical question and conversational tone."
+    }
+  ],
+  "retained": [
+    {
+      "id": 4521,
+      "reason": "The current Korean already uses 중앙 홀(Main Hall), matching the English main hall and Japanese メインホール."
+    }
+  ]
+}

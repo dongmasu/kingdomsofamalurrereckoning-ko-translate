@@ -1,0 +1,62 @@
+{
+  "range": [61750, 61999],
+  "source": {
+    "sequential_review": "dialogue-context-default-61750-61999-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_candidate_ids": [
+    61754, 61767, 61785, 61809, 61844, 61925, 61986, 61994
+  ],
+  "newly_reconciled_ids": [
+    61754, 61767, 61785, 61809, 61844, 61925, 61986, 61994
+  ],
+  "already_supported_ids": [
+    61754, 61767, 61785, 61809, 61844, 61925, 61986, 61994
+  ],
+  "previous_candidate_ids_rechecked": [
+    61750, 61758, 61804, 61822, 61894
+  ],
+  "previous_candidates_already_supported": [
+    61758, 61804, 61822, 61894
+  ],
+  "previous_candidate_held": [61750],
+  "existing_holds_rechecked": [
+    61782, 61836, 61845, 61926, 61940, 61999
+  ],
+  "new_range_holds": [
+    61754, 61767, 61770, 61807, 61813, 61830, 61844,
+    61854, 61871, 61872, 61935, 61977
+  ],
+  "report_only_rechecked_ids": [61758, 61918],
+  "report_only_retained_ids": [61758, 61918],
+  "changed_default_ids": [],
+  "ledger_fingerprint_changed_ids": [],
+  "ledger_dispositions_changed": false,
+  "cumulative_candidate_reconciliation": {
+    "previous": 3424,
+    "previous_total": 4026,
+    "newly_reconciled": 8,
+    "reconciled": 3432,
+    "total": 4026,
+    "percent": 85.25,
+    "remaining": 594
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "index_and_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_and_context_index_tests": "20 passed",
+    "csv_rows_order_bom_and_line_endings": "65,135 ordered IDs; UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

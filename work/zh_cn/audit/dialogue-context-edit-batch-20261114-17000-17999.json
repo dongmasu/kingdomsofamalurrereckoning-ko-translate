@@ -1,0 +1,385 @@
+{
+  "input_sha256": "b26b705ddf6466f1698f31c359a4090b303abfdb822e4e41023ab8dc3c146f9b",
+  "ledger_input_sha256": "a92948802621611b7783717bb5e0f9de283e30bb738f01bb9d60e2d545b4f3f0",
+  "output_sha256": "ab1ef5073ac5b0c59d77ba279e7b508de1bc5a16e49f85c60ad78af2a95660a3",
+  "ledger_output_sha256": "378d71b42ff6f97a9d633b3dd55affe912d9eea981179f310b2071316f6ee2a0",
+  "post_application_corrections": [
+    {"id": 26577, "find": "키프탈 사부(Master Kiftal)은", "replace": "키프탈 사부(Master Kiftal)는", "reason": "Correct the topic particle after 사부."},
+    {"id": 32759, "find": "키프탈 사부(Master Kiftal)을", "replace": "키프탈 사부(Master Kiftal)를", "reason": "Correct the object particle after 사부."}
+  ],
+  "scope": "Re-adjudicate all 34 current correction candidates from default IDs 17000-17999 against current English, Japanese, Chinese, and Korean. Apply source-supported corrections and align directly linked terminology and repeated-source groups.",
+  "matching": "For each listed ID, read its current Texto, require each listed fragment to match exactly the stated number of times, construct the complete replacement field, then apply it sequentially through tools/replace_text_preserve_eol.py with the exact ID and complete expected old/new text.",
+  "candidate_ids": [
+    17011, 17028, 17030, 17123, 17133, 17145, 17151, 17189, 17234, 17238,
+    17264, 17289, 17291, 17303, 17318, 17335, 17361, 17377, 17403, 17451,
+    17457, 17474, 17522, 17597, 17598, 17650, 17657, 17683, 17685, 17745,
+    17749, 17901, 17936, 17937
+  ],
+  "candidate_results": {
+    "corrected": [
+      17011, 17028, 17030, 17123, 17133, 17145, 17151, 17189, 17234, 17264,
+      17289, 17291, 17303, 17318, 17335, 17361, 17377, 17403, 17451, 17457,
+      17522, 17597, 17598, 17657, 17683, 17685, 17745, 17749, 17901,
+      17936, 17937
+    ],
+    "already_resolved": [17238, 17650],
+    "retained": [17474],
+    "holds": []
+  },
+  "outcomes": {
+    "17238": "The active Korean already pairs 위대한 장군(The Great General); the exact-English related entries 473 and 2163 use the same pairing.",
+    "17650": "The active Korean already uses the approved shared passage; ID 3178 will be aligned to it while its following Brenner clause remains distinct.",
+    "17474": "Retain 이쑤시개들(Toothpicks): the SQ139/TRSQ01 review establishes Toothpicks as a row-scoped short reference to Draug's Toothpicks, and the exact-English copies are already identical."
+  },
+  "related_context_reviews": [
+    {
+      "ids": [473, 2163, 17238],
+      "reason": "The Great General title pairing was checked across the exact-English narrative copies and the related dialogue row; all three are already aligned."
+    },
+    {
+      "ids": [2270, 17289, 28445, 56303, 59057],
+      "reason": "Align shortened capitalized Glass references to the established Glass of Ambient mirror sense while preserving each sentence and its register."
+    },
+    {
+      "ids": [17291, 19214],
+      "reason": "These rows have identical English, Japanese, and Chinese sources; use the same Korean sentence in both."
+    },
+    {
+      "ids": [3178, 17650],
+      "reason": "Align only the identical shared first two sentences about Ysa's defenses; preserve the different following subjects, Brenner and the Varani."
+    },
+    {
+      "ids": [17451, 21589, 32057, 50445],
+      "reason": "Use 오물 배출관 for the explicit refuse-pipe route; 21589 already uses the established term and remains otherwise untouched in this batch."
+    },
+    {
+      "ids": [17598, 22432, 63146],
+      "reason": "Align Leechwood naming and the supported -하기 objective form, preserving the journal's sequence and meaning."
+    },
+    {
+      "ids": [17683, 24136],
+      "reason": "Both source labels spell the reagent Skyblossom as one word; align the exact English pairing in both rows."
+    },
+    {
+      "ids": [7014, 17937, 26577, 29585, 32759, 33411, 47846, 47943, 54943, 62794, 63613],
+      "reason": "Align the documented Master Kiftal name/title form as 키프탈 사부(Master Kiftal); retain each row's apothecary, quest, potion, and Master Makers content."
+    },
+    {
+      "ids": [17749, 22719, 32802, 43609],
+      "reason": "Align the four reviewed Horace references to the established 호러스(Horace) spelling without changing their distinct sentence content."
+    },
+    {
+      "ids": [3782, 17685],
+      "reason": "Correct the topic particle after the established short form 성약단(The Testament); retain full Belen's Testament references unchanged."
+    }
+  ],
+  "edits": [
+    {
+      "ids": [17011],
+      "find": "수호자 카드는 신념과 진실, 역경에 맞서는 이들을 상징한다.",
+      "replace": "수호자(The Guardian)는 신념과 진실, 역경에 맞서는 이들의 카드다.",
+      "reason": "Pair the named Fate card and state naturally that it represents faith, truth, and those who face adversity."
+    },
+    {
+      "ids": [17028],
+      "find": "내가 못 보는 무언가를 알고 있겠지.",
+      "replace": "내가 보지 못하는 무언가를 볼 수 있겠지.",
+      "reason": "Correct the source meaning: the Beckoned can see something the speaker cannot see, not merely know it."
+    },
+    {
+      "ids": [17030],
+      "find": "자기들 도시에 감옥이 필요 없다고 생각하지만",
+      "replace": "자기네 도시에 감옥이 필요 없다고 믿고 싶어 하지만",
+      "reason": "Restore the cynical want-to-believe nuance of like to think, supported by the Japanese source."
+    },
+    {
+      "ids": [17123],
+      "find": "네가 하는 말은 아주, 아주 신중하게 생각해 봐.",
+      "replace": "네가 무슨 말을 하는지 아주, 아주 신중히 생각해 봐.",
+      "reason": "Keep the warning and emphatic repetition while fixing the awkward object construction."
+    },
+    {
+      "ids": [17133],
+      "find": "페이트위버(Fateweaver) 모라 찰린(Maura Chalin)은 투아사(Tuatha)에게 자기 집에 감금된 채 대전당에 있어.",
+      "replace": "페이트위버(Fateweaver) 모라 찰린(Maura Chalin)은 투아사(Tuatha)에게 자기 집인 대전당에 갇혀 있어.",
+      "reason": "Clarify that the great chamber is her home and avoid the unclear relation between being imprisoned at home and being at the chamber."
+    },
+    {
+      "ids": [17145],
+      "find": "오랫동안 페이(Fae)의 요새에서 아무런 소식도 들리지 않고, 아무것도 보이지 않았다.",
+      "replace": "오랫동안 페이(Fae)의 요새에서는 아무런 소식도 들려오지 않았고, 눈에 띄는 움직임도 없었어.",
+      "reason": "Replace the awkward passive narrative construction with a natural conversational statement matching the source."
+    },
+    {
+      "ids": [17151],
+      "find": "고(故) 개스티어 경께",
+      "replace": "고(故) 개스티어 경(Lord Gastyr)께",
+      "reason": "Restore the English pairing in the letter salutation while preserving the respectful address to the deceased lord."
+    },
+    {
+      "ids": [17189],
+      "find": "그가 비탄의 집을 떠난 이유",
+      "replace": "그가 비탄의 집(House of Sorrows)을 떠난 이유",
+      "reason": "Pair the capitalized House reference with the established faction name."
+    },
+    {
+      "ids": [17234],
+      "find": "그 초록내기 제자는",
+      "replace": "그 풋내기 제자는",
+      "reason": "Use natural Korean for an inexperienced apprentice rather than the literal and awkward 초록내기."
+    },
+    {
+      "ids": [17264],
+      "find": "아… 다시 보니… 반갑군. 미안하네.",
+      "replace": "아… 다시 보니 반가워. 미안해.",
+      "reason": "Make the utterance's speech level consistently informal, as in the Japanese source, without changing its hesitation."
+    },
+    {
+      "ids": [17289],
+      "find": "유리로 더 잘 볼 수 있을 거라 생각했던 모양이야.",
+      "replace": "거울로 더 잘 볼 수 있을 거라 생각했던 모양이야.",
+      "reason": "Use the quest-context-supported mirror sense of the Glass of Ambient."
+    },
+    {
+      "ids": [17291],
+      "find": "페이(Fae)의 마법을 하찮은 일에 쓰지 않고는 농사조차 지을 수 없어서, 그들이 당신을 이 페이(Fae) 동굴로 보낸 거군요.",
+      "replace": "페이(Fae) 마법을 하찮은 농사에까지 써야 하니, 그들이 당신을 이 페이(Fae) 동굴로 보낸 거군요.",
+      "reason": "Remove the cumbersome double negative while preserving the speaker's contempt for debasing Fae sorcery on farming."
+    },
+    {
+      "ids": [17303],
+      "find": "그건 무모한 짓이야.",
+      "replace": "그건 어리석은 짓이야.",
+      "reason": "Translate folly as foolishness rather than adding the narrower idea of recklessness."
+    },
+    {
+      "ids": [17318],
+      "find": "네 동료 범죄자들과",
+      "replace": "네 동료 불량배들과",
+      "reason": "Preserve the dismissive insult without asserting that the companions are criminals."
+    },
+    {
+      "ids": [17335],
+      "find": "엘리 템스(Eli Tems)가 때 이르게 죽어 퀘스트를 완료할 수 없었다.",
+      "replace": "엘리 템스(Eli Tems)가 너무 일찍 세상을 떠나 퀘스트를 완료할 수 없었다.",
+      "reason": "Replace the stiff literal rendering of untimely demise with natural Korean while retaining the quest-log past tense."
+    },
+    {
+      "ids": [17361],
+      "find": "아풀레 비르(Apule Vire)와 대화",
+      "replace": "아풀레 비르(Apule Vire)와 대화하기",
+      "reason": "Use the established neutral -하기 form for this action objective."
+    },
+    {
+      "ids": [17377],
+      "find": "스카이스의 선조들",
+      "replace": "스케이스(Scaith)의 선조들",
+      "reason": "Use the established Scaith spelling and English pairing; leave the identity/title of the First unresolved."
+    },
+    {
+      "ids": [17403],
+      "find": "그런데도 사람들은 내가 이상하다고 하더라.",
+      "replace": "사람들은 나더러 이상하다고 하더라.",
+      "reason": "Remove an unsupported contrastive 그런데도 and use a natural conversational construction."
+    },
+    {
+      "ids": [17451],
+      "find": "오물 배수관",
+      "replace": "오물 배출관",
+      "reason": "Align the explicit Castle Ansilla refuse-pipe route with the established terminology in the linked quest rows."
+    },
+    {
+      "ids": [17457],
+      "find": "부적과 주문을 보고 해제할 수 있게",
+      "replace": "마법과 주문을 알아보고 해제할 수 있게",
+      "reason": "English, Japanese, and Chinese describe magic and spells, not physical talismans."
+    },
+    {
+      "ids": [17522],
+      "find": "그들이 어디 있을까…",
+      "replace": "열쇠는 어디 있을까…",
+      "reason": "The following quest context identifies the referent as Wyl's missing keys; name the object instead of a pronoun that reads as people."
+    },
+    {
+      "ids": [17597],
+      "find": "우리의 차가운 친족은 악한 것이 아니라, 교활함에서 쇠락에 이르기까지 자연의 어두운 진실을 드러낼 뿐이다.",
+      "replace": "우리의 차가운 친족은 악한 것이 아니라, 미묘함에서 쇠락에 이르는 자연의 어두운 진실을 드러낼 뿐이다.",
+      "reason": "Translate subtlety without the strongly negative cunning implied by 교활함 and retain the source's range to decay."
+    },
+    {
+      "ids": [17598],
+      "find": "거머리나무는 어디서 찾을 수 있지?",
+      "replace": "리치우드(Leechwood)는 어디서 찾을 수 있지?",
+      "reason": "Use the established name for this reagent rather than a literal mistranslation."
+    },
+    {
+      "ids": [17657],
+      "find": "명장들(Master Makers) 중 한 명 이상이 죽었다.",
+      "replace": "명장들(Master Makers) 가운데 한 명 이상이 죽었다.",
+      "reason": "Remove the redundant plural construction while retaining the established group name and source meaning."
+    },
+    {
+      "ids": [17683, 24136],
+      "find": "하늘꽃(Sky Blossom)",
+      "replace": "하늘꽃(Skyblossom)",
+      "reason": "Match the exact one-word source spelling at both reviewed Skyblossom labels."
+    },
+    {
+      "ids": [17685],
+      "find": "성약단(The Testament)는",
+      "replace": "성약단(The Testament)은",
+      "reason": "Correct the topic particle after the established Korean faction name."
+    },
+    {
+      "ids": [17745],
+      "find": "그가 서두르는 이유는",
+      "replace": "그녀가 서두르는 이유는",
+      "reason": "English repeatedly identifies Selinia as she; correct the isolated pronoun while preserving the tale's line breaks."
+    },
+    {
+      "ids": [17749, 22719],
+      "find": "호레이스(Horace)",
+      "replace": "호러스(Horace)",
+      "reason": "Align the exact-English duplicate pair to the established Horace spelling."
+    },
+    {
+      "ids": [32802],
+      "find": "호레이스에게",
+      "replace": "호러스(Horace)에게",
+      "reason": "Align this reviewed Horace occurrence to the established spelling and restore its English pairing."
+    },
+    {
+      "ids": [43609],
+      "find": "호레이스는",
+      "replace": "호러스(Horace)는",
+      "reason": "Align this reviewed Horace occurrence to the established spelling and restore its English pairing."
+    },
+    {
+      "ids": [17901],
+      "find": "홀로(Hollow) 더 깊숙이 들어가야 한다",
+      "replace": "동굴(Hollow) 안쪽으로 더 깊이 들어가야 한다",
+      "reason": "Translate the capitalized location as the cave identified by the Japanese and Chinese sources, not as the adverb 홀로."
+    },
+    {
+      "ids": [17936],
+      "find": "도움도 안 되는군.",
+      "replace": "영 도움이 안 되네.",
+      "reason": "Make the dismissive complaint conversational, in line with the Japanese source."
+    },
+    {
+      "ids": [17937, 47943, 54943],
+      "find": "마스터 키프탈(Master Kiftal)에게 돌아가기",
+      "replace": "키프탈 사부(Master Kiftal)에게 돌아가기",
+      "reason": "Use the established Korean title/name order and English pairing for Master Kiftal."
+    },
+    {
+      "ids": [19214],
+      "find": "페이(Fae)의 마법을 하찮은 일에 쓰지 않고는 농사조차 지을 수 없어서, 그들이 당신을 이 페이(Fae) 동굴로 보낸 거군요.",
+      "replace": "페이(Fae) 마법을 하찮은 농사에까지 써야 하니, 그들이 당신을 이 페이(Fae) 동굴로 보낸 거군요.",
+      "reason": "Keep the exact-English/Japanese/Chinese duplicate identical to the corrected Korean at ID 17291."
+    },
+    {
+      "ids": [3178],
+      "find": "이 한 쌍의 단검에는 이사(Ysa)의 방어 시설과 강점, 약점이 기록되어 있다고 봐.",
+      "replace": "이 한 쌍의 단검에는 이사(Ysa)의 방어 체계가 담겨 있다고 봐. 어디가 강하고 약한지 말이야.",
+      "reason": "Align the two source-identical sentences with ID 17650; keep the following Brenner clause distinct."
+    },
+    {
+      "ids": [32057],
+      "find": "폐기물 배출관",
+      "replace": "오물 배출관",
+      "reason": "Align this explicit refuse-pipe reference with the same castle route's established Korean term."
+    },
+    {
+      "ids": [50445],
+      "find": "쓰레기 배출관",
+      "replace": "오물 배출관",
+      "reason": "Align this explicit refuse-pipe reference with the same castle route's established Korean term."
+    },
+    {
+      "ids": [22432],
+      "find": "아인미(Ainmhi) 말로는 샘에 걸린 고대 마법 때문에 그 샘이 요르반(Yolvan)을 떠돌아다닌대. 거머리나무를 가져가면 샘물을 뜰 수 있다고 해. 귀한 재료를 찾아야 해.",
+      "replace": "아인미(Ainmhi)의 말에 따르면 샘에 걸린 고대 마법 때문에 샘이 요르반(Yolvan)을 떠돌아다닌다고 한다. 리치우드(Leechwood)를 샘에 가져가면 물을 뜰 수 있다고 한다. 귀한 재료를 찾아야겠다.",
+      "reason": "Use Leechwood consistently and make the journal's reported information and next action natural without changing the wandering well or reagent sequence."
+    },
+    {
+      "ids": [63146],
+      "find": "리치우드 나무껍질(Leechwood Bark) 수확",
+      "replace": "리치우드 나무껍질(Leechwood Bark) 수확하기",
+      "reason": "Use the established neutral -하기 form for this action objective."
+    },
+    {
+      "ids": [7014],
+      "expected_matches": 2,
+      "find": "키프탈(Kiftal) 사부",
+      "replace": "키프탈 사부(Master Kiftal)",
+      "reason": "Align both references in the journal to the approved Master Kiftal title/name form."
+    },
+    {
+      "ids": [26577],
+      "find": "마스터 키프탈(Kiftal)",
+      "replace": "키프탈 사부(Master Kiftal)",
+      "reason": "Align the apothecary's title/name while preserving the separate apothecary role and the quest details."
+    },
+    {
+      "ids": [29585, 47846],
+      "find": "키프탈(Kiftal) 사부",
+      "replace": "키프탈 사부(Master Kiftal)",
+      "reason": "Align the standalone title/name labels to the approved Master Kiftal form."
+    },
+    {
+      "ids": [32759],
+      "find": "약제사 마스터 키프탈(Kiftal)",
+      "replace": "약제사 키프탈 사부(Master Kiftal)",
+      "reason": "Align the title/name and retain the apothecary role and source meaning."
+    },
+    {
+      "ids": [33411],
+      "find": "키프탈(Kiftal) 사부",
+      "replace": "키프탈 사부(Master Kiftal)",
+      "reason": "Align the direct-reference form with the established title/name pairing."
+    },
+    {
+      "ids": [62794],
+      "find": "마스터 키프탈(Kiftal)",
+      "replace": "키프탈 사부(Master Kiftal)",
+      "reason": "Align only the character title/name; retain the separately unresolved Master Makers terminology."
+    },
+    {
+      "ids": [63613],
+      "find": "마스터 키프탈(Kiftal)이 만든",
+      "replace": "키프탈 사부(Master Kiftal)가 만든",
+      "reason": "Align the potion maker's title/name and attach the Korean subject particle to 사부."
+    },
+    {
+      "ids": [3782],
+      "find": "성약단(The Testament)는",
+      "replace": "성약단(The Testament)은",
+      "reason": "Correct the same particle error in the directly linked short Testament reference."
+    },
+    {
+      "ids": [2270],
+      "find": "그 유리(Glass)를 가져와야 해.",
+      "replace": "그 거울을 가져와야 해.",
+      "reason": "Use the established mirror sense for this shortened capitalized reference to the Glass of Ambient."
+    },
+    {
+      "ids": [28445],
+      "find": "유리(Glass)까지 가려면",
+      "replace": "거울(Glass)까지 가려면",
+      "reason": "Use the established mirror sense while retaining the source's shortened Glass label."
+    },
+    {
+      "ids": [56303],
+      "find": "글라스(Glass)는",
+      "replace": "거울은",
+      "reason": "Use the established mirror sense for this shortened capitalized Glass reference."
+    },
+    {
+      "ids": [59057],
+      "find": "글래스는 어디서 찾을 수 있지?",
+      "replace": "거울은 어디서 찾을 수 있지?",
+      "reason": "Use the established mirror sense for this shortened capitalized Glass reference."
+    }
+  ]
+}

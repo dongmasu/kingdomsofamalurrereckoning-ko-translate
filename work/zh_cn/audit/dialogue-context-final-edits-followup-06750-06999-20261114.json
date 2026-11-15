@@ -1,0 +1,244 @@
+{
+  "range": [
+    6750,
+    6999
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 21,
+  "reconciled_candidate_ids": 21,
+  "changed_rows": [
+    1200,
+    3814,
+    5258,
+    6758,
+    6783,
+    6817,
+    6829,
+    6853,
+    6872,
+    6878,
+    6893,
+    6916,
+    6976,
+    11027,
+    15745,
+    23049,
+    25806,
+    50242,
+    57663
+  ],
+  "edits": [
+    {
+      "id": 6758,
+      "old": "사반트 엥가르(Savant Engar)가 멜 아글리르(Mel Aglir) 마을에서 레르카라 펠(Lerkara Fel)이라는 숙련자를 찾으라고 했다. 그녀는 마을에서 벌어진 기이한 실종 사건을 조사하러 파견됐지만, 이제 그녀마저 사라졌다. 멜 아글리르(Mel Aglir)로 가는 길에 스콜리아 아르카나(Scholia Arcana)의 연락책을 만나면 더 많은 정보를 얻을 수 있을 것이다.",
+      "new": "사반트 엥가르(Savant Engar)가 멜 아글리르(Mel Aglir) 마을에서 숙련자 레르카라 펠(Adept Lerkara Fel)을 찾으라고 했다. 그녀는 마을에서 벌어진 기이한 실종 사건을 조사하러 파견됐지만, 이제 그녀마저 사라졌다. 멜 아글리르로 가는 길에 스콜리아 아르카나(Scholia Arcana)의 연락책을 만나면 더 많은 정보를 얻을 수 있을 것이다.",
+      "reason": "Paired Lerkara's rank and name together, kept Savant Engar's established title form, and removed a redundant second English pairing for Mel Aglir."
+    },
+    {
+      "id": 6783,
+      "old": "네 여동생 몰리(Molly)",
+      "new": "네 자매인 몰리(Molly)",
+      "reason": "English does not specify Molly's age relative to the addressee; use an age-neutral sibling term."
+    },
+    {
+      "id": 6817,
+      "old": "결투에서 웨일런(Walen)의 보조인을 맡기로 했다. 장교 클럽에서 상대를 만나기 전에, 웬딩(Wending)에 있는 겔파인(Gelphyne)에게 그림자 장미(Rose-of-Shadows)를 사다 줘야 해.",
+      "new": "결투에서 웨일런(Walen)의 조력자 역할을 맡기로 했다. 장교 클럽에서 상대를 만나기 전에, 웬딩(Wending)에 있는 겔파인(Gelphyne)에게 그림자 장미(Rose-of-Shadows)를 사다 줘야 해.",
+      "reason": "Clarified the role of a second in a duel as an assistant/attendant, matching the Japanese reference."
+    },
+    {
+      "id": 6829,
+      "old": "화려하면서도 튼튼한 이 의식용 각반은 드베르가(Dverga) 대장장이들이 인간 고관에게 선물하려고 만든 것이다. 하지만 그가 받기도 전에 세상을 떠났다. 전통적인 드베르간(Dvergan) 양식을 따랐지만 더 크고 두꺼워, 실제로 입기보다는 과시하기 위한 갑옷 세트다.",
+      "new": "화려하면서도 튼튼한 이 의식용 차우스(Chausses)는 드베르가(Dverga) 대장장이들이 인간 고관에게 선물하려고 만든 것이다. 하지만 그가 받기도 전에 세상을 떠났다. 전통적인 드베르간(Dvergan) 양식을 따랐지만 더 크고 두꺼워, 실제로 입기보다는 과시하기 위한 갑옷 세트다.",
+      "reason": "Used the source-specific chausses item name rather than conflating it with leggings."
+    },
+    {
+      "id": 6853,
+      "old": "호루라기 사용",
+      "new": "호루라기 사용하기",
+      "reason": "Made the action objective consistent with the established Korean objective form."
+    },
+    {
+      "id": 6872,
+      "old": "운명에 맹세코, 난 땜장이야. 대체 어떤 야만인이 땜장이를 공격하지?",
+      "new": "맙소사, 난 땜장이야. 대체 어떤 야만인이 땜장이를 공격하지?",
+      "reason": "Replaced an unnatural literal oath with the conversational exclamation supported by Japanese."
+    },
+    {
+      "id": 6878,
+      "old": "남은 사람이 얼마 없더라도 넌 이븐타이드(Eventide)의 친구야. 이 열쇠를 받아. 우리 일족의 숨겨진 보물창고를 열 수 있어. 이제 그 안에서 찾는 보물은 무엇이든 가져가도 돼.",
+      "new": "남은 사람이 얼마 없더라도 넌 이븐타이드(Eventide)의 친구야. 이 열쇠를 받아. 우리 씨족의 숨겨진 보물창고를 열 수 있어. 이제 그 안에서 찾는 보물은 무엇이든 가져가도 돼.",
+      "reason": "Standardized the English clan reference as 씨족 and aligned its exact-English duplicate."
+    },
+    {
+      "id": 6893,
+      "old": "이리 오게, 동료 트래블러(Traveler). 입을 달래는 데는 소문만 한 게 없지, 그렇지?",
+      "new": "어서 오게, 동료 트래블러(Traveler). 수다만큼 마음을 달래 주는 것도 없지, 안 그래?",
+      "reason": "Recast the whole greeting in conversational Korean and expressed gossip as comforting, consistent with Japanese."
+    },
+    {
+      "id": 6916,
+      "old": "목마른 처녀 여관(Thirsty Wench)에서 어울리는 것도 괜찮아. 베라는 꽤 웃기거든. 그 입담이면 트래블러(Traveler)가 돼도 되겠어.",
+      "new": "목마른 처녀 여관(Thirsty Wench)에서 어울리는 것도 괜찮아. 베라(Bera)는 꽤 웃기거든. 그 입담이면 트래블러(Traveler)가 돼도 되겠어.",
+      "reason": "Added the omitted English pairing for Bera."
+    },
+    {
+      "id": 6976,
+      "old": "이런, 기도... 동료 아닌가. 어?",
+      "new": "어라, 내 공범... 아니, 기도 동료였나? 어?",
+      "reason": "Preserved the comic self-correction from partner in crime to partner in prayer in natural Korean."
+    },
+    {
+      "id": 1200,
+      "old": "이븐타이드(Eventide) 부족은 생존자가 하나도 없다고 들었어. 가스크(Gask)가 모두 대순환으로 보냈대.",
+      "new": "이븐타이드(Eventide) 씨족은 생존자가 하나도 없다고 들었어. 가스크(Gask)가 모두 대순환으로 보냈대.",
+      "reason": "Standardized clan Eventide as 씨족."
+    },
+    {
+      "id": 3814,
+      "old": "한때 이븐타이드(Eventide) 일족은 번성했어요. 하지만 투아사(Tuatha)가 고갯길로 쳐들어와 주민들을 학살하고 마을을 초토화했죠.",
+      "new": "한때 이븐타이드(Eventide) 씨족은 번성했어요. 하지만 투아사(Tuatha)가 고갯길로 쳐들어와 주민들을 학살하고 마을을 초토화했죠.",
+      "reason": "Standardized the explicit clan reference as 씨족."
+    },
+    {
+      "id": 5258,
+      "old": "누군가 와 주길 바랐어요. 이런 광경을 본 적 있나요? 이런 폭력과 끔찍한 것들을요? 도무지 이해할 수 없어요. 처음엔 이븐타이드(Eventide) 부족이었는데, 이제는 바레스(Bareth)까지...",
+      "new": "누군가 와 주길 바랐어요. 이런 광경을 본 적 있나요? 이런 폭력과 끔찍한 것들을요? 도무지 이해할 수 없어요. 처음엔 이븐타이드(Eventide) 씨족이었는데, 이제는 바레스(Bareth)까지...",
+      "reason": "Standardized clan Eventide as 씨족; the exact-English duplicate at 23049 was changed identically."
+    },
+    {
+      "id": 11027,
+      "old": "우리가 소수일지라도, 이븐타이드(Eventide) 일족은 영원히 너를 '친구'라 부를 거야.",
+      "new": "우리가 소수일지라도, 이븐타이드(Eventide) 씨족은 영원히 너를 '친구'라 부를 거야.",
+      "reason": "Standardized the explicit clan reference as 씨족."
+    },
+    {
+      "id": 15745,
+      "old": "그는 이븐타이드(Eventide) 일족의 존경받는 일원이었어. 바레스(Bareth)는 머건(Murghan)과 함께 일하며 그들을 이해하려고 애썼지.",
+      "new": "그는 이븐타이드(Eventide) 씨족의 존경받는 일원이었어. 바레스(Bareth)는 머건(Murghan)과 함께 일하며 그들을 이해하려고 애썼지.",
+      "reason": "Standardized Eventide clan terminology."
+    },
+    {
+      "id": 23049,
+      "old": "누군가 와 주길 바랐어요. 이런 광경을 본 적 있나요? 이런 폭력과 끔찍한 것들을요? 도무지 이해할 수 없어요. 처음엔 이븐타이드(Eventide) 부족이었는데, 이제는 바레스(Bareth)까지...",
+      "new": "누군가 와 주길 바랐어요. 이런 광경을 본 적 있나요? 이런 폭력과 끔찍한 것들을요? 도무지 이해할 수 없어요. 처음엔 이븐타이드(Eventide) 씨족이었는데, 이제는 바레스(Bareth)까지...",
+      "reason": "Matched the exact-English duplicate at 5258 and standardized clan as 씨족."
+    },
+    {
+      "id": 25806,
+      "old": "투아사(Tuatha)에게 멸망하기 전까지 이븐타이드(Eventide)는 가장 존경받는 일족 가운데 하나였어.",
+      "new": "투아사(Tuatha)에게 멸망하기 전까지 이븐타이드(Eventide)는 가장 존경받는 씨족 가운데 하나였어.",
+      "reason": "Standardized the explicit clan reference as 씨족."
+    },
+    {
+      "id": 50242,
+      "old": "크라이아모어(Cryamor)는 이제 페이(Fae)나 알파르(Alfar)에게 위협이 되지 않는다. 감사의 표시로 넬(Nel)이 이븐타이드(Eventide) 부족의 숨겨진 보물 창고 열쇠를 주었다.",
+      "new": "크라이아모어(Cryamor)는 이제 페이(Fae)나 알파르(Alfar)에게 위협이 되지 않는다. 감사의 표시로 넬(Nel)이 이븐타이드(Eventide) 씨족의 숨겨진 보물 창고 열쇠를 주었다.",
+      "reason": "Standardized clan Eventide as 씨족."
+    },
+    {
+      "id": 57663,
+      "old": "남은 사람이 얼마 없더라도 넌 이븐타이드(Eventide)의 친구야. 이 열쇠를 받아. 우리 일족의 숨겨진 보물창고를 열 수 있어. 이제 그 안에서 찾는 보물은 무엇이든 가져가도 돼.",
+      "new": "남은 사람이 얼마 없더라도 넌 이븐타이드(Eventide)의 친구야. 이 열쇠를 받아. 우리 씨족의 숨겨진 보물창고를 열 수 있어. 이제 그 안에서 찾는 보물은 무엇이든 가져가도 돼.",
+      "reason": "Matched the exact-English duplicate at 6878."
+    }
+  ],
+  "retained": [
+    {
+      "id": 6763,
+      "reason": "마법의 궁정(Court of Enchantments) is consistent with the current corpus, including 18263; the earlier differing-form observation is stale."
+    },
+    {
+      "id": 6766,
+      "reason": "The named epithet already uses 사막의 질주자(The Desert Runner)."
+    },
+    {
+      "id": 6780,
+      "reason": "The standalone label already uses 불의 왕(Fire King)."
+    },
+    {
+      "id": 6805,
+      "reason": "The current wording describes a concluded meeting rather than a promise or task and retains the closing Shall we?"
+    },
+    {
+      "id": 6834,
+      "reason": "우리 앨더(Alder) preserves the wry address without implying sincere affection."
+    },
+    {
+      "id": 6855,
+      "reason": "여기서 내게 무슨 미래가 있겠어? is natural and conversational."
+    },
+    {
+      "id": 6870,
+      "reason": "The named event already uses 제1차 대화재(First Burning)."
+    },
+    {
+      "id": 6907,
+      "reason": "The first mention already includes the complete House of Ballads pairing."
+    },
+    {
+      "id": 6909,
+      "reason": "The standalone title already includes God Under the Mountain."
+    },
+    {
+      "id": 6938,
+      "reason": "The sentence already includes the complete 발라드의 집(House of Ballads) pairing."
+    },
+    {
+      "id": 6941,
+      "reason": "빌렸던 여인의 몸 correctly describes inhabiting a body rather than wearing clothing."
+    }
+  ],
+  "held": [
+    {
+      "id": 6779,
+      "reason": "Dyth conflicts with the Japanese and Chinese renderings; pronunciation/source typo remains unverified."
+    },
+    {
+      "id": 6781,
+      "reason": "Pit, cave, and hideout readings remain unresolved across the language references."
+    },
+    {
+      "id": 6797,
+      "reason": "Keep the Sorrows has conflicting source-language readings; the intended referent remains unknown."
+    }
+  ],
+  "ledger": {
+    "fingerprints_refreshed": [
+      3814,
+      5258,
+      57663,
+      6893,
+      11027,
+      15745,
+      23049,
+      25806,
+      50242
+    ],
+    "corrected_finding_ref": {
+      "id": 6829,
+      "value": "dialogue-context-default-06750-06999-revalidation-20261111.md"
+    }
+  },
+  "verification": {
+    "ledger_reviewed_ids": 65135,
+    "ledger_fingerprint_check": "passed",
+    "index_and_catalog_reproduction": "passed",
+    "preservation_tests": 11,
+    "context_index_tests": 9,
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "line_endings": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    }
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 359,
+    "total": 4015,
+    "percent": 8.94,
+    "remaining": 3656
+  }
+}

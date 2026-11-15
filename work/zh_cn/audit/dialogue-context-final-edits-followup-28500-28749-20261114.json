@@ -1,0 +1,63 @@
+{
+  "range": [28500, 28749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 13,
+  "range_candidate_id_list": [
+    28517,
+    28527,
+    28530,
+    28568,
+    28570,
+    28604,
+    28650,
+    28651,
+    28658,
+    28669,
+    28676,
+    28707,
+    28737
+  ],
+  "reconciled_candidate_ids": 13,
+  "newly_counted_candidate_ids": 12,
+  "previously_counted_ids": [28676],
+  "decisions": {
+    "confirmed_in_active_csv_from_prior_batch": [
+      28530,
+      28570,
+      28604,
+      28650,
+      28651,
+      28658,
+      28707
+    ],
+    "retained": [28517, 28527, 28568, 28669, 28737],
+    "previously_reconciled_linked_candidate": [28676]
+  },
+  "edits": [],
+  "fingerprints_refreshed": [],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1661,
+    "total": 4015,
+    "percent": 41.37,
+    "remaining": 2354
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "four_language_rows_checked": 13,
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "default_csv": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "line_endings": {
+        "crlf": 71838,
+        "lf_only": 244,
+        "bare_cr": 0
+      }
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

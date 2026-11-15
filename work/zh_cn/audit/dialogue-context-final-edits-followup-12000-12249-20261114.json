@@ -1,0 +1,118 @@
+{
+  "range": [12000, 12249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 8,
+  "range_candidate_id_list": [
+    12001,
+    12090,
+    12130,
+    12131,
+    12159,
+    12164,
+    12173,
+    12225
+  ],
+  "reconciled_candidate_ids": 8,
+  "decisions": {
+    "previously_applied_confirmed": [
+      12001,
+      12090,
+      12130,
+      12131,
+      12159,
+      12164,
+      12225
+    ],
+    "retained_after_source_review": [
+      12173
+    ],
+    "newly_applied": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Irion, King of Cups": [
+      147,
+      2345,
+      4961,
+      6644,
+      9748,
+      12159,
+      13670,
+      15598,
+      20444,
+      30849,
+      33018,
+      35070,
+      49949,
+      52369,
+      54932,
+      56837,
+      57745,
+      59823,
+      61570,
+      63233
+    ],
+    "Hermit Smith": [
+      8360,
+      10939,
+      11581,
+      12164,
+      14861,
+      19097,
+      28676,
+      28839,
+      59710
+    ]
+  },
+  "fingerprints_refreshed": {
+    "0119d221af02202ef552e380d3b2d84600123bc60097019385078efb1046369f": [
+      147,
+      2345,
+      4961,
+      6644,
+      9748,
+      12159,
+      15598,
+      30849,
+      33018,
+      35070,
+      59823,
+      61570,
+      63233
+    ],
+    "cdf6d0f1836366b929fc0e86dcd35a88aa1af68caddb3d339dcce64c2020b7cc": [
+      13670,
+      20444,
+      49949,
+      52369,
+      54932,
+      56837,
+      57745
+    ],
+    "7266d0661477124a77789477b99fa3c96674f5542bfc2b119d84c2c230b3b95b": [
+      12173
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 728,
+    "total": 4015,
+    "percent": 18.13,
+    "remaining": 3287
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "manifest_json": "valid"
+  }
+}

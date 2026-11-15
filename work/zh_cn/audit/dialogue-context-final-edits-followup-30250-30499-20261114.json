@@ -1,0 +1,95 @@
+{
+  "range": [30250, 30499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 21,
+  "range_candidate_id_list": [
+    30265,
+    30266,
+    30277,
+    30290,
+    30321,
+    30331,
+    30336,
+    30348,
+    30363,
+    30371,
+    30374,
+    30375,
+    30384,
+    30398,
+    30401,
+    30408,
+    30409,
+    30411,
+    30420,
+    30430,
+    30474
+  ],
+  "reconciled_candidate_ids": 21,
+  "newly_counted_candidate_ids": 21,
+  "previously_counted_ids": [],
+  "decisions": {
+    "edits": [
+      {
+        "id": 30363,
+        "reason": "Added the source-supported full name and place-name pairings after checking the complete casualty notice."
+      }
+    ],
+    "linked_edits_outside_candidate_range": [
+      {
+        "id": 48802,
+        "reason": "The matching casualty-notice clause also omitted FireTrench's English pairing."
+      }
+    ],
+    "confirmed_or_retained_in_active_csv": [
+      30265,
+      30266,
+      30277,
+      30290,
+      30321,
+      30331,
+      30336,
+      30348,
+      30371,
+      30374,
+      30375,
+      30384,
+      30398,
+      30401,
+      30408,
+      30409,
+      30411,
+      30420,
+      30430,
+      30474
+    ],
+    "holds_outside_candidate_pool": [30347, 30364, 30378, 30390]
+  },
+  "fingerprints_refreshed": [30363, 48802],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1775,
+    "total": 4015,
+    "percent": 44.21,
+    "remaining": 2240
+  },
+  "verification": {
+    "four_language_candidate_rows_checked": 21,
+    "linked_source_rows_checked": [17946, 21512, 23153, 52412, 48802],
+    "translation_csv_changed": true,
+    "changed_ids": [30363, 48802],
+    "source_csv_or_extracted_asset_changed": false,
+    "default_csv": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "line_endings": {
+        "crlf": 71838,
+        "lf_only": 244,
+        "bare_cr": 0
+      }
+    },
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "regression_tests": "passed (20 tests)",
+    "manifest_json": "valid"
+  }
+}

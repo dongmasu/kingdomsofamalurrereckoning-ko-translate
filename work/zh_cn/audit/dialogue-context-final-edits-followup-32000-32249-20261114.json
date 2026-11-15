@@ -1,0 +1,61 @@
+{
+  "range": [32000, 32249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 18,
+  "range_candidate_id_list": [
+    32020, 32057, 32058, 32097, 32115, 32128, 32135, 32144, 32146,
+    32169, 32170, 32181, 32188, 32212, 32217, 32225, 32238, 32241
+  ],
+  "linked_candidate_ids_outside_range": [33619],
+  "reconciled_candidate_ids": 19,
+  "newly_counted_candidate_ids": [
+    32020, 32057, 32058, 32097, 32115, 32128, 32135, 32144, 32146,
+    32169, 32170, 32181, 32188, 32212, 32217, 32225, 32238, 32241,
+    33619
+  ],
+  "decisions": {
+    "confirmed_existing_edits": [
+      32020, 32058, 32097, 32128, 32135, 32144, 32169, 32170,
+      32181, 32188, 32212, 32217, 32225, 32238, 32241
+    ],
+    "retained_after_source_check": [32057, 32115, 32146],
+    "exact_english_duplicate_pair": [32241, 33619],
+    "held_outside_candidate_pool": [32063, 32226, 32239]
+  },
+  "related_consistency_groups": {
+    "travesties": [32020, 40355],
+    "Chaos Scholar": [1488, 1691, 32217, 51109],
+    "Watchers": [32225, 3242, 40558, 44903, 46147],
+    "The Ansilla Seal": [32241, 33619, 52784]
+  },
+  "fingerprints_refreshed": [],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1900,
+    "total": 4015,
+    "percent": 47.32,
+    "remaining": 2115
+  },
+  "verification": {
+    "four_language_candidate_rows_checked": 18,
+    "linked_candidate_rows_checked": [33619],
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "default_csv": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "line_endings": {
+        "crlf": 71838,
+        "lf_only": 244,
+        "bare_cr": 0
+      },
+      "previous_edit_batch_crlf_count_not_reproduced": 71842
+    },
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "regression_tests": "passed (11 CSV-preservation tests; 9 context-index tests)",
+    "generated_index_and_catalog_checks": "passed (index, asset catalog, ID catalog)",
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

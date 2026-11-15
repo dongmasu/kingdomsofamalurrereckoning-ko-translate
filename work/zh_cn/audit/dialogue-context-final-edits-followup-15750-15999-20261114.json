@@ -1,0 +1,57 @@
+{
+  "range": [15750, 15999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 11,
+  "range_candidate_id_list": [
+    15784,
+    15794,
+    15811,
+    15816,
+    15879,
+    15885,
+    15886,
+    15933,
+    15964,
+    15965,
+    15985
+  ],
+  "reconciled_candidate_ids": 11,
+  "decisions": {
+    "previously_applied_confirmed": [
+      15784,
+      15794,
+      15811,
+      15816,
+      15879,
+      15885,
+      15886,
+      15933,
+      15964,
+      15965,
+      15985
+    ],
+    "refined": [],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Glass of Ambient and Missives of Sable": [15811, 2270, 17289, 28445, 56303, 59057],
+    "Authority": [6908, 15879, 35218, 46194],
+    "Chaos Critters": [10131, 15886, 28650],
+    "Headsman and Betheli": [15965, 21512, 23251, 23252, 58889],
+    "Omnibus Arcana directions": [15784]
+  },
+  "fingerprints_refreshed": {},
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 898,
+    "total": 4015,
+    "percent": 22.37,
+    "remaining": 3117
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

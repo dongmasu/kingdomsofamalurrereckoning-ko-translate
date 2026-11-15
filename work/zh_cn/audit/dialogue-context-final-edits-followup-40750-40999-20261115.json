@@ -1,0 +1,122 @@
+{
+  "range": [40750, 40999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-40750-40999-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "linked_reviews": [
+      "dialogue-context-default-43000-43249-revalidation-20261112.md",
+      "dialogue-context-11250-11499-candidate-reconciliation-20261114.md",
+      "dialogue-context-13750-13999-candidate-reconciliation-20261114.md"
+    ]
+  },
+  "range_candidate_ids": [
+    40758, 40766, 40782, 40791, 40802, 40824, 40841, 40863, 40890, 40911,
+    40927, 40954, 40997, 40998, 40999
+  ],
+  "newly_reconciled_ids": [
+    40758, 40766, 40782, 40791, 40802, 40824, 40841, 40863, 40890, 40911,
+    40927, 40954, 40997, 40998, 40999, 43233
+  ],
+  "newly_reconciled_total": 16,
+  "newly_identified_candidates": [
+    {
+      "id": 43233,
+      "previous_ledger_status": "not-issue",
+      "linked_exact_source_id": 40791,
+      "reason": "The English, Japanese, and Chinese source rows are identical to 40791. Applying the accepted English-primary reading revealed the same omitted soldier/appositive sense in its Korean translation."
+    }
+  ],
+  "already_reconciled_related_ids": {
+    "40758": {
+      "linked_exact_source_id": 57045,
+      "previous_review": "dialogue-context-11250-11499-candidate-reconciliation-20261114.md",
+      "reason": "The Headsman pairing was previously aligned in the exact-English occurrence group; it was still reconciled as an in-range candidate here."
+    },
+    "40782": {
+      "previous_review": "dialogue-context-13750-13999-candidate-reconciliation-20261114.md",
+      "reason": "The dreg rendering had previously been aligned; the complete in-range candidate was rechecked here, including its Testament pairing."
+    }
+  },
+  "decisions": {
+    "confirmed_current_candidate_ids": [
+      40758, 40766, 40782, 40802, 40824, 40841, 40863, 40890, 40911, 40954,
+      40997, 40998, 40999
+    ],
+    "corrected_now": [40791, 40927, 43233],
+    "evidence_limited_holds": [
+      40768, 40772, 40788, 40794, 40797, 40806, 40839, 40848, 40851, 40871,
+      40874, 40882, 40900, 40922, 40953, 40962, 40966, 40969, 40975, 40984,
+      40993
+    ]
+  },
+  "linked_exact_source_groups": {
+    "Headsman identical standalone label": {
+      "ids": [40758, 57045],
+      "result": "The exact source label and Korean pairing match."
+    },
+    "soldier/officer exact source group": {
+      "ids": [40791, 43233],
+      "result": "English, Japanese, and Chinese source strings are identical; Korean now matches across both IDs."
+    }
+  },
+  "term_consistency_groups": {
+    "Headsman bilingual-form occurrence set": {
+      "ids": [
+        1136, 4007, 11326, 11684, 15965, 18118, 21512, 23251, 24624, 32518,
+        32955, 33252, 37286, 37436, 37936, 39934, 40758, 43201, 44377, 45706,
+        48290, 48832, 52054, 55398, 57045, 63612
+      ],
+      "result": "All 26 previously checked term/name occurrences use the paired Korean form 처형인(Headsman)."
+    }
+  },
+  "edits": [
+    {
+      "id": 40791,
+      "old": "그자는 고작 장교일 뿐이야. 그렇게 무디고 무자비한 머리로는 바레스(Bareth)의 작품이 지닌 섬세함과 숭고함을 결코 이해하지 못하겠지.",
+      "new": "그자는 그저 군인, 그것도 장교에 불과해. 그렇게 무디고 무자비한 머리로는 바레스(Bareth)의 작품이 지닌 섬세함과 숭고함을 결코 이해하지 못하겠지.",
+      "reason": "English but a soldier is restrictive, with an officer as an appositive. Preserve that belittling sense and the existing casual register."
+    },
+    {
+      "id": 40927,
+      "old": "이곳에서 이사의 정원(Gardens of Ysa)의 마법의 근원인 샘(Font)을 지키고 있어. 이 샘은 세상이 생긴 이래로 생명을 길러온 원천이지.",
+      "new": "이곳에서 이사의 정원(Gardens of Ysa)의 마법의 근원인 샘(The Font)을 지키고 있어. 이 샘은 세상이 생긴 이래로 생명을 길러온 원천이지.",
+      "reason": "Use the established pairing for the named magical spring; keep generic fountainhead as 원천."
+    },
+    {
+      "id": 43233,
+      "old": "그자는 고작 장교일 뿐이야. 그렇게 무디고 무자비한 머리로는 바레스(Bareth)의 작품이 지닌 섬세함과 숭고함을 결코 이해하지 못하겠지.",
+      "new": "그자는 그저 군인, 그것도 장교에 불과해. 그렇게 무디고 무자비한 머리로는 바레스(Bareth)의 작품이 지닌 섬세함과 숭고함을 결코 이해하지 못하겠지.",
+      "reason": "Align the exact-source duplicate with 40791 and reclassify the shared meaning omission as a candidate."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2635,
+    "previous_total": 4019,
+    "newly_identified_candidates_added_to_total": 1,
+    "reconciled": 2651,
+    "total": 4020,
+    "percent": 65.95,
+    "remaining": 1369
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [40791, 40927, 43233],
+    "ledger_fingerprint_ids_refreshed": [40791, 40927, 43233],
+    "ledger_reviewed_ids": 65135,
+    "newly_reclassified_ledger_ids": [43233],
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for identical-label IDs 40758/57045, soldier/officer IDs 40791/43233, and all candidate English-duplicate groups",
+    "term_consistency_check": "passed for all 26 previously checked Headsman term/name occurrences",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

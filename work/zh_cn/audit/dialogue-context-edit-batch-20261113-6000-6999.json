@@ -1,0 +1,252 @@
+{
+  "input_sha256": "5e36603ce972019386fcbd3c107b1a1793df9b984b9657928f1ed5e2e7194f53",
+  "scope": "Apply source-verified corrections for the 6000-6999 candidate batch and its exact duplicates or directly related occurrences.",
+  "groups": [
+    {
+      "ids": [1043, 1174, 3307, 3501, 6044, 7667, 8663, 11172, 12593, 14564, 16655, 21485, 30045, 30190, 31796, 33892, 38694, 40340, 41255, 43684, 47099, 52596, 53842, 55720, 56433, 62000],
+      "find": "지팡이의 여왕 아르진(Argine)",
+      "replace": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "reason": "Pair the full title in all exact-English copies, matching the established Korean title form at ID 60044."
+    },
+    {
+      "ids": [5902],
+      "find": "덴(The Den)은 내게 별 쓸모가 없어. 온갖 불량배가 몰려드는데, 찜질약이 필요한 사람은 별로 없거든.",
+      "replace": "도박장(The Den)은 내게 별 쓸모가 없어. 온갖 불량배가 몰려드는데, 찜질약이 필요한 사람은 별로 없거든.",
+      "reason": "Use the established venue meaning for the capitalized location."
+    },
+    {
+      "ids": [6117],
+      "find": "덴에서 일하는 게 좋아. 지긋지긋한 데티어(Detyre)의 햇볕을 피할 수 있거든.",
+      "replace": "도박장(The Den)에서 일하는 게 좋아. 지긋지긋한 데티어(Detyre)의 햇볕을 피할 수 있거든.",
+      "reason": "Use the established venue meaning and pair the named shorthand."
+    },
+    {
+      "ids": [6286],
+      "find": "프란츠 엥글하트(Franz Englehart)라는 페이트위버(Fateweaver)가 덴에 자리 잡았어. 검투사와 도박꾼을 상대로 꽤 짭짤하게 번다더군.",
+      "replace": "프란츠 엥글하트(Franz Englehart)라는 페이트위버(Fateweaver)가 도박장(The Den)에 자리 잡았어. 검투사와 도박꾼을 상대로 꽤 짭짤하게 번다더군.",
+      "reason": "The surrounding gladiator-and-gambler context identifies the Den as the gambling venue."
+    },
+    {
+      "ids": [9459],
+      "find": "대사제(Hierophant)의 구역에 들어왔다. 아르진(Argine)을 찾아 들키지 않게 세이블의 서신을 심어야겠다. 그러면 책에 걸린 마법이 풀리고, 파스머(Phasmer)가 은신처로 이끌고 오는 프레토리안 근위대(Praetorians)가 그녀를 체포할 것이다. 그렇게 하면 트래블러(Travelers) 내에서 그녀의 권력을 빼앗을 수 있다.",
+      "replace": "대사제(Hierophant)의 구역에 들어왔다. 아르진(Argine)을 찾아 들키지 않게 세이블의 서신을 심어야겠다. 그러면 책에 걸린 마법이 풀리고, 파스머(Phasmer)가 도박장(The Den)으로 이끌고 오는 프레토리안 근위대(Praetorians)가 그녀를 체포할 것이다. 그렇게 하면 트래블러(Travelers) 내에서 그녀의 권력을 빼앗을 수 있다.",
+      "reason": "Context identifies the Den as the same gambling venue."
+    },
+    {
+      "ids": [6144],
+      "find": "필요한 걸 찾지 못한 사람처럼 보이는군. 내가 도와줄 수 있을지도 모르지.",
+      "replace": "필요한 걸 찾지 못한 모양이군. 내가 도와줄 수 있을지도 모르지.",
+      "reason": "Replace an English-shaped description with a natural, restrained offer."
+    },
+    {
+      "ids": [6243],
+      "find": "그래, 공포도 있고 전쟁도 있지. 하지만 영광도, 진정한 용기를 시험할 기회도 있다.",
+      "replace": "그래, 공포도 전쟁도 있지. 하지만 영광도 있고, 진정한 용기를 시험할 기회도 있어.",
+      "reason": "Naturalize the full rhetorical parallel without inferring a speaker."
+    },
+    {
+      "ids": [6245],
+      "find": "넝마 수집꾼들",
+      "replace": "넝마주이(Rag Pickers)",
+      "reason": "Use the established concise Korean group term and retain the source label."
+    },
+    {
+      "ids": [6312],
+      "find": "내 누이는 창백한 백조의 날에 틸레라 장군(General Tilera) 휘하에서 싸웠어. 클루리콘(Klurikon)에서 홀로 죽었지.",
+      "replace": "내 누이는 창백한 백조의 날(Day of the Pale Swans)에 틸레라 장군(General Tilera) 휘하에서 싸웠어. 클루리콘(Klurikon)에서 홀로 죽었지.",
+      "reason": "Pair the named historical event with its English title."
+    },
+    {
+      "ids": [6327],
+      "find": "어떻게 감사해야 할지 모르겠어. 잘 지내고, 네 꿈을 이루려 늘 노력해. 우리를 위해 네가 해 준 것처럼.",
+      "replace": "어떻게 감사해야 할지 모르겠어. 잘 지내. 네가 우리를 위해 해 준 것처럼, 언제나 네 꿈을 이루려고 노력해.",
+      "reason": "Join the dangling comparison to the source's advice while preserving the plain, warm voice."
+    },
+    {
+      "ids": [6372],
+      "find": "지하 통로와 해안 동굴에 있는 스캐브(Scavs)를 조심해. 지독한 작은 벌레들이야.",
+      "replace": "패스팅(Fastings)과 해안 동굴에 있는 스캐브(Scavs)를 조심해. 지독한 작은 벌레들이야.",
+      "reason": "Use the established term for the Dverga tunnel-and-bunker structures."
+    },
+    {
+      "ids": [6398],
+      "find": "필요하면 엘와(Elwa)에게 물약이 있어.",
+      "replace": "물약이 필요하면 엘와가 갖고 있어.",
+      "reason": "Recast an unnatural locative construction as natural casual speech."
+    },
+    {
+      "ids": [6512],
+      "find": "여기서 만나다니 반갑군. 요즘 운이 별로 없었거든. 그런데 돌브 아르네(Dolve Arne)에 다녀왔나 보군.",
+      "replace": "아, 여기서 날 찾아줘서 반갑군. 요즘 운이 좀 안 좋았지? 그런데 돌브 아르네(Dolve Arne)에 다녀왔나 보군.",
+      "reason": "Restore the source's idea of being found and its rhetorical aside about bad luck."
+    },
+    {
+      "ids": [6517],
+      "find": "그들은 엄밀히 말해 야생 페이(Wild Fae)의 일종이야. 사실 여름 궁정과 겨울 궁정의 페이(Fae)와 혈연 관계지.",
+      "replace": "그들은 엄밀히 말해 야생 페이(Wild Fae)의 일종이야. 사실 여름 궁정(Court of Summer)과 겨울 궁정(Court of Winter)의 페이(Fae)와도 관련이 있어.",
+      "reason": "Avoid narrowing the source's broad relationship to a blood relationship and complete the named-court annotations."
+    },
+    {
+      "ids": [6556],
+      "find": "상인 애스터 콜리앤(Astor Colliane)이 탐내던 투아사(Tuatha) 단검을 되찾았다. 단검을 애스터(Astor)에게 돌려줘야 그가 시워치(Seawatch)로 돌아와 예전처럼 상인 일을 할 수 있을 거다.",
+      "replace": "상인 애스터 콜리앤(Astor Colliane)이 탐내던 투아사(Tuatha) 단검을 되찾았다. 단검을 애스터(Astor)에게 전달해야 그가 시워치(Seawatch)로 돌아와 예전처럼 상인 일을 할 수 있을 거다.",
+      "reason": "Use the source-supported neutral sense of delivering the dagger, without implying prior ownership."
+    },
+    {
+      "ids": [6591],
+      "find": "이 유물을 휘두른 이들은 피로, 흉터, 사랑하는 이들에게 해를 끼치고 싶은 충동 같은 부작용을 겪었다고 보고했다. 몇 번 사용하고 나면 사용자의 손목에 “모네오(Moneo)”라는 글자가 낙인처럼 나타난다. ",
+      "replace": "이 유물을 사용한 이들은 피로, 흉터, 사랑하는 이들에게 해를 끼치고 싶은 충동 같은 부작용을 겪었다고 보고했다. 몇 번 사용하고 나면 사용자의 손목에 “모네오(Moneo)”라는 글자가 낙인처럼 나타난다. ",
+      "reason": "Use a general verb for wielding or wearing a relic, not only a weapon."
+    },
+    {
+      "ids": [6594],
+      "find": "투아사(Tuatha) 선봉대",
+      "replace": "투아사(Tuatha) 선봉대(Vangard)",
+      "reason": "Pair the source's unit label, preserving the English spelling as found."
+    },
+    {
+      "ids": [6613],
+      "find": "어서 오시오, 검투사! 한잔 드릴까요?",
+      "replace": "어서 오세요, 검투사님! 한잔 드릴까요?",
+      "reason": "Make the greeting consistently friendly and polite."
+    },
+    {
+      "ids": [6638],
+      "find": "느린 사고의 저주",
+      "replace": "사고 지연의 저주(Curse of Slow Thought)",
+      "reason": "Use the natural Korean title and pair the full source label."
+    },
+    {
+      "ids": [6650],
+      "find": "딱 한 번 본 적 있어. 서쪽 지하 통로에서 해골처럼 새하얀 얼굴을 내밀고 있었어.",
+      "replace": "딱 한 번 본 적 있어. 서쪽 패스팅(Fastings)에서 해골처럼 새하얀 얼굴을 내밀고 있었어.",
+      "reason": "Use the established term for the Dverga structure."
+    },
+    {
+      "ids": [6657],
+      "find": "지금 네가 보는 건 전쟁을 치른 자부심 넘치는 노병이야. 그러니까 내가 원하면 정오까지 여관에 앉아 술에 취해 있어도 아무도 뭐라 하지 않는다는 뜻이지.",
+      "replace": "지금 네가 보는 건 자랑스러운 참전 용사야. 그러니까 내가 원하면 정오도 되기 전에 여관에 앉아 술에 취해 있어도 아무도 뭐라 하지 않는다는 뜻이지.",
+      "reason": "Replace the awkward veteran phrase and correctly express permission to be drunk by noon."
+    },
+    {
+      "ids": [6658],
+      "find": "노움 작위 팔아요.",
+      "replace": "노움 칭호 팔아요.",
+      "reason": "Use the broader source-supported meaning of titles, not noble rank."
+    },
+    {
+      "ids": [6662],
+      "find": "알라바스트라(Alabastra)로 진격하자!",
+      "replace": "알라바스트라(Alabastra)로 가자!",
+      "reason": "Remove the unsupported military-advance meaning."
+    },
+    {
+      "ids": [4571, 6933, 13168, 18160, 20355, 23639, 24709, 27186, 29536, 31459],
+      "find": "에스윈(Eswin) 시장",
+      "replace": "에스윈 시장(Mayor Eswin)",
+      "reason": "Align all exact standalone labels with the already-used full name-and-title form at ID 5991."
+    },
+    {
+      "ids": [6703],
+      "find": "동티모르",
+      "replace": "동티모르(East Timor)",
+      "reason": "Pair the standalone named label."
+    },
+    {
+      "ids": [6724],
+      "find": "영주님의 명령으로 멜 아글리르(Mel Aglir) 너머는 순찰할 수 없소.",
+      "replace": "영주님 명령으로 멜 아글리르(Mel Aglir) 너머는 순찰할 수 없어요.",
+      "reason": "Replace the archaic sentence ending with contemporary polite speech."
+    },
+    {
+      "ids": [6734],
+      "find": "보물 사냥꾼 헬릭 크로스(Helyc Crosse)라는 이의 초대를 받아 달렌타스(Dalentarth) 남쪽의 미탐사 지역인 나로스의 이빨(Teeth of Naros) 원정에 참여했다. 헬릭(Helyc)과 떨어진 뒤, 나를 데려왔다고 주장하는 초자연적 존재와 접촉했다. 그 존재는 '프리모스(Primos)를 찾으라'고 나를 나로스의 이빨(Teeth of Naros)로 데려왔다고 했다. 그 말이 무슨 뜻인지 알아내기 위해 나로스의 이빨(Teeth of Naros)을 조사해야겠다.",
+      "replace": "보물 사냥꾼 헬릭 크로스(Helyc Crosse)라는 이의 초대를 받아 달렌타스(Dalentarth) 남쪽의 미탐사 지역인 나로스의 이빨(Teeth of Naros) 원정에 참여했다. 헬릭(Helyc)과 떨어진 뒤, 나를 데려왔다고 주장하는 초자연적 존재와 접촉했다. 그 존재는 '프리모스(Primos)를 찾으라'고 나를 나로스의 이빨로 데려왔다고 했다. 그 말이 무슨 뜻인지 알아내기 위해 나로스의 이빨을 조사해야겠다.",
+      "reason": "Keep the English pairing at first mention and remove redundant repetitions within the same journal entry."
+    },
+    {
+      "ids": [6758],
+      "find": "사반트 엥가르(Savant Engar)가 멜 아글리르(Mel Aglir) 마을에서 레르카라 펠(Lerkara Fel)이라는 숙련자를 찾으라고 했다. 그녀는 마을에서 벌어진 기이한 실종 사건을 조사하러 파견됐지만, 이제 그녀마저 사라졌다. 멜 아글리르(Mel Aglir)로 가는 길에 스콜리아 아르카나(Scholia Arcana)의 연락책을 만나면 더 많은 정보를 얻을 수 있을 것이다.",
+      "replace": "사반트 엥가르(Savant Engar)가 멜 아글리르(Mel Aglir) 마을에서 레르카라 펠(Lerkara Fel)이라는 숙련자를 찾으라고 했다. 그녀는 마을에서 벌어진 기이한 실종 사건을 조사하러 파견됐지만, 이제 그녀마저 사라졌다. 멜 아글리르로 가는 길에 스콜리아 아르카나(Scholia Arcana)의 연락책을 만나면 더 많은 정보를 얻을 수 있을 것이다.",
+      "reason": "Remove the repeated English place-name pairing within the same journal entry; retain the established Savant/Adept renderings."
+    },
+    {
+      "ids": [6766],
+      "find": "매가 데티어(Detyre)를 다스린다고들 한다. 낮에는 헬리오스(Helios)가 만물을 비추고 밤에는 루날라(Lunala)가 빛나는 얼굴로 세상을 밝히는 동안, 하늘의 날개 달린 거주자들이 모든 것을 지켜보기 때문이다. 거대한 새 사이나(Saina)는 모든 협곡을 알고 모든 그림자를 볼 수 있어, 그 시선에서 숨을 수 있는 것은 없었다고 한다. 영원한 감시 아래 누구도 놓치지 않는 데티어(Detyre)의 매, 웬센 왕(King Wencen)도 그러하다. 감시가 필요할 때면 번개처럼 내리친 전설적인 워스원(Warsworn) 켐페스트르(Cempestre), 리아나(Lyana)도 그러했다. 사막의 질주자는 그 깊은 통찰력 덕분에 살아남았다.\r\n에라셀(Erathell)에서도 마찬가지였다. 리리아(Lyria)의 무리인 알파르(Alfar)는 타이윌리 해안(Tywili Coast)의 깎아지른 절벽 사이에서 라시르(Rathir)를 찾아냈다.\r\n이 세상의 숨겨진 보물을 찾고 싶다면 매처럼 날아오르고, 박쥐처럼 깊이 파고들고, 청둥오리처럼 헤엄치고, 올빼미처럼 살펴야 한다.",
+      "replace": "매가 데티어(Detyre)를 다스린다고들 한다. 낮에는 헬리오스(Helios)가 만물을 비추고 밤에는 루날라(Lunala)가 빛나는 얼굴로 세상을 밝히는 동안, 하늘의 날개 달린 거주자들이 모든 것을 지켜보기 때문이다. 거대한 새 사이나(Saina)는 모든 협곡을 알고 모든 그림자를 볼 수 있어, 그 시선에서 숨을 수 있는 것은 없었다고 한다. 영원한 감시 아래 누구도 놓치지 않는 데티어(Detyre)의 매, 웬센 왕(King Wencen)도 그러하다. 감시가 필요할 때면 번개처럼 내리친 전설적인 워스원(Warsworn) 켐페스트르(Cempestre), 리아나(Lyana)도 그러했다. 사막의 질주자(The Desert Runner)는 그 깊은 통찰력 덕분에 살아남았다.\r\n에라셀(Erathell)에서도 마찬가지였다. 리리아(Lyria)의 무리인 알파르(Alfar)는 타이윌리 해안(Tywili Coast)의 깎아지른 절벽 사이에서 라시르(Rathir)를 찾아냈다.\r\n이 세상의 숨겨진 보물을 찾고 싶다면 매처럼 날아오르고, 박쥐처럼 깊이 파고들고, 청둥오리처럼 헤엄치고, 올빼미처럼 살펴야 한다.",
+      "reason": "Pair Lyana's named epithet at its first occurrence."
+    },
+    {
+      "ids": [6780],
+      "find": "불의 왕",
+      "replace": "불의 왕(Fire King)",
+      "reason": "Pair the standalone named title."
+    },
+    {
+      "ids": [6783],
+      "find": "네 여동생 몰리(Molly)",
+      "replace": "네 자매 몰리(Molly)",
+      "reason": "Avoid adding an unsupported age-order relationship."
+    },
+    {
+      "ids": [6805],
+      "find": "그럼 약속한 일은 이걸로 끝났군. 이제 각자 볼일을 보도록 하지.",
+      "replace": "그럼 우리 만남은 이쯤 마무리된 것 같군. 이제 각자 볼일을 보도록 하지. 그럴까?",
+      "reason": "Render appointment as the meeting just concluded, not a promise or task."
+    },
+    {
+      "ids": [6817],
+      "find": "결투에서 웨일런(Walen)의 보조인을 맡기로 했다. 장교 클럽에서 상대를 만나기 전에, 웬딩(Wending)에 있는 겔파인(Gelphyne)에게 그림자 장미(Rose-of-Shadows)를 사다 줘야 해.",
+      "replace": "결투에서 웨일런(Walen)의 보조역을 맡기로 했다. 장교 클럽에서 상대를 만나기 전에, 웬딩(Wending)에 있는 겔파인(Gelphyne)에게 그림자 장미(Rose-of-Shadows)를 사다 줘야 해.",
+      "reason": "Clarify the designated second's role in the duel."
+    },
+    {
+      "ids": [6834],
+      "find": "사랑하는 앨더(Alder)가 환영 인사는 해 줬겠지? 불쌍하고 어리석은 사람...",
+      "replace": "우리 앨더(Alder)가 환영 인사는 해 줬겠지? 불쌍하고 어리석은 사람...",
+      "reason": "Make the opening wry rather than sincerely affectionate."
+    },
+    {
+      "ids": [6855],
+      "find": "스승은 죽었고, 아버지는 밀고자에 거짓말쟁이야. 여기서 내 미래는 어디에 있지?",
+      "replace": "스승은 죽었고, 아버지는 밀고자에 거짓말쟁이야. 여기서 내게 무슨 미래가 있겠어?",
+      "reason": "Replace a stiff literal question with natural conversational Korean."
+    },
+    {
+      "ids": [6893],
+      "find": "이리 오게, 동료 트래블러(Traveler). 입을 달래는 데는 소문만 한 게 없지, 그렇지?",
+      "replace": "이리 오게, 동료 트래블러(Traveler). 수다만큼 입 풀기 좋은 것도 없지, 안 그래?",
+      "reason": "Naturalize the playful gossip idiom and keep the conversational register."
+    },
+    {
+      "ids": [6907],
+      "find": "그녀는 마녀 마그위르(Magwyr), 위대한 발라드의 집의 숙적이자 최고의 마법사야. 용맹한 웬센 왕(King Wencen)의 사랑을 얻기 위해서라면 무슨 일이든 할 거야.",
+      "replace": "그녀는 마녀 마그위르(Magwyr), 위대한 발라드의 집(House of Ballads)의 숙적이자 최고의 마법사야. 용맹한 웬센 왕(King Wencen)의 사랑을 얻기 위해서라면 무슨 일이든 할 거야.",
+      "reason": "Complete the English pairing for the named institution."
+    },
+    {
+      "ids": [2098, 6909],
+      "find": "산 아래의 신",
+      "replace": "산 아래의 신(God Under the Mountain)",
+      "reason": "Pair both exact-English copies of the named title."
+    },
+    {
+      "ids": [6941],
+      "find": "지난번 우리가 춤출 때 내가 걸쳤던 여인의 몸은 지금 이 몸만큼 강하지 않았어.",
+      "replace": "지난번 춤출 때 빌렸던 여인의 몸은 지금 이 몸만큼 강하지 않았어.",
+      "reason": "Render the borrowed body, not a woman worn like clothing."
+    },
+    {
+      "ids": [6976],
+      "find": "이런, 기도... 동료 아닌가. 어?",
+      "replace": "어라, 내 기도... 동료였나? 어?",
+      "reason": "Preserve the hesitation and playful self-correction in natural speech."
+    },
+    {
+      "ids": [6983],
+      "find": "대단하지 않아? 여기가 상급 니스카루 발로르(Greater Niskaru, Balor)가 소환된 곳이야.",
+      "replace": "대단하지 않아? 여기가 상급 니스카루(Greater Niskaru) 발로르(Balor)가 소환된 곳이야.",
+      "reason": "Pair the creature class and the named creature separately."
+    }
+  ]
+}

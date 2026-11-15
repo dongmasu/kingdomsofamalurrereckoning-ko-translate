@@ -1,0 +1,70 @@
+{
+  "range": [63000, 63249],
+  "source": {
+    "sequential_review": "dialogue-context-default-63000-63249-revalidation-20261113.md",
+    "prior_candidate_report": "dialogue-context-63000-63249-candidate-reconciliation-20261115.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_candidate_ids": [
+    63074, 63152, 63164, 63194, 63204, 63229, 63244
+  ],
+  "newly_reconciled_ids": [
+    63074, 63152, 63164, 63194, 63204, 63229, 63244
+  ],
+  "corrected_ids": [63152, 63164, 63204, 63244],
+  "already_supported_ids": [63074, 63194, 63229],
+  "previous_candidate_ids_rechecked": [
+    63049, 63060, 63112, 63113, 63118, 63124, 63146, 63233
+  ],
+  "previous_candidates_already_supported": [
+    63049, 63060, 63112, 63113, 63118, 63124, 63146, 63233
+  ],
+  "cross_row_consistency_followup_ids": [
+    3916, 9132, 13105, 36017, 59823
+  ],
+  "verified_duplicate_group": {
+    "english": "Irion, King of Cups",
+    "ids": [
+      147, 2345, 4961, 6644, 9748, 12159, 13670, 15598, 20444, 30849,
+      33018, 35070, 49949, 52369, 54932, 56837, 57745, 59823, 61570,
+      63233
+    ],
+    "korean": "컵의 왕 이리온(Irion, King of Cups)"
+  },
+  "changed_default_ids": [
+    3916, 9132, 13105, 36017, 59823, 63152, 63164, 63204, 63244
+  ],
+  "ledger_fingerprint_changed_ids": [
+    3916, 9132, 13105, 36017, 59823, 63152, 63164, 63204, 63244
+  ],
+  "ledger_dispositions_changed": false,
+  "cumulative_candidate_reconciliation": {
+    "previous": 3469,
+    "previous_total": 4026,
+    "newly_reconciled": 7,
+    "reconciled": 3476,
+    "total": 4026,
+    "percent": 86.34,
+    "remaining": 550
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "index_and_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_tool_tests": "11 passed",
+    "context_index_tests": "9 passed",
+    "csv_rows_order_bom_and_line_endings": "65,135 ordered IDs; UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "irion_duplicate_translation_consistency": "20 rows; one Korean translation",
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "range": [11750, 11999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 15,
+  "range_candidate_id_list": [
+    11778,
+    11794,
+    11805,
+    11824,
+    11829,
+    11845,
+    11846,
+    11864,
+    11896,
+    11905,
+    11907,
+    11917,
+    11934,
+    11948,
+    11969
+  ],
+  "reconciled_candidate_ids": 15,
+  "decisions": {
+    "corrected": [
+      11778,
+      11824,
+      11829,
+      11845,
+      11846,
+      11864,
+      11896,
+      11905,
+      11907,
+      11934,
+      11948
+    ],
+    "previously_applied_confirmed": [
+      11778,
+      11864,
+      11907,
+      11934,
+      11948
+    ],
+    "newly_applied": [
+      11824,
+      11829,
+      11845,
+      11846,
+      11896,
+      11905
+    ],
+    "retained": [
+      11794,
+      11805,
+      11917,
+      11969
+    ],
+    "held": []
+  },
+  "related_consistency_ids": [
+    23465,
+    34765,
+    52508,
+    6626,
+    7157,
+    14570,
+    23156,
+    34167,
+    34414,
+    53784,
+    59925
+  ],
+  "edit_operations": [
+    {
+      "id": 11824,
+      "find": "시간 끌지 마라. 시다누스(Sydanus)를 쓰러뜨리려면 신속하게 공격해야 한다.",
+      "replace": "시간 끌지 마. 시다누스(Sydanus)를 쓰러뜨리려면 재빨리 공격해야 해.",
+      "reason": "Use the conversational direct instruction supported by the Japanese source."
+    },
+    {
+      "id": 11829,
+      "find": "뭘요? 리리아의 딸(Daughter of Lyria)을... 그런 일로 비난하는 거예요? 내가 누군지 알고 하는 말이에요?",
+      "replace": "뭐라고요? 리리아의 딸(Daughter of Lyria)을... 비, 비난하는 거예요? 제가 누군지 알고 하는 말이에요?",
+      "reason": "Preserve the source interruption without inventing the accusation's object, and keep the polite register consistent."
+    },
+    {
+      "id": 11845,
+      "find": "하, 네가 그녀를 데려와 줄 거라고 믿었어. 네 눈빛에서 공감을 읽었거든. 너도 사랑하는 사람이 있거나, 한때는 있었겠지. 무슨 말인지 알 거야.",
+      "replace": "하, 네가 그녀를 데려와 줄 거라고 믿었어. 네 눈빛에 익숙한 감정이 스쳤거든. 너도 사랑하는 사람이 있거나, 한때는 있었겠지. 무슨 말인지 알 거야.",
+      "reason": "Render recognition of a familiar experience rather than empathy."
+    },
+    {
+      "id": 11846,
+      "find": "수의를 씌운 물건은 온 세상이 그 존재를 잊어버려. 쓸모없어 보이지? 하지만 알맞은 순간에 쓰면 아주 고약하고 짓궂은 소동을 일으키지.",
+      "replace": "장막 밑에 물건을 놓으면 온 세상이 그 존재를 잊어버려. 쓸모없어 보이지? 하지만 때를 잘 맞추면 기막히게 우스운 소동을 일으키지.",
+      "reason": "Correct shroud terminology and align the same explanation with ID 52508."
+    },
+    {
+      "id": 11896,
+      "find": "화이트스톤(Whitestone) 주민들과 아포타이어(Apotyre) 전역에 닥친 중대한 위협을 제거하는 데 힘을 보탰다. 중가르 가문(Zungar family)의 범죄 행각은 이제 끝났다.",
+      "replace": "화이트스톤(Whitestone) 주민과 아포타이어(Apotyre) 전역을 위협하던 세력을 없애는 데 힘을 보탰다. 중가르 가문(Zungar family)의 범죄 행각은 이제 끝났다.",
+      "reason": "Use natural journal phrasing consistently with the parallel bounty-completion records."
+    },
+    {
+      "id": 23465,
+      "find": "화이트스톤(Whitestone) 주민들과 아포타이어(Apotyre) 전역에 닥친 중대한 위협을 제거하는 데 힘을 보탰다. 신릭 가문(Cynric family)의 범죄 행각은 이제 끝났다.",
+      "replace": "화이트스톤(Whitestone) 주민과 아포타이어(Apotyre) 전역을 위협하던 세력을 없애는 데 힘을 보탰다. 신릭 가문(Cynric family)의 범죄 행각은 이제 끝났다.",
+      "reason": "Align the parallel bounty-completion entry while preserving its family name."
+    },
+    {
+      "id": 34765,
+      "find": "화이트스톤(Whitestone) 주민들과 아포타이어(Apotyre) 전역에 닥친 중대한 위협을 제거하는 데 힘을 보탰다. 다크바리 가문(Darkvari family)의 범죄 행각은 이제 끝났다.",
+      "replace": "화이트스톤(Whitestone) 주민과 아포타이어(Apotyre) 전역을 위협하던 세력을 없애는 데 힘을 보탰다. 다크바리 가문(Darkvari family)의 범죄 행각은 이제 끝났다.",
+      "reason": "Align the parallel bounty-completion entry while preserving its family name."
+    },
+    {
+      "id": 11905,
+      "find": "투아사(Tuatha) 볼간 마스터들(Bolgan Masters)을 처치하라",
+      "replace": "투아사(Tuatha) 볼간 마스터들(Bolgan Masters) 처치하기",
+      "reason": "Use the established -하기 quest-objective form."
+    }
+  ],
+  "fingerprints_refreshed": [
+    11824,
+    11829,
+    11845,
+    11846,
+    11896,
+    11905,
+    23465,
+    34765
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 720,
+    "total": 4015,
+    "percent": 17.93,
+    "remaining": 3295
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "manifest_json": "valid"
+  }
+}

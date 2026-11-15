@@ -1,0 +1,416 @@
+{
+  "input_sha256": "950101024fa845f34fb677bcb0245bbc7e9d2c48b4cbf428b24d5cca130bab82",
+  "ledger_input_sha256": "fe28e890a1b4a41b3c30d31adde626d097323f34c9ba0e91d6a3442b4b1ae474",
+  "scope": "Apply source-verified corrections for 51 new default candidates in IDs 10000-10999, related exact-text/name groups, and the already-recorded Ticneri finding at 10945.",
+  "matching": "Each operation replaces exactly one expected fragment in each listed ID. The executor expands it to the full exact current Texto value and invokes tools/replace_text_preserve_eol.py for each ID.",
+  "edits": [
+    {
+      "ids": [10079],
+      "find": "난 신사요. 내 부적을 되찾아 준다면 시간과 노력에 걸맞은 보상을 하겠소. 그들이 뒷창문으로 빠져나가 숲으로 향하는 걸 얼핏 봤소.",
+      "replace": "난 신사야. 내 부적을 찾아 주면 수고한 보답은 제대로 할게. 그들이 뒷창문으로 빠져나가 숲으로 향하는 걸 얼핏 봤어.",
+      "reason": "Remove conspicuous 하오체 and make the reward promise natural without changing its meaning."
+    },
+    {
+      "ids": [10090],
+      "find": "잿빛 기사단의 일원을 세데아스로 보내",
+      "replace": "잿빛 교단(Order of the Ash)의 일원을 세데아스로 보내",
+      "reason": "Use the established organization term and pair the complete name."
+    },
+    {
+      "ids": [2138],
+      "find": "잿빛 기사단(Order of the Ash)",
+      "replace": "잿빛 교단(Order of the Ash)",
+      "reason": "Align this reference to the same Order of the Ash as 10090 and 21805."
+    },
+    {
+      "ids": [10154, 49035],
+      "find": "터너의 최고급 와인",
+      "replace": "터너의 최고급 와인(Turner's Finest)",
+      "reason": "Pair the named wine consistently in both descriptions while retaining their different tasting notes."
+    },
+    {
+      "ids": [10155],
+      "find": "종교 목걸이",
+      "replace": "종교적 의미가 담긴 목걸이",
+      "reason": "Replace an unnatural literal compound without changing why the pendant matters."
+    },
+    {
+      "ids": [10173],
+      "find": "내 남자 가족들은 모두",
+      "replace": "내게 소중한 남자들은 모두",
+      "reason": "Render All my boys naturally while preserving the listed sons, brother, and beloved Avery."
+    },
+    {
+      "ids": [10174],
+      "find": "라시르(Rathir) 항구로 가라",
+      "replace": "라시르 항구(Rathir Harbor)로 가라",
+      "reason": "Pair the complete named destination."
+    },
+    {
+      "ids": [17491],
+      "find": "라시르(Rathir) 항구",
+      "replace": "라시르 항구(Rathir Harbor)",
+      "reason": "Align the same destination name in the departure journal."
+    },
+    {
+      "ids": [10177],
+      "find": "제발, 나그네여...",
+      "replace": "부탁이야, 여행자...",
+      "reason": "Make the unfinished plea conversational without inferring the speaker."
+    },
+    {
+      "ids": [10178],
+      "find": "레이디 사그렐(Lady Sagrell)",
+      "replace": "사그렐 부인(Lady Sagrell)",
+      "reason": "Use the established Korean title form."
+    },
+    {
+      "ids": [10179],
+      "find": "대상을 방해합니다",
+      "replace": "대상의 행동을 방해합니다",
+      "reason": "Clarify that the effect interrupts the target's action."
+    },
+    {
+      "ids": [10186],
+      "find": "에피라는 노움이야",
+      "replace": "에피(Effie)라는 노움이야",
+      "reason": "Pair the first name only; this source line does not give a surname."
+    },
+    {
+      "ids": [10187],
+      "find": "일을 마치고 오너라.",
+      "replace": "일을 마치면 내게 와 줘.",
+      "reason": "Replace an archaic command with the softer conversational request in Japanese."
+    },
+    {
+      "ids": [10196],
+      "find": "덴릿(Dennrit)은 참 소중한 사람이야, 그렇지? 저 우리 안에서 조용히 만족해하고 있잖아. 정신만 돌아오면 좋으련만...",
+      "replace": "덴릿(Dennrit)은 참 순한 사람이야, 그렇지? 저 우리 안에서 조용히 얌전히 있잖아. 제정신만 돌아오면 좋으련만...",
+      "reason": "Render He's a dear naturally with the gently ironic, cage-related context intact."
+    },
+    {
+      "ids": [10219],
+      "find": "굿차일드 가문",
+      "replace": "굿차일드 가문(Goodchilds)",
+      "reason": "Pair the named family."
+    },
+    {
+      "ids": [10219],
+      "find": "다르켄 가문",
+      "replace": "다르켄 가문(Darkkens)",
+      "reason": "Pair the named family."
+    },
+    {
+      "ids": [10258],
+      "find": "미사루(Mitharu) 결사",
+      "replace": "미사루 교단(Order of Mitharu)",
+      "reason": "Use the established organization term and complete English name."
+    },
+    {
+      "ids": [56193, 59891],
+      "find": "미사루 수도회(Order of Mitharu)",
+      "replace": "미사루 교단(Order of Mitharu)",
+      "reason": "Align these references to the established name of the same organization."
+    },
+    {
+      "ids": [59891],
+      "find": "여성도 수도회에 들어올",
+      "replace": "여성도 교단에 들어올",
+      "reason": "Keep the second reference consistent within the same sentence."
+    },
+    {
+      "ids": [10267],
+      "find": "어서 오십시오, 나그네여! 나는 투기장 관리자이자 최고의 장내 아나운서요!",
+      "replace": "어서 와, 나그네! 난 투기장 관리자이자 최고의 장내 아나운서야!",
+      "reason": "Recast the full energetic greeting in one natural, consistent register."
+    },
+    {
+      "ids": [10287, 8608, 22801],
+      "find": "비전 카락선",
+      "replace": "비전 카락선(Arcane Carrack)",
+      "reason": "Pair the complete display label across all exact-English copies."
+    },
+    {
+      "ids": [10293],
+      "find": "라시르(Rathir)에 있는 내 방으로 돌아오고 싶다면 자리를 마련해 주겠소. 다만 너무 오래 미루지 마시오. 이 저주를 깨려면 그대 도움이 필요하오.",
+      "replace": "라시르(Rathir)에 있는 내 방으로 돌아오고 싶다면 그렇게 해 드릴게요. 다만 너무 오래 미루지는 마세요. 이 저주를 풀려면 당신의 도움이 필요해요.",
+      "reason": "Replace conspicuous 하오체 with consistent conversational politeness while preserving the offer, urgency, and request for help."
+    },
+    {
+      "ids": [10309],
+      "find": "능력으로 이동",
+      "replace": "능력 트리로 이동",
+      "reason": "Name the destination clearly using the established UI term."
+    },
+    {
+      "ids": [10325],
+      "find": "캘럼은",
+      "replace": "칼룸(Calum)은",
+      "reason": "Use the established spelling and pair the first name without adding a surname."
+    },
+    {
+      "ids": [10331],
+      "find": "그다지 인기 없는 견해지만",
+      "replace": "그다지 널리 받아들여지는 견해는 아니지만",
+      "reason": "Replace a literal rendering with natural Korean while retaining the contrast."
+    },
+    {
+      "ids": [10352],
+      "find": "대현자님,",
+      "replace": "대현자(Archsage)님,",
+      "reason": "Pair the addressed title while retaining the polite offer."
+    },
+    {
+      "ids": [10370],
+      "find": "라시르(Rathir) 상인",
+      "replace": "라시르 상인(Rathir Merchant)",
+      "reason": "Pair the complete display label rather than only the location."
+    },
+    {
+      "ids": [10389],
+      "find": "혼돈 영역 침입에 관한 실험",
+      "replace": "혼돈 영역 침입에 관한 실험(Experiments in the Realms of Chaos Ingress)",
+      "reason": "Pair the complete title of the named work."
+    },
+    {
+      "ids": [10392],
+      "find": "맨주먹 싸움에서 딩크를 이겨라",
+      "replace": "맨주먹 싸움에서 딩크(Dink)를 쓰러뜨리기",
+      "reason": "Pair the target and use the established quest-objective form."
+    },
+    {
+      "ids": [10396],
+      "find": "변덕스러운 생물이야. 왕을 알현하는 동안 내 이름을 한 번도 아니고 두 번이나 잊었어. 모욕적이었지. 그런데 그걸 알아차리기나 했을까? 천만에.",
+      "replace": "참 변덕스러운 사람이야. 왕을 알현하는 동안 내 이름을 한 번도 아니고 두 번이나 잊었지. 정말 무례한 일이야. 그런데 그걸 알아차리기나 했을까? 천만에.",
+      "reason": "Naturalize the full recollection without inventing a speaker or changing its dry irritation."
+    },
+    {
+      "ids": [10419],
+      "find": "적대 영주의 기사들이 발리아의 아버지를 침대에서 살해했다. 방패와 아버지의 검만 걸친 발리아는 거짓된 기사들과 배신한 영주를 베어 넘겼다.",
+      "replace": "적대 영주의 기사들은 발리아(Valia)의 아버지를 잠든 사이 살해했다. 발리아는 벌거벗은 채 방패와 아버지의 검만 들고 거짓된 기사들과 배신한 영주를 쓰러뜨렸다.",
+      "reason": "Clarify that Valia carried the shield and sword, pair her name, and preserve the source's account."
+    },
+    {
+      "ids": [10451],
+      "find": "이름이 아델레나였던 것 같아.",
+      "replace": "이름이 아델레나(Adelena)였던 것 같아.",
+      "reason": "Pair the flute player's name without inferring any further identity."
+    },
+    {
+      "ids": [10462],
+      "find": "네 몸에서 일부를 가져가겠다!",
+      "replace": "네 몸에서 부위를 떼어 가겠어!",
+      "reason": "Make the threat natural without specifying an unsupported body part."
+    },
+    {
+      "ids": [10495],
+      "find": "스프라이트가 가득해.",
+      "replace": "스프라이트(Sprite)가 가득해.",
+      "reason": "Pair the named creature type in this list."
+    },
+    {
+      "ids": [10496],
+      "find": "루가 돌아온 건",
+      "replace": "루(Lue)가 돌아온 건",
+      "reason": "Pair the source-local short name without expanding it."
+    },
+    {
+      "ids": [10523],
+      "find": "경멸의 신 베크레스는",
+      "replace": "경멸의 신 베크레스(Vekreth)는",
+      "reason": "Pair Vekreth with the spelling in this English source."
+    },
+    {
+      "ids": [10523],
+      "find": "여신 아릴리아가",
+      "replace": "여신 아릴리아(Arylia)가",
+      "reason": "Pair Arylia with this source-local spelling, not the distinct Aryllia spelling elsewhere."
+    },
+    {
+      "ids": [10523],
+      "find": "베크레스는 몰랐지만 아릴리아는",
+      "replace": "베크레스(Vekreth)는 몰랐지만 아릴리아(Arylia)는",
+      "reason": "Keep repeated names paired in the same complete passage."
+    },
+    {
+      "ids": [10528],
+      "find": "여기서 크게 한 방 먹였지만, 쓰레기야, 유언서는 아직도 남아 더 많은 참극과 살인을 꾸미고 있어.",
+      "replace": "여기서 크게 한 방 먹였지만, 쓰레기야, 테스타먼트(Testament)는 아직도 더 많은 참극과 살인을 꾸미고 있어.",
+      "reason": "Use the established name for the death cult rather than the literal document meaning of Testament."
+    },
+    {
+      "ids": [10531],
+      "find": "내 형제 길먼이",
+      "replace": "내 형제 길먼(Gilman)이",
+      "reason": "Pair Gilman without asserting an age relationship."
+    },
+    {
+      "ids": [10548],
+      "find": "사랑스러운 미아를",
+      "replace": "사랑스러운 미아(Mya)를",
+      "reason": "Pair Mya in the full passage while preserving its existing paragraphs."
+    },
+    {
+      "ids": [10548],
+      "find": "스톰브레이커호의 길 잃은 영혼들",
+      "replace": "스톰브레이커호(Stormbreaker)의 길 잃은 영혼들",
+      "reason": "Pair the named ship while preserving the story's paragraph layout."
+    },
+    {
+      "ids": [10578],
+      "find": "체류 의식을 마쳤다",
+      "replace": "체류 의식(Sojourn)을 마쳤다",
+      "reason": "Pair the named first task of the Orison."
+    },
+    {
+      "ids": [10603],
+      "find": "아델레나의 피리를 되찾아라",
+      "replace": "아델레나(Adelena)의 피리 되찾기",
+      "reason": "Pair the named owner and use the established objective form."
+    },
+    {
+      "ids": [10628],
+      "find": "폐하, 염치없지만... 요새 수리에 필요한 재료를 가져다주실 수 있을지 여쭙고 싶습니다.",
+      "replace": "주군, 번거롭지 않으시다면 요새 수리에 필요한 재료를 가져다주실 수 있을까요?",
+      "reason": "Use the generic liege address and natural, consistently polite request supported by Japanese."
+    },
+    {
+      "ids": [10658],
+      "find": "우리 종족 가운데 그는 과거에도 지금도 유일무이한 존재다. 그가 했던 일을 이제는 누구도 할 수 없다. 타인의 슬픔을 자연스레 찾아내고 그 존재 깊숙이 파고드는 일 말이다.",
+      "replace": "우리 종족 중 그는 과거에도 지금도 유일무이한 존재다. 타인 안에 깃든 비탄의 힘(Sorrows)을 자연스레 찾아내고 그들의 내면 깊숙이 파고드는 일은 이제 누구도 할 수 없다.",
+      "reason": "Use the established name for the magical force and make the complete explanation natural without expanding Delve."
+    },
+    {
+      "ids": [10683],
+      "find": "산의 위대한 트롤(Troll)들이여",
+      "replace": "위대한 산악 트롤(Trolls of the mountains)이여",
+      "reason": "Pair the full creature subtype rather than only generic Troll."
+    },
+    {
+      "ids": [10683],
+      "find": "산의 트롤(Troll)들이여",
+      "replace": "산악 트롤(Trolls of the mountains)이여",
+      "reason": "Keep the repeated subtype pairing consistent in the complete passage."
+    },
+    {
+      "ids": [10732],
+      "find": "니나를 절벽 정찰에",
+      "replace": "니나(Nina)를 절벽 정찰에",
+      "reason": "Pair the scout's name."
+    },
+    {
+      "ids": [10739],
+      "find": "에라셀(Erathell) 원정",
+      "replace": "에라셀 원정(Erathell Campaign)",
+      "reason": "Pair the complete named historical event."
+    },
+    {
+      "ids": [10739],
+      "find": "피에리올(Fieriol)에서 바를레인과",
+      "replace": "피에리올(Fieriol)에서 바를레인(Varlaine)과",
+      "reason": "Pair Varlaine at first mention."
+    },
+    {
+      "ids": [10739],
+      "find": "바를레인은 능숙하게",
+      "replace": "바를레인(Varlaine)은 능숙하게",
+      "reason": "Keep the repeated historical name paired."
+    },
+    {
+      "ids": [10739],
+      "find": "적군이 빠르게 전열을 재정비했지만 바를레인과 오리에이터(Orieator)는",
+      "replace": "적군이 빠르게 전열을 재정비했지만 바를레인(Varlaine)과 오리에이터(Orieator)는",
+      "reason": "Keep the repeated historical name paired."
+    },
+    {
+      "ids": [10739],
+      "find": "평원의 전쟁이라 불렸다",
+      "replace": "평원의 전쟁(War of the Plains)이라 불렸다",
+      "reason": "Pair the named strategy/event."
+    },
+    {
+      "ids": [10739],
+      "find": "‘창’이라 부른 기동",
+      "replace": "‘창(The Lance)’이라 부른 기동",
+      "reason": "Pair the named maneuver."
+    },
+    {
+      "ids": [10739],
+      "find": "‘새벽의 행군’이라 부른다",
+      "replace": "‘새벽의 행군(Dawn March)’이라 부른다",
+      "reason": "Pair the named march."
+    },
+    {
+      "ids": [10742],
+      "find": "어서 오십시오, 폐하.",
+      "replace": "어서 오십시오, 주군.",
+      "reason": "Use the established generic translation of my liege without inferring royal rank."
+    },
+    {
+      "ids": [10765],
+      "find": "간차 중위의 무덤",
+      "replace": "간차 중위의 무덤(Grave of Lieutenant Gancha)",
+      "reason": "Pair the complete named location."
+    },
+    {
+      "ids": [10809],
+      "find": "다음 재료로 만들 수 있다",
+      "replace": "다음 시약으로 만들 수 있다",
+      "reason": "Use the established alchemy term for reagents and preserve the ingredient list and line breaks."
+    },
+    {
+      "ids": [10814],
+      "find": "리리아(Lyria)가 그대를 지켜 주고, 그녀의 숨결이 늘 그대의 등 뒤에서 불어오길. 행운을 비오.",
+      "replace": "리리아(Lyria)가 그대를 지켜 주고, 그녀의 숨결이 늘 그대의 등 뒤에서 불어오기를. 행운을 빌어요.",
+      "reason": "Remove the conspicuous archaic ending while retaining the prayer-like blessing."
+    },
+    {
+      "ids": [10848],
+      "find": "난 여기 남아 생존자들을 정리할게. 하지만 너는... 텔로그루스(Telogrus)에게 싸움을 걸어야 해.",
+      "replace": "난 여기 남아 생존자들을 추슬러 모을게. 하지만 너는... 텔로그루스(Telogrus)와 맞서 싸워야 해.",
+      "reason": "Clarify organizing the survivors and render bring the fight to Telogrus naturally."
+    },
+    {
+      "ids": [10874],
+      "find": "로토스와 추종자들이",
+      "replace": "로토스(Lotos)와 추종자들이",
+      "reason": "Pair the named person."
+    },
+    {
+      "ids": [10897],
+      "find": "저택만 한 집이라면 책을 얼마든지 둘 수 있지... 책을 사기만 하면 말이야.",
+      "replace": "샌드스톤 저택(Sandstone Villa)만큼 큰 집이라면 책을 얼마든지 둘 수 있지... 책을 사기만 하면 말이야.",
+      "reason": "Restore the specific Villa reference and preserve the joke."
+    },
+    {
+      "ids": [10925],
+      "find": "야생 사냥 때",
+      "replace": "야생 사냥(Wild Hunt) 때",
+      "reason": "Pair the named hunt."
+    },
+    {
+      "ids": [10925],
+      "find": "대현자에게만 허락된다",
+      "replace": "대현자(Archsage)에게만 허락된다",
+      "reason": "Pair the title while retaining the sentence's meaning."
+    },
+    {
+      "ids": [10946],
+      "find": "프리홀드에 빨리 도착할수록",
+      "replace": "프리홀드(Freehold)에 빨리 도착할수록",
+      "reason": "Pair this named place without imposing a global rendering change."
+    },
+    {
+      "ids": [10994],
+      "find": "말려서 단단히 꼬아 만든 바닷아마(Seaflax) 실은 물약에 방어구와 같은 보호 효과를 부여할 수 있다({*3방어구}).",
+      "replace": "말려서 단단히 꼬아 만든 바닷아마(Seaflax) 실은 물약에 {*3방어구}와 비슷한 보호 효과를 더해 줄 수 있다.",
+      "reason": "Integrate the localized wrapper at the Armor-like phrase and remove the repeated display of the concept."
+    },
+    {
+      "ids": [10945],
+      "find": "틱네리에 대해 말해 줘.",
+      "replace": "틱네리(Ticneri)에 대해 말해 줘.",
+      "reason": "Resolve the already-recorded SQ66 local name-pairing candidate without recounting it as new."
+    }
+  ]
+}

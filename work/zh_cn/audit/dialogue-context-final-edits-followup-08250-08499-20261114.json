@@ -1,0 +1,207 @@
+{
+  "range": [8250, 8499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 11,
+  "range_candidate_id_list": [
+    8257,
+    8258,
+    8274,
+    8294,
+    8301,
+    8310,
+    8323,
+    8360,
+    8378,
+    8463,
+    8467
+  ],
+  "linked_candidate_ids": 16,
+  "reconciled_candidate_ids": 27,
+  "decisions": [
+    {
+      "id": 8257,
+      "decision": "retained",
+      "reason": "The earlier linked material edit is already present; this records the previously uncounted in-range candidate disposition."
+    },
+    {
+      "id": 8258,
+      "decision": "retained",
+      "reason": "The objective is natural and matches exact-English duplicate 55074."
+    },
+    {
+      "id": 8274,
+      "decision": "retained",
+      "reason": "The Lyra Vogard reference already uses the Japanese-supported 라이라(Lyra) form."
+    },
+    {
+      "id": 8294,
+      "decision": "retained",
+      "reason": "The direct quotation is already marked, matching the three source formats."
+    },
+    {
+      "id": 8301,
+      "decision": "retained",
+      "reason": "아카사(Acathan) is already consistent with the connected references."
+    },
+    {
+      "id": 8310,
+      "decision": "corrected",
+      "reason": "Changed 를 to 을 after consonant-final 울프 팩(Wolf Pack)."
+    },
+    {
+      "id": 8323,
+      "decision": "retained",
+      "reason": "The named location is already paired as 할로(The Hollow)."
+    },
+    {
+      "id": 8360,
+      "decision": "retained",
+      "reason": "The title already uses the established paired form 은둔 대장장이(Hermit Smith)."
+    },
+    {
+      "id": 8378,
+      "decision": "corrected",
+      "reason": "Added the English title to the standalone quest-title text."
+    },
+    {
+      "id": 8463,
+      "decision": "retained",
+      "reason": "흉악한 헤드헌터단원(Headhunter) accurately renders deadly Headhunter and matches the parallel entries."
+    },
+    {
+      "id": 8467,
+      "decision": "retained",
+      "reason": "The current Korean is a natural customary merchant sign-off."
+    },
+    {
+      "id": 24485,
+      "decision": "retained",
+      "reason": "The same SQ144 Lyra Vogard reference already uses 라이라(Lyra)."
+    },
+    {
+      "id": 43760,
+      "decision": "retained",
+      "reason": "The same SQ144 Lyra Vogard reference already uses 라이라(Lyra)."
+    },
+    {
+      "id": 44354,
+      "decision": "retained",
+      "reason": "The same SQ144 Lyra Vogard reference already uses 라이라(Lyra)."
+    },
+    {
+      "id": 52754,
+      "decision": "retained",
+      "reason": "The same SQ144 Lyra Vogard reference already uses 라이라(Lyra)."
+    },
+    {
+      "id": 55900,
+      "decision": "retained",
+      "reason": "The same SQ144 Lyra Vogard reference already uses 라이라(Lyra)."
+    },
+    {
+      "id": 10939,
+      "decision": "retained",
+      "reason": "The objective already uses the paired title and natural action form 도움 구하기."
+    },
+    {
+      "id": 11581,
+      "decision": "retained",
+      "reason": "The title already uses 은둔 대장장이(Hermit Smith)."
+    },
+    {
+      "id": 12164,
+      "decision": "retained",
+      "reason": "The title already uses 은둔 대장장이(Hermit Smith)."
+    },
+    {
+      "id": 14861,
+      "decision": "retained",
+      "reason": "The standalone title is already paired as 은둔 대장장이(Hermit Smith)."
+    },
+    {
+      "id": 19097,
+      "decision": "retained",
+      "reason": "The objective already uses 은둔 대장장이(Hermit Smith)."
+    },
+    {
+      "id": 28676,
+      "decision": "retained",
+      "reason": "The title already uses 은둔 대장장이(Hermit Smith)."
+    },
+    {
+      "id": 28839,
+      "decision": "retained",
+      "reason": "The title already uses 은둔 대장장이(Hermit Smith)."
+    },
+    {
+      "id": 59710,
+      "decision": "retained",
+      "reason": "The objective already uses 은둔 대장장이(Hermit Smith)."
+    },
+    {
+      "id": 23199,
+      "decision": "retained",
+      "reason": "The named location is already paired as 할로(The Hollow)."
+    },
+    {
+      "id": 25385,
+      "decision": "retained",
+      "reason": "The named location is already paired as 할로(The Hollow)."
+    },
+    {
+      "id": 52524,
+      "decision": "retained",
+      "reason": "아카사의 춤(Acathan Dance) and 아카사 늪지(Acathan swamps) are consistent with the reviewed Acathan name."
+    }
+  ],
+  "reopened_prior_candidate": {
+    "id": 3187,
+    "previous_decision": "retained as generic lowercase hollow",
+    "new_decision": "corrected using the same SQ50 Paling Wand location context as The Hollow references",
+    "old": "그들은 동굴에서 나온 마법 지팡이가 필요해.",
+    "new": "그들은 할로(The Hollow)에 있는 마법 지팡이가 필요해."
+  },
+  "edits": [
+    {
+      "id": 8310,
+      "old": "내가 당하기 전에 브로건(Brogan)과 울프 팩(Wolf Pack)를 처치해야 해. 경기가 끝나기 전에는 어떤 참가자도 경기장을 떠날 수 없어.",
+      "new": "내가 당하기 전에 브로건(Brogan)과 울프 팩(Wolf Pack)을 처치해야 해. 경기가 끝나기 전에는 어떤 참가자도 경기장을 떠날 수 없어.",
+      "reason": "Corrected the object particle after the consonant-final paired team name."
+    },
+    {
+      "id": 8378,
+      "old": "자유의 대가",
+      "new": "자유의 대가(Price of Freedom)",
+      "reason": "Added the English title pairing to the standalone quest-title row."
+    }
+  ],
+  "related_edit": {
+    "id": 3187,
+    "old": "그들은 동굴에서 나온 마법 지팡이가 필요해.",
+    "new": "그들은 할로(The Hollow)에 있는 마법 지팡이가 필요해.",
+    "reason": "Reopened the prior generic-hollow disposition based on the specific SQ50/Paling Wand context."
+  },
+  "fingerprints_refreshed": [3187, 8310, 8378],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 463,
+    "total": 4015,
+    "percent": 11.53,
+    "remaining": 3552
+  },
+  "verification": {
+    "csv_preservation_tests": 11,
+    "context_index_tests": 9,
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "line_endings": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

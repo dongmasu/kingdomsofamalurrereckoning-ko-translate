@@ -1,0 +1,154 @@
+{
+  "range": [36750, 36999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-36750-36999-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-03000-03249-candidate-reconciliation-20261114.md",
+      "dialogue-context-14750-14999-candidate-reconciliation-20261114.md",
+      "dialogue-context-21750-21999-candidate-reconciliation-20261114.md"
+    ]
+  },
+  "range_candidate_ids": 14,
+  "range_candidate_id_list": [
+    36783,
+    36828,
+    36831,
+    36838,
+    36854,
+    36863,
+    36896,
+    36916,
+    36922,
+    36929,
+    36967,
+    36968,
+    36982,
+    36993
+  ],
+  "previously_reconciled_candidate_ids": [21777, 36982, 38893],
+  "newly_counted_candidate_ids": [
+    36783,
+    36828,
+    36831,
+    36838,
+    36854,
+    36863,
+    36896,
+    36916,
+    36922,
+    36929,
+    36967,
+    36968,
+    36993,
+    48675,
+    63303,
+    64287,
+    64922
+  ],
+  "linked_candidate_ids_checked": [
+    21777,
+    36916,
+    38893,
+    48675,
+    63303,
+    64287,
+    64922
+  ],
+  "additional_linked_candidate_ids_reconciled": [
+    48675,
+    63303,
+    64287,
+    64922
+  ],
+  "decisions": {
+    "newly_applied": [36783, 36828, 36831, 36929, 36967, 36968],
+    "previously_applied_or_currently_supported": [
+      36838,
+      36854,
+      36863,
+      36896,
+      36916,
+      36922,
+      36993,
+      48675,
+      63303,
+      64287,
+      64922
+    ],
+    "previously_reconciled_and_confirmed": [21777, 36982, 38893],
+    "evidence_limited_holds": [35368, 36815, 39191, 36754, 36984],
+    "supersedes_prior_retention": {
+      "36783": "The current farewell was awkward despite retaining the insult.",
+      "36828": "The Korean arrival wording missed the relief in Japanese よかった.",
+      "36831": "The current warning omitted being caught making trouble.",
+      "36929": "The Korean added unsupported younger ages for both siblings.",
+      "36967": "The formal-sounding 군 ending conflicted with the line's surrounding plain speech.",
+      "36968": "The active title differed from the established paired form 처형인(The Executioner)."
+    }
+  },
+  "edits": [
+    {
+      "id": 36783,
+      "old": "좋은 여행 되게, 멍청아.",
+      "new": "여행 잘 다녀와, 멍청아.",
+      "reason": "Replace the awkward literal farewell while retaining the informal insult supported by the source."
+    },
+    {
+      "id": 36828,
+      "old": "드디어 왔군. 한동안 요르반(Yolvan) 길을 쓰는 건 워스원(Warsworn)뿐인가 싶었어.",
+      "new": "다행이네. 한동안 요르반(Yolvan) 길은 워스원(Warsworn)만 이용하는 줄 알았어.",
+      "reason": "Japanese よかった conveys relief; render the complete line naturally without implying that the addressee finally arrived."
+    },
+    {
+      "id": 36831,
+      "old": "다시는 말썽 피우지 마.",
+      "new": "다시는 말썽 피우다가 내게 걸리지 마.",
+      "reason": "Restore the warning about being caught causing trouble again without inventing a punishment."
+    },
+    {
+      "id": 36929,
+      "old": "이번 역병은 심각해. 여동생이 아프고 남동생도 그래.",
+      "new": "역병이 심해. 내 형제자매 둘 다 아파.",
+      "reason": "Remove unsupported relative-age assumptions while preserving that both siblings are ill."
+    },
+    {
+      "id": 36967,
+      "old": "이제 떠나야 해. 아데사(Adessa)까지 긴 항해가 남았어. 배가 노움 체격에 맞춰 만들어져서 아쉽군. 아니었다면 널 데려갔을 텐데.",
+      "new": "이제 떠나야 해. 아데사(Adessa)까지 긴 항해가 남았어. 배가 노움 체격에 맞춰 만들어져서 아쉽네. 아니었다면 널 데려갔을 텐데.",
+      "reason": "Align the sentence ending with the surrounding conversational plain speech."
+    },
+    {
+      "id": 36968,
+      "old": "처형자라 불리던 자경단원이 소유했던 전설의 마지막 숨결의 두건(Hood of Last Breath)을 되찾았다. 그녀의 아들 페린 쇼(Ferrin Shaw)가 다른 귀중품에 관한 정보를 알고 있지만... 대가를 치러야 한다.",
+      "new": "처형인(The Executioner)이라 불리던 자경단원이 소유했던 전설의 마지막 숨결의 두건(Hood of Last Breath)을 되찾았다. 그녀의 아들 페린 쇼(Ferrin Shaw)가 다른 귀중품에 관한 정보를 알고 있지만... 대가를 치러야 한다.",
+      "reason": "Use the established paired title for the known vigilante without changing the rest of the sentence."
+    }
+  ],
+  "fingerprints_refreshed": [36783, 36828, 36831, 36929, 36967, 36968],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2316,
+    "total": 4015,
+    "percent": 57.68,
+    "remaining": 1699
+  },
+  "verification": {
+    "four_language_candidate_ids_checked": 21,
+    "translation_csv_changed": true,
+    "changed_default_ids": [36783, 36828, 36831, 36929, 36967, 36968],
+    "source_csv_or_extracted_asset_changed": false,
+    "full_review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "dialogue_context_index_tests": "passed (9)",
+    "csv_structure": "65135 ordered records; UTF-8 BOM preserved",
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "speaker_or_playback_order_inferred": false
+  }
+}

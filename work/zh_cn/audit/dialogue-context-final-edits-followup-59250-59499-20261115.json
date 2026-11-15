@@ -1,0 +1,89 @@
+{
+  "range": [59250, 59499],
+  "source": {
+    "sequential_revalidation": "dialogue-context-default-59250-59499-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    59284, 59314, 59317, 59323, 59358, 59367, 59373, 59387, 59388, 59435
+  ],
+  "newly_reconciled_ids": [
+    59284, 59314, 59317, 59323, 59358, 59367, 59373, 59387, 59388, 59435
+  ],
+  "already_resolved_ids": [
+    59284, 59317, 59323, 59358, 59367, 59373, 59387, 59388
+  ],
+  "previously_reconciled_ids_rechecked": [
+    59258, 59260, 59263, 59282, 59300, 59318, 59397
+  ],
+  "report_only_ids_rechecked": [59432, 59483],
+  "held_for_insufficient_context": [],
+  "edits": [
+    {
+      "id": 59260,
+      "old": "발라드의 챔피언처럼 전리품을 걸어야 해. 전부 전시하면 레카가 올 거야.",
+      "new": "발라드 속 용사처럼 전리품을 걸어야 해. 전부 전시하면 레카가 올 거야.",
+      "reason": "Use a natural story-character rendering consistent with the same narrative's champion at 20416."
+    },
+    {
+      "id": 59282,
+      "old": "고마워, 그대여. 이걸 열어 주지 않으면 여기서 나가려면 몇십 파운드는 빼야 할 판이야.",
+      "new": "고마워, 친구. 이걸 열어 주지 않으면 여기서 나가려면 몇십 파운드는 빼야 할 판이야.",
+      "reason": "Use the established familiar address for Grim and preserve the weight-loss joke."
+    },
+    {
+      "id": 59300,
+      "old": "네 수고가 헛되지 않게 하겠다. 이 일을 맡아 주면 후하게 보상하지. 하지만 슬픔으로 가득한 긴 여정이 될 거야.",
+      "new": "네 수고가 헛되지 않게 할게. 이 일을 맡아 주면 후하게 보상할게. 하지만 슬픔으로 가득한 긴 여정이 될 거야.",
+      "reason": "Make all three sentences use a consistent conversational plain register."
+    },
+    {
+      "id": 59314,
+      "old": "명장 미타란(Mitharan)의 기력 강화 리벳",
+      "new": "명장 미타란의 기력 강화 리벳(Master Mitharan Energizing Rivets)",
+      "reason": "Pair the complete named item without duplicating Mitharan in English."
+    },
+    {
+      "id": 59432,
+      "old": "이 많은 죽음을 도무지 이해할 수 없어.",
+      "new": "이렇게 많은 사람이 죽었다니, 도무지 이해할 수 없어.",
+      "reason": "Render the emotional reaction to the deaths naturally in Korean."
+    },
+    {
+      "id": 59435,
+      "old": "귀한 과일을 페이(Fae) 무덤으로 돌려보내기",
+      "new": "귀한 과일을 페이의 무덤(Fae Mound)으로 돌려보내기",
+      "reason": "Pair the complete quest destination rather than only the people name."
+    },
+    {
+      "id": 59483,
+      "old": "투아사(Tuatha) 대가 파라글렌(Farraglen)을 처치했다. 세상을 더 혼란스럽게 만들 투아사(Tuatha)가 하나 줄었다.",
+      "new": "투아사 대가 파라글렌(Tuatha Master Farraglen)을 처치했다. 세상을 더 혼란스럽게 만들 투아사(Tuatha)가 하나 줄었다.",
+      "reason": "Pair the full source-order title and name, leaving the later people reference distinct."
+    }
+  ],
+  "ledger_fingerprint_changed_ids": [
+    59260, 59282, 59300, 59314, 59432, 59435, 59483
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3327,
+    "previous_total": 4026,
+    "newly_reconciled": 10,
+    "reconciled": 3337,
+    "total": 4026,
+    "percent": 82.89,
+    "remaining": 689
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "preservation_and_context_index_tests": "20 passed",
+    "index_and_catalog_reproducibility": "passed",
+    "csv_rows_and_order": "65,135 ordered unique IDs",
+    "utf8_bom_and_line_endings": "UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

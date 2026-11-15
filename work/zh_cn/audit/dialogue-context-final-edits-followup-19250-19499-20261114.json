@@ -1,0 +1,86 @@
+{
+  "range": [19250, 19499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 21,
+  "range_candidate_id_list": [
+    19255,
+    19282,
+    19284,
+    19285,
+    19300,
+    19303,
+    19311,
+    19319,
+    19320,
+    19323,
+    19356,
+    19360,
+    19365,
+    19382,
+    19400,
+    19431,
+    19432,
+    19444,
+    19454,
+    19466,
+    19467
+  ],
+  "reconciled_candidate_ids": 22,
+  "decisions": {
+    "previously_applied_confirmed": [
+      19255,
+      19282,
+      19284,
+      19285,
+      19300,
+      19303,
+      19311,
+      19319,
+      19320,
+      19323,
+      19356,
+      19360,
+      19365,
+      19382,
+      19400,
+      19431,
+      19432,
+      19444,
+      19454,
+      19466,
+      19467,
+      57783
+    ],
+    "refined": [],
+    "retained": [],
+    "held": []
+  },
+  "additional_linked_candidate_ids_reconciled": [
+    57783
+  ],
+  "related_consistency_groups": {
+    "Century Flower item labels": [
+      6132,
+      7989,
+      9545,
+      19320,
+      57783
+    ],
+    "Mitharans term": [
+      19136,
+      19431
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1045,
+    "total": 4015,
+    "percent": 26.03,
+    "remaining": 2970
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

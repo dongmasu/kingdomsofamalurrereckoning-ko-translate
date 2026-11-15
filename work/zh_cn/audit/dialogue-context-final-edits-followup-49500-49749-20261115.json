@@ -1,0 +1,86 @@
+{
+  "range": [49500, 49749],
+  "source_order": [
+    "current Korean CSV",
+    "English for meaning",
+    "Japanese for tone and phrasing",
+    "Chinese as supporting evidence",
+    "prior candidate manifests and cited context reports"
+  ],
+  "ledger_candidate_ids": [
+    49510,
+    49530,
+    49540,
+    49565,
+    49608,
+    49616,
+    49631,
+    49642,
+    49652,
+    49692,
+    49700,
+    49701,
+    49702,
+    49718,
+    49731
+  ],
+  "newly_reconciled_ids": [
+    49510,
+    49530,
+    49540,
+    49565,
+    49608,
+    49616,
+    49631,
+    49692,
+    49702,
+    49718,
+    49731
+  ],
+  "previously_reconciled_ids": [49642, 49700, 49701],
+  "corrected_now": [49608, 49652, 49692],
+  "already_correct_or_previously_applied": [
+    49510,
+    49530,
+    49540,
+    49565,
+    49616,
+    49631,
+    49702,
+    49718,
+    49731,
+    49642,
+    49700,
+    49701
+  ],
+  "reopened_findings_outside_candidate_pool": {
+    "ids": [49652],
+    "reason": "The earlier asset review marked this ID not-issue; current four-language comparison found that the Korean wording reversed the protective exception."
+  },
+  "held_for_independent_evidence": [],
+  "separate_existing_holds": [
+    49547,
+    49569,
+    49575,
+    49577,
+    49640,
+    49648,
+    49651,
+    49679,
+    49696,
+    49697,
+    49708,
+    49738,
+    49743
+  ],
+  "translation_csv_changed": true,
+  "changed_default_ids": [49608, 49652, 49692],
+  "ledger_dispositions_changed": false,
+  "ledger_fingerprint_changed_ids": [49608, 49652, 49692],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 3236,
+    "total": 4026,
+    "percent": 80.38,
+    "remaining": 790
+  }
+}

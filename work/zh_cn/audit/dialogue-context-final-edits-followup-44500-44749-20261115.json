@@ -1,0 +1,106 @@
+{
+  "range": [44500, 44749],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-44500-44749-revalidation-20261112.md",
+    "prior_candidate_decisions": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "candidate_reconciliation": "dialogue-context-44500-44749-candidate-reconciliation-20261115.md",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    44517, 44552, 44555, 44558, 44575, 44585, 44601, 44608, 44618, 44627,
+    44629, 44632, 44671, 44672, 44681, 44697, 44727, 44730, 44741, 44742
+  ],
+  "newly_reconciled_ids": [
+    44517, 44552, 44555, 44558, 44575, 44585, 44601, 44608, 44618, 44627,
+    44629, 44632, 44671, 44672, 44681, 44697, 44727, 44730, 44741, 44742
+  ],
+  "newly_reconciled_total": 20,
+  "previously_reconciled_linked_ids": [44580],
+  "decisions": {
+    "corrected_now": [44558, 44585, 44608, 44741, 44742],
+    "already_correct_or_supported": [
+      44517, 44552, 44555, 44575, 44601, 44618, 44627, 44629, 44632, 44671,
+      44672, 44681, 44697, 44727, 44730
+    ],
+    "held_for_independent_evidence": []
+  },
+  "edits": [
+    {
+      "id": 44558,
+      "old": "생각해 보니, 자네도 이제 현장 조사를 좀 할 때가 된 것 같군. 조사해 보겠나?",
+      "new": "생각해 보니, 이제 네가 직접 현장 조사에 나설 때가 된 것 같아. 한번 조사해 볼래?",
+      "reason": "Japanese directly addresses the listener familiarly; replace the stilted old-fashioned form with natural conversational speech."
+    },
+    {
+      "id": 44585,
+      "old": "우리가 일정에 쫓기는 건 아닌 거 알아, 그대. 그래도 오래 기다릴수록 계획의 나머지를 실행하기가 더 어려워져. 이제 움직여야 해.",
+      "new": "우리한테 정해진 일정이 없다는 건 알아. 그래도 오래 기다릴수록 내 계획의 나머지를 마무리하기가 어려워져. 이제 움직여야 해.",
+      "reason": "Preserve the schedule, plan, and urgency while removing the unsupported vocative; Japanese omits the endearment and the exact Korean relationship is uncertain."
+    },
+    {
+      "id": 44608,
+      "old": "흠. 요즘 미든(The Midden)에 모여드는 이가 많군. 교수대 나무(Gallows Tree)의 폐허를 비웃으러 온 건가, 아니면 이 가문을 파멸시키러 온 건가? 자네는 어느 쪽이지?",
+      "new": "흠. 요즘 미든(The Midden)에 모여드는 이가 많군. 교수대 나무(Gallows Tree)의 폐허를 비웃으러 온 건가, 아니면 이 가문을 파멸시키러 온 건가? 어느 쪽이지?",
+      "reason": "Remove a marked vocative absent from the Japanese alternative question; retain the separate unresolved meaning of House."
+    },
+    {
+      "id": 44741,
+      "old": "그렇다면 모두가 실패한 곳에서 자네가 성공하겠군.",
+      "new": "그렇다면 그동안 아무도 해내지 못한 일을 네가 해내겠군.",
+      "reason": "Render the shared-failure meaning naturally and remove the unsupported old-fashioned address."
+    },
+    {
+      "id": 44742,
+      "old": "봐, 자매. 틸레라(Tilera)와 나란히 싸우는 사람이 있네. 전장에 온 걸 환영해, 전사여.",
+      "new": "봐, 틸레라(Tilera)와 함께 싸우는 사람이야. 전장에 온 걸 환영해, 전사.",
+      "reason": "Remove the unnatural Korean singular vocative without deciding whether sister is literal kinship or a form of address."
+    }
+  ],
+  "linked_source_groups": {
+    "begin_the_ritual": {
+      "ids": [43364, 44580],
+      "result": "Previously reconciled linked exact-source pair; both Korean labels read 의식 시작하기."
+    },
+    "where_can_i_find_them": {
+      "ids": [15997, 23436, 44607, 60830],
+      "result": "Retain the context-supported FFQ03 wording at 23436 because them refers to reagents, not people; no forced exact-English unification."
+    }
+  },
+  "evidence_limited_items": {
+    "44521": "English/Chinese and Japanese express opposite regrets.",
+    "44549": "House referent remains ambiguous.",
+    "44576": "English/Chinese say north while Japanese says west.",
+    "44672": "The canonical Korean spelling of Chrysalae remains unresolved; its source pairing is present.",
+    "44709": "Register remains unresolved without per-key speaker/stage mapping.",
+    "44731": "The predecessor's mishaps may mean misfortunes or mistakes.",
+    "44742": "Sister may be literal kinship or a vocative; age/gender relation remains unresolved."
+  },
+  "ledger_fingerprints_refreshed": [44558, 44585, 44608, 44741, 44742],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3003,
+    "previous_total": 4028,
+    "newly_reconciled": 20,
+    "reconciled": 3023,
+    "total": 4028,
+    "percent": 75.05,
+    "remaining": 1005
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [44558, 44585, 44608, 44741, 44742],
+    "all_four_language_fingerprints": "passed for all 65,135 reviewed IDs",
+    "catalog_reproducibility": "index and both catalogs passed",
+    "regression_tests": "20 combined CSV-preservation and dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "range": [500, 749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "reconciled_candidate_ids": 4,
+  "edits": [
+    {
+      "id": 583,
+      "old": "장다리라고? 여기에?",
+      "new": "장다리(Longlegs)라고? 여기서?",
+      "reason": "English, Japanese, and Chinese use the established Longlegs address. Use the project's established 장다리(Longlegs) form and pair the English term."
+    },
+    {
+      "id": 637,
+      "old": "오레인(Oreyn)은 자신이 자신이 영양이라고 마르가(Marga)를 속이려 했다고 한다. 그녀에게서 벗어날 다른 방법을 몰랐고, 도망치려던 참에 요툰(Jottun)이 끼어들었다고 한다. 이 사실을 마르가(Marga)에게 알려야겠다.",
+      "new": "오레인(Oreyn)은 마르가(Marga)가 자신을 영양으로 착각하게 만들려 했다고 한다. 그녀에게서 벗어날 다른 방법을 몰랐고, 도망치려다 요툰(Jottun)에게 방해받았다. 이 사실을 마르가(Marga)에게 알려야겠다.",
+      "reason": "English, Japanese, and Chinese describe a completed first-person journal entry. Remove the duplicated subject, clarify Oreyn's deception without implying it succeeded, and keep the journal narration concise."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 22815,
+      "old": "비켜. 이 일은 네가 끼어들 일이 아니야, 장다리.",
+      "new": "비켜. 이 일은 네가 끼어들 일이 아니야, 장다리(Longlegs).",
+      "reason": "Align the direct-address form with the established Longlegs term and provide its English pairing. The earlier retained decision concerned the Korean address wording, not the omitted English label."
+    },
+    {
+      "id": 42971,
+      "old": "그래, 키다리?",
+      "new": "그래, 장다리(Longlegs)?",
+      "reason": "This is the same long-legs address and was the remaining corpus occurrence using a different Korean form without an English pairing."
+    }
+  ],
+  "retained": [
+    {
+      "id": 626,
+      "reason": "The active Korean already says Ciara is not dead and remains confined within Rathir's stones, using the present-tense 갇혀 있어."
+    },
+    {
+      "id": 642,
+      "reason": "Retain 민감한 상품: English and Chinese support the peek-at-sensitive-goods joke, while Japanese does not establish a contradictory meaning."
+    }
+  ],
+  "held": []
+}

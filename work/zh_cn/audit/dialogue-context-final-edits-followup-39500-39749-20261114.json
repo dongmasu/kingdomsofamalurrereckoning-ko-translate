@@ -1,0 +1,174 @@
+{
+  "range": [39500, 39749],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-39500-39749-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-510295-ffq04-ring-reprisal-revalidation-20261111.md",
+      "dialogue-context-1953038-dlc2-mq04-secandra-revalidation-20261111.md",
+      "dialogue-context-colet-echoes-and-ffq08-revalidation-20261111.md",
+      "dialogue-context-525551-sq17-canneroc-webwood-revalidation-20261111.md",
+      "dialogue-context-611613-sq66-lost-squad-revalidation-20261111.md",
+      "dialogue-context-sq117-revalidation-20261110.md",
+      "dialogue-context-default-53750-53999-revalidation-20261113.md"
+    ]
+  },
+  "range_candidate_ids": [
+    39520, 39523, 39533, 39543, 39549, 39551, 39557, 39567, 39570, 39571,
+    39575, 39582, 39600, 39601, 39623, 39650, 39661, 39662, 39702, 39711,
+    39714, 39718, 39719, 39720, 39729, 39733
+  ],
+  "newly_counted_candidate_ids": [
+    39520, 39523, 39533, 39543, 39549, 39551, 39567, 39570, 39571, 39575,
+    39582, 39600, 39601, 39623, 39650, 39661, 39662, 39702, 39711, 39714,
+    39718, 39719, 39720, 39729, 39733, 53799
+  ],
+  "newly_reconciled_total": 26,
+  "previously_counted_ids": {
+    "39557": {
+      "linked_exact_source_id": 21252,
+      "previous_range": "21250-21499"
+    }
+  },
+  "decisions": {
+    "corrected_or_currently_supported": [
+      39520, 39523, 39533, 39543, 39549, 39551, 39557, 39570, 39571,
+      39575, 39582, 39600, 39601, 39623, 39662, 39702, 39711, 39714,
+      39718, 39719, 39720, 39733, 53799
+    ],
+    "shared_terminology_or_meaning_hold": [
+      39523, 39551, 39567, 39582, 39623, 39650, 39661, 39719, 39729
+    ],
+    "linked_exact_source_groups": {
+      "Aster poem": [21252, 39557],
+      "Warsworn greeting": [39582, 53799]
+    }
+  },
+  "edits": [
+    {
+      "id": 39520,
+      "old": "우리 앞의 벽화는 우리 민족의 승리를 나타내야 해. 하지만 내 눈에 보이는 건 깨진 약속뿐이야.",
+      "new": "우리 앞에 있는 벽화는 우리 민족의 승리를 나타내기 위한 거야. 하지만 내 눈에 보이는 건 깨진 약속뿐이지.",
+      "reason": "Translate the mural's intended purpose rather than an obligation."
+    },
+    {
+      "id": 39523,
+      "old": "영양 전리품 획득",
+      "new": "영양 전리품 획득하기",
+      "reason": "Use the established Korean action-label form; retain the unresolved trophy referent separately."
+    },
+    {
+      "id": 39533,
+      "old": "여기 조난당한 건 오히려 행운이었어. 사람들은 날 보면 늘 반가워하지. 필요한 물건을 구해 오는 사람이 나니까.",
+      "new": "여기 발이 묶인 건 오히려 행운이었어. 사람들은 날 보면 늘 반가워하지. 필요한 물건을 구해 오는 사람이 나니까.",
+      "reason": "Marooned does not state shipwreck or cause."
+    },
+    {
+      "id": 39543,
+      "old": "대검으로 목을 베었지. 달리 어떻게 했겠어? 기억이 맞다면 피가 흐뭇할 만큼 낭자했어. 챔피언은 시녀(The Maid)를 섬기는 내 역할을 끝내라는 명을 받았지.",
+      "new": "대검으로 목을 베었지. 달리 어떻게 했겠어? 기억이 맞다면, 꽤 통쾌한 피바다였어. 챔피언은 시녀(The Maid)를 섬기는 내 역할을 끝내라는 명을 받았지.",
+      "reason": "Replace unnatural wording while preserving the source's wry, gloriously bloody recollection."
+    },
+    {
+      "id": 39549,
+      "old": "낯선 이여, 아이텐(Ayten)에 오다니 참 낯설군. 요즘 이 길로 오는 사람은 드물거든.",
+      "new": "낯선 이여, 아이텐(Ayten)에 오다니 참 묘하군. 요즘 이 길로 오는 사람은 드물거든.",
+      "reason": "Avoid the awkward repeated adjective while retaining the strange greeting."
+    },
+    {
+      "id": 39551,
+      "old": "먼지의 자손들이 자신들의 피할 수 없는 죽음을 상징하는 자들을 꺼리는 건 이해할 만해. 그래도 오해받는 이들이 이렇게 많다니 안타깝군.",
+      "new": "먼지의 자손들(Children of Dust)이 자신들의 피할 수 없는 죽음을 상징하는 자들을 꺼리는 건 이해할 만해. 그래도 오해받는 이들이 이렇게 많다니 안타깝군.",
+      "reason": "Pair the named people without deciding the corpus-wide Korean form."
+    },
+    {
+      "id": 39575,
+      "old": "사냥꾼 산장",
+      "new": "사냥꾼 산장(Hunter's Lodge)",
+      "reason": "Pair the complete named location."
+    },
+    {
+      "id": 39582,
+      "old": "워스원(Warsworn), 반갑소.",
+      "new": "워스원(Warsworn), 반가워.",
+      "reason": "Use the conversational greeting supported by the Japanese/Chinese references and align the exact-source duplicate."
+    },
+    {
+      "id": 39600,
+      "old": "지나간 시대의 유물이야. 위대한 페이(Fae) 둘이 맞붙은 중대한 전투가 벌어진 곳이지.",
+      "new": "지나간 시대의 흔적이야. 두 위대한 페이(Fae)가 맞붙은 중대한 전투가 벌어진 곳이지.",
+      "reason": "Describe a remnant/site of the battle, not a portable relic."
+    },
+    {
+      "id": 39601,
+      "old": "실을 끊기",
+      "new": "실을 끊기(Cutting the Threads)",
+      "reason": "Pair the complete named title."
+    },
+    {
+      "id": 39623,
+      "old": "안실라 성(Castle Ansilla) 안에 들어왔다. 핀(Fynn) 장군 선발대의 남은 병사들, 특히 이병 고틀리프를 찾아야겠다. 지하 감옥 어딘가에 있을 것이다.",
+      "new": "안실라 성(Castle Ansilla) 안에 들어왔다. 핀(Fynn) 장군 선발대의 남은 병사들, 특히 고틀리프(Gautliffe) 이병을 찾아야겠다. 지하 감옥 어딘가에 있을 것이다.",
+      "reason": "Pair Gautliffe while leaving the exact Korean equivalent of Private unresolved."
+    },
+    {
+      "id": 39714,
+      "old": "이 요새는 우리 가문의 근거지였다. 이곳에는 장엄한 종(Solemn Bell)과 스케이스의 서(Codex Scaith), 내 탄생의 초(Birth Candle)가 있다. 내가 완수해야 할 추방 의식의 재료가 전부 여기 있지.",
+      "new": "이 요새는 우리 가문의 근거지였다. 이곳에는 장엄한 종(Solemn Bell)과 스케이스의 서(Codex Scaith), 내 탄생의 초가 있다. 내가 완수해야 할 추방 의식의 재료가 전부 여기 있지.",
+      "reason": "Keep the capitalized named bell paired; remove the gloss from lower-case birth candle."
+    },
+    {
+      "id": 39719,
+      "old": "섬의 목소리",
+      "new": "섬의 목소리(Voices of the Isle)",
+      "reason": "Pair the title without resolving conflicting singular/plural evidence."
+    },
+    {
+      "id": 39720,
+      "old": "바하마",
+      "new": "바하마(Bahamas)",
+      "reason": "Pair the capitalized name supported by Japanese and Chinese."
+    },
+    {
+      "id": 39733,
+      "old": "사냥에 나서기",
+      "new": "사냥에 나서기(On the Hunt)",
+      "reason": "Pair the quest/activity label supported by the SQ117 context."
+    },
+    {
+      "id": 53799,
+      "old": "워스원(Warsworn), 반갑소.",
+      "new": "워스원(Warsworn), 반가워.",
+      "reason": "Match exact-source duplicate 39582 and correct the old-fashioned greeting flagged in the 53750-53999 review."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2503,
+    "reconciled": 2529,
+    "total": 4015,
+    "percent": 62.99,
+    "remaining": 1486
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      39520, 39523, 39533, 39543, 39549, 39551, 39575, 39582, 39600,
+      39601, 39623, 39714, 39719, 39720, 39733, 53799
+    ],
+    "ledger_fingerprint_ids_refreshed_during_pass": [39714],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for 39557/21252 and 39582/53799",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

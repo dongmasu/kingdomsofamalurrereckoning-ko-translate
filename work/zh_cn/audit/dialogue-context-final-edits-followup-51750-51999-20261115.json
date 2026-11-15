@@ -1,0 +1,48 @@
+{
+  "range": [51750, 51999],
+  "source": {
+    "sequential_review": "dialogue-context-default-51750-51999-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "prior_application": "dialogue-context-final-edits-46000-51999-20261114.json",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifest"
+    ]
+  },
+  "range_report_proposal_ids": [51756, 51795, 51859, 51889, 51946, 51964, 51998],
+  "newly_reconciled_ids": [],
+  "previously_reconciled_ids": [51756, 51795, 51859, 51889, 51946, 51964, 51998],
+  "decisions": {
+    "corrected_now": [],
+    "already_correct_or_supported": [
+      51756, 51795, 51859, 51889, 51946, 51964, 51998
+    ],
+    "held_for_independent_evidence": [
+      51750, 51801, 51806, 51821, 51912, 51917, 51930,
+      51949, 51959, 51961, 51985, 51988, 51990, 51999
+    ]
+  },
+  "ledger_dispositions_changed": false,
+  "ledger_fingerprint_changed_ids": [],
+  "translation_csv_changed": false,
+  "changed_default_ids": [],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3292,
+    "previous_total": 4026,
+    "newly_reconciled": 0,
+    "reconciled": 3292,
+    "total": 4026,
+    "percent": 81.77,
+    "remaining": 734
+  },
+  "verification": {
+    "prior_manifest_cross_check": "all seven IDs explicitly reconciled",
+    "translation_csv_changed": false,
+    "ledger_fingerprint_changed_ids": [],
+    "commit_made": false
+  }
+}

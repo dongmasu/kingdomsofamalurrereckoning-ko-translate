@@ -1,0 +1,77 @@
+{
+  "range": [51000, 51249],
+  "source": {
+    "sequential_review": "dialogue-context-default-51000-51249-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "prior_application": "dialogue-context-final-edits-46000-51999-20261114.json",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_report_proposal_ids": [
+    51001, 51013, 51018, 51022, 51043, 51065, 51091, 51109, 51117,
+    51124, 51156, 51162, 51176, 51178, 51184, 51224, 51237
+  ],
+  "active_ledger_candidate_ids": [
+    51001, 51013, 51018, 51022, 51043, 51065, 51091, 51109, 51117,
+    51124, 51156, 51162, 51176, 51178, 51184, 51224, 51237
+  ],
+  "newly_reconciled_ids": [
+  ],
+  "previously_reconciled_ids": [
+    51001, 51013, 51018, 51022, 51043, 51065, 51091, 51109, 51117,
+    51124, 51156, 51162, 51176, 51178, 51184, 51224, 51237, 51189
+  ],
+  "decisions": {
+    "corrected_now": [51162],
+    "already_correct_or_supported": [
+      51001, 51013, 51018, 51022, 51043, 51065, 51091, 51109, 51117,
+      51124, 51156, 51176, 51178, 51184, 51224, 51237
+    ]
+  },
+  "reopened_findings_outside_candidate_pool": {
+    "ids": [51162],
+    "reason": "The prior 46000-51999 manifest marked this row already applied, but the current pre-edit Korean still contained the stiff '다가오는 그들의 의지의 충격을 견뎌 내리라' wording. The present correction is documented without recounting a previously reconciled candidate."
+  },
+  "decisions_legacy_shape": {
+    "held_for_independent_evidence": [51056, 51063, 51078, 51129, 51186, 51227]
+  },
+  "edits": [
+    {
+      "id": 51162,
+      "old": "그리고 나는 아르케스(Arkes)가 섰던 자리에 서서, 다가오는 그들의 의지의 충격을 견뎌 내리라.",
+      "new": "그리고 나는 아르케스(Arkes)가 섰던 자리에 서서, 그들의 의지가 곧 몰고 올 충격을 온몸으로 받아내겠다.",
+      "reason": "Makes the impact metaphor natural in Korean while retaining the unresolved plural referent and adding no unsupported source for the will."
+    }
+  ],
+  "ledger_dispositions_changed": false,
+  "ledger_fingerprint_changed_ids": [51162],
+  "translation_csv_changed": true,
+  "changed_default_ids": [51162],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3292,
+    "previous_total": 4026,
+    "newly_reconciled": 0,
+    "reconciled": 3292,
+    "total": 4026,
+    "percent": 81.77,
+    "remaining": 734
+  },
+  "verification": {
+    "ledger_fingerprint_check": "passed for all 65,135 reviewed IDs",
+    "index_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_tests": "11 passed",
+    "context_index_tests": "9 passed",
+    "csv_rows_and_order": "65,135 records; ordered IDs verified",
+    "utf8_bom_and_line_endings": "UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "range": [
+    7750,
+    7999
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 10,
+  "reconciled_candidate_ids": 10,
+  "decisions": [
+    {
+      "id": 7783,
+      "decision": "retained",
+      "reason": "The active Korean already distinguishes Freezing Damage as 빙결 피해(Freezing Damage)."
+    },
+    {
+      "id": 7813,
+      "decision": "corrected",
+      "reason": "Aligned Beachstone and Emberwood with established material labels and preserved lowercase source-local seasteel."
+    },
+    {
+      "id": 7850,
+      "decision": "retained",
+      "reason": "The active Korean already uses the established Sagecrafting term."
+    },
+    {
+      "id": 7875,
+      "decision": "corrected",
+      "reason": "Changed the marked 이오 ending to plain conversational speech, supported by Japanese and the explicitly self-identified Niahm line at 33884."
+    },
+    {
+      "id": 7885,
+      "decision": "retained",
+      "reason": "The active row already uses the supported 틱네리(Ticneri) form."
+    },
+    {
+      "id": 7901,
+      "decision": "retained",
+      "reason": "The current wording conveys the sarcastic distrust in the English and Chinese sources."
+    },
+    {
+      "id": 7907,
+      "decision": "retained",
+      "reason": "활기찬 손님 is a context-sensitive but natural adaptation of the playful live one greeting."
+    },
+    {
+      "id": 7935,
+      "decision": "retained",
+      "reason": "이 건방진 신참 아니신가 preserves the taunting sense of upstart and matches the proposed direction."
+    },
+    {
+      "id": 7943,
+      "decision": "corrected",
+      "reason": "Corrected the continuing Fate-permission meaning and streamlined the departure instruction."
+    },
+    {
+      "id": 7989,
+      "decision": "retained",
+      "reason": "백년꽃 2 already uses the established flowering-stage label and preserves the UI numeral."
+    }
+  ],
+  "related_edits_outside_range": [
+    {
+      "id": 8257,
+      "old": "다음 재료를 구해 줘. 해안석 네 묶음, 불씨나무 세 묶음, 돛천 두 묶음, 바다강철(seasteel) 세 묶음이야.",
+      "new": "다음 재료를 구해 줘. 비치스톤(Beachstone) 네 묶음, 엠버우드(Emberwood) 세 묶음, 돛천 두 묶음, 바다강철(seasteel) 세 묶음이야.",
+      "reason": "Aligned the same Gravehal materials list with established names."
+    },
+    {
+      "id": 50541,
+      "old": "비치스톤(Beachstone) 다발 3개, 곰 가죽 다발 4개, 엠버우드(Emberwood) 다발 3개, 씨스틸(Seasteel) 다발 3개가 필요해.",
+      "new": "비치스톤(Beachstone) 다발 3개, 곰 가죽 다발 4개, 엠버우드(Emberwood) 다발 3개, 바다강철(seasteel) 다발 3개가 필요해.",
+      "reason": "Aligned Seasteel with the established 바다강철 term and preserved lowercase source-local spelling."
+    }
+  ],
+  "edits": [
+    {
+      "id": 7813,
+      "old": "이번에는 해안석 세 묶음, 곰 가죽 네 묶음, 불씨나무 세 묶음, 바다강철(seasteel) 세 묶음이 필요해.",
+      "new": "이번에는 비치스톤(Beachstone) 세 묶음, 곰 가죽 네 묶음, 엠버우드(Emberwood) 세 묶음, 바다강철(seasteel) 세 묶음이 필요해.",
+      "reason": "Aligned the material names with established labels and retained lowercase seasteel to match the English source and recorded term decision."
+    },
+    {
+      "id": 7875,
+      "old": "아, 내 소개를 하지. 나는 라시르(Rathir)의 켄트 가문 출신 니암 켄트(Niahm Kent), 명예롭고 유서 깊은 워스원(Warsworn) 기사단의 맹세의 칼날(Oathblade)이오.",
+      "new": "아, 내 소개를 하지. 나는 라시르(Rathir)의 켄트 가문 출신 니암 켄트(Niahm Kent), 명예롭고 유서 깊은 워스원(Warsworn) 기사단의 맹세의 칼날(Oathblade)이지.",
+      "reason": "Aligned the self-introduction with the plain conversational register supported by Japanese and the matching Niahm self-identification."
+    },
+    {
+      "id": 7943,
+      "old": "좋아. 바라던 대로는 아니지만, 넌 운명이 허락한 것만 할 수 있었지. 하지만 보더릴(Boderill)이 떠났으니 너도 떠나야 해. 브루누아스(Brunuath)를 떠나.",
+      "new": "좋아. 바라던 대로 되진 않았지만, 네가 할 수 있는 건 운명이 허락하는 일뿐이야. 하지만 보더릴(Boderill)이 떠났으니 너도 브루누아스(Brunuath)를 떠나야 해.",
+      "reason": "Restored the ongoing Fate-permission meaning and made the departure instruction concise and conversational."
+    }
+  ],
+  "fingerprints_refreshed": [
+    7813,
+    7875,
+    7943,
+    8257,
+    50541
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 418,
+    "total": 4015,
+    "percent": 10.41,
+    "remaining": 3597
+  },
+  "verification": {
+    "ledger_reviewed_ids": 65135,
+    "ledger_fingerprint_check": "passed",
+    "index_and_catalog_reproduction": "passed",
+    "preservation_tests": 11,
+    "context_index_tests": 9,
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "line_endings": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

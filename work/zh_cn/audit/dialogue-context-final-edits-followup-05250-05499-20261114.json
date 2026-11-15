@@ -1,0 +1,94 @@
+{
+  "range": [
+    5250,
+    5499
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 11,
+  "reconciled_candidate_ids": 11,
+  "changed_rows": [
+    5299,
+    5313,
+    5329,
+    5345,
+    5371,
+    5439,
+    5449,
+    33076,
+    53623
+  ],
+  "edits": [
+    {
+      "id": 5299,
+      "old": "더 낫고 강한 수단이 있었더라면 좋았을 텐데.",
+      "new": "더 나은, 더 강한 수하가 있었더라면 좋았을 텐데.",
+      "reason": "Japanese 手駒 and Chinese 工具 identify a subordinate or agent, not an abstract means."
+    },
+    {
+      "id": 5313,
+      "old": "거미의 습격으로 캐너록(Canneroc)과 연락이 끊긴 가족의 농장을 조사해 달라고 멘리 토그(Menri Togh)가 부탁했다. 그곳에서 농장 일꾼 카터리 제이크(Cartery Jayck)가 가족을 살해했다는 사실을 알아냈다. 토그(Togh) 가족을 죽인 일로 카터리 제이크(Cartery Jayck)를 추궁한 뒤, 정의를 실현하기 위해 그를 죽였다.",
+      "new": "거미 습격으로 캐너록(Canneroc)과 연락이 끊긴 멘리 토그(Menri Togh) 가족의 농장을 조사해 달라는 부탁을 받았다. 그곳에서 농장 일꾼 카터리 제이크(Cartery Jayck)가 가족을 살해했다는 사실을 알게 됐다. 토그 가족을 죽인 일로 카터리 제이크(Cartery Jayck)를 추궁한 뒤, 정의를 실현하기 위해 그를 죽였다.",
+      "reason": "Align the shared first two sentences with exact-English duplicate 53623; preserve 5313's distinct final outcome and the source-authored contradiction."
+    },
+    {
+      "id": 5329,
+      "old": "샘의 물 회수하기",
+      "new": "샘물 얻기",
+      "reason": "The objective asks the player to obtain the Well's water; 샘물 얻기 is concise and natural."
+    },
+    {
+      "id": 5345,
+      "old": "갤로우스 엔드(Gallows End)에 사는 우리는 얼마 안 되는 취약한 무리야. 지금껏 아카라(Akara)의 은총 덕에 살아남았지.",
+      "new": "갤로우스 엔드(Gallows End)에 사는 우리는 수가 적고 약해. 지금껏 아카라(Akara)의 은총 덕에 살아남았지.",
+      "reason": "Replace the calqued phrase fragile few with natural Korean that preserves both small numbers and vulnerability."
+    },
+    {
+      "id": 5371,
+      "old": "더는 아무도 죽게 하고 싶지 않아. 제발, 다른 짐꾸러미들은... 근처 숲속에 있을지도 몰라. 찾을 수 있으면 찾아 줘.",
+      "new": "더는 아무도 죽게 하고 싶지 않아. 제발, 다른 꾸러미들도... 근처 숲속에 있을지도 몰라. 찾을 수 있으면 찾아 줘.",
+      "reason": "Use the established, natural Korean 꾸러미 for the quest's parcels."
+    },
+    {
+      "id": 5439,
+      "old": "마침내 끝났군. 콜로사이(Kollossae)의 야만성을 대변하는 아노카토스(Anokatos)의 운명이 바뀌었어.",
+      "new": "마침내 끝났어. 콜로사이(Kollossae)의 야만성을 대변하는 아노카토스(Anokatos)의 운명이 바뀌었어.",
+      "reason": "The two clauses are one utterance and should use a consistent conversational register."
+    },
+    {
+      "id": 5449,
+      "old": "고마워, 영웅. 마녀 기사가 죽었다는 소식을 전하러 알파르 군(Alfar Army) 주력 부대로 돌아갈게.",
+      "new": "고마워, 영웅. 마녀 기사가 죽었다는 소식을 전하러 알파르 군(Alfar Army)의 주력 부대로 돌아갈게.",
+      "reason": "Add the possessive particle required for a natural Korean noun phrase."
+    },
+    {
+      "id": 33076,
+      "old": "다이덴힐(Didenhil) 북쪽 숲길에서 팰런 수사(Brother Fallon)의 시신을 발견했다. 그가 가져가던 역병 방호제(Plagueshield) 세 묶음이 여전히 다이덴힐(Didenhil)에 필요하다. 글렌다라 숲(Glendara Wood)에서 찾아봐야겠다.",
+      "new": "다이덴힐(Didenhil) 북쪽 숲길에서 팰런 수사(Brother Fallon)의 시신을 발견했다. 그가 가져가던 역병 방호제(Plagueshield) 세 꾸러미가 아직 다이덴힐(Didenhil)에 필요하다. 글렌다라 숲(Glendara Wood)에서 찾아봐야겠다.",
+      "reason": "Align the same quest's Plagueshield parcel term with 꾸러미."
+    },
+    {
+      "id": 53623,
+      "old": "거미 습격으로 캐너록(Canneroc)과 연락이 끊긴 멘리 토그(Menri Togh) 가족의 농장을 조사해 달라는 부탁을 받았다. 그곳에서 농장 일꾼 카터리 제이크(Cartery Jayck)가 토그 가족을 살해했다는 사실을 알게 됐다. 토그(Togh) 가족 살해 혐의로 카터리 제이크(Cartery Jayck)를 추궁했고, 침묵을 지키는 대가로 보수를 받았다.",
+      "new": "거미 습격으로 캐너록(Canneroc)과 연락이 끊긴 멘리 토그(Menri Togh) 가족의 농장을 조사해 달라는 부탁을 받았다. 그곳에서 농장 일꾼 카터리 제이크(Cartery Jayck)가 가족을 살해했다는 사실을 알게 됐다. 토그(Togh) 가족 살해 혐의로 카터리 제이크(Cartery Jayck)를 추궁했고, 침묵을 지키는 대가로 보수를 받았다.",
+      "reason": "Match the first two sentences to exact-English duplicate 5313 while preserving this row's distinct payment-for-silence outcome."
+    }
+  ],
+  "retained": [
+    {
+      "id": 5296,
+      "reason": "The supported 불안 and fear wording from the earlier edit batch is already present."
+    },
+    {
+      "id": 5309,
+      "reason": "The conversational register and hesitation markers from the earlier edit batch are already present."
+    },
+    {
+      "id": 5341,
+      "reason": "The natural 치료해 줄게 wording from the earlier edit batch is already present."
+    },
+    {
+      "id": 5388,
+      "reason": "The active Korean already uses the reviewed 라이라(Lyra) spelling and complete Orieator's Tomb pairing."
+    }
+  ]
+}

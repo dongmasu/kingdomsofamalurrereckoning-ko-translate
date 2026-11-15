@@ -1,0 +1,162 @@
+{
+  "range": [
+    6000,
+    6249
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 8,
+  "reconciled_candidate_ids": 8,
+  "changed_rows": [
+    1043,
+    1174,
+    3307,
+    3501,
+    6013,
+    6044,
+    6239,
+    6243,
+    7667,
+    8663,
+    11172,
+    12593,
+    14564,
+    16655,
+    21485,
+    30045,
+    30190,
+    31796,
+    33892,
+    38694,
+    40340,
+    41255,
+    43684,
+    47099,
+    52596,
+    53842,
+    55720,
+    56433,
+    62000
+  ],
+  "edits": [
+    {
+      "id": 6013,
+      "old": "네가 밖에서 어슬렁대는 동안, 매그너스(Magnus)가 경비대를 이끌고 투기장 구덩이로 내려가 네 팀을 강제로 투기장에 들여보냈어.",
+      "new": "네가 밖에서 어슬렁대는 동안, 매그너스(Magnus)가 경비대를 이끌고 구덩이로 내려가 네 팀을 강제로 투기장에 들여보냈어.",
+      "reason": "Keep pit distinct from Arena; the other five generic Arena references in the asset already use 투기장."
+    },
+    {
+      "ids": [
+        1043,
+        1174,
+        3307,
+        3501,
+        6044,
+        7667,
+        8663,
+        11172,
+        12593,
+        14564,
+        16655,
+        21485,
+        30045,
+        30190,
+        31796,
+        33892,
+        38694,
+        40340,
+        41255,
+        43684,
+        47099,
+        52596,
+        53842,
+        55720,
+        56433,
+        62000
+      ],
+      "old": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "new": "아르진(Argine), 지팡이의 여왕(Queen of Staves)",
+      "reason": "All 26 exact-English source rows have identical English, Japanese, and Chinese text; align the Korean personal-name and title pairings throughout."
+    },
+    {
+      "id": 6239,
+      "old": "정말 운명의 멋진 반전이로군! 리리아(Lyria)께서 지금 나를 보고 미소 짓고 계시겠지. 감사의 표시로 이걸 받아 줘!",
+      "new": "정말 기막힌 행운이로군! 리리아(Lyria)께서 지금 내게 미소를 보내시나 봐. 감사의 표시로 이걸 받아 줘!",
+      "reason": "Japanese なんという幸運だ supports 행운 rather than the stiff literal 운명의 멋진 반전; the full line was rechecked for naturalness and register."
+    },
+    {
+      "id": 6243,
+      "old": "그래, 공포도 전쟁도 있지. 하지만 영광도 있고, 진정한 용기를 시험할 기회도 있어.",
+      "new": "그래, 전쟁에는 공포가 따르지. 하지만 영광도 있고, 진정한 용기를 시험하는 자리이기도 해.",
+      "reason": "Recast the rhetorical fragments into a natural parallel sentence consistent with Japanese 戦争は恐ろしいものだが and the casual Korean register."
+    }
+  ],
+  "retained": [
+    {
+      "id": 6103,
+      "reason": "유골함 already matches the reviewed Teeth of Naros urn terminology and the sentence meaning is supported."
+    },
+    {
+      "id": 6117,
+      "reason": "도박장(The Den) already renders the named Gambling Den naturally and consistently."
+    },
+    {
+      "id": 6144,
+      "reason": "The active Korean already matches the proposed natural wording."
+    },
+    {
+      "id": 6245,
+      "reason": "넝마주이(Rag Pickers) is already a natural, correctly paired group label."
+    }
+  ],
+  "verified_duplicate_group": {
+    "source": "Argine, Queen of Staves",
+    "ids": [
+      1043,
+      1174,
+      3307,
+      3501,
+      6044,
+      7667,
+      8663,
+      11172,
+      12593,
+      14564,
+      16655,
+      21485,
+      30045,
+      30190,
+      31796,
+      33892,
+      38694,
+      40340,
+      41255,
+      43684,
+      47099,
+      52596,
+      53842,
+      55720,
+      56433,
+      62000
+    ],
+    "all_four_locale_sources_identical": true
+  },
+  "verification": {
+    "ledger_reviewed_ids": 65135,
+    "ledger_fingerprint_check": "passed",
+    "index_and_catalog_reproduction": "passed",
+    "preservation_tests": 11,
+    "context_index_tests": 9,
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "crlf": 71838,
+    "lf_only": 244,
+    "bare_cr": 0
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 310,
+    "total": 4015,
+    "percent": 7.72,
+    "remaining": 3705
+  }
+}

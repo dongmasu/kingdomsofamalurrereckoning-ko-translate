@@ -1,0 +1,89 @@
+{
+  "range": [12250, 12499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 10,
+  "range_candidate_id_list": [
+    12344,
+    12347,
+    12353,
+    12357,
+    12365,
+    12382,
+    12395,
+    12416,
+    12427,
+    12434
+  ],
+  "reconciled_candidate_ids": 10,
+  "decisions": {
+    "previously_applied_confirmed": [
+      12344,
+      12347,
+      12353,
+      12357,
+      12365,
+      12382,
+      12395,
+      12416,
+      12427
+    ],
+    "newly_applied": [
+      12434
+    ],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_ids": [
+    3782,
+    6593,
+    8217,
+    8897,
+    12365,
+    12427,
+    12917,
+    17685,
+    21745,
+    22834,
+    23116,
+    23469,
+    23790,
+    24590,
+    30409,
+    31387,
+    35865,
+    38372,
+    38597,
+    40782,
+    44627,
+    55119,
+    55470,
+    60393
+  ],
+  "fingerprints_refreshed": {
+    "97e5c1153a44ed7c6efaeb4e9cf309592163fc036b063f584ff154ad90db70ce": [
+      12434
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 738,
+    "total": 4015,
+    "percent": 18.38,
+    "remaining": 3277
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "manifest_json": "valid"
+  }
+}

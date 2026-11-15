@@ -1,0 +1,82 @@
+{
+  "range": [2000, 2249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "reconciled_candidate_ids": 12,
+  "edits": [
+    {
+      "id": 2033,
+      "old": "페이(Fae) 아가씨가 공격당해 목숨이 위태로워. 고어하트(Gorhart) 마을의 관리관 허크 애드월드(Herc Adwold)는 그녀를 살리고 싶어 하지만 상처를 어떻게 치료해야 할지 모르겠대. 마을 위에서 내려다보며 지내는 페이(Fae), 에어리(Aery)와 이야기해 보라고 했어.",
+      "new": "페이(Fae) 아가씨가 공격을 받아 목숨이 위태롭다. 고어하트(Gorhart) 마을의 관리관 허크 애드월드(Herc Adwold)는 그녀를 구하고 싶어 하지만 상처를 어떻게 치료해야 할지 모른다. 마을을 내려다보며 지내는 페이(Fae) 에어리(Aery)와 이야기해 보라고 했다.",
+      "reason": "The English and Japanese are quest-journal narration, not spoken dialogue. Recast the colloquial endings as neutral journal prose and make the Aery phrase natural without reopening the held Warden-title question."
+    },
+    {
+      "id": 2064,
+      "old": "어서 오시오. 운명의 지혜를 기다리시오! 나는 위대한 켈스 카퍼티(Kells Cafferty), 맹세와 신념을 다해 운명의 자매들을 섬기는 자요!",
+      "new": "다가와 운명의 지혜를 기다려라! 나는 위대한 켈스 카퍼티(Kells Cafferty), 맹세와 신념을 다해 운명의 자매들을 섬기는 자다!",
+      "reason": "English and Japanese use dramatic plain commands and self-description. Remove the marked -오/-소 register while preserving the ceremonial tone."
+    },
+    {
+      "id": 2079,
+      "old": "그녀는 지하 깊숙한 대전당에 갇혀 있어. 머건(Murghan)족이 막아설 테지만 약간 힘을 쓰면 물러날 거야.",
+      "new": "그녀는 지하 깊숙한 대전당에 갇혀 있어. 머건(Murghan)들이 막아설 테지만 조금 힘을 쓰면 물러날 거야.",
+      "reason": "The source names the Murghan creatures, not a Murghan tribe. Use the established creature name and a natural plural construction."
+    },
+    {
+      "id": 2211,
+      "old": "이 우리를 여는 열쇠는 길을 조금 내려가면 있는 요툰 룬 군주(Jottun Runelord)가 가지고 있어.",
+      "new": "철창 열쇠는 길을 조금 내려가면 있는 요툰 룬 군주(Jottun Runelord)가 가지고 있어.",
+      "reason": "Japanese 監獄 and Chinese 牢笼 establish a prison cage; replace ambiguous 우리 with 철창."
+    },
+    {
+      "id": 2220,
+      "old": "아, 정말 다행이야. 이 덕분에 우리 가족이 칼과 화살의 위협을 모면한 게 몇 번인지 셀 수도 없어.",
+      "new": "아, 정말 다행이야. 이게 우리 가족을 칼과 화살로부터 몇 번이나 지켜 줬는지 몰라.",
+      "reason": "Preserve the speaker's relief and the repeated protective effect in natural conversational Korean."
+    },
+    {
+      "id": 2224,
+      "replace": [
+        {
+          "old": "사방에서 부는 바람과 하늘의 모든 별, 출렁이는 바다의 가슴를 향해 활짝 열린 영광스러운 도시였다.",
+          "new": "사방에서 부는 바람과 하늘의 모든 별, 그리고 출렁이는 바다의 가슴을 향해 활짝 열려 있었다. 그야말로 영광스러운 도시였다.",
+          "count": 1
+        }
+      ],
+      "reason": "English, Japanese, and Chinese all preserve the sea's personified, heaving breast. Restore that image, fix the object-particle error, and make the sentence natural without changing paragraph breaks."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 23635,
+      "old": "다가와서 운명의 지혜를 기다려라...! 아, 너였구나. 무슨 일이야?",
+      "new": "다가와 운명의 지혜를 기다려라...! 아, 너였구나. 무슨 일이야?",
+      "reason": "Align the repeated Kells Cafferty greeting with the corrected plain-form command at 2064 while preserving this line's distinct reaction."
+    }
+  ],
+  "retained": [
+    {
+      "id": 2005,
+      "reason": "The English fate's weave, Japanese 運命の織り目, and Chinese 命运织锦 all support the current metaphor 운명의 실타래; this is not the named system term Fateweaving."
+    },
+    {
+      "id": 2018,
+      "reason": "The King's Thimble already has the complete English title pairing."
+    },
+    {
+      "id": 2030,
+      "reason": "Fateweaver is already paired as 페이트위버(Fateweaver), consistent with the established official-manual term; replacing it with an invented translated role would conflict with that convention."
+    },
+    {
+      "id": 2121,
+      "reason": "Thyrdon's Charge already has a complete Korean title and English pairing."
+    },
+    {
+      "id": 2163,
+      "reason": "The exact-English duplicate at 473 has identical Korean, including the established Great General pairing."
+    },
+    {
+      "id": 2202,
+      "reason": "The poem already preserves the complete source title The Maid of Windemere, including The, and its stanza breaks."
+    }
+  ]
+}

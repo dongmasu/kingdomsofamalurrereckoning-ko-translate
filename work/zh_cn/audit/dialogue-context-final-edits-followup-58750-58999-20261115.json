@@ -1,0 +1,90 @@
+{
+  "range": [58750, 58999],
+  "source": {
+    "sequential_revalidation": "dialogue-context-default-58750-58999-revalidation-20261113.md",
+    "prior_candidate_review": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    58787, 58789, 58790, 58811, 58825, 58830, 58838, 58845,
+    58903, 58906, 58914, 58928, 58942, 58952, 58992
+  ],
+  "previously_reconciled_ids_rechecked": [
+    58764, 58765, 58772, 58806, 58835, 58868, 58889, 58975, 58994
+  ],
+  "newly_reconciled_ids": [
+    58789, 58790, 58811, 58825, 58830, 58838, 58845,
+    58903, 58906, 58914, 58928, 58942, 58952, 58992
+  ],
+  "already_resolved_ids": [
+    58789, 58790, 58811, 58825, 58838, 58903, 58914
+  ],
+  "held_for_insufficient_context": [58787],
+  "edits": [
+    {
+      "id": 58830,
+      "old": "중앙 콩코스(Concourse)를 불러오는 중",
+      "new": "중앙 콩코스(Concourse Central)를 불러오는 중",
+      "reason": "Pair the complete English loading label Concourse Central."
+    },
+    {
+      "id": 58845,
+      "old": "에리예 봉우리",
+      "new": "에리예 봉우리(Eryie Peak)",
+      "reason": "Pair the full place name corroborated by the aligned language sources."
+    },
+    {
+      "id": 58906,
+      "old": "세상을 꿰뚫은 창, 롱기누스의 형상을 본떠 만들었다.",
+      "new": "세상을 꿰뚫은 창 롱기누스(Longinous)를 본떠 만들었다.",
+      "reason": "Clarify Longinous as the named world-piercing spear and pair its English name."
+    },
+    {
+      "id": 58928,
+      "old": "기쁘군! 말해 보게. 다음 상황에서 힘을 가장 효과적으로 과시하는 방법은 무엇일까?",
+      "new": "기쁘네! 그럼 다음 상황에선 어떻게 해야 힘을 가장 효과적으로 보여 줄 수 있을까?",
+      "reason": "Remove the isolated 하게체 form and make the question consistently conversational."
+    },
+    {
+      "id": 58942,
+      "old": "여기 보수가 있어. 성의의 표시야. 준비를 마치면 부두에 있는 라스트 브래티건(Rast Brattigan) 선장에게 보고해. 그녀가 호위해 줄 거야.",
+      "new": "여기 보수가 있어. 성의의 표시야. 준비를 마치면 부두(Quays)에 있는 라스트 브래티건(Rast Brattigan) 선장에게 보고해. 그녀가 호위해 줄 거야.",
+      "reason": "Pair the named district; default:2561 and default:22127 establish the Quays label."
+    },
+    {
+      "id": 58952,
+      "old": "Daniel",
+      "new": "대니얼(Daniel)",
+      "reason": "Translate the standalone person name and retain its source spelling."
+    },
+    {
+      "id": 58992,
+      "old": "우리가 방패형제, 방패자매라고 부를 때는 진심으로 서로를 형제자매처럼 여긴다는 뜻이야.",
+      "new": "우리가 방패형제(Shieldbrother), 방패자매(Shieldsister)라고 부르는 건 진심이야.",
+      "reason": "Pair both role terms and render the source's direct conversational meaning."
+    }
+  ],
+  "ledger_fingerprint_changed_ids": [
+    58830, 58845, 58906, 58928, 58942, 58952, 58992
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3298,
+    "previous_total": 4026,
+    "newly_reconciled": 14,
+    "reconciled": 3312,
+    "total": 4026,
+    "percent": 82.27,
+    "remaining": 714
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "preservation_and_context_index_tests": "20 passed",
+    "index_and_catalog_reproducibility": "passed",
+    "csv_rows_and_order": "65,135 ordered unique IDs",
+    "utf8_bom_and_line_endings": "UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

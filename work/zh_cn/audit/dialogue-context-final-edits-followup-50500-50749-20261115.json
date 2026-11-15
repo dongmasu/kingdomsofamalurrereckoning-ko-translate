@@ -1,0 +1,70 @@
+{
+  "range": [50500, 50749],
+  "source": {
+    "sequential_review": "dialogue-context-default-50500-50749-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_report_proposal_ids": [
+    50503, 50506, 50508, 50533, 50541, 50684,
+    50710, 50711, 50723, 50724, 50725
+  ],
+  "active_ledger_candidate_ids": [
+    50503, 50533, 50541, 50572, 50684, 50711, 50723, 50724
+  ],
+  "newly_reconciled_ids": [50503, 50533, 50541, 50684, 50711, 50724],
+  "previously_reconciled_ids": [50572, 50723],
+  "already_not_issue_ids": [50506, 50508, 50710, 50725],
+  "decisions": {
+    "corrected_now": [50533],
+    "already_correct_or_supported": [
+      50503, 50541, 50684, 50711, 50724
+    ],
+    "held_for_independent_evidence": [
+      50515, 50517, 50532, 50589,
+      50602, 50656, 50663, 50703
+    ]
+  },
+  "linked_hurvar_rows_checked": [5998, 13362, 21396, 52747, 55729, 57991],
+  "linked_hurvar_rows_changed": [],
+  "edits": [
+    {
+      "id": 50533,
+      "old": "허바르(Hurvar)의 문지방(Hurvar's Doorsill)",
+      "new": "허바르의 문턱(Hurvar's Doorsill)",
+      "reason": "The active Korean corpus consistently renders the same place as 허바르의 문턱(Hurvar's Doorsill). English ID 50533 has a one-letter source typo (Doorsil); normalize the pairing to the established source name without introducing a new Korean place-name form."
+    }
+  ],
+  "ledger_dispositions_changed": false,
+  "ledger_fingerprint_changed_ids": [50533],
+  "translation_csv_changed": true,
+  "changed_default_ids": [50533],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3275,
+    "previous_total": 4026,
+    "newly_reconciled": 6,
+    "reconciled": 3281,
+    "total": 4026,
+    "percent": 81.50,
+    "remaining": 745
+  },
+  "verification": {
+    "ledger_fingerprint_check": "passed for all 65,135 reviewed IDs",
+    "index_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_tests": "11 passed",
+    "context_index_tests": "9 passed",
+    "csv_rows_and_order": "65,135 records; ordered IDs verified",
+    "utf8_bom_and_line_endings": "UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

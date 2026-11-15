@@ -1,0 +1,51 @@
+{
+  "range": [33250, 33499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 30,
+  "range_candidate_id_list": [
+    33252, 33255, 33262, 33266, 33273, 33288, 33290, 33297, 33304, 33317,
+    33322, 33325, 33328, 33332, 33348, 33353, 33357, 33387, 33393, 33402,
+    33430, 33432, 33435, 33441, 33442, 33443, 33472, 33475, 33481, 33491
+  ],
+  "linked_candidate_ids_outside_range": [
+    33861, 59263, 41961, 47926, 49766, 62087, 63112, 64469
+  ],
+  "newly_counted_candidate_ids": [
+    33252, 33255, 33262, 33266, 33273, 33288, 33290, 33297, 33304, 33317,
+    33322, 33325, 33328, 33332, 33348, 33353, 33357, 33387, 33393, 33402,
+    33430, 33432, 33435, 33441, 33442, 33443, 33472, 33475, 33481, 33491,
+    33861, 59263, 41961, 47926, 49766, 62087, 63112, 64469
+  ],
+  "decisions": {
+    "confirmed_current": [
+      33252, 33255, 33262, 33266, 33273, 33288, 33290, 33297, 33304, 33317,
+      33322, 33325, 33328, 33332, 33348, 33353, 33357, 33387, 33393, 33402,
+      33430, 33432, 33435, 33441, 33442, 33443, 33472, 33475, 33481, 33491,
+      33861, 59263, 41961, 47926, 49766, 62087, 63112, 64469
+    ],
+    "evidence_limited_holds_not_candidate_ids": [33298, 33338, 33418, 33482, 33445]
+  },
+  "linked_consistency_groups": {
+    "Commodore Garrick": [33262, 33861, 59263],
+    "Acyone references": [33435, 41961, 47926, 49766, 62087, 63112, 64469]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2007,
+    "total": 4015,
+    "percent": 49.99,
+    "remaining": 2008
+  },
+  "evidence_reports": [
+    "dialogue-context-default-33250-33499-revalidation-20261112.md",
+    "dialogue-context-edit-batch-20261114-33250-33499.md",
+    "dialogue-context-439722-sq08-headsman-revalidation-20261111.md",
+    "dialogue-context-1252336-sq19-sq22-sidhe-revalidation-20261111.md",
+    "dialogue-context-545731-faitir-revalidation-20261114.md"
+  ],
+  "verification": {
+    "translation_csv_changed_during_reconciliation": false,
+    "existing_edit_batch_used": true,
+    "speaker_or_playback_order_inferred": false,
+    "full_ledger_and_csv_checks": "recorded in linked edit batch"
+  }
+}

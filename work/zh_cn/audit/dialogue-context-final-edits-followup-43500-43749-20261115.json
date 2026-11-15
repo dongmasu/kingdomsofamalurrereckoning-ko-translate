@@ -1,0 +1,116 @@
+{
+  "range": [43500, 43749],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-43500-43749-revalidation-20261112.md",
+    "candidate_reconciliation": "dialogue-context-43500-43749-candidate-reconciliation-20261115.md",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    43506, 43516, 43519, 43520, 43525, 43536, 43538, 43547, 43548, 43555,
+    43572, 43574, 43585, 43591, 43606, 43609, 43632, 43661, 43671, 43675,
+    43684, 43688, 43693, 43734, 43735
+  ],
+  "newly_reconciled_ids": [
+    14404, 18339, 23870, 25968, 27676, 38295, 43305,
+    43506, 43516, 43519, 43520, 43525, 43536, 43538, 43547, 43548,
+    43555, 43572, 43574, 43585, 43591, 43606, 43609, 43632, 43661,
+    43671, 43675, 43684, 43688, 43693, 43734, 43735, 44258
+  ],
+  "newly_reconciled_total": 33,
+  "previously_reconciled_linked_ids": [19981],
+  "candidate_pool_correction": {
+    "id": 12779,
+    "previous_format_status": "candidate",
+    "new_format_status": "not_flagged",
+    "previous_overall_status": "candidate",
+    "new_overall_status": "uncertain",
+    "reason": "The active title pairing is complete, but the isolated source does not settle the singular/plural meaning. Preserve the earlier evidence-limited hold rather than count it as a correction candidate."
+  },
+  "decisions": {
+    "corrected_now": [43585, 44258],
+    "retained_as_already_correct": [
+      14404, 18339, 23870, 25968, 27676, 38295, 43305,
+      43506, 43516, 43519, 43520, 43525, 43536, 43538, 43547, 43548,
+      43555, 43572, 43574, 43591, 43606, 43609, 43632, 43661, 43671,
+      43675, 43684, 43688, 43693, 43734, 43735
+    ],
+    "held_for_independent_evidence": [12779, 46913, 47542, 49487, 63161]
+  },
+  "linked_source_groups": {
+    "former_contract_holder_objective": {
+      "ids": [43520, 64742],
+      "result": "All three source languages are identical and both Korean rows read 이전 계약 담당자 찾기."
+    },
+    "promise_and_gift_passage": {
+      "ids": [10708, 41402, 43547],
+      "result": "Japanese text is identical; the Korean wording now matches across all three rows as 잘 활용해라."
+    },
+    "the_humbled_title": {
+      "ids": [
+        12779, 14404, 18339, 19981, 23870, 25968, 27676,
+        38295, 43305, 43555, 44258, 46913, 49487, 55431
+      ],
+      "result": "The title is consistently rendered 겸손해진 자들. ID 44258 was aligned in this batch; 12779 retains an evidence-limited number/meaning hold. ID 19981 was reconciled previously."
+    },
+    "gnomish_trireme": {
+      "ids": [41266, 43734, 55925, 47542],
+      "result": "The standalone labels match as 노움 삼단노선(Gnomish Trireme). The separate source conflict in 47542 remains held."
+    },
+    "argine_queen_of_staves": {
+      "ids": [
+        1043, 1174, 3307, 3501, 6044, 7667, 8663, 11172, 12593,
+        14564, 16655, 21485, 30045, 30190, 31796, 33892, 38694,
+        40340, 41255, 43684, 47099, 52596, 53842, 55720, 56433, 62000
+      ],
+      "result": "All 26 exact English labels have the same complete Korean name and title pairing; no change was needed."
+    },
+    "julius_mavern": {
+      "ids": [43688, 47211, 63161],
+      "result": "The English name/title pairing is present in Korean. The independent evidence-limited disposition at 63161 remains unchanged."
+    }
+  },
+  "edits": [
+    {
+      "id": 43585,
+      "old": "네 종족이 성급하다는 이야기는 과장된 모양이군. 비탄의 힘(Sorrows)에 이르는 열쇠는 내게 있는 게 아니라 신시어(Sinsear)에 있소.",
+      "new": "네 종족이 성급하다는 이야기는 과장된 모양이군. 비탄의 힘(Sorrows)에 이르는 열쇠는 내게 있는 게 아니라 신시어(Sinsear)에 있어.",
+      "reason": "Japanese uses direct plain speech; remove the isolated archaic 하오체 ending while preserving meaning and term pairings."
+    },
+    {
+      "id": 44258,
+      "change": "《겸손한 자들》은 영웅과 악당의 마지막 대결 -> 《겸손해진 자들》은 영웅과 악당의 마지막 대결",
+      "reason": "Align this repeated reference with the same named play's established Korean title elsewhere in the row and across the source group; preserve the existing CRLF paragraph layout and first-occurrence English pairing."
+    }
+  ],
+  "ledger_fingerprints_refreshed": [
+    64742, 43555, 43585, 44258, 46913, 47542, 49487, 63161
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2902,
+    "previous_total": 4028,
+    "newly_reconciled": 33,
+    "reconciled": 2935,
+    "total": 4028,
+    "percent": 72.86,
+    "remaining": 1093
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [43585, 44258],
+    "ledger_reviewed_ids": 65135,
+    "all_four_language_fingerprints": "passed",
+    "catalog_reproducibility": "passed after regenerating the all-ID catalog from the verified temporary output",
+    "regression_tests": "11 CSV-preservation tests and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

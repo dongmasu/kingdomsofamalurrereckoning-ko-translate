@@ -1,0 +1,84 @@
+{
+  "range": [52000, 57999],
+  "source": {
+    "prior_application": [
+      "dialogue-context-final-edits-52000-57999-20261114.json",
+      "dialogue-context-final-edits-58000-65134-20261114.json"
+    ],
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "linked_context_reports": [
+      "dialogue-context-571972-hv03-house-of-valor-revalidation-20261111.md",
+      "dialogue-context-m0-sq06-revalidation-20261110.md",
+      "dialogue-context-malwyn-consistency-20261114.md"
+    ]
+  },
+  "range_report_proposal_ids": [
+    54189, 54422, 55264, 56405, 57501, 57597, 59142
+  ],
+  "newly_reconciled_ids": [54189, 55264, 57501, 57597, 59142],
+  "previously_reconciled_ids": [],
+  "decisions": {
+    "corrected_now": [54189, 55264, 57501, 59142],
+    "already_correct_or_supported": [57597],
+    "held_for_independent_evidence": [54422, 56405]
+  },
+  "linked_non_candidate_edits": [
+    {
+      "id": 913,
+      "old": "서둘러! 브로건 아데어(Brogan Adair)가 투기장에서 기다리고 있어. 행운을 빌어.",
+      "new": "서둘러! 브로건 아데어(Brogan Adair)가 투기장(The Pit)에서 기다리고 있어. 행운을 빌어.",
+      "reason": "Parallel Pit reference in the same HV03 asset; add the English place-name pairing."
+    }
+  ],
+  "edits": [
+    {
+      "id": 54189,
+      "old": "그 훌륭한 의사가 이런 시신을 생각보다 많이 만들어 냈어.",
+      "new": "그 훌륭한 의사가 생각보다 많은 사람을 죽게 했어.",
+      "reason": "English and Japanese support deaths caused by the doctor; Chinese can be read as handling bodies, and that source difference is documented."
+    },
+    {
+      "id": 55264,
+      "old": "나라도 그가 겪은 일을 겪고 돌아왔다면, 딱히 할 말은 없었을 것 같아. 다른 건 필요해?",
+      "new": "그가 어떤 일을 겪고 돌아왔는지 생각하면, 나라도 별로 할 말은 없었겠지. 다른 건 필요해?",
+      "reason": "Removes repeated wording while retaining the broad return-circumstances framing; no specific event or speaker identity is added."
+    },
+    {
+      "id": 57501,
+      "old": "브로건 아데어(Brogan Adair)와 그의 도적단도 준비됐어. 구덩이로 내려와. 그럼 시작하자.",
+      "new": "브로건 아데어(Brogan Adair)와 그의 도적단도 준비됐어. 투기장(The Pit)으로 내려와. 그럼 시작하자.",
+      "reason": "Uses the same asset's established Arena rendering for this capitalized place, with its English name."
+    },
+    {
+      "id": 59142,
+      "old": "브로건 아데어(Brogan Adair)와 그의 도적단도 준비됐어. 구덩이로 내려와. 그럼 시작하자.",
+      "new": "브로건 아데어(Brogan Adair)와 그의 도적단도 준비됐어. 투기장(The Pit)으로 내려와. 그럼 시작하자.",
+      "reason": "Exact-English duplicate of 57501; aligned to the same wording."
+    }
+  ],
+  "ledger_dispositions_changed": false,
+  "ledger_fingerprint_changed_ids": [913, 54189, 55264, 57501, 59142],
+  "translation_csv_changed": true,
+  "changed_default_ids": [913, 54189, 55264, 57501, 59142],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3292,
+    "previous_total": 4026,
+    "newly_reconciled": 5,
+    "reconciled": 3297,
+    "total": 4026,
+    "percent": 81.89,
+    "remaining": 729
+  },
+  "verification": {
+    "ledger_fingerprint_check": "passed for all 65,135 reviewed IDs",
+    "preservation_tests": "11 passed",
+    "context_index_tests": "9 passed",
+    "csv_rows_and_order": "65,135 ordered unique IDs",
+    "utf8_bom_and_line_endings": "UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "linked_duplicate_57501_59142": "identical Korean text",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "range": [9250, 9499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 29,
+  "range_candidate_id_list": [
+    9259, 9264, 9279, 9298, 9299, 9302, 9304, 9322, 9323, 9332,
+    9342, 9360, 9364, 9375, 9382, 9384, 9393, 9402, 9405, 9407,
+    9413, 9429, 9447, 9473, 9483, 9485, 9487, 9488, 9493
+  ],
+  "reconciled_candidate_ids": 29,
+  "decisions": [
+    {"id": 9259, "decision": "corrected", "reason": "Naturalized the short reply while preserving that the subject is long gone."},
+    {"id": 9264, "decision": "corrected", "reason": "Confirmed consistent plain speech and paired names; retained the unresolved source image about the master without interpreting it."},
+    {"id": 9279, "decision": "retained", "reason": "The current text preserves Orla Devlin's curse removal, affected grove flora, and the hope of no further retaliation."},
+    {"id": 9298, "decision": "corrected", "reason": "Smoothed the conversational failure response and retained the warning about the unfavorable order."},
+    {"id": 9299, "decision": "retained", "reason": "The Lorestone term is paired in the concise return objective."},
+    {"id": 9302, "decision": "retained", "reason": "The current objective naturally asks the player to investigate where the singing comes from."},
+    {"id": 9304, "decision": "held", "reason": "The source role of Knave remains uncertain; no unsupported title substitution was made."},
+    {"id": 9322, "decision": "retained", "reason": "The document heading pairs Erran Brant without adding unrelated context."},
+    {"id": 9323, "decision": "retained", "reason": "Damage, stun duration, concealment duration, Mana cost, and line layout are preserved."},
+    {"id": 9332, "decision": "corrected", "reason": "Added the English Witch Knight rank to Khleran's title."},
+    {"id": 9342, "decision": "retained", "reason": "The forging sequence and paragraph structure are preserved; Helios/Helius remains unresolved."},
+    {"id": 9360, "decision": "retained", "reason": "Aglir is paired with the source name."},
+    {"id": 9364, "decision": "corrected", "reason": "Paired Cycle the Fifth in the heading and Nette in the closing address while preserving line layout."},
+    {"id": 9375, "decision": "retained", "reason": "The complete Priestess Corelon title is paired."},
+    {"id": 9382, "decision": "retained", "reason": "The Hollowlands warning is natural and source-faithful."},
+    {"id": 9384, "decision": "retained", "reason": "The named legendary title uses the established Executioner form."},
+    {"id": 9393, "decision": "retained", "reason": "Colm is paired without inferring a full name from asset membership."},
+    {"id": 9402, "decision": "retained", "reason": "The book title and concise Korean description are retained without redundant English prose."},
+    {"id": 9405, "decision": "corrected", "reason": "Source-local names are paired and Order of Ash uses the established Korean term; existing structure is preserved."},
+    {"id": 9407, "decision": "retained", "reason": "The journal correctly says to join Agarth after resupplying."},
+    {"id": 9413, "decision": "retained", "reason": "The displayed Emile's Magic label is paired."},
+    {"id": 9429, "decision": "retained", "reason": "Askel is paired and the speaker's former business role is preserved."},
+    {"id": 9447, "decision": "corrected", "reason": "Clarified that 'for lack of a better word' qualifies the Court's governing role."},
+    {"id": 9473, "decision": "retained", "reason": "The current refusal is conversational and preserves the curse as its reason."},
+    {"id": 9483, "decision": "retained", "reason": "The line preserves weariness and the wish to rest beneath the sands."},
+    {"id": 9485, "decision": "retained", "reason": "The invitation is natural and retains the expectation of a useful contribution."},
+    {"id": 9487, "decision": "retained", "reason": "Reader-facing training guidance preserves the cost/knowledge wordplay."},
+    {"id": 9488, "decision": "retained", "reason": "Brother Edwin's user-identified line uses consistent plain speech and preserves the stated lack of knowledge."},
+    {"id": 9493, "decision": "corrected", "reason": "Changed the quest objective to the established concise -기 form."}
+  ],
+  "edits": [
+    {"id": 9259, "reason": "Naturalized the short response."},
+    {"id": 9264, "reason": "Applied the supported conversational register and name-pairing corrections; the ambiguous master description remains unresolved."},
+    {"id": 9298, "reason": "Naturalized the friend-to-friend response."},
+    {"id": 9332, "reason": "Added the English Witch Knight title."},
+    {"id": 9364, "reason": "Paired the cycle heading and Nette in the closing line."},
+    {"id": 9405, "reason": "Paired source-local names and standardized Order of Ash."},
+    {"id": 9447, "reason": "Improved the sentence's connective and qualifier scope."},
+    {"id": 9493, "reason": "Standardized the quest objective form."}
+  ],
+  "fingerprints_refreshed": [9259, 9264, 9298, 9332, 9364, 9405, 9447, 9493, 11418, 26929, 53592],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 548,
+    "total": 4015,
+    "percent": 13.65,
+    "remaining": 3467
+  },
+  "verification": {
+    "csv_preservation_tests": 11,
+    "context_index_tests": 9,
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "line_endings": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

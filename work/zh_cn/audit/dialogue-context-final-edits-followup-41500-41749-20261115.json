@@ -1,0 +1,77 @@
+{
+  "range": [41500, 41749],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-41500-41749-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "linked_reviews": [
+      "dialogue-context-tr03-revalidation-20261110.md",
+      "dialogue-context-1458189-sq122-tidings-war-revalidation-20261111.md"
+    ]
+  },
+  "range_candidate_ids": [
+    41525, 41533, 41545, 41586, 41599, 41650, 41671, 41720, 41722, 41732,
+    41746
+  ],
+  "newly_reconciled_ids": [
+    41525, 41533, 41545, 41586, 41599, 41650, 41671, 41720, 41722, 41732,
+    41746, 43268
+  ],
+  "newly_reconciled_total": 12,
+  "newly_identified_candidates": [],
+  "cleared_false_positive_candidates": [],
+  "decisions": {
+    "confirmed_current_candidate_ids": [
+      41525, 41533, 41545, 41586, 41599, 41650, 41671, 41720, 41722, 41732,
+      41746
+    ],
+    "linked_exact_source_candidate_ids": [41671, 43268],
+    "corrected_now": [],
+    "evidence_limited_non_candidate_holds": [41648]
+  },
+  "linked_exact_source_groups": {
+    "What notices?": {
+      "ids": [41671, 43268],
+      "result": "English, Japanese, Chinese, and Korean rows are identical. Both Korean rows use 무슨 통지서야?, supported by the SQ122 Notices of Duty context."
+    }
+  },
+  "preexisting_supported_edits": [
+    {
+      "id": 41650,
+      "current": "구이안(Guian)은 쓸 만한 수단을 가진 것 같아. 엘로렌은 아리부스 엔진(Arrivus Engine)이라는 장치로 달인의 자물쇠따개(Master's Pick)를 꺼낼 수 있다고 생각했지.",
+      "reason": "The current wording names the established Master's Pick and makes retrieval clear without claiming more than the multilingual sources and TR03 quest context support."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2699,
+    "previous_total": 4020,
+    "newly_identified_candidates_added_to_total": 0,
+    "false_positive_candidates_removed_from_total": 0,
+    "reconciled": 2711,
+    "total": 4020,
+    "percent": 67.44,
+    "remaining": 1309
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "ledger_fingerprint_ids_refreshed": [41650],
+    "ledger_reviewed_ids": 65135,
+    "newly_reconciled_ledger_ids": [
+      41525, 41533, 41545, 41586, 41599, 41650, 41671, 41720, 41722, 41732,
+      41746, 43268
+    ],
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for identical English, Japanese, Chinese, and Korean rows 41671/43268",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

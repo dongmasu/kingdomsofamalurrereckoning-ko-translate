@@ -1,0 +1,38 @@
+{
+  "range": [25500, 25749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 13,
+  "range_candidate_id_list": [
+    25526, 25549, 25553, 25595, 25596, 25599, 25627, 25632, 25699, 25700,
+    25713, 25727, 25742
+  ],
+  "linked_candidate_ids": [58994],
+  "reconciled_candidate_ids": 14,
+  "newly_counted_candidate_ids": 13,
+  "previously_counted_ids": [25713],
+  "decisions": {
+    "confirmed_prior_corrections": [
+      25526, 25549, 25553, 25595, 25596, 25599, 25627, 25632, 25699, 25700,
+      25727
+    ],
+    "correction_applied_now": [25713, 25742],
+    "linked_candidate_confirmed": [58994]
+  },
+  "evidence_limited_holds": [25544, 25615, 25720],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1447,
+    "total": 4015,
+    "percent": 36.04,
+    "remaining": 2568
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [25713, 25742],
+    "fingerprint_refreshed_ids": [25713, 25742],
+    "source_csv_or_extracted_asset_changed": false,
+    "ledger_fingerprint_check": "passed",
+    "context_index_catalog_check": "passed",
+    "regression_tests": 20,
+    "manifest_json": "valid"
+  }
+}

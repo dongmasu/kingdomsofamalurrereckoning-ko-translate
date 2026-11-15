@@ -1,0 +1,93 @@
+{
+  "range": [
+    5750,
+    5999
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 10,
+  "reconciled_candidate_ids": 10,
+  "changed_rows": [
+    5752,
+    5766,
+    5971
+  ],
+  "edits": [
+    {
+      "id": 5752,
+      "old": "이 비밀 장소 덕분에 마을 상점을 물품으로 가득 채울 수 있었어.",
+      "new": "이 비밀 장소 덕분에 마을의 저장고를 가득 채울 수 있었어.",
+      "reason": "The same asset's references at 15624 and 19594 establish that village stores means food supplies/storage, not retail shops."
+    },
+    {
+      "id": 5766,
+      "old": "내가 한 말은 '달인의 자물쇠따개(Master's Pick)' 같은 건 없었다는 거야. 이상하고 열리지 않는 상자만 있었는데, 프레토리안 근위대(Praetorians)가 압수했어.",
+      "new": "난 '달인의 자물쇠따개(Master's Pick)' 같은 건 없다고 했어. 이상하고 열리지도 않는 상자 하나뿐이었는데, 프레토리안 근위대(Praetorians)가 그걸 압수했지.",
+      "reason": "Recast the stiff indirect denial naturally while preserving that the speaker lacked the Pick and the Praetorians confiscated the box."
+    },
+    {
+      "id": 5971,
+      "old": "슬프군. 신릭(Cynric)이 한때 날 좋아했던 것 같아. 그의 손가락 두 개를 잘라 내기 전까지는 말이지. 네가 옳은 일을 했어. 여기 보수야.",
+      "new": "슬픈 얘기야. 신릭(Cynric)이 한때 날 좋아했던 것 같아. 그의 손가락 두 개를 잘라 내기 전까지는 말이지. 네가 옳은 일을 했어. 여기 보수야.",
+      "reason": "Japanese 悲しい話さ supports a conversational opening; the previous 군 ending was stiff beside the casual line."
+    }
+  ],
+  "retained": [
+    {
+      "id": 5754,
+      "reason": "The earlier correction 새로운 국면 is already present and preserves a new twist in the Telling without over-defining the lore."
+    },
+    {
+      "id": 5782,
+      "reason": "The title already uses the complete 새벽의 균열(Crack of Dawn) pairing."
+    },
+    {
+      "id": 5790,
+      "reason": "The magical Well is already rendered 샘, consistent with the reviewed SQ01 occurrences."
+    },
+    {
+      "id": 5871,
+      "reason": "The earlier correction 힘을 탐내니까 is already present and avoids narrowing power to political 권력."
+    },
+    {
+      "id": 5940,
+      "reason": "The Oracle title already uses the within-asset 신탁자(Oracle) form."
+    },
+    {
+      "id": 5949,
+      "reason": "The earlier correction already removed the abrupt 하오체 and uses natural, courteous speech."
+    },
+    {
+      "id": 5998,
+      "reason": "장인의 동물성 지방(Master's Tallow) and 허바르의 문턱(Hurvar's Doorsill) already use the reviewed pairings."
+    }
+  ],
+  "related_checks": [
+    {
+      "id": 15624,
+      "reason": "The same asset uses village stores in a food-growing context; Korean already refers to the village's storage."
+    },
+    {
+      "id": 19594,
+      "reason": "The same asset explicitly describes the stores as food supplies running low; Korean already uses 식량 비축분."
+    }
+  ],
+  "verification": {
+    "ledger_reviewed_ids": 65135,
+    "ledger_fingerprint_check": "passed",
+    "index_and_catalog_reproduction": "passed",
+    "preservation_tests": 11,
+    "context_index_tests": 9,
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "crlf": 71838,
+    "lf_only": 244,
+    "bare_cr": 0
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 302,
+    "total": 4015,
+    "percent": 7.52,
+    "remaining": 3713
+  }
+}

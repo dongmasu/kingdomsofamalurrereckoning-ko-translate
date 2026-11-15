@@ -1,0 +1,65 @@
+{
+  "range": [12500, 12749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 8,
+  "range_candidate_id_list": [
+    12506,
+    12545,
+    12550,
+    12571,
+    12585,
+    12610,
+    12673,
+    12735
+  ],
+  "reconciled_candidate_ids": 8,
+  "decisions": {
+    "previously_applied_confirmed": [
+      12506,
+      12545,
+      12550,
+      12571,
+      12585,
+      12610,
+      12673,
+      12735
+    ],
+    "newly_applied": [],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Ambassador Kulder": [
+      17,
+      12545,
+      33632
+    ],
+    "Lorestone": [
+      12735,
+      62074
+    ]
+  },
+  "fingerprints_refreshed": [],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 746,
+    "total": 4015,
+    "percent": 18.58,
+    "remaining": 3269
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "manifest_json": "valid"
+  }
+}

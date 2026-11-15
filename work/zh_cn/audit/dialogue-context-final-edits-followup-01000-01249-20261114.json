@@ -1,0 +1,241 @@
+{
+  "range": [1000, 1249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "reconciled_candidate_ids": 20,
+  "edits": [
+    {
+      "id": 1012,
+      "old": "라토퍼(Ratofer)가 팔아 달라고 한 특허장을 파기했으므로 팔 수 없게 됐다. 그래도 돈만 가져가면 라토퍼(Ratofer)는 아마 모를 것이다.",
+      "new": "라토퍼(Ratofer)가 팔아 달라고 한 칙허장을 파기했으므로 팔 수 없게 됐다. 그래도 돈만 가져가면 라토퍼(Ratofer)는 아마 모를 것이다.",
+      "reason": "The same family-rank document is a charter (勅許状 in Japanese), not a patent. Align this occurrence with the established 칙허장 term."
+    },
+    {
+      "id": 8049,
+      "old": "결국 그 허가장이 팔렸군. 돌아온 뒤로 한 번에 이렇게 많은 금화를 손에 쥔 건 처음이야.",
+      "new": "결국 그 칙허장이 팔렸군. 돌아온 뒤로 한 번에 이렇게 많은 금화를 손에 쥔 건 처음이야.",
+      "reason": "Same Ratofer family charter, identified by the Japanese source as 勅許状; align the abbreviated reference with 칙허장."
+    },
+    {
+      "id": 8156,
+      "old": "라토퍼(Ratofer)의 허가장을 되찾았다. 그는 아이텐(Ayten)의 여관 주인 고든 롯(Gordan Lot)이 관심을 보일 거라고 했다. 허가장을 아이텐(Ayten)으로 가져가 고든에게 팔아야겠다.",
+      "new": "라토퍼(Ratofer)의 칙허장을 되찾았다. 그는 아이텐(Ayten)의 여관 주인 고든 롯(Gordan Lot)이 관심을 보일 거라고 했다. 칙허장을 아이텐(Ayten)으로 가져가 고든에게 팔아야겠다.",
+      "reason": "Both mentions are the same family-rank charter; align them with the established 칙허장 term."
+    },
+    {
+      "id": 1043,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "The exact repeated label names the titled person Argine. Preserve the accepted Korean title and combine the complete English name/title in one parenthetical."
+    },
+    {
+      "id": 1174,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Exact-English duplicate of the Argine title; align its Korean and bilingual format."
+    },
+    {
+      "id": 3307,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 3501,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 6044,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 7667,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 8663,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 11172,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 12593,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 14564,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 16655,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 21485,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 30045,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 30190,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 31796,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 33892,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 38694,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 43684,
+      "old": "아르진, 지팡이의 여왕(Argine, Queen of Staves)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align word order with the accepted Korean title while retaining the complete English name/title."
+    },
+    {
+      "id": 52596,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 53842,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 55720,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 56433,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 62000,
+      "old": "지팡이 여왕(Queen of Staves) 아르진(Argine)",
+      "new": "지팡이 여왕 아르진(Argine, Queen of Staves)",
+      "reason": "Align the exact repeated Argine title with the accepted Korean form and complete English name/title."
+    },
+    {
+      "id": 1136,
+      "old": "제발, 이방인이여. 처형인(Headsman)이 죽었다고, 우리 야영지가 해방됐다고 말해 줘!",
+      "new": "제발, 이방인. 처형인(Headsman)이 죽었다고, 우리 야영지가 해방됐다고 말해 줘!",
+      "reason": "English and Japanese give a direct plea in plain conversational style. Remove the conspicuously archaic vocative without assigning a speaker."
+    },
+    {
+      "id": 1158,
+      "old": "우리의 지식이 모두 이먼의 섬(Eamonn's Isle)에서 먼지만 뒤집어쓴 건 아니야. 니스카루(Niskaru) 군주의 산악 감옥이 어디 있는지 알아냈어.",
+      "new": "우리의 지식이 모두 이먼의 섬(Eamonn's Isle)에서 먼지만 뒤집어쓴 건 아니야. 니스카루(Niskaru) 군주의 산속 감옥이 어디 있는지 알아냈어.",
+      "reason": "English and Japanese mean a prison located in the mountain; the established contextual form is 산속 감옥."
+    },
+    {
+      "id": 1217,
+      "old": "에틴(Ettin)에게 도둑맞은 이멜다 홀른(Imelda Holn)의 무덤 부적을 되찾았다. 보상을 받으려면 엔코네그(Enconeg)에게 가져가야 한다.",
+      "new": "에틴(Ettin)이 이멜다 홀른(Imelda Holn)의 무덤에서 훔쳐 간 부적을 되찾았다. 보상을 받으려면 엔코네그(Enconeg)에게 가져가야 한다.",
+      "reason": "Reorder the nested modifiers so the grave belongs to Imelda Holn and the ettin is clearly the thief; preserve the journal style."
+    }
+  ],
+  "retained": [
+    {
+      "id": 1002,
+      "reason": "Already uses 마력 집결점 네 곳 and the full Sorrows pairing."
+    },
+    {
+      "id": 1018,
+      "reason": "All four ensemble names already have their English pairings."
+    },
+    {
+      "id": 1041,
+      "reason": "Already restores the complete rhetorical comparison naturally."
+    },
+    {
+      "id": 1061,
+      "reason": "Already includes the source's 'I knew all along' meaning."
+    },
+    {
+      "id": 1129,
+      "reason": "Already uses 장인의 동물성 지방(Master's Tallow)."
+    },
+    {
+      "id": 1133,
+      "reason": "Already uses the established 틱네리(Ticneri) form."
+    },
+    {
+      "id": 1137,
+      "reason": "Already uses the established 체력 stat and preserves both modifiers."
+    },
+    {
+      "id": 1139,
+      "reason": "Jeanne Yave and the sceptre owner relation are already clear and paired."
+    },
+    {
+      "id": 1151,
+      "reason": "Already includes the complete ship name The Maid of Fortune."
+    },
+    {
+      "id": 1200,
+      "reason": "The Eventide clan and Cycle meaning are preserved; an earlier source review found no issue, and the existing Eventide decision prohibits forcing clan/people/land wording into a global alias."
+    },
+    {
+      "id": 1214,
+      "reason": "맙소사! naturally renders the English oath/exclamation."
+    },
+    {
+      "id": 1234,
+      "reason": "Ivan Hugues is already fully paired."
+    }
+  ],
+  "held": [
+    {
+      "id": 1046,
+      "reason": "English, Japanese, and Chinese differ on whether the poem means never being Dara again, never meeting her, or no longer being Dara; do not guess a definitive reading."
+    },
+    {
+      "id": 1208,
+      "reason": "English says sister while Japanese specifies older sister, but speaker gender is not established; no natural Korean kinship term can be selected without adding an unsupported relationship form."
+    }
+  ]
+}

@@ -6,12 +6,4244 @@
 changes, and validation for tag
 `KingdomsOfAmalur_Korean_zh_cn_20261110001647`.
 
-## Current Status (2026-11-10)
+## Current Status (2026-11-13)
 
-The latest dialogue-context checkpoint is 56 / 56 priority assets reviewed
-(100%), covering 5,208 unique IDs. The final `MQ01` / Encel main-quest review
-adds 267 IDs; all 33 source-checked correction candidates have now been
-applied and rechecked, while one unresolved reading remains on hold. See
+The sequential four-language `default` revalidation is complete through the
+final range, `65000`-`65134`. The ledger now covers all 65,135 / 65,135
+unique IDs (100%). The final four ranges (`64250`-`65134`) added 639 IDs and
+rechecked 246 existing rows. The new entries record 624 `not-issue`
+dispositions, 13 evidence-limited holds, and two correction candidates
+(`64412`, `64706`). Twenty pre-existing candidates and four pre-existing
+holds were also rechecked; their append-only ledger rows were preserved.
+Coverage completion does not mean every issue is resolved or approve
+translation edits. No translation CSV was changed for these four ranges.
+See the four linked reports:
+[`64250`-`64499`](dialogue-context-default-64250-64499-revalidation-20261113.md),
+[`64500`-`64749`](dialogue-context-default-64500-64749-revalidation-20261113.md),
+[`64750`-`64999`](dialogue-context-default-64750-64999-revalidation-20261113.md),
+and
+[`65000`-`65134`](dialogue-context-default-65000-65134-revalidation-20261113.md).
+All 65,135 ledger fingerprints, regenerated index/catalog checks, nine
+related tests, and the CRLF-aware diff check are verified.
+
+## Candidate Application Progress (2026-11-15)
+
+The conflicting `Child of the Dust` proposal at `51806` was resolved in
+favor of the already accepted `먼지의 아이(Child of the Dust)` form. Three
+other holds (`46403`, `47508`, `48231`) remain evidence-limited and unchanged.
+See the
+[`51806 hold-resolution follow-up`](dialogue-context-hold-resolution-51806-20261115.md).
+
+A targeted manifest-conflict reconciliation confirmed that five flagged
+entries were already consistent with later source-based decisions. No
+translation or ledger edit was needed; one contradictory `47099` report line
+was corrected. See the
+[`manifest-conflict reconciliation`](dialogue-context-final-edit-manifest-conflicts-20261115.md).
+
+The UI-label hold at `64246` was resolved by the matching salvage-screen
+instructions; `분해 가능한 물품` was aligned to the established
+`분해 가능한 아이템`. Only that Korean row and its ledger fingerprint
+changed. See the
+[`64246 translation follow-up`](dialogue-context-translation-followup-64246-20261115.md).
+
+The full-sentence follow-up at `64458` corrected `진실해` to `실재해` for the
+Fae's existence in stories, supported by English and Japanese. The differing
+Chinese phrasing is recorded. Only that Korean row and its ledger fingerprint
+changed. See the
+[`64458 translation follow-up`](dialogue-context-translation-followup-64458-20261115.md).
+
+The `64150` honorific hold was resolved without a text change: `각하` is
+supported by the English and Chinese honorific and is the predominant Korean
+form for direct-address `Your Grace` references. See the
+[`64150 honorific follow-up`](dialogue-context-honorific-followup-64150-20261115.md).
+
+The `63000`-`63249` pass reconciled seven new candidates: four were corrected
+and three were already supported. Eight earlier findings were rechecked and
+retained. Cross-row checks also corrected four Galafor battle references and
+aligned the outlier at `59823` in the 20-row `Irion, King of Cups` duplicate
+group. Nine row fingerprints were refreshed. Progress is
+`3,476 / 4,026` (`86.34%`), with `550` remaining. See the
+[`63000`-`63249` report](dialogue-context-63000-63249-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-63000-63249-20261115.json).
+
+The `62750`-`62999` pass reconciled 14 new candidates; all were already
+supported in the current CSV. Six prior findings were rechecked, with three
+evidence-limited issues remaining held. Progress is `3,469 / 4,026`
+(`86.16%`), with `557` remaining. See the
+[`62750`-`62999` report](dialogue-context-62750-62999-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-62750-62999-20261115.json).
+
+The `62500`-`62749` pass reconciled nine new candidates and rechecked four
+earlier ones. `62502`, `62582`, `62658`, and `62730` were corrected; the
+identical-English group at `16898`, `18884`, `60779`, and `62563` retains its
+context-supported acknowledgment/farewell distinction from Japanese.
+Progress is `3,455 / 4,026` (`85.82%`), with `571` remaining. See the
+[`62500`-`62749` report](dialogue-context-62500-62749-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-62500-62749-20261115.json).
+
+The `62250`-`62499` pass reconciled five new candidates. `62363` was corrected
+using the `base` component term `축`; the related Mitharan shaft family was
+also checked and 13 inconsistent rows were aligned. The missing creature-name
+pairing at `62327` was added. `62474` remains held because the source meaning
+is unresolved. Progress is `3,446 / 4,026` (`85.59%`), with `580` remaining.
+See the
+[`62250`-`62499` report](dialogue-context-62250-62499-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-62250-62499-20261115.json).
+
+The `62000`-`62249` pass reconciled nine new candidates. `62177` was
+clarified so the comparison explicitly refers to a man half Ommer's age; the
+other eight already had supported wording. Twelve earlier candidates were
+rechecked, with three source/context questions remaining held. Progress is
+`3,441 / 4,026` (`85.47%`), with `585` remaining. See the
+[`62000`-`62249` report](dialogue-context-62000-62249-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-62000-62249-20261115.json).
+
+The `61750`-`61999` pass reconciled eight new candidates; all were already
+supported by the active Korean text. Four earlier candidates were supported
+as well, while the speaker/register question at `61750` remains held.
+Progress is `3,432 / 4,026` (`85.25%`), with `594` remaining. See the
+[`61750`-`61999` report](dialogue-context-61750-61999-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-61750-61999-20261115.json).
+
+The `61500`-`61749` pass reconciled seven new and five earlier candidates.
+Two earlier findings were corrected (`61586`, `61731`); ten candidates were
+already supported. The possible speech-level difference at `61731` and
+source/layout holds remain open. Progress is `3,424 / 4,026` (`85.05%`), with
+`602` remaining. See the
+[`61500`-`61749` report](dialogue-context-61500-61749-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-61500-61749-20261115.json).
+
+The `61250`-`61499` pass reconciled seven new and six earlier candidates.
+Three rows were corrected (`61463`, `61479`, `61489`); the other ten
+candidates were already supported. The existing source-conflict holds remain
+open. Progress is `3,417 / 4,026` (`84.87%`), with `609` remaining. See the
+[`61250`-`61499` report](dialogue-context-61250-61499-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-61250-61499-20261115.json).
+
+The `61000`-`61249` pass reconciled 11 new and three earlier candidates; all
+14 were already supported by the active Korean text. Three separate
+report-only findings were corrected (`61013`, `61109`, `61145`) without
+normalizing embedded line endings. Progress is `3,410 / 4,026` (`84.70%`),
+with `616` remaining. See the
+[`61000`-`61249` report](dialogue-context-61000-61249-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-61000-61249-20261115.json).
+
+The `60750`-`60999` pass reconciled seven new candidates and rechecked five
+earlier ones. Five new candidates and three earlier findings were corrected;
+the other four were already supported by current Korean. Existing holds remain
+documented, and the report-only wording at `60999` was already corrected.
+Eight changed-row fingerprints were refreshed. Progress is
+`3,399 / 4,026` (`84.43%`), with `627` remaining. See the
+[`60750`-`60999` report](dialogue-context-60750-60999-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-60750-60999-20261115.json).
+
+The `60500`-`60749` pass reconciled nine new candidates; `60675` had already
+been handled with exact-source duplicate `43317`. Seven were corrected and
+two already had supported wording. Three older findings and two report-only
+objectives were corrected; the `Templar` terminology question at `60614`
+remains open. Twelve changed-row fingerprints were refreshed. Progress is
+`3,392 / 4,026` (`84.25%`), with `634` remaining. See the
+[`60500`-`60749` report](dialogue-context-60500-60749-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-60500-60749-20261115.json).
+
+The `60250`-`60499` pass reconciled all nine new candidates: eight were
+corrected and one already had supported wording. Two of seven earlier
+candidates were corrected, and five were already supported. The reported
+plural pairing at `60442` is also already present; seven new
+evidence-limited holds remain. Ten changed-row fingerprints were refreshed.
+Progress is `3,383 / 4,026` (`84.03%`), with `643` remaining. See the
+[`60250`-`60499` report](dialogue-context-60250-60499-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-60250-60499-20261115.json).
+
+The `60000`-`60249` pass reconciled all 12 new candidates: eight were
+corrected and four were already supported by current Korean. Three older
+candidates were also already supported; the corrections previously identified
+at `60108` and `60134` are present, while three report-only ambiguities remain
+held. Eight changed-row fingerprints were refreshed. Progress is
+`3,374 / 4,026` (`83.81%`), with `652` remaining. See the
+[`60000`-`60249` report](dialogue-context-60000-60249-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-60000-60249-20261115.json).
+
+The `59750`-`59999` pass reconciled all ten new candidates: eight were
+corrected and two were already supported by current Korean. Five of nine
+earlier candidates and both report-only findings (`59863`, `59904`) were
+corrected. Four evidence-limited issues remain held (`59763`, `59785`,
+`59789`, `59959`); 15 changed-row fingerprints were refreshed. Progress is
+`3,362 / 4,026` (`83.51%`), with `664` remaining. See the
+[`59750`-`59999` report](dialogue-context-59750-59999-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-59750-59999-20261115.json).
+
+The `59500`-`59749` pass reconciled 15 new candidates: seven were already
+correctly reflected in the active CSV and eight were corrected. It also
+rechecked nine earlier candidates, corrected two, withdrew the misattributed
+urn finding at `59576`, and added a report-only title pairing at `59659`.
+`59556`, `59689`, and the conflicting section heading at `59722` remain held.
+The source report's summary says 14 new candidates, but its table and ledger
+contain 15; the separate `59722` hold is not a candidate. Reconciliation is
+`3,352 / 4,026` (`83.26%`), with `674` remaining. See the
+[`59500`-`59749` report](dialogue-context-59500-59749-candidate-reconciliation-20261115.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-59500-59749-20261115.json).
+
+The `59250`-`59499` pass reconciled all ten new candidates. Eight already
+matched the supported wording; two were corrected. Seven rows were edited
+across those candidates, earlier findings, and report-only follow-ups,
+including the full Mitharan item name, the Fae Mound, dialogue register, and
+the Farraglen title. Candidate reconciliation is `3,337 / 4,026` (`82.89%`),
+with `689` remaining. See the
+[`59250`-`59499` report](dialogue-context-59250-59499-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-59250-59499-20261115.json).
+
+The `59000`-`59249` pass reconciled all 15 new candidates. Eleven were
+already reflected in the current CSV; four were corrected. Eight rows were
+edited across these candidate follow-ups and reopened findings, including
+the `Bull in a China Shop` wording and the contraband locker at `59235`.
+One previous `Glass` ambiguity remains held. Candidate reconciliation is
+`3,327 / 4,026` (`82.64%`), with `699` remaining. See the
+[`59000`-`59249` report](dialogue-context-59000-59249-candidate-reconciliation-20261115.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-59000-59249-20261115.json).
+
+The `58750`-`58999` pass reconciled 14 of 15 new candidates. Seven were
+already correctly reflected in the current text, and seven were corrected;
+`58787` remains held because its isolated `Fast` UI label lacks context. Seven
+edited IDs' fingerprints were refreshed. Candidate reconciliation is now
+`3,312 / 4,026` (`82.27%`), with `714` remaining. The Quays pairing at
+`58942` is grounded in `default:2561` and `default:22127`; `base:2561` is an
+unrelated rivet item. See the
+[`58750`-`58999` report](dialogue-context-58750-58999-candidate-reconciliation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-58750-58999-20261115.json).
+
+The `58500`-`58749` pass rechecked all 13 active ledger candidates. Twelve
+already had supported dispositions reflected in the current CSV; `58515`
+remains held because `the red` is unidentified in English/Japanese and
+Chinese supplies a conflicting interpretation. No text or fingerprint
+changed. The tally remains `3,298 / 4,026` (`81.92%`), with `728` unresolved.
+See the
+[`58500`-`58749 report`](dialogue-context-58500-58749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-58500-58749-20261115.json).
+
+The `58250`-`58499` pass rechecked 16 current ledger candidates. Fifteen
+already had supported dispositions reflected in the current CSV;
+`58270` remains held because the sources disagree about Anella's action.
+No text or fingerprint changed, and the tally remains `3,298 / 4,026`
+(`81.92%`), with `728` unresolved. See the
+[`58250`-`58499 report`](dialogue-context-58250-58499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-58250-58499-20261115.json).
+
+The open `58055` pairing proposal was corrected to
+`동부 하수도 헨지(Eastern Sewers Henge)` without deciding the Henge's
+physical type. The conflicting `quarry` reading at `58143` remains held.
+Candidate reconciliation is `3,298 / 4,026` (`81.92%`), with `728` remaining.
+See the [`58055` follow-up](dialogue-context-58000-58249-candidate-reconciliation-20261115.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-58000-58249-20261115.json).
+
+The `52000`-`57999` follow-up resolved five candidates, corrected the related
+`Pit` place-name pairing, and retained two evidence-limited holds. The exact
+English duplicates `57501` and `59142` now match. Candidate reconciliation is
+`3,297 / 4,026` (`81.89%`), with `729` remaining. See the
+[`report`](dialogue-context-52000-57999-followup-revalidation-20261115.md)
+and
+[`decision manifest`](dialogue-context-final-edits-followup-52000-57999-20261115.json).
+
+The `51750`-`51999` pass rechecked seven candidates, all already reconciled
+in the earlier `46000`-`51999` application. Their supported wording remains;
+no CSV or fingerprint change was needed. Fourteen evidence-limited holds
+remain open. The candidate tally stays at 3,292 / 4,026 (81.77%), with 734
+remaining. See the
+[`51750`-`51999 report`](dialogue-context-51750-51999-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-51750-51999-20261115.json).
+
+The `51500`-`51749` pass rechecked 13 candidates, all explicitly reconciled
+in the earlier `46000`-`51999` application. Their supported current wording
+remains; no CSV or fingerprint change was needed. Holds at `51568` and `51702`
+remain open. The candidate tally stays at 3,292 / 4,026 (81.77%), with 734
+remaining. See the
+[`51500`-`51749 report`](dialogue-context-51500-51749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-51500-51749-20261115.json).
+
+The `51250`-`51499` pass rechecked 19 candidates. Eighteen had already been
+handled in the earlier `46000`-`51999` application; it reopened `51348` for a
+more natural rendering of “lair” and resolved the previous hold at `51421`
+using the direct English/Japanese wording. Both rows were corrected, with
+fingerprints refreshed; three other evidence-limited holds remain. These
+reopened findings do not increase the candidate-pool tally, which remains
+3,292 / 4,026 (81.77%), with 734 remaining. See the
+[`51250`-`51499 report`](dialogue-context-51250-51499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-51250-51499-20261115.json).
+
+The `51000`-`51249` pass rechecked 17 candidates already covered by the earlier
+`46000`-`51999` application. Sixteen remain supported; `51162` was reopened
+because its current text contradicted the earlier “already applied” record,
+then corrected to express the approaching impact naturally. The reopened
+correction is outside the candidate-pool tally. Six evidence-limited holds
+remain. Progress remains 3,292 / 4,026 (81.77%), with 734 remaining. See the
+[`51000`-`51249 report`](dialogue-context-51000-51249-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-51000-51249-20261115.json).
+
+The `50750`-`50999` pass reconciled 11 new active candidates; `50951` had
+already been counted. It corrected the poem at `50765` and its exact-source
+duplicate `58929`, preserving both poems' 12 embedded line breaks, and
+reopened `50844` to clarify that Sigra distributed the invoices. The other
+active candidates were already supported; three older not-issue proposals
+were not recounted. Three Korean rows and only their ledger fingerprints
+changed. Progress is 3,292 / 4,026 (81.77%), with 734 remaining. See the
+[`50750`-`50999 report`](dialogue-context-50750-50999-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-50750-50999-20261115.json).
+
+The `47500`-`47749` pass reconciled ten new unique candidates; five were
+already counted in linked-candidate reviews. It corrected `47742` to the
+source-supported Brunuath cave name and cleared the stale `47729` proposal,
+whose current wording already conveys being weakened by battle. Holds at
+`47508` and `47542` remain open. One Korean row and its fingerprint changed.
+Progress is 3,206 / 4,027 (79.61%), with 821 remaining. See the
+[`47500`-`47749 report`](dialogue-context-47500-47749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-47500-47749-20261115.json).
+
+The `47250`-`47499` pass rechecked all 14 candidates against the active
+four-language rows and prior reports. Thirteen were newly counted;
+`47293` had already been counted as a linked candidate. It corrected the
+full-sentence meaning at `47293` and refined the item description at
+`47447`; the other supported forms were already present. The separate holds
+at `47280`, `47300`, and `47496` remain open. Two Korean rows and only their
+fingerprints changed. Progress is 3,196 / 4,027 (79.36%), with 831
+remaining. See the
+[`47250`-`47499 report`](dialogue-context-47250-47499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-47250-47499-20261115.json).
+
+The `43000`-`43249` pass rechecked all 28 in-range candidates. It found one
+linked exact-source mismatch at `43207`/`47222`; both Korean labels now read
+`실(Syl)`, without inferring the name's identity. All other supported
+corrections were already present. The linked ledger row `47222` was
+reclassified from uncertain to candidate. Progress is 2,882 / 4,028
+(71.55%), with 1,146 remaining. See the
+[`43000`-`43249 report`](dialogue-context-43000-43249-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-43000-43249-20261115.json).
+
+The `43500`-`43749` candidate reconciliation reviewed 25 current
+in-range candidates plus eight linked candidates. It corrected the register
+at `43585` and aligned the repeated `The Humbled` title inside `44258`.
+Exact-source follow-ups confirmed the current wording for the former-contract
+objective, the promise-and-gift passage, the Argine title, and the Gnomish
+Trireme label. One malformed ledger row was restored to 16 fields, and
+`12779` remains an evidence-limited hold rather than a correction candidate.
+Two Korean rows changed; eight stale fingerprints were refreshed. The
+65,135-ID ledger, generated catalogs, 11 CSV-preservation tests, nine
+dialogue-context tests, CSV BOM/order/newline checks, and CRLF-aware diff
+check passed. Reconciliation is now 2,935 / 4,028 (72.86%), with 1,093
+remaining. See the
+[`43500`-`43749 report`](dialogue-context-43500-43749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-43500-43749-20261115.json).
+
+The `43750`-`43999` pass reconciled 18 current in-range candidates and linked
+candidate `60899`. It corrected three archaic greetings/questions, refined
+the direct address at `43918`, paired Fire Sprite at `43984`, and aligned
+linked objective `60899`. The current rarity wording at `43919` already
+matches previously reconciled `14967`; it was retained. Six Korean rows
+changed, and their fingerprints were refreshed. All 65,135 ledger
+fingerprints, index/catalog checks, both regression suites, CSV structure and
+newline inventory, and the CRLF-aware diff check passed. Reconciliation is
+now 2,954 / 4,028 (73.34%), with 1,074 remaining. See the
+[`43750`-`43999 report`](dialogue-context-43750-43999-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-43750-43999-20261115.json).
+
+The `44000`-`44249` pass reconciled 27 new unique candidates from the
+28-candidate range list; `44006` had already been counted as a linked
+candidate. It corrected marked speech at `44073`, `44118`, and `44215`.
+`44014` matches exact-source duplicate `27284`, and `44143` follows the
+established Sandstone Villa `개량` group. `44223` remains held; the former
+`44238` duplicate hold is cleared after checking its differing Japanese
+source. Three fingerprints were refreshed. Progress is 2,981 / 4,028
+(74.01%), with 1,047 remaining. See the
+[`44000`-`44249 report`](dialogue-context-44000-44249-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-44000-44249-20261115.json).
+
+The `44250`-`44499` pass reconciled 22 new unique candidates; `44258` had
+already been counted as a linked title candidate. It corrected the intimate
+address at `44347`, the register at `44360` to match parallel reward line
+`37913`, and the marked speech at `44495`. The four evidence-limited holds
+remain open. Three fingerprints were refreshed. Progress is 3,003 / 4,028
+(74.55%), with 1,025 remaining. See the
+[`44250`-`44499 report`](dialogue-context-44250-44499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-44250-44499-20261115.json).
+
+The `44500`-`44749` pass reconciled 20 range candidates; linked candidate
+`44580` had already been counted with exact-source counterpart `43364`.
+It corrected address/register and naturalness at `44558`, `44585`, `44608`,
+`44741`, and `44742`. The seven evidence-limited holds remain open.
+`23436` retains its context-supported FFQ03 wording rather than being forced
+to match other identical-English rows. Five fingerprints were refreshed.
+Progress is 3,023 / 4,028 (75.05%), with 1,005 remaining. See the
+[`44500`-`44749 report`](dialogue-context-44500-44749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-44500-44749-20261115.json).
+
+Post-handoff verification for `44500`-`44749` passed: all ledger
+fingerprints, index and both catalog reproductions, 20 combined regression
+tests, CSV structure and mixed-newline checks, and the CRLF-aware diff check.
+
+The `44750`-`44999` pass reconciled all 40 range candidates and found linked
+exact-source counterpart `30142` for `44968`. Both Korean titles now read
+`결투의 조력자(A Second to a Duel)`. Six Korean rows changed, including
+source-name pairings for `Toxic Residue`, `Troll Matriarch`, and
+`Sagecrafter`, plus the register correction at `44887`. Five evidence-limited
+holds remain. Progress is 3,064 / 4,029 (76.05%), with 965 remaining. The
+65,135-ID ledger, index/catalog checks, 20 tests, CSV structure/newlines, and
+CRLF-aware diff validation passed. See the
+[`44750`-`44999 report`](dialogue-context-44750-44999-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-44750-44999-20261115.json).
+
+The `45250`-`45499` pass reconciled all 12 current candidates. It replaced
+the awkward `45314` letter sign-off with `너의 루비(Ruby)` and added the
+missing `Nil the White` pairing at `45341`; the other ten supported findings
+were already resolved or acceptable in the active CSV. Thirteen
+evidence-limited holds remain open. Two Korean rows changed and their
+fingerprints were refreshed. Progress is 3,102 / 4,029 (76.99%), with 927
+remaining. The full 65,135-ID ledger, index/catalog checks, 20 regression
+tests, CSV structure/newlines, and CRLF-aware diff validation passed. See the
+[`45250`-`45499 report`](dialogue-context-45250-45499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-45250-45499-20261115.json).
+
+The `45500`-`45749` pass reconciled seven new candidates; `45625` had already
+been counted and reconciled as a linked candidate. All eight current findings
+are already reflected in the active CSV, so no translation or fingerprint
+change was needed. Six evidence-limited holds remain. Progress is 3,109 /
+4,029 (77.17%), with 920 remaining. The full ledger, index/catalog checks, 20
+regression tests, CSV structure/newlines, and CRLF-aware diff validation
+passed. See the
+[`45500`-`45749 report`](dialogue-context-45500-45749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-45500-45749-20261115.json).
+
+The `43250`-`43499` pass reconciled 19 current in-range ledger candidates,
+clearing the mis-mapped `43340` and discovering `44580` as an exact-source
+counterpart to `43364`. It also aligned the objective pairs `43317`/`60675`
+and `43364`/`44580`, and revised `43379` to match the source's conversational
+narration. Three Korean rows changed; all changed fingerprints, 65,135 ledger
+fingerprints, index/catalog checks, both test suites, CSV structure/newline
+checks, exact-source checks, and CRLF-aware diff validation passed.
+At that checkpoint reconciliation was 2,902 / 4,028 (72.05%), with 1,126
+remaining. See the
+[`43250`-`43499 report`](dialogue-context-43250-43499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-43250-43499-20261115.json).
+
+The `42750`-`42999` pass rechecked all 26 in-range candidates and three
+linked rows. Exact-source pairs `27747`/`42851` and `42812`/`54691` now have
+identical Korean, and the remaining `Ticneri` spelling at `34443` is aligned.
+Four Korean rows changed: `27747`, `34443`, `42899`, and `54691`. Three
+linked IDs were added to the candidate pool. Progress is 2,853 / 4,027
+(70.85%), with 1,174 remaining. Verification details are in the
+[`42750`-`42999 report`](dialogue-context-42750-42999-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-42750-42999-20261115.json).
+
+The `42500`-`42749` pass reconciled all 35 in-range candidates. It found
+two additional exact-source mismatches: `25302`/`42694` and
+`42639`/`49115`; both Korean objective pairs now match, and the linked IDs
+were added to the candidate pool. The old honorific exclamation at `42675`
+was also corrected to plain conversational speech. Three Korean rows
+changed and their fingerprints were refreshed. Seven evidence-limited holds
+remain, including the separate `The Plains` question at `42738`. Progress is
+2,824 / 4,024 (70.18%), with 1,200 remaining. Ledger, index/catalog, 20
+tests, CSV structure/newline, exact-source, and CRLF-aware diff checks
+passed. See the
+[`42500`-`42749 report`](dialogue-context-42500-42749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-42500-42749-20261115.json).
+
+The `42250`-`42499` pass reconciled all 26 in-range candidates and found two
+missed exact-source mismatches: `16532`/`42307` and `15833`/`42371`. Both
+pairs have identical English, Japanese, and Chinese objective text; their
+Korean now matches, and the two linked IDs were added to the candidate pool.
+The material list at `42450` now pairs all three materials, `42456` has the
+intended rhetorical question mark, and `42489` has a clearer appositive and
+natural rendering of “the poor souls.” The unresolved meaning at `42447`
+remains held. Five Korean rows changed in this reconciliation and their
+fingerprints were refreshed. Progress is 2,787 / 4,022 (69.29%), with 1,235
+remaining. Ledger, index/catalog, 20 tests, CSV structure/newline,
+exact-source, and CRLF-aware diff checks passed. See the
+[`42250`-`42499 report`](dialogue-context-42250-42499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-42250-42499-20261115.json).
+
+The `42000`-`42249` pass reconciled 28 unique candidates: 26 from the prior
+application manifest, the separate `42176` candidate/hold, and `42063` from
+the later missing-candidate follow-up. The latter's source-based correction
+was already applied; it supersedes the earlier false-positive release.
+`42031` now follows the base `연 방패` category, and `42198` matches the
+six-line poem at exact-source duplicate `320`. Two rows changed in this pass;
+21 supported fixes were already present, four candidates were retained, and
+the `42176` nuance remains held. Progress is 2,759 / 4,020 (68.63%), with
+1,261 remaining. Ledger, index/catalog, 20 tests, CSV structure/newline,
+poem duplicate, and CRLF-aware diff checks passed. See the
+[`42000`-`42249 report`](dialogue-context-42000-42249-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-42000-42249-20261115.json).
+
+The `41750`-`41999` pass rechecked 17 in-range candidates and three linked
+candidate IDs (`47041`, `47200`, `59258`) in the `The Big Hunt` consistency
+review. The already-counted `29900` was not double-counted. All five
+references now use `빅 헌트(The Big Hunt)`; three Korean rows were updated
+and their source fingerprints refreshed. Holds at `41798` and `41999` remain
+open alongside 14 other evidence-limited holds. Candidate reconciliation
+now covers 2,731 / 4,020 IDs (67.94%), with 1,289 remaining. The ledger,
+index/catalog, both test suites, CSV structure/newline checks, exact-source
+checks, and CRLF-aware diff check passed. See the
+[`41750`-`41999 report`](dialogue-context-41750-41999-candidate-reconciliation-20261115.md),
+[`Big Hunt addendum`](dialogue-context-big-hunt-name-consistency-followup-20261115.md),
+and
+[`manifest`](dialogue-context-final-edits-followup-41750-41999-20261115.json).
+
+The `41500`-`41749` pass rechecked 11 in-range candidates and reconciled
+linked exact-source duplicate `43268` with `41671`; both IDs were included.
+The existing Korean translations already contained the supported wording,
+so no CSV row changed; the `41650` source fingerprint was refreshed. The
+separate `41648` UI-term hold remains open. Candidate reconciliation now
+covers 2,711 / 4,020 IDs (67.44%), with 1,309 remaining. The ledger,
+index/catalog, both test suites, CSV structure/newline checks, and
+CRLF-aware diff check passed. See the
+[`41500`-`41749 report`](dialogue-context-41500-41749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-41500-41749-20261115.json).
+
+The `41250`-`41499` pass reconciled 20 new unique candidates; `41471` had
+already been checked with `39868` and was not double-counted. Fifteen
+proposed corrections were already reflected in the active Korean, and
+`41367` now pairs the same plant term as `코호시(Cohosh)`, matching
+`default:21648`. The previous `41255` split title/name pairing was retained
+across all 26 identical labels. Unsupported proposals at `41271` (title
+pairing), `41375` (casual dialogue tone), and `41418` (`제1검` instead of the
+established `제일검`) were cleared, with the separate `41271` role-meaning
+hold preserved. Six evidence-limited holds remain.
+Only `41367` changed; its ledger fingerprint was refreshed. Candidate
+reconciliation now covers 2,699 / 4,020 IDs (67.14%), with 1,321 remaining.
+The full ledger, regenerated index/catalog, both test suites, CSV
+structure/newline checks, exact-source checks, and CRLF-aware diff check
+passed. See the
+[`41250`-`41499 report`](dialogue-context-41250-41499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-41250-41499-20261115.json).
+
+The `41000`-`41249` pass rechecked the 27 valid in-range candidates. It
+cleared the mis-mapped `41051` proposal (the row already correctly pairs
+Brother Fallon) and found a missed exact-source title discrepancy between
+`4025` and `41180`; both now use `여사제 자신다(Priestess Jacinda)`. One
+Korean row changed and its fingerprint was refreshed. The candidate pool
+added `4025` and removed the false-positive `41051`, remaining at 4,020
+unique candidates. Candidate reconciliation now covers 2,679 / 4,020 IDs
+(66.64%), with 1,341 remaining. All ledger fingerprints, index/catalog
+checks, 20 tests, CSV structure/newline checks, exact-source checks, and the
+CRLF-aware diff check passed. See the
+[`41000`-`41249 report`](dialogue-context-41000-41249-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-41000-41249-20261115.json).
+
+The `40750`-`40999` pass rechecked all 15 in-range candidates and found one
+additional exact-source discrepancy: `43233` is identical to `40791` in
+English, Japanese, and Chinese, but shared its omitted soldier/officer sense
+in Korean. Both rows now match, and `40927` uses the approved `샘(The Font)`
+form. The 21 evidence-limited holds remain open. Three Korean rows changed;
+their fingerprints were refreshed, and `43233` was reclassified as a
+candidate. Candidate reconciliation now covers 2,651 / 4,020 IDs (65.95%),
+with 1,369 remaining. All ledger fingerprints, index/catalog checks, 20
+tests, CSV structure/newline checks, exact-source checks, and the CRLF-aware
+diff check passed. See the
+[`40750`-`40999 report`](dialogue-context-40750-40999-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-40750-40999-20261115.json).
+
+The `40500`-`40749` pass rechecked all 31 in-range candidates and the
+previously recorded cross-range candidate `24673`. All supported corrections
+were already present except for the named item `Mysterious Case` at `40652`,
+which now has its English pairing. Exact-source comparison also found a
+previously uncounted omission at `38472`: its English, Japanese, and Chinese
+rows exactly match `40575`, but only `40575` paired the rank `Templar`.
+`38472` now matches the full Korean row at `40575`; its separate prior
+context hold remains open. The `24673` candidate was already counted in the
+`24500`-`24749` pass. Five in-range evidence-limited holds remain.
+Candidate reconciliation now covers 2,635 / 4,019 IDs (65.56%), with 1,384
+remaining. Two Korean rows changed, and only their ledger fingerprints were
+refreshed. All ledger fingerprints, index/catalog checks, 20 regression
+tests, CSV structure/newline checks, exact-source checks, and the CRLF-aware
+diff check passed. See the
+[`40500`-`40749 report`](dialogue-context-40500-40749-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-40500-40749-20261114.json).
+
+The `40250`-`40499` reconciliation rechecked all 25 correction candidates.
+The source-supported wording was already present except for the shared
+`Mystic Hammer` sentence at `40384`, which now matches the same English
+sentence at `61804`. The existing `Argine, Queen of Staves` label at
+`40340` was retained because its title and name are both paired and all 26
+exact-source label rows use the same Korean. Three already-resolved
+candidates (`40293`, `40355`, `40382`) were confirmed; `40387` had already
+been reconciled with exact four-language duplicate `37115`. Four separate
+evidence-limited holds remain (`40255`, `40352`, `40395`, `40473`).
+Candidate reconciliation now covers 2,603 / 4,018 IDs (64.78%), with 1,415
+remaining. One Korean row changed, and only its ledger fingerprint was
+refreshed. All ledger fingerprints, index/catalog checks, 20 regression
+tests, CSV structure/newline checks, exact-source checks, and the CRLF-aware
+diff check passed. See the
+[`40250`-`40499 report`](dialogue-context-40250-40499-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-40250-40499-20261114.json).
+
+The `40000`-`40249` pass rechecked 19 existing candidates and identified
+`40025` as an additional exact-source discrepancy with `33884`. Its
+`후계자` wording was changed to `후손`; the duplicate `33884` was already
+reconciled and was not counted twice. The pass adds 20 unique reconciled
+candidates, bringing coverage to 2,579 / 4,018 (64.19%), with 1,439
+remaining. Five evidence-limited issues remain, including the separate
+location/name questions at `40052` and `40176`. The one changed row's
+fingerprint and all ledger, catalog, regression, CSV-structure/newline, and
+CRLF-aware diff checks passed. See the
+[`40000`-`40249 report`](dialogue-context-40000-40249-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-40000-40249-20261114.json).
+
+The `39750`-`39999` reconciliation rechecked 27 candidates, corrected the
+missed Sorrows occurrence at `39849`, and found two linked candidates:
+`41471` duplicates the Huber objective at `39868`, and `59331` belongs to the
+exact-source farewell group at `39895`. All 30 unique IDs were reconciled;
+the two previously uncounted findings bring the candidate-pool total to
+4,017. The Sorrows term and six-row farewell group are now consistent, while
+nine evidence-limited holds remain open. Candidate reconciliation covers
+2,559 / 4,017 IDs (63.70%), with 1,458 remaining. Two Korean rows changed;
+ledger fingerprints, index/catalog checks, 20 tests, CSV structure/newline
+checks, duplicate-group checks, and CRLF-aware diff validation passed. See
+the
+[`39750`-`39999 report`](dialogue-context-39750-39999-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-39750-39999-20261114.json).
+
+The `39500`-`39749` pass rechecked all 26 in-range candidates. `39557` had
+already been counted with `21252`; linked candidate `53799` was newly
+reviewed with `39582`, so 26 candidates were newly counted overall.
+Supported wording and English-pairing corrections were applied, and the
+identical-source greeting was aligned. Several cross-corpus terminology and
+referent questions remain held rather than guessed. Candidate reconciliation
+covers 2,529 / 4,015 IDs (62.99%), with 1,486 remaining. Sixteen Korean rows
+changed; all ledger fingerprints, index/catalog checks, 20 tests, CSV
+structure/newline checks, duplicate checks, and CRLF-aware diff validation
+passed. See the
+[`39500`-`39749 report`](dialogue-context-39500-39749-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-39500-39749-20261114.json).
+
+The `39250`-`39499` pass rechecked all 17 in-range candidates. Five candidate
+rows needed correction; the others were already supported by the current
+translation. The established Jollienne spelling, complete Bisarane and
+Idylla title pairings, full Lykeios title, and Ysa name pairing were applied.
+Exact-source rows `39481` and `40183` now share the same four-line poem.
+Candidate reconciliation covers 2,503 / 4,015 IDs (62.34%), with 1,512
+remaining. Six Korean rows changed, and their ledger fingerprints were
+refreshed. All ledger fingerprints, index/catalog checks, 20 tests, CSV
+structure/newline checks, and the CRLF-aware diff check passed. See the
+[`39250`-`39499 report`](dialogue-context-39250-39499-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-39250-39499-20261114.json).
+
+The `39000`-`39249` pass rechecked all 23 in-range candidates. `39122` had
+already been counted with `36748`; linked candidate `60527` was reviewed with
+the Bloodseeker component series and newly counted. Fourteen in-range rows
+were corrected and nine were already supported. Exact-source duplicate
+groups, item terminology against `base`, and Korean register were checked;
+20 rows changed and only their ledger fingerprints were refreshed. Candidate
+reconciliation now covers 2,486 / 4,015 IDs (61.92%), with 1,529 remaining.
+All ledger fingerprints, index/catalog checks, 11 CSV-preservation tests,
+nine dialogue-context tests, CSV structure/newline checks, and the CRLF-aware
+diff check passed. See the
+[`39000`-`39249 report`](dialogue-context-39000-39249-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-39000-39249-20261114.json).
+
+The `38750`-`38999` pass rechecked all 27 in-range candidates. `38893` was
+already reconciled with `36982`, leaving 26 newly counted candidates.
+Supported name/title, naturalness, register, objective, and terminology
+corrections were applied; exact-English duplicates and linked Weod references
+were aligned as well. The Gallows End wordplay at `38799` remains held.
+Candidate reconciliation now covers 2,463 / 4,015 IDs (61.34%), with 1,552
+remaining. All 65,135 ledger fingerprints, index/catalog checks, 20 tests,
+CSV structure/newline checks, and CRLF-aware diff validation passed. See the
+[`38750`-`38999 report`](dialogue-context-38750-38999-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-38750-38999-20261114.json).
+
+The `38500`-`38749` pass rechecked all 21 in-range candidates. Nineteen
+were newly counted; `38609` and `38694` had already been reconciled.
+Sixteen in-range candidate rows were corrected, and two exact-English
+duplicate rows (`12219`, `9368`) were aligned with `38513` and `38705`.
+All 18 changed fingerprints were refreshed; ledger, index/catalog,
+regression, CSV-structure/newline, and CRLF-aware diff checks passed.
+Candidate reconciliation now covers 2,437 / 4,015 IDs (60.70%), with 1,578
+remaining. See the
+[`38500`-`38749 report`](dialogue-context-38500-38749-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-38500-38749-20261114.json).
+
+The `38250`-`38499` pass rechecked all 12 in-range candidates. Two linked
+IDs (`38319`, `38453`) were already reconciled, so this range adds ten unique
+candidates. Seven Korean rows were corrected or refined; six
+evidence-limited holds remain unresolved. Candidate reconciliation now covers
+2,418 / 4,015 IDs (60.22%), with 1,597 remaining. The seven edited rows'
+fingerprints were refreshed, and source references remain unchanged. See the
+[`38250`-`38499 report`](dialogue-context-38250-38499-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-38250-38499-20261114.json).
+
+The `37750`-`37999` pass reconciled all 19 in-range candidates. Ten Korean
+rows were corrected, and nine were already supported by the active text.
+The exact-source duplicate at `6347` was updated alongside `37830`, but was
+not counted as an additional candidate. Candidate reconciliation now covers
+2,394 / 4,015 IDs (59.63%), with 1,621 remaining. All 65,135 ledger
+fingerprints, index/catalog checks, 20 regression tests, CSV structure and
+newline checks, and the CRLF-aware diff check passed. See the
+[`37750`-`37999 report`](dialogue-context-37750-37999-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-37750-37999-20261114.json).
+
+The `37500`-`37749` pass rechecked 20 in-range candidates and three newly
+counted linked surveyor candidates (`38319`, `50723`, and `52797`).
+`44458` had already been dispositioned and was not counted twice. The
+sewer-inspection role is now consistently `조사관` across the linked group;
+its separate speaker/register uncertainty at `44458` remains held. Nineteen
+Korean rows changed. Candidate reconciliation now covers 2,375 / 4,015 IDs
+(59.15%), with 1,640 remaining. All ledger, index/catalog, regression,
+CSV-structure/newline, and CRLF-aware diff checks passed. See the
+[`37500`-`37749 report`](dialogue-context-37500-37749-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-37500-37749-20261114.json).
+
+The `37250`-`37499` pass rechecked all 23 in-range candidates and the linked
+candidate `41418`. It corrected journal register, objective phrasing, names,
+and Korean naturalness, then aligned `First Sword`, `Storyteller`, and
+`Notice of Duty` across related rows. The `gorta` term and unresolved title/
+meaning questions remain held. Candidate reconciliation now covers 2,352 /
+4,015 IDs (58.58%), with 1,663 remaining. Twenty-five Korean rows changed;
+all 65,135 ledger fingerprints, index/catalog checks, 20 regression tests,
+CSV structure/newline checks, and CRLF-aware diff validation passed. See the
+[`37250`-`37499 report`](dialogue-context-37250-37499-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-37250-37499-20261114.json).
+
+The `37000`-`37249` pass rechecked all ten in-range candidates and two
+newly counted linked candidates (`40387`, `59562`). Three linked IDs had
+already been reconciled and were not counted twice. It standardized the
+parallel family objectives, refined the Stowaway objective to identify the
+troll, and completed the Sun/Frost Stone labels; the poem's ambiguous `light`
+remains held. Candidate reconciliation now covers 2,328 / 4,015 IDs (57.98%),
+with 1,687 remaining. Four Korean rows changed, and all ledger, catalog,
+regression, CSV-structure/newline, and CRLF-aware diff checks passed. See the
+[`37000`-`37249 report`](dialogue-context-37000-37249-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-37000-37249-20261114.json).
+
+The latest `36750`-`36999` pass rechecked 14 in-range candidates and four
+newly counted out-of-range linked candidates. `36916` was counted once as an
+in-range candidate; the Boggart count at `36982`/`38893` had already been
+reconciled. Six rows were corrected, and the Mithrolith/Deep Gloam terms were
+confirmed. Candidate reconciliation now covers 2,316 / 4,015 IDs (57.68%),
+with 1,699 remaining. See the
+[`36750`-`36999 report`](dialogue-context-36750-36999-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-36750-36999-20261114.json).
+
+The latest `36500`-`36749` pass rechecked 18 in-range candidates and three
+newly counted linked candidates (`39122`, `44006`, and `58806`). It aligned
+the exact-English `Confront Adept Ignas` entries at `30681` and `36563` and
+removed the unsupported hesitation at `36728`. Candidate reconciliation now
+covers 2,299 / 4,015 IDs (57.26%), with 1,716 remaining. The already-
+reconciled `30681` was not counted twice. See the
+[`36500`-`36749 report`](dialogue-context-36500-36749-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-36500-36749-20261114.json).
+
+The `36250`-`36499` pass rechecked all three current candidates. It aligned
+`36279` to the established `실라리타(Syllareta)` form and revised `36433` to
+the source-supported covert-agent meaning, superseding earlier retentions.
+The `36268` 주문 term was already correct; its separate jail-location
+conflict and the register holds at `36427` and `36460` remain open. See the
+[`36250`-`36499 report`](dialogue-context-36250-36499-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-36250-36499-20261114.json).
+The `36000`-`36249` pass rechecked 21 candidates; `36075` and `36231` were
+already reconciled, leaving 19 new IDs. Fourteen rows were corrected,
+including the missing `Master Belne`, `Centurion Gastet`, `Sorrogweth`,
+`Bloody`, and `Child of Dust` pairings, and naturalness/structure fixes.
+The existing `36017` edit was confirmed and its fingerprint refreshed.
+`36226` and `36235` remain evidence-limited holds. All ledger fingerprints,
+catalogs, 20 regression tests, CSV structure/newline checks, and the
+CRLF-aware diff check passed. See the
+[`36000`-`36249 report`](dialogue-context-36000-36249-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-36000-36249-20261114.json).
+The `35750`-`35999` pass rechecked 12 candidates and restored the accepted
+`첫째 스케이스(First Scaith)` wording at `35959`. Five separate
+meaning/context holds remain. All ledger fingerprints, catalogs, 20 tests,
+CSV structure/newline checks, and the CRLF-aware diff check passed. See the
+[`35750`-`35999 report`](dialogue-context-35750-35999-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-35750-35999-20261114.json).
+The `35500`-`35749` pass rechecked 38 candidates and counted 36 new IDs after
+excluding two shared-source findings already reviewed. It corrected the
+questioning response at `35565` and clarified `35594`. All ledger
+fingerprints, catalogs, 20 tests, CSV structure/newline checks, and the
+CRLF-aware diff check passed. See the
+[`35500`-`35749 report`](dialogue-context-35500-35749-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-35500-35749-20261114.json).
+The `35250`-`35499` pass rechecked 35 candidates against the four language
+tables and prior edits. `35478` was already reconciled with linked candidate
+`24660`, leaving 34 newly counted IDs. Existing supported corrections were
+confirmed, including the later `35338` wording; `35465` remains as decided in
+its prior follow-up. No CSV or fingerprint changes were needed. See the
+[`35250`-`35499 report`](dialogue-context-35250-35499-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-35250-35499-20261114.json).
+The latest `35000`-`35249` pass rechecked 20 candidates and excluded the
+previously reconciled `Irion, King of Cups` row from the new subtotal. Three
+rows were refined: the torn page at `35030`, repeated Fateweaver phrasing at
+`35038`, and source labels for the unresolved Shard grades at `35107`. All
+65,135 ledger fingerprints, catalog reproduction checks, 20 regression
+tests, and CRLF-aware diff validation passed. See the
+[`35000`-`35249 report`](dialogue-context-35000-35249-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-35000-35249-20261114.json).
+The latest `34750`-`34999` pass rechecked 21 candidates, excluding the two
+already reconciled IDs `34765` and `34912` from the new subtotal. Five
+source-supported corrections were applied, including the Order, Testament,
+Murderer's Hold, and Id English pairings while preserving unresolved
+interpretations. All 65,135 ledger fingerprints, catalog reproduction
+checks, 20 regression tests, and CRLF-aware diff validation passed. See the
+[`34750`-`34999 report`](dialogue-context-34750-34999-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-34750-34999-20261114.json).
+The latest `34500`-`34749` pass rechecked 22 candidates, confirmed the
+previously applied source-supported wording, and refined the register of
+`34567` to `어서 오세요. 어서 오세요.` All 65,135 ledger fingerprints,
+index/catalog reproduction checks, 20 regression tests, and CRLF-aware diff
+validation passed. See the
+[`34500`-`34749 report`](dialogue-context-34500-34749-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-34500-34749-20261114.json).
+The `34250`-`34499` reconciliation checked all 16 current in-range candidates
+and linked Krast-brothers candidate `30331`; linked `26414` had already been
+counted. Fifteen in-range candidates and `30331` are supported by the active
+Korean, while `34387` remains held because the English/Chinese faith question
+differs from the Japanese phrasing. It also paired `Sorrows` at `34291` and
+`63068` without resolving the lore meaning. See the
+[`34250`-`34499 report`](dialogue-context-34250-34499-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-34250-34499-20261114.json).
+The `34000`-`34249` review reconciled 28 current in-range candidates, counted
+three newly linked candidates, and corrected the supported `Scaith` pairing
+at `34047` while leaving its separate `the First` question unresolved. The
+historical range report's 34-candidate tally was reconciled against current
+ledger dispositions. See the
+[`34000`-`34249 report`](dialogue-context-34000-34249-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-34000-34249-20261114.json).
+The preceding `33750`-`33999` review refined `33927` and paired the identical
+`Before The Talk` title at `36075`; two in-range candidates were already
+counted with earlier linked groups. See the
+[`33750`-`33999 report`](dialogue-context-33750-33999-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-33750-33999-20261114.json).
+Earlier reconciliations
+from `28500` through `29999` checked 85 candidate IDs and counted 83 new IDs
+after excluding two previously reconciled linked candidates. This corrects
+the earlier 95/93 subtotal. The saved corrections at `28570`, `28650`,
+`29220`, `29774`, `29808`, and `29809` were confirmed. The next
+`30000`-`30249` reconciliation checked all 22 ledger candidates, fixed the
+factual-vs-hypothetical nuance in the letter at `30091`, and held `30094`
+because the canonical Korean form of `Children of Dust` is not established;
+see
+[`30000`-`30249`](dialogue-context-30000-30249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-30000-30249-20261114.json).
+The following `30250`-`30499` pass confirmed 20 existing candidate decisions
+and added missing `Frea Almar` and `FireTrench` pairings at `30363`. The
+matching `FireTrench` pairing was also added to linked letter `48802`, outside
+the candidate subtotal. See
+[`30250`-`30499`](dialogue-context-30250-30499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-30250-30499-20261114.json).
+See also
+[`28500`-`28749`](dialogue-context-28500-28749-candidate-reconciliation-20261114.md),
+[`28750`-`28999`](dialogue-context-28750-28999-candidate-reconciliation-20261114.md),
+[`29000`-`29249`](dialogue-context-29000-29249-candidate-reconciliation-20261114.md),
+[`29250`-`29499`](dialogue-context-29250-29499-candidate-reconciliation-20261114.md),
+[`29500`-`29749`](dialogue-context-29500-29749-candidate-reconciliation-20261114.md),
+[`29750`-`29999`](dialogue-context-29750-29999-candidate-reconciliation-20261114.md),
+and their decision manifests. The `14750`-`14999`
+range reconciled all sixteen candidates: twelve previous corrections were
+confirmed and four rows (`14818`, `14824`, `14894`, `14991`) were refined
+after four-language meaning, tone, and formatting checks. The following
+`15000`-`15249` range reconciled eighteen candidates: sixteen prior
+corrections were confirmed and `15073`/`15090` were refined. The
+`15250`-`15499` range reconciled ten candidates: eight already-applied edits
+were confirmed and `15473`/`15499` were refined. The exact decisions and
+fingerprints are recorded in
+[`14750`-`14999`](dialogue-context-14750-14999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-14750-14999-20261114.json).
+See also
+[`15000`-`15249`](dialogue-context-15000-15249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-15000-15249-20261114.json).
+The latest range and its
+[`decision manifest`](dialogue-context-final-edits-followup-15250-15499-20261114.json)
+are also available. The `15500`-`15749` range reconciled sixteen candidates;
+the related SQ145 candidate at `63566` was reviewed and corrected alongside
+`15532`. See
+[`15500`-`15749`](dialogue-context-15500-15749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-15500-15749-20261114.json).
+The `15750`-`15999` range reconciled eleven candidates, all already
+source-supported in the active Korean. See
+[`15750`-`15999`](dialogue-context-15750-15999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-15750-15999-20261114.json).
+The `16000`-`16249` range reconciled five candidates, all already corrected
+in the active Korean. See
+[`16000`-`16249`](dialogue-context-16000-16249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-16000-16249-20261114.json).
+The `16250`-`16499` range reconciled eleven candidates. Ten existing
+corrections were confirmed; `16389` was refined to clarify that the armor's
+plates were blood-painted and that the armor absorbs the spilled blood. See
+[`16250`-`16499`](dialogue-context-16250-16499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-16250-16499-20261114.json).
+The `16500`-`16749` range reconciled nine candidates; the exact-English
+duplicate at `33194` was also confirmed against `16617`. All ten translations
+were already supported by the current four-language evidence, so no CSV or
+fingerprint change was needed. See
+[`16500`-`16749`](dialogue-context-16500-16749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-16500-16749-20261114.json).
+Candidate-pool progress is distinct from the completed 65,135-ID Stage 4
+coverage; neither percentage means every candidate is resolved or that
+speaker attribution and dialogue order are known.
+
+## Regional Asset Review (2026-11-14)
+
+The final candidate-application cross-check found one false “already applied”
+disposition: `default:49259` still lacked the Aster-family name pairings and
+needed a naturalness correction. These were applied after four-language
+comparison. The testament's quotation marks were already present, and all
+eight embedded line breaks were preserved. See
+[`default:49259 follow-up`](dialogue-context-49259-followup-20261114.md).
+The adjacent `49750`-`49999` candidate pass also missed the `Arne` English
+pairing at `49795` and a naturalness correction at `49851`; both were
+rechecked and applied. The unresolved canonical-spelling question at `49795`
+remains held. See
+[`49795`/`49851` follow-up`](dialogue-context-49795-49851-followup-20261114.md).
+The next candidate range required two conversational corrections at
+`50014` and `50016`; other candidates already matched supported wording.
+See
+[`50014`/`50016` follow-up`](dialogue-context-50014-50016-followup-20261114.md).
+The next range required three corrections: conversational register at
+`50284`, the established `피해 증폭` modifier at `50342`, and
+`테스타먼트(The Testament)` at `50497`. Related uncertainties remain held.
+See
+[`50284`/`50342`/`50497` follow-up`](dialogue-context-50284-50342-50497-followup-20261114.md).
+
+The targeted `SQ57` follow-up applied five supported corrections among
+previously recorded candidates linked to `1253016.quest_bxml`: `36838`,
+`38426`, `39444`, `51665`, and `59610`. This does not claim a complete
+line-by-line revalidation of all 767 linked IDs. Six pre-existing ledger links
+omit `.quest_bxml` and were preserved; asset symbols and handlers do not
+establish individual speakers or playback order. See
+[`SQ57 follow-up`](dialogue-context-1253016-sq57-translation-followup-20261114.md).
+
+Revalidated all 111 IDs linked to `528134.quest_bxml` (`SQ18`) and applied
+13 source-supported Korean corrections covering the Canneroc/Webwood journal
+wording, Cathrus spelling and pairing, and conversational phrasing. Seven
+exact-English duplicate groups (20 rows) agree in Korean; all four-language
+line-break and brace-token signatures match. The asset's nine NPC symbols
+and 40 handlers establish quest-level grouping only, not per-line speakers
+or playback order. One historical ledger asset-link suffix discrepancy was
+preserved. All 65,135 ledger fingerprints, index/catalog checks, 20 tests,
+CSV structure and newline inventory, and the CRLF-aware diff check pass. See
+[`528134.quest_bxml`](dialogue-context-528134-sq18-revalidation-20261114.md).
+
+Revalidated all 116 IDs linked to `1604643.quest_bxml`. The asset is
+associated with the Tywili Coast and contains one Myrddin Glas NPC symbol,
+but does not prove per-line speaker identity or playback order. One linked
+Sully spelling inconsistency was corrected at `default:55521`; an ambiguous
+`The Burn` reference remains held. See
+[`1604643.quest_bxml`](dialogue-context-1604643-tywili-coast-revalidation-20261114.md).
+
+Revalidated all 111 IDs linked to `570082.quest_bxml`. Its 40 handler names
+support a probable `MQ06` association, but do not map IDs to individual
+speakers or playback order. The identical shared sentence at `default:1113`
+and `default:63061` was aligned; the unresolved number contrast at `49575`
+remains held. Two ledger links lack the `.quest_bxml` suffix and remain
+unchanged. See
+[`570082.quest_bxml`](dialogue-context-570082-mq06-erawn-revalidation-20261114.md).
+
+Revalidated all 108 IDs linked to `2005688.quest_bxml`. Its explicit
+`DLC1_PH04b` quest value, Deirdre Gwint NPC symbol, and 35 handlers support
+asset-level grouping only, not per-line speaker or playback order. Two
+supported corrections were applied at `default:28751` and `default:43309`;
+other prior candidates were already resolved or remain uncertain. The
+identical-English, line-break, and runtime-token checks found no other
+inconsistency. Two ledger rows (`47501`, `47611`) record the asset without
+its suffix and remain unchanged. Ledger fingerprints, generated catalogs,
+20 regression tests, CSV structure/newline inventory, and the CRLF-aware diff
+check pass. See
+[`2005688.quest_bxml`](dialogue-context-2005688-dlc1-ph04b-deirdre-revalidation-20261114.md).
+
+Revalidated the three assets `587818`, `545731`, and `639212`, covering 471
+asset-linked IDs. Eleven supported Korean corrections were applied:
+`5195`; `12243`, `13748`, `17377`, `42583`, `45358`; and `1002`, `9336`,
+`20937`, `33482`, `41492`. Corrections address sentence naturalness,
+register, source-name pairing, and meaning. Existing uncertain meanings and
+asset-to-ledger link gaps remain documented rather than guessed or rewritten.
+The assets' NPC symbols and dialog handlers do not identify per-line speakers
+or playback order. All three reports found no four-language line-break or
+runtime-token mismatch, and exact-English duplicate groups among their linked
+IDs have matching Korean. See
+[`587818.quest_bxml`](dialogue-context-587818-cadoroc-revalidation-20261114.md),
+[`545731.quest_bxml`](dialogue-context-545731-faitir-revalidation-20261114.md),
+and
+[`639212.quest_bxml`](dialogue-context-639212-bisarane-revalidation-20261114.md).
+
+Revalidated all 108 IDs linked to `518702.quest_bxml` (`SQ15`). The quest ID
+and two Enconeg Holn NPC symbols support quest-level grouping, not per-line
+speaker or playback-order assignments. Five capitalized `Nymph` label
+occurrences were paired consistently at `default:6769`, `13350`, `45454`,
+`48234`, and `65022`; the existing pairing at `19467` was retained. Generic
+lowercase dialogue was not globally annotated. The `26939` correction was
+already present, `27012` was retained after reviewing the fish-related
+wordplay, and the uncertain relationship at `62077` remains held. Five
+exact-English duplicate groups and all line-break/runtime-token signatures
+were checked. See
+[`518702.quest_bxml`](dialogue-context-518702-sq15-enconeg-revalidation-20261114.md).
+
+Revalidated all 110 IDs linked to `1966401.quest_bxml` (`DLC2_SQ09`).
+Its four Kollossae NPC symbols establish quest-level grouping but do not map
+individual speakers or dialogue order. The existing `43941` register and
+`44930` name/meaning corrections are already applied. Quest context resolves
+the earlier `30718` Hystis-person uncertainty without requiring a text change;
+the translation's `만나러 가야 해` is supported by Japanese. `52546` remains
+uncertain only as to whether `the Beckoned` is a title or descriptive address;
+its current pairing works for either reading. The `63960` place-name pairings
+are already complete. Three asset-link suffix gaps were documented without
+rewriting ledger rows. Eight exact-English duplicate groups and all
+line-break/runtime-token signatures were checked. See
+[`1966401.quest_bxml`](dialogue-context-1966401-dlc2-sq09-revalidation-20261114.md).
+
+## Post-review Translation Edits (2026-11-14)
+
+The latest continuation completed candidate review for `21000`-`21249` on
+November 14. It applied 17 supported corrections from the range's new
+findings and one correction to the previously recorded candidate at `21085`,
+for 18 edited IDs. `The Watch` at `21129` remains held because the existing
+`City Watch` decision is scoped to exact source labels and does not establish
+that identity. The CSV structure and line-ending inventory, 18 edited-row
+fingerprints, ledger, 20 regression tests, and CRLF-aware diff check passed.
+See
+[`21000`-`21249`](dialogue-context-edit-batch-20261114-21000-21249.md).
+The next range is `21250`-`21499`; this is not completion of the wider
+candidate-application work.
+
+The separate sequential candidate reconciliation then checked
+`20750`-`21249`. It verified 19 candidates in `20750`-`20999` and 21 in
+`21000`-`21249`; one further source-supported refinement changed
+`default:21011` from `마법의 주인` to `마법의 여왕`, with its fingerprint
+updated. Candidate reconciliation is 1,188 / 4,015 (29.59%), and remains
+incomplete. See
+[`20750`-`20999`](dialogue-context-20750-20999-candidate-reconciliation-20261114.md)
+and
+[`21000`-`21249`](dialogue-context-21000-21249-candidate-reconciliation-20261114.md).
+
+The `21250`-`21499` batch then applied supported corrections to 18 IDs in
+range and 10 linked IDs, including exact duplicate titles, the SQ60
+`병원 구역` references, and Hallidite's Oracle terminology. Existing
+Victor's Brew and Argine labels already matched the established forms;
+uncertain findings remain held. The 28 edited-row fingerprints, duplicate
+groups, CSV structure and line endings, ledger, 20 regression tests, and
+CRLF-aware diff check passed. See
+[`21250`-`21499`](dialogue-context-edit-batch-20261114-21250-21499.md).
+Continue with `21500`-`21749`.
+
+The `21500`-`21749` batch applied supported corrections to nine IDs in range
+and six linked IDs, including the Gautliffe name group and the SQ08/SQ141
+`death cult` descriptions. Ambiguous ranks and other evidence-limited
+findings remain held. The 15 edited-row fingerprints, ledger, CSV structure
+and line endings, 20 regression tests, and CRLF-aware diff check passed. See
+[`21500`-`21749`](dialogue-context-edit-batch-20261114-21500-21749.md).
+
+The `21750`-`21999` batch adjudicated all 14 candidates: 13 supported
+corrections were applied and `21922` was already corrected in the previous
+batch. Five linked rows were also corrected for the `Mithroliths` and
+`Deep Gloam` terms, for 18 edited IDs total. The separate penitence and
+atonement rites, established honorific speech, and evidence-limited holds
+were preserved. All 18 fingerprints, the 65,135-ID ledger, index/catalog
+reproducibility, 11 CSV-preservation tests, nine context-index tests, and
+the CRLF-aware diff check passed. See
+[`21750`-`21999`](dialogue-context-edit-batch-20261114-21750-21999.md).
+
+The sequential application batches `22000`-`23249` are now complete.
+Candidates in `22000`-`22999` were adjudicated in their range reports;
+`23000`-`23249` applied 12 supported corrections, retained two already-
+correct rows, and corrected four linked IDs for the Hollow and Motus Mining
+handbook terminology groups (16 edited IDs total). Evidence-limited findings
+remain held. The ledger validates all 65,135 IDs, all 16 edited-row
+fingerprints match the current four-language sources, the CSV retains its
+65,135 rows and existing BOM/newline inventory, 11 preservation tests pass,
+and the CRLF-aware diff check is clean. See
+[`23000`-`23249`](dialogue-context-edit-batch-20261114-23000-23249.md).
+The `23250`-`23499` batch then applied 17 supported corrections, retained
+two findings already reflected in Korean, and corrected five linked IDs,
+including the Headsman/Betheli wording, the shared SQ126 sentence, and the
+three identical bounty-completion records. The 22 edited fingerprints, all
+65,135 ledger entries, index/catalog reproducibility, the 65,135-row CSV and
+its BOM/newline inventory, 20 regression tests, and the CRLF-aware diff check
+passed. See
+[`23250`-`23499`](dialogue-context-edit-batch-20261114-23250-23499.md).
+The `23500`-`23749` batch applied all 12 supported corrections, including
+the `Sprint`, `Selkie`, and complete `Niskaru Lord` English pairings, action
+objective forms, and localized gem-markup payloads. All 12 edited
+fingerprints, the full ledger, index/catalog reproducibility, the
+65,135-row CSV and its BOM/newline inventory, wrapper order, 20 regression
+tests, and the CRLF-aware diff check passed. See
+[`23500`-`23749`](dialogue-context-edit-batch-20261114-23500-23749.md).
+The `23750`-`23999` batch applied 17 supported corrections and aligned the
+linked `Leaky Faucets` title at `31168`. It also confirmed the `23758` poem
+already matches its exact-source duplicate and verified that `23800`'s
+English-aligned Korean line layout should remain unchanged. All 18 edited
+fingerprints, the full ledger, index/catalog reproducibility, the CSV
+structure and line-ending inventory, markup order, 20 regression tests, and
+the CRLF-aware diff check passed. See
+[`23750`-`23999`](dialogue-context-edit-batch-20261114-23750-23999.md).
+The `24000`-`24249` batch applied 16 supported corrections and 21 linked-ID
+updates, including the complete `Maire, Queen of Cups` title group, matching
+action-objective forms, the `Skyblossom` spelling, and Airmer's conversational
+self-introduction. `24154` already had its English pairing; the ambiguous
+address at `24024` remains held. The 37 edited-row fingerprints, full ledger,
+index/catalog reproducibility, CSV row count and line-ending inventory, 11
+preservation tests, nine context-index tests, and CRLF-aware diff check
+passed. See
+[`24000`-`24249`](dialogue-context-edit-batch-20261114-24000-24249.md).
+Continue with `24250`-`24499`.
+
+The `24250`-`24499` batch applied all 18 supported candidates and four
+linked-ID corrections, including the agreed Tinctures/Elixirs title,
+`감금 주문`, `Great Spine`, and the SQ04 `하트바인` references. Five
+evidence-limited items remain held. All 22 edited-row fingerprints, the full
+ledger, index/catalog reproducibility, CSV structure and line endings, 11
+preservation tests, nine context-index tests, and the CRLF-aware diff check
+passed. See
+[`24250`-`24499`](dialogue-context-edit-batch-20261114-24250-24499.md).
+The `24500`-`24749` batch applied 13 supported corrections and two linked-ID
+updates. It also retained three findings already resolved in the active
+Korean text and held `24716` because the sources conflict on task assignment
+versus reward. Exact-source duplicates `24660`/`35478` now match, and the Sun
+Stone/Storm Stone pairings were aligned at `24729`/`27929`. All 15 changed-row
+fingerprints, the full ledger, index/catalog reproducibility, CSV structure
+and line endings, 20 regression tests, and the CRLF-aware diff check passed.
+See
+[`24500`-`24749`](dialogue-context-edit-batch-20261114-24500-24749.md).
+The `24750`-`24999` batch applied 13 supported corrections and 14 linked-ID
+updates. These include the Adarus Hollow location group, the SQ12 alchemical
+`조제법` terminology group, the exact `The Missives of Sable` title, and the
+Niskaru Lord pairing. Three evidence-limited findings remain held, and
+`24993` plus two earlier findings were already resolved in the active text.
+All 27 changed-row fingerprints, the full ledger, index/catalog
+reproducibility, CSV structure and line endings, 20 regression tests, and the
+CRLF-aware diff check passed. See
+[`24750`-`24999`](dialogue-context-edit-batch-20261114-24750-24999.md).
+The `25000`-`25249` batch applied 22 supported corrections and eight
+linked-ID updates, including the Aluck, Muse of Fate, and Kollossae Law
+groups. Three register/addressee questions remain unresolved; the
+`25208` line layout now matches Japanese and Chinese after removing three
+unintended clause breaks. All 30 changed-row fingerprints, the full ledger,
+index/catalog reproducibility, CSV structure, 20 regression tests, and the
+CRLF-aware diff check passed. See
+[`25000`-`25249`](dialogue-context-edit-batch-20261114-25000-25249.md).
+The `25250`-`25499` batch applied 20 in-range corrections and three linked
+updates. These include the Silverback Troll and Stowaway wording, the
+Weconai `대전당` references, complete name/title pairings, objective forms,
+and several naturalness fixes. Seven findings already matched the active
+text; the evidence-limited antecedent, location, rank, and address/register
+questions remain unchanged. All 23 changed-row fingerprints, the full
+65,135-ID ledger, index/catalog reproducibility, CSV structure and newline
+inventory, regression tests, and the CRLF-aware diff check passed. See
+[`25250`-`25499`](dialogue-context-edit-batch-20261114-25250-25499.md).
+
+The next three ranges, `25500`-`25749`, `25750`-`25999`, and
+`26000`-`26249`, were also applied. The first corrected 13 candidate IDs and
+two related entries; the second corrected 26 candidate IDs and one related
+Sorrows reference; the third corrected all 24 candidate IDs. Already-correct
+text and evidence-limited holds were preserved. See the
+[`25500`-`25749`](dialogue-context-edit-batch-20261114-25500-25749.md),
+[`25750`-`25999`](dialogue-context-edit-batch-20261114-25750-25999.md), and
+[`26000`-`26249`](dialogue-context-edit-batch-20261114-26000-26249.md)
+reports.
+
+The `26250`-`26499` ranges then corrected 24 of 25 candidate rows; one
+candidate already matched the supported wording. Two linked Krast-brother
+references were updated as well. All 26 changed fingerprints, the full
+65,135-ID ledger, CSV structure and line endings, 20 regression tests, and
+the CRLF-aware diff check passed. See
+[`26250`-`26499`](dialogue-context-edit-batch-20261114-26250-26499.md).
+The `26500`-`26749` batch then applied 12 of 14 candidate findings; two
+already-matching rows were retained and the source-conflict hold remains
+unresolved. The 12 changed fingerprints, full ledger, CSV structure and
+line endings, 20 regression tests, and CRLF-aware diff check passed. See
+[`26500`-`26749`](dialogue-context-edit-batch-20261114-26500-26749.md).
+The `26750`-`26999` batch corrected 12 of 13 candidate rows; one was already
+consistent with its exact-English duplicate. An additional duplicate
+`Search Nuala Ignas` objective at `16778` was aligned with `26940`. The
+meaning conflict at `26912` remains held. All 13 changed fingerprints, the
+full ledger, CSV structure and line endings, 11 preservation tests, nine
+context-index tests, and the CRLF-aware diff check passed. See
+[`26750`-`26999`](dialogue-context-edit-batch-20261114-26750-26999.md).
+The combined `28000`-`28749` review adjudicated 45 candidates: four
+in-range corrections were applied, 40 already-correct or source-supported
+rows were retained, and the Aethan identity question at `28066` remains
+held. Eleven related IDs were also aligned: the corrected `Michaela Vogel`
+and `Chaos Critters` references, six `Keep Library` references, and four
+`Sergeant Odi` references. Fifteen unique rows changed. See
+[`28000`-`28749`](dialogue-context-edit-batch-20261114-28000-28749.md).
+The follow-up for `28750`-`28999` rechecked all eight recorded candidates.
+Their supported corrections were already present in the active CSV, so no
+text or ledger change was needed. The Warsworn interpretation at `28779`
+uses separate historical source evidence rather than the linked mixed-quest
+asset. See
+[`28750`-`28999`](dialogue-context-edit-batch-20261114-28750-28999.md).
+The `29000`-`29249` pass reconciled all 17 recorded candidates and applied
+one additional correction: `folios` at `29220` now describes a large-format
+book rather than a collection. The other supported findings were already
+present; the source-evidence holds at `29048`, `29081`, and `29216` remain
+open. See
+[`29000`-`29249`](dialogue-context-edit-batch-20261114-29000-29249.md).
+The `29250`-`29499` follow-up reconciled all eight candidates against the
+active CSV; their supported corrections were already present. The
+evidence-limited holds at `29287`, `29460`, and `29490` remain open. See
+[`29250`-`29499`](dialogue-context-edit-batch-20261114-29250-29499.md).
+The `29500`-`29749` pass rechecked 13 candidates, all of whose supported
+corrections were already reflected in the active CSV. Six evidence-limited
+holds remain open, including the scoped `Lupoku`/`Lopoku` spelling conflict.
+See
+[`29500`-`29749`](dialogue-context-edit-batch-20261114-29500-29749.md).
+The `29750`-`29999` pass rechecked 26 candidates and applied three missed
+corrections: it restored the subject at `29774`, fixed the source plural in
+the `Wyvyrn-Gifres` pairing at `29808`, and removed the archaic vocative at
+`29809`. Twenty-three other findings were already reflected; the terminology
+hold at `29826` remains open. See
+[`29750`-`29999`](dialogue-context-edit-batch-20261114-29750-29999.md).
+The `30000`-`30249` pass rechecked 22 current candidate IDs and applied the
+plain-style farewell correction at `30225`. A linked health-potion
+description at `37751` was also aligned to `체력`. Twenty supported findings
+were already reflected in the active CSV. The `Children of Dust` wording at
+`30094` and source-evidence questions at `30115` and `30126` remain held.
+See
+[`30000`-`30249`](dialogue-context-edit-batch-20261114-30000-30249.md).
+The `30250`-`30499` pass rechecked 25 candidate or uncertain IDs. Its 21
+supported corrections were already reflected in the active CSV, so no
+in-range translation edit was needed; four source conflicts remain held.
+The linked health-potion correction at `37751` is recorded with the prior
+batch. See
+[`30250`-`30499`](dialogue-context-edit-batch-20261114-30250-30499.md).
+The `30500`-`30749` pass found its supported in-range corrections already
+present. Three related rows were corrected: the Pryderi location wording at
+`25913`, Gastyr spelling/pairing at `47929`, and Lord Callor spelling at
+`59613`. The `Chausses` distinction at `30663` and Hystis context at `30718`
+were resolved without changing their Korean text. See
+[`30500`-`30749`](dialogue-context-edit-batch-20261114-30500-30749.md).
+The `30750`-`30999` batch applied nine in-range corrections and aligned
+twenty related default rows, including the complete `Fennwrac`, `Knave of
+Pride`, `Keepers of the Crossing`, and per-hit absorption terminology groups.
+Two linked `base` variants were aligned as well. Four source-evidence holds
+remain unresolved. Fifty-two changed-row fingerprints were refreshed, the
+65,135-ID ledger and catalogs validate, all 20 relevant tests pass, and the
+default CSV's BOM, row order, and CRLF/LF inventory remain intact. See
+[`30750`-`30999`](dialogue-context-edit-batch-20261114-30750-30999.md).
+The `31000`-`31249` batch applied the nine remaining in-range corrections
+and aligned the Krast Brothers, Verdant Blades, Sacred Pools, High Roll /
+Ranged Roll, and Niels MacNutter groups. Two `base` variants were aligned.
+Already-correct candidates were retained, and the `31072` source conflict
+remains held. Forty-two default fingerprints were refreshed; the full
+65,135-ID ledger, index/catalogs, 20 tests, and CRLF-aware diff check pass.
+See
+[`31000`-`31249`](dialogue-context-edit-batch-20261114-31000-31249.md).
+The `31250`-`31499` batch applied 17 in-range corrections and aligned 19
+linked rows, including the Ticneri, Solemn Bell / Birth Candle, and duplicate
+poem groups. Four candidates were already corrected; the `31283` and `31386`
+evidence holds remain open. Thirty-six fingerprints were refreshed. The
+65,135-ID ledger, index/catalogs, 20 tests, CSV structure, and CRLF-aware diff
+check pass. See
+[`31250`-`31499`](dialogue-context-edit-batch-20261114-31250-31499.md).
+The `31500`-`31749` batch applied eight new in-range corrections, the
+previously recorded `31521` correction, and the linked shared-sentence fix at
+`35655`. Already-correct wording and evidence-limited holds were preserved.
+All ten changed fingerprints, the full ledger, index/catalog reproducibility,
+CSV structure and line endings, 20 tests, and the CRLF-aware diff check pass.
+See
+[`31500`-`31749`](dialogue-context-edit-batch-20261114-31500-31749.md).
+The `31750`-`31999` batch applied all 18 newly recorded candidates and four
+supported earlier findings, plus linked corrections for the Joanne, Three
+Swords / Hellbane, Winter King, and Amrynthian Band groups. One related
+`base` variant was aligned; source-evidence holds remain open. All 38 changed
+default fingerprints, the complete ledger, index/catalog reproducibility,
+CSV structure and line endings, 20 tests, and the CRLF-aware diff check pass.
+See
+[`31750`-`31999`](dialogue-context-edit-batch-20261114-31750-31999.md).
+
+The `32000`-`32249` batch applied 15 in-range corrections and 10 linked
+consistency fixes, including the `travesties`, Chaos Scholar, Watchers, and
+Ansilla Seal groups. Three earlier candidates were already resolved, and
+evidence-limited findings remain held. The adjacent `32250`-`32499` batch
+applied 10 in-range corrections and three linked updates, including the
+Night of Fire and Blood, The Valley, Hex, and Castor name groups. The
+`32309` wording was retained as already accurate; uncertain findings remain
+provisional. Across both batches, 38 unique IDs' fingerprints were refreshed.
+The full ledger, index/catalog reproducibility, 20 tests, CSV structure and
+line endings, and CRLF-aware diff checks pass. See
+[`32000`-`32249`](dialogue-context-edit-batch-20261114-32000-32249.md) and
+[`32250`-`32499`](dialogue-context-edit-batch-20261114-32250-32499.md).
+The `32500`-`32749` batch applied 15 in-range corrections and four linked
+corrections, including the Lady's Children title group and the exact-source
+duplicate at `32711` / `47165`. Eight related Mudhold rows and one `base`
+variant were verified as already updated. The Templar term and source-evidence
+holds remain unresolved; a mismatched finding at `32734` was not applied.
+The 27 affected `default` fingerprints, full ledger, index/catalog
+reproducibility, 20 tests, CSV structure and line endings, and CRLF-aware diff
+check pass. See
+[`32500`-`32749`](dialogue-context-edit-batch-20261114-32500-32749.md).
+
+The `32750`-`32999` batch then applied nine in-range corrections and four
+linked credential corrections (`22955`, `26414`, `38609`, and `42785`).
+`32891` already had the name pairings, but its malformed rank/title remains
+held; other evidence-limited findings were retained. Thirteen text rows were
+changed, and 14 reviewed fingerprints now validate. The full ledger,
+index/catalog checks, 20 tests, CSV structure and line endings, and
+CRLF-aware diff check pass. See
+[`32750`-`32999`](dialogue-context-edit-batch-20261114-32750-32999.md).
+The `33000`-`33249` batch reconciled 23 Korean rows, including linked
+`Irion, King of Cups`, `The Road Patrol`, and Aster-family labels. Exact
+duplicate dialogue at `16617`/`33194` now matches. Five evidence-limited holds
+remain open; all 23 fingerprints, the full ledger, index/catalogs, 20 tests,
+CSV structure, and CRLF-aware diff checks pass. See
+[`33000`-`33249`](dialogue-context-edit-batch-20261114-33000-33249.md).
+The `33250`-`33499` batch reconciled 24 in-range IDs and eight linked rows,
+including `Acyone` objectives and the repeated `Commodore Garrick` title.
+Already-correct name pairings were retained and five evidence-limited holds
+remain open. The 32 reviewed fingerprints, full ledger, index/catalogs, 20
+tests, CSV BOM/order/newline inventory, and CRLF-aware diff check pass. See
+[`33250`-`33499`](dialogue-context-edit-batch-20261114-33250-33499.md).
+Reconciliation of the `36000`-`39999` candidate ledger against its final
+manifest found four omitted IDs. Four-language review confirmed corrections
+at `38770`, `38771`, `38818`, and `38891`; these were applied and their
+fingerprints updated. See
+[`38770`/`38771`/`38818`/`38891` follow-up`](dialogue-context-38770-38891-application-followup-20261114.md).
+Candidate application for `40000`-`45999` is complete: all 551 candidate IDs
+are classified as 445 edits, 84 retained, and 36 evidence-limited holds; 14 IDs
+have separate dispositions for distinct issues. Of the 445 edit rows, 308
+already matched the active CSV and 137 were applied. No candidate remains
+unclassified. The final accounting and validation are recorded in
+[`dialogue-context-final-application-20261114.md`](dialogue-context-final-application-20261114.md)
+and the
+[`40000`-`45999` follow-up manifest](dialogue-context-final-edits-followup-40000-45999-20261114.json).
+A final ledger-to-manifest reconciliation then found 16 active candidate IDs
+missing a disposition. Four-language revalidation assigned three edits, 11
+retentions, and two evidence-limited holds. It applied `41926`, `42063`, and
+`43026`; see
+[`missing-candidate follow-up`](dialogue-context-40000-45999-missing-candidate-followup-20261114.md)
+and its
+[ID manifest](dialogue-context-missing-candidates-40000-45999-20261114.json).
+The later cross-check confirmed that `default:50508` already had the complete
+`Circlet of Arkes` pairing and refreshed its stale ledger fingerprint. At
+`50533`, it aligned the Korean location to
+`허바르의 문턱(Hurvar's Doorsil)`, using established Korean wording while
+preserving the exact spelling in that English source row. This supersedes the
+earlier format hold for that row; its original ledger disposition remains
+unchanged. See
+[`dialogue-context-50508-50533-followup-20261114.md`](dialogue-context-50508-50533-followup-20261114.md).
+The linked Dreadscale series pairing follow-up updated six additional
+ID-scoped rows across `base` and `default`; see
+[`dialogue-context-dreadscale-pairing-20261114.md`](dialogue-context-dreadscale-pairing-20261114.md).
+
+After the user directed the project to apply source-supported corrections,
+the `default` edit batches have proceeded sequentially through IDs
+`5000`-`5999`: 31 IDs in `0`-`999`, 70 rows while adjudicating
+`1000`-`1999`, 52 rows in `2000`-`2999`, 98 rows in `3000`-`3999`, and 22
+rows in `4000`-`4999`, plus 21 rows in `5000`-`5999`. English was checked
+for meaning, Japanese for voice/register and layout, and Chinese as
+supporting evidence. Repeated English text and related terms were checked
+across their full ID groups; uncertain findings remain held. See
+[`dialogue-context-edit-batch-20261113.md`](dialogue-context-edit-batch-20261113.md)
+and the ID-scoped application manifest
+[`dialogue-context-edit-batch-20261113-2000-2999.json`](dialogue-context-edit-batch-20261113-2000-2999.json).
+Fingerprints for the rows changed in each batch were refreshed without
+changing other ledger fields or row order. The `3000`-`3999` and
+`4000`-`4999` range reports and manifests are
+[`dialogue-context-edit-batch-20261113-3000-3999.md`](dialogue-context-edit-batch-20261113-3000-3999.md),
+[`dialogue-context-edit-batch-20261113-3000-3999.json`](dialogue-context-edit-batch-20261113-3000-3999.json),
+[`dialogue-context-edit-batch-20261113-4000-4999.md`](dialogue-context-edit-batch-20261113-4000-4999.md),
+and
+[`dialogue-context-edit-batch-20261113-4000-4999.json`](dialogue-context-edit-batch-20261113-4000-4999.json),
+[`dialogue-context-edit-batch-20261113-5000-5999.md`](dialogue-context-edit-batch-20261113-5000-5999.md),
+and
+[`dialogue-context-edit-batch-20261113-5000-5999.json`](dialogue-context-edit-batch-20261113-5000-5999.json).
+At the end of the first six batches, 165 of approximately 3,155 candidate
+IDs had been adjudicated (about 5.2%). Three later batches continued the
+work: `6000`-`6999` changed 76 unique rows, `7000`-`7999` changed 60, and
+`8000`-`8999` changed 59. The `8000`-`8999` batch adjudicated 46 candidates:
+42 corrections, three already-resolved findings, and one hold (`8992`). The
+subsequent `9000`-`9999` batch adjudicated 62 candidates: 58 corrections and
+four already-resolved findings. The cumulative count is now 354 of
+approximately 3,155 (about 11.2%); this remains ongoing work, not a claim
+that all findings are resolved or release approval. See
+[`dialogue-context-edit-batch-20261113-6000-6999.md`](dialogue-context-edit-batch-20261113-6000-6999.md),
+[`dialogue-context-edit-batch-20261113-7000-7999.md`](dialogue-context-edit-batch-20261113-7000-7999.md),
+[`dialogue-context-edit-batch-20261113-8000-8999.md`](dialogue-context-edit-batch-20261113-8000-8999.md),
+and
+[`dialogue-context-edit-batch-20261113-9000-9999.md`](dialogue-context-edit-batch-20261113-9000-9999.md).
+The ledger validates against all four language tables; index and catalog
+reproducibility checks, nine context-index tests, 11 CSV-preservation tests,
+and the CRLF-aware diff check pass. The CSV retains its BOM and 71,845 CRLF /
+244 LF-only newline inventory.
+
+The `10000`-`10999` batch re-adjudicated 51 new candidates and completed the
+previously recorded `10945` pairing. It applied 72 ID-scoped changes to 59
+unique rows, including related name and terminology occurrences outside the
+range. Reversing the manifest in memory restored its exact input hash; all
+ledger, index/catalog, token/layout, regression-test, and newline checks
+passed. The cumulative candidate count is 405 of approximately 3,155
+(12.8%). See the
+[`10000`-`10999` report](dialogue-context-edit-batch-20261113-10000-10999.md)
+and
+[`application manifest`](dialogue-context-edit-batch-20261113-10000-10999.json).
+The next range is `11000`-`11999`; the remaining candidate review is still
+in progress.
+
+The `11000`-`11999` batch adjudicated 17 candidates and applied 21
+ID-scoped changes to 19 unique rows, including two related Epic Gem labels.
+The official manual's `시약` and `에픽 보석` terminology was applied, the
+`Cureseeker` spelling was corrected, and supported mining-role terms were
+aligned without guessing the unresolved technical vocabulary. The saved
+manifest reverse-restores its exact input hash; full ledger, index/catalog,
+token/layout, test, and newline checks passed. Candidate adjudication now
+covers 422 of approximately 3,155 (13.4%). See the
+[`11000`-`11999` report](dialogue-context-edit-batch-20261113-11000-11999.md)
+and
+[`application manifest`](dialogue-context-edit-batch-20261113-11000-11999.json).
+The `12000`-`12999` batch adjudicated all 35 candidate IDs; 34 received
+source-supported corrections and `12766` was already resolved. It applied
+80 guarded operations to 79 unique rows, including linked Irion, Hermit
+Smith, Testament, Ordination Tome, and Ambassador Kulder terminology groups.
+Ledger fingerprints, index/catalog reproduction, nine context-index tests,
+11 CSV-preservation tests, and the CRLF-aware diff check passed. Evidence-
+limited findings remain unresolved. Candidate adjudication now covers 457 of
+approximately 3,155 (14.5%). See the
+[`12000`-`12999` report](dialogue-context-edit-batch-20261113-12000-12999.md)
+and
+[`application manifest`](dialogue-context-edit-batch-20261113-12000-12999.json).
+
+The `13000`-`13999` batch adjudicated all 37 candidates: 33 received
+source-supported corrections, three were already resolved, and one was
+retained. It applied 115 guarded text-fragment operations to 112 unique
+rows, including related name, title, and terminology groups. The CSV retains
+its BOM, 65,135 rows, and 71,845 CRLF / 244 LF-only endings. Only the 112
+edited-row fingerprints were refreshed. Ledger/index/catalog checks, 11
+CSV-preservation tests, and the CRLF-aware diff check passed. Evidence-limited
+findings remain held. See the
+[range report](dialogue-context-edit-batch-20261113-13000-13999.md) and
+[manifest](dialogue-context-edit-batch-20261113-13000-13999.json).
+
+The `14000`-`14999` batch adjudicated all 59 candidates: 50 received
+source-supported corrections, seven were already resolved, one was retained,
+and one remains held. It applied 98 guarded text-fragment operations to 90
+unique IDs, including documented nearby name and terminology groups. The
+manifest reverse-restores the exact input CSV hash. The CSV retains its BOM,
+65,135 ordered rows, and 71,845 CRLF / 244 LF-only endings; only the 90 edited
+row fingerprints were refreshed. Ledger/index/catalog checks, nine context
+index tests, 11 CSV-preservation tests, reverse-patch verification, and the
+CRLF-aware diff check passed. Evidence-limited findings remain held. See the
+[`14000`-`14999` report](dialogue-context-edit-batch-20261113-14000-14999.md)
+and
+[`application manifest`](dialogue-context-edit-batch-20261113-14000-14999.json).
+
+The `15000`-`15999` batch adjudicated all 56 candidates: 50 were corrected,
+four were already resolved, and two were retained. It applied 103 guarded
+operations to 98 unique IDs. The `16000`-`16999` batch adjudicated all 36
+current candidates: 30 were corrected, three were already resolved, and
+three were retained. It applied 50 guarded operations to 49 unique IDs,
+including the complete SQ122 notice-delivery terminology group, six
+Cliffbreak Fasting references, the duplicate Carver poem, and standalone
+Chosen titles. Both reports record source-based decisions, output hashes, and
+CSV/fingerprint verification. Candidate adjudication now covers 636 of
+approximately 3,155 (about 20.2%). See
+[`15000`-`15999`](dialogue-context-edit-batch-20261113-15000-15999.md) and
+[`16000`-`16999`](dialogue-context-edit-batch-20261113-16000-16999.md).
+The next sequential candidate range is `17000`-`17999`.
+
+The `17000`-`17999` batch subsequently re-adjudicated all 34 ledger
+candidates: 31 corrections, two already resolved, and one retained. Related
+groups brought the edits to 56 unique IDs; two Kiftal particles were
+corrected after application. CSV structure, fingerprints, and the focused
+tests passed. See the
+[batch report](dialogue-context-edit-batch-20261114-17000-17999.md).
+The older approximate candidate denominator has not been reconciled with
+the ledger's 4,015 candidate rows; continue with `18000`-`18999` without
+claiming a new cumulative percentage.
+
+The `18000`-`18999` batch then considered all 32 ledger candidates: 25 were
+corrected, three already resolved, one retained, and three held. Related
+entries bring the edits to 33 unique IDs. See the
+[batch report](dialogue-context-edit-batch-20261114-18000-18999.md).
+Continue with `19000`-`19999`; this is not completion of the wider work.
+
+The next batch is in progress. The `19000`-`19249` candidates received nine
+corrections, two already-resolved decisions, and two holds. In
+`19250`-`19499`, 17 candidates were corrected and four are still awaiting
+adjudication. See the
+[in-progress report](dialogue-context-edit-batch-20261114-19000-19999.md)
+for current hashes and the next IDs.
+
+All 21 candidates in `19250`-`19499` have since been corrected, with three
+related flower labels also aligned. The latest
+[checkpoint](dialogue-context-edit-batch-20261114-19000-19999.md) records
+the verification; continue with `19500`-`19999`.
+
+Five action objectives in `19500`-`19749` were subsequently corrected;
+remaining candidates and the latest verification are recorded in the same
+in-progress report.
+
+The preceding sequential revalidation, `63250`-`63499`, compared all 250 IDs
+across four languages, rechecked 64 recorded fingerprints, and added 186.
+Twelve new correction candidates and 17 new evidence-limited rows are
+recorded; four additional questions on existing rows remain report-only.
+The ledger covers 63,959 / 65,135 IDs (98.19%), leaving 1,176; sequential
+coverage reaches `63499`, and the next range is `63500`-`63749`. Forty-seven
+exact-English duplicate groups touch the range (48 range IDs; 1,005 corpus
+rows), with matching Korean in every group. English and Chinese have ten
+multiline rows and 30 embedded breaks; Japanese and Korean have nine rows
+and 29 breaks. ID `63429` accounts for the sole logical break-count
+difference. All nine Korean embedded separators remain CRLF while source
+separators are LF; they were preserved. Of 250 IDs, 187 have indexed asset
+associations (191 links across 129 assets), and 63 have none. Of the 186 new
+IDs, 123 are linked (126 links across 76 assets), and 63 are unlinked. Asset
+associations do not establish per-key speakers or playback order. Ledger
+fingerprints, regenerated index/catalog checks, related tests, and the
+CRLF-aware diff check are verified. No translation CSV was modified. See
+[`63250`-`63499`](dialogue-context-default-63250-63499-revalidation-20261113.md).
+
+The preceding sequential revalidation, `63000`-`63249`, compared all 250 IDs
+across four languages, rechecked 62 recorded fingerprints, and added 188.
+Seven new correction candidates, eight evidence-limited holds, and 12
+embedded-line-ending/layout holds are recorded. The ledger covered 63,773 /
+65,135 IDs (97.91%), leaving 1,362; sequential coverage reached `63249`.
+Sixty exact-English duplicate groups touched that range (63 IDs; 1,284
+corpus rows), with matching Korean in every group. Eleven multiline rows
+contain 34 embedded breaks in English/Japanese/Korean; Chinese has one
+additional separator at `63217`. Korean embedded separators are CRLF while
+source separators are LF, so they were held without normalization. Of 250
+IDs, 191 had indexed asset associations (195 links across 126 assets), and
+59 had none. Of the 188 new IDs, 129 were linked (133 links across 72
+assets), and 59 were unlinked. Asset associations do not establish per-key
+speakers or playback order. All ledger fingerprints, regenerated
+index/catalog checks, related tests, and the CRLF-aware diff check were
+verified. No translation CSV was modified. See
+[`63000`-`63249`](dialogue-context-default-63000-63249-revalidation-20261113.md).
+
+The preceding sequential revalidation, `62250`-`62499`, compared all 250 IDs
+across four languages, rechecked 67 recorded fingerprints, and added 183.
+Five new correction candidates and one evidence-limited meaning hold are
+recorded; six embedded line-ending holds are recorded separately. The ledger
+covers 63,210 / 65,135 IDs (97.05%), leaving 1,925; sequential coverage
+reaches `62499`. Forty-nine exact-English duplicate groups touch the range
+(51 range IDs; 742 corpus rows), with matching Korean in every group. Six
+multiline rows contain 28 embedded breaks in each language; Korean embedded
+separators are CRLF while source separators are LF, so they are held without
+normalization. Of 250 IDs, 196 have indexed asset associations (200 links
+across 119 assets), and 54 have none. Of the 183 new IDs, 129 are linked
+(132 links across 69 assets), and 54 are unlinked. Asset associations do not
+establish per-key speakers or playback order. All ledger fingerprints,
+regenerated index/catalog checks, related tests, and the CRLF-aware diff
+check are verified. No translation CSV was modified. See
+[`62250`-`62499`](dialogue-context-default-62250-62499-revalidation-20261113.md).
+
+The preceding sequential revalidation, `62000`-`62249`, compared all 250
+IDs across four languages, rechecked 79 recorded fingerprints, and added
+171. Nine new correction candidates and five evidence-limited
+meaning/register holds are recorded; seven embedded line-ending holds are
+recorded separately, two overlapping candidates. The ledger covered
+63,027 / 65,135 IDs (96.77%), leaving 2,108; sequential coverage reached
+`62249`. Sixty-three exact-English duplicate groups touched the range (67
+range IDs; 1,746 corpus rows), with matching Korean in every group. Seven
+multiline rows contained 30 embedded breaks in each language; Korean
+embedded separators were CRLF while source separators were LF. Of 250 IDs,
+197 had indexed asset associations (198 links across 136 assets), and 53
+had none. Of the 171 new IDs, 118 were linked (119 links across 67 assets),
+and 53 were unlinked. Asset associations do not establish per-key speakers
+or playback order. See
+[`62000`-`62249`](dialogue-context-default-62000-62249-revalidation-20261113.md).
+
+The preceding sequential revalidation, `61750`-`61999`, compared all 250
+IDs across four languages, rechecked 80 recorded fingerprints, and added
+170. Eight new correction candidates and nine evidence-limited ledger holds
+are recorded; five existing candidates and six existing holds were rechecked
+without rewriting their append-only rows. The ledger covered 62,856 / 65,135
+IDs (96.50%), leaving 2,279; sequential coverage reached `61999`. Fifty-one
+exact-English duplicate groups touched the range (55 range IDs; 1,391
+corpus rows), with matching Korean in every group. Eight multiline rows
+contained 32 embedded breaks in each language; all Korean embedded
+separators were CRLF while the source separators were LF. Of 250 IDs, 203
+had indexed asset associations (206 links across 137 assets), and 47 had
+none. Of the 170 new IDs, 123 were linked (126 links across 72 assets), and
+47 were unlinked. Asset associations do not establish per-key speakers or
+playback order. See
+[`61750`-`61999`](dialogue-context-default-61750-61999-revalidation-20261113.md).
+
+The preceding sequential revalidation, `61500`-`61749`, compared all 250 IDs
+across four languages, rechecked 63 recorded fingerprints, and added 187.
+Seven new correction candidates and 11 evidence-limited holds are recorded;
+five existing candidates and one existing speech-level hold were rechecked
+without rewriting their append-only rows. The ledger covers 62,686 / 65,135
+IDs (96.24%), leaving 2,449; sequential coverage reaches `61749`, and the
+next range is `61750`-`61999`. Fifty-seven exact-English duplicate groups
+touch the range and cover 59 range IDs (1,266 corpus rows), with matching
+Korean in every group. Nine multiline rows contain 24/18/24/24 embedded
+breaks across English/Japanese/Chinese/Korean; `61578` is the only logical
+break-count mismatch. Nine Korean fields use CRLF embedded separators where
+the sources use LF; these are held without normalization. Of 250 IDs, 189
+have indexed asset associations (190 links across 122 assets), and 61 have
+none. Of the 187 new IDs, 126 are linked (126 links across 74 assets), and
+61 are unlinked. Asset associations do not establish per-key speakers or
+playback order. All ledger fingerprints, regenerated index/catalog checks,
+related tests, and the CRLF-aware diff check are verified. No translation
+CSV was modified. See
+[`61500`-`61749`](dialogue-context-default-61500-61749-revalidation-20261113.md).
+
+The latest sequential revalidation, `61250`-`61499`, compared all 250 IDs
+across four languages, rechecked 71 recorded fingerprints, and added 179.
+Seven new correction candidates and one evidence-limited hold are recorded;
+six existing candidates and one existing hold were rechecked without
+rewriting their append-only rows. The ledger covers 62,499 / 65,135 IDs
+(95.95%), leaving 2,636; sequential coverage reaches `61499`, and the next
+range is `61500`-`61749`. Fifty-five exact-English duplicate groups touch
+the range and cover 57 range IDs (694 corpus rows). Korean matches within
+every group except `Die, mortal!` (`54719`, `61482`), where Japanese also
+differs in register. Three multiline rows contain seven embedded breaks in
+each language, with matching per-row counts and blank-paragraph structure.
+Of 250 IDs, 202 have indexed asset associations (205 links across 127
+assets); 48 have none. Of the 179 new IDs, 131 are linked (134 links across
+72 assets), and 48 are unlinked. Asset associations do not establish
+per-key speakers or playback order. All 62,499 ledger fingerprints validate;
+regenerated index/catalog checks, related tests, and the CRLF-aware diff
+check pass. No translation CSV was modified. See
+[`61250`-`61499`](dialogue-context-default-61250-61499-revalidation-20261113.md).
+
+The preceding sequential revalidation, `60750`-`60999`, compared all 250 IDs
+across four languages, rechecked 60 recorded fingerprints, and added 190.
+Seven new correction candidates and four new holds were recorded; five
+existing candidates and two existing holds were rechecked. The ledger
+covered 62,114 / 65,135 IDs (95.36%), leaving 3,021; sequential coverage
+reached `60999`. See
+[`60750`-`60999`](dialogue-context-default-60750-60999-revalidation-20261113.md).
+
+The preceding sequential revalidation, `60250`-`60499`, compared all 250
+IDs across four languages, rechecked 65 recorded fingerprints, and added 185.
+Nine new-row correction candidates and seven new holds are recorded; seven
+existing candidates and one existing hold were rechecked without rewriting
+their append-only rows. One finding at an existing ID remains report-only.
+The ledger covered 61,745 / 65,135 IDs (94.79%), leaving 3,390; sequential
+coverage reached `60499`. Fifty-nine exact-English duplicate groups touched
+the range and covered 1,178 corpus rows; 59 range IDs participate, with
+matching Korean within every group. Three multiline rows contain 19 embedded
+breaks in each language, with matching per-row counts and runtime-token/
+markup sequences. Of 250 IDs, 215 have indexed asset associations (221 links
+across 136 assets); 35 have none. Of the 185 new IDs, 150 are linked (154
+links across 79 assets), and 35 are unlinked. Asset associations do not
+establish per-key speakers or playback order. All 61,745 ledger fingerprints
+validate; the regenerated index and catalogs, nine related tests, and
+CRLF-aware diff check passed. No translation CSV was modified. See
+[`60250`-`60499`](dialogue-context-default-60250-60499-revalidation-20261113.md).
+
+The preceding sequential revalidation, `60000`-`60249`, compared all 250
+IDs across four languages, rechecked 58 recorded fingerprints, and added 192.
+Twelve new-row correction candidates and 15 new ledger holds are recorded;
+three existing candidates and five prior `not-issue` rows were rechecked
+without rewriting their append-only rows. Five findings at existing IDs
+remain report-only. The ledger covered 61,560 / 65,135 IDs (94.51%), leaving
+3,575; sequential coverage reached `60249`. Fifty-three exact-English
+duplicate groups touched the range and covered 1,147 corpus rows; 57 range
+IDs participated, with matching Korean within every group. Ten multiline
+rows contained 60/60/61/60 embedded breaks across English/Japanese/Chinese/
+Korean; Chinese alone had one extra source break at `60101`. At `60016`,
+Korean marker order matched English/Japanese, while Chinese differed. Of
+250 IDs, 188 had indexed asset associations (191 links across 123 assets);
+62 had none. Of the 192 new IDs, 130 were linked (132 links across 72
+assets), and 62 were unlinked. Asset associations do not establish per-key
+speakers or playback order. The regenerated catalogs, all 61,560
+fingerprints, nine related tests, and CRLF-aware diff check passed. No
+translation CSV was modified. See
+[`60000`-`60249`](dialogue-context-default-60000-60249-revalidation-20261113.md).
+
+The latest sequential revalidation, `59750`-`59999`, compared all 250 IDs
+across four languages, rechecked 60 recorded fingerprints, and added 190.
+Ten new-row correction candidates and three new holds are recorded; nine
+existing candidates were rechecked, and three new findings at existing IDs
+remain report-only. The ledger covers 61,368 / 65,135 IDs (94.22%), leaving
+3,767; sequential coverage reaches `59999`, and the next range is
+`60000`-`60249`. Fifty-two exact-English duplicate groups touch the range
+and cover 978 corpus rows; 54 range IDs participate, with matching Korean
+within every group. Six multiline rows contain 34 embedded breaks in each
+language. Marker identities match; the language-specific argument-order
+difference at `59961` is preserved. Of 250 IDs, 200 have indexed asset
+associations (207 links across 128 assets); 50 have none. Of the 190 new
+IDs, 140 are linked (146 links across 76 assets), and 50 are unlinked. Asset
+associations do not establish per-key speakers or playback order. The
+regenerated catalogs, all 61,368 fingerprints, nine related tests, and the
+CRLF-aware diff check passed. No translation CSV was modified. See
+[`59750`-`59999`](dialogue-context-default-59750-59999-revalidation-20261113.md).
+
+The preceding sequential revalidation, `59500`-`59749`, compared all 250
+IDs across four languages, rechecked 69 recorded fingerprints, and added 181.
+Fourteen new-row correction candidates and one new hold were recorded; nine
+existing candidates and two holds were rechecked, with three findings at
+existing IDs remaining report-only. See
+[`59500`-`59749`](dialogue-context-default-59500-59749-revalidation-20261113.md).
+
+The preceding sequential revalidation, `59250`-`59499`, compared all 250 IDs
+across four languages, rechecked 67 recorded fingerprints, and added 183.
+Ten new-row correction candidates and three new ledger holds were recorded;
+two further findings at existing IDs remained report-only. Seven existing
+candidates and one existing hold were rechecked without rewriting their
+ledger rows. The ledger covered 60,997 / 65,135 IDs (93.65%), leaving 4,138.
+See
+[`59250`-`59499`](dialogue-context-default-59250-59499-revalidation-20261113.md).
+
+The preceding sequential revalidation, `59000`-`59249`, compared all 250
+IDs across four languages, rechecked 74 recorded fingerprints, and added
+176. It recorded 15 new-row candidates and three holds; 10 existing
+candidates and two holds were rechecked, and three further candidates plus
+one evidence-limited question at existing IDs remain report-only. The ledger
+covered 60,814 / 65,135 IDs (93.37%), leaving 4,321. Korean differs only
+between `56137` and `59183` in one exact-English duplicate group, supported
+by their Japanese register difference. See
+[`59000`-`59249`](dialogue-context-default-59000-59249-revalidation-20261113.md).
+
+The earlier `58750`-`58999` range compared all 250 IDs across four languages,
+rechecked 69 recorded fingerprints, and added 181. It recorded 15 new-row
+candidates and eight new ledger holds; eleven evidence-limited questions
+were documented in total. The ledger covered 60,638 / 65,135 IDs (93.10%).
+See
+[`58750`-`58999`](dialogue-context-default-58750-58999-revalidation-20261113.md).
+
+The preceding sequential revalidation, `58250`-`58499`, compared all 250 IDs
+across four languages, rechecked 56 recorded fingerprints, and added 194.
+Ten new-row correction candidates and nine evidence-limited questions were
+recorded; findings at existing IDs (`58252`, `58409`, `58462`, and `58497`)
+remain report-only. Six existing candidates were rechecked, and the
+candidate at `58408` was already reflected in the current text. The ledger
+covered 60,260 / 65,135 IDs (92.52%), leaving 4,875. See
+[`58250`-`58499`](dialogue-context-default-58250-58499-revalidation-20261113.md).
+
+The preceding sequential revalidation, `57500`-`57749`, compared all 250 IDs
+across four languages, rechecked 64 recorded fingerprints, and added 186.
+Fourteen new correction candidates are documented; six existing
+candidate/hold rows were rechecked. The ledger covered 59,690 / 65,135 IDs
+(91.64%), leaving 5,445; sequential coverage reached `57749`. Forty-six
+exact-English duplicate groups touched the range and covered 1,057 rows;
+Korean matched in every group. Six multiline rows contained 30/32/30/30
+embedded breaks across English/Japanese/Chinese/Korean; Japanese alone had
+two extra breaks at `57728`. Korean marker order differed from
+English/Japanese at `57551`; at `57708`, Japanese alone had an extra
+`{LINE_SPACE}` marker and Korean matched English/Chinese. Of 250 IDs, 204
+had indexed asset associations (210 links across 140 assets); 46 had none.
+Asset associations do not establish per-key speakers or playback order. No
+translation CSV was modified. See
+[`57500`-`57749`](dialogue-context-default-57500-57749-revalidation-20261113.md).
+
+The preceding sequential revalidation, `57250`-`57499`, compared all 250 IDs
+across four languages, rechecked 73 recorded fingerprints, and added 177.
+Ten new-row correction candidates and two further proposals at existing IDs
+`57391` and `57448` are documented; four existing candidates and three
+evidence-limited holds were rechecked. The ledger covered 59,504 / 65,135 IDs
+(91.35%), leaving 5,631. Fifty-nine exact-English duplicate groups touched
+the range and covered 897 rows; one Korean variation is supported by
+Japanese register variants. Four multiline rows contain six embedded breaks
+in each language, and runtime/display/layout marker identities and order
+match. Of 250 IDs, 190 have indexed asset associations (193 links across 135
+assets); 60 have none. Asset associations do not establish per-key speakers
+or playback order. No translation CSV was modified. See
+[`57250`-`57499`](dialogue-context-default-57250-57499-revalidation-20261113.md).
+
+The preceding sequential revalidation, `57000`-`57249`, compared all 250 IDs
+across four languages, rechecked 65 recorded fingerprints, and added 185.
+Eight new correction candidates and six evidence-limited holds were recorded;
+six existing candidates and two evidence-limited holds were rechecked without
+rewriting their rows. That recheck corrected the earlier candidate at
+`57248`: the accepted `로포쿠(Lopoku)` form is valid despite the English
+variant `Lupoku`; the append-only ledger row remains unchanged. The ledger
+then covered 59,327 / 65,135 IDs (91.08%), leaving 5,808. Sixty-eight
+exact-English duplicate groups touched the range and covered 1,368 rows;
+Korean matched in all groups. Two multiline rows contained eight embedded
+breaks in each language, and runtime/display markers matched. Of 250 IDs,
+203 had indexed asset associations (206 links across 127 assets); 47 had
+none. Asset associations do not establish per-key speakers or playback
+order. Index/catalog checks, all 59,327 fingerprints, nine tests, and
+line-ending-aware diff checks passed. No translation CSV was modified. See
+[`57000`-`57249`](dialogue-context-default-57000-57249-revalidation-20261113.md).
+
+The preceding sequential revalidation, `56750`-`56999`, compared all 250 IDs
+across four languages, rechecked 68 recorded fingerprints, and added 182.
+Nine new correction candidates and ten evidence-limited holds were recorded;
+the existing candidate at `56837` and source-conflict holds at `56757` and
+`56758` were rechecked without rewriting their rows. The ledger then covered
+59,142 / 65,135 IDs (90.80%), leaving 5,993. Seventy exact-English duplicate
+groups touched the range and covered 1,315 rows; three Korean differences
+were supported by Japanese source variants. Six multiline rows contained 28
+embedded breaks in each language, and runtime/display markers matched. Of
+250 IDs, 182 had indexed asset associations across 123 assets; 68 had none.
+Asset associations do not establish per-key speakers or playback order. See
+[`56750`-`56999`](dialogue-context-default-56750-56999-revalidation-20261113.md).
+
+The preceding sequential revalidation, `56500`-`56749`, compared all 250
+IDs across four languages, rechecked 66 recorded fingerprints, and added
+184. Five new correction candidates and two evidence-limited holds were
+recorded; candidates at existing IDs `56512`, `56642`, and `56700` were
+rechecked without rewriting their rows. The ledger then covered 58,960 /
+65,135 IDs (90.52%), leaving 6,175. Sixty-one exact-English duplicate groups
+touched that range and covered 1,253 rows; Korean differed only in one
+`Hello?` group, with the variation supported by Japanese/Chinese. Six
+multiline rows contained 29/29/28/29 embedded breaks across
+English/Japanese/Chinese/Korean. Of 250 IDs, 199 had indexed asset
+associations across 130 assets; 51 had none. Asset associations do not
+establish per-key speakers or playback order. See
+[`56500`-`56749`](dialogue-context-default-56500-56749-revalidation-20261113.md).
+
+The preceding sequential revalidation, `56250`-`56499`, compared all 250 IDs
+across four languages, rechecked 66 recorded fingerprints, and added 184.
+Five correction candidates and six evidence-limited holds were recorded on
+new rows; a new candidate at existing ID `56431` and a question at `56266`
+were documented without rewriting their rows. Eight of nine existing
+candidates remain supported, while the proposal at `56416` is already
+reflected in the current text. The ledger then covered 58,776 / 65,135 IDs
+(90.24%), leaving 6,359; sequential coverage reached `56499`. Sixty
+exact-English duplicate groups touched that range and covered 911 rows.
+Four multiline rows contained 18 embedded breaks in each language. Of 250
+IDs, 191 had indexed asset associations across 129 assets; 59 had none.
+Asset associations do not establish per-key speakers or playback order. See
+[`56250`-`56499`](dialogue-context-default-56250-56499-revalidation-20261113.md).
+
+The preceding sequential revalidation, `56000`-`56249`, compared all 250 IDs
+across four languages, rechecked 61 recorded fingerprints, and added 189.
+Ten new correction candidates and two evidence-limited holds were recorded.
+The ledger then covered 58,592 / 65,135 IDs (89.95%), leaving 6,543;
+sequential coverage reached `56249`. Sixty-one exact-English duplicate
+groups touched the range and covered 1,246 rows; four multiline rows
+contained 17 embedded breaks in each language. Of 250 IDs, 201 had indexed
+asset associations and 49 had none. Asset associations do not establish
+per-key speakers or playback order. See
+[`56000`-`56249`](dialogue-context-default-56000-56249-revalidation-20261113.md).
+
+The 56 / 56 priority-asset pass remains complete, covering 5,208 unique IDs.
+The catalogs cover all 530 quest assets and all 65,135 `default` IDs. Of 426
+assets with linked IDs, the catalog reports 285 with complete ledger
+coverage and 141 with partial coverage; all matched assets have at least one
+ledger entry. Another 104 assets have no linked IDs.
+
+The latest sequential revalidation, `54750`-`54999`, compared all 250 IDs
+across four languages, rechecked 77 recorded IDs, and added 173. It records
+three new correction candidates (two on new ledger rows and one documented
+without overwriting existing ID `54779`) and two evidence-limited holds,
+while preserving four rechecked candidate records. The ledger covers 57,661 /
+65,135 IDs (88.53%), leaving 7,474; sequential coverage reaches `54999`, and
+the next range is `55000`-`55249`. Fifty-six exact-English duplicate groups
+touch the range and cover 1,083 target rows; Korean wording matches within
+all groups. Five multiline rows contain 23 embedded breaks in each language.
+Of 250 IDs, 203 have indexed asset associations across 140 assets; 47 have
+no indexed asset. Asset associations do not establish per-key speakers or
+playback order. See
+[`54750`-`54999`](dialogue-context-default-54750-54999-revalidation-20261113.md).
+
+The latest sequential revalidation, `54500`-`54749`, compared all 250 IDs
+across four languages, rechecked 63 recorded IDs, and added 187. It records
+16 new correction candidates (13 on newly added ledger rows and three on
+preserved existing rows), retains seven rechecked candidates and the hold at
+`54647`, and notes one source-language line-break
+discrepancy. The ledger covers 57,488 / 65,135 IDs (88.26%), leaving 7,647;
+sequential coverage reaches `54749`, and the next range is `54750`-`54999`.
+Sixty-three exact-English duplicate groups touch the range, covering 786
+target rows. Of 250 IDs, 192 have indexed asset associations across 127
+assets; 58 have no indexed asset. Asset associations do not establish
+per-key speakers or playback order. See
+[`54500`-`54749`](dialogue-context-default-54500-54749-revalidation-20261113.md).
+
+The preceding range, `54250`-`54499`, compared all 250 IDs across
+four languages, rechecked 54 recorded IDs, and added 196. It records 15
+current correction candidates, including three rechecked findings and 12
+new findings; one other existing candidate is already reflected in the
+active Korean text. One terminology case remains on hold. The ledger covers
+57,301 / 65,135 IDs (87.97%), leaving 7,834; 45,533 reviewed IDs have
+indexed asset links and 11,768 do not. Sequential coverage reaches `54499`;
+next is `54500`-`54749`. Fifty-six exact-English duplicate groups touch the
+range, covering 889 target rows; the only Korean wording difference is
+supported by a Japanese register difference. Six multiline rows contain 30
+embedded breaks in each language. Of 250 IDs, 139 have indexed asset
+associations, represented by 142 links across 82 assets; 57 have no indexed
+asset. Asset links do not establish per-key speakers or playback order. See
+[`54250`-`54499`](dialogue-context-default-54250-54499-revalidation-20261113.md).
+The regenerated catalogs, all 57,301 ledger fingerprints, nine related
+tests, and line-ending-aware diff checks passed. No translation CSV was
+modified.
+
+The preceding range, `54000`-`54249`, compared all 250 IDs across four
+languages, rechecked 47 recorded IDs, and added 203. It recorded nine
+current correction candidates, including three rechecked findings, and five
+new evidence-limited holds; the existing register hold at `54031` remains.
+The ledger then covered 57,105 / 65,135 IDs (87.66%), leaving 8,030; 45,394
+reviewed IDs had indexed asset links and 11,711 did not. Sequential coverage
+reached `54249`. Sixty exact-English duplicate groups touched the range,
+covering 1,359 target rows; the one Korean wording difference was supported
+by a Japanese wording difference. Six multiline rows contained 35/39/36/35
+embedded breaks across English/Japanese/Chinese/Korean. Of 250 IDs, 192 had
+indexed asset associations, represented by 196 links across 120 assets; 58
+had no indexed asset. Of the 203 new IDs, 145 were linked through 149 links
+across 79 assets. Asset links do not establish per-key speakers or playback
+order. See
+[`54000`-`54249`](dialogue-context-default-54000-54249-revalidation-20261113.md).
+
+The preceding range, `53750`-`53999`, compared all 250 IDs across four
+languages, rechecked 67 recorded IDs, and added 183. It records 17 current
+correction candidates, including 11 rechecked from existing ledger records,
+and retains two evidence-limited holds; ID `53858` also retains an earlier
+unresolved title-term hold. The ledger covered 56,902 / 65,135 IDs (87.36%),
+leaving 8,233; the regenerated catalog confirms 45,249 reviewed IDs had
+indexed asset links and 11,653 did not. Sequential coverage reached `53999`.
+Forty-eight exact-English duplicate groups touch the range, covering 49
+target rows; the sole Korean difference is supported by a Japanese register
+difference. Two multiline rows contain 12 embedded breaks per language. Of
+250 IDs, 198 have indexed asset associations, represented by 202 links
+across 129 assets; 52 have no indexed asset. Of the 183 new IDs, 132 are
+linked through 134 links across 75 assets. Asset links do not establish
+per-key speakers or playback order. See
+[`53750`-`53999`](dialogue-context-default-53750-53999-revalidation-20261113.md).
+
+The preceding range, `53500`-`53749`, compared all 250 current Korean rows
+across four languages, rechecked 64 existing records, and added 186. It
+recorded nine current correction candidates and five evidence-limited holds.
+The ledger then covered 56,719 / 65,135 IDs (87.08%), leaving 8,416; 45,118
+reviewed IDs had indexed asset links and 11,601 did not. Sequential coverage
+reached `53749`. Sixty-eight exact-English duplicate groups touched the
+range, covering 69 target rows; Korean wording matched within every group.
+Seven multiline rows contained 32 embedded breaks per language. Japanese ID
+`53555` contained Chinese text, recorded as a source anomaly. Of 250 IDs, 194
+had indexed asset associations, represented by 195 links across 125 assets;
+56 had no indexed asset. Of the 186 new IDs, 130 were linked across 74
+assets. Asset links do not establish per-key speakers or playback order.
+See
+[`53500`-`53749`](dialogue-context-default-53500-53749-revalidation-20261113.md).
+Index/catalog reproduction, all 56,719 ledger fingerprints, nine related
+tests, and `git diff --check` passed. No translation CSV was modified.
+
+The preceding range, `53250`-`53499`, compared all 250 IDs across four
+languages, rechecked 68 recorded IDs, and added 182. Two current correction
+candidates were rechecked from existing ledger records; 248 IDs had no
+current finding. The ledger then covered 56,533 / 65,135 IDs (86.79%),
+leaving 8,602; 44,987 reviewed IDs had indexed asset links and 11,546 did
+not. Sequential coverage reached `53499`. Sixty-four exact-English
+duplicate groups touched the range, covering 65 target rows; Korean wording
+matched within every group. Five multiline rows contained 16 embedded
+breaks per language. Japanese ID `53265` contains Chinese text, recorded as
+a source anomaly. Of 250 IDs, 197 had indexed asset associations,
+represented by 204 links across 129 assets; 53 had no indexed asset. Of the
+182 new IDs, 129 were linked across 72 assets. Asset links do not establish
+per-key speakers or playback order. See
+[`53250`-`53499`](dialogue-context-default-53250-53499-revalidation-20261113.md).
+Catalog/index reproduction, all ledger fingerprints, nine related tests,
+and line-ending-aware diff checks passed. No translation CSV was modified.
+
+The earlier range, `53000`-`53249`, compared all 250 IDs across
+four languages, rechecked 77 recorded IDs, and added 173. It has ten current
+correction candidates and two evidence-limited holds; 238 IDs have no
+current finding. The ledger covers 56,351 / 65,135 IDs (86.51%), leaving
+8,784; 44,858 reviewed IDs have indexed asset links and 11,493 do not.
+Sequential coverage reaches `53249`; next is `53250`-`53499`. Seventy-four
+exact-English duplicate groups touch the range, covering 77 target rows;
+Korean wording matches within every group. Three multiline rows contain 15
+embedded breaks per language. Runtime/display structure matches, with the
+source-specific `{1}`/`{2}` ordering difference at `53154` preserved. Of 250
+IDs, 209 have indexed asset associations, represented by 215 ID-asset links
+across 134 assets; 41 have no indexed asset. Of the 173 new IDs, 132 are
+linked across 76 assets. Asset links do not establish per-key speakers or
+playback order. See
+[`53000`-`53249`](dialogue-context-default-53000-53249-revalidation-20261113.md).
+Catalog/index reproduction, all ledger fingerprints, nine related tests,
+and line-ending-aware diff checks passed. No translation CSV was modified.
+
+**Append-only reconciliation:** The latest re-review also raised current
+findings for previously recorded IDs: candidates `53009`, `53121`, `53161`,
+and `53177`, and a hold at `53057`. Their old ledger rows were preserved, so
+the catalog retains their earlier statuses. The re-review report is the
+current assessment for these IDs; they do not add coverage. `53177` duplicates
+`53065` exactly across all four languages and Korean, so its Gallery proposal
+is the same terminology question, not a distinct text mismatch. See the
+reconciliation note in the
+[`53000`-`53249` report](dialogue-context-default-53000-53249-revalidation-20261113.md).
+
+The preceding completed range, `52750`-`52999`, compared all 250 IDs across
+four languages, rechecked 59 recorded IDs, and added 191. It had eight
+current correction candidates and five evidence-limited holds; 237 IDs had
+no current finding. The ledger then covered 56,178 / 65,135 IDs (86.25%),
+leaving 8,957; 44,726 reviewed IDs had indexed asset links and 11,452 did
+not. Sequential coverage reached `52999`. Fifty-nine exact-English
+duplicate groups touched that range, covering 59 target rows; Korean wording
+matched within every group. One multiline row contained one embedded break
+per language, and the display-marker structure matched after normalizing
+localized wrapper text. Of 250 IDs, 208 had indexed asset associations,
+represented by 211 ID-asset links across 128 assets; 42 had no indexed
+asset. Of the 191 new IDs, 149 were linked across 80 assets. Asset links do
+not establish per-key speakers or playback order. See
+[`52750`-`52999`](dialogue-context-default-52750-52999-revalidation-20261113.md).
+Catalog/index reproduction, all ledger fingerprints, nine related tests,
+and line-ending-aware diff checks passed. No translation CSV was modified.
+
+The preceding completed range, `52500`-`52749`, compared all 250 IDs across
+four languages, rechecked 69 recorded IDs, and added 181. It has 11 current
+correction candidates and eight evidence-limited holds; 231 IDs have no
+current finding. The ledger then covered 55,987 / 65,135 IDs (85.96%),
+leaving 9,148; 44,577 reviewed IDs had indexed asset links and 11,410 did
+not. Sequential coverage reached `52749`. Forty-four exact-English
+duplicate groups touched that range, covering 47 target rows; Korean wording
+matched within every group. Nine multiline rows contained 53 embedded
+breaks per language, with matching runtime/display token sequences. Of 250
+IDs, 184 had indexed asset associations, represented by 190 ID-asset links
+across 123 assets; 66 had no indexed asset. Of the 181 new IDs, 116 were
+linked across 66 assets. Asset links do not establish per-key speakers or
+playback order. See
+[`52500`-`52749`](dialogue-context-default-52500-52749-revalidation-20261113.md).
+Catalog/index reproduction, all ledger fingerprints, nine related tests,
+and line-ending-aware diff checks passed. No translation CSV was modified.
+
+The preceding range, `51750`-`51999`, compared all 250 IDs across four
+languages, rechecked 72 recorded IDs, and added 178. It had seven current
+correction candidates and 14 evidence-limited holds; 229 IDs had no current
+finding. The ledger then covered 55,438 / 65,135 IDs (85.11%), leaving 9,697;
+44,187 reviewed IDs had indexed asset links and 11,251 did not. Sequential
+coverage reached `51999`; the next range was `52000`-`52249`. Sixty-five
+exact-English duplicate groups touched the range, covering 65 target rows;
+Korean wording matched within every group. Five multiline rows contained 37
+embedded breaks per language. The Korean marker sequence at `51803` followed
+English; Japanese and Chinese differed, and no Korean marker correction was
+proposed. Of 250 IDs, 192 had indexed asset associations, represented by 197
+ID-asset links across 129 assets; 58 had no indexed asset. Of the 178 new
+IDs, 120 were linked. Asset links do not establish per-key speakers or
+playback order. See
+[`51750`-`51999`](dialogue-context-default-51750-51999-revalidation-20261113.md).
+All ledger fingerprints, catalog/index reproduction, nine related tests,
+and line-ending-aware diff checks passed. No translation CSV was modified.
+
+The preceding range, `51250`-`51499`, compared all 250 IDs across four
+languages, rechecked 54 recorded IDs, and added 196. It had 19 current
+correction candidates and three evidence-limited holds; 228 IDs had no
+current finding. The ledger then covered 55,090 / 65,135 IDs (84.59%),
+leaving 10,045; 43,943 reviewed IDs had indexed asset links and 11,147 did
+not. Sequential coverage reached `51499`; the next range was
+`51500`-`51749`. Fifty-five exact-English duplicate groups touched the
+range across the corpus, covering 57 target rows; Korean matched within
+every group. Eight multiline rows contained 54 embedded breaks per
+language, and runtime/display marker identities and order matched. Of 250
+IDs, 186 had indexed asset associations, represented by 188 ID-asset links
+across 123 assets; 64 had no indexed asset. Of the 196 new IDs, 132 were
+linked. Asset links do not establish per-key speakers or playback order. See
+[`51250`-`51499`](dialogue-context-default-51250-51499-revalidation-20261113.md).
+All ledger fingerprints, catalog/index reproduction, nine related tests,
+and line-ending-aware diff checks passed. No translation CSV was modified.
+
+The preceding range, `51000`-`51249`, compared all 250 IDs across four
+languages, rechecked 61 recorded IDs, and added 189. It had 17 current
+correction candidates and six evidence-limited holds; 227 IDs had no
+current finding. The ledger then covered 54,894 / 65,135 IDs (84.28%),
+leaving 10,241; 43,811 reviewed IDs had indexed asset links and 11,083 did
+not. Sequential coverage reached `51249`. Fifty-one exact-English duplicate
+groups touched the range, covering 53 target rows; the sole Korean wording
+difference was supported by a Japanese register difference. Three multiline
+rows contained ten embedded breaks per language, and runtime/display marker
+identities and order matched. Of 250 IDs, 211 had indexed asset associations,
+represented by 214 ID-asset links across 133 assets; 39 had no indexed
+asset. Of the 189 new IDs, 150 were linked. Asset links do not establish
+per-key speakers or playback order. See
+[`51000`-`51249`](dialogue-context-default-51000-51249-revalidation-20261113.md).
+All ledger fingerprints, catalog/index reproduction, nine related tests,
+and line-ending-aware diff checks passed. No translation CSV was modified.
+
+The preceding completed range, `50750`-`50999`, compared all 250 IDs across
+four languages, rechecked 60 recorded IDs, and added 190. It had 14 current
+correction candidates and four evidence-limited holds; 232 IDs had no
+current finding. The ledger then covered 54,705 / 65,135 IDs (83.99%),
+leaving 10,430; 43,661 reviewed IDs had indexed asset links and 11,044 did
+not. Sequential coverage reached `50999`. Fifty-nine exact-English
+duplicate groups touched the range, covering 59 target rows; Korean matched
+within every group. Seven multiline rows contained 26 embedded breaks per
+language, and runtime/display marker identities and order matched. Of 250
+IDs, 194 had indexed asset associations, represented by 196 ID-asset links
+across 120 assets; 56 had no indexed asset. Of the 190 new IDs, 134 were
+linked. Asset links do not establish per-key speakers or playback order.
+See
+[`50750`-`50999`](dialogue-context-default-50750-50999-revalidation-20261113.md).
+All 54,705 ledger fingerprints, catalog/index reproduction, nine related
+tests, and line-ending-aware diff checks passed. No translation CSV was
+modified.
+
+The preceding range, `50500`-`50749`, compared all 250 IDs across four
+languages, rechecked 64 recorded IDs, and added 186. It had 11 current
+correction candidates and eight evidence-limited holds; 231 IDs had no
+current finding. The ledger then covered 54,515 / 65,135 IDs (83.70%),
+leaving 10,620; 43,527 reviewed IDs had indexed asset links and 10,988 did
+not. Sequential coverage reached `50749`. Fifty-two exact-English duplicate
+groups touched the range, covering 54 target rows; Korean matched within
+every group. Three multiline rows contained seven embedded breaks per
+language, and runtime/display marker identities and order matched. Of 250
+IDs, 200 had indexed asset associations, represented by 203 ID-asset links;
+50 had no indexed asset. Of the 186 new IDs, 136 were linked. Asset links do
+not establish per-key speakers or playback order. See
+[`50500`-`50749`](dialogue-context-default-50500-50749-revalidation-20261113.md).
+All 54,515 ledger fingerprints, catalog/index reproduction, nine related
+tests, and line-ending-aware diff checks passed. No translation CSV was
+modified.
+
+The preceding completed range, `50250`-`50499`, compared all 250 IDs across
+four languages, rechecked 82 recorded IDs, and added 168. It had 13 current
+correction candidates and 13 evidence-limited holds, with four IDs in both
+groups; 228 IDs had no current finding. The ledger then covered 54,329 /
+65,135 IDs (83.41%), leaving 10,806; 43,391 had indexed asset links and
+10,938 did not. Sequential coverage reached `50499`. Fifty-seven
+exact-English duplicate groups touched the range across the corpus, with
+matching Korean within each; the only repeat wholly in range (`50261`/
+`50453`) matched. Nine multiline rows contained 42 English, 42 Japanese, 41
+Chinese, and 42 Korean breaks; the difference was isolated to malformed
+English formatting at `50448`, while the 12-break layout at `50466` matched
+across all locales. Of 250 IDs, 198 had indexed asset associations,
+represented by 206 ID-asset links across 132 assets; 52 had no indexed
+asset. Of the 168 newly recorded IDs, 116 were linked. Asset links do not
+establish per-key speakers or playback order. See
+[`50250`-`50499`](dialogue-context-default-50250-50499-revalidation-20261113.md).
+All 54,329 ledger fingerprints, catalog/index reproduction, nine related
+tests, and line-ending-aware diff checks passed. No translation CSV was
+modified.
+
+The preceding completed range, `50000`-`50249`, compared all 250 IDs across
+four languages, rechecked 69 recorded IDs, and added 181. It had 18 current
+correction candidates; 232 IDs had no current finding. The ledger then
+covered 54,161 / 65,135 IDs (83.15%), leaving 10,974; 43,275 had indexed
+asset links and 10,886 did not. Sequential coverage reached `50249`. Three
+exact-English duplicate pairs (`50027`/`50145`, `50100`/`50137`, and
+`50205`/`50235`) matched in Korean. Five multiline rows contained 20 breaks
+in English, Chinese, and Korean and 24 in Japanese, due to `50178`. Of 250
+IDs, 204 had indexed asset associations represented by 211 ID-asset links
+across 132 assets; 135 of the 181 new IDs were linked. Asset links do not
+establish per-key speakers or playback order. See
+[`50000`-`50249`](dialogue-context-default-50000-50249-revalidation-20261113.md).
+All 54,161 ledger fingerprints, catalog/index reproduction, nine related
+tests, and line-ending-aware diff checks passed. No translation CSV was
+modified.
+
+The preceding completed range, `49500`-`49749`, compared all 250 IDs across
+four languages, rechecked 77 recorded IDs, and added 173. It had 12 current
+correction candidates and 13 evidence-limited holds; 225 IDs had no current
+finding. The ledger then covered 53,797 / 65,135 IDs (82.59%), leaving
+11,338; 43,018 had indexed asset links and 10,779 did not. Sequential
+coverage reached `49749`. The exact-English duplicate group
+(`49639`/`49724`) matched in Korean. Two multiline rows had six breaks per
+language with matching counts; Korean embedded separators remained CRLF. ID
+`49608` had five wrappers; Korean wrapper order matched English while
+Japanese/Chinese differed. Of 250 IDs, 194 had indexed asset associations
+represented by 197 ID-asset links across 138 assets. See
+[`49500`-`49749`](dialogue-context-default-49500-49749-revalidation-20261113.md).
+No translation CSV was modified.
+
+The preceding completed range, `49250`-`49499`, compared all 250 IDs across
+four languages, rechecked 59 recorded IDs, and added 191. It had 11 current
+correction candidates and four evidence-limited holds; 235 IDs had no
+current finding. The ledger then covered 53,624 / 65,135 IDs (82.33%),
+leaving 11,511; 42,901 had indexed asset links and 10,723 did not. Sequential
+coverage reached `49499`. One meaningful exact-English duplicate group
+matched in Korean. Two multiline rows had nine breaks per language with
+matching counts; marker identities and order matched. Of 250 IDs, 188 had
+indexed asset associations represented by 191 ID-asset links across 128
+assets. Asset links do not establish per-key speakers or playback order. See
+[`49250`-`49499`](dialogue-context-default-49250-49499-revalidation-20261113.md).
+No translation CSV was modified.
+
+The preceding completed range, `49000`-`49249`, compared all 250 IDs across
+four languages, rechecked 63 recorded IDs, and added 187. It had nine
+current correction candidates and three evidence-limited holds; 238 IDs
+had no current finding. The ledger then covered 53,433 / 65,135 IDs
+(82.03%), leaving 11,702; 42,772 had indexed asset links and 10,661 did not.
+Sequential coverage reached `49249`. Two exact-English duplicate groups
+matched in Korean. Four multiline rows had 36 breaks per language with
+matching counts; marker identities and order matched. Of 250 IDs, 196 had
+indexed asset associations represented by 202 ID-asset links across 132
+assets. Asset links do not establish per-key speakers or playback order. See
+[`49000`-`49249`](dialogue-context-default-49000-49249-revalidation-20261113.md).
+Catalog/index reproduction, all 53,433 ledger fingerprints, nine related
+tests, and line-ending-aware diff checks passed. No translation CSV was
+modified.
+
+The preceding completed range, `48750`-`48999`, compared all 250 IDs across
+four languages, rechecked 65 recorded IDs, and added 185. It had 17 current
+correction candidates and eight evidence-limited holds; 225 IDs had no
+current finding. The ledger then covered 53,246 / 65,135 IDs (81.75%),
+leaving 11,889; 42,640 had indexed asset links and 10,606 did not. Sequential
+coverage reached `48999`. Five exact-English duplicate groups matched in
+Korean. Two multiline rows had 13 breaks per language with matching counts;
+marker identities and order matched. Of 250 IDs, 204 had indexed asset
+associations represented by 208 ID-asset links across 129 assets. Asset
+links do not establish per-key speakers or playback order. See
+[`48750`-`48999`](dialogue-context-default-48750-48999-revalidation-20261113.md).
+Catalog/index reproduction, all 53,246 ledger fingerprints, nine related
+tests, and line-ending-aware diff checks passed. No translation CSV was
+modified.
+
+The preceding completed range, `48500`-`48749`, compared all 250 IDs across
+four languages, rechecked 77 recorded IDs, and added 173. It had ten current
+correction candidates and seven evidence-limited holds; 233 IDs had no
+current finding. The ledger then covered 53,061 / 65,135 IDs (81.46%),
+leaving 12,074; 42,501 had indexed asset links and 10,560 did not. Sequential
+coverage reached `48749`. Two exact-English duplicate groups matched in
+Korean. No rows contained multiline text, and checked runtime/display marker
+identities and order matched. Of 250 IDs, 213 had indexed asset associations,
+represented by 219 ID-asset links across 135 assets. Asset links do not
+establish per-key speakers or playback order. See
+[`48500`-`48749`](dialogue-context-default-48500-48749-revalidation-20261113.md).
+Catalog/index reproduction, ledger fingerprints, nine related tests, and
+line-ending-aware diff checks passed. No translation CSV was modified.
+
+The preceding completed range, `48250`-`48499`, compared all 250 IDs across four
+languages, rechecked 81 recorded IDs, and added 169. It has 20 current
+correction candidates and nine evidence-limited holds; `48309` has both, and
+222 IDs have no current finding. The ledger covers 52,888 / 65,135 IDs
+(81.20%), leaving 12,247; 42,364 have indexed asset links and 10,524 do not.
+Sequential coverage reaches `48499`; next is `48500`-`48749`. Three
+exact-English duplicate groups match in Korean. Seven multiline rows contain
+55 breaks per language with matching four-language counts, and all checked
+runtime/layout marker identities and order match. Of 250 IDs, 196 have
+indexed asset associations represented by 202 ID-asset links across 130
+assets. Asset links do not establish per-key speakers or playback order. See
+[`48250`-`48499`](dialogue-context-default-48250-48499-revalidation-20261113.md).
+Catalog/index reproduction, all 52,888 ledger fingerprints, nine related
+tests, and line-ending-aware diff checks remain to be run. No translation
+CSV was modified.
+
+The preceding completed range, `48000`-`48249`, compared all 250 IDs across
+four languages, rechecked 59 recorded IDs, and added 191. It had 14 current
+correction candidates and six evidence-limited holds; `48053` had both, and
+231 IDs had no current finding. The ledger then covered 52,719 / 65,135 IDs
+(80.94%), leaving 12,416; 42,249 had indexed asset links and 10,470 did not.
+Sequential coverage reached `48249`. One exact-English duplicate group
+matched in Korean. Nine multiline rows contained 23 English/Korean breaks
+and 22 Japanese/Chinese breaks because of `48223`. Marker review found no
+Korean order issue. Of 250 IDs, 193 had indexed asset associations
+represented by 198 ID-asset links across 125 assets. Asset links do not
+establish per-key speakers or playback order. See
+[`48000`-`48249`](dialogue-context-default-48000-48249-revalidation-20261113.md).
+No translation CSV was modified.
+
+The preceding completed range, `47500`-`47749`, compared all 250 IDs across
+four languages, rechecked 56 recorded IDs, and added 194. It had 13 current
+correction candidates and two evidence-limited holds; 235 IDs had no current
+finding. The ledger then covered 52,346 / 65,135 IDs (80.37%), leaving
+12,789; 41,981 had indexed asset links and 10,365 did not. Sequential
+coverage reached `47749`. Three exact-English duplicate groups matched in
+Korean. Six multiline rows contained 44 breaks with matching four-language
+layouts; marker identities and order also matched. Of 250 IDs, 194 had
+indexed asset associations represented by 200 ID-asset links across 118
+assets. Asset links do not establish per-key speakers or playback order. See
+[`47500`-`47749`](dialogue-context-default-47500-47749-revalidation-20261113.md).
+No translation CSV was modified.
+
+The latest completed range, `47250`-`47499`, compared all 250 IDs across four
+languages, rechecked 55 recorded IDs, and added 195. It has 14 current
+correction candidates and three evidence-limited holds; 233 IDs have no
+current finding. The ledger covers 52,152 / 65,135 IDs (80.07%), leaving
+12,983; 41,843 have indexed asset links and 10,309 do not. Sequential coverage
+reaches `47499`; next is `47500`-`47749`. Three exact-English duplicate groups
+touch the range and all match in Korean. Three multiline rows contain 11
+breaks with matching four-language layouts; `47277` has a Korean marker-order
+candidate. Of 250 IDs, 195 have indexed asset associations represented by 202
+ID-asset links across 124 assets; seven IDs link to multiple assets. Asset
+links do not establish per-key speakers or playback order. See
+[`47250`-`47499`](dialogue-context-default-47250-47499-revalidation-20261112.md).
+Catalog/index reproduction, all 52,152 ledger fingerprints, nine related
+tests, and line-ending-aware diff checks passed. No translation CSV was
+modified.
+
+The preceding completed range, `47000`-`47249`, compared all 250 IDs across
+four languages, rechecked 66 recorded IDs, and added 184. It had ten current
+correction candidates and four evidence-limited holds; the other 236 IDs had
+no current finding. The ledger then covered 51,957 / 65,135 IDs (79.77%),
+leaving 13,178; 41,703 had indexed asset links and 10,254 did not. Sequential
+coverage reached `47249`. Sixty exact-English duplicate groups touched the
+range, covering 1,515 rows; one Korean term difference occurred in the
+`14591`/`47146` group. Six multiline rows contained 15 Korean breaks;
+`47165` had two more breaks than the source locales. Of 250 IDs, 201 had
+indexed asset associations, including 136 newly recorded IDs. The index had
+203 ID-asset links across 132 assets. See
+[`47000`-`47249`](dialogue-context-default-47000-47249-revalidation-20261112.md).
+No translation CSV was modified.
+
+The preceding completed range, `46750`-`46999`, compared all 250 IDs across
+four languages, rechecked 73 recorded IDs, and added 177. It had six current
+correction candidates and 11 evidence-limited holds; `46789` had both
+dimensions, while 234 IDs had no current finding. The ledger then covered
+51,773 / 65,135 IDs (79.49%), leaving 13,362; 41,568 had indexed asset links
+and 10,205 did not. Sequential coverage reached `46999`. Fifty-nine
+exact-English duplicate groups touched the range, covering 1,183 rows; two
+Korean differences followed Japanese register distinctions. Six multiline
+rows contained 44 breaks with matching four-language counts and preserved
+Korean CRLF separators. Of 250 IDs, 190 had indexed asset associations,
+including 117 newly recorded IDs. See
+[`46750`-`46999`](dialogue-context-default-46750-46999-revalidation-20261112.md).
+No translation CSV was modified.
+
+The preceding completed range, `46500`-`46749`, compared all 250 IDs across
+four languages, rechecked 62 recorded IDs, and added 188. It had nine
+supported correction candidates and seven evidence-limited holds; `46732`
+had a separate name-form hold, while 234 IDs had no current finding. The
+ledger then covered 51,596 / 65,135 IDs (79.22%), leaving 13,539; 41,451 had
+indexed asset links and 10,145 did not. Sequential coverage reached `46749`.
+Sixty exact-English duplicate groups touched that range, covering 1,333
+rows, with matching Korean within every group. Seven multiline rows contained
+24 Korean breaks with matching four-language counts and preserved CRLF
+separators. Of 250 IDs, 200 had indexed asset associations, including 138
+newly recorded IDs. See
+[`46500`-`46749`](dialogue-context-default-46500-46749-revalidation-20261112.md).
+No translation CSV was modified.
+
+The preceding completed range, `46250`-`46499`, compared all 250 IDs across
+four languages, rechecked 60 recorded IDs, and added 190. It had six
+supported correction candidates and three evidence-limited holds; `46314`
+had both dimensions, while 242 IDs had no current finding. The ledger then
+covered 51,408 / 65,135 IDs (78.93%), leaving 13,727; 41,313 had indexed
+asset links and 10,095 did not. Sequential coverage reached `46499`. Sixty
+exact-English duplicate groups covered 1,092 rows, with matching Korean in
+every group. Four multiline rows contained 13 Korean breaks with matching
+four-language counts and preserved CRLF separators. Of 250 IDs, 205 had
+indexed asset associations, including 145 newly recorded IDs. See
+[`46250`-`46499`](dialogue-context-default-46250-46499-revalidation-20261112.md).
+No translation CSV was modified in that batch.
+
+The preceding completed range, `46000`-`46249`, compared all 250 IDs across
+four languages, rechecked 78 recorded IDs, and added 172. It had 20 current
+correction candidates and two evidence-limited holds; `46241` had both a
+formatting candidate and a separate meaning hold, while 229 IDs had no
+current finding. The ledger then covered 51,218 / 65,135 IDs (78.63%), leaving
+13,917; 41,168 had indexed asset links and 10,050 did not. Sequential coverage
+reached `46249`. Sixty-three exact-English duplicate groups covered 1,188
+rows, with matching Korean within every group. Two multiline rows contained
+14 Korean breaks with matching four-language counts and preserved CRLF
+separators. Of 250 IDs, 194 had indexed asset associations, including 116
+newly recorded IDs. See
+[`46000`-`46249`](dialogue-context-default-46000-46249-revalidation-20261112.md).
+No translation CSV was modified.
+
+The preceding completed range, `45750`-`45999`, compared all 250 IDs across
+four languages, rechecked 54 recorded IDs, and added 196. It had 20 current
+correction candidates and five evidence-limited holds; 225 IDs had no current
+finding. The ledger then covered 51,046 / 65,135 IDs (78.37%), leaving 14,089;
+41,051 had indexed asset links and 9,995 did not. Sequential coverage reached
+`45999`. Fifty-eight exact-English duplicate groups touched the range,
+covering 935 rows, with matching Korean within every group. Three multiline
+rows contained seven Korean breaks with matching four-language counts and
+preserved CRLF separators. Of 250 IDs, 189 had indexed asset associations,
+including 135 newly recorded IDs. See
+[`45750`-`45999`](dialogue-context-default-45750-45999-revalidation-20261112.md).
+No translation CSV was modified.
+
+The preceding completed range, `45500`-`45749`, compared all 250 IDs across
+four languages, rechecked 63 recorded IDs, and added 187. It had eight
+current correction candidates and six evidence-limited holds; 236 IDs had no
+current finding. The ledger then covered 50,850 / 65,135 IDs (78.07%),
+leaving 14,285; 40,916 had indexed asset links and 9,934 did not. Sequential
+coverage reached `45749`. Sixty-seven exact-English duplicate groups
+touched the range and covered 1,026 rows, with matching Korean within every
+group. Seven multiline rows contained 27 Korean breaks with matching
+four-language counts and preserved CRLF separators. Of 250 IDs, 193 had
+indexed asset associations, including 131 newly recorded IDs. See
+[`45500`-`45749`](dialogue-context-default-45500-45749-revalidation-20261112.md).
+No translation CSV was modified.
+
+The earlier completed range, `45250`-`45499`, compared all 250 IDs across
+four languages, rechecked 77 recorded IDs, and added 173. It has 12 current
+correction candidates and 13 evidence-limited holds; 225 IDs have no current
+finding. The ledger then covered 50,663 / 65,135 IDs (77.78%), leaving 14,472;
+40,785 had indexed asset links and 9,878 did not. Sequential coverage
+reached `45499`. Fifty-six exact-English duplicate groups covered 1,027
+corpus rows, with matching Korean within every group. Five multiline rows
+contained 33 Korean breaks with matching four-language counts and preserved
+CRLF separators. Of 250 IDs, 193 had indexed asset associations, including
+116 newly recorded IDs; links do not establish per-key speakers or playback
+order. All ledger fingerprints, catalog reproduction, nine related tests,
+and the line-ending-aware diff check passed. See
+[`45250`-`45499`](dialogue-context-default-45250-45499-revalidation-20261112.md).
+No translation CSV was modified.
+
+The earlier completed range, `44750`-`44999`, compared all 250 IDs across
+four languages, rechecked 49 recorded IDs, and added 201. It had 40 current
+correction-candidate IDs and five evidence-limited holds; `44964` had both
+dimensions, while 206 IDs had no current finding. The ledger then covered
+50,312 / 65,135 IDs (77.24%), leaving 14,823; 40,549 had indexed asset links
+and 9,763 did not. Sixty-two exact-English duplicate groups covered 874
+corpus rows; Korean matched within every group. Eight multiline rows
+contained 77 Korean breaks with matching English and Chinese layouts; the
+Japanese break count differed once. Of 250 IDs, 195 had indexed asset
+associations, including 146 newly recorded IDs; links do not establish
+per-key speaker or playback order. See
+[`44750`-`44999`](dialogue-context-default-44750-44999-revalidation-20261112.md).
+All 50,312 ledger fingerprints, index/catalog reproduction, nine related
+tests, and the line-ending-aware diff check passed. No translation CSV was
+modified.
+
+The preceding completed range, `44000`-`44249`, compared all 250 IDs across
+four languages, rechecking 66 recorded IDs and adding 184. It has 28 current
+correction candidates and one evidence-limited hold; 221 IDs have no
+supported finding. The earlier hold at `44238` was cleared after confirming
+that Japanese differs from duplicate-English ID `27910` and Korean follows
+that distinction; the older ledger row remains unchanged as historical
+evidence. The ledger then covered 49,758 / 65,135 IDs (76.39%), leaving
+15,377; 40,145 had indexed asset links and 9,613 did not. Sequential coverage
+reached `44249`. Sixty exact-English duplicate groups covered 1,207 corpus
+rows; the eight-row `I'll be back tomorrow.` group follows the polite/plain
+split in Japanese, so the Korean variants are retained. Five multiline rows
+contain 15 Korean breaks with matching four-language counts; embedded Korean
+separators are CRLF and were preserved. Of 250 IDs, 189 had indexed asset
+associations, including 123 newly recorded IDs; links do not establish
+per-key speaker or playback order. See
+[`44000`-`44249`](dialogue-context-default-44000-44249-revalidation-20261112.md).
+Catalog reproducibility, all 49,758 ledger fingerprints, nine related index
+tests, and the line-ending-aware diff check passed. No translation CSV was
+modified in this batch.
+
+The preceding range, `43750`-`43999`, compared all 250 IDs across four
+languages, rechecking 70 recorded IDs and adding 180. It has 19 correction
+candidates and five evidence-limited holds; 226 IDs have no supported
+finding. Its former `43891` register hold was cleared after checking the
+Japanese variants against all eight Korean rows; see the correction in that
+range report. The ledger then covered 49,574 / 65,135 IDs (76.11%), leaving
+15,561. Sequential coverage reached `43999`. See
+[`43750`-`43999`](dialogue-context-default-43750-43999-revalidation-20261112.md).
+
+The preceding completed range, `43500`-`43749`, compared all 250 IDs across
+four languages, rechecking 72 recorded IDs and adding 178. It had 28 current
+correction candidates and 11 evidence-limited holds; 211 IDs had no
+supported finding. The ledger then covered 49,394 / 65,135 IDs (75.83%),
+leaving 15,741; 39,895 had indexed asset links and 9,499 did not. Sequential
+coverage reached `43749`. Forty-eight exact-English duplicate groups (1,066
+corpus rows) touched the range, with matching Korean in every group. Two
+multiline rows contained eight Korean breaks, and all four languages matched
+their per-row break counts. Of 250 IDs, 197 had indexed asset associations,
+including 125 newly recorded IDs. See
+[`43500`-`43749`](dialogue-context-default-43500-43749-revalidation-20261112.md).
+Translation CSVs remained unchanged.
+
+The preceding completed range, `43250`-`43499`, compared all 250 IDs across
+four languages, rechecking 59 recorded IDs and adding 191. It had 19 current
+correction candidates and three evidence-limited holds; 228 IDs had no
+supported finding. The ledger then covered 49,216 / 65,135 IDs (75.56%),
+leaving 15,919; 39,770 had indexed asset links and 9,446 did not. Fifty-one
+exact-English duplicate groups (490 corpus rows) touched the range, with
+matching Korean in every group. Seven multiline rows contained 18 Korean
+breaks, and all four languages matched their per-row counts. Of 250 IDs, 198
+had indexed asset associations, including 139 newly recorded IDs. See
+[`43250`-`43499`](dialogue-context-default-43250-43499-revalidation-20261112.md).
+Translation CSVs remained unchanged.
+
+The preceding completed range, `43000`-`43249`, compared all 250 IDs across
+four languages, rechecking 64 recorded IDs and adding 186. It has 28 current
+correction candidates and ten evidence-limited holds; `43236` has both, and
+213 IDs have no supported finding. The ledger then covered 49,025 / 65,135
+IDs (75.27%), leaving 16,110; 39,631 had indexed asset links and 9,394 did
+not. Sequential coverage reached `43249`. See
+[`43000`-`43249`](dialogue-context-default-43000-43249-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding completed range, `42500`-`42749`, compared all 250 IDs across
+four languages, rechecking 66 recorded IDs and adding 184. It had 35 current
+correction candidates and seven evidence-limited holds; `42738` had both
+dispositions, while 209 IDs had no supported finding. The ledger then covered
+48,649 / 65,135 IDs (74.69%), leaving 16,486; 39,384 had indexed asset links
+and 9,265 did not. Fifty-six exact-English duplicate groups (1,475 corpus
+rows) touched the range. Eight multiline rows contained 64 embedded Korean
+breaks, with matching four-language break counts and runtime/control-token
+signatures. Of 250 IDs, 192 had indexed asset associations. See
+[`42500`-`42749`](dialogue-context-default-42500-42749-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding `42250`-`42499` range rechecked 51 recorded IDs and added 199,
+with 26 correction candidates and six evidence-limited holds; `42447` had
+both dispositions, and 219 IDs had no supported finding. The ledger then
+covered 48,465 / 65,135 IDs (74.40%). See
+[`42250`-`42499`](dialogue-context-default-42250-42499-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding completed range, `42000`-`42249`, compared all 250 IDs across
+four languages, rechecking 66 recorded IDs and adding 184. It had 27 current
+correction candidates and nine evidence-limited holds; `42176` had both
+dispositions, while 215 IDs had no supported finding. The ledger then covered
+48,266 / 65,135 IDs (74.10%), leaving 16,869; 39,171 had indexed asset links
+and 9,095 did not. Sequential coverage reached `42249`. Sixty-one
+exact-English duplicate groups (1,010 corpus rows) touched the range, with
+matching Korean in every group. Nine multiline rows had 46 embedded Korean
+breaks; eight matched the four-language counts, while `42198` had one extra
+Korean break. Of the 250 IDs, 198 had indexed asset associations. See
+[`42000`-`42249`](dialogue-context-default-42000-42249-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding completed range, `41750`-`41999`, compared all 250 IDs across
+four languages, rechecking 63 recorded IDs and adding 187. It had 17 current
+correction candidates and 16 evidence-limited holds; `41798` and `41999`
+had both dispositions, while 219 IDs had no supported finding. The ledger
+then covered 48,082 / 65,135 IDs (73.82%), leaving 17,053; 39,039 had indexed
+asset links and 9,043 did not. Sequential coverage reached `41999`.
+Fifty-eight exact-English duplicate groups (1,397 corpus rows) touched the range,
+with matching Korean in every group. Four multiline rows had matching
+four-language break counts (10 embedded Korean breaks). Of 250 IDs, 199 had
+indexed asset associations. See
+[`41750`-`41999`](dialogue-context-default-41750-41999-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding completed range, `41500`-`41749`, compared all 250 IDs across
+four languages, rechecking 67 recorded IDs and adding 183. It has 11
+correction candidates and one evidence-limited hold; 238 IDs have no
+supported finding. The ledger then covered 47,895 / 65,135 IDs (73.53%),
+leaving 17,240; 38,903 had indexed asset links and 8,992 did not. Sequential
+coverage reached `41749`. Sixty-seven exact-English duplicate groups (1,051
+corpus rows) touched the range, with matching Korean in every group. Six
+multiline rows had matching four-language break counts (20 embedded Korean
+breaks). Of the 250 IDs, 201 had indexed asset associations, which do not
+establish per-key speaker or playback order. See
+[`41500`-`41749`](dialogue-context-default-41500-41749-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding completed range, `41250`-`41499`, compared all 250 IDs across
+four languages, rechecking 74 recorded IDs and adding 176. It had 21
+correction candidates and six evidence-limited holds; `41271` had both
+dimensions, while 224 IDs had no supported finding. The ledger then covered
+47,712 / 65,135 IDs (73.25%), leaving 17,423; 38,769 had indexed asset links
+and 8,943 did not. Fifty-one exact-English duplicate groups (956 corpus rows)
+touched the range; Korean differed only at `30574`, `33784`, and `41405`,
+where Japanese greetings supported the distinct wording. Seven multiline
+rows had matching four-language break counts (21 embedded Korean breaks).
+Of the 250 IDs, 210 had indexed asset associations. See
+[`41250`-`41499`](dialogue-context-default-41250-41499-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding completed range, `41000`-`41249`, compared all 250 IDs across
+four languages, rechecking 59 recorded IDs and adding 191. It has 27
+correction candidates and six evidence-limited holds; `41178` has both
+dimensions, while 217 IDs have no supported finding. The ledger then covered
+47,536 / 65,135 IDs (72.98%), leaving 17,599; 38,633 had indexed asset links
+and 8,903 did not. Sequential coverage reached `41249`. Fifty-nine
+exact-English duplicate groups (1,182 corpus rows) touched the range, and
+Korean matched within every group. Five multiline rows had matching
+four-language break counts (17 embedded Korean breaks). All 250 IDs had
+indexed asset associations. See
+[`41000`-`41249`](dialogue-context-default-41000-41249-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding completed range, `40750`-`40999`, compared all 250 IDs across
+four languages, rechecking 67 recorded IDs and adding 183. It had 15
+correction candidates and 21 evidence-limited holds; 214 IDs had no
+supported finding. The ledger then covered 47,345 / 65,135 IDs (72.68%),
+leaving 17,790; 38,442 had indexed asset links and 8,903 did not. Sequential
+coverage reached `40999`. Fifty-four exact-English duplicate groups (1,435
+corpus rows) touched the range; one Korean difference was supported by
+Japanese distinguishing accepting a request from completing it. Three
+multiline entries had matching four-language break counts, totaling eight
+embedded Korean CRLF breaks. At `40814`, Korean followed the English/Japanese
+control order while Chinese placed its localized dodge label later. See
+[`40750`-`40999`](dialogue-context-default-40750-40999-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding completed range, `40500`-`40749`, compared all 250 IDs across
+four languages, rechecking 67 recorded IDs and adding 183. It had 31
+correction candidates and five evidence-limited holds; 214 IDs had no
+finding. The ledger then covered 47,162 / 65,135 IDs (72.41%), leaving 17,973;
+38,303 had indexed asset links and 8,859 did not. Sequential coverage reached
+`40749`. Fifty-seven exact-English duplicate groups (1,646 corpus rows)
+matched in Korean. Five multiline entries had matching four-language break
+counts, totaling 16 embedded Korean CRLF breaks. The Japanese placeholder
+order at `40544` differed from English, Chinese, and Korean; localized
+display-wrapper payloads at `40546` remained in place. See
+[`40500`-`40749`](dialogue-context-default-40500-40749-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding completed range, `40250`-`40499`, compared all 250 IDs across
+four languages, rechecking 75 recorded IDs and adding 175. It had 25
+correction candidates and four evidence-limited holds; `40395` and `40473`
+each had both dimensions, and 223 IDs had no finding. The ledger then covered
+46,979 / 65,135 IDs (72.13%), leaving 18,156; 38,166 had indexed asset links
+and 8,813 did not. Sequential coverage reached `40499`. Four exact-English
+duplicate groups (eight range rows) matched in Korean. All six multiline
+entries had matching break counts. Korean, English, and Japanese preserved
+the same parameter order at `40303`; Chinese differed. See
+[`40250`-`40499`](dialogue-context-default-40250-40499-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding completed range, `40000`-`40249`, compared all 250 IDs across
+four languages, rechecking 69 recorded IDs and adding 181. It had 19
+correction candidates and five evidence-limited holds, with one ID carrying
+both dimensions; 227 IDs had no new finding. The ledger then covered 46,804 /
+65,135 IDs (71.86%), leaving 18,331; 38,038 had indexed asset links and
+8,766 did not. Sequential coverage reached `40249`. Fifty-seven
+exact-English duplicate groups (1,133 corpus rows) touched the range; the
+only Korean difference followed a Japanese distinction between a mine and a
+landmine. All line-break counts matched; token order at `40191` was
+preserved. See
+[`40000`-`40249`](dialogue-context-default-40000-40249-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding range, `39500`-`39749`, compared all 250 IDs across four
+languages, rechecking 73 recorded IDs and adding 177. It had 26 overall
+candidates, 26 evidence-limited holds, and 202 IDs with no finding. The ledger
+then covered 46,430 / 65,135 IDs (71.28%), leaving 18,705; 37,777 had indexed
+asset links and 8,653 did not. Sequential coverage reached `39749`. Sixty
+exact-English duplicate groups (1,287 corpus rows) touched the range, and
+Korean matched within every group. All line-break counts and runtime-token/
+markup signatures matched. See
+[`39500`-`39749`](dialogue-context-default-39500-39749-revalidation-20261112.md).
+The catalog, fingerprint, test, and diff checks passed. Translation CSVs
+remain unchanged.
+
+An earlier completed range, `39250`-`39499`, compared all 250 IDs across four
+languages, rechecking 72 recorded IDs and adding 178. It had 17 overall
+candidates, 16 overall uncertain IDs, and 217 not-issue IDs; `39465` also had
+a separate hold dimension. The ledger then covered 46,253 / 65,135 IDs
+(71.01%), leaving 18,882; 37,654 had indexed asset links and 8,599 did not.
+Sequential coverage reached `39499`. See
+[`39250`-`39499`](dialogue-context-default-39250-39499-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding range, `39000`-`39249`, compared all 250 IDs across four
+languages, rechecking 56 recorded IDs and adding 194. It had 23 overall
+candidates and five uncertain IDs. The ledger then covered 46,075 / 65,135
+IDs (70.74%), leaving 19,060; 37,533 had indexed asset links and 8,542 did
+not. Sequential coverage reached `39249`. Sixty-one duplicate-English groups
+touched the range; the sole Korean variation was supported by a Japanese
+register difference. Two multiline entries had matching line-break counts
+and runtime-token/markup structure matched. See
+[`39000`-`39249`](dialogue-context-default-39000-39249-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding range, `38750`-`38999`, compared all 250 IDs across four
+languages, rechecking 62 recorded IDs and adding 188. It had 27 overall
+candidates and 11 overall uncertain IDs; `38799` also had a separate meaning
+hold while its overall status remained candidate. The ledger then covered
+45,881 / 65,135 IDs (70.44%), leaving 19,254; 37,392 had indexed asset links
+and 8,489 did not. See
+[`38750`-`38999`](dialogue-context-default-38750-38999-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding range, `38500`-`38749`, compared all 250 IDs across four
+languages, rechecking 69 recorded IDs and adding 181. It records 21 candidate
+and two uncertain statuses. The ledger then covered 45,693 / 65,135 IDs
+(70.15%), leaving 19,442; 37,273 had indexed asset links and 8,420 did not.
+Sequential coverage reached `38749`. Of 56 duplicate-English groups touching
+the range, one varied in Korean with a corresponding Japanese difference.
+Five multiline entries had matching line-break counts in all four languages.
+See
+[`38500`-`38749`](dialogue-context-default-38500-38749-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding range, `38250`-`38499`, compared all 250 IDs across
+four languages, rechecking 54 recorded IDs and adding 196. It records 12
+candidate and six uncertain statuses. The ledger then covered 45,512 / 65,135
+IDs (69.87%), leaving 19,623; 37,145 had indexed asset links and 8,367 did not.
+Sequential coverage reached `38499`; next was `38500`-`38749`. All 64
+exact-English duplicate groups touching the range have matching Korean.
+Eight multiline entries have matching line-break counts across four languages.
+See [`38250`-`38499`](dialogue-context-default-38250-38499-revalidation-20261112.md).
+Translation CSVs remain unchanged.
+
+The preceding range, `38000`-`38249`, compared all 250 IDs across
+English, Japanese, Chinese, and Korean, rechecking 69 recorded IDs and
+adding 181. The range has 14 candidate and five uncertain ledger statuses;
+two uncertain IDs also have format candidates. A previously flagged name
+pairing at `38114` is already corrected in the current CSV. The ledger then
+covered 45,316 / 65,135 IDs (69.57%), leaving 19,819; 37,008 had asset links
+and 8,308 did not. Sequential coverage reached `38249`; next was `38250`-`38499`.
+See [`38000`-`38249`](dialogue-context-default-38000-38249-revalidation-20261112.md).
+The 67 exact-English duplicate groups touching this range have only one
+context-limited Korean difference; four multiline entries have matching break
+counts across all languages. Translation CSVs remain unchanged.
+
+The preceding range, `37750`-`37999`, compared all 250 IDs across
+English, Japanese, Chinese, and active Korean; it rechecked 75 existing
+ledger entries and added 175. It records 19 candidate IDs and four
+evidence-limited holds; seven existing candidates and one hold were retained,
+three existing entries were promoted to candidates, and two to holds.
+Sixty-nine exact-English duplicate groups (1,210 corpus rows) touch the range;
+Korean differs in two groups, with Japanese also differing in both. Four
+embedded-break rows contain 17 breaks in English, Chinese, and Korean and 19
+in Japanese; Japanese has two additional breaks at `37797`. Runtime-token and
+markup inventories match; Japanese reverses placeholder order at `37980`.
+The ledger then covered 45,135 of 65,135 IDs (69.29%), leaving 20,000.
+Sequential coverage reached ID `37999`; next was `38000`-`38249`. See
+[`37750`-`37999`](dialogue-context-default-37750-37999-revalidation-20261112.md).
+The 530-asset and 65,135-ID catalogs reproduce exactly, all 45,135 ledger
+fingerprints validate, nine index tests pass, and the scoped diff check passes.
+The ledger then covered 36,886 IDs with indexed asset links and 8,249 without.
+Translation CSVs remain unchanged.
+
+The preceding range, `37500`-`37749`, compared all 250 IDs across English,
+Japanese, Chinese, and active Korean; it rechecked 61 existing ledger entries
+and added 189. It records 20 candidate IDs and three evidence-limited holds;
+four candidates and one hold were already in the ledger and were rechecked.
+Sixty-one exact-English duplicate groups (1,138 corpus rows) touch the range;
+the only Korean wording difference is supported by a Japanese source
+difference. Five embedded-break rows have matching four-language counts (11
+per locale), and normalized token/markup inventories match. The ledger then
+covered 44,960 of 65,135 IDs (69.03%), leaving 20,175. Sequential coverage
+reached ID `37749`; next was `37750`-`37999`. See
+[`37500`-`37749`](dialogue-context-default-37500-37749-revalidation-20261112.md).
+All catalogs, ledger fingerprints, nine index tests, and the scoped diff check
+passed; translation CSVs remained unchanged.
+
+The preceding range, `37250`-`37499`, compared all 250 IDs across English,
+Japanese, Chinese, and Korean; it rechecked 71 existing entries and added
+179 in-range IDs. It records 23 correction-candidate IDs and 11
+evidence-limited holds, with `37274` and `37404` in both categories; 218 other
+rows have no new finding. Three exact-English duplicate groups (six rows)
+touch the range, with matching Korean across all groups. Four embedded-break
+rows have matching four-language counts (14 per locale), and normalized
+token/markup signatures match. The ledger then covered 44,771 of 65,135 IDs
+(68.74%), leaving 20,364. Sequential coverage reached ID `37499`; next was
+`37500`-`37749`. See
+[`37250`-`37499`](dialogue-context-default-37250-37499-revalidation-20261112.md).
+All 530-asset and 65,135-ID catalogs reproduced exactly, all ledger
+fingerprints validated, nine index tests passed, and the scoped diff check
+passed; translation CSVs remained unchanged.
+
+The preceding range, `37000`-`37249`, compared all 250 IDs across English,
+Japanese, Chinese, and Korean; it rechecked 65 existing entries and added
+185 in-range IDs plus cross-range duplicate ID `40387`. It recorded ten
+in-range correction candidates and four evidence-limited holds; 236 other
+in-range rows had no new finding. Forty exact-English duplicate groups (564
+corpus rows) touched the range, with matching Korean across all groups. Five
+embedded-break rows had matching four-language counts (22 per locale), and
+normalized token/markup signatures matched. The ledger then covered 44,592
+of 65,135 IDs (68.46%), leaving 20,543. Sequential coverage reached ID
+`37249`. See
+[`37000`-`37249`](dialogue-context-default-37000-37249-revalidation-20261112.md).
+All catalogs, ledger fingerprints, nine index tests, and the scoped diff check
+passed; translation CSVs remained unchanged.
+
+The preceding range, `36750`-`36999`, compared all 250 IDs across English,
+Japanese, Chinese, and Korean; it rechecked 64 existing entries and added
+186 in-range IDs. It records 14 candidate IDs and three in-range
+evidence-limited holds; 233 other rows have no new in-range finding. Five
+cross-range records were added for directly related terminology, and three
+existing records were linked or updated. Sixty exact-English duplicate
+groups (1,503 corpus rows) touch the range; Korean differences are retained
+where Japanese also differs. Twelve embedded-break rows have matching
+four-language counts (48 per locale). The ledger then covered 44,406 of
+65,135 IDs (68.18%), leaving 20,729. Sequential coverage reached ID `36999`.
+See
+[`36750`-`36999`](dialogue-context-default-36750-36999-revalidation-20261112.md).
+All catalogs, ledger fingerprints, nine index tests, and the audit-scoped diff
+check passed; translation CSVs remained unchanged.
+
+The preceding range, `36500`-`36749`, compared all 250 IDs across English,
+Japanese, Chinese, and Korean; it rechecked 64 existing entries and added 186
+in-range IDs. It records 18 candidates and two evidence-limited holds; 230
+other rows have no new finding. Sixty-seven exact-English duplicate groups
+(1,384 corpus rows) touch the range, with matching Korean in every group.
+Seven embedded-break rows have matching four-language counts (34 per locale).
+Exact-English title follow-ups added cross-range ID `58806`. The ledger
+reached 44,215 of 65,135 IDs (67.88%), leaving 20,920. See
+[`36500`-`36749`](dialogue-context-default-36500-36749-revalidation-20261112.md).
+All catalogs, ledger fingerprints, nine index tests, and the audit-scoped diff
+check passed; translation CSVs remain unchanged.
+
+The preceding range, `36250`-`36499`, compared all 250 IDs across English,
+Japanese, Chinese, and Korean; it rechecked 55 existing entries and added
+195. It retains three candidates and two evidence-limited holds, with `36268`
+carrying a separate location hold. Fifty-nine exact-English duplicate groups
+(1,588 corpus rows) touch the range, with matching Korean in every group;
+embedded line breaks and normalized runtime-token/markup signatures match
+across all four languages. The ledger reached 44,028 of 65,135 IDs (67.60%),
+leaving 21,107. See
+[`36250`-`36499`](dialogue-context-default-36250-36499-revalidation-20261112.md).
+All catalogs, ledger fingerprints, nine index tests, and the audit-scoped diff
+check passed; translation CSVs remain unchanged.
+
+The preceding range, `36000`-`36249`, compared all 250 rows across English,
+Japanese, Chinese, and Korean; it rechecked 68 existing entries and added
+182. It records 21 candidates and two evidence-limited holds; three previously
+`not-issue` rows gained separate English-pairing candidates. Sixty-one
+exact-English duplicate groups (1,509 corpus rows) touch the range, with
+matching Korean in each group. All six embedded-break rows have matching
+four-language line counts and normalized runtime-token/markup signatures.
+The ledger reached 43,833 of 65,135 IDs (67.30%), leaving 21,302. See
+[`36000`-`36249`](dialogue-context-default-36000-36249-revalidation-20261112.md).
+All catalogs, ledger fingerprints, nine index tests, and the audit-scoped diff
+check passed; translation CSVs remain unchanged.
+
+The preceding completed range, `35750`-`35999`, compared all 250 rows across
+English, Japanese, Chinese, and Korean; it rechecked 71 existing entries and
+added 179. It records 12 candidate IDs and five evidence-limited holds, with
+`35864` having both a candidate and a separate hold. The `35865` candidate was
+cleared because its current terminology matches the proposed forms; the
+`35937` candidate was reclassified as a hold because the sources disagree on
+the pall's type. Fifty-seven exact-English duplicate groups (1,353 corpus
+rows) touch the range, with matching Korean. All seven embedded-break rows
+have matching four-language counts and normalized brace-token/markup
+signatures. See
+[`35750`-`35999`](dialogue-context-default-35750-35999-revalidation-20261112.md).
+Sequential coverage reaches ID `35999`; next is `36000`-`36249`.
+
+The latest completed range, `35500`-`35749`, rechecked 55 existing entries
+and added 195 in-range IDs. It records 38 candidate IDs and eight
+evidence-limited holds, with one ID having both a candidate and a separate
+hold; 205 IDs have no finding. Forty-nine exact-English duplicate groups
+(1,100 corpus rows) touch the range, with matching Korean within each
+full-string group. No cross-language line-break-count mismatch was found.
+Korean's runtime-token order matches Japanese and Chinese; English differs at
+`35513` in the placement of the localized skill wrapper. Historical questions
+at `35663` and `35741` were rechecked, with the former retaining a separate
+term hold and the latter's farmland-share meaning confirmed. See
+[`35500`-`35749`](dialogue-context-default-35500-35749-revalidation-20261112.md).
+The 530-asset and 65,135-ID catalogs, ledger fingerprints, nine related tests,
+and audit-scoped diff check passed; translation CSVs remain unchanged.
+Sequential coverage reaches ID `35749`; next is `35750`-`35999`.
+
+The full-corpus `default` re-review then had 43,651 of 65,135 IDs recorded
+(67.02%), leaving 21,484. The generated ID catalog reported 35,828 reviewed
+IDs with an indexed asset link and 7,823 without one; the 51,080 total
+asset-linked IDs remain a separate
+context measure, not the progress denominator. The preceding completed range,
+`35250`-`35499`, rechecked 63 existing entries and added 187 in-range IDs.
+Two out-of-range IDs were also added to trace the exact-English `Okay then.`
+group. It records 35 candidate IDs, four uncertain IDs, and 211 with no
+finding; two prior candidates were cleared. Sixty exact-English duplicate
+groups (1,478 corpus rows) touch the range. The only Korean variations are
+`Okay then.` (held for conflicting source/context readings) and `Defeat the
+First Sword` (candidate for consistent naming and objective form). Two rows
+contain embedded line breaks, and line-break counts and normalized
+runtime-token/markup signatures match across all four languages. See
+[`35250`-`35499`](dialogue-context-default-35250-35499-revalidation-20261112.md).
+The 530-asset and 65,135-ID catalogs and ledger fingerprints were validated,
+nine related tests passed, and no translation CSV changed.
+The generated ID catalog reports 35,571 reviewed IDs with an indexed asset link
+and 7,706 without one; the 51,080 total asset-linked IDs remain a separate
+context measure, not the progress denominator. The preceding completed range,
+`35000`-`35249`, rechecked 57 existing entries and added 193 in-range IDs.
+Eight out-of-range IDs were also recorded for the exact-English
+`Irion, King of Cups` duplicate group. The range has 20 overall candidates,
+four uncertain entries, and 226 not flagged; five previously unflagged
+members of that duplicate group were promoted for the missing English title
+pairing. Fifty-one exact-English duplicate groups (513 corpus rows) touch the
+range; the only Korean wording difference is supported by Japanese and
+Chinese differences. Six rows contain embedded line breaks, with matching
+counts and normalized runtime-token and markup signatures across all four
+languages. See
+[`35000`-`35249`](dialogue-context-default-35000-35249-revalidation-20261112.md).
+The 530-asset and 65,135-ID catalogs were regenerated and validated; no
+translation CSV changed. This checkpoint then reached ID `35249`.
+
+The preceding range, `34250`-`34499`, rechecked 67 existing records and
+added 183 IDs. It records 13 new correction candidates, promotes two
+existing `not-issue` rows, and retains five existing candidates. Sixteen new
+evidence-limited holds were recorded and one prior hold retained; the hold at
+`34251` was cleared. Two rows have a formatting proposal alongside a
+separate meaning/context hold. The range has 18 overall candidates, 17 holds,
+and 215 entries not flagged. One exact-English duplicate group (three rows)
+has matching Korean text; embedded line-break counts and normalized
+runtime-token and markup inventories match across all four languages. See
+[`34250`-`34499`](dialogue-context-default-34250-34499-revalidation-20261112.md).
+The catalogs were regenerated; translation CSVs remain unchanged.
+
+The preceding range, `34000`-`34249`, rechecked 76 existing records and
+added 174 in-range IDs plus five cross-range name references. It records 21
+new correction candidates and five evidence-limited holds, while promoting
+six existing `not-issue` rows; prior candidates and holds were retained. The
+range has 34 candidate IDs, eight holds, and 208 entries not flagged. Fifty-
+eight exact-English duplicate groups (951 corpus rows) touch the range, and
+Korean text matches within every group. Embedded line-break counts and
+normalized runtime-token and markup inventories match across all four
+languages. See
+[`34000`-`34249`](dialogue-context-default-34000-34249-revalidation-20261112.md).
+The catalogs were regenerated; translation CSVs remain unchanged.
+
+The preceding range, `33750`-`33999`, rechecked 63 existing records and
+added 187 in-range IDs. It records 18 new correction candidates and three
+evidence-limited holds; four existing `not-issue` rows were promoted and
+three existing candidates retained. The range now has 29 candidates, three
+holds, and 218 not flagged. Ten additional `Argine, Queen of Staves` IDs and
+five out-of-range `Lupoku` IDs were added; `33892` and `33899` are already
+included in the in-range count. Existing related dispositions were retained,
+and `36075` was paired with `33820` for the identical `Before The Talk`
+source. Sixty-nine exact-English duplicate groups (1,660 corpus rows) touch
+the range; the sole Korean variation has a Japanese source variation. All
+four languages match in embedded line breaks and normalized token/markup
+inventories. See
+[`33750`-`33999`](dialogue-context-default-33750-33999-revalidation-20261112.md).
+The catalogs were regenerated; translation CSVs remain unchanged.
+Sequential coverage reaches ID `33999`; next is `34000`-`34249`.
+
+The latest completed range, `33500`-`33749`, rechecked 77 existing records
+and added 173 IDs. It records 24 correction candidates and three new
+evidence-limited holds. Nine existing candidates and three holds were
+retained, while `33528`, `33688`, and `33700` were promoted from
+`not-issue` to candidates; 62 other pre-existing records remain not flagged.
+Thirty-three range records now have candidate status and six are on hold.
+Sixty-three exact-English duplicate groups (1,278 corpus rows) touch the
+range; one Korean wording difference also has a Japanese source difference.
+All four languages match in embedded line-break counts and normalized
+placeholder, layout-token, and markup signatures. See
+[`33500`-`33749`](dialogue-context-default-33500-33749-revalidation-20261112.md).
+The catalogs were regenerated; translation CSVs remain unchanged.
+Sequential coverage reached ID `33749` before the latest range.
+
+The preceding range, `33250`-`33499`, rechecked 67 existing records and added
+183 IDs. It records 25 new correction candidates and four new
+evidence-limited holds; five existing candidates and the hold at `33445` were
+rechecked and retained. Fifty-two exact-English duplicate groups (1,199
+corpus rows) match in Korean; embedded line-break and token signatures match
+across all four languages. See
+[`33250`-`33499`](dialogue-context-default-33250-33499-revalidation-20261112.md).
+The catalogs were regenerated; translation CSVs remain unchanged. Sequential
+coverage reaches ID `33499`.
+
+The preceding range, `33000`-`33249`, rechecked 49 existing records and
+added 201 IDs. It records 13 new correction candidates and four holds on new
+IDs; existing `33096` was promoted from `not-issue` to a hold. Seven existing
+candidates and the hold at `33002` remain. Fifty-seven exact-English
+duplicate groups (1,031 corpus rows) match in Korean. Korean line-break
+counts match English and Japanese; Chinese alone has one fewer break at
+`33089`. See
+[`33000`-`33249`](dialogue-context-default-33000-33249-revalidation-20261112.md).
+The catalogs were regenerated; translation CSVs remain unchanged.
+The `32500`-`32749` pass rechecked 65 existing records and added 185 IDs.
+Nine new in-range correction candidates and two evidence-limited holds were
+recorded; the existing candidate/hold dispositions were rechecked. Sixty exact
+English-duplicate groups (760 corpus rows) touch the range; the one Korean
+variation at `32613` is supported by a Japanese source variation. Korean has
+two extra embedded line breaks at `32711`; the other in-range line-break
+counts match. The `fastings` lore at `32740` supports a follow-up correction
+candidate at `32325`, proposing the established `지하 통로` rendering. See
+[`32500`-`32749`](dialogue-context-default-32500-32749-revalidation-20261112.md).
+The catalogs were regenerated; translation CSVs remain unchanged.
+
+The `32250`-`32499` pass rechecked 43 existing entries and added 207 IDs.
+Eight new in-range correction candidates were recorded; `22272` was promoted
+alongside its exact-English duplicate `32376`, and related card-name entry
+`38453` was also recorded. Two new evidence-limited holds were added; three
+existing candidates and three holds remain supported, and the other 37
+existing entries remain not flagged. Forty-eight exact-English duplicate
+groups (1,030 corpus rows) touch the range, with matching Korean. Per-row
+line-break counts match across all four languages; seven entries contain 23
+Korean embedded breaks. Runtime-marker and markup structures match; Chinese
+alone reverses the last two localized marker labels at `32470`. See
+[`32250`-`32499`](dialogue-context-default-32250-32499-revalidation-20261112.md).
+The catalogs were regenerated; translation CSVs remain unchanged. The total
+includes the related follow-up at `38453`.
+The `32000`-`32249` pass rechecked 55 existing entries and added 195 IDs.
+Eleven new correction-candidate IDs were recorded; pre-existing `not-issue`
+entries `32241` and `33619` were promoted together as exact-English
+duplicates. Six existing candidates and three evidence-limited holds were
+retained; the other 45 existing entries remain not flagged. Fifty-six exact-English
+duplicate groups (1,002 corpus rows) touch the range. The only Korean
+variation is `27293` / `32079`, where Japanese also differs. Per-row
+line-break counts match across all four languages; 33 Korean embedded breaks
+were preserved. Chinese alone reverses `{1}` and `{2}` at `32156`; Korean
+matches English and Japanese. The catalogs were regenerated and translation
+CSVs remain unchanged. See
+[`32000`-`32249`](dialogue-context-default-32000-32249-revalidation-20261112.md).
+The `31750`-`31999` pass rechecked 66 existing entries and added 184 IDs.
+Eighteen additional candidates were identified: 14 on new IDs and four
+pre-existing `not-issue` entries promoted to candidates. One new
+evidence-limited hold was recorded; five existing candidates and two existing
+holds were retained. Sixty-three exact-English duplicate groups (1,223 corpus
+rows) touch the range, with no divergent Korean text. Per-row line-break
+counts match across all four languages; Korean matches the English and
+Chinese placeholder order at `31992`, while Japanese reorders those
+arguments. Fifty-three embedded Korean line breaks were preserved. The
+catalogs were regenerated; translation CSVs remain unchanged. See
+[`31750`-`31999`](dialogue-context-default-31750-31999-revalidation-20261112.md).
+
+The `31500`-`31749` pass rechecked 71 existing entries and added 179 IDs.
+Nine new correction candidates and two evidence-limited holds were recorded;
+four existing candidates and one hold were retained. Sixty-four exact-English
+duplicate groups (1,206 corpus rows) touch the range; the only Korean
+variation is `31562` / `55044`, where Japanese also differs. Per-row line-break
+counts and normalized runtime/layout-token and markup signatures match across
+all four languages, and 14 Korean CRLF breaks were preserved. The catalogs
+were regenerated; translation CSVs remain unchanged. See
+[`31500`-`31749`](dialogue-context-default-31500-31749-revalidation-20261112.md).
+The `31250`-`31499` pass rechecked 71 existing entries and added 179 IDs.
+It identified 13 additional candidates: 11 on new IDs and two pre-existing
+`not-issue` entries promoted to candidates. Eight earlier candidates and two
+evidence-limited holds remain open. Fifty-seven exact-English duplicate groups
+(1,141 corpus rows) touch the range; the only Korean variation is the `Later.`
+group at `31385`, `38762`, and `48513`, where Japanese also differs. Per-row
+line-break counts and normalized runtime/layout-token and markup signatures
+match across all four languages. The catalogs were regenerated; translation
+CSVs remain unchanged. See
+[`31250`-`31499`](dialogue-context-default-31250-31499-revalidation-20261112.md).
+The preceding `31000`-`31249` pass rechecked 79 existing entries and added
+171 IDs. Eleven candidates were recorded among the new IDs and one
+evidence-limited hold; existing `31002` and `31060` were promoted to
+candidates, and `31085` was cleared. The range ends with 21 candidates and
+one hold. Sixty-nine exact-English duplicate groups (1,402 corpus rows)
+match in Korean; newline counts and normalized runtime/layout-token
+sequences match across all four languages. The cove/cave source divergence at
+`31072` is documented in
+[`31000`-`31249`](dialogue-context-default-31000-31249-revalidation-20261112.md).
+The catalogs were regenerated; translation CSVs remain unchanged.
+The `30750`-`30999` pass rechecked 74 existing entries and added 176 IDs.
+Thirteen correction candidates and four evidence-limited holds are recorded;
+the existing candidates at `30778`, `30806`, `30807`, `30852`, `30902`,
+`30922`, and `30936` remain open. Eighty exact-English duplicate groups
+(993 corpus rows) match in Korean. The missing Japanese paragraph at `30794`,
+the localized markup discrepancy at `30843`, and the source divergence at
+`30993` are documented in
+[`30750`-`30999`](dialogue-context-default-30750-30999-revalidation-20261112.md).
+The catalogs were regenerated; translation CSVs remain unchanged.
+The `30500`-`30749` pass rechecked 69 existing entries and added 181 IDs.
+Fourteen correction candidates and two evidence-limited holds were recorded;
+four earlier candidates remain. Exact-English duplicates, title/name pairing,
+and the Japanese/Chinese-only line-break discrepancy are documented in
+[`30500`-`30749`](dialogue-context-default-30500-30749-revalidation-20261112.md).
+The catalogs were regenerated; no translation CSV changed.
+The `30250`-`30499` pass rechecked 86 existing entries and added 164 IDs.
+Eight correction candidates and three evidence-limited holds were recorded;
+13 prior candidates and one prior hold remain. Exact-English duplicate
+groups, source conflicts, terminology consistency, and the Japanese-only
+line-break discrepancy are documented in
+[`30250`-`30499`](dialogue-context-default-30250-30499-revalidation-20261112.md).
+The catalogs were regenerated; no translation CSV changed.
+The `30000`-`30249` pass rechecked 58 existing entries and added 192 IDs.
+Twelve correction candidates and two evidence-limited holds were recorded;
+nine earlier candidates remain. Exact-English duplicate groups, source
+conflicts, and marker/line-break checks are documented in
+[`30000`-`30249`](dialogue-context-default-30000-30249-revalidation-20261112.md).
+The catalogs were regenerated; no translation CSV changed.
+The `29750`-`29999` pass rechecked 60 existing entries and added 190 IDs.
+Seventeen correction candidates and one evidence-limited hold were recorded;
+eight earlier candidates remain. Exact-English duplicates, the source-name
+conflict at `29839`, and the Chinese-only line-break discrepancy at `29868`
+are documented. The catalogs were regenerated; no translation CSV changed.
+See [`29750`-`29999`](dialogue-context-default-29750-29999-revalidation-20261112.md).
+The `29500`-`29749` pass rechecked 62 existing entries and added 188 IDs.
+Eight correction candidates and three evidence-limited holds are recorded;
+five prior candidates and three prior holds remain. Exact-English duplicates
+match in Korean, and token signatures and newline counts match across the four
+languages. See
+[`29500`-`29749`](dialogue-context-default-29500-29749-revalidation-20261112.md).
+The catalogs were regenerated; no translation CSV changed.
+The `29250`-`29499` pass rechecked 69 existing entries and added 181 IDs.
+Seven correction candidates and two evidence-limited holds are recorded;
+the existing `29366` candidate and `29490` hold remain. Exact-English
+duplicates match in Korean, and token signatures and newline counts match
+across the four languages. See
+[`29250`-`29499`](dialogue-context-default-29250-29499-revalidation-20261112.md).
+The catalogs were regenerated; no translation CSV changed.
+The `28750`-`28999` pass rechecked 75 existing entries and added 175 IDs.
+Six new correction candidates and four evidence-limited holds are recorded;
+two prior candidates and four holds remain. Token signatures and newline
+counts match across the four languages. See
+[`28750`-`28999`](dialogue-context-default-28750-28999-revalidation-20261112.md).
+The catalogs were regenerated; no translation CSV changed.
+The `26500`-`26749` pass rechecked 66 entries and added 184 IDs. Ten
+correction candidates are recorded: seven newly flagged and three
+reclassified from `not-issue`; one existing row was reclassified as a hold.
+Four prior candidates and one prior hold were retained. Exact-English
+duplicates, line breaks, localized markup, and source conflicts are documented
+in [`26500`-`26749`](dialogue-context-default-26500-26749-revalidation-20261112.md).
+The catalogs and all 36,806 four-language fingerprints were regenerated and
+validated. No translation CSV changed.
+The preceding `26350`-`26499` pass rechecked 38 entries and added 112 IDs,
+recording ten new candidates and one new hold, reclassifying two existing
+entries as holds, and retaining three candidates. See
+[`26350`-`26499`](dialogue-context-default-26350-26499-revalidation-20261112.md).
+The `26250`-`26349` pass rechecked 20 records and added 80 IDs, with eight new
+candidates and two holds; one existing entry was reclassified as a candidate.
+See [`26250`-`26349`](dialogue-context-default-26250-26349-revalidation-20261112.md).
+The `26200`-`26249` pass rechecked 11 records and added 39 IDs, recording two
+new candidates and two holds; one existing entry was reclassified as a
+candidate. The `26100`-`26199` pass rechecked 28 records and added 72 IDs,
+recording ten new candidates and two holds. See
+[`26200`-`26249`](dialogue-context-default-26200-26249-revalidation-20261112.md)
+and
+[`26100`-`26199`](dialogue-context-default-26100-26199-revalidation-20261112.md).
+The partial `26000`-`26099` pass rechecked 23 existing records and added
+77 IDs, with six correction candidates and three evidence-limited holds.
+Four existing candidates remain pending. See
+[`26000`-`26099`](dialogue-context-default-26000-26099-revalidation-20261112.md).
+The `25750`-`25999` range checked 66 existing records and added 184 new IDs,
+with 21 new correction candidates and two evidence-limited holds. Five
+existing candidates and two holds were retained. Its 65 exact-English
+duplicate groups (1,214 corpus rows) have matching Korean, and the line-break
+mismatch at `25915` is documented; normalized runtime markers are intact.
+No translation CSV changed. See
+[`25750`-`25999`](dialogue-context-default-25750-25999-revalidation-20261112.md).
+The `25500`-`25749` range checked 59 existing records and
+added 191 new IDs, with eight in-range correction candidates and one
+evidence-limited hold. Six existing candidates and two holds were retained;
+`25720` has a separate name-pairing candidate and Aster-name hold. One
+out-of-range duplicate candidate was recorded at `58994`. The 59
+exact-English duplicate groups (1,288 corpus rows) have two Korean variation
+groups documented; logical line-break and normalized brace-token signatures
+match across all four languages. No translation CSV changed. See
+[`25500`-`25749`](dialogue-context-default-25500-25749-revalidation-20261112.md).
+The preceding range, `25250`-`25499`, checked 62 existing records and added
+188 new IDs, with 20 correction candidates and two evidence-limited holds.
+Nine existing candidates and three holds were retained. Its sole
+exact-English duplicate group (`Quest Complete`, three IDs) matches in Korean;
+line-break and normalized control-token signatures match across four
+languages. No translation CSV changed. See
+[`25250`-`25499`](dialogue-context-default-25250-25499-revalidation-20261112.md).
+The `25000`-`25249` range checked 64 existing records and
+added 186 new records, with 20 correction candidates and one
+evidence-limited hold. Two resolved findings were cleared; four existing
+candidates and one existing hold were retained. Sixty exact-English
+duplicate groups (1,260 corpus rows) match in Korean; the line-layout
+mismatch at `25208` is documented. No translation CSV changed. See
+[`25000`-`25249`](dialogue-context-default-25000-25249-revalidation-20261112.md).
+The preceding
+`24750`-`24999` range checked 69 existing records and
+added 181 new records, with ten correction candidates and one
+evidence-limited hold. Four existing candidates were retained, two resolved
+findings were cleared, and both existing holds were retained. The 54
+exact-English duplicate groups (1,134 corpus rows) match in Korean; logical
+line-break and normalized control-token signatures match across all four
+languages. No translation CSV changed. See
+[`24750`-`24999`](dialogue-context-default-24750-24999-revalidation-20261112.md).
+The preceding
+`24500`-`24749` range checked 66 existing records and added 184 new records,
+with ten new correction candidates; eight existing candidates were retained.
+Sixty exact-English duplicate groups (1,212 corpus rows) match in Korean
+except for the documented `First Sword` objective mismatch, and normalized
+line-break/control-token signatures match across all four languages. No
+translation CSV changed. See
+[`24500`-`24749`](dialogue-context-default-24500-24749-revalidation-20261112.md).
+The preceding
+`24250`-`24499` range checked 60 existing records and added 190 new records,
+with ten new correction candidates and five evidence-limited holds. Eight
+existing candidates were retained. Sixty-four exact-English duplicate groups
+(808 corpus rows) match in Korean; normalized line-break and control-token
+signatures match across all four languages. No translation CSV changed. See
+[`24250`-`24499`](dialogue-context-default-24250-24499-revalidation-20261112.md).
+The preceding range, `24000`-`24249`, checked 57 existing records and
+added 193 new records, with 15 new correction candidates and one hold.
+Existing candidates `24050` and `24206` remain, and `24136` was
+reclassified as a format candidate for the `Skyblossom` spelling. The
+Japanese distinction between duplicate `Here we are.` lines is preserved.
+No translation CSV changed. See
+[`24000`-`24249`](dialogue-context-default-24000-24249-revalidation-20261112.md).
+The preceding six ranges checked 402 existing records and added 1,098 new
+records without changing translation CSVs:
+
+- [`23750`-`23999`](dialogue-context-default-23750-23999-revalidation-20261112.md):
+  178 new IDs, fifteen correction candidates, five prior candidates
+  retained, and two cleared. The 63 duplicate-English groups (873 corpus
+  rows) have matching Korean except the Japanese-supported `Templar` label
+  variation; poem layout and localized marker findings are documented.
+- [`23500`-`23749`](dialogue-context-default-23500-23749-revalidation-20261112.md):
+  188 new IDs, ten correction candidates, two evidence-limited holds, two
+  prior candidates cleared, and two retained. The 59 duplicate-English
+  groups (1,397 corpus rows) have matching Korean; line-break and normalized
+  control-token checks match across four languages.
+- [`23250`-`23499`](dialogue-context-default-23250-23499-revalidation-20261112.md):
+  176 new IDs, ten candidates, four evidence-limited holds, nine retained
+  candidates, and one cleared context-resolved finding.
+- [`23000`-`23249`](dialogue-context-default-23000-23249-revalidation-20261112.md):
+  183 new IDs, ten candidates, five evidence-limited holds, and four retained
+  candidates. Japanese-supported duplicate differences remain intact; Korean
+  poem line breaks match English and Japanese.
+- [`22500`-`22749`](dialogue-context-default-22500-22749-revalidation-20261112.md):
+  193 new IDs, 21 candidate IDs, and 19 hold IDs (one overlap). Untranslated
+  display labels remain distinct from missing tokens; the Greaves particle
+  error is a correction candidate.
+- [`22750`-`22999`](dialogue-context-default-22750-22999-revalidation-20261112.md):
+  180 new IDs, 24 candidate IDs, and 20 hold IDs (three overlaps).
+  Authority terminology is compared with the later approved decision;
+  two duplicate groups retain Japanese-supported Korean register differences.
+
+The catalogs and all 36,058 four-language ledger fingerprints were regenerated
+and validated. Twenty index/preservation-tool regression tests passed.
+The preceding
+`22000`-`22249` batch checked 65 existing records and added 185 records.
+Seven candidate IDs and four new evidence-limited holds were recorded; the
+prior hold at `22080` was retained. Fifty-nine exact-English duplicate groups
+(949 corpus rows) have matching Korean. Per-row line breaks match, and token
+multiplicities match; the `{1}` / `{2}` order difference at `22040` is
+documented. No translation CSV changed. The report is
+[`dialogue-context-default-22000-22249-revalidation-20261112.md`](dialogue-context-default-22000-22249-revalidation-20261112.md).
+The preceding
+`21750`-`21999` batch checked 67 existing records and added 183 records.
+Fourteen candidate IDs and one new evidence-limited hold were recorded; the
+existing hold at `21937` was retained, and the prior candidate at `21794` was
+cleared. Forty-five exact-English duplicate groups (1,116 corpus rows) have
+matching Korean; per-row line breaks and normalized control markers match
+across all four languages. No translation CSV changed. The report is
+[`dialogue-context-default-21750-21999-revalidation-20261112.md`](dialogue-context-default-21750-21999-revalidation-20261112.md).
+The preceding
+`21500`-`21749` batch checked 69 existing records and added 181 records.
+Ten candidate IDs and eleven evidence-limited hold IDs were recorded, with
+two IDs appearing in both dispositions. Four exact-English duplicate groups
+(eight rows) have matching Korean; per-row line breaks and normalized control
+markers match across all four languages. No translation CSV changed. The
+report is
+[`dialogue-context-default-21500-21749-revalidation-20261112.md`](dialogue-context-default-21500-21749-revalidation-20261112.md).
+The preceding
+`21250`-`21499` batch checked 61 existing records and added 189 records.
+Seventeen new correction findings and six evidence-limited holds affecting
+six IDs were recorded; five existing candidates were retained and one was
+cleared. Fifty-nine exact-English duplicate groups (1,112 corpus rows) have
+matching Korean, and per-row line-break counts match across all four
+languages. The Japanese marker-order exception at `21488` is documented.
+No translation CSV changed. The preceding
+`21000`-`21249` batch checked 58 existing records and added 192 records.
+It reclassified one existing row as a candidate, recorded 17 correction
+findings affecting 18 IDs, and added three evidence-limited holds (one
+overlapping a candidate). Fifty-nine exact-English duplicate groups (1,088
+corpus rows) have matching Korean; logical line-break counts match across
+all four languages. No translation CSV changed. The preceding
+`20750`-`20999` batch checked 60 existing records and added 190 records.
+It retained six existing candidates and the hold at `20874`, reclassified two
+previously unflagged rows as candidates, and recorded eleven new correction
+candidates and three new evidence-limited holds. Fifty-three exact-English
+duplicate groups (962 corpus rows) have matching Korean; line-break and
+runtime-token checks match across four languages. No translation CSV changed.
+The preceding
+`20500`-`20749` batch checked 60 existing records and added 190 records.
+It retained the existing candidate at `20674` and holds at `20615` and
+`20657`, and recorded nine new correction candidates and six evidence-limited
+holds. Fifty-nine exact-English duplicate groups (975 corpus rows) have
+matching Korean; line-break and runtime-token checks match across four
+languages. No translation CSV changed. The preceding
+`20250`-`20499` batch checked 83 existing records and added 167 records.
+It retained six existing candidates, cleared the `Litanies Found` label
+candidate at `20294` after the approved terminology review, recorded
+sixteen new correction candidates, and added four evidence-limited holds.
+Fifty-six exact-English duplicate groups (1,182 corpus rows) have matching
+Korean; runtime-token and line-break checks match across four languages.
+No translation CSV changed. The preceding
+`20000`-`20249` batch checked 54 existing records and added 196 records.
+`20000`-`20249` batch checked 54 existing records and added 196 records.
+It retained three existing candidates, recorded fifteen new correction
+candidates, and added five evidence-limited holds. Fifty-seven
+exact-English duplicate groups (1,071 corpus rows) have matching Korean;
+Japanese meaning variants in `Never mind.` and `What now?` are documented.
+Line-break and normalized token checks match across four languages. No
+translation CSV changed. The preceding
+`19750`-`19999` batch checked 71 existing records and added 179 records.
+`19750`-`19999` batch checked 71 existing records and added 179 records.
+It retained seven existing correction candidates, recorded twelve new
+candidates, and added five holds (one overlapping a candidate). Sixty-five
+duplicate-English groups (1,159 corpus rows) all have identical Korean.
+Line-break and normalized control-token checks match across four languages.
+No translation CSV changed. The preceding
+`19500`-`19749` batch checked 82 existing records and added 168 records.
+It retained three existing candidates, reopened three existing rows, and
+added nineteen candidate IDs and six holds (two overlap candidates).
+Sixty-three duplicate-English groups (1,435 corpus rows) include one
+Japanese-supported Korean action distinction (`Collect the contract`).
+Logical line breaks and normalized control structure match in all four
+languages. No translation CSV changed. The preceding
+`19250`-`19499` batch checked 54 existing records and added 196 records.
+It retained four existing candidates and three holds, and added seventeen
+candidates and nine holds. The 52 duplicate-English groups (1,013 corpus
+rows) have one Japanese-supported Korean split (`Be good.`); `19431`
+has a documented source-layout difference. No translation CSV changed.
+The preceding
+`19000`-`19249` batch checked 77 existing records and added 173 records.
+It retained eight correction candidates and recorded five new candidates
+and six evidence-limited holds (one overlaps a candidate). Fifty-two
+exact-English duplicate groups (1,242 corpus rows) have matching Korean.
+The Japanese-only blank-line difference at `19110` is documented.
+The `Ambassador` title-order proposals conflict with the user's earlier
+documented ordering, so the policy is held rather than silently reversed.
+No translation CSV changed. The preceding
+`18750`-`18999` batch checked 69 existing fingerprints and added 181 records.
+It retained ten existing candidates, reclassified one existing candidate as
+a hold and one existing row as a format candidate, retained one existing hold,
+added four correction candidates, and recorded three new holds. Fifty-eight
+exact-English duplicate groups (1,319 corpus rows) were checked; two Korean
+differences are supported by Japanese source distinctions. Line-break counts
+match across all four languages; placeholder-order and localized-wrapper
+checks are documented. No translation CSV changed.
+The preceding
+`18500`-`18749` batch checked 62 existing fingerprints and added 188 records.
+It retained six existing candidates, cleared the shared-source candidate at
+`18639`, added one greeting-naturalness candidate, and recorded 27 new
+evidence-limited holds. Sixty-three exact-English duplicate groups (914
+corpus rows) all have matching Korean. The Japanese-only line-break difference
+at `18585` and marker-order difference at `18614` are documented.
+The `18250`-`18499` batch checked 60 existing fingerprints and added 190 records,
+retaining six existing candidates and adding 17 evidence-limited holds.
+Sixty-nine exact-English duplicate groups (797 corpus rows) all have matching
+Korean text. The Japanese-only line-break difference at `18346` and
+Japanese-only marker reordering at `18449` are documented.
+The `18000`-`18249` batch checked 63 existing fingerprints and added 187 records,
+retaining four existing correction candidates and adding 13 evidence-limited
+holds. Fifty-nine exact-English duplicate groups (1,161 corpus rows) all
+have matching Korean text; line-break and runtime/layout-token checks match
+across all four languages.
+The `17750`-`17999` batch checked 67 existing fingerprints and added 183 records,
+with one new correction candidate, six evidence-limited holds, and two
+existing candidates retained. Fifty-six exact-English duplicate groups
+(818 corpus rows) all have matching Korean text; logical line-break counts
+match across all four languages. The preceding
+`17500`-`17749` batch checked 65 existing fingerprints and added 185 records,
+with two new correction candidates and six evidence-limited holds. Six
+existing candidates were rechecked and retained. Sixty exact-English
+duplicate groups touching the range (859 corpus rows) all have matching
+Korean text, and logical line-break counts match across all four languages.
+Across IDs `8000`-`17499`, 9,500 IDs have been compared: 2,352 existing records were
+checked and 6,648 previously unrecorded IDs were added. The `17000`-`17249`
+batch checked 69 current fingerprints and added 181 records, with six new
+correction-candidate findings and two evidence-limited holds. Its only
+exact-English duplicate group is `Quest Complete` (`17170`, `17178`, `17228`),
+with matching Korean; logical line-break counts match across all four
+languages. The newest `17250`-`17499` batch checked 65 existing fingerprints
+and added 185 records, with five new correction candidates, ten new
+evidence-limited holds, two existing rows reclassified as candidates, and five
+existing rows reclassified as holds. It also rechecked three exact-English
+duplicate groups, all matching in Korean. A separate Amphora follow-up
+rechecked 13 changed fingerprints and retained their previous dispositions.
+No translation CSV changed during these reviews. The
+companion Litany review confirms `연도문` for all eight `base` Litany rows and
+all 34 `default` Litany-text references; two further strings name only the
+Litany Altar. Generic `prayer` remains `기도문`, no `연도서` remains, and
+`default:41412` already has the conversational plain-register correction.
+The reports distinguish source anomalies from translation issues and record
+explicit self-identifications separately from asset-level NPC symbols:
+
+- [`19750`-`19999`](dialogue-context-default-19750-19999-revalidation-20261112.md):
+  179 new records, seven retained candidates, twelve new candidates, and
+  five holds (one overlap). Sixty-five duplicate-English groups match in
+  Korean; the `Jera Soren` source discrepancy and truncated quote are recorded.
+- [`20000`-`20249`](dialogue-context-default-20000-20249-revalidation-20261112.md):
+  196 new records, three retained candidates, fifteen new candidates, and
+  five holds. Fifty-seven duplicate-English groups match in Korean; Japanese
+  meaning differences in repeated short prompts are documented.
+- [`20250`-`20499`](dialogue-context-default-20250-20499-revalidation-20261112.md):
+  167 new records, six retained candidates, one cleared candidate, sixteen
+  new candidates, and four holds. Fifty-six duplicate-English groups match
+  in Korean; line-break and token checks match across four languages.
+- [`20500`-`20749`](dialogue-context-default-20500-20749-revalidation-20261112.md):
+  195 new records, nine new candidates, six holds, and three prior findings
+  rechecked. Fifty-nine duplicate-English groups match in Korean; line-break
+  and token checks match across four languages.
+- [`20750`-`20999`](dialogue-context-default-20750-20999-revalidation-20261112.md):
+  190 new records, eleven new candidates, two existing rows reclassified as
+  candidates, and three holds. Fifty-three duplicate-English groups match in
+  Korean; line-break and token checks match across four languages.
+- [`21250`-`21499`](dialogue-context-default-21250-21499-revalidation-20261112.md):
+  189 new records, 17 new correction findings, and six holds affecting six
+  IDs. Five existing candidates were retained and one was cleared. Fifty-nine
+  duplicate-English groups match in Korean; line-break counts match across
+  the four languages.
+- [`21000`-`21249`](dialogue-context-default-21000-21249-revalidation-20261112.md):
+  192 new records, 17 correction findings affecting 18 IDs, one existing row
+  reclassified as a candidate, and three holds (one overlapping a candidate).
+  Fifty-nine duplicate-English groups match in Korean; line-break counts
+  match across four languages.
+- [`19500`-`19749`](dialogue-context-default-19500-19749-revalidation-20261111.md):
+  168 new records, 25 correction-candidate IDs, and six holds. Three
+  previously recorded rows were explicitly reopened without reordering the
+  ledger; all earlier evidence links were preserved.
+- [`19250`-`19499`](dialogue-context-default-19250-19499-revalidation-20261111.md):
+  196 new records, 21 correction candidates, and twelve holds. Meaning,
+  journal/dialogue voice, Seelie spelling, and source-layout differences
+  are documented separately from approval to edit.
+- [`19000`-`19249`](dialogue-context-default-19000-19249-revalidation-20261111.md):
+  173 new records, 13 correction candidates, and six holds. Fifty-two
+  duplicate-English groups match in Korean; prior user title-order
+  instructions take precedence over unapproved conflicting proposals.
+- [`18750`-`18999`](dialogue-context-default-18750-18999-revalidation-20261111.md):
+  181 new records, 15 correction candidates, and five evidence-limited holds.
+  Fifty-eight exact-English duplicate groups were checked, with two
+  Japanese-supported Korean differences.
+- [`18250`-`18499`](dialogue-context-default-18250-18499-revalidation-20261111.md):
+  190 new records, six retained candidates, and 17 holds. Sixty-nine
+  duplicate-English groups match in Korean; one Japanese-only line-break and
+  one marker-order exception are documented.
+- [`18500`-`18749`](dialogue-context-default-18500-18749-revalidation-20261111.md):
+  188 new records, six retained candidates, one cleared candidate, one new
+  candidate, and 27 holds. Sixty-three duplicate-English groups match in
+  Korean; the Japanese-only line-break and marker-order exceptions are
+  documented.
+- [`18000`-`18249`](dialogue-context-default-18000-18249-revalidation-20261111.md):
+  187 new records, four retained candidates, and 13 holds. Fifty-nine
+  duplicate-English groups match in Korean.
+- [`17750`-`17999`](dialogue-context-default-17750-17999-revalidation-20261111.md):
+  183 new records, one new correction candidate, six holds, and two retained
+  candidates. Fifty-six duplicate-English groups match in Korean.
+- [`8500`-`8749`](dialogue-context-default-08500-08749-revalidation-20261111.md):
+  197 new records, 16 candidates, nine holds.
+- [`8750`-`8999`](dialogue-context-default-08750-08999-revalidation-20261111.md):
+  190 new records, 17 candidates, ten holds (two overlap).
+- [`9000`-`9249`](dialogue-context-default-09000-09249-revalidation-20261111.md):
+  170 new records, 11 candidates, ten holds (one overlap).
+- [`9250`-`9499`](dialogue-context-default-09250-09499-revalidation-20261111.md):
+  180 new records, 25 candidates, eleven holds (three overlap).
+- [`9500`-`9749`](dialogue-context-default-09500-09749-revalidation-20261111.md):
+  178 new records, 13 candidates, nine holds.
+- [`9750`-`9999`](dialogue-context-default-09750-09999-revalidation-20261111.md):
+  186 new records, 13 candidates, nine holds. Fifty-six exact-English
+  duplicate groups (1,333 rows) match in Korean; two line-break count
+  differences and one Japanese-only placeholder-order difference are
+  documented, with Korean matching English and Chinese.
+- [`10000`-`10249`](dialogue-context-default-10000-10249-revalidation-20261111.md):
+  182 new records, 13 candidates, and seven evidence-limited holds. All 38
+  exact-English duplicate groups (727 rows) match in Korean; logical
+  line-break counts and runtime/layout tokens match across all four languages.
+- [`10250`-`10499`](dialogue-context-default-10250-10499-revalidation-20261111.md):
+  182 new records, 17 candidates, and eight evidence-limited holds. All 44
+  exact-English duplicate groups (821 rows) match in Korean; runtime/layout
+  tokens and logical line-break counts match across all four languages.
+- [`10500`-`10749`](dialogue-context-default-10500-10749-revalidation-20261111.md):
+  188 new records, twelve candidates, and ten evidence-limited holds. All 55
+  exact-English duplicate groups (878 rows) match in Korean; runtime/layout
+  tokens and logical line-break counts match across all four languages.
+- [`10750`-`10999`](dialogue-context-default-10750-10999-revalidation-20261111.md):
+  195 new records, nine candidates, and six evidence-limited holds. Three
+  exact-English duplicate groups (486 rows) match in Korean. Chinese has one
+  fewer logical line break than English, Japanese, and Korean at `10790`;
+  Korean's 31 embedded CRLF breaks were preserved.
+- [`11000`-`11249`](dialogue-context-default-11000-11249-revalidation-20261111.md):
+  185 new records, five candidates, and 37 evidence-limited findings, with
+  three IDs appearing in both sets. Thirty-seven exact-English duplicate
+  groups (712 rows) match in Korean.
+- [`11250`-`11499`](dialogue-context-default-11250-11499-revalidation-20261111.md):
+  189 new records, four candidates, and eight evidence-limited findings.
+  Forty-three exact-English duplicate groups (405 rows) match in Korean;
+  runtime/layout-token and logical line-break signatures match across all four
+  languages. The seven Korean strings' existing 23 embedded CRLF breaks were
+  preserved.
+- [`11500`-`11749`](dialogue-context-default-11500-11749-revalidation-20261111.md):
+  187 new records, three candidates, and four evidence-limited findings (one
+  overlap). Forty-three exact-English duplicate groups (665 rows) match in
+  Korean; runtime/layout-token and logical line-break signatures match across
+  all four languages. Six Korean strings' existing 30 embedded CRLF breaks
+  were preserved.
+- [`11750`-`11999`](dialogue-context-default-11750-11999-revalidation-20261111.md):
+  172 new records, five candidates, and four evidence-limited findings.
+  Thirty-four exact-English duplicate groups (734 rows) match in Korean.
+  Logical line-break counts match except for a Chinese-source difference at
+  `11821`; ten Korean strings' existing 48 embedded CRLF breaks were
+  preserved.
+- [`12000`-`12249`](dialogue-context-default-12000-12249-revalidation-20261111.md):
+  188 new records, two new correction candidates, and 17 evidence-limited
+  findings. The existing `12131` candidate was retained without recounting.
+  Forty-eight exact-English duplicate groups (578 rows) match in Korean. The
+  only logical line-break difference is a Chinese-source discrepancy at
+  `12116`; seven Korean strings' existing 31 embedded CRLF breaks were
+  preserved.
+- [`12250`-`12499`](dialogue-context-default-12250-12499-revalidation-20261111.md):
+  193 new records, six correction candidates, and five evidence-limited
+  findings. Seventy-three exact-English duplicate groups (1,352 rows) match
+  in Korean. The Japanese-only variable-order difference at `12273` and the
+  heading split at `12357` are documented; nine Korean strings' existing 51
+  embedded CRLF breaks were preserved.
+- [`12500`-`12749`](dialogue-context-default-12500-12749-revalidation-20261111.md):
+  181 new records, five correction candidates, and 21 evidence-limited
+  findings. One hundred eighty exact-English duplicate groups (795 rows)
+  match in Korean; line-break and runtime/layout-marker signatures match
+  across all four languages.
+- [`12750`-`12999`](dialogue-context-default-12750-12999-revalidation-20261111.md):
+  184 new records, six correction candidates (including two reopened prior
+  `not-issue` records), and four new evidence-limited findings. Fifty-two
+  exact-English duplicate groups (670 rows) match in Korean; line-break and
+  runtime/layout-marker signatures match across all four languages.
+- [`13000`-`13249`](dialogue-context-default-13000-13249-revalidation-20261111.md):
+  176 new records, seven correction candidates, and ten evidence-limited
+  findings. Forty-three exact-English duplicate groups (598 rows) match in
+  Korean; runtime/layout-token and logical line-break signatures match across
+  all four languages.
+- [`13250`-`13499`](dialogue-context-default-13250-13499-revalidation-20261111.md):
+  183 new records, three correction candidates, and four evidence-limited
+  findings. One previously reviewed duplicate-English entry, `61836`, was
+  reopened as uncertain; source and line-break divergences are documented.
+- [`13500`-`13749`](dialogue-context-default-13500-13749-revalidation-20261111.md):
+  195 new records, three correction candidates, and six evidence-limited
+  findings. Thirty-three exact-English duplicate groups (547 rows) match in
+  Korean; placeholder, layout-token, and line-break signatures match across
+  all four languages. Five Korean strings' existing 72 embedded CRLF breaks
+  were preserved.
+- [`13750`-`13999`](dialogue-context-default-13750-13999-revalidation-20261111.md):
+  183 new records, four correction candidates, and six evidence-limited
+  findings. Forty-nine exact-English duplicate groups (863 rows) match in
+  Korean; placeholder, layout-token, and line-break signatures match across
+  all four languages. Four Korean strings' existing 19 embedded CRLF breaks
+  were preserved.
+- [`14000`-`14249`](dialogue-context-default-14000-14249-revalidation-20261111.md):
+  180 new records, eight correction candidates added or reopened, and two
+  evidence-limited holds added or reopened. Fifty-eight exact-English
+  duplicate groups (1,089 rows) match in Korean. Korean retains 27 existing
+  embedded CRLF breaks; the Chinese source has one fewer logical break at
+  `14209`.
+- [`14250`-`14499`](dialogue-context-default-14250-14499-revalidation-20261111.md):
+  183 new records, nine new correction candidates, and 13 evidence-limited
+  holds; two existing records were reclassified as candidates. Forty
+  exact-English duplicate groups (601 rows) were checked; the one Korean variant
+  is supported by a Japanese register difference. Logical line breaks and
+  runtime/layout-token structures match across all four languages.
+- [`14500`-`14749`](dialogue-context-default-14500-14749-revalidation-20261111.md):
+  182 new records, seven correction candidates, and four evidence-limited
+  holds. All 48 exact-English duplicate groups (555 rows) match in Korean;
+  line-break and runtime/layout-token structures match across all four
+  languages. The 68 existing records in this range passed fingerprint checks.
+- [`14750`-`14999`](dialogue-context-default-14750-14999-revalidation-20261111.md):
+  176 new records, eight correction candidates, and one evidence-limited
+  hold; two existing `not-issue` records were reopened. All 64 exact-English
+  duplicate groups (1,042 rows) match in Korean, and line-break and
+  runtime/layout-token structures match across all four languages.
+- [`15000`-`15049`](dialogue-context-default-15000-15049-revalidation-20261111.md):
+  35 new records, two correction candidates, and three evidence-limited
+  holds. All 50 rows match across the four language tables; line-break and
+  runtime/layout-marker structures match.
+- [`15050`-`15099`](dialogue-context-default-15050-15099-revalidation-20261111.md):
+  34 new records, seven correction candidates, and six evidence-limited
+  holds. One earlier candidate was cleared against the current Korean text;
+  all 50 rows match across the four language tables, including layout and
+  runtime-marker structure.
+- [`15100`-`15249`](dialogue-context-default-15100-15249-revalidation-20261111.md):
+  109 new records, four correction candidates, and three evidence-limited
+  holds. Forty-one existing fingerprints were checked; `15190` was
+  reclassified in place. All 34 exact-English duplicate groups touching the
+  range (593 corpus rows) match in Korean. Line breaks match; the Chinese
+  marker-order difference at `15164` is not present in Korean.
+- [`15250`-`15499`](dialogue-context-default-15250-15499-revalidation-20261111.md):
+  187 new records, four correction candidates, and four evidence-limited
+  holds. Sixty-three existing fingerprints matched. One exact-English
+  duplicate group (two rows) matches in Korean; line-break and
+  runtime/layout-token signatures match across all four languages.
+- [`15500`-`15749`](dialogue-context-default-15500-15749-revalidation-20261111.md):
+  191 new records, seven new correction candidates, one existing
+  reclassification (`15577`), one carried-forward card-name candidate, and
+  one evidence-limited hold. Fifty-nine existing fingerprints matched.
+  Sixty-three exact-English duplicate groups (1,400 corpus rows) match in
+  Korean; line-break and runtime/layout-token signatures match across all
+  four languages. Five Korean strings' existing 26 embedded CRLF breaks were
+  preserved.
+- [`15750`-`15999`](dialogue-context-default-15750-15999-revalidation-20261111.md):
+  194 new records, two correction candidates, and 17 evidence-limited holds.
+  Three existing records were reclassified: `15794` as a candidate and
+  `15846` / `15902` as uncertain. Fifty-six exact-English duplicate groups
+  (641 corpus rows) were checked; the one differing Korean translation is
+  supported by context. Line-break and runtime/layout-token signatures match
+  across all four languages, and 25 existing embedded CRLF breaks were
+  preserved.
+- [`16000`-`16249`](dialogue-context-default-16000-16249-revalidation-20261111.md):
+  57 existing fingerprints matched and 193 IDs were added, with five
+  retained candidates and seven evidence-limited holds. All 51 exact-English
+  duplicate groups (360 corpus rows) match in Korean; line-break and
+  runtime/layout-marker signatures match across all four languages.
+- [`16250`-`16499`](dialogue-context-default-16250-16499-revalidation-20261111.md):
+  70 existing fingerprints matched and 180 IDs were added, with seven new
+  candidates and twelve evidence-limited holds. All 65 exact-English
+  duplicate groups (1,301 corpus rows) match in Korean; line-break and
+  runtime/layout-marker signatures match across all four languages.
+- [`16500`-`16749`](dialogue-context-default-16500-16749-revalidation-20261111.md):
+  66 existing fingerprints matched and 184 IDs were added, with five new
+  candidates, one existing candidate reclassification, ten new holds, and
+  three existing rows reclassified as holds. All 56 exact-English
+  duplicate groups (1,049 corpus rows) match in Korean; line-break and
+  runtime/layout-marker signatures match across all four languages.
+- [`16750`-`16999`](dialogue-context-default-16750-16999-revalidation-20261111.md):
+  60 existing fingerprints matched and 190 IDs were added, with seven new
+  correction candidates and six evidence-limited holds. Fifty exact-English
+  duplicate groups (771 corpus rows) were checked; one Korean difference is
+  supported by Japanese context. Runtime/layout tokens match across all four
+  languages; the Japanese Carver poem has one fewer embedded break than
+  English, Chinese, and Korean. Forty-two existing Korean embedded CRLF
+  breaks were preserved.
+- [`17000`-`17249`](dialogue-context-default-17000-17249-revalidation-20261111.md):
+  69 existing fingerprints matched and 181 IDs were added, with six new
+  correction-candidate findings and two evidence-limited holds. The exact
+  duplicate group and logical line-break signatures were checked across four
+  languages.
+- [`17250`-`17499`](dialogue-context-default-17250-17499-revalidation-20261111.md):
+  65 existing fingerprints matched and 185 IDs were added, with five new
+  correction candidates and ten new evidence-limited holds. Two existing
+  rows were reclassified as candidates and five as holds; five prior
+  candidates and two holds were retained. Three exact-English duplicate
+  groups match in Korean, and line-break/markup signatures were checked.
+- [Amphora fingerprint follow-up](dialogue-context-amphora-fingerprint-followup-20261111.md):
+  13 rows updated with the requested English pairing were re-compared across
+  four languages; prior dispositions were retained.
+
+The preceding full-corpus pass compared IDs `8250`-`8499` across English,
+Japanese, Chinese, and Korean, adding 170 previously unrecorded IDs; the
+other 80 IDs already had current ledger records. It recorded five correction
+candidates and one evidence-limited hold. Forty-one exact-English duplicate
+groups touched the range (1,017 rows across the corpus), and all groups have
+matching Korean translations. Logical line-break counts and runtime/layout
+tokens matched across all four languages. Four Korean strings contain 13
+existing CRLF embedded breaks. Of the 170 new IDs, 114 have indexed quest-asset
+links and 56 do not. No translation CSV was changed. See
+[`dialogue-context-default-08250-08499-revalidation-20261111.md`](dialogue-context-default-08250-08499-revalidation-20261111.md).
+
+The latest full-corpus pass compared IDs `8000`-`8249` across English,
+Japanese, Chinese, and Korean, adding 179 previously unrecorded IDs; the
+other 71 IDs already had current ledger records. It recorded eight correction
+candidates and three evidence-limited holds. Sixty-five exact-English
+duplicate groups touched the range (1,547 rows across the corpus), and all
+groups have matching Korean translations. Logical line-break counts and
+runtime/layout-token identities matched across all four languages;
+placeholder positions vary as expected at `8077` and `8127`. Six Korean
+strings contain 21 existing CRLF embedded breaks. Of the 179 new IDs, 127
+have indexed quest-asset links and 52 do not. No translation CSV was changed.
+See
+[`dialogue-context-default-08000-08249-revalidation-20261111.md`](dialogue-context-default-08000-08249-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `7750`-`7999` across English,
+Japanese, Chinese, and Korean, adding 187 previously unrecorded IDs; the
+other 63 IDs already had current ledger records. It recorded five correction
+candidates and four evidence-limited holds. Forty-one exact-English
+duplicate groups touched the range (666 rows across the corpus), and all
+groups have matching Korean translations. Logical line-break counts and
+runtime-variable/layout-wrapper signatures matched across all four languages;
+localized ability names inside the wrappers at `7807` differ by language as
+expected. Two Korean strings contain 13 existing CRLF embedded breaks. No
+translation CSV was changed. See
+[`dialogue-context-default-07750-07999-revalidation-20261111.md`](dialogue-context-default-07750-07999-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `7500`-`7749` across English,
+Japanese, Chinese, and Korean, adding 181 previously unrecorded IDs; the
+other 69 IDs already had current ledger records. It recorded twelve
+correction candidates and three evidence-limited holds. Fifty-six
+exact-English duplicate groups touched the range (791 rows across the
+corpus), and all groups have matching Korean translations. Line-break counts
+and runtime-variable/layout-wrapper structure matched across the four
+languages; the localized display label at `7582` differs by language as
+expected. Five Korean strings contain 12 existing CRLF embedded breaks. No
+translation CSV was changed. See
+[`dialogue-context-default-07500-07749-revalidation-20261111.md`](dialogue-context-default-07500-07749-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `7250`-`7499` across English,
+Japanese, Chinese, and Korean, adding 181 previously unrecorded IDs; the
+other 69 IDs already had current ledger records. It recorded six correction
+candidates and five evidence-limited dimensions, with one ID in both groups.
+Sixty-eight exact-English duplicate groups touched the range (1,531 rows
+across the corpus); one group's Korean translations differ at `7332` and
+`11660`, and the existing `11660` report already records the issue. Runtime
+variable and layout-control wrappers and their order matched. ID `7257` has
+three logical line breaks in English, Chinese, and Korean but two in Japanese.
+Three Korean strings contain 12 existing CRLF embedded breaks. No translation
+CSV was changed. See
+[`dialogue-context-default-07250-07499-revalidation-20261111.md`](dialogue-context-default-07250-07499-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `7000`-`7249` across English,
+Japanese, Chinese, and Korean, adding 187 previously unrecorded IDs; the
+other 63 IDs already had current ledger records. It recorded nineteen
+correction candidates, including three evidence-limited dimensions.
+Fifty-nine exact-English duplicate groups touching the range (1,383 rows
+across the corpus) matched in Korean. Runtime-variable and layout-control
+wrappers and their order matched; logical line-break counts also matched.
+Six Korean strings contain 30 existing CRLF embedded breaks where the other
+locales use LF. The review confirmed direct self-identification for Eswin at
+`7013` and flagged the repeated House of Ballads parenthetical at `7141`. No
+translation CSV was changed. See
+[`dialogue-context-default-07000-07249-revalidation-20261111.md`](dialogue-context-default-07000-07249-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `6750`-`6999` across English,
+Japanese, Chinese, and Korean, adding 179 previously unrecorded IDs; the
+other 71 IDs already had current ledger records. It recorded nineteen new
+correction candidates and three new evidence-limited holds. Fifty-seven
+exact-English duplicate groups touching the range (1,214 rows across the
+corpus) matched in Korean. Runtime-variable, layout-control, and logical
+line-break signatures matched. Two Korean strings contain three existing
+CRLF embedded breaks where the other locales use LF. No translation CSV was
+changed. See
+[`dialogue-context-default-06750-06999-revalidation-20261111.md`](dialogue-context-default-06750-06999-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `6500`-`6749` across English,
+Japanese, Chinese, and Korean, adding 183 previously unrecorded IDs; the
+other 67 IDs already had ledger records. It recorded sixteen correction
+candidates and three evidence-limited holds. Thirty-four exact-English
+duplicate groups touching the range (690 rows across the corpus) matched in
+Korean. Logical line-break counts matched. Two Japanese/Chinese marker-order
+differences occur at `6562` and `6583`; Korean matches English at `6562` and
+English/Chinese at `6583`. Seven Korean strings contain 29 existing CRLF
+embedded breaks where the other locales use LF. No translation CSV was
+changed. See
+[`dialogue-context-default-06500-06749-revalidation-20261111.md`](dialogue-context-default-06500-06749-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `6250`-`6499` across English,
+Japanese, Chinese, and Korean, adding 184 previously unrecorded IDs; the
+other 66 IDs already had ledger records. It recorded five correction
+candidates and one evidence-limited hold. Fifty-two exact-English duplicate
+groups touching the range (853 rows across the corpus) matched in Korean.
+Runtime-variable, layout-control, and logical line-break signatures matched.
+Two Korean strings contain 11 existing CRLF embedded breaks where the other
+locales use LF. No translation CSV was changed. See
+[`dialogue-context-default-06250-06499-revalidation-20261111.md`](dialogue-context-default-06250-06499-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `6000`-`6249` across English,
+Japanese, Chinese, and Korean, adding 186 previously unrecorded IDs; the
+other 64 IDs already had ledger records. It recorded five correction
+candidates and four evidence-limited holds. Fifty-six exact-English duplicate
+groups touching the range (933 rows across the corpus) matched in Korean.
+Runtime-variable and layout-control signatures matched; ID `6032` is the
+only logical line-break-count difference. Five Korean strings contain 22
+existing CRLF embedded breaks where the other locales use LF. No translation
+CSV was changed. See
+[`dialogue-context-default-06000-06249-revalidation-20261111.md`](dialogue-context-default-06000-06249-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `5750`-`5999` across English,
+Japanese, Chinese, and Korean, adding 170 previously unrecorded IDs; the
+other 80 IDs already had ledger records. It recorded three correction
+candidates and two evidence-limited holds. Forty-one exact-English duplicate
+groups touching the range (549 rows) matched in Korean. Logical line-break
+counts match across all four languages; runtime/layout-token signatures match
+except for a Japanese variable-order difference at ID `5918`. Seven Korean
+strings contain 30 CRLF embedded breaks where the other locales use LF, so
+their existing bytes were preserved. No translation CSV was changed. See
+[`dialogue-context-default-05750-05999-revalidation-20261111.md`](dialogue-context-default-05750-05999-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `5500`-`5749` across English,
+Japanese, Chinese, and Korean, adding 181 previously unrecorded IDs; the
+other 69 IDs already had ledger records. It recorded four correction
+candidates and two evidence-limited holds. Forty-five exact-English duplicate
+groups touching the range (923 rows) matched in Korean. Logical line-break
+counts and runtime/layout-token signatures match across all four languages;
+four Korean strings contain 22 CRLF embedded breaks where the other locales
+use LF, so their existing bytes were preserved. No translation CSV was
+changed. See
+[`dialogue-context-default-05500-05749-revalidation-20261111.md`](dialogue-context-default-05500-05749-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `5250`-`5499` across English,
+Japanese, Chinese, and Korean, adding 185 previously unrecorded IDs; the
+other 65 IDs already had ledger records. It recorded three correction
+candidates and seven evidence-limited holds. Forty-nine exact-English
+duplicate groups touching the range (588 rows) matched in Korean. Logical
+line-break counts and runtime/layout-token signatures match across all four
+languages; five Korean strings contain 20 CRLF embedded breaks where the
+other locales use LF, so their existing bytes were preserved. No translation
+CSV was changed. See
+[`dialogue-context-default-05250-05499-revalidation-20261111.md`](dialogue-context-default-05250-05499-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `5000`-`5249` across English,
+Japanese, Chinese, and Korean, adding 192 previously unrecorded IDs; the
+other 58 IDs already had ledger records. It recorded ten correction-candidate
+IDs and 23 evidence-limited holds, with three IDs appearing in both
+categories. Thirty-two exact-English duplicate groups touching the range
+(508 rows) were checked across the full corpus and their Korean text matched.
+Line-break counts match except at ID `5204`, where Chinese has one fewer
+break. Eight Korean embedded breaks use CRLF while the other locales use LF;
+ID `5243` also has a Chinese marker-order difference. No translation CSV was
+changed. See
+[`dialogue-context-default-05000-05249-revalidation-20261111.md`](dialogue-context-default-05000-05249-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `4750`-`4999` across English,
+Japanese, Chinese, and Korean, adding 198 previously unrecorded IDs; the
+other 52 IDs already had ledger records. It recorded eight correction-candidate
+IDs and 15 evidence-limited holds, with two IDs appearing in both categories.
+Forty-four exact-English duplicate groups touching the range (893 rows) were
+checked across the full corpus and their Korean text matched. Logical
+line-break counts match except at ID `4819`, where Japanese has additional
+paragraph breaks. Nine Korean embedded breaks use CRLF while the other
+locales use LF; those byte-level differences remain on hold. No translation
+CSV was changed. See
+[`dialogue-context-default-04750-04999-revalidation-20261111.md`](dialogue-context-default-04750-04999-revalidation-20261111.md).
+
+The preceding full-corpus pass compared IDs `4500`-`4749` across English,
+Japanese, Chinese, and Korean, adding 176 previously unrecorded IDs; the
+other 74 IDs already had ledger records. It logged one correction candidate
+and four evidence-limited format holds. Forty-six exact-English duplicate
+groups touching the range (467 rows) were checked across the corpus and their
+Korean text matched. Logical line-break counts and runtime/layout-token
+sequences matched, but four Korean embedded line breaks use CRLF while the
+other locales use LF; their byte-level format remains on hold. No translation
+CSV was changed. See
+[`dialogue-context-default-04500-04749-revalidation-20261111.md`](dialogue-context-default-04500-04749-revalidation-20261111.md).
+The preceding pass compared IDs `4250`-`4499` across English, Japanese,
+Chinese, and Korean, adding 174 previously unrecorded IDs; the other 76 IDs
+already had ledger records. It logged two correction candidates. Forty-two
+exact-English duplicate groups touching the range (544 rows) were checked
+across the corpus and their Korean text matched. Line-break counts and
+runtime/layout-token sequences matched across all four languages. A
+source-grounded follow-up resolved the Sorrows meaning holds at IDs `3364`
+and `3831`; ID `64074` has a separate term-consistency candidate. No
+translation CSV was changed. See
+[`dialogue-context-default-04250-04499-revalidation-20261111.md`](dialogue-context-default-04250-04499-revalidation-20261111.md).
+The preceding full-corpus pass compared IDs `4000`-`4249` across English,
+Japanese, Chinese, and Korean, adding 183 previously unrecorded IDs; the
+other 67 IDs already had ledger records. It logged one correction candidate
+and one evidence-limited hold. Fifty-four exact-English duplicate groups
+touching the range (911 rows) were checked across the corpus and their Korean
+text matched. Line-break counts matched across all four languages for the new
+IDs, and source layout-marker differences were documented. No translation
+CSV was changed. See
+[`dialogue-context-default-04000-04249-revalidation-20261111.md`](dialogue-context-default-04000-04249-revalidation-20261111.md).
+The preceding full-corpus pass compared IDs `3750`-`3999` across English,
+Japanese, Chinese, and Korean, adding 170 previously unrecorded IDs; the
+other 80 IDs already had ledger records. It logged seven correction candidates
+and one evidence-limited hold. Thirty-nine exact-English duplicate groups
+touching the range (717 rows) were checked across the corpus and their Korean
+text matched. Line-break counts matched across all four languages for the new
+IDs; ID `3770` has a localized-marker content candidate while preserving its
+format wrapper. No translation CSV was changed. See
+[`dialogue-context-default-03750-03999-revalidation-20261111.md`](dialogue-context-default-03750-03999-revalidation-20261111.md).
+The preceding full-corpus pass compared IDs `3500`-`3749` across English,
+Japanese, Chinese, and Korean, adding 188 previously unrecorded IDs; the
+other 62 IDs already had ledger records. It logged six correction candidates
+and nine evidence-limited holds. Forty-seven exact-English duplicate groups
+touching the range (1,002 rows) were checked across the corpus and their
+Korean text matched. Runtime/layout tokens were present; the only line-break
+count difference was ID `3592`, which remains held because the language
+references differ in segmentation. No translation CSV was changed. See
+[`dialogue-context-default-03500-03749-revalidation-20261111.md`](dialogue-context-default-03500-03749-revalidation-20261111.md).
+The preceding full-corpus pass compared IDs `3250`-`3499` across English,
+Japanese, Chinese, and Korean, adding 196 previously unrecorded IDs. It logged
+seven correction candidates and seven evidence-limited holds. Fifty
+exact-English duplicate groups touching that range (1,000 rows) matched in
+Korean; line-break and runtime/layout-token signatures matched except for one
+missing Korean line break at ID `3330`. No translation CSV was changed. See
+[`dialogue-context-default-03250-03499-revalidation-20261111.md`](dialogue-context-default-03250-03499-revalidation-20261111.md).
+The preceding pass compared IDs `3000`-`3249`, adding 179 IDs with 16
+candidates and one hold; see
+[`dialogue-context-default-03000-03249-revalidation-20261111.md`](dialogue-context-default-03000-03249-revalidation-20261111.md).
+The preceding pass compared IDs `2750`-`2999`, adding 183 IDs and recording
+seven candidates and five holds; see
+[`dialogue-context-default-02750-02999-revalidation-20261111.md`](dialogue-context-default-02750-02999-revalidation-20261111.md).
+The next full-corpus range is IDs `15250`-`15499`.
+The preceding pass compared IDs `2500`-`2749`, adding 195 IDs and recording 13
+candidates and five holds; see
+[`dialogue-context-default-02500-02749-revalidation-20261111.md`](dialogue-context-default-02500-02749-revalidation-20261111.md).
+The preceding full-corpus pass compared IDs `2000`-`2249` across English,
+Japanese, Chinese, and Korean, adding 184 previously unrecorded IDs. It logged
+seven correction candidates and two evidence-limited holds. Thirty-eight
+exact-English duplicate groups touching the range were checked across the
+corpus and their Korean text matched; line-break and runtime-marker checks
+also passed. No translation CSV was changed. See
+[`dialogue-context-default-02000-02249-revalidation-20261111.md`](dialogue-context-default-02000-02249-revalidation-20261111.md).
+The preceding pass compared IDs `1750`-`1999`, adding 187 previously
+unrecorded IDs with ten correction candidates and one evidence-limited hold.
+Exact-English duplicate groups touching that range were checked across the
+corpus and their Korean text matched; line-break and runtime-marker checks
+also passed. No translation CSV was changed. See
+[`dialogue-context-default-01750-01999-revalidation-20261111.md`](dialogue-context-default-01750-01999-revalidation-20261111.md).
+The preceding full-corpus pass compared IDs `1500`-`1749`, adding 187
+previously unrecorded IDs with 15 correction candidates and three
+evidence-limited holds. No exact-English duplicate groups occurred;
+line-break counts and runtime-marker indices and order matched across the four
+languages. No translation CSV was changed. See
+[`dialogue-context-default-01500-01749-revalidation-20261111.md`](dialogue-context-default-01500-01749-revalidation-20261111.md).
+The preceding `1250`-`1499` range added 180 IDs, 16 candidates, and three
+holds; exact-English duplicate IDs `1266`/`1429` match in Korean, and
+structural signatures matched. See
+[`dialogue-context-default-01250-01499-revalidation-20261111.md`](dialogue-context-default-01250-01499-revalidation-20261111.md).
+The preceding `1000`-`1249` range added 184 IDs, ten candidates, and seven
+holds (ID `1041` overlaps); exact-English duplicate IDs `1043`/`1174` match,
+and structural signatures matched. See
+[`dialogue-context-default-01000-01249-revalidation-20261111.md`](dialogue-context-default-01000-01249-revalidation-20261111.md).
+Earlier ranges `2250`-`2499`, `2000`-`2249`, `1750`-`1999`, `1500`-`1749`,
+`1250`-`1499`, `1000`-`1249`, `750`-`999`, `500`-`749`, and `250`-`499` are
+documented in the linked reports below.
+
+Earlier asset-group continuations reviewed 103 IDs in
+[`1382473`](dialogue-context-1382473-sq114-brun-revalidation-20261111.md),
+recording 14 correction candidates and four holds. The next wholly
+unrecorded asset in that historical asset-group queue was
+`1946261.quest_bxml` (103 IDs). Another continuation reviewed 102 IDs in
+[`576353`](dialogue-context-576353-sq46-master-touch-revalidation-20261111.md),
+recording 23 correction candidates and three holds. An earlier continuation
+reviewed 102 IDs in
+[`2026652`](dialogue-context-2026652-dlc1-ph07b-ollie-training-revalidation-20261111.md),
+recording seven correction candidates and three holds (one overlaps). An earlier
+continuation reviewed 101 IDs in
+[`1262645` / SQ77](dialogue-context-1262645-sq77-building-bridges-revalidation-20261111.md),
+recording ten correction candidates and eight holds (one overlaps). An earlier
+continuation reviewed 100 IDs in
+[`507502`](dialogue-context-507502-sa08-revalidation-20261111.md), recording
+19 correction candidates and three holds (one overlaps). An earlier
+continuation reviewed 292 IDs across
+[`521918`](dialogue-context-521918-sq13-antelope-revalidation-20261111.md),
+[`611613`](dialogue-context-611613-sq66-lost-squad-revalidation-20261111.md),
+and [`731979`](dialogue-context-731979-menetyre-revalidation-20261111.md),
+recording 47 correction-candidate IDs and 11 IDs with unresolved findings
+(five overlap). These are review proposals, not applied edits. An earlier
+continuation reviewed 380 IDs across
+[`1695875` / SQ152](dialogue-context-1695875-sq152-under-watch-revalidation-20261111.md),
+[`529073` / SQ11](dialogue-context-529073-sq11-culn-revalidation-20261111.md),
+[`1458189` / SQ122](dialogue-context-1458189-sq122-tidings-war-revalidation-20261111.md),
+and [`501490` / TR07](dialogue-context-501490-tr07-missives-revalidation-20261111.md),
+recording 42 correction-candidate IDs and 29 IDs with unresolved findings
+(four overlap). No translation CSV was changed. The four supplemental IDs
+are `1691`, `18005`, `31283`, and `47041`; the last's
+`no_quest_asset_match` sentinel was previously miscounted as an asset link.
+The latest pass reviewed all 89 IDs in `583289.quest_bxml`, adding them to
+the ledger with 11 correction candidates. Its 15 NPC symbols and 43
+`HV07`-prefixed handlers do not establish per-key speakers or dialogue order;
+there is no explicit `QUEST_ID`. Five exact-English duplicate groups matched
+in Korean, and all four-language format signatures matched. No translation
+CSV was changed. See
+[`dialogue-context-583289-hv07-arena-revalidation-20261111.md`](dialogue-context-583289-hv07-arena-revalidation-20261111.md).
+The latest pass reviewed all 89 IDs in `1993963.quest_bxml`, adding them to
+the ledger with seven correction candidates and one evidence-limited hold.
+Its 39 `DLC1_SQ08`-prefixed handlers are only a quest clue; the asset has no
+explicit quest ID or NPC symbol, so individual speakers and dialogue order
+remain unknown. Five exact-English duplicate groups matched in Korean, and
+all four-language format signatures matched. No translation CSV was changed.
+See
+[`dialogue-context-1993963-dlc1-sq08-tari-holstig-revalidation-20261111.md`](dialogue-context-1993963-dlc1-sq08-tari-holstig-revalidation-20261111.md).
+The latest pass reviewed all 89 IDs in `1521231.quest_bxml`, adding them to
+the ledger with seven correction candidates and three evidence-limited hold
+IDs. Its 37 `SQ127`-prefixed handlers provide only a quest clue; the asset has
+no explicit quest ID or NPC symbol, so individual speakers and dialogue order
+remain unknown. Two exact-English duplicate groups matched in Korean, and
+all four-language format signatures matched. No translation CSV was changed.
+See
+[`dialogue-context-1521231-sq127-malicious-practices-revalidation-20261111.md`](dialogue-context-1521231-sq127-malicious-practices-revalidation-20261111.md).
+The latest pass reviewed all 89 IDs in `1632212.quest_bxml` (`SQ149`),
+recording eight correction candidates and three evidence-limited holds. The
+two NPC symbols and 37 handlers do not establish per-key speakers or dialogue
+order; ID `2835` explicitly self-identifies Gwalchmai. Four exact-English
+duplicate groups matched in Korean, and all four-language format signatures
+matched. No translation CSV was changed. See
+[`dialogue-context-1632212-sq149-mixing-business-revalidation-20261111.md`](dialogue-context-1632212-sq149-mixing-business-revalidation-20261111.md).
+The latest pass reviewed all 87 IDs in `630966.quest_bxml`, adding them to the
+ledger with 18 correction candidates and one evidence-limited hold. The
+`SQ65` handler prefix is only a quest clue; the asset has no explicit quest ID
+or NPC symbol, so it does not establish per-key speakers or dialogue order.
+Two first-person self-identifications support the limited attributions of
+Ordo and Maura Chalin; no playback order was inferred. Two exact-English
+duplicate groups matched in Korean, and all four-language format signatures
+matched. No translation CSV was changed. See
+[`dialogue-context-630966-sq65-maura-ordo-revalidation-20261111.md`](dialogue-context-630966-sq65-maura-ordo-revalidation-20261111.md).
+The latest pass reviewed all 86 IDs in `440729.quest_bxml`, adding them to
+the ledger. It recorded 13 correction-candidate IDs and 12 evidence-limited
+holds, with six IDs in both groups. The `SQ04` handler prefix is only a quest
+clue; the asset has no explicit quest ID or NPC symbol, so it does not
+establish per-key speakers or dialogue order. Two exact-English duplicate
+groups matched in Korean, and all four-language format signatures matched.
+No translation CSV was changed. See
+[`dialogue-context-440729-sq04-flowering-revalidation-20261111.md`](dialogue-context-440729-sq04-flowering-revalidation-20261111.md).
+The preceding pass reviewed all 86 IDs in `747925.quest_bxml` (`FFQ24`), adding
+them to the ledger and recording 16 correction candidates. Four exact-English
+duplicate groups matched in Korean, and all four-language format signatures
+matched. Its six NPC symbols and 42 handlers do not establish per-key
+speakers or dialogue order. No translation CSV was changed. See
+[`dialogue-context-747925-ffq24-death-notices-revalidation-20261111.md`](dialogue-context-747925-ffq24-death-notices-revalidation-20261111.md).
+The preceding two-asset pass reviewed 171 IDs in `2009109.quest_bxml`
+(`DLC1_PH05b`) and `439722.quest_bxml` (`SQ08`), adding all 171 to the ledger.
+It recorded four candidates for the Gravehal paintings asset and 28 candidate
+IDs plus two evidence-limited holds for `SQ08` (ID `44477` is both a candidate
+and a hold). Exact-English duplicate groups matched in Korean, and all
+four-language line-break, runtime-token, and markup signatures matched. The
+asset-level NPCs and handlers do not establish per-key speakers or playback
+order. No translation CSV was changed. See
+[`dialogue-context-2009109-dlc1-ph05b-gravehal-paintings-revalidation-20261111.md`](dialogue-context-2009109-dlc1-ph05b-gravehal-paintings-revalidation-20261111.md)
+and
+[`dialogue-context-439722-sq08-headsman-revalidation-20261111.md`](dialogue-context-439722-sq08-headsman-revalidation-20261111.md).
+The preceding pass revalidated all 83 IDs linked to `571972.quest_bxml`
+(`HV03` / House of Valor), adding all 83 to the ledger. Four correction
+candidates and one evidence-limited hold were recorded. Its seven NPC symbols
+and 48 dialogue handlers do not map per-key speakers or playback order. Ten
+exact-English duplicate groups had identical Korean, and format signatures
+matched. No translation CSV was changed. See
+[`dialogue-context-571972-hv03-house-of-valor-revalidation-20261111.md`](dialogue-context-571972-hv03-house-of-valor-revalidation-20261111.md).
+The preceding pass revalidated all 83 IDs linked to `525551.quest_bxml`
+(`SQ17` / Canneroc-Webwood), adding all 83 to the ledger. Four correction
+candidates and one evidence-limited hold were found. Its two NPC symbols and
+40 dialogue handlers do not establish per-key speakers or playback order. Six
+exact-English duplicate pairs have identical Korean, and line-break,
+runtime-token, and markup signatures match. No translation CSV was changed.
+See
+[`dialogue-context-525551-sq17-canneroc-webwood-revalidation-20261111.md`](dialogue-context-525551-sq17-canneroc-webwood-revalidation-20261111.md).
+The preceding pass revalidated all 56 IDs linked to `2605200.quest_bxml`
+(`ao_sq_ch_006` / Invasive Species), adding 55 new ledger records; shared ID
+`60633` was already recorded. Five correction candidates were found. The BXML
+identifies quest stages and Michaela Vogel but does not map keys to individual
+speakers or playback order. No translation CSV was changed. See
+[`dialogue-context-2605200-ao-sq-ch-006-invasive-species-revalidation-20261111.md`](dialogue-context-2605200-ao-sq-ch-006-invasive-species-revalidation-20261111.md).
+The preceding pass revalidated all 55 IDs linked to `2604801.quest_bxml`, adding
+54 new ledger records; shared ID `60633` was already recorded. Six correction
+candidates were found. The BXML has no explicit quest ID, NPC symbol, or
+dialogue handler, so no per-key speakers or order were inferred. No
+translation CSV was changed. See
+[`dialogue-context-2604801-hunting-party-revalidation-20261111.md`](dialogue-context-2604801-hunting-party-revalidation-20261111.md).
+The preceding pass revalidated all 53 IDs linked to `2603901.quest_bxml`
+(`ao_sq_re_005` / Maisie's Luck), adding 52 new ledger records; shared ID
+`60633` already had this asset in its cross-asset record. Eight correction
+candidates and one evidence-limited hold were recorded. No per-key speaker
+or dialogue order was inferred, and no translation CSV was changed. See
+[`dialogue-context-2603901-ao-sq-re-005-maisies-luck-revalidation-20261111.md`](dialogue-context-2603901-ao-sq-re-005-maisies-luck-revalidation-20261111.md).
+The preceding pass revalidated all 83 IDs in `510295.quest_bxml` (`FFQ04` /
+Ring and Reprisal). It records 12 correction-candidate IDs. Its 38
+`FFQ04`-prefixed handlers do not establish individual speakers or dialogue
+order. No exact-English duplicate groups or four-language format mismatches
+were found; no translation CSV was changed. See
+[`dialogue-context-510295-ffq04-ring-reprisal-revalidation-20261111.md`](dialogue-context-510295-ffq04-ring-reprisal-revalidation-20261111.md).
+The preceding pass revalidated all 81 IDs in `497709.quest_bxml`. It records
+three correction-candidate IDs. Its 34 `HM06`-prefixed handlers do not
+establish individual speakers or dialogue order. No exact-English duplicate
+groups or four-language format mismatches were found; no translation CSV was
+changed. See
+[`dialogue-context-497709-hm06-maid-sagrell-revalidation-20261111.md`](dialogue-context-497709-hm06-maid-sagrell-revalidation-20261111.md).
+The preceding pass revalidated all 80 IDs in `628550.quest_bxml`, recording
+eight correction-candidate IDs. Its 30 `SQ67`-prefixed handlers do not
+establish individual speakers or dialogue order. Three exact-English
+duplicate groups had matching Korean, and all four-language format signatures
+passed. No translation CSV was changed. See
+[`dialogue-context-628550-sq67-audra-khleran-revalidation-20261111.md`](dialogue-context-628550-sq67-audra-khleran-revalidation-20261111.md).
+The preceding pass revalidated all 80 IDs in `523508.quest_bxml`. It records
+20 correction-candidate IDs and one evidence-limited hold; its `SQ12` handler
+prefix does not establish individual speakers or dialogue order. Two
+exact-English duplicate groups and all four-language format signatures passed.
+No translation CSV was changed. See
+[`dialogue-context-523508-sq12-revalidation-20261111.md`](dialogue-context-523508-sq12-revalidation-20261111.md).
+The preceding pass revalidated all 79 IDs in `1600024.quest_bxml` (`SQ144`),
+recording 14 correction-candidate IDs without changing the translation CSV.
+Its two NPC symbols do not establish per-key speakers or dialogue order. Five
+exact-English duplicate groups had matching Korean, and format checks passed.
+See
+[`dialogue-context-1600024-sq144-lyra-ommer-revalidation-20261111.md`](dialogue-context-1600024-sq144-lyra-ommer-revalidation-20261111.md).
+The preceding pass revalidated all 78 IDs in `600351.quest_bxml`, recording one
+line-level register candidate. Its `FP02` handler prefix and House of Sorrows
+topic do not establish individual speakers or dialogue order. The repeated
+English group and all four-language format signatures passed; no translation
+CSV was changed. See
+[`dialogue-context-600351-revalidation-20261111.md`](dialogue-context-600351-revalidation-20261111.md).
+The preceding pass revalidated all 421 IDs across
+`1991492.quest_bxml`, `1993117.quest_bxml`, `1993119.quest_bxml`,
+`1993121.quest_bxml`, and `1993123.quest_bxml`. It recorded 31 correction
+candidates and one evidence-limited hold. Forty-five exact-English duplicate
+groups covering 167 rows had matching Korean, and format checks passed for
+all IDs. The assets do not establish per-key speakers or dialogue order. No
+translation CSV or extracted game asset was changed. See
+[`dialogue-context-five-gravehal-restoration-assets-revalidation-20261111.md`](dialogue-context-five-gravehal-restoration-assets-revalidation-20261111.md).
+The preceding pass revalidated all 385 IDs across
+`1944003.quest_bxml`, `1646483.quest_bxml`, `2023654.quest_bxml`,
+`590984.quest_bxml`, and `589931.quest_bxml`, recording six correction
+candidates and three evidence-limited holds without changing the translation
+CSV. The handler prefixes support topic grouping only; no individual speakers
+or dialogue order were inferred. Twenty exact-English duplicate groups
+covering 54 rows have matching Korean, and the four-language line-break,
+runtime-token, and markup checks found no mismatches. See
+[`dialogue-context-next-five-unrecorded-assets-revalidation-20261111.md`](dialogue-context-next-five-unrecorded-assets-revalidation-20261111.md).
+The preceding pass revalidated all 213 IDs across
+`1310318.quest_bxml`, `1320107.quest_bxml`, and `1335981.quest_bxml`,
+recording seven correction candidates and one evidence-limited speech-level
+hold. The handler prefixes support topic grouping only; no individual speaker
+or dialogue order was inferred. Seventeen exact-English duplicate groups have
+no Korean divergence, and line-break/token/markup checks passed. No translation
+CSV was changed. See
+[`dialogue-context-three-quest-assets-sq91-sq95-sq109-revalidation-20261111.md`](dialogue-context-three-quest-assets-sq91-sq95-sq109-revalidation-20261111.md).
+The latest pass revalidated 207 IDs across
+`1364459.quest_bxml`, `1961287.quest_bxml`, and `482304.quest_bxml` (`MQ17`),
+recording 11 correction candidates and one evidence-limited speech-level
+hold. No per-key speaker or playback order was inferred; 21 explicit crime
+action labels are classified as player-choice text. No translation CSV was
+changed. See
+[`dialogue-context-next-three-smallest-assets-revalidation-20261111.md`](dialogue-context-next-three-smallest-assets-revalidation-20261111.md).
+The preceding pass revalidated all 66 IDs in `744464.quest_bxml` (`SQ96`),
+recording four correction candidates and one evidence-limited speech-level
+hold. Four first-person introductions support explicit Vincent Helvern and
+Bor Anjar speaker records, and 14 unequivocal first-person rows are classified
+as player-choice text. No dialogue order or branch placement was inferred.
+No translation CSV was changed. See
+[`dialogue-context-744464-sq96-motus-mining-revalidation-20261111.md`](dialogue-context-744464-sq96-motus-mining-revalidation-20261111.md).
+The preceding pass revalidated all 309 IDs across five assets:
+`345823.quest_bxml`, `1352899.quest_bxml`, `1568843.quest_bxml`,
+`1965163.quest_bxml`, and `557095.quest_bxml`. It records 35
+correction-candidate IDs and three evidence-limited speech-level holds, with
+one ID in both sets. No per-key speaker or playback order was inferred, and
+no translation CSV was changed. See
+[`dialogue-context-next-five-smallest-assets-followup-revalidation-20261111.md`](dialogue-context-next-five-smallest-assets-followup-revalidation-20261111.md).
+The preceding pass revalidated 273 IDs across `1987402.quest_bxml`,
+`528652.quest_bxml`, `2601300.quest_bxml`, `1759742.quest_bxml`, and
+`1577264.quest_bxml`, recording 37 correction-candidate IDs and seven
+evidence-limited speech-level holds. No per-key speaker or playback order was
+inferred, and no translation CSV was changed. See
+[`dialogue-context-next-five-assets-iddyla-turin-apotyre-ariad-eathe-revalidation-20261111.md`](dialogue-context-next-five-assets-iddyla-turin-apotyre-ariad-eathe-revalidation-20261111.md).
+The latest pass revalidated all 423 IDs across `1260381.quest_bxml` (SQ47),
+`1293651.quest_bxml` (SQ78), `1310054.quest_bxml` (SQ97),
+`1310217.quest_bxml` (SQ100), and `1310280.quest_bxml` (SQ103), recording
+13 correction-candidate IDs and six evidence-limited register holds. No
+per-key speaker or playback order was inferred, and no translation CSV was
+changed. See
+[`dialogue-context-next-five-sq47-sq78-sq97-sq100-sq103-revalidation-20261111.md`](dialogue-context-next-five-sq47-sq78-sq97-sq100-sq103-revalidation-20261111.md).
+The latest pass revalidated 252 IDs across `1260457.quest_bxml` (SQ49),
+`1269299.quest_bxml` (SQ86), `1310306.quest_bxml` (SQ82),
+`1363142.quest_bxml` (SQ112), and `1652781.quest_bxml` (FFQ84), recording
+25 correction candidates and two evidence-limited register holds. No
+per-key speaker or playback order was inferred, and no translation CSV was
+changed. See
+[`dialogue-context-next-five-expanded-assets-followup-revalidation-20261111.md`](dialogue-context-next-five-expanded-assets-followup-revalidation-20261111.md).
+The latest pass revalidated all 107 IDs in `522638.quest_bxml` (`SQ16`),
+recording six correction candidates and five evidence-limited holds without
+changing the translation CSV. Its two NPC symbols and 45 handlers do not
+establish per-key speaker attribution or dialogue order. See
+[`dialogue-context-522638-sq16-canneroc-webwood-revalidation-20261111.md`](dialogue-context-522638-sq16-canneroc-webwood-revalidation-20261111.md).
+The preceding pass revalidated all 47 IDs in `522390.quest_bxml` (`SQ19`
+handler-prefix and quest-text evidence), recording nine correction candidates
+without changing the translation CSV. There is no explicit quest ID or NPC
+symbol, so per-key speaker attribution and dialogue order remain unknown. See
+[`dialogue-context-522390-sq19-sihtric-vorm-revalidation-20261111.md`](dialogue-context-522390-sq19-sihtric-vorm-revalidation-20261111.md).
+The preceding pass revalidated all 47 IDs in `1944009.quest_bxml`
+(`DLC2_SQ07` handler-prefix evidence), recording three correction candidates
+and four evidence-limited holds without changing the translation CSV. The
+asset has no explicit quest or NPC symbol, so per-key speaker attribution and
+dialogue order remain unknown. See
+[`dialogue-context-1944009-dlc2-sq07-evenroot-revalidation-20261111.md`](dialogue-context-1944009-dlc2-sq07-evenroot-revalidation-20261111.md).
+The preceding pass revalidated all 46 IDs in `596269.quest_bxml` (`SQ59`),
+recording five correction candidates and one evidence-limited hold without
+changing the translation CSV. The asset has no NPC symbol, so per-key speaker
+attribution and dialogue order remain unknown. See
+[`dialogue-context-596269-sq59-feride-experiment-revalidation-20261111.md`](dialogue-context-596269-sq59-feride-experiment-revalidation-20261111.md).
+The preceding pass revalidated all 369 IDs in `1937439.quest_bxml`
+(`DLC1_MQ03`, asset-level NPC symbol `DLC1_NPC_GAL_DOK_Brattigan`), recording
+seven correction candidates and four evidence-limited holds without changing
+the translation CSV. Per-key speaker attribution and dialogue order remain
+unknown. See
+[`dialogue-context-1937439-dlc1-mq03-brattigan-revalidation-20261111.md`](dialogue-context-1937439-dlc1-mq03-brattigan-revalidation-20261111.md).
+The preceding pass revalidated all 196 IDs in `1962959.quest_bxml`
+(`DLC2_MQ06`, asset-level NPC symbol `DLC2_NPC_TON_KOL_Secandra`), recording
+15 correction candidates and four evidence-limited holds without changing
+the translation CSV. Per-key speaker attribution and dialogue order remain
+unknown. See
+[`dialogue-context-1962959-dlc2-mq06-secandra-revalidation-20261111.md`](dialogue-context-1962959-dlc2-mq06-secandra-revalidation-20261111.md).
+An earlier pass revalidated all 101 IDs in `1251244.quest_bxml` (`SQ50`),
+recording 16 correction candidates and one evidence-limited hold without
+changing the translation CSV. Per-key speaker attribution and dialogue order
+remain unknown. See
+[`dialogue-context-1251244-sq50-nareen-farm-revalidation-20261111.md`](dialogue-context-1251244-sq50-nareen-farm-revalidation-20261111.md).
+An earlier pass revalidated all 108 IDs in `1241289.quest_bxml` (`SQ41`),
+recording 16 correction candidates and six evidence-limited IDs. Per-key
+speaker attribution and dialogue order remain unknown; no translation CSV
+was changed. See
+[`dialogue-context-1241289-sq41-adar-revalidation-20261111.md`](dialogue-context-1241289-sq41-adar-revalidation-20261111.md).
+An earlier pass revalidated all 163 IDs in `1948054.quest_bxml`
+(`DLC2_MQ03`, Anokatos context), recording seven correction candidates
+without changing the translation CSV. Per-key speaker attribution and
+dialogue order remain unknown. See
+[`dialogue-context-1948054-dlc2-mq03-anokatos-revalidation-20261111.md`](dialogue-context-1948054-dlc2-mq03-anokatos-revalidation-20261111.md).
+The preceding pass revalidated 132 IDs in
+`2012226.quest_bxml` (`DLC1_MQ06`, Cillian Keen's beast-training context)
+and aligned two “Bugs collected” rows with the identical-source translation.
+Speaker attribution and dialogue order remain unassigned. See
+[`dialogue-context-2012226-dlc1-mq06-cillian-revalidation-20261111.md`](dialogue-context-2012226-dlc1-mq06-cillian-revalidation-20261111.md).
+An earlier completed group revalidated all 67 IDs in
+`1962515.quest_bxml` (`DLC1_SQ06`), recording three correction candidates
+and two evidence-limited holds without changing the translation CSV. See
+[`dialogue-context-1962515-dlc1-sq06-revalidation-20261111.md`](dialogue-context-1962515-dlc1-sq06-revalidation-20261111.md).
+The preceding batch revalidated 224 IDs across five assets, recording four
+correction candidates and one evidence-limited hold without changing the
+translation CSV. The catalog extractor now recognizes `DLC#_NPC_...`
+symbols, found in 30 assets, without treating them as per-key speaker
+assignments. See
+[`dialogue-context-next-five-expanded-assets-revalidation-20261111.md`](dialogue-context-next-five-expanded-assets-revalidation-20261111.md).
+An earlier batch revalidated 214 IDs across five remaining assets,
+recording eight correction candidates and one evidence-limited hold without
+changing the translation CSV. See
+[`dialogue-context-remaining-five-assets-revalidation-20261111.md`](dialogue-context-remaining-five-assets-revalidation-20261111.md).
+The preceding batch revalidated 208 IDs across five small assets, recording 27
+correction-candidate IDs and three evidence-limited holds, without changing
+the translation CSV. See
+[`dialogue-context-five-small-assets-revalidation-20261111.md`](dialogue-context-five-small-assets-revalidation-20261111.md).
+The preceding batch revalidated 78 IDs across the SQ123 ledger quest and the
+SQ133-prefixed Fellfire quest assets, recording eight correction candidates
+and one evidence-limited hold, without changing the translation CSV. See
+[`dialogue-context-1453969-1556445-revalidation-20261111.md`](dialogue-context-1453969-1556445-revalidation-20261111.md).
+The preceding batch revalidated 100 IDs across two NPC-associated assets,
+recording four correction candidates and three evidence-limited holds, without
+changing the translation CSV. The preceding batch revalidated 165 IDs across
+five assets, recording 33 correction candidates and seven evidence-limited
+holds; supplemental ID `31283` remains on hold. The preceding batch
+revalidated 158 IDs across five assets, recording seven correction candidates
+and three evidence-limited holds. The preceding batch revalidated 145
+asset-linked IDs across
+five assets plus two cross-asset checks, recording three correction
+candidates and four evidence-limited holds. The preceding batch revalidated
+109 IDs across five assets, recording 11 correction candidates and ten
+evidence-limited holds. The preceding batch revalidated 65 IDs across five
+assets,
+recording six correction candidates and one evidence-limited hold. The
+preceding batch revalidated 88 IDs across five assets,
+recording seven correction candidates and one evidence-limited hold. The
+preceding batch revalidated 73 IDs across five assets, recording six
+correction candidates and two evidence-limited holds. The earlier batch
+revalidated 196 IDs across five assets, recording 20 correction candidates
+and three holds; the batch before that
+revalidated 57 IDs across five assets with 12 candidates and no holds.
+Earlier batches revalidated 36 IDs across four quest-text assets, 37 across
+four sparse assets, 27 across four assets, 50 across five assets, and 53
+across five assets. See
+[`dialogue-context-two-npc-assets-revalidation-20261111.md`](dialogue-context-two-npc-assets-revalidation-20261111.md),
+[`dialogue-context-five-pending-assets-followup-revalidation-20261111.md`](dialogue-context-five-pending-assets-followup-revalidation-20261111.md),
+[`dialogue-context-five-assets-revalidation-20261111.md`](dialogue-context-five-assets-revalidation-20261111.md),
+[`dialogue-context-2606201-533430-1700657-1704224-2604701-revalidation-20261111.md`](dialogue-context-2606201-533430-1700657-1704224-2604701-revalidation-20261111.md),
+[`dialogue-context-1859132-2606401-790086-1974695-1523728-revalidation-20261111.md`](dialogue-context-1859132-2606401-790086-1974695-1523728-revalidation-20261111.md),
+[`dialogue-context-734522-717566-557394-1825868-1747110-revalidation-20261111.md`](dialogue-context-734522-717566-557394-1825868-1747110-revalidation-20261111.md),
+[`dialogue-context-next-five-assets-followup-revalidation-20261111.md`](dialogue-context-next-five-assets-followup-revalidation-20261111.md),
+[`dialogue-context-next-five-assets-revalidation-20261111.md`](dialogue-context-next-five-assets-revalidation-20261111.md),
+[`dialogue-context-next-five-small-assets-revalidation-20261111.md`](dialogue-context-next-five-small-assets-revalidation-20261111.md),
+[`dialogue-context-five-pending-assets-revalidation-20261111.md`](dialogue-context-five-pending-assets-revalidation-20261111.md),
+[`dialogue-context-five-more-assets-revalidation-20261111.md`](dialogue-context-five-more-assets-revalidation-20261111.md),
+[`dialogue-context-five-small-assets-revalidation-20261111.md`](dialogue-context-five-small-assets-revalidation-20261111.md),
+[`dialogue-context-four-sparse-assets-revalidation-20261111.md`](dialogue-context-four-sparse-assets-revalidation-20261111.md),
+[`dialogue-context-1292772-revalidation-20261110.md`](dialogue-context-1292772-revalidation-20261110.md),
+[`dialogue-context-1443829-revalidation-20261111.md`](dialogue-context-1443829-revalidation-20261111.md),
+[`dialogue-context-599193-revalidation-20261111.md`](dialogue-context-599193-revalidation-20261111.md),
+[`dialogue-context-1772558-revalidation-20261111.md`](dialogue-context-1772558-revalidation-20261111.md),
+[`dialogue-context-1164089-1272808-revalidation-20261111.md`](dialogue-context-1164089-1272808-revalidation-20261111.md),
+[`dialogue-context-760709-760711-1333132-revalidation-20261111.md`](dialogue-context-760709-760711-1333132-revalidation-20261111.md),
+[`dialogue-context-1611923-747916-598316-revalidation-20261111.md`](dialogue-context-1611923-747916-598316-revalidation-20261111.md),
+[`dialogue-context-1339422-sq81-completion-20261111.md`](dialogue-context-1339422-sq81-completion-20261111.md),
+[`dialogue-context-small-quest-text-assets-revalidation-20261111.md`](dialogue-context-small-quest-text-assets-revalidation-20261111.md),
+[`dialogue-context-unmapped-dialogue-assets-revalidation-20261111.md`](dialogue-context-unmapped-dialogue-assets-revalidation-20261111.md),
+[`dialogue-context-small-dialogue-and-evenroot-assets-revalidation-20261111.md`](dialogue-context-small-dialogue-and-evenroot-assets-revalidation-20261111.md),
+[`dialogue-context-chaos-quest-assets-revalidation-20261111.md`](dialogue-context-chaos-quest-assets-revalidation-20261111.md),
+[`dialogue-context-lorestone-and-small-assets-revalidation-20261111.md`](dialogue-context-lorestone-and-small-assets-revalidation-20261111.md),
+[`dialogue-context-small-quest-assets-revalidation-20261111.md`](dialogue-context-small-quest-assets-revalidation-20261111.md),
+[`dialogue-context-four-quest-text-assets-revalidation-20261111.md`](dialogue-context-four-quest-text-assets-revalidation-20261111.md),
+[`dialogue-context-metadata.md`](dialogue-context-metadata.md), and the
+cumulative
+[`dialogue-context-group-index-and-revalidation-20261110.md`](dialogue-context-group-index-and-revalidation-20261110.md).
+The final `MQ01` / Encel main-quest review adds 267 IDs; all 33
+source-checked correction candidates have now been applied and rechecked,
+while one unresolved reading remains on hold. See
 [`dialogue-context-mq01-revalidation-20261110.md`](dialogue-context-mq01-revalidation-20261110.md)
 and the cumulative
 [`dialogue-context-group-index-and-revalidation-20261110.md`](dialogue-context-group-index-and-revalidation-20261110.md).
@@ -29678,3 +33910,1175 @@ of the two existing Gallows End rows. Corrected only `바랄린` to
 `named-scope-review-D21866-20261020.md` and
 `proper-name-alias-expansion-D21866.tsv`. No prior unrelated terminal
 decision or global translation tally was reopened.
+
+## Dialogue-Context Step 4: Sequential Revalidation
+
+As of November 13, 2026, the four-language sequential `default` revalidation
+is complete across all 65,135 unique IDs. The append-only ledger covers
+65,135 / 65,135 IDs (100%); the final ranges `64250`-`65134` added 639 IDs
+while rechecking 246 existing rows without rewriting them. New rows record
+624 `not-issue` results, 13 evidence-limited holds, and two correction
+candidates. Twenty earlier candidates and four earlier holds were also
+rechecked and remain documented in their original findings. Full coverage
+does not imply all uncertainties are resolved, and review findings are not
+approval to edit translations. No translation CSV was changed for the final
+four ranges. Ledger fingerprints, regenerated catalogs, nine related tests,
+and the CRLF-aware diff check passed. See the four final range reports and
+`dialogue-context-metadata.md` for details.
+
+## Dialogue-Context Asset Revalidation (2026-11-14)
+
+Revalidated all 162 IDs linked to `2001870.quest_bxml` (`DLC1_PH06b`) across
+English, Japanese, Chinese, and Korean. Six supported labels were corrected:
+`Dvergan Raider` at `9062`, `12508`, and `16940`; `Gnomish Trireme` at
+`41266` and `55925`; and the missing `Keep Courtyard` pairing at `59373`.
+The asset's NPC symbol and handlers do not establish an individual line's
+speaker or playback order. `27459` remains held because the Japanese and
+Chinese register evidence conflicts. Details are in
+[`dialogue-context-2001870-dlc1-ph06b-zefwyn-revalidation-20261114.md`](dialogue-context-2001870-dlc1-ph06b-zefwyn-revalidation-20261114.md).
+
+The follow-up check of `457555.quest_bxml` reopened eight flagged IDs among
+129 linked rows. Six findings are already reflected in the current Korean
+text; two remain held for insufficient source evidence. The `SA01` handlers
+and Ciara NPC symbol do not prove individual speakers or line order. See
+[`dialogue-context-457555-sa01-ciara-revalidation-20261114.md`](dialogue-context-457555-sa01-ciara-revalidation-20261114.md).
+
+The next check covered 189 IDs linked to `482242.quest_bxml` and reopened 13
+flagged entries. IDs `7527` and `22691` were corrected; `20052` and `61424`
+already reflected their findings. Nine evidence-limited issues remain held.
+The catalog/ledger asset-link discrepancy at `47715` is documented without
+rewriting its existing ledger row. The `KV05` handlers and Oneth NPC symbol
+do not prove individual speakers or dialogue order. See
+[`dialogue-context-482242-kv05-oneth-revalidation-20261114.md`](dialogue-context-482242-kv05-oneth-revalidation-20261114.md).
+
+The follow-up check of `555901.quest_bxml` reopened eight flagged IDs among
+135 linked keys. The missing `Children of Dust` pairing at `37115` was
+aligned with duplicate `40387`; other candidates were already reflected or
+remain held for source uncertainty. Two catalog/ledger link gaps (`47725`,
+`47983`) are documented without rewriting ledger rows. The `MQ04` handlers
+and Agarth NPC symbol do not prove individual speakers or dialogue order.
+See
+[`dialogue-context-555901-mq04-agarth-revalidation-20261114.md`](dialogue-context-555901-mq04-agarth-revalidation-20261114.md).
+
+A cross-check of the 18 Teeth of Naros ash-urn rows found the approved
+`default:54630` edit still missing and particle errors at `6103` and `8606`.
+The three rows were corrected and their fingerprints refreshed; `35675`
+already matched its final manifest. See
+[`dialogue-context-teeth-of-naros-urns-followup-20261114.md`](dialogue-context-teeth-of-naros-urns-followup-20261114.md).
+
+## Candidate Application Reconciliation (2026-11-14)
+
+Reconciled the ten remaining candidate IDs in `750`-`999`. ID `853` received
+a source-checked container-task wording correction. The identical poem at
+`952` and `60106` now uses the same `Children of Dust` pairing; the other
+eight candidate findings were already reflected. Together with the earlier
+`0`-`749` reconciliations, 35 of the current 4,015 candidate IDs (0.87%) have
+been reconciled. The remaining pool is still in progress. See
+[`dialogue-context-00750-00999-candidate-reconciliation-20261114.md`](dialogue-context-00750-00999-candidate-reconciliation-20261114.md)
+and its decision manifest.
+
+The `1000`-`1249` follow-up reconciled all 20 current candidate IDs. Six
+source-supported findings were corrected, 12 were already reflected in the
+current translations, and two remain held for insufficient or conflicting
+evidence. Cross-row edits aligned the Ratofer family charter and all 26
+exact-source `Argine, Queen of Staves` labels. The 29 edited IDs' fingerprints
+were refreshed; ledger, CSV-preservation, context-index, row/order/BOM/newline,
+and CRLF-aware diff checks passed. Candidate reconciliation now covers 55
+of the current 4,015 candidates (1.37%), not the full pool. See
+[`dialogue-context-01000-01249-candidate-reconciliation-20261114.md`](dialogue-context-01000-01249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-01000-01249-20261114.json).
+
+The `1250`-`1499` follow-up reconciled all 24 current candidate IDs: ten
+source-supported corrections were applied, 14 already-correct candidates
+were retained, and the three earlier evidence-limited holds remain unresolved
+outside this candidate set. Four related IDs outside the range were aligned
+with the corrected Fontmaster/Greater Niskaru references. Fourteen changed
+IDs' fingerprints were refreshed; ledger, CSV-preservation, context-index,
+row/order/BOM/newline, and CRLF-aware diff checks passed. Candidate
+reconciliation now covers 79 of the current 4,015 candidates (1.97%); the
+remaining pool is still in progress. See
+[`dialogue-context-01250-01499-candidate-reconciliation-20261114.md`](dialogue-context-01250-01499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-01250-01499-20261114.json).
+
+The `1500`-`1749` follow-up reconciled all 17 current candidate IDs. Two
+source-supported corrections were applied (`1560`, `1683`); 15 were already
+consistent and retained. The `Turn in the Contract` objective at `1683` was
+aligned with its eight exact-source occurrences. Two edited fingerprints,
+ledger validation, CSV structure/newline inventory, 11 preservation tests,
+nine context-index tests, and the CRLF-aware diff check passed. Candidate
+reconciliation now covers 96 of the current 4,015 candidates (2.39%); work
+continues. See
+[`dialogue-context-01500-01749-candidate-reconciliation-20261114.md`](dialogue-context-01500-01749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-01500-01749-20261114.json).
+
+The `1750`-`1999` follow-up reconciled all 18 current candidates: seven
+source-supported corrections and 11 retained as already consistent. Six
+related rows outside the interval were aligned, including the Lyra Vogard
+name group and the exact duplicate objective at `18005`. Thirteen changed
+IDs' fingerprints were refreshed; the full ledger, 11 CSV-preservation tests,
+nine context-index tests, record/order/BOM/newline checks, and CRLF-aware
+diff check passed. Candidate reconciliation now covers 114 of the current
+4,015 candidates (2.84%); the remaining candidates are still open. See
+[`dialogue-context-01750-01999-candidate-reconciliation-20261114.md`](dialogue-context-01750-01999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-01750-01999-20261114.json).
+
+The `2000`-`2249` follow-up reconciled all 12 current candidates: six
+source-supported corrections and six retained as already consistent. One
+related parallel line (`23635`) was aligned with `2064`. Seven changed IDs'
+fingerprints were refreshed; full-ledger validation, both regression suites,
+index/catalog reproduction, record/order/BOM/newline checks, and the
+CRLF-aware diff check passed. Candidate reconciliation now covers 126 of the
+current 4,015 candidates (3.14%); the remaining candidates are still open.
+See
+[`dialogue-context-02000-02249-candidate-reconciliation-20261114.md`](dialogue-context-02000-02249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-02000-02249-20261114.json).
+
+The `2250`-`2499` follow-up reconciled all 12 current candidates: six
+source-supported corrections and six retained as already consistent. The
+parallel objective at `7588` was also aligned with the established `-기` form.
+Seven changed IDs' fingerprints were refreshed; full-ledger validation, both
+regression suites, index/catalog reproduction, record/order/BOM/newline
+checks, and the CRLF-aware diff check passed. Candidate reconciliation now
+covers 138 of the current 4,015 candidates (3.44%); the remaining candidates
+are still open. See
+[`dialogue-context-02250-02499-candidate-reconciliation-20261114.md`](dialogue-context-02250-02499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-02250-02499-20261114.json).
+
+The `2500`-`2749` follow-up reconciled all 19 in-range candidates and six
+related candidates. Five in-range corrections and two related title
+corrections were applied; the other 18 decisions retained already-correct
+wording. Seven unique rows changed, and their fingerprints were refreshed.
+The full ledger, index/catalog checks, both test suites, CSV structure and
+newline inventory, and CRLF-aware diff check passed. Cumulative reconciliation
+reached 163 of 4,015 candidates (4.06%). See
+[`dialogue-context-02500-02749-candidate-reconciliation-20261114.md`](dialogue-context-02500-02749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-02500-02749-20261114.json).
+
+The `2750`-`2999` follow-up reconciled all 12 candidates: three supported
+corrections and nine already-correct translations retained. The identical
+`Rescue Julia Tam` objective at `34720` was aligned with `2945`, for four
+changed rows total. Their fingerprints were refreshed; the full ledger,
+index/catalog checks, both test suites, CSV structure and newline inventory,
+and CRLF-aware diff check passed. Cumulative reconciliation reached 175 of
+4,015 candidates (4.36%); the candidate pool remains incomplete. See
+[`dialogue-context-02750-02999-candidate-reconciliation-20261114.md`](dialogue-context-02750-02999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-02750-02999-20261114.json).
+
+The `3000`-`3249` reconciliation adjudicated all 23 candidates with three
+source-supported corrections and 20 retentions. Three related rows outside
+the range were also corrected: the repeated Spear of Light epithet at `56854`
+was aligned with `3075`, and the two omitted bugs in `Boggart (2 Bugs)` were
+restored at `36982` and `38893`. This supersedes the earlier erroneous
+retention of those count omissions. Six changed-row fingerprints were
+refreshed; the complete ledger, index/catalog checks, both test suites, CSV
+structure and line-ending inventory, and CRLF-aware diff check passed.
+Sequential reconciliation now covers 198 of the current 4,015 candidates
+(4.93%); the pool remains incomplete. See
+[`dialogue-context-03000-03249-candidate-reconciliation-20261114.md`](dialogue-context-03000-03249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-03000-03249-20261114.json).
+
+The `3250`-`3499` reconciliation checked all 12 current candidates: four
+source-supported corrections were applied and eight already-correct
+translations were retained. A whole-file name-pairing search also corrected
+the lowercase `Banshaen` form at `52239`; its separate lore question remains
+held. Five changed-row fingerprints were refreshed. The full ledger,
+index/catalog checks, both regression suites, CSV structure and line-ending
+inventory, and CRLF-aware diff check passed. Candidate reconciliation now
+covers 210 of 4,015 candidates (5.23%); 3,805 remain unreconciled. See
+[`3250`-`3499`](dialogue-context-03250-03499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-03250-03499-20261114.json).
+
+The `3500`-`3749` reconciliation checked all 10 current candidates. Nine
+findings were already reflected in the active translations and were retained;
+`3707` remains held because the English, Japanese, and Chinese differ on
+whether `wood` refers to a forest or tree. No CSV change was needed.
+Candidate reconciliation now covers 220 of 4,015 candidates (5.48%), with
+3,795 unreconciled and the held item still open. See
+[`3500`-`3749`](dialogue-context-03500-03749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-03500-03749-20261114.json).
+
+The `3750`-`3999` reconciliation checked all 11 current candidates: three
+in-range corrections were applied and eight already-correct findings were
+retained. It fixed the Gwynedd particle error, aligned the walking greeting's
+register, and paired the `Stowaway` title. The exact duplicate title at
+`28829` and related objective at `37189` were aligned as well; `37189` will
+count when its numeric range is reached. Five changed-row fingerprints were
+refreshed. The full ledger, index/catalog checks, both test suites, CSV
+structure and newline inventory, and CRLF-aware diff check passed.
+Sequential reconciliation now covers 231 of 4,015 candidates (5.75%), with
+3,784 unreconciled. See
+[`3750`-`3999`](dialogue-context-03750-03999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-03750-03999-20261114.json).
+
+The `4000`-`4249` reconciliation checked all six current candidates. It
+corrected the familiar `dove` address at `4135` and its exact duplicate
+`62969`, and naturalized the time-thread metaphor at `4177`; four other
+findings were already resolved or retained under established terminology.
+Three changed-row fingerprints were refreshed. The complete ledger,
+index/catalog checks, both regression suites, CSV structure and line-ending
+inventory, and CRLF-aware diff check passed. Sequential reconciliation now
+covers 237 of 4,015 candidates (5.90%), with 3,778 unreconciled. See
+[`4000`-`4249`](dialogue-context-04000-04249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-04000-04249-20261114.json).
+
+The `4250`-`4499` reconciliation checked all ten current candidates. Six rows
+were corrected: the Brother Til book-quest title at `4293`, register at
+`4315`, caretaker terminology at `4383`, title pairing at `4390`, the
+`Idris Theonen` pairing at `4426`, and the Almain/Alard name boundary at
+`4480`. Four findings were already resolved. The related row `60012` was
+aligned with `4426`; `61986` and `53189` already matched their counterparts.
+Seven changed-row fingerprints were refreshed. The full ledger, index/catalog
+checks, both regression suites, CSV structure and line-ending inventory, and
+CRLF-aware diff check passed. Sequential reconciliation now covers 247 of
+4,015 candidates (6.15%), with 3,768 unreconciled. See
+[`4250`-`4499`](dialogue-context-04250-04499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-04250-04499-20261114.json).
+
+The `4500`-`4749` follow-up reconciled all four current candidates. It
+corrected spacing at `4539`, restored the morning ride at `4564`, and fixed
+the seer's intent at `4671`; `4521` already used `중앙 홀(Main Hall)`. Three
+changed-row fingerprints were refreshed. Sequential reconciliation now
+covers 251 of 4,015 candidates (6.25%), with 3,764 unreconciled. See
+[`dialogue-context-04500-04749-candidate-reconciliation-20261114.md`](dialogue-context-04500-04749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-04500-04749-20261114.json).
+
+The `4750`-`4999` follow-up reconciled all 12 current candidates. It corrected
+the `Witch Knights` spacing at `4778`, the `염주` particle at `4867`, and the
+complete `Wild Evenroot` pairing at `4943`; nine earlier corrections were
+already present. Three changed-row fingerprints were refreshed. Sequential
+reconciliation now covers 263 of 4,015 candidates (6.55%), with 3,752
+unreconciled. See
+[`dialogue-context-04750-04999-candidate-reconciliation-20261114.md`](dialogue-context-04750-04999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-04750-04999-20261114.json).
+
+The next reconciliation covered all 14 candidates in `5000`-`5249`: three
+supported corrections (`5046`, `5189`, `5225`) and 11 already-resolved
+findings retained. The connected `Nuala Ignas` occurrence at `61266` was
+already canonical. Only the three changed IDs' fingerprints were refreshed;
+the full ledger, preservation and context-index tests, CSV structure/newline
+checks, and CRLF-aware diff check passed. Candidate reconciliation now
+covers 277 of 4,015 candidates (6.90%), with 3,738 unreconciled. See
+[`5000`-`5249`](dialogue-context-05000-05249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-05000-05249-20261114.json).
+
+The `5250`-`5499` reconciliation covered all 11 current candidates: seven
+supported corrections and four findings already resolved in the active
+Korean. The shared Menri Togh account was aligned at `5313`/`53623`, keeping
+their different endings; `Plagueshield parcels` was aligned at `5371`/`33076`.
+Nine changed IDs' fingerprints were refreshed. The full ledger, both test
+suites, index/catalog checks, CSV structure/newline inventory, and
+CRLF-aware diff check passed. Candidate reconciliation now covers 288 of
+4,015 candidates (7.17%), with 3,727 unreconciled. See
+[`5250`-`5499`](dialogue-context-05250-05499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-05250-05499-20261114.json).
+
+The `5500`-`5749` reconciliation checked all four current candidates; their
+supported changes were already present, so no CSV edit or fingerprint refresh
+was needed. Sequential reconciliation reached 292 of 4,015 candidates
+(7.27%), with 3,723 unreconciled. See
+[`dialogue-context-05500-05749-candidate-reconciliation-20261114.md`](dialogue-context-05500-05749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-05500-05749-20261114.json).
+
+The `5750`-`5999` reconciliation checked all ten current candidates: three
+source-supported corrections (`5752`, `5766`, `5971`) and seven findings
+already resolved in the active Korean. The food-storage sense of `village
+stores` was confirmed against related rows `15624` and `19594`. Three changed
+IDs' fingerprints were refreshed; the full ledger, index/catalog checks, both
+test suites, CSV structure, and newline inventory passed. Sequential
+reconciliation now covers 302 of 4,015 candidates (7.52%), with 3,713
+unreconciled. See
+[`dialogue-context-05750-05999-candidate-reconciliation-20261114.md`](dialogue-context-05750-05999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-05750-05999-20261114.json).
+
+The `6000`-`6249` reconciliation checked all eight current candidates: four
+corrections (`6013`, `6044`, `6239`, `6243`) and four findings already
+resolved. The complete `Argine, Queen of Staves` exact-English group was
+aligned across all 26 IDs. Twenty-nine changed-row fingerprints were
+refreshed; the full ledger, index/catalog checks, both test suites, CSV
+structure, and newline inventory passed. Sequential reconciliation now
+covers 310 of 4,015 candidates (7.72%), with 3,705 unreconciled. See
+[`dialogue-context-06000-06249-candidate-reconciliation-20261114.md`](dialogue-context-06000-06249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-06000-06249-20261114.json).
+
+The `6250`-`6499` reconciliation checked all eight current candidates:
+`6316` and `6327` were corrected, while six already-resolved findings were
+retained. Only the two edited-row fingerprints were refreshed; the full
+ledger, index/catalog checks, both test suites, CSV structure, and newline
+inventory passed. Sequential reconciliation now covers 318 of 4,015
+candidates (7.92%), with 3,697 unreconciled. See
+[`dialogue-context-06250-06499-candidate-reconciliation-20261114.md`](dialogue-context-06250-06499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-06250-06499-20261114.json).
+
+The `6500`-`6749` reconciliation reviewed all 20 current candidates. It
+corrected the interrupted vocative at `6672` and refined the full journal
+entry at `6734`; the other 18 findings were already resolved. Two changed-row
+fingerprints were refreshed, and the full ledger, index/catalog checks, both
+test suites, CSV structure, BOM, and newline inventory passed. Candidate
+reconciliation now covers 338 of 4,015 IDs (8.42%), with 3,677 remaining.
+See
+[`dialogue-context-06500-06749-candidate-reconciliation-20261114.md`](dialogue-context-06500-06749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-06500-06749-20261114.json).
+
+The `6750`-`6999` candidate reconciliation reviewed all 21 current candidates:
+ten corrections and eleven already-resolved findings. It corrected the duel
+assistant role, chausses item term, missing name/title pairings, rank wording,
+and dialogue naturalness. The Eventide `clan` term is now consistently
+`씨족` across its linked references, including exact-English duplicate pairs
+at `5258`/`23049` and `6878`/`57663`. Three evidence-limited findings remain
+held. The 65,135-ID ledger fingerprints, generated index/catalogs, both test
+suites, CSV structure/BOM/newlines, and CRLF-aware diff check passed.
+Sequential reconciliation is 359 of 4,015 candidates (8.94%), with 3,656
+remaining. See
+[`dialogue-context-06750-06999-candidate-reconciliation-20261114.md`](dialogue-context-06750-06999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-06750-06999-20261114.json).
+
+The `7000`-`7249` follow-up reconciled all 24 current candidates: six
+corrections and 16 already-resolved findings were retained; two
+evidence-limited items remain held. It standardized the `Maire, Queen of
+Cups` title across 19 identical source rows, aligned `peasant clothes` at
+`7123`/`39711`, and corrected the Missives reference and remaining
+naturalness issues. Twenty-five changed-row fingerprints were refreshed.
+The full ledger, index/catalog checks, both regression suites, CSV structure,
+BOM/newline inventory, and CRLF-aware diff check passed. Sequential candidate
+reconciliation now covers 383 of 4,015 candidates (9.54%), with 3,632
+remaining. See
+[`7000`-`7249`](dialogue-context-07000-07249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-07000-07249-20261114.json).
+
+The `7250`-`7499` follow-up reconciled all 10 current candidates: one
+artifact-name correction, eight already-resolved findings retained, and one
+context-dependent reference held. The corrected `7472` row now pairs the
+complete Sun/Storm/Frost Stone names. Only its fingerprint was refreshed;
+the full ledger, index/catalog checks, both test suites, CSV structure,
+BOM/newline inventory, and CRLF-aware diff check passed. Sequential candidate
+reconciliation now covers 393 of 4,015 candidates (9.79%), with 3,622
+remaining. See
+[`7250`-`7499`](dialogue-context-07250-07499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-07250-07499-20261114.json).
+
+The `7500`-`7749` follow-up reconciled all 15 current candidates. Most
+proposed fixes were already present; it aligned the identical Khamazandu
+opening sentence across seven journal entries and standardized the Warsworn
+leader wording at `7589`. Two row fingerprints were refreshed. The full
+ledger, index/catalog checks, both test suites, CSV structure, BOM/newline
+inventory, and CRLF-aware diff check passed. Sequential candidate
+reconciliation now covers 408 of 4,015 candidates (10.16%), with 3,607
+remaining. See
+[`7500`-`7749`](dialogue-context-07500-07749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-07500-07749-20261114.json).
+
+The `7750`-`7999` follow-up reconciled all ten current candidates: three
+corrections and seven findings already supported by the active Korean. It
+aligned Niahm's self-introduction and the Fate-permission line, plus the
+Gravehal construction materials at `7813`, `8257`, and `50541`. Seasteel
+parentheticals preserve the source-local lowercase spelling in sentences.
+Five edited-row fingerprints were refreshed. Candidate reconciliation now
+covers 418 / 4,015 (10.41%), with 3,597 not yet reconciled. See
+[`dialogue-context-07750-07999-candidate-reconciliation-20261114.md`](dialogue-context-07750-07999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-07750-07999-20261114.json).
+
+The `8000`-`8249` follow-up reconciled all 16 in-range candidates plus two
+linked `SQ01` candidates (`50475`, `64633`). It corrected the Korean
+`meat-birds` wording by context, clarified the House of Valor warning at
+`8228`, and retained the already-supported title, name, and item forms.
+Candidate reconciliation now covers 436 / 4,015 (10.86%), with 3,579 not yet
+reconciled. See
+[`dialogue-context-08000-08249-candidate-reconciliation-20261114.md`](dialogue-context-08000-08249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-08000-08249-20261114.json).
+
+The `10500`-`10749` candidate reconciliation checked all 20 current findings:
+five corrections and 15 already-resolved findings. It corrected the
+conversation at `10539` and `10618`, fixed the broken word segmentation at
+`10566`, aligned `10708` with the two related `And finally` passages, and
+clarified the interest at `10718`. The other candidates were checked against
+the current four-language text and linked terminology records. Five row
+fingerprints were refreshed; the 65,135-ID ledger, generated catalogs, both
+test suites, and CSV BOM/order/newline inventory passed. Sequential candidate
+reconciliation is 657 of 4,015 (16.36%), with 3,358 remaining. See
+[`10500`-`10749`](dialogue-context-10500-10749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-10500-10749-20261114.json).
+
+The `10750`-`10999` reconciliation covered all 18 current candidates: seven
+corrections and 11 already-resolved findings. It fixed the delivery direction,
+completed the `Captain Drefan` pairing, corrected `10927`'s appeasement
+wording, and added the remaining place, epithet, and camp-name pairings. The
+separate metaphor question at `10974` remains held. Seven fingerprints were
+refreshed; the ledger, generated catalogs, both test suites, CSV BOM/order/
+newline inventory, and CRLF-aware diff check passed. Cumulative reconciliation
+is 675 of 4,015 (16.81%), with 3,340 remaining. See
+[`10750`-`10999`](dialogue-context-10750-10999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-10750-10999-20261114.json).
+
+The `11000`-`11249` reconciliation checked all ten in-range candidates:
+four corrections, five already-applied corrections, and one retained finding.
+It corrected the Onarach name at `11022` and related `11619`, restored the
+repeated agreement and grammar at `11038`, removed the added `도` at `11101`,
+and changed `11210` to the objective form. The `Argine, Queen of Staves`
+label remains identical across all 26 copies. Five fingerprints were
+refreshed; ledger, catalogs, both test suites, CSV BOM/order/newline checks,
+and CRLF-aware diff passed. Cumulative reconciliation is 686 of 4,015
+(17.09%), with 3,329 remaining. See
+[`11000`-`11249`](dialogue-context-11000-11249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-11000-11249-20261114.json).
+
+The `11250`-`11499` reconciliation covered all eight candidates: seven
+corrections and one already-correct entry. It reverified four prior edits,
+corrected three remaining translation issues, and aligned three related
+`Headsman` rows; all 26 exact English occurrences now use
+`처형인(Headsman)`. Six fingerprints were refreshed. The full ledger,
+generated catalogs, both test suites, CSV BOM/order/newline checks, and
+CRLF-aware diff passed. Cumulative reconciliation is 694 of 4,015 (17.29%),
+with 3,321 remaining. See
+[`11250`-`11499`](dialogue-context-11250-11499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-11250-11499-20261114.json).
+
+The `11500`-`11749` reconciliation reviewed all 11 pending candidates,
+excluding `11619` because it was already handled in the preceding range.
+Six corrections were applied, three prior corrections verified, and two
+already-correct entries retained. Related rows were aligned for Sandstone
+Villa upgrades, Winter Fae, the Adar magic circle, and Bera's animal-meat
+quest. The specialized mining details at `11599` remain evidence-limited.
+Ten fingerprints were refreshed; the ledger, generated catalogs, both test
+suites, CSV BOM/order/newline checks, and CRLF-aware diff passed. Cumulative
+reconciliation is 705 of 4,015 (17.56%), with 3,310 remaining. See
+[`11500`-`11749`](dialogue-context-11500-11749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-11500-11749-20261114.json).
+
+The `11750`-`11999` reconciliation covered all 15 candidates: six new
+corrections, five already-applied corrections confirmed, and four retained.
+It aligned three parallel bounty-completion records and confirmed consistency
+across the Motus handbook and Nanne/Karth formula groups. Eight fingerprints
+were refreshed; the full ledger, catalogs, both test suites, CSV BOM/order/
+newline inventory, and CRLF-aware diff passed. Cumulative reconciliation is
+720 of 4,015 (17.93%), with 3,295 remaining. See
+[`11750`-`11999`](dialogue-context-11750-11999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-11750-11999-20261114.json).
+
+The `12000`-`12249` reconciliation checked all eight candidates. Seven
+previously applied corrections were confirmed; `12173`'s named-book wording
+was retained after four-language review. All 20 `Irion, King of Cups`
+occurrences and the nine `Hermit Smith` references were checked for consistent
+pairing. Twenty-one fingerprints were refreshed, and the full ledger,
+index/catalog reproduction, 20 tests, CSV structure/newline inventory, and
+CRLF-aware diff check passed. No new translation edit was needed. Cumulative
+reconciliation is 728 / 4,015 (18.13%), with 3,287 remaining. See
+[`12000`-`12249`](dialogue-context-12000-12249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-12000-12249-20261114.json).
+
+The `12250`-`12499` reconciliation covered all ten candidates. Nine prior
+corrections were confirmed and `default:12434` was refined for natural
+conversational Korean. The `The Testament` and `Ordination Tome` references
+were checked against their established forms. The full ledger, index/catalog
+reproduction, 20 tests, CSV structure/newline inventory, and CRLF-aware diff
+check passed. Cumulative reconciliation is 738 / 4,015 (18.38%), with 3,277
+remaining. See
+[`12250`-`12499`](dialogue-context-12250-12499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-12250-12499-20261114.json).
+
+The `12500`-`12749` follow-up reconciled all eight candidates; their
+corrections were already present. Related Kulder and Lorestone forms and the
+strict numerical threshold were rechecked. No CSV or fingerprint change was
+needed. The full ledger, index/catalog reproduction, 20 tests, CSV
+structure/newline inventory, and CRLF-aware diff check passed. Cumulative
+reconciliation is 746 / 4,015 (18.58%), with 3,269 remaining. See
+[`12500`-`12749`](dialogue-context-12500-12749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-12500-12749-20261114.json).
+
+The `12750`-`12999` pass confirmed all nine candidates were already
+corrected. Names, faction and noble-house terminology, idioms, qualifiers,
+and informal register were rechecked. No CSV or fingerprint change was
+needed. The full ledger, index/catalog reproduction, 20 tests, CSV
+structure/newline inventory, and CRLF-aware diff check passed. Cumulative
+reconciliation is 755 / 4,015 (18.80%), with 3,260 remaining. See
+[`12750`-`12999`](dialogue-context-12750-12999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-12750-12999-20261114.json).
+
+The `13000`-`13249` review reconciled all nine candidates and rechecked eight
+Gallery references and all 19 identical Maire titles. It restored the
+age-neutral sibling relationship at `default:13140`; the other prior
+corrections were confirmed. The full ledger, index/catalog reproduction, 20
+tests, CSV structure/newline inventory, and CRLF-aware diff check passed.
+Cumulative reconciliation is 764 / 4,015 (19.03%), with 3,251 remaining. See
+[`13000`-`13249`](dialogue-context-13000-13249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-13000-13249-20261114.json).
+
+The `13250`-`13499` pass confirmed all eight candidates were already corrected
+in the current Korean. It rechecked the linked `Master's Tallow` and
+`Hurvar's Doorsill` forms, naturalness and register, the two Keep names,
+`Parry`, the exact-English contract-failure copy, and the title *Missives of
+Sable*. The separate `master-at-arms` terminology question at `13436` remains
+outside the place-name correction. No CSV or fingerprint change was needed.
+Cumulative reconciliation is 772 / 4,015 (19.23%), with 3,243 remaining. See
+[`13250`-`13499`](dialogue-context-13250-13499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-13250-13499-20261114.json).
+
+The `13500`-`13749` pass reconciled all ten candidates: nine existing edits
+were confirmed and `13591` was refined to natural plain-style Korean. A
+full-source scan corrected the missed `Lupoku` spelling at `default:25713`;
+all 21 such `default` references now match English, and all 20
+`Irion, King of Cups` labels are consistent. The unrelated `base:1940`
+spelling issue was documented but not changed. Two fingerprints were
+refreshed; the 65,135-ID ledger, 11 preservation tests, nine context-index
+tests, JSON manifest, and CRLF-aware diff check passed. Cumulative
+reconciliation is 782 / 4,015 (19.48%), with 3,233 remaining. See
+[`13500`-`13749`](dialogue-context-13500-13749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-13500-13749-20261114.json).
+
+The `13750`-`13999` reconciliation confirmed all ten candidates were already
+corrected. It rechecked the `The Burn` place-name group, the `Augur` English
+pairing, the arena and Chaos Matter lines, quest-specific urn terminology,
+and the bounded `dreg` group. No CSV or fingerprint change was needed. The
+full ledger, 11 preservation tests, nine context-index tests, manifest, and
+CRLF-aware diff check passed. Cumulative reconciliation is 792 / 4,015
+(19.73%), with 3,223 remaining. See
+[`13750`-`13999`](dialogue-context-13750-13999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-13750-13999-20261114.json).
+
+The `14000`-`14249` review reconciled all twelve candidates. Eleven prior
+corrections were confirmed; `14079` was refined for natural phrasing and the
+established `운명의 직조` rendering of `the Weave`. A related terminology
+scan corrected the remaining `master-at-arms` inconsistency at
+`default:65048` to `무기 교관`. Two fingerprints were refreshed; the full
+ledger, 11 preservation tests, nine context-index tests, manifest, and
+CRLF-aware diff check passed. Cumulative reconciliation is 804 / 4,015
+(20.02%), with 3,211 remaining. See
+[`14000`-`14249`](dialogue-context-14000-14249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-14000-14249-20261114.json).
+
+The `14250`-`14499` reconciliation checked all fourteen current candidates.
+Thirteen prior corrections were confirmed, and the proclamation at `14335`
+was refined to make Aurela's call to service more natural without losing the
+solemn register or `Lady Lyria` pairing. The seven Lady Oleyn labels were
+confirmed consistent. One fingerprint was refreshed; the full ledger,
+catalog reproduction, both regression suites, CSV structure/newline
+inventory, manifest, and CRLF-aware diff check passed. Cumulative
+reconciliation is 818 / 4,015 (20.37%), with 3,197 remaining. See
+[`14250`-`14499`](dialogue-context-14250-14499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-14250-14499-20261114.json).
+
+The `14500`-`14749` reconciliation checked all sixteen current candidates.
+Fourteen existing corrections were confirmed, `14577` was refined to make
+the entire thank-you natural while retaining the dust metaphor, and the
+unsettled `Templar` term at `14729` remains held. Related Argine, Seranon,
+Motus handbook, Maisie's Luck, and exact-English duplicate groups were
+checked. One fingerprint was refreshed; the full ledger, catalog
+reproduction, both regression suites, CSV structure/newline inventory,
+manifest, and CRLF-aware diff check passed. Cumulative reconciliation is
+834 / 4,015 (20.77%), with 3,181 remaining. See
+[`14500`-`14749`](dialogue-context-14500-14749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-14500-14749-20261114.json).
+
+The `14750`-`14999` reconciliation covered all sixteen current candidates.
+Twelve existing corrections were confirmed, and four dialogue lines were
+refined for natural plain speech and sentence flow. Related Hermit Smith,
+Captain Brattigan, arena, and Teeth of Naros terminology was checked.
+Cumulative candidate reconciliation is 850 / 4,015 (21.17%), with 3,165
+remaining. See
+[`14750`-`14999`](dialogue-context-14750-14999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-14750-14999-20261114.json).
+
+The `15000`-`15249` reconciliation covered eighteen candidates, refining two
+translations and confirming the others. Related character titles, repeated
+offers, and sentence wording were cross-checked. Cumulative reconciliation
+is 868 / 4,015 (21.62%), with 3,147 remaining. See
+[`15000`-`15249`](dialogue-context-15000-15249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-15000-15249-20261114.json).
+
+The `15250`-`15499` range confirmed eight prior corrections and refined two;
+related titles and names were checked. The report and manifest record the
+superseded disposition for `15499`. Cumulative reconciliation is 870 / 4,015
+(21.67%), with 3,145 remaining. See
+[`15250`-`15499`](dialogue-context-15250-15499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-15250-15499-20261114.json).
+
+The `15500`-`15749` range confirmed fourteen corrections, refined `15532`,
+and retained `15581` without inferring a speaker. The linked SQ145 entry
+`63566` was also corrected. Cumulative reconciliation is 887 / 4,015
+(22.09%), with 3,128 remaining. See
+[`15500`-`15749`](dialogue-context-15500-15749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-15500-15749-20261114.json).
+
+The `15750`-`15999` range confirmed all eleven current candidates against the
+four language rows; no edit or fingerprint refresh was needed. Cumulative
+reconciliation is 898 / 4,015 (22.37%), with 3,117 remaining. See
+[`15750`-`15999`](dialogue-context-15750-15999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-15750-15999-20261114.json).
+
+The `16000`-`16249` range confirmed all five candidates were already
+correct. Cumulative reconciliation is 903 / 4,015 (22.49%), with 3,112
+remaining. See
+[`16000`-`16249`](dialogue-context-16000-16249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-16000-16249-20261114.json).
+
+The `16250`-`16499` range confirmed ten corrections and refined `16389` for
+sentence structure and meaning. Cumulative reconciliation is 914 / 4,015
+(22.77%), with 3,101 remaining. See
+[`16250`-`16499`](dialogue-context-16250-16499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-16250-16499-20261114.json).
+
+The `16500`-`16749` range confirmed nine existing candidates and the linked
+duplicate at `33194`; no edit was needed. Cumulative reconciliation is
+924 / 4,015 (23.01%), with 3,091 remaining. See
+[`16500`-`16749`](dialogue-context-16500-16749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-16500-16749-20261114.json).
+
+The `16750`-`16999` range confirmed ten prior corrections and refined
+`16921` from `재배치` to source-supported `전근`, consistent with the
+verified transfer wording at `52118`. Lupoku spellings, Red "the Dead"
+Idward, Chosen titles, Sagecraft altar, and quest-specific urns were
+cross-checked; linked candidate `63399` was also confirmed. Cumulative
+reconciliation is 936 / 4,015 (23.31%), with 3,079 remaining. See
+[`16750`-`16999`](dialogue-context-16750-16999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-16750-16999-20261114.json).
+
+The `17000`-`17249` reconciliation confirmed all ten current corrections
+were already reflected in the Korean CSV. The Beckoned meaning, Maura's
+home, the House of Sorrows, and the inexperienced apprentice were checked
+against all language rows; the Great General title matches both exact-English
+copies. No CSV edit or fingerprint refresh was needed. Cumulative
+reconciliation is 946 / 4,015 (23.56%), with 3,069 remaining. See
+[`17000`-`17249`](dialogue-context-17000-17249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-17000-17249-20261114.json).
+
+The `17250`-`17499` reconciliation confirmed eleven corrections and retained
+the source-specific short `Toothpicks` name at `17474`, supported by its
+identical quest copies. The Glass of Ambient mirror references, Fae-farming
+passage, and Castle Ansilla refuse-pipe wording were checked across related
+IDs. No CSV or fingerprint update was needed. Cumulative reconciliation is
+958 / 4,015 (23.86%), with 3,057 remaining. See
+[`17250`-`17499`](dialogue-context-17250-17499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-17250-17499-20261114.json).
+
+The `17500`-`17749` reconciliation confirmed all nine current corrections.
+The Leechwood term and harvest objective, the shared Ysa-defense passage,
+Skyblossom, The Testament, Horace, and Selinia's pronouns were cross-checked
+against their related rows. No CSV edit or fingerprint refresh was needed.
+Cumulative reconciliation is 967 / 4,015 (24.08%), with 3,048 remaining.
+See
+[`17500`-`17749`](dialogue-context-17500-17749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-17500-17749-20261114.json).
+
+The `17750`-`17999` reconciliation confirmed all three current corrections:
+the cave reading at `17901`, the conversational dismissal at `17936`, and
+the standardized `키프탈 사부(Master Kiftal)` title at `17937`. No CSV edit
+or fingerprint refresh was needed. Cumulative reconciliation is 970 / 4,015
+(24.16%), with 3,045 remaining. See
+[`17750`-`17999`](dialogue-context-17750-17999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-17750-17999-20261114.json).
+
+The `18000`-`18249` reconciliation confirmed four current candidates and the
+linked SQ126 candidate at `48994`. The objective at `18005`, Headsman title
+at `18118`, paired Stones at `18134`, and shared Dokkalfar payment sentence
+at `18242`/`48994` are already correct in the active Korean. No CSV or
+fingerprint changed. Cumulative reconciliation is 975 / 4,015 (24.28%),
+with 3,040 remaining. See
+[`18000`-`18249`](dialogue-context-18000-18249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-18000-18249-20261114.json).
+
+The `18250`-`18499` reconciliation confirmed six current candidates and three
+linked SQ01 candidates at `21389`, `48830`, and `56054`. The existing Korean
+already preserves the polite register at `18293`, conversational voice at
+`18315`, the magical Well terminology at `18322`, the affirmative response
+at `18371`, natural phrasing at `18398`, and conversational relief at
+`18433`. The linked Well references were checked across languages; earlier
+linked candidates `5329` and `5790` were not counted twice. No CSV or
+fingerprint changed. Cumulative reconciliation is 984 / 4,015 (24.51%),
+with 3,031 remaining. See
+[`18250`-`18499`](dialogue-context-18250-18499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-18250-18499-20261114.json).
+
+The `18500`-`18749` reconciliation confirmed six corrections already present
+and refined `18704` after comparing “pillars of character” with the Japanese
+and Chinese readings of virtues/core qualities. It now reads
+`우리를 이루는 덕목을 되새기러`; only `18704`'s Korean text and fingerprint
+changed. The earlier hold on this metaphor is superseded. Cumulative
+reconciliation is 991 / 4,015 (24.69%), with 3,024 remaining. See
+[`18500`-`18749`](dialogue-context-18500-18749-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-18500-18749-20261114.json).
+
+The `18750`-`18999` reconciliation checked 15 current candidates and linked
+candidates `28142` and `47293`. It refined `18873` for natural meaning and
+consistent plain speech; the other supported wording and name pairings were
+already present. `18796` remains held because the choice's speech level lacks
+direct context, and `18919` remains held pending runtime placeholder values.
+Only `18873`'s Korean text and fingerprint changed. Cumulative reconciliation
+is 1,008 / 4,015 (25.11%), with 3,007 remaining. See
+[`18750`-`18999`](dialogue-context-18750-18999-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-18750-18999-20261114.json).
+
+The `19000`-`19249` reconciliation checked 13 current candidates and linked
+candidates `48309` and `53833`. The `Red` signature at `19089` now uses
+`레드(Red)`, preserving both paragraph breaks. The other supported names,
+terms, and wording were already present. `19022` remains held because the
+intended sense of “culling” is unresolved; separate gender and Latin-spelling
+questions at `19051`/`48309` remain unassigned. Cumulative reconciliation is
+1,023 / 4,015 (25.48%), with 2,992 remaining. See
+[`19000`-`19249`](dialogue-context-19000-19249-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-19000-19249-20261114.json).
+
+The `19250`-`19499` reconciliation confirmed all 21 current candidates and
+the linked `Century Flower 1` candidate at `57783`. The objective names,
+dialogue wording, `Runere` pairing, letter signature, and multilingual place
+and lore references are already correct in the current CSV. The related
+`Century Flower` entries at `7989` and `9545` were reconciled earlier and
+were not counted twice. No CSV or fingerprint changed. Cumulative
+reconciliation is 1,045 / 4,015 (26.03%), with 2,970 remaining. See
+[`19250`-`19499`](dialogue-context-19250-19499-candidate-reconciliation-20261114.md)
+and its
+[`decision manifest`](dialogue-context-final-edits-followup-19250-19499-20261114.json).
+
+The sequential candidate reconciliation continued through `20750`-`21249`.
+`20750`-`20999` checked 19 candidates and four separate evidence-limited
+holds; all supported corrections were already reflected in the active Korean.
+`20880` had been reviewed as a linked duplicate of `3099`, but was not
+previously included in the candidate-ID tally.
+
+`21000`-`21249` checked 21 candidates and three separate evidence-limited
+holds. The 18 earlier corrections in that range were reverified, and
+`default:21011` was refined to `마법의 여왕이자 운명의 여신이지`, supported
+by Japanese `魔法の女王`. `21039` and `21129` remain held for insufficient
+context. Candidate reconciliation now covers 1,188 of 4,015 IDs (29.59%);
+2,827 remain. See the range reports and decision manifests:
+[`20750`-`20999`](dialogue-context-20750-20999-candidate-reconciliation-20261114.md),
+[`21000`-`21249`](dialogue-context-21000-21249-candidate-reconciliation-20261114.md),
+[`20750`-`20999` manifest](dialogue-context-final-edits-followup-20750-20999-20261114.json),
+and
+[`21000`-`21249` manifest](dialogue-context-final-edits-followup-21000-21249-20261114.json).
+
+### Candidate Reconciliation Through `21499`
+
+The `21250`-`21499` range rechecked 22 candidates, one previously counted.
+The earlier report's Argine/Krast claims did not match the active CSV;
+26 Argine labels and both Krast objectives were corrected, with only their
+28 ledger fingerprints refreshed. All 65,135 fingerprints and 20 regression
+tests passed. Reconciliation is 1,209 / 4,015 (30.11%), leaving 2,806;
+six separate evidence-limited holds remain open. See the
+[`report`](dialogue-context-21250-21499-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-21250-21499-20261114.json).
+
+The `21500`-`21749` range checked all ten candidates and applied two
+supported corrections: recovered treasure at `21541` and the group's escape
+attempt at `21589`. Only those two ledger fingerprints were refreshed.
+Cumulative reconciliation is 1,219 / 4,015 (30.36%), leaving 2,796; the
+rank and other evidence-limited holds remain open. See the
+[`report`](dialogue-context-21500-21749-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-21500-21749-20261114.json).
+
+The `21750`-`21999` range checked 14 candidates and confirmed the previously
+applied corrections. The `22000`-`22249` range checked seven more and
+confirmed the active translations; neither required additional CSV edits.
+Reconciliation is 1,240 / 4,015 (30.86%), leaving 2,775. Evidence-limited
+holds remain open. See the
+[`21750`-`21999 report`](dialogue-context-21750-21999-candidate-reconciliation-20261114.md),
+[`21750`-`21999 manifest`](dialogue-context-final-edits-followup-21750-21999-20261114.json),
+[`22000`-`22249 report`](dialogue-context-22000-22249-candidate-reconciliation-20261114.md),
+and [`22000`-`22249 manifest`](dialogue-context-final-edits-followup-22000-22249-20261114.json).
+
+The `22250`-`22499` range checked 14 candidates and applied two
+follow-up corrections: `22278` now uses the `base` weapon terms, and
+`22302` has a more natural full-sentence taunt. Only those two fingerprints
+were refreshed. Reconciliation is 1,254 / 4,015 (31.26%), leaving 2,761;
+11 evidence-limited holds remain open. See the
+[`report`](dialogue-context-22250-22499-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-22250-22499-20261114.json).
+
+The `22500`-`22749` range verified all 21 candidates against the current
+four-language rows and prior accepted edits; no new CSV correction was
+needed. A discrepancy in the older `22579` edit report is documented against
+the active exact-source pairing. Reconciliation is 1,275 / 4,015 (31.76%),
+leaving 2,740. See the
+[`report`](dialogue-context-22500-22749-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-22500-22749-20261114.json).
+
+The `22750`-`22999` range checked all 24 candidates and confirmed the 22
+previously applied corrections; two other rows were already aligned. No new
+CSV edit was required. Reconciliation is 1,299 / 4,015 (32.34%), leaving
+2,716. See the
+[`report`](dialogue-context-22750-22999-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-22750-22999-20261114.json).
+
+The `23000`-`23249` range verified all 14 candidates; `23199` had already
+been counted in a linked-location review, so 13 new IDs were counted.
+Existing supported corrections remain present and no additional CSV edit
+was needed. Reconciliation is 1,312 / 4,015 (32.69%), leaving 2,703. See
+the [`report`](dialogue-context-23000-23249-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-23000-23249-20261114.json).
+
+The `23250`-`23499` range rechecked 19 candidates; ten were newly counted
+and nine had been counted in earlier linked reviews. The map-inheritance
+sentence at `23499` was refined and its fingerprint refreshed.
+Reconciliation is 1,322 / 4,015 (32.95%), leaving 2,693. See the
+[`report`](dialogue-context-23250-23499-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-23250-23499-20261114.json).
+
+The `23500`-`23749` range confirmed all 12 candidate translations. Ten were
+newly counted; `23635` and `23662` had already been counted and were verified
+as resolved. No new CSV edit was needed. Reconciliation is 1,332 / 4,015
+(33.20%), leaving 2,683. See the
+[`report`](dialogue-context-23500-23749-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-23500-23749-20261114.json).
+
+The `23750`-`23999` range checked 20 candidates: 15 newly counted and five
+previously counted. It corrected `23942` to explicitly name Thyrdon in the
+“in his name” clause and refreshed only that fingerprint. Reconciliation is
+1,347 / 4,015 (33.52%), leaving 2,668. See the
+[`report`](dialogue-context-23750-23999-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-23750-23999-20261114.json).
+
+The `25250`-`25499` range checked all 29 current candidate IDs against the
+four active language rows and prior findings. Twenty IDs were newly counted;
+nine linked candidates were already counted. The supported corrections are
+present in the Korean CSV, and two evidence-limited findings remain held. No
+new CSV edit or fingerprint refresh was needed. Reconciliation is 1,434 /
+4,015 (35.74%), leaving 2,581. See the
+[`report`](dialogue-context-25250-25499-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-25250-25499-20261114.json).
+
+The `25500`-`25749` range checked 13 candidates and the linked duplicate
+`58994`. Reconciliation found two corrections missing from the active CSV:
+`25713`'s canonical Lupoku spelling/register and the five-recruit count at
+`25742`; both were corrected and their fingerprints refreshed. The gift-check
+copies at `25595`, `37899`, `37948`, and `59623` were also checked, preserving
+the source-supported register difference. Reconciliation is 1,447 / 4,015
+(36.04%), leaving 2,568. See the
+[`report`](dialogue-context-25500-25749-candidate-reconciliation-20261114.md)
+and [`manifest`](dialogue-context-final-edits-followup-25500-25749-20261114.json).
+
+Sequential candidate reconciliation then resumed through
+`30000`-`30249` (1,754 / 4,015), `30250`-`30499` (1,775),
+`30500`-`30749` (1,791), `30750`-`30999` (1,804),
+`31000`-`31249` (1,825), `31250`-`31499` (1,846), and
+`31500`-`31749` (1,858). Source-supported corrections were verified against
+the active four-language rows; uncertain findings remain held. The reports
+are
+[`30000`-`30249`](dialogue-context-30000-30249-candidate-reconciliation-20261114.md),
+[`30250`-`30499`](dialogue-context-30250-30499-candidate-reconciliation-20261114.md),
+[`30500`-`30749`](dialogue-context-30500-30749-candidate-reconciliation-20261114.md),
+[`30750`-`30999`](dialogue-context-30750-30999-candidate-reconciliation-20261114.md),
+[`31000`-`31249`](dialogue-context-31000-31249-candidate-reconciliation-20261114.md),
+[`31250`-`31499`](dialogue-context-31250-31499-candidate-reconciliation-20261114.md),
+and
+[`31500`-`31749`](dialogue-context-31500-31749-candidate-reconciliation-20261114.md).
+
+The `31750`-`31999` reconciliation checked 24 candidates; `31796` had
+already been counted with the 26 exact-English Argine labels, so 23 were
+added. The `32000`-`32249` reconciliation counted 18 in-range candidates
+and their linked exact-English copy `33619`. The `32250`-`32499`
+reconciliation counted 12 in-range candidates and the linked card entry
+`38453`; `22272` was already reconciled and was not counted again. No new
+translation edit was needed in these three reconciliation passes because
+their supported corrections are present in the earlier edit batches.
+Cumulative candidate reconciliation is now 1,913 / 4,015 (47.65%), leaving
+2,102. See the
+[`31750`-`31999 report`](dialogue-context-31750-31999-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-31750-31999-20261114.json),
+the
+[`32000`-`32249 report`](dialogue-context-32000-32249-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-32000-32249-20261114.json),
+and the
+[`32250`-`32499 report`](dialogue-context-32250-32499-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-32250-32499-20261114.json).
+
+The active `default` CSV currently measures 71,838 CRLF, 244 LF-only, and
+zero bare-CR newline bytes. This differs from earlier edit-batch reports
+that recorded 71,842 CRLF; the current file was directly checked and was not
+rewritten during candidate reconciliation.
+
+The `32500`-`32749` reconciliation checked all 19 current candidates and the
+linked candidate `47165`, an exact four-language duplicate of `32711`.
+Seventeen in-range translations and the linked duplicate are confirmed in
+the active CSV; `32700` remains held for the unsettled `Templar` rendering,
+and `32734` is retained because its linked proposal refers to a different
+source line. The earlier `32325` hold is superseded by the definition of
+Fastings in `32740` and `54487`; that ID was already counted in the prior
+range and is not counted again. No CSV edit was needed in this
+reconciliation. This was the prior checkpoint at 1,933 / 4,015 (48.17%),
+with 2,082 remaining; see the
+[`32500`-`32749 report`](dialogue-context-32500-32749-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-32500-32749-20261114.json).
+
+The next three ranges, `32750`-`32999`, `33000`-`33249`, and
+`33250`-`33499`, were reconciled against their four-language reviews and
+current edit batches. They add 14, 19, and 30 in-range candidate IDs plus 11
+previously unreconciled linked candidates. Earlier linked candidates were
+not double-counted. `33194` had already been counted with `16617`.
+`26805` was checked for Aster consistency but is `not-issue`, not a
+candidate. Their supported Korean edits were already present, so the
+reconciliation changed no CSV text. Candidate reconciliation now covers
+2,007 / 4,015 (49.99%), leaving 2,008. See the
+[`32750`-`32999 report`](dialogue-context-32750-32999-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-32750-32999-20261114.json),
+the
+[`33000`-`33249 report`](dialogue-context-33000-33249-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-33000-33249-20261114.json),
+and the
+[`33250`-`33499 report`](dialogue-context-33250-33499-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-33250-33499-20261114.json).
+
+The `33500`-`33749` reconciliation checked 33 current candidates; `33619`
+was already counted with `32241`, so 32 new IDs were added. The later
+`33645` follow-up correction supersedes its earlier retained wording. No
+further CSV edit was needed in this reconciliation. Candidate reconciliation
+now covers 2,039 / 4,015 (50.78%), leaving 1,976. See the
+[`33500`-`33749 report`](dialogue-context-33500-33749-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-33500-33749-20261114.json).
+
+The `33750`-`33999` reconciliation checked all 29 current candidates.
+`33861` was already counted with the Commodore Garrick group, and `33892`
+with the Argine title group, so 27 new in-range candidates were added.
+The linked exact duplicate `36075` was also reconciled, bringing the new
+total to 28. The active Korean already contained the supported corrections
+for the other candidates; `33927` was refined for naturalness, and `36075`
+now matches `33820` with the full `Before The Talk` pairing. Candidate
+reconciliation is 2,067 / 4,015 (51.48%), with 1,948 remaining. See the
+[`33750`-`33999 report`](dialogue-context-33750-33999-candidate-reconciliation-20261114.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-33750-33999-20261114.json).
+
+Candidate reconciliation continued through `47249`. Ranges `46000`-`46249`,
+`46250`-`46499`, and `46500`-`46749` added 36 reviewed candidates; the
+`46750`-`46999` pass added seven and cleared two false-positive ledger
+candidates; `47000`-`47249` added 12 after excluding five previously
+reconciled cross-range candidates. The one new translation correction is
+`47052`, now `별 야영지(Star Camp)에 온 걸 환영해.` Candidate reconciliation
+stands at 3,183 / 4,027 (79.04%), with 844 remaining. Evidence-limited items
+remain open rather than guessed. Reports and manifests:
+[`46000`-`46249`](dialogue-context-46000-46249-candidate-reconciliation-20261115.md),
+[`46250`-`46499`](dialogue-context-46250-46499-candidate-reconciliation-20261115.md),
+[`46500`-`46749`](dialogue-context-46500-46749-candidate-reconciliation-20261115.md),
+[`46750`-`46999`](dialogue-context-46750-46999-candidate-reconciliation-20261115.md),
+and
+[`47000`-`47249`](dialogue-context-47000-47249-candidate-reconciliation-20261115.md).
+
+The `47250`-`47499` reconciliation checked 14 candidates and counted 13 new
+IDs; the linked candidate `47293` was not counted twice. It refined
+`47293` and `47447`, while the supported wording for the other candidates
+was already present. The `47500`-`47749` pass counted ten new candidates,
+cleared stale proposal `47729`, and corrected `47742` to
+`브루누아스 동굴(Brunuath Hollow)`. The `47750`-`47999` pass counted ten
+new candidates; ten linked candidates had already been reconciled. The
+current rows already contain the supported wording, so this range required
+no CSV or fingerprint edits. Holds at `47801` and `47958` remain evidence
+limited. Candidate reconciliation is now 3,216 / 4,027 (79.86%), with 811
+remaining. See the
+[`47250`-`47499 report`](dialogue-context-47250-47499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-47250-47499-20261115.json),
+the
+[`47500`-`47749 report`](dialogue-context-47500-47749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-47500-47749-20261115.json),
+and the
+[`47750`-`47999 report`](dialogue-context-47750-47999-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-47750-47999-20261115.json).
+
+The `48000`-`48249` pass rechecked 12 ledger candidates, all previously
+reconciled in the `46000`-`51999` application or linked-context review.
+Their supported wording remains in the active CSV, so no new edits or
+fingerprint changes were needed. `48231` remains held because the sources do
+not establish whether “The Messenger” is a name or a generic role. The
+candidate tally remains 3,216 / 4,027 (79.86%), with 811 remaining. See the
+[`48000`-`48249 report`](dialogue-context-48000-48249-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-48000-48249-20261115.json).
+
+The `48250`-`48499` pass rechecked 16 current ledger candidates. All had
+already been reconciled in prior application or linked-context reviews, so
+none was counted twice. The supported translations, including the full
+name pairings and paragraph structure in the long tale at `48468`, remain
+present. The `vagrants` terminology at `48443` stays held pending a
+group-level decision. No CSV or fingerprint changes were needed; cumulative
+reconciliation remains 3,216 / 4,027 (79.86%), with 811 remaining. See the
+[`48250`-`48499 report`](dialogue-context-48250-48499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-48250-48499-20261115.json).
+
+The `48500`-`48749` pass rechecked eight ledger candidates. Seven were
+already reconciled and remain supported by the current text. The proposed
+Gryamar reference at `48700` was a false positive: the source names Anela
+and Virki, both already paired in Korean. The stale candidate flag was
+cleared without changing the translation or fingerprint. The pool is now
+4,026, and reconciliation stands at 3,216 / 4,026 (79.88%), with 810
+remaining. See the
+[`48500`-`48749 report`](dialogue-context-48500-48749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-48500-48749-20261115.json).
+
+The `48750`-`48999` pass rechecked 13 active ledger candidates; all had
+already been reconciled in prior application or linked-context reviews.
+Four further sequential-review proposals are already `not-issue` in the
+current ledger. The supported meanings, name pairings, and formatting
+remain present, including the multiline material list at `48816`. No CSV or
+fingerprint change was needed. Candidate reconciliation remains
+3,216 / 4,026 (79.88%), with 810 remaining. See the
+[`48750`-`48999 report`](dialogue-context-48750-48999-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-48750-48999-20261115.json).
+
+The `49000`-`49249` pass rechecked eight active candidates, all previously
+reconciled in application or linked-context reviews. The supported
+translations remain present. `49146` and `49196` are already corrected and
+marked `not-issue`; holds at `49018`, `49195`, and `49246` remain open. No
+CSV or fingerprint change was needed, so reconciliation remains
+3,216 / 4,026 (79.88%), with 810 remaining. See the
+[`49000`-`49249 report`](dialogue-context-49000-49249-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-49000-49249-20261115.json).
+
+The `49250`-`49499` pass reconciled eight new candidates; `49479` was already
+counted in the linked Sandstone Villa review. The Aster narrative at `49259`,
+enemy wording at `49271`, name pairings, main-menu heading, and relic
+referent are already supported by the active Korean text. No CSV or
+fingerprint edit was needed. Progress is 3,224 / 4,026 (80.08%), with 802
+remaining. See the
+[`49250`-`49499 report`](dialogue-context-49250-49499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-49250-49499-20261115.json).
+
+The `49500`-`49749` pass reconciled 12 new candidates; three older ledger
+candidates had already been handled in the `46000`-`51999` application. It
+corrected the ability-selection wording at `49608`, the prisoners' protective
+exception at `49652`, and the Anira title/name label at `49692`. The
+`49652` finding was reopened from a prior `not-issue` because the active
+Korean did not reflect the source meaning. Three fingerprints were refreshed.
+Progress is 3,236 / 4,026 (80.38%), with 790 remaining; this tally excludes
+reopened `49652`, which was outside the active candidate pool. See the
+[`49500`-`49749 report`](dialogue-context-49500-49749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-49500-49749-20261115.json).
+
+The `49750`-`49999` pass rechecked all 21 sequential-review proposals.
+Fifteen active candidates were newly reconciled; `49766` and `49949` had
+already been counted in linked reviews, and four older proposals are now
+`not-issue`. The supported wording is present, including all 20 identical
+`Irion, King of Cups` labels. No CSV or fingerprint edit was needed. Progress
+is 3,251 / 4,026 (80.75%), with 775 remaining. See the
+[`49750`-`49999 report`](dialogue-context-49750-49999-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-49750-49999-20261115.json).
+
+The `50000`-`50249` pass rechecked all 18 sequential-review proposals.
+Fourteen active candidates were newly reconciled; `50073` was already
+counted in the linked Litany terminology review, and four other proposals
+are already `not-issue`. The supported names, tone, terminology, and
+multiline layout are present. No CSV or fingerprint edit was needed.
+Progress is 3,265 / 4,026 (81.10%), with 761 remaining. See the
+[`50000`-`50249 report`](dialogue-context-50000-50249-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-50000-50249-20261115.json).
+
+The `50250`-`50499` pass rechecked all 13 sequential-review proposals and
+newly reconciled ten active candidates. `50270`, `50445`, `50460`, and
+`50475` were already handled in earlier linked reviews. Rows `50342` and
+`50426` were refined; the other supported wording was already present.
+Only those two Korean rows and their fingerprints changed. Candidate
+reconciliation is 3,275 / 4,026 (81.35%), with 751 remaining. Existing
+meaning and speaker holds remain open. See the
+[`50250`-`50499 report`](dialogue-context-50250-50499-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-50250-50499-20261115.json).
+
+The `50500`-`50749` pass rechecked all 11 sequential-review proposals.
+Six active candidates were newly reconciled; `50572` and `50723` were
+already handled in earlier reviews, and four proposals were already
+`not-issue`. It corrected the isolated `Hurvar's Doorsil` label at `50533`
+to match the established `허바르의 문턱(Hurvar's Doorsill)` form. Other
+supported wording was already present. Progress is 3,281 / 4,026 (81.50%),
+with 745 remaining. See the
+[`50500`-`50749 report`](dialogue-context-50500-50749-candidate-reconciliation-20261115.md)
+and
+[`manifest`](dialogue-context-final-edits-followup-50500-50749-20261115.json).
+
+The `64000`-`64249` pass newly reconciled six candidates and rechecked two
+already handled candidates without double counting. The existing corrections
+at `64054`, `64074`, `64110`, `64193`, and `64240` remain supported, and
+`64234` already uses `무기 교관`. A full `default` source scan also found six
+remaining Korean variants of `master-at-arms`; IDs `17267`, `19483`, `29235`,
+`31502`, `49162`, and `60558` now use the established `무기 교관`. Their
+fingerprints validate, as do all 65,135 ledger entries. Candidate
+reconciliation is 3,503 / 4,026 (87.01%), with 523 remaining. See the
+[`64000`-`64249 report`](dialogue-context-64000-64249-candidate-reconciliation-20261115.md).
+
+The final four ranges contained 22 candidates: seven had already been
+rechecked, and the other 15 are now reconciled. Six Korean rows changed:
+`58374`, `64447`, `64722`, `64911`, `65109`, and `65134`. The player-choice
+responses `58374` and `65109` now match `49860` as `돈을 낼게`, preserving
+their runtime variable; `58374` was reopened because all three source
+languages are identical, but was not counted twice. `64706` remains
+`순회 대회`, supported by the fighters and Chinese tournament-circuit
+wording. `64412` remains held because its referent is uncertain. Progress is
+3,518 / 4,026 (87.38%), with 508 remaining. See the
+[`end-of-corpus follow-up`](dialogue-context-candidate-reconciliation-followup-64250-65134-20261115.md).

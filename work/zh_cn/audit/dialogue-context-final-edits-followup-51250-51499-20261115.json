@@ -1,0 +1,78 @@
+{
+  "range": [51250, 51499],
+  "source": {
+    "sequential_review": "dialogue-context-default-51250-51499-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "prior_application": "dialogue-context-final-edits-46000-51999-20261114.json",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_report_proposal_ids": [
+    51266, 51278, 51284, 51287, 51304, 51348, 51355, 51359, 51379,
+    51390, 51400, 51402, 51417, 51418, 51421, 51444, 51455, 51487,
+    51489
+  ],
+  "newly_reconciled_ids": [],
+  "previously_reconciled_ids": [
+    51266, 51278, 51284, 51287, 51304, 51348, 51355, 51359, 51379,
+    51390, 51400, 51402, 51417, 51418, 51444, 51455, 51487, 51489
+  ],
+  "previously_cleared_ids": [51280, 51399],
+  "reopened_findings_outside_candidate_pool": {
+    "ids": [51348, 51421],
+    "reason": "The current candidate at 51348 refines an earlier retained rendering of 'lair'; 51421 had been held in the earlier application and is now clarified by the direct English/Japanese wording. Neither is added to the already established unique-candidate tally."
+  },
+  "decisions": {
+    "corrected_now": [51348, 51421],
+    "already_correct_or_supported": [
+      51266, 51278, 51284, 51287, 51304, 51355, 51379, 51390,
+      51402, 51417, 51418, 51444, 51487, 51489
+    ],
+    "held_for_independent_evidence": [51398, 51446, 51478]
+  },
+  "edits": [
+    {
+      "id": 51348,
+      "old": "늑대 무리가 근처에 거처를 마련한 트롤(Troll)의 주의를 끌었어. 훨씬 큰 위협이지만, 내가 쓰러뜨릴 수 있을 거야.",
+      "new": "늑대 무리가 근처에 굴을 튼 트롤(Troll)의 주의를 끌었어. 훨씬 큰 위협이지만, 내가 쓰러뜨릴 수 있을 거야.",
+      "reason": "Uses a natural Korean rendering for the Troll's nearby lair, supported by Japanese ねぐら and the Chinese den wording."
+    },
+    {
+      "id": 51421,
+      "old": "의식이 진행되는 동안 이 사람은 사이온(Scion)이 된다. 아카라(Akara)의 대변자이자 우리 영적 여정의 길잡이다.",
+      "new": "의식을 통해 이 사람은 사이온(Scion), 곧 아카라(Akara)의 대변자이자 우리 영적 여정의 길잡이가 된다.",
+      "reason": "Clarifies that the person becomes the Scion through the ceremony and keeps the source's appositive explanation."
+    }
+  ],
+  "ledger_dispositions_changed": false,
+  "ledger_fingerprint_changed_ids": [51348, 51421],
+  "translation_csv_changed": true,
+  "changed_default_ids": [51348, 51421],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3292,
+    "previous_total": 4026,
+    "newly_reconciled": 0,
+    "reconciled": 3292,
+    "total": 4026,
+    "percent": 81.77,
+    "remaining": 734
+  },
+  "verification": {
+    "ledger_fingerprint_check": "passed for all 65,135 reviewed IDs",
+    "index_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_tests": "11 passed",
+    "context_index_tests": "9 passed",
+    "csv_rows_and_order": "65,135 records; ordered IDs verified",
+    "utf8_bom_and_line_endings": "UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

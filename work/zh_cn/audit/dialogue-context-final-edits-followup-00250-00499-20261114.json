@@ -1,0 +1,56 @@
+{
+  "range": [250, 499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "reconciled_candidate_ids": 11,
+  "edits": [
+    {
+      "id": 280,
+      "old": "페이(Fae)인 용맹의 챔피언(Champion of Valor) 엔가드(Engard)는 몇 년 전 용맹의 집(House of Valor)에서 바라니(Varani) 전사에게 패배했다.",
+      "new": "페이(Fae)인 엔가드(Engard)는 용맹의 챔피언(Champion of Valor)으로, 몇 년 전 용맹의 집(House of Valor)에서 바라니(Varani) 전사에게 패배했다.",
+      "reason": "The source identifies Engard as a Fae Champion of Valor. Reorder the sentence so the name, people, and title are easy to parse while preserving the defeat, location, opponent, and all English pairings."
+    }
+  ],
+  "retained": [
+    {
+      "id": 285,
+      "reason": "The objective already pairs the full role and name as 종자 코란(Squire Coran)."
+    },
+    {
+      "id": 320,
+      "reason": "The poem already follows the six-line English layout and preserves its imagery."
+    },
+    {
+      "id": 333,
+      "reason": "The current Korean already expresses the source wish that the Beckoned's might endure."
+    },
+    {
+      "id": 358,
+      "reason": "The current wording locates the monetary dispute at Cape Solace without claiming the woman lives there."
+    },
+    {
+      "id": 396,
+      "reason": "The SQ126 context establishes salvage as recovering materials by dismantling; the current 분해 wording is supported."
+    },
+    {
+      "id": 412,
+      "reason": "The current row uses the source-paired 프레토리안 Orsinian Paige form; the unresolved singular-rank terminology question is not reopened."
+    },
+    {
+      "id": 439,
+      "reason": "The current row consistently identifies the recoverable reconnaissance document as 정찰 보고서."
+    },
+    {
+      "id": 468,
+      "reason": "The current wording already pairs the full source label as 애설름 씨(Mr. Athelm)."
+    },
+    {
+      "id": 473,
+      "reason": "The Great General pairing is already consistent across exact duplicates 473 and 2163 and dialogue row 17238."
+    },
+    {
+      "id": 483,
+      "reason": "The current 불명예를 입은 wording avoids the unsupported claim that Dink was dishonorably discharged."
+    }
+  ],
+  "held": []
+}

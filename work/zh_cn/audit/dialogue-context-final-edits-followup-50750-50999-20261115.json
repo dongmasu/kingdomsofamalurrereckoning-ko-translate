@@ -1,0 +1,92 @@
+{
+  "range": [50750, 50999],
+  "source": {
+    "sequential_review": "dialogue-context-default-50750-50999-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_report_proposal_ids": [
+    50751, 50765, 50816, 50835, 50836, 50844, 50853,
+    50876, 50889, 50891, 50963, 50967, 50974, 50984
+  ],
+  "active_ledger_candidate_ids": [
+    50765, 50835, 50836, 50853, 50876, 50889,
+    50891, 50963, 50967, 50974, 50984
+  ],
+  "newly_reconciled_ids": [
+    50765, 50835, 50836, 50853, 50876, 50889,
+    50891, 50963, 50967, 50974, 50984
+  ],
+  "previously_reconciled_ids": [50951],
+  "already_not_issue_ids": [50751, 50816, 50844],
+  "decisions": {
+    "corrected_now": [50765],
+    "already_correct_or_supported": [
+      50835, 50836, 50853, 50876, 50889, 50891,
+      50963, 50967, 50974, 50984
+    ],
+    "held_for_independent_evidence": [50834, 50923, 50980, 50997]
+  },
+  "reopened_findings_outside_candidate_pool": {
+    "ids": [50844],
+    "reason": "The older ledger disposition was not-issue, but direct comparison of the English and Japanese sentence, with Chinese support, shows that Sigra herself distributed the invoices. The Korean was revised to state this explicitly."
+  },
+  "linked_exact_source_duplicate": {
+    "english": "A wretched fool of pride am I, to think ... then am I lost.",
+    "ids": [50765, 58929],
+    "korean_equal_after_edit": true,
+    "embedded_line_breaks_per_row": 12
+  },
+  "edits": [
+    {
+      "id": 50765,
+      "old": "오만에 찬 가련한 바보였지,\n그녀의 유혹을 뿌리칠 수 있다고 믿다니.\n나는 젊음의 이슬을 빨아들이는\n지상의 목발 같은 파멸을 안다.\n그런데도 이곳에 아름다움이 모습을 드러냈으니:\n고요하고 숭고한 수사슴과 요란한 폭포,\n온통 비방으로 얼룩진 경이로움.\n시골에 밤이 내리면,\n방탕하고 수치스러운 음란의 소리와\n음울한 어둠의 악취,\n쾌락을 위해 파헤친 비루한 역사의 거짓 시체가\n뒤섞여 다시 묻힌다,\n과거의 자궁 속에. 그러면 나는 길을 잃는다.",
+      "new": "오만에 찬 가련한 바보였지,\n그녀의 유혹을 뿌리칠 수 있다고 믿다니.\n나는 안다, 이 땅의 지팡이 같은 파멸을,\n젊음의 이슬을 앗아 가는 목발을.\n그런데도 이곳에 아름다움이 모습을 드러냈으니:\n고요하고 숭고한 수사슴과 요란한\n폭포, 온통 비방 어린 경이로움.\n시골에 밤이 내리면 방탕하고\n수치스러운 음란의 소리가 울리고,\n음울한 어둠의 악취와 거짓 시체,\n즐거움을 위해 파헤친 비루한 역사가\n한데 뒤섞여 다시 묻히면,\n과거의 자궁 속에서 나는 길을 잃는다.",
+      "reason": "Clarifies the source's cane/crutch/youth metaphor and the sequence of images while retaining the poem's 13 displayed lines and 12 embedded line breaks."
+    },
+    {
+      "id": 58929,
+      "old": "오만에 찬 가련한 바보였지,\n그녀의 유혹을 뿌리칠 수 있다고 믿다니.\n나는 젊음의 이슬을 빨아들이는\n지상의 목발 같은 파멸을 안다.\n그런데도 이곳에 아름다움이 모습을 드러냈으니:\n고요하고 숭고한 수사슴과 요란한 폭포,\n온통 비방으로 얼룩진 경이로움.\n시골에 밤이 내리면,\n방탕하고 수치스러운 음란의 소리와\n음울한 어둠의 악취,\n쾌락을 위해 파헤친 비루한 역사의 거짓 시체가\n뒤섞여 다시 묻힌다,\n과거의 자궁 속에. 그러면 나는 길을 잃는다.",
+      "new": "오만에 찬 가련한 바보였지,\n그녀의 유혹을 뿌리칠 수 있다고 믿다니.\n나는 안다, 이 땅의 지팡이 같은 파멸을,\n젊음의 이슬을 앗아 가는 목발을.\n그런데도 이곳에 아름다움이 모습을 드러냈으니:\n고요하고 숭고한 수사슴과 요란한\n폭포, 온통 비방 어린 경이로움.\n시골에 밤이 내리면 방탕하고\n수치스러운 음란의 소리가 울리고,\n음울한 어둠의 악취와 거짓 시체,\n즐거움을 위해 파헤친 비루한 역사가\n한데 뒤섞여 다시 묻히면,\n과거의 자궁 속에서 나는 길을 잃는다.",
+      "reason": "The four language sources are exact duplicates of ID 50765, so the Korean poem is kept identical."
+    },
+    {
+      "id": 50844,
+      "old": "시그라 소린(Sigra Thorin)이 아이텐(Ayten)에 있는 남편의 물약 가게에서 배포한 잘못된 청구서 다섯 장을 회수해 달라고 부탁했다. 네 장은 아이텐(Ayten)에서 찾을 수 있고, 나머지 한 장은 여행 상인이 헬름가드 요새(Helmgard Keep)의 워스원(Warsworn) 기지로 가져갔다.",
+      "new": "시그라 소린(Sigra Thorin)이 아이텐(Ayten)에 있는 남편의 물약 가게에서 자신이 배포한 잘못된 청구서 다섯 장을 회수해 달라고 부탁했다. 네 장은 아이텐(Ayten)에서 찾을 수 있고, 나머지 한 장은 여행 상인이 헬름가드 요새(Helmgard Keep)의 워스원(Warsworn) 기지로 가져갔다.",
+      "reason": "English explicitly makes Sigra the distributor, and Japanese and Chinese support that reading. The revision retains the shop's Ayten location, invoice count, destinations, and journal perspective."
+    }
+  ],
+  "ledger_dispositions_changed": false,
+  "ledger_fingerprint_changed_ids": [50765, 50844, 58929],
+  "translation_csv_changed": true,
+  "changed_default_ids": [50765, 50844, 58929],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3281,
+    "previous_total": 4026,
+    "newly_reconciled": 11,
+    "reconciled": 3292,
+    "total": 4026,
+    "percent": 81.77,
+    "remaining": 734
+  },
+  "verification": {
+    "ledger_fingerprint_check": "passed for all 65,135 reviewed IDs",
+    "index_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_tests": "11 passed",
+    "context_index_tests": "9 passed",
+    "csv_rows_and_order": "65,135 records; ordered IDs verified",
+    "utf8_bom_and_line_endings": "UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

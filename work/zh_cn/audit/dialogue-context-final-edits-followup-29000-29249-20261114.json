@@ -1,0 +1,67 @@
+{
+  "range": [29000, 29249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 17,
+  "range_candidate_id_list": [
+    29027,
+    29034,
+    29040,
+    29050,
+    29063,
+    29121,
+    29131,
+    29148,
+    29162,
+    29169,
+    29173,
+    29203,
+    29204,
+    29213,
+    29219,
+    29220,
+    29224
+  ],
+  "reconciled_candidate_ids": 17,
+  "newly_counted_candidate_ids": 17,
+  "previously_counted_ids": [],
+  "decisions": {
+    "confirmed_in_active_csv_from_prior_batch": [
+      29027,
+      29034,
+      29121,
+      29131,
+      29162,
+      29169,
+      29173,
+      29204,
+      29220
+    ],
+    "retained": [
+      29040,
+      29050,
+      29063,
+      29148,
+      29203,
+      29213,
+      29219,
+      29224
+    ]
+  },
+  "edits": [],
+  "fingerprints_refreshed": [],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1685,
+    "total": 4015,
+    "percent": 41.97,
+    "remaining": 2330
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "four_language_rows_checked": 17,
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

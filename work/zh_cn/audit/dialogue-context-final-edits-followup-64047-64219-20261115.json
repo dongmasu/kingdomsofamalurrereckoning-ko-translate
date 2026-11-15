@@ -1,0 +1,46 @@
+{
+  "range": [64047, 64219],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "prior_range_report": "dialogue-context-default-64000-64249-revalidation-20261113.md",
+    "related_reports": [
+      "dialogue-context-translation-followup-64047-64219-20261115.md"
+    ]
+  },
+  "revalidated_no_change": [
+    64047,
+    64056,
+    64090,
+    64101,
+    64112,
+    64151,
+    64157,
+    64166,
+    64186,
+    64202,
+    64204,
+    64216
+  ],
+  "retained_holds": [64095],
+  "edits": [
+    {
+      "id": 64189,
+      "old": "론드 농장(Rond Farm)의 아를레트 론드(Arlette Rond)와 남편 덴릿(Dennrit)이 자신들을 괴롭히는 광기를 치료해 달라고 부탁했다. 두 사람은 상류의 페이(Fae) 동굴 크라날트에서 실험하던 제니커(Jenniker)라는 마법사가 원인이라고 믿는다. 크라날트로 가서 제니커(Jenniker)를 찾아봐야겠다.",
+      "new": "론드 농장(Rond Farm)의 아를레트 론드(Arlette Rond)와 남편 덴릿(Dennrit)이 자신들을 괴롭히는 광기를 치료해 달라고 부탁했다. 두 사람은 그 광기가 상류에 있는 페이(Fae) 동굴 크라날트(Cranalt)에서 실험하던 제니커(Jenniker)라는 마법사와 관련 있다고 믿는다. 크라날트(Cranalt)로 가서 제니커(Jenniker)를 찾아봐야겠다.",
+      "reason": "English and Japanese identify Cranalt as the Fae cave location and state the madness is related to the wizard's experiments there; the correction adds the missing English place-name pairing and avoids overstating causation."
+    },
+    {
+      "id": 64219,
+      "old": "바실리카 그노스트라(Basilica Gnostra)의 세부 사항을 살피는 대목에서, 회고록은 다음 장이 포룸을 다룬다고 말한다.",
+      "new": "바실리카 그노스트라(Basilica Gnostra)의 세부 내용을 살펴보다가, 회고록에서 다음 장은 포럼(Forum)을 다룬다는 걸 알게 됐다.",
+      "reason": "English names the Forum, and the established Korean at ID 209 is 포럼(Forum); the sentence is also recast into natural diary prose."
+    }
+  ],
+  "translation_csv_changed": true,
+  "changed_default_ids": [64189, 64219],
+  "ledger_fingerprint_changed_ids": [64189, 64219],
+  "ledger_dispositions_changed": false,
+  "source_csv_or_extracted_asset_changed": false,
+  "commit_made": false
+}

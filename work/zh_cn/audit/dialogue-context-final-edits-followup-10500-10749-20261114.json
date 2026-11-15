@@ -1,0 +1,62 @@
+{
+  "range": [10500, 10749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 20,
+  "range_candidate_id_list": [
+    10523, 10528, 10531, 10539, 10548, 10566, 10578, 10603, 10609, 10618,
+    10619, 10628, 10658, 10670, 10683, 10708, 10718, 10732, 10739, 10742
+  ],
+  "reconciled_candidate_ids": 20,
+  "decisions": {
+    "corrected": [
+      10523, 10528, 10531, 10539, 10548, 10566, 10578, 10603, 10609, 10618,
+      10619, 10628, 10658, 10670, 10683, 10708, 10718, 10732, 10739, 10742
+    ],
+    "previously_applied_confirmed": [
+      10523, 10528, 10531, 10548, 10578, 10603, 10609, 10619, 10628, 10658,
+      10670, 10683, 10732, 10739, 10742
+    ],
+    "newly_applied": [10539, 10566, 10618, 10708, 10718],
+    "held": []
+  },
+  "related_consistency_checks": [
+    {
+      "ids": [4867, 8562, 10609, 15198],
+      "term": "Fallon's prayer beads",
+      "result": "all use 염주"
+    },
+    {
+      "ids": [4085, 10670, 27067],
+      "term": "Savant",
+      "result": "all use 사반트(Savant)"
+    },
+    {
+      "ids": [10708, 41402, 43547],
+      "source_text": "And finally",
+      "result": "same Korean wording despite source punctuation differences"
+    }
+  ],
+  "fingerprints_refreshed": [10539, 10566, 10618, 10708, 10718],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 657,
+    "total": 4015,
+    "percent": 16.36,
+    "remaining": 3358
+  },
+  "verification": {
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows_bom_line_endings": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "manifest_json": "valid"
+  }
+}

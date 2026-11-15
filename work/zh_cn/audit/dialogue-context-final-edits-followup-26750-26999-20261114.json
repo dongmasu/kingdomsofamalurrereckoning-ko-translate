@@ -1,0 +1,70 @@
+{
+  "range": [26750, 26999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 13,
+  "range_candidate_id_list": [
+    26762,
+    26781,
+    26783,
+    26866,
+    26880,
+    26884,
+    26897,
+    26916,
+    26921,
+    26929,
+    26933,
+    26939,
+    26940
+  ],
+  "reconciled_candidate_ids": 13,
+  "newly_counted_candidate_ids": 13,
+  "previously_counted_ids": [],
+  "decisions": {
+    "confirmed_prior_corrections": [
+      26762,
+      26781,
+      26866,
+      26880,
+      26884,
+      26897,
+      26921,
+      26929,
+      26933,
+      26940
+    ],
+    "already_correct": [26916],
+    "correction_applied_now": [26783, 26939]
+  },
+  "evidence_limited_holds_not_in_candidate_tally": [26912],
+  "related_linked_ids_not_counted": [16778],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1549,
+    "total": 4015,
+    "percent": 38.58,
+    "remaining": 2466
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [26783, 26939],
+    "fingerprint_refreshed_ids": [26783, 26939],
+    "line_break_counts_checked_for_candidate_ids": true,
+    "26783_logical_line_breaks": {
+      "en": 9,
+      "ja": 9,
+      "zh": 9,
+      "ko": 9
+    },
+    "16778_and_26940_identical_across_four_languages": true,
+    "ledger_fingerprint_check": "passed",
+    "csv_preservation_tests": 11,
+    "context_index_tests": 9,
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "range": [27500, 27749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 15,
+  "range_candidate_id_list": [
+    27523,
+    27529,
+    27541,
+    27575,
+    27577,
+    27580,
+    27616,
+    27624,
+    27627,
+    27633,
+    27657,
+    27671,
+    27683,
+    27689,
+    27690
+  ],
+  "reconciled_candidate_ids": 15,
+  "newly_counted_candidate_ids": 15,
+  "previously_counted_ids": [],
+  "decisions": {
+    "confirmed_prior_corrections": [
+      27523,
+      27529,
+      27541,
+      27575,
+      27577,
+      27580,
+      27624,
+      27627,
+      27633,
+      27657,
+      27671,
+      27683,
+      27689,
+      27690
+    ],
+    "already_correct_or_retained": [27616],
+    "correction_applied_now": []
+  },
+  "evidence_limited_holds_not_in_candidate_tally": [
+    27520,
+    27557,
+    27562,
+    27677
+  ],
+  "related_linked_ids_not_counted": [31127],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1601,
+    "total": 4015,
+    "percent": 39.88,
+    "remaining": 2414
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "fingerprint_refreshed_ids": [],
+    "line_break_counts_checked_for_candidate_ids": true,
+    "27627_logical_line_breaks": {
+      "en": 5,
+      "ja": 5,
+      "zh": 5,
+      "ko": 5
+    },
+    "27683_31127_shared_sentences_match_in_korean": true,
+    "ledger_fingerprint_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

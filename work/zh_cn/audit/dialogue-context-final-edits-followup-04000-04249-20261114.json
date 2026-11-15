@@ -1,0 +1,54 @@
+{
+  "range": [
+    4000,
+    4249
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 6,
+  "reconciled_candidate_ids": 6,
+  "changed_rows": [
+    4135,
+    4177,
+    62969
+  ],
+  "edits": [
+    {
+      "id": 4135,
+      "old": "다음은 숨겨진 길로 이루어진 미로, 어둠의 미로야. 그대가 직접 빠져나갈 길을 찾아야 해.",
+      "new": "다음은 숨겨진 길로 이루어진 미로, 어둠의 미로야. 친구, 네가 직접 길을 찾아 빠져나가야 해.",
+      "reason": "The exact duplicate at 62969 confirms the same wording across English, Japanese, and Chinese. Reconsider the familiar address dove using the stronger TR06 context and the prior friend rendering."
+    },
+    {
+      "id": 4177,
+      "old": "시간 속의 이 실이 날 여기로 이끌었어요... 이제 알겠어요... 이 실이 당신에게로 데려온 거였군요.",
+      "new": "시간의 실을 따라 여기까지 왔어요... 이제야 알겠네요... 그 실은 결국 당신에게로 이어졌군요.",
+      "reason": "Preserve the metaphor that the thread of time led the speaker to the listener, while making the Korean natural and retaining the Japanese-supported polite register and pause structure."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 62969,
+      "old": "다음은 숨겨진 길로 이루어진 미로, 어둠의 미로야. 그대가 직접 빠져나갈 길을 찾아야 해.",
+      "new": "다음은 숨겨진 길로 이루어진 미로, 어둠의 미로야. 친구, 네가 직접 길을 찾아 빠져나가야 해.",
+      "reason": "Keep the exact-English duplicate aligned with 4135."
+    }
+  ],
+  "retained": [
+    {
+      "id": 4007,
+      "reason": "The title is already paired as 처형인(Headsman); the linked asset does not establish a specific speaker."
+    },
+    {
+      "id": 4013,
+      "reason": "The approved warning correction from the 4000-4999 edit batch is already present."
+    },
+    {
+      "id": 4060,
+      "reason": "로포쿠(Lopoku) follows the official Korean manual and established project terminology; Lupoku is a documented English source variant, not sufficient reason to alter the Korean name."
+    },
+    {
+      "id": 4085,
+      "reason": "The established rank pairing 사반트(Savant) is already present."
+    }
+  ]
+}

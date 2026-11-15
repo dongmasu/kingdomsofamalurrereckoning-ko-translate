@@ -1,0 +1,54 @@
+{
+  "range": [33500, 33749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 33,
+  "range_candidate_id_list": [
+    33516, 33528, 33533, 33534, 33551, 33569, 33571, 33574, 33575, 33580,
+    33581, 33584, 33585, 33594, 33596, 33609, 33619, 33621, 33628, 33632,
+    33639, 33641, 33645, 33653, 33659, 33679, 33687, 33688, 33697, 33700,
+    33720, 33726, 33734
+  ],
+  "previously_reconciled_candidate_ids": [33619],
+  "newly_counted_candidate_ids": [
+    33516, 33528, 33533, 33534, 33551, 33569, 33571, 33574, 33575, 33580,
+    33581, 33584, 33585, 33594, 33596, 33609, 33621, 33628, 33632, 33639,
+    33641, 33645, 33653, 33659, 33679, 33687, 33688, 33697, 33700, 33720,
+    33726, 33734
+  ],
+  "decisions": {
+    "confirmed_current_or_applied": [
+      33516, 33528, 33533, 33534, 33551, 33569, 33571, 33574, 33575, 33580,
+      33581, 33584, 33585, 33594, 33596, 33609, 33621, 33628, 33632, 33639,
+      33641, 33645, 33653, 33659, 33679, 33687, 33688, 33697, 33700, 33720,
+      33726, 33734
+    ],
+    "previously_reconciled": [33619],
+    "evidence_limited_holds_not_candidate_ids": [
+      33539, 33548, 33627, 33674, 33738, 33749
+    ]
+  },
+  "linked_consistency_groups": {
+    "The Seal": [32241, 33619],
+    "Get out of here": [26624, 33517]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2039,
+    "total": 4015,
+    "percent": 50.78,
+    "remaining": 1976
+  },
+  "evidence_reports": [
+    "dialogue-context-default-33500-33749-revalidation-20261112.md",
+    "dialogue-context-edit-batch-20261114-33500-35999.md",
+    "dialogue-context-33500-33749-fingerprint-reconciliation-20261114.md",
+    "dialogue-context-default-33645-followup-20261114.md",
+    "dialogue-context-32000-32249-candidate-reconciliation-20261114.md"
+  ],
+  "verification": {
+    "translation_csv_changed_during_reconciliation": false,
+    "existing_application_batch_used": true,
+    "full_current_ledger_validation": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "speaker_or_playback_order_inferred": false
+  }
+}

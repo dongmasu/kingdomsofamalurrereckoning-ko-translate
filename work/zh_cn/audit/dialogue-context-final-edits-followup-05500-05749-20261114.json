@@ -1,0 +1,35 @@
+{
+  "range": [
+    5500,
+    5749
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 4,
+  "reconciled_candidate_ids": 4,
+  "changed_rows": [],
+  "edits": [],
+  "retained": [
+    {
+      "id": 5527,
+      "reason": "The completed-rite wording and the full Orison pairing already match the supported correction."
+    },
+    {
+      "id": 5543,
+      "reason": "Both references already use the consistent title-inclusive 엘스윈 경(Sir Elswin) form."
+    },
+    {
+      "id": 5657,
+      "reason": "The active journal correctly states that the note supports an inference that Goyen ordered the attack."
+    },
+    {
+      "id": 5705,
+      "reason": "The heading and explanation already use 부가 퀘스트, and the display wrappers remain intact."
+    }
+  ],
+  "related_checks": [
+    {
+      "id": 56687,
+      "reason": "The parallel Side Quests category already uses the established 부가 퀘스트 wording."
+    }
+  ]
+}

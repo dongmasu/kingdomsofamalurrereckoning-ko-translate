@@ -1,0 +1,127 @@
+{
+  "range": [
+    7500,
+    7749
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 15,
+  "reconciled_candidate_ids": 15,
+  "changed_rows": [
+    7589,
+    54076
+  ],
+  "edits": [
+    {
+      "id": 7589,
+      "old": "클라우드크레스트 산(Cloudcrest Mountain) 정상에서 니스카루(Niskaru) 군주 카마잔두(Khamazandu)는 내가 이 세상에서 자신의 뜻을 이루는 도구가 되어 준다면 선물을 주겠다고 제안했다. 워스원(Warsworn)의 최고 지휘관을 죽이고 고대 금고(Ancient Vault)에서 시분의 심장(Heart of Sibun)을 되찾은 나는 카마잔두(Khamazandu)의 힘과 영광을 받드는 검이자 사도가 되었다.",
+      "new": "클라우드크레스트 산(Cloudcrest Mountain) 정상에서 니스카루(Niskaru) 군주 카마잔두(Khamazandu)는 내가 이 세상에서 자신의 뜻을 이루는 도구가 되어 준다면 선물을 주겠다고 제안했다. 워스원(Warsworn)의 최고 지도자를 처치하고 고대 금고(Ancient Vault)에서 시분의 심장(Heart of Sibun)을 되찾은 나는 카마잔두(Khamazandu)의 힘과 영광을 받드는 검이자 사도가 되었다.",
+      "reason": "Aligned highest of the Warsworn with the Japanese/Chinese-supported leader sense and the matching clause at ID 21922."
+    },
+    {
+      "id": 54076,
+      "old": "클라우드크레스트 산(Cloudcrest Mountain) 정상에서 니스카루(Niskaru) 군주 카마잔두(Khamazandu)는 이 세상에서 자신의 도구가 되어 준다면 선물을 주겠다고 제안했다. 그윈 안웨이(Gwyn Anwy)를 죽이자 군주가 베신(Besin)의 투구를 가져오라고 명했다.",
+      "new": "클라우드크레스트 산(Cloudcrest Mountain) 정상에서 니스카루(Niskaru) 군주 카마잔두(Khamazandu)는 내가 이 세상에서 자신의 뜻을 이루는 도구가 되어 준다면 선물을 주겠다고 제안했다. 그윈 안웨이(Gwyn Anwy)를 죽이자 군주가 베신(Besin)의 투구를 가져오라고 명했다.",
+      "reason": "Aligned the identical opening sentence with the other six entries while preserving this row's distinct progress."
+    }
+  ],
+  "related_source_group": {
+    "ids": [
+      7589,
+      15148,
+      19510,
+      21922,
+      54076,
+      64167,
+      64664
+    ],
+    "english_japanese_chinese_opening_identical": true,
+    "korean_opening_aligned": true
+  },
+  "retained": [
+    {
+      "id": 7510,
+      "reason": "The direct threat to offer the addressee to Belen is already present."
+    },
+    {
+      "id": 7527,
+      "reason": "The active Korean conveys making every effort, not physical distance."
+    },
+    {
+      "id": 7567,
+      "reason": "The surprised statement about knowing the Beckoned is already natural."
+    },
+    {
+      "id": 7577,
+      "reason": "The haho-che shift was already corrected."
+    },
+    {
+      "id": 7581,
+      "reason": "Knave of Pride uses the established title in both mentions."
+    },
+    {
+      "id": 7588,
+      "reason": "The objective already uses the -기 form and pairs Aiden O'Conor."
+    },
+    {
+      "id": 7598,
+      "reason": "Savant Goyen Reen is fully paired."
+    },
+    {
+      "id": 7612,
+      "reason": "The Great Cycle's resurrection meaning is already natural and source-supported."
+    },
+    {
+      "id": 7667,
+      "reason": "Argine and Queen of Staves are separately paired."
+    },
+    {
+      "id": 7683,
+      "reason": "The greeting is casual and retains the respectful form of address."
+    },
+    {
+      "id": 7714,
+      "reason": "The active text is gender-neutral."
+    },
+    {
+      "id": 7720,
+      "reason": "All five personal names are paired."
+    },
+    {
+      "id": 7730,
+      "reason": "The active text preserves the repeated friendship emphasis."
+    },
+    {
+      "id": 7733,
+      "reason": "The Hallam relationship is expressed naturally without the awkward possessive."
+    }
+  ],
+  "held": [],
+  "ledger": {
+    "fingerprints_refreshed": [
+      7589,
+      54076
+    ],
+    "fingerprint_check": "passed"
+  },
+  "verification": {
+    "ledger_reviewed_ids": 65135,
+    "ledger_fingerprint_check": "passed",
+    "index_and_catalog_reproduction": "passed",
+    "preservation_tests": 11,
+    "context_index_tests": 9,
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "line_endings": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    }
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 408,
+    "total": 4015,
+    "percent": 10.16,
+    "remaining": 3607
+  }
+}

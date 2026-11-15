@@ -1,0 +1,33 @@
+{
+  "range": [64128, 64246],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "prior_range_report": "dialogue-context-default-64000-64249-revalidation-20261113.md",
+    "related_reports": [
+      "dialogue-context-translation-followup-64128-64246-20261115.md"
+    ]
+  },
+  "revalidated_no_change": [
+    64128,
+    64130,
+    64145,
+    64147,
+    64157,
+    64166,
+    64186,
+    64202,
+    64204,
+    64216,
+    64224,
+    64237,
+    64245
+  ],
+  "retained_holds": [64150, 64151, 64242, 64246],
+  "translation_csv_changed": false,
+  "changed_default_ids": [],
+  "ledger_fingerprint_changed_ids": [],
+  "ledger_dispositions_changed": false,
+  "source_csv_or_extracted_asset_changed": false,
+  "commit_made": false
+}

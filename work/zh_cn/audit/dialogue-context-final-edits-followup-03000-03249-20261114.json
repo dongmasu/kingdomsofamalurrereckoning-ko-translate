@@ -1,0 +1,139 @@
+{
+  "range": [
+    3000,
+    3249
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 23,
+  "reconciled_candidate_ids": 23,
+  "changed_rows": [
+    3052,
+    3125,
+    3163,
+    36982,
+    38893,
+    56854
+  ],
+  "edits": [
+    {
+      "id": 3052,
+      "old": "그렇게 빨리 회복한 걸 보니, 죽을 뻔했다는 게 믿기지 않는군.",
+      "new": "그렇게 빨리 회복한 걸 보니, 죽을 뻔했다는 게 믿기지 않을 정도야.",
+      "reason": "Japanese uses conversational plain speech; replace the stiff -는군 ending without changing the meaning."
+    },
+    {
+      "id": 3125,
+      "old": "미든(The Midden)의 시체는 처리했나? 미스그라(Meathgra)를 유인해 냈어?",
+      "new": "미든(The Midden)의 시체는 처리했어? 미스그라(Meathgra)는 유인해 냈어?",
+      "reason": "Make the two source-parallel questions use one conversational register."
+    },
+    {
+      "id": 3163,
+      "old": "페리드(Feride)와 대화",
+      "new": "페리드(Feride)와 대화하기",
+      "reason": "Use the established action form for the Speak with Feride quest objective."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 36982,
+      "old": "보가트(Boggart)",
+      "new": "보가트(Boggart) (벌레 2마리)",
+      "reason": "Restore the two-bug count present in the English, Japanese, and Chinese labels; supersedes the earlier erroneous retention."
+    },
+    {
+      "id": 38893,
+      "old": "보가트(Boggart)",
+      "new": "보가트(Boggart) (벌레 2마리)",
+      "reason": "Align the exact duplicate label with 36982 and preserve its source count."
+    },
+    {
+      "id": 56854,
+      "old": "그는 용맹한 웬센(Wencen the Bold), 데티어(Detyre)의 매이자 엘크마르(Elcmar)의 파괴자, 황금 고르곤(Gilded Gorgon)호의 선장, 빛의 창을 움켜쥔 자, 버림받은 평원(Forsaken Plain)의 남작이다.",
+      "new": "그는 용맹한 웬센(Wencen the Bold), 데티어(Detyre)의 매이자 엘크마르(Elcmar)의 파괴자, 황금 고르곤(Gilded Gorgon)호의 선장, 빛의 창(Spear of Light)을 쥔 자, 버림받은 평원(Forsaken Plain)의 남작이다.",
+      "reason": "Align the repeated Grasper of the Spear of Light epithet with the source-supported wording and English pairing at 3075."
+    }
+  ],
+  "retained": [
+    {
+      "id": 3073,
+      "reason": "The established 투기장 wording is already present."
+    },
+    {
+      "id": 3075,
+      "reason": "The source epithets and named terms are already paired; related row 56854 was aligned."
+    },
+    {
+      "id": 3077,
+      "reason": "The greeting already uses natural conversational wording."
+    },
+    {
+      "id": 3085,
+      "reason": "The animation label already uses 동작."
+    },
+    {
+      "id": 3092,
+      "reason": "The worsening disappearance cases are already rendered naturally."
+    },
+    {
+      "id": 3099,
+      "reason": "Already aligned with exact duplicate 20880 and the quest item's established Korean term."
+    },
+    {
+      "id": 3123,
+      "reason": "The blade description already preserves its deceptive simplicity and gateway meaning."
+    },
+    {
+      "id": 3124,
+      "reason": "Entry II is already rendered as 기록 II."
+    },
+    {
+      "id": 3140,
+      "reason": "Retain 계약 and 논의; source evidence supports the formal agreement wording and does not show a clear error."
+    },
+    {
+      "id": 3157,
+      "reason": "The courteous self-introduction is already restored in conversational Korean."
+    },
+    {
+      "id": 3177,
+      "reason": "Nondescript is already rendered as 눈에 띄지 않는."
+    },
+    {
+      "id": 3178,
+      "reason": "The shared English sentences already match 17650; later source clauses differ."
+    },
+    {
+      "id": 3187,
+      "reason": "Lowercase generic hollow is rendered 동굴; The Hollow is a separate capitalized form."
+    },
+    {
+      "id": 3201,
+      "reason": "Caeled is correctly paired and the source does not say Caeled Coast in this phrase."
+    },
+    {
+      "id": 3207,
+      "reason": "Bound is already rendered as 속박당하다."
+    },
+    {
+      "id": 3216,
+      "reason": "Living Quarters already uses the established paired form."
+    },
+    {
+      "id": 3218,
+      "reason": "Viper Sorcerer already has its English pairing."
+    },
+    {
+      "id": 3223,
+      "reason": "Both Boggart mentions within the entry already use consistent capitalization and pairing."
+    },
+    {
+      "id": 3237,
+      "reason": "The Maid's effect is already rendered as yielding rather than being physically trampled."
+    },
+    {
+      "id": 3241,
+      "reason": "Humble student of the faith is already rendered as a humble believer."
+    }
+  ]
+}

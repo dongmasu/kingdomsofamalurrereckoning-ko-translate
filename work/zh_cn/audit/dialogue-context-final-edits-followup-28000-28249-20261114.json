@@ -1,0 +1,75 @@
+{
+  "range": [28000, 28249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 18,
+  "range_candidate_id_list": [
+    28032,
+    28048,
+    28055,
+    28057,
+    28066,
+    28070,
+    28093,
+    28097,
+    28107,
+    28120,
+    28135,
+    28142,
+    28144,
+    28151,
+    28172,
+    28178,
+    28236,
+    28248
+  ],
+  "reconciled_candidate_ids": 18,
+  "newly_counted_candidate_ids": 17,
+  "previously_counted_ids": [28142],
+  "decisions": {
+    "confirmed_prior_corrections": [
+      28048,
+      28055,
+      28057,
+      28070,
+      28097,
+      28120,
+      28135,
+      28144,
+      28151,
+      28172,
+      28178,
+      28236,
+      28248
+    ],
+    "correction_applied_now": [28066],
+    "retained": [28032, 28093, 28107],
+    "previously_reconciled_linked_candidate": [28142]
+  },
+  "edits": [
+    {
+      "id": 28066,
+      "old": "에이던(Aethan)과 나는 함께 입문 시험을 통과했어. 그는 내가 가장 신뢰하는 사반트(Savant)야.",
+      "new": "에이선(Aethan)과 나는 함께 입문 시험을 통과했어. 그는 내가 가장 신뢰하는 사반트(Savant)야.",
+      "reason": "Aligned the short form Aethan with the established 에이선 spelling for Aethan Engar, the only Aethan identified in the English corpus; ja/zh counterparts corroborate the name."
+    }
+  ],
+  "fingerprints_refreshed": [28066],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1635,
+    "total": 4015,
+    "percent": 40.7,
+    "remaining": 2380
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [28066],
+    "four_language_rows_checked": 18,
+    "line_break_counts_match": true,
+    "runtime_and_markup_signatures_match": true,
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "csv_preservation_tests": "passed (11 tests)",
+    "context_index_tests": "passed (9 tests)",
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

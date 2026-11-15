@@ -1,0 +1,658 @@
+{
+  "input_sha256": "5aedbf20b1a742d7b19ee67b8fc5f0bb460cabd0f98b89242c0c327107198702",
+  "ledger_input_sha256": "3fdc9f813818210733d96546395d54a7d3daf28659e0c3f801ae316c1738c7ec",
+  "output_sha256": "be652801f9430795e11b93dcf567fff9230da6ff246e8fef8736da98341e4f28",
+  "ledger_output_sha256": "cedd8aa9d6b8f978e5cf3c5bb8f6adfa5757d9932f32e48d714234fe2ab9e2e7",
+  "scope": "Adjudicate every candidate in default IDs 15000-15999 against current English, Japanese, Chinese, and Korean rows, then align directly related exact-source, name, and terminology groups.",
+  "matching": "Each fragment is applied only to its listed ID. All target rows are preflighted as a batch, then each complete Texto field is saved through tools/replace_text_preserve_eol.py.",
+  "candidate_ids": [
+    15022, 15041, 15073, 15075, 15078, 15082, 15090, 15091, 15098,
+    15148, 15164, 15183, 15190, 15198, 15221, 15222, 15226, 15243,
+    15290, 15295, 15316, 15326, 15342, 15351, 15400, 15419, 15473,
+    15474, 15499, 15525, 15532, 15577, 15580, 15581, 15582, 15598,
+    15627, 15632, 15633, 15659, 15688, 15708, 15712, 15717, 15745,
+    15784, 15794, 15811, 15816, 15879, 15885, 15886, 15933, 15964, 15965,
+    15985
+  ],
+  "candidate_results": {
+    "corrected": [
+      15022, 15041, 15073, 15075, 15078, 15082, 15090, 15091, 15098,
+      15164, 15183, 15190, 15198, 15221, 15222, 15226, 15243, 15290,
+      15316, 15326, 15342, 15351, 15400, 15419, 15473, 15474, 15525,
+      15532, 15577, 15580, 15581, 15582, 15627, 15632, 15633, 15659,
+      15688, 15708, 15712, 15717, 15745, 15784, 15794, 15811, 15879, 15885,
+      15886, 15964, 15965, 15985
+    ],
+    "already_resolved": [15148, 15295, 15598, 15816],
+    "retained": [15499, 15933],
+    "holds": []
+  },
+  "outcomes": {
+    "15148": "The same source sentence at all seven linked IDs already matches the approved Korean wording; no further edit.",
+    "15295": "All eight linked second-floor Gallery references already use 미술관.",
+    "15499": "The existing Korean preserves the tenfold praise and the speaker's inability to continue; retained after source comparison.",
+    "15598": "The exact-English Irion, King of Cups group already has the complete paired title and name across all 20 IDs.",
+    "15816": "The objective already uses the established 지팡이 조각 회수하기 form.",
+    "15933": "The earlier review found the generic collection wording source-faithful; no actionable correction."
+  },
+  "edits": [
+    {
+      "ids": [15022, 54422],
+      "find": "우리 교단",
+      "replace": "우리 결사단",
+      "reason": "Align the Scholia Arcana organizational sense of 'our order' with the source-reviewed term."
+    },
+    {
+      "ids": [9895],
+      "find": "우리 대학",
+      "replace": "우리 결사단",
+      "reason": "Align the same source term across the linked Scholia Arcana references."
+    },
+    {
+      "ids": [15041],
+      "find": "송장 되찾기",
+      "replace": "청구서 회수하기",
+      "reason": "Use the billing-document sense established by the same Sigra quest and the project's objective form."
+    },
+    {
+      "ids": [15073],
+      "find": "아내와 나는 라시르(Rathir)에서 살았지. 다른 곳에서 일자리를 구해야 하기 전까지는 말이야.",
+      "replace": "아내와 나는 다른 곳에서 일자리를 찾아 라시르(Rathir)를 떠나기 전까지 거기서 살았어.",
+      "reason": "Remove the awkward until-clause while preserving the separation and work context."
+    },
+    {
+      "ids": [15075],
+      "find": "또 다른 먼지의 자녀인가?",
+      "replace": "또 다른 먼지의 자손(Child of Dust)인가?",
+      "reason": "Use the source-paired epithet and the established local rendering without conflating it with Dustling."
+    },
+    {
+      "ids": [15078],
+      "find": "또 한 명의 필멸자를 화장용 장작더미에 바치겠군.",
+      "replace": "또 한 명의 필멸자가 장작더미에 오르겠군.",
+      "reason": "Naturalize the ominous pyre line without changing its threat."
+    },
+    {
+      "ids": [15082],
+      "find": "그래도 그들은 우리 민족을 고통받게 했어. 놈들이 필연적으로 다시 일어설 때까지 기다리며 내버려 둬야 할까? 놈들을 끝장낼 최고의 기회야.",
+      "replace": "그래도 그들은 우리 민족에게 큰 고통을 안겼어. 놈들이 다시 세력을 키우도록 내버려 둬야 할까? 지금이 놈들을 끝장낼 절호의 기회야.",
+      "reason": "Naturalize the suffering and resurgence clauses while retaining the speaker's argument."
+    },
+    {
+      "ids": [15090],
+      "find": "그건 가장 적은 대출금도 갚지 못할 만큼 부족해.",
+      "replace": "그걸로는 최소 대출금도 갚기엔 턱없이 부족해.",
+      "reason": "Make the minimum-loan comparison concise and idiomatic."
+    },
+    {
+      "ids": [15091],
+      "find": "내 민족을 위해 해 준 모든 일에 감사하네.",
+      "replace": "내 민족을 위해 해 준 모든 일, 고마워.",
+      "reason": "Keep both clauses in one conversational register while preserving the thanks."
+    },
+    {
+      "ids": [15098],
+      "find": "킨 대사(Keen Ambassador)",
+      "replace": "킨 대사(Ambassador Keen)",
+      "reason": "Use the established Korean name-plus-title and English title-plus-name pairing."
+    },
+    {
+      "ids": [15164],
+      "find": "아직 {*1슬롯에 등록}한 {*1능력}이 없습니다. 여기서 해당 능력을 선택하면 언제든 {*1슬롯 지정} 화면으로 돌아갈 수 있으며, {1}을 누르면 됩니다.",
+      "replace": "아직 {*1슬롯에 등록}한 {*1능력}이 없습니다. 여기서 능력을 선택하고 {1}을 누르면 언제든 {*1슬롯 지정} 화면으로 돌아갈 수 있습니다.",
+      "reason": "Restore the source-supported action order and make the button instruction natural; preserve marker order."
+    },
+    {
+      "ids": [15183],
+      "find": "브래드 & 서그렌 상회",
+      "replace": "브래드 앤 서그렌 상회(Brad and Cergren Traders)",
+      "reason": "Pair the named company consistently with its exact English heading."
+    },
+    {
+      "ids": [36628],
+      "find": "브래드 앤 서그렌 상회",
+      "replace": "브래드 앤 서그렌 상회(Brad and Cergren Traders)",
+      "reason": "Pair the same named company consistently with its exact English heading."
+    },
+    {
+      "ids": [58806],
+      "find": "브래드와 세르그렌 상회",
+      "replace": "브래드 앤 서그렌 상회(Brad and Cergren Traders)",
+      "reason": "Align the same company name and pairing across its exact-English occurrences."
+    },
+    {
+      "ids": [15190],
+      "find": "책과 거래하기",
+      "replace": "책을 넘겨주기",
+      "reason": "Clarify that the book is handed over in exchange for Grim's freedom."
+    },
+    {
+      "ids": [4867],
+      "find": "팰런(Fallon)의 기도 구슬",
+      "replace": "팰런 수사의 염주",
+      "reason": "Use the quest's established prayer-bead term without repeating a name already introduced in the same sentence."
+    },
+    {
+      "ids": [8562, 15198],
+      "find": "팰런(Fallon)의 기도용 염주",
+      "replace": "팰런(Fallon)의 염주",
+      "reason": "Standardize the prayer-bead terminology in the same quest."
+    },
+    {
+      "ids": [10609],
+      "find": "팰런(Fallon)의 기도 묵주",
+      "replace": "팰런 수사의 염주",
+      "reason": "Standardize the prayer-bead term and avoid a redundant repeated name."
+    },
+    {
+      "ids": [15221],
+      "find": "뭐라고 해야 할까? 탁(Tak)은 내 남동생이었어. 늘 말썽에 코를 들이밀었지. 전쟁에도 자원했어. 도무지 전쟁에서 멀리 떨어져 있질 못했거든.",
+      "replace": "뭐라고 해야 할까? 탁(Tak)은 내 남동생이었어. 늘 말썽에 코를 들이밀었지. 전쟁에도 나갔어. 도무지 전쟁을 멀리하지 못하더라고.",
+      "reason": "Remove the unsupported claim that Tak volunteered and keep the conversational voice."
+    },
+    {
+      "ids": [42683],
+      "find": "꼬마야",
+      "replace": "작은 자여",
+      "reason": "Use the established elevated, condescending address without implying the addressee is a child."
+    },
+    {
+      "ids": [50460],
+      "find": "생각을 바꿨나, 꼬마야?",
+      "replace": "생각을 바꿨나, 작은 자여?",
+      "reason": "Align the same character's repeated address with the source-reviewed form."
+    },
+    {
+      "ids": [15222],
+      "find": "작은 필멸자여, 내가 팔다리를 뻗을 날은 아직 멀었나 보군. 그 마법사가 내 뜻을 이루는 도구로는 너무… 나약했다니 유감이야.",
+      "replace": "작은 자여, 내가 마음껏 움직일 날은 아직 멀었나 보군. 그 마법사는 내 뜻을 이루는 도구로는 너무… 나약했다니, 안타깝군.",
+      "reason": "Use the established address, render the imprisoned being's freedom idiomatically, and retain the elevated register."
+    },
+    {
+      "ids": [15226],
+      "find": "아무리 낯선 이교도라도",
+      "replace": "아무리 별난 이교도라도",
+      "reason": "Translate 'strangest' as unusually strange rather than unfamiliar or foreign."
+    },
+    {
+      "ids": [15243],
+      "find": "영혼의 샘 연구",
+      "replace": "영혼의 샘(Well) 연구",
+      "reason": "Pair the named research subject's English short name without expanding it into a global alias."
+    },
+    {
+      "ids": [15290],
+      "find": "리케이오스(Lykeios)를 둘러보는 건 즐거웠나?",
+      "replace": "리케이오스(Lykeios)를 둘러보는 건 즐거워?",
+      "reason": "Restore the present tense used by English and Japanese."
+    },
+    {
+      "ids": [15316],
+      "find": "케일로드(Caelrod)와 다시 하나가 되어 기뻐.",
+      "replace": "케일로드(Caelrod)와 다시 만나게 되어 기뻐.",
+      "reason": "Translate the supported reunion meaning without implying that the characters became one entity."
+    },
+    {
+      "ids": [15326],
+      "find": "스마일러와 콜미르(Kolmir)",
+      "replace": "스마일러(Smiler)와 콜미르(Kolmir)",
+      "reason": "Add the missing English pairing for the named enemy."
+    },
+    {
+      "ids": [15342],
+      "find": "크리살라이 모으기",
+      "replace": "크리살라이(Chrysalae) 모으기",
+      "reason": "Add the explicit source-name pairing while leaving the unresolved Korean spelling unchanged."
+    },
+    {
+      "ids": [25277],
+      "find": "크리살레 심기",
+      "replace": "크리살레(Chrysalae) 심기",
+      "reason": "Add the explicit source-name pairing while leaving the unresolved Korean spelling unchanged."
+    },
+    {
+      "ids": [25777],
+      "find": "크리살레를?",
+      "replace": "크리살레(Chrysalae)를?",
+      "reason": "Pair the named seed and preserve the speaker's surprised question."
+    },
+    {
+      "ids": [34731],
+      "find": "크리살라이 씨앗",
+      "replace": "크리살라이(Chrysalae) 씨앗",
+      "reason": "Pair the named seed while retaining the current Korean transliteration."
+    },
+    {
+      "ids": [44672],
+      "find": "크리살라이는...",
+      "replace": "크리살라이(Chrysalae)는...",
+      "reason": "Pair the named seed while preserving the sentence and unresolved Korean spelling."
+    },
+    {
+      "ids": [48053],
+      "find": "크리살레 씨앗",
+      "replace": "크리살레(Chrysalae) 씨앗",
+      "reason": "Pair the named seed while leaving the unresolved Korean spelling unchanged."
+    },
+    {
+      "ids": [15351],
+      "find": "노움보다 먼저 서한을 손에 넣고, 그걸로 자유를 협상해도 돼.",
+      "replace": "노움보다 먼저 세이블의 서신(Missives of Sable)을 손에 넣어, 그걸 내주고 우리를 풀어 달라고 할 수도 있어.",
+      "reason": "Use the established named-book title and clarify the exchange for freedom."
+    },
+    {
+      "ids": [15400],
+      "find": "사막의 산들바람 속삭임을 듣게 내버려 둬. 필멸자들은 여러 생에 걸쳐 상대하고도 남을 만큼 질리도록 상대했어.",
+      "replace": "사막 바람의 속삭임이나 듣게 내버려 둬. 필멸자는 여러 생을 살아도 질릴 만큼 상대했어.",
+      "reason": "Remove the repeated verb and preserve the hyperbole about being tired of mortals."
+    },
+    {
+      "ids": [15419],
+      "find": "타인힐로",
+      "replace": "타인힐(Tinehil)로",
+      "reason": "Pair the established place name at first mention."
+    },
+    {
+      "ids": [24624],
+      "find": "타인힐의 경기장에서",
+      "replace": "타인힐(Tinehil)의 경기장에서",
+      "reason": "Pair the established place name at first mention."
+    },
+    {
+      "ids": [37286],
+      "find": "티네힐의 투기장",
+      "replace": "타인힐(Tinehil)의 투기장",
+      "reason": "Align the place name and add its English pairing."
+    },
+    {
+      "ids": [44477],
+      "find": "타인힐에 있어",
+      "replace": "타인힐(Tinehil)에 있어",
+      "reason": "Pair the established place name at first mention."
+    },
+    {
+      "ids": [45706],
+      "find": "타인힐에서",
+      "replace": "타인힐(Tinehil)에서",
+      "reason": "Pair the established place name at first mention."
+    },
+    {
+      "ids": [49861],
+      "find": "타인힐 깊숙이",
+      "replace": "타인힐(Tinehil) 깊숙이",
+      "reason": "Pair the established place name at first mention."
+    },
+    {
+      "ids": [15473],
+      "find": "신들이 처치를 도운 이들에게",
+      "replace": "신들이 도움을 준 이들에게",
+      "reason": "Remove the repeated 처치 and retain the source's reward for those who help."
+    },
+    {
+      "ids": [15474],
+      "find": "코렐론(Corelon) 여사제나 닐 케른에게",
+      "replace": "코렐론 여사제(Priestess Corelon)나 닐 케른(Nil Kern)에게",
+      "reason": "Pair both named people and use a consistent Korean title-name construction."
+    },
+    {
+      "ids": [15525],
+      "find": "여기가 좀 곤란한 상황이거든.",
+      "replace": "우린 지금 좀 난처한 처지야.",
+      "reason": "Render the idiom as the speakers' predicament rather than a location."
+    },
+    {
+      "ids": [15532],
+      "find": "연금술사 라일라 재닉(Janick)이 귀한 사티바 섬유(Sativa Fibers) 식물에 갈 수 있도록 도왔다. 고마움의 표시로 라일라는 자기 상품을 할인해 주고, 여동생 몰리의 서비스도 할인해 주기로 했다.",
+      "replace": "연금술사 라일라 재닉(Lila Janick)이 귀한 사티바 섬유(Sativa Fiber)를 채집하러 갈 수 있도록 도왔다. 고마움의 표시로 라일라(Lila)는 자기 상품과 여동생 몰리(Molly)의 훈련 비용을 할인해 주기로 했다.",
+      "reason": "Pair the full name and plant term, naturalize the harvesting clause, and clarify Molly's training service from quest context."
+    },
+    {
+      "ids": [15577],
+      "find": "브레너 대사(Brenner Ambassador)",
+      "replace": "브레너 대사(Ambassador Brenner)",
+      "reason": "Use the established English title-name order."
+    },
+    {
+      "ids": [15580],
+      "find": "아카라(Akara)의 보호권을 벗어나야 하니",
+      "replace": "아카라(Akara)의 보호가 미치는 영역을 벗어나야 하니",
+      "reason": "Render the aura of protection as the area under Akara's protection."
+    },
+    {
+      "ids": [15581],
+      "find": "야수들에게 카세라(Cassera)가 살해당했다.",
+      "replace": "야수들이 카세라(Cassera)를 죽였다.",
+      "reason": "Use the neutral active construction shared by the exact-English sentence family."
+    },
+    {
+      "ids": [30936],
+      "find": "짐승들이 버트런(Bertran)을 죽였다.",
+      "replace": "야수들이 버트런(Bertran)을 죽였다.",
+      "reason": "Align the exact-English sentence family while retaining the named subject."
+    },
+    {
+      "ids": [42559, 44457],
+      "find": "야수들이 알로렌(Aloren)을 죽였어.",
+      "replace": "야수들이 알로렌(Aloren)을 죽였다.",
+      "reason": "Align the exact-English sentence family without inferring a speaker."
+    },
+    {
+      "ids": [15582],
+      "find": "상위 니스카루(Niskaru) 발로르(Balor)",
+      "replace": "상급 니스카루 발로르(Greater Niskaru, Balor)",
+      "reason": "Use the established enemy tier and pair the complete English appositive."
+    },
+    {
+      "ids": [8735],
+      "find": "수련생들의 시신",
+      "replace": "입문자들의 시신",
+      "reason": "Align Initiates with the established term used in this group."
+    },
+    {
+      "ids": [15627],
+      "find": "수련생들은 어디 있지?",
+      "replace": "입문자들은 어디 있지?",
+      "reason": "Use the established Korean term for Initiates."
+    },
+    {
+      "ids": [35317],
+      "find": "우리 수련생 세 명도 사라졌다",
+      "replace": "우리 입문자 세 명도 사라졌다",
+      "reason": "Align Initiates with the established term used in this group."
+    },
+    {
+      "ids": [58090],
+      "find": "수련자 세 명이 지부에서 달아났어.",
+      "replace": "입문자 세 명이 지부에서 달아났어.",
+      "reason": "Align Initiates with the established term used in this group."
+    },
+    {
+      "ids": [15632],
+      "find": "에이스, 듀스, 쓰리, 포, 파이브, 그리고 헥스(Hex)",
+      "replace": "에이스(Ace), 듀스(Deuce), 쓰리(Three), 포(Four), 파이브(Five), 그리고 헥스(Hex)",
+      "reason": "Pair each named card consistently while preserving the Korean number-word forms."
+    },
+    {
+      "ids": [1866],
+      "find": "에이스, 듀스, 쓰리, 포, 파이브, 그리고 헥스(Hex)",
+      "replace": "에이스(Ace), 듀스(Deuce), 쓰리(Three), 포(Four), 파이브(Five), 그리고 헥스(Hex)",
+      "reason": "Align the repeated six-card list with the paired forms."
+    },
+    {
+      "ids": [40020],
+      "find": "에이스, 듀스, 쓰리, 포, 파이브, 그리고 헥스(Hex)",
+      "replace": "에이스(Ace), 듀스(Deuce), 쓰리(Three), 포(Four), 파이브(Five), 그리고 헥스(Hex)",
+      "reason": "Align the repeated six-card list with the paired forms."
+    },
+    {
+      "ids": [62621],
+      "find": "에이스, 듀스, 쓰리, 포, 파이브, 그리고 헥스(Hex)",
+      "replace": "에이스(Ace), 듀스(Deuce), 쓰리(Three), 포(Four), 파이브(Five), 그리고 헥스(Hex)",
+      "reason": "Align the repeated six-card list with the paired forms."
+    },
+    {
+      "ids": [15633],
+      "find": "한곳에선 외교관이 죽고, 다른 곳에선 평화 조약이 무산될 위기를 넘기고, 무고한 이를 지키려 거짓말을 몇 마디 하지.",
+      "replace": "어디선가 외교관 하나가 죽고, 또 어디선가 평화 조약을 구해 내고, 무고한 이를 지키려고 몇 마디 거짓말도 했지.",
+      "reason": "Translate the salvaged-treaty example naturally and preserve the three-part list."
+    },
+    {
+      "ids": [15659],
+      "find": "징징이… 아니, 와인(Whiner… Wine)은",
+      "replace": "징징이… 아니, 와인(Wine)은",
+      "reason": "Keep the English correction joke out of the parenthetical and pair only the person's name."
+    },
+    {
+      "ids": [15688],
+      "find": "오래된 책장 냄새",
+      "replace": "묵은 종이 냄새",
+      "reason": "Translate the source's old-page smell rather than the smell of a bookshelf."
+    },
+    {
+      "ids": [15708],
+      "find": "정말 출세 사다리를 타고 올라가고 있네.",
+      "replace": "정말 출세 가도를 달리고 있네.",
+      "reason": "Replace the literal ladder calque with natural Korean."
+    },
+    {
+      "ids": [15712],
+      "find": "모서리가 닳고 글씨를 알아볼 수 없어, 대부분 읽기 힘든 편지.",
+      "replace": "모서리가 닳고 글씨도 알아보기 어려워 대부분 판독할 수 없는 편지.",
+      "reason": "Recast the item description into a natural modifier structure."
+    },
+    {
+      "ids": [15717],
+      "find": "그보다 고결한 영혼은 만나 본 적이 없어.",
+      "replace": "너처럼 고결한 사람은 처음 보는군.",
+      "reason": "Address the interlocutor directly and remove the unsupported third-person comparison."
+    },
+    {
+      "ids": [15745],
+      "find": "이븐타이드 부족(Eventide clan)의 존경받는 일원",
+      "replace": "이븐타이드(Eventide) 일족의 존경받는 일원",
+      "reason": "Use the same source-supported Eventide group term as the linked row."
+    },
+    {
+      "ids": [25806],
+      "find": "투아사(Tuatha)에게 멸망하기 전까지 이븐타이드(Eventide) 가문은 가장 존경받는 일족이었다.",
+      "replace": "투아사(Tuatha)에게 멸망하기 전까지 이븐타이드(Eventide)는 가장 존경받는 일족 가운데 하나였어.",
+      "reason": "Correct the clan relation and preserve the source-supported 'one of the most respected' meaning."
+    },
+    {
+      "ids": [15784],
+      "find": "그것에는 일종의 지성도 깃들어 있다. 그것이 시키는 대로 하라. 내 지시를 따르듯이.",
+      "replace": "그 책에는 일종의 지성도 깃들어 있다. 내 지시를 따르듯 그 책의 지시도 따르도록 하라.",
+      "reason": "Identify the book as the source of the directions and complete the comparison naturally."
+    },
+    {
+      "ids": [15794],
+      "find": "여기 약속한 현상금이야. 네게 축복이 있기를.",
+      "replace": "여기 약속한 현상금이야. 머리도 좋구나!",
+      "reason": "Preserve the source's playful praise of the addressee's intelligence in natural Korean."
+    },
+    {
+      "ids": [15811],
+      "find": "여기 따르면 쪽지(Missives)는",
+      "replace": "여기에 따르면 세이블의 서신(Missives of Sable)은",
+      "reason": "Use the established title of the named book rather than the generic 'notes' reading."
+    },
+    {
+      "ids": [15879],
+      "find": "권위자(Authority)가",
+      "replace": "권능(Authority)께서",
+      "reason": "Use the established divine name and honorific."
+    },
+    {
+      "ids": [15885],
+      "find": "교훈은 필요 없어! 귀한 지혜도 필요 없다고!",
+      "replace": "가르침은 없어! 귀한 지혜도 없다고!",
+      "reason": "Restore the source's meaning that the speaker offers no lessons, rather than rejecting lessons."
+    },
+    {
+      "ids": [15886],
+      "find": "그 짐승들을 죽인 뒤로는",
+      "replace": "그 혼돈 생물들(Chaos Critters)을 죽인 뒤로는",
+      "reason": "Use the established name for the capitalized creatures in this quest."
+    },
+    {
+      "ids": [28650],
+      "find": "동물들이라고?",
+      "replace": "혼돈 생물들이라고?",
+      "reason": "Align the surprised response with the established Chaos Critters term."
+    },
+    {
+      "ids": [15964],
+      "find": "새로운 라그나르(Ragnarr)는 무시할 수 없는 도전과 자신이 이길 수 있다고 생각할 싸움을 발견하게 될 거야.",
+      "replace": "새로운 라그나르(Ragnarr)는 외면할 수 없는 도전과 이길 수 있다고 여길 만한 싸움을 마주하게 될 거야.",
+      "reason": "Naturalize the future challenge while preserving both source ideas and avoiding a specific inferred battle."
+    },
+    {
+      "ids": [15985],
+      "find": "그 꼬마는 위쪽 세계에 갈 마음이 없거든.",
+      "replace": "그 장난꾸러기는 위쪽 세계에 갈 마음이 없거든.",
+      "reason": "Restore the affectionate, teasing sense of 'the little scamp'."
+    },
+    {
+      "ids": [15965],
+      "find": "나는 집행관(Headsman)에게",
+      "replace": "나는 처형인(Headsman)에게",
+      "reason": "Align the known antagonist with the bounded SQ08 terminology review."
+    },
+    {
+      "ids": [15965],
+      "find": "집행관이 사라졌다고",
+      "replace": "처형인이 사라졌다고",
+      "reason": "Use the same Korean rendering for the repeated reference in this row."
+    },
+    {
+      "ids": [15965],
+      "find": "베텔리(Betheli)",
+      "replace": "베셀리(Betheli)",
+      "reason": "Align Betheli with the established source-supported spelling."
+    },
+    {
+      "ids": [1136],
+      "find": "처형인이 죽었다고",
+      "replace": "처형인(Headsman)이 죽었다고",
+      "reason": "Pair the named antagonist at first mention."
+    },
+    {
+      "ids": [4007],
+      "find": "처형자(Headsman)",
+      "replace": "처형인(Headsman)",
+      "reason": "Align the paired antagonist name with the bounded SQ08 terminology review."
+    },
+    {
+      "ids": [11326],
+      "find": "처형인은 어디서",
+      "replace": "처형인(Headsman)은 어디서",
+      "reason": "Pair the antagonist at first mention."
+    },
+    {
+      "ids": [11684],
+      "find": "처형인을 찾아",
+      "replace": "처형인(Headsman)을 찾아",
+      "reason": "Pair the antagonist at first mention."
+    },
+    {
+      "ids": [18118],
+      "find": "행맨(Headsman)",
+      "replace": "처형인(Headsman)",
+      "reason": "Align the same antagonist's name in the bounded SQ08 group."
+    },
+    {
+      "ids": [23251],
+      "find": "베텔리(Betheli)",
+      "replace": "베셀리(Betheli)",
+      "reason": "Align Betheli with the established source-supported spelling."
+    },
+    {
+      "ids": [23251],
+      "find": "처형인(Headsman)이 사라졌다고",
+      "replace": "처형인이 사라졌다고",
+      "reason": "Avoid repeating the English parenthetical in the same row."
+    },
+    {
+      "ids": [24624],
+      "find": "겨울 페이(Winter Fae)인 처형자와",
+      "replace": "겨울 페이(Winter Fae)인 처형인(Headsman)과",
+      "reason": "Pair and align the named antagonist at first mention."
+    },
+    {
+      "ids": [24624],
+      "find": "처형자가 그녀의 야영지를",
+      "replace": "처형인이 그녀의 야영지를",
+      "reason": "Use the same Korean rendering for the repeated reference in this row."
+    },
+    {
+      "ids": [32518],
+      "find": "형리와 싸우기",
+      "replace": "처형인(Headsman)과 싸우기",
+      "reason": "Align and pair the named quest target."
+    },
+    {
+      "ids": [32955],
+      "find": "집행관과 싸워야 해",
+      "replace": "처형인(Headsman)과 싸워야 해",
+      "reason": "Align and pair the named antagonist."
+    },
+    {
+      "ids": [33252],
+      "find": "집행관과 만나기",
+      "replace": "처형인(Headsman) 만나기",
+      "reason": "Align and pair the objective target while retaining the established action form."
+    },
+    {
+      "ids": [37286],
+      "find": "처형인을 추적했다",
+      "replace": "처형인(Headsman)을 추적했다",
+      "reason": "Pair the named antagonist at first mention."
+    },
+    {
+      "ids": [37286],
+      "find": "처형인에게 도달해",
+      "replace": "그에게 도달해",
+      "reason": "Avoid repeating the English name within the same row."
+    },
+    {
+      "ids": [37436],
+      "find": "처형인과 싸우겠어",
+      "replace": "처형인(Headsman)과 싸우겠어",
+      "reason": "Pair the named antagonist at first mention."
+    },
+    {
+      "ids": [37936],
+      "find": "교수형 집행인이",
+      "replace": "처형인(Headsman)이",
+      "reason": "Align and pair the same antagonist in the bounded quest group."
+    },
+    {
+      "ids": [39934],
+      "find": "헤드스맨에",
+      "replace": "처형인(Headsman)에",
+      "reason": "Align and pair the same antagonist in the bounded quest group."
+    },
+    {
+      "ids": [40758],
+      "find": "처형인",
+      "replace": "처형인(Headsman)",
+      "reason": "Pair the standalone name label."
+    },
+    {
+      "ids": [44377],
+      "find": "필멸자의 생명력을 노예처럼 부려 페이(Fae)의 영광을 되찾으려는 처형관이라는 페이(Fae)에게 목숨을 건 결투를 신청받았다. 미든(The Midden)에서 처형관의 위협을 끝내고, 그곳의 알파르(Alfar) 야영지가 망자를 기록하는 일을 재개하도록 도왔다.",
+      "replace": "필멸자의 생명력을 빼앗아 페이(Fae)의 위상을 되찾으려는 처형인(Headsman)이라는 페이가 내게 목숨을 건 결투를 신청했다. 미든(The Midden)에서 처형인의 위협을 끝내고, 그곳의 알파르(Alfar) 야영지가 망자를 기록하는 일을 재개하도록 도왔다.",
+      "reason": "Recast the awkward passive sentence, clarify the life-force meaning, and align the antagonist term."
+    },
+    {
+      "ids": [45706],
+      "find": "처형자 손에 죽는 이들도 있지만",
+      "replace": "처형인(Headsman)에게 쓰러지는 이들도 있지만",
+      "reason": "Pair the antagonist and use a natural construction for those who fall to him."
+    },
+    {
+      "ids": [48290],
+      "find": "교수형 집행인을 찾아가기",
+      "replace": "처형인(Headsman)에게 가기",
+      "reason": "Align and pair the named quest target in the objective."
+    },
+    {
+      "ids": [48832],
+      "find": "형리를 찾아냈지만",
+      "replace": "처형인(Headsman)을 찾아냈지만",
+      "reason": "Align and pair the named antagonist at first mention."
+    },
+    {
+      "ids": [63612],
+      "find": "집행인(Headsman)을 찾아",
+      "replace": "처형인(Headsman)을 찾아",
+      "reason": "Align the paired antagonist name."
+    },
+    {
+      "ids": [58889],
+      "find": "베텔리",
+      "replace": "베셀리",
+      "reason": "Align the established Betheli spelling in the related quest rows."
+    }
+  ]
+}

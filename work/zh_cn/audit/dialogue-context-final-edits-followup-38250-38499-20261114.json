@@ -1,0 +1,100 @@
+{
+  "range": [38250, 38499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-38250-38499-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-37500-37749-candidate-reconciliation-20261114.md",
+      "dialogue-context-32250-32499-candidate-reconciliation-20261114.md",
+      "dialogue-context-1382473-sq114-brun-revalidation-20261111.md",
+      "dialogue-context-u03-revalidation-20261110.md",
+      "dialogue-context-next-five-assets-iddyla-turin-apotyre-ariad-eathe-revalidation-20261111.md"
+    ]
+  },
+  "range_candidate_ids": [
+    38292, 38308, 38319, 38325, 38326, 38327,
+    38334, 38372, 38380, 38385, 38426, 38453
+  ],
+  "previously_reconciled_candidate_ids": [38319, 38453],
+  "newly_counted_candidate_ids": [
+    38292, 38308, 38325, 38326, 38327, 38334, 38372, 38380, 38385, 38426
+  ],
+  "decisions": {
+    "confirmed_previously_corrected": [38292, 38319, 38453],
+    "retained": [38308, 38372],
+    "corrected_or_refined": [38325, 38326, 38327, 38334, 38380, 38385, 38426],
+    "evidence_limited_holds": [38261, 38293, 38367, 38437, 38472, 38496]
+  },
+  "related_consistency_groups": {
+    "Idylla sewer-inspection surveyor": [37540, 38319, 44458, 50723, 52797],
+    "The Valley Fate card": [22272, 32327, 32376, 38453]
+  },
+  "edits": [
+    {
+      "id": 38325,
+      "old": "갤로우스 엔드(Gallows End)의 바위투성이 서해안은 흔히 턱뼈 해안이라 불린다. 원래 이름인 '레카 카프트'가 드베르간어(Dvergan)로 '부러진 이빨'을 뜻하기 때문이다.",
+      "new": "갤로우스 엔드(Gallows End)의 바위투성이 서해안은 흔히 턱뼈 해안(the Jawbone)이라 불린다. 원래 이름인 '레카 카프트'가 드베르간어(Dvergan)로 '부러진 이빨'을 뜻하기 때문이다.",
+      "reason": "Pair the explicitly named coast while keeping the separate Dvergan etymology and avoiding a claim that the two names literally translate to one another."
+    },
+    {
+      "id": 38326,
+      "old": "평가를 받으러 왔나? 필기시험은 이미 진행했으니 이제 구술시험을 봐야겠군.",
+      "new": "평가를 받으러 왔나? 필기시험은 이미 시행했으니 이제 구술시험을 봐야겠군.",
+      "reason": "Clarify the examiner's administration of the written exam; Japanese says the written papers have already been reviewed, and both support the oral-exam sequence."
+    },
+    {
+      "id": 38327,
+      "old": "투기장은 생존법을 속성으로 배우는 곳이야. 문이 닫히면 싸움이 끝날 때까지 아무도 나갈 수 없어!",
+      "new": "투기장은 살아남는 법을 단숨에 익히는 곳이야. 문이 닫히면 싸움이 끝날 때까지 아무도 나갈 수 없어!",
+      "reason": "Render crash-course survival naturally in conversational Korean while preserving the warning and register."
+    },
+    {
+      "id": 38334,
+      "old": "알파르(Alfar) 해군이 작성한 이 공식 조사 기록에는 예정된 표적이 상세히 적혀 있다. 여기서 표적은 해적 바로넷(The Baronett)다.",
+      "new": "알파르(Alfar) 해군이 작성한 이 공식 조사 기록에는 예정된 표적이 상세히 적혀 있다. 여기서 표적은 해적 바로넷(The Baronett)이다.",
+      "reason": "Restore the missing Korean copula after the name ending in a consonant."
+    },
+    {
+      "id": 38380,
+      "old": "리아나의 춤",
+      "new": "리아나의 춤(Lyana's Dance)",
+      "reason": "Pair the complete named title with its English source."
+    },
+    {
+      "id": 38385,
+      "old": "아든의 오두막에 있던 여자야?",
+      "new": "아든(Arden)의 오두막에 있던 여자야?",
+      "reason": "Pair the named person in the possessive phrase without inferring identity."
+    },
+    {
+      "id": 38426,
+      "old": "타이윌리 해안(Tywili Coast)에 있던 우리 집이 불탄 뒤, 형제인 나릿(Narit), 하리트(Harit)와 함께 여기로 왔어. 노움들이 투아사(Tuatha)에게서 우릴 지켜 줄 거야. 그래야 해.",
+      "new": "타이윌리 해안(Tywili Coast)에 있던 우리 집이 불탄 뒤, 형제인 나릿(Narit)과 하리트(Harit)와 함께 이곳으로 왔어. 노움들이 투아사(Tuatha)에게서 우릴 지켜 줄 거야. 그래야 해.",
+      "reason": "Make the coordinated names and destination phrase natural while preserving the source's first-person account and plain speech."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2418,
+    "total": 4015,
+    "percent": 60.22,
+    "remaining": 1597
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [38325, 38326, 38327, 38334, 38380, 38385, 38426],
+    "source_csv_or_extracted_asset_changed": false,
+    "ledger_fingerprint_ids_refreshed": [38325, 38326, 38327, 38334, 38380, 38385, 38426],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71838,
+    "csv_lf_only": 244,
+    "csv_bare_cr": 0,
+    "crlf_aware_diff_check": "passed",
+    "commit_made": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "range": [64177, 64213],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "related_reports": [
+      "dialogue-context-default-64000-64249-revalidation-20261113.md",
+      "dialogue-context-translation-followup-64177-64213-20261115.md"
+    ]
+  },
+  "revalidated_existing_edits": [
+    {
+      "id": 64177,
+      "old": "적의 공격은 {1}을 눌러 {*1회피}하거나 {2}를 눌러 {*1방어}하세요.",
+      "current": "적의 공격은 {1}을 눌러 {*1회피}하거나 {2}를 눌러 {*1막아내세요}.",
+      "decision": "retain",
+      "reason": "English, Japanese, and Chinese confirm the dodge/block instruction; the Korean connective clause and polite final instruction are grammatically consistent."
+    }
+  ],
+  "edits": [
+    {
+      "id": 64213,
+      "old": "기억해 둬. 자랑거리는 둥근 천장만이 아니야. 이곳의 역사와 역할, 그리고 이곳의 성주이자 전쟁의 고대인인 타인 델프릭(Tine Delfric)도 있지.",
+      "new": "기억해 둬. 이곳의 자랑거리는 둥근 천장만이 아니야. 역사와 역할은 물론, 성주이자 전쟁의 고대자(Ancient of War)인 타인 델프릭(Tine Delfric)도 빼놓을 수 없지.",
+      "reason": "The English and Japanese identify Tine Delfric as Ancient of War and Castellan; related Korean IDs 21021 and 61274 establish the paired title as 전쟁의 고대자(Ancient of War)."
+    }
+  ],
+  "retained_ledger_dispositions": [64177, 64213],
+  "translation_csv_changed": true,
+  "changed_default_ids": [64213],
+  "ledger_fingerprint_changed_ids": [64213],
+  "ledger_dispositions_changed": false,
+  "source_csv_or_extracted_asset_changed": false,
+  "commit_made": false
+}

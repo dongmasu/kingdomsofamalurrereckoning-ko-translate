@@ -1,0 +1,130 @@
+{
+  "range": [36500, 36749],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-36500-36749-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-five-pending-assets-revalidation-20261111.md",
+      "dialogue-context-default-39000-39249-revalidation-20261112.md",
+      "dialogue-context-default-58750-58999-revalidation-20261113.md"
+    ]
+  },
+  "range_candidate_ids": 18,
+  "range_candidate_id_list": [
+    36504,
+    36525,
+    36532,
+    36549,
+    36563,
+    36581,
+    36618,
+    36620,
+    36627,
+    36628,
+    36643,
+    36646,
+    36669,
+    36716,
+    36728,
+    36738,
+    36742,
+    36748
+  ],
+  "previously_reconciled_candidate_ids": [30681],
+  "newly_counted_candidate_ids": [
+    36504,
+    36525,
+    36532,
+    36549,
+    36563,
+    36581,
+    36618,
+    36620,
+    36627,
+    36628,
+    36643,
+    36646,
+    36669,
+    36716,
+    36728,
+    36738,
+    36742,
+    36748,
+    39122,
+    44006,
+    58806
+  ],
+  "additional_linked_candidate_ids_reconciled": [39122, 44006, 58806],
+  "decisions": {
+    "previously_applied_or_resolved_confirmed": [
+      36504,
+      36525,
+      36532,
+      36549,
+      36618,
+      36620,
+      36628,
+      36643,
+      36646,
+      36669,
+      36716,
+      36738,
+      39122,
+      44006,
+      58806
+    ],
+    "newly_applied": [30681, 36563, 36728],
+    "retained": [36581, 36627, 36742, 36748],
+    "superseded_prior_disposition": {
+      "30681": "Previously confirmed with split role/name parentheses; unified with exact duplicate 36563 and established full label at 44006.",
+      "36563": "Previously retained as optional title formatting; direct duplicate and same-entity references support the complete Adept Ignas pairing."
+    },
+    "not_counted_uncertain_related_id": [34679]
+  },
+  "edits": [
+    {
+      "id": 30681,
+      "old": "숙련자(Adept) 이그나스(Ignas)와 맞서기",
+      "new": "숙련자 이그나스(Adept Ignas)와 맞서기",
+      "reason": "Match the full role-and-name form already established at 44006 and align the exact-English duplicate with 36563."
+    },
+    {
+      "id": 36563,
+      "old": "숙련자 이그나스와 맞서기",
+      "new": "숙련자 이그나스(Adept Ignas)와 맞서기",
+      "reason": "Pair the complete source label and match the exact-English duplicate 30681 and established same-person form at 44006."
+    },
+    {
+      "id": 36728,
+      "old": "아, 안녕하세요.",
+      "new": "안녕하세요.",
+      "reason": "Remove an unsupported hesitation from the standalone source greeting."
+    }
+  ],
+  "fingerprints_refreshed": [30681, 36563, 36728],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2299,
+    "total": 4015,
+    "percent": 57.26,
+    "remaining": 1716
+  },
+  "verification": {
+    "four_language_candidate_ids_checked": 22,
+    "translation_csv_changed": true,
+    "changed_default_ids": [30681, 36563, 36728],
+    "source_csv_or_extracted_asset_changed": false,
+    "full_review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "dialogue_context_index_tests": "passed (9)",
+    "csv_structure": "65135 ordered records; UTF-8 BOM preserved",
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "speaker_or_playback_order_inferred": false
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "range": [43750, 43999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-43750-43999-revalidation-20261112.md",
+    "candidate_reconciliation": "dialogue-context-43750-43999-candidate-reconciliation-20261115.md",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    43760, 43768, 43773, 43791, 43795, 43811, 43849, 43873, 43875,
+    43894, 43918, 43919, 43926, 43941, 43954, 43966, 43974, 43984
+  ],
+  "newly_reconciled_ids": [
+    43760, 43768, 43773, 43791, 43795, 43811, 43849, 43873, 43875,
+    43894, 43918, 43919, 43926, 43941, 43954, 43966, 43974, 43984, 60899
+  ],
+  "newly_reconciled_total": 19,
+  "previously_reconciled_linked_ids": [14967],
+  "decisions": {
+    "corrected_now": [43811, 43873, 43918, 43954, 43984, 60899],
+    "retained_as_already_correct": [
+      43760, 43768, 43773, 43791, 43795, 43849, 43875, 43894, 43919,
+      43926, 43941, 43966, 43974
+    ],
+    "held_for_independent_evidence": []
+  },
+  "linked_source_groups": {
+    "fire_sprite_type": {
+      "ids": [43984, 60899],
+      "result": "Both rows now use the source-supported Fire Sprite type; the quest objective also uses the established -하기 form."
+    },
+    "infrequent_rarity": {
+      "ids": [14967, 35567, 43919],
+      "result": "The salvage descriptions at 14967 and 43919 use 흔하지 않은; the inventory rarity label at 35567 uses 흔하지 않음. ID 14967 was reconciled previously."
+    },
+    "previously_reported_rows": {
+      "ids": [43799, 43838, 43918],
+      "result": "43799 and 43838 already contain their supported corrections. Fresh source review found 43918 still needed a natural direct-address rendering, superseding the earlier report's clearance."
+    }
+  },
+  "edits": [
+    {
+      "id": 43811,
+      "old": "알현 준비의 전당(Hall of Appointments)에 온 것을 환영하오. 지고왕(High King)을 알현하고 싶다면 이곳에서 준비하면 되오.",
+      "new": "알현 준비의 전당(Hall of Appointments)에 온 걸 환영해. 지고왕(High King)을 알현하고 싶다면 여기서 준비하면 돼.",
+      "reason": "Remove the isolated archaic 하오체, matching the direct Japanese speech while preserving the meaning and title pairings."
+    },
+    {
+      "id": 43873,
+      "old": "안녕하시오.",
+      "new": "안녕.",
+      "reason": "Use a natural casual greeting supported by Japanese どうも and Chinese 你好啊."
+    },
+    {
+      "id": 43918,
+      "old": "성전사는 두고 보라지. 맹세하건대.",
+      "new": "성전사, 두고 봐. 맹세할게.",
+      "reason": "Render the English and Japanese direct, defiant address naturally in Korean; do not infer a speaker."
+    },
+    {
+      "id": 43954,
+      "old": "젊은이여, 전승(The Telling)에 도움이 필요하시오?",
+      "new": "젊은이, 전승(The Telling)에 도움이 필요해?",
+      "reason": "Replace marked 하오체 with a natural direct question, retaining the address and title."
+    },
+    {
+      "id": 43984,
+      "old": "불의 스프라이트를 조심해. 터지기 직전까지는 아주 희미한 불꽃만 내뿜지. 그러다 네가 본 적 없는 눈부신 불길을 뿜어 낼 거야. 그땐 도망치고 싶어질걸.",
+      "new": "불의 스프라이트(Fire Sprite)를 조심해. 터지기 직전까지는 아주 희미한 불꽃만 내뿜지. 그러다 네가 본 적 없는 눈부신 불길을 뿜어 낼 거야. 그땐 도망치고 싶어질걸.",
+      "reason": "Add the missing English pairing for the creature type without changing the warning."
+    },
+    {
+      "id": 60899,
+      "old": "불 정령 챔피언 처치",
+      "new": "불의 스프라이트 챔피언(Fire Sprite Champion) 처치하기",
+      "reason": "Align the linked Fire Sprite type with 43984, add its English pairing, and use the established quest-objective ending."
+    }
+  ],
+  "ledger_fingerprints_refreshed": [43811, 43873, 43918, 43954, 43984, 60899],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2935,
+    "previous_total": 4028,
+    "newly_reconciled": 19,
+    "reconciled": 2954,
+    "total": 4028,
+    "percent": 73.34,
+    "remaining": 1074
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [43811, 43873, 43918, 43954, 43984, 60899],
+    "ledger_reviewed_ids": 65135,
+    "all_four_language_fingerprints": "passed",
+    "catalog_reproducibility": "passed",
+    "regression_tests": "11 CSV-preservation tests and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

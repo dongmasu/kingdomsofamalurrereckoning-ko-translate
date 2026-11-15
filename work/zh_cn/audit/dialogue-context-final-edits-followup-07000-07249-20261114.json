@@ -1,0 +1,227 @@
+{
+  "range": [
+    7000,
+    7249
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 24,
+  "reconciled_candidate_ids": 24,
+  "changed_rows": [
+    1590,
+    1791,
+    3885,
+    4027,
+    5429,
+    7027,
+    7079,
+    7080,
+    7123,
+    8190,
+    10729,
+    13041,
+    15037,
+    21023,
+    22673,
+    24172,
+    25684,
+    25823,
+    27984,
+    28151,
+    30613,
+    32542,
+    39711,
+    7239,
+    7249
+  ],
+  "edits": [
+    {
+      "id": 7027,
+      "old": "페이트위버(Fateweaver) 아르탄 라나(Artan Rana)는 이 옷에 걸린 마법의 무늬가 자신의 운명에서 본 문양을 본뜬 것이라고 주장했어.",
+      "new": "페이트위버(Fateweaver) 아르탄 라나(Artan Rana)는 이 옷의 마법 문양이 자신의 운명에서 본 문양을 본뜬 것이라고 주장했어.",
+      "reason": "Clarified the garment's enchantment pattern in natural Korean while preserving the fate-pattern comparison."
+    },
+    {
+      "ids": [
+        1590,
+        1791,
+        3885,
+        4027,
+        5429,
+        7079,
+        8190,
+        10729,
+        13041,
+        15037,
+        21023,
+        22673,
+        24172,
+        25684,
+        25823,
+        27984,
+        28151,
+        30613,
+        32542
+      ],
+      "old": "컵의 여왕 메어(Maire, Queen of Cups)",
+      "new": "컵의 여왕(Queen of Cups) 메어(Maire)",
+      "reason": "All four-language source rows are identical; pair the title and personal name separately and consistently."
+    },
+    {
+      "id": 7080,
+      "old": "하지만 서한집(Missives)을 찾던 노움 프레토리안 근위병(Praetorians) 부대의 습격을 받았어. 그들은 그 책을 원해, 친구. 우리가 끼어들면 둘 다 죽이려 들 거야.",
+      "new": "하지만 세이블의 서신(Missives of Sable)을 찾던 노움 프레토리안(Praetorians) 부대에 습격당했어. 그들은 그 책을 원해, 친구. 우리가 끼어들면 둘 다 죽이려 들 거야.",
+      "reason": "The quest context identifies the book as Missives of Sable; removing stacked guard/unit wording makes the threat natural without changing its casual address."
+    },
+    {
+      "id": 7123,
+      "old": "농부 옷을 좀 가져다주면 어렵지 않게 재료를 다시 손볼 수 있어. 어때?",
+      "new": "농민 옷을 좀 가져다주면 어렵지 않게 재료를 다시 손볼 수 있어. 어때?",
+      "reason": "Align with the same source phrase at 39711 and the Japanese/Chinese references."
+    },
+    {
+      "id": 39711,
+      "old": "또 너로군. 처분하고 싶은 농부 옷이 있나? 있으면 내가 사고 싶은데.",
+      "new": "또 너로군. 처분하고 싶은 농민 옷이 있나? 있으면 내가 사고 싶은데.",
+      "reason": "Align with 7123 and the established rendering for peasant clothes."
+    },
+    {
+      "id": 7239,
+      "old": "우리 운명을 이루도록 도와줘서 고마워, 부름받은 자(Beckoned).",
+      "new": "우리 운명을 이룰 수 있었던 건 네 덕분이야. 고마워, 부름받은 자(Beckoned).",
+      "reason": "Express the source's direct gratitude in conversational Korean, consistent with Japanese."
+    },
+    {
+      "id": 7249,
+      "old": "정정당당하게 싸워 날 쓰러뜨리면 네 말을 믿을게. 그럼 널 인정해 주지.",
+      "new": "정정당당하게 싸워 날 쓰러뜨리면 네 말을 믿고 널 존중할게.",
+      "reason": "Preserve the fair-fight condition while rendering earned respect directly and naturally."
+    }
+  ],
+  "retained": [
+    {
+      "id": 7014,
+      "reason": "Master Kiftal is already paired consistently at this ID and related IDs 17937, 26577, 29585, and 32759."
+    },
+    {
+      "id": 7015,
+      "reason": "The literal vocative was already removed; current address and casual wording are acceptable."
+    },
+    {
+      "id": 7042,
+      "reason": "Destiny Stone and Tapestry of Fate both already have English pairings."
+    },
+    {
+      "id": 7090,
+      "reason": "Weave is distinct from Tapestry of Fate and uses the established 운명의 실(Weave)."
+    },
+    {
+      "id": 7104,
+      "reason": "Related journal context and Japanese identify the named shop; the current label is correctly paired."
+    },
+    {
+      "id": 7106,
+      "reason": "맥동하는 원 accurately represents the pulsing quest marker."
+    },
+    {
+      "id": 7129,
+      "reason": "묵은 곡물 요리 preserves the fable's absurd stale-grain joke; all embedded line breaks are intact."
+    },
+    {
+      "id": 7141,
+      "reason": "The English House of Ballads pairing is already limited to the first mention."
+    },
+    {
+      "id": 7147,
+      "reason": "The current question is conversational and preserves the source meaning."
+    },
+    {
+      "id": 7155,
+      "reason": "겨울 상궁정(High Court of Winter) is the established distinct form."
+    },
+    {
+      "id": 7157,
+      "reason": "The current 지점 업무 안내서 term matches related Motus Mining entries."
+    },
+    {
+      "id": 7189,
+      "reason": "The sentence already omits the redundant English damage label."
+    },
+    {
+      "id": 7190,
+      "reason": "The possessive particle is already present."
+    },
+    {
+      "id": 7223,
+      "reason": "The actual Ballads Library UI label is already paired."
+    },
+    {
+      "id": 7245,
+      "reason": "The active 반갑군 uses conversational plain speech, not 하오체."
+    },
+    {
+      "id": 7247,
+      "reason": "Kept broad 의약제 rather than narrowing the disputed physics term to 하제."
+    }
+  ],
+  "held": [
+    {
+      "id": 7049,
+      "reason": "The exact Korean equivalent for mined-out stope is not established by available evidence."
+    },
+    {
+      "id": 7114,
+      "reason": "The sources do not establish the relationship between the murderer and the devices."
+    }
+  ],
+  "ledger": {
+    "fingerprints_refreshed": [
+      1590,
+      1791,
+      3885,
+      4027,
+      5429,
+      7027,
+      7079,
+      7080,
+      7123,
+      8190,
+      10729,
+      13041,
+      15037,
+      21023,
+      22673,
+      24172,
+      25684,
+      25823,
+      27984,
+      28151,
+      30613,
+      32542,
+      39711,
+      7239,
+      7249
+    ],
+    "fingerprint_check": "passed"
+  },
+  "verification": {
+    "ledger_reviewed_ids": 65135,
+    "ledger_fingerprint_check": "passed",
+    "index_and_catalog_reproduction": "passed",
+    "preservation_tests": 11,
+    "context_index_tests": 9,
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "line_endings": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    }
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 383,
+    "total": 4015,
+    "percent": 9.54,
+    "remaining": 3632
+  }
+}

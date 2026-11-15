@@ -1,0 +1,107 @@
+{
+  "range": [43250, 43499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-43250-43499-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-followup-43000-43249-20261115.json",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    43263, 43268, 43275, 43289, 43317, 43327, 43333, 43340, 43379, 43391,
+    43392, 43404, 43422, 43429, 43460, 43461, 43472, 43481, 43485
+  ],
+  "newly_reconciled_ids": [
+    43263, 43268, 43275, 43289, 43317, 43327, 43333, 43379, 43391, 43392,
+    43404, 43422, 43429, 43460, 43461, 43472, 43481, 43485, 44580, 60675
+  ],
+  "newly_reconciled_total": 20,
+  "newly_identified_candidates": [
+    {
+      "id": 44580,
+      "previous_ledger_status": "not-issue",
+      "linked_exact_source_id": 43364,
+      "reason": "The English, Japanese, and Chinese sources are identical. The Korean objective lacked the established -하기 form already present at 43364."
+    }
+  ],
+  "cleared_false_positive_candidates": [
+    {
+      "id": 43340,
+      "previous_ledger_status": "candidate",
+      "new_ledger_status": "not-issue",
+      "reason": "This row is about armor designed by King Gadflow, and its Korean already pairs Gadflow. The Galen name-format finding belongs to 43461."
+    }
+  ],
+  "decisions": {
+    "confirmed_current_candidate_ids": [
+      43263, 43268, 43275, 43289, 43317, 43327, 43333, 43379, 43391, 43392,
+      43404, 43422, 43429, 43460, 43461, 43472, 43481, 43485
+    ],
+    "corrected_now": [43379, 44580, 60675],
+    "retained_as_already_correct": [
+      43263, 43268, 43275, 43289, 43317, 43327, 43333, 43391, 43392, 43404,
+      43422, 43429, 43460, 43461, 43472, 43481, 43485
+    ],
+    "evidence_limited_holds_preserved": [43309, 43319, 43359]
+  },
+  "linked_exact_source_groups": {
+    "Explore the Ancient Vault objective": {
+      "ids": [43317, 60675],
+      "result": "All four languages now match; both Korean objectives read 고대 금고(Ancient Vault) 탐험하기."
+    },
+    "Begin the Ritual objective": {
+      "ids": [43364, 44580],
+      "result": "All four languages now match; both Korean objectives read 의식 시작하기. ID 44580 was newly identified as a candidate."
+    }
+  },
+  "edits": [
+    {
+      "id": 43379,
+      "old": "돌 하나하나는 원소 마법이 물리적 형태를 띤 것이다. 시다누스(Sydanus)는 입문 시험에 참여한 이들에게 빙의해 각자를 서로 다른 장소로 이끌었다...",
+      "new": "돌 하나하나는 원소 마법이 물리적 형태를 띤 것이다. 시다누스(Sydanus)는 입문 시험에 참여한 이들에게 빙의해 각자를 서로 다른 장소로 이끌었지...",
+      "reason": "Match the plain conversational narration of the Japanese source without inferring a specific speaker."
+    },
+    {
+      "id": 44580,
+      "old": "의식 시작",
+      "new": "의식 시작하기",
+      "reason": "Match exact-source duplicate 43364 and the established concise objective form."
+    },
+    {
+      "id": 60675,
+      "old": "고대 금고(Ancient Vault) 탐험",
+      "new": "고대 금고(Ancient Vault) 탐험하기",
+      "reason": "Match exact-source duplicate 43317 and the established concise objective form."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2882,
+    "previous_total": 4028,
+    "newly_identified_candidates_added_to_total": 1,
+    "false_positive_candidates_removed_from_total": 1,
+    "reconciled": 2902,
+    "total": 4028,
+    "percent": 72.05,
+    "remaining": 1126
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [43379, 44580, 60675],
+    "ledger_fingerprint_ids_refreshed": [43379, 44580, 60675],
+    "newly_reclassified_ledger_ids": [43340, 44580],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation tests and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "exact_source_duplicate_checks": "passed for 43317/60675 and 43364/44580",
+    "crlf_aware_diff_check": "passed with core.whitespace=cr-at-eol",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

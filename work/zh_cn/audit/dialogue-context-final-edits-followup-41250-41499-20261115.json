@@ -1,0 +1,116 @@
+{
+  "range": [41250, 41499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-41250-41499-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "linked_reviews": [
+      "dialogue-context-39750-39999-candidate-reconciliation-20261114.md",
+      "dialogue-context-1443829-revalidation-20261111.md",
+      "dialogue-context-507502-sa08-revalidation-20261111.md"
+    ]
+  },
+  "range_candidate_ids": [
+    41255, 41256, 41262, 41271, 41281, 41289, 41315, 41318, 41333, 41345,
+    41367, 41375, 41376, 41395, 41418, 41420, 41439, 41455, 41471, 41474,
+    41485
+  ],
+  "newly_reconciled_ids": [
+    41255, 41256, 41262, 41271, 41281, 41289, 41315, 41318, 41333, 41345,
+    41367, 41375, 41376, 41395, 41418, 41420, 41439, 41455, 41474, 41485
+  ],
+  "newly_reconciled_total": 20,
+  "previously_reconciled_related_ids": {
+    "41471": {
+      "linked_exact_source_id": 39868,
+      "previous_review": "dialogue-context-39750-39999-candidate-reconciliation-20261114.md",
+      "reason": "The four-language objective already matched exactly; do not count the candidate twice."
+    }
+  },
+  "decisions": {
+    "confirmed_current_candidate_ids": [
+      41256, 41262, 41281, 41289, 41315, 41318, 41333, 41345, 41376, 41395,
+      41420, 41439, 41455, 41474, 41485
+    ],
+    "corrected_now": [41367],
+    "cleared_unsupported_proposals": [
+      {
+        "id": 41255,
+        "reason": "All 26 exact-source label rows already use the accepted paired form 지팡이 여왕(Queen of Staves) 아르진(Argine)."
+      },
+      {
+        "id": 41271,
+        "dimension": "format",
+        "reason": "master-at-arms is an occupational description, not a standalone name or title; the separate role-meaning hold remains."
+      },
+      {
+        "id": 41375,
+        "reason": "This is explanatory ritual text, not identified dialogue; no casual-register rewrite is supported."
+      },
+      {
+        "id": 41418,
+        "reason": "Retain the established 제일검(First Sword) form; 제1검 is not needed and would break consistency across the title's occurrences."
+      }
+    ],
+    "evidence_limited_holds": [41264, 41271, 41275, 41319, 41426, 41492]
+  },
+  "linked_exact_source_groups": {
+    "Argine, Queen of Staves": {
+      "ids": [
+        1043, 1174, 3307, 3501, 6044, 7667, 8663, 11172, 12593, 14564,
+        16655, 21485, 30045, 30190, 31796, 33892, 38694, 40340, 41255,
+        43684, 47099, 52596, 53842, 55720, 56433, 62000
+      ],
+      "result": "All 26 exact-source labels use the same accepted Korean pairing."
+    },
+    "Field of Huber objective": {
+      "ids": [39868, 41471],
+      "result": "The four-language rows and Korean objective match; 41471 was already reconciled in the 39750-39999 pass."
+    }
+  },
+  "term_consistency_groups": {
+    "Cohosh": {
+      "ids": [21648, 41367],
+      "result": "Both Korean occurrences use 코호시(Cohosh); the journal's English, Japanese, and Chinese sources identify the same plant term."
+    }
+  },
+  "edits": [
+    {
+      "id": 41367,
+      "old_fragment": "코호시가 건강하기를",
+      "new_fragment": "코호시(Cohosh)가 건강하기를",
+      "reason": "The same plant term is already paired as 코호시(Cohosh) in default:21648. English Cohosh, Japanese コホシュ, and Chinese 升麻 support applying the same name pairing here; preserve the first-person journal register and all paragraph breaks."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2679,
+    "previous_total": 4020,
+    "newly_identified_candidates_added_to_total": 0,
+    "false_positive_candidates_removed_from_total": 0,
+    "reconciled": 2699,
+    "total": 4020,
+    "percent": 67.14,
+    "remaining": 1321
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [41367],
+    "ledger_fingerprint_ids_refreshed": [41367],
+    "newly_reclassified_ledger_ids": [41367],
+    "ledger_reviewed_ids": 65135,
+    "index_catalog_checks": "passed after regenerating the all-ID catalog from the current ledger",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "41367_embedded_line_breaks": 8,
+    "exact_source_duplicate_checks": "passed for all 26 Argine labels and the 39868/41471 Field of Huber objective",
+    "term_consistency_check": "passed for Cohosh at 21648 and 41367",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

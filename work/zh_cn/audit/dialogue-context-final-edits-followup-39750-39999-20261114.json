@@ -1,0 +1,95 @@
+{
+  "range": [39750, 39999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-39750-39999-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "linked_reviews": [
+      "dialogue-context-default-41250-41499-revalidation-20261112.md",
+      "dialogue-context-default-59250-59499-revalidation-20261113.md",
+      "review-fatesworn-faction-D21747.rb"
+    ]
+  },
+  "range_candidate_ids": [
+    39755, 39766, 39791, 39798, 39811, 39825, 39847, 39848, 39849, 39852,
+    39858, 39860, 39868, 39876, 39884, 39895, 39898, 39902, 39916, 39929,
+    39931, 39934, 39936, 39938, 39947, 39953, 39979, 39984
+  ],
+  "newly_counted_candidate_ids": [
+    39755, 39766, 39791, 39798, 39811, 39825, 39847, 39848, 39849, 39852,
+    39858, 39860, 39868, 39876, 39884, 39895, 39898, 39902, 39916, 39929,
+    39931, 39934, 39936, 39938, 39947, 39953, 39979, 39984, 41471, 59331
+  ],
+  "newly_reconciled_total": 30,
+  "previously_counted_ids": [],
+  "newly_identified_candidates": [
+    {
+      "id": 39849,
+      "previous_ledger_status": "not-issue",
+      "reason": "Missed occurrence of the Sorrows force; align with the established Korean term and three related rows."
+    },
+    {
+      "id": 59331,
+      "linked_exact_source_id": 39895,
+      "previous_ledger_status": "not-issue",
+      "reason": "Exact English, Japanese, and Chinese farewell group had one remaining Korean register mismatch."
+    }
+  ],
+  "linked_exact_source_groups": {
+    "Field of Huber objective": [39868, 41471],
+    "Later then farewell": [16152, 21295, 29847, 39895, 45387, 59331],
+    "Kellerac's Sword": [13990, 39848, 56993]
+  },
+  "decisions": {
+    "corrected_or_currently_supported": [
+      39755, 39766, 39791, 39798, 39811, 39825, 39847, 39848, 39849,
+      39852, 39858, 39860, 39868, 39876, 39884, 39895, 39898, 39902,
+      39916, 39929, 39931, 39934, 39936, 39938, 39947, 39953, 39979,
+      39984, 41471, 59331
+    ],
+    "evidence_limited_holds": [
+      39762, 39779, 39809, 39817, 39840, 39893, 39907, 39981, 39996
+    ]
+  },
+  "edits": [
+    {
+      "id": 39849,
+      "old": "타이브리아(Taibreah)가 자신이 통곡하는 왕(Weeping King)의 환생임을 밝혔다. 우리는 비사라네(Bisarane)를 막기 위해 함께 에샤라(Esharra)로 향했다. 그녀와 나는 비사라네(Bisarane)가 필멸자 군대에 소로스를 풀어놓는 것을 저지해, 군대가 몰살당하는 일을 막았다.",
+      "new": "타이브리아(Taibreah)가 자신이 통곡하는 왕(Weeping King)의 환생임을 밝혔다. 우리는 비사라네(Bisarane)를 막기 위해 함께 에샤라(Esharra)로 향했다. 그녀와 나는 비사라네(Bisarane)가 필멸자 군대에 비탄의 힘(The Sorrows)을 풀어놓는 것을 저지해, 군대가 몰살당하는 일을 막았다.",
+      "reason": "Align the named force with established terminology used at IDs 39766, 39858, and 39936."
+    },
+    {
+      "id": 59331,
+      "old": "그럼 나중에 보자.",
+      "new": "그럼 나중에 봐요.",
+      "reason": "Align the exact-source duplicate with the neutral/polite Japanese farewell and the other five Korean rows."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2529,
+    "previous_total": 4015,
+    "newly_identified_candidates_added_to_total": 2,
+    "reconciled": 2559,
+    "total": 4017,
+    "percent": 63.7,
+    "remaining": 1458
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [39849, 59331],
+    "ledger_fingerprint_ids_refreshed": [39849, 59331],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for Field of Huber, Later then, and Kellerac's Sword groups",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "input_sha256": "be652801f9430795e11b93dcf567fff9230da6ff246e8fef8736da98341e4f28",
+  "ledger_input_sha256": "cedd8aa9d6b8f978e5cf3c5bb8f6adfa5757d9932f32e48d714234fe2ab9e2e7",
+  "output_sha256": "b26b705ddf6466f1698f31c359a4090b303abfdb822e4e41023ab8dc3c146f9b",
+  "ledger_output_sha256": "a92948802621611b7783717bb5e0f9de283e30bb738f01bb9d60e2d545b4f3f0",
+  "required_csv_quoting_change_ids": [16927],
+  "scope": "Adjudicate the 36 current correction candidates in default IDs 16000-16999 against current English, Japanese, Chinese, and Korean rows; then align directly related quest, exact-source, and terminology groups.",
+  "matching": "Apply only to listed IDs. Preflight the complete batch against current Texto values, then apply sequentially through tools/replace_text_preserve_eol.py. Refresh only fingerprints for IDs whose Korean text changed.",
+  "candidate_ids": [
+    16000, 16010, 16052, 16106, 16171, 16250, 16283, 16301, 16368, 16389,
+    16391, 16404, 16443, 16452, 16461, 16478, 16518, 16561, 16582, 16584,
+    16617, 16665, 16681, 16687, 16719, 16758, 16767, 16858, 16864, 16870,
+    16921, 16927, 16943, 16988, 16989, 16999
+  ],
+  "candidate_results": {
+    "corrected": [
+      16000, 16010, 16052, 16171, 16250, 16283, 16301, 16368, 16389, 16391,
+      16404, 16443, 16452, 16461, 16478, 16518, 16561, 16582, 16584, 16617,
+      16665, 16719, 16758, 16858, 16864, 16870, 16927, 16988, 16989, 16999
+    ],
+    "already_resolved": [16106, 16681, 16687],
+    "retained": [16767, 16921, 16943],
+    "holds": []
+  },
+  "outcomes": {
+    "16106": "The current arena line already says the Champion forced the team to fight fierce Trolls in the arena; no duplicate change.",
+    "16681": "The current Korean already says the startled owner fled and left the bestiary; the source-based proposed wording is already present in substance.",
+    "16687": "The current Korean already uses the established litany term 연도문.",
+    "16767": "Retained the current Lopoku spelling, supported by the active glossary and manual; the source row's Lupoku spelling is an anomaly.",
+    "16921": "Retained the natural, source-faithful reassignment wording.",
+    "16943": "Retained the accurate plural objective to find and destroy the urns."
+  },
+  "related_context_reviews": [
+    {
+      "source": "dialogue-context-1458189-sq122-tidings-war-revalidation-20261111.md",
+      "ids": [2885, 16301, 16452, 25832, 31012, 36854, 41134, 41671, 42024, 43268, 52920, 54797, 59197, 59600],
+      "reason": "Recheck the full notice-delivery quest terms and approved row-level meaning/register corrections together, without inferring individual speakers from asset membership."
+    },
+    {
+      "source": "dialogue-context-sq108-revalidation-20261110.md",
+      "ids": [16171, 16988, 63399],
+      "reason": "Pair standalone capitalized Chosen references consistently; preserve each sentence and the full Ragnarr's Chosen title."
+    }
+  ],
+  "edits": [
+    {
+      "ids": [16000],
+      "find": "은화를 좀 팔고 싶어.",
+      "replace": "은을 좀 팔고 싶어.",
+      "reason": "English, Japanese, and Chinese specify silver as a material, not coins."
+    },
+    {
+      "ids": [16010],
+      "find": "우리는 바위이자 살덩이, 검이자 신앙이다.",
+      "replace": "우리는 돌이자 살이며, 검이자 신앙이다.",
+      "reason": "Preserve the source's parallel rhetoric in natural Korean."
+    },
+    {
+      "ids": [16052],
+      "find": "스콜리아 아르카나(Scholia Arcana) 수련생들",
+      "replace": "스콜리아 아르카나(Scholia Arcana) 입문자들",
+      "reason": "Initiates are 입문자들 in the English, Japanese, and Chinese sources and established group terminology."
+    },
+    {
+      "ids": [16171],
+      "find": "선택받은 자들은",
+      "replace": "선택받은 자들(Chosen)은",
+      "reason": "Add the English pairing to the capitalized group title."
+    },
+    {
+      "ids": [16250],
+      "find": "맨돌프 대사(Mandolph Ambassador)",
+      "replace": "맨돌프 대사(Ambassador Mandolph)",
+      "reason": "Use the established Korean name-title and English title-name order."
+    },
+    {
+      "ids": [16283],
+      "find": "쓰러져 있어. 살해당했어. 너희 사람들에게.",
+      "replace": "쓰러져 있어. 너희가 죽였어.",
+      "reason": "Keep the accusation and emotional cadence without the unnatural passive-agent ending."
+    },
+    {
+      "ids": [16301],
+      "find": "경비대가 시장 앞을 밤낮으로 지키고 있어. 못 찾을 리 없어.",
+      "replace": "도시 경비대(City Watch) 앞에는 밤낮으로 경비병이 서 있어. 못 찾을 리 없어.",
+      "reason": "The English and Japanese place the posted guards at the Watch, not in front of the market; retain the existing casual voice."
+    },
+    {
+      "ids": [16368],
+      "find": "날 도울 시간과 자원이 있다면",
+      "replace": "날 도울 시간과 여건이 된다면",
+      "reason": "여건 naturally expresses having the time and means to help."
+    },
+    {
+      "ids": [16389],
+      "find": "이름 없는 적의 시체에서 처음 빼앗은 이 갑옷은 돌과 강철 판에 여섯 달 동안 매일 밤 피를 발라 만들었다.",
+      "replace": "이름 없는 적의 시체에서 처음 손에 넣은 이 갑옷은 돌과 강철 판으로 되어 있으며, 여섯 달 동안 매일 밤 그 표면에 피를 발랐다.",
+      "reason": "Make the stone-and-steel plates the object of the nightly blood painting rather than implying that painting created the armor."
+    },
+    {
+      "ids": [16391],
+      "find": "모든 것이 신이나 미치광이 손에 달린 건 아니야.",
+      "replace": "모든 것이 신이나 미치광이 손에 달린 건 아니지.",
+      "reason": "Align the two clauses' conversational register without assigning a speaker."
+    },
+    {
+      "ids": [16404],
+      "find": "이제는 불로 불을 다스릴 때야.",
+      "replace": "이제 불에는 불로 맞서야 해.",
+      "reason": "Render fight fire with fire idiomatically while retaining the casual register."
+    },
+    {
+      "ids": [16443],
+      "find": "황야 한가운데 놓인 거대한 돌",
+      "replace": "황야 한가운데 홀로 선 거대한 돌",
+      "reason": "Preserve the source's image of a massive stone standing alone in the wilderness."
+    },
+    {
+      "ids": [16461],
+      "find": "꿈꾸는 그녀가 투영한 환영",
+      "replace": "꿈꾸는 그녀의 투영체",
+      "reason": "The maiden is dreaming; the line describes her projection, not an act of projecting by her."
+    },
+    {
+      "ids": [16478],
+      "find": "패스팅(fastings)",
+      "replace": "패스팅(Fastings)",
+      "reason": "Use the established capitalization for the named Dverga tunnel-network term."
+    },
+    {
+      "ids": [16518],
+      "find": "부적을 제자리에서 꺼내는 자",
+      "replace": "부적을 안치된 곳에서 꺼내는 자",
+      "reason": "Clarify the amulet's resting place without changing the warning."
+    },
+    {
+      "ids": [16561],
+      "find": "이런 나쁜 소식을 전하게 해서 미안하네.",
+      "replace": "이런 나쁜 소식을 전해 줘서 고마워.",
+      "reason": "English and Chinese thank the player for bringing the news; Japanese supports an apology, but English controls meaning."
+    },
+    {
+      "ids": [16582],
+      "find": "딘웰 신부님(Father Dynwel)",
+      "replace": "딘웰 신부(Father Dynwel)",
+      "reason": "Remove an unsupported honorific before the following contemptuous insult."
+    },
+    {
+      "ids": [16584],
+      "find": "필요한 물건이 있으면 살 수 있어.",
+      "replace": "필요한 물건이 있으면 팔고 있어.",
+      "reason": "The speaker is offering items for sale, not describing the player's ability to buy."
+    },
+    {
+      "ids": [16617],
+      "find": "괴물 종류별로 신기록을 세우면 보상을 주마.",
+      "replace": "괴물 종류별로 신기록을 세우면 보상을 줄게.",
+      "reason": "Remove the isolated archaic ending and keep the line conversational."
+    },
+    {
+      "ids": [16665, 32938, 41076, 53501, 59068, 61813],
+      "find": "클리프브레이크 지하 통로(Cliffbreak Fasting)",
+      "replace": "클리프브레이크 패스팅(Cliffbreak Fasting)",
+      "reason": "Align all six explicit references to the named location with the established Fastings term."
+    },
+    {
+      "ids": [16719],
+      "find": "이사가 오운(Ohn)에",
+      "replace": "이사(Ysa)가 오운(Ohn)에",
+      "reason": "Pair the named land Ysa in the poem and preserve the verse layout."
+    },
+    {
+      "ids": [7257, 16758],
+      "find": "조각가는 쉬었네.",
+      "replace": "조각가(The Carver)는 쉬었네.",
+      "reason": "Pair the capitalized Carver title identically across both exact-English poem copies."
+    },
+    {
+      "ids": [16858],
+      "find": "귀를 괴롭히는 속삭임",
+      "replace": "귓가를 맴도는 속삭임",
+      "reason": "Use natural Korean for haunting whispers while retaining the visions/whispers contrast."
+    },
+    {
+      "ids": [16864],
+      "find": "교단의 정통성을 자기 것이라고 주장해",
+      "replace": "우리 전승을 자기 것이라고 주장해",
+      "reason": "Canon here concerns the shared story tradition, not institutional legitimacy."
+    },
+    {
+      "ids": [16870],
+      "find": "대현자의 반지인 천 조각 띠를 내 손에 쥐여 주며",
+      "replace": "대현자의 반지가 든 천 조각을 내 손에 쥐여 주며",
+      "reason": "Clarify the English apposition and the Japanese/Chinese-supported ring wrapped in cloth."
+    },
+    {
+      "ids": [16927],
+      "find": "붉은 '망자' 이드워드(Red 'the Dead' Idward)",
+      "replace": "레드 ‘데드’ 이드워드(Red \"the Dead\" Idward)",
+      "reason": "Align the established epithet spelling and quotation format with the exact name at ID 34250."
+    },
+    {
+      "ids": [16988],
+      "find": "선택받은 자의 복수를 하러",
+      "replace": "선택받은 자들(Chosen)의 복수를 하러",
+      "reason": "Pair and consistently pluralize the capitalized Chosen group title."
+    },
+    {
+      "ids": [63399],
+      "find": "선택받은 자의 원수를 갚으러",
+      "replace": "선택받은 자들(Chosen)의 원수를 갚으러",
+      "reason": "Align the same standalone Chosen group title in the companion SQ108 line."
+    },
+    {
+      "ids": [16989],
+      "find": "세공술 제단",
+      "replace": "마법물품 제작 제단",
+      "reason": "Use the established Korean manual and corpus term for a Sagecraft altar."
+    },
+    {
+      "ids": [16999],
+      "find": "(Lords)",
+      "replace": "(Lords of Valor)",
+      "reason": "Pair the team label with its full established source name."
+    },
+    {
+      "ids": [2885],
+      "find": "의무 소집 통지서 네 장",
+      "replace": "복무 소집 통지서(Notices of Duty) 네 장",
+      "reason": "Align the same explicit Notices of Duty item in the SQ122 journal."
+    },
+    {
+      "ids": [36854],
+      "find": "리아드(Rhiad)는 임무 통지서를 배달한 심부름꾼에게 품삯을 줬다. 아판(Afan)이 죽은 데 따른 벌금은 빼고 말이다.",
+      "replace": "복무 소집 통지서(Notices of Duty)를 배달한 대가로 리아드(Rhiad)에게서 보수를 받았다. 아판(Afan)이 죽은 데 따른 벌금을 뺀 금액이었다.",
+      "reason": "Preserve that the player is the courier, clarify the deducted payment, and standardize the named notice."
+    },
+    {
+      "ids": [16452, 52920],
+      "find": "임무 통지서 네 장",
+      "replace": "복무 소집 통지서(Notices of Duty) 네 장",
+      "reason": "Align both named-item mentions with the established military call-up term."
+    },
+    {
+      "ids": [52920],
+      "find": "장교 전당(Officer's Hall)",
+      "replace": "장교 회관(Officer's Hall)",
+      "reason": "Use the established Officer's Hall rendering in the SQ122 quest."
+    },
+    {
+      "ids": [59197],
+      "find": "장교 회관에서 날 찾아.",
+      "replace": "장교 회관(Officer's Hall)에서 날 찾아.",
+      "reason": "Complete the English pairing for the named venue in the same quest."
+    },
+    {
+      "ids": [25832],
+      "find": "엄한 눈썹에 당당한 태도.",
+      "replace": "날카로운 눈매에 당당한 태도.",
+      "reason": "Translate stern in the brow as a stern appearance, not severe eyebrows."
+    },
+    {
+      "ids": [31012],
+      "find": "무슨 통지서? 어디로 배달됐는데?",
+      "replace": "무슨 통지서? 어디로 배달하면 되지?",
+      "reason": "The player is asking where to deliver the notices, not where a completed delivery went."
+    },
+    {
+      "ids": [41134],
+      "find": "지금 당장. 어서 가.",
+      "replace": "자, 이제 가 봐.",
+      "reason": "Match the source's send-off without adding urgency."
+    },
+    {
+      "ids": [41671, 43268],
+      "find": "무슨 공지야?",
+      "replace": "무슨 통지서야?",
+      "reason": "Use the same generic notice wording in the exact-English pair."
+    },
+    {
+      "ids": [42024],
+      "find": "이 공고가 도움이 될까?",
+      "replace": "이 통지서가 도움이 될까?",
+      "reason": "The context is a delivered notice, not a posted announcement."
+    },
+    {
+      "ids": [54797],
+      "find": "공고문을 배달하기에",
+      "replace": "통지서를 배달하기에",
+      "reason": "Align the generic reference with the notice-delivery quest while preserving polite speech."
+    },
+    {
+      "ids": [59600],
+      "find": "이 퀘스트를 더는 완료할 수 없습니다.",
+      "replace": "이 퀘스트를 더는 완료할 수 없다.",
+      "reason": "This is a quest-failure journal state; use the established plain journal style, not NPC politeness."
+    }
+  ]
+}

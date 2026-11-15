@@ -1,0 +1,125 @@
+{
+  "range": [37000, 37249],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-37000-37249-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-01250-01499-candidate-reconciliation-20261114.md",
+      "dialogue-context-03750-03999-candidate-reconciliation-20261114.md",
+      "dialogue-context-11500-11749-candidate-reconciliation-20261114.md",
+      "dialogue-context-18750-18999-candidate-reconciliation-20261114.md",
+      "dialogue-context-31250-31499-candidate-reconciliation-20261114.md",
+      "dialogue-context-507502-sa08-revalidation-20261111.md",
+      "dialogue-context-four-quest-text-assets-revalidation-20261111.md",
+      "dialogue-context-five-assets-revalidation-20261111.md"
+    ]
+  },
+  "range_candidate_ids": 10,
+  "range_candidate_id_list": [
+    37008,
+    37047,
+    37057,
+    37083,
+    37115,
+    37117,
+    37122,
+    37149,
+    37189,
+    37217
+  ],
+  "previously_reconciled_candidate_ids": [1349, 18874, 31375],
+  "newly_counted_candidate_ids": [
+    37008,
+    37047,
+    37057,
+    37083,
+    37115,
+    37117,
+    37122,
+    37149,
+    37189,
+    37217,
+    40387,
+    59562
+  ],
+  "linked_candidate_ids_checked": [1349, 18874, 31375, 40387, 59562],
+  "additional_linked_candidate_ids_reconciled": [40387, 59562],
+  "decisions": {
+    "newly_applied": [37117, 37189, 37217, 59562],
+    "previously_applied_or_currently_supported": [
+      37008,
+      37057,
+      37083,
+      37115,
+      37122,
+      37149,
+      40387
+    ],
+    "previously_reconciled_and_confirmed": [1349, 18874, 31375],
+    "evidence_limited_holds": [37047]
+  },
+  "edits": [
+    {
+      "id": 37117,
+      "old": "신릭 가문(Cynric family)을 제거하라",
+      "new": "신릭 가문(Cynric family) 처단하기",
+      "reason": "Align this parallel family objective with the established concise -하기 form used at 18874 and 59562."
+    },
+    {
+      "id": 37189,
+      "old": "밀항자(Stowaway)를 찾아 처치하기",
+      "new": "밀항자 트롤(Stowaway Troll)을 찾아 처치하기",
+      "reason": "The same quest identifies the Stowaway as a silver-back troll; use the established complete creature type/name form."
+    },
+    {
+      "id": 37217,
+      "old": "그녀가 시작한 계획을 끝내자. 우리 사반트들을 사로잡아 부린 것도 그 계획을 위해서였어. 태양석(Sun), 서리석(Frost), 폭풍석(Storm stone)을 여기에 놓으면 그녀를 풀어 줄 수 있어.",
+      "new": "그녀가 시작한 계획을 끝내자. 우리 사반트들을 사로잡아 부린 것도 그 계획을 위해서였어. 태양석(Sun Stone), 서리석(Frost Stone), 폭풍석(Storm stone)을 여기에 놓으면 그녀를 풀어 줄 수 있어.",
+      "reason": "Use the complete source names for the Sun and Frost artifacts while preserving the documented source-local lowercase Storm stone form."
+    },
+    {
+      "id": 59562,
+      "old": "다크바리 가문(Darkvari family) 처단",
+      "new": "다크바리 가문(Darkvari family) 처단하기",
+      "reason": "Align the parallel objective with the same -하기 construction used at 18874 and 37117."
+    }
+  ],
+  "held": [
+    {
+      "id": 37047,
+      "reason": "The source phrase readied, light has conflicting or omitted weight evidence across English, Japanese, and Chinese; retain the existing shared poem pending stronger evidence."
+    }
+  ],
+  "related_consistency_groups": {
+    "Casmaran the Eternal": [1349, 37008],
+    "Gauntlets of the Faehunter poem": [31375, 37047],
+    "Children of Dust exact-English duplicate": [37115, 40387],
+    "Terminate family objectives": [18874, 37117, 59562],
+    "Stowaway Troll": [25333, 37189],
+    "Sun/Frost/Storm artifact names": [18134, 24729, 27929, 37217]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2328,
+    "total": 4015,
+    "percent": 57.98,
+    "remaining": 1687
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [37117, 37189, 37217, 59562],
+    "source_csv_or_extracted_asset_changed": false,
+    "ledger_fingerprint_ids_refreshed": [37117, 37189, 37217, 59562],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": 20,
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71838,
+    "csv_lf_only": 244,
+    "csv_bare_cr": 0,
+    "crlf_aware_diff_check": "passed",
+    "commit_made": false
+  }
+}

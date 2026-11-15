@@ -1,0 +1,125 @@
+{
+  "range": [38000, 38249],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-38000-38249-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-sq68-revalidation-20261110.md",
+      "dialogue-context-1946261-dlc1-mq04-revalidation-20261111.md",
+      "dialogue-context-1962959-dlc2-mq06-secandra-revalidation-20261111.md",
+      "dialogue-context-501490-tr07-missives-revalidation-20261111.md",
+      "dialogue-context-507502-sa08-revalidation-20261111.md",
+      "dialogue-context-next-five-assets-iddyla-turin-apotyre-ariad-eathe-revalidation-20261111.md",
+      "dialogue-context-next-five-unrecorded-assets-revalidation-20261111.md"
+    ]
+  },
+  "range_candidate_ids": 14,
+  "range_candidate_id_list": [
+    38012, 38015, 38023, 38028, 38084, 38095, 38100, 38128, 38144, 38174,
+    38187, 38192, 38205, 38234
+  ],
+  "previously_reconciled_candidate_ids": [],
+  "newly_counted_candidate_ids": [
+    38012, 38015, 38023, 38028, 38084, 38095, 38100, 38128, 38144, 38174,
+    38187, 38192, 38205, 38234
+  ],
+  "linked_candidate_ids_checked": [],
+  "partial_hold_ids_with_format_corrections": [38139, 38166],
+  "decisions": {
+    "newly_applied": [38023, 38084, 38095, 38144, 38174, 38187, 38234],
+    "previously_applied_or_currently_supported": [
+      38012, 38015, 38028, 38128, 38192, 38205
+    ],
+    "evidence_limited_holds": [38100],
+    "other_source_holds": [38066, 38102, 38246],
+    "canonical_spelling_holds": [38139, 38166]
+  },
+  "related_consistency_groups": {
+    "Pyrderi/Pryderi spelling hold": [38139],
+    "Selia/Seila spelling hold": [38166]
+  },
+  "edits": [
+    {
+      "id": 38023,
+      "old": "하이페리언 복합 시설(Hyperian Complex)에서 아노카토스(Anokatos)와 맞섰다. 그는 여신 에테네(Ethene)의 접촉을 받았으며, 신들이 콜로사이(Kollossae)를 버린 이유가 자신이었다는 사실을 깨달았다고 밝혔다. 자기 민족의 잔혹함을 대신 짊어진 그는 나에게 자신을 처형해 달라고 했다. 나는 거절했고, 그러자 그는 나를 공격하기 시작했다. 이제는 나를 지키기 위해 그를 죽일 수밖에 없다.",
+      "new": "하이페리언 복합 시설(Hyperian Complex)에서 아노카토스(Anokatos)와 맞섰다. 그는 여신 에테네(Ethene)와 접촉했고, 신들이 콜로사이(Kollossae)를 버린 이유가 자신에게 있다는 사실을 깨달았다고 밝혔다. 자기 민족의 잔혹함을 대신 짊어진 그는 나에게 자신을 처형해 달라고 했다. 나는 거절했고, 그러자 그는 나를 공격하기 시작했다. 이제는 나를 지키기 위해 그를 죽일 수밖에 없다.",
+      "reason": "Replace the passive calque with natural wording while not importing the pact detail found only in Japanese."
+    },
+    {
+      "id": 38084,
+      "old": "이 마을의 거짓말을 믿지 마. 전부 찌꺼기와 똥 같은 소리야.",
+      "new": "이 마을 사람들이 하는 말은 믿지 마. 죄다 찌꺼기나 똥 같은 헛소리야.",
+      "reason": "Preserve the source's coarse contempt in natural Korean."
+    },
+    {
+      "id": 38095,
+      "old": "그림(Grim)에게서 자유를 갈망하는 무언가가 보여. 어떤 이는 무정부 상태라 부르겠지. 난 존재라고 불러.",
+      "new": "그림(Grim)에게서 자유를 갈망하는 모습이 보여. 어떤 이는 그걸 무정부 상태라고 부르겠지만, 난 살아가는 방식이라고 생각해.",
+      "reason": "Preserve the contrast while rendering existence/living naturally, supported by Japanese and Chinese."
+    },
+    {
+      "id": 38144,
+      "old": "고마워. 젊은이 투린(Turin)을 만나거든 이리 보내 줘. 그 빌어먹을 두루마리가 필요해.",
+      "new": "고마워. 투린(Turin), 그 젊은이를 만나거든 이리 보내 줘. 그 빌어먹을 두루마리가 필요해.",
+      "reason": "Correct the awkward name-and-appositive order without changing the casual request."
+    },
+    {
+      "id": 38174,
+      "old": "꼬마 페이트위버여, 나를 감옥에서 풀어다오!",
+      "new": "꼬마 페이트위버(Fate-Weaver), 나를 감옥에서 풀어라!",
+      "reason": "Pair the exact source term and keep the command direct, as in Japanese."
+    },
+    {
+      "id": 38187,
+      "old": "나는 월즈(Wolds)의 농부 알레트야. 크래널트의 유물 문제를 해결했다고? 아직 뭔가 잘못됐어.",
+      "new": "나는 월즈(Wolds)의 농부 알레트(Alrette)야. 크래널트(Cranalt)의 유물 문제를 해결했다고? 아직 뭔가 잘못됐어.",
+      "reason": "Pair the speaker's explicit self-identification and the place, retaining the existing Korean spelling."
+    },
+    {
+      "id": 38234,
+      "old": "저기 아풀로스는 어떤 갑옷이든 샀을 때보다 더 좋은 상태로 고칠 수 있다고 믿게 하려 들걸.",
+      "new": "저기 아풀로스(Apullos)는 어떤 갑옷이든 샀을 때보다 더 좋은 상태로 고칠 수 있다고 믿게 하려 들걸.",
+      "reason": "Pair the named person while retaining the skeptical claim and conversational register."
+    },
+    {
+      "id": 38139,
+      "old": "라시르(Rathir)의 피르데리에서 장사를 시작했어. 주로 수출입을 했지. 포리안 해협 건너편에서 물건을 들여왔어.",
+      "new": "라시르(Rathir)의 피르데리(Pyrderi)에서 장사를 시작했어. 주로 수출입을 했지. 포리안 해협(Phorian Strait) 건너편에서 물건을 들여왔어.",
+      "reason": "Apply the independently supported format pairing only; do not resolve Pyrderi/Pryderi spelling."
+    },
+    {
+      "id": 38166,
+      "old": "셀리아 트웨인이 죽었다. 이 퀘스트를 더는 완료할 수 없다.",
+      "new": "셀리아 트웨인(Selia Twayn)은 죽었다. 이 퀘스트를 더는 완료할 수 없다.",
+      "reason": "Pair this row's exact source spelling only; do not resolve Selia/Seila."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2408,
+    "total": 4015,
+    "percent": 59.98,
+    "remaining": 1607
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      38023, 38084, 38095, 38139, 38144, 38166, 38174, 38187, 38234
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "ledger_fingerprint_ids_refreshed": [
+      38023, 38084, 38095, 38139, 38144, 38166, 38174, 38187, 38234
+    ],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71838,
+    "csv_lf_only": 244,
+    "csv_bare_cr": 0,
+    "crlf_aware_diff_check": "passed",
+    "commit_made": false
+  }
+}

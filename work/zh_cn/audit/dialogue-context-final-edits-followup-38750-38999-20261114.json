@@ -1,0 +1,77 @@
+{
+  "range": [38750, 38999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-38750-38999-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-36000-39999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-38770-38891-application-followup-20261114.md",
+      "dialogue-context-36750-36999-candidate-reconciliation-20261114.md",
+      "dialogue-context-ffq17-revalidation-20261110.md",
+      "dialogue-context-19500-19749-candidate-reconciliation-20261114.md",
+      "dialogue-context-33250-33499-candidate-reconciliation-20261114.md"
+    ]
+  },
+  "range_candidate_ids": [
+    38761, 38764, 38767, 38770, 38771, 38779, 38799, 38802, 38803,
+    38818, 38821, 38835, 38843, 38850, 38867, 38873, 38878, 38891,
+    38893, 38921, 38932, 38945, 38949, 38965, 38966, 38975, 38986
+  ],
+  "previously_reconciled_candidate_ids": [38893],
+  "newly_counted_candidate_ids": [
+    38761, 38764, 38767, 38770, 38771, 38779, 38799, 38802, 38803,
+    38818, 38821, 38835, 38843, 38850, 38867, 38873, 38878, 38891,
+    38921, 38932, 38945, 38949, 38965, 38966, 38975, 38986
+  ],
+  "newly_reconciled_total": 26,
+  "decisions": {
+    "corrected_or_confirmed_with_linked_edits": [
+      38761, 38764, 38767, 38779, 38799, 38802, 38803, 38821, 38835,
+      38843, 38850, 38867, 38878, 38932, 38945, 38949, 38965, 38966,
+      38975, 38986
+    ],
+    "confirmed_previously_applied": [38770, 38771, 38818, 38873, 38891, 38921],
+    "previously_reconciled": [38893],
+    "evidence_limited_hold_retained": [38799]
+  },
+  "linked_exact_source_groups": {
+    "Yes, mortal?": [6857, 9609, 38867, 41174],
+    "Officer's Hall": [36564, 38949],
+    "Farrara poem": [30467, 38975]
+  },
+  "linked_entity_group": {
+    "Weod": [7770, 19715, 33472, 38966, 46018],
+    "previously_reconciled_candidate_ids": [19715, 33472]
+  },
+  "changed_default_ids": [
+    6857, 9609, 19715, 30467, 33472, 36564, 38761, 38764, 38767,
+    38779, 38799, 38802, 38803, 38821, 38835, 38843, 38850, 38878,
+    38932, 38945, 38949, 38965, 38966, 38975, 38986, 41174, 46018
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2463,
+    "total": 4015,
+    "percent": 61.34,
+    "remaining": 1552
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "ledger_fingerprint_ids_refreshed": [
+      6857, 9609, 19715, 30467, 33472, 36564, 38761, 38764, 38767,
+      38779, 38799, 38802, 38803, 38821, 38835, 38843, 38850, 38878,
+      38932, 38945, 38949, 38965, 38966, 38975, 38986, 41174, 46018
+    ],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for linked groups",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

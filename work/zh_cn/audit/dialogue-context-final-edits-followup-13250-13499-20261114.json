@@ -1,0 +1,69 @@
+{
+  "range": [13250, 13499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 8,
+  "range_candidate_id_list": [
+    13362,
+    13385,
+    13422,
+    13436,
+    13438,
+    13446,
+    13476,
+    13494
+  ],
+  "reconciled_candidate_ids": 8,
+  "decisions": {
+    "previously_applied_confirmed": [
+      13362,
+      13385,
+      13422,
+      13436,
+      13438,
+      13446,
+      13476,
+      13494
+    ],
+    "newly_applied": [],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Master's Tallow": [
+      1129,
+      5998,
+      13362,
+      31759,
+      40105,
+      47823,
+      53577,
+      53664,
+      55729,
+      57991,
+      59191
+    ],
+    "Hurvar's Doorsill": [
+      5998,
+      13362,
+      21396,
+      55729,
+      57991
+    ],
+    "exact_english_contract_failure": [
+      13476,
+      32309
+    ]
+  },
+  "fingerprints_refreshed": {},
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 772,
+    "total": 4015,
+    "percent": 19.23,
+    "remaining": 3243
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

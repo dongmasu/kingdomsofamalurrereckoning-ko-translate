@@ -1,0 +1,412 @@
+{
+  "input_sha256": "69197ed5037e754ba01bf465a0365676b5b14d4ad0d9c949c63cbefe0e6ce0b0",
+  "ledger_input_sha256": "f2e5b8967b3f0f1c2d28eb8a3cd0fef467f9865cde0ca6542ca2335a3e7e9810",
+  "output_sha256": "91b6be27fd62a0e329141ae365f02d8f5fbbc3d9088d22bfad5ee94134cf4f3c",
+  "ledger_output_sha256": "ce029dad0a64224f187691da9406e47b4bbecb3ebcd85691e181f951476dde74",
+  "application": {
+    "status": "applied",
+    "operations": 115,
+    "target_applications": 115,
+    "unique_ids": 112
+  },
+  "scope": "Adjudicate all 37 candidate IDs in default 13000-13999 against current English, Japanese, Chinese, and Korean rows; include source-supported related exact-title and terminology groups.",
+  "matching": "Each operation is limited to explicit ID_Linha values and an exact current text fragment. Ordered fragment rules are combined per ID; the application derives the complete old/new Texto value and invokes tools/replace_text_preserve_eol.py once per target ID.",
+  "candidate_ids": [
+    13000, 13015, 13031, 13041, 13072, 13120, 13140, 13148, 13208,
+    13362, 13385, 13422, 13436, 13438, 13446, 13476, 13494, 13502,
+    13539, 13544, 13579, 13591, 13592, 13670, 13724, 13739, 13748,
+    13836, 13837, 13857, 13858, 13882, 13884, 13920, 13943, 13951,
+    13952
+  ],
+  "already_resolved": [
+    {
+      "id": 13015,
+      "reason": "The active text and exact-English copy at 28305 already use the source-supported art-gallery reading 미술관 and match."
+    },
+    {
+      "id": 13502,
+      "reason": "The master-at-arms title was already aligned to 무기 교관 in the preceding 12000-12999 linked-terminology batch."
+    },
+    {
+      "id": 13670,
+      "reason": "The exact-English Irion, King of Cups group was already aligned in the preceding batch."
+    }
+  ],
+  "retained": [
+    {
+      "id": 13041,
+      "reason": "All 19 exact-English Maire, Queen of Cups rows already pair the title and name separately and consistently, matching the accepted title/name format used for Irion."
+    }
+  ],
+  "edits": [
+    {
+      "ids": [13000],
+      "find": "+장검 물리 피해 13",
+      "replace": "장검 물리 피해 +13",
+      "reason": "Place the signed value after the stat label while preserving the two-line description."
+    },
+    {
+      "ids": [13031],
+      "find": "그리안 셰인(Grian Shane) 성주",
+      "replace": "그리안 셰인 성주(Castellan Grian Shane)",
+      "reason": "Pair the full English rank and name in the first journal."
+    },
+    {
+      "ids": [9244, 26441, 59022, 29396],
+      "find": "성주 그리안 셰인(Grian Shane)",
+      "replace": "그리안 셰인 성주(Castellan Grian Shane)",
+      "reason": "Align the same named Castellan in related journals and dialogue."
+    },
+    {
+      "ids": [60301],
+      "find": "성채 관리관 그리안 셰인(Grian Shane)",
+      "replace": "그리안 셰인 성주(Castellan Grian Shane)",
+      "reason": "Use the source-supported office and complete English name/title."
+    },
+    {
+      "ids": [6002, 6673, 8864, 9035, 13072, 19002, 24073, 27061, 32099, 32282, 35977, 37662, 55991, 61691, 61830, 62397, 64327, 65015],
+      "find": "{*1[지속 효과]}",
+      "replace": "{*1[패시브]}",
+      "reason": "Align the exact [Passive] display label with the established Japanese-backed UI label."
+    },
+    {
+      "ids": [11895],
+      "find": "{*1[지속형]}",
+      "replace": "{*1[패시브]}",
+      "reason": "Align the exact [Passive] display label with the established Japanese-backed UI label."
+    },
+    {
+      "ids": [52185],
+      "find": "{*1[지속]}",
+      "replace": "{*1[패시브]}",
+      "reason": "Align the exact [Passive] display label with the established Japanese-backed UI label."
+    },
+    {
+      "ids": [13120],
+      "find": "이곳에서 봉사를 시작한 뒤로는",
+      "replace": "섬기기 시작한 뒤로는",
+      "reason": "Remove the unsupported location while retaining the source's service context."
+    },
+    {
+      "ids": [13140],
+      "find": "아버지는 연금술사였고, 유산을 이어가도록 나와 언니 리라(Lila)를 가르치셨어.",
+      "replace": "아버지는 연금술사였고, 나와 리라(Lila)가 아버지의 뒤를 잇도록 가르치셨어.",
+      "reason": "Avoid choosing an older/younger-sister relation where Japanese and Chinese conflict; keep the sentence natural."
+    },
+    {
+      "ids": [13148],
+      "find": "운이 나쁜 불쌍한 젊은이를 도와주지 않을 거야? 아... 이제 어쩌지?",
+      "replace": "운에 버림받은 불쌍한 사람 하나 안 도와줄 거야? 아... 이제 어쩌지?",
+      "reason": "Render down on his luck idiomatically without changing the conversational plea."
+    },
+    {
+      "ids": [13208],
+      "find": "그렇다면 얘기가 달라지지. 네게 돈이 있다면, 난 그 돈을 받을 시간이 있어.",
+      "replace": "그래, 그럼 얘기가 달라지지. 네게 돈만 있으면 팔아 줄게.",
+      "reason": "Replace the stiff literal joke with a natural, teasing offer while retaining the money condition."
+    },
+    {
+      "ids": [1129],
+      "find": "장인의 동물성 지방 일부 회수",
+      "replace": "장인의 동물성 지방(Master's Tallow) 일부 회수하기",
+      "reason": "Use the accepted material term, pair its explicit English name, and retain the established objective form."
+    },
+    {
+      "ids": [13362],
+      "find": "명인의 기름(Master's Tallow)",
+      "replace": "장인의 동물성 지방(Master's Tallow)",
+      "reason": "Use the accepted material term in the SQ46 journal."
+    },
+    {
+      "ids": [31759],
+      "find": "명인의 탤로",
+      "replace": "장인의 동물성 지방(Master's Tallow)",
+      "reason": "Use the accepted material term and pair the named material."
+    },
+    {
+      "ids": [40105],
+      "find": "장인의 탤로우를",
+      "replace": "장인의 동물성 지방(Master's Tallow)을",
+      "reason": "Use the accepted material term and pair the named material."
+    },
+    {
+      "ids": [47823],
+      "find": "그녀는 마스터스 탈로우를 만드는 기술을 완성했어. 이제 없지만, 탈로우가 조금 남아 있을 거야.",
+      "replace": "그녀는 장인의 동물성 지방(Master's Tallow)을 만드는 법을 완성했어. 그녀는 이제 없지만, 조금 남아 있을 거야.",
+      "reason": "Use the accepted material name and a natural short reference for the second mention without asserting why she is gone."
+    },
+    {
+      "ids": [5998, 55729, 53577],
+      "find": "명장의 동물성 지방(Master's Tallow)",
+      "replace": "장인의 동물성 지방(Master's Tallow)",
+      "reason": "Align the bounded SQ46 material references with the accepted term."
+    },
+    {
+      "ids": [57991],
+      "find": "‘장인의 탤로우(Master's Tallow)’",
+      "replace": "장인의 동물성 지방(Master's Tallow)",
+      "reason": "Use the accepted material term without redundant quotation marks."
+    },
+    {
+      "ids": [59191],
+      "find": "장인의 동물성 지방",
+      "replace": "장인의 동물성 지방(Master's Tallow)",
+      "reason": "Pair the standalone named-material label."
+    },
+    {
+      "ids": [5998, 55729],
+      "find": "허바르(Hurvar)의 문지방(Hurvar's Doorsill)",
+      "replace": "허바르의 문턱(Hurvar's Doorsill)",
+      "reason": "Use the already established complete place-name form in the two exact-English copies."
+    },
+    {
+      "ids": [57991],
+      "find": "허바르의 문턱에서",
+      "replace": "허바르의 문턱(Hurvar's Doorsill)에서",
+      "reason": "Pair the explicit place name in the punctuation variant."
+    },
+    {
+      "ids": [21396],
+      "find": "허바르스 도어실",
+      "replace": "허바르의 문턱(Hurvar's Doorsill)",
+      "reason": "Align the explicitly named location with the established form."
+    },
+    {
+      "ids": [13385],
+      "find": "내 힘도 크게 확장됐어",
+      "replace": "내 힘도 크게 강해졌어",
+      "reason": "Replace the stiff calque with natural wording for increased power."
+    },
+    {
+      "ids": [13422],
+      "find": "어머니는 절망했을 거야. 전쟁에서 내 자매들이 죽은 뒤로... 어머니는 며칠 동안 말도 못 했어.",
+      "replace": "어머니는 큰 충격을 받았을 거야. 자매들이 전쟁에서 죽은 뒤로 며칠 동안 말도 못 했어.",
+      "reason": "Use the source-supported grief and remove the unsupported sibling-age choice."
+    },
+    {
+      "ids": [13436],
+      "find": "칸드리안(Kandrian) 성채",
+      "replace": "칸드리안 요새(Kandrian Keep)",
+      "reason": "Pair the complete place name while leaving the separately unresolved job-title choice unchanged."
+    },
+    {
+      "ids": [13438],
+      "find": "체르노보그(Chernobog)를 쫓느라 많은 이를 죽였어.",
+      "replace": "체르노보그(Chernobog)를 찾으러 다니며 많은 이를 죽였어.",
+      "reason": "Express that the killings occurred during the hunt without adding an unspecified target type."
+    },
+    {
+      "ids": [13446],
+      "find": "무기로 막아내기 100회",
+      "replace": "패링 100회",
+      "reason": "Use the established Korean label for the named combat mechanic in this objective."
+    },
+    {
+      "ids": [13476, 32309],
+      "find": "계약 당사자 중 한 명이 사망했습니다. 더는 이 계약을 이행할 수 없습니다.",
+      "replace": "계약 당사자 중 한 명이 죽었다. 이 계약은 더는 이행할 수 없다.",
+      "reason": "Use the terse plain-style status wording supported by all four languages and keep exact-English copies identical."
+    },
+    {
+      "ids": [13494],
+      "find": "그동안 파스머(Phasmer)가 노움들을 태양 야영지(Sun Camp)로 유인할 거야. 네가 아르진(Argine)에게 서신을 심어 두면, 그들이 그녀를 끌고 가겠지. 그럼 끝이야.",
+      "replace": "그동안 파스머(Phasmer)가 노움들을 태양 야영지(Sun Camp)로 유인할 거야. 네가 세이블의 서신(Missives of Sable)을 아르진(Argine)에게 심어 두면, 그들이 그녀를 끌고 가겠지. 그럼 끝이야.",
+      "reason": "Name the specific book rather than generic correspondence and preserve the informal register."
+    },
+    {
+      "ids": [13539],
+      "find": "마침내 부름받은 자(Beckoned)가 왔군. 신들이 우리를 다시 은총 안으로 받아들이려 한다는 뜻일 거야.",
+      "replace": "마침내 부름받은 자(Beckoned)가 왔군. 신들이 우리에게 다시 은총을 베풀려 하신다는 뜻일 거야.",
+      "reason": "Render the favor idiom naturally while preserving the speaker's plain register."
+    },
+    {
+      "ids": [13544],
+      "find": "밀렵 문제는 내가 해결할게.",
+      "replace": "밀렵꾼 문제는 내가 해결할게.",
+      "reason": "The linked quest objective identifies poachers, not illegal hunting itself, as the problem."
+    },
+    {
+      "ids": [13579],
+      "find": "페이(Fae)의 전설적인 보물인 전설의 부적, 아만의 눈(Eye of Amman)을 되찾는 데 도움을 줄 사람을 죽여 버렸어.",
+      "replace": "페이(Fae)의 전설적인 보물인 아만의 눈(Eye of Amman)이라는 부적을 되찾도록 도와줄 사람을 죽여 버렸어.",
+      "reason": "Remove the repeated legendary wording while retaining the amulet and named-treasure information."
+    },
+    {
+      "ids": [13591],
+      "find": "그는 니스카루(Niskaru) 군주를 풀어주려 하고, 우리는 그를 막아야 해. 미사루(Mitharu)여, 도와주소서!",
+      "replace": "그는 니스카루(Niskaru) 군주를 풀어 주려 해. 우리가 그를 막을 수 있기를 바라. 미사루(Mitharu)여, 도와주소서!",
+      "reason": "Preserve the source's hope that they can stop him rather than turning it into an obligation."
+    },
+    {
+      "ids": [13592, 13951, 1993, 3560, 4060, 8146, 10619, 16767, 22700, 25713, 26252, 29213, 29534, 29852, 33899, 36620, 44730, 51280, 54589, 57248, 62917],
+      "find": "(Lopoku)",
+      "replace": "(Lupoku)",
+      "reason": "Match every English-source Lupoku spelling in parentheses; Korean 로포쿠 and source-language forms remain unchanged."
+    },
+    {
+      "ids": [10523],
+      "find": "(Lopoku)",
+      "replace": "(Lupoku)",
+      "occurrences": 2,
+      "reason": "Match both English-source Lupoku spellings in this poem; Korean 로포쿠 and source-language forms remain unchanged."
+    },
+    {
+      "ids": [13724],
+      "find": "오스트 오르두라(Ost Ordura)는 니스카루(Niskaru) 사태를 일으킨 바로 그 마법사들에게 살해당했다. 그와 다른 이들의 죽음에 대한 복수를 하고, 이 모든 일의 근원이 무엇이든 그곳에서 막기 위해 홀로 브리건드 홀 동굴(Brigand Hall Caverns)로 더 들어가야 한다.",
+      "replace": "오스트 오르두라(Ost Ordura)는 니스카루(Niskaru) 사태에 책임이 있는 바로 그 마법사들에게 살해당했다. 이제 나 혼자 브리건드 홀 동굴(Brigand Hall Caverns)로 더 들어가 그와 다른 이들의 복수를 하고, 이 모든 일을 근원부터 막아야 한다.",
+      "reason": "Clarify the revenge clause and render stop this at the source without the misleading location pronoun."
+    },
+    {
+      "ids": [13739],
+      "find": "구내 방문",
+      "replace": "지부 안뜰로 가기",
+      "reason": "Use the quest-context-supported courtyard referent and the established objective form."
+    },
+    {
+      "ids": [13748],
+      "find": "나는 가족에게서 나 자신을 추방해야 한다.",
+      "replace": "나는 가족에게서 추방을 자처해야 한다.",
+      "reason": "Make the self-exile statement concise while retaining its solemn meaning."
+    },
+    {
+      "ids": [13836, 13884, 20858, 58373],
+      "find": "번(Burn)",
+      "replace": "번(The Burn)",
+      "reason": "Use the established complete English pairing for the Rathir location."
+    },
+    {
+      "ids": [13837],
+      "find": "믿을 수 없는 일이 벌어졌습니다! 신사 숙녀 여러분, 그 끔찍한 경연에서 살아남은 크로우즈(The Crows)를 소개합니다!",
+      "replace": "믿기 어려운 일이 벌어졌습니다! 신사 숙녀 여러분, 그 끔찍한 시합에서 살아남은 크로우즈(The Crows)를 소개합니다!",
+      "reason": "Use the tournament-context meaning of exhibition as a match."
+    },
+    {
+      "ids": [13857],
+      "find": "스칼드(Skald)에게 혼돈 물질(Chaos Matter)에 관해 들었다. 혼돈의 영역(Chaos Realm)에서 혼돈 노드(Chaos Nodes)를 파괴하면 얻을 수 있다고 한다. 그녀는 그걸로 내 혼돈 무기의 새 핵심 부품(Chaos Weapon Core Components)을 만들어 줄 수 있다. 한번 시도해 보게 그녀에게 조금 가져가야겠다.",
+      "replace": "스칼드(Skald)에게 혼돈 물질(Chaos Matter)에 관해 들었다. 혼돈의 영역(Chaos Realm)에서 혼돈 노드(Chaos Nodes)를 파괴하면 얻을 수 있다고 한다. 그녀는 그걸로 내 혼돈 무기의 새 핵심 부품(Chaos Weapon Core Components)을 만들어 줄 수 있다. 시험 삼아 그녀에게 혼돈 물질을 조금 가져가 봐야겠다.",
+      "reason": "Make clear that the player should try the plan and bring Skald the material."
+    },
+    {
+      "ids": [13858],
+      "find": "페이(Fae)는 불멸이라며. 우리가 어떻게 버텨 내겠어?",
+      "replace": "페이(Fae)는 불멸이잖아. 우리가 어떻게 버텨 내겠어?",
+      "reason": "Remove the hearsay implication from the direct statement."
+    },
+    {
+      "ids": [13882],
+      "find": "스케이스 군대",
+      "replace": "스케이스(Scaith) 군대",
+      "reason": "Pair the named faction in the standalone label."
+    },
+    {
+      "ids": [13920],
+      "find": "그 예언자의 사적인 야영지",
+      "replace": "예언자(Augur)의 개인 야영지",
+      "reason": "Use natural Korean for the prophet's private camp and pair the title."
+    },
+    {
+      "ids": [13943],
+      "find": "파괴한 단지 수",
+      "replace": "파괴한 유골함 수",
+      "reason": "Use the source-supported ash-urn term for the Teeth of Naros quest objects."
+    },
+    {
+      "ids": [6103, 8606, 14961, 21321, 31024, 33357, 46083, 51124, 53859],
+      "find": "항아리",
+      "replace": "유골함",
+      "reason": "Align the bounded Teeth of Naros ash-urn references with Japanese and Chinese."
+    },
+    {
+      "ids": [18560, 52135],
+      "find": "항아리",
+      "replace": "유골함",
+      "occurrences": 2,
+      "reason": "Align every reference in these bounded Teeth of Naros ash-urn sentences."
+    },
+    {
+      "ids": [14353],
+      "find": "항아리 파괴하기",
+      "replace": "유골함 파괴하기",
+      "reason": "Use the established urn term and retain the objective form."
+    },
+    {
+      "ids": [54630],
+      "find": "나로스의 이빨(Teeth of Naros)의 트롤(Troll)들이 발굴한 항아리를 모두 파괴해, 그 어둠의 마법이 짐승들을 사악한 목적으로 지배하지 못하게 했다. 베레니케(Berenike)에게 돌아가 알려야겠다.",
+      "replace": "나로스의 이빨(Teeth of Naros)에 사는 트롤(Troll)들이 파낸 유골함을 모두 파괴해, 그 안의 어둠의 마법이 짐승들을 사악하게 만들지 못하도록 했다. 베레니케(Berenike)에게 돌아가 알려야겠다.",
+      "reason": "Align the urn term and express the source-supported corrupting effect naturally."
+    },
+    {
+      "ids": [13952],
+      "find": "그래, 찌꺼기야? 그럼 계속 가. 난 수다 떠는 걸 좋아하지 않아.",
+      "replace": "그래, 천것아? 그럼 계속 가. 난 수다 떠는 걸 좋아하지 않아.",
+      "reason": "Use the context-appropriate core rendering selected for the repeated insult dreg."
+    },
+    {
+      "ids": [40782],
+      "find": "그래. 콜름이 성약단(The Testament)을 무너뜨리던 널 발견했다더니, 바로 네가 그 잔챙이였군. 잘했어, 콜름. 꽤 피해를 줄 수 있는 녀석 같네.",
+      "replace": "그래. 콜름이 성약단(The Testament)을 무너뜨리던 천것을 찾았다더니, 그게 바로 너였군. 잘했어, 콜름. 꽤 큰 피해를 줄 수 있는 녀석 같네.",
+      "reason": "Use the selected core rendering while keeping the line's contemptuous, conversational tone."
+    },
+    {
+      "ids": [42176],
+      "find": "나도 잘 몰라, 이 밑바닥 인생아. 직접 가서 물어보지 그래?",
+      "replace": "나도 잘 모르겠어, 천것아. 직접 가서 물어보지 그래?",
+      "reason": "Use the selected core rendering and keep the casual retort natural."
+    },
+    {
+      "ids": [60477],
+      "find": "뭘 찾는 거야, 하찮은 놈아? 듣기 좋은 말이라도? 하던 일이나 계속하자.",
+      "replace": "뭘 찾는 거야, 천것아? 듣기 좋은 말이라도? 하던 일이나 계속하자.",
+      "reason": "Use the selected core rendering without changing the speaker's curt tone."
+    },
+    {
+      "ids": [26933],
+      "find": "번트는 군 전용 구역이야.",
+      "replace": "번(The Burn)은 군 전용 구역이야.",
+      "reason": "Correct the incomplete/incorrect place-name form."
+    },
+    {
+      "ids": [47651],
+      "find": "퀘이와 번,",
+      "replace": "퀘이와 번(The Burn),",
+      "reason": "Pair the named Rathir location in this sentence."
+    },
+    {
+      "ids": [58858],
+      "find": "번에도 장교 회관",
+      "replace": "번(The Burn)에도 장교 회관",
+      "reason": "Pair the named Rathir location."
+    },
+    {
+      "ids": [59197],
+      "find": "번의 장교 회관",
+      "replace": "번(The Burn)의 장교 회관",
+      "reason": "Pair the named Rathir location."
+    },
+    {
+      "ids": [64687],
+      "find": "번의 장교 회관",
+      "replace": "번(The Burn)의 장교 회관",
+      "reason": "Pair the named Rathir location."
+    },
+    {
+      "ids": [60471],
+      "find": "그 화재가 남쪽 부두를 휩쓸었어. 지금은 로스기아드(Llosgiad), 즉 불탄 곳이라고 불러.",
+      "replace": "그 화재가 남쪽 부두를 휩쓸었어. 지금은 로스기아드(Llosgiad), 즉 번(The Burn)이라고 불러.",
+      "reason": "Retain the source's named place and make the quoted English location label explicit."
+    }
+  ],
+  "verification": {
+    "candidate_count": 37,
+    "unique_ids_changed": 112,
+    "target_operations": 115,
+    "csv_rows": 65135,
+    "utf8_bom": true,
+    "crlf_endings": 71845,
+    "lf_only_endings": 244,
+    "replace_text_preserve_eol_tests": 11,
+    "review_ledger_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "crlf_aware_diff_check": "passed"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "range": [35000, 35249],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-35000-35249-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-33500-35999-20261114.json",
+    "linked_review": "dialogue-context-09500-09749-candidate-reconciliation-20261114.md"
+  },
+  "range_candidate_ids": 20,
+  "range_candidate_id_list": [
+    35006, 35030, 35038, 35043, 35070, 35077, 35103, 35107, 35128, 35147,
+    35162, 35164, 35190, 35197, 35210, 35212, 35216, 35218, 35219, 35245
+  ],
+  "previously_reconciled_candidate_ids": [35070],
+  "newly_counted_candidate_ids": [
+    35006, 35030, 35038, 35043, 35077, 35103, 35107, 35128, 35147, 35162,
+    35164, 35190, 35197, 35210, 35212, 35216, 35218, 35219, 35245
+  ],
+  "decisions": {
+    "confirmed_current_or_previously_applied": [
+      35006, 35043, 35077, 35128, 35147, 35162, 35164, 35190, 35197, 35210,
+      35212, 35216, 35218, 35219, 35245
+    ],
+    "refined": [35030, 35038, 35107],
+    "previously_reconciled": [35070],
+    "held_senses": [35103, 35107]
+  },
+  "edits": [
+    {
+      "id": 35030,
+      "old": "괴물의 은신처에서 발견한 찢어진 책장. 괴물이 모아 둔 물건 사이에 끼워져 있었다.",
+      "new": "괴물의 은신처에서 발견한 찢어진 페이지. 괴물이 모아 둔 물건 사이에 끼워져 있었다.",
+      "reason": "English, Japanese, and Chinese all identify a torn page, not a note or bookshelf."
+    },
+    {
+      "id": 35038,
+      "old": "각 페이트위버(Fateweaver)가 운명의 짜임을 저마다 다르게 보기 때문에, 사용하는 카드는 페이트위버(Fateweaver)마다 달라.",
+      "new": "페이트위버(Fateweaver)마다 운명의 짜임을 보는 방식이 달라서, 사용하는 카드도 제각각이야.",
+      "reason": "Remove repeated subject phrasing while preserving the informal voice and the distinct weave metaphor."
+    },
+    {
+      "id": 35107,
+      "old": "샤드의 힘은 선명도에 따라 달라집니다. 흐린 샤드가 가장 약하고, 은은히 빛나는 샤드는 그보다 강하며, 순수 샤드가 가장 강합니다.",
+      "new": "샤드(Shard)의 힘은 선명도에 따라 달라집니다. 흐린 샤드(Cloudy Shards)가 가장 약하고, 은은히 빛나는 샤드(Lambent Shards)는 그보다 강하며, 순수 샤드(Pristine Shards)가 가장 강합니다.",
+      "reason": "Pair the source tier labels without deciding the disputed canonical Korean grade terms."
+    }
+  ],
+  "fingerprints_refreshed": [35030, 35038, 35107],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2174,
+    "total": 4015,
+    "percent": 54.17,
+    "remaining": 1841
+  },
+  "verification": {
+    "four_language_candidate_ids_checked": 20,
+    "translation_csv_changed": true,
+    "changed_default_ids": [35030, 35038, 35107],
+    "source_csv_or_extracted_asset_changed": false,
+    "full_review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "dialogue_context_index_tests": "passed (9)",
+    "csv_structure": "passed (65135 ordered records; UTF-8 BOM preserved)",
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "speaker_or_playback_order_inferred": false
+  }
+}

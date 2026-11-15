@@ -1,0 +1,139 @@
+{
+  "range": [
+    2500,
+    2749
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 19,
+  "related_reconciled_candidate_ids": [
+    30588,
+    4422,
+    4925,
+    21983,
+    52000,
+    56416
+  ],
+  "reconciled_candidate_ids": 25,
+  "edits": [
+    {
+      "id": 2606,
+      "old": "은밀한 비밀",
+      "new": "미묘한 비밀(A Delicate Secret)",
+      "reason": "Japanese 微妙な秘密 and Chinese 微妙的秘密 support the nuance of delicate/subtle rather than secretive; preserve the complete standalone title."
+    },
+    {
+      "id": 2611,
+      "old": "적에게 공격을 적중시켰을 때 피해 숫자가 초록색이면, 그 적은 공격의 피해 유형에 {*1취약}합니다. 숫자가 빨간색이면 해당 적은 그 피해 유형에 대한 {*1저항}이 있습니다.",
+      "new": "적을 공격했을 때 피해 수치가 초록색이면, 그 적은 해당 공격의 피해 유형에 {*1취약}합니다. 숫자가 빨간색이면 해당 피해 유형에 {*1저항력}을 보입니다.",
+      "reason": "Clarify the tutorial's vulnerable/resistant distinction in natural Korean while preserving the existing display wrappers."
+    },
+    {
+      "id": 2637,
+      "old": "에샤(Esha)와 대화",
+      "new": "에샤(Esha)와 대화하기",
+      "reason": "Use the established action form for this quest objective."
+    },
+    {
+      "id": 2639,
+      "old": "선지자의 통치는 굳건하다는 소문이 돌더군. 대사제(Hierophant)가 그림 온위그(Grim Onwig)에게 그 하찮은 쿠데타를 후회하게 만들 거래.",
+      "new": "소문이 들리네, 우리 선지자의 치세는 굳건하다네. 그림 온위그(Grim Onwig)의 작은 쿠데타, 대사제(Hierophant)가 그 일을 후회하게 하리라.",
+      "reason": "Restore the compact verse cadence while retaining the rumor, secured reign, coup, and threatened regret; pair Grim Onwig."
+    },
+    {
+      "id": 2737,
+      "old": "오머 보가드(Ommer Vogard)와 대화",
+      "new": "오머 보가드(Ommer Vogard)와 대화하기",
+      "reason": "Use the established action form for this quest objective."
+    }
+  ],
+  "related_edits": [
+    {
+      "id": 4422,
+      "old": "벨른(Belne) 사부의 말로는, 투아사 대군주(Tuatha Overlord)에게서 부서진 무기를 가져오면 자신을 사로잡은 마녀 기사 아니라(Anira)를 쓰러뜨릴 특별한 무기를 만들어 주겠다고 했다. 근처에 있는 투아사 대군주(Tuatha Overlord) 경비병들을 처치하면 그중 하나의 시체에서 찾을 수 있을 것이다.",
+      "new": "마스터 벨른(Master Belne)의 말로는, 투아사 대군주(Tuatha Overlord)에게서 부서진 무기를 가져오면 자신을 사로잡은 마녀 기사 아니라(Anira)를 쓰러뜨릴 특별한 무기를 만들어 주겠다고 했다. 근처에 있는 투아사 대군주(Tuatha Overlord) 경비병들을 처치하면 그중 하나의 시체에서 찾을 수 있을 것이다.",
+      "reason": "Align the named title with the complete Master Belne form already used at 21983, 52000, and 56416."
+    },
+    {
+      "id": 4925,
+      "old": "벨른(Belne) 장인이 죽어 마녀 기사 아니라(Anira)를 물리치는 데 필요한 물품을 모두 구할 수 없게 됐다. 이제 아니라(Anira)가 붙잡아 둔 명장들(Master Makers)을 풀어 주는 일도 도울 수 없게 됐다.",
+      "new": "마스터 벨른(Master Belne)이 죽어 마녀 기사 아니라(Anira)를 물리치는 데 필요한 물품을 모두 구할 수 없게 됐다. 이제 아니라(Anira)가 붙잡아 둔 명장들(Master Makers)을 풀어 주는 일도 도울 수 없게 됐다.",
+      "reason": "Align the named title with the complete Master Belne form already used at 21983, 52000, and 56416."
+    }
+  ],
+  "retained": [
+    {
+      "id": 2504,
+      "reason": "The full title Escape from the Catacombs is already paired."
+    },
+    {
+      "id": 2512,
+      "reason": "The full title Smuggler's Notes is already paired."
+    },
+    {
+      "id": 2546,
+      "reason": "The established Ticneri spelling, English pairing, and natural 한테는 particle are already present."
+    },
+    {
+      "id": 2558,
+      "reason": "The Maun signature is already paired and all note paragraph breaks are preserved."
+    },
+    {
+      "id": 2561,
+      "reason": "Both named locations, The Quays and The Burn, are already paired."
+    },
+    {
+      "id": 2647,
+      "reason": "Champion's Manor already has a complete pairing consistent across all six current occurrences; related candidate 1498 was reconciled previously."
+    },
+    {
+      "id": 2665,
+      "reason": "Wulf is already paired in the line."
+    },
+    {
+      "id": 2682,
+      "reason": "명장급 대장장이 is a natural rendering of master blacksmith."
+    },
+    {
+      "id": 2688,
+      "reason": "Gnomish Sentry already has a complete English pairing."
+    },
+    {
+      "id": 2701,
+      "reason": "Lowercase master makers is a generic description, for which 장인 is appropriate; the capitalized Master Makers group at 4925 is separately paired. Winter Lands remains unresolved."
+    },
+    {
+      "id": 2703,
+      "reason": "Ice Wolf already has a complete English pairing."
+    },
+    {
+      "id": 2716,
+      "reason": "This row and the other nine Century Plants occurrences already use the established 백년초(Century Plants) form."
+    },
+    {
+      "id": 2723,
+      "reason": "Mage of Cups already has a complete English title pairing."
+    },
+    {
+      "id": 2732,
+      "reason": "The Korean naturally conveys disagreement with Titarion's neutrality and the belief about persuading his Fae subjects."
+    }
+  ],
+  "related_retained": [
+    {
+      "id": 30588,
+      "reason": "The linked Kora Petal naming candidate is already resolved as 코라 꽃잎(Kora Petal)."
+    },
+    {
+      "id": 21983,
+      "reason": "Both Master Belne mentions already use the complete 마스터 벨른(Master Belne) pairing."
+    },
+    {
+      "id": 52000,
+      "reason": "The objective already uses the complete 마스터 벨른(Master Belne) pairing."
+    },
+    {
+      "id": 56416,
+      "reason": "The standalone label already uses the complete 마스터 벨른(Master Belne) pairing."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "range": [42750, 42999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-42750-42999-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    42755, 42779, 42791, 42812, 42825, 42834, 42838, 42841, 42851, 42853,
+    42870, 42883, 42886, 42899, 42902, 42907, 42909, 42915, 42941, 42942,
+    42950, 42953, 42961, 42969, 42994, 42997
+  ],
+  "newly_reconciled_ids": [
+    27747, 34443, 42755, 42779, 42791, 42812, 42825, 42834, 42838, 42841,
+    42851, 42853, 42870, 42883, 42886, 42899, 42902, 42907, 42909, 42915,
+    42941, 42942, 42950, 42953, 42961, 42969, 42994, 42997, 54691
+  ],
+  "newly_reconciled_total": 29,
+  "newly_identified_candidates": [
+    {
+      "id": 27747,
+      "previous_ledger_status": "not-issue",
+      "linked_exact_source_id": 42851,
+      "reason": "English, Japanese, and Chinese rows are identical. Its Korean journal entry omitted the named potion's English pairing used by the exact-source duplicate."
+    },
+    {
+      "id": 34443,
+      "previous_ledger_status": "not-issue",
+      "linked_name_id": 42909,
+      "reason": "The only remaining active Korean occurrence of Ticneri outside the established paired spelling was `티크네리`; the linked row and corpus-wide dominant form are `틱네리(Ticneri)`."
+    },
+    {
+      "id": 54691,
+      "previous_ledger_status": "not-issue",
+      "linked_exact_source_id": 42812,
+      "reason": "English, Japanese, and Chinese rows are identical. Its Korean action label lacked the established `-하기` ending used by the exact-source duplicate."
+    }
+  ],
+  "cleared_false_positive_candidates": [],
+  "decisions": {
+    "confirmed_current_candidate_ids": [
+      42755, 42779, 42791, 42812, 42825, 42834, 42838, 42841, 42851, 42853,
+      42870, 42883, 42886, 42902, 42907, 42909, 42915, 42941, 42942, 42950,
+      42953, 42961, 42969, 42994, 42997
+    ],
+    "corrected_now": [27747, 34443, 42899, 54691],
+    "evidence_limited_holds_preserved": [
+      42773, 42808, 42877, 42889, 42921, 42925, 42967
+    ]
+  },
+  "linked_exact_source_groups": {
+    "Visit the City Watch objective": {
+      "ids": [42812, 54691],
+      "result": "English, Japanese, and Chinese rows are identical; both Korean rows now read 도시 경비대(City Watch) 방문하기."
+    },
+    "Minor Alchemist's Art Potion journal entry": {
+      "ids": [27747, 42851],
+      "result": "English, Japanese, and Chinese rows are identical; both Korean rows now use 하급 연금술사의 기술 물약(Minor Alchemist's Art Potion) and identical full sentence text."
+    }
+  },
+  "linked_name_group": {
+    "Ticneri": {
+      "ids": [34443, 42909],
+      "result": "The Korean name is consistently paired as 틱네리(Ticneri); the remaining variant at 34443 was corrected."
+    }
+  },
+  "edits": [
+    {
+      "id": 27747,
+      "old": "올리앤더 싱클레어(Oleander Sinclair)를 위해 하급 연금술사의 기술 물약을 구했다. 이제 그에게 돌아가야 한다. 그는 요르반(Yolvan)의 실드링 요새(Shieldring Keep) 밖에 있는 자기 야영지 근처에 있을 것이다.",
+      "new": "올리앤더 싱클레어(Oleander Sinclair)를 위해 하급 연금술사의 기술 물약(Minor Alchemist's Art Potion)을 구했다. 이제 그에게 돌아가야 한다. 그는 요르반(Yolvan)의 실드링 요새(Shieldring Keep) 밖에 있는 자기 야영지 근처에 있을 것이다.",
+      "reason": "Match exact-source duplicate 42851, including its named item pairing."
+    },
+    {
+      "id": 34443,
+      "old": "티크네리가 쓰러지며 무시무시한 영혼 결속 저주(Soulbind Curse)를 걸었다! 어두운 기운이 몸을 휘감고 마력이 약해지는 게 느껴진다.",
+      "new": "틱네리(Ticneri)가 쓰러지며 무시무시한 영혼 결속 저주(Soulbind Curse)를 걸었다! 어두운 기운이 몸을 휘감고 마력이 약해지는 게 느껴진다.",
+      "reason": "Use the canonical Korean name and English pairing consistently with the linked row and remaining corpus occurrences."
+    },
+    {
+      "id": 42899,
+      "old": "윈더미어의 시녀(Maid of Windemere) 처치하기",
+      "new": "윈더미어의 시녀(The Maid) 처치하기",
+      "reason": "Use the established English title for the character while preserving the objective form."
+    },
+    {
+      "id": 54691,
+      "old": "도시 경비대(City Watch) 방문",
+      "new": "도시 경비대(City Watch) 방문하기",
+      "reason": "Match exact-source duplicate 42812 and the established action-label form."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2824,
+    "previous_total": 4024,
+    "newly_identified_candidates_added_to_total": 3,
+    "false_positive_candidates_removed_from_total": 0,
+    "reconciled": 2853,
+    "total": 4027,
+    "percent": 70.85,
+    "remaining": 1174
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [27747, 34443, 42899, 54691],
+    "ledger_fingerprint_ids_refreshed": [27747, 34443, 42899, 54691],
+    "newly_reclassified_ledger_ids": [27747, 34443, 54691],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation tests and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "exact_source_duplicate_checks": "passed for 27747/42851 and 42812/54691 across English, Japanese, Chinese, and Korean",
+    "linked_name_and_title_checks": "passed for 34443/42909 and 42899",
+    "crlf_aware_diff_check": "passed with core.whitespace=cr-at-eol",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

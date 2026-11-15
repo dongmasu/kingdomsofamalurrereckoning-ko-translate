@@ -1,0 +1,87 @@
+{
+  "range": [
+    36250,
+    36499
+  ],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-36250-36499-revalidation-20261112.md",
+    "related_reviews": [
+      "dialogue-context-1241289-sq41-adar-revalidation-20261111.md",
+      "dialogue-context-1164089-1272808-revalidation-20261111.md",
+      "dialogue-context-hm01-revalidation-20261110.md",
+      "proper-name-discovery-definitions-D21209.tsv"
+    ]
+  },
+  "range_candidate_ids": 3,
+  "range_candidate_id_list": [
+    36268,
+    36279,
+    36433
+  ],
+  "previously_reconciled_candidate_ids": [],
+  "newly_counted_candidate_ids": [
+    36268,
+    36279,
+    36433
+  ],
+  "decisions": {
+    "confirmed_current_or_previously_applied": [
+      36268
+    ],
+    "superseded_prior_retention": [
+      36279,
+      36433
+    ],
+    "held_meanings_or_context": [
+      36268,
+      36427,
+      36460
+    ]
+  },
+  "edits": [
+    {
+      "id": 36279,
+      "old": "실라레타가 죽었다. 이제 그녀의 퀘스트를 도울 수 없다.",
+      "new": "실라리타(Syllareta)가 죽었다. 이제 그녀의 퀘스트를 도울 수 없다.",
+      "reason": "Japanese, Chinese, and the established Korean name form support 실라리타; pair the source name in this quest-status row."
+    },
+    {
+      "id": 36433,
+      "old": "그녀는 매번 상상도 못 할 보상을 제안했어. 대가로 요구한 건 자기 대리인으로 발라드의 집(House of Ballads)에 잠입하라는 것뿐이었지. 말할 것도 없이, 아무도 받아들이지 않았어.",
+      "new": "그녀는 매번 상상도 못 할 보상을 내걸었어. 대가로 요구한 건 그녀의 첩자로 발라드의 집(House of Ballads)에 잠입하라는 것뿐이었지. 당연히 아무도 받아들이지 않았어.",
+      "reason": "English infiltration context, Japanese 手先, and Chinese 间谍 support a covert operative rather than a proxy; refine the full sentence in plain Korean."
+    }
+  ],
+  "fingerprints_refreshed": [
+    36279,
+    36433
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2278,
+    "total": 4015,
+    "percent": 56.74,
+    "remaining": 1737
+  },
+  "verification": {
+    "four_language_candidate_ids_checked": 3,
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      36279,
+      36433
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "full_review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "dialogue_context_index_tests": "passed (9)",
+    "csv_structure": "65,135 ordered records; UTF-8 BOM preserved",
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "speaker_or_playback_order_inferred": false
+  }
+}

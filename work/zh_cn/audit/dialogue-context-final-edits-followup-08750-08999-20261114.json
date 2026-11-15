@@ -1,0 +1,155 @@
+{
+  "range": [8750, 8999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 19,
+  "range_candidate_id_list": [
+    8755,
+    8788,
+    8795,
+    8814,
+    8817,
+    8831,
+    8848,
+    8855,
+    8864,
+    8877,
+    8886,
+    8897,
+    8904,
+    8928,
+    8947,
+    8969,
+    8978,
+    8992,
+    8997
+  ],
+  "reconciled_candidate_ids": 19,
+  "decisions": [
+    {
+      "id": 8755,
+      "decision": "retained",
+      "reason": "The displayed location name is already paired; the Japanese hideout interpretation does not establish a different site function."
+    },
+    {
+      "id": 8788,
+      "decision": "retained",
+      "reason": "The current translation preserves the advice and the separate self-comparison."
+    },
+    {
+      "id": 8795,
+      "decision": "retained",
+      "reason": "The title is already paired; the exact monument type remains unresolved."
+    },
+    {
+      "id": 8814,
+      "decision": "retained",
+      "reason": "The explanation is natural plain speech and its names are paired."
+    },
+    {
+      "id": 8817,
+      "decision": "retained",
+      "reason": "The current speech level respects the Hierophant and stays conversational."
+    },
+    {
+      "id": 8831,
+      "decision": "retained",
+      "reason": "Damage, stun, concealment duration, Mana cost, and line layout are clear and accurate."
+    },
+    {
+      "id": 8848,
+      "decision": "retained",
+      "reason": "운명의 실(Weave) is the established fate-weaving term and the solemn tone is preserved."
+    },
+    {
+      "id": 8855,
+      "decision": "retained",
+      "reason": "The full and short Marten Strand names follow reviewed forms and the companions' release is accurately stated."
+    },
+    {
+      "id": 8864,
+      "decision": "retained",
+      "reason": "The active Korean describes slowing, not immobilization, and preserves the Ice Barrage effect."
+    },
+    {
+      "id": 8877,
+      "decision": "retained",
+      "reason": "The Korean correctly identifies the Hireling requests board."
+    },
+    {
+      "id": 8886,
+      "decision": "retained",
+      "reason": "The possible reverse pull against larger enemies is accurately preserved."
+    },
+    {
+      "id": 8897,
+      "decision": "retained",
+      "reason": "The active line distinguishes death cult from the paired Belen's Testament faction."
+    },
+    {
+      "id": 8904,
+      "decision": "retained",
+      "reason": "Glynis is paired and the source chronology is preserved."
+    },
+    {
+      "id": 8928,
+      "decision": "retained",
+      "reason": "The complete High King of Winter title is paired."
+    },
+    {
+      "id": 8947,
+      "decision": "corrected",
+      "reason": "Changed the quest title to the established -기 objective form."
+    },
+    {
+      "id": 8969,
+      "decision": "retained",
+      "reason": "Henge is paired; the English/Chinese event is retained and the Japanese conflict remains separately held."
+    },
+    {
+      "id": 8978,
+      "decision": "retained",
+      "reason": "Agni is paired without expanding the source's surname-only reference."
+    },
+    {
+      "id": 8992,
+      "decision": "held",
+      "reason": "English and Japanese support materially different evaluative nuances; preserve the current text until context resolves them."
+    },
+    {
+      "id": 8997,
+      "decision": "retained",
+      "reason": "Key terms are paired and the three-paragraph historical account remains structurally intact."
+    }
+  ],
+  "edits": [
+    {
+      "id": 8947,
+      "old": "잃어버린 역병 방호제(Plagueshield)를 모아라",
+      "new": "잃어버린 역병 방호제(Plagueshield) 모으기",
+      "reason": "Match the established concise -기 form for quest objectives."
+    }
+  ],
+  "fingerprints_refreshed": [8947],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 503,
+    "total": 4015,
+    "percent": 12.53,
+    "remaining": 3512
+  },
+  "verification": {
+    "csv_preservation_tests": 11,
+    "context_index_tests": 9,
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "line_endings": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

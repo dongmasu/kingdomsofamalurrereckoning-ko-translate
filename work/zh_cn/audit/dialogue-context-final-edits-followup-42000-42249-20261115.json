@@ -1,0 +1,91 @@
+{
+  "range": [42000, 42249],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-42000-42249-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "missing_candidate_followup": "dialogue-context-missing-candidates-40000-45999-20261114.json",
+    "linked_review": "dialogue-context-final-edits-followup-00250-00499-20261114.json"
+  },
+  "source_order": ["en", "ja", "zh", "ko"],
+  "range_candidate_ids": [
+    42003, 42009, 42024, 42031, 42039, 42050, 42061, 42063, 42068, 42072,
+    42073, 42086, 42089, 42096, 42098, 42107, 42124, 42127, 42131, 42132,
+    42137, 42149, 42162, 42176, 42178, 42193, 42197, 42198
+  ],
+  "newly_reconciled_ids": [
+    42003, 42009, 42024, 42031, 42039, 42050, 42061, 42063, 42068, 42072,
+    42073, 42086, 42089, 42096, 42098, 42107, 42124, 42127, 42131, 42132,
+    42137, 42149, 42162, 42176, 42178, 42193, 42197, 42198
+  ],
+  "newly_reconciled_total": 28,
+  "previously_reconciled_related_ids": {
+    "320": {
+      "linked_group": "The embrace of Webwood poem",
+      "previous_review": "dialogue-context-final-edits-followup-00250-00499-20261114.json",
+      "reason": "The four source-language rows are identical. Its six-line Korean layout provided direct evidence for correcting 42198; ID 320 was not counted again."
+    }
+  },
+  "newly_identified_candidates": [],
+  "cleared_false_positive_candidates": [],
+  "decisions": {
+    "retained_as_correct": [42003, 42024, 42072, 42086],
+    "already_corrected_before_this_batch": [
+      42009, 42039, 42050, 42061, 42063, 42068, 42073, 42089, 42096, 42098,
+      42107, 42124, 42127, 42131, 42132, 42137, 42149, 42162, 42178, 42193,
+      42197
+    ],
+    "corrected_now": [42031, 42198],
+    "evidence_limited_candidate_holds": [42176],
+    "other_evidence_limited_holds_preserved": [
+      42000, 42007, 42028, 42047, 42095, 42115, 42146, 42186
+    ]
+  },
+  "edits": [
+    {
+      "id": 42031,
+      "old": "카이트 실드, 버클러, 부적을 사용하는 기술 모음",
+      "new": "연 방패, 버클러, 부적을 사용하는 기술 모음",
+      "reason": "The same equipment-category source is rendered 연 방패 in base IDs 440 and 1626. Keep 버클러 because the base resource itself has both 소형 방패 and 버클러 for Buckler."
+    },
+    {
+      "id": 42198,
+      "old": "웹우드(Webwood)의 품은\r\n끝이 없네.\r\n뜨거운 열정과\r\n부드러운 고요,\r\n평온한 한순간으로\r\n너를 붙들지.\r\n아늑하고 비밀스러운 이 요람에서 잠들어라.",
+      "new": "웹우드(Webwood)의 품은\r\n끝이 없네.\r\n뜨거운 열정과\r\n부드러운 고요,\r\n평온한 한순간으로 너를 붙들지.\r\n아늑하고 비밀스러운 이 요람에서 잠들어라.",
+      "reason": "English, Japanese, and Chinese are identical to ID 320. Match its already-reviewed six-line Korean poem by removing the unsupported extra break."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2731,
+    "previous_total": 4020,
+    "newly_identified_candidates_added_to_total": 0,
+    "false_positive_candidates_removed_from_total": 0,
+    "reconciled": 2759,
+    "total": 4020,
+    "percent": 68.63,
+    "remaining": 1261
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [42031, 42198],
+    "ledger_fingerprint_ids_refreshed": [42031, 42198],
+    "ledger_reviewed_ids": 65135,
+    "newly_reconciled_ledger_ids": [
+      42003, 42009, 42024, 42031, 42039, 42050, 42061, 42063, 42068, 42072,
+      42073, 42086, 42089, 42096, 42098, 42107, 42124, 42127, 42131, 42132,
+      42137, 42149, 42162, 42176, 42178, 42193, 42197, 42198
+    ],
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71839,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "poem_duplicate_check": "passed for exact source group 320 and 42198",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

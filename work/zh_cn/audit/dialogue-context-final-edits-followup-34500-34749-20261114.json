@@ -1,0 +1,62 @@
+{
+  "range": [34500, 34749],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-34500-34749-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-33500-35999-20261114.json"
+  },
+  "range_candidate_ids": 22,
+  "range_candidate_id_list": [
+    34512, 34518, 34544, 34559, 34560, 34561, 34567, 34570, 34579, 34594,
+    34647, 34655, 34661, 34663, 34678, 34682, 34692, 34709, 34713, 34727,
+    34732, 34733
+  ],
+  "previously_reconciled_candidate_ids": [],
+  "newly_counted_candidate_ids": [
+    34512, 34518, 34544, 34559, 34560, 34561, 34567, 34570, 34579, 34594,
+    34647, 34655, 34661, 34663, 34678, 34682, 34692, 34709, 34713, 34727,
+    34732, 34733
+  ],
+  "decisions": {
+    "confirmed_current_or_previously_applied": [
+      34512, 34518, 34544, 34559, 34560, 34561, 34570, 34579, 34594,
+      34647, 34655, 34661, 34663, 34678, 34682, 34692, 34709, 34713,
+      34727, 34732, 34733
+    ],
+    "refined": [34567],
+    "held": []
+  },
+  "edits": [
+    {
+      "id": 34567,
+      "old": "어서 들어오세요. 어서!",
+      "new": "어서 오세요. 어서 오세요.",
+      "reason": "The English and Japanese repeat a welcome. Use a consistent polite Korean invitation rather than ending the second half with a bare call."
+    }
+  ],
+  "fingerprints_refreshed": [34567],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2136,
+    "total": 4015,
+    "percent": 53.2,
+    "remaining": 1879
+  },
+  "verification": {
+    "four_language_candidate_ids_checked": 22,
+    "translation_csv_changed": true,
+    "changed_default_ids": [34567],
+    "source_csv_or_extracted_asset_changed": false,
+    "full_review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "dialogue_context_index_tests": "passed (9)",
+    "csv_structure": "passed (65135 ordered records; UTF-8 BOM preserved)",
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "speaker_or_playback_order_inferred": false
+  }
+}

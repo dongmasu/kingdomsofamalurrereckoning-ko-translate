@@ -1,0 +1,29 @@
+{
+  "range": [46750, 46999],
+  "source_order": ["en", "ja", "zh", "ko"],
+  "ledger_candidate_ids": [
+    46789, 46799, 46830, 46850, 46868, 46948, 46978, 46979, 46998
+  ],
+  "newly_reconciled_ids": [46789, 46799, 46830, 46868, 46948, 46978, 46979],
+  "previously_reconciled_ids": [],
+  "corrected_now": [],
+  "already_correct_or_supported": [
+    46789, 46799, 46830, 46868, 46948, 46978, 46979
+  ],
+  "cleared_false_positive_ids": [46850, 46998],
+  "held_for_independent_evidence": [],
+  "separate_open_questions": [46789, 46868],
+  "candidate_pool": {
+    "previous_total": 4029,
+    "cleared_false_positives": 2,
+    "total": 4027
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 3171,
+    "total": 4027,
+    "percent": 78.75,
+    "remaining": 856
+  },
+  "translation_csv_changed": false,
+  "ledger_fingerprint_changed": false
+}

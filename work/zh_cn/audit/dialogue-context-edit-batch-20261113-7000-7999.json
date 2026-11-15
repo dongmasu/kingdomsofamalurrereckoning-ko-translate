@@ -1,0 +1,256 @@
+{
+  "input_sha256": "34337f9b3af6bdfcaa82a3168db57d5376de03ca311c53c17aa6ba2c0e63195c",
+  "post_edit_sha256": "6015e341a7890dc3012875733c76a290f00beea7848a3b77eab294c6f27d894a",
+  "ledger_post_edit_sha256": "ddffb4fd6f063a940017b7f7a59f9be2bafde9a0c67336ff6d8d8efd22b2b58c",
+  "edited_unique_rows": 60,
+  "review_ledger_fingerprints_refreshed": 60,
+  "scope": "Apply source-verified corrections for the 7000-7999 candidate batch and directly related entries.",
+  "groups": [
+    {
+      "ids": [7015],
+      "find": "난 놀라운 구석이 많지, 여행자 친구. 내가 한때 템플러 마법사였다는 얘기 한 적 있어?",
+      "replace": "나도 의외인 구석이 많아, 여행자. 내가 한때 템플러 마법사였다는 얘기 한 적 있어?",
+      "reason": "Replace the literal vocative with natural, friendly conversational Korean."
+    },
+    {
+      "ids": [7027],
+      "find": "페이트위버(Fateweaver) 아르탄 라나(Artan Rana)는 자신의 운명에서 본 문양 속에 이 옷의 마법부여가 엮인 방식이 나타나 있었다고 주장했다.",
+      "replace": "페이트위버(Fateweaver) 아르탄 라나(Artan Rana)는 이 옷에 걸린 마법의 무늬가 자신의 운명에서 본 문양을 본뜬 것이라고 주장했어.",
+      "reason": "Clarify the relationship between the garment's enchantment pattern and the pattern seen in Artan's fate."
+    },
+    {
+      "ids": [7042],
+      "find": "운명의 태피스트리",
+      "replace": "운명의 태피스트리(Tapestry of Fate)",
+      "reason": "Add the missing English pairing for the named concept."
+    },
+    {
+      "ids": [7079],
+      "find": "컵의 여왕 메어(Maire, Queen of Cups)",
+      "replace": "컵의 여왕(Queen of Cups) 메어(Maire)",
+      "reason": "Separate the title and personal-name pairings consistently."
+    },
+    {
+      "ids": [1590, 1791, 3885, 4027, 5429, 8190, 10729, 13041, 15037, 21023, 22673, 24172, 25684, 25823, 27984, 28151, 30613, 32542],
+      "find": "컵의 여왕 메어(Maire, Queen of Cups)",
+      "replace": "컵의 여왕(Queen of Cups) 메어(Maire)",
+      "reason": "Align all exact-English copies after confirming their English, Japanese, and Chinese rows are identical."
+    },
+    {
+      "ids": [7090],
+      "find": "운명의 태피스트리",
+      "replace": "운명의 실(Weave)",
+      "reason": "Keep the source term Weave distinct from Tapestry of Fate and align the capitalized term with its established pairing at ID 5987."
+    },
+    {
+      "ids": [7104],
+      "find": "황금 시대의 연금술",
+      "replace": "황금시대 연금술점(Golden Age Alchemy)",
+      "reason": "The related Gorhart entry and Japanese source identify Golden Age Alchemy as the named alchemy shop."
+    },
+    {
+      "ids": [7106],
+      "find": "네 {*1미니맵}에 표시되는 깜박이는 원이 {*1퀘스트 목표}야. 그 표시를 따라가면 현재 목표에 도달할 수 있어.",
+      "replace": "네 {*1미니맵}에 표시되는 맥동하는 원이 {*1퀘스트 목표}를 나타내. 그 표시를 따라가면 현재 목표에 도달할 수 있어.",
+      "reason": "Translate pulsing as a pulse rather than blinking and preserve the source meaning that the marker indicates the quest objective."
+    },
+    {
+      "ids": [7129],
+      "find": "낡은 곡물 요리",
+      "replace": "묵은 곡물 요리",
+      "reason": "Correct the unnatural adjective for old/stale cooked grain while preserving the fable's deliberately absurd wording and paragraph breaks."
+    },
+    {
+      "ids": [7141],
+      "find": "발라드의 집(House of Ballads)은 고르구아스",
+      "replace": "발라드의 집은 고르구아스",
+      "reason": "Keep the English pairing at the first mention and remove its immediate repetition in the same journal entry."
+    },
+    {
+      "ids": [7147],
+      "find": "워스원(Warsworn), 대열에 합류해 싸우러 온 건가?",
+      "replace": "워스원(Warsworn), 대열에 합류해 싸우려는 건가?",
+      "reason": "Smooth the stacked wording without adding an unsupported claim about whose ranks these are."
+    },
+    {
+      "ids": [7189],
+      "find": "받는 번개 피해(Lightning Damage)가 50% 감소합니다.",
+      "replace": "받는 번개 피해가 50% 감소합니다.",
+      "reason": "Remove a redundant English term from a natural effect sentence."
+    },
+    {
+      "ids": [7190],
+      "find": "콜로사이(Kollossae)의 삶 모든 면을",
+      "replace": "콜로사이(Kollossae)의 삶의 모든 면을",
+      "reason": "Restore the missing possessive particle."
+    },
+    {
+      "ids": [7223],
+      "find": "발라드의 집(House of Ballads) 도서관",
+      "replace": "발라드의 집 도서관(Ballads Library)",
+      "reason": "Pair the actual UI label Ballads Library rather than repeating the different source name House of Ballads."
+    },
+    {
+      "ids": [7239],
+      "find": "부름받은 자(Beckoned), 우리가 운명을 이루도록 도와준 건 너야. 고마워.",
+      "replace": "우리 운명을 이루도록 도와줘서 고마워, 부름받은 자(Beckoned).",
+      "reason": "Render the gratitude idiom naturally while preserving the direct address."
+    },
+    {
+      "ids": [7245],
+      "find": "만나서 반갑소, 공성 파괴자(Siege Breaker)여. 클루리콘(Klurikon)은... 때때로 살기 힘든 곳이니까.",
+      "replace": "만나서 반갑군, 공성 파괴자(Siege Breaker). 클루리콘(Klurikon)은... 때로는 살기 힘든 곳이지.",
+      "reason": "Remove the isolated 하오체 shift and use natural plain conversational speech."
+    },
+    {
+      "ids": [7249],
+      "find": "정정당당한 싸움에서 날 쓰러뜨리면 네 말을 믿고 존중해 주지.",
+      "replace": "정정당당하게 싸워 날 쓰러뜨리면 네 말을 믿을게. 그럼 널 인정해 주지.",
+      "reason": "Make the challenge conversational and express earned respect idiomatically."
+    },
+    {
+      "ids": [11660],
+      "find": "겨울 궁정의 사촌",
+      "replace": "겨울 페이인 사촌",
+      "reason": "Align the exact-English duplicate with ID 7332; English, Japanese, and Chinese sources match, and Japanese/Chinese identify a Winter Fae cousin."
+    },
+    {
+      "ids": [7346],
+      "find": "하지만 네가 그들 자리를 대신하게 될 거야. 블러디 본즈(Bloody Bones)가 새롭게 욕망할 대상이 되는 거지.",
+      "replace": "하지만 네가 그들 자리를 대신하게 될 거야. 이제 블러디 본즈(Bloody Bones)가 새로 탐낼 대상은 너야.",
+      "reason": "Replace an unnatural literal construction while preserving the ominous threat."
+    },
+    {
+      "ids": [7398],
+      "find": "너도 그렇듯, 우리 중 남은 이들도 곧 그렇게 되리라.",
+      "replace": "너처럼 우리 중 마지막 남은 이들도 머지않아 그렇게 되리라.",
+      "reason": "Naturalize the comparison and preserve the elevated, ominous register."
+    },
+    {
+      "ids": [7402],
+      "find": "이전 일등 항해사를 무인도에 버려야 했던 뒤에 그를 만났어.",
+      "replace": "내 마지막 일등 항해사를 무인도에 버려 두고 온 뒤에 그를 발견했어.",
+      "reason": "Restore both the sense of finding him and the source's last first mate."
+    },
+    {
+      "ids": [7406],
+      "find": "생명력이 높을 때",
+      "replace": "체력이 높을 때",
+      "reason": "Use the established Korean name for the game's Health attribute."
+    },
+    {
+      "ids": [7479],
+      "find": "이 자장가가 중요한 곳으로 나를 이끌어 줄 것 같아... 하지만 여정에는 위험이 도사리겠지.",
+      "replace": "이 자장가가 나를 중요한 곳으로 이끌어 줄 거라고 믿어... 여정은 위험으로 가득하겠지만.",
+      "reason": "Restore the source's explicit belief and render the danger clause naturally."
+    },
+    {
+      "ids": [7510],
+      "find": "벨렌(Belen)께 바칠 준비를 한다.",
+      "replace": "널 벨렌(Belen)께 바치겠다.",
+      "reason": "Restore the direct threat and the source meaning of offering the addressee to Belen."
+    },
+    {
+      "ids": [7527],
+      "find": "가능한 한 멀리까지 가서 그들을 찾아.",
+      "replace": "온 힘을 다해 그들을 찾은 다음,",
+      "reason": "Translate the idiom as making every effort rather than traveling a physical distance."
+    },
+    {
+      "ids": [7567],
+      "find": "그가 부름받은 자(Beckoned)를 안다니 몰랐네.",
+      "replace": "그가 부름받은 자(Beckoned)와 아는 사이라니 몰랐네.",
+      "reason": "Clarify the relationship expressed by knew and preserve the surprised tone."
+    },
+    {
+      "ids": [7577],
+      "find": "안녕하시오, 전사여.",
+      "replace": "안녕하세요, 전사님.",
+      "reason": "Replace the isolated 하오체 greeting with natural polite Korean."
+    },
+    {
+      "ids": [7612],
+      "find": "위대한 순환(Great Cycle)이 모든 투아사(Tuatha)를 다시 투아사(Tuatha)로 되돌려 보내지.",
+      "replace": "위대한 순환(Great Cycle)은 모든 투아사(Tuatha)를 다시 살려 내.",
+      "reason": "Render the source-supported resurrection meaning naturally without duplicating the name pairing."
+    },
+    {
+      "ids": [7683],
+      "find": "안녕하십니까, 주인님.",
+      "replace": "안녕, 자상한 주인님.",
+      "reason": "Match the casual Japanese greeting while retaining the English description and respectful address."
+    },
+    {
+      "ids": [7714],
+      "find": "네가 그자구나.",
+      "replace": "네가 바로 그 사람이구나.",
+      "reason": "Avoid implying a gender that the English source does not specify."
+    },
+    {
+      "ids": [7720],
+      "find": "보리는 굼뜨고, 한릭은 얼간이, 그리안(Grian)은 버릇없고, 그윈은 쌀쌀맞아. 브레이드(Breid)는... 뭐, 괜찮아.",
+      "replace": "보리(Borri)는 굼뜨고, 한릭(Hanrik)은 얼간이, 그리안(Grian)은 버릇없고, 그윈(Gwyn)은 쌀쌀맞아. 브레이드(Breid)는... 뭐, 괜찮아.",
+      "reason": "Pair the three unpaired personal names consistently within the same sentence."
+    },
+    {
+      "ids": [7730],
+      "find": "내 친구야. 내게도 잘해 줬지.",
+      "replace": "내 친구야. 예전부터 쭉 친구로 지냈지.",
+      "reason": "Preserve the repeated friendship emphasis without weakening it to good treatment."
+    },
+    {
+      "ids": [7733],
+      "find": "우리 백색의 할람(Hallam the White)이 만들어 낸 거지.",
+      "replace": "같은 종족인 백색의 할람(Hallam the White)이 만들어 낸 거지.",
+      "reason": "Replace the awkward possessive and make clear that Hallam belongs to the speaker's people."
+    },
+    {
+      "ids": [8516],
+      "find": "우리 백색의 할람(Hallam the White)이 만들어 낸 거지.",
+      "replace": "같은 종족인 백색의 할람(Hallam the White)이 만들어 낸 거지.",
+      "reason": "Align the exact-English copy after confirming its English, Japanese, and Chinese rows are identical."
+    },
+    {
+      "ids": [4825, 22706, 23346],
+      "find": "발라드의 집(House of Ballads) 도서관",
+      "replace": "발라드의 집 도서관(Ballads Library)",
+      "reason": "Align the exact-English label copies after confirming their English, Japanese, and Chinese rows are identical."
+    },
+    {
+      "ids": [7783],
+      "find": "냉기 피해",
+      "replace": "빙결 피해(Freezing Damage)",
+      "reason": "Distinguish Freezing Damage from Ice Damage and pair the effect label, matching established uses."
+    },
+    {
+      "ids": [7850],
+      "find": "마법물품 제작(Sagecraft)",
+      "replace": "마법물품 제작(Sagecrafting)",
+      "reason": "Use the exact English source term and the established project spelling."
+    },
+    {
+      "ids": [7901],
+      "find": "말은 편리하군. 내가 왜 널 믿어야 하지?",
+      "replace": "참 편리한 소리군. 내가 왜 널 믿어야 하지?",
+      "reason": "Render the sarcastic idiom naturally while retaining the distrustful challenge."
+    },
+    {
+      "ids": [7907],
+      "find": "여기 살아 있는 사람이 왔네, 응? 별 야영지(Star Camp)를 구경하러 왔나 보군. 트래블러(Traveler)로 사는 건 어때? 근사하지?",
+      "replace": "오, 여기 활기찬 손님이 왔네? 별 야영지(Star Camp)를 구경하러 온 거지? 트래블러(Traveler)로 사는 건 어때? 근사하지?",
+      "reason": "Translate live one as a lively newcomer rather than literally as a living person, preserving the playful welcome."
+    },
+    {
+      "ids": [7935],
+      "find": "이 출세주의자 아니신가.",
+      "replace": "이 건방진 신참 아니신가.",
+      "reason": "Correct the meaning of upstart and match the established taunting form used at ID 7062."
+    },
+    {
+      "ids": [33659],
+      "find": "황금시대 연금술점",
+      "replace": "황금시대 연금술점(Golden Age Alchemy)",
+      "reason": "Pair the same named Gorhart shop in its related journal reference."
+    }
+  ]
+}

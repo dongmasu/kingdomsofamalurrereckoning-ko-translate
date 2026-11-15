@@ -1,0 +1,64 @@
+{
+  "range": [31750, 31999],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 24,
+  "range_candidate_id_list": [
+    31759, 31767, 31775, 31796, 31806, 31817, 31837, 31861,
+    31866, 31881, 31883, 31885, 31893, 31903, 31911, 31914,
+    31917, 31946, 31969, 31970, 31977, 31978, 31987, 31988
+  ],
+  "reconciled_candidate_ids": 24,
+  "newly_counted_candidate_ids": [
+    31759, 31767, 31775, 31806, 31817, 31837, 31861, 31866,
+    31881, 31883, 31885, 31893, 31903, 31911, 31914, 31917,
+    31946, 31969, 31970, 31977, 31978, 31987, 31988
+  ],
+  "previously_counted_ids": [31796],
+  "decisions": {
+    "confirmed_existing_edits": [
+      31767, 31775, 31806, 31817, 31837, 31861, 31866, 31881,
+      31883, 31885, 31893, 31903, 31911, 31914, 31917, 31946,
+      31969, 31970, 31977, 31978, 31987, 31988
+    ],
+    "retained": [31759],
+    "previously_reconciled_linked_group": [31796],
+    "held_outside_candidate_pool": [31894, 31932, 31999]
+  },
+  "linked_consistency_group": {
+    "Argine, Queen of Staves": [
+      1043, 1174, 3307, 3501, 6044, 7667, 8663, 11172, 12593,
+      14564, 16655, 21485, 30045, 30190, 31796, 33892, 38694,
+      40340, 41255, 43684, 47099, 52596, 53842, 55720, 56433,
+      62000
+    ]
+  },
+  "fingerprints_refreshed": [],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1881,
+    "total": 4015,
+    "percent": 46.85,
+    "remaining": 2134
+  },
+  "verification": {
+    "four_language_candidate_rows_checked": 24,
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "default_csv": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "line_endings": {
+        "crlf": 71838,
+        "lf_only": 244,
+        "bare_cr": 0
+      },
+      "previous_edit_batch_crlf_count_not_reproduced": 71842
+    },
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "regression_tests": "passed (11 CSV-preservation tests; 9 context-index tests)",
+    "generated_index_and_catalog_checks": "passed (index, asset catalog, ID catalog)",
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

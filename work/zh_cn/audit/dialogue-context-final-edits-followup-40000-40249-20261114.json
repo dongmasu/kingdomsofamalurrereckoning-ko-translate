@@ -1,0 +1,105 @@
+{
+  "range": [40000, 40249],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-40000-40249-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "related_reviews": [
+      "dialogue-context-final-edits-followup-40000-45999-20261114.json",
+      "dialogue-context-33750-33999-candidate-reconciliation-20261114.md",
+      "dialogue-context-final-edits-followup-15500-15749-20261114.json",
+      "review-sativa-related-D21377.rb",
+      "proper-name-edits-D21107.tsv"
+    ]
+  },
+  "range_candidate_ids": [
+    40002, 40009, 40025, 40034, 40041, 40052, 40074, 40095, 40100, 40105,
+    40127, 40149, 40176, 40179, 40204, 40213, 40215, 40231, 40237, 40246
+  ],
+  "newly_counted_candidate_ids": [
+    40002, 40009, 40025, 40034, 40041, 40052, 40074, 40095, 40100, 40105,
+    40127, 40149, 40176, 40179, 40204, 40213, 40215, 40231, 40237, 40246
+  ],
+  "newly_reconciled_total": 20,
+  "previously_counted_ids": {
+    "33884": {
+      "linked_exact_source_id": 40025,
+      "previous_range": "33750-33999"
+    }
+  },
+  "newly_identified_candidates": [
+    {
+      "id": 40025,
+      "previous_ledger_status": "uncertain",
+      "linked_exact_source_id": 33884,
+      "reason": "The identical four-language self-introduction had an unsupported Korean descendant/successor difference."
+    }
+  ],
+  "linked_exact_source_groups": {
+    "Niahm Kent scion self-introduction": [33884, 40025],
+    "Hello greeting register": {
+      "english": "Hello.",
+      "row_count": 135,
+      "supported_korean_exception": {
+        "id": 62194,
+        "japanese": "こんにちは",
+        "korean": "안녕하세요."
+      },
+      "informal_japanese": "やあ",
+      "informal_korean": "안녕."
+    },
+    "Mine meaning distinction": {
+      "ids": [4710, 40132],
+      "japanese": ["鉱山", "地雷"],
+      "korean": ["광산", "지뢰"]
+    }
+  },
+  "decisions": {
+    "corrected_or_currently_supported": [
+      40002, 40009, 40025, 40034, 40041, 40052, 40074, 40095, 40100, 40105,
+      40127, 40149, 40176, 40179, 40204, 40213, 40215, 40231, 40237, 40246
+    ],
+    "evidence_limited_holds": [
+      40051,
+      40052,
+      40089,
+      40132,
+      40176
+    ]
+  },
+  "edits": [
+    {
+      "id": 40025,
+      "old": "나는 라시르(Rathir) 켄트 가문의 후계자, 니암 켄트(Niahm Kent)다. 막대한 재산을 물려받았지만 허투루 써 버렸지. 혈통을 떠벌리고 다니는 성미는 아니니, 호기심은 접고 더는 묻지 마.",
+      "new": "나는 라시르(Rathir) 켄트 가문의 후손, 니암 켄트(Niahm Kent)다. 막대한 재산을 물려받았지만 허투루 써 버렸지. 혈통을 떠벌리고 다니는 성미는 아니니, 호기심은 접고 더는 묻지 마.",
+      "reason": "Match exact-source ID 33884. English and Japanese source strings are identical, and Japanese uses 末裔 in both."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2559,
+    "previous_total": 4017,
+    "newly_identified_candidates_added_to_total": 1,
+    "reconciled": 2579,
+    "total": 4018,
+    "percent": 64.19,
+    "remaining": 1439
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [40025],
+    "ledger_fingerprint_ids_refreshed": [40025],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for the Niahm group; Hello and Mine differences matched Japanese source nuance",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

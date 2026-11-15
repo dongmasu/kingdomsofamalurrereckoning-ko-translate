@@ -1,0 +1,102 @@
+{
+  "range": [41750, 41999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-41750-41999-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "linked_reviews": [
+      "dialogue-context-1859132-2606401-790086-1974695-1523728-revalidation-20261111.md",
+      "dialogue-context-29750-29999-candidate-reconciliation-20261114.md",
+      "dialogue-context-46000-51999-missing-candidates-followup-20261114.md",
+      "dialogue-context-default-59250-59499-revalidation-20261113.md"
+    ]
+  },
+  "range_candidate_ids": [
+    41750, 41796, 41798, 41804, 41813, 41814, 41817, 41827, 41853, 41880,
+    41905, 41921, 41961, 41977, 41994, 41995, 41999
+  ],
+  "newly_reconciled_ids": [
+    41750, 41796, 41798, 41804, 41813, 41814, 41817, 41827, 41853, 41880,
+    41905, 41921, 41961, 41977, 41994, 41995, 41999, 47041, 47200, 59258
+  ],
+  "newly_reconciled_total": 20,
+  "previously_reconciled_related_ids": {
+    "29900": {
+      "linked_term_group": "Big Hunt",
+      "previous_review": "dialogue-context-29750-29999-candidate-reconciliation-20261114.md",
+      "reason": "Already included in that range's 26 newly counted candidates; its name pairing was updated here as a newly verified cross-occurrence consistency correction."
+    }
+  },
+  "newly_identified_candidates": [],
+  "cleared_false_positive_candidates": [],
+  "decisions": {
+    "confirmed_current_candidate_ids": [
+      41750, 41796, 41798, 41804, 41813, 41814, 41817, 41827, 41853, 41880,
+      41905, 41921, 41961, 41977, 41994, 41995, 41999
+    ],
+    "corrected_now": [29900, 41905, 59258],
+    "linked_candidate_ids_reconciled_now": [47041, 47200, 59258],
+    "evidence_limited_holds": [
+      41752, 41757, 41803, 41826, 41833, 41847, 41864, 41869,
+      41876, 41918, 41935, 41957, 41976, 41989, 41798, 41999
+    ]
+  },
+  "term_consistency_groups": {
+    "The Big Hunt establishment": {
+      "ids": [29900, 41905, 47041, 47200, 59258],
+      "result": "All five Korean references now use 빅 헌트(The Big Hunt). IDs 29900, 41905, and 59258 were updated; 47041 and 47200 already used this form. ID 29900 was reconciled previously and was not counted again."
+    }
+  },
+  "edits": [
+    {
+      "id": 29900,
+      "old": "반가워요. 빅 헌트(Big Hunt)는 언제나 손님을 환영하죠. 오늘은 무엇을 도와드릴까요?",
+      "new": "반가워요. 빅 헌트(The Big Hunt)는 언제나 손님을 환영하죠. 오늘은 무엇을 도와드릴까요?",
+      "reason": "Use the same complete named-establishment pairing as the exact standalone label and related occurrences; preserve polite customer-facing dialogue."
+    },
+    {
+      "id": 41905,
+      "old": "편하게 있어. 빅 헌트(Big Hunt)는 시민이든 방문객이든 모두 환영해.",
+      "new": "편하게 있어. 빅 헌트(The Big Hunt)는 시민이든 방문객이든 모두 환영해.",
+      "reason": "Align the named establishment with the complete source name and the same-name rows; preserve the current informal welcoming voice."
+    },
+    {
+      "id": 59258,
+      "old": "빅 헌트(Big Hunt)는 언제나 널 환영해. 처음부터 이곳의 친구였으니까.",
+      "new": "빅 헌트(The Big Hunt)는 언제나 널 환영해. 처음부터 이곳의 친구였으니까.",
+      "reason": "Align the named establishment with the complete source name and the same-name rows; preserve the current informal friendly tone."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2711,
+    "previous_total": 4020,
+    "newly_identified_candidates_added_to_total": 0,
+    "false_positive_candidates_removed_from_total": 0,
+    "reconciled": 2731,
+    "total": 4020,
+    "percent": 67.94,
+    "remaining": 1289
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [29900, 41905, 59258],
+    "ledger_fingerprint_ids_refreshed": [29900, 41905, 59258],
+    "ledger_reviewed_ids": 65135,
+    "newly_reconciled_ledger_ids": [
+      41750, 41796, 41798, 41804, 41813, 41814, 41817, 41827, 41853, 41880,
+      41905, 41921, 41961, 41977, 41994, 41995, 41999, 47041, 47200, 59258
+    ],
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71840,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "big_hunt_consistency_check": "passed for all five occurrences: 29900, 41905, 47041, 47200, 59258",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

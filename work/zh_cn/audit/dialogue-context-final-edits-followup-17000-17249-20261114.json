@@ -1,0 +1,54 @@
+{
+  "range": [17000, 17249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 10,
+  "range_candidate_id_list": [
+    17011,
+    17028,
+    17030,
+    17123,
+    17133,
+    17145,
+    17151,
+    17189,
+    17234,
+    17238
+  ],
+  "reconciled_candidate_ids": 10,
+  "decisions": {
+    "previously_applied_confirmed": [
+      17011,
+      17028,
+      17030,
+      17123,
+      17133,
+      17145,
+      17151,
+      17189,
+      17234,
+      17238
+    ],
+    "refined": [],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "The Great General": [
+      473,
+      2163,
+      17238
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 946,
+    "total": 4015,
+    "percent": 23.56,
+    "remaining": 3069
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

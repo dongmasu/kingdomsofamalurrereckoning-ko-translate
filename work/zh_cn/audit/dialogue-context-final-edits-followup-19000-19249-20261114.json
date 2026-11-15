@@ -1,0 +1,74 @@
+{
+  "range": [19000, 19249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 13,
+  "range_candidate_id_list": [
+    19022,
+    19037,
+    19051,
+    19058,
+    19063,
+    19071,
+    19076,
+    19089,
+    19097,
+    19105,
+    19206,
+    19214,
+    19243
+  ],
+  "reconciled_candidate_ids": 15,
+  "decisions": {
+    "previously_applied_confirmed": [
+      19037,
+      19051,
+      19058,
+      19063,
+      19071,
+      19076,
+      19097,
+      19105,
+      19206,
+      19214,
+      19243,
+      48309,
+      53833
+    ],
+    "refined": [
+      19089
+    ],
+    "retained": [],
+    "held": [
+      19022
+    ]
+  },
+  "additional_linked_candidate_ids_reconciled": [
+    48309,
+    53833
+  ],
+  "related_consistency_groups": {
+    "Morsus Canis Imperius": [
+      19051,
+      48309
+    ],
+    "Ragnall titles; identities not merged": [
+      8795,
+      19105,
+      53833
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1023,
+    "total": 4015,
+    "percent": 25.48,
+    "remaining": 2992
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [
+      19089
+    ],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

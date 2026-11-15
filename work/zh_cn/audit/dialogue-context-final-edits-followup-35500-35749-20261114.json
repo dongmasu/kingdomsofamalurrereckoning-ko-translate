@@ -1,0 +1,79 @@
+{
+  "range": [35500, 35749],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-35500-35749-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-33500-35999-20261114.json",
+    "linked_reviews": [
+      "dialogue-context-22500-22749-candidate-reconciliation-20261114.md",
+      "dialogue-context-25250-25499-candidate-reconciliation-20261114.md",
+      "dialogue-context-31500-31749-candidate-reconciliation-20261114.md"
+    ]
+  },
+  "range_candidate_ids": 38,
+  "range_candidate_id_list": [
+    35510, 35517, 35537, 35544, 35546, 35549, 35552, 35565, 35568, 35580,
+    35581, 35588, 35593, 35594, 35604, 35608, 35613, 35615, 35617, 35618,
+    35621, 35623, 35625, 35631, 35633, 35644, 35645, 35655, 35663, 35666,
+    35667, 35675, 35689, 35706, 35715, 35729, 35739, 35744
+  ],
+  "previously_reconciled_candidate_ids": [35580, 35655],
+  "newly_counted_candidate_ids": [
+    35510, 35517, 35537, 35544, 35546, 35549, 35552, 35565, 35568, 35581,
+    35588, 35593, 35594, 35604, 35608, 35613, 35615, 35617, 35618, 35621,
+    35623, 35625, 35631, 35633, 35644, 35645, 35663, 35666, 35667, 35675,
+    35689, 35706, 35715, 35729, 35739, 35744
+  ],
+  "decisions": {
+    "confirmed_current_or_previously_applied": [
+      35510, 35517, 35537, 35544, 35546, 35549, 35552, 35568, 35581, 35588,
+      35593, 35604, 35608, 35613, 35615, 35617, 35618, 35621, 35623, 35625,
+      35631, 35633, 35644, 35645, 35663, 35666, 35667, 35675, 35689, 35706,
+      35715, 35729, 35739, 35744
+    ],
+    "refined": [35565, 35594],
+    "previously_reconciled": [35580, 35655],
+    "held_meanings_or_context": [
+      35542, 35555, 35577, 35663, 35674, 35695, 35698, 35730
+    ]
+  },
+  "edits": [
+    {
+      "id": 35565,
+      "old": "불쌍한 사람들? 그들에게 보상이라도 해.",
+      "new": "불쌍한 사람들? 그들에게 보상이라도 하라는 거야?",
+      "reason": "English/Japanese support a questioning reaction, not a directive."
+    },
+    {
+      "id": 35594,
+      "old": "신들의 뜻으로 아르케스(Arkes)의 지하 묘소에 오게 될 줄 알았어. 그런데 지금 나는 그저 육신을 지닌 존재인 아노카토스(Anokatos)의 뜻만으로 이곳에 와 있군.",
+      "new": "아르케스(Arkes)의 지하 묘소에 오게 된다면 신들의 뜻 때문일 거라고 늘 생각했어. 그런데 지금 여기 온 건 오직 육신을 지닌 아노카토스(Anokatos)의 뜻 때문이야.",
+      "reason": "Clarify the source contrast and remove the difficult existential construction without changing the plain voice."
+    }
+  ],
+  "fingerprints_refreshed": [35565, 35594],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2244,
+    "total": 4015,
+    "percent": 55.89,
+    "remaining": 1771
+  },
+  "verification": {
+    "four_language_candidate_ids_checked": 38,
+    "translation_csv_changed": true,
+    "changed_default_ids": [35565, 35594],
+    "source_csv_or_extracted_asset_changed": false,
+    "full_review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "dialogue_context_index_tests": "passed (9)",
+    "csv_structure": "passed (65135 ordered records; UTF-8 BOM preserved)",
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "speaker_or_playback_order_inferred": false
+  }
+}

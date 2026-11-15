@@ -1,0 +1,116 @@
+{
+  "range": [
+    20000,
+    20249
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 18,
+  "range_candidate_id_list": [
+    20022,
+    20041,
+    20052,
+    20059,
+    20094,
+    20095,
+    20097,
+    20141,
+    20145,
+    20178,
+    20188,
+    20204,
+    20205,
+    20206,
+    20219,
+    20233,
+    20244,
+    20248
+  ],
+  "reconciled_candidate_ids": 23,
+  "decisions": {
+    "confirmed_current": [
+      20022,
+      20041,
+      20052,
+      20059,
+      20094,
+      20095,
+      20097,
+      20141,
+      20145,
+      20178,
+      20188,
+      20204,
+      20205,
+      20206,
+      20219,
+      20233,
+      20244,
+      20248
+    ],
+    "linked_candidate_confirmed": [
+      20258,
+      24055,
+      47675,
+      47741,
+      62895
+    ]
+  },
+  "additional_linked_candidate_ids_reconciled": [
+    20258,
+    24055,
+    47675,
+    47741,
+    62895
+  ],
+  "related_consistency_groups": {
+    "Blood Doge title": [
+      20141,
+      20258,
+      47675,
+      54182
+    ],
+    "Freehold proper-name form": [
+      1103,
+      9997,
+      10946,
+      19717,
+      20244,
+      21591,
+      24055,
+      25148,
+      28620,
+      29810,
+      30178,
+      39044,
+      45467,
+      45568,
+      47120,
+      47741,
+      53301,
+      62895
+    ]
+  },
+  "previously_uncertain_non_candidate_supported_by_group_evidence": [
+    9997
+  ],
+  "held_non_candidate_ids": [
+    20011,
+    20045,
+    20053,
+    20127,
+    20174
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1116,
+    "total": 4015,
+    "percent": 27.8,
+    "remaining": 2899
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "fingerprint_refreshed_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

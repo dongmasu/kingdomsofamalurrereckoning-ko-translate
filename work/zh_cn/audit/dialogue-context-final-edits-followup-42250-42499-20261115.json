@@ -1,0 +1,128 @@
+{
+  "range": [42250, 42499],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-42250-42499-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-40000-45999-20261114.json",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    42254, 42258, 42261, 42297, 42307, 42329, 42340, 42348, 42349, 42350,
+    42351, 42360, 42371, 42377, 42385, 42426, 42431, 42445, 42447, 42449,
+    42450, 42456, 42461, 42474, 42489, 42493
+  ],
+  "newly_reconciled_ids": [
+    15833, 16532, 42254, 42258, 42261, 42297, 42307, 42329, 42340, 42348,
+    42349, 42350, 42351, 42360, 42371, 42377, 42385, 42426, 42431, 42445,
+    42447, 42449, 42450, 42456, 42461, 42474, 42489, 42493
+  ],
+  "newly_reconciled_total": 28,
+  "newly_identified_candidates": [
+    {
+      "id": 15833,
+      "previous_ledger_status": "not-issue",
+      "linked_exact_source_id": 42371,
+      "reason": "The English, Japanese, and Chinese objective rows are identical. Its Korean objective lacked the -하기 ending used by the exact-source duplicate."
+    },
+    {
+      "id": 16532,
+      "previous_ledger_status": "not-issue",
+      "linked_exact_source_id": 42307,
+      "reason": "The English, Japanese, and Chinese objective rows are identical. Its Korean objective lacked the -하기 ending used by the exact-source duplicate."
+    }
+  ],
+  "cleared_false_positive_candidates": [],
+  "decisions": {
+    "confirmed_current_candidate_ids": [
+      42254, 42258, 42261, 42297, 42307, 42329, 42340, 42348, 42349, 42350,
+      42351, 42360, 42371, 42377, 42385, 42426, 42431, 42445, 42449, 42461,
+      42474, 42493
+    ],
+    "corrected_now": [15833, 16532, 42450, 42456, 42489],
+    "evidence_limited_candidate_holds": [42447],
+    "other_evidence_limited_holds_preserved": [42268, 42272, 42315, 42405, 42482]
+  },
+  "linked_exact_source_groups": {
+    "Kill the Crudok objective": {
+      "ids": [16532, 42307],
+      "result": "English, Japanese, and Chinese rows are identical; both Korean objectives now read 크루독(Crudok) 처치하기."
+    },
+    "Destroy the Prismere Chantries objective": {
+      "ids": [15833, 42371],
+      "result": "English, Japanese, and Chinese rows are identical; both Korean objectives now read 프리즘미어 예배당(Prismere Chantries) 파괴하기."
+    }
+  },
+  "preexisting_supported_edits": [
+    {
+      "id": 42340,
+      "current": "도와줄게.",
+      "reason": "The existing edit uses a natural plain-style offer supported by English and Japanese."
+    },
+    {
+      "id": 42350,
+      "current": "생각지도 못한 선택이네. 좋아. 토론을 시작하자.",
+      "reason": "The existing edit resolves the marked-register shift and matches the plain conversational Japanese."
+    }
+  ],
+  "edits": [
+    {
+      "id": 15833,
+      "old": "프리즘미어 예배당(Prismere Chantries) 파괴",
+      "new": "프리즘미어 예배당(Prismere Chantries) 파괴하기",
+      "reason": "Match exact-source duplicate 42371 and the established action-form objective ending."
+    },
+    {
+      "id": 16532,
+      "old": "크루독(Crudok) 처치",
+      "new": "크루독(Crudok) 처치하기",
+      "reason": "Match exact-source duplicate 42307 and the established action-form objective ending."
+    },
+    {
+      "id": 42450,
+      "old": "다만 재료가 필요해. 비치스톤(Beachstone) 세 묶음, 곰가죽 두 묶음, 바다강철(Seasteel) 세 묶음이야.",
+      "new": "다만 재료가 필요해. 비치스톤(Beachstone) 세 묶음, 곰가죽(Bearhide) 두 묶음, 바다강철(Seasteel) 세 묶음이야.",
+      "reason": "Complete the English pairing for every named material in the requested list."
+    },
+    {
+      "id": 42456,
+      "old": "내 경비료도 겨우 낼 판인데, 해충 구제업자까지 고용할 돈이 어디 있어.",
+      "new": "내 경비료도 겨우 낼 판인데, 해충 구제업자까지 고용할 돈이 어디 있어?",
+      "reason": "Mark the rhetorical question explicitly; Japanese and Chinese support the incredulous question."
+    },
+    {
+      "id": 42489,
+      "old": "십 년 전 투아사(Tuatha)가 침공했을 때 하인과 고문인 우리는 감옥에 갇혔어. 불쌍한 죄수 대부분은 굶주림이나 병으로 죽었지.",
+      "new": "투아사(Tuatha)는 십 년 전 침공 당시 하인과 고문으로 일하던 우리를 감옥에 가뒀어. 불쌍하게도 죄수 대부분이 굶주림이나 병으로 죽었지.",
+      "reason": "Clarify the servants-and-advisors appositive and integrate the source's sympathetic poor souls phrase in natural Korean."
+    }
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 2759,
+    "previous_total": 4020,
+    "newly_identified_candidates_added_to_total": 2,
+    "false_positive_candidates_removed_from_total": 0,
+    "reconciled": 2787,
+    "total": 4022,
+    "percent": 69.29,
+    "remaining": 1235
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [15833, 16532, 42450, 42456, 42489],
+    "ledger_fingerprint_ids_refreshed": [15833, 16532, 42450, 42456, 42489],
+    "newly_reclassified_ledger_ids": [15833, 16532],
+    "ledger_reviewed_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "regression_tests": "11 CSV-preservation and 9 dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_crlf": 71839,
+    "csv_lf_only": 242,
+    "csv_bare_cr": 0,
+    "exact_source_duplicate_checks": "passed for 15833/42371 and 16532/42307; all four language rows now match",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

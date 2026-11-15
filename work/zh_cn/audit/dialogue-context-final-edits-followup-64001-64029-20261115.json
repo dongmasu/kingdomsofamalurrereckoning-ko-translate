@@ -1,0 +1,27 @@
+{
+  "range": [64001, 64029],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "prior_range_report": "dialogue-context-default-64000-64249-revalidation-20261113.md",
+    "related_reports": [
+      "dialogue-context-translation-followup-64001-64029-20261115.md"
+    ]
+  },
+  "revalidated_no_change": [64001, 64003, 64004, 64015, 64021, 64023, 64029],
+  "retained_holds": [64017],
+  "edits": [
+    {
+      "id": 64018,
+      "old": "뱃사람들의 허풍 섞인 이야기를 듣는 게 좋아.",
+      "new": "뱃사람들의 이야기를 듣는 게 좋아.",
+      "reason": "The same-ID English, Japanese, and Chinese support a sailor's story but do not establish that it is an exaggerated boast."
+    }
+  ],
+  "translation_csv_changed": true,
+  "changed_default_ids": [64018],
+  "ledger_fingerprint_changed_ids": [64018],
+  "ledger_dispositions_changed": false,
+  "source_csv_or_extracted_asset_changed": false,
+  "commit_made": false
+}

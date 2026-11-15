@@ -1,0 +1,124 @@
+{
+  "range": [
+    20250,
+    20499
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 22,
+  "range_candidate_id_list": [
+    20258,
+    20265,
+    20273,
+    20274,
+    20301,
+    20339,
+    20344,
+    20347,
+    20348,
+    20359,
+    20376,
+    20377,
+    20416,
+    20427,
+    20428,
+    20434,
+    20444,
+    20453,
+    20465,
+    20467,
+    20473,
+    20491
+  ],
+  "reconciled_candidate_ids": 22,
+  "newly_reconciled_candidate_ids": 21,
+  "decisions": {
+    "confirmed_current": [
+      20265,
+      20273,
+      20274,
+      20301,
+      20339,
+      20344,
+      20347,
+      20348,
+      20359,
+      20376,
+      20377,
+      20416,
+      20427,
+      20428,
+      20434,
+      20444,
+      20453,
+      20465,
+      20467,
+      20473,
+      20491
+    ],
+    "previously_reconciled_not_counted_twice": [
+      20258
+    ],
+    "linked_candidate_confirmed": [
+      42743
+    ]
+  },
+  "additional_linked_candidate_ids_reconciled": [
+    42743
+  ],
+  "related_consistency_groups": {
+    "Tuatha de Deohn name and undefeated meaning": [
+      20427,
+      42743
+    ],
+    "Blood Doge title": [
+      20141,
+      20258,
+      47675,
+      54182
+    ],
+    "King of Cups exact-English duplicates": [
+      147,
+      2345,
+      4961,
+      6644,
+      9748,
+      12159,
+      13670,
+      15598,
+      20444,
+      30849,
+      33018,
+      35070,
+      49949,
+      52369,
+      54932,
+      56837,
+      57745,
+      59823,
+      61570,
+      63233
+    ]
+  },
+  "previously_reviewed_but_not_previously_counted": [
+    20444
+  ],
+  "held_non_candidate_ids": [
+    20268,
+    20310,
+    20493,
+    20498
+  ],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1138,
+    "total": 4015,
+    "percent": 28.34,
+    "remaining": 2877
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "fingerprint_refreshed_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

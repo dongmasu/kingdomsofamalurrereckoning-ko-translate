@@ -1,0 +1,380 @@
+{
+  "input_sha256": "fcca58a1f6271b1851b351067723e1ee1d4659a5659e0e7fdba3d0064911c194",
+  "ledger_input_sha256": "c83b79b26b689dd0cafa42adf4907827f37c16d7e6f8f4d049bba6450f0c9bcb",
+  "output_sha256": "69197ed5037e754ba01bf465a0365676b5b14d4ad0d9c949c63cbefe0e6ce0b0",
+  "ledger_output_sha256": "f2e5b8967b3f0f1c2d28eb8a3cd0fef467f9865cde0ca6542ca2335a3e7e9810",
+  "application": {
+    "status": "applied",
+    "operations": 80,
+    "target_applications": 80,
+    "unique_ids": 79
+  },
+  "verification": {
+    "csv_rows": 65135,
+    "utf8_bom": true,
+    "crlf_endings": 71845,
+    "lf_only_endings": 244,
+    "replace_text_preserve_eol_tests": 11,
+    "review_ledger_ids": 65135,
+    "index_and_catalog_checks": "passed",
+    "crlf_aware_diff_check": "passed"
+  },
+  "scope": "Adjudicate every candidate in default IDs 12000-12999, including candidates first recorded in asset-group reports, then apply supported ID-scoped corrections and directly linked terminology groups.",
+  "matching": "Each edit replaces one exact fragment in each listed ID. The application expands each fragment rule against the current parsed Texto field and invokes tools/replace_text_preserve_eol.py for every target ID.",
+  "already_resolved": [
+    {
+      "id": 12766,
+      "reason": "The active journal already pairs Grim Onwig's name in the first mention, so no CSV change is needed."
+    }
+  ],
+  "edits": [
+    {
+      "ids": [12001],
+      "find": "널 기절할 때까지 두들겨 패야겠군.",
+      "replace": "널 두들겨 패서 기절시켜야겠군.",
+      "reason": "Use a natural result construction for beating someone unconscious."
+    },
+    {
+      "ids": [12090],
+      "find": "이 땅에서는 조심하게.",
+      "replace": "이 땅에서는 조심해.",
+      "reason": "Remove the marked hageche shift; Japanese is casual."
+    },
+    {
+      "ids": [12130],
+      "find": "조심하게.",
+      "replace": "조심해.",
+      "reason": "Keep the closing caution in the same conversational register as the preceding clauses."
+    },
+    {
+      "ids": [12131],
+      "find": "필멸자는 교육도 받지 않고, 교활한 수법이나 예절도 배우지 않는 건가? 다시는 날 방해하지 말게. 사그렐 경(Sir Sagrell)의 이야기가 아직 끝나지 않았어.",
+      "replace": "필멸자는 교육도 받지 않고, 잔꾀나 예절도 배우지 않는가? 다시는 날 방해하지 말게. 사그렐 경(Sir Sagrell)의 이야기는 아직 끝나지 않았네.",
+      "reason": "Apply the HM01 source-checked rebuke and maintain a coherent elevated register throughout the utterance."
+    },
+    {
+      "ids": [147, 2345, 4961, 6644, 9748, 12159, 13670, 15598, 20444, 30849, 33018, 35070, 49949, 52369, 54932, 56837, 57745, 59823, 61570, 63233],
+      "find": "컵의 왕 이리온(Irion, King of Cups)",
+      "replace": "컵의 왕(King of Cups) 이리온(Irion)",
+      "reason": "Pair the title separately from the personal name across the exact-English duplicate group."
+    },
+    {
+      "ids": [8360, 14861],
+      "find": "은둔 대장장이",
+      "replace": "은둔 대장장이(Hermit Smith)",
+      "reason": "Use the established source-paired epithet in standalone labels."
+    },
+    {
+      "ids": [10939],
+      "find": "은둔 대장장이의 도움을 받아라",
+      "replace": "은둔 대장장이(Hermit Smith)의 도움 구하기",
+      "reason": "Pair the explicit epithet and keep the quest objective in the established action form."
+    },
+    {
+      "ids": [11581],
+      "find": "은둔 대장장이",
+      "replace": "은둔 대장장이(Hermit Smith)",
+      "reason": "Pair the explicit epithet in this sentence."
+    },
+    {
+      "ids": [12164],
+      "find": "은둔자 대장장이",
+      "replace": "은둔 대장장이(Hermit Smith)",
+      "reason": "Align the explicit epithet with the established contextual form."
+    },
+    {
+      "ids": [19097],
+      "find": "은둔 대장장이 찾기",
+      "replace": "은둔 대장장이(Hermit Smith) 찾기",
+      "reason": "Pair the named quest target."
+    },
+    {
+      "ids": [28676],
+      "find": "은둔자 대장장이",
+      "replace": "은둔 대장장이(Hermit Smith)",
+      "reason": "Align and pair the explicit epithet."
+    },
+    {
+      "ids": [28839],
+      "find": "은둔자 대장장이를 설득해",
+      "replace": "은둔 대장장이(Hermit Smith)를 설득해",
+      "reason": "Pair the explicit epithet in the quest-summary sentence."
+    },
+    {
+      "ids": [59710],
+      "find": "은둔자 대장장이와 대화",
+      "replace": "은둔 대장장이(Hermit Smith)와 대화하기",
+      "reason": "Pair the named target and use the established objective form."
+    },
+    {
+      "ids": [12173],
+      "find": "그 서신들을 내게 넘기면",
+      "replace": "그 책을 내게 넘기면",
+      "reason": "The Missives is one named book, not plural letters."
+    },
+    {
+      "ids": [12225],
+      "find": "카즈시미르(Cadsymyr)",
+      "replace": "카드시미르(Cadsymyr)",
+      "reason": "Align this proper-name spelling with the established form in the same quest."
+    },
+    {
+      "ids": [12344],
+      "find": "산길을 개방하라",
+      "replace": "산길 개방하기",
+      "reason": "Use the established concise quest-objective form."
+    },
+    {
+      "ids": [12347],
+      "find": "각하, 뭘 도와드릴까? 난 백색의 할람(Hallam the White)을 늘 존경해 왔어.",
+      "replace": "각하, 무엇을 도와드릴까요? 저는 늘 백색의 할람(Hallam the White)을 흠모해 왔습니다.",
+      "reason": "Make the deferential address and self-introduction consistently polite, retaining the established title and name."
+    },
+    {
+      "ids": [12353],
+      "find": "해독제를 즉시 보내겠습니다. 하지만 누군가는 조치를 취해야 해요. 도시 경비대(City Watch)로 가서 파비안 티른(Favian Tyrn)과 이야기하세요. 당장요.",
+      "replace": "해독제는 바로 보낼게. 하지만 누군가는 나서야 해. 도시 경비대(City Watch)에 가서 파비안 티른(Favian Tyrn)과 이야기해. 어서.",
+      "reason": "Recast the whole instruction in one natural conversational register, consistent with Japanese."
+    },
+    {
+      "ids": [12357],
+      "find": "발췌 제3\n\n장: 질서에 매달리다",
+      "replace": "발췌\n\n제3장: 질서에 매달리다",
+      "reason": "Keep the chapter number and label together while retaining the blank separation before the excerpt."
+    },
+    {
+      "ids": [3782],
+      "find": "테스타먼트(Testament)",
+      "replace": "성약단(The Testament)",
+      "reason": "Use the established short name and source-pairing form for the faction."
+    },
+    {
+      "ids": [12365],
+      "find": "테스타먼트 병사들",
+      "replace": "성약단(The Testament) 병사들",
+      "reason": "Name and pair the faction whose soldiers are identified in English."
+    },
+    {
+      "ids": [12917],
+      "find": "테스타먼트의 그 망할 자식 몇 놈",
+      "replace": "성약단(The Testament)의 그 망할 자식 몇 놈",
+      "reason": "Use the established short faction name while preserving the insult and tone."
+    },
+    {
+      "ids": [17685],
+      "find": "베일런 결사(Testament)",
+      "replace": "성약단(The Testament)",
+      "reason": "Correct the inconsistent faction spelling and use its established short form."
+    },
+    {
+      "ids": [21745],
+      "find": "테스타먼트(The Testament) 사람들",
+      "replace": "성약단(The Testament) 사람들",
+      "reason": "Align the faction rendering with the source and established Korean term."
+    },
+    {
+      "ids": [23116],
+      "find": "테스타먼트(The Testament)가",
+      "replace": "성약단(The Testament)이",
+      "reason": "Align the faction rendering and adjust the particle to the Korean name."
+    },
+    {
+      "ids": [23469],
+      "find": "테스타먼트 신도",
+      "replace": "성약단(The Testament) 신도",
+      "reason": "Use the established faction name for its members."
+    },
+    {
+      "ids": [24590],
+      "find": "테스타먼트의 식수원",
+      "replace": "성약단(The Testament)의 식수원",
+      "reason": "Use the established faction name in the possessive reference."
+    },
+    {
+      "ids": [30409],
+      "find": "테스타먼트가 관심을 보인다면",
+      "replace": "성약단(The Testament)이 관심을 보인다면",
+      "reason": "Align the explicit faction reference and its Korean particle."
+    },
+    {
+      "ids": [38372],
+      "find": "테스타먼트(The Testament)가",
+      "replace": "성약단(The Testament)이",
+      "reason": "Align the explicit faction reference and its Korean particle."
+    },
+    {
+      "ids": [38597],
+      "find": "테스타먼트(The Testament)는",
+      "replace": "성약단(The Testament)은",
+      "reason": "Use the established short faction name without changing the sentence's meaning."
+    },
+    {
+      "ids": [40782],
+      "find": "테스타먼트를 무너뜨리던",
+      "replace": "성약단(The Testament)을 무너뜨리던",
+      "reason": "Use the established faction name while preserving the source's meaning."
+    },
+    {
+      "ids": [44627],
+      "find": "테스타먼트가 왜",
+      "replace": "성약단(The Testament)이 왜",
+      "reason": "Align the explicit faction reference and its Korean particle."
+    },
+    {
+      "ids": [60393],
+      "find": "벨렌의 테스타먼트(Testament)의 저수조",
+      "replace": "성약단(The Testament)의 저수조",
+      "reason": "Use the established short name for the source's Testament and remove the mismatched parenthetical."
+    },
+    {
+      "ids": [12382],
+      "find": "고서를 읽어라",
+      "replace": "고서 읽기",
+      "reason": "Match the nominal action form used by the related quest objectives."
+    },
+    {
+      "ids": [12395],
+      "find": "권위자(Authority)",
+      "replace": "권능(Authority)",
+      "reason": "Use the established divine title."
+    },
+    {
+      "ids": [12416],
+      "find": "내가 도둑맞은 부적",
+      "replace": "내게서 훔쳐 간 부적",
+      "reason": "Clarify that the amulet was stolen from the speaker."
+    },
+    {
+      "ids": [6593],
+      "find": "이 책을 말하는 거야?",
+      "replace": "이 서품서(Ordination Tome)를 말하는 거야?",
+      "reason": "Name the same specific artifact consistently across its quest references."
+    },
+    {
+      "ids": [8217],
+      "find": "귀중한 책을",
+      "replace": "귀중한 서품서(Ordination Tome)를",
+      "reason": "Use the established name for the specific tome."
+    },
+    {
+      "ids": [12427],
+      "find": "고서는 우리 차지가 될 거야.",
+      "replace": "서품서(Ordination Tome)는 우리 차지가 될 거야.",
+      "reason": "Use the established name for the same specific artifact."
+    },
+    {
+      "ids": [22834],
+      "find": "그 책은 내가 구해 올게.",
+      "replace": "그 서품서(Ordination Tome)는 내가 구해 올게.",
+      "reason": "Use the established name for the same specific artifact."
+    },
+    {
+      "ids": [23790],
+      "find": "고서는 어디 있지?",
+      "replace": "서품서(Ordination Tome)는 어디 있지?",
+      "reason": "Use the established name for the same specific artifact."
+    },
+    {
+      "ids": [17, 12545, 33632],
+      "find": "쿨더 대사(Kulder Ambassador)",
+      "replace": "쿨더 대사(Ambassador Kulder)",
+      "reason": "Use the established English title-name order across the identical title and its introduction."
+    },
+    {
+      "ids": [12434],
+      "find": "감사 표시로 아카라(Akara)의 도움을 기리기 위해 안뜰에 거대한 나무의 씨앗을 심었어. 괜찮았으면 좋겠네. 내가 할 수 있는 최소한의 일이라고 생각해.",
+      "replace": "네가 괜찮아했으면 좋겠네. 고마운 마음을 담아, 아카라(Akara)의 도움을 기리는 큰 나무의 씨앗을 안뜰에 심었어. 그 정도가 내가 할 수 있는 최소한의 일이라고 생각해.",
+      "reason": "Recast the stacked purpose phrases as natural Korean while retaining both gratitude and honoring Akara's help."
+    },
+    {
+      "ids": [12506],
+      "find": "남은 우리, 즉 협력자들이",
+      "replace": "남은 우리, 즉 부역자들이",
+      "reason": "Preserve the negative occupation-era nuance of collaborators, supported by the Chinese source."
+    },
+    {
+      "ids": [12550],
+      "find": "우리 여동생이",
+      "replace": "우리 자매가",
+      "reason": "Avoid adding an age distinction that English and Chinese do not specify."
+    },
+    {
+      "ids": [12571],
+      "find": "형 루이(Louis)와 나는",
+      "replace": "형제인 루이(Louis)와 나는",
+      "reason": "Avoid assuming the sibling's relative age or the speaker's gender."
+    },
+    {
+      "ids": [12585],
+      "find": "기꺼이 하겠어.",
+      "replace": "받아들이겠어.",
+      "reason": "Render acceptance of the condition without making the speaker sound eager."
+    },
+    {
+      "ids": [12610],
+      "find": "《불타는 검의 수호자들》",
+      "replace": "《불타는 검의 수호자들(Keepers of the Flaming Sword)》",
+      "reason": "Pair the complete named ballad title."
+    },
+    {
+      "ids": [12610],
+      "find": "《초록 처녀》",
+      "replace": "《초록 처녀(The Green Maiden)》",
+      "reason": "Pair the complete named ballad title."
+    },
+    {
+      "ids": [12673],
+      "find": "범죄 벌금 무마용 뇌물로 금화 10,000개 이상 쓰기.",
+      "replace": "범죄 관련 뇌물로 금화 10,000개 넘게 쓰기.",
+      "reason": "Preserve the strict greater-than threshold and avoid narrowing crime bribes to fine evasion."
+    },
+    {
+      "ids": [12735],
+      "find": "페이(Fae) 로어스톤",
+      "replace": "페이(Fae) 로어스톤(Lorestone)",
+      "reason": "Pair the established Lorestone term at its first occurrence in this context."
+    },
+    {
+      "ids": [12836],
+      "find": "조금... 관례에 어긋나는 제안을 하나 하겠네.",
+      "replace": "조금... 색다른 제안을 하나 하겠네.",
+      "reason": "Use natural Korean for an unusual proposal without implying a violation of formal custom."
+    },
+    {
+      "ids": [12887],
+      "find": "앉아서 술 한 잔 들게, 나그네. 네 용건은 남들 귀에 들어가지 않게 하고.",
+      "replace": "앉아서 술 한잔해, 나그네. 볼일은 조용히 처리하고.",
+      "reason": "Replace marked hageche and render the request to keep business quiet naturally."
+    },
+    {
+      "ids": [12890],
+      "find": "불의 비전적 속성을 숭배하는 자멸적인 광신도들.",
+      "replace": "불의 비전적 측면을 숭배하는, 다소 자멸적인 광신도들.",
+      "reason": "Restore the source qualifier somewhat and use a natural description."
+    },
+    {
+      "ids": [12893],
+      "find": "와이번-기프르(Wyvyrn-Gifre) 대저택",
+      "replace": "와이번-기프르(Wyvyrn-Gifre) 대가문",
+      "reason": "Render Great House as a noble family/institution rather than a mansion."
+    },
+    {
+      "ids": [12934],
+      "find": "내가 지은 죄가 드디어 전부 나를 따라잡고 있어.",
+      "replace": "내가 지은 죄의 대가를 마침내 치르게 됐어.",
+      "reason": "Render the English idiom naturally without personifying sins as chasing the speaker."
+    },
+    {
+      "ids": [12956],
+      "find": "오랜 세월 이 늪지 곳곳에 퍼져 들었어.",
+      "replace": "오랜 세월에 걸쳐 이 늪지 곳곳에 퍼져 왔어.",
+      "reason": "Replace the unnatural verb combination while preserving the spread-through-the-swamps meaning."
+    },
+    {
+      "ids": [12964],
+      "find": "네가 우리 유일한 희망일지도 몰라.",
+      "replace": "네가 우리에게 남은 유일한 선택지일지도 몰라.",
+      "reason": "Preserve the source's uncertain 'only option' rather than changing it to hope."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "range": [8500, 8749],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 21,
+  "range_candidate_id_list": [
+    8516,
+    8523,
+    8536,
+    8547,
+    8553,
+    8562,
+    8577,
+    8606,
+    8617,
+    8625,
+    8628,
+    8653,
+    8662,
+    8663,
+    8684,
+    8694,
+    8735,
+    8737,
+    8738,
+    8742,
+    8749
+  ],
+  "reconciled_candidate_ids": 21,
+  "decisions": [
+    {
+      "id": 8516,
+      "decision": "retained",
+      "reason": "The current same-species wording naturally conveys our own Hallam and matches exact-English duplicate 7733."
+    },
+    {
+      "id": 8523,
+      "decision": "retained",
+      "reason": "The previously accepted line 자신의 처지가 못마땅했네 is already present; the ten-line poem structure is preserved."
+    },
+    {
+      "id": 8536,
+      "decision": "retained",
+      "reason": "The current sentence directly addresses the listener as 나그네 and no longer implies a third-party giving relation."
+    },
+    {
+      "id": 8547,
+      "decision": "corrected",
+      "reason": "Avoided adding elapsed time to Hello, old friend while preserving its familiar address."
+    },
+    {
+      "id": 8553,
+      "decision": "retained",
+      "reason": "The full Witchknight Anira title and name are already paired."
+    },
+    {
+      "id": 8562,
+      "decision": "retained",
+      "reason": "염주 is the established prayer-bead term and matches exact-English duplicate 15198."
+    },
+    {
+      "id": 8577,
+      "decision": "retained",
+      "reason": "광란에 빠진 광부들 naturally conveys Frenzied Miners without adding a cause."
+    },
+    {
+      "id": 8606,
+      "decision": "retained",
+      "reason": "The quest-specific urn term and grammatical particle were already corrected."
+    },
+    {
+      "id": 8617,
+      "decision": "retained",
+      "reason": "Both Scaith mentions are paired and no gendered pronoun was added."
+    },
+    {
+      "id": 8625,
+      "decision": "retained",
+      "reason": "Magnus and Grand Champion are both paired while preserving the self-correction."
+    },
+    {
+      "id": 8628,
+      "decision": "retained",
+      "reason": "Cornall is already paired and the conversational register is appropriate."
+    },
+    {
+      "id": 8653,
+      "decision": "retained",
+      "reason": "Both place names are paired and the route and distance meaning are preserved."
+    },
+    {
+      "id": 8662,
+      "decision": "retained",
+      "reason": "Weave and Rifts use the established fate-related terminology."
+    },
+    {
+      "id": 8663,
+      "decision": "retained",
+      "reason": "The current Korean pairing matches the other 25 exact-English copies."
+    },
+    {
+      "id": 8684,
+      "decision": "retained",
+      "reason": "The destination is identified as 복수의 집(House of Vengeance)."
+    },
+    {
+      "id": 8694,
+      "decision": "retained",
+      "reason": "Scarwood is already paired without adding the absent Bark qualifier."
+    },
+    {
+      "id": 8735,
+      "decision": "retained",
+      "reason": "The prior source-based edit already uses 입문자 and the accepted source-local Jorum Quintus name."
+    },
+    {
+      "id": 8737,
+      "decision": "corrected",
+      "reason": "Replaced literal 거의 기뻐 with natural conversational wording for being unexpectedly glad to be in the swamp."
+    },
+    {
+      "id": 8738,
+      "decision": "retained",
+      "reason": "The current item description uses explanatory plain style rather than conversational speech."
+    },
+    {
+      "id": 8742,
+      "decision": "retained",
+      "reason": "Named entities are paired and the awkward survival clause is already corrected; all seven paragraphs remain."
+    },
+    {
+      "id": 8749,
+      "decision": "retained",
+      "reason": "Long Winter is paired and the firm self-introduction is preserved."
+    }
+  ],
+  "edits": [
+    {
+      "id": 8547,
+      "old": "오랜만이야, 친구!",
+      "new": "반가워, 오랜 친구!",
+      "reason": "Preserve the familiar address without implying the pair have not met recently."
+    },
+    {
+      "id": 8737,
+      "old": "이상하게 들리겠지만, 이 늪에 나오게 되어 거의 기뻐.",
+      "new": "이상하게 들리겠지만, 이 늪에 와 있는 게 기쁘기까지 해.",
+      "reason": "Replace a literal, unnatural rendering while preserving the unexpectedly positive feeling."
+    }
+  ],
+  "fingerprints_refreshed": [8547, 8737],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 484,
+    "total": 4015,
+    "percent": 12.05,
+    "remaining": 3531
+  },
+  "verification": {
+    "csv_preservation_tests": 11,
+    "context_index_tests": 9,
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "line_endings": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "manifest_json": "valid"
+  }
+}

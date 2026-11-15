@@ -1,0 +1,120 @@
+{
+  "range": [44750, 44999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-44750-44999-revalidation-20261112.md",
+    "candidate_reconciliation": "dialogue-context-44750-44999-candidate-reconciliation-20261115.md",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    44750, 44755, 44756, 44758, 44776, 44777, 44784, 44787, 44807, 44818,
+    44822, 44840, 44852, 44853, 44855, 44861, 44866, 44886, 44887, 44891,
+    44903, 44908, 44913, 44914, 44915, 44916, 44930, 44945, 44950, 44957,
+    44958, 44964, 44968, 44973, 44975, 44977, 44981, 44983, 44985, 44999
+  ],
+  "newly_identified_candidates": [
+    {
+      "id": 30142,
+      "previous_ledger_status": "not-issue",
+      "linked_candidate_id": 44968,
+      "reason": "English, Japanese, and Chinese source rows exactly match; the Korean title had the same awkward wording and required the same correction."
+    }
+  ],
+  "newly_reconciled_ids": [
+    30142, 44750, 44755, 44756, 44758, 44776, 44777, 44784, 44787, 44807,
+    44818, 44822, 44840, 44852, 44853, 44855, 44861, 44866, 44886, 44887,
+    44891, 44903, 44908, 44913, 44914, 44915, 44916, 44930, 44945, 44950,
+    44957, 44958, 44964, 44968, 44973, 44975, 44977, 44981, 44983, 44985,
+    44999
+  ],
+  "newly_reconciled_total": 41,
+  "decisions": {
+    "corrected_now": [30142, 44840, 44861, 44887, 44945, 44968],
+    "already_correct_or_supported": [
+      44750, 44755, 44756, 44758, 44776, 44777, 44784, 44787, 44807, 44818,
+      44822, 44852, 44853, 44855, 44866, 44886, 44891, 44903, 44908, 44913,
+      44914, 44915, 44916, 44930, 44950, 44957, 44958, 44964, 44973, 44975,
+      44977, 44981, 44983, 44985, 44999
+    ],
+    "held_for_independent_evidence": []
+  },
+  "edits": [
+    {
+      "id": 30142,
+      "old": "결투의 보조인",
+      "new": "결투의 조력자(A Second to a Duel)",
+      "reason": "Match the corrected exact-source counterpart 44968; English, Japanese, and Chinese are identical."
+    },
+    {
+      "id": 44840,
+      "old": "유독성 잔류물",
+      "new": "유독성 잔류물(Toxic Residue)",
+      "reason": "Pair the standalone material label with its English source name."
+    },
+    {
+      "id": 44861,
+      "old": "트롤(Troll) 여족장과 그 무리가 하크시(Haxhi)에서 기다리고 있어. 그들의 타락이 내 뿌리를 태우고 우리의 미래를 위협해.",
+      "new": "트롤 여족장(Troll Matriarch)과 그 무리가 하크시(Haxhi)에서 기다리고 있어. 그들의 타락이 내 뿌리를 태우고 우리의 미래를 위협해.",
+      "reason": "Pair the complete Troll Matriarch creature type rather than only the generic Troll component."
+    },
+    {
+      "id": 44887,
+      "old": "조심하게.",
+      "new": "조심해.",
+      "reason": "Replace marked 하게체 with a natural plain imperative supported by the English and Japanese."
+    },
+    {
+      "id": 44945,
+      "old": "마법물품 제작자",
+      "new": "마법물품 제작자(Sagecrafter)",
+      "reason": "Pair the standalone profession label while keeping it distinct from the Sagecraft skill."
+    },
+    {
+      "id": 44968,
+      "old": "결투의 보조인",
+      "new": "결투의 조력자(A Second to a Duel)",
+      "reason": "Improve the duelist's-second title and pair it with English; match exact-source counterpart 30142."
+    }
+  ],
+  "linked_source_groups": {
+    "a_second_to_a_duel": {
+      "ids": [30142, 44968],
+      "result": "English, Japanese, and Chinese rows are identical; both Korean titles now read 결투의 조력자(A Second to a Duel)."
+    }
+  },
+  "evidence_limited_items": {
+    "44778": "The English placeholder THIS IS A BUG has conflicting insect/software readings across references; retain pending context.",
+    "44947": "Hollow may mean a cave or named valley; the current row does not establish the referent.",
+    "44953": "The Crux may be a proper name or a common noun; references differ.",
+    "44964": "The Quays referent remains unresolved; the separate Pryderi name pairing is resolved.",
+    "44978": "The final English clause and Japanese/Chinese references support conflicting readings."
+  },
+  "ledger_fingerprints_refreshed": [30142, 44840, 44861, 44887, 44945, 44968],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3023,
+    "previous_total": 4028,
+    "newly_reconciled": 41,
+    "newly_identified_candidates_added_to_total": 1,
+    "reconciled": 3064,
+    "total": 4029,
+    "percent": 76.05,
+    "remaining": 965
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [30142, 44840, 44861, 44887, 44945, 44968],
+    "all_four_language_fingerprints": "passed for all 65,135 reviewed IDs",
+    "catalog_reproducibility": "index and both catalogs passed",
+    "regression_tests": "20 combined CSV-preservation and dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

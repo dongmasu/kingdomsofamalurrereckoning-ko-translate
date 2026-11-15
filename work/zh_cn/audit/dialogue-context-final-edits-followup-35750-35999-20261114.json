@@ -1,0 +1,60 @@
+{
+  "range": [35750, 35999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-35750-35999-revalidation-20261112.md",
+    "prior_application": "dialogue-context-final-edits-33500-35999-20261114.json",
+    "accepted_terminology_decision": "named-scope-edit-addendum-D19835-20261013.md"
+  },
+  "range_candidate_ids": 12,
+  "range_candidate_id_list": [
+    35784, 35789, 35832, 35843, 35857, 35864, 35870, 35890, 35919, 35921,
+    35957, 35959
+  ],
+  "previously_reconciled_candidate_ids": [],
+  "newly_counted_candidate_ids": [
+    35784, 35789, 35832, 35843, 35857, 35864, 35870, 35890, 35919, 35921,
+    35957, 35959
+  ],
+  "decisions": {
+    "confirmed_current_or_previously_applied": [
+      35784, 35789, 35832, 35843, 35857, 35864, 35870, 35890, 35919, 35921,
+      35957
+    ],
+    "restored_accepted_wording": [35959],
+    "held_meanings_or_context": [35858, 35864, 35871, 35937, 35947]
+  },
+  "edits": [
+    {
+      "id": 35959,
+      "old": "그래…… 내가 최초의 스케이스(First Scaith)야. 우리 가족을 고통스럽게 만든 장본인이지.",
+      "new": "그래…… 내가 첫째 스케이스(First Scaith)야. 우리 가족을 고통스럽게 만든 장본인이지.",
+      "reason": "Restore the accepted D-19835 form, supported by the same ancestor's appellation at ID 11102."
+    }
+  ],
+  "fingerprints_refreshed": [35959],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 2256,
+    "total": 4015,
+    "percent": 56.19,
+    "remaining": 1759
+  },
+  "verification": {
+    "four_language_candidate_ids_checked": 12,
+    "translation_csv_changed": true,
+    "changed_default_ids": [35959],
+    "source_csv_or_extracted_asset_changed": false,
+    "full_review_ledger_fingerprints": "passed (65135 IDs)",
+    "index_and_catalog_reproduction": "passed",
+    "csv_preservation_tests": "passed (11)",
+    "dialogue_context_index_tests": "passed (9)",
+    "csv_structure": "passed (65135 ordered records; UTF-8 BOM preserved)",
+    "newline_inventory": {
+      "crlf": 71838,
+      "lf_only": 244,
+      "bare_cr": 0
+    },
+    "crlf_aware_diff_check": "passed",
+    "speaker_or_playback_order_inferred": false
+  }
+}

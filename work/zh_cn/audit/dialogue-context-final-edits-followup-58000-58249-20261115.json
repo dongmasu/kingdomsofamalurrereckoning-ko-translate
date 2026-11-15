@@ -1,0 +1,43 @@
+{
+  "range": [58000, 58249],
+  "scope_ids": [58055],
+  "source": {
+    "sequential_revalidation": "dialogue-context-default-58000-58249-revalidation-20261113.md",
+    "prior_application": "dialogue-context-final-edits-58000-65134-20261114.json",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"]
+  },
+  "newly_reconciled_ids": [58055],
+  "decisions": {
+    "corrected": [58055],
+    "held_for_conflicting_source_evidence": [58143]
+  },
+  "edits": [
+    {
+      "id": 58055,
+      "old": "동부 하수도 헨지",
+      "new": "동부 하수도 헨지(Eastern Sewers Henge)",
+      "reason": "Add the exact English source label for the eastern-sewer Henge location. The corresponding label at 44217 already has an English pairing. Keep the Korean lexical rendering and leave the Henge's physical classification unresolved."
+    }
+  ],
+  "ledger_fingerprint_changed_ids": [58055],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3297,
+    "previous_total": 4026,
+    "newly_reconciled": 1,
+    "reconciled": 3298,
+    "total": 4026,
+    "percent": 81.92,
+    "remaining": 728
+  },
+  "verification": {
+    "ledger_fingerprint_check": "passed for all 65,135 IDs",
+    "preservation_and_context_index_tests": "20 passed",
+    "csv_rows_and_order": "65,135 ordered unique IDs",
+    "utf8_bom_and_line_endings": "UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "58143": "held for conflicting source evidence",
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "range": [18250, 18499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 6,
+  "range_candidate_id_list": [
+    18293,
+    18315,
+    18322,
+    18371,
+    18398,
+    18433
+  ],
+  "reconciled_candidate_ids": 9,
+  "decisions": {
+    "previously_applied_confirmed": [
+      18293,
+      18315,
+      18322,
+      18371,
+      18398,
+      18433,
+      21389,
+      48830,
+      56054
+    ],
+    "refined": [],
+    "retained": [],
+    "held": []
+  },
+  "additional_linked_candidate_ids_reconciled": [
+    21389,
+    48830,
+    56054
+  ],
+  "related_consistency_groups": {
+    "SQ01 magical Well": [
+      5329,
+      5790,
+      18322,
+      21389,
+      39730,
+      48830,
+      56054
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 984,
+    "total": 4015,
+    "percent": 24.51,
+    "remaining": 3031
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "range": [64033, 64231],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "prior_range_report": "dialogue-context-default-64000-64249-revalidation-20261113.md",
+    "related_reports": [
+      "dialogue-context-translation-followup-64177-64213-20261115.md",
+      "dialogue-context-terminology-followup-64033-64231-20261115.md"
+    ]
+  },
+  "revalidated_no_change": [64033, 64093, 64107, 64125, 64231],
+  "edits": [
+    {
+      "id": 64218,
+      "old": "비사라네(Bisarane)의 부탁으로 클루리콘(Klurikon) 남부에 가게 됐다. 다말록 던전에서 엘더스트(The Eldest)라 불리는 옛 비탄의 집(House of Sorrows) 일원 두 명을 찾아야 한다. 그들이 미든(The Midden)으로 돌아오도록 설득한다면, 비사라네(Bisarane)가 비탄의 힘의 위치를 알아내 투아사(Tuatha)로부터 비탄의 힘을 지키는 데 도움을 줄 것이다.",
+      "new": "비사라네(Bisarane)의 부탁으로 클루리콘(Klurikon) 남부에 가게 됐다. 다말록(Damalroc) 던전에서 엘더스트(The Eldest)라 불리는 비탄의 집(House of Sorrows)의 옛 구성원 두 명을 찾아야 한다. 그들이 미든(The Midden)으로 돌아오도록 설득하면, 두 사람은 비사라네(Bisarane)가 비탄의 힘(Sorrows)의 위치를 알아내고 그 힘을 투아사(Tuatha)로부터 지키는 데 도움을 줄 것이다.",
+      "reason": "English identifies the pair as former members of the House of Sorrows called the Eldest and names the Sorrows as the power they will help locate and protect. Japanese confirms both distinctions. The correction clarifies the modifier, adds the established place-name pairing, and pairs the repeated power name."
+    }
+  ],
+  "translation_csv_changed": true,
+  "changed_default_ids": [64218],
+  "ledger_fingerprint_changed_ids": [64218],
+  "ledger_dispositions_changed": false,
+  "source_csv_or_extracted_asset_changed": false,
+  "commit_made": false
+}

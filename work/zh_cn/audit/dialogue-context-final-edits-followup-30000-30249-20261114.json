@@ -1,0 +1,91 @@
+{
+  "range": [30000, 30249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 22,
+  "range_candidate_id_list": [
+    30013,
+    30028,
+    30034,
+    30038,
+    30045,
+    30065,
+    30091,
+    30094,
+    30108,
+    30112,
+    30114,
+    30116,
+    30128,
+    30135,
+    30145,
+    30149,
+    30153,
+    30160,
+    30186,
+    30190,
+    30210,
+    30225
+  ],
+  "reconciled_candidate_ids": 22,
+  "newly_counted_candidate_ids": 22,
+  "previously_counted_ids": [],
+  "decisions": {
+    "edits": [
+      {
+        "id": 30091,
+        "reason": "English 'even though' and Japanese 'たとえ...なくとも' describe a factual concession, not a hypothetical.",
+        "old": "우리가 늘 친구처럼만 지냈더라도",
+        "new": "우린 늘 친구처럼만 지냈지만"
+      }
+    ],
+    "holds": [30094],
+    "confirmed_or_retained_in_active_csv": [
+      30013,
+      30028,
+      30034,
+      30038,
+      30045,
+      30065,
+      30108,
+      30112,
+      30114,
+      30116,
+      30128,
+      30135,
+      30145,
+      30149,
+      30153,
+      30160,
+      30186,
+      30190,
+      30210,
+      30225
+    ]
+  },
+  "fingerprints_refreshed": [30091],
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 1754,
+    "total": 4015,
+    "percent": 43.69,
+    "remaining": 2261
+  },
+  "verification": {
+    "four_language_rows_checked": 22,
+    "translation_csv_changed": true,
+    "changed_ids": [30091],
+    "source_csv_or_extracted_asset_changed": false,
+    "default_csv": {
+      "rows": 65135,
+      "id_order": "preserved",
+      "utf8_bom": true,
+      "line_endings": {
+        "crlf": 71838,
+        "lf_only": 244,
+        "bare_cr": 0
+      }
+    },
+    "ledger_fingerprint_check": "passed (65135 reviewed IDs)",
+    "regression_tests": "passed (20 tests)",
+    "manifest_json": "valid"
+  }
+}

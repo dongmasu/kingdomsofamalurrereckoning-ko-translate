@@ -1,0 +1,121 @@
+{
+  "range": [
+    6500,
+    6749
+  ],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 20,
+  "reconciled_candidate_ids": 20,
+  "changed_rows": [
+    6672,
+    6734
+  ],
+  "edits": [
+    {
+      "id": 6672,
+      "old": "하이페리언(Hyperian)이 솟아올랐어, 부름받은 자(Beckoned). 이렇게 영광스러운 시대에 살다니!",
+      "new": "부름받은 자(Beckoned)여, 하이페리언(Hyperian)이 솟아올랐어! 참으로 영광스러운 시대에 살고 있구나!",
+      "reason": "Move the vocative to the beginning of the sentence, matching the source's direct address and removing the disruptive mid-clause interruption."
+    },
+    {
+      "id": 6734,
+      "old": "보물 사냥꾼 헬릭 크로스(Helyc Crosse)라는 이의 초대를 받아 달렌타스(Dalentarth) 남쪽의 미탐사 지역인 나로스의 이빨(Teeth of Naros) 원정에 참여했다. 헬릭(Helyc)과 떨어진 뒤, 나를 데려왔다고 주장하는 초자연적 존재와 접촉했다. 그 존재는 '프리모스(Primos)를 찾으라'고 나를 나로스의 이빨로 데려왔다고 했다. 그 말이 무슨 뜻인지 알아내기 위해 나로스의 이빨을 조사해야겠다.",
+      "new": "보물 사냥꾼 헬릭 크로스(Helyc Crosse)의 초대를 받아 달렌타스(Dalentarth) 남쪽의 미탐사 지역인 나로스의 이빨(Teeth of Naros) 원정에 참여했다. 헬릭(Helyc)과 연락이 끊긴 뒤, 초자연적 존재에게서 연락을 받았다. 그 존재는 프리모스(Primos)를 찾으러 나를 그곳에 데려왔다고 했다. 그 말의 뜻을 알아내기 위해 그곳을 조사해야겠다.",
+      "reason": "Recheck the entire journal entry against English and Japanese. Clarify the lost contact and subsequent contact, preserve the Primos objective, and avoid repeating the already-established Teeth of Naros name."
+    }
+  ],
+  "retained": [
+    {
+      "id": 6512,
+      "reason": "The Korean correctly preserves that the speaker is glad to have been found."
+    },
+    {
+      "id": 6517,
+      "reason": "관련이 있어 keeps the broad English relationship without inventing blood kinship."
+    },
+    {
+      "id": 6556,
+      "reason": "전달해야 matches deliver without implying the dagger belonged to Astor."
+    },
+    {
+      "id": 6591,
+      "reason": "사용한 이들 accurately describes users of the relic and does not suggest wielding a weapon."
+    },
+    {
+      "id": 6593,
+      "reason": "서품서(Ordination Tome) is consistent with the same artifact in all five linked references."
+    },
+    {
+      "id": 6594,
+      "reason": "The current line pairs Tuatha with the source spelling Vangard."
+    },
+    {
+      "id": 6612,
+      "reason": "The current Korean name is consistent with The Crossing; related English title variants keep their exact source pairing."
+    },
+    {
+      "id": 6613,
+      "reason": "어서 오세요, 검투사님! 한잔 드릴까요? uses consistent polite Korean."
+    },
+    {
+      "id": 6626,
+      "reason": "지점 업무 안내서 is consistent across the 12 reviewed Motus Mining handbook references."
+    },
+    {
+      "id": 6638,
+      "reason": "사고 지연의 저주(Curse of Slow Thought) is clear and includes the complete title pairing."
+    },
+    {
+      "id": 6644,
+      "reason": "All 20 exact-English Irion, King of Cups labels already use the same complete Korean name-and-title pairing."
+    },
+    {
+      "id": 6650,
+      "reason": "패스팅(Fastings) is the established term for this Dverga network."
+    },
+    {
+      "id": 6657,
+      "reason": "자랑스러운 참전 용사 is idiomatic and preserves the speaker's joking pride."
+    },
+    {
+      "id": 6658,
+      "reason": "노움 칭호 retains the broad meaning of Gnomish titles."
+    },
+    {
+      "id": 6662,
+      "reason": "알라바스트라(Alabastra)로 가자 preserves the rally without adding a military advance."
+    },
+    {
+      "id": 6691,
+      "reason": "The standalone proper-name label already reads 레소토(Lesotho)."
+    },
+    {
+      "id": 6703,
+      "reason": "The standalone proper-name label already reads 동티모르(East Timor)."
+    },
+    {
+      "id": 6724,
+      "reason": "The current polite restriction matches the source; asset evidence does not establish an individual speaker."
+    }
+  ],
+  "held": [],
+  "verification": {
+    "ledger_reviewed_ids": 65135,
+    "ledger_fingerprint_check": "passed",
+    "index_and_catalog_reproduction": "passed",
+    "preservation_tests": 11,
+    "context_index_tests": 9,
+    "csv_rows": 65135,
+    "csv_id_order": "preserved",
+    "utf8_bom": true,
+    "crlf": 71838,
+    "lf_only": 244,
+    "bare_cr": 0
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 338,
+    "total": 4015,
+    "percent": 8.42,
+    "remaining": 3677
+  }
+}

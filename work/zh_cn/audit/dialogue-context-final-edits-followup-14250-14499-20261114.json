@@ -1,0 +1,63 @@
+{
+  "range": [14250, 14499],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 14,
+  "range_candidate_id_list": [
+    14255,
+    14278,
+    14316,
+    14319,
+    14335,
+    14337,
+    14353,
+    14355,
+    14375,
+    14388,
+    14401,
+    14442,
+    14495,
+    14496
+  ],
+  "reconciled_candidate_ids": 14,
+  "decisions": {
+    "previously_applied_confirmed": [
+      14255,
+      14278,
+      14316,
+      14319,
+      14337,
+      14353,
+      14355,
+      14375,
+      14388,
+      14401,
+      14442,
+      14495,
+      14496
+    ],
+    "refined": [14335],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Lady Oleyn": [8862, 14388, 23306, 31370, 31705, 34912, 55112],
+    "Barten role wording": [14316]
+  },
+  "fingerprints_refreshed": {
+    "81fb7dccc45423bb1072387455e88dfe4741d76c93b66e46ca71594b692976ab": [
+      14335
+    ]
+  },
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 818,
+    "total": 4015,
+    "percent": 20.37,
+    "remaining": 3197
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [14335],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

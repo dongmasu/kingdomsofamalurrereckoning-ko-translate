@@ -1,0 +1,31 @@
+{
+  "range": [16000, 16249],
+  "source": "dialogue-context-review-ledger.tsv",
+  "range_candidate_ids": 5,
+  "range_candidate_id_list": [16000, 16010, 16052, 16106, 16171],
+  "reconciled_candidate_ids": 5,
+  "decisions": {
+    "previously_applied_confirmed": [16000, 16010, 16052, 16106, 16171],
+    "refined": [],
+    "retained": [],
+    "held": []
+  },
+  "related_consistency_groups": {
+    "Scholia Arcana Initiates": [8735, 15627, 16052, 35317, 58090],
+    "House of Valor arena": [6013, 16106, 32146, 32976, 54385],
+    "the Chosen label": [16171]
+  },
+  "fingerprints_refreshed": {},
+  "cumulative_candidate_reconciliation": {
+    "reconciled": 903,
+    "total": 4015,
+    "percent": 22.49,
+    "remaining": 3112
+  },
+  "verification": {
+    "translation_csv_changed": false,
+    "changed_default_ids": [],
+    "source_csv_or_extracted_asset_changed": false,
+    "manifest_json": "valid"
+  }
+}

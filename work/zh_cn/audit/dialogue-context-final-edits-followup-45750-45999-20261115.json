@@ -1,0 +1,81 @@
+{
+  "range": [45750, 45999],
+  "source": {
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "sequential_review": "dialogue-context-default-45750-45999-revalidation-20261112.md",
+    "candidate_reconciliation": "dialogue-context-45750-45999-candidate-reconciliation-20261115.md",
+    "source_order": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    45759, 45766, 45774, 45787, 45794, 45816, 45817, 45818, 45827, 45833,
+    45838, 45875, 45899, 45922, 45932, 45941, 45943, 45949, 45969, 45992
+  ],
+  "previously_reconciled_ids": [45816],
+  "newly_reconciled_ids": [
+    45759, 45766, 45774, 45787, 45794, 45817, 45818, 45827, 45833, 45838,
+    45875, 45899, 45922, 45932, 45941, 45943, 45949, 45969, 45992
+  ],
+  "newly_reconciled_total": 19,
+  "decisions": {
+    "corrected_now": [45817, 45827],
+    "already_correct_or_supported": [
+      45759, 45766, 45774, 45787, 45794, 45816, 45818, 45833, 45838, 45875,
+      45899, 45922, 45932, 45941, 45943, 45949, 45969, 45992
+    ],
+    "held_for_independent_evidence": []
+  },
+  "evidence_limited_items": {
+    "45819": "The English summoning clause omits its object, while Japanese supplies the Belen Covenant and its purpose.",
+    "45829": "English and Chinese provide a fragment; Japanese expands it into a grave inscription.",
+    "45886": "The Korean drunkard insult is more specific than the Japanese wording supports.",
+    "45968": "The source does not settle whether mission refers to a monastery, mission, or chapel.",
+    "45994": "English says Cycle, the First, while Japanese says the third discovery."
+  },
+  "linked_prior_checks": {
+    "45816": "Aster-family candidate was reconciled in dialogue-context-33000-33249-candidate-reconciliation-20261114.md and confirmed in dialogue-context-34000-34249-candidate-reconciliation-20261114.md.",
+    "45818": "Dreadscale series pairing was checked in dialogue-context-dreadscale-pairing-20261114.md.",
+    "45838": "Longlegs form was checked in the earlier corpus-wide Longlegs reconciliation.",
+    "45875": "Nanne-quest formula terminology was checked in dialogue-context-523508-sq12-revalidation-20261111.md."
+  },
+  "edits": [
+    {
+      "id": 45817,
+      "old": "결국 우리에게 돌아온 건 만신창이가 되고 빈털터리가 된 남자 하나뿐이었어. 그는 자신을 잊을 때까지 술을 마시겠다며 구걸했지.",
+      "new": "우리에게 돌아온 건 상심한 데다 빈털터리가 된 남자 하나뿐이었어. 그는 정신을 놓을 때까지 마실 술을 달라며 애원했지.",
+      "reason": "English broken and destitute, Japanese 打ちひしがれ and 困窮し, and Chinese 穷困潦倒 support emotional devastation and poverty rather than a physical injury. The revision makes the self-oblivion drinking plea natural."
+    },
+    {
+      "id": 45827,
+      "old": "도저히 믿기지 않지만, 감시대장(Captain of the Watch)이... 사라졌어. 그렇다면 머지않아 내가 대장이 되겠군.",
+      "new": "도저히 믿기지 않지만, 경비대장(Captain of the Watch)이... 사라졌어. 그렇다면 머지않아 내가 대장이 되겠군.",
+      "reason": "Japanese 警備隊長 and Chinese 守备队长 support 경비대장; the English office label is paired in full. The broader mixed office terminology is not changed here."
+    }
+  ],
+  "ledger_fingerprints_refreshed": [45817, 45827],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3109,
+    "previous_total": 4029,
+    "newly_reconciled": 19,
+    "reconciled": 3128,
+    "total": 4029,
+    "percent": 77.64,
+    "remaining": 901
+  },
+  "verification": {
+    "translation_csv_changed": true,
+    "changed_default_ids": [45817, 45827],
+    "all_four_language_fingerprints": "passed for all 65,135 reviewed IDs",
+    "catalog_reproducibility": "index and both catalogs passed",
+    "regression_tests": "20 combined CSV-preservation and dialogue-context tests passed",
+    "csv_records": 65135,
+    "csv_ordered_ids": true,
+    "csv_utf8_bom": true,
+    "csv_newline_inventory": {
+      "crlf": 71839,
+      "lf_only": 242,
+      "bare_cr": 0
+    },
+    "source_csv_or_extracted_asset_changed": false,
+    "commit_made": false
+  }
+}

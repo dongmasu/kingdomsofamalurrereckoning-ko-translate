@@ -1,0 +1,136 @@
+{
+  "range": [60500, 60749],
+  "source": {
+    "sequential_review": "dialogue-context-default-60500-60749-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports"
+    ]
+  },
+  "range_candidate_ids": [
+    60525, 60527, 60531, 60542, 60564,
+    60576, 60577, 60599, 60667, 60675
+  ],
+  "previously_reconciled_ids": [60675],
+  "newly_reconciled_ids": [
+    60525, 60527, 60531, 60542, 60564,
+    60576, 60577, 60599, 60667
+  ],
+  "corrected_now": [60525, 60531, 60542, 60576, 60577, 60599, 60667],
+  "already_supported_ids": [60527, 60564],
+  "previous_candidate_ids_rechecked": [
+    60546, 60560, 60614, 60646, 60652, 60709
+  ],
+  "previous_candidates_corrected": [60546, 60560, 60646],
+  "previous_candidates_already_supported": [60652, 60709],
+  "previous_candidate_held": [60614],
+  "report_only_corrected_ids": [60545, 60653],
+  "evidence_limited_holds": [60660, 60679, 60711],
+  "changed_default_ids": [
+    60525, 60531, 60542, 60545, 60546, 60560,
+    60576, 60577, 60599, 60646, 60653, 60667
+  ],
+  "ledger_fingerprint_changed_ids": [
+    60525, 60531, 60542, 60545, 60546, 60560,
+    60576, 60577, 60599, 60646, 60653, 60667
+  ],
+  "ledger_dispositions_changed": false,
+  "cumulative_candidate_reconciliation": {
+    "previous": 3383,
+    "previous_total": 4026,
+    "newly_reconciled": 9,
+    "reconciled": 3392,
+    "total": 4026,
+    "percent": 84.25,
+    "remaining": 634
+  },
+  "edits": [
+    {
+      "id": 60525,
+      "old": "티린(Tirin) 대여사제",
+      "new": "티린 대여사제(High Priestess Tirin)",
+      "reason": "Pair the complete role and name."
+    },
+    {
+      "id": 60531,
+      "old": "대도서관",
+      "new": "대도서관(Great Library)",
+      "reason": "Pair the named destination."
+    },
+    {
+      "id": 60542,
+      "old": "비탄의 집(House of Sorrows) 왕자",
+      "new": "비탄의 집(House of Sorrows) 왕자(Prince of Sorrows)",
+      "reason": "Pair the complete title."
+    },
+    {
+      "id": 60545,
+      "old": "미스그라(Meathgra) 처치",
+      "new": "미스그라(Meathgra) 처치하기",
+      "reason": "Use the established action-form objective."
+    },
+    {
+      "id": 60546,
+      "old": "승리는 그대의 것이 될 것이다.",
+      "new": "승리는 네 것이야.",
+      "reason": "Match the plain conversational source register."
+    },
+    {
+      "id": 60560,
+      "old": "작은 생물",
+      "new": "소형 생물",
+      "reason": "Match the paired Large creatures category at 36853."
+    },
+    {
+      "id": 60576,
+      "old": "내 동맹들과 대화",
+      "new": "내 동맹들과 대화하기",
+      "reason": "Use the established action-form objective."
+    },
+    {
+      "id": 60577,
+      "old": "장벽 통과",
+      "new": "장벽 통과하기",
+      "reason": "Use the established action-form objective."
+    },
+    {
+      "id": 60599,
+      "old": "선반 넷, 자물쇠 넷",
+      "new": "선반 넷, 자물쇠 넷(Four Shelves, Four Locks)",
+      "reason": "Pair the standalone title."
+    },
+    {
+      "id": 60646,
+      "old": "계속 싸울 수밖에 없어. 탁(Tak)을 위해. 홀로 구덩이에 내던져지는 세상의 어린 동생들을 위해. 술은 이제 끊었어.",
+      "new": "계속 싸울 수밖에 없어. 탁(Tak)을 위해. 홀로 구덩이에 내던져지는 세상의 모든 동생들을 위해. 술은 이제 끊었어.",
+      "reason": "Render baby brothers as younger brothers, not necessarily children."
+    },
+    {
+      "id": 60653,
+      "old": "사망 통지 전달",
+      "new": "사망 통지 전달하기",
+      "reason": "Use the established action-form objective."
+    },
+    {
+      "id": 60667,
+      "old": "어느 신에게도 얽매이지 않고 스스로 살아가는 너는, 그 자립만으로도 보상을 얻는다.",
+      "new": "어느 신에게도 의지하지 않는 너의 자립은 그 자체로 보상을 가져다준다.",
+      "reason": "Reflect the source's reliance/self-sufficiency meaning naturally."
+    }
+  ],
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "index_and_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_and_context_index_tests": "20 passed",
+    "csv_rows_order_bom_and_line_endings": "65,135 ordered IDs; UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

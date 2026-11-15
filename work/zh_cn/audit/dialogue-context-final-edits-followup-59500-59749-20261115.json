@@ -1,0 +1,116 @@
+{
+  "range": [59500, 59749],
+  "source": {
+    "sequential_revalidation": "dialogue-context-default-59500-59749-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"]
+  },
+  "range_candidate_ids": [
+    59595, 59601, 59604, 59606, 59610, 59613, 59635, 59649,
+    59679, 59685, 59705, 59730, 59735, 59746, 59747
+  ],
+  "newly_reconciled_ids": [
+    59595, 59601, 59604, 59606, 59610, 59613, 59635, 59649,
+    59679, 59685, 59705, 59730, 59735, 59746, 59747
+  ],
+  "already_resolved_ids": [
+    59601, 59610, 59613, 59635, 59679, 59746, 59747
+  ],
+  "previously_reconciled_ids_rechecked": [
+    59551, 59562, 59576, 59579, 59600, 59641, 59642, 59710, 59725
+  ],
+  "withdrawn_misattributed_findings": [59576],
+  "report_only_ids_rechecked": [59659],
+  "held_for_insufficient_context": [59556, 59689, 59722],
+  "edits": [
+    {
+      "id": 59595,
+      "old": "실리언(Cillian)이 성채에서 닭을 기를 수 있도록 먹이를 충분히 모았다. 성채 안뜰에 있는 실리언(Cillian)에게 가져가야겠다.",
+      "new": "실리언(Cillian)이 성채에서 닭을 기를 수 있도록 먹이를 충분히 모았다. 성채 안뜰(Keep Courtyard)에 있는 실리언(Cillian)에게 가져가야겠다.",
+      "reason": "Pair the complete named quest destination."
+    },
+    {
+      "id": 59604,
+      "old": "이제 에메랄드 구역이다. 거의 다 왔어. 미궁과 함정, 문까지 모두 돌파했지. 지금까지 겪은 모든 시련을 합친 것보다 더 어려운 일이 남아 있을 리 없어.\r\n마음을 굳힌 김에 로텔로스 일족의 솜씨를 칭찬하고 싶군. 작은 짐승들이 이 전당을 차지하긴 했지만, 다른 지하 묘지처럼 심하게 낡거나 파괴되지는 않았어. 로텔로스가 도시와 콜로사이족(Kollossae)을 위해 힘쓸 줄만 알았더라면, 복수심으로 지은 수수께끼의 지하 묘지 대신 세상에 더 많은 경이로움을 보여 줄 수 있었을 텐데.",
+      "new": "이제 에메랄드 구역(Emerald Wing)이다. 거의 다 왔어. 미궁과 함정, 문까지 모두 돌파했지. 지금까지 겪은 모든 시련을 합친 것보다 더 어려운 일이 남아 있을 리 없어.\r\n마음을 굳힌 김에 로텔로스 일족의 솜씨를 칭찬하고 싶군. 작은 짐승들이 이 전당을 차지하긴 했지만, 다른 지하 묘지처럼 심하게 낡거나 파괴되지는 않았어. 로텔로스가 도시와 콜로사이족(Kollossae)을 위해 힘쓸 줄만 알았더라면, 복수심으로 지은 수수께끼의 지하 묘지 대신 세상에 더 많은 경이로움을 보여 줄 수 있었을 텐데.",
+      "reason": "Pair the named architectural section while retaining the readable Korean rendering and embedded CRLF."
+    },
+    {
+      "id": 59606,
+      "old": "발러의 교차로",
+      "new": "발러의 교차로(Balor's Crossing)",
+      "reason": "Pair the complete standalone place name."
+    },
+    {
+      "id": 59641,
+      "old": "누군가 널 지켜보고 있었다는 사실을 몰라야 했어. 그럼 내 사냥감이... 의심할 수도 있으니까.",
+      "new": "네가 감시당한다는 걸 눈치채면 안 됐어. 내 표적이... 의심을 품을 수도 있으니까.",
+      "reason": "Clarify the surveillance discovery and its consequence for the target while retaining the hesitation."
+    },
+    {
+      "id": 59642,
+      "old": "칸드리안 경비대(Kandrian Guard)의 얼간이들보다는 잘해 내길 바라. 대부분은 산적 야영지를 보기도 전에 쓰러졌거든.",
+      "new": "칸드리안 경비대(Kandrian Guard)의 얼간이들보다는 잘해 내길 바라. 대부분은 도적 야영지를 보기도 전에 쓰러졌거든.",
+      "reason": "Use the established rescue-quest rendering for bandits, supported by Japanese."
+    },
+    {
+      "id": 59649,
+      "old": "실천의 서약",
+      "new": "실천의 서약(The Pledge to Action)",
+      "reason": "Pair the complete standalone title."
+    },
+    {
+      "id": 59659,
+      "old": "기묘한 처녀",
+      "new": "기묘한 처녀(Strange Maiden)",
+      "reason": "Pair the standalone title without inferring a character identity."
+    },
+    {
+      "id": 59685,
+      "old": "유일한 해결책은 자비로운 티르노크(Tirnoch)께서 우리 세계에 오실 때 네가 정화되는 거야. 곧 그렇게 되겠지.",
+      "new": "유일한 해결책은 자비로운 티르노크(Tirnoch the Merciful)께서 우리 세계에 오실 때 네가 정화되는 거야. 곧 그렇게 되겠지.",
+      "reason": "Pair the complete epithet and name without repeating the name."
+    },
+    {
+      "id": 59705,
+      "old": "스네이크테일은 죽음의 강이다. 강물을 하루만 마셔도 종기가 생기지. 처음에는 크고 붉은 종기가 돋아 접촉만으로 터진다. 이어서 갑상샘종이 자라고, 진물이 멈추지 않는 병변이 생겨난다. 셋째 날 환자에게 가래 끓는 기침이 나고 눈에서 피가 흐르면 이미 너무 늦었다. 광부 백 명이 넘게 가족과 함께 묻혔다. 남자와 여자, 아이들까지. 아포타이어(Apotyre) 사람들에게 악의를 품고 싶지는 않지만, 이 사태는 반드시 봉쇄해야 한다. 모투스 광업(Motus Mining Interests)과 아말러(Amalur) 전역의 사업 평판에 더 큰 타격을 줄 수도 있다.",
+      "new": "스네이크테일은 죽음의 강이다. 강물을 하루만 마셔도 종기가 생기지. 처음에는 크고 붉은 종기가 돋아 접촉만으로 터진다. 그다음 갑상샘종이 커지고 진물이 끊임없이 흐르는 병변이 생긴다. 셋째 날 환자에게 가래 끓는 기침이 나고 눈에서 피가 흐르면 이미 너무 늦었다. 광부 백 명이 넘게 가족과 함께 묻혔다. 남자와 여자, 아이들까지. 아포타이어(Apotyre) 사람들에게 악의를 품고 싶지는 않지만, 이 사태는 반드시 봉쇄해야 한다. 모투스 광업(Motus Mining Interests)과 아말러(Amalur) 전역의 사업 평판에 더 큰 타격을 줄 수도 있다.",
+      "reason": "Render goiters growing and lesions continuously seeping in more natural Korean; retain the already-correct productive-cough wording."
+    },
+    {
+      "id": 59730,
+      "old": "레인",
+      "new": "레인(Rane)",
+      "reason": "Pair the standalone character-name label."
+    },
+    {
+      "id": 59735,
+      "old": "비탄의 집(House of Sorrows) 페이블레이드 발견",
+      "new": "비탄의 집(House of Sorrows) 페이블레이드(Faeblades) 발견",
+      "reason": "Pair the weapon type while preserving the established faction name and objective-style label."
+    }
+  ],
+  "ledger_fingerprint_changed_ids": [
+    59595, 59604, 59606, 59641, 59642, 59649, 59659, 59685, 59705, 59730, 59735
+  ],
+  "cumulative_candidate_reconciliation": {
+    "previous": 3337,
+    "previous_total": 4026,
+    "newly_reconciled": 15,
+    "reconciled": 3352,
+    "total": 4026,
+    "percent": 83.26,
+    "remaining": 674
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "preservation_and_context_index_tests": "20 passed",
+    "index_and_catalog_reproducibility": "passed",
+    "csv_rows_and_order": "65,135 ordered unique IDs",
+    "utf8_bom_and_line_endings": "UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}

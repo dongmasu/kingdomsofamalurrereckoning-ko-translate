@@ -1,0 +1,64 @@
+{
+  "range": [62250, 62499],
+  "source": {
+    "sequential_review": "dialogue-context-default-62250-62499-revalidation-20261113.md",
+    "review_ledger": "dialogue-context-review-ledger.tsv",
+    "language_tables": ["en", "ja", "zh", "ko"],
+    "source_order": [
+      "current Korean CSV",
+      "English for meaning",
+      "Japanese for tone and phrasing",
+      "Chinese as supporting evidence",
+      "prior candidate manifests and cited context reports",
+      "base item-component labels for the Mitharan shaft term check"
+    ]
+  },
+  "range_candidate_ids": [62363, 62454, 62459, 62474, 62486],
+  "newly_reconciled_ids": [62363, 62454, 62459, 62474, 62486],
+  "corrected_ids": [62363],
+  "already_supported_ids": [62454, 62459, 62486],
+  "held_ids": [62474],
+  "previous_candidate_ids_rechecked": [
+    62309, 62312, 62319, 62327, 62380, 62402
+  ],
+  "previous_candidates_corrected": [62327],
+  "previous_candidates_already_supported": [62319, 62380, 62402],
+  "previous_candidates_held": [62309, 62312],
+  "additional_term_consistency_ids": [
+    8650, 10693, 14555, 16892, 17014, 17908, 21573, 22881,
+    25205, 29892, 39238, 54346, 54448, 61677, 62363
+  ],
+  "additional_term_consistency_changed_ids": [
+    8650, 10693, 14555, 16892, 17014, 17908, 21573, 22881,
+    25205, 29892, 54346, 61677, 62363
+  ],
+  "existing_holds_rechecked": [62309, 62312, 62496],
+  "changed_default_ids": [
+    62327, 8650, 10693, 14555, 16892, 17014, 17908, 21573,
+    22881, 25205, 29892, 54346, 61677, 62363
+  ],
+  "ledger_fingerprint_changed_ids": [
+    62327, 8650, 10693, 14555, 16892, 17014, 17908, 21573,
+    22881, 25205, 29892, 54346, 61677, 62363
+  ],
+  "ledger_dispositions_changed": false,
+  "cumulative_candidate_reconciliation": {
+    "previous": 3441,
+    "previous_total": 4026,
+    "newly_reconciled": 5,
+    "reconciled": 3446,
+    "total": 4026,
+    "percent": 85.59,
+    "remaining": 580
+  },
+  "verification": {
+    "review_ledger_fingerprints": "passed for all 65,135 IDs",
+    "index_and_catalog_reproducibility": "passed for index and both catalogs",
+    "preservation_and_context_index_tests": "20 passed",
+    "csv_rows_order_bom_and_line_endings": "65,135 ordered IDs; UTF-8 BOM; 71,839 CRLF, 242 LF-only, 0 bare CR",
+    "crlf_aware_diff_check": "passed (git -c core.whitespace=cr-at-eol diff --check)",
+    "source_csv_or_extracted_asset_changed": false,
+    "game_binary_changed": false,
+    "commit_made": false
+  }
+}
