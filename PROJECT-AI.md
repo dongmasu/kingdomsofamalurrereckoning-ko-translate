@@ -36,7 +36,6 @@ coverage.
   concluding that game assets are unavailable or asking the user to provide
   them; use it for analysis without modifying anything under `references/`.
 - `work/zh_cn/` contains the active Korean working CSVs and audit materials.
-  Edit these files, preserving the `zh_cn` keys, variants, order, and sidecars.
 - `work/ja_jp/` was deleted at the user's direction on 2026-10-14. Historical
   audit references to it describe the former migration draft.
 - `tools/loc_toolset/` contains the project's CSV unpackers and repackers.
@@ -44,97 +43,13 @@ coverage.
   no-edit round trips.
 - `README.md` is the user-facing project overview. Edit it only when the user
   explicitly asks.
-- [`TRANSLATION-ROLE.md`](TRANSLATION-ROLE.md)
-  defines translator, reviewer, editor, verifier, and builder permissions.
 - [`DISTRIBUTION_CHECKLIST.md`](DISTRIBUTION_CHECKLIST.md) records the released
   package, its validation scope, and optional follow-up checks.
 
-## Translation References
+## Translation Workflow
 
-Use the following evidence order:
-
-1. English CSVs in `src/csv/en_us/` define the primary meaning.
-2. Japanese CSVs in `src/csv/ja_jp/` are the drafting template and the main
-   reference for voice, register, honorifics, and line layout.
-3. Chinese CSVs in `src/csv/zh_cn/` provide a secondary meaning check.
-4. `references/manual/Kingdom of Amulur 공식 한글 설명.pdf` is the authority
-   for established Korean names, terms, and world context.
-5. The [Namu Wiki article on Kingdoms of Amalur](https://namu.wiki/w/%ED%82%B9%EB%8D%A4%20%EC%98%A4%EB%B8%8C%20%EC%95%84%EB%A7%90%EB%9F%AC)
-   may help with setting, character, faction, and event context. Treat it as
-   a community-maintained tertiary source, not an authoritative translation
-   or terminology source; verify relevant claims against the English source,
-   game evidence, and official Korean manual. A saved copy is available at
-   `references/wiki/킹덤 오브 아말러 - 나무위키 (2026_10_7 9：58：29).html`;
-   read it without modifying `references/`.
-6. Russian CSVs are not a translation reference. Consult them only when
-   checking compatibility if `ru_ru` is selected as a destination resource.
-
-Reuse terminology from the official Korean manual. Do not silently resolve
-materially ambiguous English, conflicting references, unclear speaker
-context, or uncertain names. The user considers translation work complete,
-and ended heuristic proper-name checks at D-22000 on 2026-10-20. Do not
-resume those checks or start another batch unless the user explicitly asks.
-If resumed, use only bounded candidates and existing glossary/audit records.
-Fix clear errors and preserve the evidence in `work/zh_cn/audit/`. Do not
-claim exhaustive discovery or in-game validation, or infer unsupported
-identities or global aliases.
-
-## Editing Invariants
-
-- Edit only the `Texto` field of assigned rows in `work/zh_cn/`.
-- Preserve `ID_Linha`, `Tipo_Variante`, row order, row count, and duplicate
-  variant rows. Never merge or discard variants because their text looks
-  identical.
-- Edit translation CSVs only with
-  `python3 tools/replace_text_preserve_eol.py <csv> --id <ID> [--variant <Tipo_Variante>] --old '<current text>' --new '<new text>'`.
-  Do not use `apply_patch`, rewrite a CSV, or perform a global replacement on
-  files under `work/zh_cn/`.
-- Supply `--variant` whenever the CSV has a `Tipo_Variante` column. The tool
-  aborts without writing if the ID/variant is missing or ambiguous, or if the
-  expected current text does not match.
-- The tool edits only the target field's byte span instead of serializing the
-  full CSV. It verifies the BOM, record structure/order, non-target values,
-  and all bytes outside that field. Existing line endings remain byte-exact;
-  newlines in replacement text use the file's predominant line ending.
-- Run its regression tests with
-  `python3 -m unittest tools/test_replace_text_preserve_eol.py`.
-- Preserve the CSV delimiter, encoding, quoting, and multiline record
-  structure.
-- Current working CSVs use semicolons, a UTF-8 BOM, and CRLF record endings.
-  Preserve these unless the actual source format is deliberately changed.
-- Treat `Tipo_Variante` as structural data. Its runtime selection semantics
-  remain unverified; do not treat hypotheses about grammatical gender or
-  number as authoritative rules for transforming variants.
-- Preserve game variables, control tokens, markup, and their order. Translate
-  the contents of localized markers only when the locale references show
-  those contents are translated.
-- Preserve intentional line breaks using the Japanese-derived template,
-  except where the English meaning or a documented source conflict requires
-  a different layout. Record such exceptions in the audit.
-- Do not edit sidecar `estrutura_hashes*.bin` files by hand.
-- Do not edit generated localization binaries or PAK files during translation
-  or review.
-
-## Roles and Gates
-
-Follow
-[`TRANSLATION-ROLE.md`](TRANSLATION-ROLE.md)
-for the full permissions and hand-offs:
-
-1. **Translator:** drafts Korean text and logs uncertainty; does not approve
-   their own work as an independent review.
-2. **Reviewer:** performs a consolidated, read-only assessment after all
-   drafts are complete. Findings go to `work/zh_cn/audit/` with source
-   evidence, proposed correction, rationale, confidence, and disposition.
-3. **Editor:** changes only rows accepted by the review; does not make
-   unapproved global replacements.
-4. **Verifier:** checks the editor's diff, meaning, terminology, structure,
-   tokens, and encoding independently.
-5. **Builder:** builds only verified inputs and makes no translation edits.
-
-Linguistic quality review and binary/locale compatibility are separate gates.
-A structurally valid CSV is not proof of a good translation; a good
-translation is not proof that it can be repacked or displayed correctly.
+Follow [`TRANSLATION-ROLE.md`](TRANSLATION-ROLE.md) for all translation
+workflow, review, editing, and verification instructions.
 
 ## Build Safety
 

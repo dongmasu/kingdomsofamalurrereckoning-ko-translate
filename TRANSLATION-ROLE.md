@@ -1,235 +1,241 @@
-# Translation and Review Role Separation
+# Reusable Translation Workflow
 
-## Purpose
+## Purpose and Scope
 
-Separate translation drafting, review, correction, and verification so that
-unreviewed or structurally unsafe edits do not flow directly into game files.
-This adapts the supplied `review-edit-role-separation-design.md` to this
-project's CSV localization tables and PAK workflow. This project-level
-guidance is kept at the repository root so the instructions are easy to find.
+This guide defines a reusable workflow for translating and reviewing
+game-localization content. Adapt it to each game's sources, text types, file
+formats, and release process; do not assume that one game's language hierarchy
+or grouping scheme applies to another.
 
-The same person or AI may perform multiple roles, but each role is a distinct
-pass with its own permissions and output. A translator must not approve their
-own work as the independent reviewer or verifier.
+Before starting, read the repository's project instructions for the approved
+translation scope, source locations, editable files, preservation rules, and
+validation tools. Those instructions provide project-specific facts; this
+guide provides the translation method and role boundaries.
 
-## Project Scope and Source Order
+The goal is to catch meaning, terminology, voice, naturalness, and structural
+issues during planned passes, then limit later re-review to material affected
+by a change. Completing a row-count sweep alone does not establish translation
+quality.
 
-- Translation language: Korean.
-- Active working CSV directory: `work/zh_cn/`. The files preserve the
-  `zh_cn` target resource keys, variants, and order while containing Korean.
-- The user selected `zh_cn` as the non-English work/destination to keep
-  English available. Korean localization binaries from this structure are
-  published in the user-approved GitHub Release; the recorded in-game check
-  is a smoke test, not comprehensive validation.
-- Immutable references: `src/`; never edit files under this directory.
-- Korean terminology authority: `references/manual/Kingdom of Amulur 공식 한글 설명.pdf`.
-  Reuse its established Korean names and terms consistently.
-- Primary meaning reference: `src/csv/en_us/`.
-- Japanese reference: `src/csv/ja_jp/`. Use it especially to infer honorific
-  level, casual/formal speech, and character voice that English may not encode.
-- Chinese reference: `src/csv/zh_cn/`. Use it as an additional context and
-  terminology cross-check.
-- The [Namu Wiki article on Kingdoms of Amalur](https://namu.wiki/w/%ED%82%B9%EB%8D%A4%20%EC%98%A4%EB%B8%8C%20%EC%95%84%EB%A7%90%EB%9F%AC)
-  may help with setting, character, faction, and event context. It is
-  community-maintained and is not an authoritative translation source; verify
-  claims against English, in-game evidence, and the official Korean manual.
-- Korean text was migrated by ID from the Japanese-derived draft in
-  `work/ja_jp/`; that folder was deleted at the user's direction on
-  2026-10-14. Use the immutable Japanese source CSVs for voice/register
-  evidence, but edit only `work/zh_cn/`.
-- The sequential `default` review is complete through ID 65134. All 140
-  zh_cn-specific `affix` variants have recorded dispositions. The release
-  ZIP passed build-time structure, round-trip, and archive checks; the user's
-  reported in-game smoke test confirmed Korean rendering without the
-  characterset or common font list. Broader compatibility remains a separate
-  follow-up, not a pending prerequisite for the already approved release.
+## 1. Set Up the Project
 
-If the English meaning is ambiguous or the language references conflict, record
-the exact row and evidence in `work/zh_cn/audit/`. Do not
-silently resolve a material ambiguity by choosing one reference. Continue
-translating clear entries and defer consolidated linguistic review until the
-`base`, `affix`, and `default` drafts are complete.
+Record a concise project profile before translating:
 
-## CSV and Resource Boundaries
+- Source and target languages, locales, and the resources in scope.
+- Which source is authoritative for meaning, voice/register, established
+  terminology, and world or product context. These roles may belong to
+  different sources.
+- How to resolve source conflicts, what evidence is acceptable, and when to
+  leave a decision unresolved.
+- The localization unit and its stable key, including any variants or
+  relationships between files.
+- Text types and any useful context dimensions, such as menu, quest, chapter,
+  character, scene, item, or gameplay system.
+- Required glossary, decision/exception register, review ledger, and output
+  locations.
+- File-format invariants, approved editing tools, and structural, runtime, or
+  release checks.
 
-Localization is split across `affix`, `base`, and `default` CSVs. Rows are not
-interchangeable between resource types.
+Do not invent missing project settings. Record unknowns and resolve material
+scope or authority questions before relying on them.
 
-- Translate the `Texto` field only.
-- Preserve `ID_Linha`, `Tipo_Variante`, row order, row multiplicity, CSV
-  delimiter, and encoding.
-- Preserve game variables, markup, control tokens, and intentional line
-  breaks. Translate token contents only when the existing locale references
-  show that those contents are localized.
-- Keep each `affix` variant. Do not collapse variants merely because two
-  current strings look identical.
-- Preserve all `estrutura_hashes*.bin` sidecars needed by the matching
-  repacker. Do not edit them by hand.
-- Never edit or overwrite `src/` reference CSVs, font assets, or language files.
+## 2. Inventory and Group the Content
 
-### Current Structural Gate
+Build a complete inventory of source and target units using stable IDs or
+equivalent keys. Validate missing, duplicate, and unmatched units before
+translation begins.
 
-`work/zh_cn/` uses the target locale's exact CSV structure. Its Korean text
-was migrated by ID from the Japanese-derived draft in `work/ja_jp/`, which
-was deleted at the user's direction. The migration preserved the `zh_cn`
-keys and order:
+Classify content by text function when that classification affects translation
+or review. Use only grouping dimensions supported by the game data. A project
+may group by quest, character, chapter, scene, UI system, item family, or
+another useful relation; it may also need no contextual grouping for some
+resources.
 
-- `zh_cn`: `base` has 4,844 rows and `default` has 65,135 IDs. All 3,451
-  `affix` keys, variants, and their order match the `zh_cn` target.
-- The original Japanese-derived draft had 3,311 `affix` rows. The additional
-  140 `zh_cn` variants were reviewed and dispositioned with cross-locale
-  evidence in `work/zh_cn/audit/affix-extra-variant-review.tsv`.
-- `en_us` has 586 `FF` rows and does not match the `zh_cn` work structure.
-  Do not repack the `zh_cn` CSVs under `en_us` filenames.
-- `ru_ru`: `default` has 65,135 matching IDs, `base` has 2,241 differing
-  variant values, and `affix` has 3,311 work rows versus 3,449 Russian rows.
-  The key sets differ in `affix` as well.
-- The three `estrutura_hashes*.bin` sidecars in `work/zh_cn/` were copied
-  byte-for-byte from `src/csv/zh_cn/` and verified. Sidecar equality alone
-  does not make different CSV key/variant layouts interchangeable.
-- Structural compatibility with the original `zh_cn` CSV key layout passed
-  during migration. This does not prove runtime locale selection, font
-  rendering, or rebuilt-PAK compatibility.
+Keep the mapping from each translation unit to its groups explicit and
+traceable. Record the evidence and confidence for contextual links. A shared
+file, nearby row, matching name, or serialized order is not by itself proof of
+speaker, scene, sequence, or relationship.
 
-Preserve the `zh_cn` target's IDs and variant codes. Use English for meaning,
-Japanese for voice/register, Chinese as a supporting check, and the official
-Korean manual for established terms. If a target variant has no exact
-Japanese counterpart, consult other locales and game context, and record
-uncertainty rather than silently dropping or inventing a row. For future
-release changes, repeat structural and round-trip checks; do not treat the
-brief in-game smoke test as comprehensive compatibility validation.
+Plan quality checks by text type and risk. Dialogue, UI labels, objectives,
+narrative, and item descriptions can require different checks. Do not postpone
+a known quality dimension until after a supposedly final full-corpus review.
 
-## Roles
+## 3. Track Repeated Source Text
+
+Detect exact repeated source strings and create a source-to-target occurrence
+map. Preserve the source key, resource, variants, formatting or markup, and
+current target for every occurrence. Do not merge distinct records.
+
+Treat a repeated-source group as a consistency and impact-tracking mechanism,
+not an instruction to force identical translations. For each group, determine
+whether meaning, text function, context, register, and target-language grammar
+support shared wording. Record explicit per-unit differences when they are
+justified.
+
+When a shared translation or rule changes, identify all linked occurrences
+and review the affected group. Never propagate changes by blind global
+replacement. A repeated English string may have different senses or
+translations in context.
+
+## 4. Maintain a Glossary
+
+Create a project glossary before substantial translation and update it as
+decisions are made. Include relevant proper names and game-specific
+terminology, such as people, places, factions, characters, skills, abilities,
+items, mechanics, titles, and recurring interface terms.
+
+Each entry should record, as applicable:
+
+- A stable term or entity key, canonical source form, category, and aliases.
+- The approved target form and usage, including grammatical or display
+  conventions.
+- Scope and exclusions, especially homonyms, compounds, and ordinary uses of
+  the same word.
+- Evidence and linked source/target IDs or occurrences.
+- Status such as approved, provisional, unresolved, or not applicable.
+- Decision history, including what a new decision supersedes.
+
+Use the glossary to guide and check translation, not as evidence that every
+matching word has the same sense. Apply terminology by meaning and context;
+review affected occurrences before standardizing them.
+
+## 5. Record Exceptions and Decisions
+
+Maintain a searchable decision and exception register from the start of work.
+Record source conflicts, ambiguity, unsupported context, variant-specific
+wording, formatting differences, deliberate non-unification, and any
+exception to a general rule.
+
+For each decision, record the affected key or group, relevant source and
+target text, decision and rationale, evidence, confidence, status, date or
+revision, and any decision it supersedes. Link it to the glossary or
+occurrence map when applicable.
+
+Do not silently guess. Keep uncertain cases visible and unresolved. A
+subsequent reviewer should be able to tell what was decided, why, where it
+applies, and whether it is still current.
+
+## 6. Translate and Review in Bounded Units
+
+Work in coherent, recorded batches. For each unit, the translator should:
+
+- Follow the project's source-authority profile and glossary.
+- Preserve the intended meaning without unsupported additions or omissions.
+- Write naturally for the target language and the unit's text function.
+- Apply appropriate voice, register, audience, and terminology where evidence
+  supports them.
+- Preserve required variables, markup, formatting, and intentional layout.
+- Record uncertainty and new terminology or exceptions as they arise.
+
+Review each completed batch against an explicit checklist before marking it
+reviewed. At minimum, assess semantic fidelity, omissions/additions, target
+language fluency, terminology, text-type conventions, and formatting. Add
+voice, character, contextual, length, or runtime checks when the resource
+requires them.
+
+Track status at the smallest useful stable unit and, where needed, separately
+for each quality dimension. Candidate findings are not confirmed defects;
+record a disposition such as corrected, retained, or unresolved with its
+rationale. Do not count unresolved findings as resolved merely because all
+units were visited.
+
+## 7. Freeze Inputs and Revalidate by Impact
+
+At the start of a review batch, record the exact source and target snapshot or
+fingerprints, scope, grouping/glossary versions, and review criteria. Resume
+only when those inputs still match; otherwise identify the changed units
+before reusing prior results.
+
+When a source, translation, glossary entry, grouping, or global rule changes:
+
+- Identify affected units, linked duplicate-source occurrences, glossary
+  occurrences, and context groups.
+- Re-run only the relevant review dimensions for those units and groups.
+- Preserve earlier decisions that remain supported; explicitly supersede
+  decisions that no longer apply.
+- Update review status and fingerprints so the validated state is
+  reproducible.
+
+Do not repeat a full linguistic review by default. A full pass is warranted
+when the source or target baseline changes broadly, a global rule changes
+across the corpus, prior coverage cannot be trusted, or a known systematic
+defect requires corpus-wide verification. Even then, distinguish full
+coverage from resolved findings and use recorded decisions rather than
+discarding prior evidence.
+
+## 8. Separate Roles
+
+The same person or system may perform multiple roles, but each pass has
+distinct permissions and outputs. A translator must not treat their own draft
+as independently reviewed.
 
 ### Translator
 
-The translator drafts Korean text in `work/zh_cn/` using the target order above.
-The translator may edit only the scoped `Texto` cells in working CSVs.
-
-The translator must:
-
-- work on an explicitly assigned resource, ID range, or review batch;
-- follow the official Korean manual's established terminology;
-- use English as the semantic anchor, Japanese especially for register and
-  character voice, and Chinese as an additional supporting reference;
-- for `_base` entries whose English source begins with capitalized `The`,
-  assess it as a possible item/quest title or proper name rather than treating
-  it as only a definite article. Translate the name naturally in Korean and
-  consider `Korean (English)` for traceability; confirm the context instead of
-  assuming every such entry is a proper noun;
-- preserve row keys, variant structure, tokens, tags, and formatting;
-- flag uncertain context, missing variants, or conflicting references for
-  review instead of guessing silently.
-
-The translator must not edit `src/`, sidecars, generated localization
-binaries, or PAK files during the drafting pass.
+Drafts assigned units, follows source and glossary rules, preserves format,
+and records uncertainty. Does not approve their own work as an independent
+review.
 
 ### Reviewer
 
-After all three resource drafts are complete, the reviewer performs one
-consolidated read-only assessment of the working CSVs against the English
-source, Japanese and Chinese references, the Korean manual, and the project
-glossary/decisions recorded in documentation. Do not create a separate
-linguistic review cycle after every small translation range.
+Performs a read-only, source-grounded assessment of assigned units and linked
+groups. Records the exact keys, evidence, proposed correction, rationale,
+confidence, and disposition. Does not edit the source or target files.
 
-The reviewer checks:
+### Adjudicator
 
-- meaning, omissions, additions, tone, and Korean readability;
-- reuse of official Korean terminology and consistency across related rows;
-- correct handling of `ID_Linha` and every `Tipo_Variante`;
-- game variables, markup, line breaks, UI length, and potential truncation;
-- whether the ja/zh reference actually supports the proposed interpretation.
-
-The reviewer must not edit CSVs, source references, sidecars, or generated
-files. Consolidated findings belong in `work/zh_cn/audit/` and identify the
-resource type, `ID_Linha`, `Tipo_Variante` (if present), current Korean,
-suggested Korean, English source, supporting references, rationale,
-confidence, and disposition. Use `accepted`, `uncertain`, or `not an issue`;
-an uncertain item remains open.
+Resolves disagreements against the declared evidence hierarchy. Accepts only
+supported corrections; leaves insufficiently supported cases unresolved.
+Records decisions and scope before edits are applied.
 
 ### Editor
 
-The editor applies accepted findings only. The review report defines the
-approved scope.
-
-The editor must:
-
-- change only approved `Texto` cells;
-- preserve all unlisted rows and structural fields;
-- avoid global replacement or glossary-wide normalization unless every
-  affected row is explicitly approved;
-- inspect the CSV diff immediately and stop if it exceeds the approved scope.
-
-If the proposed correction requires changing an ID, variant code, row count, or
-resource structure, stop and request a separate structural decision. Do not
-smuggle structural changes into a translation edit.
+Applies only accepted, scoped changes using the project's approved editing
+method. Address records by stable key and variant where applicable, verify the
+expected current text, and stop on missing, ambiguous, or stale targets.
+Change only approved text fields; preserve keys, variants, record count, order,
+and format. Do not broaden the change, reserialize structured files when that
+could alter unrelated data, or perform unreviewed global replacements.
 
 ### Verifier
 
-The verifier independently checks the editor's diff against the accepted
-review report and the reference CSVs.
+Independently checks the editor's diff against approved decisions, source
+meaning, glossary, affected duplicate/context groups, and format invariants.
 
-Required checks:
+### Builder or Integrator
 
-- no unapproved text rows changed;
-- each destination file has the expected selected-locale key set and
-  multiplicity (`(ID_Linha, Tipo_Variante)` where the CSV has variants);
-- no IDs or variants were lost, duplicated, reordered, or silently added;
-- variables, tags, encoding, delimiter, and multiline CSV records remain valid;
-- terminology and meaning match the Korean manual and English meaning, with
-  ja/zh used as supporting evidence;
-- no-edit round-trip and structural checks pass before edited files are
-  repacked;
-- in-game checks cover representative UI, dialogue, item names, and variant
-  cases before a release build is approved.
+Uses verified inputs for conversion, packaging, or integration. Does not make
+translation edits and runs only the checks authorized by the project.
+
+## 9. Validate and Close Work
+
+Scale validation to the change while preserving independent gates:
+
+- **Translation quality:** planned review dimensions have recorded coverage;
+  exceptions and unresolved items are visible.
+- **Consistency:** changed glossary terms, duplicate-source groups, and
+  context-linked units have been checked for impact.
+- **Structure:** keys, variants, counts, order, encoding, tokens, markup, and
+  line breaks satisfy the project's format profile.
+- **Integration:** conversion, runtime, display, or release checks are run
+  when required and authorized; report exactly what was and was not tested.
 
 Passing structural checks does not establish translation quality. Passing
-linguistic review does not establish binary or in-game correctness.
+linguistic review does not establish runtime compatibility.
 
-### Builder
+For each completed batch, report its exact scope and snapshot, decisions and
+edits, checks performed, unresolved items, and any work explicitly left out.
+Do not claim exhaustive discovery, complete context, or release readiness
+without evidence for that claim.
 
-The builder handles only verified source. It runs the matching resource
-repackers and, when explicitly requested, the game's PAK builder. It must not
-make translation edits. Build output is separate from source and work CSVs
-until verified.
+## Workflow Summary
 
-## Workflow
-
-1. Record the full `base`, `affix`, and `default` scope and confirm `src/` is
-   unchanged.
-2. Keep the Japanese-derived draft keys and variants during linguistic
-   translation; destination-locale compatibility is a later build gate.
-3. Translate all clear entries across the three work CSVs, changing only
-   `Texto`. Record ambiguities in `work/zh_cn/audit/` and
-   continue with other entries.
-4. Once all three drafts are complete, perform one consolidated read-only
-   linguistic review and add its findings under `work/zh_cn/audit/`.
-5. Review the accumulated audit items together; only accepted findings
-   authorize a separate editor pass.
-6. Editor applies only the accepted corrections and inspects the diff.
-7. Verifier checks semantic quality, CSV structure, tokens, and encoding.
-8. Validate the selected `zh_cn` slot's locale selection, font behavior, and
-   compatibility with its actual resources before repacking.
-9. Builder repacks only verified resources and only when explicitly requested.
-10. Report changed resource files, coverage, checks run, and unresolved items.
-
-## Stop Conditions
-
-Pause an uncertain entry and record it in the ambiguity audit when:
-
-- the target locale slot or approved scope is unclear;
-- English and supporting references conflict and context does not resolve it;
-- confidence is too low to distinguish a translation defect from a source-data
-  or game-context issue.
-
-Stop all affected resource edits when:
-
-- an edit would alter IDs, `Tipo_Variante`, multiplicity, ordering, or sidecars;
-- a tool changes rows outside the translation scope or its output is
-  unexplained;
-- round-trip, structural, or in-game validation fails;
-- the work CSV's structure is unexpectedly changed during drafting.
-
-Keep unresolved findings in the audit documents for the later consolidated
-review. Do not silently change the source structure or broaden the edit to
-make checks pass.
+1. Establish the project profile, evidence hierarchy, scope, and invariants.
+2. Inventory and classify units; add only useful, evidence-backed groupings.
+3. Map repeated source strings, initialize the glossary, and open the decision
+   register.
+4. Freeze inputs and translate in bounded units, reviewing all relevant
+   quality dimensions as part of the planned workflow.
+5. Adjudicate findings, apply accepted changes, and verify the scoped diff.
+6. Revalidate affected units and linked groups after changes; expand to a full
+   pass only when a documented trigger requires it.
+7. Report coverage, validation, unresolved issues, and the exact snapshot.

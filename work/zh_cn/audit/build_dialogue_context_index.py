@@ -13,9 +13,10 @@ ROOT = Path(__file__).resolve().parents[3]
 KEYS_PATH = ROOT / "src/csv/en_us/estrutura_hashes_flat.bin"
 DEFAULT_PATH = ROOT / "work/zh_cn/locatexts_zh_cn.koalocatext_default.csv"
 ASSET_DIR = ROOT / "references/data/unpacked"
-OUTPUT_PATH = ROOT / "work/zh_cn/audit/default-quest-asset-index.tsv"
-CATALOG_PATH = ROOT / "work/zh_cn/audit/dialogue-context-asset-catalog.tsv"
-ID_CATALOG_PATH = ROOT / "work/zh_cn/audit/dialogue-context-id-catalog.tsv"
+REFERENCE_CLASSIFICATION = ROOT / "work/zh_cn/translation-reference/classification"
+OUTPUT_PATH = REFERENCE_CLASSIFICATION / "default-quest-asset-index.tsv"
+CATALOG_PATH = REFERENCE_CLASSIFICATION / "dialogue-context-asset-catalog.tsv"
+ID_CATALOG_PATH = REFERENCE_CLASSIFICATION / "dialogue-context-id-catalog.tsv"
 REVIEW_PATH = ROOT / "work/zh_cn/audit/dialogue-context-review-ledger.tsv"
 LANGUAGE_PATHS = {
     "en": ROOT / "src/csv/en_us/locatexts_en_us.koalocatext_default.csv",

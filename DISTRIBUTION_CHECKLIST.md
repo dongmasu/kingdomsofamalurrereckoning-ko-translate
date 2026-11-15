@@ -8,6 +8,26 @@ tag as the unique machine identifier; do not add the release time or locale
 to the display title. When correcting older titles, preserve their tags,
 assets, and release notes.
 
+## Latest Release: 2026-11-15
+
+- Official tag: `KingdomsOfAmalur_Korean_zh_cn_20261115134051`.
+- GitHub Release title: `Korean Patch - 2026-11-15`.
+- ZIP: `dist/20261115134051/KingdomsOfAmalur_Korean_zh_cn_20261115134051.zip`.
+- ZIP size: 5,545,543 bytes.
+- ZIP SHA-256: `a43ae64e2b555f4634b12f8d5afad8d6593fb85776c6d2266c635fed08404ac7`.
+- This package supersedes the 2026-11-10 release. The ZIP is a GitHub
+  Release asset, not a Git-tracked file.
+- Since the previous release, selected dialogue, quest, UI, and item text was
+  revalidated by context and source; supported corrections were applied while
+  evidence-limited cases remained held. Reusable translation guidance,
+  glossary, duplicate-source, classification, and exception references were
+  also organized separately from dated audit evidence.
+- `bash tools/build.sh` passed installer tests, structure and immutable-sidecar
+  checks, binary round trips for `affix` (3,451 rows), `base` (4,844 rows),
+  and `default` (65,135 rows), and ZIP integrity validation.
+- This was a package/build validation, not a new Windows installation or
+  in-game test. The supported source-game baseline remains `cs:15032`.
+
 Release snapshot as of 2026-10-20: the official ZIP includes accepted
 translation edits through D-21931 under tag
 `KingdomsOfAmalur_Korean_zh_cn_20261020142027`. Build, round-trip, installer
@@ -51,8 +71,8 @@ The official ZIP omits the characterset and common font list and contains:
 - `RunKoreanPatch.bat`, `KoreanPatch.ps1`, bilingual `README.txt`, and
   `SHA256SUMS.txt`.
 
-The released ZIP is
-`dist/20261019233647/KingdomsOfAmalur_Korean_zh_cn_20261019233647.zip`. It
+The latest released ZIP is
+`dist/20261115134051/KingdomsOfAmalur_Korean_zh_cn_20261115134051.zip`. It
 contains 32 payload files (three localization binaries and 29 Noto font
 resources), with no common font list or characterset. Generated `dist/`
 packages are ignored by Git and are attached to GitHub Releases instead of
@@ -108,9 +128,9 @@ matched against a depot manifest; the in-game test was a brief smoke test.
   English resources. The release binaries are generated from `work/zh_cn/`;
   `src/` remains immutable.
 
-- The 2026-10-19 snapshot supersedes the 2026-10-17 package with accepted
-  translation edits through D-21851. Subsequent accepted edits require a new
-  build and validation before another release; do not silently reuse this ZIP.
+- The 2026-11-15 snapshot supersedes the 2026-11-10 package. Subsequent
+  accepted translation edits require a new build and validation before another
+  release; do not silently reuse this ZIP.
 
 ## Build Record and Optional Validation
 

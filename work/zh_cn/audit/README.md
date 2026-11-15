@@ -1,5 +1,14 @@
 # Audit Materials
 
+## Reusable Translation References
+
+Canonical translation references now live in
+[`../translation-reference/README.md`](../translation-reference/README.md):
+classification catalogs, the glossary and occurrence index, repeated-source
+groups, and current exceptions. Legacy paths in this directory are
+compatibility links; dated findings, review ledgers, edit manifests, and
+scripts remain audit materials.
+
 ## Latest Release Snapshot (2026-11-10)
 
 `release-20261110.md` records the verified package, checksum, selected
