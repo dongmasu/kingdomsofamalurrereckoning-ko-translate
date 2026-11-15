@@ -39,6 +39,27 @@ Record a concise project profile before translating:
 Do not invent missing project settings. Record unknowns and resolve material
 scope or authority questions before relying on them.
 
+### Maintain the Project Translation References
+
+Use the canonical translation-reference location named by the project
+instructions as the shared, current working reference for every translation
+and review pass. Keep it up to date as work proceeds; do not defer reference
+maintenance until the end of translation or review.
+
+Update the relevant records when evidence or decisions change: content
+grouping and context links, repeated-source occurrences, glossary entries,
+terminology, and approved exceptions or unresolved decisions. Apply a
+reference decision and its approved translation edit together in the same
+work unit when possible, so later passes do not rely on stale guidance.
+Preserve scope, status, evidence, and supersession links; do not turn a
+key-specific decision into a global rule.
+
+Use only the reference categories that help the project. Rebuild generated
+indexes with their documented generators and verify them against their
+inputs. Keep dated review findings, batch reports, and chronological edit
+history in the project's audit location, linking them from the maintained
+reference when they justify a current decision.
+
 ## 2. Inventory and Group the Content
 
 Build a complete inventory of source and target units using stable IDs or
@@ -231,8 +252,9 @@ without evidence for that claim.
 
 1. Establish the project profile, evidence hierarchy, scope, and invariants.
 2. Inventory and classify units; add only useful, evidence-backed groupings.
-3. Map repeated source strings, initialize the glossary, and open the decision
-   register.
+3. Locate the canonical translation references; map repeated source strings,
+   initialize the glossary and decision register, and maintain the relevant
+   references as work proceeds.
 4. Freeze inputs and translate in bounded units, reviewing all relevant
    quality dimensions as part of the planned workflow.
 5. Adjudicate findings, apply accepted changes, and verify the scoped diff.

@@ -6,6 +6,13 @@ workflow in the repository's `TRANSLATION-ROLE.md`; adapt these datasets to
 the game and language sources rather than assuming this project's groupings
 apply elsewhere.
 
+Maintain this directory as the current shared reference throughout
+translation, review, and approved edits. Update relevant classifications,
+duplicate-source groups, glossary entries, and exceptions when new evidence
+or decisions arise or supersede earlier ones; do not wait until a full pass is
+finished. Preserve each decision's scope, status, and evidence links. Not
+every project needs every category.
+
 - `classification/` maps localization IDs to evidence-backed game assets.
 - `duplicates/` maps exact repeated English `default` text to every current
   multilingual occurrence; identical source text does not require identical
@@ -19,4 +26,6 @@ apply elsewhere.
 Generated indexes must be reproducible from their documented inputs. Review
 ledgers, dated reports, candidate decisions, and edit manifests remain in
 `work/zh_cn/audit/`; do not treat those audit records as translation rules
-unless a current decision explicitly adopts them.
+unless a current decision explicitly adopts them. When a dated audit finding
+supports a current reference decision, link the evidence here while keeping
+the full chronological record in `audit/`.
