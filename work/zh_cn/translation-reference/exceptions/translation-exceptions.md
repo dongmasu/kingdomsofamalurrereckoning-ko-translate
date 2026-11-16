@@ -8,6 +8,23 @@ working, or unresolved; do not promote a scoped example into a global rule.
 
 ## Key-Scoped Dialogue Wording
 
+**`default:24636` rare item and old ways:** Use `이 마지막 희귀품을 챙기고
+푹 쉬어. 옛 방식도 마땅히 존중받았어.` The English anchors the item and due
+respect; Japanese `休むといいわ` says to rest, and `古いやり方は…扱われた`
+keeps the old ways as the passive subject of respect. This supersedes the
+interim D-21883 wording and the older D-8023 keep-current disposition only
+for this key. See the
+[edit record](../../audit/translation-edit-default-24636-20261116.md).
+
+## Key-Scoped Item-Label Consistency
+
+For the four exact labels `The Valley Handwraps`, `The Valley Shoes`,
+`The Valley Robes`, and `The Valley Cowl` at `base:524:11`, `1154:11`,
+`3358:11`, and `3447:11`, respectively, use the shared Korean modifier
+`계곡의`. This corrects the missing particle at `base:1154:11` only; it does
+not establish that these items form a named equipment set. See the
+[edit record](../../audit/translation-edit-base-1154-20261116.md).
+
 **`Locksmithing` labels (`default:59325`, `62108`, `63755`):** Keep
 `자물쇠 따기` for these three game-context labels. Japanese `開錠術` and the
 game's separate `Lockpicking` labels (`開錠` / `开锁`) support the

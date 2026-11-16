@@ -44505,3 +44505,39 @@ independent verifier passed. Three existing occurrence-index context
 snapshots were updated; statuses and evidence remain unchanged. See
 `named-scope-review-D21881-20261020.md` and
 `proper-name-edits-D21881.tsv`. No full residual or format audit was run.
+
+## D-21883: Due Reverence at `default:24636`
+
+Replace the continuing-state wording `옛 방식도 마땅한 존중을 받아 왔어`
+with `옛 방식에도 마땅한 예우를 다했어`. English describes due reverence
+having been rendered; Japanese, Chinese, French, German, Italian, and Russian
+support the respect-for-old-traditions reading, while Spanish diverges toward
+rewarding the player's labor. The revised line is
+`이 마지막 희귀품만 챙기고 마음을 놓아. 옛 방식에도 마땅한 예우를 다했어.`
+This supersedes only the `default:24636` keep-current disposition D-8023;
+the historical entry remains unchanged. See
+[`translation-edit-default-24636-20261116.md`](../../audit/translation-edit-default-24636-20261116.md).
+
+## D-21885: `The Valley` Item-Label Consistency
+
+Correct `base:1154:11` from `계곡 신발 (The Valley Shoes)` to
+`계곡의 신발 (The Valley Shoes)`. The other three exact English labels with
+the same `The Valley` modifier—`base:524:11` Handwraps, `base:3358:11`
+Robes, and `base:3447:11` Cowl—already use `계곡의`. Japanese
+`ザ・バレーのシューズ` corroborates the possessive modifier. This is a
+wording consistency correction only and does not assert a shared equipment
+set. See
+[`translation-edit-base-1154-20261116.md`](../../audit/translation-edit-base-1154-20261116.md).
+
+## D-21884: Japanese-Checked Correction at `default:24636`
+
+Use `이 마지막 희귀품을 챙기고 푹 쉬어. 옛 방식도 마땅히 존중받았어.`
+The user's Japanese-source follow-up showed that D-21883's `예우를 다했어`
+changed the source passive into an unsupported active action, while
+`마음을 놓아` missed the direct suggestion to rest in `休むといいわ`.
+The final wording retains English `rare item` and due reverence, follows
+Japanese `古いやり方は敬意を持って扱われた` for the passive respect
+construction, and removes the unsupported `만`. This supersedes D-21883's
+interim wording and D-8023's older keep-current disposition only for this
+key; both historical entries remain unchanged. See
+[`translation-edit-default-24636-20261116.md`](../../audit/translation-edit-default-24636-20261116.md).
