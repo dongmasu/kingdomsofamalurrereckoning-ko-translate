@@ -24,27 +24,27 @@ assets, and release notes.
   wording. Review every match and confirm the public note contains no
   unperformed-test disclaimer.
 
-## Latest Release: 2026-11-15
+## Latest Release: 2026-11-27
 
-- Official tag: `KingdomsOfAmalur_Korean_zh_cn_20261115225143`.
-- GitHub Release title: `Korean Patch - 2026-11-15`.
-- ZIP: `dist/20261115225143/KingdomsOfAmalur_Korean_zh_cn_20261115225143.zip`.
-- ZIP size: 5,545,519 bytes.
-- ZIP SHA-256: `836e0ef4168216637f3bd0099d8a73c69cc44d7d3b3515b35013333ee0dff14f`.
-- This package supersedes the earlier 2026-11-15 package tagged
-  `KingdomsOfAmalur_Korean_zh_cn_20261115134051`. The ZIP is a GitHub
+- Official tag: `KingdomsOfAmalur_Korean_zh_cn_20261127234257`.
+- GitHub Release title: `Korean Patch - 2026-11-27`.
+- ZIP: `dist/20261127234257/KingdomsOfAmalur_Korean_zh_cn_20261127234257.zip`.
+- ZIP size: 5,545,768 bytes.
+- ZIP SHA-256: `7e701a54a94663323e35a5cd0dfe408f67a71ed4c56f345cfb8c98fcd9e0eb84`.
+- This official package supersedes the 2026-11-15 release tagged
+  `KingdomsOfAmalur_Korean_zh_cn_20261115225143`. The ZIP is a GitHub
   Release asset, not a Git-tracked file.
-- Since the earlier package, selected dialogue, quest, UI, item, and credits
-  text was revalidated against context and source; supported corrections were
-  applied while evidence-limited cases remained held. Reusable translation
-  guidance and reference materials were updated, and Lua extraction was
-  documented as optional rather than a translation requirement.
-- `bash tools/build.sh` passed installer tests, structure and immutable-sidecar
-  checks, binary round trips for `affix` (3,451 rows), `base` (4,844 rows),
-  and `default` (65,135 rows), and ZIP integrity validation.
-- The 153 tool tests and 50 audit tests also passed.
-- This was a package/build validation, not a new Windows installation or
-  in-game test. The supported source-game baseline remains `cs:15032`.
+- Since the previous release, selected dialogue and quest text was corrected
+  for meaning, naturalness, and register. Fateweaving/reset labels, elemental
+  terms, refugee wording, character-name forms, and English parenthetical
+  annotations were made consistent where the source context supports it.
+- `bash tools/build.sh` passed 13 installer tests, structure and immutable
+  sidecar checks, binary round trips for `affix` (3,451 rows), `base` (4,844
+  rows), and `default` (65,135 rows), and ZIP integrity validation.
+- All 156 tool tests and 50 audit tests passed. The full review-ledger
+  fingerprint check and all 48,495 proper-name occurrence snapshots matched
+  the active translations. The supported source-game baseline remains
+  `cs:15032`.
 
 Release snapshot as of 2026-10-20: the official ZIP includes accepted
 translation edits through D-21931 under tag
@@ -90,8 +90,10 @@ The official ZIP omits the characterset and common font list and contains:
   `SHA256SUMS.txt`.
 
 The latest released ZIP is
-`dist/20261115225143/KingdomsOfAmalur_Korean_zh_cn_20261115225143.zip`. It
-contains 32 payload files (three localization binaries and 29 Noto font
+`dist/20261127234257/KingdomsOfAmalur_Korean_zh_cn_20261127234257.zip`. Its
+SHA-256 is
+`7e701a54a94663323e35a5cd0dfe408f67a71ed4c56f345cfb8c98fcd9e0eb84`.
+It contains 32 payload files (three localization binaries and 29 Noto font
 resources), with no common font list or characterset. Generated `dist/`
 packages are ignored by Git and are attached to GitHub Releases instead of
 being committed to the source repository. Its ASCII-only English Windows script
@@ -146,10 +148,9 @@ matched against a depot manifest; the in-game test was a brief smoke test.
   English resources. The release binaries are generated from `work/zh_cn/`;
   `src/` remains immutable.
 
-- The 2026-11-15 22:51 JST snapshot supersedes the earlier 13:40 JST package
-  from the same date. Subsequent
-  accepted translation edits require a new build and validation before another
-  release; do not silently reuse this ZIP.
+- The 2026-11-27 23:42 JST package supersedes the 2026-11-15 22:51 JST
+  snapshot. Subsequent accepted translation edits require a new build and
+  validation before another release; do not silently reuse this ZIP.
 
 ## Build Record and Optional Validation
 

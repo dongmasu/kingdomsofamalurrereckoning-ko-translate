@@ -6,6 +6,42 @@ accepted sentence edit. Full evidence and routine edit history remain in
 `work/zh_cn/audit/`. Entries below state whether a decision is confirmed,
 working, or unresolved; do not promote a scoped example into a global rule.
 
+## Refugee Terminology
+
+For people explicitly called `refugee(s)` in the English source, use `난민`
+consistently in Korean, including compounds such as `난민 야영지` and
+`난민 무리`. In the reviewed set (`default` IDs `3276`, `3533`, `4590`,
+`4854`, `4944`, `5464`, `9279`, `23519`, `23614`, `24062`, `27184`,
+`27316`, `27908`, `29167`, `33083`, `38470`, `45319`, `45434`, `49074`,
+`52767`, `52905`, `53959`, `57605`, `62122`, and `62307`), replace the
+variant forms `피란민` and `피난민` with `난민`. The aligned English and
+Chinese use `refugee(s)` and `难民`; Japanese uses `難民` or, at a few keys,
+`避難民`, without a supported distinction in the people being described.
+
+`피란민` and `피난민` are both correct Korean words, but their nuance differs:
+`피란` specifically concerns fleeing war or disorder, while `피난` concerns
+avoiding disaster or danger more broadly. Preserve that distinction when a
+source explicitly makes it material; this decision only standardizes the
+reviewed `refugee(s)` occurrences. See the
+[cross-language review](../../audit/refugee-term-consistency-20261127.md)
+and the [National Institute of Korean Language guidance](https://korean.go.kr/front/mcfaq/mcfaqView.do?mcfaq_seq=9144&mn_id=216&pageIndex=1).
+
+## Element Names in Explicit Triads
+
+When a sentence names the same three elemental forces as `Fire`, `Ice` or
+`Frost`, and `Lightning`, use `불`, `얼음`, and `번개`, respectively,
+regardless of source word order. This applies to the reviewed element-list
+contexts at `default:3797`, `4336`, `34908`, `42280`, `42825`, `51469`,
+`51550`, `55176`, and `59011`. In particular, render `Frost` as `얼음` when
+it names this same elemental force. At `51550`, the same sentence appears
+after an active-state label, so its source row is not an exact duplicate of
+`3797`; it already uses the approved element names.
+
+Keep the separate combat damage labels at `default:64998` as
+`화염(Fire)`, `냉기(Ice)`, and `번개(Lightning)`. Do not apply this
+element-name rule to damage-type terminology or named abilities. See the
+[cross-language review](../../audit/element-terminology-consistency-20261127.md).
+
 ## Key-Scoped Dialogue Wording
 
 **`default:24636` rare item and old ways:** Use `이 마지막 희귀품을 챙기고
@@ -86,12 +122,16 @@ term `Destiny`, including its type and tier labels, uses `숙명`. For
 `affix:304` (`of Destiny`), use `*숙명*` in all six active variants and
 preserve the asterisk delimiters.
 
+In the Fateweaver interface, `Unbind Destiny` and the `Destiny Unbound`
+usage counter name the same character-reset feature. Use `숙명 해방` for
+both, at `default:17426`, `34900`, and `54781`.
+
 Use `운명` for the gameplay concept `Fate`, but do not force it onto every
 ordinary English use of `fate`: translate by sense, such as `운세` for
 `fate-reading` or `행방` for learning what happened to someone. Keep
 established compounds distinct rather than normalizing them to `숙명`:
 `Fateweaver` is `페이트위버`, `Fateless One` is `운명 없는 자`, and the
-named practice `Fateweaving` is `운명 엮기(Fateweaving)`. Other established
+named practice `Fateweaving` is `운명 점술(Fateweaving)`. Other established
 names such as `Twists of Fate`, `Essence of Fate`, and `Tapestry of Fate`
 retain their own glossary forms. This decision supersedes only the Korean
 terminology in D-21512 (`Codex of Destiny`) and D-21736 (`Destiny Stone`);
@@ -440,7 +480,7 @@ and [2026-10-26 bonus-fragment review](../../audit/translation-edit-addendum-202
 | `Health` / `vitality` | Render the numeric `Health` attribute as `체력`; lowercase `vitality` may mean general life/healthiness and is `활력`. `default:20690` uses `체력`, while `default:39166` was explicitly retained as `활력`; do not collapse the terms. | [Health terminology](../../audit/translation-edit-addendum-20261106.md#health-terminology-and-cora-banick-dialogue). |
 | `base:891:11` (`Lorestone`) | Use `로어스톤` for this generic collectible/category label, following D-133. D-21766's `not-an-issue` disposition covered entity registration and deferred lexical consistency; this entry does not register an entity or settle every `Lorestone` occurrence. | [Decision register](../../audit/decision-register-20261009.md); [D-21766 dispositions](../../audit/proper-name-short-label-dispositions-D21766.tsv); [application review](../../audit/lua-corpus-translation-application-20261115.md). |
 | Health/Mana absorption | Use `생명력 흡수 공격`, `마나 흡수 공격`, and flat `적중당 생명력/마나 흡수량 +N` for the reviewed effects. Do not add `%` based only on Japanese when English and Chinese give flat values. | [Effect terminology](../../audit/translation-edit-addendum-20261103.md#health-and-mana-absorption-effects). |
-| `Fateweaving` | Use `운명 엮기(Fateweaving)` for the named practice/service, but retain a descriptive translation for `default:40909`, where fate threads are literally weaving around a target. Do not conflate it with the practitioner `Fateweaver`, the `Order of Fateweavers`, generic `운명의 속박`, or the named action `Unbind Destiny` (`숙명의 속박 풀기`). | [Occurrence review](../../audit/translation-edit-addendum-20261103.md#fateweaving-occurrence-review); [term distinctions](../../audit/fateweaver-fateweaving-binding-terms-20261110.md); [Fate/Destiny terminology review](../../audit/fate-destiny-terminology-review-20261116.md). |
+| `Fateweaving` | Use `운명 점술(Fateweaving)` for the named practice/service, whose contexts describe reading fate and predicting outcomes. Retain a descriptive translation for `default:40909`, where fate threads literally weave around a target. Do not conflate it with the practitioner `Fateweaver`, the `Order of Fateweavers`, generic `운명의 속박`, or the reset action `Unbind Destiny` (`숙명 해방`). | [Clarity follow-up](../../audit/fateweaving-and-destiny-reset-clarity-20261127.md); [Occurrence review](../../audit/translation-edit-addendum-20261103.md#fateweaving-occurrence-review); [term distinctions](../../audit/fateweaver-fateweaving-binding-terms-20261110.md); [Fate/Destiny terminology review](../../audit/fate-destiny-terminology-review-20261116.md). |
 | Named `Brother` / `Father` titles | The reviewed forms are `이름 수사(Brother Name)` and `이름 신부(Father Name)`. `default:16993` is the explicit exception `옥티엔 형제(Brother Octienne)`: he is a fellow Templar, not identified as a monk. Bare `Brother`, actual siblings, and unsupported fellowship uses are excluded. | [Title review](../../audit/translation-edit-addendum-20261103.md#brother-and-father-titles). |
 | `Developer Relations` at `default:10426` | Use the industry role label `DevRel`, not the literal `개발자 관계`. This exact-key decision supersedes the earlier unresolved “retain or translate” disposition; it does not establish a translation for other uses of `developer relations`. | [Lua-assisted localization review, November 15](../../audit/lua-script-extraction-and-reencoding-20261115.md#translation-evidence-and-scoped-updates); [Toss Tech usage](https://toss.im/career/article/53401). |
 | `Security Analyst` at `default:18413` | Use `보안 분석가`, following the English meaning and the Japanese row, which retains `Security Analyst`. The Chinese `证券分析师` means a securities analyst and is a conflicting supporting translation; do not generalize this key-specific discrepancy to other uses of `security`. | [Four-language credit-label revalidation, November 15](../../audit/lua-script-extraction-and-reencoding-20261115.md#four-language-revalidation-of-the-16-credit-labels). |
@@ -482,6 +522,7 @@ component name are not interchangeable annotation units.
 | `default:53338` | Use `메로피스(Meropis)의 보물`, without the redundant `(The Treasures of Meropis)`. This user-requested shortening responds to reported quest-list clipping; display after the edit was not verified. Do not strip full-title annotations elsewhere by analogy. | [Meropis title, November 6](../../audit/translation-edit-addendum-20261106.md#meropis-title-at-53338). |
 | `default:57264`, `61973` | D-21818 added `행운의 시녀호(Maid of Fortune)` at `57264`, deliberately omitting `The`, while retaining the already paired `(The Maid of Fortune)` at `61973`. It did not globally unify the ship's Korean spellings or remove articles. | [D-21818, October 18](../../audit/named-scope-review-D21818-20261018.md). |
 | `default:26209`, `39445` | Keep the separate English labels `(Winter's Embrace)` and `(WintersEmbrace)`, even though the Korean is `겨울의 포옹` at both. No shared entity or permission to repair the source spelling was inferred. | [D-21640, October 18](../../audit/named-scope-review-D21640-20261018.md). |
+| `default:15591`, `30234`, `39867` | Pair each source-written short name as `몰리(Molly)`; at `15591`, pair both mentions. Do not add a surname or infer that these short-name references identify the same Molly as another row. | [Molly parenthetical follow-up, November 27](../../audit/molly-parenthetical-followup-20261127.md). |
 
 ### Collective Names, Short Forms, and Distinct Entities
 

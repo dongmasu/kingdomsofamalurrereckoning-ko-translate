@@ -20,11 +20,14 @@ game-context distinction from `Lockpicking`; Chinese `制锁` conflicts and is
 recorded. See the
 [`locksmith term review`](locksmith-term-review-20261116.md).
 
-## Latest Release Snapshot (2026-11-15)
+## Latest Release Snapshot (2026-11-27)
 
-`release-20261115.md` records the verified package, checksum, selected
+`release-20261127.md` records the verified package, checksum, selected
 changes, and validation for tag
-`KingdomsOfAmalur_Korean_zh_cn_20261115225143`.
+`KingdomsOfAmalur_Korean_zh_cn_20261127234257`. Its
+[`public release notes`](release-20261127-public-notes.md) are the published
+GitHub release body. The prior snapshot remains in
+[`release-20261115.md`](release-20261115.md).
 
 ## Current Status (2026-11-13)
 
